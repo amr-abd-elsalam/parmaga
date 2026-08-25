@@ -3,21 +3,13 @@
    ========================================================================== */
 
 :root {
-  /* Applied Theme — Current Dark
-     These tokens preserve the current appearance in Patch A. */
-  --pg-surface-0: #050505;
-  --pg-surface-1: #111111;
-  --pg-surface-2: #171717;
-  --pg-surface-hover: #242424;
-  --pg-border: #333333;
-  --pg-border-strong: #737373;
-  --pg-text-primary: #ffffff;
-  --pg-text-secondary: #e5e5e5;
-  --pg-text-muted: #d6d6d6;
-  --pg-shadow: rgb(0 0 0 / 45%);
+  /* Neutral shadow token — not tied to any theme.
+     Kept deliberately soft: shadows only separate one surface from the one
+     below it. The raw value stays inside :root. */
+  --pg-shadow: rgb(60 40 20 / 18%);
 
-  /* Parmaga Memo Palette — Defined, NOT applied in Patch A.
-     Patch B will apply this palette after approval. */
+  /* Parmaga Memo Palette — the applied theme as of Patch B.
+     This palette is the single source of truth for colour. */
   --pg-wood-700: #7A4E28;
   --pg-wood-500: #96633A;
   --pg-paper: #FDFBF2;
@@ -51,10 +43,12 @@
   --pg-space-9: 32px;
   --pg-space-10: 48px;
 
-  /* Radii. */
+  /* Radii.
+     Patch B: cards, panels and paper surfaces sit square, like ruled paper.
+     Only interactive controls keep a small radius. */
   --pg-radius-control: 10px;
-  --pg-radius-panel: 14px;
-  --pg-radius-media: 16px;
+  --pg-radius-panel: 0;
+  --pg-radius-media: 0;
 
   /* Typography. */
   --pg-font-family-base: Arial, Tahoma, sans-serif;
@@ -72,8 +66,10 @@
 
   /* Borders, focus, sizing, and layout. */
   --pg-border-width: 1px;
+  --pg-border-width-strong: 2px;
   --pg-focus-width: 3px;
   --pg-focus-offset: 3px;
+  --pg-rule-cycle: var(--pg-space-9);
   --pg-touch-target: 44px;
   --pg-content-width: 1200px;
   --pg-error-content-width: 620px;
@@ -84,8 +80,9 @@
   --pg-grid-centers-medium: repeat(2, minmax(0, 1fr));
   --pg-grid-centers-wide: repeat(3, minmax(0, 1fr));
 
-  /* Shadow. */
-  --pg-shadow-advertisement: 0 18px 60px var(--pg-shadow);
+  /* Shadows — restrained, only to lift a surface off the one below it. */
+  --pg-shadow-paper: 0 6px 18px var(--pg-shadow);
+  --pg-shadow-panel: 0 2px 6px var(--pg-shadow);
 
   /* Breakpoints are recorded here but remain literal in @media conditions,
      because standard CSS custom properties cannot be used in media queries. */
@@ -116,8 +113,14 @@ body {
   min-height: var(--pg-viewport-height);
   min-height: var(--pg-small-viewport-height);
   padding: var(--pg-space-4);
-  background: var(--pg-surface-0);
-  color: var(--pg-text-primary);
+  background-color: var(--pg-wood-700);
+  background-image: linear-gradient(
+    160deg,
+    var(--pg-wood-500) 0%,
+    var(--pg-wood-700) 45%,
+    var(--pg-wood-500) 100%
+  );
+  color: var(--pg-slate-600);
   font-family: var(--pg-font-family-base);
   line-height: var(--pg-line-height-body);
 }
@@ -127,6 +130,12 @@ h2,
 h3,
 p {
   margin-top: var(--pg-space-0);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--pg-navy-700);
 }
 
 a {
@@ -152,34 +161,57 @@ a {
 
 .button {
   padding: var(--pg-space-3) var(--pg-space-6);
-  background: var(--pg-text-primary);
-  color: var(--pg-surface-0);
+  border: var(--pg-border-width) solid var(--pg-navy-700);
+  background: var(--pg-navy-700);
+  color: var(--pg-paper);
 }
 
 .action-link,
 .phone-link {
   padding: var(--pg-space-2) var(--pg-space-3);
-  border: var(--pg-border-width) solid var(--pg-border-strong);
-  background: var(--pg-surface-2);
-  color: var(--pg-text-primary);
+  border: var(--pg-border-width) solid var(--pg-navy-700);
+  background: var(--pg-paper-2);
+  color: var(--pg-navy-700);
 }
 
-.button:hover,
-.button:focus-visible {
-  background: var(--pg-text-secondary);
+.button:hover {
+  border-color: var(--pg-navy-900);
+  background: var(--pg-navy-900);
+  color: var(--pg-paper);
 }
 
 .action-link:hover,
-.action-link:focus-visible,
-.phone-link:hover,
-.phone-link:focus-visible {
-  border-color: var(--pg-text-primary);
-  background: var(--pg-surface-hover);
+.phone-link:hover {
+  border-color: var(--pg-navy-900);
+  background: var(--pg-navy-700);
+  color: var(--pg-paper);
 }
 
+/* Active: a clearly visible difference that does not rely on colour alone
+   (inset rule + underline). No motion, no transform, no scale. */
+.button:active,
+.action-link:active,
+.phone-link:active,
+.links a:active {
+  border-color: var(--pg-navy-900);
+  box-shadow: inset 0 0 0 var(--pg-border-width-strong) var(--pg-paper);
+  text-decoration: underline;
+  text-underline-offset: var(--pg-space-1);
+}
+
+.action-link:active,
+.phone-link:active {
+  background: var(--pg-navy-700);
+  color: var(--pg-paper);
+}
+
+/* Two-tone focus indicator: navy outline plus a paper ring in the offset gap,
+   so it stays visible on paper, on wood and on navy surfaces.
+   The UA outline is replaced, never removed. Hover is not a focus substitute. */
 a:focus-visible {
-  outline: var(--pg-focus-width) solid var(--pg-text-primary);
+  outline: var(--pg-focus-width) solid var(--pg-navy-700);
   outline-offset: var(--pg-focus-offset);
+  box-shadow: 0 0 0 var(--pg-focus-offset) var(--pg-paper);
 }
 
 /* ==========================================================================
@@ -188,28 +220,35 @@ a:focus-visible {
 
 /* Home page — index.html */
 
-html:has(.hero) {
-  scroll-behavior: smooth;
-}
-
-main:has(.hero) {
+.page-home main {
   width: min(var(--pg-size-full), var(--pg-content-width));
   margin: auto;
+  padding: var(--pg-space-4);
+  border: var(--pg-border-width) solid var(--pg-red-600);
+  background-color: var(--pg-paper);
+  background-image: repeating-linear-gradient(
+    to bottom,
+    var(--pg-paper) 0,
+    var(--pg-paper) calc(var(--pg-rule-cycle) - var(--pg-border-width)),
+    var(--pg-rule) calc(var(--pg-rule-cycle) - var(--pg-border-width)),
+    var(--pg-rule) var(--pg-rule-cycle)
+  );
+  box-shadow: var(--pg-shadow-paper);
 }
 
-main:has(.hero) h1 {
+.page-home main h1 {
   margin-bottom: var(--pg-space-3);
   font-size: var(--pg-font-size-heading-1);
   line-height: var(--pg-line-height-heading-1);
 }
 
-main:has(.hero) h2 {
+.page-home main h2 {
   margin-bottom: var(--pg-space-7);
   font-size: var(--pg-font-size-heading-2);
   line-height: var(--pg-line-height-heading-2);
 }
 
-main:has(.hero) h3 {
+.page-home main h3 {
   margin-bottom: var(--pg-space-3);
   font-size: var(--pg-font-size-heading-3);
   line-height: var(--pg-line-height-heading-3);
@@ -226,19 +265,27 @@ main:has(.hero) h3 {
 
 .hero-description {
   margin-bottom: var(--pg-space-1);
-  color: var(--pg-text-secondary);
+  color: var(--pg-blue-500);
   font-size: var(--pg-font-size-description);
 }
 
 .hero-value {
   margin-bottom: var(--pg-space-7);
-  color: var(--pg-text-primary);
+  padding: var(--pg-space-3) var(--pg-space-4);
+  border: var(--pg-border-width) solid var(--pg-callout-border);
+  border-inline-start: var(--pg-border-width-strong) solid var(--pg-callout-border);
+  background: var(--pg-callout-bg);
+  color: var(--pg-slate-600);
   font-size: var(--pg-font-size-value);
   font-weight: var(--pg-font-weight-strong);
 }
 
 .advertisement-picture {
   display: block;
+  padding: var(--pg-space-2);
+  border: var(--pg-border-width) solid var(--pg-navy-700);
+  background: var(--pg-paper-2);
+  box-shadow: var(--pg-shadow-panel);
 }
 
 .advertisement {
@@ -248,8 +295,6 @@ main:has(.hero) h3 {
   max-height: calc(var(--pg-small-viewport-height) - var(--pg-space-9));
   margin: auto;
   object-fit: contain;
-  border-radius: var(--pg-radius-media);
-  box-shadow: var(--pg-shadow-advertisement);
 }
 
 .page-section {
@@ -267,14 +312,15 @@ main:has(.hero) h3 {
 
 .center-card {
   padding: var(--pg-space-6);
-  border: var(--pg-border-width) solid var(--pg-border);
+  border: var(--pg-border-width) solid var(--pg-navy-700);
   border-radius: var(--pg-radius-panel);
-  background: var(--pg-surface-1);
+  background: var(--pg-paper-2);
+  box-shadow: var(--pg-shadow-panel);
 }
 
 .center-address {
   margin-bottom: var(--pg-space-4);
-  color: var(--pg-text-muted);
+  color: var(--pg-slate-600);
 }
 
 .center-actions,
@@ -297,12 +343,17 @@ main:has(.hero) h3 {
 
 .contact-panel {
   padding: var(--pg-space-7);
-  border: var(--pg-border-width) solid var(--pg-border);
+  border: var(--pg-border-width) solid var(--pg-navy-700);
   border-radius: var(--pg-radius-panel);
-  background: var(--pg-surface-1);
+  background: var(--pg-paper-2);
+  box-shadow: var(--pg-shadow-panel);
 }
 
 @media (min-width: 800px) {
+  .page-home main {
+    padding: var(--pg-space-7);
+  }
+
   .hero {
     grid-template-columns: var(--pg-grid-hero-wide);
   }
@@ -320,29 +371,37 @@ main:has(.hero) h3 {
 
 /* Error page — 404.html */
 
-body:has(.links) {
+.page-not-found {
   display: grid;
   place-items: center;
   text-align: center;
 }
 
-main:has(.links) {
+.page-not-found main {
   width: min(var(--pg-size-full), var(--pg-error-content-width));
   padding: var(--pg-space-9) var(--pg-space-7);
-  border: var(--pg-border-width) solid var(--pg-border);
+  border: var(--pg-border-width) solid var(--pg-red-600);
   border-radius: var(--pg-radius-media);
-  background: var(--pg-surface-1);
+  background-color: var(--pg-paper);
+  background-image: repeating-linear-gradient(
+    to bottom,
+    var(--pg-paper) 0,
+    var(--pg-paper) calc(var(--pg-rule-cycle) - var(--pg-border-width)),
+    var(--pg-rule) calc(var(--pg-rule-cycle) - var(--pg-border-width)),
+    var(--pg-rule) var(--pg-rule-cycle)
+  );
+  box-shadow: var(--pg-shadow-paper);
 }
 
-main:has(.links) h1 {
+.page-not-found main h1 {
   margin: var(--pg-space-0) var(--pg-space-0) var(--pg-space-3);
   font-size: var(--pg-font-size-heading-1-error);
   line-height: var(--pg-line-height-heading-2);
 }
 
-main:has(.links) p {
+.page-not-found main p {
   margin: var(--pg-space-0) var(--pg-space-0) var(--pg-space-7);
-  color: var(--pg-text-muted);
+  color: var(--pg-slate-600);
 }
 
 .links {
@@ -354,18 +413,56 @@ main:has(.links) p {
 
 .links a {
   padding: var(--pg-space-3) var(--pg-space-5);
-  border: var(--pg-border-width) solid var(--pg-border-strong);
-  background: var(--pg-surface-2);
-  color: var(--pg-text-primary);
+  border: var(--pg-border-width) solid var(--pg-navy-700);
+  background: var(--pg-paper-2);
+  color: var(--pg-navy-700);
 }
 
 .links a:first-child {
-  border-color: var(--pg-text-primary);
-  background: var(--pg-text-primary);
-  color: var(--pg-surface-0);
+  background: var(--pg-navy-700);
+  color: var(--pg-paper);
 }
 
-.links a:hover,
-.links a:focus-visible {
-  border-color: var(--pg-text-primary);
+.links a:hover {
+  border-color: var(--pg-navy-900);
+  background: var(--pg-navy-900);
+  color: var(--pg-paper);
+}
+
+/* ==========================================================================
+   Layer 5 — Print
+   ========================================================================== */
+
+@media print {
+  body {
+    padding: var(--pg-space-0);
+    background-color: var(--pg-paper);
+    background-image: none;
+    color: var(--pg-slate-600);
+  }
+
+  .page-home main,
+  .page-not-found main {
+    width: var(--pg-size-full);
+    border: var(--pg-border-width) solid var(--pg-slate-600);
+    background-color: var(--pg-paper);
+    background-image: none;
+    box-shadow: none;
+  }
+
+  .hero {
+    min-height: auto;
+  }
+
+  .advertisement {
+    max-height: none;
+  }
+
+  .advertisement-picture,
+  .center-card,
+  .contact-panel,
+  .hero-value {
+    background: none;
+    box-shadow: none;
+  }
 }
