@@ -42,7 +42,8 @@ Parmaga منصة تعليمية تستهدف السوق المصري وطلاب 
 └── docs/
     └── decisions/
         ├── ADR-0001-hosting-and-routing.md
-        └── ADR-0002-design-tokens-and-styling-strategy.md
+        ├── ADR-0002-design-tokens-and-styling-strategy.md
+        └── ADR-0003-lessons-architecture.md
 ```
 
 ## التشغيل محليًا
