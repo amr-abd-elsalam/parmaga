@@ -11,7 +11,7 @@ Parmaga منصة تعليمية تستهدف السوق المصري وطلاب 
 ## Tech Stack
 
 - HTML ثابت.
-- CSS ثابت ومضمّن داخل ملفات HTML.
+- ملف CSS خارجي واحد مبني على Design Tokens.
 - صفر Dependencies.
 - صفر Build Step.
 - صفر JavaScript خاص بالمشروع.
@@ -28,6 +28,8 @@ Parmaga منصة تعليمية تستهدف السوق المصري وطلاب 
 ├── README.md
 ├── index.html
 ├── assets/
+│   ├── css/
+│   │   └── parmaga.css
 │   └── images/
 │       ├── amr-abdelsalam-ad-1536.webp
 │       ├── amr-abdelsalam-ad-768.webp
@@ -39,7 +41,8 @@ Parmaga منصة تعليمية تستهدف السوق المصري وطلاب 
 │       └── fav32D.png
 └── docs/
     └── decisions/
-        └── ADR-0001-hosting-and-routing.md
+        ├── ADR-0001-hosting-and-routing.md
+        └── ADR-0002-design-tokens-and-styling-strategy.md
 ```
 
 ## التشغيل محليًا

@@ -1,0 +1,371 @@
+/* ==========================================================================
+   Layer 1 — Tokens
+   ========================================================================== */
+
+:root {
+  /* Applied Theme — Current Dark
+     These tokens preserve the current appearance in Patch A. */
+  --pg-surface-0: #050505;
+  --pg-surface-1: #111111;
+  --pg-surface-2: #171717;
+  --pg-surface-hover: #242424;
+  --pg-border: #333333;
+  --pg-border-strong: #737373;
+  --pg-text-primary: #ffffff;
+  --pg-text-secondary: #e5e5e5;
+  --pg-text-muted: #d6d6d6;
+  --pg-shadow: rgb(0 0 0 / 45%);
+
+  /* Parmaga Memo Palette — Defined, NOT applied in Patch A.
+     Patch B will apply this palette after approval. */
+  --pg-wood-700: #7A4E28;
+  --pg-wood-500: #96633A;
+  --pg-paper: #FDFBF2;
+  --pg-paper-2: #FAF6E9;
+  --pg-rule: #CFE0EA;
+  --pg-navy-700: #1B4C7E;
+  --pg-navy-900: #163C63;
+  --pg-blue-500: #2E6DA4;
+  --pg-slate-600: #3A5A63;
+  --pg-red-600: #C8372C;
+  /* ⚠ 2.3:1 on paper — use only over navy surfaces. */
+  --pg-gold-500: #C9A227;
+  /* ⚠ fails 4.5:1 on paper — decorative only. Use --pg-orange-text for text. */
+  --pg-orange-500: #E07B2A;
+  --pg-orange-text: #A85410;
+  --pg-green-600: #2E7247;
+  --pg-purple-600: #6F4FA0;
+  --pg-callout-bg: #FCF3D6;
+  --pg-callout-border: #E3BF63;
+
+  /* Spacing scale — extracted from the current styles. */
+  --pg-space-0: 0;
+  --pg-space-1: 8px;
+  --pg-space-2: 10px;
+  --pg-space-3: 12px;
+  --pg-space-4: 16px;
+  --pg-space-5: 18px;
+  --pg-space-6: 20px;
+  --pg-space-7: 24px;
+  --pg-space-8: 28px;
+  --pg-space-9: 32px;
+  --pg-space-10: 48px;
+
+  /* Radii. */
+  --pg-radius-control: 10px;
+  --pg-radius-panel: 14px;
+  --pg-radius-media: 16px;
+
+  /* Typography. */
+  --pg-font-family-base: Arial, Tahoma, sans-serif;
+  --pg-font-size-heading-1: clamp(2rem, 8vw, 4rem);
+  --pg-font-size-heading-1-error: clamp(2rem, 8vw, 3rem);
+  --pg-font-size-heading-2: clamp(1.7rem, 6vw, 2.6rem);
+  --pg-font-size-heading-3: 1.25rem;
+  --pg-font-size-description: clamp(1.05rem, 4vw, 1.35rem);
+  --pg-font-size-value: 1.1rem;
+  --pg-font-weight-strong: 700;
+  --pg-line-height-body: 1.7;
+  --pg-line-height-heading-1: 1.2;
+  --pg-line-height-heading-2: 1.3;
+  --pg-line-height-heading-3: 1.4;
+
+  /* Borders, focus, sizing, and layout. */
+  --pg-border-width: 1px;
+  --pg-focus-width: 3px;
+  --pg-focus-offset: 3px;
+  --pg-touch-target: 44px;
+  --pg-content-width: 1200px;
+  --pg-error-content-width: 620px;
+  --pg-size-full: 100%;
+  --pg-viewport-height: 100vh;
+  --pg-small-viewport-height: 100svh;
+  --pg-grid-hero-wide: 1fr 1fr;
+  --pg-grid-centers-medium: repeat(2, minmax(0, 1fr));
+  --pg-grid-centers-wide: repeat(3, minmax(0, 1fr));
+
+  /* Shadow. */
+  --pg-shadow-advertisement: 0 18px 60px var(--pg-shadow);
+
+  /* Breakpoints are recorded here but remain literal in @media conditions,
+     because standard CSS custom properties cannot be used in media queries. */
+  --pg-breakpoint-medium: 800px;
+  --pg-breakpoint-wide: 1100px;
+
+  /* No transition-duration token is defined in Patch A:
+     the current CSS contains no transition value to extract. */
+}
+
+/* ==========================================================================
+   Layer 2 — Base / Reset
+   ========================================================================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: var(--pg-size-full);
+  margin: var(--pg-space-0);
+}
+
+body {
+  min-height: var(--pg-viewport-height);
+  min-height: var(--pg-small-viewport-height);
+  padding: var(--pg-space-4);
+  background: var(--pg-surface-0);
+  color: var(--pg-text-primary);
+  font-family: var(--pg-font-family-base);
+  line-height: var(--pg-line-height-body);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: var(--pg-space-0);
+}
+
+a {
+  color: inherit;
+}
+
+/* ==========================================================================
+   Layer 3 — Components
+   ========================================================================== */
+
+.button,
+.action-link,
+.phone-link,
+.links a {
+  display: inline-flex;
+  min-height: var(--pg-touch-target);
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--pg-radius-control);
+  font-weight: var(--pg-font-weight-strong);
+  text-decoration: none;
+}
+
+.button {
+  padding: var(--pg-space-3) var(--pg-space-6);
+  background: var(--pg-text-primary);
+  color: var(--pg-surface-0);
+}
+
+.action-link,
+.phone-link {
+  padding: var(--pg-space-2) var(--pg-space-3);
+  border: var(--pg-border-width) solid var(--pg-border-strong);
+  background: var(--pg-surface-2);
+  color: var(--pg-text-primary);
+}
+
+.button:hover,
+.button:focus-visible {
+  background: var(--pg-text-secondary);
+}
+
+.action-link:hover,
+.action-link:focus-visible,
+.phone-link:hover,
+.phone-link:focus-visible {
+  border-color: var(--pg-text-primary);
+  background: var(--pg-surface-hover);
+}
+
+a:focus-visible {
+  outline: var(--pg-focus-width) solid var(--pg-text-primary);
+  outline-offset: var(--pg-focus-offset);
+}
+
+/* ==========================================================================
+   Layer 4 — Page Scopes
+   ========================================================================== */
+
+/* Home page — index.html */
+
+html:has(.hero) {
+  scroll-behavior: smooth;
+}
+
+main:has(.hero) {
+  width: min(var(--pg-size-full), var(--pg-content-width));
+  margin: auto;
+}
+
+main:has(.hero) h1 {
+  margin-bottom: var(--pg-space-3);
+  font-size: var(--pg-font-size-heading-1);
+  line-height: var(--pg-line-height-heading-1);
+}
+
+main:has(.hero) h2 {
+  margin-bottom: var(--pg-space-7);
+  font-size: var(--pg-font-size-heading-2);
+  line-height: var(--pg-line-height-heading-2);
+}
+
+main:has(.hero) h3 {
+  margin-bottom: var(--pg-space-3);
+  font-size: var(--pg-font-size-heading-3);
+  line-height: var(--pg-line-height-heading-3);
+}
+
+.hero {
+  display: grid;
+  gap: var(--pg-space-8);
+  align-items: center;
+  min-height: calc(var(--pg-viewport-height) - var(--pg-space-9));
+  min-height: calc(var(--pg-small-viewport-height) - var(--pg-space-9));
+  padding-block: var(--pg-space-9);
+}
+
+.hero-description {
+  margin-bottom: var(--pg-space-1);
+  color: var(--pg-text-secondary);
+  font-size: var(--pg-font-size-description);
+}
+
+.hero-value {
+  margin-bottom: var(--pg-space-7);
+  color: var(--pg-text-primary);
+  font-size: var(--pg-font-size-value);
+  font-weight: var(--pg-font-weight-strong);
+}
+
+.advertisement-picture {
+  display: block;
+}
+
+.advertisement {
+  display: block;
+  width: var(--pg-size-full);
+  height: auto;
+  max-height: calc(var(--pg-small-viewport-height) - var(--pg-space-9));
+  margin: auto;
+  object-fit: contain;
+  border-radius: var(--pg-radius-media);
+  box-shadow: var(--pg-shadow-advertisement);
+}
+
+.page-section {
+  padding-block: var(--pg-space-10);
+}
+
+#centers {
+  scroll-margin-top: var(--pg-space-4);
+}
+
+.centers-grid {
+  display: grid;
+  gap: var(--pg-space-4);
+}
+
+.center-card {
+  padding: var(--pg-space-6);
+  border: var(--pg-border-width) solid var(--pg-border);
+  border-radius: var(--pg-radius-panel);
+  background: var(--pg-surface-1);
+}
+
+.center-address {
+  margin-bottom: var(--pg-space-4);
+  color: var(--pg-text-muted);
+}
+
+.center-actions,
+.phone-list,
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--pg-space-2);
+}
+
+.center-actions {
+  margin-bottom: var(--pg-space-2);
+}
+
+.phone-list {
+  margin: var(--pg-space-0);
+  padding: var(--pg-space-0);
+  list-style: none;
+}
+
+.contact-panel {
+  padding: var(--pg-space-7);
+  border: var(--pg-border-width) solid var(--pg-border);
+  border-radius: var(--pg-radius-panel);
+  background: var(--pg-surface-1);
+}
+
+@media (min-width: 800px) {
+  .hero {
+    grid-template-columns: var(--pg-grid-hero-wide);
+  }
+
+  .centers-grid {
+    grid-template-columns: var(--pg-grid-centers-medium);
+  }
+}
+
+@media (min-width: 1100px) {
+  .centers-grid {
+    grid-template-columns: var(--pg-grid-centers-wide);
+  }
+}
+
+/* Error page — 404.html */
+
+body:has(.links) {
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+main:has(.links) {
+  width: min(var(--pg-size-full), var(--pg-error-content-width));
+  padding: var(--pg-space-9) var(--pg-space-7);
+  border: var(--pg-border-width) solid var(--pg-border);
+  border-radius: var(--pg-radius-media);
+  background: var(--pg-surface-1);
+}
+
+main:has(.links) h1 {
+  margin: var(--pg-space-0) var(--pg-space-0) var(--pg-space-3);
+  font-size: var(--pg-font-size-heading-1-error);
+  line-height: var(--pg-line-height-heading-2);
+}
+
+main:has(.links) p {
+  margin: var(--pg-space-0) var(--pg-space-0) var(--pg-space-7);
+  color: var(--pg-text-muted);
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--pg-space-3);
+  justify-content: center;
+}
+
+.links a {
+  padding: var(--pg-space-3) var(--pg-space-5);
+  border: var(--pg-border-width) solid var(--pg-border-strong);
+  background: var(--pg-surface-2);
+  color: var(--pg-text-primary);
+}
+
+.links a:first-child {
+  border-color: var(--pg-text-primary);
+  background: var(--pg-text-primary);
+  color: var(--pg-surface-0);
+}
+
+.links a:hover,
+.links a:focus-visible {
+  border-color: var(--pg-text-primary);
+}
