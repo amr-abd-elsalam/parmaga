@@ -21,13 +21,31 @@ Repository: /mnt/i/parmaga
 Branch: main
 HEAD at phase approval: fb5e09034b1a852d9cc6e3eaeb0d17fc8efa6cc2
 Expected initial tree state: clean
+HEAD at Phase 0 content commit: acfc10ef51476640cfd3a17d54f7e7d04e9d0d0d
 Current approved phase: Phase 0
-Current phase status: In Progress
+Current phase status: Closed — 2026-08-26
+Next phase: Phase 1 — ADR-0006 (Awaiting Plan Approval)
 ```
 
 حالة الشجرة عند اعتماد المرحلة أُثبتت بالأمر `git status --short --branch`، ومخرجه سطر الفرع وحده دون أي سطر حالة.
 
-حالة الشجرة بعد تطبيق حزمة المرحلة 0 **غير مثبتة في هذا القيد**، ولا تُسجَّل هنا حتى تُنفَّذ أوامر التحقق فعليًا وتُقيَّد نتائجها في §8.
+حالة الشجرة قبل الـstaging أُثبتت بالأمر `git status --short`، ومخرجه ثلاثة مسارات فقط لا رابع لها. أثر الـcommit وأدلة ما بعده مقيَّدة في §8.
+
+SHA الخاص بـcommit الإغلاق لا يُكتب هنا مسبقًا؛ يُقيَّد في §8 بعد تنفيذه فعليًا.
+
+### عرف نهايات الأسطر وأمر الفحص المعتمد
+
+هذا المستودع CRLF بالكامل. قيس بالأمر `grep -c $'\r$'` مقابل `grep -c ""` على خمسة ملفات فكانت النسبة 100% في كلٍّ منها. و`core.autocrlf` و`core.whitespace` غير مضبوطين.
+
+يترتب على ذلك أن `git diff --check` بالإعداد الافتراضي يبلّغ `trailing whitespace` عن **كل** سطر مضاف، لأنه يعدّ CR في نهاية السطر مسافة زائدة. هذا إنذار كاذب بنيوي، لا عيب في المحتوى.
+
+أمر الفحص المعتمد في هذا المستودع، وهو وحده الذي يصلح معيار قبول:
+
+```text
+git -c core.whitespace=cr-at-eol diff --check <base> <head>
+```
+
+لا يجوز علاج هذا الإنذار بتحويل الملفات إلى LF ولا بإضافة `* text=auto`، فذلك ما رفضه `ADR-0005` في بديله التاسع صراحةً.
 
 ---
 
@@ -154,8 +172,8 @@ Current phase status: In Progress
 
 | المرحلة | الحالة | شرط البدء | شرط الإغلاق |
 |---|---|---|---|
-| 0 | In Progress | موافقة المالك موجودة | الملفات الثلاثة تحقق معايير القبول |
-| 1 | Blocked | إغلاق المرحلة 0 واعتماد الانتقال | قبول ADR-0006 |
+| 0 | Closed | موافقة المالك موجودة | تحقق — الملفات الثلاثة ملتزمة في acfc10e |
+| 1 | Awaiting Approval | الانتقال معتمد من المالك؛ خطة المرحلة قيد الاعتماد | قبول ADR-0006 |
 | 2 | Blocked | قبول ADR-0006 واعتماد الانتقال | الأداة والاختبارات وGate A تعمل |
 | 3 | Blocked | إغلاق المرحلة 2 واعتماد الانتقال | نشر الدرس ونجاح PR والتحقق المنشور |
 | 4 | Blocked | نجاح Gate A على PR حقيقي وإغلاق المرحلة 3 | تفعيل Ruleset والتحقق منه |
@@ -182,6 +200,18 @@ Current phase status: In Progress
 | 2026-08-26 | 0 | fb5e090 | clean | AI_ARCHITECT_PROTOCOL.md | 735–756 | `git show HEAD:AI_ARCHITECT_PROTOCOL.md \| awk 'NR>=735 && NR<=756'` | القسم 19 هو خاتمة الملف، فيصلح مرساةً فريدة للإلحاق | Confirmed |
 | 2026-08-26 | 0 | fb5e090 | clean | AI_ARCHITECT_PROTOCOL.md | 80–116 | `git show HEAD:AI_ARCHITECT_PROTOCOL.md \| awk 'NR>=80 && NR<=116'` | القسم 4 يحدد ترتيب القراءة الأولى ولم يكن يذكر دفتر الأدلة | Confirmed |
 | 2026-08-26 | 0 | fb5e090 | clean | ADR-0004 و ADR-0005 | نص كامل | لا أمر — نص ملصق في المحادثة | مسار manifest، وسلسلة الثقة الثلاثية، و22 أصل SVG بنهايات CRLF، وخصوصية parmaga-content | Needs Verification |
+| 2026-08-26 | 0 | fb5e090 | dirty | مستودع parmaga | — | `git status --short` | ثلاثة مسارات فقط: تعديل البروتوكولين وإضافة docs/ai — لا ملف رابع | Confirmed |
+| 2026-08-26 | 0 | acfc10e | clean | مستودع parmaga | — | `git commit -m "الحالية: 0 — إغلاق فقدان السياق"` | 3 files changed, 325 insertions(+), 1 deletion(-) — الحذف الوحيد سطر «ابدأ بمحاولة قراءة:» المستبدل في القسم 4 | Confirmed |
+| 2026-08-26 | 0 | acfc10e | clean | origin/main | — | `git push origin main` | fb5e090..acfc10e main -> main — الدفع نجح دون force | Confirmed |
+| 2026-08-26 | 0 | acfc10e | dirty | خمسة ملفات نصية | عدّ فقط | `grep -c ""` مقابل `grep -c $'\r$'` | المستودع CRLF بنسبة 100%: البروتوكولان 803 و873، والدفتر 236، وREADME 116، وADR-0005 336 | Confirmed |
+| 2026-08-26 | 0 | acfc10e | dirty | إعداد git | — | `git config --get core.autocrlf` و `--get core.whitespace` | كلاهما unset على جهاز العمل | Confirmed |
+| 2026-08-26 | 0 | acfc10e | dirty | فرق fb5e090..acfc10e | — | `git -c core.whitespace=cr-at-eol diff --check fb5e090 acfc10e \| wc -l` | صفر — لا مسافة زائدة حقيقية؛ الـ650 تحذيرًا الافتراضية كلها CR في نهاية السطر | Confirmed |
+| 2026-08-26 | 0 | acfc10e | dirty | فرق fb5e090..acfc10e | — | `git diff --name-only fb5e090 acfc10e` | ثلاثة ملفات فقط لا رابع لها — النطاق محصور | Confirmed |
+| 2026-08-26 | 0 | acfc10e | dirty | البروتوكولان | — | `git grep -c "ARCHITECT_EVIDENCE_LEDGER"` | إحالتان في المعماري وواحدة في التنفيذي | Confirmed |
+| 2026-08-26 | 0 | acfc10e | dirty | docs/decisions و README.md | 57–61، 110–114 | `ls docs/decisions` و `grep -n "ADR-000" README.md` | نمط التسمية `ADR-000N-<slug>.md`، وREADME يفهرس القرارات في موضعين فيلزم تحديثه مع أي ADR جديد | Confirmed |
+| 2026-08-26 | 0 | acfc10e | dirty | ADR-0005 | العناوين | `git show HEAD:docs/decisions/ADR-0005-content-intake-and-asset-custody.md \| grep -n '^## \|^### '` | موضعا الإحلال: السطر 100 مخطط الـmanifest الإصدار 1، والسطر 268 رفض السكريبت الملتزم | Confirmed |
+| 2026-08-26 | 0 | acfc10e | dirty | ../parmaga-content | — | `git -C ../parmaga-content log -1 --format=%H` | 6bd7b72303be65404915c85ef8e2239b6e0a7e4c — اللقطة المعتمدة حيّة ومطابقة، فاستوفي شرط §4 | Confirmed |
+| 2026-08-26 | 0 | acfc10e | dirty | مستودع parmaga | — | `git ls-files \| grep -E '\.(py\|yml\|yaml\|svg)$'` | none — لا أداة ولا workflow ولا أصل، أرضية المرحلة 2 نظيفة | Confirmed |
 
 المدخل الأخير مصدره لصق نصي من مالك المشروع لا أمر `git show`، فيبقى `Needs Verification` حتى يُقرأ من الشجرة بأمر موجّه عند الحاجة إليه في المرحلة 1.
 
@@ -223,14 +253,14 @@ HEAD: <sha> | الفرع: <name> | الشجرة: <clean | dirty + الوصف>
 ```text
 دفتر التسليم
 المرحلة الحالية: 0 — إغلاق فقدان السياق
-الحالة: In Progress
-HEAD: fb5e09034b1a852d9cc6e3eaeb0d17fc8efa6cc2 | الفرع: main | الشجرة: clean عند الاعتماد
+الحالة: Closed — 2026-08-26
+HEAD: acfc10e | الفرع: main | الشجرة: clean
 الملفات المعدلة/المضافة: docs/ai/ARCHITECT_EVIDENCE_LEDGER.md، AI_ARCHITECT_PROTOCOL.md، AI_EXECUTOR_PROTOCOL.md
-الأدلة الجديدة: 14 صفًا في §8
+الأدلة الجديدة: 24 صفًا في §8
 القرارات المعتمدة حرفيًا: §3
-الأسئلة المفتوحة: §9
-الانحرافات: لا يوجد
+الأسئلة المفتوحة: §9 — لم تُحسم
+الانحرافات: التحقق نُفذ بأثر رجعي؛ ومعيار القبول 11 صُحح بعد إثبات عرف CRLF
 المرحلة التالية الوحيدة: 1 — ADR-0006
-شرط بدء المرحلة التالية: إغلاق المرحلة 0 واعتماد الانتقال صراحةً من المالك
-الخطوة التالية الوحيدة: مراجعة حزمة المرحلة 0 واعتماد الانتقال إلى المرحلة 1 — ADR-0006
+شرط بدء المرحلة التالية: اعتماد نطاق المرحلة 1 والإجابة على نقاط قرار المعماري
+الخطوة التالية الوحيدة: اعتماد نطاق المرحلة 1 وإصدار برومبت المنفذ
 ```
