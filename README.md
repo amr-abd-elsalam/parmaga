@@ -20,6 +20,7 @@ Parmaga منصة تعليمية تستهدف السوق المصري وطلاب 
 
 ```text
 .
+├── .gitattributes
 ├── 404.html
 ├── AI_ARCHITECT_PROTOCOL.md
 ├── AI_EXECUTOR_PROTOCOL.md
@@ -40,10 +41,24 @@ Parmaga منصة تعليمية تستهدف السوق المصري وطلاب 
 │       ├── fav32.png
 │       └── fav32D.png
 └── docs/
+    ├── content/
+    │   ├── CONTENT_INTAKE.md
+    │   ├── context/
+    │   │   └── programming-ai-baccalaureate-2/
+    │   │       └── term-1/
+    │   │           └── chapter-01/
+    │   │               └── lesson-01.md
+    │   └── manifests/
+    │       └── programming-ai-baccalaureate-2/
+    │           └── term-1/
+    │               └── chapter-01/
+    │                   └── lesson-01.json
     └── decisions/
         ├── ADR-0001-hosting-and-routing.md
         ├── ADR-0002-design-tokens-and-styling-strategy.md
-        └── ADR-0003-lessons-architecture.md
+        ├── ADR-0003-lessons-architecture.md
+        ├── ADR-0004-identifiers-and-permanent-paths.md
+        └── ADR-0005-content-intake-and-asset-custody.md
 ```
 
 ## التشغيل محليًا
@@ -79,12 +94,14 @@ http://localhost:8000
 
 لا يحتوي المشروع حاليًا على:
 
-- محتوى دروس.
-- ملفات SVG.
+- محتوى دروس منشورًا.
+- ملفات SVG داخل المستودع العام.
 - Lesson Viewer.
 - Routing.
 - اختبارات.
 - CI.
+
+توجد وثائق جرد وتسليم للدرس المرجعي الأول، لكنها لا تنشر الدرس أو أصوله.
 
 ## القرارات المعمارية
 
@@ -93,3 +110,9 @@ http://localhost:8000
 ```text
 docs/decisions/
 ```
+
+- `ADR-0001`: الاستضافة والتوجيه وسلوك صفحة 404.
+- `ADR-0002`: Design Tokens واستراتيجية التنسيق.
+- `ADR-0003`: معمارية نشر الدروس والروابط الدائمة.
+- `ADR-0004`: المعرّفات التقنية والمسارات الدائمة للمحتوى التعليمي.
+- `ADR-0005`: إدخال المحتوى وحراسة الأصول وجرد الدروس.
