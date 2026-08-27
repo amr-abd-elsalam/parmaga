@@ -24,9 +24,10 @@ Expected initial tree state: clean
 HEAD at Phase 0 content commit: acfc10ef51476640cfd3a17d54f7e7d04e9d0d0d
 HEAD at Phase 0 closing commit: e808ec155ced11e08dd21cf1eaf740cbce189416
 HEAD at Phase 1 approval: e808ec155ced11e08dd21cf1eaf740cbce189416
+HEAD at Phase 1 closing commit: f2734b551cecf31c8431bfbcc1d6038e343103ae
 Current approved phase: Phase 1 — ADR-0006
-Current phase status: Closed — 2026-08-27 (حزمة مراجعة؛ لم تُلتزم بعد)
-Next phase: Phase 2 — أداة التحقق وGate A (Awaiting Approval)
+Current phase status: Closed — 2026-08-27 (ملتزمة في f2734b5)
+Next phase: Phase 2 — أداة التحقق وGate A (Approved — Not Started)
 ```
 
 حالة الشجرة عند اعتماد المرحلة أُثبتت بالأمر `git status --short --branch`، ومخرجه سطر الفرع وحده دون أي سطر حالة.
@@ -175,12 +176,12 @@ git -c core.whitespace=cr-at-eol diff --check <base> <head>
 | المرحلة | الحالة | شرط البدء | شرط الإغلاق |
 |---|---|---|---|
 | 0 | Closed | موافقة المالك موجودة | تحقق — الملفات الثلاثة ملتزمة في acfc10e، وcommit الإغلاق e808ec1 |
-| 1 | Closed | الانتقال معتمد من المالك؛ خطة المرحلة معتمدة | تحقق — ADR-0006 صادر بحالة Accepted وفهرسته في README تمت |
-| 2 | Awaiting Approval | قبول ADR-0006 واعتماد الانتقال | الأداة والاختبارات وGate A تعمل |
+| 1 | Closed | الانتقال معتمد من المالك؛ خطة المرحلة معتمدة | تحقق — ADR-0006 صادر بحالة Accepted وملتزم في f2734b5، وفهرسته في README تمت |
+| 2 | Approved — Not Started | قبول ADR-0006 واعتماد الانتقال — مستوفى في 2026-08-27 | الأداة والاختبارات وGate A تعمل |
 | 3 | Blocked | إغلاق المرحلة 2 واعتماد الانتقال | نشر الدرس ونجاح PR والتحقق المنشور |
 | 4 | Blocked | نجاح Gate A على PR حقيقي وإغلاق المرحلة 3 | تفعيل Ruleset والتحقق منه |
 
-إغلاق المرحلة 1 مقيَّد على أساس حزمة المراجعة. HEAD لا يتغير حتى يُنفَّذ commit الإغلاق، ويُقيَّد SHA في §8 بعد تنفيذه فعليًا. واعتماد الانتقال إلى المرحلة 2 قرار مستقل عن إغلاق المرحلة 1.
+أُغلقت المرحلة 1 بـcommit فعلي هو f2734b5، وقُيِّد SHA في §2 و§8. واعتمد مالك المشروع الانتقال إلى المرحلة 2 في 2026-08-27، فاستوفت شرط بدئها. ومع ذلك لم تبدأ المرحلة 2 ولم يُنشأ لها شيء: لا أداة ولا workflow ولا Gate. بدؤها يستلزم برومبت منفّذ مستقلًا يحدد نطاقها وملفاتها المسموحة ومعايير قبولها.
 
 ---
 
@@ -227,8 +228,13 @@ git -c core.whitespace=cr-at-eol diff --check <base> <head>
 | 2026-08-27 | 1 | e808ec1 | clean | docs/decisions/ | — | `ls -1 docs/decisions/` | خمسة قرارات، آخرها ADR-0005؛ مسار ADR-0006-asset-publication-and-verification.md شاغر | Confirmed |
 | 2026-08-27 | 1 | e808ec1 | dirty | حزمة المرحلة 1 | — | `git status --porcelain` و `git -c core.whitespace=cr-at-eol diff --check` | ثلاثة مسارات فقط: ADR-0006 الجديد وREADME.md والدفتر — لا ملف .py أو .yml أو .yaml أو .svg، ولا مسافة زائدة حقيقية | Confirmed |
 | 2026-08-27 | 1 | e808ec1 | dirty | حزمة المرحلة 1 | عدّ فقط | `grep -c ""` مقابل `grep -c $'\r$'` و `grep -n "^### [1-7]\."` | ADR-0006 بـ212 سطرًا CRLF 100%، وحالته Accepted، وبنوده السبعة عند 25 و41 و70 و87 و96 و110 و118؛ وREADME 118/118، والدفتر 282/282 كما قيس قبل تحويل هذا الصف إلى Confirmed | Confirmed |
+| 2026-08-27 | 1 | f2734b5 | clean | مستودع parmaga | — | `git -c core.whitespace=cr-at-eol diff --cached --check` و `git diff --cached --name-only` | لا مسافة زائدة حقيقية، وثلاثة مسارات لا رابع لها قبل الالتزام | Confirmed |
+| 2026-08-27 | 1 | f2734b5 | clean | مستودع parmaga | — | `git commit -m "الحالية: 1 — ADR-0006"` | 3 files changed, 251 insertions(+), 20 deletions(-) — ADR-0006 بوضع create mode 100644، والحذوف كلها أسطر مستبدَلة في §2 و§7 و§8 و§10 | Confirmed |
+| 2026-08-27 | 1 | f2734b5 | clean | مستودع parmaga | — | `git rev-parse HEAD` و `git status --short --branch` | commit إغلاق المرحلة 1 هو f2734b551cecf31c8431bfbcc1d6038e343103ae، والشجرة نظيفة والفرع ahead 1 قبل الدفع | Confirmed |
 
 نُفِّذت أوامر §M من برومبت المرحلة وطابقت مخرجاتها معايير القبول، فحُوِّل صف الحزمة إلى `Confirmed` وأُضيف صف القياس المقابل له.
+
+قاعدة إنهاء التسلسل: SHA إغلاق أي مرحلة يُقيَّد في commit تدوين لاحق، ولا يُقيَّد SHA لـcommit التدوين نفسه، منعًا لتسلسل لا نهائي. commit التدوين ليس مرحلة ولا يفتح واحدة.
 
 مدخل `ADR-0004 و ADR-0005` المؤرَّخ 2026-08-26 مصدره لصق نصي من مالك المشروع لا أمر `git show`، فيبقى `Needs Verification` حتى يُقرأ من الشجرة بأمر موجّه عند الحاجة إليه.
 
@@ -270,14 +276,14 @@ HEAD: <sha> | الفرع: <name> | الشجرة: <clean | dirty + الوصف>
 ```text
 دفتر التسليم
 المرحلة الحالية: 1 — ADR-0006
-الحالة: Closed — 2026-08-27 (حزمة مراجعة؛ HEAD لا يتغير حتى commit الإغلاق)
-HEAD: e808ec1 | الفرع: main | الشجرة: dirty — ثلاثة مسارات فقط
+الحالة: Closed — 2026-08-27 (ملتزمة في f2734b5)
+HEAD: f2734b5 | الفرع: main | الشجرة: clean
 الملفات المعدلة/المضافة: docs/decisions/ADR-0006-asset-publication-and-verification.md، README.md، docs/ai/ARCHITECT_EVIDENCE_LEDGER.md
-الأدلة الجديدة: أحد عشر صفًا في §8، منها صف مُرحَّل بـSHA إغلاق المرحلة 0
+الأدلة الجديدة: أربعة عشر صفًا في §8، منها الصف المُرحَّل بـSHA إغلاق المرحلة 0
 القرارات المعتمدة حرفيًا: §3 — دون إعادة صياغة
 الأسئلة المفتوحة: §9 — سؤال permalink المرحلة 3 لم يُحسم في ADR-0006
-الانحرافات: توضيح صياغة الجملة التالية لجدول §8 لمنع التباسها بالصفوف المضافة
-المرحلة التالية الوحيدة: 2 — أداة التحقق وGate A
-شرط بدء المرحلة التالية: قبول ADR-0006 واعتماد الانتقال من المالك
-الخطوة التالية الوحيدة: مراجعة حزمة المرحلة 1 واعتماد الانتقال إلى المرحلة 2
+الانحرافات: توضيح صياغة جملة ما بعد جدول §8، وتصحيح عدد الصفوف وتقييد قياس 282/282 زمنيًا
+المرحلة التالية الوحيدة: 2 — أداة التحقق وGate A (Approved — Not Started)
+شرط بدء المرحلة التالية: مستوفى — يبقى إصدار برومبت منفّذ المرحلة 2
+الخطوة التالية الوحيدة: دفع main ثم إصدار برومبت منفّذ المرحلة 2
 ```
