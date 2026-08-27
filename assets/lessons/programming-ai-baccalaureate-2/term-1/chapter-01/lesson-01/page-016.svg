@@ -1,0 +1,231 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+
+  <defs>
+    <linearGradient id="woodGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#a9702f"/>
+      <stop offset="50%"  stop-color="#8f5a24"/>
+      <stop offset="100%" stop-color="#79491c"/>
+    </linearGradient>
+    <linearGradient id="paperGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#fffefa"/>
+      <stop offset="100%" stop-color="#fbf7ec"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 1. الخلفية الخشبية البسيطة -->
+  <rect x="0" y="0" width="1080" height="1350" fill="url(#woodGrad)"/>
+  <path d="M0 250 C 300 210, 780 300, 1080 240" stroke="#5f3714" stroke-width="14" fill="none" opacity=".13"/>
+  <path d="M0 1080 C 320 1130, 760 1030, 1080 1090" stroke="#5f3714" stroke-width="12" fill="none" opacity=".11"/>
+
+  <!-- 2. الورقة -->
+  <rect x="42" y="34" width="1012" height="1302" fill="#3a2109" opacity=".18"/>
+  <rect x="34" y="24" width="1012" height="1302" fill="url(#paperGrad)"/>
+
+  <!-- 3. سطور الكراسة الزرقاء الباهتة -->
+  <g stroke="#d5e4f4" stroke-width="1.2">
+    <line x1="82" y1="152"  x2="998" y2="152"/>
+    <line x1="82" y1="190"  x2="998" y2="190"/>
+    <line x1="82" y1="228"  x2="998" y2="228"/>
+    <line x1="82" y1="266"  x2="998" y2="266"/>
+    <line x1="82" y1="304"  x2="998" y2="304"/>
+    <line x1="82" y1="342"  x2="998" y2="342"/>
+    <line x1="82" y1="380"  x2="998" y2="380"/>
+    <line x1="82" y1="456"  x2="998" y2="456"/>
+    <line x1="82" y1="494"  x2="998" y2="494"/>
+    <line x1="82" y1="532"  x2="998" y2="532"/>
+    <line x1="82" y1="570"  x2="998" y2="570"/>
+    <line x1="82" y1="646"  x2="998" y2="646"/>
+    <line x1="82" y1="684"  x2="998" y2="684"/>
+    <line x1="82" y1="722"  x2="998" y2="722"/>
+    <line x1="82" y1="760"  x2="998" y2="760"/>
+    <line x1="82" y1="836"  x2="998" y2="836"/>
+    <line x1="82" y1="874"  x2="998" y2="874"/>
+    <line x1="82" y1="912"  x2="998" y2="912"/>
+    <line x1="82" y1="988"  x2="998" y2="988"/>
+    <line x1="82" y1="1026" x2="998" y2="1026"/>
+    <line x1="82" y1="1064" x2="998" y2="1064"/>
+    <line x1="82" y1="1102" x2="998" y2="1102"/>
+  </g>
+
+  <!-- 4. الإطار الأحمر الخارجي الوحيد -->
+  <rect x="67" y="58" width="946" height="1258" fill="none" stroke="#c8443b" stroke-width="2.6"/>
+
+  <!-- 5. العناوين -->
+  <text x="540"
+        y="142"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="44"
+        font-weight="bold"
+        fill="#1a4f8a">تدرّب: أجب عن الأسئلة</text>
+
+  <text x="540"
+        y="190"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="30"
+        fill="#17324d">Try: Answer the Questions</text>
+
+  <line x1="392" y1="212" x2="688" y2="212" stroke="#b9cfe6" stroke-width="2"/>
+
+  <!-- 6. السؤال الأول -->
+  <text x="956" y="252" direction="ltr" unicode-bidi="plaintext" text-anchor="end"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="30" fill="#c0392b">.1</text>
+
+  <text x="908"
+        y="252"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="29"
+        fill="#1f5fa8">
+    <tspan x="908" dy="0">ما اسم الملاحظة التجريبية التي تفيد بأن عدد الترانزستورات</tspan>
+    <tspan x="908" dy="36">في الدائرة المتكاملة يتضاعف تقريبًا كل عامين؟</tspan>
+  </text>
+
+  <text x="126"
+        y="326"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="26"
+        fill="#16283f">
+    <tspan x="126" dy="0">What is the name of the empirical observation that</tspan>
+    <tspan x="126" dy="31">the number of transistors on an integrated circuit</tspan>
+    <tspan x="126" dy="31">doubles approximately every two years?</tspan>
+  </text>
+
+  <line x1="126" y1="422" x2="956" y2="422" stroke="#9db3c8" stroke-width="1.8"/>
+
+  <!-- 7. السؤال الثاني -->
+  <text x="956" y="464" direction="ltr" unicode-bidi="plaintext" text-anchor="end"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="30" fill="#c0392b">.2</text>
+
+  <text x="908"
+        y="464"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="29"
+        fill="#1f5fa8">
+    <tspan x="908" dy="0">ما المصطلح الذي يعني شراء السلع والخدمات</tspan>
+    <tspan x="908" dy="36">وبيعها باستخدام الإنترنت؟</tspan>
+  </text>
+
+  <text x="126"
+        y="538"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="26"
+        fill="#16283f">
+    <tspan x="126" dy="0">What is the term for buying and selling goods</tspan>
+    <tspan x="126" dy="31">and services using the Internet?</tspan>
+  </text>
+
+  <line x1="126" y1="603" x2="956" y2="603" stroke="#9db3c8" stroke-width="1.8"/>
+
+  <!-- 8. السؤال الثالث -->
+  <text x="956" y="645" direction="ltr" unicode-bidi="plaintext" text-anchor="end"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="30" fill="#c0392b">.3</text>
+
+  <text x="908"
+        y="645"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="29"
+        fill="#1f5fa8">
+    <tspan x="908" dy="0">ما المصطلح الذي يصف أداء العمل من المنزل أو من</tspan>
+    <tspan x="908" dy="36">أماكن بعيدة باستخدام الإنترنت؟</tspan>
+  </text>
+
+  <text x="126"
+        y="719"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="26"
+        fill="#16283f">
+    <tspan x="126" dy="0">What is the term for working from home or other</tspan>
+    <tspan x="126" dy="31">remote locations using the Internet?</tspan>
+  </text>
+
+  <line x1="126" y1="784" x2="956" y2="784" stroke="#9db3c8" stroke-width="1.8"/>
+
+  <!-- 9. السؤال الرابع -->
+  <text x="956" y="826" direction="ltr" unicode-bidi="plaintext" text-anchor="end"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="30" fill="#c0392b">.4</text>
+
+  <text x="908"
+        y="826"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="29"
+        fill="#1f5fa8">
+    <tspan x="908" dy="0">ما المصطلح الذي يعني دفع قيمة السلع والخدمات</tspan>
+    <tspan x="908" dy="36">بالنقود الإلكترونية أو رموز QR دون استخدام النقد؟</tspan>
+  </text>
+
+  <text x="126"
+        y="900"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="26"
+        fill="#16283f">
+    <tspan x="126" dy="0">What is the term for making payments using</tspan>
+    <tspan x="126" dy="31">electronic money or QR codes without using cash?</tspan>
+  </text>
+
+  <line x1="126" y1="965" x2="956" y2="965" stroke="#9db3c8" stroke-width="1.8"/>
+
+  <!-- 10. السؤال الخامس -->
+  <text x="956" y="1007" direction="ltr" unicode-bidi="plaintext" text-anchor="end"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="30" fill="#c0392b">.5</text>
+
+  <text x="908"
+        y="1007"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="29"
+        fill="#1f5fa8">
+    <tspan x="908" dy="0">ما المصطلح الذي يشير إلى التقنية التي تستخدم</tspan>
+    <tspan x="908" dy="36">الذكاء الاصطناعي لقيادة مركبة دون تدخل بشري؟</tspan>
+  </text>
+
+  <text x="126"
+        y="1081"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="26"
+        fill="#16283f">
+    <tspan x="126" dy="0">What is the term for the technology that uses AI to</tspan>
+    <tspan x="126" dy="31">drive a vehicle without human operation?</tspan>
+  </text>
+
+  <line x1="126" y1="1146" x2="956" y2="1146" stroke="#9db3c8" stroke-width="1.8"/>
+
+</svg>

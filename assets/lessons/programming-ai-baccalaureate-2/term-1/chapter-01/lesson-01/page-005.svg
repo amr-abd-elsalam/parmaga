@@ -1,0 +1,263 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+
+  <defs>
+    <linearGradient id="woodGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b07a44"/>
+      <stop offset="0.55" stop-color="#986434"/>
+      <stop offset="1" stop-color="#7d5029"/>
+    </linearGradient>
+    <linearGradient id="paperGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf6"/>
+      <stop offset="1" stop-color="#f8f2e4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- الخلفية الخشبية البسيطة -->
+  <rect x="0" y="0" width="1080" height="1350" fill="url(#woodGrad)"/>
+  <path d="M0,240 C300,205 760,300 1080,250" fill="none" stroke="#6f4622" stroke-width="12" opacity="0.12"/>
+  <path d="M0,1010 C340,1070 720,960 1080,1035" fill="none" stroke="#6f4622" stroke-width="14" opacity="0.10"/>
+
+  <!-- ظل بسيط للورقة -->
+  <rect x="42" y="34" width="1012" height="1302" rx="8" fill="#4a2d13" opacity="0.22"/>
+
+  <!-- الورقة -->
+  <rect x="34" y="24" width="1012" height="1302" rx="8" fill="url(#paperGrad)"/>
+
+  <!-- سطور الدفتر الأفقية الباهتة -->
+  <g stroke="#cfe0ee" stroke-width="1.5">
+    <line x1="80" y1="110" x2="1000" y2="110"/>
+    <line x1="80" y1="154" x2="1000" y2="154"/>
+    <line x1="80" y1="198" x2="1000" y2="198"/>
+    <line x1="80" y1="242" x2="1000" y2="242"/>
+    <line x1="80" y1="286" x2="1000" y2="286"/>
+    <line x1="80" y1="330" x2="1000" y2="330"/>
+    <line x1="80" y1="374" x2="1000" y2="374"/>
+    <line x1="80" y1="418" x2="1000" y2="418"/>
+    <line x1="80" y1="462" x2="1000" y2="462"/>
+    <line x1="80" y1="506" x2="1000" y2="506"/>
+    <line x1="80" y1="550" x2="1000" y2="550"/>
+    <line x1="80" y1="594" x2="1000" y2="594"/>
+    <line x1="80" y1="638" x2="1000" y2="638"/>
+    <line x1="80" y1="682" x2="1000" y2="682"/>
+    <line x1="80" y1="726" x2="1000" y2="726"/>
+    <line x1="80" y1="770" x2="1000" y2="770"/>
+    <line x1="80" y1="814" x2="1000" y2="814"/>
+    <line x1="80" y1="858" x2="1000" y2="858"/>
+    <line x1="80" y1="902" x2="1000" y2="902"/>
+    <line x1="80" y1="946" x2="1000" y2="946"/>
+    <line x1="80" y1="990" x2="1000" y2="990"/>
+    <line x1="80" y1="1034" x2="1000" y2="1034"/>
+    <line x1="80" y1="1078" x2="1000" y2="1078"/>
+    <line x1="80" y1="1122" x2="1000" y2="1122"/>
+    <line x1="80" y1="1166" x2="1000" y2="1166"/>
+    <line x1="80" y1="1210" x2="1000" y2="1210"/>
+    <line x1="80" y1="1254" x2="1000" y2="1254"/>
+  </g>
+
+  <!-- الإطار الأحمر الخارجي الوحيد -->
+  <rect x="67" y="70" width="946" height="1230" fill="none" stroke="#cf3b32" stroke-width="3"/>
+
+  <!-- العنوان العربي -->
+  <text x="540"
+        y="134"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="40"
+        font-weight="bold"
+        fill="#1a4f8a">قانون مور وحدود تصغير الترانزستورات</text>
+
+  <!-- العنوان الإنجليزي -->
+  <text x="540"
+        y="178"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="25"
+        fill="#152b42">Moore’s Law and the Limits of Transistor Miniaturization</text>
+
+  <line x1="320" y1="200" x2="760" y2="200" stroke="#a8c8e4" stroke-width="2"/>
+
+  <!-- الفقرة العربية -->
+  <text x="955"
+        y="248"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30"
+        fill="#1d5fa8">
+    <tspan x="955" dy="0">قانون مور Moore’s Law هو ملاحظة تجريبية مفادها أن</tspan>
+    <tspan x="955" dy="42">عدد الترانزستورات في الدائرة المتكاملة يتضاعف تقريبًا كل</tspan>
+    <tspan x="955" dy="42">عامين. ظل هذا الاتجاه دقيقًا إلى حد كبير سنوات طويلة، لكن</tspan>
+    <tspan x="955" dy="42">تصغير الترانزستورات يقترب من حدود فيزيائية، مع تحديات مثل</tspan>
+    <tspan x="955" dy="42">تسرب التيار وتأثير النفق الكمي.</tspan>
+  </text>
+
+  <!-- الفقرة الإنجليزية -->
+  <text x="120"
+        y="452"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27"
+        fill="#152b42">
+    <tspan x="120" dy="0">Moore’s Law is the empirical observation that the</tspan>
+    <tspan x="120" dy="33">number of transistors on an integrated circuit</tspan>
+    <tspan x="120" dy="33">roughly doubles about every two years. This trend</tspan>
+    <tspan x="120" dy="33">remained largely accurate for many years, but</tspan>
+    <tspan x="120" dy="33">transistor miniaturization is approaching physical</tspan>
+    <tspan x="120" dy="33">limits, with challenges such as leakage current</tspan>
+    <tspan x="120" dy="33">and quantum tunneling effects.</tspan>
+  </text>
+
+  <!-- الرسم البياني الصاعد -->
+  <g>
+    <line x1="170" y1="880" x2="170" y2="744" stroke="#33506b" stroke-width="3"/>
+    <polygon points="170,732 163,750 177,750" fill="#33506b"/>
+    <line x1="170" y1="880" x2="584" y2="880" stroke="#33506b" stroke-width="3"/>
+    <polygon points="596,880 578,873 578,887" fill="#33506b"/>
+
+    <line x1="170" y1="800" x2="570" y2="800" stroke="#dbe8f3" stroke-width="1.5"/>
+    <line x1="170" y1="840" x2="570" y2="840" stroke="#dbe8f3" stroke-width="1.5"/>
+
+    <path d="M178,870 C330,864 430,838 500,796 C545,769 562,762 578,754"
+          fill="none" stroke="#1d5fa8" stroke-width="4" stroke-linecap="round"/>
+
+    <circle cx="240" cy="866" r="5" fill="#1d5fa8"/>
+    <circle cx="360" cy="850" r="5" fill="#1d5fa8"/>
+    <circle cx="470" cy="812" r="5" fill="#1d5fa8"/>
+    <circle cx="556" cy="766" r="5" fill="#1d5fa8"/>
+  </g>
+
+  <text x="430"
+        y="706"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="24"
+        fill="#1d5fa8">عدد الترانزستورات</text>
+
+  <text x="232"
+        y="734"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="22"
+        fill="#152b42">Transistor Count</text>
+
+  <text x="398"
+        y="914"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="24"
+        fill="#1d5fa8">الزمن</text>
+
+  <text x="418"
+        y="914"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="22"
+        fill="#152b42">Time</text>
+
+  <!-- رسم الدائرة المتكاملة -->
+  <g>
+    <rect x="706" y="740" width="14" height="14" fill="#5b6a78"/>
+    <rect x="742" y="740" width="14" height="14" fill="#5b6a78"/>
+    <rect x="778" y="740" width="14" height="14" fill="#5b6a78"/>
+    <rect x="814" y="740" width="14" height="14" fill="#5b6a78"/>
+
+    <rect x="706" y="854" width="14" height="14" fill="#5b6a78"/>
+    <rect x="742" y="854" width="14" height="14" fill="#5b6a78"/>
+    <rect x="778" y="854" width="14" height="14" fill="#5b6a78"/>
+    <rect x="814" y="854" width="14" height="14" fill="#5b6a78"/>
+
+    <rect x="676" y="770" width="16" height="12" fill="#5b6a78"/>
+    <rect x="676" y="798" width="16" height="12" fill="#5b6a78"/>
+    <rect x="676" y="826" width="16" height="12" fill="#5b6a78"/>
+
+    <rect x="848" y="770" width="16" height="12" fill="#5b6a78"/>
+    <rect x="848" y="798" width="16" height="12" fill="#5b6a78"/>
+    <rect x="848" y="826" width="16" height="12" fill="#5b6a78"/>
+
+    <rect x="690" y="752" width="160" height="104" rx="10" fill="#24405c" stroke="#16293c" stroke-width="3"/>
+    <rect x="722" y="778" width="96" height="52" rx="5" fill="#35648e"/>
+    <circle cx="706" cy="768" r="5" fill="#8fb6d6"/>
+  </g>
+
+  <!-- علامة التحذير الحمراء -->
+  <g>
+    <polygon points="908,748 946,812 870,812"
+             fill="#fff2f0" stroke="#cc2027" stroke-width="4" stroke-linejoin="round"/>
+    <text x="908"
+          y="806"
+          direction="ltr"
+          unicode-bidi="plaintext"
+          text-anchor="middle"
+          font-family="Arial, sans-serif"
+          font-size="30"
+          font-weight="bold"
+          fill="#cc2027">!</text>
+  </g>
+
+  <text x="968"
+        y="886"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="26"
+        fill="#c0392b">حدود فيزيائية</text>
+
+  <text x="782"
+        y="916"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="23"
+        fill="#c0392b">Physical Limits</text>
+
+  <!-- صندوق الشرح الأصفر الباهت -->
+  <rect x="105" y="950" width="870" height="215" rx="14" fill="#fdf6dc" stroke="#e0c866" stroke-width="2"/>
+
+  <text x="935"
+        y="998"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="27"
+        fill="#1d5fa8">
+    <tspan x="935" dy="0">تتجه محاولات تحسين الأداء أيضًا إلى المعالجة المتوازية باستخدام</tspan>
+    <tspan x="935" dy="38">أنوية متعددة، وإلى تقنيات جديدة مثل الحوسبة الكمومية.</tspan>
+  </text>
+
+  <text x="145"
+        y="1078"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="25"
+        fill="#152b42">
+    <tspan x="145" dy="0">Performance improvement also relies on parallel</tspan>
+    <tspan x="145" dy="31">processing with multiple cores and new technologies</tspan>
+    <tspan x="145" dy="31">such as quantum computing.</tspan>
+  </text>
+
+</svg>

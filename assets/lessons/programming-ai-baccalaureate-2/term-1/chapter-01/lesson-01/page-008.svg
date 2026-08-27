@@ -1,0 +1,235 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+
+  <defs>
+    <linearGradient id="woodGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#b07c46"/>
+      <stop offset="55%" stop-color="#986533"/>
+      <stop offset="100%" stop-color="#7d4f26"/>
+    </linearGradient>
+    <linearGradient id="paperGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fffdf8"/>
+      <stop offset="100%" stop-color="#fbf6ea"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 1. الخلفية الخشبية البسيطة -->
+  <rect x="0" y="0" width="1080" height="1350" fill="url(#woodGrad)"/>
+  <path d="M0 250 C 300 210, 760 300, 1080 240" fill="none" stroke="#6f4520" stroke-width="14" opacity=".16"/>
+  <path d="M0 1080 C 340 1130, 720 1030, 1080 1090" fill="none" stroke="#6f4520" stroke-width="12" opacity=".14"/>
+
+  <!-- 2. الورقة -->
+  <rect x="42" y="40" width="1012" height="1290" rx="10" fill="#3d2612" opacity=".22"/>
+  <rect x="34" y="30" width="1012" height="1290" rx="10" fill="url(#paperGrad)"/>
+
+  <!-- 3. سطور الكراسة الزرقاء الباهتة -->
+  <g stroke="#cfe0ef" stroke-width="1.6" opacity=".55">
+    <line x1="80" y1="192" x2="1000" y2="192"/>
+    <line x1="80" y1="230" x2="1000" y2="230"/>
+    <line x1="80" y1="268" x2="1000" y2="268"/>
+    <line x1="80" y1="306" x2="1000" y2="306"/>
+    <line x1="80" y1="344" x2="1000" y2="344"/>
+    <line x1="80" y1="382" x2="1000" y2="382"/>
+    <line x1="80" y1="420" x2="1000" y2="420"/>
+    <line x1="80" y1="458" x2="1000" y2="458"/>
+    <line x1="80" y1="496" x2="1000" y2="496"/>
+    <line x1="80" y1="534" x2="1000" y2="534"/>
+    <line x1="80" y1="572" x2="1000" y2="572"/>
+    <line x1="80" y1="610" x2="1000" y2="610"/>
+    <line x1="80" y1="648" x2="1000" y2="648"/>
+    <line x1="80" y1="686" x2="1000" y2="686"/>
+    <line x1="80" y1="724" x2="1000" y2="724"/>
+    <line x1="80" y1="762" x2="1000" y2="762"/>
+    <line x1="80" y1="800" x2="1000" y2="800"/>
+    <line x1="80" y1="838" x2="1000" y2="838"/>
+    <line x1="80" y1="876" x2="1000" y2="876"/>
+    <line x1="80" y1="914" x2="1000" y2="914"/>
+    <line x1="80" y1="952" x2="1000" y2="952"/>
+    <line x1="80" y1="990" x2="1000" y2="990"/>
+    <line x1="80" y1="1028" x2="1000" y2="1028"/>
+    <line x1="80" y1="1066" x2="1000" y2="1066"/>
+    <line x1="80" y1="1104" x2="1000" y2="1104"/>
+    <line x1="80" y1="1142" x2="1000" y2="1142"/>
+  </g>
+
+  <!-- 4. الإطار الأحمر الخارجي الوحيد -->
+  <rect x="67" y="64" width="946" height="1238" rx="6" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+
+  <!-- 5. خلفيات البطاقات -->
+  <rect x="350" y="660" width="370" height="74" rx="12" fill="#eef8f0" stroke="#2f7d52" stroke-width="2"/>
+  <rect x="105" y="976" width="870" height="186" rx="16" fill="#fdf7dd" stroke="#d9c47a" stroke-width="2"/>
+
+  <!-- 6. الرسم التوضيحي: خطوط وظيفية وأشكال -->
+
+  <!-- الطريق -->
+  <rect x="115" y="898" width="850" height="60" rx="6" fill="#e9e5dc" stroke="#c9c2b4" stroke-width="1.6"/>
+  <line x1="150" y1="930" x2="930" y2="930" stroke="#ffffff" stroke-width="5" stroke-dasharray="28 22" opacity=".95"/>
+
+  <!-- السحابة البعيدة -->
+  <g fill="#eef3f9" stroke="#8fa5ba" stroke-width="2">
+    <circle cx="828" cy="692" r="26"/>
+    <circle cx="868" cy="678" r="32"/>
+    <circle cx="910" cy="694" r="24"/>
+    <rect x="810" y="694" width="120" height="24" rx="12" stroke="none"/>
+  </g>
+  <line x1="812" y1="718" x2="928" y2="718" stroke="#8fa5ba" stroke-width="2"/>
+
+  <!-- سهم الانتظار نحو السحابة مع علامة الإلغاء -->
+  <line x1="692" y1="812" x2="795" y2="734" stroke="#8fa5ba" stroke-width="3" stroke-dasharray="10 9"/>
+  <path d="M795 734 L 779 736 L 788 748 Z" fill="#8fa5ba"/>
+  <g stroke="#c0392b" stroke-width="4" stroke-linecap="round">
+    <line x1="734" y1="759" x2="758" y2="783"/>
+    <line x1="758" y1="759" x2="734" y2="783"/>
+  </g>
+
+  <!-- المركبة الأخرى على اليسار -->
+  <g stroke="#8a5a3b" stroke-width="2.5">
+    <path d="M190 838 L 212 806 L 272 806 L 294 838 Z" fill="#faeadf"/>
+    <rect x="160" y="838" width="156" height="46" rx="10" fill="#f5ded0"/>
+  </g>
+  <circle cx="196" cy="888" r="16" fill="#3a3a3a"/>
+  <circle cx="282" cy="888" r="16" fill="#3a3a3a"/>
+
+  <!-- أحد المشاة على اليمين -->
+  <g stroke="#1f4e79" stroke-width="3.6" stroke-linecap="round" fill="none">
+    <circle cx="874" cy="798" r="13"/>
+    <line x1="874" y1="811" x2="874" y2="852"/>
+    <line x1="854" y1="828" x2="894" y2="822"/>
+    <line x1="874" y1="852" x2="862" y2="890"/>
+    <line x1="874" y1="852" x2="888" y2="890"/>
+  </g>
+
+  <!-- السيارة ذاتية القيادة في المنتصف -->
+  <path d="M466 830 L 496 790 L 600 790 L 632 830 Z" fill="#eef4fb" stroke="#1f4e79" stroke-width="2.5"/>
+  <rect x="426" y="830" width="246" height="56" rx="14" fill="#dce9f6" stroke="#1f4e79" stroke-width="2.5"/>
+  <circle cx="478" cy="890" r="18" fill="#3a3a3a"/>
+  <circle cx="622" cy="890" r="18" fill="#3a3a3a"/>
+
+  <!-- مستشعر السقف والكاميرات -->
+  <line x1="547" y1="790" x2="547" y2="778" stroke="#1f4e79" stroke-width="3"/>
+  <circle cx="547" cy="774" r="7" fill="#c0392b"/>
+  <circle cx="668" cy="842" r="6" fill="#c0392b"/>
+  <circle cx="428" cy="848" r="6" fill="#c0392b"/>
+
+  <!-- شريحة المعالجة داخل السيارة -->
+  <rect x="512" y="796" width="76" height="28" rx="5" fill="#d8f0dd" stroke="#2f7d52" stroke-width="2.2"/>
+  <g stroke="#2f7d52" stroke-width="2.2">
+    <line x1="504" y1="804" x2="512" y2="804"/>
+    <line x1="504" y1="812" x2="512" y2="812"/>
+    <line x1="504" y1="820" x2="512" y2="820"/>
+    <line x1="588" y1="804" x2="596" y2="804"/>
+    <line x1="588" y1="812" x2="596" y2="812"/>
+    <line x1="588" y1="820" x2="596" y2="820"/>
+  </g>
+  <line x1="550" y1="734" x2="550" y2="794" stroke="#2f7d52" stroke-width="2" stroke-dasharray="7 6"/>
+
+  <!-- خطوط الكشف الحمراء الرفيعة -->
+  <g stroke="#c0392b" stroke-width="1.8" opacity=".9">
+    <line x1="672" y1="838" x2="852" y2="800"/>
+    <line x1="672" y1="850" x2="856" y2="878"/>
+    <line x1="672" y1="862" x2="796" y2="932"/>
+    <line x1="424" y1="844" x2="322" y2="828"/>
+    <line x1="424" y1="856" x2="318" y2="874"/>
+  </g>
+
+  <!-- 7. النصوص التعليمية -->
+
+  <text x="540"
+        y="124"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="42"
+        font-weight="bold"
+        fill="#16436b">القيادة الذاتية والحوسبة الطرفية</text>
+
+  <text x="540"
+        y="168"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="29"
+        fill="#1f3c5a">Autonomous Driving and Edge Computing</text>
+
+  <text x="950"
+        y="224"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="28"
+        fill="#1f5c96">
+    <tspan x="950" dy="0">تستخدم القيادة الذاتية Autonomous Driving الذكاء</tspan>
+    <tspan x="950" dy="38">الاصطناعي والكاميرات والمستشعرات للتعرف على البيئة</tspan>
+    <tspan x="950" dy="38">واتخاذ قرارات القيادة. ولأن التأخير القصير قد يؤدي</tspan>
+    <tspan x="950" dy="38">إلى حادث، تعالج السيارة بعض البيانات على الجهاز نفسه</tspan>
+    <tspan x="950" dy="38">باستخدام الحوسبة الطرفية Edge Computing، بدلًا من</tspan>
+    <tspan x="950" dy="38">انتظار إرسالها إلى السحابة.</tspan>
+  </text>
+
+  <text x="120"
+        y="456"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27"
+        fill="#152b42">
+    <tspan x="120" dy="0">Autonomous driving uses AI, cameras, and sensors</tspan>
+    <tspan x="120" dy="34">to recognize the surroundings and make driving</tspan>
+    <tspan x="120" dy="34">decisions. Because even a short delay could cause</tspan>
+    <tspan x="120" dy="34">an accident, the vehicle processes some data on</tspan>
+    <tspan x="120" dy="34">the device itself using edge computing instead of</tspan>
+    <tspan x="120" dy="34">waiting to send it to the cloud.</tspan>
+  </text>
+
+  <text x="704"
+        y="692"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="26"
+        font-weight="bold"
+        fill="#2f7d52">الحوسبة الطرفية</text>
+
+  <text x="366"
+        y="724"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="25"
+        fill="#2f7d52">Edge Computing</text>
+
+  <text x="940"
+        y="1020"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="27"
+        fill="#1f5c96">
+    <tspan x="940" dy="0">الحوسبة الطرفية: معالجة البيانات بالقرب من مكان</tspan>
+    <tspan x="940" dy="36">إنشائها لاتخاذ قرار سريع.</tspan>
+  </text>
+
+  <text x="140"
+        y="1098"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="26"
+        fill="#152b42">
+    <tspan x="140" dy="0">Edge computing: processing data near where it is</tspan>
+    <tspan x="140" dy="34">created to make a rapid decision.</tspan>
+  </text>
+
+</svg>

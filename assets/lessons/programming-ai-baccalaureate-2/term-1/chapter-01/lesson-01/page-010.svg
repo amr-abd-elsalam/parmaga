@@ -1,0 +1,244 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+
+  <defs>
+    <linearGradient id="qcWoodGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9c6b3f"/>
+      <stop offset="0.5" stop-color="#8a5c34"/>
+      <stop offset="1" stop-color="#774d2b"/>
+    </linearGradient>
+    <linearGradient id="qcPaperGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf6"/>
+      <stop offset="1" stop-color="#f8f3e6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 1. الخلفية الخشبية البسيطة -->
+  <rect x="0" y="0" width="1080" height="1350" fill="url(#qcWoodGrad)"/>
+  <path d="M0 250 C 300 210, 780 300, 1080 240" stroke="#6d4526" stroke-width="16" fill="none" opacity="0.16"/>
+  <path d="M0 1080 C 320 1130, 760 1030, 1080 1090" stroke="#6d4526" stroke-width="14" fill="none" opacity="0.14"/>
+
+  <!-- 2. الورقة -->
+  <rect x="40" y="26" width="1012" height="1310" fill="#5c3a20" opacity="0.30" rx="6"/>
+  <rect x="34" y="20" width="1012" height="1310" fill="url(#qcPaperGrad)" rx="6"/>
+
+  <!-- 3. سطور الكراسة الأفقية الزرقاء الباهتة -->
+  <g stroke="#cfe0ef" stroke-width="1.2" opacity="0.85">
+    <line x1="88" y1="184" x2="992" y2="184"/>
+    <line x1="88" y1="222" x2="992" y2="222"/>
+    <line x1="88" y1="260" x2="992" y2="260"/>
+    <line x1="88" y1="298" x2="992" y2="298"/>
+    <line x1="88" y1="336" x2="992" y2="336"/>
+    <line x1="88" y1="374" x2="992" y2="374"/>
+    <line x1="88" y1="412" x2="992" y2="412"/>
+    <line x1="88" y1="450" x2="992" y2="450"/>
+    <line x1="88" y1="488" x2="992" y2="488"/>
+    <line x1="88" y1="526" x2="992" y2="526"/>
+    <line x1="88" y1="564" x2="992" y2="564"/>
+    <line x1="88" y1="602" x2="992" y2="602"/>
+    <line x1="88" y1="640" x2="992" y2="640"/>
+    <line x1="88" y1="678" x2="992" y2="678"/>
+    <line x1="88" y1="716" x2="992" y2="716"/>
+    <line x1="88" y1="754" x2="992" y2="754"/>
+    <line x1="88" y1="792" x2="992" y2="792"/>
+    <line x1="88" y1="830" x2="992" y2="830"/>
+    <line x1="88" y1="868" x2="992" y2="868"/>
+    <line x1="88" y1="906" x2="992" y2="906"/>
+    <line x1="88" y1="944" x2="992" y2="944"/>
+    <line x1="88" y1="982" x2="992" y2="982"/>
+    <line x1="88" y1="1020" x2="992" y2="1020"/>
+    <line x1="88" y1="1058" x2="992" y2="1058"/>
+    <line x1="88" y1="1096" x2="992" y2="1096"/>
+    <line x1="88" y1="1134" x2="992" y2="1134"/>
+  </g>
+
+  <!-- 4. الإطار الأحمر الخارجي الوحيد -->
+  <rect x="67" y="58" width="946" height="1258" fill="none" stroke="#c0392b" stroke-width="2.4" rx="4"/>
+
+  <!-- 5. خلفيات البطاقات والمقارنة -->
+  <rect x="105" y="625" width="415" height="248" fill="#f6fbff" stroke="#9fc0dd" stroke-width="1.8" rx="14"/>
+  <rect x="560" y="625" width="415" height="248" fill="#f6fbff" stroke="#9fc0dd" stroke-width="1.8" rx="14"/>
+  <rect x="105" y="905" width="870" height="240" fill="#fdf6d6" stroke="#d8c179" stroke-width="1.8" rx="16"/>
+
+  <!-- 6. الخطوط والرسوم الوظيفية -->
+  <line x1="330" y1="178" x2="750" y2="178" stroke="#8fb4d4" stroke-width="2"/>
+
+  <!-- رسم الكيوبت : كرة بسيطة مع متجه حالة -->
+  <line x1="313" y1="706" x2="313" y2="784" stroke="#9fc0dd" stroke-width="1.6" stroke-dasharray="5 5"/>
+  <circle cx="313" cy="745" r="36" fill="#e6f1fb" stroke="#1b4f80" stroke-width="2.4"/>
+  <ellipse cx="313" cy="745" rx="36" ry="12" fill="none" stroke="#1b4f80" stroke-width="1.4" opacity="0.65"/>
+  <line x1="313" y1="745" x2="336" y2="719" stroke="#1b4f80" stroke-width="2.6"/>
+  <polygon points="340,714 336.5,727 327.5,719" fill="#1b4f80"/>
+  <circle cx="313" cy="745" r="3.2" fill="#1b4f80"/>
+
+  <!-- رسم البِت التقليدي : مفتاح بحالة محددة -->
+  <rect x="708" y="720" width="120" height="50" rx="25" fill="#e6f1fb" stroke="#1b4f80" stroke-width="2.4"/>
+  <circle cx="803" cy="745" r="18" fill="#1b4f80"/>
+
+  <!-- 7. النصوص التعليمية -->
+
+  <!-- العنوان العربي -->
+  <text x="540"
+        y="118"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="42"
+        font-weight="bold"
+        fill="#173a63">الحوسبة الكمومية والفكرة الرئيسية</text>
+
+  <!-- العنوان الإنجليزي -->
+  <text x="540"
+        y="158"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27"
+        fill="#2b5d8f">Quantum Computing and the Key Idea</text>
+
+  <!-- الفقرة العربية -->
+  <text x="950"
+        y="222"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="29"
+        fill="#225f9c">
+    <tspan x="950" dy="0">الحوسبة الكمومية Quantum Computing تقنية يُتوقع أن</tspan>
+    <tspan x="950" dy="38">تسرّع بعض الحسابات الصعبة على الحواسيب التقليدية</tspan>
+    <tspan x="950" dy="38">باستخدام مبادئ ميكانيكا الكم. يحمل البِت التقليدي حالة</tspan>
+    <tspan x="950" dy="38">محددة، 0 أو 1، بينما يمكن أن يكون الكيوبت Qubit في</tspan>
+    <tspan x="950" dy="38">تراكب من الحالتين قبل القياس.</tspan>
+  </text>
+
+  <!-- الفقرة الإنجليزية -->
+  <text x="120"
+        y="418"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27"
+        fill="#152b42">
+    <tspan x="120" dy="0">Quantum computing is a technology expected to speed up</tspan>
+    <tspan x="120" dy="33">certain computations that are difficult for traditional</tspan>
+    <tspan x="120" dy="33">computers by using principles of quantum mechanics.</tspan>
+    <tspan x="120" dy="33">A classical bit has a definite state, 0 or 1, while a</tspan>
+    <tspan x="120" dy="33">qubit can exist in a superposition of both states</tspan>
+    <tspan x="120" dy="33">before measurement.</tspan>
+  </text>
+
+  <!-- بطاقة الكيوبت : النصوص -->
+  <text x="313"
+        y="664"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="28"
+        font-weight="bold"
+        fill="#225f9c">الكيوبت</text>
+
+  <text x="313"
+        y="692"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="22"
+        fill="#152b42">Qubit</text>
+
+  <text x="313"
+        y="810"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="25"
+        fill="#1c7a4d">تراكب قبل القياس</text>
+
+  <text x="313"
+        y="838"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="21"
+        fill="#1c7a4d">
+    <tspan x="313" dy="0">Superposition Before</tspan>
+    <tspan x="313" dy="24">Measurement</tspan>
+  </text>
+
+  <!-- بطاقة البِت التقليدي : النصوص -->
+  <text x="768"
+        y="664"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="28"
+        font-weight="bold"
+        fill="#225f9c">البِت التقليدي</text>
+
+  <text x="768"
+        y="692"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="22"
+        fill="#152b42">Classical Bit</text>
+
+  <text x="768"
+        y="810"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="25"
+        fill="#1c7a4d">0 أو 1</text>
+
+  <text x="768"
+        y="838"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="21"
+        fill="#1c7a4d">0 or 1</text>
+
+  <!-- البطاقة الصفراء : الخلاصة -->
+  <text x="940"
+        y="945"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="27"
+        fill="#225f9c">
+    <tspan x="940" dy="0">في كل مرحلة، أضافت تكنولوجيا المعلومات جهازًا أو تقنية</tspan>
+    <tspan x="940" dy="35">أو خدمة جديدة، وغيّرت معها طريقة تواصل المجتمع وعمله</tspan>
+    <tspan x="940" dy="35">وتعلمه وتجارته.</tspan>
+  </text>
+
+  <text x="140"
+        y="1053"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="25"
+        fill="#152b42">
+    <tspan x="140" dy="0">At each stage, information technology introduced a new</tspan>
+    <tspan x="140" dy="31">device, technology, or service and changed how society</tspan>
+    <tspan x="140" dy="31">communicates, works, learns, and does business.</tspan>
+  </text>
+
+</svg>

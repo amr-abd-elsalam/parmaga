@@ -1,0 +1,259 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+
+  <defs>
+    <linearGradient id="woodBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a9793f"/>
+      <stop offset="0.5" stop-color="#946434"/>
+      <stop offset="1" stop-color="#7e5329"/>
+    </linearGradient>
+    <linearGradient id="paperFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf6"/>
+      <stop offset="1" stop-color="#fbf6e9"/>
+    </linearGradient>
+    <filter id="paperShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="6" dy="10" stdDeviation="12" flood-color="#3a2410" flood-opacity="0.38"/>
+    </filter>
+  </defs>
+
+  <!-- 1) خلفية بسيطة -->
+  <rect x="0" y="0" width="1080" height="1350" fill="url(#woodBg)"/>
+  <path d="M0 250 C 300 210, 760 300, 1080 245" stroke="#6f4720" stroke-width="14" fill="none" opacity="0.16"/>
+  <path d="M0 1080 C 320 1040, 720 1130, 1080 1075" stroke="#6f4720" stroke-width="12" fill="none" opacity="0.14"/>
+
+  <!-- 2) الورقة -->
+  <rect x="34" y="26" width="1012" height="1298" rx="10" fill="url(#paperFill)" filter="url(#paperShadow)"/>
+
+  <!-- 3) خطوط الدفتر الأفقية الباهتة -->
+  <g stroke="#b9d3e8" stroke-width="1.4" opacity="0.85">
+    <line x1="80" y1="110" x2="1000" y2="110"/>
+    <line x1="80" y1="148" x2="1000" y2="148"/>
+    <line x1="80" y1="186" x2="1000" y2="186"/>
+    <line x1="80" y1="224" x2="1000" y2="224"/>
+    <line x1="80" y1="262" x2="1000" y2="262"/>
+    <line x1="80" y1="300" x2="1000" y2="300"/>
+    <line x1="80" y1="338" x2="1000" y2="338"/>
+    <line x1="80" y1="376" x2="1000" y2="376"/>
+    <line x1="80" y1="414" x2="1000" y2="414"/>
+    <line x1="80" y1="452" x2="1000" y2="452"/>
+    <line x1="80" y1="490" x2="1000" y2="490"/>
+    <line x1="80" y1="528" x2="1000" y2="528"/>
+    <line x1="80" y1="566" x2="1000" y2="566"/>
+    <line x1="80" y1="604" x2="1000" y2="604"/>
+    <line x1="80" y1="642" x2="1000" y2="642"/>
+    <line x1="80" y1="680" x2="1000" y2="680"/>
+    <line x1="80" y1="718" x2="1000" y2="718"/>
+    <line x1="80" y1="756" x2="1000" y2="756"/>
+    <line x1="80" y1="794" x2="1000" y2="794"/>
+    <line x1="80" y1="832" x2="1000" y2="832"/>
+    <line x1="80" y1="870" x2="1000" y2="870"/>
+    <line x1="80" y1="908" x2="1000" y2="908"/>
+    <line x1="80" y1="946" x2="1000" y2="946"/>
+    <line x1="80" y1="984" x2="1000" y2="984"/>
+    <line x1="80" y1="1022" x2="1000" y2="1022"/>
+    <line x1="80" y1="1060" x2="1000" y2="1060"/>
+    <line x1="80" y1="1098" x2="1000" y2="1098"/>
+    <line x1="80" y1="1136" x2="1000" y2="1136"/>
+    <line x1="80" y1="1174" x2="1000" y2="1174"/>
+    <line x1="80" y1="1212" x2="1000" y2="1212"/>
+    <line x1="80" y1="1250" x2="1000" y2="1250"/>
+  </g>
+
+  <!-- 4) إطار أحمر خارجي واحد فقط -->
+  <rect x="67" y="54" width="946" height="1266" fill="none" stroke="#c1272d" stroke-width="2.4"/>
+
+  <!-- 5) خلفيات البطاقات والجدول -->
+  <rect x="95" y="196" width="890" height="374" rx="16" fill="#eaf6ea" fill-opacity="0.86" stroke="#9dc3a2" stroke-width="2"/>
+  <rect x="95" y="600" width="890" height="414" rx="10" fill="#f6fbf6" fill-opacity="0.82"/>
+  <rect x="95" y="1044" width="890" height="120" rx="16" fill="#eaf6ea" fill-opacity="0.86" stroke="#9dc3a2" stroke-width="2"/>
+
+  <!-- مربعات أرقام الجدول (خضراء فاتحة) -->
+  <rect x="110" y="608" width="44" height="42" rx="8" fill="#e2f2e4" stroke="#9dc3a2" stroke-width="1.6"/>
+  <rect x="110" y="690" width="44" height="42" rx="8" fill="#e2f2e4" stroke="#9dc3a2" stroke-width="1.6"/>
+  <rect x="110" y="800" width="44" height="42" rx="8" fill="#e2f2e4" stroke="#9dc3a2" stroke-width="1.6"/>
+  <rect x="110" y="882" width="44" height="42" rx="8" fill="#e2f2e4" stroke="#9dc3a2" stroke-width="1.6"/>
+
+  <!-- 6) خطوط الجدول الحمراء الوظيفية -->
+  <rect x="95" y="600" width="890" height="414" fill="none" stroke="#c1272d" stroke-width="1.8"/>
+  <g stroke="#c1272d" stroke-width="1.2">
+    <line x1="95" y1="682" x2="985" y2="682"/>
+    <line x1="95" y1="792" x2="985" y2="792"/>
+    <line x1="95" y1="874" x2="985" y2="874"/>
+  </g>
+  <line x1="390" y1="182" x2="690" y2="182" stroke="#9dc3a2" stroke-width="3"/>
+
+  <!-- 7) النصوص التعليمية -->
+
+  <!-- العنوانان -->
+  <text x="540" y="130"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="middle"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="46" font-weight="bold" fill="#1b4f8a">حل المثال</text>
+
+  <text x="540" y="172"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="28" fill="#152b42">Worked Example Solution</text>
+
+  <!-- التسلسل الزمني بالعربية -->
+  <text x="955" y="240"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30" fill="#1b4f8a">
+    <tspan x="955" dy="0">ظهور الحاسوب في الأربعينيات–الستينيات ←</tspan>
+    <tspan x="955" dy="35">الاستخدام التجاري للإنترنت في التسعينيات ←</tspan>
+    <tspan x="955" dy="35">ظهور الهواتف الذكية في العقد الأول من الألفية ←</tspan>
+    <tspan x="955" dy="35">انتشار الحوسبة السحابية من العقد الثاني</tspan>
+    <tspan x="955" dy="35">من الألفية فصاعدًا.</tspan>
+  </text>
+
+  <!-- التسلسل الزمني بالإنجليزية -->
+  <text x="130" y="414"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27" fill="#152b42">
+    <tspan x="130" dy="0">Birth of the computer in the 1940s–60s →</tspan>
+    <tspan x="130" dy="31">Commercialization of the Internet in the 1990s →</tspan>
+    <tspan x="130" dy="31">Rise of smartphones in the 2000s →</tspan>
+    <tspan x="130" dy="31">Spread of cloud computing from the 2010s onward.</tspan>
+  </text>
+
+  <!-- سطر الإجابة الصحيحة -->
+  <text x="955" y="548"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30" font-weight="bold" fill="#c1272d">الإجابة الصحيحة: ب / B</text>
+
+  <text x="130" y="548"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27" fill="#c1272d">The correct answer is B.</text>
+
+  <!-- جدول الصواب والخطأ : البند 1 -->
+  <text x="132" y="637"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="24" fill="#1d7a45">1.</text>
+
+  <text x="955" y="632"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="26" fill="#1d7a45">○</text>
+
+  <text x="920" y="632"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="26" fill="#1b4f8a">تعريف صحيح لقانون مور.</text>
+
+  <text x="178" y="664"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="24" fill="#1d7a45">○</text>
+
+  <text x="212" y="664"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="24" fill="#152b42">Correct definition of Moore’s Law.</text>
+
+  <!-- البند 2 -->
+  <text x="132" y="719"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="24" fill="#1d7a45">2.</text>
+
+  <text x="955" y="714"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="26" fill="#1d7a45">○</text>
+
+  <text x="920" y="714"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="26" fill="#1b4f8a">يواجه استمرار تصغير المكونات تحديات هندسية وفيزيائية.</text>
+
+  <text x="178" y="746"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="24" fill="#1d7a45">○</text>
+
+  <text x="212" y="746"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="24" fill="#152b42">
+    <tspan x="212" dy="0">Continued component miniaturization faces</tspan>
+    <tspan x="212" dy="28">engineering and physical challenges.</tspan>
+  </text>
+
+  <!-- البند 3 -->
+  <text x="132" y="829"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="24" fill="#1d7a45">3.</text>
+
+  <text x="955" y="824"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="26" fill="#1d7a45">○</text>
+
+  <text x="920" y="824"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="26" fill="#1b4f8a">تساعد شبكات التواصل الاجتماعي على نشر المعلومات بسرعة.</text>
+
+  <text x="178" y="856"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="24" fill="#1d7a45">○</text>
+
+  <text x="212" y="856"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="24" fill="#152b42">SNS helps spread information rapidly.</text>
+
+  <!-- البند 4 -->
+  <text x="132" y="911"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="24" fill="#c1272d">4.</text>
+
+  <text x="955" y="906"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="26" font-weight="bold" fill="#c1272d">×</text>
+
+  <text x="920" y="906"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="26" fill="#1b4f8a">
+    <tspan x="920" dy="0">التجارة الإلكترونية هي البيع والشراء عبر الإنترنت،</tspan>
+    <tspan x="920" dy="30">وليست الشراء من متجر فعلي باستخدام النقد.</tspan>
+  </text>
+
+  <text x="178" y="968"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="24" font-weight="bold" fill="#c1272d">×</text>
+
+  <text x="212" y="968"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="24" fill="#152b42">
+    <tspan x="212" dy="0">E-commerce means buying and selling through the</tspan>
+    <tspan x="212" dy="28">Internet, not purchasing at a physical store using cash.</tspan>
+  </text>
+
+  <!-- حل التوصيل -->
+  <text x="955" y="1080"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="28" fill="#1b4f8a">
+    <tspan x="955" dy="0">أ / a → B: الواقع المعزز AR</tspan>
+    <tspan x="955" dy="34">ب / b → A: القيادة الذاتية Autonomous Driving</tspan>
+    <tspan x="955" dy="34">ج / c → C: الواقع الافتراضي VR</tspan>
+  </text>
+
+</svg>
