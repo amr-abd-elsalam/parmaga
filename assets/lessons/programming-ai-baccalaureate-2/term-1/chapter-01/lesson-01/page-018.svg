@@ -1,0 +1,203 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+
+  <defs>
+    <linearGradient id="deskWood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b8804a"/>
+      <stop offset="0.55" stop-color="#a06a38"/>
+      <stop offset="1" stop-color="#8a5629"/>
+    </linearGradient>
+    <linearGradient id="paperTone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fefcf5"/>
+      <stop offset="1" stop-color="#faf5e7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 1. الخلفية البسيطة -->
+  <rect x="0" y="0" width="1080" height="1350" fill="url(#deskWood)"/>
+  <path d="M0 210 C 300 250, 760 150, 1080 205" stroke="#7d4d24" stroke-width="10" fill="none" opacity="0.12"/>
+  <path d="M0 1120 C 320 1070, 780 1170, 1080 1110" stroke="#7d4d24" stroke-width="12" fill="none" opacity="0.10"/>
+
+  <!-- 2. الورق -->
+  <rect x="40" y="32" width="1012" height="1298" fill="#6b421d" opacity="0.22" rx="8"/>
+  <rect x="34" y="26" width="1012" height="1298" fill="url(#paperTone)" rx="8"/>
+
+  <!-- 3. سطور الدفتر الزرقاء الباهتة -->
+  <g stroke="#b9d3e6" stroke-width="1.2" opacity="0.5">
+    <line x1="52" y1="150" x2="1028" y2="150"/>
+    <line x1="52" y1="182" x2="1028" y2="182"/>
+    <line x1="52" y1="214" x2="1028" y2="214"/>
+    <line x1="52" y1="246" x2="1028" y2="246"/>
+    <line x1="52" y1="278" x2="1028" y2="278"/>
+    <line x1="52" y1="310" x2="1028" y2="310"/>
+    <line x1="52" y1="342" x2="1028" y2="342"/>
+    <line x1="52" y1="374" x2="1028" y2="374"/>
+    <line x1="52" y1="406" x2="1028" y2="406"/>
+    <line x1="52" y1="438" x2="1028" y2="438"/>
+    <line x1="52" y1="470" x2="1028" y2="470"/>
+    <line x1="52" y1="502" x2="1028" y2="502"/>
+    <line x1="52" y1="534" x2="1028" y2="534"/>
+    <line x1="52" y1="566" x2="1028" y2="566"/>
+    <line x1="52" y1="598" x2="1028" y2="598"/>
+    <line x1="52" y1="630" x2="1028" y2="630"/>
+    <line x1="52" y1="662" x2="1028" y2="662"/>
+    <line x1="52" y1="694" x2="1028" y2="694"/>
+    <line x1="52" y1="726" x2="1028" y2="726"/>
+    <line x1="52" y1="758" x2="1028" y2="758"/>
+    <line x1="52" y1="790" x2="1028" y2="790"/>
+    <line x1="52" y1="822" x2="1028" y2="822"/>
+    <line x1="52" y1="854" x2="1028" y2="854"/>
+    <line x1="52" y1="886" x2="1028" y2="886"/>
+    <line x1="52" y1="918" x2="1028" y2="918"/>
+    <line x1="52" y1="950" x2="1028" y2="950"/>
+    <line x1="52" y1="982" x2="1028" y2="982"/>
+    <line x1="52" y1="1014" x2="1028" y2="1014"/>
+    <line x1="52" y1="1046" x2="1028" y2="1046"/>
+    <line x1="52" y1="1078" x2="1028" y2="1078"/>
+    <line x1="52" y1="1110" x2="1028" y2="1110"/>
+    <line x1="52" y1="1142" x2="1028" y2="1142"/>
+    <line x1="52" y1="1174" x2="1028" y2="1174"/>
+    <line x1="52" y1="1206" x2="1028" y2="1206"/>
+    <line x1="52" y1="1238" x2="1028" y2="1238"/>
+    <line x1="52" y1="1270" x2="1028" y2="1270"/>
+  </g>
+
+  <!-- 4. الإطار الأحمر الخارجي الوحيد -->
+  <rect x="67" y="62" width="946" height="1240" rx="6" fill="none" stroke="#c62828" stroke-width="2.4"/>
+
+  <!-- 5. خلفيات الألواح والجدول -->
+  <rect x="100" y="165" width="880" height="42" rx="10" fill="#dcefd7" stroke="#7ba871" stroke-width="1.5"/>
+  <rect x="100" y="428" width="880" height="42" rx="10" fill="#dcefd7" stroke="#7ba871" stroke-width="1.5"/>
+  <rect x="100" y="866" width="880" height="42" rx="10" fill="#dcefd7" stroke="#7ba871" stroke-width="1.5"/>
+  <rect x="95" y="632" width="890" height="48" fill="#e9f5e5"/>
+  <rect x="100" y="1040" width="880" height="126" rx="12" fill="#fdf6d9" stroke="#d9c46e" stroke-width="1.6"/>
+
+  <!-- 6. خطوط الجدول الوظيفية -->
+  <g stroke="#c1443f" stroke-width="1.6" fill="none">
+    <rect x="95" y="632" width="890" height="222"/>
+    <line x1="95" y1="680" x2="985" y2="680"/>
+    <line x1="95" y1="730" x2="985" y2="730"/>
+    <line x1="95" y1="780" x2="985" y2="780"/>
+    <line x1="515" y1="632" x2="515" y2="854"/>
+    <line x1="750" y1="632" x2="750" y2="854"/>
+  </g>
+
+  <!-- 7. النصوص التعليمية -->
+
+  <!-- العنوان -->
+  <text x="540" y="114" direction="rtl" unicode-bidi="plaintext" text-anchor="middle"
+        font-family="Tahoma, Arial, 'Segoe UI', sans-serif" font-size="38" font-weight="bold" fill="#123f73">فكّر كمهندس: ابحث ثم قرّر</text>
+  <text x="540" y="147" direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
+        font-family="'Segoe Print', 'Comic Sans MS', Arial, sans-serif" font-size="24" fill="#1b3a5c">Think as an Engineer: Investigate and Decide</text>
+
+  <!-- القسم الأول -->
+  <text x="950" y="195" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, 'Segoe UI', sans-serif" font-size="26" font-weight="bold" fill="#14508c">1. اجمع البيانات —</text>
+  <text x="125" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="'Segoe Print', 'Comic Sans MS', Arial, sans-serif" font-size="22" font-weight="bold" fill="#1c4b7a">Collect Data</text>
+
+  <text x="950" y="229" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, 'Segoe UI', sans-serif" font-size="27" fill="#1b5aa0">
+    <tspan x="950" dy="0">اسأل عشرة من زملائك: هل يدفعون عادةً نقدًا أم</tspan>
+    <tspan x="950" dy="32">بطريقة غير نقدية، مثل البطاقة أو تطبيق الهاتف أو رمز QR؟</tspan>
+    <tspan x="950" dy="32">سجّل النتائج وحدّد الطريقة الأكثر شيوعًا.</tspan>
+  </text>
+
+  <text x="120" y="325" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="'Segoe Print', 'Comic Sans MS', Arial, sans-serif" font-size="24" fill="#16304d">
+    <tspan x="120" dy="0">Survey ten classmates: do they usually pay with cash</tspan>
+    <tspan x="120" dy="27">or with a cashless method, such as a card, mobile app,</tspan>
+    <tspan x="120" dy="27">or QR code? Record the results and identify the most</tspan>
+    <tspan x="120" dy="27">common response.</tspan>
+  </text>
+
+  <!-- القسم الثاني -->
+  <text x="950" y="458" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, 'Segoe UI', sans-serif" font-size="26" font-weight="bold" fill="#14508c">2. حلّل أصحاب المصلحة —</text>
+  <text x="125" y="457" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="'Segoe Print', 'Comic Sans MS', Arial, sans-serif" font-size="22" font-weight="bold" fill="#1c4b7a">Analyze the Stakeholders</text>
+
+  <text x="950" y="492" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, 'Segoe UI', sans-serif" font-size="27" fill="#1b5aa0">
+    <tspan x="950" dy="0">استنادًا إلى نتائج الاستطلاع وتفكيرك، اذكر فائدة واحدة</tspan>
+    <tspan x="950" dy="32">وعيبًا واحدًا للدفع غير النقدي لكل مجموعة.</tspan>
+  </text>
+
+  <text x="120" y="556" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="'Segoe Print', 'Comic Sans MS', Arial, sans-serif" font-size="24" fill="#16304d">
+    <tspan x="120" dy="0">Using your survey results and your own reasoning,</tspan>
+    <tspan x="120" dy="27">identify one benefit and one drawback of cashless</tspan>
+    <tspan x="120" dy="27">payment for each group.</tspan>
+  </text>
+
+  <!-- رؤوس الجدول -->
+  <text x="305" y="652" direction="rtl" unicode-bidi="plaintext" text-anchor="middle"
+        font-family="Tahoma, Arial, 'Segoe UI', sans-serif" font-size="21" font-weight="bold" fill="#14508c">المجموعة</text>
+  <text x="305" y="671" direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
+        font-family="'Segoe Print', 'Comic Sans MS', Arial, sans-serif" font-size="18" font-weight="bold" fill="#16304d">Group</text>
+
+  <text x="632" y="652" direction="rtl" unicode-bidi="plaintext" text-anchor="middle"
+        font-family="Tahoma, Arial, 'Segoe UI', sans-serif" font-size="21" font-weight="bold" fill="#14508c">الفائدة</text>
+  <text x="632" y="671" direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
+        font-family="'Segoe Print', 'Comic Sans MS', Arial, sans-serif" font-size="18" font-weight="bold" fill="#16304d">Benefit</text>
+
+  <text x="867" y="652" direction="rtl" unicode-bidi="plaintext" text-anchor="middle"
+        font-family="Tahoma, Arial, 'Segoe UI', sans-serif" font-size="21" font-weight="bold" fill="#14508c">العيب</text>
+  <text x="867" y="671" direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
+        font-family="'Segoe Print', 'Comic Sans MS', Arial, sans-serif" font-size="18" font-weight="bold" fill="#16304d">Drawback</text>
+
+  <!-- صفوف الجدول: عمود المجموعة فقط، وباقي الخلايا فارغة -->
+  <text x="305" y="700" direction="rtl" unicode-bidi="plaintext" text-anchor="middle"
+        font-family="Tahoma, Arial, 'Segoe UI', sans-serif" font-size="21" fill="#1b5aa0">عميل يدفع</text>
+  <text x="305" y="720" direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
+        font-family="'Segoe Print', 'Comic Sans MS', Arial, sans-serif" font-size="18" fill="#16304d">A customer paying</text>
+
+  <text x="305" y="750" direction="rtl" unicode-bidi="plaintext" text-anchor="middle"
+        font-family="Tahoma, Arial, 'Segoe UI', sans-serif" font-size="21" fill="#1b5aa0">صاحب متجر صغير</text>
+  <text x="305" y="770" direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
+        font-family="'Segoe Print', 'Comic Sans MS', Arial, sans-serif" font-size="18" fill="#16304d">A small shop owner</text>
+
+  <text x="305" y="800" direction="rtl" unicode-bidi="plaintext" text-anchor="middle"
+        font-family="Tahoma, Arial, 'Segoe UI', sans-serif" font-size="21" fill="#1b5aa0">شخص لا يملك بطاقة بنكية أو هاتفًا ذكيًا</text>
+  <text x="305" y="823" direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
+        font-family="'Segoe Print', 'Comic Sans MS', Arial, sans-serif" font-size="18" fill="#16304d">
+    <tspan x="305" dy="0">A person with no bank card</tspan>
+    <tspan x="305" dy="20">or smartphone</tspan>
+  </text>
+
+  <!-- القسم الثالث -->
+  <text x="950" y="896" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, 'Segoe UI', sans-serif" font-size="26" font-weight="bold" fill="#14508c">3. اتخذ قرارًا —</text>
+  <text x="125" y="895" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="'Segoe Print', 'Comic Sans MS', Arial, sans-serif" font-size="22" font-weight="bold" fill="#1c4b7a">Decide</text>
+
+  <text x="950" y="930" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, 'Segoe UI', sans-serif" font-size="27" fill="#1b5aa0">
+    <tspan x="950" dy="0">هل ينبغي أن يتجه مجتمعك نحو الدفع غير النقدي؟</tspan>
+    <tspan x="950" dy="32">أوصِ بخطوة واحدة، واذكر سببين.</tspan>
+  </text>
+
+  <text x="120" y="994" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="'Segoe Print', 'Comic Sans MS', Arial, sans-serif" font-size="24" fill="#16304d">
+    <tspan x="120" dy="0">Should your community move toward cashless payment?</tspan>
+    <tspan x="120" dy="27">Recommend one step and give two reasons.</tspan>
+  </text>
+
+  <!-- صندوق التلميح -->
+  <text x="940" y="1072" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, 'Segoe UI', sans-serif" font-size="23" fill="#7a5a12">
+    <tspan x="940" dy="0">تلميح: ابدأ باحتياجات العميل؛ فقد تكون سرعة الدفع فائدة محتملة،</tspan>
+    <tspan x="940" dy="28">والحاجة إلى بطاقة أو هاتف ذكي عيبًا محتملًا.</tspan>
+  </text>
+
+  <text x="135" y="1130" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="'Segoe Print', 'Comic Sans MS', Arial, sans-serif" font-size="21" fill="#5f4a10">
+    <tspan x="135" dy="0">Hint: Start with the customer. Speed of payment may be a</tspan>
+    <tspan x="135" dy="26">benefit, while needing a card or smartphone may be a drawback.</tspan>
+  </text>
+
+</svg>

@@ -1,0 +1,313 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+
+  <defs>
+    <linearGradient id="woodGrad01" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b3814f"/>
+      <stop offset="0.55" stop-color="#9a6a3e"/>
+      <stop offset="1" stop-color="#7f5330"/>
+    </linearGradient>
+    <linearGradient id="paperGrad01" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf6"/>
+      <stop offset="1" stop-color="#fbf6e9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 1) خلفية خشبية بسيطة -->
+  <rect x="0" y="0" width="1080" height="1350" fill="url(#woodGrad01)"/>
+  <path d="M0 250 C 300 210, 760 300, 1080 240 L1080 292 C 760 352, 300 262, 0 302 Z"
+        fill="#6f4826" opacity="0.13"/>
+  <path d="M0 980 C 320 1030, 720 940, 1080 1000 L1080 1052 C 720 992, 320 1082, 0 1032 Z"
+        fill="#6f4826" opacity="0.11"/>
+
+  <!-- 2) ظل بسيط + ورقة دفتر -->
+  <rect x="42" y="40" width="1012" height="1290" rx="10" fill="#4a3018" opacity="0.30"/>
+  <rect x="34" y="30" width="1012" height="1290" rx="10" fill="url(#paperGrad01)"/>
+
+  <!-- 3) سطور الدفتر الزرقاء الباهتة -->
+  <g stroke="#cfe0f2" stroke-width="1.2" opacity="0.6">
+    <line x1="80" y1="110" x2="1000" y2="110"/>
+    <line x1="80" y1="142" x2="1000" y2="142"/>
+    <line x1="80" y1="174" x2="1000" y2="174"/>
+    <line x1="80" y1="206" x2="1000" y2="206"/>
+    <line x1="80" y1="238" x2="1000" y2="238"/>
+    <line x1="80" y1="270" x2="1000" y2="270"/>
+    <line x1="80" y1="302" x2="1000" y2="302"/>
+    <line x1="80" y1="334" x2="1000" y2="334"/>
+    <line x1="80" y1="366" x2="1000" y2="366"/>
+    <line x1="80" y1="398" x2="1000" y2="398"/>
+    <line x1="80" y1="430" x2="1000" y2="430"/>
+    <line x1="80" y1="462" x2="1000" y2="462"/>
+    <line x1="80" y1="494" x2="1000" y2="494"/>
+    <line x1="80" y1="526" x2="1000" y2="526"/>
+    <line x1="80" y1="558" x2="1000" y2="558"/>
+    <line x1="80" y1="590" x2="1000" y2="590"/>
+    <line x1="80" y1="622" x2="1000" y2="622"/>
+    <line x1="80" y1="654" x2="1000" y2="654"/>
+    <line x1="80" y1="686" x2="1000" y2="686"/>
+    <line x1="80" y1="718" x2="1000" y2="718"/>
+    <line x1="80" y1="750" x2="1000" y2="750"/>
+    <line x1="80" y1="782" x2="1000" y2="782"/>
+    <line x1="80" y1="814" x2="1000" y2="814"/>
+    <line x1="80" y1="846" x2="1000" y2="846"/>
+    <line x1="80" y1="878" x2="1000" y2="878"/>
+    <line x1="80" y1="910" x2="1000" y2="910"/>
+    <line x1="80" y1="942" x2="1000" y2="942"/>
+    <line x1="80" y1="974" x2="1000" y2="974"/>
+    <line x1="80" y1="1006" x2="1000" y2="1006"/>
+    <line x1="80" y1="1038" x2="1000" y2="1038"/>
+    <line x1="80" y1="1070" x2="1000" y2="1070"/>
+    <line x1="80" y1="1102" x2="1000" y2="1102"/>
+    <line x1="80" y1="1134" x2="1000" y2="1134"/>
+    <line x1="80" y1="1166" x2="1000" y2="1166"/>
+    <line x1="80" y1="1198" x2="1000" y2="1198"/>
+    <line x1="80" y1="1230" x2="1000" y2="1230"/>
+    <line x1="80" y1="1262" x2="1000" y2="1262"/>
+  </g>
+
+  <!-- 4) إطار أحمر خارجي واحد فقط (لا يوجد أي خط هامش رأسي داخلي) -->
+  <rect x="67" y="72" width="946" height="1218" rx="5"
+        fill="none" stroke="#c0392b" stroke-width="2.6"/>
+
+  <!-- 5) خلفيات البطاقات والصناديق -->
+  <rect x="115" y="176" width="850" height="44" rx="9"
+        fill="#eaf2fb" stroke="#b9cfe4" stroke-width="1.2"/>
+
+  <rect x="115" y="226" width="850" height="80" rx="12"
+        fill="#fdf7dc" stroke="#e0cf92" stroke-width="1.4"/>
+
+  <rect x="115" y="750" width="850" height="44" rx="9"
+        fill="#eaf2fb" stroke="#b9cfe4" stroke-width="1.2"/>
+
+  <rect x="115" y="1074" width="270" height="86" rx="11"
+        fill="#f5faf1" stroke="#b8d4b9" stroke-width="1.3"/>
+  <rect x="405" y="1074" width="270" height="86" rx="11"
+        fill="#f5faf1" stroke="#b8d4b9" stroke-width="1.3"/>
+  <rect x="695" y="1074" width="270" height="86" rx="11"
+        fill="#f5faf1" stroke="#b8d4b9" stroke-width="1.3"/>
+
+  <!-- 6) عناصر وظيفية: دوائر الاستجابة الفارغة وصناديق التوصيل الفارغة والفواصل -->
+  <g fill="#ffffff" stroke="#93b0cd" stroke-width="2.2">
+    <circle cx="932" cy="336" r="23"/>
+    <circle cx="932" cy="466" r="23"/>
+    <circle cx="932" cy="542" r="23"/>
+    <circle cx="932" cy="622" r="23"/>
+  </g>
+
+  <g fill="#ffffff" stroke="#93b0cd" stroke-width="2.2">
+    <rect x="906" y="800" width="48" height="48" rx="8"/>
+    <rect x="906" y="876" width="48" height="48" rx="8"/>
+    <rect x="906" y="952" width="48" height="48" rx="8"/>
+  </g>
+
+  <line x1="150" y1="736" x2="930" y2="736" stroke="#b9cfe4" stroke-width="1.6"/>
+  <line x1="330" y1="170" x2="750" y2="170" stroke="#b9cfe4" stroke-width="1.6"/>
+
+  <!-- 7) النصوص التعليمية -->
+
+  <!-- العنوان العربي -->
+  <text x="540" y="118"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="middle"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="36" font-weight="bold" fill="#14416e">مثال محلول: صح أم خطأ وصِل</text>
+
+  <!-- العنوان الإنجليزي -->
+  <text x="540" y="153"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="25" fill="#2f4a63">Worked Example: True or False and Matching</text>
+
+  <!-- عنوان القسم الأول -->
+  <text x="945" y="206"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="28" font-weight="bold" fill="#14416e">أولًا: صح أم خطأ</text>
+
+  <text x="135" y="206"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="23" fill="#2f4a63">First: True or False</text>
+
+  <!-- التعليمة -->
+  <text x="945" y="262"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial Unicode MS, Segoe UI Symbol, Arial, sans-serif"
+        font-size="23" fill="#7a5b12">ضع علامة ○ إذا كانت العبارة صحيحة، أو × إذا كانت خاطئة.</text>
+
+  <text x="135" y="292"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Segoe UI Symbol, Arial, sans-serif"
+        font-size="21" fill="#7a5b12">Mark each statement with ○ if it is true or × if it is false.</text>
+
+  <!-- العبارة 1 -->
+  <text x="886" y="344"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="24" fill="#225f9c">
+    <tspan x="886" dy="0">قانون مور هو ملاحظة تجريبية تفيد بأن عدد الترانزستورات</tspan>
+    <tspan x="886" dy="29">في الدائرة المتكاملة يتضاعف تقريبًا كل عامين.</tspan>
+  </text>
+
+  <text x="125" y="402"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="22" fill="#152b42">
+    <tspan x="125" dy="0">Moore’s Law is the empirical observation that the number of</tspan>
+    <tspan x="125" dy="25">transistors on an integrated circuit doubles approximately</tspan>
+    <tspan x="125" dy="25">every two years.</tspan>
+  </text>
+
+  <!-- العبارة 2 -->
+  <text x="886" y="474"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="24" fill="#225f9c">
+    <tspan x="886" dy="0">يقال إن قانون مور يقترب من حدود فيزيائية في السنوات الأخيرة.</tspan>
+  </text>
+
+  <text x="125" y="503"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="22" fill="#152b42">
+    <tspan x="125" dy="0">Moore’s Law has been said to be approaching physical limits</tspan>
+    <tspan x="125" dy="25">in recent years.</tspan>
+  </text>
+
+  <!-- العبارة 3 -->
+  <text x="886" y="550"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="24" fill="#225f9c">
+    <tspan x="886" dy="0">تتميز شبكات التواصل الاجتماعي بفاعليتها العالية</tspan>
+    <tspan x="886" dy="29">في نشر المعلومات بسرعة.</tspan>
+  </text>
+
+  <text x="125" y="608"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="22" fill="#152b42">
+    <tspan x="125" dy="0">SNS is highly effective at spreading information rapidly.</tspan>
+  </text>
+
+  <!-- العبارة 4 -->
+  <text x="886" y="630"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="24" fill="#225f9c">
+    <tspan x="886" dy="0">تشير التجارة الإلكترونية إلى شراء السلع</tspan>
+    <tspan x="886" dy="29">من المتاجر الفعلية باستخدام النقد.</tspan>
+  </text>
+
+  <text x="125" y="688"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="22" fill="#152b42">
+    <tspan x="125" dy="0">E-commerce refers to purchasing goods at physical</tspan>
+    <tspan x="125" dy="25">stores using cash.</tspan>
+  </text>
+
+  <!-- عنوان القسم الثاني -->
+  <text x="945" y="780"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="28" font-weight="bold" fill="#14416e">ثانيًا: صِل</text>
+
+  <text x="135" y="780"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="23" fill="#2f4a63">Second: Match</text>
+
+  <!-- الوصف أ / a -->
+  <text x="886" y="822"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="24" fill="#225f9c">
+    <tspan x="886" dy="0"><tspan fill="#1e7d4f" font-weight="bold">أ / a:</tspan> تقنية تضيف معلومات رقمية إلى صور من العالم الحقيقي.</tspan>
+  </text>
+
+  <text x="125" y="851"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="22" fill="#152b42">
+    <tspan x="125" dy="0">A technology that overlays digital information</tspan>
+    <tspan x="125" dy="25">on real-world images.</tspan>
+  </text>
+
+  <!-- الوصف ب / b -->
+  <text x="886" y="898"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="24" fill="#225f9c">
+    <tspan x="886" dy="0"><tspan fill="#1e7d4f" font-weight="bold">ب / b:</tspan> تقنية تستخدم الذكاء الاصطناعي لقيادة مركبة دون تدخل بشري.</tspan>
+  </text>
+
+  <text x="125" y="927"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="22" fill="#152b42">
+    <tspan x="125" dy="0">A technology that uses AI to drive a vehicle</tspan>
+    <tspan x="125" dy="25">without human operation.</tspan>
+  </text>
+
+  <!-- الوصف ج / c -->
+  <text x="886" y="974"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="24" fill="#225f9c">
+    <tspan x="886" dy="0"><tspan fill="#1e7d4f" font-weight="bold">ج / c:</tspan> تقنية تتيح للمستخدم الانغماس</tspan>
+    <tspan x="886" dy="29">في مساحة افتراضية ينشئها الحاسوب.</tspan>
+  </text>
+
+  <text x="125" y="1032"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="22" fill="#152b42">
+    <tspan x="125" dy="0">A technology that allows users to immerse themselves</tspan>
+    <tspan x="125" dy="25">in a virtual space generated by a computer.</tspan>
+  </text>
+
+  <!-- الاختيارات A / B / C -->
+  <text x="134" y="1108"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="25" font-weight="bold" fill="#1e7d4f">A</text>
+  <text x="368" y="1108"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="21" fill="#225f9c">القيادة الذاتية</text>
+  <text x="134" y="1142"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="20" fill="#152b42">Autonomous Driving</text>
+
+  <text x="424" y="1108"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="25" font-weight="bold" fill="#1e7d4f">B</text>
+  <text x="658" y="1108"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="21" fill="#225f9c">الواقع المعزز</text>
+  <text x="424" y="1142"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="20" fill="#152b42">AR</text>
+
+  <text x="714" y="1108"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="25" font-weight="bold" fill="#1e7d4f">C</text>
+  <text x="948" y="1108"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="21" fill="#225f9c">الواقع الافتراضي</text>
+  <text x="714" y="1142"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="20" fill="#152b42">VR</text>
+
+</svg>

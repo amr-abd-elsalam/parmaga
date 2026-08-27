@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+
+  <defs>
+    <linearGradient id="deskWoodGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b07a42"/>
+      <stop offset="0.5" stop-color="#96622f"/>
+      <stop offset="1" stop-color="#7d4f24"/>
+    </linearGradient>
+    <linearGradient id="paperToneGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf6"/>
+      <stop offset="1" stop-color="#faf5e8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- الخلفية الخشبية البسيطة -->
+  <rect x="0" y="0" width="1080" height="1350" fill="url(#deskWoodGrad)"/>
+  <path d="M0 240 C 300 200, 760 300, 1080 250" fill="none" stroke="#5f3a18" stroke-width="14" opacity="0.10"/>
+  <path d="M0 1080 C 320 1030, 780 1130, 1080 1075" fill="none" stroke="#5f3a18" stroke-width="12" opacity="0.09"/>
+
+  <!-- ظل بسيط تحت الورقة -->
+  <rect x="42" y="32" width="1012" height="1308" rx="10" fill="#3a2513" opacity="0.22"/>
+
+  <!-- الورقة -->
+  <rect x="34" y="22" width="1012" height="1308" rx="8" fill="url(#paperToneGrad)"/>
+
+  <!-- أسطر الكراسة الأفقية الزرقاء الفاتحة -->
+  <g stroke="#cfe1f0" stroke-width="1.4">
+    <line x1="85" y1="100" x2="995" y2="100"/>
+    <line x1="85" y1="136" x2="995" y2="136"/>
+    <line x1="85" y1="172" x2="995" y2="172"/>
+    <line x1="85" y1="208" x2="995" y2="208"/>
+    <line x1="85" y1="244" x2="995" y2="244"/>
+    <line x1="85" y1="280" x2="995" y2="280"/>
+    <line x1="85" y1="316" x2="995" y2="316"/>
+    <line x1="85" y1="352" x2="995" y2="352"/>
+    <line x1="85" y1="388" x2="995" y2="388"/>
+    <line x1="85" y1="424" x2="995" y2="424"/>
+    <line x1="85" y1="460" x2="995" y2="460"/>
+    <line x1="85" y1="496" x2="995" y2="496"/>
+    <line x1="85" y1="532" x2="995" y2="532"/>
+    <line x1="85" y1="568" x2="995" y2="568"/>
+    <line x1="85" y1="604" x2="995" y2="604"/>
+    <line x1="85" y1="640" x2="995" y2="640"/>
+    <line x1="85" y1="676" x2="995" y2="676"/>
+    <line x1="85" y1="712" x2="995" y2="712"/>
+    <line x1="85" y1="748" x2="995" y2="748"/>
+    <line x1="85" y1="784" x2="995" y2="784"/>
+    <line x1="85" y1="820" x2="995" y2="820"/>
+    <line x1="85" y1="856" x2="995" y2="856"/>
+    <line x1="85" y1="892" x2="995" y2="892"/>
+    <line x1="85" y1="928" x2="995" y2="928"/>
+    <line x1="85" y1="964" x2="995" y2="964"/>
+    <line x1="85" y1="1000" x2="995" y2="1000"/>
+    <line x1="85" y1="1036" x2="995" y2="1036"/>
+    <line x1="85" y1="1072" x2="995" y2="1072"/>
+    <line x1="85" y1="1108" x2="995" y2="1108"/>
+    <line x1="85" y1="1144" x2="995" y2="1144"/>
+  </g>
+
+  <!-- الإطار الأحمر الخارجي الوحيد -->
+  <rect x="67" y="55" width="946" height="1257" rx="5" fill="none" stroke="#c8352f" stroke-width="2.4"/>
+
+  <!-- العناوين -->
+  <text x="540"
+        y="112"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="52"
+        font-weight="bold"
+        fill="#16447d">توقف وفكّر</text>
+
+  <text x="540"
+        y="152"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="32"
+        fill="#2b4a66">Pause and Think</text>
+
+  <line x1="410" y1="168" x2="670" y2="168" stroke="#9fb8cd" stroke-width="2"/>
+
+  <!-- ===== البطاقة الأولى ===== -->
+  <rect x="100" y="184" width="880" height="244" rx="18" fill="#fdf8e6" stroke="#dcc98d" stroke-width="2"/>
+
+  <g stroke="#d1932a" stroke-linecap="round">
+    <line x1="150" y1="200" x2="150" y2="193" stroke-width="2.4"/>
+    <line x1="131" y1="208" x2="126" y2="202" stroke-width="2.4"/>
+    <line x1="169" y1="208" x2="174" y2="202" stroke-width="2.4"/>
+  </g>
+  <circle cx="150" cy="226" r="15" fill="#fff2c4" stroke="#d1932a" stroke-width="2.4"/>
+  <path d="M146 224 L150 231 L154 224" fill="none" stroke="#d1932a" stroke-width="2"/>
+  <line x1="143" y1="243" x2="157" y2="243" stroke="#d1932a" stroke-width="3" stroke-linecap="round"/>
+  <line x1="145" y1="249" x2="155" y2="249" stroke="#d1932a" stroke-width="3" stroke-linecap="round"/>
+
+  <text x="940"
+        y="230"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30"
+        fill="#1b4f8f">
+    <tspan x="940" dy="0">من بين التغيرات الاجتماعية الخمسة، أيها سيكون</tspan>
+    <tspan x="940" dy="36">من الأصعب أن تتخلى عنه، ولماذا؟</tspan>
+  </text>
+
+  <text x="138"
+        y="308"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27"
+        fill="#152b42">
+    <tspan x="138" dy="0">Of the five social changes, which would be</tspan>
+    <tspan x="138" dy="31">hardest to give up, and why?</tspan>
+  </text>
+
+  <g stroke="#a9c0d4" stroke-width="1.8">
+    <line x1="138" y1="374" x2="940" y2="374"/>
+    <line x1="138" y1="408" x2="940" y2="408"/>
+  </g>
+
+  <!-- ===== البطاقة الثانية ===== -->
+  <rect x="100" y="446" width="880" height="344" rx="18" fill="#fdf8e6" stroke="#dcc98d" stroke-width="2"/>
+
+  <g stroke="#d1932a" stroke-linecap="round">
+    <line x1="150" y1="462" x2="150" y2="455" stroke-width="2.4"/>
+    <line x1="131" y1="470" x2="126" y2="464" stroke-width="2.4"/>
+    <line x1="169" y1="470" x2="174" y2="464" stroke-width="2.4"/>
+  </g>
+  <circle cx="150" cy="488" r="15" fill="#fff2c4" stroke="#d1932a" stroke-width="2.4"/>
+  <path d="M146 486 L150 493 L154 486" fill="none" stroke="#d1932a" stroke-width="2"/>
+  <line x1="143" y1="505" x2="157" y2="505" stroke="#d1932a" stroke-width="3" stroke-linecap="round"/>
+  <line x1="145" y1="511" x2="155" y2="511" stroke="#d1932a" stroke-width="3" stroke-linecap="round"/>
+
+  <text x="940"
+        y="492"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30"
+        fill="#1b4f8f">
+    <tspan x="940" dy="0">في القيادة الذاتية، لماذا يجب معالجة البيانات فورًا</tspan>
+    <tspan x="940" dy="36">داخل السيارة باستخدام الحوسبة الطرفية، بدلًا من</tspan>
+    <tspan x="940" dy="36">إرسالها إلى السحابة وانتظار القرار؟ فسّر إجابتك.</tspan>
+  </text>
+
+  <text x="138"
+        y="604"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27"
+        fill="#152b42">
+    <tspan x="138" dy="0">In autonomous driving, why is it necessary to</tspan>
+    <tspan x="138" dy="31">process data instantly on the vehicle using edge</tspan>
+    <tspan x="138" dy="31">computing, rather than sending the data to the</tspan>
+    <tspan x="138" dy="31">cloud for judgment? Explain your answer.</tspan>
+  </text>
+
+  <g stroke="#a9c0d4" stroke-width="1.8">
+    <line x1="138" y1="732" x2="940" y2="732"/>
+    <line x1="138" y1="766" x2="940" y2="766"/>
+  </g>
+
+  <!-- ===== البطاقة الثالثة ===== -->
+  <rect x="100" y="808" width="880" height="344" rx="18" fill="#fdf8e6" stroke="#dcc98d" stroke-width="2"/>
+
+  <g stroke="#d1932a" stroke-linecap="round">
+    <line x1="150" y1="824" x2="150" y2="817" stroke-width="2.4"/>
+    <line x1="131" y1="832" x2="126" y2="826" stroke-width="2.4"/>
+    <line x1="169" y1="832" x2="174" y2="826" stroke-width="2.4"/>
+  </g>
+  <circle cx="150" cy="850" r="15" fill="#fff2c4" stroke="#d1932a" stroke-width="2.4"/>
+  <path d="M146 848 L150 855 L154 848" fill="none" stroke="#d1932a" stroke-width="2"/>
+  <line x1="143" y1="867" x2="157" y2="867" stroke="#d1932a" stroke-width="3" stroke-linecap="round"/>
+  <line x1="145" y1="873" x2="155" y2="873" stroke="#d1932a" stroke-width="3" stroke-linecap="round"/>
+
+  <text x="940"
+        y="854"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30"
+        fill="#1b4f8f">
+    <tspan x="940" dy="0">ينتشر الدفع غير النقدي في دول كثيرة. إذا أصبح</tspan>
+    <tspan x="940" dy="36">المجتمع غير نقدي بالكامل، فاختر فائدة محتملة</tspan>
+    <tspan x="940" dy="36">ومشكلة محتملة، واشرح بإيجاز سبب كل منهما.</tspan>
+  </text>
+
+  <text x="138"
+        y="966"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27"
+        fill="#152b42">
+    <tspan x="138" dy="0">Cashless payment is spreading in many countries.</tspan>
+    <tspan x="138" dy="31">If a fully cashless society were realized, choose one</tspan>
+    <tspan x="138" dy="31">possible advantage and one possible concern, and</tspan>
+    <tspan x="138" dy="31">briefly explain the reason for each.</tspan>
+  </text>
+
+  <g stroke="#a9c0d4" stroke-width="1.8">
+    <line x1="138" y1="1094" x2="940" y2="1094"/>
+    <line x1="138" y1="1128" x2="940" y2="1128"/>
+  </g>
+
+</svg>

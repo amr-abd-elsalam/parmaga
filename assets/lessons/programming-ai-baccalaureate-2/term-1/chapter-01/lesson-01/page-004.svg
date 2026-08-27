@@ -1,0 +1,255 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+
+  <defs>
+    <linearGradient id="deskWood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a9743f"/>
+      <stop offset="0.55" stop-color="#905c2c"/>
+      <stop offset="1" stop-color="#a06a36"/>
+    </linearGradient>
+    <linearGradient id="paperTone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fefcf5"/>
+      <stop offset="1" stop-color="#faf5e8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 1) خلفية المكتب الخشبي البسيطة -->
+  <rect x="0" y="0" width="1080" height="1350" fill="url(#deskWood)"/>
+  <path d="M0 250 C 300 210, 780 300, 1080 240" fill="none" stroke="#6f4520" stroke-width="16" opacity="0.13"/>
+  <path d="M0 980 C 320 1030, 760 930, 1080 1000" fill="none" stroke="#6f4520" stroke-width="14" opacity="0.11"/>
+
+  <!-- 2) الورقة -->
+  <rect x="44" y="42" width="1012" height="1290" fill="#3a2411" opacity="0.22"/>
+  <rect x="34" y="30" width="1012" height="1290" fill="url(#paperTone)"/>
+
+  <!-- 3) سطور الدفتر الأفقية الباهتة -->
+  <g stroke="#cfe0ef" stroke-width="1.3">
+    <line x1="78" y1="180" x2="1002" y2="180"/>
+    <line x1="78" y1="220" x2="1002" y2="220"/>
+    <line x1="78" y1="260" x2="1002" y2="260"/>
+    <line x1="78" y1="300" x2="1002" y2="300"/>
+    <line x1="78" y1="340" x2="1002" y2="340"/>
+    <line x1="78" y1="380" x2="1002" y2="380"/>
+    <line x1="78" y1="420" x2="1002" y2="420"/>
+    <line x1="78" y1="460" x2="1002" y2="460"/>
+    <line x1="78" y1="500" x2="1002" y2="500"/>
+    <line x1="78" y1="540" x2="1002" y2="540"/>
+    <line x1="78" y1="580" x2="1002" y2="580"/>
+    <line x1="78" y1="620" x2="1002" y2="620"/>
+    <line x1="78" y1="660" x2="1002" y2="660"/>
+    <line x1="78" y1="700" x2="1002" y2="700"/>
+    <line x1="78" y1="740" x2="1002" y2="740"/>
+    <line x1="78" y1="780" x2="1002" y2="780"/>
+    <line x1="78" y1="820" x2="1002" y2="820"/>
+    <line x1="78" y1="860" x2="1002" y2="860"/>
+    <line x1="78" y1="900" x2="1002" y2="900"/>
+    <line x1="78" y1="940" x2="1002" y2="940"/>
+    <line x1="78" y1="980" x2="1002" y2="980"/>
+    <line x1="78" y1="1020" x2="1002" y2="1020"/>
+    <line x1="78" y1="1060" x2="1002" y2="1060"/>
+    <line x1="78" y1="1100" x2="1002" y2="1100"/>
+    <line x1="78" y1="1140" x2="1002" y2="1140"/>
+  </g>
+
+  <!-- 4) الحدّ الأحمر الخارجي الوحيد -->
+  <rect x="67" y="92" width="946" height="1206" fill="none" stroke="#c62828" stroke-width="3"/>
+
+  <!-- 5) خلفيات البطاقات -->
+  <rect x="95" y="228" width="890" height="282" rx="16" fill="#f4f9ff" opacity="0.62" stroke="#9db9d6" stroke-width="1.6"/>
+  <rect x="95" y="578" width="890" height="366" rx="16" fill="#f4f9ff" opacity="0.62" stroke="#9db9d6" stroke-width="1.6"/>
+  <rect x="95" y="980" width="890" height="186" rx="16" fill="#fdf6d5" opacity="0.93" stroke="#dcc167" stroke-width="1.8"/>
+
+  <!-- 6) العناصر الوظيفية: السهم الأحمر والرسوم التوضيحية -->
+  <line x1="540" y1="522" x2="540" y2="556" stroke="#c62828" stroke-width="5" stroke-linecap="round"/>
+  <polygon points="540,572 526,548 554,548" fill="#c62828"/>
+
+  <!-- رسم الهاتف الذكي -->
+  <rect x="140" y="300" width="86" height="152" rx="13" fill="#eef4fb" stroke="#24425f" stroke-width="3"/>
+  <rect x="150" y="318" width="66" height="108" rx="4" fill="#d7e7f7" stroke="#24425f" stroke-width="1.6"/>
+  <line x1="170" y1="310" x2="196" y2="310" stroke="#24425f" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="183" cy="439" r="7" fill="none" stroke="#24425f" stroke-width="2.4"/>
+  <path d="M242 352 a 26 26 0 0 1 0 34" fill="none" stroke="#3d7dbd" stroke-width="3" stroke-linecap="round"/>
+  <path d="M252 340 a 40 40 0 0 1 0 58" fill="none" stroke="#3d7dbd" stroke-width="2.6" stroke-linecap="round" opacity="0.75"/>
+
+  <!-- رسم السحابة المتصلة بالخوادم -->
+  <g fill="#d6e6f7">
+    <circle cx="166" cy="676" r="26"/>
+    <circle cx="202" cy="662" r="33"/>
+    <circle cx="238" cy="678" r="23"/>
+    <rect x="140" y="676" width="112" height="28" rx="14"/>
+  </g>
+  <path d="M140 704 L252 704" stroke="#5d86ad" stroke-width="2" opacity="0.6"/>
+  <line x1="196" y1="706" x2="196" y2="754" stroke="#35506b" stroke-width="2.6"/>
+  <rect x="146" y="756" width="104" height="28" rx="5" fill="#eef2f6" stroke="#35506b" stroke-width="2"/>
+  <rect x="146" y="792" width="104" height="28" rx="5" fill="#eef2f6" stroke="#35506b" stroke-width="2"/>
+  <rect x="146" y="828" width="104" height="28" rx="5" fill="#eef2f6" stroke="#35506b" stroke-width="2"/>
+  <circle cx="162" cy="770" r="4.5" fill="#2e8b57"/>
+  <circle cx="178" cy="770" r="4.5" fill="#d98324"/>
+  <circle cx="162" cy="806" r="4.5" fill="#2e8b57"/>
+  <circle cx="178" cy="806" r="4.5" fill="#d98324"/>
+  <circle cx="162" cy="842" r="4.5" fill="#2e8b57"/>
+  <circle cx="178" cy="842" r="4.5" fill="#d98324"/>
+
+  <!-- 7) النص التعليمي -->
+
+  <!-- العنوان العربي -->
+  <text x="540" y="152"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="40"
+        font-weight="bold"
+        fill="#17457f">من الهواتف الذكية إلى الحوسبة السحابية</text>
+
+  <!-- العنوان الإنجليزي -->
+  <text x="540" y="194"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27"
+        fill="#1d3450">From Smartphones to Cloud Computing</text>
+
+  <line x1="330" y1="210" x2="750" y2="210" stroke="#9fb6cf" stroke-width="2"/>
+
+  <!-- المرحلة الأولى: عربي -->
+  <text x="945" y="272"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="31"
+        font-weight="bold"
+        fill="#17457f">العقد الأول من الألفية</text>
+
+  <text x="945" y="314"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="29"
+        fill="#225f9c">
+    <tspan x="945" dy="0">ظهور الهواتف الذكية</tspan>
+  </text>
+
+  <text x="945" y="356"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="28"
+        fill="#225f9c">
+    <tspan x="945" dy="0">الانتشار السريع للإنترنت عبر الهواتف المحمولة</tspan>
+  </text>
+
+  <!-- المرحلة الأولى: إنجليزي -->
+  <text x="280" y="404"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="29"
+        font-weight="bold"
+        fill="#152b42">2000s</text>
+
+  <text x="280" y="440"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="28"
+        fill="#152b42">
+    <tspan x="280" dy="0">Rise of smartphones</tspan>
+    <tspan x="280" dy="36">Rapid spread of mobile Internet</tspan>
+  </text>
+
+  <!-- المرحلة الثانية: عربي -->
+  <text x="945" y="622"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="31"
+        font-weight="bold"
+        fill="#17457f">من العقد الثاني من الألفية فصاعدًا</text>
+
+  <text x="945" y="666"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="29"
+        fill="#225f9c">
+    <tspan x="945" dy="0">انتشار الحوسبة السحابية</tspan>
+  </text>
+
+  <text x="300" y="666"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27"
+        fill="#1f6f4a">Cloud Computing</text>
+
+  <text x="945" y="710"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="28"
+        fill="#225f9c">
+    <tspan x="945" dy="0">تحليل البيانات الضخمة والذكاء الاصطناعي</tspan>
+    <tspan x="945" dy="40">وانتشار تكنولوجيا المعلومات بوصفها خدمة</tspan>
+  </text>
+
+  <!-- المرحلة الثانية: إنجليزي -->
+  <text x="300" y="796"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="29"
+        font-weight="bold"
+        fill="#152b42">2010s onward</text>
+
+  <text x="300" y="832"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="28"
+        fill="#152b42">
+    <tspan x="300" dy="0">Spread of cloud computing</tspan>
+    <tspan x="300" dy="36">Large-scale data analysis, AI, and the</tspan>
+    <tspan x="300" dy="36">spread of IT as a service</tspan>
+  </text>
+
+  <!-- شريط الخلاصة -->
+  <text x="945" y="1026"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30"
+        fill="#1c5285">
+    <tspan x="945" dy="0">أصبحت الأجهزة أصغر وأكثر اتصالًا،</tspan>
+    <tspan x="945" dy="40">وانتقلت خدمات كثيرة إلى الإنترنت.</tspan>
+  </text>
+
+  <text x="130" y="1106"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="28"
+        fill="#152b42">
+    <tspan x="130" dy="0">Devices became smaller and more connected,</tspan>
+    <tspan x="130" dy="36">while many services moved online.</tspan>
+  </text>
+
+</svg>

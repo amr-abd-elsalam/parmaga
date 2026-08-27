@@ -1,0 +1,290 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+
+  <defs>
+    <linearGradient id="deskWoodGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b07c50"/>
+      <stop offset="0.55" stop-color="#96613b"/>
+      <stop offset="1" stop-color="#7a4c2b"/>
+    </linearGradient>
+    <linearGradient id="paperGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf6"/>
+      <stop offset="1" stop-color="#fbf6e9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 1) الخلفية الخشبية البسيطة -->
+  <rect x="0" y="0" width="1080" height="1350" fill="url(#deskWoodGrad)"/>
+  <path d="M0,250 C300,215 780,300 1080,255" fill="none" stroke="#6d4325" stroke-width="14" opacity="0.13"/>
+  <path d="M0,1090 C320,1140 760,1050 1080,1105" fill="none" stroke="#6d4325" stroke-width="16" opacity="0.11"/>
+
+  <!-- 2) الورقة -->
+  <rect x="42" y="38" width="1012" height="1290" rx="8" fill="#3d2415" opacity="0.18"/>
+  <rect x="34" y="30" width="1012" height="1290" rx="7" fill="url(#paperGrad)"/>
+
+  <!-- 3) خطوط الكراسة الأفقية الباهتة -->
+  <g stroke="#bcd7ec" stroke-width="1.4" opacity="0.6">
+    <line x1="80" y1="138" x2="1000" y2="138"/>
+    <line x1="80" y1="176" x2="1000" y2="176"/>
+    <line x1="80" y1="214" x2="1000" y2="214"/>
+    <line x1="80" y1="252" x2="1000" y2="252"/>
+    <line x1="80" y1="290" x2="1000" y2="290"/>
+    <line x1="80" y1="328" x2="1000" y2="328"/>
+    <line x1="80" y1="366" x2="1000" y2="366"/>
+    <line x1="80" y1="404" x2="1000" y2="404"/>
+    <line x1="80" y1="442" x2="1000" y2="442"/>
+    <line x1="80" y1="480" x2="1000" y2="480"/>
+    <line x1="80" y1="518" x2="1000" y2="518"/>
+    <line x1="80" y1="556" x2="1000" y2="556"/>
+    <line x1="80" y1="594" x2="1000" y2="594"/>
+    <line x1="80" y1="632" x2="1000" y2="632"/>
+    <line x1="80" y1="670" x2="1000" y2="670"/>
+    <line x1="80" y1="708" x2="1000" y2="708"/>
+    <line x1="80" y1="746" x2="1000" y2="746"/>
+    <line x1="80" y1="784" x2="1000" y2="784"/>
+    <line x1="80" y1="822" x2="1000" y2="822"/>
+    <line x1="80" y1="860" x2="1000" y2="860"/>
+    <line x1="80" y1="898" x2="1000" y2="898"/>
+    <line x1="80" y1="936" x2="1000" y2="936"/>
+    <line x1="80" y1="974" x2="1000" y2="974"/>
+    <line x1="80" y1="1012" x2="1000" y2="1012"/>
+    <line x1="80" y1="1050" x2="1000" y2="1050"/>
+    <line x1="80" y1="1088" x2="1000" y2="1088"/>
+    <line x1="80" y1="1126" x2="1000" y2="1126"/>
+    <line x1="80" y1="1164" x2="1000" y2="1164"/>
+  </g>
+
+  <!-- 4) الإطار الأحمر الخارجي الوحيد -->
+  <rect x="67" y="62" width="946" height="1226" fill="none" stroke="#c0392b" stroke-width="2.6"/>
+
+  <!-- 5) خلفيات البطاقات -->
+  <rect x="95" y="210" width="890" height="274" rx="14" fill="#fdf7e3" stroke="#d8c087" stroke-width="1.8"/>
+  <rect x="95" y="510" width="890" height="274" rx="14" fill="#fdf7e3" stroke="#d8c087" stroke-width="1.8"/>
+  <rect x="95" y="810" width="890" height="346" rx="14" fill="#fdf7e3" stroke="#d8c087" stroke-width="1.8"/>
+
+  <!-- 6) الأيقونات الوظيفية البسيطة -->
+
+  <!-- أيقونة 1: حاسوب محمول -->
+  <g>
+    <rect x="126" y="236" width="62" height="42" rx="4" fill="#eaf2fa" stroke="#1f3b5c" stroke-width="3"/>
+    <rect x="134" y="244" width="46" height="26" rx="2" fill="#cfe0f2"/>
+    <polygon points="122,280 192,280 200,290 114,290" fill="#2c4a6e"/>
+  </g>
+
+  <!-- أيقونة 2: شاشة وقبعة تخرج -->
+  <g>
+    <polygon points="157,528 190,539 157,550 124,539" fill="#1e7a4d"/>
+    <line x1="189" y1="540" x2="189" y2="553" stroke="#1e7a4d" stroke-width="3"/>
+    <circle cx="189" cy="556" r="3.4" fill="#1e7a4d"/>
+    <rect x="126" y="558" width="62" height="42" rx="4" fill="#eaf2fa" stroke="#1f3b5c" stroke-width="3"/>
+    <rect x="134" y="566" width="46" height="26" rx="2" fill="#cfe0f2"/>
+    <rect x="150" y="600" width="14" height="8" fill="#1f3b5c"/>
+    <rect x="138" y="608" width="38" height="6" rx="3" fill="#1f3b5c"/>
+  </g>
+
+  <!-- أيقونة 3: هاتف ذكي برمز QR -->
+  <g>
+    <rect x="136" y="830" width="54" height="84" rx="9" fill="#eaf2fa" stroke="#1f3b5c" stroke-width="3"/>
+    <rect x="145" y="842" width="36" height="58" rx="2" fill="#ffffff" stroke="#b9cfe4" stroke-width="1"/>
+    <rect x="149" y="846" width="11" height="11" fill="none" stroke="#1f3b5c" stroke-width="2.4"/>
+    <rect x="167" y="846" width="11" height="11" fill="none" stroke="#1f3b5c" stroke-width="2.4"/>
+    <rect x="149" y="884" width="11" height="11" fill="none" stroke="#1f3b5c" stroke-width="2.4"/>
+    <rect x="166" y="864" width="5" height="5" fill="#1f3b5c"/>
+    <rect x="174" y="872" width="5" height="5" fill="#1f3b5c"/>
+    <rect x="156" y="868" width="5" height="5" fill="#1f3b5c"/>
+    <rect x="168" y="884" width="7" height="7" fill="#1f3b5c"/>
+    <line x1="155" y1="907" x2="171" y2="907" stroke="#1f3b5c" stroke-width="2.4"/>
+  </g>
+
+  <!-- 7) النصوص التعليمية -->
+
+  <!-- العنوان العربي -->
+  <text x="540"
+        y="118"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="42"
+        font-weight="bold"
+        fill="#b03a2e">العمل والتعلم والدفع عبر الإنترنت</text>
+
+  <!-- العنوان الإنجليزي -->
+  <text x="540"
+        y="166"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="30"
+        fill="#152b42">Working, Learning, and Paying Online</text>
+
+  <!-- ===== البطاقة الأولى ===== -->
+
+  <text x="950"
+        y="252"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="31"
+        font-weight="bold"
+        fill="#c0392b">العمل عن بُعد</text>
+
+  <text x="550"
+        y="252"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="28"
+        fill="#c0392b">Remote Work</text>
+
+  <text x="950"
+        y="296"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30"
+        fill="#225f9c">
+    <tspan x="950" dy="0">أداء العمل من المنزل أو من مكان آخر</tspan>
+    <tspan x="950" dy="38">باستخدام الإنترنت.</tspan>
+  </text>
+
+  <text x="230"
+        y="376"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="28"
+        fill="#c0392b">Remote Work</text>
+
+  <text x="230"
+        y="412"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27"
+        fill="#152b42">
+    <tspan x="230" dy="0">Working from home or another remote location</tspan>
+    <tspan x="230" dy="34">using the Internet.</tspan>
+  </text>
+
+  <!-- ===== البطاقة الثانية ===== -->
+
+  <text x="950"
+        y="552"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="31"
+        font-weight="bold"
+        fill="#c0392b">التعلم عبر الإنترنت</text>
+
+  <text x="420"
+        y="552"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="28"
+        fill="#c0392b">Online Learning</text>
+
+  <text x="950"
+        y="596"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30"
+        fill="#225f9c">
+    <tspan x="950" dy="0">تقديم الدروس والمواد التعليمية</tspan>
+    <tspan x="950" dy="38">عبر الإنترنت.</tspan>
+  </text>
+
+  <text x="230"
+        y="676"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="28"
+        fill="#c0392b">Online Learning</text>
+
+  <text x="230"
+        y="712"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27"
+        fill="#152b42">
+    <tspan x="230" dy="0">Delivering classes and study materials</tspan>
+    <tspan x="230" dy="34">through the Internet.</tspan>
+  </text>
+
+  <!-- ===== البطاقة الثالثة ===== -->
+
+  <text x="950"
+        y="852"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="31"
+        font-weight="bold"
+        fill="#c0392b">الدفع غير النقدي</text>
+
+  <text x="440"
+        y="852"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="28"
+        fill="#c0392b">Cashless Payment</text>
+
+  <text x="950"
+        y="896"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30"
+        fill="#225f9c">
+    <tspan x="950" dy="0">دفع قيمة السلع والخدمات بالنقود الإلكترونية أو</tspan>
+    <tspan x="950" dy="38">البطاقات أو تطبيقات الهاتف أو رموز QR، دون</tspan>
+    <tspan x="950" dy="38">استخدام النقد.</tspan>
+  </text>
+
+  <text x="230"
+        y="1014"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="28"
+        fill="#c0392b">Cashless Payment</text>
+
+  <text x="230"
+        y="1050"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27"
+        fill="#152b42">
+    <tspan x="230" dy="0">Paying for goods and services using</tspan>
+    <tspan x="230" dy="34">electronic money, cards, mobile apps, or QR</tspan>
+    <tspan x="230" dy="34">codes without using cash.</tspan>
+  </text>
+
+</svg>

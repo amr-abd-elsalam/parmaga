@@ -1,0 +1,244 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+
+  <defs>
+    <linearGradient id="deskWood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b57a41"/>
+      <stop offset="0.55" stop-color="#9d6432"/>
+      <stop offset="1" stop-color="#7f4e26"/>
+    </linearGradient>
+    <linearGradient id="paperTone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fefcf5"/>
+      <stop offset="1" stop-color="#faf5e8"/>
+    </linearGradient>
+    <filter id="paperShadow" x="-8%" y="-6%" width="116%" height="114%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#3a2411" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- 1) خلفية مكتب خشبي بسيطة -->
+  <rect x="0" y="0" width="1080" height="1350" fill="url(#deskWood)"/>
+  <path d="M0 210 C 300 170, 780 250, 1080 205" stroke="#6f421f" stroke-width="16" fill="none" opacity="0.16"/>
+  <path d="M0 1140 C 320 1100, 760 1180, 1080 1130" stroke="#6f421f" stroke-width="18" fill="none" opacity="0.14"/>
+
+  <!-- 2) الورقة -->
+  <rect x="34" y="26" width="1012" height="1300" rx="10" fill="url(#paperTone)" filter="url(#paperShadow)"/>
+
+  <!-- 3) سطور الكراسة الزرقاء الباهتة -->
+  <g stroke="#b9d4e8" stroke-width="1.4" opacity="0.85">
+    <line x1="80" y1="118" x2="1000" y2="118"/>
+    <line x1="80" y1="151" x2="1000" y2="151"/>
+    <line x1="80" y1="184" x2="1000" y2="184"/>
+    <line x1="80" y1="217" x2="1000" y2="217"/>
+    <line x1="80" y1="250" x2="1000" y2="250"/>
+    <line x1="80" y1="283" x2="1000" y2="283"/>
+    <line x1="80" y1="316" x2="1000" y2="316"/>
+    <line x1="80" y1="349" x2="1000" y2="349"/>
+    <line x1="80" y1="382" x2="1000" y2="382"/>
+    <line x1="80" y1="415" x2="1000" y2="415"/>
+    <line x1="80" y1="448" x2="1000" y2="448"/>
+    <line x1="80" y1="481" x2="1000" y2="481"/>
+    <line x1="80" y1="514" x2="1000" y2="514"/>
+    <line x1="80" y1="547" x2="1000" y2="547"/>
+    <line x1="80" y1="580" x2="1000" y2="580"/>
+    <line x1="80" y1="613" x2="1000" y2="613"/>
+    <line x1="80" y1="646" x2="1000" y2="646"/>
+    <line x1="80" y1="679" x2="1000" y2="679"/>
+    <line x1="80" y1="712" x2="1000" y2="712"/>
+    <line x1="80" y1="745" x2="1000" y2="745"/>
+    <line x1="80" y1="778" x2="1000" y2="778"/>
+    <line x1="80" y1="811" x2="1000" y2="811"/>
+    <line x1="80" y1="844" x2="1000" y2="844"/>
+    <line x1="80" y1="877" x2="1000" y2="877"/>
+    <line x1="80" y1="910" x2="1000" y2="910"/>
+    <line x1="80" y1="943" x2="1000" y2="943"/>
+    <line x1="80" y1="976" x2="1000" y2="976"/>
+    <line x1="80" y1="1009" x2="1000" y2="1009"/>
+    <line x1="80" y1="1042" x2="1000" y2="1042"/>
+    <line x1="80" y1="1075" x2="1000" y2="1075"/>
+    <line x1="80" y1="1108" x2="1000" y2="1108"/>
+    <line x1="80" y1="1141" x2="1000" y2="1141"/>
+    <line x1="80" y1="1174" x2="1000" y2="1174"/>
+  </g>
+
+  <!-- 4) الإطار الأحمر الخارجي الوحيد -->
+  <rect x="67" y="70" width="946" height="1242" rx="6" fill="none" stroke="#c0392b" stroke-width="2.6"/>
+
+  <!-- 5) بطاقات صفراء باهتة (رأس العنوان + قسم القطعة) -->
+  <rect x="105" y="100" width="870" height="98" rx="14"
+        fill="#fdf3cf" fill-opacity="0.88" stroke="#e3d296" stroke-width="1.6"/>
+  <rect x="95" y="226" width="890" height="522" rx="16"
+        fill="#fdf6da" fill-opacity="0.82" stroke="#e3d296" stroke-width="1.6"/>
+
+  <!-- 6) أسطر الكتابة الفارغة للإجابات -->
+  <g stroke="#9fb8cc" stroke-width="1.8" stroke-linecap="round">
+    <line x1="140" y1="995" x2="940" y2="995"/>
+    <line x1="140" y1="1160" x2="940" y2="1160"/>
+  </g>
+
+  <!-- 7) النصوص التعليمية -->
+
+  <!-- العنوان العربي -->
+  <text x="540"
+        y="151"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="42"
+        font-weight="bold"
+        fill="#1f4e79">تمرين: اقرأ ثم أجب</text>
+
+  <!-- العنوان الإنجليزي -->
+  <text x="540"
+        y="186"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="26"
+        fill="#163050">Exercise: Read and Answer</text>
+
+  <!-- القطعة العربية -->
+  <text x="925"
+        y="283"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="26"
+        fill="#225f9c">
+    <tspan x="955" dy="0">ظهرت الحواسيب الإلكترونية في الأربعينيات، واستُخدمت في البداية</tspan>
+    <tspan x="955" dy="33">أساسًا في الحسابات العسكرية والعلمية. وفي السبعينيات والثمانينيات،</tspan>
+    <tspan x="955" dy="33">انتشرت (أ) ______، مما أتاح للأفراد استخدام الحاسوب. وفي التسعينيات،</tspan>
+    <tspan x="955" dy="33">جرى الاستخدام التجاري لـ (ب) ______، فساعد ذلك على انتشار</tspan>
+    <tspan x="955" dy="33">المعلومات عالميًا. وفي العقد الأول من الألفية ظهرت (ج) ______،</tspan>
+    <tspan x="955" dy="33">فانتشر الإنترنت عبر الهواتف المحمولة بسرعة.</tspan>
+  </text>
+
+  <!-- القطعة الإنجليزية -->
+  <text x="125"
+        y="514"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="24"
+        fill="#152b42">
+    <tspan x="125" dy="0">Electronic computers appeared in the 1940s and were</tspan>
+    <tspan x="125" dy="33">initially used mainly for military and scientific</tspan>
+    <tspan x="125" dy="33">computation. In the 1970s and 1980s, (a) ______ became</tspan>
+    <tspan x="125" dy="33">widespread, allowing individuals to use computers.</tspan>
+    <tspan x="125" dy="33">In the 1990s, (b) ______ was commercialized, helping</tspan>
+    <tspan x="125" dy="33">information spread globally. In the 2000s, (c) ______</tspan>
+    <tspan x="125" dy="33">emerged, leading to the rapid spread of mobile Internet.</tspan>
+  </text>
+
+  <!-- السؤال الأول -->
+  <text x="962"
+        y="795"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="end"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="26"
+        font-weight="bold"
+        fill="#1e7a46">.1</text>
+
+  <text x="925"
+        y="795"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="25"
+        fill="#225f9c">
+    <tspan x="925" dy="0">املأ الفراغات من (أ) إلى (ج).</tspan>
+  </text>
+
+  <text x="140"
+        y="826"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="23"
+        fill="#152b42">
+    <tspan x="140" dy="0">Fill in the blanks from (a) to (c).</tspan>
+  </text>
+
+  <!-- السؤال الثاني -->
+  <text x="962"
+        y="869"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="end"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="26"
+        font-weight="bold"
+        fill="#1e7a46">.2</text>
+
+  <text x="925"
+        y="869"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="25"
+        fill="#225f9c">
+    <tspan x="925" dy="0">ما التقنية التي انتشرت من العقد الثاني من الألفية فصاعدًا، وتدعم</tspan>
+    <tspan x="925" dy="31">تحليل البيانات على نطاق واسع واستخدام الذكاء الاصطناعي؟</tspan>
+  </text>
+
+  <text x="140"
+        y="931"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="23"
+        fill="#152b42">
+    <tspan x="140" dy="0">What technology spread from the 2010s onward and supports</tspan>
+    <tspan x="140" dy="29">large-scale data analysis and the use of AI?</tspan>
+  </text>
+
+  <!-- السؤال الثالث -->
+  <text x="962"
+        y="1035"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="end"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="26"
+        font-weight="bold"
+        fill="#1e7a46">.3</text>
+
+  <text x="925"
+        y="1035"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="25"
+        fill="#225f9c">
+    <tspan x="925" dy="0">وفقًا لقانون مور، كل كم سنة تقريبًا يتضاعف عدد</tspan>
+    <tspan x="925" dy="31">الترانزستورات في الدائرة المتكاملة؟</tspan>
+  </text>
+
+  <text x="140"
+        y="1097"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="23"
+        fill="#152b42">
+    <tspan x="140" dy="0">According to Moore’s Law, approximately how often does the</tspan>
+    <tspan x="140" dy="29">number of transistors on an integrated circuit double?</tspan>
+  </text>
+
+</svg>
