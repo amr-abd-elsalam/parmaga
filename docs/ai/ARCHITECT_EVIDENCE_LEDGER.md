@@ -22,9 +22,11 @@ Branch: main
 HEAD at phase approval: fb5e09034b1a852d9cc6e3eaeb0d17fc8efa6cc2
 Expected initial tree state: clean
 HEAD at Phase 0 content commit: acfc10ef51476640cfd3a17d54f7e7d04e9d0d0d
-Current approved phase: Phase 0
-Current phase status: Closed — 2026-08-26
-Next phase: Phase 1 — ADR-0006 (Awaiting Plan Approval)
+HEAD at Phase 0 closing commit: e808ec155ced11e08dd21cf1eaf740cbce189416
+HEAD at Phase 1 approval: e808ec155ced11e08dd21cf1eaf740cbce189416
+Current approved phase: Phase 1 — ADR-0006
+Current phase status: Closed — 2026-08-27 (حزمة مراجعة؛ لم تُلتزم بعد)
+Next phase: Phase 2 — أداة التحقق وGate A (Awaiting Approval)
 ```
 
 حالة الشجرة عند اعتماد المرحلة أُثبتت بالأمر `git status --short --branch`، ومخرجه سطر الفرع وحده دون أي سطر حالة.
@@ -172,11 +174,13 @@ git -c core.whitespace=cr-at-eol diff --check <base> <head>
 
 | المرحلة | الحالة | شرط البدء | شرط الإغلاق |
 |---|---|---|---|
-| 0 | Closed | موافقة المالك موجودة | تحقق — الملفات الثلاثة ملتزمة في acfc10e |
-| 1 | Awaiting Approval | الانتقال معتمد من المالك؛ خطة المرحلة قيد الاعتماد | قبول ADR-0006 |
-| 2 | Blocked | قبول ADR-0006 واعتماد الانتقال | الأداة والاختبارات وGate A تعمل |
+| 0 | Closed | موافقة المالك موجودة | تحقق — الملفات الثلاثة ملتزمة في acfc10e، وcommit الإغلاق e808ec1 |
+| 1 | Closed | الانتقال معتمد من المالك؛ خطة المرحلة معتمدة | تحقق — ADR-0006 صادر بحالة Accepted وفهرسته في README تمت |
+| 2 | Awaiting Approval | قبول ADR-0006 واعتماد الانتقال | الأداة والاختبارات وGate A تعمل |
 | 3 | Blocked | إغلاق المرحلة 2 واعتماد الانتقال | نشر الدرس ونجاح PR والتحقق المنشور |
 | 4 | Blocked | نجاح Gate A على PR حقيقي وإغلاق المرحلة 3 | تفعيل Ruleset والتحقق منه |
+
+إغلاق المرحلة 1 مقيَّد على أساس حزمة المراجعة. HEAD لا يتغير حتى يُنفَّذ commit الإغلاق، ويُقيَّد SHA في §8 بعد تنفيذه فعليًا. واعتماد الانتقال إلى المرحلة 2 قرار مستقل عن إغلاق المرحلة 1.
 
 ---
 
@@ -212,8 +216,21 @@ git -c core.whitespace=cr-at-eol diff --check <base> <head>
 | 2026-08-26 | 0 | acfc10e | dirty | ADR-0005 | العناوين | `git show HEAD:docs/decisions/ADR-0005-content-intake-and-asset-custody.md \| grep -n '^## \|^### '` | موضعا الإحلال: السطر 100 مخطط الـmanifest الإصدار 1، والسطر 268 رفض السكريبت الملتزم | Confirmed |
 | 2026-08-26 | 0 | acfc10e | dirty | ../parmaga-content | — | `git -C ../parmaga-content log -1 --format=%H` | 6bd7b72303be65404915c85ef8e2239b6e0a7e4c — اللقطة المعتمدة حيّة ومطابقة، فاستوفي شرط §4 | Confirmed |
 | 2026-08-26 | 0 | acfc10e | dirty | مستودع parmaga | — | `git ls-files \| grep -E '\.(py\|yml\|yaml\|svg)$'` | none — لا أداة ولا workflow ولا أصل، أرضية المرحلة 2 نظيفة | Confirmed |
+| 2026-08-27 | 0 — مُرحَّل | e808ec1 | clean | مستودع parmaga | — | `git rev-parse HEAD` | commit إغلاق المرحلة 0 هو e808ec155ced11e08dd21cf1eaf740cbce189416؛ الصف مُرحَّل لأن §2 قيّدت commit المحتوى acfc10e ولم تقيّد SHA الإغلاق | Confirmed |
+| 2026-08-27 | 1 | e808ec1 | clean | مستودع parmaga | — | `git status --short --branch` | main متزامن مع origin/main بلا تغييرات غير ملتزمة — baseline المرحلة 1 مطابق للمتوقع | Confirmed |
+| 2026-08-27 | 1 | e808ec1 | clean | مستودع parmaga | — | `git status --porcelain` | مخرج فارغ — الشجرة نظيفة قبل أي تعديل في هذه المرحلة | Confirmed |
+| 2026-08-27 | 1 | e808ec1 | clean | docs/ai/ARCHITECT_EVIDENCE_LEDGER.md | 1–266 | `grep -n "" docs/ai/ARCHITECT_EVIDENCE_LEDGER.md` | الدفتر 266 سطرًا بعشرة أقسام؛ جدول §8 ينتهي عند صف 2026-08-26 الخاص بـls-files، و§10 نشط عند المرحلة 0 | Confirmed |
+| 2026-08-27 | 1 | e808ec1 | clean | ثلاثة ملفات نصية | عدّ فقط | `grep -c ""` مقابل `grep -c $'\r$'` | CRLF 100%: الدفتر 266/266، وREADME 116/116، وADR-0005 336/336 — عرف §2 مؤكَّد مجددًا | Confirmed |
+| 2026-08-27 | 1 | e808ec1 | clean | README.md | 50–70، 104–120 | `grep -n "" README.md \| sed -n '50,70p'` و `sed -n '104,120p'` | موضعا الفهرسة: شجرة تنتهي عند السطر 61 بمحرف `└──` قبل ADR-0005، وقائمة وصفية تنتهي عند السطر 114 | Confirmed |
+| 2026-08-27 | 1 | e808ec1 | clean | ADR-0005 | 100–135 | `grep -n "" docs/decisions/ADR-0005-content-intake-and-asset-custody.md \| sed -n '92,145p'` | `Decision §7` يثبّت schemaVersion = 1 ويعدّد حقول الدرس والصفحة، فالإحلال يقتصر على رقم الإصدار وإضافة حقلين | Confirmed |
+| 2026-08-27 | 1 | e808ec1 | clean | ADR-0005 | 268–270 | `grep -n "" docs/decisions/ADR-0005-content-intake-and-asset-custody.md \| sed -n '258,280p'` | `Alternatives §7` رفض السكريبت المُلتزَم بحجة صفر Dependencies وصفر Build Step وصفر CI، ونصّ على جواز إعادة النظر بقرار مستقل | Confirmed |
+| 2026-08-27 | 1 | e808ec1 | clean | docs/decisions/ | — | `ls -1 docs/decisions/` | خمسة قرارات، آخرها ADR-0005؛ مسار ADR-0006-asset-publication-and-verification.md شاغر | Confirmed |
+| 2026-08-27 | 1 | e808ec1 | dirty | حزمة المرحلة 1 | — | `git status --porcelain` و `git -c core.whitespace=cr-at-eol diff --check` | ثلاثة مسارات فقط: ADR-0006 الجديد وREADME.md والدفتر — لا ملف .py أو .yml أو .yaml أو .svg، ولا مسافة زائدة حقيقية | Confirmed |
+| 2026-08-27 | 1 | e808ec1 | dirty | حزمة المرحلة 1 | عدّ فقط | `grep -c ""` مقابل `grep -c $'\r$'` و `grep -n "^### [1-7]\."` | ADR-0006 بـ212 سطرًا CRLF 100%، وحالته Accepted، وبنوده السبعة عند 25 و41 و70 و87 و96 و110 و118؛ وREADME 118/118، والدفتر 282/282 كما قيس قبل تحويل هذا الصف إلى Confirmed | Confirmed |
 
-المدخل الأخير مصدره لصق نصي من مالك المشروع لا أمر `git show`، فيبقى `Needs Verification` حتى يُقرأ من الشجرة بأمر موجّه عند الحاجة إليه في المرحلة 1.
+نُفِّذت أوامر §M من برومبت المرحلة وطابقت مخرجاتها معايير القبول، فحُوِّل صف الحزمة إلى `Confirmed` وأُضيف صف القياس المقابل له.
+
+مدخل `ADR-0004 و ADR-0005` المؤرَّخ 2026-08-26 مصدره لصق نصي من مالك المشروع لا أمر `git show`، فيبقى `Needs Verification` حتى يُقرأ من الشجرة بأمر موجّه عند الحاجة إليه.
 
 ---
 
@@ -252,15 +269,15 @@ HEAD: <sha> | الفرع: <name> | الشجرة: <clean | dirty + الوصف>
 
 ```text
 دفتر التسليم
-المرحلة الحالية: 0 — إغلاق فقدان السياق
-الحالة: Closed — 2026-08-26
-HEAD: acfc10e | الفرع: main | الشجرة: clean
-الملفات المعدلة/المضافة: docs/ai/ARCHITECT_EVIDENCE_LEDGER.md، AI_ARCHITECT_PROTOCOL.md، AI_EXECUTOR_PROTOCOL.md
-الأدلة الجديدة: 24 صفًا في §8
-القرارات المعتمدة حرفيًا: §3
-الأسئلة المفتوحة: §9 — لم تُحسم
-الانحرافات: التحقق نُفذ بأثر رجعي؛ ومعيار القبول 11 صُحح بعد إثبات عرف CRLF
-المرحلة التالية الوحيدة: 1 — ADR-0006
-شرط بدء المرحلة التالية: اعتماد نطاق المرحلة 1 والإجابة على نقاط قرار المعماري
-الخطوة التالية الوحيدة: اعتماد نطاق المرحلة 1 وإصدار برومبت المنفذ
+المرحلة الحالية: 1 — ADR-0006
+الحالة: Closed — 2026-08-27 (حزمة مراجعة؛ HEAD لا يتغير حتى commit الإغلاق)
+HEAD: e808ec1 | الفرع: main | الشجرة: dirty — ثلاثة مسارات فقط
+الملفات المعدلة/المضافة: docs/decisions/ADR-0006-asset-publication-and-verification.md، README.md، docs/ai/ARCHITECT_EVIDENCE_LEDGER.md
+الأدلة الجديدة: أحد عشر صفًا في §8، منها صف مُرحَّل بـSHA إغلاق المرحلة 0
+القرارات المعتمدة حرفيًا: §3 — دون إعادة صياغة
+الأسئلة المفتوحة: §9 — سؤال permalink المرحلة 3 لم يُحسم في ADR-0006
+الانحرافات: توضيح صياغة الجملة التالية لجدول §8 لمنع التباسها بالصفوف المضافة
+المرحلة التالية الوحيدة: 2 — أداة التحقق وGate A
+شرط بدء المرحلة التالية: قبول ADR-0006 واعتماد الانتقال من المالك
+الخطوة التالية الوحيدة: مراجعة حزمة المرحلة 1 واعتماد الانتقال إلى المرحلة 2
 ```

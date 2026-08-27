@@ -58,7 +58,8 @@ Parmaga منصة تعليمية تستهدف السوق المصري وطلاب 
         ├── ADR-0002-design-tokens-and-styling-strategy.md
         ├── ADR-0003-lessons-architecture.md
         ├── ADR-0004-identifiers-and-permanent-paths.md
-        └── ADR-0005-content-intake-and-asset-custody.md
+        ├── ADR-0005-content-intake-and-asset-custody.md
+        └── ADR-0006-asset-publication-and-verification.md
 ```
 
 ## التشغيل محليًا
@@ -112,5 +113,6 @@ http://localhost:8000
 - `ADR-0003-lessons-architecture.md`: معمارية نشر الدروس والروابط الدائمة.
 - `ADR-0004-identifiers-and-permanent-paths.md`: المعرّفات التقنية والمسارات الدائمة للمحتوى التعليمي.
 - `ADR-0005-content-intake-and-asset-custody.md`: إدخال المحتوى وحراسة الأصول وجرد الدروس.
+- `ADR-0006-asset-publication-and-verification.md`: نشر الأصول والتحقق الآلي وتثبيت لقطة العهدة.
 
 وتوجد بيانات جرد المحتوى وملفات التسليم والإجراء التشغيلي في `docs/content/`.
