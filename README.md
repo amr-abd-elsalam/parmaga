@@ -28,6 +28,9 @@ Parmaga منصة تعليمية تستهدف السوق المصري وطلاب 
 ├── PROJECT_VISION.md
 ├── README.md
 ├── index.html
+├── .github/
+│   └── workflows/
+│       └── verify-lessons.yml
 ├── assets/
 │   ├── css/
 │   │   └── parmaga.css
@@ -40,7 +43,7 @@ Parmaga منصة تعليمية تستهدف السوق المصري وطلاب 
 │       ├── fav180.png
 │       ├── fav32.png
 │       └── fav32D.png
-└── docs/
+├── docs/
     ├── content/
     │   ├── CONTENT_INTAKE.md
     │   ├── context/
@@ -60,6 +63,10 @@ Parmaga منصة تعليمية تستهدف السوق المصري وطلاب 
         ├── ADR-0004-identifiers-and-permanent-paths.md
         ├── ADR-0005-content-intake-and-asset-custody.md
         └── ADR-0006-asset-publication-and-verification.md
+├── tests/
+│   └── test_verify_lesson.py
+└── tools/
+    └── verify_lesson.py
 ```
 
 ## التشغيل محليًا
@@ -77,6 +84,34 @@ python3 -m http.server
 ```text
 http://localhost:8000
 ```
+
+## التحقق من الدروس
+
+أداة التحقق الرسمية والوحيدة هي `tools/verify_lesson.py`، وهي بايثون 3.12 والمكتبة القياسية وحدها، بلا أي dependency وبلا build step.
+
+للتحقق من الدروس المنشورة، من جذر المشروع:
+
+```bash
+python3 tools/verify_lesson.py .
+```
+
+ولتشغيل اختبارات الأداة:
+
+```bash
+python3 -m unittest discover -s tests -p 'test_*.py' -v
+```
+
+حالات الخروج: `0` نجاح كامل، و`1` إخفاق تحقق، و`2` خطأ استعمال أو بيئة. وحين لا يوجد أي درس منشور، تنجح الأداة صراحةً وتذكر أن عدد المرشحين صفر.
+
+يشغّل GitHub Actions الأمرين نفسيهما على كل Pull Request موجّه إلى `main` وعلى كل push إلى `main`، عبر job اسمه:
+
+```text
+Gate A - Lesson verification
+```
+
+الاستدعاء المحلي واستدعاء CI متطابقان حرفيًا، ولا يوجد منطق تحقق مكرر داخل YAML.
+
+Gate A في هذه المرحلة **إشارة تحقق فقط وليست حماية دمج إلزامية**. جعل الـcheck إلزاميًا على `main` قرار مستقل ينفّذه مالك المشروع في المرحلة 4 وفق `ADR-0006` البند 6. والـworkflow لا ينشر ولا يدفع ولا يعدّل محتوى ولا يصل إلى مستودع العهدة.
 
 ## الاستضافة
 
@@ -100,9 +135,10 @@ http://localhost:8000
 - `sitemap.xml` أو Structured Data.
 - Lesson Viewer.
 - Routing أو Build Step أو Dependencies أو JavaScript خاص بالمشروع.
-- اختبارات أو CI.
 
 جُرِد أول درس مرجعي وفُحص وسُجّل في `docs/content/`، ولم يُنشر بعد. الأصول الأصلية محفوظة خارج هذا المستودع وفق `ADR-0005`.
+
+توجد أداة تحقق واختبارات وworkflow للتحقق: `tools/verify_lesson.py` و`tests/test_verify_lesson.py` و`.github/workflows/verify-lessons.yml`. وهي لا تغيّر شيئًا مما سبق: يبقى المشروع صفر Dependencies وصفر Build Step، ويبقى GitHub Pages على وضع `Deploy from a branch`، ولا يشارك GitHub Actions في تقديم الموقع.
 
 ## القرارات المعمارية
 

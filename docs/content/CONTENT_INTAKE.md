@@ -67,88 +67,50 @@ page-<NNN>.svg
 - إعادة التسمية تجري **في مسار الحراسة**، لا على نسخة المصدر الأصلية.
 - تغيير الاسم لا يغيّر بايتات الملف ولا بصمته.
 
-## 4. الجرد: البصمات والأحجام والأبعاد والتحليل والخطوط والفحص الأمني
+## 4. الجرد والتحقق: الأداة الرسمية
 
-من داخل مجلد أصول الدرس في مسار الحراسة، شغّل أمر الجرد الموحّد. مخرجاته هي المصدر الوحيد لقيم الـManifest.
+الأداة الرسمية والوحيدة للتحقق في هذا المشروع هي:
 
-```bash
-python3 - <<'PY'
-import glob, hashlib, re, json
-import xml.etree.ElementTree as ET
-
-files = sorted(glob.glob('*.svg'))
-print("FILE_COUNT", len(files))
-total = 0
-for f in files:
-    b = open(f, 'rb').read()
-    total += len(b)
-    r = {"sourceFileName": f, "bytes": len(b),
-         "sha256": hashlib.sha256(b).hexdigest(),
-         "bom": b[:3] == b'\xef\xbb\xbf', "crlf": b'\r\n' in b}
-    m = re.match(rb'<\?xml[^>]*encoding\s*=\s*["\']([^"\']+)', b.lstrip()[:300])
-    r["encodingDeclared"] = m.group(1).decode('ascii', 'replace') if m else None
-    try:
-        root = ET.fromstring(b)
-        r["xmlWellFormed"] = True
-        r["width"] = root.get('width')
-        r["height"] = root.get('height')
-        r["viewBox"] = root.get('viewBox')
-        tags = [e.tag for e in root.iter() if isinstance(e.tag, str)]
-        r["textElementCount"] = sum(1 for t in tags if t.endswith('text'))
-        r["tspanCount"] = sum(1 for t in tags if t.endswith('tspan'))
-    except Exception as e:
-        r["xmlWellFormed"] = False
-        r["xmlError"] = str(e)
-    s = b.decode('utf-8', 'replace')
-    fonts = set()
-    for g in re.findall(r'font-family\s*[:=]\s*("[^"]*"|\'[^\']*\'|[^;">}]+)', s):
-        for part in g.strip().strip('"\'').split(','):
-            p = part.strip().strip('"\'')
-            if p:
-                fonts.add(p)
-    r["fontsReferenced"] = sorted(fonts)
-    r["hasScript"] = bool(re.search(r'<\s*(\w+:)?script\b', s))
-    r["hasForeignObject"] = bool(re.search(r'<\s*(\w+:)?foreignObject\b', s))
-    r["hasEventHandlers"] = bool(re.search(r'\son[a-zA-Z]+\s*=\s*["\']', s))
-    r["hasJavascriptUri"] = 'javascript:' in s
-    r["hasExternalHttpRef"] = bool(re.search(r'(?:xlink:href|href|src)\s*=\s*["\']\s*https?:', s)) or bool(re.search(r'url\(\s*["\']?\s*https?:', s))
-    r["hasDataUri"] = bool(re.search(r'["\'(]\s*data:', s))
-    r["hasEmbeddedImage"] = bool(re.search(r'<\s*(\w+:)?image\b', s))
-    r["hasExternalUse"] = bool(re.search(r'<\s*(\w+:)?use\b[^>]*?(?:xlink:)?href\s*=\s*["\'][^#"\']', s))
-    r["hasIframeEmbedObject"] = bool(re.search(r'<\s*(\w+:)?(iframe|embed|object)\b', s))
-    r["hasStyleImport"] = '@import' in s
-    ys = [float(y) for y in re.findall(r'\sy\s*=\s*["\']\s*(-?\d+(?:\.\d+)?)', s)]
-    r["maxYAttr"] = max(ys) if ys else None
-    r["yAttrsBelow1188"] = sum(1 for y in ys if y > 1188)
-    print(json.dumps(r, ensure_ascii=False))
-print("TOTAL_BYTES", total)
-print("AVG_BYTES", total // len(files) if files else 0)
-PY
+```text
+tools/verify_lesson.py
 ```
 
-ثم تأكيد مستقل بأدوات نظام مختلفة، لإثبات أن قيم البصمات والأحجام لا تعتمد أداة واحدة:
+واستدعاؤها المعتمد من جذر مستودع `parmaga`:
 
 ```bash
-sha256sum *.svg
-stat -c '%s  %n' *.svg
+python3 tools/verify_lesson.py .
 ```
 
-ملاحظات على قراءة المخرجات:
+الاستدعاء المحلي واستدعاء GitHub Actions متطابقان حرفيًا. لا يوجد منطق تحقق مكرر في YAML ولا في خطوة shell، ولا تنفيذ ثانٍ لأي فحص. حالة الخروج هي العقد: `0` نجاح كامل، و`1` إخفاق تحقق في المحتوى أو الـManifest أو الأصول، و`2` خطأ استعمال أو بيئة يمنع بدء التحقق.
 
-- `encodingDeclared: null` مع `bom: false` مع `xmlWellFormed: true` يعني أن الملف UTF-8 بلا إعلان. الترميز هنا **مستنتج** من نجاح التحليل، لا مقروء من إعلان، ويُسجَّل كذلك.
-- `crlf: true` يعني أن نهايات الأسطر داخل الأصل CRLF. لا تصححها. `.gitattributes` موجود لحماية هذه الحالة تحديدًا.
-- `maxYAttr` و`yAttrsBelow1188` مؤشران على احترام منطقة الـ12% المحجوزة، حدّها `y = 1188` في صفحة بارتفاع 1350. القياس على سمات `y` وحدها ولا يحسب `transform` ولا `path` ولا `y+height` ولا `cy+r`. مؤشر قوي وليس إثباتًا هندسيًا كاملًا.
-- `AVG_BYTES` قيمة مقيسة. لا تكتب في الـManifest متوسطًا تقديريًا.
+ما تفعله الأداة: تفحص مطابقة الـManifest للمخطط الساري، وتطابق البصمات والأحجام مع بايتات الملفات المنشورة داخل `parmaga`، وتطابق المسارات والأسماء والترقيم مع `ADR-0004`، وتنفّذ الفحص الأمني وفق `ADR-0005` البند 9، وتفحص صيغة حقلي العهدة.
+
+ما لا تفعله الأداة: لا تتصل بالشبكة، ولا تصل إلى مستودع العهدة `parmaga-content`، ولا تستعمل secrets، ولا تنشر، ولا تنسخ أصلًا، ولا تنشئ Manifest، ولا تعدّل ملفًا، ولا تصلح خطأ تلقائيًا. **الأداة لا تولّد القيم.**
+
+يترتب على ذلك تقسيم صريح للمسؤولية:
+
+- **قيم الـManifest** تُستخرج محليًا من ناتج أوامر حقيقية على الأصول في مسار الحراسة، ويكتبها الإنسان. لا تخترع قيمة ولا تقدّرها.
+- **إثبات أن الـManifest يطابق العهدة**، وإثبات أن لقطة `custodySnapshot` حيّة وقابلة للوصول، خطوة محلية بشرية تسبق النشر. الأداة لا تنفّذها ولا تستطيع، لأن وصول CI إلى العهدة ممنوع وفق `ADR-0006` البند 6.
+- **إثبات أن المنشور يطابق الـManifest** مسؤولية الأداة وحدها، محليًا وفي Gate A.
+
+تكتمل سلسلة الثقة بالتعدي: الحلقة البشرية تربط الـManifest بالعهدة، وحلقة الأداة تربط المنشور بالـManifest، فيكون المنشور مطابقًا للعهدة دون أن يلمس CI العهدة.
+
+ملاحظات ملزمة على قراءة الأصول:
+
+- الترميز **مستنتج لا مقروء** حين لا يوجد إعلان XML ولا BOM. نجاح التحليل على البايتات يعني أن البايتات UTF-8 صالحة، ويُسجَّل بهذا الوصف.
+- نهايات الأسطر داخل الأصول CRLF. **لا تصححها.** قاعدة `*.svg -text` في `.gitattributes` موجودة لحماية هذه الحالة تحديدًا، ولا تُعدَّل.
+- منطقة الـ12% المحجوزة حدّها `y = 1188` في صفحة بارتفاع 1350. أي قياس يعتمد سمات `y` وحدها لا يحسب `transform` ولا `path` ولا `y+height` ولا `cy+r`، فهو مؤشر قوي لا إثبات هندسي كامل، ويُسجَّل بحدوده المعلنة.
+- المجموع والمتوسط قيمتان مقيستان. لا تكتب في الـManifest متوسطًا تقديريًا.
 
 ## 5. تحليل XML
 
-نتيجة التحليل تأتي من الحقل `xmlWellFormed` في مخرجات الخطوة 4.
+نتيجة التحليل تُقرأ محليًا من تحليل بايتات الملف، وتُسجَّل في الحقل `xmlWellFormed`. وتتحقق الأداة الرسمية من اتساق القيمة المسجَّلة مع نتيجة التحليل الفعلي، ولا تقبل تعارضًا بينهما.
 
 `false` في أي ملف يوقف الإجراء. لا يُصلَح الملف بالتحرير؛ يُعاد توليده من القالب ويُعاد جرده من الخطوة 1.
 
 ## 6. الفحص الأمني
 
-نتائج الفحص العشرة تأتي من الخطوة 4 نفسها. سجّلها كلها لكل صفحة، حتى إن كانت كلها سالبة.
+الفحوص العشرة تُنفَّذ على بايتات كل أصل. سجّل نتائجها كلها لكل صفحة، حتى إن كانت كلها سالبة. وتعيد الأداة الرسمية تنفيذ الفحوص العشرة نفسها على البايتات ولا تكتفي بما هو مسجَّل في الـManifest.
 
 قاعدة الحكم وفق `ADR-0005` البند 9:
 
@@ -156,6 +118,8 @@ stat -c '%s  %n' *.svg
 - لكل اكتشاف قرار مكتوب: قبول بمبرر، أو منع نشر، أو إعادة توليد.
 - **لا يُعالَج اكتشاف بتعديل الأصل.**
 - الاسم الصحيح للملف لا يمنح ثقة، ولا يغني عن الفحص.
+
+ملاحظة تشغيلية على حدود الأداة: تُفشل الأداة في وضعها الحالي أي اكتشاف فعلي في البايتات، وأي `findings` غير فارغة، ولا تحتوي بنية لقبول استثناء. لذلك لا يمر خيار «القبول بمبرر» عبر Gate A، وتفعيله يحتاج قرارًا معماريًا مستقلًا. وتبقى قاعدة عدم معالجة أي اكتشاف بتعديل الأصل قائمة بلا استثناء.
 
 ## 7. تعبئة الـManifest
 
@@ -168,8 +132,10 @@ docs/content/manifests/<course>/<term>/<chapter>/<lesson>.json
 القواعد:
 
 - JSON صالح، UTF-8 بلا BOM، نهايات أسطر LF.
+- المخطط الساري هو الإصدار `2`. يساوي `schemaVersion` القيمة `2` في أي Manifest يُكتب أو يُحدَّث من الآن، وفق `ADR-0006` البند 3.
+- `custodyRepository` و`custodySnapshot` حقلان مطلوبان في الـManifest المنشور. الأول اسم مجرد بلا رابط ولا مسار ولا بيانات وصول، والثاني SHA كامل بأربعين محرفًا سداسيًا بحروف صغيرة تُثبت حياته محليًا قبل كتابته.
 - كل قيمة تأتي من ناتج أمر حقيقي أو من تأكيد مكتوب من مالك المشروع.
-- ما لا يتوفر يُكتب `null`، ويُكتب سبب النقص في `notes`.
+- ما لا يتوفر يُكتب `null`، ويُكتب سبب النقص في `notes`. وهذه القاعدة تخص مرحلة الجرد؛ أما في الـManifest المنشور فلا يجوز أن يكون أي حقل أساسي لازم للتحقق `null`، وإلا أفشلته الأداة.
 - **ممنوع اختراع قيمة أو تقديرها.**
 - ترقيم متصل من `001` بلا فجوة ولا تكرار، ومطابق لـ`declaredPageCount`.
 - الصفحة الافتتاحية `role: "opening"`، وبقية الصفحات `role: "content"`.
@@ -237,6 +203,9 @@ docs/content/context/<course>/<term>/<chapter>/<lesson>.md
 [ ] الـManifest بلا BOM وبنهايات LF.
 [ ] declaredPageCount يساوي عدد مداخل pages.
 [ ] status = inventoried.
+[ ] schemaVersion = 2.
+[ ] custodyRepository اسم مجرد، وcustodySnapshot أربعون محرفًا سداسيًا صغيرًا، واللقطة مثبتة الحياة محليًا.
+[ ] python3 tools/verify_lesson.py . نُفِّذ من جذر parmaga، وحالة خروجه مسجَّلة.
 [ ] لا قيمة مخترعة، وكل null له سبب مكتوب.
 [ ] الـContext Packet ≤ 8 KB وبلا أي وسم SVG.
 [ ] اختبار التسليم نجح مع نموذج مستقل بالمسارات وحدها.
