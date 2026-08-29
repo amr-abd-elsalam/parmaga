@@ -25,9 +25,16 @@ HEAD at Phase 0 content commit: acfc10ef51476640cfd3a17d54f7e7d04e9d0d0d
 HEAD at Phase 0 closing commit: e808ec155ced11e08dd21cf1eaf740cbce189416
 HEAD at Phase 1 approval: e808ec155ced11e08dd21cf1eaf740cbce189416
 HEAD at Phase 1 closing commit: f2734b551cecf31c8431bfbcc1d6038e343103ae
-Current approved phase: Phase 1 — ADR-0006
-Current phase status: Closed — 2026-08-27 (ملتزمة في f2734b5)
-Next phase: Phase 2 — أداة التحقق وGate A (Approved — Not Started)
+HEAD at Phase 2 implementation commit: 0de5f31127bff85fa6fab1fdecda10b7f0c15382
+HEAD at Phase 2 merge commit (PR #1): 6783a8373b4fafe59d8b1706bede3c5c5e9990b3
+HEAD at Phase 3 implementation commit: c03fa8e8b893da1d711b01bb64517d96e0c0e503
+HEAD at Phase 3 merge commit (PR #2): 48ecb877d16252eeb2b864ed396b7270d49aca5b
+Phase 3 merge parents: 6783a8373b4fafe59d8b1706bede3c5c5e9990b3 + c03fa8e8b893da1d711b01bb64517d96e0c0e503
+Baseline HEAD at Phase 3 Closeout approval: 48ecb877d16252eeb2b864ed396b7270d49aca5b
+Baseline tree state: clean — main = origin/main
+Current approved phase: Phase 3 — Closeout Reconciliation
+Current phase status: In Progress — SHA الإغلاق: Pending — to be recorded after merge
+Next phase: Phase 4 — Gate B (Awaiting Approval — لم يصدر اعتماد بدء)
 ```
 
 حالة الشجرة عند اعتماد المرحلة أُثبتت بالأمر `git status --short --branch`، ومخرجه سطر الفرع وحده دون أي سطر حالة.
@@ -132,7 +139,9 @@ git -c core.whitespace=cr-at-eol diff --check <base> <head>
 - workflow لا ينشر Pages ولا يصل إلى العهدة.
 - Gate A في هذه المرحلة إشارة تحقق، وليست حماية دمج إلزامية بعد.
 
-لا تبدأ قبل قبول ADR-0006.
+شرط البدء: قبول ADR-0006 — استوفي.
+
+الحالة: أُغلقت. implementation commit هو 0de5f31، وmerge commit هو 6783a83 عبر PR #1.
 
 ### المرحلة 3 — النشر الأول
 
@@ -146,7 +155,11 @@ git -c core.whitespace=cr-at-eol diff --check <base> <head>
 - الدمج والنشر من الفرع.
 - لا أتمتة لنسخ الأصول في هذه المرحلة.
 
-لا تبدأ قبل نجاح المرحلة 2.
+شرط البدء: نجاح المرحلة 2 — استوفي.
+
+الحالة: أُغلقت. implementation commit هو c03fa8e، وmerge commit هو 48ecb87 عبر PR #2، وأبواه 6783a83 و c03fa8e.
+
+نُفِّذ النطاق الأضيق المقرر في §9: نشر أصول الدرس والتحقق منها بأداة التحقق وGate A، دون إنشاء صفحة HTML للدرس ودون viewer. ولذلك يبقى الرابط الدائم للدرس على 404، وهو سلوك متوقع في هذه الحالة لا إخفاق.
 
 ### المرحلة 4 — Gate B
 
@@ -177,11 +190,16 @@ git -c core.whitespace=cr-at-eol diff --check <base> <head>
 |---|---|---|---|
 | 0 | Closed | موافقة المالك موجودة | تحقق — الملفات الثلاثة ملتزمة في acfc10e، وcommit الإغلاق e808ec1 |
 | 1 | Closed | الانتقال معتمد من المالك؛ خطة المرحلة معتمدة | تحقق — ADR-0006 صادر بحالة Accepted وملتزم في f2734b5، وفهرسته في README تمت |
-| 2 | Approved — Not Started | قبول ADR-0006 واعتماد الانتقال — مستوفى في 2026-08-27 | الأداة والاختبارات وGate A تعمل |
-| 3 | Blocked | إغلاق المرحلة 2 واعتماد الانتقال | نشر الدرس ونجاح PR والتحقق المنشور |
-| 4 | Blocked | نجاح Gate A على PR حقيقي وإغلاق المرحلة 3 | تفعيل Ruleset والتحقق منه |
+| 2 | Closed | قبول ADR-0006 واعتماد الانتقال — مستوفى في 2026-08-27 | تحقق — الأداة والاختبارات وworkflow التحقق ملتزمة في 0de5f31 ومدموجة في 6783a83 |
+| 3 | Closed | إغلاق المرحلة 2 واعتماد الانتقال | تحقق — أصول الدرس منشورة في c03fa8e ومدموجة في 48ecb87، وGate A ناجحة على PR #2 |
+| 3-Closeout | In Progress | اعتماد المالك لخطة مصالحة الإغلاق | مطابقة الدفتر وREADME للواقع، وتثبيت سياسة الفحص المحلي أولًا |
+| 4 | Awaiting Approval | نجاح Gate A على PR حقيقي وإغلاق المرحلة 3 — مستوفى | تفعيل Ruleset والتحقق منه |
 
-أُغلقت المرحلة 1 بـcommit فعلي هو f2734b5، وقُيِّد SHA في §2 و§8. واعتمد مالك المشروع الانتقال إلى المرحلة 2 في 2026-08-27، فاستوفت شرط بدئها. ومع ذلك لم تبدأ المرحلة 2 ولم يُنشأ لها شيء: لا أداة ولا workflow ولا Gate. بدؤها يستلزم برومبت منفّذ مستقلًا يحدد نطاقها وملفاتها المسموحة ومعايير قبولها.
+أُغلقت المرحلة 1 بـcommit فعلي هو f2734b5، وقُيِّد SHA في §2 و§8.
+
+الفقرة التي كانت هنا قبل 2026-08-29 نصّت على أن المرحلة 2 لم تبدأ ولم يُنشأ لها شيء. كانت صحيحة في تاريخها، وهي الآن `Superseded`: نُفِّذت المرحلة 2 ودُمجت، ثم نُفِّذت المرحلة 3 ودُمجت. لا يُحذف النص التاريخي، بل يُقيَّد إبطاله هنا وفي §8.
+
+المرحلة 4 استوفت شرط بدئها بنجاح Gate A على PR حقيقي وإغلاق المرحلة 3، ومع ذلك لم تبدأ ولم يصدر اعتماد ببدئها. حالتها `Awaiting Approval` لا `Started` ولا `Complete`. ولا يجوز اعتبار Gate B مفعّلة: لا توجد Rulesets ولا حماية فرع تقليدية على هذا المستودع حتى تاريخه.
 
 ---
 
@@ -231,8 +249,36 @@ git -c core.whitespace=cr-at-eol diff --check <base> <head>
 | 2026-08-27 | 1 | f2734b5 | clean | مستودع parmaga | — | `git -c core.whitespace=cr-at-eol diff --cached --check` و `git diff --cached --name-only` | لا مسافة زائدة حقيقية، وثلاثة مسارات لا رابع لها قبل الالتزام | Confirmed |
 | 2026-08-27 | 1 | f2734b5 | clean | مستودع parmaga | — | `git commit -m "الحالية: 1 — ADR-0006"` | 3 files changed, 251 insertions(+), 20 deletions(-) — ADR-0006 بوضع create mode 100644، والحذوف كلها أسطر مستبدَلة في §2 و§7 و§8 و§10 | Confirmed |
 | 2026-08-27 | 1 | f2734b5 | clean | مستودع parmaga | — | `git rev-parse HEAD` و `git status --short --branch` | commit إغلاق المرحلة 1 هو f2734b551cecf31c8431bfbcc1d6038e343103ae، والشجرة نظيفة والفرع ahead 1 قبل الدفع | Confirmed |
+| 2026-08-29 | 3-Closeout | 48ecb87 | clean | مستودع parmaga | — | `git rev-parse HEAD` و `git rev-parse origin/main` | HEAD = origin/main = 48ecb877d16252eeb2b864ed396b7270d49aca5b — baseline المصالحة مطابق للمتوقع | Confirmed |
+| 2026-08-29 | 3-Closeout | 48ecb87 | clean | مستودع parmaga | — | `git rev-list --parents -n 1 HEAD` | أبوا merge المرحلة 3 هما 6783a8373b4fafe59d8b1706bede3c5c5e9990b3 و c03fa8e8b893da1d711b01bb64517d96e0c0e503 | Confirmed |
+| 2026-08-29 | 3-Closeout | 48ecb87 | clean | مستودع parmaga | — | `git status --porcelain=v1 --untracked-files=all` و `find . -path ./.git -prune -o \( -name '__pycache__' -o -name '*.pyc' \) -print` | مخرجان فارغان — الشجرة نظيفة تمامًا ولا توجد مخلفات بايثون قبل التنفيذ | Confirmed |
+| 2026-08-29 | 3-Closeout | 48ecb87 | clean | مستودع parmaga | — | `git rev-parse 0de5f31` | implementation commit للمرحلة 2 هو 0de5f31127bff85fa6fab1fdecda10b7f0c15382، ومerge commit لها 6783a83 عبر PR #1 | Confirmed |
+| 2026-08-29 | 3-Closeout | 48ecb87 | dirty | tests/ | — | `PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -p 'test_*.py'` | Ran 61 tests — OK، ولم تُكتب أي bytecode في الشجرة | Confirmed |
+| 2026-08-29 | 3-Closeout | 48ecb87 | dirty | tools/verify_lesson.py | — | `PYTHONDONTWRITEBYTECODE=1 python3 tools/verify_lesson.py .` | Publication candidates: 1 — المرشح programming-ai-baccalaureate-2/term-1/chapter-01/lesson-01 — RESULT: PASS (0 errors) | Confirmed |
+| 2026-08-29 | 3-Closeout | 48ecb87 | clean | assets/lessons | — | `find assets/lessons -type f -name '*.svg' \| wc -l` و `find assets/lessons -type l \| wc -l` و `find … -printf '%s\n' \| awk` | جرد النشر: 22 ملف SVG، و0 symlinks، ومجموع 245304 بايت | Confirmed |
+| 2026-08-29 | 3-Closeout | 48ecb87 | clean | manifest الدرس 01 | 1–20 | `grep -n -E '"(schemaVersion\|status\|declaredPageCount\|custodyRepository\|custodySnapshot)"'` | schemaVersion = 2، status = published، declaredPageCount = 22، custodyRepository = parmaga-content، custodySnapshot = 6bd7b72303be65404915c85ef8e2239b6e0a7e4c | Confirmed |
+| 2026-08-29 | 3-Closeout | 48ecb87 | clean | GitHub Actions API | — | `GET /repos/amr-abd-elsalam/parmaga/actions/runs?head_sha=c03fa8e…` | Gate A على PR #2: run 33053914907، workflow «Verify lessons»، event pull_request، status completed، conclusion success | Confirmed |
+| 2026-08-29 | 3-Closeout | 48ecb87 | clean | GitHub Actions API | — | `GET /repos/amr-abd-elsalam/parmaga/actions/runs/33053914907/jobs` | الوظيفة «Gate A - Lesson verification» success على ubuntu-24.04، وخطوة «Run the verification tool test suite» success، وخطوة «Verify published lessons» success | Confirmed |
+| 2026-08-29 | 3-Closeout | 48ecb87 | clean | GitHub Actions API | — | `GET …/actions/runs?head_sha=48ecb877…` | run ما بعد الدمج 33054434898 على main، event push، conclusion success — التحقق ناجح على الفرع الرئيسي أيضًا | Confirmed |
+| 2026-08-29 | 3-Closeout | 48ecb87 | clean | النشر الحي | — | `GET https://parmaga.com/assets/lessons/…/lesson-01/page-001.svg` مقابل `wc -c` و `gzip -c \| wc -c` و `sha256sum` | الأصل يُقدَّم حيًّا بنوع image/svg+xml وContent-Length 3931 وهو الجسم المضغوط؛ المحلي 15489 بايت خامًا و3883 بايت مضغوطًا وبصمته e0fc2dc9b44a042212137ef761181a0f236f92b3976091ed77e5caa5d51171f8 — الفارق ضغط نقل لا اختلاف محتوى | Confirmed |
+| 2026-08-29 | 3-Closeout | 48ecb87 | clean | النشر الحي | — | `GET https://parmaga.com/courses/programming-ai-baccalaureate-2/term-1/chapter-01/lesson-01/` | HTTP 404 مع صفحة 404 الرسمية للمشروع — `expected-404`: الأصول منشورة وصفحة الدرس غير منشأة عمدًا، فالسلوك صحيح لا إخفاق | Confirmed |
+| 2026-08-29 | 3-Closeout | 48ecb87 | clean | إعدادات GitHub | — | معاينة المالك لواجهة المستودع | لا توجد Rulesets ولا حماية فرع تقليدية على main، وGitHub Pages على Deploy from a branch من main و/(root) — فGate B غير مفعّلة | Reported |
+| 2026-08-29 | 3-Closeout | 48ecb87 | dirty | الملفات الأربعة | عدّ فقط | `grep -c ""` مقابل `grep -c $'\r$'` | بعد التعديل: المعماري 854/854، والمنفّذ 917/917، وREADME 166/166، والدفتر 313/313 — CRLF 100% محفوظ وعرف §2 قائم | Confirmed |
+| 2026-08-29 | 3-Closeout | 48ecb87 | — | صف 2026-08-26 الخاص بـ`git ls-files` | — | مقارنة بالحالة الراهنة | «none — لا أداة ولا workflow ولا أصل» كان صحيحًا في تاريخه، وأبطله تنفيذ المرحلتين 2 و3: الأداة والworkflow و22 أصلًا موجودة الآن | Superseded |
 
 نُفِّذت أوامر §M من برومبت المرحلة وطابقت مخرجاتها معايير القبول، فحُوِّل صف الحزمة إلى `Confirmed` وأُضيف صف القياس المقابل له.
+
+### مصالحة إغلاق المرحلة 3 — 2026-08-29
+
+سبقت هذه المصالحةَ فجوةٌ بين الواقع والتوثيق: نُفِّذت المرحلتان 2 و3 ودُمجتا، بينما بقي الدفتر يصف المرحلة 2 بأنها لم تبدأ والمرحلة 3 بأنها محجوبة، وبقي README ينفي وجود أي ملف SVG أو مجلد `assets/lessons/`. صحّحت هذه المرحلة الوصف دون المساس بأي أصل أو manifest أو أداة تحقق أو workflow أو إعداد استضافة، ودون حذف النص التاريخي: ما بطل يُوسم `Superseded` ويبقى مقروءًا.
+
+### Deferred Observations
+
+هذه ملاحظات مسجَّلة لا تُنفَّذ في هذه المرحلة، ولا تُحوَّل إلى تعديلات إلا بقرار مستقل:
+
+- **Node.js 20 deprecation:** تصدر GitHub Actions تحذير إهمال لبيئة تشغيل Node.js 20 المستخدمة في الإجراءات المثبَّتة داخل workflow التحقق. التحذير لا يُفشل Gate A ولم يؤثر في أي run. الحالة `Reported`، والمعالجة مؤجلة إلى مرحلة صيانة مستقلة تراجع تثبيت إصدارات الإجراءات.
+- **الفرع المحلي `phase-2-verification-gate-a`:** ما زال موجودًا محليًا عند 0de5f31 وupstream له محذوف. تنظيفه خارج نطاق هذه المرحلة ولم يُمَس.
+- **صفحة عرض الدرس:** غير موجودة عمدًا، والسؤال المتعلق بها مسجَّل في §9 وينتظر قرار مالك مستقلًا.
 
 قاعدة إنهاء التسلسل: SHA إغلاق أي مرحلة يُقيَّد في commit تدوين لاحق، ولا يُقيَّد SHA لـcommit التدوين نفسه، منعًا لتسلسل لا نهائي. commit التدوين ليس مرحلة ولا يفتح واحدة.
 
@@ -242,13 +288,19 @@ git -c core.whitespace=cr-at-eol diff --check <base> <head>
 
 ## 9. الأسئلة المفتوحة
 
-سؤال مفتوح لم يُحسم، ولا يجوز حسمه ضمنًا أثناء التنفيذ:
+سؤال المرحلة 3 — `Resolved by execution` في 2026-08-29:
 
 > هل اكتمال المرحلة 3 يعني نشر ملفات SVG فقط، مع بقاء permalink الدرس على 404، أم يجب أن يصبح permalink الدرس نفسه تجربة قابلة للزيارة؟
 
-القرار الافتراضي المؤقت — **افتراض معماري يحتاج قرارًا، وليس قرار مالك نهائيًا**:
+نُفِّذت المرحلة 3 بالنطاق الأضيق فعليًا: نُشرت الأصول وتُحقق منها، ولم تُنشأ صفحة درس. فصار الشق الأول هو الواقع المقيَّد، ويبقى الرابط الدائم على 404 بوصفه `expected-404`.
 
-> حتى يصدر قرار مخالف، نطاق المرحلة 3 الأضيق هو نشر الأصول والتحقق من URLs الخاصة بها دون إنشاء viewer أو صفحة درس جديدة.
+السؤال المفتوح المتبقي، ولا يجوز حسمه ضمنًا أثناء التنفيذ:
+
+> متى تُنشأ صفحة عرض الدرس على المسار الدائم، وبأي شكل، ومن يعتمد ذلك؟
+
+الوضع الحالي — **حالة مقيَّدة لا قرار نهائي**:
+
+> لا تُنشأ صفحة درس ولا viewer ولا فهرس `/courses/` إلا بقرار مالك مستقل ومرحلة مستقلة. وحتى ذلك الحين يبقى سلوك 404 على الرابط الدائم صحيحًا ومقصودًا.
 
 ---
 
@@ -275,15 +327,15 @@ HEAD: <sha> | الفرع: <name> | الشجرة: <clean | dirty + الوصف>
 
 ```text
 دفتر التسليم
-المرحلة الحالية: 1 — ADR-0006
-الحالة: Closed — 2026-08-27 (ملتزمة في f2734b5)
-HEAD: f2734b5 | الفرع: main | الشجرة: clean
-الملفات المعدلة/المضافة: docs/decisions/ADR-0006-asset-publication-and-verification.md، README.md، docs/ai/ARCHITECT_EVIDENCE_LEDGER.md
-الأدلة الجديدة: أربعة عشر صفًا في §8، منها الصف المُرحَّل بـSHA إغلاق المرحلة 0
+المرحلة الحالية: 3 — Closeout Reconciliation
+الحالة: In Progress — SHA الإغلاق Pending حتى الدمج
+HEAD: 48ecb87 | الفرع: phase-3-closeout-reconciliation | الشجرة: dirty — أربعة ملفات توثيقية فقط
+الملفات المعدلة/المضافة: docs/ai/ARCHITECT_EVIDENCE_LEDGER.md، README.md، AI_ARCHITECT_PROTOCOL.md، AI_EXECUTOR_PROTOCOL.md
+الأدلة الجديدة: صفوف مصالحة الإغلاق في §8 — baseline والمرحلتان 2 و3 وGate A والجرد وmanifest والنشر الحي وexpected-404
 القرارات المعتمدة حرفيًا: §3 — دون إعادة صياغة
-الأسئلة المفتوحة: §9 — سؤال permalink المرحلة 3 لم يُحسم في ADR-0006
-الانحرافات: توضيح صياغة جملة ما بعد جدول §8، وتصحيح عدد الصفوف وتقييد قياس 282/282 زمنيًا
-المرحلة التالية الوحيدة: 2 — أداة التحقق وGate A (Approved — Not Started)
-شرط بدء المرحلة التالية: مستوفى — يبقى إصدار برومبت منفّذ المرحلة 2
-الخطوة التالية الوحيدة: دفع main ثم إصدار برومبت منفّذ المرحلة 2
+الأسئلة المفتوحة: §9 — سؤال المرحلة 3 محسوم بالتنفيذ، ويبقى سؤال صفحة عرض الدرس
+الانحرافات: لا يوجد
+المرحلة التالية الوحيدة: 4 — Gate B (Awaiting Approval)
+شرط بدء المرحلة التالية: اعتماد مالك مستقل — لم يصدر
+الخطوة التالية الوحيدة: انتظار اعتماد المالك لبدء المرحلة 4
 ```
