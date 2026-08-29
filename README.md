@@ -8,6 +8,8 @@ Parmaga منصة تعليمية تستهدف السوق المصري وطلاب 
 
 تبدأ الدراسة الفعلية في 1 سبتمبر 2026، وتُنشر الدروس تدريجيًا بعد كل Session أوفلاين.
 
+نُشرت أول حزمة أصول درس داخل المستودع وتحقق منها Gate A آليًا. نشر الأصول خطوة مستقلة عن إنشاء صفحة عرض للدرس، وصفحة الدرس لم تُنشأ بعد.
+
 ## Tech Stack
 
 - HTML ثابت.
@@ -34,16 +36,24 @@ Parmaga منصة تعليمية تستهدف السوق المصري وطلاب 
 ├── assets/
 │   ├── css/
 │   │   └── parmaga.css
-│   └── images/
-│       ├── amr-abdelsalam-ad-1536.webp
-│       ├── amr-abdelsalam-ad-768.webp
-│       ├── amr-abdelsalam-ad.png
-│       ├── fav16.png
-│       ├── fav16D.png
-│       ├── fav180.png
-│       ├── fav32.png
-│       └── fav32D.png
+│   ├── images/
+│   │   ├── amr-abdelsalam-ad-1536.webp
+│   │   ├── amr-abdelsalam-ad-768.webp
+│   │   ├── amr-abdelsalam-ad.png
+│   │   ├── fav16.png
+│   │   ├── fav16D.png
+│   │   ├── fav180.png
+│   │   ├── fav32.png
+│   │   └── fav32D.png
+│   └── lessons/
+│       └── programming-ai-baccalaureate-2/
+│           └── term-1/
+│               └── chapter-01/
+│                   └── lesson-01/
+│                       └── page-001.svg .. page-022.svg   (22 published SVG files)
 ├── docs/
+    ├── ai/
+    │   └── ARCHITECT_EVIDENCE_LEDGER.md
     ├── content/
     │   ├── CONTENT_INTAKE.md
     │   ├── context/
@@ -125,20 +135,22 @@ Gate A في هذه المرحلة **إشارة تحقق فقط وليست حما
 - `PROJECT_VISION.md`: المرجع الأعلى لرؤية المشروع ومبادئ المنتج والهندسة.
 - `AI_ARCHITECT_PROTOCOL.md`: يحدد طريقة تحليل المراحل وإعداد القرارات والتسليم المعماري.
 - `AI_EXECUTOR_PROTOCOL.md`: يحدد طريقة تنفيذ مرحلة معتمدة وفحصها والتحقق منها دون توسيع نطاقها.
+- `docs/ai/ARCHITECT_EVIDENCE_LEDGER.md`: دفتر الأدلة المعماري ومرجع الحالة التشغيلية وخارطة المراحل.
 
 ## ما ليس موجودًا بعد
 
 لا يحتوي المشروع حاليًا على:
 
-- محتوى دروس منشور. لا يوجد `courses/` ولا أي صفحة درس أو فهرس.
-- ملفات SVG. لا يوجد أي أصل داخل المستودع، ولا مجلد `assets/lessons/`.
+- صفحة درس معروضة. لا يوجد `courses/` ولا أي صفحة درس أو فهرس.
 - `sitemap.xml` أو Structured Data.
 - Lesson Viewer.
 - Routing أو Build Step أو Dependencies أو JavaScript خاص بالمشروع.
 
-جُرِد أول درس مرجعي وفُحص وسُجّل في `docs/content/`، ولم يُنشر بعد. الأصول الأصلية محفوظة خارج هذا المستودع وفق `ADR-0005`.
+جُرِد أول درس مرجعي وفُحص وسُجّل في `docs/content/`، ثم نُشرت أصوله داخل المستودع: 22 ملف SVG تحت `assets/lessons/`، بحالة `published` في manifest الدرس، ومع تثبيت لقطة العهدة وفق `ADR-0006`. الأصول الأصلية تبقى محفوظة خارج هذا المستودع وفق `ADR-0005`.
 
-توجد أداة تحقق واختبارات وworkflow للتحقق: `tools/verify_lesson.py` و`tests/test_verify_lesson.py` و`.github/workflows/verify-lessons.yml`. وهي لا تغيّر شيئًا مما سبق: يبقى المشروع صفر Dependencies وصفر Build Step، ويبقى GitHub Pages على وضع `Deploy from a branch`، ولا يشارك GitHub Actions في تقديم الموقع.
+يلزم التمييز بين أمرين: نشر أصول الدرس تمّ وتحقق منه Gate A، وإنشاء صفحة HTML للدرس لم يتم. ولأن صفحة الدرس غير موجودة، فإن الرابط الدائم للدرس يعيد صفحة `404` حاليًا، وهذه هي النتيجة المتوقعة في هذه المرحلة وليست خللًا. يُحسم إنشاء صفحة العرض في مرحلة مستقلة تحتاج اعتمادًا مستقلًا.
+
+توجد أداة تحقق واختبارات وworkflow للتحقق: `tools/verify_lesson.py` و`tests/test_verify_lesson.py` و`.github/workflows/verify-lessons.yml`. ويبقى المشروع صفر Dependencies وصفر Build Step، ويبقى GitHub Pages على وضع `Deploy from a branch`، ولا يشارك GitHub Actions في تقديم الموقع.
 
 ## القرارات المعمارية
 
