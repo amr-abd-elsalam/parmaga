@@ -32,8 +32,10 @@ HEAD at Phase 3 merge commit (PR #2): 48ecb877d16252eeb2b864ed396b7270d49aca5b
 Phase 3 merge parents: 6783a8373b4fafe59d8b1706bede3c5c5e9990b3 + c03fa8e8b893da1d711b01bb64517d96e0c0e503
 Baseline HEAD at Phase 3 Closeout approval: 48ecb877d16252eeb2b864ed396b7270d49aca5b
 Baseline tree state: clean — main = origin/main
+HEAD at Phase 3 Closeout implementation commit: 99b0d2a85ea30c3a781d8bf7134d5d6ab76f0cfa
+HEAD at Phase 3 Closeout merge commit (PR #3): d40d3b842143e607a06c71bd8c6dbd25677ab74b
 Current approved phase: Phase 3 — Closeout Reconciliation
-Current phase status: In Progress — SHA الإغلاق: Pending — to be recorded after merge
+Current phase status: Closed — 2026-08-29 (مدموجة في d40d3b8)
 Next phase: Phase 4 — Gate B (Awaiting Approval — لم يصدر اعتماد بدء)
 ```
 
@@ -192,7 +194,7 @@ git -c core.whitespace=cr-at-eol diff --check <base> <head>
 | 1 | Closed | الانتقال معتمد من المالك؛ خطة المرحلة معتمدة | تحقق — ADR-0006 صادر بحالة Accepted وملتزم في f2734b5، وفهرسته في README تمت |
 | 2 | Closed | قبول ADR-0006 واعتماد الانتقال — مستوفى في 2026-08-27 | تحقق — الأداة والاختبارات وworkflow التحقق ملتزمة في 0de5f31 ومدموجة في 6783a83 |
 | 3 | Closed | إغلاق المرحلة 2 واعتماد الانتقال | تحقق — أصول الدرس منشورة في c03fa8e ومدموجة في 48ecb87، وGate A ناجحة على PR #2 |
-| 3-Closeout | In Progress | اعتماد المالك لخطة مصالحة الإغلاق | مطابقة الدفتر وREADME للواقع، وتثبيت سياسة الفحص المحلي أولًا |
+| 3-Closeout | Closed | اعتماد المالك لخطة مصالحة الإغلاق | تحقق — implementation 99b0d2a، merge d40d3b8 عبر PR #3، وGate A ناجحة في run 33237283840 |
 | 4 | Awaiting Approval | نجاح Gate A على PR حقيقي وإغلاق المرحلة 3 — مستوفى | تفعيل Ruleset والتحقق منه |
 
 أُغلقت المرحلة 1 بـcommit فعلي هو f2734b5، وقُيِّد SHA في §2 و§8.
