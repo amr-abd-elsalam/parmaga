@@ -34,9 +34,12 @@ Baseline HEAD at Phase 3 Closeout approval: 48ecb877d16252eeb2b864ed396b7270d49a
 Baseline tree state: clean — main = origin/main
 HEAD at Phase 3 Closeout implementation commit: 99b0d2a85ea30c3a781d8bf7134d5d6ab76f0cfa
 HEAD at Phase 3 Closeout merge commit (PR #3): d40d3b842143e607a06c71bd8c6dbd25677ab74b
-Current approved phase: Phase 3 — Closeout Reconciliation
-Current phase status: Closed — 2026-08-29 (مدموجة في d40d3b8)
-Next phase: Phase 4 — Gate B (Awaiting Approval — لم يصدر اعتماد بدء)
+Baseline HEAD at Phase 4 approval: c29a6b1ab2559d36438e1be96e200c56182e066c
+Baseline tree state at Phase 4 approval: clean — main = origin/main، والفرع المحلي الوحيد main
+Previous phase: Phase 3 — Closeout Reconciliation (Closed — 2026-08-29، مدموجة في d40d3b8)
+Current approved phase: Phase 4 — Gate B
+Current phase status: In Progress — Ruleset 21795074 مفعّلة، وSHAs الإغلاق تُقيَّد في commit تدوين لاحق عبر PR
+Next phase: لا يوجد — لا تُفتح مرحلة تالية إلا باعتماد مالك مستقل
 ```
 
 حالة الشجرة عند اعتماد المرحلة أُثبتت بالأمر `git status --short --branch`، ومخرجه سطر الفرع وحده دون أي سطر حالة.
@@ -195,13 +198,15 @@ git -c core.whitespace=cr-at-eol diff --check <base> <head>
 | 2 | Closed | قبول ADR-0006 واعتماد الانتقال — مستوفى في 2026-08-27 | تحقق — الأداة والاختبارات وworkflow التحقق ملتزمة في 0de5f31 ومدموجة في 6783a83 |
 | 3 | Closed | إغلاق المرحلة 2 واعتماد الانتقال | تحقق — أصول الدرس منشورة في c03fa8e ومدموجة في 48ecb87، وGate A ناجحة على PR #2 |
 | 3-Closeout | Closed | اعتماد المالك لخطة مصالحة الإغلاق | تحقق — implementation 99b0d2a، merge d40d3b8 عبر PR #3، وGate A ناجحة في run 33237283840 |
-| 4 | Awaiting Approval | نجاح Gate A على PR حقيقي وإغلاق المرحلة 3 — مستوفى | تفعيل Ruleset والتحقق منه |
+| 4 | In Progress | نجاح Gate A على PR حقيقي وإغلاق المرحلة 3 — مستوفى، واعتماد المالك ببدء المرحلة صدر في 2026-08-29 | تفعيل Ruleset منفَّذ ومقيَّد في §8؛ ويبقى إثبات حجب الدمج ثم نجاح Gate A ثم الدمج عبر PR حقيقي |
 
 أُغلقت المرحلة 1 بـcommit فعلي هو f2734b5، وقُيِّد SHA في §2 و§8.
 
 الفقرة التي كانت هنا قبل 2026-08-29 نصّت على أن المرحلة 2 لم تبدأ ولم يُنشأ لها شيء. كانت صحيحة في تاريخها، وهي الآن `Superseded`: نُفِّذت المرحلة 2 ودُمجت، ثم نُفِّذت المرحلة 3 ودُمجت. لا يُحذف النص التاريخي، بل يُقيَّد إبطاله هنا وفي §8.
 
-المرحلة 4 استوفت شرط بدئها بنجاح Gate A على PR حقيقي وإغلاق المرحلة 3، ومع ذلك لم تبدأ ولم يصدر اعتماد ببدئها. حالتها `Awaiting Approval` لا `Started` ولا `Complete`. ولا يجوز اعتبار Gate B مفعّلة: لا توجد Rulesets ولا حماية فرع تقليدية على هذا المستودع حتى تاريخه.
+الفقرة التي كانت هنا قبل 2026-08-29 نصّت على أن المرحلة 4 لم تبدأ وأن Gate B غير مفعّلة لغياب أي Ruleset. كانت صحيحة في تاريخها، وهي الآن `Superseded`: صدر اعتماد المالك ببدء المرحلة 4، وأُنشئت Branch Ruleset واحدة هي 21795074 باسم «Gate B - Main lesson verification» بحالة Active تستهدف refs/heads/main وحده، وفحصها المطلوب الوحيد «Gate A - Lesson verification». لا يُحذف النص التاريخي، بل يُقيَّد إبطاله هنا وفي §8.
+
+حالة المرحلة 4 هي `In Progress` لا `Complete`: وجود Ruleset ليس إغلاقًا. الإغلاق يقتضي PR حقيقيًا إلى main يظهر محجوبًا حتى تنجح Gate A ثم يُدمج، ثم commit تدوين لاحق عبر PR يقيّد implementation SHA ورقم PR وmerge SHA وrun ID الفعلية. وتبقى حماية الفرع التقليدية غائبة عمدًا، فلا حماية موازية.
 
 ---
 
@@ -267,6 +272,16 @@ git -c core.whitespace=cr-at-eol diff --check <base> <head>
 | 2026-08-29 | 3-Closeout | 48ecb87 | clean | إعدادات GitHub | — | معاينة المالك لواجهة المستودع | لا توجد Rulesets ولا حماية فرع تقليدية على main، وGitHub Pages على Deploy from a branch من main و/(root) — فGate B غير مفعّلة | Reported |
 | 2026-08-29 | 3-Closeout | 48ecb87 | dirty | الملفات الأربعة | عدّ فقط | `grep -c ""` مقابل `grep -c $'\r$'` | بعد التعديل: المعماري 854/854، والمنفّذ 917/917، وREADME 166/166، والدفتر 313/313 — CRLF 100% محفوظ وعرف §2 قائم | Confirmed |
 | 2026-08-29 | 3-Closeout | 48ecb87 | — | صف 2026-08-26 الخاص بـ`git ls-files` | — | مقارنة بالحالة الراهنة | «none — لا أداة ولا workflow ولا أصل» كان صحيحًا في تاريخه، وأبطله تنفيذ المرحلتين 2 و3: الأداة والworkflow و22 أصلًا موجودة الآن | Superseded |
+| 2026-08-29 | 4 | c29a6b1 | clean | مستودع parmaga | — | `git branch --show-current` و `git rev-parse HEAD` و `git rev-parse origin/main` و `git branch --list` و `git status --short --branch` | baseline المرحلة 4: الفرع main، وHEAD = c29a6b1ab2559d36438e1be96e200c56182e066c مطابق لـorigin/main، والفرع المحلي الوحيد main، والشجرة clean | Confirmed |
+| 2026-08-29 | 4 | c29a6b1 | clean | GitHub API | — | `GET /repos/amr-abd-elsalam/parmaga/branches/main` قبل التفعيل | protected = false، وprotection.enabled = false، وrequired_status_checks.enforcement_level = "off" بقائمتي contexts وchecks فارغتين — لا classic protection. وorigin/main = c29a6b1ab2559d36438e1be96e200c56182e066c وأبوه d40d3b842143e607a06c71bd8c6dbd25677ab74b | Confirmed |
+| 2026-08-29 | 4 | c29a6b1 | clean | إعدادات GitHub | — | معاينة المالك قبل التفعيل: Settings ← Rules ← Rulesets، وSettings ← Branches، وSettings ← Pages | «You haven't created any rulesets»، و«Classic branch protections have not been configured»، وPages على Deploy from a branch من main و/(root) بنطاق parmaga.com وEnforce HTTPS مفعّل | Reported |
+| 2026-08-29 | 4 | c29a6b1 | clean | GitHub Rulesets API | — | `GET /repos/amr-abd-elsalam/parmaga/rulesets` | قاعدة واحدة لا غير: id 21795074، الاسم «Gate B - Main lesson verification»، target = branch، source_type = Repository، enforcement = active، created_at = 2026-08-29T09:41:01.637Z | Confirmed |
+| 2026-08-29 | 4 | c29a6b1 | clean | GitHub Rulesets API | — | `GET /repos/amr-abd-elsalam/parmaga/rulesets/21795074` | conditions.ref_name.include = refs/heads/main وexclude فارغة؛ وقاعدة واحدة فقط من نوع required_status_checks؛ وstrict_required_status_checks_policy = false؛ وdo_not_enforce_on_create = false؛ والفحص المطلوب الوحيد context = «Gate A - Lesson verification» بـintegration_id 15368 أي GitHub Actions | Confirmed |
+| 2026-08-29 | 4 | c29a6b1 | clean | GitHub Rulesets API ومعاينة المالك | — | فحص حقل bypass_actors في مخرج القاعدة، ومعاينة كتلة Bypass list قبل الحفظ وبعده | لا standing bypass: الحقل غائب من استجابة الـAPI، والواجهة تعرض «Bypass list is empty» بلا أي actor | Confirmed |
+| 2026-08-29 | 4 | c29a6b1 | clean | إعدادات GitHub | — | معاينة المالك بعد الحفظ: Settings ← Rules ← Rulesets، وSettings ← Branches، وSettings ← Pages | القائمة تعرض «Gate B - Main lesson verification» وحدها بحالة Active و«1 branch rule • targeting 1 branch»؛ وBranches ما زالت «Classic branch protections have not been configured» فلا حماية موازية؛ وPages ما زالت Deploy from a branch من main و/(root) بلا أي تغيير | Reported |
+| 2026-08-29 | 4 | c29a6b1 | clean | GitHub API | — | `GET /repos/amr-abd-elsalam/parmaga/branches/main/protection` | الاستجابة 401 Requires authentication بلا مصادقة — النداء لا يثبت شيئًا في أي اتجاه، وإثبات غياب الحماية التقليدية مصدره معاينة الواجهة وحدها | Confirmed |
+| 2026-08-29 | 4 | c29a6b1 | clean | مستودع parmaga | — | `git branch --list` | عبارة Deferred Observations عن بقاء الفرع المحلي phase-2-verification-gate-a عند 0de5f31 لم تعد صحيحة: المخرج `* main` وحده، فالفرع لم يعد موجودًا محليًا | Superseded |
+| 2026-08-29 | 4 | c29a6b1 | clean | صف 2026-08-29 المؤرَّخ بحالة Reported عن إعدادات GitHub | — | مقارنة بالحالة الراهنة | «لا توجد Rulesets ولا حماية فرع تقليدية على main فGate B غير مفعّلة» كان صحيحًا في تاريخه، وأبطله تفعيل ruleset 21795074: Gate B مفعّلة الآن، وتبقى حماية الفرع التقليدية غائبة وPages بلا تغيير | Superseded |
 
 نُفِّذت أوامر §M من برومبت المرحلة وطابقت مخرجاتها معايير القبول، فحُوِّل صف الحزمة إلى `Confirmed` وأُضيف صف القياس المقابل له.
 
@@ -283,6 +298,8 @@ git -c core.whitespace=cr-at-eol diff --check <base> <head>
 - **صفحة عرض الدرس:** غير موجودة عمدًا، والسؤال المتعلق بها مسجَّل في §9 وينتظر قرار مالك مستقلًا.
 
 قاعدة إنهاء التسلسل: SHA إغلاق أي مرحلة يُقيَّد في commit تدوين لاحق، ولا يُقيَّد SHA لـcommit التدوين نفسه، منعًا لتسلسل لا نهائي. commit التدوين ليس مرحلة ولا يفتح واحدة.
+
+تعديل مسار التدوين بعد تفعيل Gate B — 2026-08-29: طُبِّقت هذه القاعدة قبل اليوم بدفعة مباشرة إلى main، وهو مسار صارت Gate B تمنعه. تبقى القاعدة نفسها بلا تغيير في مضمونها، ويتغير مسارها وحده: commit التدوين يمر عبر فرع وPR وGate A ناجحة مثل أي تغيير آخر. ولا يجوز لتنفيذه bypass ولا direct push ولا commit فارغ. ويبقى merge SHA لـPR التدوين نفسه غير مقيَّد نصًا، وهو موضع توقف التسلسل، ويُثبت خارجيًا عند الحاجة من تاريخ المستودع.
 
 مدخل `ADR-0004 و ADR-0005` المؤرَّخ 2026-08-26 مصدره لصق نصي من مالك المشروع لا أمر `git show`، فيبقى `Needs Verification` حتى يُقرأ من الشجرة بأمر موجّه عند الحاجة إليه.
 
@@ -329,15 +346,15 @@ HEAD: <sha> | الفرع: <name> | الشجرة: <clean | dirty + الوصف>
 
 ```text
 دفتر التسليم
-المرحلة الحالية: 3 — Closeout Reconciliation
-الحالة: In Progress — SHA الإغلاق Pending حتى الدمج
-HEAD: 48ecb87 | الفرع: phase-3-closeout-reconciliation | الشجرة: dirty — أربعة ملفات توثيقية فقط
-الملفات المعدلة/المضافة: docs/ai/ARCHITECT_EVIDENCE_LEDGER.md، README.md، AI_ARCHITECT_PROTOCOL.md، AI_EXECUTOR_PROTOCOL.md
-الأدلة الجديدة: صفوف مصالحة الإغلاق في §8 — baseline والمرحلتان 2 و3 وGate A والجرد وmanifest والنشر الحي وexpected-404
+المرحلة الحالية: 4 — Gate B
+الحالة: In Progress — Ruleset 21795074 مفعّلة، وSHAs الإغلاق Pending حتى الدمج
+HEAD: c29a6b1 | الفرع: phase-4-gate-b | الشجرة: dirty — ملف واحد فقط
+الملفات المعدلة/المضافة: docs/ai/ARCHITECT_EVIDENCE_LEDGER.md
+الأدلة الجديدة: صفوف المرحلة 4 في §8 — baseline محلي، ومعاينة ما قبل التفعيل، وruleset 21795074 بشروطها وقاعدتها الوحيدة، وغياب bypass، وحدود نداء protection، ومعاينة ما بعد التفعيل وثبات Pages، وصفّا Superseded
 القرارات المعتمدة حرفيًا: §3 — دون إعادة صياغة
-الأسئلة المفتوحة: §9 — سؤال المرحلة 3 محسوم بالتنفيذ، ويبقى سؤال صفحة عرض الدرس
+الأسئلة المفتوحة: §9 — يبقى سؤال صفحة عرض الدرس بلا حسم
 الانحرافات: لا يوجد
-المرحلة التالية الوحيدة: 4 — Gate B (Awaiting Approval)
+المرحلة التالية الوحيدة: لا يوجد — يليها commit تدوين عبر PR يقيّد SHAs المرحلة 4، وهو ليس مرحلة ولا يفتح واحدة
 شرط بدء المرحلة التالية: اعتماد مالك مستقل — لم يصدر
-الخطوة التالية الوحيدة: انتظار اعتماد المالك لبدء المرحلة 4
+الخطوة التالية الوحيدة: فتح PR من phase-4-gate-b إلى main وإثبات حجب الدمج حتى نجاح Gate A
 ```
