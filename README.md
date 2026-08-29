@@ -8,7 +8,7 @@ Parmaga منصة تعليمية تستهدف السوق المصري وطلاب 
 
 تبدأ الدراسة الفعلية في 1 سبتمبر 2026، وتُنشر الدروس تدريجيًا بعد كل Session أوفلاين.
 
-نُشرت أول حزمة أصول درس داخل المستودع وتحقق منها Gate A آليًا. نشر الأصول خطوة مستقلة عن إنشاء صفحة عرض للدرس، وصفحة الدرس لم تُنشأ بعد.
+نُشرت أول حزمة أصول درس داخل المستودع وتحقق منها Gate A آليًا، ثم نُشرت صفحة الدرس الأولى على مسارها الدائم. الصفحة ثابتة وكاملة دون JavaScript، وفوقها عارض تفاعلي اختياري يعمل بالتحسين المتدرج وفق `ADR-0007`.
 
 ## Tech Stack
 
@@ -16,7 +16,7 @@ Parmaga منصة تعليمية تستهدف السوق المصري وطلاب 
 - ملف CSS خارجي واحد مبني على Design Tokens.
 - صفر Dependencies.
 - صفر Build Step.
-- صفر JavaScript خاص بالمشروع.
+- ملف JavaScript خارجي واحد لصفحة الدرس وحدها، اختياري وقابل للتعطل بأمان. وما عدا ذلك صفر JavaScript.
 
 ## شجرة الملفات
 
@@ -36,6 +36,8 @@ Parmaga منصة تعليمية تستهدف السوق المصري وطلاب 
 ├── assets/
 │   ├── css/
 │   │   └── parmaga.css
+│   ├── js/
+│   │   └── lesson-viewer.js
 │   ├── images/
 │   │   ├── amr-abdelsalam-ad-1536.webp
 │   │   ├── amr-abdelsalam-ad-768.webp
@@ -72,7 +74,14 @@ Parmaga منصة تعليمية تستهدف السوق المصري وطلاب 
         ├── ADR-0003-lessons-architecture.md
         ├── ADR-0004-identifiers-and-permanent-paths.md
         ├── ADR-0005-content-intake-and-asset-custody.md
-        └── ADR-0006-asset-publication-and-verification.md
+        ├── ADR-0006-asset-publication-and-verification.md
+        └── ADR-0007-lesson-page-and-progressive-viewer.md
+├── courses/
+│   └── programming-ai-baccalaureate-2/
+│       └── term-1/
+│           └── chapter-01/
+│               └── lesson-01/
+│                   └── index.html
 ├── tests/
 │   └── test_verify_lesson.py
 └── tools/
@@ -141,14 +150,14 @@ Gate A في هذه المرحلة **إشارة تحقق فقط وليست حما
 
 لا يحتوي المشروع حاليًا على:
 
-- صفحة درس معروضة. لا يوجد `courses/` ولا أي صفحة درس أو فهرس.
+- فهارس Course وTerm وChapter، وفهرس `/courses/` نفسه. المنشور حاليًا صفحة الدرس الأولى وحدها، وبقية المستويات تعيد `404`.
 - `sitemap.xml` أو Structured Data.
-- Lesson Viewer.
-- Routing أو Build Step أو Dependencies أو JavaScript خاص بالمشروع.
+- تنقل بين الدروس، أو حفظ تقدم الطالب، أو بحث.
+- Routing أو Build Step أو Dependencies.
 
 جُرِد أول درس مرجعي وفُحص وسُجّل في `docs/content/`، ثم نُشرت أصوله داخل المستودع: 22 ملف SVG تحت `assets/lessons/`، بحالة `published` في manifest الدرس، ومع تثبيت لقطة العهدة وفق `ADR-0006`. الأصول الأصلية تبقى محفوظة خارج هذا المستودع وفق `ADR-0005`.
 
-يلزم التمييز بين أمرين: نشر أصول الدرس تمّ وتحقق منه Gate A، وإنشاء صفحة HTML للدرس لم يتم. ولأن صفحة الدرس غير موجودة، فإن الرابط الدائم للدرس يعيد صفحة `404` حاليًا، وهذه هي النتيجة المتوقعة في هذه المرحلة وليست خللًا. يُحسم إنشاء صفحة العرض في مرحلة مستقلة تحتاج اعتمادًا مستقلًا.
+ثم أُنشئت صفحة الدرس على مسارها الدائم، فصار الرابط `‏/courses/programming-ai-baccalaureate-2/term-1/chapter-01/lesson-01/` يعيد `200`. الصفحة تعرض الصفحات الـ22 عبر `<img>` بأبعاد صريحة وتحميل مؤجل، ولكل صفحة مرساة ثابتة من `#page-1` إلى `#page-22` ونص كامل بالعربية والإنجليزية متاح دون JavaScript. ويضيف `assets/js/lesson-viewer.js` عرضًا تفاعليًا اختياريًا لصفحة واحدة نشطة، فإذا تعطّل أو حُجب بقي الدرس كاملًا ساكنًا. ولم تُعدّل ملفات SVG الأصلية. وتبقى مستويات Course وTerm وChapter بلا فهارس، فتعيد `404` حتى تُنشأ بقرار مستقل.
 
 توجد أداة تحقق واختبارات وworkflow للتحقق: `tools/verify_lesson.py` و`tests/test_verify_lesson.py` و`.github/workflows/verify-lessons.yml`. ويبقى المشروع صفر Dependencies وصفر Build Step، ويبقى GitHub Pages على وضع `Deploy from a branch`، ولا يشارك GitHub Actions في تقديم الموقع.
 
@@ -162,5 +171,6 @@ Gate A في هذه المرحلة **إشارة تحقق فقط وليست حما
 - `ADR-0004-identifiers-and-permanent-paths.md`: المعرّفات التقنية والمسارات الدائمة للمحتوى التعليمي.
 - `ADR-0005-content-intake-and-asset-custody.md`: إدخال المحتوى وحراسة الأصول وجرد الدروس.
 - `ADR-0006-asset-publication-and-verification.md`: نشر الأصول والتحقق الآلي وتثبيت لقطة العهدة.
+- `ADR-0007-lesson-page-and-progressive-viewer.md`: صفحة الدرس الأولى والعارض التفاعلي المتدرج وحدود التضمين inline.
 
 وتوجد بيانات جرد المحتوى وملفات التسليم والإجراء التشغيلي في `docs/content/`.

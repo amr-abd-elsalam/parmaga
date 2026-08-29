@@ -208,7 +208,9 @@ a {
 /* Two-tone focus indicator: navy outline plus a paper ring in the offset gap,
    so it stays visible on paper, on wood and on navy surfaces.
    The UA outline is replaced, never removed. Hover is not a focus substitute. */
-a:focus-visible {
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
   outline: var(--pg-focus-width) solid var(--pg-navy-700);
   outline-offset: var(--pg-focus-offset);
   box-shadow: 0 0 0 var(--pg-focus-offset) var(--pg-paper);
@@ -429,6 +431,190 @@ a:focus-visible {
   color: var(--pg-paper);
 }
 
+/* --------------------------------------------------------------------------
+   Page scope — Lesson
+   الأساس الساكن يعمل دون JavaScript. أدوات العارض مخفية حتى نجاح التهيئة،
+   ولا تُخفى أي صفحة ساكنة إلا عندما يعلّم السكربت القائمة بـdata-viewer-active.
+   -------------------------------------------------------------------------- */
+
+.page-lesson main {
+  width: var(--pg-size-full);
+  max-width: var(--pg-content-width);
+  margin: var(--pg-space-0) auto;
+  padding: var(--pg-space-6) var(--pg-space-4);
+  background-color: var(--pg-paper);
+}
+
+.lesson-head {
+  margin-bottom: var(--pg-space-8);
+}
+
+.lesson-eyebrow {
+  margin: var(--pg-space-0) var(--pg-space-0) var(--pg-space-2);
+  color: var(--pg-slate-600);
+}
+
+.page-lesson main h1 {
+  margin: var(--pg-space-0) var(--pg-space-0) var(--pg-space-3);
+  font-size: var(--pg-font-size-heading-2);
+  line-height: var(--pg-line-height-heading-2);
+  color: var(--pg-navy-900);
+}
+
+.lesson-lede {
+  margin: var(--pg-space-0);
+  color: var(--pg-slate-600);
+}
+
+.page-lesson main h2 {
+  margin: var(--pg-space-0) var(--pg-space-0) var(--pg-space-3);
+  font-size: var(--pg-font-size-heading-3);
+  line-height: var(--pg-line-height-heading-3);
+  color: var(--pg-navy-700);
+}
+
+.lesson-viewer-controls {
+  margin-bottom: var(--pg-space-6);
+  padding: var(--pg-space-4);
+  border: var(--pg-border-width) solid var(--pg-rule);
+  background-color: var(--pg-paper-2);
+}
+
+.viewer-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--pg-space-2);
+}
+
+.viewer-buttons button {
+  min-height: var(--pg-touch-target);
+  padding: var(--pg-space-2) var(--pg-space-4);
+  border: var(--pg-border-width-strong) solid var(--pg-navy-700);
+  border-radius: var(--pg-radius-control);
+  background-color: var(--pg-paper);
+  color: var(--pg-navy-700);
+  font-family: var(--pg-font-family-base);
+  font-size: var(--pg-font-size-value);
+  cursor: pointer;
+}
+
+.viewer-buttons button:hover {
+  background-color: var(--pg-navy-700);
+  color: var(--pg-paper);
+}
+
+.viewer-buttons button[disabled] {
+  border-color: var(--pg-slate-600);
+  color: var(--pg-slate-600);
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.viewer-buttons button[aria-pressed="false"] {
+  border-style: dashed;
+}
+
+.viewer-status {
+  margin: var(--pg-space-3) var(--pg-space-0) var(--pg-space-0);
+  color: var(--pg-slate-600);
+}
+
+.lesson-notice {
+  margin: var(--pg-space-0) var(--pg-space-0) var(--pg-space-4);
+  padding: var(--pg-space-3) var(--pg-space-4);
+  border: var(--pg-border-width) solid var(--pg-callout-border);
+  background-color: var(--pg-callout-bg);
+  color: var(--pg-slate-600);
+}
+
+.lesson-stage {
+  margin-bottom: var(--pg-space-6);
+  border: var(--pg-border-width) solid var(--pg-rule);
+  background-color: var(--pg-paper);
+}
+
+.lesson-stage-svg {
+  display: block;
+  width: var(--pg-size-full);
+  height: auto;
+  margin: var(--pg-space-0) auto;
+  max-width: 1080px;
+}
+
+.lesson-pen {
+  fill: var(--pg-red-600);
+  pointer-events: none;
+}
+
+.lesson-pages {
+  margin: var(--pg-space-0);
+  padding: var(--pg-space-0);
+  list-style: none;
+}
+
+.lesson-page {
+  margin-bottom: var(--pg-space-9);
+}
+
+.lesson-page-image {
+  display: block;
+  width: var(--pg-size-full);
+  height: auto;
+  max-width: 1080px;
+  margin: var(--pg-space-0) auto var(--pg-space-3);
+  border: var(--pg-border-width) solid var(--pg-rule);
+  background-color: var(--pg-paper);
+}
+
+.lesson-transcript {
+  border: var(--pg-border-width) solid var(--pg-rule);
+  background-color: var(--pg-paper-2);
+}
+
+.lesson-transcript > summary {
+  min-height: var(--pg-touch-target);
+  padding: var(--pg-space-3) var(--pg-space-4);
+  color: var(--pg-navy-700);
+  cursor: pointer;
+}
+
+.transcript-body {
+  padding: var(--pg-space-0) var(--pg-space-4) var(--pg-space-4);
+}
+
+.transcript-body p {
+  margin: var(--pg-space-0) var(--pg-space-0) var(--pg-space-3);
+  line-height: var(--pg-line-height-body);
+}
+
+.transcript-body p[lang="en"] {
+  color: var(--pg-slate-600);
+}
+
+.lesson-foot {
+  margin-top: var(--pg-space-9);
+  padding-top: var(--pg-space-4);
+  border-top: var(--pg-border-width) solid var(--pg-rule);
+}
+
+/* عند نجاح التهيئة فقط: تُطوى الصفحات غير النشطة إلى صورها ونصوصها المصغّرة.
+   الصور والنصوص تبقى كلها في DOM، فلا يختفي محتوى أساسي في أي حالة. */
+.lesson-pages[data-viewer-active] .lesson-page[data-current] {
+  outline: var(--pg-border-width-strong) solid var(--pg-navy-700);
+  outline-offset: var(--pg-focus-offset);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page-lesson .lesson-pen {
+    display: none;
+  }
+
+  .page-lesson * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
 /* ==========================================================================
    Layer 5 — Print
    ========================================================================== */
@@ -448,6 +634,25 @@ a:focus-visible {
     background-color: var(--pg-paper);
     background-image: none;
     box-shadow: none;
+  }
+
+  .page-lesson main {
+    width: var(--pg-size-full);
+    padding: var(--pg-space-0);
+    background-color: var(--pg-paper);
+    background-image: none;
+    box-shadow: none;
+  }
+
+  .page-lesson .lesson-viewer-controls,
+  .page-lesson .lesson-stage,
+  .page-lesson .lesson-notice,
+  .page-lesson .lesson-pen {
+    display: none;
+  }
+
+  .page-lesson .lesson-page {
+    page-break-inside: avoid;
   }
 
   .hero {
