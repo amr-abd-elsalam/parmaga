@@ -38,7 +38,10 @@ Baseline HEAD at Phase 4 approval: c29a6b1ab2559d36438e1be96e200c56182e066c
 Baseline tree state at Phase 4 approval: clean — main = origin/main، والفرع المحلي الوحيد main
 Previous phase: Phase 3 — Closeout Reconciliation (Closed — 2026-08-29، مدموجة في d40d3b8)
 Current approved phase: Phase 4 — Gate B
-Current phase status: In Progress — Ruleset 21795074 مفعّلة، وSHAs الإغلاق تُقيَّد في commit تدوين لاحق عبر PR
+HEAD at Phase 4 implementation commit: dd32b51828f521984cc6be98d918a15240afe7ef
+HEAD at Phase 4 merge commit (PR #4): 1fdbfa791de9df2f18480c12fadb573a2d2400be
+Phase 4 merge parents: c29a6b1ab2559d36438e1be96e200c56182e066c + dd32b51828f521984cc6be98d918a15240afe7ef
+Current phase status: Closed — 2026-08-29 (مدموجة في 1fdbfa7)
 Next phase: لا يوجد — لا تُفتح مرحلة تالية إلا باعتماد مالك مستقل
 ```
 
@@ -198,7 +201,7 @@ git -c core.whitespace=cr-at-eol diff --check <base> <head>
 | 2 | Closed | قبول ADR-0006 واعتماد الانتقال — مستوفى في 2026-08-27 | تحقق — الأداة والاختبارات وworkflow التحقق ملتزمة في 0de5f31 ومدموجة في 6783a83 |
 | 3 | Closed | إغلاق المرحلة 2 واعتماد الانتقال | تحقق — أصول الدرس منشورة في c03fa8e ومدموجة في 48ecb87، وGate A ناجحة على PR #2 |
 | 3-Closeout | Closed | اعتماد المالك لخطة مصالحة الإغلاق | تحقق — implementation 99b0d2a، merge d40d3b8 عبر PR #3، وGate A ناجحة في run 33237283840 |
-| 4 | In Progress | نجاح Gate A على PR حقيقي وإغلاق المرحلة 3 — مستوفى، واعتماد المالك ببدء المرحلة صدر في 2026-08-29 | تفعيل Ruleset منفَّذ ومقيَّد في §8؛ ويبقى إثبات حجب الدمج ثم نجاح Gate A ثم الدمج عبر PR حقيقي |
+| 4 | Closed | نجاح Gate A على PR حقيقي وإغلاق المرحلة 3 — مستوفى، واعتماد المالك ببدء المرحلة صدر في 2026-08-29 | تحقق — ruleset 21795074 مفعّلة، وGate A إلزامية بوسم Required على PR #4، وnجحت في run 33246791746، وimplementation dd32b51 مدموج في 1fdbfa7 عبر PR #4، وPages بلا تغيير |
 
 أُغلقت المرحلة 1 بـcommit فعلي هو f2734b5، وقُيِّد SHA في §2 و§8.
 
@@ -206,7 +209,9 @@ git -c core.whitespace=cr-at-eol diff --check <base> <head>
 
 الفقرة التي كانت هنا قبل 2026-08-29 نصّت على أن المرحلة 4 لم تبدأ وأن Gate B غير مفعّلة لغياب أي Ruleset. كانت صحيحة في تاريخها، وهي الآن `Superseded`: صدر اعتماد المالك ببدء المرحلة 4، وأُنشئت Branch Ruleset واحدة هي 21795074 باسم «Gate B - Main lesson verification» بحالة Active تستهدف refs/heads/main وحده، وفحصها المطلوب الوحيد «Gate A - Lesson verification». لا يُحذف النص التاريخي، بل يُقيَّد إبطاله هنا وفي §8.
 
-حالة المرحلة 4 هي `In Progress` لا `Complete`: وجود Ruleset ليس إغلاقًا. الإغلاق يقتضي PR حقيقيًا إلى main يظهر محجوبًا حتى تنجح Gate A ثم يُدمج، ثم commit تدوين لاحق عبر PR يقيّد implementation SHA ورقم PR وmerge SHA وrun ID الفعلية. وتبقى حماية الفرع التقليدية غائبة عمدًا، فلا حماية موازية.
+اكتمل شرط الإغلاق المذكور أعلاه فعليًا: فُتح PR #4 من الفرع phase-4-gate-b إلى main حاملًا تعديل الدفتر وحده، وظهر فحص «Gate A - Lesson verification» فيه موسومًا Required بفعل ruleset 21795074، ثم نجح في run 33246791746، ثم صار الـPR Ready to merge ودُمج بmerge commit حقيقي هو 1fdbfa7 بأبويه c29a6b1 وdd32b51. فحالة المرحلة 4 هي `Closed`. وتبقى حماية الفرع التقليدية غائبة عمدًا، فلا حماية موازية.
+
+قيد أمانة على دليل الحجب: ثبت بالمعاينة أن الـPR فُتح بحالة `Checks pending` وعدّاد Checks صفر، وثبت وسم Required على الفحص، وثبت من الـAPI أن الفحص بدأ 10:00:28Z وانتهى 10:00:37Z. ولم تُلتقط صورة لصندوق الدمج وهو محجوب بالنص الصريح، لقصر مدة الفحص. فالحجب أثناء pending `Inferred` من مجموع هذه القرائن لا `Confirmed` بمشاهدة مباشرة، ولم يُعطَّل أي workflow لصناعة الحالة.
 
 ---
 
@@ -282,6 +287,21 @@ git -c core.whitespace=cr-at-eol diff --check <base> <head>
 | 2026-08-29 | 4 | c29a6b1 | clean | GitHub API | — | `GET /repos/amr-abd-elsalam/parmaga/branches/main/protection` | الاستجابة 401 Requires authentication بلا مصادقة — النداء لا يثبت شيئًا في أي اتجاه، وإثبات غياب الحماية التقليدية مصدره معاينة الواجهة وحدها | Confirmed |
 | 2026-08-29 | 4 | c29a6b1 | clean | مستودع parmaga | — | `git branch --list` | عبارة Deferred Observations عن بقاء الفرع المحلي phase-2-verification-gate-a عند 0de5f31 لم تعد صحيحة: المخرج `* main` وحده، فالفرع لم يعد موجودًا محليًا | Superseded |
 | 2026-08-29 | 4 | c29a6b1 | clean | صف 2026-08-29 المؤرَّخ بحالة Reported عن إعدادات GitHub | — | مقارنة بالحالة الراهنة | «لا توجد Rulesets ولا حماية فرع تقليدية على main فGate B غير مفعّلة» كان صحيحًا في تاريخه، وأبطله تفعيل ruleset 21795074: Gate B مفعّلة الآن، وتبقى حماية الفرع التقليدية غائبة وPages بلا تغيير | Superseded |
+| 2026-08-29 | 4 | dd32b51 | dirty ثم clean | مستودع parmaga | — | `git checkout -b phase-4-gate-b` و `git status --short` و `git diff --name-only` | الملف المتغير الوحيد docs/ai/ARCHITECT_EVIDENCE_LEDGER.md، ولا مسار ثانٍ | Confirmed |
+| 2026-08-29 | 4 | dd32b51 | clean | مستودع parmaga | — | `git commit` و `git show --stat --oneline HEAD` | implementation commit للمرحلة 4 هو dd32b51828f521984cc6be98d918a15240afe7ef بإحصاء 1 file changed, 30 insertions(+), 13 deletions(-) — لا commit فارغ | Confirmed |
+| 2026-08-29 | 4 | dd32b51 | clean | docs/ai/ARCHITECT_EVIDENCE_LEDGER.md | عدّ فقط | `grep -c ""` مقابل `grep -c $'\r$'` | 360 مقابل 360 — CRLF 100% محفوظ بعد التعديل، وعرف §2 قائم | Confirmed |
+| 2026-08-29 | 4 | dd32b51 | clean | فرق c29a6b1..dd32b51 | — | `git -c core.whitespace=cr-at-eol diff --check c29a6b1 dd32b51` | مخرج فارغ تمامًا — أمر الفحص المعتمد في §2 اجتاز بلا أي إنذار | Confirmed |
+| 2026-08-29 | 4 | dd32b51 | clean | GitHub Actions API | — | `GET /repos/amr-abd-elsalam/parmaga/actions/runs?head_sha=dd32b51…` | Gate A على PR #4: run 33246791746، workflow «Verify lessons»، event pull_request، base main عند c29a6b1، status completed، conclusion success | Confirmed |
+| 2026-08-29 | 4 | dd32b51 | clean | GitHub Actions API | — | `GET /repos/amr-abd-elsalam/parmaga/actions/runs/33246791746/jobs` | الوظيفة 99085544316 باسم «Gate A - Lesson verification» success على ubuntu-24.04، وخطوتا «Run the verification tool test suite» و«Verify published lessons» success، من 10:00:31Z إلى 10:00:37Z | Confirmed |
+| 2026-08-29 | 4 | dd32b51 | clean | واجهة PR #4 | — | معاينة المالك لصندوق الدمج | الفحص «Verify lessons / Gate A - Lesson verification (pull_request)» يظهر موسومًا Required — الإلزام نافذ بفعل ruleset 21795074 لا بإعداد آخر | Reported |
+| 2026-08-29 | 4 | dd32b51 | clean | واجهة PR #4 | — | معاينة المالك عند الفتح وبعد النجاح | عند الفتح: شارة «Checks pending» وعدّاد Checks صفر وزر الدمج غير مفعّل. وبعد النجاح: «All checks have passed — 1 successful check» و«No conflicts with base branch» وشارة «Ready to merge» وزر الدمج مفعّل | Reported |
+| 2026-08-29 | 4 | dd32b51 | clean | واجهة PR #4 | — | محاولة التقاط صندوق الدمج أثناء pending | لم تُلتقط صورة للحجب بالنص الصريح لقصر مدة الفحص (‏6 ثوانٍ)؛ الحجب مستنتَج من شارة Checks pending ووسم Required لا مشاهَد مباشرة، ولم يُعطَّل أي workflow لصناعة الحالة | Inferred |
+| 2026-08-29 | 4 | 1fdbfa7 | clean | GitHub API | — | `GET /repos/amr-abd-elsalam/parmaga/pulls/4` | PR #4 «docs: activate Gate B ruleset and record phase 4 evidence»: merged = true، merged_by = amr-abd-elsalam، commits = 1، changed_files = 1، additions = 30، deletions = 13 | Confirmed |
+| 2026-08-29 | 4 | 1fdbfa7 | clean | مستودع parmaga | — | `git pull --ff-only origin main` و `git rev-parse HEAD` و `git rev-parse origin/main` و `git status --short --branch` | التحديث fast-forward من c29a6b1 إلى 1fdbfa7 بلا دمج محلي، وHEAD = 1fdbfa791de9df2f18480c12fadb573a2d2400be مطابق لـorigin/main، والشجرة clean | Confirmed |
+| 2026-08-29 | 4 | 1fdbfa7 | clean | مستودع parmaga | — | `git rev-list --parents -n 1 HEAD` و `git log --oneline -3` و `git diff --stat c29a6b1 HEAD` | merge commit حقيقي 1fdbfa7 بأبوين c29a6b1ab2559d36438e1be96e200c56182e066c و dd32b51828f521984cc6be98d918a15240afe7ef — لا squash ولا rebase؛ والفرق عن baseline مسار واحد فقط هو دفتر الأدلة | Confirmed |
+| 2026-08-29 | 4 | 1fdbfa7 | clean | GitHub Actions API | — | `GET /repos/amr-abd-elsalam/parmaga/actions/runs?head_sha=1fdbfa79…` | بعد الدمج على main: run 33248659193، workflow «Verify lessons»، event push، conclusion success — التحقق ناجح على الفرع الرئيسي أيضًا | Confirmed |
+| 2026-08-29 | 4 | 1fdbfa7 | clean | GitHub Checks API ومعاينة المالك | — | `GET /repos/.../commits/1fdbfa79…/check-runs` ومعاينة Settings ← Pages بعد الدمج | Pages ثابتة: Deploy from a branch من main و/(root) والموقع حي على parmaga.com؛ وفحوص build وdeploy وreport-build-status نجحت في run 33248658930 ببيئة github-pages وdeployment 6154928824 — وهي ليست required فالنشر مستقل عن بوابة الدمج | Confirmed |
+| 2026-08-29 | 4 | 1fdbfa7 | clean | إعدادات GitHub | — | معاينة المالك بعد الدمج | لا حماية فرع تقليدية، وruleset 21795074 وحدها Active، ولا bypass — الحالة النهائية مطابقة للتصميم المعتمد | Reported |
 
 نُفِّذت أوامر §M من برومبت المرحلة وطابقت مخرجاتها معايير القبول، فحُوِّل صف الحزمة إلى `Confirmed` وأُضيف صف القياس المقابل له.
 
@@ -347,14 +367,14 @@ HEAD: <sha> | الفرع: <name> | الشجرة: <clean | dirty + الوصف>
 ```text
 دفتر التسليم
 المرحلة الحالية: 4 — Gate B
-الحالة: In Progress — Ruleset 21795074 مفعّلة، وSHAs الإغلاق Pending حتى الدمج
-HEAD: c29a6b1 | الفرع: phase-4-gate-b | الشجرة: dirty — ملف واحد فقط
-الملفات المعدلة/المضافة: docs/ai/ARCHITECT_EVIDENCE_LEDGER.md
-الأدلة الجديدة: صفوف المرحلة 4 في §8 — baseline محلي، ومعاينة ما قبل التفعيل، وruleset 21795074 بشروطها وقاعدتها الوحيدة، وغياب bypass، وحدود نداء protection، ومعاينة ما بعد التفعيل وثبات Pages، وصفّا Superseded
+الحالة: Closed — 2026-08-29
+HEAD: 1fdbfa7 | الفرع: main | الشجرة: clean — main = origin/main
+الملفات المعدلة/المضافة: docs/ai/ARCHITECT_EVIDENCE_LEDGER.md — لا غير
+الأدلة الجديدة: صفوف المرحلة 4 في §8 — baseline محلي، ومعاينة ما قبل التفعيل، وruleset 21795074 بشروطها، وغياب bypass، ومعاينة ما بعد التفعيل، وGate A على PR #4 في run 33246791746، ووسم Required، وقيد أمانة على دليل الحجب، والدمج في 1fdbfa7، وrun 33248659193 بعد الدمج، وثبات Pages
 القرارات المعتمدة حرفيًا: §3 — دون إعادة صياغة
 الأسئلة المفتوحة: §9 — يبقى سؤال صفحة عرض الدرس بلا حسم
-الانحرافات: لا يوجد
-المرحلة التالية الوحيدة: لا يوجد — يليها commit تدوين عبر PR يقيّد SHAs المرحلة 4، وهو ليس مرحلة ولا يفتح واحدة
+الانحرافات: لا يوجد — بلا bypass وبلا strict وبلا قاعدة زائدة وبلا حماية موازية
+المرحلة التالية الوحيدة: لا يوجد — لا تُفتح مرحلة إلا باعتماد مالك مستقل
 شرط بدء المرحلة التالية: اعتماد مالك مستقل — لم يصدر
-الخطوة التالية الوحيدة: فتح PR من phase-4-gate-b إلى main وإثبات حجب الدمج حتى نجاح Gate A
+الخطوة التالية الوحيدة: لا إجراء — المرحلة 4 مغلقة، وmerge SHA لهذا الـPR التدويني لا يُقيَّد بموجب قاعدة إنهاء التسلسل
 ```
