@@ -75,7 +75,8 @@ Parmaga منصة تعليمية تستهدف السوق المصري وطلاب 
         ├── ADR-0004-identifiers-and-permanent-paths.md
         ├── ADR-0005-content-intake-and-asset-custody.md
         ├── ADR-0006-asset-publication-and-verification.md
-        └── ADR-0007-lesson-page-and-progressive-viewer.md
+        ├── ADR-0007-lesson-page-and-progressive-viewer.md
+        └── ADR-0008-mobile-lesson-viewer-ux-ui.md
 ├── courses/
 │   └── programming-ai-baccalaureate-2/
 │       └── term-1/
@@ -172,5 +173,8 @@ Gate A في هذه المرحلة **إشارة تحقق فقط وليست حما
 - `ADR-0005-content-intake-and-asset-custody.md`: إدخال المحتوى وحراسة الأصول وجرد الدروس.
 - `ADR-0006-asset-publication-and-verification.md`: نشر الأصول والتحقق الآلي وتثبيت لقطة العهدة.
 - `ADR-0007-lesson-page-and-progressive-viewer.md`: صفحة الدرس الأولى والعارض التفاعلي المتدرج وحدود التضمين inline.
+- `ADR-0008-mobile-lesson-viewer-ux-ui.md`: نمطا العرض في صفحة الدرس، وهرمية التحكم Mobile-first، والإيقاف والاستئناف، والقفز إلى صفحة، وسياسة fragment وHistory API، وواجهة تقليل الحركة.
+
+للعارض التفاعلي نمطان صريحان وفق `ADR-0008`: نمط تفاعلي يعرض صفحة نشطة واحدة على مسرح واحد، ونمط الدرس الكامل الذي يعيد الصفحات الـ22 ظاهرة بترتيبها. النمط الساكن الكامل هو الحالة الافتراضية قبل نجاح أول تركيب تفاعلي، وهو ما يعود إليه العرض عند أي فشل، والتبديل بينهما بفعل واحد دون إعادة تحميل الصفحة.
 
 وتوجد بيانات جرد المحتوى وملفات التسليم والإجراء التشغيلي في `docs/content/`.

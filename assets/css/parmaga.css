@@ -480,14 +480,39 @@ summary:focus-visible {
   background-color: var(--pg-paper-2);
 }
 
-.viewer-buttons {
+/* Mobile-first hierarchy: الصف الأساسي أربعة عناصر ظاهرة كحد أقصى —
+   السابق، اختيار الصفحة، التالي، التشغيل/الإيقاف. أدوات الحركة الخمس
+   خلف disclosure واحد، والتبديل إلى الدرس الكامل خارج الصف الأساسي. */
+.viewer-primary {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: var(--pg-space-2);
 }
 
-.viewer-buttons button {
+.viewer-secondary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--pg-space-2);
+  margin-top: var(--pg-space-3);
+}
+
+.viewer-jump {
+  display: flex;
+  align-items: center;
+  gap: var(--pg-space-2);
+  min-width: 0;
+}
+
+.viewer-jump-label {
+  color: var(--pg-navy-700);
+}
+
+.viewer-btn,
+.viewer-select {
   min-height: var(--pg-touch-target);
+  max-width: var(--pg-size-full);
   padding: var(--pg-space-2) var(--pg-space-4);
   border: var(--pg-border-width-strong) solid var(--pg-navy-700);
   border-radius: var(--pg-radius-control);
@@ -498,20 +523,144 @@ summary:focus-visible {
   cursor: pointer;
 }
 
-.viewer-buttons button:hover {
+.viewer-btn:hover,
+.viewer-select:hover {
   background-color: var(--pg-navy-700);
   color: var(--pg-paper);
 }
 
-.viewer-buttons button[disabled] {
+.viewer-select:focus-visible {
+  outline: var(--pg-focus-width) solid var(--pg-navy-700);
+  outline-offset: var(--pg-focus-offset);
+  box-shadow: 0 0 0 var(--pg-focus-offset) var(--pg-paper);
+}
+
+.viewer-btn[disabled] {
   border-color: var(--pg-slate-600);
   color: var(--pg-slate-600);
   cursor: not-allowed;
   opacity: 0.55;
 }
 
-.viewer-buttons button[aria-pressed="false"] {
+.viewer-btn[disabled]:hover {
+  background-color: var(--pg-paper);
+  color: var(--pg-slate-600);
+}
+
+.viewer-btn[aria-pressed="false"] {
   border-style: dashed;
+}
+
+.viewer-more {
+  flex: 1 1 100%;
+  min-width: 0;
+  border: var(--pg-border-width) solid var(--pg-rule);
+  background-color: var(--pg-paper);
+}
+
+.viewer-more > summary {
+  min-height: var(--pg-touch-target);
+  padding: var(--pg-space-3) var(--pg-space-4);
+  color: var(--pg-navy-700);
+  cursor: pointer;
+}
+
+.viewer-more-body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--pg-space-2);
+  padding: var(--pg-space-0) var(--pg-space-4) var(--pg-space-4);
+}
+/* Mobile-first hierarchy: الصف الأساسي أربعة عناصر ظاهرة كحد أقصى —
+   السابق، اختيار الصفحة، التالي، التشغيل/الإيقاف. أدوات الحركة الخمس
+   خلف disclosure واحد، والتبديل إلى الدرس الكامل خارج الصف الأساسي. */
+.viewer-primary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--pg-space-2);
+}
+
+.viewer-secondary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--pg-space-2);
+  margin-top: var(--pg-space-3);
+}
+
+.viewer-jump {
+  display: flex;
+  align-items: center;
+  gap: var(--pg-space-2);
+  min-width: 0;
+}
+
+.viewer-jump-label {
+  color: var(--pg-navy-700);
+}
+
+.viewer-btn,
+.viewer-select {
+  min-height: var(--pg-touch-target);
+  max-width: var(--pg-size-full);
+  padding: var(--pg-space-2) var(--pg-space-4);
+  border: var(--pg-border-width-strong) solid var(--pg-navy-700);
+  border-radius: var(--pg-radius-control);
+  background-color: var(--pg-paper);
+  color: var(--pg-navy-700);
+  font-family: var(--pg-font-family-base);
+  font-size: var(--pg-font-size-value);
+  cursor: pointer;
+}
+
+.viewer-btn:hover,
+.viewer-select:hover {
+  background-color: var(--pg-navy-700);
+  color: var(--pg-paper);
+}
+
+.viewer-select:focus-visible {
+  outline: var(--pg-focus-width) solid var(--pg-navy-700);
+  outline-offset: var(--pg-focus-offset);
+  box-shadow: 0 0 0 var(--pg-focus-offset) var(--pg-paper);
+}
+
+.viewer-btn[disabled] {
+  border-color: var(--pg-slate-600);
+  color: var(--pg-slate-600);
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.viewer-btn[disabled]:hover {
+  background-color: var(--pg-paper);
+  color: var(--pg-slate-600);
+}
+
+.viewer-btn[aria-pressed="false"] {
+  border-style: dashed;
+}
+
+.viewer-more {
+  flex: 1 1 100%;
+  min-width: 0;
+  border: var(--pg-border-width) solid var(--pg-rule);
+  background-color: var(--pg-paper);
+}
+
+.viewer-more > summary {
+  min-height: var(--pg-touch-target);
+  padding: var(--pg-space-3) var(--pg-space-4);
+  color: var(--pg-navy-700);
+  cursor: pointer;
+}
+
+.viewer-more-body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--pg-space-2);
+  padding: var(--pg-space-0) var(--pg-space-4) var(--pg-space-4);
 }
 
 .viewer-status {
@@ -527,8 +676,11 @@ summary:focus-visible {
   color: var(--pg-slate-600);
 }
 
+/* تُحجز نسبة 1080×1350 قبل وصول الصفحة، فلا يتحرك التخطيط عند التركيب. */
 .lesson-stage {
-  margin-bottom: var(--pg-space-6);
+  aspect-ratio: 1080 / 1350;
+  max-width: 1080px;
+  margin: var(--pg-space-0) auto var(--pg-space-6);
   border: var(--pg-border-width) solid var(--pg-rule);
   background-color: var(--pg-paper);
 }
@@ -597,15 +749,30 @@ summary:focus-visible {
   border-top: var(--pg-border-width) solid var(--pg-rule);
 }
 
-/* عند نجاح التهيئة فقط: تُطوى الصفحات غير النشطة إلى صورها ونصوصها المصغّرة.
-   الصور والنصوص تبقى كلها في DOM، فلا يختفي محتوى أساسي في أي حالة. */
+/* Interactive Mode — يُفعَّل بعد أول تركيب تفاعلي ناجح وحده.
+   تُطوى الصفحات غير النشطة بصريًا، وتُطوى صورة الصفحة النشطة لأن المسرح
+   يعرضها، ويبقى نصها الكامل ظاهرًا لقارئ الشاشة وللقراءة. لا يُحذف شيء
+   من DOM، فرفع السمة وحده يعيد الدرس كاملًا دون إعادة تحميل. */
+.lesson-pages[data-viewer-active] .lesson-page:not([data-current]) {
+  display: none;
+}
+
 .lesson-pages[data-viewer-active] .lesson-page[data-current] {
-  outline: var(--pg-border-width-strong) solid var(--pg-navy-700);
-  outline-offset: var(--pg-focus-offset);
+  margin-bottom: var(--pg-space-4);
+}
+
+.lesson-pages[data-viewer-active] .lesson-page[data-current] .lesson-page-image {
+  display: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
   .page-lesson .lesson-pen {
+    display: none;
+  }
+
+  /* لا أدوات حركة معطّلة ميتة: تُخفى المجموعة كاملة، وتبقى أدوات
+     السابق والتالي والقفز والتبديل عاملة. */
+  .page-lesson [data-viewer-motion] {
     display: none;
   }
 
@@ -649,6 +816,12 @@ summary:focus-visible {
   .page-lesson .lesson-notice,
   .page-lesson .lesson-pen {
     display: none;
+  }
+
+  /* الطباعة تتجاوز طيّ العارض دائمًا: الصفحات الـ22 وصورها كاملة. */
+  .page-lesson .lesson-pages[data-viewer-active] .lesson-page,
+  .page-lesson .lesson-pages[data-viewer-active] .lesson-page[data-current] .lesson-page-image {
+    display: block;
   }
 
   .page-lesson .lesson-page {

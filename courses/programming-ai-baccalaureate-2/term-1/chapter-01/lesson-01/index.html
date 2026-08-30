@@ -18,14 +18,27 @@
 </header>
 
 <div class="lesson-viewer-controls" data-viewer-controls hidden>
-<div class="viewer-buttons">
-<button type="button" data-viewer-prev>الصفحة السابقة</button>
-<button type="button" data-viewer-next>الصفحة التالية</button>
-<button type="button" data-viewer-replay>إعادة التشغيل</button>
-<button type="button" data-viewer-skip>إظهار الصفحة كاملة</button>
-<button type="button" data-viewer-slower>إبطاء</button>
-<button type="button" data-viewer-faster>تسريع</button>
-<button type="button" data-viewer-pen aria-pressed="true">إخفاء القلم</button>
+<div class="viewer-primary">
+<button type="button" class="viewer-btn" data-viewer-prev>الصفحة السابقة</button>
+<span class="viewer-jump">
+<label class="viewer-jump-label" for="viewer-page-select">الصفحة</label>
+<select id="viewer-page-select" class="viewer-select" data-viewer-jump></select>
+</span>
+<button type="button" class="viewer-btn" data-viewer-next>الصفحة التالية</button>
+<button type="button" class="viewer-btn" data-viewer-play data-viewer-motion hidden>إيقاف مؤقت</button>
+</div>
+<div class="viewer-secondary">
+<button type="button" class="viewer-btn" data-viewer-mode>عرض الدرس كاملًا</button>
+<details class="viewer-more" data-viewer-more data-viewer-motion hidden>
+<summary>أدوات الحركة</summary>
+<div class="viewer-more-body">
+<button type="button" class="viewer-btn" data-viewer-replay>إعادة التشغيل</button>
+<button type="button" class="viewer-btn" data-viewer-skip>إظهار الصفحة كاملة</button>
+<button type="button" class="viewer-btn" data-viewer-slower>إبطاء</button>
+<button type="button" class="viewer-btn" data-viewer-faster>تسريع</button>
+<button type="button" class="viewer-btn" data-viewer-pen aria-pressed="true">إخفاء القلم</button>
+</div>
+</details>
 </div>
 <p class="viewer-status" data-viewer-status role="status">جارٍ التحضير…</p>
 </div>

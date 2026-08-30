@@ -96,6 +96,11 @@
     reduced: false,
     ready: false,
     running: false,
+    paused: false,
+    resume: null,
+    mode: 'interactive',
+    mounted: false,
+    alignOnFirstMount: false,
     stage: null,
     pen: null,
     hashLock: false
@@ -114,15 +119,26 @@
     return gen !== state.generation;
   }
 
-  function later(gen, fn, delay) {
+  function schedule(gen, fn, delay) {
     var id = window.setTimeout(function () {
       var at = state.timers.indexOf(id);
       if (at !== -1) { state.timers.splice(at, 1); }
       if (isStale(gen)) { return; }
+      if (state.paused) { return; }
       try { fn(); } catch (err) { reportSoft(err); }
     }, delay);
     state.timers.push(id);
     return id;
+  }
+
+  /* نقطة الاستئناف تُسجَّل عند كل جدولة. الإيقاف المؤقت إلغاءٌ للمؤقت وحده
+     مع بقاء الاستمرارية وجيلها، فيستأنف العرض من موضعه لا من بدايته.
+     الجيل يبقى السلطة النهائية: أي استمرارية قديمة تُرفض عند الاستئناف. */
+  function later(gen, fn, delay) {
+    if (isStale(gen)) { return -1; }
+    state.resume = { gen: gen, fn: fn, delay: delay };
+    if (state.paused) { return -1; }
+    return schedule(gen, fn, delay);
   }
 
   function clearAllTimers() {
@@ -143,6 +159,8 @@
     abortFetch();
     clearAllTimers();
     state.running = false;
+    state.paused = false;
+    state.resume = null;
     return bumpGeneration();
   }
 
@@ -642,6 +660,8 @@
     function finish() {
       hidePen();
       state.running = false;
+      state.paused = false;
+      state.resume = null;
       if (typeof onDone === 'function') { onDone(); }
     }
 
@@ -720,6 +740,8 @@
     }
 
     state.running = true;
+    state.paused = false;
+    state.resume = null;
     step();
   }
 
@@ -737,6 +759,7 @@
 
   function showStaticFallback(message) {
     teardownStage();
+    state.mounted = false;
     if (el.stage) { el.stage.hidden = true; }
     if (el.list) { el.list.removeAttribute('data-viewer-active'); }
     if (el.controls) { el.controls.hidden = true; }
@@ -750,24 +773,62 @@
     if (el.status) { el.status.textContent = text; }
   }
 
+  /* نمطا العرض. الطيّ البصري للقائمة الساكنة لا يُفعَّل إلا بعد أول تركيب
+     تفاعلي ناجح، ويُرفع فورًا عند أي فشل أو عند طلب الدرس الكامل. */
+  function applyViewMode() {
+    var interactive = (state.mode === 'interactive') && state.mounted;
+    if (el.list) {
+      if (interactive) { el.list.setAttribute('data-viewer-active', 'true'); }
+      else { el.list.removeAttribute('data-viewer-active'); }
+    }
+    if (el.stage) { el.stage.hidden = !interactive; }
+  }
+
+  /* في وضع تقليل الحركة تُخفى مجموعة أدوات الحركة كاملة، فلا تبقى عناصر
+     معطّلة ميتة. الإخفاء بسمة hidden أصلية، وتسنده قاعدة CSS مكافئة. */
+  function applyMotionUi() {
+    if (!el.motion) { return; }
+    for (var i = 0; i < el.motion.length; i += 1) {
+      el.motion[i].hidden = state.reduced;
+    }
+    if (state.reduced && el.more) { el.more.open = false; }
+  }
+
+  function alignFirstMount() {
+    if (!state.alignOnFirstMount) { return; }
+    state.alignOnFirstMount = false;
+    if (state.mode !== 'interactive' || !el.stage || el.stage.hidden) { return; }
+    try { el.stage.scrollIntoView(); } catch (err) { reportSoft(err); }
+  }
+
   function statusLine(extra) {
-    var base = 'الصفحة ' + state.current + ' من ' + state.pages.length +
-               ' — السرعة ' + state.speed + '×';
-    if (state.reduced) { base += ' — وضع تقليل الحركة'; }
+    var base = 'الصفحة ' + state.current + ' من ' + state.pages.length;
+    if (!state.reduced) { base += ' — السرعة ' + state.speed + '×'; }
+    else { base += ' — وضع تقليل الحركة'; }
+    if (state.mode === 'static') { base += ' — الدرس الكامل'; }
     return extra ? base + ' — ' + extra : base;
   }
 
   function updateButtons() {
+    var interactive = (state.mode === 'interactive');
     if (el.prev) { el.prev.disabled = state.current <= 1; }
     if (el.next) { el.next.disabled = state.current >= state.pages.length; }
+    if (el.jump) { el.jump.value = String(state.current); }
     if (el.slower) { el.slower.disabled = state.speed <= SPEED_MIN; }
     if (el.faster) { el.faster.disabled = state.speed >= SPEED_MAX; }
-    if (el.replay) { el.replay.disabled = state.reduced; }
-    if (el.skip) { el.skip.disabled = state.reduced; }
+    if (el.play) {
+      el.play.textContent = state.paused ? 'استئناف العرض' : 'إيقاف مؤقت';
+      el.play.disabled = !interactive || (!state.running && !state.paused);
+    }
+    if (el.replay) { el.replay.disabled = !interactive; }
+    if (el.skip) { el.skip.disabled = !interactive; }
     if (el.pen) {
-      el.pen.disabled = state.reduced;
+      el.pen.disabled = !interactive;
       el.pen.setAttribute('aria-pressed', state.penEnabled ? 'true' : 'false');
       el.pen.textContent = state.penEnabled ? 'إخفاء القلم' : 'إظهار القلم';
+    }
+    if (el.mode) {
+      el.mode.textContent = interactive ? 'عرض الدرس كاملًا' : 'العودة إلى العارض';
     }
   }
 
@@ -794,8 +855,11 @@
     teardownStage();
 
     state.current = n;
+    state.mounted = false;
     markActive();
+    applyViewMode();
     updateButtons();
+    if (el.notice) { el.notice.hidden = true; }
     setStatus(statusLine('جارٍ التحميل'));
 
     state.controller = ('AbortController' in window) ? new window.AbortController() : null;
@@ -809,7 +873,9 @@
       root.setAttribute('focusable', 'false');
 
       el.stage.appendChild(root);
-      el.stage.hidden = false;
+      state.mounted = true;
+      applyViewMode();
+      alignFirstMount();
 
       var plan;
       try {
@@ -817,11 +883,13 @@
       } catch (err) {
         reportSoft(err);
         setStatus(statusLine('عرض ثابت'));
+        updateButtons();
         return;
       }
 
-      if (state.reduced || !autoplay) {
+      if (state.reduced || state.mode !== 'interactive' || !autoplay) {
         setStatus(statusLine(state.reduced ? 'الحركة معطلة' : 'جاهزة'));
+        updateButtons();
         return;
       }
 
@@ -832,13 +900,17 @@
       runPlan(gen, root, plan, activeSaved, function () {
         if (isStale(gen)) { return; }
         setStatus(statusLine('اكتمل العرض'));
+        updateButtons();
       });
+      updateButtons();
     }).catch(function (err) {
       if (err && err.name === 'AbortError') { return; }
       if (isStale(gen)) { return; }
       reportSoft(err);
       teardownStage();
-      if (el.stage) { el.stage.hidden = true; }
+      state.mounted = false;
+      applyViewMode();
+      updateButtons();
       setStatus(statusLine('تعذّر العرض التفاعلي — المحتوى الساكن معروض كاملًا'));
       if (el.notice) {
         el.notice.textContent = 'تعذّر تحميل العرض التفاعلي لهذه الصفحة. المحتوى الكامل معروض أدناه.';
@@ -849,15 +921,85 @@
 
   /* ---------- المعالجات ---------- */
 
-  function goTo(n, fromHash) {
+  /* fragment حقيقي فقط: #page-N. لا Router، ولا Query Parameters، ولا مسار
+     وهمي. pushState وreplaceState لا يسببان تمريرًا أصليًا إلى القائمة. */
+  function setFragment(n, replace) {
+    var target = '#page-' + n;
+    var canHistory = !!(window.history && window.history.pushState &&
+                        window.history.replaceState);
+    state.hashLock = true;
+    try {
+      if (!canHistory) { window.location.hash = 'page-' + n; }
+      else if (replace) { window.history.replaceState(null, '', target); }
+      else if ((window.location.hash || '') !== target) {
+        window.history.pushState(null, '', target);
+      }
+    } catch (err) { reportSoft(err); }
+    window.setTimeout(function () { state.hashLock = false; }, 0);
+  }
+
+  function goTo(n, fromHistory) {
     if (n < 1 || n > state.pages.length) { return; }
-    if (!fromHash) {
-      state.hashLock = true;
-      try { window.location.hash = 'page-' + n; }
-      catch (err) { reportSoft(err); }
-      window.setTimeout(function () { state.hashLock = false; }, 0);
-    }
+    if (!fromHistory) { setFragment(n, false); }
     loadPage(n, true);
+  }
+
+  function pauseAnimation() {
+    if (!state.running || state.paused) { return; }
+    state.paused = true;
+    clearAllTimers();
+    hidePen();
+    updateButtons();
+    setStatus(statusLine('موقوف مؤقتًا'));
+  }
+
+  function resumeAnimation() {
+    if (!state.paused) { return; }
+    state.paused = false;
+    var r = state.resume;
+    if (r && !isStale(r.gen)) {
+      schedule(r.gen, r.fn, 0);
+      setStatus(statusLine('جارٍ العرض'));
+    } else {
+      state.running = false;
+      state.resume = null;
+      setStatus(statusLine('اكتمل العرض'));
+    }
+    updateButtons();
+  }
+
+  function onPlayPause() {
+    if (state.paused) { resumeAnimation(); } else { pauseAnimation(); }
+  }
+
+  function setMode(next) {
+    if (next !== 'interactive' && next !== 'static') { return; }
+    if (state.mode === next) { return; }
+    state.mode = next;
+    if (next === 'static') {
+      cancelEverything();
+      destroyPen();
+      if (activeSaved) {
+        restoreAll(activeSaved);
+        activeSaved = null;
+      }
+    }
+    applyViewMode();
+    updateButtons();
+    setStatus(statusLine(next === 'static'
+      ? 'الدرس الكامل معروض'
+      : 'العارض التفاعلي'));
+  }
+
+  function onToggleMode() {
+    setMode(state.mode === 'interactive' ? 'static' : 'interactive');
+  }
+
+  function onJump() {
+    if (!el.jump) { return; }
+    var n = parseInt(el.jump.value, 10);
+    if (isNaN(n) || n === state.current) { return; }
+    goTo(n, false);
   }
 
   function onSkip() {
@@ -868,11 +1010,12 @@
       activeSaved = null;
     }
     state.generation = gen;
+    updateButtons();
     setStatus(statusLine('عُرضت الصفحة كاملة'));
   }
 
   function onReplay() {
-    if (state.reduced) { return; }
+    if (state.reduced || state.mode !== 'interactive') { return; }
     if (activeSaved) {
       restoreAll(activeSaved);
       activeSaved = null;
@@ -897,7 +1040,7 @@
     setStatus(statusLine(state.penEnabled ? 'القلم ظاهر' : 'القلم مخفي'));
   }
 
-  function onHashChange() {
+  function onHistoryNav() {
     if (state.hashLock) { return; }
     var m = /^#page-(\d+)$/.exec(window.location.hash || '');
     if (!m) { return; }
@@ -917,8 +1060,11 @@
         activeSaved = null;
       }
     }
+    applyMotionUi();
     updateButtons();
-    setStatus(statusLine(state.reduced ? 'الحركة معطلة' : 'الحركة مفعّلة'));
+    setStatus(statusLine(state.reduced
+      ? 'الحركة معطلة'
+      : 'الحركة متاحة — استخدم إعادة التشغيل'));
   }
 
   /* ---------- التهيئة ---------- */
@@ -942,14 +1088,20 @@
       el.status = controls.querySelector('[data-viewer-status]');
       el.prev = controls.querySelector('[data-viewer-prev]');
       el.next = controls.querySelector('[data-viewer-next]');
+      el.jump = controls.querySelector('[data-viewer-jump]');
+      el.play = controls.querySelector('[data-viewer-play]');
+      el.mode = controls.querySelector('[data-viewer-mode]');
+      el.more = controls.querySelector('[data-viewer-more]');
       el.replay = controls.querySelector('[data-viewer-replay]');
       el.skip = controls.querySelector('[data-viewer-skip]');
       el.slower = controls.querySelector('[data-viewer-slower]');
       el.faster = controls.querySelector('[data-viewer-faster]');
       el.pen = controls.querySelector('[data-viewer-pen]');
+      el.motion = controls.querySelectorAll('[data-viewer-motion]');
 
-      if (!el.status || !el.prev || !el.next || !el.replay ||
-          !el.skip || !el.slower || !el.faster || !el.pen) {
+      if (!el.status || !el.prev || !el.next || !el.jump || !el.play ||
+          !el.mode || !el.more || !el.replay || !el.skip || !el.slower ||
+          !el.faster || !el.pen) {
         return;
       }
 
@@ -973,14 +1125,29 @@
         state.reduced = !!mq.matches;
       }
 
+      /* خيارات القفز تُبنى من القائمة الساكنة نفسها، فمصدر الحقيقة واحد،
+         ولا يُقرأ manifest وقت التشغيل، ولا يُنشأ 22 زرًا مرئيًا. */
+      var frag = document.createDocumentFragment();
+      for (var oi = 0; oi < pages.length; oi += 1) {
+        var opt = document.createElement('option');
+        opt.value = String(pages[oi].index);
+        opt.textContent = pages[oi].index + ' / ' + pages.length;
+        frag.appendChild(opt);
+      }
+      el.jump.appendChild(frag);
+
       el.prev.addEventListener('click', function () { goTo(state.current - 1, false); });
       el.next.addEventListener('click', function () { goTo(state.current + 1, false); });
+      el.jump.addEventListener('change', onJump);
+      el.play.addEventListener('click', onPlayPause);
+      el.mode.addEventListener('click', onToggleMode);
       el.replay.addEventListener('click', onReplay);
       el.skip.addEventListener('click', onSkip);
       el.slower.addEventListener('click', function () { changeSpeed(-SPEED_STEP); });
       el.faster.addEventListener('click', function () { changeSpeed(SPEED_STEP); });
       el.pen.addEventListener('click', togglePen);
-      window.addEventListener('hashchange', onHashChange);
+      window.addEventListener('popstate', onHistoryNav);
+      window.addEventListener('hashchange', onHistoryNav);
 
       if (mq) {
         var onMq = function (evt) { applyReduced(evt.matches); };
@@ -989,16 +1156,23 @@
       }
 
       var start = 1;
+      var hasFragment = false;
       var m = /^#page-(\d+)$/.exec(window.location.hash || '');
       if (m) {
         var n = parseInt(m[1], 10);
-        if (!isNaN(n) && n >= 1 && n <= pages.length) { start = n; }
+        if (!isNaN(n) && n >= 1 && n <= pages.length) {
+          start = n;
+          hasFragment = true;
+        }
       }
 
       state.ready = true;
-      list.setAttribute('data-viewer-active', 'true');
       controls.hidden = false;
       state.current = start;
+      state.alignOnFirstMount = hasFragment;
+      setFragment(start, true);
+      applyMotionUi();
+      applyViewMode();
       updateButtons();
       markActive();
 
