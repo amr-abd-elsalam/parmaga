@@ -47,9 +47,14 @@ HEAD at Phase 5 merge commit (PR #6): cf41d264216cc952c0ee41770274757a284a0ccc
 Phase 5 merge parents: 8324aa083993294095e69f7662713e42a5f85e8e + f7e1f4672541a7d060ef7a377191ec8e063ca730
 Baseline HEAD at Phase 5 Closeout approval: cf41d264216cc952c0ee41770274757a284a0ccc
 Baseline tree state at Phase 5 Closeout approval: clean — main = origin/main، ولا ملفات غير متعقَّبة
-Current approved phase: Phase 5 — Closeout Reconciliation (توثيق فقط، بلا تغيير إنتاجي)
-Current phase status: Closed — COMPLETE WITH KNOWN LIMITATIONS
-Next phase: لا يوجد — لا تُفتح مرحلة تالية إلا باعتماد مالك مستقل
+Baseline HEAD at Phase 6 approval: 6ebe8f52116860ed85eec1818184d0a59d7493b9
+HEAD at Phase 6 merge commit (PR #8): 398485d579fc024e737be2376ce65b2125e84616
+Baseline HEAD at Phase 6.1 approval: 398485d579fc024e737be2376ce65b2125e84616
+HEAD at Phase 6.1 fix merge commit (PR #10): 61a72c3
+HEAD at Phase 6.1 ADR-0009 merge commit (PR #9): c7fb02e0d77930c3e9ae9bbeb762a52a4e9defcf
+Current approved phase: Phase 6.1 — إصلاح امتثال بعد مراجعة UX/UI
+Current phase status: Closed — الإصلاح مدموج وADR-0009 معتمد، وبنود الفحص اليدوي مفتوحة
+Next phase: 6.2 — تنفيذ ADR-0009، ولا تُفتح إلا باعتماد مالك مستقل
 ```
 
 حالة الشجرة عند اعتماد المرحلة أُثبتت بالأمر `git status --short --branch`، ومخرجه سطر الفرع وحده دون أي سطر حالة.
@@ -212,7 +217,8 @@ git -c core.whitespace=cr-at-eol diff --check <base> <head>
 | 3-Closeout | Closed | اعتماد المالك لخطة مصالحة الإغلاق | تحقق — implementation 99b0d2a، merge d40d3b8 عبر PR #3، وGate A ناجحة في run 33237283840 |
 | 4 | Closed | نجاح Gate A على PR حقيقي وإغلاق المرحلة 3 — مستوفى، واعتماد المالك ببدء المرحلة صدر في 2026-08-29 | تحقق — ruleset 21795074 مفعّلة، وGate A إلزامية بوسم Required على PR #4، وnجحت في run 33246791746، وimplementation dd32b51 مدموج في 1fdbfa7 عبر PR #4، وPages بلا تغيير |
 | 5 | Closed — COMPLETE WITH KNOWN LIMITATIONS | إغلاق المرحلة 4 — مستوفى، واعتماد المالك ببدء المرحلة 5 صدر في 2026-08-29 | تحقق — الملفات الستة مدموجة في cf41d264 عبر PR #6 من implementation f7e1f467، وGate A نجحت على الـPR في run 33278871310 وبعد الدمج على main في run 33278902692، والرابط الدائم يعيد HTTP 200 حيًّا، والاختبارات الـ61 وverify_lesson.py يمران على baseline الدمج. العقد البنيوي مغلق، وتبقى ديون UX معلنة في §8 لا تمنع الإغلاق ولا تُنفَّذ هنا |
-| 6 | In Progress | اعتماد المالك ببدء المرحلة 6 وإصدار ADR-0008 صدر في 2026-08-30 نصًّا: «أعتمد فتح المرحلة 6 — Mobile Lesson Viewer UX/UI — وإصدار ADR-0008، بتاريخ 30 أغسطس 2026» | لم يُستوفَ بعد — يشترط الإغلاق: diff محصور في الملفات الستة، وثبات بصمة الأصول الـ22 وmanifest، ونجاح الاختبارات وverify_lesson.py بعد التطبيق، ونجاح Gate A على PR وعلى push إلى main، وتحققًا يدويًا لمعايير القبول 1–37 مع تصنيف كل ما لم يُقَس `Unknown` |
+| 6 | Closed | اعتماد المالك ببدء المرحلة 6 وإصدار ADR-0008 صدر في 2026-08-30 نصًّا: «أعتمد فتح المرحلة 6 — Mobile Lesson Viewer UX/UI — وإصدار ADR-0008، بتاريخ 30 أغسطس 2026» | لم يُستوفَ بعد — يشترط الإغلاق: diff محصور في الملفات الستة، وثبات بصمة الأصول الـ22 وmanifest، ونجاح الاختبارات وverify_lesson.py بعد التطبيق، ونجاح Gate A على PR وعلى push إلى main، وتحققًا يدويًا لمعايير القبول 1–37 مع تصنيف كل ما لم يُقَس `Unknown` — استوفيت الشروط ودُمجت في 398485d عبر PR #8 |
+| 6.1 | Closed | رصد مخالفة جسيمة بعد دمج المرحلة 6 واعتماد المالك للإصلاح | تحقق — الإصلاح مدموج في 61a72c3 عبر PR #10 وADR-0009 في c7fb02e عبر PR #9، وGate A نجحت على main في run 33303393733، وعرض الصورة 304 من 320 مقاسًا حيًّا. وبنود الفحص اليدوي تبقى `Unknown` ولا تمنع الإغلاق |
 
 أُغلقت المرحلة 1 بـcommit فعلي هو f2734b5، وقُيِّد SHA في §2 و§8.
 
@@ -351,7 +357,11 @@ git -c core.whitespace=cr-at-eol diff --check <base> <head>
 | 2026-08-30 | 6.1 | 398485d | clean | assets/css/parmaga.css | 486–570 مقابل 577–661 | `diff <(sed -n '486,570p') <(sed -n '577,661p')` | خرج فارغًا ثم IDENTICAL: كتلة أدوات العارض مكتوبة مرتين بتطابق حرفي كامل. الأثر البصري صفر بالبرهان لتطابق القواعد، والكلفة حجم زائد على شبكة بطيئة ودَين صيانة. حُذفت النسخة الثانية في 6d58236 وبقي `grep -c 'viewer-primary {'` يساوي 1 | Confirmed |
 | 2026-08-30 | 6.1 | 398485d | clean | assets/css/parmaga.css و index.html | 115 و 444 و 12 | `sed -n '95,130p'` و `sed -n '435,456p'` و `grep -n '<body'` | لا نقطة كسر للجوال في الملف كله؛ النقطتان القائمتان min-width 800 و1100 تخدمان الصفحة الرئيسة. حشوة body ستةَ عشرَ وحشوة page-lesson main ستةَ عشرَ تقتطعان أربعة وستين بكسلًا من أصل 320، فيبقى للمسرح 256 ويهبط مقياس ملف 1080 إلى 23.7٪. وbody يحمل class page-lesson فعلًا فالمحدِّد نافذ | Confirmed |
 | 2026-08-30 | 6.1 | a2d14b2 | clean | assets/css/parmaga.css | 699–713 | `git diff -U0 \| grep '^+'` | كتلة max-width 479px واحدة تصفّر padding-inline على page-lesson وتقلّصه إلى pg-space-1 أي ثمانية على page-lesson main. تقع بعد القاعدة الأساس عند 440 فتغلبها بترتيب المصدر، وقبل كتلة الطباعة فتبقى الطباعة آخر كلمة. المكسب المحسوب ثمانية وأربعون بكسلًا: 256 إلى 304 | Confirmed |
-| 2026-08-30 | 6.1 | a2d14b2 | clean | العرض الحي عند 320px | — | مجسّ console يقرأ scrollWidth وinnerWidth | تطابقا عند 320 فلا فيض أفقي بعد التعديل. أما عرض المسرح فعاد صفرًا لأن العنصر كان hidden لحظة القياس، وهو قياس لاغٍ لا نتيجة: مكسب الـ304 غير مُثبت تجريبيًا بعد | Unknown |
+| 2026-08-30 | 6.1 | a2d14b2 | clean | العرض الحي عند 320px | — | مجسّ console يقرأ scrollWidth وinnerWidth وgetBoundingClientRect وgetComputedStyle | scrollWidth = innerWidth = 320 فلا فيض أفقي؛ وpadding-inline لـbody صفر ولـpage-lesson main ثمانية؛ وعرض lesson-page-image أربعة وثلاثمائة. فمكسب الثمانية والأربعين بكسلًا مُثبت تجريبيًا: 256 إلى 304 بزيادة 18.75٪. وقيمة stage = HIDDEN وضع ساكن افتراضي لا عطل | Confirmed |
+| 2026-08-30 | 6.1 | a2d14b2 | clean | العارض على العرض الحي | — | مجسّ console يقرأ وجود lesson-stage وحالة lesson-viewer-controls وlesson-stage-svg | المسرح منشأ، وطبقة التحكم ظاهرة غير hidden، وSVG محمَّل. فالتهيئة نجحت ولا مسار فشل. والمجسّ الأول الذي قرأ data-viewer-active من documentElement كان خاطئًا: السمة تُرفع على ol.lesson-pages لا على html | Confirmed |
+| 2026-08-30 | 6.1 | c7fb02e | clean | مستودع parmaga | — | `git log --oneline -6 origin/main` و `git branch -r --contains a2d14b2` و `git pull --ff-only` | حزمة 6.1 مدموجة: PR #10 بmerge commit 61a72c3، وPR #9 بmerge commit c7fb02e وهو رأس main. والتحديث المحلي fast-forward من 398485d بثلاثة ملفات: parmaga.css والدفتر وADR-0009 الجديد | Confirmed |
+| 2026-08-30 | 6.1 | c7fb02e | clean | GitHub Actions API | — | `GET /repos/amr-abd-elsalam/parmaga/actions/runs` | Gate A بعد الدمج على main: run 33303393733، workflow «Verify lessons»، event push، head_sha c7fb02e، run_number 21، conclusion success | Confirmed |
+| 2026-08-30 | 6.1 | c7fb02e | clean | النشر الحي | — | `GET https://parmaga.com/` و `GET https://parmaga.com/sitemap.xml` | صفحة الدرس يتيمة: الصفحة الرئيسة لا تحمل أي وصلة إليها، وsitemap.xml يعيد 404. فلا وصول إلا بلصق الرابط الكامل، ولا فهرسة. انحراف مفتوح مسجَّل للقرار لا منفَّذ هنا | Confirmed |
 | 2026-08-30 | 6.1 | 398485d | clean | assets/css/parmaga.css | 681 | `grep -n 'aspect-ratio'` | lesson-stage يحمل aspect-ratio 1080/1350، فنسبة الأبعاد محجوزة قبل وصول الصفحة كما يلزم ADR-0008 §11. والصور الـ22 تحمل width وheight صريحين. فشرط CLS مؤمَّن بنيويًا، وإن بقي الرقم نفسه غير مقاس | Confirmed |
 | 2026-08-30 | 6.1 | 398485d | clean | assets/css/parmaga.css | 211–215 | `grep -n 'focus-visible'` | مؤشر التركيز معرَّف بمحدِّد واحد يشمل a وbutton وsummary، لا بقاعدة منافسة، مطابقًا لـADR-0007 §12. وoutline مستبدَل لا ملغى | Confirmed |
 | 2026-08-30 | 6.1 | 398485d | clean | assets/css/parmaga.css | 15–21 | حساب نسب التباين من القيم الفعلية | navy-700 على paper يعطي 8.51:1 وslate-600 يعطي 7.18:1، وكلاهما يتجاوز WCAG AA إلى AAA. الزر المعطَّل بعد opacity 0.55 ينزل إلى 2.55:1 وهو مستثنى صراحة لأن حالته معلنة بسمة disabled لا باللون. والحدّ pg-rule يعطي 1.31:1 فيكاد يختفي، وهو تجميلي مسجَّل ولم يُصلح | Confirmed |
@@ -452,21 +462,16 @@ HEAD: <sha> | الفرع: <name> | الشجرة: <clean | dirty + الوصف>
 الخطوة التالية الوحيدة: <أمر أو إجراء واحد>
 ```
 
-النسخة النشطة الآن:
-
-```text
 دفتر التسليم
 المرحلة الحالية: 6.1 — إصلاح امتثال بعد مراجعة UX/UI للمرحلة 6
-الحالة: In Progress — المرحلة 6 مدموجة عند 398485d عبر PR #8، وحزمة 6.1 ملتزَمة على فرع وغير مدموجة
-HEAD: 398485d579fc024e737be2376ce65b2125e84616 عند فتح المرحلة 6.1 | الفرع: fix/6.1-mobile-image-width | الشجرة: clean — بما فيه غير المتعقَّب
-الملفات المعدلة/المضافة في 6.1: ملفان لا ثالث لهما — assets/css/parmaga.css و docs/ai/ARCHITECT_EVIDENCE_LEDGER.md، وكلاهما من الملفات الستة المصرَّح بها في ADR-0008 §13. وعلى فرع مستقل تمامًا: docs/decisions/ADR-0009-floating-viewer-controls-and-user-initiated-motion.md وحده
-الأدلة الجديدة: صفوف §8 المؤرخة 2026-08-30 بوسم المرحلة 6 — baseline وحرية رقم ADR-0008 واستقلال الفاحص عن HTML وأوامر Gate A وبصمة الأصول وقاعدة الطي الغائبة وبنية محرك الحركة وغياب History API وسلوك تقليل الحركة والعيب الكامن في مسار الفشل وعرف CRLF وصف Unknown للقياسات غير المنفَّذة
-القرارات المعتمدة حرفيًا: §3 دون إعادة صياغة — ADR-0007 قائم بحالته ولم يُمَس، وADR-0008 يعدّل منه ما نصّ عليه صراحة وحده
-الأسئلة المفتوحة: §9 — يبقى سؤال فهارس Course وTerm وChapter والتنقل بين الدروس مفتوحًا، ولا تفتحه هذه المرحلة
-الانحرافات: مخالفة جسيمة واحدة رُصدت بعد دمج المرحلة 6 وعولجت هنا — عرض الصورة على الجوال 256 من أصل 320. ومقايضة معتمدة صراحة من المالك: يختفي الإطار الخشبي من الجانبين دون 480px ويبقى أعلى وأسفل، مقابل ثمانية وأربعين بكسلًا لعرض الصورة. وطفيفتان مفتوحتان عمدًا لأنهما تحسين لا امتثال: نصّ خيارات القفز بلا عنوان الصفحة، وتباين الحدّ pg-rule عند 1.31:1
-حالة التحقق: 61/61 اختبارًا OK و verify_lesson.py بـ PASS بصفر أخطاء على حزمة 6.1، وصفر ملفات SVG في الفرق، و770 سطرًا CRLF من 770. وانتفاء الفيض الأفقي عند 320 مقاس ومؤكَّد. ومكسب عرض الصورة غير مُثبت تجريبيًا بعد. وبقية الفحص اليدوي مصنَّف Unknown صراحة
-ديون معلنة: ديون UX الست الموروثة من المرحلة 5 يعالج ADR-0008 منها الازدواج المرئي والإيقاف والقفز وقفزة الـfragment وواجهة تقليل الحركة؛ وما لا يعالجه يبقى مسجَّلًا كما هو
-المرحلة التالية الوحيدة: 6.2 — تنفيذ ADR-0009، الشريط العائم بمجموعتيه وإتاحة الحركة بطلب المستخدم
-شرط بدء المرحلة التالية: دمج PR إصلاح 6.1 ودمج PR اعتماد ADR-0009 كليهما بـ Gate A ناجحة، ثم جولة تصميم تفاعل معتمدة قبل أي كود
-الخطوة التالية الوحيدة: إعادة قياس عرض الصورة عند 320px عبر خادم محلي وتثبيت الرقم في هذا الدفتر
-```
+الحالة: Closed — الإصلاح مدموج وADR-0009 معتمد
+HEAD: c7fb02e0d77930c3e9ae9bbeb762a52a4e9defcf | الفرع: main | الشجرة: clean
+الملفات المعدلة في 6.1: parmaga.css والدفتر، وADR-0009 الجديد على فرع مستقل
+الأدلة الجديدة: صفوف §8 المؤرخة 2026-08-30 بوسم 6.1 — القياس الحي والعارض والدمج وGate A ويُتم صفحة الدرس
+الأسئلة المفتوحة: §9 — فهارس Course وTerm وChapter والتنقل بين الدروس
+الانحرافات: صفحة الدرس غير موصولة من الرئيسة ولا sitemap — الأثر الأكبر على الطالب اليوم
+حالة التحقق: 61/61 OK، وverify_lesson.py PASS، وصفر SVG في الفرق، وGate A ناجحة على main
+بنود Unknown الباقية: CLS مقاسًا، وسجل console كاملًا، ومعاينة الطباعة، وحجب الشبكة، والرابط page-7، وقارئ الشاشة، وهاتف حقيقي
+المرحلة التالية الوحيدة: 6.2 — تنفيذ ADR-0009
+شرط بدء المرحلة التالية: اعتماد مالك مستقل، وجولة تصميم تفاعل قبل أي كود
+الخطوة التالية الوحيدة: وصل صفحة الدرس من الصفحة الرئيسة وإنشاء sitemap.xml
