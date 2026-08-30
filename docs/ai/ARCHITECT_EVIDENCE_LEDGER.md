@@ -212,6 +212,7 @@ git -c core.whitespace=cr-at-eol diff --check <base> <head>
 | 3-Closeout | Closed | اعتماد المالك لخطة مصالحة الإغلاق | تحقق — implementation 99b0d2a، merge d40d3b8 عبر PR #3، وGate A ناجحة في run 33237283840 |
 | 4 | Closed | نجاح Gate A على PR حقيقي وإغلاق المرحلة 3 — مستوفى، واعتماد المالك ببدء المرحلة صدر في 2026-08-29 | تحقق — ruleset 21795074 مفعّلة، وGate A إلزامية بوسم Required على PR #4، وnجحت في run 33246791746، وimplementation dd32b51 مدموج في 1fdbfa7 عبر PR #4، وPages بلا تغيير |
 | 5 | Closed — COMPLETE WITH KNOWN LIMITATIONS | إغلاق المرحلة 4 — مستوفى، واعتماد المالك ببدء المرحلة 5 صدر في 2026-08-29 | تحقق — الملفات الستة مدموجة في cf41d264 عبر PR #6 من implementation f7e1f467، وGate A نجحت على الـPR في run 33278871310 وبعد الدمج على main في run 33278902692، والرابط الدائم يعيد HTTP 200 حيًّا، والاختبارات الـ61 وverify_lesson.py يمران على baseline الدمج. العقد البنيوي مغلق، وتبقى ديون UX معلنة في §8 لا تمنع الإغلاق ولا تُنفَّذ هنا |
+| 6 | In Progress | اعتماد المالك ببدء المرحلة 6 وإصدار ADR-0008 صدر في 2026-08-30 نصًّا: «أعتمد فتح المرحلة 6 — Mobile Lesson Viewer UX/UI — وإصدار ADR-0008، بتاريخ 30 أغسطس 2026» | لم يُستوفَ بعد — يشترط الإغلاق: diff محصور في الملفات الستة، وثبات بصمة الأصول الـ22 وmanifest، ونجاح الاختبارات وverify_lesson.py بعد التطبيق، ونجاح Gate A على PR وعلى push إلى main، وتحققًا يدويًا لمعايير القبول 1–37 مع تصنيف كل ما لم يُقَس `Unknown` |
 
 أُغلقت المرحلة 1 بـcommit فعلي هو f2734b5، وقُيِّد SHA في §2 و§8.
 
@@ -335,6 +336,18 @@ git -c core.whitespace=cr-at-eol diff --check <base> <head>
 | 2026-08-30 | 5-Closeout | cf41d26 | clean | assets/css/parmaga.css | 208–215 و 603–604 | `grep -n "outline" assets/css/parmaga.css` | توجد قاعدتا outline: مؤشر التركيز عند 214–215، وقاعدة عند 603–604 تضبط outline وoutline-offset بعرض حد قوي. ولم يُقرأ محدِّد القاعدة عند 603 ولا فُحص وجود قاعدة إخفاء للقائمة الساكنة، فلا يصح وصف معالجة الازدواج بأنها outline فقط | Needs Verification |
 | 2026-08-30 | 5-Closeout | cf41d26 | clean | parmaga.css و lesson-viewer.js | 607 و 972 | `grep -n -i "prefers-reduced-motion\|reducedMotion"` على الملفين | تفضيل تقليل الحركة مكتشَف في الطبقتين: استعلام وسائط عند parmaga.css:607، وmatchMedia عند lesson-viewer.js:972. أما ما يفعله هذا الاكتشاف بأزرار الإعادة والتخطي وبالقلم فلم يُقرأ في هذه المصالحة | Needs Verification |
 | 2026-08-30 | 5-Closeout | cf41d26 | clean | index.html للدرس 01 | عدّ فقط | `grep -c "data-viewer-" courses/…/lesson-01/index.html` | تسعة ورودات لسمات data-viewer- في الصفحة، وهي عدد سمات لا عدد أزرار؛ فلا يُقيَّد منها عدد أزرار طبقة التحكم | Confirmed |
+| 2026-08-30 | 6 | 6ebe8f5 | clean | مستودع parmaga | — | `git rev-parse --abbrev-ref HEAD` و `git rev-parse HEAD` و `git rev-parse origin/main` و `git rev-list --parents -n 1 HEAD` و `git status --porcelain=v1 --untracked-files=all` و `git ls-remote origin refs/heads/main` | baseline المرحلة 6: الفرع main، وHEAD = 6ebe8f52116860ed85eec1818184d0a59d7493b9 مطابق لـorigin/main محليًا وعلى الريموت، وأبواه cf41d264 و12ffb5a7، ومخرج الحالة فارغ تمامًا بما فيه غير المتعقَّب، ولا stash | Confirmed |
+| 2026-08-30 | 6 | 6ebe8f5 | clean | docs/decisions/ | — | `git ls-files docs/decisions/` و `ls -la docs/decisions/` و `git log --all --oneline --name-only -- 'docs/decisions/*0008*'` | القرارات السبعة ADR-0001…ADR-0007 هي كل الموجود متعقَّبًا وعلى القرص؛ ولا أثر لأي ملف يحمل الرقم 0008 على القرص ولا في تاريخ أي مرجع من المراجع الأربعة ولا في الوسم pre-phase-01. فالرقم ADR-0008 حر، ونمط التسمية ADR-000N-<slug>.md مثبت | Confirmed |
+| 2026-08-30 | 6 | 6ebe8f5 | clean | tools/verify_lesson.py و tests/test_verify_lesson.py | بحث نمطي | `grep -n "index.html\|\.html\|<img\|button\|select\|details\|data-viewer\|lesson-page\|page-index"` على الأداة، ونظيره على الاختبارات | صفر نتائج في الملفين. مجال الفاحص هو manifest والأصول والمعرّفات، ولا يقرأ بنية HTML للدرس ولا يفرض عليها عقدًا. فإدخال select وdetails وأزرار جديدة لا يمكن أن يُسقط Gate A، ولا حاجة لتعديل tools/ أو tests/ | Confirmed |
+| 2026-08-30 | 6 | 6ebe8f5 | clean | .github/workflows/verify-lessons.yml | كامل الملف | `cat .github/workflows/verify-lessons.yml` | Gate A تستدعي أمرين لا غير: `python3 -m unittest discover -s tests -p 'test_*.py' -v` ثم `python3 tools/verify_lesson.py .`، بلا منطق تحقق مكرر داخل الـworkflow. فأوامر §M هي هذان الأمران بعينهما لا أوامر مخترعة | Confirmed |
+| 2026-08-30 | 6 | 6ebe8f5 | clean | أصول الدرس وmanifest | عدّ وبصمة | `git ls-files -- '*.svg' \| wc -l` و `git ls-files -s -- '*.svg' \| sha256sum` و `git ls-files -s docs/content/manifests/…/lesson-01.json` | خط أساس السلامة قبل التطبيق: 22 ملف SVG تحت assets/lessons/… لا تحت courses/، وبصمة فهرس الأصول 0bf7782af37faf016a43ae53db4ba59dc9eec3bd79d498599ede25ff77c2fce6، وblob الـmanifest 06c96f83a96dc643a65575004143764ad859400f. أي اختلاف بعد التطبيق يُسقط المرحلة | Confirmed |
+| 2026-08-30 | 6 | 6ebe8f5 | clean | assets/css/parmaga.css | 437 و 595–615 | `sed -n '595,615p'` و `grep -n "viewer\|stage\|controls\|data-"` | القاعدة الوحيدة تحت [data-viewer-active] هي عند 602–604 وتضيف outline وoutline-offset فقط. لا قاعدة إخفاء ولا طي للقائمة الساكنة. والتعليقان عند 437 و600–601 يَعِدان بطيّ الصفحات وإخفائها، وهو وعد بلا تنفيذ. فصف 2026-08-30 المصنَّف Needs Verification عن معالجة الازدواج يتحول إلى مؤكَّد: المعالجة outline فقط، والازدواج المرئي قائم | Confirmed |
+| 2026-08-30 | 6 | 6ebe8f5 | clean | assets/js/lesson-viewer.js | 117–147 و 626–729 | `sed -n` على النطاقين و `grep -n "setTimeout\|later("` | محرك الحركة سلسلة مؤقتات ذات نقطة اختناق واحدة: كل جدولة تمر حصريًا عبر later(gen, fn, delay) عند 117، ومؤشرات التقدم at وidx وbuffer محفوظة في closures حية لا يدمرها إلغاء المؤقت. فالإيقاف الحقيقي والاستئناف من الموضع ممكنان بتسجيل الاستمرارية عند الجدولة، دون إعادة بناء المحرك ودون Pause زائف | Confirmed |
+| 2026-08-30 | 6 | 6ebe8f5 | clean | assets/js/lesson-viewer.js | 852–861 و 900–908 | `grep -n "location.hash\|hashchange\|popstate\|pushState\|replaceState"` | لا وجود لـpushState ولا replaceState ولا popstate في الملف إطلاقًا. goTo تُسند window.location.hash مباشرة عند 856، وهو السبب الميكانيكي لقفزة التمرير إلى المرساة الساكنة التي بلّغ عنها المالك — فتتحول من Reported إلى مفسَّرة من المصدر | Confirmed |
+| 2026-08-30 | 6 | 6ebe8f5 | clean | assets/js/lesson-viewer.js | 765–768 و 910–922 | `sed -n '740,779p'` و `sed -n '900,939p'` | Reduced Motion يُكتشف بـmatchMedia عند 972 ويُطبَّق بتعطيل الأزرار: replay وskip وpen تُضبط disabled = state.reduced وتبقى ظاهرة. وapplyReduced يلغي كل شيء ويدمر القلم ويستعيد المحتوى. فصف Needs Verification عن سلوك تقليل الحركة يتحول إلى مؤكَّد، ومخالفته لمعيار «لا أدوات ميتة» ثابتة من المصدر | Confirmed |
+| 2026-08-30 | 6 | 6ebe8f5 | clean | assets/js/lesson-viewer.js | 741 مقابل 836–846 | مقارنة مسارَي التراجع | عيب كامن: showStaticFallback يرفع data-viewer-active عند 741، بينما مسار فشل الجلب لصفحة واحدة عند 836–846 يخفي المسرح ولا يرفع السمة. وهو غير ضار اليوم لأن القاعدة outline فقط، لكنه يصبح فقدان محتوى فور تطبيق الطي. فتصحيحه شرط لازم لمعيار القبول 26 لا تحسين اختياري | Confirmed |
+| 2026-08-30 | 6 | 6ebe8f5 | clean | الملفات الأربعة التنفيذية | — | `file` على index.html و lesson-viewer.js و parmaga.css و README.md | الأربعة CRLF بنسبة كاملة، موافقةً لعرف §2. فالتطبيق يجب أن يحافظ على \r\n، وأي تحويل إلى LF يُظهر الملفات كاملة في الـdiff ويبطل معنى قاعدة الستة ملفات | Confirmed |
+| 2026-08-30 | 6 | 6ebe8f5 | clean | حزمة المرحلة 6 | — | لم تُطبَّق بعد | نتائج الاختبارات وverify_lesson.py وGate A والنشر والتحقق اليدوي وCLS ومدة حركة الصفحات الـ22 وقارئ الشاشة والهاتف الحقيقي: لم يُقَس أي منها على الحزمة. لا يُكتب لها نجاح ولا إخفاق قبل التطبيق والقياس الفعلي | Unknown |
 
 نُفِّذت أوامر §M من برومبت المرحلة وطابقت مخرجاتها معايير القبول، فحُوِّل صف الحزمة إلى `Confirmed` وأُضيف صف القياس المقابل له.
 
@@ -433,17 +446,17 @@ HEAD: <sha> | الفرع: <name> | الشجرة: <clean | dirty + الوصف>
 
 ```text
 دفتر التسليم
-المرحلة الحالية: 5 — صفحة الدرس الثابتة والعارض التفاعلي المتدرج — Closeout Reconciliation
-الحالة: Closed — COMPLETE WITH KNOWN LIMITATIONS — 2026-08-30
-HEAD: cf41d264 عند بدء المصالحة | الفرع: فرع مصالحة مخصص | الشجرة: clean — main = origin/main، ولا ملفات غير متعقَّبة
-الملفات المعدلة/المضافة: docs/ai/ARCHITECT_EVIDENCE_LEDGER.md وحده — لا ملف ثانٍ، ولا ADR جديد، ولا تعديل على ADR-0007
-الأدلة الجديدة: صفوف §8 المؤرخة 2026-08-30 — baseline وأبوا الدمج والتنفيذ ونطاق الملفات الستة والاختبارات والفاحص وPR #6 وGate A مرتين والتحقق الحي والدين المصدري
-القرارات المعتمدة حرفيًا: §3 دون إعادة صياغة — ADR-0007 قائم بحالته ولم يُمَس
-الأسئلة المفتوحة: §9 — حُسم سؤال صفحة عرض الدرس تنفيذًا، ويبقى سؤال الفهارس والتنقل بين الدروس مفتوحًا
-الانحرافات: تصنيفان لم يبلغا Confirmed — معالجة الازدواج المرئي وسلوك Reduced Motion — قُيِّدا Needs Verification بدل Confirmed لأن المصدر لم يُقرأ
-حالة التحقق: تحقق محلي منفَّذ — 61 اختبارًا OK وverify_lesson.py RESULT: PASS. وتحقق حي منفَّذ — الرابط الدائم HTTP 200
-ديون معلنة: ست ديون UX في §8 مسجَّلة ولم يُنفَّذ منها شيء؛ وست حالات Unknown لم تُقَس
-المرحلة التالية الوحيدة: لا يوجد — Mobile Lesson Viewer UX/UI مقترح للمراجعة المستقلة وغير مفتوح
-شرط بدء المرحلة التالية: اعتماد مالك مستقل قبل أي ADR أو تعديل واجهة
-الخطوة التالية الوحيدة: لا شيء — انتظار قرار المالك
+المرحلة الحالية: 6 — Mobile Lesson Viewer UX/UI
+الحالة: In Progress — الحزمة مكتوبة وغير مُطبَّقة ولا مدموجة
+HEAD: 6ebe8f52116860ed85eec1818184d0a59d7493b9 عند فتح المرحلة | الفرع: main = origin/main | الشجرة: clean — بما فيه غير المتعقَّب
+الملفات المعدلة/المضافة: ستة لا سابع لها — courses/programming-ai-baccalaureate-2/term-1/chapter-01/lesson-01/index.html و assets/js/lesson-viewer.js و assets/css/parmaga.css و README.md و docs/ai/ARCHITECT_EVIDENCE_LEDGER.md و docs/decisions/ADR-0008-mobile-lesson-viewer-ux-ui.md
+الأدلة الجديدة: صفوف §8 المؤرخة 2026-08-30 بوسم المرحلة 6 — baseline وحرية رقم ADR-0008 واستقلال الفاحص عن HTML وأوامر Gate A وبصمة الأصول وقاعدة الطي الغائبة وبنية محرك الحركة وغياب History API وسلوك تقليل الحركة والعيب الكامن في مسار الفشل وعرف CRLF وصف Unknown للقياسات غير المنفَّذة
+القرارات المعتمدة حرفيًا: §3 دون إعادة صياغة — ADR-0007 قائم بحالته ولم يُمَس، وADR-0008 يعدّل منه ما نصّ عليه صراحة وحده
+الأسئلة المفتوحة: §9 — يبقى سؤال فهارس Course وTerm وChapter والتنقل بين الدروس مفتوحًا، ولا تفتحه هذه المرحلة
+الانحرافات: لا يوجد حتى الآن — لم يُطبَّق شيء بعد
+حالة التحقق: لم يُشغَّل أي اختبار ولا فاحص ولا تحقق يدوي على هذه الحزمة. كل قياس غير منفَّذ مصنَّف Unknown لا نجاحًا ولا إخفاقًا
+ديون معلنة: ديون UX الست الموروثة من المرحلة 5 يعالج ADR-0008 منها الازدواج المرئي والإيقاف والقفز وقفزة الـfragment وواجهة تقليل الحركة؛ وما لا يعالجه يبقى مسجَّلًا كما هو
+المرحلة التالية الوحيدة: لا يوجد — لا تُفتح مرحلة قبل إغلاق المرحلة 6
+شرط بدء المرحلة التالية: إغلاق المرحلة 6 واعتماد مالك مستقل
+الخطوة التالية الوحيدة: تطبيق الحزمة على فرع مخصص ثم تشغيل `python3 -m unittest discover -s tests -p 'test_*.py' -v` و`python3 tools/verify_lesson.py .`
 ```
