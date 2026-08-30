@@ -37,11 +37,18 @@ HEAD at Phase 3 Closeout merge commit (PR #3): d40d3b842143e607a06c71bd8c6dbd256
 Baseline HEAD at Phase 4 approval: c29a6b1ab2559d36438e1be96e200c56182e066c
 Baseline tree state at Phase 4 approval: clean — main = origin/main، والفرع المحلي الوحيد main
 Previous phase: Phase 3 — Closeout Reconciliation (Closed — 2026-08-29، مدموجة في d40d3b8)
-Current approved phase: Phase 4 — Gate B
 HEAD at Phase 4 implementation commit: dd32b51828f521984cc6be98d918a15240afe7ef
 HEAD at Phase 4 merge commit (PR #4): 1fdbfa791de9df2f18480c12fadb573a2d2400be
 Phase 4 merge parents: c29a6b1ab2559d36438e1be96e200c56182e066c + dd32b51828f521984cc6be98d918a15240afe7ef
-Current phase status: Closed — 2026-08-29 (مدموجة في 1fdbfa7)
+Phase 4 status: Closed — 2026-08-29 (مدموجة في 1fdbfa7)
+Baseline HEAD at Phase 5 approval: 8324aa083993294095e69f7662713e42a5f85e8e
+HEAD at Phase 5 implementation commit: f7e1f4672541a7d060ef7a377191ec8e063ca730
+HEAD at Phase 5 merge commit (PR #6): cf41d264216cc952c0ee41770274757a284a0ccc
+Phase 5 merge parents: 8324aa083993294095e69f7662713e42a5f85e8e + f7e1f4672541a7d060ef7a377191ec8e063ca730
+Baseline HEAD at Phase 5 Closeout approval: cf41d264216cc952c0ee41770274757a284a0ccc
+Baseline tree state at Phase 5 Closeout approval: clean — main = origin/main، ولا ملفات غير متعقَّبة
+Current approved phase: Phase 5 — Closeout Reconciliation (توثيق فقط، بلا تغيير إنتاجي)
+Current phase status: Closed — COMPLETE WITH KNOWN LIMITATIONS
 Next phase: لا يوجد — لا تُفتح مرحلة تالية إلا باعتماد مالك مستقل
 ```
 
@@ -167,7 +174,9 @@ git -c core.whitespace=cr-at-eol diff --check <base> <head>
 
 الحالة: أُغلقت. implementation commit هو c03fa8e، وmerge commit هو 48ecb87 عبر PR #2، وأبواه 6783a83 و c03fa8e.
 
-نُفِّذ النطاق الأضيق المقرر في §9: نشر أصول الدرس والتحقق منها بأداة التحقق وGate A، دون إنشاء صفحة HTML للدرس ودون viewer. ولذلك يبقى الرابط الدائم للدرس على 404، وهو سلوك متوقع في هذه الحالة لا إخفاق.
+نُفِّذ النطاق الأضيق المقرر في §9: نشر أصول الدرس والتحقق منها بأداة التحقق وGate A، دون إنشاء صفحة HTML للدرس ودون viewer. ولذلك بقي الرابط الدائم للدرس على 404، وهو سلوك متوقع في نطاق المرحلة 3 لا إخفاق.
+
+قيد نطاق زمني — 2026-08-30: عبارة بقاء الرابط على 404 صحيحة لنطاق المرحلة 3 وحده، وهي الآن `Superseded` بوصفها حالة راهنة. أنشأت المرحلة 5 صفحة الدرس ودُمجت في cf41d264، وصار الرابط الدائم يعيد HTTP 200. الدليل مقيَّد في §8.
 
 ### المرحلة 4 — Gate B
 
@@ -202,7 +211,7 @@ git -c core.whitespace=cr-at-eol diff --check <base> <head>
 | 3 | Closed | إغلاق المرحلة 2 واعتماد الانتقال | تحقق — أصول الدرس منشورة في c03fa8e ومدموجة في 48ecb87، وGate A ناجحة على PR #2 |
 | 3-Closeout | Closed | اعتماد المالك لخطة مصالحة الإغلاق | تحقق — implementation 99b0d2a، merge d40d3b8 عبر PR #3، وGate A ناجحة في run 33237283840 |
 | 4 | Closed | نجاح Gate A على PR حقيقي وإغلاق المرحلة 3 — مستوفى، واعتماد المالك ببدء المرحلة صدر في 2026-08-29 | تحقق — ruleset 21795074 مفعّلة، وGate A إلزامية بوسم Required على PR #4، وnجحت في run 33246791746، وimplementation dd32b51 مدموج في 1fdbfa7 عبر PR #4، وPages بلا تغيير |
-| 5 | In Progress | إغلاق المرحلة 4 — مستوفى، واعتماد المالك ببدء المرحلة 5 صدر في 2026-08-29 | لم يتحقق بعد — يلزم: دمج الملفات الستة عبر PR وGate A ناجحة، ثم إعادة الرابط الدائم HTTP 200 حيًّا، مع ثبات بصمات الـ22 SVG وثبات manifest والفاحص والاختبارات وworkflow وCNAME و.gitattributes وإعدادات Pages |
+| 5 | Closed — COMPLETE WITH KNOWN LIMITATIONS | إغلاق المرحلة 4 — مستوفى، واعتماد المالك ببدء المرحلة 5 صدر في 2026-08-29 | تحقق — الملفات الستة مدموجة في cf41d264 عبر PR #6 من implementation f7e1f467، وGate A نجحت على الـPR في run 33278871310 وبعد الدمج على main في run 33278902692، والرابط الدائم يعيد HTTP 200 حيًّا، والاختبارات الـ61 وverify_lesson.py يمران على baseline الدمج. العقد البنيوي مغلق، وتبقى ديون UX معلنة في §8 لا تمنع الإغلاق ولا تُنفَّذ هنا |
 
 أُغلقت المرحلة 1 بـcommit فعلي هو f2734b5، وقُيِّد SHA في §2 و§8.
 
@@ -213,6 +222,10 @@ git -c core.whitespace=cr-at-eol diff --check <base> <head>
 اكتمل شرط الإغلاق المذكور أعلاه فعليًا: فُتح PR #4 من الفرع phase-4-gate-b إلى main حاملًا تعديل الدفتر وحده، وظهر فحص «Gate A - Lesson verification» فيه موسومًا Required بفعل ruleset 21795074، ثم نجح في run 33246791746، ثم صار الـPR Ready to merge ودُمج بmerge commit حقيقي هو 1fdbfa7 بأبويه c29a6b1 وdd32b51. فحالة المرحلة 4 هي `Closed`. وتبقى حماية الفرع التقليدية غائبة عمدًا، فلا حماية موازية.
 
 قيد أمانة على دليل الحجب: ثبت بالمعاينة أن الـPR فُتح بحالة `Checks pending` وعدّاد Checks صفر، وثبت وسم Required على الفحص، وثبت من الـAPI أن الفحص بدأ 10:00:28Z وانتهى 10:00:37Z. ولم تُلتقط صورة لصندوق الدمج وهو محجوب بالنص الصريح، لقصر مدة الفحص. فالحجب أثناء pending `Inferred` من مجموع هذه القرائن لا `Confirmed` بمشاهدة مباشرة، ولم يُعطَّل أي workflow لصناعة الحالة.
+
+اكتمل شرط إغلاق المرحلة 5 فعليًا: نُفِّذت الملفات الستة في f7e1f467 فوق 8324aa08، وفُتح PR #6 «feat(lesson): publish lesson-01 static page with progressive viewer (ADR-0007)»، ونجحت Gate A عليه في run 33278871310، ثم دُمج بmerge commit حقيقي cf41d264 بأبويه 8324aa08 وf7e1f467 — لا squash ولا rebase — ونجحت Gate A بعد الدمج على main في run 33278902692. فحالة المرحلة 5 هي `Closed` بالوصف `COMPLETE WITH KNOWN LIMITATIONS`.
+
+قيد على معنى الإغلاق: الإغلاق يشهد لعقد المرحلة البنيوي وحده — صفحة درس ثابتة على المسار الدائم بمراسٍ ونص كامل بلا JavaScript، وعارض متدرج اختياري. ولا يشهد لجودة تجربة الاستخدام. ديون UX الست مقيَّدة في §8 بحالاتها الصحيحة، ولم يُنفَّذ منها شيء في هذه المصالحة، ولا تفتح أي منها مرحلة تلقائيًا.
 
 ---
 
@@ -303,6 +316,25 @@ git -c core.whitespace=cr-at-eol diff --check <base> <head>
 | 2026-08-29 | 4 | 1fdbfa7 | clean | GitHub Actions API | — | `GET /repos/amr-abd-elsalam/parmaga/actions/runs?head_sha=1fdbfa79…` | بعد الدمج على main: run 33248659193، workflow «Verify lessons»، event push، conclusion success — التحقق ناجح على الفرع الرئيسي أيضًا | Confirmed |
 | 2026-08-29 | 4 | 1fdbfa7 | clean | GitHub Checks API ومعاينة المالك | — | `GET /repos/.../commits/1fdbfa79…/check-runs` ومعاينة Settings ← Pages بعد الدمج | Pages ثابتة: Deploy from a branch من main و/(root) والموقع حي على parmaga.com؛ وفحوص build وdeploy وreport-build-status نجحت في run 33248658930 ببيئة github-pages وdeployment 6154928824 — وهي ليست required فالنشر مستقل عن بوابة الدمج | Confirmed |
 | 2026-08-29 | 4 | 1fdbfa7 | clean | إعدادات GitHub | — | معاينة المالك بعد الدمج | لا حماية فرع تقليدية، وruleset 21795074 وحدها Active، ولا bypass — الحالة النهائية مطابقة للتصميم المعتمد | Reported |
+| 2026-08-30 | 5-Closeout | cf41d26 | clean | مستودع parmaga | — | `git branch --show-current` و `git rev-parse HEAD` و `git rev-parse origin/main` و `git status --short --untracked-files=all` و `git ls-remote origin refs/heads/main` | baseline المصالحة: الفرع main، وHEAD = cf41d264216cc952c0ee41770274757a284a0ccc مطابق لـorigin/main محليًا وعلى الريموت، ومخرج الحالة فارغ تمامًا بما فيه الملفات غير المتعقَّبة | Confirmed |
+| 2026-08-30 | 5-Closeout | cf41d26 | clean | مستودع parmaga | — | `git rev-list --parents -n 1 HEAD` | merge commit حقيقي cf41d264 بأبوين 8324aa083993294095e69f7662713e42a5f85e8e و f7e1f4672541a7d060ef7a377191ec8e063ca730 — لا squash ولا rebase | Confirmed |
+| 2026-08-30 | 5-Closeout | cf41d26 | clean | مستودع parmaga | — | `git log -1 --format=%H%n%P%n%an%n%aI%n%s f7e1f467…` | implementation commit للمرحلة 5 هو f7e1f4672541a7d060ef7a377191ec8e063ca730، أبوه الأول 8324aa08 وهو نفسه الأب الأول للدمج، بتاريخ 2026-08-30T01:14:47+03:00 من amr-abd-elsalam | Confirmed |
+| 2026-08-30 | 5-Closeout | cf41d26 | clean | مستودع parmaga | — | `git diff --name-only 8324aa08 f7e1f467` و `git diff --stat 8324aa08 f7e1f467` | فرق المرحلة 5 محصور في ستة ملفات لا سابع لها: README.md و assets/css/parmaga.css و assets/js/lesson-viewer.js و courses/programming-ai-baccalaureate-2/term-1/chapter-01/lesson-01/index.html و docs/ai/ARCHITECT_EVIDENCE_LEDGER.md و docs/decisions/ADR-0007-lesson-page-and-progressive-viewer.md، بإحصاء 2083 insertions(+) و 22 deletions(-) | Confirmed |
+| 2026-08-30 | 5-Closeout | cf41d26 | clean | GitHub API | — | `GET /repos/amr-abd-elsalam/parmaga/pulls/6` | PR #6 «feat(lesson): publish lesson-01 static page with progressive viewer (ADR-0007)»: state closed، merged = true، merged_by = amr-abd-elsalam، merged_at = 2026-08-29T22:33:58Z، merge_commit_sha = cf41d264216cc952c0ee41770274757a284a0ccc، commits = 1، changed_files = 6، additions = 2083، deletions = 22 — مطابق حرفيًا للإحصاء المحلي فتطابق مصدران مستقلان | Confirmed |
+| 2026-08-30 | 5-Closeout | cf41d26 | clean | GitHub Actions API | — | `GET /repos/amr-abd-elsalam/parmaga/actions/runs?head_sha=f7e1f467…` | Gate A على PR #6: run 33278871310، workflow «Verify lessons» بمسار .github/workflows/verify-lessons.yml، event pull_request، head_branch phase-5-lesson-viewer، status completed، conclusion success، من 22:33:15Z إلى 22:33:25Z؛ وعدد النتائج على هذا الـSHA واحد لا غير | Confirmed |
+| 2026-08-30 | 5-Closeout | cf41d26 | clean | GitHub Actions API | — | `GET /repos/amr-abd-elsalam/parmaga/actions/runs?head_sha=cf41d264…` | بعد الدمج على main: run 33278902692، workflow «Verify lessons»، event push، head_branch main، run_number 13، status completed، conclusion success، من 22:34:00Z إلى 22:34:07Z — التحقق ناجح على الفرع الرئيسي أيضًا | Confirmed |
+| 2026-08-30 | 5-Closeout | cf41d26 | clean | GitHub Actions API | — | `GET …/actions/runs?head_sha=cf41d264…` مع `GET /repos/amr-abd-elsalam/parmaga/actions/workflows` | الاستعلام يعيد total_count = 2 على merge SHA، والمستودع يملك workflowين فقط هما «Verify lessons» و«pages-build-deployment»، فالتشغيل الثاني يعود لworkflow النشر استنتاجًا لا قراءةً لسجله | Inferred |
+| 2026-08-30 | 5-Closeout | cf41d26 | clean | GitHub Actions API | — | لم يُقرأ سجل التشغيل الثاني على merge SHA | نتيجة تشغيل pages-build-deployment على cf41d264 غير معلومة، ولا تُوصف بنجاح ولا بفشل. وهي ليست فحصًا مطلوبًا، فلا أثر لها على بوابة الدمج | Unknown |
+| 2026-08-30 | 5-Closeout | cf41d26 | clean | مجموعة الاختبارات | — | `PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -p 'test_*.py'` | Ran 61 tests in 2.011s — OK، بلا إخفاق ولا خطأ، على baseline الدمج cf41d264 | Confirmed |
+| 2026-08-30 | 5-Closeout | cf41d26 | clean | أداة التحقق | — | `PYTHONDONTWRITEBYTECODE=1 python3 tools/verify_lesson.py .` | Publication candidates: 1 وهو programming-ai-baccalaureate-2/term-1/chapter-01/lesson-01، والمخرج «All checks passed» و«RESULT: PASS (0 errors)» | Confirmed |
+| 2026-08-30 | 5-Closeout | cf41d26 | clean | مستودع parmaga | — | `git status --short --untracked-files=all` بعد تشغيل الاختبارات والفاحص | المخرج فارغ — لم تترك أدوات الاختبار أي مخلَّف ولا ملف غير متعقَّب | Confirmed |
+| 2026-08-30 | 5-Closeout | cf41d26 | clean | النشر الحي | — | `GET https://parmaga.com/courses/programming-ai-baccalaureate-2/term-1/chapter-01/lesson-01/` | HTTP 200 بنوع text/html; charset=utf-8 وحجم 10909 bytes. والمستجاب يحمل canonical للمسار نفسه، ووصلة /assets/css/parmaga.css، وسكربت /assets/js/lesson-viewer.js بسمة defer، وقائمة صفحات بمراسٍ page-1 فصاعدًا، وصور svg بأبعاد صريحة 1080×1350 مع loading=lazy من الصفحة الثانية، وnص كامل بالعربية والإنجليزية داخل details لكل صفحة | Confirmed |
+| 2026-08-30 | 5-Closeout | cf41d26 | — | صف 2026-08-29 المؤرَّخ بحالة `expected-404` على الرابط الدائم | — | إعادة الجلب أعلاه | «HTTP 404 مع صفحة 404 الرسمية — expected-404» كان صحيحًا في تاريخه على baseline المرحلة 3، وأبطله دمج المرحلة 5: الرابط الدائم يعيد الآن HTTP 200 بصفحة الدرس | Superseded |
+| 2026-08-30 | 5-Closeout | cf41d26 | clean | assets/js/lesson-viewer.js | 852 و 856 | `grep -n "location.hash\|function goTo\|goTo(" assets/js/lesson-viewer.js` | الدالة goTo(n, fromHash) معرَّفة عند 852، وتكتب window.location.hash = 'page-' + n عند 856 داخل try، وتُستدعى من مستمعي زرَّي السابق والتالي عند 976 و977. كتابة الـhash مثبتة من المصدر | Confirmed |
+| 2026-08-30 | 5-Closeout | cf41d26 | clean | lesson-viewer.js و index.html | عدّ وبحث | `grep -n -i "pause\|resume\|data-viewer-play"` على الملفين | لا يوجد زر تشغيل أو إيقاف مؤقت: لا أثر لـdata-viewer-play، والورود الوحيد في JavaScript هو الدالة pauseFor عند 321 وهي حساب تأخير محارف يُستدعى عند 714، والورود الوحيد في HTML هو نص الدرس «Pause and Think» عند 275 لا عنصر تحكم | Confirmed |
+| 2026-08-30 | 5-Closeout | cf41d26 | clean | assets/css/parmaga.css | 208–215 و 603–604 | `grep -n "outline" assets/css/parmaga.css` | توجد قاعدتا outline: مؤشر التركيز عند 214–215، وقاعدة عند 603–604 تضبط outline وoutline-offset بعرض حد قوي. ولم يُقرأ محدِّد القاعدة عند 603 ولا فُحص وجود قاعدة إخفاء للقائمة الساكنة، فلا يصح وصف معالجة الازدواج بأنها outline فقط | Needs Verification |
+| 2026-08-30 | 5-Closeout | cf41d26 | clean | parmaga.css و lesson-viewer.js | 607 و 972 | `grep -n -i "prefers-reduced-motion\|reducedMotion"` على الملفين | تفضيل تقليل الحركة مكتشَف في الطبقتين: استعلام وسائط عند parmaga.css:607، وmatchMedia عند lesson-viewer.js:972. أما ما يفعله هذا الاكتشاف بأزرار الإعادة والتخطي وبالقلم فلم يُقرأ في هذه المصالحة | Needs Verification |
+| 2026-08-30 | 5-Closeout | cf41d26 | clean | index.html للدرس 01 | عدّ فقط | `grep -c "data-viewer-" courses/…/lesson-01/index.html` | تسعة ورودات لسمات data-viewer- في الصفحة، وهي عدد سمات لا عدد أزرار؛ فلا يُقيَّد منها عدد أزرار طبقة التحكم | Confirmed |
 
 نُفِّذت أوامر §M من برومبت المرحلة وطابقت مخرجاتها معايير القبول، فحُوِّل صف الحزمة إلى `Confirmed` وأُضيف صف القياس المقابل له.
 
@@ -310,13 +342,39 @@ git -c core.whitespace=cr-at-eol diff --check <base> <head>
 
 سبقت هذه المصالحةَ فجوةٌ بين الواقع والتوثيق: نُفِّذت المرحلتان 2 و3 ودُمجتا، بينما بقي الدفتر يصف المرحلة 2 بأنها لم تبدأ والمرحلة 3 بأنها محجوبة، وبقي README ينفي وجود أي ملف SVG أو مجلد `assets/lessons/`. صحّحت هذه المرحلة الوصف دون المساس بأي أصل أو manifest أو أداة تحقق أو workflow أو إعداد استضافة، ودون حذف النص التاريخي: ما بطل يُوسم `Superseded` ويبقى مقروءًا.
 
+### مصالحة إغلاق المرحلة 5 — 2026-08-30
+
+سبقت هذه المصالحةَ فجوةٌ بين الواقع والتوثيق: نُفِّذت المرحلة 5 ودُمجت في cf41d264 ونجحت Gate A مرتين وصار الرابط الدائم حيًّا، بينما بقي الدفتر يصف المرحلة 5 بأنها `In Progress`، ويثبّت عقد التسليم عند 8324aa0، ويقرر في §9 أنه «لم يُدمج شيء ولم يتغير HEAD وما زال الرابط يعيد 404». صحّحت هذه المصالحة الوصف وحده: لم يُمَس HTML ولا JavaScript ولا CSS ولا SVG ولا manifest ولا أداة التحقق ولا الاختبارات ولا workflow ولا CNAME ولا .gitattributes ولا إعدادات Pages ولا Ruleset، ولم يُنشأ ADR ولم يُعدَّل ADR-0007. ولم يُحذف نص تاريخي: ما بطل يُوسم `Superseded` ويبقى مقروءًا.
+
+### Known Limitations للمرحلة 5 — مسجَّلة لا منفَّذة
+
+هذه ديون معلنة، أُقرَّت مع الإغلاق ولم تُعالَج فيه. لا يجوز اشتقاق تعديل واجهة من وجودها هنا، ولا يفتح أي منها مرحلة.
+
+- **دين 1 — Bug عالي: ازدواج مرئي.** ظهور المنصة التفاعلية والقائمة الساكنة معًا بعد نجاح التهيئة. الازدواج نفسه `Reported` من المالك ولم يُقَس هنا. والادعاء بأن المعالجة الحالية تضيف outline فقط `Needs Verification`: القاعدة عند parmaga.css:603–604 تضبط outline وoutline-offset، لكن محدِّدها لم يُقرأ ولم يُفحص وجود قاعدة إخفاء.
+- **دين 2 — Bug عالي: كتابة الـhash.** goTo تكتب window.location.hash عند lesson-viewer.js:856 — `Confirmed` من المصدر. وارتباط ذلك بقفزة تمرير نحو المرساة الساكنة `Reported` من المالك، إذ لم تُقَس القفزة في هذه المصالحة.
+- **دين 3 — Debt عالي: لا Pause/Resume.** المتاح إعادة وتخطٍّ لا إيقاف مؤقت واستئناف — `Confirmed` من HTML وJavaScript معًا.
+- **دين 4 — Debt متوسط/عالي في تجربة الاستخدام والوصولية: Reduced Motion.** اكتشاف التفضيل `Confirmed` عند parmaga.css:607 وlesson-viewer.js:972. أما كونه يعطّل الإعادة والتخطي والقلم بدل تقديم واجهة ثابتة مبسطة بلا عناصر تحكم ميتة، فـ`Needs Verification` لأن السلوك لم يُقرأ.
+- **دين 5 — Debt متوسط: لا وصول سريع لصفحة.** لا توجد وسيلة انتقال مباشر إلى صفحة بعينها، فالوصول الخطي إلى صفحة بعيدة يتطلب ضغطات متعددة — `Reported`.
+- **دين 6 — Debt متوسط: حمل معرفي على الهاتف.** تعدد الأزرار في طبقة تحكم واحدة — `Reported`. وعدد الأزرار تحديدًا غير مقيَّد: القياس المتاح تسعة ورودات لسمات data-viewer- وهي ليست عدد أزرار.
+
+حالات `Unknown` صراحةً — لم تُقَس ولا يجوز وصفها بنجاح ولا بإخفاق: السلوك على هاتف حقيقي، وإعداد تقليل الحركة على Windows، وإزاحة التخطيط التراكمية CLS، وتجربة قارئ الشاشة، والتكبير، والشبكة البطيئة.
+
+### مجال المراجعة المعمارية المستقلة المقترح
+
+Recommended area for independent architectural review: Mobile Lesson Viewer UX/UI
+
+Status: Awaiting Independent Owner Approval — Not Opened
+
+لا رقم مرحلة مخصَّص لهذا المجال، ولا ADR له. ولا وجود لـADR-0008 ولا اعتماد له. ولا يبدأ تنفيذ أي بند من الديون الستة من هذا الإغلاق.
+
 ### Deferred Observations
 
 هذه ملاحظات مسجَّلة لا تُنفَّذ في هذه المرحلة، ولا تُحوَّل إلى تعديلات إلا بقرار مستقل:
 
 - **Node.js 20 deprecation:** تصدر GitHub Actions تحذير إهمال لبيئة تشغيل Node.js 20 المستخدمة في الإجراءات المثبَّتة داخل workflow التحقق. التحذير لا يُفشل Gate A ولم يؤثر في أي run. الحالة `Reported`، والمعالجة مؤجلة إلى مرحلة صيانة مستقلة تراجع تثبيت إصدارات الإجراءات.
 - **الفرع المحلي `phase-2-verification-gate-a`:** ما زال موجودًا محليًا عند 0de5f31 وupstream له محذوف. تنظيفه خارج نطاق هذه المرحلة ولم يُمَس.
-- **صفحة عرض الدرس:** غير موجودة عمدًا، والسؤال المتعلق بها مسجَّل في §9 وينتظر قرار مالك مستقلًا.
+- **صفحة عرض الدرس:** كانت غير موجودة عمدًا، وهذه الملاحظة الآن `Superseded` — 2026-08-30: أنشأتها المرحلة 5 ودُمجت في cf41d264، والرابط الدائم يعيد HTTP 200.
+- **ترتيب المراحل في §6:** نص القاعدة يذكر `0 → 1 → 2 → 3 → 4` ولم يُحدَّث بعد تنفيذ المرحلة 5. تصحيح الصياغة خارج نطاق هذه المصالحة ولم يُمَس، وهو مسجَّل هنا لقرار مستقل.
 
 قاعدة إنهاء التسلسل: SHA إغلاق أي مرحلة يُقيَّد في commit تدوين لاحق، ولا يُقيَّد SHA لـcommit التدوين نفسه، منعًا لتسلسل لا نهائي. commit التدوين ليس مرحلة ولا يفتح واحدة.
 
@@ -332,17 +390,19 @@ git -c core.whitespace=cr-at-eol diff --check <base> <head>
 
 > هل اكتمال المرحلة 3 يعني نشر ملفات SVG فقط، مع بقاء permalink الدرس على 404، أم يجب أن يصبح permalink الدرس نفسه تجربة قابلة للزيارة؟
 
-نُفِّذت المرحلة 3 بالنطاق الأضيق فعليًا: نُشرت الأصول وتُحقق منها، ولم تُنشأ صفحة درس. فصار الشق الأول هو الواقع المقيَّد، ويبقى الرابط الدائم على 404 بوصفه `expected-404`.
+نُفِّذت المرحلة 3 بالنطاق الأضيق فعليًا: نُشرت الأصول وتُحقق منها، ولم تُنشأ صفحة درس. فكان الشق الأول هو الواقع المقيَّد آنذاك، وبقي الرابط الدائم على 404 بوصفه `expected-404` طوال المرحلتين 3 و4.
+
+قيد نطاق زمني — 2026-08-30: وصف `expected-404` الآن `Superseded` بوصفه حالة راهنة. أنشأت المرحلة 5 صفحة الدرس ودُمجت، والرابط الدائم يعيد HTTP 200 بدليل مقيَّد في §8. ويبقى `expected-404` صحيحًا لمستويات الفهارس وحدها.
 
 السؤال الذي كان مفتوحًا:
 
 > متى تُنشأ صفحة عرض الدرس على المسار الدائم، وبأي شكل، ومن يعتمد ذلك؟
 
-**حالته الآن: `Resolved by decision` في 2026-08-29 — قرار معتمد، وتنفيذه لم يُدمج بعد.** يجب التمييز بين المستويين ولا يجوز الخلط بينهما:
+**حالته الآن: `Resolved by execution` في 2026-08-30 — القرار معتمد وتنفيذه مدموج ومتحقَّق منه.** يبقى التمييز بين المستويين مسجَّلًا لأنه كان جوهر الفجوة التي عالجتها مصالحة الإغلاق:
 
 > **قرار معتمد:** صدر اعتماد المالك ببدء المرحلة 5، وصدر `ADR-0007` بحالة `Accepted` فحسم الشكل: صفحة ثابتة على مستوى الدرس وحده، تعرض الصفحات الـ22 عبر `<img>` بأبعاد صريحة وتحميل مؤجل، بمراسي `#page-1 … #page-22` وفق `ADR-0004 §14` بلا تصفير، ولكل صفحة نص كامل ثابت متاح دون JavaScript. وفوق ذلك عارض تفاعلي اختياري بملف JavaScript خارجي واحد، يجلب نسخة inline واحدة كحد أقصى للصفحة النشطة، ويعيد المحتوى الساكن كاملًا عند أي فشل. و`ADR-0007` هو القرار المستقل الذي تشترطه قائمة تحقق `ADR-0004` لأي تضمين inline، وهو يستجيب لنقاط `ADR-0004 §24` التسع، ويعدّل من `ADR-0003` بنود تأجيل JavaScript والحركة وسياسة التحميل وحدها دون بقيته ودون `ADR-0001`.
 
-> **ما لم يتحقق بعد:** لا يوجد تحقق حي. لم يُدمج شيء، ولم يتغير HEAD، وما زال الرابط الدائم يعيد 404 حتى لحظة تدوين هذا السطر. ولا تُقيَّد أي أدلة في `§8` قبل الدمج والقياس الفعلي.
+> **ما لم يكن قد تحقق عند تدوين القرار — `Superseded` في 2026-08-30:** نصّت هذه الفقرة على أنه «لا يوجد تحقق حي، ولم يُدمج شيء، ولم يتغير HEAD، وما زال الرابط الدائم يعيد 404». كانت صحيحة في تاريخها عند 8324aa0، وأبطلها التنفيذ: دُمجت المرحلة 5 في cf41d264 عبر PR #6 من implementation f7e1f467، ونجحت Gate A على الـPR وبعد الدمج، وأعاد الرابط الدائم HTTP 200 عند إعادة الجلب. والأدلة مقيَّدة في `§8` بعد الدمج والقياس الفعلي لا قبلهما، فالقاعدة نفسها لم تُخرق. ويبقى قيدها الأصلي ساريًا لكل تنفيذ لاحق.
 
 الجزء الذي يبقى مفتوحًا ولا يحسمه `ADR-0007`:
 
@@ -373,16 +433,17 @@ HEAD: <sha> | الفرع: <name> | الشجرة: <clean | dirty + الوصف>
 
 ```text
 دفتر التسليم
-المرحلة الحالية: 5 — صفحة الدرس الثابتة والعارض التفاعلي المتدرج
-الحالة: In Progress — 2026-08-29
-HEAD: 8324aa0 | الفرع: main | الشجرة: clean — main = origin/main. حزمة تعديل فقط: لم يقع commit، وHEAD لا يتغير حتى يُنفَّذ
-الملفات المعدلة/المضافة: إنشاء courses/.../lesson-01/index.html و assets/js/lesson-viewer.js و docs/decisions/ADR-0007-...md؛ وتعديل assets/css/parmaga.css و README.md وهذا الدفتر — ستة لا غير
-الأدلة الجديدة: لا شيء في §8 — لا تُقيَّد أدلة قبل الدمج والقياس الفعلي
-القرارات المعتمدة حرفيًا: §3 دون إعادة صياغة، ويُضاف ADR-0007 بحالة Accepted
-الأسئلة المفتوحة: §9 — حُسم سؤال صفحة عرض الدرس بقرار، ويبقى سؤال الفهارس والتنقل بين الدروس مفتوحًا
-الانحرافات: لا يوجد — بلا تعديل SVG ولا manifest ولا فاحص ولا اختبارات ولا workflow ولا .gitattributes ولا إعدادات Pages، وبلا dependency ولا build step
-حالة التحقق: تحقق محلي غير منفَّذ بعد، وتحقق حي غير منفَّذ بعد. لا يُعتبر أي منهما محققًا بالاستنتاج
-المرحلة التالية الوحيدة: لا يوجد — لا تُفتح مرحلة إلا باعتماد مالك مستقل بعد إغلاق المرحلة 5
-شرط بدء المرحلة التالية: إغلاق المرحلة 5 باعتماد مالك مستقل — لم يصدر
-الخطوة التالية الوحيدة: تطبيق الملفات الستة محليًا وتشغيل أوامر التحقق، ثم PR وGate A، ثم التحقق الحي والإغلاق
+المرحلة الحالية: 5 — صفحة الدرس الثابتة والعارض التفاعلي المتدرج — Closeout Reconciliation
+الحالة: Closed — COMPLETE WITH KNOWN LIMITATIONS — 2026-08-30
+HEAD: cf41d264 عند بدء المصالحة | الفرع: فرع مصالحة مخصص | الشجرة: clean — main = origin/main، ولا ملفات غير متعقَّبة
+الملفات المعدلة/المضافة: docs/ai/ARCHITECT_EVIDENCE_LEDGER.md وحده — لا ملف ثانٍ، ولا ADR جديد، ولا تعديل على ADR-0007
+الأدلة الجديدة: صفوف §8 المؤرخة 2026-08-30 — baseline وأبوا الدمج والتنفيذ ونطاق الملفات الستة والاختبارات والفاحص وPR #6 وGate A مرتين والتحقق الحي والدين المصدري
+القرارات المعتمدة حرفيًا: §3 دون إعادة صياغة — ADR-0007 قائم بحالته ولم يُمَس
+الأسئلة المفتوحة: §9 — حُسم سؤال صفحة عرض الدرس تنفيذًا، ويبقى سؤال الفهارس والتنقل بين الدروس مفتوحًا
+الانحرافات: تصنيفان لم يبلغا Confirmed — معالجة الازدواج المرئي وسلوك Reduced Motion — قُيِّدا Needs Verification بدل Confirmed لأن المصدر لم يُقرأ
+حالة التحقق: تحقق محلي منفَّذ — 61 اختبارًا OK وverify_lesson.py RESULT: PASS. وتحقق حي منفَّذ — الرابط الدائم HTTP 200
+ديون معلنة: ست ديون UX في §8 مسجَّلة ولم يُنفَّذ منها شيء؛ وست حالات Unknown لم تُقَس
+المرحلة التالية الوحيدة: لا يوجد — Mobile Lesson Viewer UX/UI مقترح للمراجعة المستقلة وغير مفتوح
+شرط بدء المرحلة التالية: اعتماد مالك مستقل قبل أي ADR أو تعديل واجهة
+الخطوة التالية الوحيدة: لا شيء — انتظار قرار المالك
 ```
