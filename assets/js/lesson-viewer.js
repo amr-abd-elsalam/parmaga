@@ -101,6 +101,9 @@
     mode: 'interactive',
     mounted: false,
     alignOnFirstMount: false,
+    floating: false,
+    openPanel: null,
+    lastFocus: null,
     stage: null,
     pen: null,
     hashLock: false
@@ -598,7 +601,7 @@
   /* ---------- مؤشر القلم ---------- */
 
   function ensurePen(root) {
-    if (!state.penEnabled || state.reduced) { return null; }
+    if (!state.penEnabled) { return null; }
     if (state.pen && state.pen.ownerSVGElement === root) { return state.pen; }
     var dot = document.createElementNS(SVG_NS, 'circle');
     dot.setAttribute('r', '7');
@@ -612,7 +615,7 @@
   }
 
   function movePen(node) {
-    if (!state.penEnabled || state.reduced || !state.pen) { return; }
+    if (!state.penEnabled || !state.pen) { return; }
     var box = safeBBox(node);
     if (!box) { return; }
     var isRtl = false;
@@ -748,25 +751,35 @@
   /* ---------- تركيب الصفحة النشطة ---------- */
 
   var activeSaved = null;
+  var activeRoot = null;
+  var activePlan = null;
 
   function teardownStage() {
     destroyPen();
     activeSaved = null;
+    activeRoot = null;
+    activePlan = null;
     if (el.stage) {
       while (el.stage.firstChild) { el.stage.removeChild(el.stage.firstChild); }
     }
   }
 
   function showStaticFallback(message) {
+    /* لا تُترك عقدة مركَّزة داخل محتوى صار hidden: يُنقل التركيز إلى لافتة
+       الفشل نفسها، وهي أقرب مكافئ منطقي، لا إلى body ولا إلى بداية الصفحة. */
+    var inside = !!(el.controls && document.activeElement &&
+                    el.controls.contains(document.activeElement));
     teardownStage();
     state.mounted = false;
+    state.openPanel = null;
     if (el.stage) { el.stage.hidden = true; }
     if (el.list) { el.list.removeAttribute('data-viewer-active'); }
-    if (el.controls) { el.controls.hidden = true; }
     if (el.notice && message) {
       el.notice.textContent = message;
       el.notice.hidden = false;
+      if (inside) { try { el.notice.focus(); } catch (err) { reportSoft(err); } }
     }
+    if (el.controls) { el.controls.hidden = true; }
   }
 
   function setStatus(text) {
@@ -784,14 +797,102 @@
     if (el.stage) { el.stage.hidden = !interactive; }
   }
 
-  /* في وضع تقليل الحركة تُخفى مجموعة أدوات الحركة كاملة، فلا تبقى عناصر
-     معطّلة ميتة. الإخفاء بسمة hidden أصلية، وتسنده قاعدة CSS مكافئة. */
-  function applyMotionUi() {
-    if (!el.motion) { return; }
-    for (var i = 0; i < el.motion.length; i += 1) {
-      el.motion[i].hidden = state.reduced;
+  /* ---------- طبقة التحكم: زرا disclosure ولوحتان ---------- */
+
+  function panelFor(key) {
+    if (key === 'nav') { return el.panelNav; }
+    if (key === 'motion') { return el.panelMotion; }
+    return null;
+  }
+
+  function buttonFor(key) {
+    if (key === 'nav') { return el.fabNav; }
+    if (key === 'motion') { return el.fabMotion; }
+    return null;
+  }
+
+  function activeOrLast() {
+    var node = document.activeElement;
+    if (!node || node === document.body) { return state.lastFocus; }
+    return node;
+  }
+
+  function focusedKey() {
+    var node = activeOrLast();
+    if (!node) { return null; }
+    if (el.panelNav && el.panelNav.contains(node)) { return 'nav'; }
+    if (el.panelMotion && el.panelMotion.contains(node)) { return 'motion'; }
+    return null;
+  }
+
+  /* المصدر الوحيد لحالة الإظهار: مفتاح واحد بثلاث قيم، فقاعدة اللوحة
+     الواحدة مفروضة بنيويًا لا بالاتفاق. لا نقل تلقائي للتركيز عند الفتح،
+     ولا مصيدة تركيز. في التدفق الواسع اللوحتان مفتوحتان دائمًا. */
+  function applyDisclosure() {
+    var keys = ['nav', 'motion'];
+    for (var i = 0; i < keys.length; i += 1) {
+      var panel = panelFor(keys[i]);
+      var btn = buttonFor(keys[i]);
+      var open = state.floating ? (state.openPanel === keys[i]) : true;
+      if (panel) { panel.hidden = !open; }
+      if (btn) { btn.setAttribute('aria-expanded', open ? 'true' : 'false'); }
     }
-    if (state.reduced && el.more) { el.more.open = false; }
+    /* خطاف تنسيقي مشتق من مصدر الحالة نفسه، لا حالة ثانية ولا مزامنة. */
+    if (el.controls) {
+      if (state.floating && state.openPanel) {
+        el.controls.setAttribute('data-panel-open', state.openPanel);
+      } else {
+        el.controls.removeAttribute('data-panel-open');
+      }
+    }
+  }
+
+  /* إغلاق لوحة يعيد التركيز إلى زر disclosure الذي فتحها، وذلك فقط إذا كان
+     التركيز داخل اللوحة التي ستُخفى. وفتح لوحة يغلق الأخرى. */
+  function setOpenPanel(key) {
+    if (!state.floating) {
+      state.openPanel = null;
+      applyDisclosure();
+      return;
+    }
+    if (state.openPanel === key) { return; }
+    var leaving = state.openPanel;
+    var rescue = (leaving && focusedKey() === leaving) ? buttonFor(leaving) : null;
+    state.openPanel = key;
+    applyDisclosure();
+    if (rescue) { try { rescue.focus(); } catch (err) { reportSoft(err); } }
+  }
+
+  function onDisclosureClick(key) {
+    setOpenPanel(state.openPanel === key ? null : key);
+  }
+
+  function onControlsKeydown(evt) {
+    if (evt.key !== 'Escape' && evt.key !== 'Esc') { return; }
+    if (!state.floating || !state.openPanel) { return; }
+    setOpenPanel(null);
+  }
+
+  /* تغيّر الحاملة: لا تُخفى عقدة تحمل التركيز. عند الانتقال إلى العائم تبقى
+     لوحة التركيز مفتوحة فتحتفظ العقدة نفسها بتركيزها؛ وعند الانتقال إلى
+     التدفق يُنقل التركيز من الزر الذي سيُخفى إلى أقرب مكافئ منطقي داخل
+     لوحته قبل الإخفاء. نقل سلامة لا سرقة تركيز. */
+  function applyFloating(isFloating) {
+    var was = state.floating;
+    state.floating = !!isFloating;
+    if (state.floating === was) { applyDisclosure(); return; }
+    if (state.floating) {
+      state.openPanel = focusedKey();
+      applyDisclosure();
+      return;
+    }
+    var ref = activeOrLast();
+    var moveTo = null;
+    if (ref === el.fabNav) { moveTo = el.prev; }
+    else if (ref === el.fabMotion) { moveTo = el.play; }
+    state.openPanel = null;
+    applyDisclosure();
+    if (moveTo) { try { moveTo.focus(); } catch (err) { reportSoft(err); } }
   }
 
   function alignFirstMount() {
@@ -803,8 +904,7 @@
 
   function statusLine(extra) {
     var base = 'الصفحة ' + state.current + ' من ' + state.pages.length;
-    if (!state.reduced) { base += ' — السرعة ' + state.speed + '×'; }
-    else { base += ' — وضع تقليل الحركة'; }
+    if (state.reduced) { base += ' — وضع تقليل الحركة: الحركة متاحة بالطلب'; }
     if (state.mode === 'static') { base += ' — الدرس الكامل'; }
     return extra ? base + ' — ' + extra : base;
   }
@@ -814,21 +914,28 @@
     if (el.prev) { el.prev.disabled = state.current <= 1; }
     if (el.next) { el.next.disabled = state.current >= state.pages.length; }
     if (el.jump) { el.jump.value = String(state.current); }
+    var canAnimate = interactive && state.mounted && !!activePlan;
     if (el.slower) { el.slower.disabled = state.speed <= SPEED_MIN; }
     if (el.faster) { el.faster.disabled = state.speed >= SPEED_MAX; }
+    if (el.speed) { el.speed.textContent = state.speed + '×'; }
     if (el.play) {
-      el.play.textContent = state.paused ? 'استئناف العرض' : 'إيقاف مؤقت';
-      el.play.disabled = !interactive || (!state.running && !state.paused);
+      /* اسم الفعل التالي لا وصف الحالة الحالية. */
+      el.play.textContent = state.paused
+        ? 'متابعة العرض'
+        : (state.running ? 'إيقاف مؤقت' : 'تشغيل العرض');
+      el.play.disabled = !canAnimate;
     }
-    if (el.replay) { el.replay.disabled = !interactive; }
-    if (el.skip) { el.skip.disabled = !interactive; }
+    if (el.replay) { el.replay.disabled = !canAnimate; }
+    if (el.skip) { el.skip.disabled = !canAnimate; }
     if (el.pen) {
       el.pen.disabled = !interactive;
       el.pen.setAttribute('aria-pressed', state.penEnabled ? 'true' : 'false');
       el.pen.textContent = state.penEnabled ? 'إخفاء القلم' : 'إظهار القلم';
     }
     if (el.mode) {
-      el.mode.textContent = interactive ? 'عرض الدرس كاملًا' : 'العودة إلى العارض';
+      el.mode.textContent = interactive
+        ? 'عرض الدرس كاملًا'
+        : 'العودة إلى العارض التفاعلي';
     }
   }
 
@@ -873,6 +980,7 @@
       root.setAttribute('focusable', 'false');
 
       el.stage.appendChild(root);
+      activeRoot = root;
       state.mounted = true;
       applyViewMode();
       alignFirstMount();
@@ -887,8 +995,12 @@
         return;
       }
 
+      activePlan = plan;
+
       if (state.reduced || state.mode !== 'interactive' || !autoplay) {
-        setStatus(statusLine(state.reduced ? 'الحركة معطلة' : 'جاهزة'));
+        setStatus(statusLine(state.reduced
+          ? 'الصفحة كاملة — اضغط تشغيل العرض'
+          : 'جاهزة'));
         updateButtons();
         return;
       }
@@ -948,7 +1060,6 @@
     if (!state.running || state.paused) { return; }
     state.paused = true;
     clearAllTimers();
-    hidePen();
     updateButtons();
     setStatus(statusLine('موقوف مؤقتًا'));
   }
@@ -968,8 +1079,32 @@
     updateButtons();
   }
 
+  /* تشغيل العرض يبدأ الحركة من الحالة الجاهزة على النسخة inline المركّبة
+     نفسها: لا جلب جديد، ولا نسخة ثانية، ولا مسار autoplay إضافي. */
+  function startAnimation() {
+    if (state.mode !== 'interactive' || !state.mounted) { return; }
+    if (!activeRoot || !activePlan) { return; }
+    var gen = cancelEverything();
+    if (activeSaved) {
+      restoreAll(activeSaved);
+      activeSaved = null;
+    }
+    hidePen();
+    ensurePen(activeRoot);
+    activeSaved = hideForAnimation(activePlan);
+    setStatus(statusLine('جارٍ العرض'));
+    runPlan(gen, activeRoot, activePlan, activeSaved, function () {
+      if (isStale(gen)) { return; }
+      setStatus(statusLine('اكتمل العرض'));
+      updateButtons();
+    });
+    updateButtons();
+  }
+
   function onPlayPause() {
-    if (state.paused) { resumeAnimation(); } else { pauseAnimation(); }
+    if (state.paused) { resumeAnimation(); return; }
+    if (state.running) { pauseAnimation(); return; }
+    startAnimation();
   }
 
   function setMode(next) {
@@ -999,6 +1134,7 @@
     if (!el.jump) { return; }
     var n = parseInt(el.jump.value, 10);
     if (isNaN(n) || n === state.current) { return; }
+    if (state.floating && state.openPanel === 'nav') { setOpenPanel(null); }
     goTo(n, false);
   }
 
@@ -1014,8 +1150,12 @@
     setStatus(statusLine('عُرضت الصفحة كاملة'));
   }
 
+  /* إعادة التشغيل فعل صريح من المستخدم، فتعمل في تقليل الحركة أيضًا.
+     ترفع الجيل وتلغي العمل السابق عبر startAnimation، ولا تعيد الجلب إلا
+     إذا لم تكن هناك نسخة مركّبة صالحة. */
   function onReplay() {
-    if (state.reduced || state.mode !== 'interactive') { return; }
+    if (state.mode !== 'interactive') { return; }
+    if (state.mounted && activeRoot && activePlan) { startAnimation(); return; }
     if (activeSaved) {
       restoreAll(activeSaved);
       activeSaved = null;
@@ -1029,7 +1169,6 @@
     if (next > SPEED_MAX) { next = SPEED_MAX; }
     state.speed = next;
     updateButtons();
-    setStatus(statusLine());
   }
 
   function togglePen() {
@@ -1037,7 +1176,6 @@
     if (!state.penEnabled) { destroyPen(); }
     else if (el.stage && el.stage.firstChild) { ensurePen(el.stage.firstChild); }
     updateButtons();
-    setStatus(statusLine(state.penEnabled ? 'القلم ظاهر' : 'القلم مخفي'));
   }
 
   function onHistoryNav() {
@@ -1060,11 +1198,10 @@
         activeSaved = null;
       }
     }
-    applyMotionUi();
     updateButtons();
     setStatus(statusLine(state.reduced
-      ? 'الحركة معطلة'
-      : 'الحركة متاحة — استخدم إعادة التشغيل'));
+      ? 'أُلغيت الحركة والمحتوى كامل'
+      : 'الحركة متاحة — اضغط تشغيل العرض'));
   }
 
   /* ---------- التهيئة ---------- */
@@ -1091,17 +1228,21 @@
       el.jump = controls.querySelector('[data-viewer-jump]');
       el.play = controls.querySelector('[data-viewer-play]');
       el.mode = controls.querySelector('[data-viewer-mode]');
-      el.more = controls.querySelector('[data-viewer-more]');
       el.replay = controls.querySelector('[data-viewer-replay]');
       el.skip = controls.querySelector('[data-viewer-skip]');
       el.slower = controls.querySelector('[data-viewer-slower]');
       el.faster = controls.querySelector('[data-viewer-faster]');
+      el.speed = controls.querySelector('[data-viewer-speed]');
       el.pen = controls.querySelector('[data-viewer-pen]');
-      el.motion = controls.querySelectorAll('[data-viewer-motion]');
+      el.panelNav = controls.querySelector('[data-viewer-panel="nav"]');
+      el.panelMotion = controls.querySelector('[data-viewer-panel="motion"]');
+      el.fabNav = controls.querySelector('[data-viewer-disclosure="nav"]');
+      el.fabMotion = controls.querySelector('[data-viewer-disclosure="motion"]');
 
       if (!el.status || !el.prev || !el.next || !el.jump || !el.play ||
-          !el.mode || !el.more || !el.replay || !el.skip || !el.slower ||
-          !el.faster || !el.pen) {
+          !el.mode || !el.replay || !el.skip || !el.slower || !el.faster ||
+          !el.speed || !el.pen || !el.panelNav || !el.panelMotion ||
+          !el.fabNav || !el.fabMotion) {
         return;
       }
 
@@ -1116,6 +1257,7 @@
       var notice = document.createElement('p');
       notice.className = 'lesson-notice';
       notice.hidden = true;
+      notice.tabIndex = -1;
       controls.parentNode.insertBefore(notice, stage);
       el.notice = notice;
 
@@ -1146,6 +1288,10 @@
       el.slower.addEventListener('click', function () { changeSpeed(-SPEED_STEP); });
       el.faster.addEventListener('click', function () { changeSpeed(SPEED_STEP); });
       el.pen.addEventListener('click', togglePen);
+      el.fabNav.addEventListener('click', function () { onDisclosureClick('nav'); });
+      el.fabMotion.addEventListener('click', function () { onDisclosureClick('motion'); });
+      controls.addEventListener('keydown', onControlsKeydown);
+      controls.addEventListener('focusin', function (evt) { state.lastFocus = evt.target; });
       window.addEventListener('popstate', onHistoryNav);
       window.addEventListener('hashchange', onHistoryNav);
 
@@ -1153,6 +1299,16 @@
         var onMq = function (evt) { applyReduced(evt.matches); };
         if (typeof mq.addEventListener === 'function') { mq.addEventListener('change', onMq); }
         else if (typeof mq.addListener === 'function') { mq.addListener(onMq); }
+      }
+
+      /* نقطة الكسر نفسها المدوّنة في CSS. مستمع واحد ومصدر حالة واحد. */
+      var fq = null;
+      if (window.matchMedia) {
+        fq = window.matchMedia('(max-width: 799px)');
+        state.floating = !!fq.matches;
+        var onFq = function (evt) { applyFloating(evt.matches); };
+        if (typeof fq.addEventListener === 'function') { fq.addEventListener('change', onFq); }
+        else if (typeof fq.addListener === 'function') { fq.addListener(onFq); }
       }
 
       var start = 1;
@@ -1171,7 +1327,7 @@
       state.current = start;
       state.alignOnFirstMount = hasFragment;
       setFragment(start, true);
-      applyMotionUi();
+      applyDisclosure();
       applyViewMode();
       updateButtons();
       markActive();
