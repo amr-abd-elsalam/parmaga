@@ -868,8 +868,35 @@ summary:focus-visible {
     display: block;
   }
 
-  .page-lesson .lesson-page {
+  /* 6.2R عقد الطباعة: ورقة واحدة لكل أصل درس، 22 ورقة بلا زيادة.
+     الترانسكربت وترويسة الدرس وتذييله مستبعدة في الطباعة وحدها. */
+  .page-lesson .lesson-head,
+  .page-lesson .lesson-foot,
+  .page-lesson .lesson-transcript {
+    display: none;
+  }
+
+  .page-lesson .lesson-page,
+  .page-lesson .lesson-pages[data-viewer-active] .lesson-page[data-current] {
+    margin-bottom: var(--pg-space-0);
     page-break-inside: avoid;
+    break-inside: avoid;
+    page-break-after: always;
+    break-after: page;
+  }
+
+  .page-lesson .lesson-page:last-child,
+  .page-lesson .lesson-pages[data-viewer-active] .lesson-page[data-current]:last-child {
+    page-break-after: auto;
+    break-after: auto;
+  }
+
+  .page-lesson .lesson-page-image,
+  .page-lesson .lesson-pages[data-viewer-active] .lesson-page[data-current] .lesson-page-image {
+    width: auto;
+    max-width: var(--pg-size-full);
+    height: auto;
+    max-height: 8.4in;
   }
 
   .hero {
