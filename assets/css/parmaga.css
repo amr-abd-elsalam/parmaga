@@ -71,6 +71,8 @@
   --pg-focus-offset: 3px;
   --pg-rule-cycle: var(--pg-space-9);
   --pg-touch-target: 44px;
+  --pg-float-gap: 8px;
+  --pg-float-inset: 12px;
   --pg-content-width: 1200px;
   --pg-error-content-width: 620px;
   --pg-size-full: 100%;
@@ -475,27 +477,37 @@ summary:focus-visible {
 
 .lesson-viewer-controls {
   margin-bottom: var(--pg-space-6);
-  padding: var(--pg-space-4);
-  border: var(--pg-border-width) solid var(--pg-rule);
-  background-color: var(--pg-paper-2);
 }
 
-/* Mobile-first hierarchy: الصف الأساسي أربعة عناصر ظاهرة كحد أقصى —
-   السابق، اختيار الصفحة، التالي، التشغيل/الإيقاف. أدوات الحركة الخمس
-   خلف disclosure واحد، والتبديل إلى الدرس الكامل خارج الصف الأساسي. */
-.viewer-primary {
-  display: flex;
+/* ADR-0010 §7: عقدة DOM واحدة لكل أداة داخل لوحتها، بلا نسخة للهاتف
+   وأخرى للشاشات الواسعة. responsive يغيّر الحاملة والتوزيع والكثافة.
+   إظهار اللوحة محكوم بسمة hidden الأصلية، فيُشرَط :not([hidden]) على كل
+   إعلان display حتى لا يتغلب التنسيق على السمة أو على كتلة الطباعة. */
+.viewer-panel {
   flex-wrap: wrap;
   align-items: center;
-  gap: var(--pg-space-2);
+  gap: var(--pg-float-gap);
 }
 
-.viewer-secondary {
+.viewer-panel:not([hidden]) {
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: var(--pg-space-2);
-  margin-top: var(--pg-space-3);
+}
+
+.viewer-bar {
+  display: flex;
+  gap: var(--pg-float-gap);
+}
+
+/* الأساس هو التدفق: لو تعذّرت نقطة الكسر يبقى التحكم كاملًا قابلًا للاستخدام. */
+.viewer-fab {
+  display: none;
+}
+
+.viewer-speed {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--pg-touch-target);
+  color: var(--pg-navy-700);
 }
 
 .viewer-jump {
@@ -551,30 +563,145 @@ summary:focus-visible {
   border-style: dashed;
 }
 
-.viewer-more {
-  flex: 1 1 100%;
-  min-width: 0;
-  border: var(--pg-border-width) solid var(--pg-rule);
-  background-color: var(--pg-paper);
-}
-
-.viewer-more > summary {
-  min-height: var(--pg-touch-target);
-  padding: var(--pg-space-3) var(--pg-space-4);
-  color: var(--pg-navy-700);
-  cursor: pointer;
-}
-
-.viewer-more-body {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--pg-space-2);
-  padding: var(--pg-space-0) var(--pg-space-4) var(--pg-space-4);
-}
-
 .viewer-status {
   margin: var(--pg-space-3) var(--pg-space-0) var(--pg-space-0);
   color: var(--pg-slate-600);
+}
+
+/* الشاشات الواسعة: التحكم داخل التدفق لا عائمًا، واللوحتان مفتوحتان،
+   وزرا disclosure غائبان. لا يُفرض العائم حيث لا حاجة إليه. */
+@media screen and (min-width: 800px) {
+  .lesson-viewer-controls:not([hidden]) {
+    display: flex;
+    flex-direction: column;
+    gap: var(--pg-space-3);
+    padding: var(--pg-space-4);
+    border: var(--pg-border-width) solid var(--pg-rule);
+    background-color: var(--pg-paper-2);
+  }
+
+  #viewer-panel-nav {
+    order: 1;
+  }
+
+  #viewer-panel-motion {
+    order: 2;
+  }
+
+  .viewer-status {
+    order: 3;
+  }
+}
+
+/* ADR-0009 §2: على الشاشات الصغيرة تصبح كتلة التحكم طبقة سفلية مرتبة
+   رأسيًا: سطر الحالة أعلى — فلا تحجبه لوحة مفتوحة لأنه خارجهما وفوقهما —
+   ثم اللوحة الواحدة المفتوحة، ثم زران دائريان لا ثالث لهما.
+   القيد screen يمنع أي تنازع مع كتلة @media print القائمة. */
+@media screen and (max-width: 799px) {
+  .page-lesson .lesson-viewer-controls:not([hidden]) {
+    position: fixed;
+    inset-inline: var(--pg-float-inset);
+    bottom: calc(var(--pg-float-inset) + env(safe-area-inset-bottom, 0px));
+    z-index: 30;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--pg-float-gap);
+    margin: var(--pg-space-0);
+    padding: var(--pg-space-0);
+    border: 0;
+    background: none;
+    pointer-events: none;
+  }
+
+  /* سطر الحالة لا يحجب المسرح: يُخفى بصريًا بـclip وحده ويبقى حاضرًا في
+     شجرة الوصولية دائمًا، فلا يتوقف role="status" عن إعلان تغيّر الصفحة
+     والفشل ووضع تقليل الحركة. hidden أو display:none يُسكت المنطقة الحيّة
+     فهما ممنوعان هنا. ويظهر بصريًا عند فتح لوحة، فوقها لا تحتها. */
+  .page-lesson .viewer-status {
+    order: 1;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: var(--pg-space-0);
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  .page-lesson .lesson-viewer-controls[data-panel-open] .viewer-status {
+    position: static;
+    width: auto;
+    height: auto;
+    max-width: var(--pg-size-full);
+    margin: var(--pg-space-0);
+    padding: var(--pg-space-2) var(--pg-space-3);
+    overflow: visible;
+    clip-path: none;
+    white-space: normal;
+    border: var(--pg-border-width) solid var(--pg-rule);
+    background-color: var(--pg-paper);
+    pointer-events: none;
+  }
+
+  .page-lesson .viewer-panel {
+    order: 2;
+    width: var(--pg-size-full);
+    max-height: 50vh;
+    max-height: 50dvh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding: var(--pg-space-3);
+    border: var(--pg-border-width-strong) solid var(--pg-navy-700);
+    background-color: var(--pg-paper);
+    box-shadow: var(--pg-shadow-panel);
+    pointer-events: auto;
+  }
+
+  .page-lesson .viewer-panel .viewer-btn,
+  .page-lesson .viewer-panel .viewer-select {
+    flex: 1 1 auto;
+  }
+
+  .page-lesson .viewer-bar {
+    order: 3;
+    pointer-events: auto;
+  }
+
+  .page-lesson .viewer-fab {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--pg-touch-target);
+    height: var(--pg-touch-target);
+    min-height: var(--pg-touch-target);
+    padding: var(--pg-space-0);
+    border: var(--pg-border-width-strong) solid var(--pg-navy-700);
+    border-radius: 50%;
+    background-color: var(--pg-paper);
+    color: var(--pg-navy-700);
+    font-family: var(--pg-font-family-base);
+    cursor: pointer;
+  }
+
+  /* لا حالة تعتمد على اللون وحده: نمط الحدّ يتغير مع التعبئة. */
+  .page-lesson .viewer-fab[aria-expanded="true"] {
+    border-style: double;
+    background-color: var(--pg-navy-700);
+    color: var(--pg-paper);
+  }
+
+  .page-lesson .viewer-fab-text {
+    font-size: 0.75rem;
+    line-height: 1;
+  }
+
+  /* فراغ سفلي يمنع الطبقة العائمة من حجب آخر سطر قابل للقراءة. */
+  .page-lesson main {
+    padding-bottom: calc(120px + env(safe-area-inset-bottom, 0px));
+  }
 }
 
 .lesson-notice {
@@ -675,16 +802,9 @@ summary:focus-visible {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .page-lesson .lesson-pen {
-    display: none;
-  }
-
-  /* لا أدوات حركة معطّلة ميتة: تُخفى المجموعة كاملة، وتبقى أدوات
-     السابق والتالي والقفز والتبديل عاملة. */
-  .page-lesson [data-viewer-motion] {
-    display: none;
-  }
-
+  /* ADR-0009 §4: أدوات الحركة تبقى ظاهرة وعاملة، والمنع يقع على كل ما
+     يبدأ تلقائيًا. لا يُنشأ القلم إلا داخل تشغيل طلبه المستخدم صراحة،
+     فلا حاجة إلى إخفائه بالتنسيق ولا إلى إخفاء أي أداة. */
   .page-lesson * {
     animation: none !important;
     transition: none !important;
@@ -748,8 +868,35 @@ summary:focus-visible {
     display: block;
   }
 
-  .page-lesson .lesson-page {
+  /* 6.2R عقد الطباعة: ورقة واحدة لكل أصل درس، 22 ورقة بلا زيادة.
+     الترانسكربت وترويسة الدرس وتذييله مستبعدة في الطباعة وحدها. */
+  .page-lesson .lesson-head,
+  .page-lesson .lesson-foot,
+  .page-lesson .lesson-transcript {
+    display: none;
+  }
+
+  .page-lesson .lesson-page,
+  .page-lesson .lesson-pages[data-viewer-active] .lesson-page[data-current] {
+    margin-bottom: var(--pg-space-0);
     page-break-inside: avoid;
+    break-inside: avoid;
+    page-break-after: always;
+    break-after: page;
+  }
+
+  .page-lesson .lesson-page:last-child,
+  .page-lesson .lesson-pages[data-viewer-active] .lesson-page[data-current]:last-child {
+    page-break-after: auto;
+    break-after: auto;
+  }
+
+  .page-lesson .lesson-page-image,
+  .page-lesson .lesson-pages[data-viewer-active] .lesson-page[data-current] .lesson-page-image {
+    width: auto;
+    max-width: var(--pg-size-full);
+    height: auto;
+    max-height: 8.4in;
   }
 
   .hero {
