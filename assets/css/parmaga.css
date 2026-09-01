@@ -838,6 +838,12 @@ summary:focus-visible {
     color: var(--pg-slate-600);
   }
 
+  /* ADR-0011: هامش الصفحة عقد لا صدفة. */
+  @page {
+    margin: 10mm;
+  }
+
+
   .page-home main,
   .page-not-found main {
     width: var(--pg-size-full);
@@ -860,6 +866,13 @@ summary:focus-visible {
   .page-lesson .lesson-notice,
   .page-lesson .lesson-pen {
     display: none;
+  }
+
+  /* ADR-0011: ترويسة الطباعة صندوق حتمي — 24px كروم رأسي كلي. */
+  .page-lesson .lesson-page h2 {
+    margin: 0 0 6px;
+    font-size: 12px;
+    line-height: 18px;
   }
 
   /* الطباعة تتجاوز طيّ العارض دائمًا: الصفحات الـ22 وصورها كاملة. */
@@ -896,7 +909,7 @@ summary:focus-visible {
     width: auto;
     max-width: var(--pg-size-full);
     height: auto;
-    max-height: 8.4in;
+    margin: 0;
   }
 
   .hero {
