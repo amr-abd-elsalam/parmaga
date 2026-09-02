@@ -19,27 +19,27 @@
 
 <div class="lesson-viewer-controls" data-viewer-controls hidden>
 <p class="viewer-status" data-viewer-status role="status">جارٍ التحضير…</p>
-<div class="viewer-panel" id="viewer-panel-nav" data-viewer-panel="nav">
+<div class="viewer-panel" id="viewer-panel-nav" data-viewer-panel="nav" hidden>
 <button type="button" class="viewer-btn" data-viewer-prev>الصفحة السابقة</button>
 <span class="viewer-jump">
 <label class="viewer-jump-label" for="viewer-page-select">الصفحة</label>
 <select id="viewer-page-select" class="viewer-select" data-viewer-jump></select>
 </span>
 <button type="button" class="viewer-btn" data-viewer-next>الصفحة التالية</button>
-<button type="button" class="viewer-btn" data-viewer-mode>عرض الدرس كاملًا</button>
+<button type="button" class="viewer-btn" data-viewer-mode>العرض التفاعلي لهذه الصفحة</button>
 </div>
-<div class="viewer-panel" id="viewer-panel-motion" data-viewer-panel="motion">
+<div class="viewer-panel" id="viewer-panel-motion" data-viewer-panel="motion" hidden>
 <button type="button" class="viewer-btn" data-viewer-play>تشغيل العرض</button>
 <button type="button" class="viewer-btn" data-viewer-replay>إعادة التشغيل</button>
 <button type="button" class="viewer-btn" data-viewer-skip>إظهار الصفحة كاملة</button>
 <button type="button" class="viewer-btn" data-viewer-slower>إبطاء</button>
 <span class="viewer-speed">السرعة <span data-viewer-speed>1×</span></span>
 <button type="button" class="viewer-btn" data-viewer-faster>تسريع</button>
-<button type="button" class="viewer-btn" data-viewer-pen aria-pressed="true">إخفاء القلم</button>
+<button type="button" class="viewer-btn" data-viewer-pen>إخفاء القلم</button>
 </div>
 <div class="viewer-bar">
 <button type="button" class="viewer-fab" data-viewer-disclosure="nav" aria-expanded="false" aria-controls="viewer-panel-nav" aria-label="التنقل بين الصفحات"><span class="viewer-fab-text">صفحات</span></button>
-<button type="button" class="viewer-fab" data-viewer-disclosure="motion" aria-expanded="false" aria-controls="viewer-panel-motion" aria-label="أدوات محاكاة الكتابة"><span class="viewer-fab-text">كتابة</span></button>
+<button type="button" class="viewer-fab" data-viewer-disclosure="motion" aria-expanded="false" aria-controls="viewer-panel-motion" aria-label="أدوات محاكاة الكتابة" hidden><span class="viewer-fab-text">كتابة</span></button>
 </div>
 </div>
 

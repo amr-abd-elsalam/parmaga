@@ -62,10 +62,40 @@
     path: 1, rect: 1, line: 1, circle: 1, ellipse: 1, polygon: 1, polyline: 1
   };
 
-  /* حدود السرعة */
-  var SPEED_MIN = 0.5;
-  var SPEED_MAX = 4;
-  var SPEED_STEP = 0.5;
+  /* ADR-0012 §10: قائمة سرعات مغلقة مرتبة، لا مدى مستمر ولا أداة سحب.
+     البداية عند 1× وهي العنصر رقم 3 في القائمة. */
+  var SPEEDS = [0.25, 0.5, 0.75, 1, 1.5, 2, 3, 4];
+  var SPEED_START_INDEX = 3;
+
+  /* ADR-0012 §8: مهلة الخمول الوحيدة. تطوي اللوحة المفتوحة وحدها. */
+  var PANEL_IDLE_MS = 8000;
+
+  /* ADR-0012 §11 + الانحراف D3: قلم واحد واقعي بدل ثلاثة أشكال رمزية.
+     الهندسة محلية بالكامل — أضلاع ومستطيلات مكتوبة هنا، لا dependency ولا
+     CDN ولا أصل مجلوب ولا خط أيقونات ولا صورة. القلم معرّف حول سنّه: السنّ
+     في نقطة الأصل والجسم يمتد إلى -y بطول اسمي معلوم، فيكفي translate
+     واحد للسنّ وrotate واحد لاتجاه الكتابة وscale واحد للطول. */
+  var PEN_PARTS = [
+    { tag: 'polygon', cls: 'nib', attrs: { points: '0,0 -3.1,-13 3.1,-13' } },
+    { tag: 'polygon', cls: 'tip', attrs: { points: '-3.1,-13 3.1,-13 4.2,-21 -4.2,-21' } },
+    { tag: 'rect', cls: 'collar', attrs: { x: '-4.6', y: '-25', width: '9.2', height: '4.4' } },
+    { tag: 'polygon', cls: 'body', attrs: { points: '-4.6,-25 4.6,-25 5.4,-92 -5.4,-92' } },
+    { tag: 'rect', cls: 'grip', attrs: { x: '-4.8', y: '-40', width: '9.6', height: '11', rx: '1.5' } },
+    { tag: 'rect', cls: 'gloss', attrs: { x: '-2.6', y: '-88', width: '2.3', height: '58' } },
+    { tag: 'rect', cls: 'cap', attrs: { x: '-5.4', y: '-101', width: '10.8', height: '9.6', rx: '3' } }
+  ];
+  var PEN_NOMINAL_LEN = 101;     /* طول الهندسة الاسمية بوحدات القلم */
+  var PEN_TILT_DEG = 36;         /* ميل القلم عن العمود كما تحمله يد بشرية */
+  /* الهندسة ممتدة إلى -y أي إلى أعلى، والجسم يجب أن يمتد إلى أسفل السطر
+     الجاري: ما فوقه مكتوب ومقروء فلا يُحجب، وما تحته لم يُكشف بعد فلا يضيع
+     شيء بحجبه. و180 − الميل تقلب الامتداد رأسيًا وتُبقي الانحناء نحو جهة
+     السير كما هو: نحو اليسار في العربية ونحو اليمين في الإنجليزية. */
+  var PEN_ANGLE_BASE = 180 - PEN_TILT_DEG;
+  var PEN_TILT_WOBBLE = 1.6;     /* تمايل طبيعي صغير حول الميل، بالدرجات */
+  var PEN_LEN_PER_LINE = 4.2;    /* الطول نسبة إلى ارتفاع السطر المكتوب */
+  var PEN_LEN_MIN_RATIO = 0.055; /* حدّ أدنى نسبة إلى ارتفاع viewBox */
+  var PEN_LEN_MAX_RATIO = 0.150; /* حدّ أعلى نسبة إلى ارتفاع viewBox */
+  var PEN_BASELINE_RATIO = 0.80; /* موضع السنّ من ارتفاع صندوق السطر */
 
   /* توقيتات أساسية بالمللي ثانية عند سرعة 1 */
   var BASE_CHAR_MS = 26;
@@ -91,17 +121,22 @@
     controller: null,
     pages: [],
     current: 1,
-    speed: 1,
-    penEnabled: true,
+    speedIndex: SPEED_START_INDEX,
+    speed: SPEEDS[SPEED_START_INDEX],
+    /* إظهار القلم اختيار جلسة واحدة في ذاكرة الصفحة: لا Storage ولا URL. */
+    penVisible: true,
     reduced: false,
     ready: false,
     running: false,
     paused: false,
     resume: null,
-    mode: 'interactive',
+    /* ADR-0012 §12: مصدر الحقيقة الوحيد للوضع هو phase بحالاته الخمس.
+       وmode مشتق منه لا مستقل عنه: 'static' في FULL و'interactive' فيما
+       سواه، ولا يُكتب إلا في setPhase. فلا مصدر حالة ثانٍ ولا مزامنة. */
+    phase: 'FULL',
+    mode: 'static',
     mounted: false,
     alignOnFirstMount: false,
-    floating: false,
     openPanel: null,
     lastFocus: null,
     stage: null,
@@ -600,34 +635,86 @@
 
   /* ---------- مؤشر القلم ---------- */
 
+  /* ADR-0012 §11: لا يُنشأ القلم قبل تشغيل صريح — فلا وجود له في FULL ولا
+     بعد الدخول التفاعلي وحده. وإن أخفاه المستخدم لا يُنشأ أصلًا. */
   function ensurePen(root) {
-    if (!state.penEnabled) { return null; }
+    if (!root || !state.penVisible) { return null; }
     if (state.pen && state.pen.ownerSVGElement === root) { return state.pen; }
-    var dot = document.createElementNS(SVG_NS, 'circle');
-    dot.setAttribute('r', '7');
-    dot.setAttribute('class', 'lesson-pen');
-    dot.setAttribute('aria-hidden', 'true');
-    dot.setAttribute('focusable', 'false');
-    dot.setAttribute('visibility', 'hidden');
-    root.appendChild(dot);
-    state.pen = dot;
-    return dot;
+    destroyPen();
+    var g = document.createElementNS(SVG_NS, 'g');
+    g.setAttribute('class', 'lesson-pen');
+    g.setAttribute('aria-hidden', 'true');
+    g.setAttribute('focusable', 'false');
+    g.setAttribute('visibility', 'hidden');
+    for (var i = 0; i < PEN_PARTS.length; i += 1) {
+      var spec = PEN_PARTS[i];
+      var part = document.createElementNS(SVG_NS, spec.tag);
+      var names = Object.keys(spec.attrs);
+      for (var j = 0; j < names.length; j += 1) {
+        part.setAttribute(names[j], spec.attrs[names[j]]);
+      }
+      part.setAttribute('class', 'lesson-pen-' + spec.cls);
+      g.appendChild(part);
+    }
+    root.appendChild(g);
+    state.pen = g;
+    return g;
   }
 
-  function movePen(node) {
-    if (!state.penEnabled || !state.pen) { return; }
-    var box = safeBBox(node);
-    if (!box) { return; }
-    var isRtl = false;
+  /* اتجاه الكتابة يُقرأ من سمة direction إن وُجدت، وإلا من النص نفسه:
+     محارف عربية ⇒ من اليمين إلى اليسار. فالعربية والإنجليزية سواء بلا
+     إعداد ولا سمة إضافية في الأصل ولا اكتشاف لغة الواجهة. */
+  function hasRtlChars(text) {
+    if (!text) { return false; }
+    for (var i = 0; i < text.length; i += 1) {
+      var c = text.charCodeAt(i);
+      if ((c >= 0x0590 && c <= 0x08FF) || (c >= 0xFB1D && c <= 0xFEFC)) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  function writesRtl(node) {
     var probe = node.nodeType === 3 ? node.parentNode : node;
     while (probe && probe.nodeType === 1) {
       var d = probe.getAttribute('direction');
-      if (d) { isRtl = d === 'rtl'; break; }
+      if (d) { return d === 'rtl'; }
       probe = probe.parentNode;
     }
-    var tipX = isRtl ? box.x : box.x + box.width;
-    state.pen.setAttribute('cx', String(tipX));
-    state.pen.setAttribute('cy', String(box.y + box.height * 0.72));
+    return hasRtlChars(node.textContent || node.nodeValue || '');
+  }
+
+  /* السنّ يلامس آخر حرف مكتوب، والجسم يميل نحو جهة السير فيبقى المكتوب
+     مكشوفًا للقارئ دائمًا: يسارًا في العربية ويمينًا في الإنجليزية. والطول
+     يتناسب مع ارتفاع السطر مقيّدًا بحدّي viewBox، ومع كل حرف تمايل صغير في
+     الميل والموضع فتُقرأ الحركة كيد لا كآلة. لا مؤقت جديد هنا: الدالة
+     مُستدعاة أصلًا عند كل عنقود. */
+  function movePen(node) {
+    if (!state.pen) { return; }
+    var box = safeBBox(node);
+    if (!box) { return; }
+    var rtl = writesRtl(node);
+    var dir = rtl ? -1 : 1;
+    var view = (activePlan && activePlan.view) ? activePlan.view : null;
+    var lineH = box.height > 0 ? box.height : (view ? view.height * 0.02 : 20);
+    var want = lineH * PEN_LEN_PER_LINE;
+    if (view) {
+      var lo = view.height * PEN_LEN_MIN_RATIO;
+      var hi = view.height * PEN_LEN_MAX_RATIO;
+      if (want < lo) { want = lo; }
+      if (want > hi) { want = hi; }
+    }
+    var k = want / PEN_NOMINAL_LEN;
+    var tipX = (rtl ? box.x : box.x + box.width) + dir * lineH * 0.04;
+    var tipY = box.y + box.height * PEN_BASELINE_RATIO;
+    var angle = dir * PEN_ANGLE_BASE + (Math.random() - 0.5) * 2 * PEN_TILT_WOBBLE;
+    tipX += (Math.random() - 0.5) * lineH * 0.03;
+    tipY += (Math.random() - 0.5) * lineH * 0.03;
+    state.pen.setAttribute('transform',
+      'translate(' + tipX.toFixed(2) + ',' + tipY.toFixed(2) + ') ' +
+      'rotate(' + angle.toFixed(2) + ') ' +
+      'scale(' + k.toFixed(4) + ')');
     state.pen.setAttribute('visibility', 'visible');
   }
 
@@ -771,6 +858,7 @@
                     el.controls.contains(document.activeElement));
     teardownStage();
     state.mounted = false;
+    setPhase('FULL');
     state.openPanel = null;
     if (el.stage) { el.stage.hidden = true; }
     if (el.list) { el.list.removeAttribute('data-viewer-active'); }
@@ -825,21 +913,66 @@
     return null;
   }
 
-  /* المصدر الوحيد لحالة الإظهار: مفتاح واحد بثلاث قيم، فقاعدة اللوحة
-     الواحدة مفروضة بنيويًا لا بالاتفاق. لا نقل تلقائي للتركيز عند الفتح،
-     ولا مصيدة تركيز. في التدفق الواسع اللوحتان مفتوحتان دائمًا. */
+  /* المصدر الوحيد لحالة الإظهار: مفتاح واحد بثلاث قيم — null ≡ NONE
+     و'nav' ≡ PAGES و'motion' ≡ WRITING بمصطلحات ADR-0012 §12 — فقاعدة
+     اللوحة الواحدة مفروضة بنيويًا لا بالاتفاق. لا نقل تلقائي للتركيز عند
+     الفتح، ولا مصيدة تركيز. والنموذج عائم على كل المقاسات بنص §4، فلا فرع
+     تدفق ولا عتبة عرض تبدّل معنى أداة ولا مستمعها ولا مصدر حقيقتها. */
+
+  /* ADR-0012 §8: مؤقت خمول واحد في كل الصفحة. مرجع وحيد على مستوى الوحدة،
+     خارج state.timers كي لا تمسّه مؤقتات الحركة ولا يمسّها. */
+  var panelTimer = null;
+
+  function clearPanelTimer() {
+    if (panelTimer !== null) {
+      window.clearTimeout(panelTimer);
+      panelTimer = null;
+    }
+  }
+
+  /* كل استدعاء يلغي القائم قبل جدولة بديله، ولا يجدول شيئًا إن لم تكن لوحة
+     مفتوحة. فلا مؤقت ثانٍ ولا مؤقت لكل لوحة. */
+  function armPanelTimer() {
+    clearPanelTimer();
+    if (!state.openPanel) { return; }
+    panelTimer = window.setTimeout(function () {
+      panelTimer = null;
+      if (!state.openPanel) { return; }
+      /* الطيّ وحده: لا يوقف محاكاة، ولا يغيّر صفحة، ولا يغيّر وضعًا، ولا
+         يمسّ السرعة ولا شكل القلم. */
+      setOpenPanel(null);
+    }, PANEL_IDLE_MS);
+  }
+
+  /* ADR-0012 §5: في FULL يظهر زر «صفحات» وحده. وزر «كتابة» hidden بمعناه
+     الدلالي الكامل: لا يبلغه Tab ولا يقع فيه تركيز برمجي. و§9: إن كان
+     التركيز عليه أو داخل لوحته عند الانتقال، يُنقل إلى زر «صفحات» قبل
+     الإخفاء، فلا يضيع إلى body. */
+  function applyButtonVisibility() {
+    var full = (state.phase === 'FULL');
+    if (full && el.fabMotion) {
+      var node = activeOrLast();
+      var onWriting = (node === el.fabMotion) ||
+        !!(el.panelMotion && node && el.panelMotion.contains(node));
+      if (onWriting && el.fabNav) {
+        try { el.fabNav.focus(); } catch (err) { reportSoft(err); }
+      }
+    }
+    if (el.fabMotion) { el.fabMotion.hidden = full; }
+  }
+
   function applyDisclosure() {
     var keys = ['nav', 'motion'];
     for (var i = 0; i < keys.length; i += 1) {
       var panel = panelFor(keys[i]);
       var btn = buttonFor(keys[i]);
-      var open = state.floating ? (state.openPanel === keys[i]) : true;
+      var open = (state.openPanel === keys[i]);
       if (panel) { panel.hidden = !open; }
       if (btn) { btn.setAttribute('aria-expanded', open ? 'true' : 'false'); }
     }
     /* خطاف تنسيقي مشتق من مصدر الحالة نفسه، لا حالة ثانية ولا مزامنة. */
     if (el.controls) {
-      if (state.floating && state.openPanel) {
+      if (state.openPanel) {
         el.controls.setAttribute('data-panel-open', state.openPanel);
       } else {
         el.controls.removeAttribute('data-panel-open');
@@ -847,52 +980,49 @@
     }
   }
 
-  /* إغلاق لوحة يعيد التركيز إلى زر disclosure الذي فتحها، وذلك فقط إذا كان
-     التركيز داخل اللوحة التي ستُخفى. وفتح لوحة يغلق الأخرى. */
+  /* المسار الوحيد لفتح لوحة وإغلاقها بنص §7. وإغلاق لوحة يعيد التركيز إلى
+     زر disclosure الذي فتحها إذا كان التركيز داخل اللوحة التي ستُخفى. */
   function setOpenPanel(key) {
-    if (!state.floating) {
-      state.openPanel = null;
-      applyDisclosure();
-      return;
-    }
-    if (state.openPanel === key) { return; }
+    if (key !== 'nav' && key !== 'motion') { key = null; }
+    /* §12: FULL يسمح بحالة لوحة NONE أو PAGES فقط. */
+    if (key === 'motion' && state.phase === 'FULL') { key = null; }
+    if (state.openPanel === key) { armPanelTimer(); return; }
     var leaving = state.openPanel;
     var rescue = (leaving && focusedKey() === leaving) ? buttonFor(leaving) : null;
     state.openPanel = key;
     applyDisclosure();
-    if (rescue) { try { rescue.focus(); } catch (err) { reportSoft(err); } }
+    if (rescue && !rescue.hidden) {
+      try { rescue.focus(); } catch (err) { reportSoft(err); }
+    }
+    armPanelTimer();
   }
 
   function onDisclosureClick(key) {
     setOpenPanel(state.openPanel === key ? null : key);
   }
 
-  function onControlsKeydown(evt) {
-    if (evt.key !== 'Escape' && evt.key !== 'Esc') { return; }
-    if (!state.floating || !state.openPanel) { return; }
+  /* الانحراف D4: النقر خارج الطبقة العائمة يطوي اللوحة المفتوحة، فلا يبقى
+     الطيّ رهنًا بالضغط على الزر نفسه ثانيةً ولا بانتظار مهلة الخمول. الطيّ
+     وحده: لا يفتح لوحة، ولا يوقف محاكاة، ولا يغيّر صفحة ولا وضعًا ولا سرعة.
+     والنقر داخل الأدوات يُهمَل هنا فلا يزاحم مبدّلات disclosure ولا يلغي
+     أثرها. وإن كان التركيز داخل اللوحة المنطوية أعاده setOpenPanel إلى
+     زرها فلا يضيع إلى body. */
+  function onDocumentClick(evt) {
+    if (!state.openPanel) { return; }
+    if (el.controls && el.controls.contains(evt.target)) { return; }
     setOpenPanel(null);
   }
 
-  /* تغيّر الحاملة: لا تُخفى عقدة تحمل التركيز. عند الانتقال إلى العائم تبقى
-     لوحة التركيز مفتوحة فتحتفظ العقدة نفسها بتركيزها؛ وعند الانتقال إلى
-     التدفق يُنقل التركيز من الزر الذي سيُخفى إلى أقرب مكافئ منطقي داخل
-     لوحته قبل الإخفاء. نقل سلامة لا سرقة تركيز. */
-  function applyFloating(isFloating) {
-    var was = state.floating;
-    state.floating = !!isFloating;
-    if (state.floating === was) { applyDisclosure(); return; }
-    if (state.floating) {
-      state.openPanel = focusedKey();
-      applyDisclosure();
-      return;
+  /* §9: Escape يغلق اللوحة المفتوحة ويعيد التركيز إلى زرها. */
+  function onControlsKeydown(evt) {
+    if (evt.key !== 'Escape' && evt.key !== 'Esc') { return; }
+    if (!state.openPanel) { return; }
+    var key = state.openPanel;
+    setOpenPanel(null);
+    var btn = buttonFor(key);
+    if (btn && !btn.hidden) {
+      try { btn.focus(); } catch (err) { reportSoft(err); }
     }
-    var ref = activeOrLast();
-    var moveTo = null;
-    if (ref === el.fabNav) { moveTo = el.prev; }
-    else if (ref === el.fabMotion) { moveTo = el.play; }
-    state.openPanel = null;
-    applyDisclosure();
-    if (moveTo) { try { moveTo.focus(); } catch (err) { reportSoft(err); } }
   }
 
   function alignFirstMount() {
@@ -911,13 +1041,15 @@
 
   function updateButtons() {
     var interactive = (state.mode === 'interactive');
+    var loading = (state.phase === 'INTERACTIVE_LOADING');
     if (el.prev) { el.prev.disabled = state.current <= 1; }
     if (el.next) { el.next.disabled = state.current >= state.pages.length; }
     if (el.jump) { el.jump.value = String(state.current); }
-    var canAnimate = interactive && state.mounted && !!activePlan;
-    if (el.slower) { el.slower.disabled = state.speed <= SPEED_MIN; }
-    if (el.faster) { el.faster.disabled = state.speed >= SPEED_MAX; }
-    if (el.speed) { el.speed.textContent = state.speed + '×'; }
+    var canAnimate = interactive && state.mounted && !!activePlan && !loading;
+    /* ADR-0012 §10: التعطيل عند طرفي القائمة المغلقة بحالة معلنة. */
+    if (el.slower) { el.slower.disabled = state.speedIndex <= 0; }
+    if (el.faster) { el.faster.disabled = state.speedIndex >= SPEEDS.length - 1; }
+    if (el.speed) { el.speed.textContent = SPEEDS[state.speedIndex] + '×'; }
     if (el.play) {
       /* اسم الفعل التالي لا وصف الحالة الحالية. */
       el.play.textContent = state.paused
@@ -927,15 +1059,18 @@
     }
     if (el.replay) { el.replay.disabled = !canAnimate; }
     if (el.skip) { el.skip.disabled = !canAnimate; }
-    if (el.pen) {
-      el.pen.disabled = !interactive;
-      el.pen.setAttribute('aria-pressed', state.penEnabled ? 'true' : 'false');
-      el.pen.textContent = state.penEnabled ? 'إخفاء القلم' : 'إظهار القلم';
+    /* زر القلم: مصدر الحقيقة state.penVisible، والاسم مشتق منه — اسم الفعل
+       التالي لا وصف الحالة القائمة، كزر التشغيل في اللوحة نفسها. ولا
+       aria-pressed مع اسم متغيّر: الحالة تُعلن مرة واحدة لا مرتين. */
+    if (el.penToggle) {
+      el.penToggle.textContent = state.penVisible ? 'إخفاء القلم' : 'إظهار القلم';
+      el.penToggle.disabled = !interactive;
     }
     if (el.mode) {
       el.mode.textContent = interactive
         ? 'عرض الدرس كاملًا'
-        : 'العودة إلى العارض التفاعلي';
+        : 'العرض التفاعلي لهذه الصفحة';
+      el.mode.disabled = loading;
     }
   }
 
@@ -954,7 +1089,9 @@
     return null;
   }
 
-  function loadPage(n, autoplay) {
+  /* ADR-0012 §3: يُحمَّل عرض الصفحة الحالية وحدها، ويُعرض ثابتًا بعد
+     التحميل. لا معامل autoplay، ولا مسار يبدأ حركة من هنا بأي حال. */
+  function loadPage(n) {
     var page = pageByIndex(n);
     if (!page) { return; }
 
@@ -963,6 +1100,7 @@
 
     state.current = n;
     state.mounted = false;
+    setPhase('INTERACTIVE_LOADING');
     markActive();
     applyViewMode();
     updateButtons();
@@ -982,6 +1120,7 @@
       el.stage.appendChild(root);
       activeRoot = root;
       state.mounted = true;
+      setPhase('INTERACTIVE_IDLE');
       applyViewMode();
       alignFirstMount();
 
@@ -996,38 +1135,16 @@
       }
 
       activePlan = plan;
-
-      if (state.reduced || state.mode !== 'interactive' || !autoplay) {
-        setStatus(statusLine(state.reduced
-          ? 'الصفحة كاملة — اضغط تشغيل العرض'
-          : 'جاهزة'));
-        updateButtons();
-        return;
-      }
-
-      ensurePen(root);
-      activeSaved = hideForAnimation(plan);
-      setStatus(statusLine('جارٍ العرض'));
-
-      runPlan(gen, root, plan, activeSaved, function () {
-        if (isStale(gen)) { return; }
-        setStatus(statusLine('اكتمل العرض'));
-        updateButtons();
-      });
+      /* §3: يُعرض المضمَّن ثابتًا. لا حركة، ولا قلم، ولا autoplay بأي صورة.
+         والتشغيل فعل صريح مستقل لا يُستنتج من نجاح التحميل. */
+      setStatus(statusLine('جاهزة — اضغط تشغيل العرض'));
       updateButtons();
     }).catch(function (err) {
       if (err && err.name === 'AbortError') { return; }
       if (isStale(gen)) { return; }
       reportSoft(err);
-      teardownStage();
-      state.mounted = false;
-      applyViewMode();
-      updateButtons();
-      setStatus(statusLine('تعذّر العرض التفاعلي — المحتوى الساكن معروض كاملًا'));
-      if (el.notice) {
-        el.notice.textContent = 'تعذّر تحميل العرض التفاعلي لهذه الصفحة. المحتوى الكامل معروض أدناه.';
-        el.notice.hidden = false;
-      }
+      /* §12: أي فشل نهائي يعود بالوضع إلى FULL مع تنظيف كامل. */
+      returnToFull('تعذّر تحميل العرض التفاعلي لهذه الصفحة. المحتوى الكامل معروض أدناه.');
     });
   }
 
@@ -1050,16 +1167,41 @@
     window.setTimeout(function () { state.hashLock = false; }, 0);
   }
 
+  /* ADR-0012 §2: في FULL يحدّث اختيار الصفحة الـfragment ويحرّك القراءة إلى
+     الصفحة المقصودة، ويبقى الوضع FULL بلا انتقال وبلا أي fetch. وفي الوضع
+     التفاعلي يحمّل الصفحة وينتهي إلى INTERACTIVE_IDLE بلا autoplay. */
   function goTo(n, fromHistory) {
     if (n < 1 || n > state.pages.length) { return; }
     if (!fromHistory) { setFragment(n, false); }
-    loadPage(n, true);
+    if (state.phase === 'FULL') {
+      state.current = n;
+      markActive();
+      updateButtons();
+      setStatus(statusLine(''));
+      var page = pageByIndex(n);
+      if (page && page.li) {
+        try { page.li.scrollIntoView(); } catch (err) { reportSoft(err); }
+      }
+      return;
+    }
+    loadPage(n);
+  }
+
+  /* ADR-0012 §12: انتقالات الوضع كلها من هذا المسار الواحد، وmode مشتق من
+     phase هنا وحده فلا يُكتب في أي موضع آخر. */
+  function setPhase(next) {
+    state.phase = next;
+    state.mode = (next === 'FULL') ? 'static' : 'interactive';
+    if (next === 'FULL') { clearPanelTimer(); }
+    applyButtonVisibility();
   }
 
   function pauseAnimation() {
     if (!state.running || state.paused) { return; }
     state.paused = true;
     clearAllTimers();
+    hidePen();
+    setPhase('INTERACTIVE_PAUSED');
     updateButtons();
     setStatus(statusLine('موقوف مؤقتًا'));
   }
@@ -1070,17 +1212,20 @@
     var r = state.resume;
     if (r && !isStale(r.gen)) {
       schedule(r.gen, r.fn, 0);
+      setPhase('INTERACTIVE_RUNNING');
       setStatus(statusLine('جارٍ العرض'));
     } else {
       state.running = false;
       state.resume = null;
+      setPhase('INTERACTIVE_IDLE');
       setStatus(statusLine('اكتمل العرض'));
     }
     updateButtons();
   }
 
   /* تشغيل العرض يبدأ الحركة من الحالة الجاهزة على النسخة inline المركّبة
-     نفسها: لا جلب جديد، ولا نسخة ثانية، ولا مسار autoplay إضافي. */
+     نفسها: لا جلب جديد، ولا نسخة ثانية، ولا مسار autoplay إضافي. وهو
+     الموضع الوحيد الذي يُنشأ فيه القلم بنص §11. */
   function startAnimation() {
     if (state.mode !== 'interactive' || !state.mounted) { return; }
     if (!activeRoot || !activePlan) { return; }
@@ -1089,12 +1234,14 @@
       restoreAll(activeSaved);
       activeSaved = null;
     }
-    hidePen();
-    ensurePen(activeRoot);
+    destroyPen();
+    if (state.penVisible) { ensurePen(activeRoot); }
     activeSaved = hideForAnimation(activePlan);
+    setPhase('INTERACTIVE_RUNNING');
     setStatus(statusLine('جارٍ العرض'));
     runPlan(gen, activeRoot, activePlan, activeSaved, function () {
       if (isStale(gen)) { return; }
+      setPhase('INTERACTIVE_IDLE');
       setStatus(statusLine('اكتمل العرض'));
       updateButtons();
     });
@@ -1107,52 +1254,82 @@
     startAnimation();
   }
 
-  function setMode(next) {
-    if (next !== 'interactive' && next !== 'static') { return; }
-    if (state.mode === next) { return; }
-    state.mode = next;
-    if (next === 'static') {
-      cancelEverything();
-      destroyPen();
-      if (activeSaved) {
-        restoreAll(activeSaved);
-        activeSaved = null;
+  /* ADR-0012 §3: الدخول التفاعلي بفعل مستخدم صريح ومقصود من زر مخصص داخل
+     لوحة «صفحات». ولا يستدعيه تحميل صفحة ولا fragment ولا تنقل بالتاريخ
+     ولا اختيار صفحة. و§12: لا انتقال من FULL إلى RUNNING مباشرة. */
+  function enterInteractive() {
+    if (state.phase !== 'FULL') { return; }
+    state.alignOnFirstMount = true;
+    loadPage(state.current);
+  }
+
+  /* ADR-0012 §13: العودة إلى FULL — بطلب المستخدم أو بفشل — تنفّذ التنظيف
+     الكامل الإلزامي بترتيبه. وهي idempotent: تُستدعى أكثر من مرة بلا خطأ
+     وبلا أثر جانبي مختلف، وبلا اعتماد على وجود عقدة أو مؤقت أو طلب. */
+  function returnToFull(message) {
+    bumpGeneration();                          /* 1  إبطال الجيل */
+    abortFetch();                              /* 2  AbortController.abort */
+    clearAllTimers();                          /* 3  مؤقتات الحركة كلها */
+    clearPanelTimer();                         /* 4  مؤقت اللوحة */
+    state.running = false;
+    state.paused = false;
+    state.resume = null;                       /* 5  حذف نقطة الاستئناف */
+    if (activeSaved) {
+      restoreAll(activeSaved);
+      activeSaved = null;
+    }
+    destroyPen();                              /* 6  إزالة القلم */
+    teardownStage();                           /* 7  إزالة SVG المضمَّن inline */
+    if (el.stage) { el.stage.hidden = true; }  /* 8  تفريغ المسرح وإخفاؤه */
+    state.mounted = false;                     /* 9  إزالة حالة viewer النشطة */
+    setPhase('FULL');
+    if (el.list) { el.list.removeAttribute('data-viewer-active'); } /* 10 إظهار الـ22 */
+    state.openPanel = null;                    /* 11 إغلاق اللوحات */
+    applyDisclosure();
+    /* 12 منع callbacks القديمة من أي أثر: عدّاد الأجيال في الخطوة 1 يُبطلها
+       صامتًا، فكل callback يتحقق من جيله قبل أي أثر. */
+    if (el.notice) {
+      if (message) {
+        el.notice.textContent = message;
+        el.notice.hidden = false;
+      } else {
+        el.notice.hidden = true;
       }
     }
     applyViewMode();
     updateButtons();
-    setStatus(statusLine(next === 'static'
-      ? 'الدرس الكامل معروض'
-      : 'العارض التفاعلي'));
+    setStatus(statusLine(message ? 'المحتوى الساكن معروض كاملًا' : ''));
   }
 
   function onToggleMode() {
-    setMode(state.mode === 'interactive' ? 'static' : 'interactive');
+    if (state.phase === 'FULL') { enterInteractive(); return; }
+    returnToFull(null);
   }
 
   function onJump() {
     if (!el.jump) { return; }
     var n = parseInt(el.jump.value, 10);
     if (isNaN(n) || n === state.current) { return; }
-    if (state.floating && state.openPanel === 'nav') { setOpenPanel(null); }
+    if (state.openPanel === 'nav') { setOpenPanel(null); }
     goTo(n, false);
   }
 
   function onSkip() {
     var gen = cancelEverything();
-    hidePen();
+    destroyPen();
     if (activeSaved) {
       restoreAll(activeSaved);
       activeSaved = null;
     }
     state.generation = gen;
+    setPhase('INTERACTIVE_IDLE');
     updateButtons();
     setStatus(statusLine('عُرضت الصفحة كاملة'));
   }
 
   /* إعادة التشغيل فعل صريح من المستخدم، فتعمل في تقليل الحركة أيضًا.
      ترفع الجيل وتلغي العمل السابق عبر startAnimation، ولا تعيد الجلب إلا
-     إذا لم تكن هناك نسخة مركّبة صالحة. */
+     إذا لم تكن هناك نسخة مركّبة صالحة — وحينها تنتهي إلى IDLE بلا حركة. */
   function onReplay() {
     if (state.mode !== 'interactive') { return; }
     if (state.mounted && activeRoot && activePlan) { startAnimation(); return; }
@@ -1160,22 +1337,36 @@
       restoreAll(activeSaved);
       activeSaved = null;
     }
-    loadPage(state.current, true);
+    loadPage(state.current);
   }
 
-  function changeSpeed(delta) {
-    var next = Math.round((state.speed + delta) * 10) / 10;
-    if (next < SPEED_MIN) { next = SPEED_MIN; }
-    if (next > SPEED_MAX) { next = SPEED_MAX; }
-    state.speed = next;
+  /* ADR-0012 §10: خطوة واحدة بين عناصر القائمة المغلقة، ولا تجاوز للطرفين.
+     وتغيير السرعة لا يعيد الحركة من أولها ولا يبدأها إن كانت متوقفة. */
+  function stepSpeed(dir) {
+    var next = state.speedIndex + dir;
+    if (next < 0 || next >= SPEEDS.length) { return; }
+    state.speedIndex = next;
+    state.speed = SPEEDS[next];
     updateButtons();
   }
 
-  function togglePen() {
-    state.penEnabled = !state.penEnabled;
-    if (!state.penEnabled) { destroyPen(); }
-    else if (el.stage && el.stage.firstChild) { ensurePen(el.stage.firstChild); }
+  /* ADR-0012 §11: الاختيار للجلسة الحالية فقط في ذاكرة الصفحة. لا Storage
+     ولا Cookie ولا persistence في الـURL، فإعادة التحميل تعيد الافتراضي.
+     الإخفاء يزيل القلم من DOM ولا يوقف عرضًا ولا يغيّر صفحة ولا وضعًا ولا
+     سرعة، والإظهار أثناء الجريان يعيد إنشاءه فيلحق بالحرف التالي وحده. */
+  function setPenVisibility(on) {
+    var next = !!on;
+    if (state.penVisible === next) { return; }
+    state.penVisible = next;
+    if (!next) { destroyPen(); }
+    else if (state.phase === 'INTERACTIVE_RUNNING' && activeRoot) {
+      ensurePen(activeRoot);
+    }
     updateButtons();
+  }
+
+  function onPenToggle() {
+    setPenVisibility(!state.penVisible);
   }
 
   function onHistoryNav() {
@@ -1196,6 +1387,10 @@
       if (activeSaved) {
         restoreAll(activeSaved);
         activeSaved = null;
+      }
+      if (state.phase === 'INTERACTIVE_RUNNING' ||
+          state.phase === 'INTERACTIVE_PAUSED') {
+        setPhase('INTERACTIVE_IDLE');
       }
     }
     updateButtons();
@@ -1233,7 +1428,7 @@
       el.slower = controls.querySelector('[data-viewer-slower]');
       el.faster = controls.querySelector('[data-viewer-faster]');
       el.speed = controls.querySelector('[data-viewer-speed]');
-      el.pen = controls.querySelector('[data-viewer-pen]');
+      el.penToggle = controls.querySelector('[data-viewer-pen]');
       el.panelNav = controls.querySelector('[data-viewer-panel="nav"]');
       el.panelMotion = controls.querySelector('[data-viewer-panel="motion"]');
       el.fabNav = controls.querySelector('[data-viewer-disclosure="nav"]');
@@ -1241,7 +1436,8 @@
 
       if (!el.status || !el.prev || !el.next || !el.jump || !el.play ||
           !el.mode || !el.replay || !el.skip || !el.slower || !el.faster ||
-          !el.speed || !el.pen || !el.panelNav || !el.panelMotion ||
+          !el.speed || !el.penToggle ||
+          !el.panelNav || !el.panelMotion ||
           !el.fabNav || !el.fabMotion) {
         return;
       }
@@ -1285,13 +1481,21 @@
       el.mode.addEventListener('click', onToggleMode);
       el.replay.addEventListener('click', onReplay);
       el.skip.addEventListener('click', onSkip);
-      el.slower.addEventListener('click', function () { changeSpeed(-SPEED_STEP); });
-      el.faster.addEventListener('click', function () { changeSpeed(SPEED_STEP); });
-      el.pen.addEventListener('click', togglePen);
+      el.slower.addEventListener('click', function () { stepSpeed(-1); });
+      el.faster.addEventListener('click', function () { stepSpeed(1); });
+      el.penToggle.addEventListener('click', onPenToggle);
       el.fabNav.addEventListener('click', function () { onDisclosureClick('nav'); });
       el.fabMotion.addEventListener('click', function () { onDisclosureClick('motion'); });
       controls.addEventListener('keydown', onControlsKeydown);
       controls.addEventListener('focusin', function (evt) { state.lastFocus = evt.target; });
+      /* ADR-0012 §8: مصادر إعادة الضبط محصورة في click وتنشيط زر وkeydown
+         وchange وfocusin داخل أدوات التحكم. ولا mousemove ولا scroll ولا
+         callbacks الحركة. مستمع واحد لكل نوع على الحاملة الواحدة. */
+      controls.addEventListener('click', armPanelTimer);
+      controls.addEventListener('keydown', armPanelTimer);
+      controls.addEventListener('change', armPanelTimer);
+      controls.addEventListener('focusin', armPanelTimer);
+      document.addEventListener('click', onDocumentClick);
       window.addEventListener('popstate', onHistoryNav);
       window.addEventListener('hashchange', onHistoryNav);
 
@@ -1301,38 +1505,31 @@
         else if (typeof mq.addListener === 'function') { mq.addListener(onMq); }
       }
 
-      /* نقطة الكسر نفسها المدوّنة في CSS. مستمع واحد ومصدر حالة واحد. */
-      var fq = null;
-      if (window.matchMedia) {
-        fq = window.matchMedia('(max-width: 799px)');
-        state.floating = !!fq.matches;
-        var onFq = function (evt) { applyFloating(evt.matches); };
-        if (typeof fq.addEventListener === 'function') { fq.addEventListener('change', onFq); }
-        else if (typeof fq.addListener === 'function') { fq.addListener(onFq); }
-      }
+      /* ADR-0012 §4: نموذج تفاعل واحد على كل المقاسات، فلا استعلام لعرض
+         الشاشة هنا، ولا اكتشاف لنظام تشغيل ولا user-agent ولا نوع جهاز ولا
+         خصائص لمس. وresponsive محصور في CSS بالحجم والموضع وحدهما. */
 
+      /* ADR-0012 §2: البداية دائمًا في العرض الكامل، بلا استثناء ولا شرط
+         ولا تفضيل محفوظ. والـfragment يحدد الصفحة الحالية للأدوات ولا يدخل
+         الوضع التفاعلي ولا يسبب أي جلب. و§14: fragment غير صالح يُهمَل
+         ويبقى العرض الكامل سليمًا. */
       var start = 1;
-      var hasFragment = false;
       var m = /^#page-(\d+)$/.exec(window.location.hash || '');
       if (m) {
         var n = parseInt(m[1], 10);
-        if (!isNaN(n) && n >= 1 && n <= pages.length) {
-          start = n;
-          hasFragment = true;
-        }
+        if (!isNaN(n) && n >= 1 && n <= pages.length) { start = n; }
       }
 
       state.ready = true;
       controls.hidden = false;
       state.current = start;
-      state.alignOnFirstMount = hasFragment;
-      setFragment(start, true);
+      state.alignOnFirstMount = false;
+      setPhase('FULL');
       applyDisclosure();
       applyViewMode();
       updateButtons();
       markActive();
-
-      loadPage(start, true);
+      setStatus(statusLine(''));
     } catch (err) {
       reportSoft(err);
       showStaticFallback('العرض التفاعلي غير متاح. المحتوى الكامل معروض أدناه.');
