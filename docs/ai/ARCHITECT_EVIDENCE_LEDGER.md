@@ -59,8 +59,17 @@ Phase 6.2 merge parents: 2a2b79d2610d4d30a6ed7099cae7763196648fd2 + 9e385232a06a
 Phase 6.2 status: Closed — 2026-09-01 (مدموجة في efade0c)
 Baseline HEAD at Phase 7 approval: efade0c38f682134aa3b2a1810eeba401c5cb127
 Baseline tree state at Phase 7 approval: dirty — تعديل parmaga.css وملف ADR-0011 غير متعقَّب، طُبِّقا على main ثم نُقلا إلى فرع قبل أي التزام
-Current approved phase: Phase 7 — عقد الطباعة (ADR-0011)
+HEAD at Phase 7 implementation commit: b845baede67f2c3b101972698942bba3c3372840
+HEAD at Phase 7 merge commit (PR #14): 1ca43c1348341deb67c0a9c78e587a35038d2508
+Phase 7 merge parents: efade0c38f682134aa3b2a1810eeba401c5cb127 + b845baede67f2c3b101972698942bba3c3372840
+Phase 7 merged baseline: 1ca43c1348341deb67c0a9c78e587a35038d2508
+Phase 7 Gate A run on PR #14 head b845bae: 33467915910 — event pull_request، conclusion success
+Phase 7 Gate A run on main 1ca43c1: 33467942178 — event push، conclusion success
+Phase 7 status: Closed — 2026-09-02 (مدموجة في 1ca43c1)
+Current approved phase: Phase 7 — عقد الطباعة (ADR-0011) — Closed
 Next phase: 8 — الهوية والمشاركة والسيو (ADR-0012)، ولا تُفتح إلا باعتماد مالك مستقل
+Baseline HEAD at Phase 7 Closeout reconciliation: 1ca43c1348341deb67c0a9c78e587a35038d2508
+Baseline tree state at Phase 7 Closeout reconciliation: clean — main = origin/main، ومخرج git status --porcelain فارغ
 ```
 
 حالة الشجرة عند اعتماد المرحلة أُثبتت بالأمر `git status --short --branch`، ومخرجه سطر الفرع وحده دون أي سطر حالة.
@@ -230,7 +239,7 @@ git -c core.whitespace=cr-at-eol diff --check <base> <head>
 | 6 | Closed | اعتماد المالك ببدء المرحلة 6 وإصدار ADR-0008 صدر في 2026-08-30 نصًّا: «أعتمد فتح المرحلة 6 — Mobile Lesson Viewer UX/UI — وإصدار ADR-0008، بتاريخ 30 أغسطس 2026» | لم يُستوفَ بعد — يشترط الإغلاق: diff محصور في الملفات الستة، وثبات بصمة الأصول الـ22 وmanifest، ونجاح الاختبارات وverify_lesson.py بعد التطبيق، ونجاح Gate A على PR وعلى push إلى main، وتحققًا يدويًا لمعايير القبول 1–37 مع تصنيف كل ما لم يُقَس `Unknown` — استوفيت الشروط ودُمجت في 398485d عبر PR #8 |
 | 6.1 | Closed | رصد مخالفة جسيمة بعد دمج المرحلة 6 واعتماد المالك للإصلاح | تحقق — الإصلاح مدموج في 61a72c3 عبر PR #10 وADR-0009 في c7fb02e عبر PR #9، وGate A نجحت على main في run 33303393733، وعرض الصورة 304 من 320 مقاسًا حيًّا. وبنود الفحص اليدوي تبقى `Unknown` ولا تمنع الإغلاق |
 | 6.2 / 6.2R | Closed | اعتماد المالك بتنفيذ ADR-0009 وفق عقد ADR-0010 | تحقق — الحزمة مدموجة في efade0c عبر PR #13 من رأس الفرع 9e38523 بأربعة commits هي f990782 و5e31200 وcd44530 و9e38523، وأبوا الدمج 2a2b79d و9e38523، وGate A ناجحة. V2 لم يُنفَّذ ولم يُؤذن به. وبنود Unknown تبقى مفتوحة ولا تمنع الإغلاق |
-| 7 | In Progress | إذن المالك الصادر في 2026-09-01 نصًّا: «أعطيت الإذن: الإغلاق التوثيقي، وتصحيح نص §6، وفتح المرحلة 7» | لم يُستوفَ بعد — يشترط الإغلاق: diff محصور في الملفات الأربعة، وصفر مساس بـSVG وmanifest وtools وtests و.github، ونجاح الاختبارات وverify_lesson.py، وdiff --check نظيفًا بـcr-at-eol، و22 ورقة بالضبط على A5 وA4 وLetter مقيسة بعدّ PDF، ونجاح Gate A على PR وعلى main |
+| 7 | Closed | إذن المالك الصادر في 2026-09-01 نصًّا: «أعطيت الإذن: الإغلاق التوثيقي، وتصحيح نص §6، وفتح المرحلة 7» | لم يُستوفَ بعد — يشترط الإغلاق: diff محصور في الملفات الأربعة، وصفر مساس بـSVG وmanifest وtools وtests و.github، ونجاح الاختبارات وverify_lesson.py، وdiff --check نظيفًا بـcr-at-eol، و22 ورقة بالضبط على A5 وA4 وLetter مقيسة بعدّ PDF، ونجاح Gate A على PR وعلى main — استوفي جزئيًا مع تنازل مالك صريح في 2026-09-02: تحقق — diff محصور في أربعة ملفات هي README.md وassets/css/parmaga.css والدفتر وADR-0011، وصفر مساس بـSVG وmanifest وtools وtests و.github، وdiff --check صفر بـcr-at-eol، و61 اختبارًا OK وverify_lesson.py يعطي RESULT: PASS (0 errors)، والتنفيذ b845bae مدموج في 1ca43c1 عبر PR #14 بmerge commit حقيقي بأبوين، وبصمة شجرة الدمج مطابقة لبصمة شجرة التنفيذ، وGate A ناجحة على رأس الـPR في run 33467915910 وعلى main في run 33467942178. ولم يُستوفَ شرط «22 ورقة بالضبط على A5 وA4 وLetter مقيسة بعدّ PDF»: تنازل المالك عنه صريحًا وقبل الإغلاق على أساس مشاهدة بصرية بلا إنشاء PDF، والأعداد مصنَّفة Reported / owner-accepted — not Confirmed by retained PDF measurement. ونص الشرط الأصلي يبقى مقروءًا في هذا الصف ولا يُحذف |
 
 أُغلقت المرحلة 1 بـcommit فعلي هو f2734b5، وقُيِّد SHA في §2 و§8.
 
@@ -397,6 +406,23 @@ git -c core.whitespace=cr-at-eol diff --check <base> <head>
 | 2026-08-31 | 6.2 | f990782 | clean | قياس حي في DevTools | — | لم يُنفَّذ | ميزانية §13 عند فتح لوحة على 320 تحديدًا: لم تُفتح أي لوحة في جولات 320، فارتفاع اللوحة وعدم حجب سطر الحالة وقابلية تمريرها عند أضيق عرض غير مقيسة | Unknown |
 | 2026-08-31 | 6.2 | f990782 | clean | صفحة الدرس | — | لم يُنفَّذ | تكبير 200% عند 1280 و390، ومعاينة الطباعة، والهاتف الحقيقي في portrait وlandscape، وTab وEscape وعودة التركيز إلى زر disclosure، وTab للخروج من اللوحة بلا حصر، وتغيير viewport مع تركيز داخل التحكم، وسلوك Reduced Motion على متصفح حقيقي، ورقم CLS المقاس، وسجل Console في جلسة كاملة، وقارئ الشاشة: لم يُقَس أي منها. لا نجاح ولا إخفاق | Unknown |
 | 2026-08-31 | 6.2 | f990782 | clean | AI_ARCHITECT_PROTOCOL.md | 807–845 | `sed -n '807,845p'` | §21 تفرض قراءة الملفات فوق 120 سطرًا بنطاقات لا تتجاوز 40 سطرًا ولا تمنح استثناءً. وطُلب في هذه المرحلة نطاق 175 سطرًا ثم 651 سطرًا من lesson-viewer.js. يُقيَّد انحرافًا معلنًا عن §21 لا امتثالًا، وتبريره بترابط طبقة التحكم لا يرفع القاعدة | Confirmed |
+| 2026-09-02 | 7-Closeout | 1ca43c1 | clean | مستودع parmaga | — | `git rev-parse HEAD` و `git status --porcelain` | HEAD = 1ca43c1348341deb67c0a9c78e587a35038d2508 والمخرج فارغ، فbaseline مصالحة الإغلاق مطابق للمتوقع والشجرة نظيفة قبل أي تعديل | Confirmed |
+| 2026-09-02 | 7-Closeout | 1ca43c1 | clean | مستودع parmaga | — | `git rev-list --parents -n 1 HEAD` | أبوا الدمج efade0c38f682134aa3b2a1810eeba401c5cb127 و b845baede67f2c3b101972698942bba3c3372840، فالدمج merge commit حقيقي بأبوين لا squash ولا rebase | Confirmed |
+| 2026-09-02 | 7-Closeout | 1ca43c1 | clean | مستودع parmaga | — | `git rev-parse b845bae^{tree} 1ca43c1^{tree}` | البصمتان متطابقتان عند 3ff8176e8e53636ddfdf20dbbe495b73ad641ab5، فالدمج لم يُدخل أي تغيير فوق commit التنفيذ ولم يُعدَّل شيء بعد الدمج | Confirmed |
+| 2026-09-02 | 7-Closeout | 1ca43c1 | clean | فرق efade0c..b845bae | — | `git diff --name-only efade0c b845bae` | أربعة ملفات لا خامس لها: README.md وassets/css/parmaga.css وdocs/ai/ARCHITECT_EVIDENCE_LEDGER.md وdocs/decisions/ADR-0011-lesson-print-contract.md — وصفر SVG وصفر manifest وصفر tools وصفر tests وصفر .github | Confirmed |
+| 2026-09-02 | 7-Closeout | 1ca43c1 | clean | فرق efade0c..b845bae | — | `git -c core.whitespace=cr-at-eol diff --check efade0c b845bae \| wc -l` | صفر — لا مسافة زائدة حقيقية في فرق المرحلة 7 | Confirmed |
+| 2026-09-02 | 7-Closeout | 1ca43c1 | clean | tests/ | — | `python3 -m unittest discover -s tests -p 'test_*.py'` | Ran 61 tests in 2.155s — OK، وهو الأمر نفسه المعرَّف في .github/workflows/verify-lessons.yml السطر 42 | Confirmed |
+| 2026-09-02 | 7-Closeout | 1ca43c1 | clean | tools/verify_lesson.py | — | `python3 tools/verify_lesson.py .` | Publication candidates: 1 — programming-ai-baccalaureate-2/term-1/chapter-01/lesson-01، وAll checks passed، وRESULT: PASS (0 errors)، وهو الأمر نفسه المعرَّف في workflow السطر 45 | Confirmed |
+| 2026-09-02 | 7-Closeout | 1ca43c1 | clean | GitHub Actions REST العامة | — | `GET /repos/amr-abd-elsalam/parmaga/actions/runs/33467915910` | Gate A على رأس PR #14: run 33467915910، workflow «Verify lessons» بمسار .github/workflows/verify-lessons.yml، event pull_request، head_branch phase-7-print-contract، head_sha b845bae، run_number 31، status completed، conclusion success، من 03:54:47Z إلى 03:54:57Z | Confirmed |
+| 2026-09-02 | 7-Closeout | 1ca43c1 | clean | GitHub Actions REST العامة | — | `GET /repos/amr-abd-elsalam/parmaga/actions/runs/33467942178` | Gate A بعد الدمج على main: run 33467942178، نفس الـworkflow، event push، head_branch main، head_sha 1ca43c1، run_number 32، status completed، conclusion success، من 03:55:12Z إلى 03:55:22Z | Confirmed |
+| 2026-09-02 | 7-Closeout | 1ca43c1 | clean | GitHub REST العامة | — | `GET /repos/amr-abd-elsalam/parmaga/pulls/14` | PR #14 «fix(print): width-driven print contract, 22 sheets per lesson (ADR-0011)»: state closed، merged = true، merged_by = amr-abd-elsalam، merged_at = 2026-09-01T03:55:10Z، merge_commit_sha = 1ca43c1348341deb67c0a9c78e587a35038d2508، commits = 1، changed_files = 4، additions = 169، deletions = 4، author_association = OWNER — وعدد الملفات مطابق حرفيًا للإحصاء المحلي فتطابق مصدران مستقلان | Confirmed |
+| 2026-09-02 | 7-Closeout | 1ca43c1 | clean | مستودع parmaga | — | `git ls-files -s assets/lessons \| wc -l` و `git rev-parse HEAD:<path>` | بصمات ما يجب ألا يتحرك في مصالحة الإغلاق: assets/lessons = 22 ملفًا بشجرة 19e1bc0b6d0e76d43a74f6dedf68811ff0d15725، وassets/css/parmaga.css = 0b9bb4b33a81af9aaa1e7e11acd18461c3730644، وassets/js/lesson-viewer.js = ede7bf9edabe463918539f89e8c1d21273400299، وADR-0011 = e1e901cddd780f6f7ff8deed3fb53f4d4a8a620e | Confirmed |
+| 2026-09-02 | 7-Closeout | 1ca43c1 | clean | قرار المالك في جلسة 2026-09-02 — إعادة صياغة المنفِّذ لا نص حرفي | — | لم يُنفَّذ أمرًا؛ المصدر تصريح المالك | المالك قرر ألا يُنشأ ملف PDF، وصرّح بأنه شاهد النتيجة بصريًا وقبل إغلاق المرحلة 7 على هذا الأساس. ولا يوجد PDF في هذا المستودع ولا خارجه ضمن هذه المصالحة، ولا يوجد مخرج أداة لعدّ الصفحات، ولا يُدَّعى وجود أيهما | Reported |
+| 2026-09-02 | 7-Closeout | 1ca43c1 | clean | معاينة طباعة المالك البصرية | — | لم يُنفَّذ أمرًا؛ ولا مخرج عدّ صفحات محفوظًا | أعداد الأوراق للأحجام الثلاثة: A5 = 22، وA4 = 22، وLetter = 22 — Reported / owner-accepted — not Confirmed by retained PDF measurement. وسابقة §10 سجّلت A5 وLetter من معاينة متصفح لا من عدّ PDF، وA4 لا سابقة تسجيل له وهذا أول تقييد له بتصريح المالك | Reported |
+| 2026-09-02 | 7-Closeout | 1ca43c1 | clean | تقييم مخاطر مصالحة الإغلاق | — | لم يُنفَّذ | مخاطرة مقبولة معلنة: لا يوجد artifact PDF ولا قياس محفوظ قابل لإعادة التشغيل عبر محركات الطباعة. فأعداد الأوراق غير قابلة للتحقق المستقل من هذا المستودع، وأي انحراف في محرك طباعة أو إعداد هامش لن يُكتشف إلا بمعاينة بشرية جديدة. المالك قبل هذه المخاطرة صراحة وأغلق المرحلة عليها | Reported |
+| 2026-09-02 | 7-Closeout | 1ca43c1 | clean | قرار المالك في جلسة 2026-09-02 — إعادة صياغة المنفِّذ | — | لم يُنفَّذ أمرًا؛ المصدر تصريح المالك | عقد الطباعة الحالي مجمد: ADR-0011 وكتلة @media print وقواعد @page لا يُعاد فتحها ولا تُعدَّل، ولا يُنشأ لها قرار معدِّل، إلا بطلب مستقل صريح من المالك. والتجميد يشمل المراحل اللاحقة فلا يمسّ أي منها الطباعة تلقائيًا | Reported |
+| 2026-09-02 | 7-Closeout | 1ca43c1 | clean | §10 عقد التسليم النشط قبل هذه المصالحة | 494–508 | `sed -n '476,508p'` | بلوك دفتر التسليم كان عالقًا على المرحلة 6.2 بحالة «In Progress — الدمج موقوف … وPR #13 مفتوح غير مدموج». كان صحيحًا في تاريخه، وأبطله الواقع: دُمج PR #13 في efade0c كما يقيّده §2، ثم دُمجت المرحلة 7 في 1ca43c1. لا يُحذف النص التاريخي، ويُقيَّد إبطاله في §10 نفسه | Superseded |
+| 2026-09-02 | 7-Closeout | 1ca43c1 | clean | docs/decisions/ و§2 | 63 | `grep -rn 'ADR-0012' --include='*.md' .` و `git ls-files 'docs/decisions/ADR-*.md' \| sort -V` | تصادم ترقيم مرصود لا محسوم: ADR-0012 مذكور في موضع واحد فقط هو سطر Next phase في §2 بوصفه رقمًا محجوزًا للمرحلة 8، ولا ملف قرار بهذا الرقم موجود، وأعلى قرار موجود فعليًا هو ADR-0011. فالرقم المتاح التالي لأي قرار جديد هو 0012 نفسه. لم يُحجز رقم ولم يُحسم التصادم في هذه المصالحة، وحسمه قرار مالك مستقل | Confirmed |
 
 نُفِّذت أوامر §M من برومبت المرحلة وطابقت مخرجاتها معايير القبول، فحُوِّل صف الحزمة إلى `Confirmed` وأُضيف صف القياس المقابل له.
 
@@ -407,6 +433,12 @@ git -c core.whitespace=cr-at-eol diff --check <base> <head>
 ### مصالحة إغلاق المرحلة 5 — 2026-08-30
 
 سبقت هذه المصالحةَ فجوةٌ بين الواقع والتوثيق: نُفِّذت المرحلة 5 ودُمجت في cf41d264 ونجحت Gate A مرتين وصار الرابط الدائم حيًّا، بينما بقي الدفتر يصف المرحلة 5 بأنها `In Progress`، ويثبّت عقد التسليم عند 8324aa0، ويقرر في §9 أنه «لم يُدمج شيء ولم يتغير HEAD وما زال الرابط يعيد 404». صحّحت هذه المصالحة الوصف وحده: لم يُمَس HTML ولا JavaScript ولا CSS ولا SVG ولا manifest ولا أداة التحقق ولا الاختبارات ولا workflow ولا CNAME ولا .gitattributes ولا إعدادات Pages ولا Ruleset، ولم يُنشأ ADR ولم يُعدَّل ADR-0007. ولم يُحذف نص تاريخي: ما بطل يُوسم `Superseded` ويبقى مقروءًا.
+
+### مصالحة إغلاق المرحلة 7 — 2026-09-02
+
+سبقت هذه المصالحةَ فجوةٌ بين الواقع والتوثيق: نُفِّذت المرحلة 7 في b845bae ودُمجت في 1ca43c1 عبر PR #14، ونجحت Gate A على رأس الـPR وعلى main، بينما بقي §7 يصف المرحلة 7 بأنها `In Progress`، وبقي §2 خاليًا من commit التنفيذ وbaseline الدمج وأرقام الـruns، وبقي §10 عالقًا على المرحلة 6.2 يقرر أن PR #13 مفتوح غير مدموج. صحّحت هذه المصالحة الوصف وحده: لم يُمَس HTML ولا CSS ولا JavaScript ولا SVG ولا manifest ولا أداة التحقق ولا الاختبارات ولا workflow ولا ADR-0011، والملف المتغير واحد هو دفتر الأدلة. ولم يُحذف نص تاريخي: ما بطل يُوسم `Superseded` ويبقى مقروءًا، وشرط الإغلاق الأصلي في §7 يبقى منصوصًا كما كُتب.
+
+وحدّ هذا الإغلاق معلن: يشهد لعقد الطباعة البنيوي كما نصّ عليه ADR-0011، ولا يشهد لقياس محفوظ لأعداد الأوراق. شرط «22 ورقة بالضبط على A5 وA4 وLetter مقيسة بعدّ PDF» لم يُستوفَ، وتنازل المالك عنه صريحًا وقبل الإغلاق على أساس مشاهدة بصرية بلا إنشاء PDF. فالأعداد الثلاثة مقيَّدة `Reported / owner-accepted — not Confirmed by retained PDF measurement`، والمخاطرة المقبولة أنه لا يوجد artifact PDF ولا قياس محفوظ قابل لإعادة التشغيل عبر محركات الطباعة. وعقد الطباعة مجمد بعد هذا الإغلاق، فلا يُعاد فتحه إلا بطلب مستقل من المالك. ولا يفتح هذا الإغلاق أي مرحلة تالية، ولا يحجز رقم قرار، ولا يُنفَّذ منه أي بند من بنود `Unknown` القائمة.
 
 ### Known Limitations للمرحلة 5 — مسجَّلة لا منفَّذة
 
@@ -506,3 +538,22 @@ HEAD: cd44530 (إصلاح CSS) ثم التزام استكمال الأدلة ع�
 شرط بدء المرحلة التالية: إذن مالك صريح، وV2 لا يبدأ قبله
 الخطوة التالية الوحيدة: تسليم تقرير 6.2R إلى المالك
 ورق الطباعة المعتمد: A5 — المعاينة 22 صفحة، والفسحة الرأسية 61px بعد قياس h2 = 40px؛ وLetter قيست 22 أيضًا بفضل max-height: 8.4in؛ وانحراف طباعي معلن: إعداد L المرجعي Letter والمالك اعتمد A5
+
+قيد إبطال — 2026-09-02: بلوك «دفتر التسليم» أعلاه يصف المرحلة 6.2 بحالة `In Progress` وPR #13 مفتوحًا غير مدموج. كان صحيحًا في تاريخه، وهو الآن `Superseded`: دُمج PR #13 في efade0c، ثم نُفِّذت المرحلة 7 ودُمجت في 1ca43c1 عبر PR #14. لا يُحذف النص التاريخي، ويُقرأ البلوك التالي وحده بوصفه عقد التسليم النشط.
+
+دفتر التسليم
+المرحلة الحالية: 7 — عقد الطباعة (ADR-0011)
+الحالة: Closed — 2026-09-02، مدموجة في 1ca43c1 عبر PR #14، والإغلاق توثيقي بلا أي تعديل runtime
+HEAD: 1ca43c1348341deb67c0a9c78e587a35038d2508 | الفرع: main | الشجرة: clean
+الملفات المعدلة/المضافة: docs/ai/ARCHITECT_EVIDENCE_LEDGER.md وحده في مصالحة الإغلاق — لا HTML ولا CSS ولا JavaScript ولا SVG ولا manifest ولا ADR
+الأدلة الجديدة: صفوف §8 بوسم 7-Closeout المؤرَّخة 2026-09-02، وسرد مصالحة إغلاق المرحلة 7
+القرارات المعتمدة حرفيًا: §3 بلا إضافة — قرار المالك في هذه المصالحة مقيَّد في §8 بإعادة صياغة المنفِّذ لا كنص حرفي
+الأسئلة المفتوحة: §9 كما هي بلا طيّ ولا إضافة
+الانحرافات: شرط «22 ورقة مقيسة بعدّ PDF» غير مستوفى وتنازل المالك عنه صريحًا؛ والأعداد Reported / owner-accepted — not Confirmed by retained PDF measurement؛ ولا PDF ولا مخرج عدّ صفحات
+حالة التحقق: 61/61 OK وRESULT: PASS (0 errors) وdiff --check صفر بـcr-at-eol، وGate A success في 33467915910 و33467942178
+المخاطرة المقبولة: لا artifact PDF ولا قياس محفوظ قابل لإعادة التشغيل عبر محركات الطباعة
+عقد الطباعة: مجمد — ADR-0011 و@media print و@page لا يُعاد فتحها إلا بطلب مالك مستقل
+بنود Unknown الباقية: كما هي، ولا يفتحها هذا الإغلاق ولا يُنفَّذ منها شيء
+المرحلة التالية الوحيدة: لا شيء مفتوح — لا 7.1 ولا 8 يبدأ قبل اعتماد مالك مستقل، ولا رقم ADR محجوز
+شرط بدء المرحلة التالية: دمج مصالحة الإغلاق، ونجاح Gate A على main، وإعطاء baseline جديد من المالك
+الخطوة التالية الوحيدة: فتح PR مصالحة الإغلاق وانتظار Gate A
