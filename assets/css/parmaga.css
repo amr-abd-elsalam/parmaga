@@ -559,45 +559,24 @@ summary:focus-visible {
   color: var(--pg-slate-600);
 }
 
-.viewer-btn[aria-pressed="false"] {
-  border-style: dashed;
-}
-
 .viewer-status {
   margin: var(--pg-space-3) var(--pg-space-0) var(--pg-space-0);
   color: var(--pg-slate-600);
 }
 
-/* الشاشات الواسعة: التحكم داخل التدفق لا عائمًا، واللوحتان مفتوحتان،
-   وزرا disclosure غائبان. لا يُفرض العائم حيث لا حاجة إليه. */
-@media screen and (min-width: 800px) {
-  .lesson-viewer-controls:not([hidden]) {
-    display: flex;
-    flex-direction: column;
-    gap: var(--pg-space-3);
-    padding: var(--pg-space-4);
-    border: var(--pg-border-width) solid var(--pg-rule);
-    background-color: var(--pg-paper-2);
-  }
+/* ADR-0012 §1: يستبدل هذا القرار جزئيًا نموذج العرض داخل التدفق على
+   الشاشات الواسعة المقرر في ADR-0010 §8، والتنفيذ المشتق منه الذي كان
+   يفتح لوحتين في وقت واحد ويخفي زري الكشف عند 800px. فحُذفت الكتلة، وضبط
+   المقاسات الواسعة صار كتلة حجم وموضع وحدها بعد الطبقة العائمة أدناه. */
 
-  #viewer-panel-nav {
-    order: 1;
-  }
-
-  #viewer-panel-motion {
-    order: 2;
-  }
-
-  .viewer-status {
-    order: 3;
-  }
-}
-
-/* ADR-0009 §2: على الشاشات الصغيرة تصبح كتلة التحكم طبقة سفلية مرتبة
-   رأسيًا: سطر الحالة أعلى — فلا تحجبه لوحة مفتوحة لأنه خارجهما وفوقهما —
-   ثم اللوحة الواحدة المفتوحة، ثم زران دائريان لا ثالث لهما.
+/* ADR-0012 §4: طبقة التحكم عائمة على جميع أحجام الشاشة، لا على الهاتف
+   وحده — نموذج تفاعل واحد لا نموذجان، ولا عتبة عرض تبدّل معنى أداة ولا
+   حالتها ولا مستمعها ولا مصدر حقيقتها. وهي مرتبة رأسيًا: سطر الحالة أعلى
+   — فلا تحجبه لوحة مفتوحة لأنه خارجهما وفوقهما — ثم اللوحة الواحدة
+   المفتوحة، ثم زرا الكشف. وتوسعة النطاق هذه هي ما وسّع به ADR-0012 نموذج
+   ADR-0009 §2 من الشاشات الصغيرة إلى كل المقاسات.
    القيد screen يمنع أي تنازع مع كتلة @media print القائمة. */
-@media screen and (max-width: 799px) {
+@media screen {
   .page-lesson .lesson-viewer-controls:not([hidden]) {
     position: fixed;
     inset-inline: var(--pg-float-inset);
@@ -698,9 +677,40 @@ summary:focus-visible {
     line-height: 1;
   }
 
+  /* ADR-0012 §5: زر «كتابة» في FULL hidden بمعناه الدلالي الكامل. وإعلان
+     display على الزر يتغلب على سمة hidden لو تُرك بلا حرس، فيصير الإخفاء
+     بصريًا وحده ويبلغه Tab — فهذا الحرس شرط صحة لا تجميل. */
+  .page-lesson .viewer-fab[hidden] {
+    display: none;
+  }
+
   /* فراغ سفلي يمنع الطبقة العائمة من حجب آخر سطر قابل للقراءة. */
   .page-lesson main {
     padding-bottom: calc(120px + env(safe-area-inset-bottom, 0px));
+  }
+}
+
+/* ADR-0012 §4: responsive يغيّر الحجم والموضع فقط. هذه الكتلة لا تنشئ
+   أداة ولا تحذف واحدة ولا تبدّل معنى ولا مستمعًا ولا مصدر حالة: تحدّ عرض
+   اللوحة على الشاشات الواسعة، وترفع فسحتها الرأسية، وتُرسي الطبقة إلى
+   جانب واحد بدل تمديدها عبر الشاشة، وتزيد الفراغ السفلي بما يناسب. */
+@media screen and (min-width: 800px) {
+  .page-lesson .lesson-viewer-controls:not([hidden]) {
+    inset-inline: auto;
+    inset-inline-end: var(--pg-space-6);
+    align-items: flex-end;
+  }
+
+  .page-lesson .viewer-panel {
+    width: auto;
+    min-width: 320px;
+    max-width: 520px;
+    max-height: 60vh;
+    max-height: 60dvh;
+  }
+
+  .page-lesson main {
+    padding-bottom: calc(140px + env(safe-area-inset-bottom, 0px));
   }
 }
 
@@ -729,9 +739,46 @@ summary:focus-visible {
   max-width: 1080px;
 }
 
+/* ADR-0012 §11 + الانحراف D3: قلم واحد واقعي محلي بالكامل — لا dependency
+   ولا CDN ولا أصل مجلوب ولا خط أيقونات ولا صورة. الهندسة في JS معرّفة حول
+   السنّ، وهذه الكتلة تلوّن أجزاءه السبعة فيُقرأ قلمًا لا علامة موضع. */
 .lesson-pen {
-  fill: var(--pg-red-600);
   pointer-events: none;
+  stroke-linejoin: round;
+}
+
+.lesson-pen-nib {
+  fill: var(--pg-navy-700);
+}
+
+.lesson-pen-tip {
+  fill: var(--pg-paper);
+  stroke: var(--pg-navy-700);
+  stroke-width: 0.8;
+}
+
+.lesson-pen-collar {
+  fill: var(--pg-slate-600);
+}
+
+.lesson-pen-body {
+  fill: var(--pg-red-600);
+  stroke: var(--pg-navy-700);
+  stroke-width: 0.8;
+}
+
+.lesson-pen-grip {
+  fill: var(--pg-navy-700);
+  fill-opacity: 0.85;
+}
+
+.lesson-pen-gloss {
+  fill: var(--pg-paper);
+  fill-opacity: 0.3;
+}
+
+.lesson-pen-cap {
+  fill: var(--pg-navy-700);
 }
 
 .lesson-pages {
