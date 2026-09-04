@@ -67,10 +67,11 @@
   var SPEEDS = [0.25, 0.5, 0.75, 1, 1.5, 2, 3, 4];
   var SPEED_START_INDEX = 3;
 
-  /* ADR-0012 §8: مهلة الخمول الوحيدة. تطوي اللوحة المفتوحة وحدها. */
-  var PANEL_IDLE_MS = 8000;
+  /* ADR-0013 §6: مهلة الخمول الوحيدة. تطوي اللوحة المفتوحة وحدها، ويُعلّق
+     عدّها أثناء INTERACTIVE_RUNNING فلا يُحتسب زمن مشاهدة الحركة منها. */
+  var PANEL_IDLE_MS = 5000;
 
-  /* ADR-0012 §11 + الانحراف D3: قلم واحد واقعي بدل ثلاثة أشكال رمزية.
+  /* ADR-0013 §2 (يستبدل ADR-0012 §11): قلم واحد واقعي بدل ثلاثة أشكال رمزية.
      الهندسة محلية بالكامل — أضلاع ومستطيلات مكتوبة هنا، لا dependency ولا
      CDN ولا أصل مجلوب ولا خط أيقونات ولا صورة. القلم معرّف حول سنّه: السنّ
      في نقطة الأصل والجسم يمتد إلى -y بطول اسمي معلوم، فيكفي translate
@@ -148,6 +149,13 @@
 
   /* ---------- أدوات الإلغاء ومنع السباقات ---------- */
 
+  /* ADR-0013 §4 و§8: طلب بدء عابر لا حالة موازية. startRequested راية لحظة
+     الإيماءة وحدها، تُستهلك في أول سطر من loadPage فلا تتسرب إلى نداء آخر.
+     وpendingStart رقم جيل التحميل الذي طُلب بدؤه، فأي جيل أحدث أو إبطال أو
+     فشل أو teardown يجعله غير مطابق فيسقط الطلب صامتًا. */
+  var startRequested = false;
+  var pendingStart = null;
+
   function bumpGeneration() {
     state.generation += 1;
     return state.generation;
@@ -199,6 +207,7 @@
     state.running = false;
     state.paused = false;
     state.resume = null;
+    pendingStart = null;
     return bumpGeneration();
   }
 
@@ -931,13 +940,18 @@
   }
 
   /* كل استدعاء يلغي القائم قبل جدولة بديله، ولا يجدول شيئًا إن لم تكن لوحة
-     مفتوحة. فلا مؤقت ثانٍ ولا مؤقت لكل لوحة. */
+     مفتوحة. فلا مؤقت ثانٍ ولا مؤقت لكل لوحة.
+     وADR-0013 §6: أثناء INTERACTIVE_RUNNING عدّ الخمول معلّق — لا يُجدول
+     مؤقت جديد، وأي callback بائت سبق التشغيل لا يطوي اللوحة ما دامت الحالة
+     INTERACTIVE_RUNNING. والإغلاق اليدوي والنقر الخارجي وEscape تبقى عاملة. */
   function armPanelTimer() {
     clearPanelTimer();
     if (!state.openPanel) { return; }
+    if (state.phase === 'INTERACTIVE_RUNNING') { return; }
     panelTimer = window.setTimeout(function () {
       panelTimer = null;
       if (!state.openPanel) { return; }
+      if (state.phase === 'INTERACTIVE_RUNNING') { return; }
       /* الطيّ وحده: لا يوقف محاكاة، ولا يغيّر صفحة، ولا يغيّر وضعًا، ولا
          يمسّ السرعة ولا شكل القلم. */
       setOpenPanel(null);
@@ -1001,7 +1015,7 @@
     setOpenPanel(state.openPanel === key ? null : key);
   }
 
-  /* الانحراف D4: النقر خارج الطبقة العائمة يطوي اللوحة المفتوحة، فلا يبقى
+  /* ADR-0013 §3: النقر خارج الطبقة العائمة يطوي اللوحة المفتوحة، فلا يبقى
      الطيّ رهنًا بالضغط على الزر نفسه ثانيةً ولا بانتظار مهلة الخمول. الطيّ
      وحده: لا يفتح لوحة، ولا يوقف محاكاة، ولا يغيّر صفحة ولا وضعًا ولا سرعة.
      والنقر داخل الأدوات يُهمَل هنا فلا يزاحم مبدّلات disclosure ولا يلغي
@@ -1066,10 +1080,13 @@
       el.penToggle.textContent = state.penVisible ? 'إخفاء القلم' : 'إظهار القلم';
       el.penToggle.disabled = !interactive;
     }
+    /* ADR-0013 §4 و§5: الاسم في FULL يصدق في وعده — إيماءة واحدة تطلب الدخول
+       والتشغيل معًا. وفي الحالات التفاعلية يحمل معنى العودة إلى العرض الكامل
+       وحده، فلا يعيد الحركة من البداية. */
     if (el.mode) {
       el.mode.textContent = interactive
         ? 'عرض الدرس كاملًا'
-        : 'العرض التفاعلي لهذه الصفحة';
+        : 'تشغيل العرض التفاعلي لهذه الصفحة';
       el.mode.disabled = loading;
     }
   }
@@ -1089,13 +1106,19 @@
     return null;
   }
 
-  /* ADR-0012 §3: يُحمَّل عرض الصفحة الحالية وحدها، ويُعرض ثابتًا بعد
-     التحميل. لا معامل autoplay، ولا مسار يبدأ حركة من هنا بأي حال. */
+  /* ADR-0012 §3: يُحمَّل عرض الصفحة الحالية وحدها. لا معامل autoplay في
+     التوقيع، ولا مسار يبدأ حركة إلا بطلب صريح سابق من إيماءة المستخدم.
+     وADR-0013 §4: الطلب العابر يُقرأ هنا مرة واحدة ويُربط بجيل هذا التحميل
+     وحده، فتغيير الصفحة والقفز وHistory وإعادة التحميل تبقى بلا autoplay. */
   function loadPage(n) {
+    var wanted = startRequested;
+    startRequested = false;
+
     var page = pageByIndex(n);
     if (!page) { return; }
 
     var gen = cancelEverything();
+    pendingStart = wanted ? gen : null;
     teardownStage();
 
     state.current = n;
@@ -1112,6 +1135,11 @@
 
     fetchSvg(page.src, signal).then(function (root) {
       if (isStale(gen)) { return; }
+
+      /* ADR-0013 §8: الطلب يُستهلك مرة واحدة ولا يُعاد استخدامه. جيل بائت
+         لا يصل هنا أصلًا بحكم isStale، وطلب من جيل آخر لا يطابق فيسقط. */
+      var wantStart = (pendingStart === gen);
+      pendingStart = null;
 
       root.setAttribute('class', 'lesson-stage-svg');
       root.setAttribute('aria-hidden', 'true');
@@ -1135,10 +1163,21 @@
       }
 
       activePlan = plan;
-      /* §3: يُعرض المضمَّن ثابتًا. لا حركة، ولا قلم، ولا autoplay بأي صورة.
-         والتشغيل فعل صريح مستقل لا يُستنتج من نجاح التحميل. */
-      setStatus(statusLine('جاهزة — اضغط تشغيل العرض'));
-      updateButtons();
+      /* ADR-0013 §4: نجاح التحميل مع طلب صالح يُكمل الإيماءة نفسها في دورة
+         واحدة: تُفتح لوحة «كتابة» بمسار اللوحة الواحد، ثم تبدأ الحركة على
+         النسخة inline المركّبة، ثم ينتقل التركيز إلى زر «إيقاف مؤقت» — واسمه
+         صار كذلك لأن startAnimation ضبطت الجريان وحدّثت الأزرار تزامنيًا.
+         ولا طلب ولا فشل ولا جيل بائت يبدأ حركة، فيبقى العرض الثابت وحده. */
+      if (wantStart) {
+        setOpenPanel('motion');
+        startAnimation();
+        if (el.play && !el.play.disabled) {
+          try { el.play.focus(); } catch (err2) { reportSoft(err2); }
+        }
+      } else {
+        setStatus(statusLine('جاهزة — اضغط تشغيل العرض'));
+        updateButtons();
+      }
     }).catch(function (err) {
       if (err && err.name === 'AbortError') { return; }
       if (isStale(gen)) { return; }
@@ -1188,11 +1227,18 @@
   }
 
   /* ADR-0012 §12: انتقالات الوضع كلها من هذا المسار الواحد، وmode مشتق من
-     phase هنا وحده فلا يُكتب في أي موضع آخر. */
+     phase هنا وحده فلا يُكتب في أي موضع آخر.
+     وADR-0013 §6 و§7: اقتران الحالة بمهلة اللوحة يقع هنا وحده، لا في كل
+     مسار خروج على حِدة. الدخول إلى INTERACTIVE_RUNNING يلغي أي timeout
+     قائم، والخروج منه إلى PAUSED أو IDLE يبدأ عدًّا كاملًا جديدًا إن بقيت
+     لوحة مفتوحة. */
   function setPhase(next) {
+    var prev = state.phase;
     state.phase = next;
     state.mode = (next === 'FULL') ? 'static' : 'interactive';
     if (next === 'FULL') { clearPanelTimer(); }
+    else if (next === 'INTERACTIVE_RUNNING') { clearPanelTimer(); }
+    else if (prev === 'INTERACTIVE_RUNNING') { armPanelTimer(); }
     applyButtonVisibility();
   }
 
@@ -1256,10 +1302,16 @@
 
   /* ADR-0012 §3: الدخول التفاعلي بفعل مستخدم صريح ومقصود من زر مخصص داخل
      لوحة «صفحات». ولا يستدعيه تحميل صفحة ولا fragment ولا تنقل بالتاريخ
-     ولا اختيار صفحة. و§12: لا انتقال من FULL إلى RUNNING مباشرة. */
+     ولا اختيار صفحة.
+     وADR-0013 §4: الإيماءة نفسها تطلب الدخول والتشغيل معًا، فتُطوى لوحة
+     «صفحات» بمسار اللوحة الواحد، ويُسجَّل طلب بدء واحد، ثم يبدأ التحميل.
+     و§12 المعدَّل: لا تبدأ الحركة قبل نجاح التحميل وبناء الخطة، فطور
+     INTERACTIVE_LOADING باقٍ ولا يُتجاوز فشل الشبكة أو التحليل. */
   function enterInteractive() {
     if (state.phase !== 'FULL') { return; }
+    setOpenPanel(null);
     state.alignOnFirstMount = true;
+    startRequested = true;
     loadPage(state.current);
   }
 
@@ -1271,6 +1323,8 @@
     abortFetch();                              /* 2  AbortController.abort */
     clearAllTimers();                          /* 3  مؤقتات الحركة كلها */
     clearPanelTimer();                         /* 4  مؤقت اللوحة */
+    startRequested = false;                    /* ADR-0013 §8: إلغاء الطلب */
+    pendingStart = null;
     state.running = false;
     state.paused = false;
     state.resume = null;                       /* 5  حذف نقطة الاستئناف */
