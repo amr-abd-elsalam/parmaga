@@ -522,6 +522,12 @@ git -c core.whitespace=cr-at-eol diff --check <base> <head>
 | 2026-09-03 | 7.2-ADR | 34e6571 | clean | عرف نهايات الأسطر | — | `git ls-files --eol` وعداد CRLF للملفات الثلاثة المستهدفة | المستودع مختلط: الملفات الخمسة المقيسة في معالجة baseline هي LF، بينما README والدفتر وADR-0012 هي CRLF 100%. يُحفظ عرف كل ملف ولا يُطبَّع المستودع | Confirmed |
 | 2026-09-03 | 7.2-ADR | 34e6571 | clean | قرار المالك | — | نص المالك في جلسة 2026-09-03 | فُتحت المرحلة 7.2 واعتمد إصدار ADR-0013 مستقل يعدّل ADR-0012 وفق البنود الأربعة، مع اعتماد استعادة تغييرات EOL غير المقصودة | Reported |
 | 2026-09-03 | 7.2-ADR | 34e6571 | clean | نطاق PR القرار | — | لم يُنفَّذ بعد | ثلاثة ملفات فقط: ADR-0013 وREADME والدفتر؛ صفر HTML وCSS وJavaScript واختبارات وworkflow وSVG وmanifest، والتنفيذ غير مأذون | Reported |
+| 2026-09-04 | 7.2-Impl | 01f3d6a | clean | assets/js/lesson-viewer.js وtests/test_lesson_ui_contract.py | كامل الملفين | `PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -p 'test_*.py'` | Ran 139 tests OK — 124 قائمة و15 جديدًا لعقد ADR-0013 | Confirmed |
+| 2026-09-04 | 7.2-Impl | 01f3d6a | clean | tools/verify_lesson.py | — | `python3 tools/verify_lesson.py .` | RESULT: PASS (0 errors) لمرشح نشر واحد | Confirmed |
+| 2026-09-04 | 7.2-Impl | 01f3d6a | clean | assets/css/parmaga.css | 880 إلى النهاية | `tail -n +880 assets/css/parmaga.css \| sha1sum` و `tail -n +880 assets/css/parmaga.css \| wc -l` | f8bf32aa9b06dd8d72704d6abab9a37a987a14c3 و98 سطرًا، مطابقتان لثابتَي الاختبار؛ وعقد الطباعة لم يُمَس | Confirmed |
+| 2026-09-04 | 7.2-Impl | 01f3d6a | clean | assets/js/lesson-viewer.js وtests/test_lesson_ui_contract.py | 74 و1018 و187 و298 | `grep -rc -e "D3" -e "D4" -e "الانحراف" assets/js/lesson-viewer.js tests/test_lesson_ui_contract.py` | صفر مطابقة بعد ترقية المرجع إلى ADR-0013 §2 و§3؛ البندان 14 و15 من V1 مستوفيان، ولا assert كان معلقًا على التسميتين | Confirmed |
+| 2026-09-04 | 7.2-Impl | 01f3d6a | clean | نطاق الفرق عن origin/main | — | `git diff --name-only 4f7e8c3..HEAD` و `git ls-files --eol` | ملفان اثنان فقط وw/crlf محفوظ فيهما — صفر CSS وHTML وSVG وmanifest وADR وtools و.github | Confirmed |
+| 2026-09-04 | 7.2-Impl | 01f3d6a | clean | حدود التنفيذ في ADR-0013 | 398–436 | `git status -sb` و `git log --oneline origin/main -1` | الفرع feat/phase-7.2-adr-0013-implementation محلي بلا upstream، وorigin/main عند 4f7e8c3 وهو والد 01f3d6a؛ ولم تُشغَّل Gate A على هذا الالتزام | Confirmed |
 
 نُفِّذت أوامر §M من برومبت المرحلة وطابقت مخرجاتها معايير القبول، فحُوِّل صف الحزمة إلى `Confirmed` وأُضيف صف القياس المقابل له.
 
@@ -742,3 +748,22 @@ HEAD: 34e65716fb4ad9ba0a063efc480e8539895196cf | الفرع: main | الشجرة
 شرط إغلاق تسليم القرار: diff محصور في الملفات الثلاثة، وCRLF محفوظ، وdiff --check صفر بـcr-at-eol، و124 اختبارًا OK، وverify_lesson.py PASS، وبصمة الطباعة ثابتة، وGate A ناجحة على PR وعلى main
 شرط بدء التنفيذ اللاحق: دمج ADR-0013 ونجاح Gate A على main وإعطاء baseline جديد وإذن مالك مستقل
 الخطوة التالية الوحيدة: تطبيق حزمة القرار على فرع جديد ثم تشغيل حراس القرار قبل أي commit
+
+قيد إبطال — 2026-09-04: بلوك تسليم قرار المرحلة 7.2 أعلاه كان العقد النشط عند baseline 34e6571، وخطوته التالية استُوفيت: طُبِّقت حزمة القرار ودُمجت في 4f7e8c3 عبر PR #19. لا يُحذف النص التاريخي، ويُقرأ البلوك التالي وحده بوصفه عقد التسليم النشط.
+
+دفتر التسليم
+المرحلة الحالية: 7.2 — تنفيذ ADR-0013
+الحالة: In Progress — التنفيذ مكتمل محليًا على فرع غير مدفوع، ولا دفع ولا PR قبل استيفاء شرطَي baseline والإذن المستقل
+HEAD: 01f3d6ad39dcb6cadcad8caff353dac7b8ca4f1c | الفرع: feat/phase-7.2-adr-0013-implementation | الشجرة: clean
+الملفات المعدلة/المضافة: assets/js/lesson-viewer.js وtests/test_lesson_ui_contract.py وdocs/ai/ARCHITECT_EVIDENCE_LEDGER.md — ثلاثة لا رابع لها، وهي عين المسارات الثلاثة المنصوص عليها في حدود ADR-0013
+الأدلة الجديدة: صفوف §8 بوسم 7.2-Impl المؤرَّخة 2026-09-04
+القرارات المعتمدة حرفيًا: §3 بلا إضافة — لا نص مالك جديد في هذا التسليم
+الأسئلة المفتوحة: §9 كما هي بلا طيّ ولا إضافة
+الانحرافات: انحراف إجرائي واحد معلن — بدأ التنفيذ قبل استيفاء شرطَي «baseline جديد من المالك» و«إذن مالك مستقل» في قسم PR التنفيذ اللاحق؛ والالتزام محلي غير مدفوع فالأثر قابل للتصحيح كليًا. وانحرافا ADR-0012 D3 وD4 أُغلقا نصًّا بترقية المرجع إلى ADR-0013 §2 و§3 تنفيذًا للبندين 14 و15 من V1
+حالة التحقق: 139/139 OK وRESULT: PASS (0 errors) وdiff --check صفر بـcr-at-eol وw/crlf محفوظ، وبصمة الطباعة f8bf32aa بـ98 سطرًا؛ ولم تُشغَّل Gate A على هذا الالتزام لأنه غير مدفوع
+تغطية V1: البنود 1–18 مستوفاة محليًا بأوامر مُشغَّلة؛ وV2 المتصفحي كله غير منفَّذ
+عقد الطباعة: مجمد — صفر CSS، ولم تُمَس @media print ولا @page ولا ADR-0011
+بنود Unknown الباقية: بنود V2 المتصفحية كما نصّ عليها ADR-0013 — بدء الحركة بإيماءة واحدة، ونقل التركيز إلى «إيقاف مؤقت»، وبقاء لوحة «كتابة»، وسلوك مهلة 5000ms بعد الإيقاف أو الاكتمال، وEscape، وreduced motion، والفشل الشبكي
+المرحلة التالية الوحيدة: لا شيء مفتوح — لا المرحلة 8 تبدأ، ولا رقم ADR يُحجز، ولا favicon ولا Open Graph ولا sitemap
+شرط بدء المرحلة التالية: إعطاء baseline جديد من المالك عند 4f7e8c3، وإذن مالك مستقل بتنفيذ ADR-0013
+الخطوة التالية الوحيدة: عرض هذا الدفتر على المالك وانتظار الإذن — لا دفع ولا PR
