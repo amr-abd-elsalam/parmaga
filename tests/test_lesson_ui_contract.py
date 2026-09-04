@@ -155,9 +155,13 @@ class TestSinglePanelAndIdleTimeout(SourceTestCase):
         for value in writes:
             self.assertIn(value, ("key", "null"))
 
-    def test_idle_timeout_is_exactly_8000(self):
-        self.assertIn("var PANEL_IDLE_MS = 8000;", self.js)
-        self.assertEqual(1, self.js.count("8000"))
+    def test_idle_timeout_is_exactly_5000(self):
+        """ADR-0013 §6: المهلة الوحيدة صارت 5000ms. يُثبَّت التعريف الواحد
+        وتُنفى القيمة القديمة، بلا عدّ رقم حرفي هشّ يكسره أي ثابت جديد."""
+        self.assertIn("var PANEL_IDLE_MS = 5000;", self.js)
+        self.assertEqual(1, self.js.count("var PANEL_IDLE_MS"))
+        self.assertNotIn("8000", self.js)
+        self.assertIn("}, PANEL_IDLE_MS);", self.js)
 
     def test_single_panel_timer_reference(self):
         self.assertIn("var panelTimer = null;", self.js)
@@ -180,7 +184,7 @@ class TestSinglePanelAndIdleTimeout(SourceTestCase):
         )
 
     def test_outside_click_collapses_the_open_panel(self):
-        """الانحراف D4: مستمع واحد على المستند يطوي ولا يفتح، ويهمل النقر
+        """ADR-0013 §3: مستمع واحد على المستند يطوي ولا يفتح، ويهمل النقر
         داخل الأدوات، ولا يمسّ مصادر إعادة ضبط المهلة الأربعة."""
         self.assertIn("function onDocumentClick(evt) {", self.js)
         self.assertIn(
@@ -291,7 +295,7 @@ class TestSpeedContract(SourceTestCase):
 
 
 class TestPenContract(SourceTestCase):
-    """المعايير 24 و25 و26 مع الانحراف D3 — قلم واحد واقعي محلي بالكامل،
+    """المعايير 24 و25 و26 مع ADR-0013 §2 — قلم واحد واقعي محلي بالكامل،
     وزر إظهار وإخفاء واحد، والاختيار في ذاكرة الجلسة وحدها."""
 
     def test_pen_is_one_local_multipart_shape(self):
@@ -499,6 +503,132 @@ class TestStyleContract(SourceTestCase):
 
     def test_safe_area_respected(self):
         self.assertIn("env(safe-area-inset-bottom", self.css)
+
+
+class TestOneGestureStart(SourceTestCase):
+    """ADR-0013 §4 و§5 و§8 — الإيماءة الواحدة: طلب عابر مربوط بجيل تحميل
+    واحد، يُستهلك مرة واحدة، ولا يتسرب إلى تنقّل ولا تاريخ ولا إعادة تحميل."""
+
+    def test_transient_request_flags_declared_once(self):
+        self.assertIn("var startRequested = false;", self.js)
+        self.assertIn("var pendingStart = null;", self.js)
+        self.assertEqual(1, self.js.count("var startRequested"))
+        self.assertEqual(1, self.js.count("var pendingStart"))
+
+    def test_request_is_raised_only_by_the_entry_gesture(self):
+        """رفع الراية موضع واحد: enterInteractive. لا goTo ولا onJump ولا
+        onHistoryNav ولا onReplay يطلب بدءًا، فلا autoplay من أي مسار آخر."""
+        self.assertEqual(1, self.js.count("startRequested = true;"))
+        gesture = self.js.split("function enterInteractive() {")[1].split("\n  }")[0]
+        self.assertIn("setOpenPanel(null);", gesture)
+        self.assertIn("startRequested = true;", gesture)
+        self.assertIn("loadPage(state.current);", gesture)
+        self.assertNotIn("startAnimation", gesture)
+
+    def test_request_is_consumed_at_the_top_of_load_page(self):
+        """الاستهلاك في أول سطرين، فلا يتسرب الطلب إلى نداء تحميل لاحق."""
+        self.assertIn(
+            "function loadPage(n) {\n    var wanted = startRequested;\n"
+            "    startRequested = false;",
+            self.js,
+        )
+
+    def test_request_is_bound_to_one_generation(self):
+        self.assertIn("pendingStart = wanted ? gen : null;", self.js)
+        writes = re.findall(r"pendingStart = (.+?);", self.js)
+        for value in writes:
+            self.assertIn(value, ("null", "wanted ? gen : null"))
+
+    def test_request_is_consumed_once_after_a_successful_fetch(self):
+        self.assertIn(
+            "var wantStart = (pendingStart === gen);\n      pendingStart = null;",
+            self.js,
+        )
+        self.assertEqual(1, self.js.count("var wantStart"))
+
+    def test_start_branch_opens_panel_then_runs_then_focuses(self):
+        branch = self.js.split("if (wantStart) {")[1].split("\n      } else {")[0]
+        self.assertIn("setOpenPanel('motion');", branch)
+        self.assertIn("startAnimation();", branch)
+        self.assertIn("el.play.focus();", branch)
+
+    def test_no_request_path_stays_static(self):
+        """نجاح التحميل وحده لا يبدأ حركة: يُعلن الجهوز وتُحدَّث الأزرار."""
+        self.assertIn(
+            "      } else {\n"
+            "        setStatus(statusLine('جاهزة — اضغط تشغيل العرض'));\n"
+            "        updateButtons();\n"
+            "      }",
+            self.js,
+        )
+
+    def test_cancel_everything_drops_the_bound_request(self):
+        body = self.js.split("function cancelEverything() {")[1].split("\n  }")[0]
+        self.assertIn("pendingStart = null;", body)
+
+    def test_return_to_full_cancels_any_pending_request(self):
+        body = self.js.split("function returnToFull(message) {")[1].split("\n  }")[0]
+        self.assertIn("startRequested = false;", body)
+        self.assertIn("pendingStart = null;", body)
+
+
+class TestIdleCountSuspendedWhileRunning(SourceTestCase):
+    """ADR-0013 §6 و§7 — عدّ الخمول معلّق أثناء INTERACTIVE_RUNNING،
+    والاقتران بالحالة في مسار setPhase الواحد لا في كل مخرج على حِدة."""
+
+    def test_arm_guards_before_scheduling(self):
+        self.assertIn(
+            "    if (!state.openPanel) { return; }\n"
+            "    if (state.phase === 'INTERACTIVE_RUNNING') { return; }\n"
+            "    panelTimer = window.setTimeout(function () {",
+            self.js,
+        )
+
+    def test_stale_callback_cannot_collapse_while_running(self):
+        self.assertIn(
+            "      panelTimer = null;\n"
+            "      if (!state.openPanel) { return; }\n"
+            "      if (state.phase === 'INTERACTIVE_RUNNING') { return; }",
+            self.js,
+        )
+
+    def test_phase_transitions_own_the_timer(self):
+        setter = self.js.split("function setPhase(next) {")[1].split("\n  }")[0]
+        self.assertIn("var prev = state.phase;", setter)
+        self.assertIn("if (next === 'FULL') { clearPanelTimer(); }", setter)
+        self.assertIn(
+            "else if (next === 'INTERACTIVE_RUNNING') { clearPanelTimer(); }", setter
+        )
+        self.assertIn(
+            "else if (prev === 'INTERACTIVE_RUNNING') { armPanelTimer(); }", setter
+        )
+
+
+class TestEntryButtonPromise(SourceTestCase):
+    """ADR-0013 §5 — الاسم يصدق في وعده، والعودة إلى الكامل لا تعيد الحركة."""
+
+    def test_entry_label_promises_playback(self):
+        self.assertIn("'تشغيل العرض التفاعلي لهذه الصفحة'", self.js)
+        self.assertIn("'عرض الدرس كاملًا'", self.js)
+
+    def test_loading_disables_entry_and_motion_buttons(self):
+        self.assertIn(
+            "var loading = (state.phase === 'INTERACTIVE_LOADING');", self.js
+        )
+        self.assertIn("el.mode.disabled = loading;", self.js)
+        self.assertIn(
+            "var canAnimate = interactive && state.mounted && !!activePlan"
+            " && !loading;",
+            self.js,
+        )
+
+    def test_return_to_full_does_not_restart_motion(self):
+        body = self.js.split("function onToggleMode() {")[1].split("\n  }")[0]
+        self.assertIn(
+            "if (state.phase === 'FULL') { enterInteractive(); return; }", body
+        )
+        self.assertIn("returnToFull(null);", body)
+        self.assertNotIn("startAnimation", body)
 
 
 if __name__ == "__main__":
