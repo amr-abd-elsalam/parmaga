@@ -505,6 +505,123 @@ class TestStyleContract(SourceTestCase):
         self.assertIn("env(safe-area-inset-bottom", self.css)
 
 
+class TestViewerControlAffordance(SourceTestCase):
+    """ADR-0014 — affordance ساكن، وتحويم محروس، وضغط داخلي."""
+
+    @staticmethod
+    def _balanced_block(source, header):
+        start = source.index(header)
+        opening = source.index("{", start + len(header))
+        depth = 0
+        for index in range(opening, len(source)):
+            if source[index] == "{":
+                depth += 1
+            elif source[index] == "}":
+                depth -= 1
+                if depth == 0:
+                    return source[start:index + 1]
+        raise AssertionError("كتلة CSS غير مكتملة: " + header)
+
+    @staticmethod
+    def _rule_body(source, selector):
+        match = re.search(
+            r"(?m)^[ \t]*" + re.escape(selector) + r"\s*\{([^{}]*)\}",
+            source,
+        )
+        if match is None:
+            raise AssertionError("قاعدة CSS غير موجودة: " + selector)
+        return match.group(1)
+
+    def test_fab_idle_shadow_uses_panel_token(self):
+        body = self._rule_body(self.css, ".page-lesson .viewer-fab")
+        self.assertIn("box-shadow: var(--pg-shadow-panel);", body)
+
+    def test_fab_is_a_readable_text_pill(self):
+        body = self._rule_body(self.css, ".page-lesson .viewer-fab")
+        self.assertIn("width: auto;", body)
+        self.assertIn("min-width: var(--pg-touch-target);", body)
+        self.assertIn("min-height: var(--pg-touch-target);", body)
+        self.assertIn(
+            "padding: var(--pg-space-2) var(--pg-space-4);",
+            body,
+        )
+        self.assertIn("border-radius: var(--pg-radius-control);", body)
+        self.assertIn("font-size: var(--pg-font-size-value);", body)
+        self.assertNotIn("border-radius: 50%;", body)
+
+        text = self._rule_body(
+            self.css,
+            ".page-lesson .viewer-fab-text",
+        )
+        self.assertIn("font-size: inherit;", text)
+        self.assertIn("white-space: nowrap;", text)
+
+    def test_viewer_hovers_are_inside_fine_pointer_guard(self):
+        header = "@media (hover: hover) and (pointer: fine)"
+        guard = self._balanced_block(self.css, header)
+        self.assertIn(".viewer-btn:hover", guard)
+        self.assertIn(".page-lesson .viewer-fab:hover", guard)
+        self.assertIn(".viewer-btn[disabled]:hover", guard)
+
+        outside = self.css.replace(guard, "", 1).split("@media print {", 1)[0]
+        self.assertNotRegex(
+            outside,
+            r"(?m)^\s*(?:\.viewer-btn(?:\[disabled\])?|"
+            r"\.page-lesson \.viewer-fab):hover",
+        )
+
+    def test_active_states_use_inset_shadow(self):
+        selector = ".viewer-btn:active,\n.page-lesson .viewer-fab:active"
+        body = self._rule_body(self.css, selector)
+        self.assertIn("box-shadow:", body)
+        self.assertIn("inset", body)
+
+    def test_focus_and_active_shadows_compose_for_fab(self):
+        generic = self._rule_body(
+            self.css,
+            (
+                "a:focus-visible,\n"
+                "button:focus-visible,\n"
+                "summary:focus-visible"
+            ),
+        )
+        self.assertIn("outline:", generic)
+
+        focus = self._rule_body(
+            self.css,
+            ".page-lesson .viewer-fab:focus-visible",
+        )
+        self.assertIn("outline:", focus)
+        self.assertIn("var(--pg-focus-offset) var(--pg-paper)", focus)
+        self.assertIn("var(--pg-shadow-panel)", focus)
+
+        active_focus = self._rule_body(
+            self.css,
+            ".page-lesson .viewer-fab:active:focus-visible",
+        )
+        self.assertIn("var(--pg-focus-offset) var(--pg-paper)", active_focus)
+        self.assertIn("inset", active_focus)
+
+        self.assertIn("viewer-btn", self.html)
+        self.assertIn("viewer-fab", self.html)
+
+    def test_phase_interaction_rules_have_no_motion_effects(self):
+        phase = self.css.split("/* ADR-0014:", 1)[1].split(
+            "@media (prefers-reduced-motion: reduce)", 1
+        )[0]
+        self.assert_absent(
+            phase,
+            ["transform", "transition", "animation", "@keyframes"],
+            "ADR-0014",
+        )
+
+    def test_phase_rules_precede_the_frozen_print_block(self):
+        self.assertLess(
+            self.css.index("/* ADR-0014:"),
+            self.css.index("@media print {"),
+        )
+
+
 class TestOneGestureStart(SourceTestCase):
     """ADR-0013 §4 و§5 و§8 — الإيماءة الواحدة: طلب عابر مربوط بجيل تحميل
     واحد، يُستهلك مرة واحدة، ولا يتسرب إلى تنقّل ولا تاريخ ولا إعادة تحميل."""
