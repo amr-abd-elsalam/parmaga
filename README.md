@@ -24,8 +24,6 @@ Parmaga منصة تعليمية تستهدف السوق المصري وطلاب 
 .
 ├── .gitattributes
 ├── 404.html
-├── AI_ARCHITECT_PROTOCOL.md
-├── AI_EXECUTOR_PROTOCOL.md
 ├── CNAME
 ├── PROJECT_VISION.md
 ├── README.md
@@ -54,35 +52,37 @@ Parmaga منصة تعليمية تستهدف السوق المصري وطلاب 
 │                   └── lesson-01/
 │                       └── page-001.svg .. page-022.svg   (22 published SVG files)
 ├── docs/
-    ├── ai/
-    │   └── ARCHITECT_EVIDENCE_LEDGER.md
-    ├── content/
-    │   ├── CONTENT_INTAKE.md
-    │   ├── context/
-    │   │   └── programming-ai-baccalaureate-2/
-    │   │       └── term-1/
-    │   │           └── chapter-01/
-    │   │               └── lesson-01.md
-    │   └── manifests/
-    │       └── programming-ai-baccalaureate-2/
-    │           └── term-1/
-    │               └── chapter-01/
-    │                   └── lesson-01.json
-    └── decisions/
-        ├── ADR-0001-hosting-and-routing.md
-        ├── ADR-0002-design-tokens-and-styling-strategy.md
-        ├── ADR-0003-lessons-architecture.md
-        ├── ADR-0004-identifiers-and-permanent-paths.md
-        ├── ADR-0005-content-intake-and-asset-custody.md
-        ├── ADR-0006-asset-publication-and-verification.md
-        ├── ADR-0007-lesson-page-and-progressive-viewer.md
-        ├── ADR-0008-mobile-lesson-viewer-ux-ui.md
-        ├── ADR-0009-floating-viewer-controls-and-user-initiated-motion.md
-        ├── ADR-0010-canonical-lesson-ui-and-back-to-top.md
-        ├── ADR-0011-lesson-print-contract.md
-        ├── ADR-0012-full-view-default-and-unified-floating-controls.md
-        ├── ADR-0013-viewer-conformance-and-single-gesture-motion.md
-        └── ADR-0014-viewer-control-affordance.md
+│   ├── ai/
+│   │   ├── AI_ARCHITECT_PROTOCOL.md
+│   │   ├── AI_EXECUTOR_PROTOCOL.md
+│   │   └── ARCHITECT_EVIDENCE_LEDGER.md
+│   ├── content/
+│   │   ├── CONTENT_INTAKE.md
+│   │   ├── context/
+│   │   │   └── programming-ai-baccalaureate-2/
+│   │   │       └── term-1/
+│   │   │           └── chapter-01/
+│   │   │               └── lesson-01.md
+│   │   └── manifests/
+│   │       └── programming-ai-baccalaureate-2/
+│   │           └── term-1/
+│   │               └── chapter-01/
+│   │                   └── lesson-01.json
+│   └── decisions/
+│       ├── ADR-0001-hosting-and-routing.md
+│       ├── ADR-0002-design-tokens-and-styling-strategy.md
+│       ├── ADR-0003-lessons-architecture.md
+│       ├── ADR-0004-identifiers-and-permanent-paths.md
+│       ├── ADR-0005-content-intake-and-asset-custody.md
+│       ├── ADR-0006-asset-publication-and-verification.md
+│       ├── ADR-0007-lesson-page-and-progressive-viewer.md
+│       ├── ADR-0008-mobile-lesson-viewer-ux-ui.md
+│       ├── ADR-0009-floating-viewer-controls-and-user-initiated-motion.md
+│       ├── ADR-0010-canonical-lesson-ui-and-back-to-top.md
+│       ├── ADR-0011-lesson-print-contract.md
+│       ├── ADR-0012-full-view-default-and-unified-floating-controls.md
+│       ├── ADR-0013-viewer-conformance-and-single-gesture-motion.md
+│       └── ADR-0014-viewer-control-affordance.md
 ├── courses/
 │   └── programming-ai-baccalaureate-2/
 │       └── term-1/
@@ -148,9 +148,9 @@ Gate A في هذه المرحلة **إشارة تحقق فقط وليست حما
 
 ## الملفات الحاكمة
 
-- `PROJECT_VISION.md`: المرجع الأعلى لرؤية المشروع ومبادئ المنتج والهندسة.
-- `AI_ARCHITECT_PROTOCOL.md`: يحدد طريقة تحليل المراحل وإعداد القرارات والتسليم المعماري.
-- `AI_EXECUTOR_PROTOCOL.md`: يحدد طريقة تنفيذ مرحلة معتمدة وفحصها والتحقق منها دون توسيع نطاقها.
+- `PROJECT_VISION.md`: المرجع الأعلى لرؤية المشروع ومبادئ المنتج والهندسة، ويبقى في جذر المستودع لأنه أعلى من البروتوكولات في ترتيب مصادر الحقيقة.
+- `docs/ai/AI_ARCHITECT_PROTOCOL.md`: يحدد طريقة تحليل المراحل وإعداد القرارات والتسليم المعماري.
+- `docs/ai/AI_EXECUTOR_PROTOCOL.md`: يحدد طريقة تنفيذ مرحلة معتمدة وفحصها والتحقق منها دون توسيع نطاقها.
 - `docs/ai/ARCHITECT_EVIDENCE_LEDGER.md`: دفتر الأدلة المعماري ومرجع الحالة التشغيلية وخارطة المراحل.
 
 ## ما ليس موجودًا بعد

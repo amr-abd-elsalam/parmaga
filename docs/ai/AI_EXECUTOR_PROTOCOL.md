@@ -33,9 +33,9 @@
 1. أحدث تعليمات مباشرة من مالك المشروع.
 2. الحالة الفعلية الحالية للـRepository.
 3. `PROJECT_VISION.md`.
-4. `AI_EXECUTOR_PROTOCOL.md`.
+4. `docs/ai/AI_EXECUTOR_PROTOCOL.md`.
 5. البرومبت التنفيذي المعتمد للمرحلة.
-6. `AI_ARCHITECT_PROTOCOL.md`.
+6. `docs/ai/AI_ARCHITECT_PROTOCOL.md`.
 7. الافتراضات أو الاقتراحات غير المعتمدة.
 
 إذا وجدت تعارضًا، توقف واشرحه بدل اختيار تفسير صامت.
@@ -101,8 +101,8 @@ Receive phase prompt
 
 ```text
 /PROJECT_VISION.md
-/AI_EXECUTOR_PROTOCOL.md
-/AI_ARCHITECT_PROTOCOL.md
+/docs/ai/AI_EXECUTOR_PROTOCOL.md
+/docs/ai/AI_ARCHITECT_PROTOCOL.md
 ```
 
 ثم افحص الملفات التي حددها برومبت المرحلة.

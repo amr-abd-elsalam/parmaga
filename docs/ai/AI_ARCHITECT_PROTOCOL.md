@@ -89,8 +89,8 @@ Inspect
 
 ```text
 /PROJECT_VISION.md
-/AI_ARCHITECT_PROTOCOL.md
-/AI_EXECUTOR_PROTOCOL.md
+/docs/ai/AI_ARCHITECT_PROTOCOL.md
+/docs/ai/AI_EXECUTOR_PROTOCOL.md
 ```
 
 إذا كان الدفتر صالحًا وbaseline لم يتغير، لا تُعِد إثبات ما هو مسجَّل فيه بحالة `Confirmed`.
@@ -398,8 +398,8 @@ Rollback
 لا تعتمد على أي محادثة سابقة.
 ابدأ بقراءة:
 - PROJECT_VISION.md
-- AI_EXECUTOR_PROTOCOL.md
-- AI_ARCHITECT_PROTOCOL.md
+- docs/ai/AI_EXECUTOR_PROTOCOL.md
+- docs/ai/AI_ARCHITECT_PROTOCOL.md
 
 لا تكتب تعديلات في ردك الأول.
 افحص الملفات أولًا، ثم اطلب فقط الملفات التي لا يمكنك الوصول إليها.
@@ -644,8 +644,8 @@ FAILED — REQUIRES REPAIR
 
 اقرأ أولًا:
 - PROJECT_VISION.md
-- AI_ARCHITECT_PROTOCOL.md
-- AI_EXECUTOR_PROTOCOL.md
+- docs/ai/AI_ARCHITECT_PROTOCOL.md
+- docs/ai/AI_EXECUTOR_PROTOCOL.md
 
 مهمتك في ردك الأول:
 1. فحص الحالة الفعلية الحالية للـRepository.
