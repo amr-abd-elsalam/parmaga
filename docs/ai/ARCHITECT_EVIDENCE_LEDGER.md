@@ -1016,3 +1016,23 @@ HEAD النهائي لا يتغير حتى تنفيذ commit؛ ويُقيَّد 
 أرقام دمج هذا الـPR وGate A تُقيَّد بسجل لاحق بعد الدمج لا قبله، على عرف الدفتر
 
 الخطوة التالية الوحيدة: فتح PR القرار وانتظار Gate A، ثم قرار مالك في نطاق PR 2
+
+PR 2 — Browser baseline (CLI harness) — سجل واحد بشقّين: أرقام الدمج ثم القياس المحلي السابق للتشغيل
+
+الشقّ الأول. أرقام دمج PR #28 وGate A، مقيَّدة بعد الدمج لا قبله. merge_commit_sha هو a029d8f0f7ac0aa727fe44f36fdac366a24fcc87 وهو رأس main بعد الدمج، وشجرته 2ba375716d578eee7afac3014e25d0d9dd0d4115، ومصدره git log --merges -1 على origin/main محليًا لا واجهة بعيدة. وGate A على فرع القرار run 34159372704 وrun_number 59 وevent pull_request وconclusion success. وGate A على main بعد الدمج run 34159394747 وrun_number 60 وevent push وstatus completed وconclusion success وhead_sha a029d8f0f7ac0aa727fe44f36fdac366a24fcc87، ومصدره واجهة Actions runs لا واجهة Statuses القديمة. ورقم run_number 60 كان Reported في الـhandoff وصار Confirmed بهذا القياس.
+
+وبوابة STOP & VERIFY مقيسة على a029d8f: ff exit=0، وHEAD مطابق لمخرج git ls-remote، وporcelain فارغ، وrev-list --left-right --count يعطي 0 0، و146 اختبارًا بحالة خروج صفر مقيسة بلا أنبوب، وverifier بحالة خروج صفر مقيسة بلا أنبوب، والبصمات الثلاث 181ee8f7…b2f3 و01422204…003a وf97d159f…0f3f مطابقة للـbaseline بايتًا ببايت، والدفتر 1018 سطرًا و1018 CR قبل هذا الإلحاق.
+
+والقراءة الحاسمة لقاعدة العزل نُفِّذت ونتيجتها نافية للخطر: لا اختبار ولا verifier يجرد .github/workflows/ ولا محتويات tools/. مواضع الجرد أربعة فقط: tests/test_lesson_ui_contract.py:483 يجرد مجلد أصول درس بـos.listdir على .svg، وtests/test_verify_lesson.py:653 يمشي على self.root وهو tempfile.mkdtemp بالسطر 139 لا على المستودع، وtools/verify_lesson.py:318 يمشي على MANIFEST_ROOT_PARTS داخل discover_manifests، و:348 يمشي على ASSET_ROOT_PARTS داخل discover_assets. والتطابق الوحيد على كلمة tools في الاختبارات هو TOOL_PATH بالسطر 22 وsys.path.insert بالسطر 24، أي استيراد الأداة لا جرد المجلد. فإضافة ملف تحت tools/ وملف تحت .github/workflows/ لا تدخل Gate A ولا تكسر الحدّ الخامس من ADR-0015.
+
+وverify-lessons.yml بلا paths في مُشغِّليه — pull_request على main وpush على main — فGate A يعمل على أي PR إلى main حتى إن لم يمسّ الدروس.
+
+الشقّ الثاني. القياس المحلي السابق للتشغيل. صفحة الدرس تحمل 22 مطابقة لـ.svg و22 وسم img بنمط page-NNN.svg بمسار مطلق يبدأ بـ/assets/lessons/، فخدمة جِذر المستودع على 127.0.0.1 إلزامية ولا تكفي خدمة مجلد الدرس. والمرساة العربية المقيسة حرفيًا في بايتات الصفحة هي نصّ h1 وهو تطور تكنولوجيا المعلومات والتحول الاجتماعي، والمرساة اللاتينية المقيسة حرفيًا هي Augmented Reality and Virtual Reality. والعارض 1598 سطرًا، ويحذف عُقدًا من el.stage وحده بالسطر 859، ويُخفي بـhidden، ولا يحذف وسوم img المرجعية — فعدد المراجع في DOM المُسلسل يُتوقَّع 22، وهذا توقّع لا قياس، وقياسه هو غرض هذا الـPR.
+
+ونتائج القياس الأربعة في CI — حضور النصّ العربي والإنجليزي، وعدد مراجع SVG، ولقطة 412x892، ومستند الطباعة بـno-pdf-header-footer — Unknown حتى تشغيل الـjob، وتُقيَّد بسجل لاحق بعد التشغيل لا قبله على عرف الدفتر. والفشل إن وقع يُقيَّد ولا يُخفى، وهو نفسه مُشغِّل إعادة فتح مسألة package manager على عرف ADR-0011:108.
+
+ودين مقيس مؤجَّل ونطاقه قرار آخر: actions/checkout@11bd7190 وactions/setup-python@0b93645e يستهدفان Node.js 20 المُهمَل ويُجبَران على Node.js 24، وهو تحذير مقيس في مخرج run 59. وactions/upload-artifact@ea165f8d وهو v4.6.2 مقروءًا من واجهة git refs مُضاف في هذا الـPR ومن جنس الدين نفسه، وإضافته ليست ترقية: لم يُرقَّ أي SHA قائم في هذا الـPR. وسببها أن الحدّ السابع من ADR-0015 يصف اللقطة والطباعة artifacts للفحص البشري، والفحص البشري لا يقوم بلا رفعها.
+
+ونطاق هذا الـPR ثلاثة ملفات لا أكثر: إنشاء tools/browser_baseline.py وإنشاء .github/workflows/browser-baseline.yml بنهايات LF، وإلحاق هذا السجل بنهايات CRLF وبحذف صفر. وصفر تعديل في العارض والـCSS والأصول والـmanifests وverify_lesson.py وtests وverify-lessons.yml وindex.html و404.html وCNAME و.gitattributes وPROJECT_VISION.md وREADME.md والبروتوكول وأي ADR قائم. ولا ADR في هذا الـPR. ولا إدراج الـjob الجديد في required checks — وذلك إجراء مالك في إعدادات المستودع لا تغيير ملف، ولا يُطلب حتى يمرّ الـjob ثلاث مرات متتالية على الشجرة نفسها.
+
+الخطوة التالية الوحيدة: فتح PR 2 وانتظار Gate A على الفرع، وقراءة مخرج الـjob الجديد وتقييده، ثم قرار مالك. ولا PR 3 ولا اكتشاف ولا أي مرحلة من الخارطة.
