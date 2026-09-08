@@ -1,0 +1,51 @@
+# Browser baseline. Measurement only. Not Gate A.
+#
+# هذا الـjob منفصل تمامًا عن Gate A في verify-lessons.yml ولا يُدرج في
+# required checks — إدراجه إجراء مالك في إعدادات المستودع لا تغيير ملف.
+# ولا ينشر ولا يكتب ولا يلمس بايتًا منشورًا، ولا يبلغ مستودع العهدة الخاص.
+#
+# كل منطق القياس في tools/browser_baseline.py. هذا الملف يستدعيه ويقرأ حالة
+# خروجه، ولا يكرّر منطقًا. ولا setup-python فيه: python3 موجود في الصورة
+# وتقليل السطح مقصود. ولا تثبيت أي حزمة، ولا npm، ولا pip install.
+
+name: Browser baseline
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  baseline:
+    name: Browser baseline - CLI harness
+    runs-on: ubuntu-24.04
+    steps:
+      # actions/checkout v4.2.2
+      - name: Check out the repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+
+      - name: Report runner interpreter and browser candidates
+        run: |
+          python3 --version
+          echo "--- browser candidates on PATH ---"
+          for name in google-chrome google-chrome-stable chromium chromium-browser microsoft-edge microsoft-edge-stable; do
+            path="$(command -v "$name" || true)"
+            echo "$name -> ${path:-not found}"
+          done
+
+      - name: Run browser baseline harness
+        run: python3 tools/browser_baseline.py . --out "${{ runner.temp }}/browser-baseline"
+
+      # actions/upload-artifact v4.6.2
+      - name: Upload measurement artifacts
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: browser-baseline-artifacts
+          path: ${{ runner.temp }}/browser-baseline
+          if-no-files-found: warn
+          retention-days: 14
