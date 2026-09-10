@@ -85,7 +85,8 @@ Parmaga منصة تعليمية تستهدف السوق المصري وطلاب 
 │       ├── ADR-0014-viewer-control-affordance.md
 │       ├── ADR-0015-dependency-scope-and-ci-tooling.md
 │       ├── ADR-0016-lesson-entry-and-sitemap.md
-│       └── ADR-0017-curriculum-structure-and-lesson-index.md
+│       ├── ADR-0017-curriculum-structure-and-lesson-index.md
+│       └── ADR-0018-brand-icons-and-web-manifest.md
 ├── courses/
 │   └── programming-ai-baccalaureate-2/
 │       └── term-1/
@@ -192,6 +193,7 @@ Gate A في هذه المرحلة **إشارة تحقق فقط وليست حما
 - `ADR-0015-dependency-scope-and-ci-tooling.md`: يعرّف ما يُعدّ Dependency ويصنّف أدوات CI، ويحصر نطاق الأدوات المسموحة: بلا package manifest، وبلا npm أو pip install، وبلا CDN، وبلا Playwright أو Selenium، وبلا WebSocket أو DevTools Protocol يدويًا، وبلا شبكة خارجية في CI. يعلو على البنود المذكورة في قسم «البنود المعدَّلة» حصرًا، ولا يُعلن أي ADR قائمًا Superseded.
 - `ADR-0016-lesson-entry-and-sitemap.md`: نقطة دخول الدرس المنشور وتنفيذ `sitemap.xml` المستحق — الروابط بصيغة مجلد وشرطة نهائية بلا `index.html`، وقيم `loc` منسوخة حرفيًا من `canonical` الصفحة نفسها، وحذف `lastmod` واستبعاد ما لم يُنشر ومنه `/courses/`، ووصلة دخول مؤقتة واحدة من الرئيسة، و`robots.txt` يبقى مُدارًا من Cloudflare، وصفر CSS جديد.
 - `ADR-0017-curriculum-structure-and-lesson-index.md`: يستوعب بنية منهج البكالوريا 2 — ترمان وسبع وحدات وثلاثة وعشرون درسًا بعناوينها بالعربية والإنجليزية — بوصف هذا الملف السجل الواحد للحقيقة بلا ملف بيانات ولا generator، ويثبّت `chapter-NN` برقم الوحدة متصلًا عبر الترمين و`lesson-NN` بترتيبه داخلها، ويعرض المنهج كاملًا في الرئيسة برابط للمنشور ونصّ بلا رابط لما لم يُنشر، بصفر CSS جديد وبلا مساس بـ`sitemap.xml`.
+- `ADR-0018-brand-icons-and-web-manifest.md`: يوحّد كتلة الهوية في رأس كل صفحة، ويعتمد `--pg-navy-700` حبرًا للعلامة، ويضيف `manifest.webmanifest` بـ`minimal-ui`، ويؤجّل Service Worker بقرار بلا إذن تنفيذ.
 
 للعارض التفاعلي نمطان صريحان وفق `ADR-0008`: نمط تفاعلي يعرض صفحة نشطة واحدة على مسرح واحد، ونمط الدرس الكامل الذي يعيد الصفحات الـ22 ظاهرة بترتيبها. النمط الساكن الكامل هو الحالة الافتراضية قبل نجاح أول تركيب تفاعلي، وهو ما يعود إليه العرض عند أي فشل، والتبديل بينهما بفعل واحد دون إعادة تحميل الصفحة.
 
