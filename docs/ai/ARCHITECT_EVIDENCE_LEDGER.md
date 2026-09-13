@@ -135,6 +135,16 @@ Current approved phase: Phase 7.4 — نقل البروتوكولين وضبط �
 Current phase status: Closed — 2026-09-06، ولا مرحلة تالية مفتوحة ولا رقم ADR محجوز
 Baseline HEAD at Phase 7.4 Closeout reconciliation: 39875ec0f36670c4a88a8a3439af79cb3d22cd3e
 Baseline tree state at Phase 7.4 Closeout reconciliation: clean — main = origin/main
+Phase ADR-0019 decision implementation commit: 3e00ec67dcc01731c24447f69274195519d87abf
+Phase ADR-0019 decision merge parents: d011f68e0d3d74360d5fc2d1e2f25f1993cad044 + 3e00ec67dcc01731c24447f69274195519d87abf
+Phase ADR-0019 decision merged baseline: 60a37480515235ad4dac8693466ef4a70be1b4a6 via PR #34
+Phase ADR-0019 decision merged tree: 5eb68c20e5bab33ab611035a61874e9209e5bdc1 — مطابقة لشجرة implementation commit
+Phase ADR-0019 decision status: Closed — 2026-09-11
+قيد تصحيح — 2026-09-13: سطرا Current approved phase وCurrent phase status أعلاه يصفان آخر baseline للمرحلة 7.4، ولا يمثلان الحالة الراهنة بعد دمج ADR-0019. يبقيان سجلًا تاريخيًا، وتُقرأ الأسطر التالية بوصفها الحالة الأحدث.
+Current approved phase: ADR-0019 decision — Closed
+Current phase status: Awaiting Approval — تنفيذ واجهة Install Promotion يحتاج إذن مالك مستقلًا ولم يبدأ
+Baseline HEAD at ADR-0019 post-merge reconciliation: 60a37480515235ad4dac8693466ef4a70be1b4a6
+Baseline tree state at ADR-0019 post-merge reconciliation: clean — main = local origin/main tracking ref; live remote state Unknown
 ```
 
 حالة الشجرة عند اعتماد المرحلة أُثبتت بالأمر `git status --short --branch`، ومخرجه سطر الفرع وحده دون أي سطر حالة.
@@ -1167,3 +1177,18 @@ HEAD: d011f68e0d3d74360d5fc2d1e2f25f1993cad044 | الفرع: docs/adr-0019-insta
 المرحلة التالية الوحيدة: مراجعة حزمة القرار وفتح PR توثيقي
 شرط بدء المرحلة التالية: نجاح التحقق البعدي وموافقة المالك
 الخطوة التالية الوحيدة: مراجعة الفرق الكامل ثم staging للتحقق
+
+قيد إبطال — 2026-09-13: بلوك «دفتر التسليم» أعلاه يصف مرحلة قرار ADR-0019 بحالة `Awaiting Approval` عند HEAD d011f68e0d3d74360d5fc2d1e2f25f1993cad044 على الفرع docs/adr-0019-install-promotion-ui بشجرة dirty. كان صحيحًا في تاريخه، وهو الآن `Superseded`: نُفذت حزمة القرار في 3e00ec67dcc01731c24447f69274195519d87abf ودُمجت في 60a37480515235ad4dac8693466ef4a70be1b4a6 عبر PR #34 بmerge commit حقيقي بأبوين d011f68e0d3d74360d5fc2d1e2f25f1993cad044 و3e00ec67dcc01731c24447f69274195519d87abf، وشجرة الدمج مطابقة لشجرة التنفيذ. لا يُحذف النص التاريخي، ويُقرأ البلوك التالي وحده بوصفه عقد التسليم النشط.
+
+دفتر التسليم
+المرحلة الحالية: مصالحة إغلاق قرار ADR-0019 بعد دمج PR #34
+الحالة: Closed — مصالحة توثيقية فقط؛ لم يبدأ تنفيذ واجهة المنتج
+HEAD: 60a37480515235ad4dac8693466ef4a70be1b4a6 | الفرع: main | الشجرة قبل المصالحة: clean بما فيها غير المتتبّع والمتجاهَل
+الملفات المعدلة/المضافة: docs/ai/ARCHITECT_EVIDENCE_LEDGER.md وحده
+الأدلة الجديدة: لا صفوف §8 مضافة؛ أدلة Git المحلية مقيدة في §2 وفي قيد الإبطال أعلاه
+القرارات المعتمدة حرفيًا: لا جديد في §3؛ ADR-0019 كما دُمج بلا تعديل
+الأسئلة المفتوحة: G1 تبقى Unknown؛ وبنود التحقق المتصفحي والأجهزة في ADR-0019 لم تُغلق بهذه المصالحة
+الانحرافات: شرط direct body child غير مستوفى كما هو موثق في ADR-0019؛ وعقد التسليم السابق بقي بائدًا بعد الدمج حتى هذه المصالحة
+المرحلة التالية الوحيدة: قياس G1 في Chrome على بيئة النشر الحالية دون Service Worker
+شرط بدء المرحلة التالية: إذن مالك صريح وإجراء قراءة فقط يسجل وصول beforeinstallprompt أو عدمه بمخرج ملصق
+الخطوة التالية الوحيدة: انتظار قرار المالك بشأن الإذن بقياس G1
