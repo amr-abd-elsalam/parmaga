@@ -915,6 +915,254 @@ summary:focus-visible {
 }
 
 /* ==========================================================================
+   BEGIN pwa-install — Install Promotion UI (ADR-0019 D3، D7، §11 + ADR-0020)
+   قسم مكوّن معزول واحد. سحب الإذن = حذف كل ما بين BEGIN وEND.
+   لا قاعدة قائمة تُمسّ، ولا إعادة ترتيب لما قبله أو بعده.
+   صفر transform، وصفر filter، وصفر perspective، وصفر contain،
+   وصفر will-change، وصفر animation، وصفر transition.
+   الأساس display: none، والإظهار داخل @media screen وحده، فيبقى المكوّن
+   غير مطبوع بلا لمس كتلة الطباعة المجمدة (§11.8).
+   الطبقة 20، أدنى من 30 طبقة أدوات الدرس (§11.1)، والحوار في top layer
+   بلا z-index (§5). خصائص منطقية لأن الموقع RTL، وsafe-area محترمة.
+
+   ADR-0020: شريط سفلي كامل العرض على index وعلى 404 وحدهما، ولا شريط في
+   صفحة الدرس (E4 = تفعيل مسار F1 المنصوص في §11.6). والحجز دائم غير مشروط
+   اقتداءً بحجز أدوات العارض القائم، فصفر إزاحة عند الظهور والإخفاء. وخانة
+   CTA محجوزة داخل ابن .hero الأول فظهور الزر لا يغيّر ارتفاعه (E7). وثلاث
+   قواعد على عناصر مضيفة فقط ولا رابعة (E2). ولا قاعدة :focus-visible هنا:
+   القاعدة العامة element-based وثنائية الطبقة وأقوى على كل سطح (E10).
+   ========================================================================== */
+
+.pg-install,
+.pg-install-banner,
+.pg-install-cta,
+.pg-install-dialog {
+  display: none;
+}
+
+@media screen {
+  /* الحاضن: صفر أبعاد وخارج التدفق، فلا يصير عنصر شبكة في body الموسَّط في
+     404، ولا يحجز مساحة، ولا يعترض النقر. وz-index هنا وحده يضع المكوّن كله
+     في الطبقة 20 أدنى من 30 (§11.1)، والنافذة في top layer تتجاوزه (§5). */
+  .pg-install {
+    position: fixed;
+    display: block;
+    inset-block-end: 0;
+    inset-inline-start: 0;
+    inline-size: 0;
+    block-size: 0;
+    z-index: 20;
+  }
+
+  /* قاعدة مضيفة 1 و2 (E4): حجز دائم غير مشروط. يضمّ حشوة body القائمة
+     var(--pg-space-4) ولا يستبدلها، ويستعمل عين الخاصية التي تحدد ارتفاع
+     الشريط فلا توجد قيمة تخمينية مستقلة يمكن أن تنقص. */
+  .page-home,
+  .page-not-found {
+    --pg-install-bar-block-size: calc(var(--pg-touch-target) * 2 + var(--pg-space-7));
+    padding-block-end: calc(
+      var(--pg-space-4) + var(--pg-install-bar-block-size) +
+        env(safe-area-inset-bottom, 0px)
+    );
+  }
+
+  /* قاعدة مضيفة 3 (E7): خانة CTA محجوزة من أول رسم، فظهور الزر لا يغيّر
+     ارتفاع الحاضن ولا مرة، ولا يحرّك h1 عبر align-items: center في .hero. */
+  .hero > div:first-child {
+    --pg-install-cta-slot: calc(var(--pg-touch-target) + var(--pg-space-9));
+    position: relative;
+    padding-block-end: var(--pg-install-cta-slot);
+  }
+
+  /* الشريط: ارتفاعه معرَّف صراحةً لا مشتقًا من المحتوى، وطوله الكلي يساوي
+     المحجوز بالضبط. صفّان على الضيق وصف واحد عند 800px. */
+  .pg-install-banner {
+    position: fixed;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: var(--pg-space-2) var(--pg-space-3);
+    align-items: center;
+    inset-inline: 0;
+    inset-block-end: 0;
+    block-size: calc(
+      var(--pg-install-bar-block-size) + env(safe-area-inset-bottom, 0px)
+    );
+    padding-inline: var(--pg-space-4);
+    padding-block-start: var(--pg-space-1);
+    padding-block-end: env(safe-area-inset-bottom, 0px);
+    border-block-start: var(--pg-border-width) solid var(--pg-wood-700);
+    background-color: var(--pg-paper);
+    box-shadow: var(--pg-shadow-panel);
+  }
+
+  .pg-install-banner[hidden] {
+    display: none;
+  }
+
+  .pg-install-logo {
+    grid-row: 1;
+    grid-column: 1;
+    inline-size: 2rem;
+    block-size: 2rem;
+  }
+
+  .pg-install-heading {
+    grid-row: 1;
+    grid-column: 2;
+    min-inline-size: 0;
+    margin: var(--pg-space-0);
+    color: var(--pg-wood-700);
+    font-weight: var(--pg-font-weight-strong);
+    line-height: 1.2;
+  }
+
+  .pg-install-dismiss {
+    grid-row: 1;
+    grid-column: 3;
+    min-inline-size: var(--pg-touch-target);
+    min-block-size: var(--pg-touch-target);
+    padding-inline: var(--pg-space-1);
+    border: var(--pg-border-width) solid var(--pg-wood-700);
+    border-radius: var(--pg-radius-control);
+    background-color: var(--pg-paper);
+    color: var(--pg-wood-700);
+    font-family: inherit;
+    font-size: inherit;
+    line-height: 1.2;
+    cursor: pointer;
+    appearance: none;
+  }
+
+  /* CTA في خانته المحجوزة. التطبيع بخصائص مفردة لا شورت-هاند: font: inherit
+     يمسح font-weight: 700 الموروث من مجموعة .button لأن قسمنا لاحق (E10). */
+  .pg-install-cta {
+    position: absolute;
+    display: inline-flex;
+    inset-block-end: 0;
+    inset-inline-start: 0;
+    max-inline-size: 100%;
+    margin-block: var(--pg-space-0);
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    cursor: pointer;
+    appearance: none;
+    border-color: var(--pg-blue-500);
+    background: var(--pg-blue-500);
+    color: var(--pg-paper);
+  }
+
+  .pg-install-cta[hidden] {
+    display: none;
+  }
+
+  /* الخلفية تبقى زرقاء في hover فلا يعود CTA إلى Navy الموروث من
+     .button:hover ذي الوزن النوعي المساوي؛ والفرق غير اللوني تسطير وحدّ
+     أغمق. وقاعدة active العامة لا تضبط خلفية فتبقى الخانة زرقاء فيها. */
+  .pg-install-cta:hover {
+    border-color: var(--pg-navy-900);
+    background: var(--pg-blue-500);
+    color: var(--pg-paper);
+    text-decoration: underline;
+    text-underline-offset: var(--pg-space-1);
+  }
+
+  .pg-install-button {
+    grid-row: 2;
+    grid-column: 1 / -1;
+    min-inline-size: var(--pg-touch-target);
+    min-block-size: var(--pg-touch-target);
+    padding-inline: var(--pg-space-1);
+    border: var(--pg-border-width-strong) solid var(--pg-wood-700);
+    border-radius: var(--pg-radius-control);
+    background-color: var(--pg-wood-700);
+    color: var(--pg-paper);
+    box-shadow: var(--pg-shadow-panel);
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: var(--pg-font-weight-strong);
+    line-height: 1.2;
+    cursor: pointer;
+    appearance: none;
+  }
+
+  .pg-install-dialog[open] {
+    display: block;
+    max-inline-size: min(30rem, 92vw);
+    padding: var(--pg-space-1);
+    border: var(--pg-border-width-strong) solid var(--pg-wood-700);
+    border-radius: var(--pg-radius-control);
+    background-color: var(--pg-paper);
+    color: var(--pg-wood-700);
+    box-shadow: var(--pg-shadow-panel);
+  }
+
+  .pg-install-panel {
+    display: block;
+  }
+
+  .pg-install-title {
+    display: flex;
+    align-items: center;
+    gap: var(--pg-space-1);
+  }
+
+  .pg-install-icon {
+    inline-size: 1.5rem;
+    block-size: 1.5rem;
+    flex: none;
+  }
+
+  .pg-install-steps {
+    padding-inline-start: var(--pg-space-1);
+  }
+
+  .pg-install-close {
+    min-inline-size: var(--pg-touch-target);
+    min-block-size: var(--pg-touch-target);
+    padding-inline: var(--pg-space-1);
+    border: var(--pg-border-width-strong) solid var(--pg-wood-700);
+    border-radius: var(--pg-radius-control);
+    background-color: var(--pg-paper);
+    color: var(--pg-wood-700);
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    appearance: none;
+  }
+
+  html.pg-install-locked {
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .page-home,
+  .page-not-found {
+    --pg-install-bar-block-size: calc(var(--pg-touch-target) + var(--pg-space-7));
+  }
+
+  .hero > div:first-child {
+    --pg-install-cta-slot: calc(var(--pg-touch-target) + var(--pg-space-3));
+  }
+
+  .pg-install-banner {
+    grid-template-columns: auto 1fr auto auto;
+  }
+
+  .pg-install-button {
+    grid-row: 1;
+    grid-column: 3;
+  }
+
+  .pg-install-dismiss {
+    grid-column: 4;
+  }
+}
+
+/* END pwa-install */
+
+/* ==========================================================================
    Layer 5 — Print
    ========================================================================== */
 
