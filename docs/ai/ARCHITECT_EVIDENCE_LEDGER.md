@@ -1319,3 +1319,73 @@ diff --check صامت، وgit diff --cached --stat فارغ، وgit status غي�
 docs/decisions/ADR-0020-smart-install-banner-and-hero-cta.md، وكتلتين في
 tests/test_install_promotion_contract.py، وحذف هذا السجل، ولا شيء غير ذلك إذ لم
 يُمسّ كود المنتج.
+
+### مصالحة ما بعد دمج Install Promotion UI — PR #37 — 2026-09-16
+
+هذا السجل يصالح حالةً تجاوزها التنفيذ: السجل السابق مباشرةً كُتب قبل الالتزام
+وينصّ على صفر staging وصفر commit وصفر دمج، وكتلة التسليم التي تسبقه تنصّ على
+BLOCKED؛ وكلاهما كان صحيحًا لحظة كتابته. ولا يُعدَّل أيٌّ منهما بحرف، والمصالحة
+بالإلحاق وحده.
+
+وسبب التجاوز قرار مالك حرفي لاحق: «محتاجين نقفل الخطوة دى وندمج الفرع بتايتل
+ووصف بدون استخدام gh». وهذا القرار ينسخ صراحةً حظر برومبت المرحلة على staging
+وcommit وpush وPR، ويُسجَّل انحرافًا معلنًا بإذن مالك لا اجتهادًا تنفيذيًا. وقد
+سبقه تصحيح مالك لافتراض تنفيذي خاطئ: كان المنفّذ قد رفع احتمال ألا يظهر CTA بلا
+Service Worker، فأبلغ المالك أن الزر ظاهر فعلًا وأن التعديلات صحيحة، ويؤيده جرد
+assets/js/pwa-install.js إذ مسار iOS في السطور 130–135 و310 يبني الواجهة من
+heuristic منصة لا من beforeinstallprompt، والسطر 425 يُظهر CTA خارج مسار الحدث
+وحده. وهذه ملاحظة مالك مباشرة Reported لا قياسًا مخبريًا Confirmed.
+
+والالتزام تم بثمانية مسارات صريحة لا بـgit add -A ولا بنقطة، فبقيت ملفات .pyc
+الأربعة غير متتبَّعة كما كانت ولم يُنشأ .gitignore. وgit diff --cached --stat
+أعطى 8 files changed, 2180 insertions(+) وصفر حذف، موزَّعة: assets/js/pwa-install.js
+702 سطرًا جديدًا، وtests/test_install_promotion_contract.py 650، وADR-0020 467،
+وassets/css/parmaga.css 248، وهذا الدفتر 110، وسطر سكربت مؤجَّل واحد في كلٍّ من
+index.html و404.html وصفحة الدرس. وgit diff --cached --check صامت، وgit ls-files
+--eol أعطى i/crlf وw/crlf لكل من assets/css/parmaga.css وassets/js/pwa-install.js
+وADR-0020 وtests/test_install_promotion_contract.py وindex.html، فعرف CRLF محفوظ
+في الـindex وفي الشجرة معًا.
+
+وcommit التنفيذ 8820138 برسالة feat(pwa): install promotion UI with distinct blue
+hero CTA على صيغة type(scope): subject المعتمدة في المستودع، وجسمها ينصّ صراحةً
+على أن ADR-0020 يبقى Proposed وأن بوابة E13 لم تُنفَّذ. ودُفع الفرع بـgit push -u
+origin feat/install-promotion-ui إلى git@github.com:amr-abd-elsalam/parmaga.git.
+وفُتح PR #37 ودُمج من واجهة GitHub بلا استعمال gh، حفاظًا على عرف المستودع
+القائم على merge commit وعلى تشغيل Gate A وBrowser baseline على الـPR. وmerge
+commit هو 572245e727755542009ab419f193f588a3b7e11a، وصار رأس main وorigin/main
+بعد git pull --ff-only، ومخرج git log --oneline -3 يعطي 572245e Merge pull
+request #37 ثم 8820138 ثم 60746e2. والـbaseline السابق 60746e2 صار الأب الأول
+لـmerge commit.
+
+والتحقق بعد الدمج على main: الاختبارات بأمر PYTHONDONTWRITEBYTECODE=1 python3 -m
+unittest discover -s tests -p 'test_*.py' تعطي Ran 195 tests in 1.875s وOK؛
+وgit status --short --untracked-files=all يعطي ملفات .pyc الأربعة وحدها فصفر
+مخلفات جديدة وصفر تغيير غير ملتزم. ونتيجة Gate A ونتيجة Browser baseline على
+PR #37 لم تُقرأ محليًا ولا تُسجَّل هنا؛ وتبقى Unknown حتى تُقيَّد من واجهة
+Actions بأرقام run فعلية، على أن Gate A إشارة تحقق لا حماية دمج إلزامية وفق
+README.
+
+وبوابة E13 تبقى مفتوحة بعد الدمج ولا يغلقها الدمج: لا CLS ولا LCP ولا INP مقيسة
+قبل/بعد على أي صفحة، ولا تُستبدل بـTBT ولا FID ولا Lighthouse ولا CrUX، ولا
+يُكتب Confirmed على أي منها. وADR-0020 يبقى
+Proposed — Owner-approved reconciliation; pending E13 verification، ولا يُعاد إلى
+Accepted إلا بأرقام مقيسة ملصقة في هذا الدفتر. والفحص البصري المنهجي على العروض
+320 و360×640 و799 و800 و1280×800 لحالات normal وhover وactive وfocus-visible
+والطباعة لم يُنفَّذ بعد، والمسجَّل هو ملاحظة المالك المباشرة وحدها.
+
+والتراجع عن الدمج نفسه لم يعد soft reset لأن الفرع مدفوع ومدموج: المسار الوحيد
+النظيف هو git revert -m 1 572245e727755542009ab419f193f588a3b7e11a، ويعيد
+الصفحات الثلاث وCSS وJS وADR-0020 والاختبار إلى حالة 60746e2 دفعة واحدة.
+
+دفتر التسليم
+المرحلة الحالية: استكمال ADR-0020 بتمييز CTA وإصلاح قابلية تطبيق E13
+الحالة: BLOCKED — الكود مدموج في main بأمر مالك، وبوابة E13 غير مقيسة فلا اعتماد نهائي لـADR-0020
+HEAD: 572245e727755542009ab419f193f588a3b7e11a | الفرع: main = origin/main | الشجرة: نظيفة عدا أربعة ملفات .pyc غير متتبَّعة
+الملفات المعدلة: ثمانية مسارات في PR #37 بـ2180 إدراجًا وصفر حذف
+الأدلة الجديدة: merge 572245e وcommit 8820138؛ Ran 195 tests OK بعد الدمج؛ CRLF مؤكَّد بـgit ls-files --eol؛ التباين المُعاد حسابه محليًا 5.275831
+القرارات المعتمدة حرفيًا: الدمج بلا gh بعنوان ووصف؛ CTA أزرق وواتساب Navy؛ CLS/LCP للصفحات الثلاث وINP لصفحة الدرس وN/A مبرَّرة للرئيسية و404؛ وبقاء ADR-0020 Proposed لغياب الأرقام
+الأسئلة المفتوحة: أرقام E13 قبل/بعد؛ الفحص البصري المنهجي؛ نتائج Gate A وBrowser baseline على PR #37
+الانحرافات: نسخ حظر staging وcommit وpush وPR بأمر مالك — معلن ومسجَّل؛ وإغفال المنفّذ قراءة README والبروتوكولات في مستهل المرحلة — مُقَرٌّ به ومُصحَّح قبل أي أمر كتابة
+المرحلة التالية الوحيدة: بوابة E13 استكمالًا لهذه المرحلة لا مرحلة لاحقة
+شرط بدء المرحلة التالية: إقرار المالك ببدء القياس وتثبيت البيئة
+الخطوة التالية الوحيدة: تنفيذ E13 على baseline من worktree عند 60746e2 مقابل 572245e، أو تسجيل تأجيلها بقرار مالك
