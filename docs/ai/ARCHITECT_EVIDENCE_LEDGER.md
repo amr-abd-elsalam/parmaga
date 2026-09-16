@@ -1209,3 +1209,113 @@ HEAD: 70813c7e304e7f4346166a9491ee47d72ca65253 | الفرع: main | الشجرة
 المرحلة التالية الوحيدة: قرار مالك بشأن تنفيذ Install Promotion UI بـbaseline وPR مستقلين
 شرط بدء المرحلة التالية: إذن مالك صريح وbaseline جديد وPR منفصل وفق حدود ADR-0019 وADR-0018 §11
 الخطوة التالية الوحيدة: انتظار قرار المالك بشأن فتح PR توثيقي لهذا السجل ثم بشأن مرحلة التنفيذ
+
+### سجل تنفيذ Install Promotion UI — 2026-09-14
+
+نُفِّذت مرحلة Install Promotion UI وفق ADR-0019 على baseline 60746e2d067931c340b792259c73128e99c31cb5، بقرار المالك الحرفي: «أعتمد بدء تنفيذ Install Promotion UI وفق ADR‑0019 على baseline 60746e2d067931c340b792259c73128e99c31cb5، في فرع وPR مستقلين، وضمن النطاق والقيود المذكورة، مع تحديث دفتر الأدلة في الحزمة نفسها.» الفرع feat/install-promotion-ui، والشجرة قبل التنفيذ clean بما فيها غير المتتبع بمخرج git status --porcelain=v1 --untracked-files=all فارغ، وHEAD قبل الكتابة وبعدها هو الـbaseline نفسه إذ لم يُنشأ commit ولم يُنفَّذ staging ولا push ولا PR. الملفات الجديدة اثنان: assets/js/pwa-install.js وtests/test_install_promotion_contract.py، ونمط نهاية أسطرهما CRLF باختيار موثق بدليل مقيس لا بترجيح: git ls-files --eol يعطي i/crlf w/crlf لنظير كل منهما (assets/js/lesson-viewer.js وtests/test_lesson_ui_contract.py وtests/test_verify_lesson.py)، و.gitattributes لا يحوي إلا *.svg -text فلا قاعدة text عامة تتدخل، ولم يُمسّ .gitattributes. والملفات المعدلة خمسة: index.html و404.html وصفحة الدرس courses/programming-ai-baccalaureate-2/term-1/chapter-01/lesson-01/index.html بسطر <script src="/assets/js/pwa-install.js" defer></script> واحد لكل صفحة وفق D1، وassets/css/parmaga.css بقسم مكوّن معزول واحد بين علامتي BEGIN pwa-install وEND pwa-install مُدرَج قبل ترويسة Layer 5 — Print مباشرة وفق D3، وهذا السجل في docs/ai/ARCHITECT_EVIDENCE_LEDGER.md بالإلحاق وحده بلا تعديل أي سجل قائم. وانحراف معلن عن صياغة الخطة: index.html و404.html لم يكن فيهما أي سطر <script> قبل التنفيذ (grep -n '<script' أعطى مطابقة واحدة في الشجرة كلها هي سطر 26 في صفحة الدرس)، فكان العمل إدراج سطر جديد قبل </head> مرآةً لموضع سطر العارض لا تعديل سطر قائم، وجوهر D1 مستوفى: سطر <script defer> واحد لكل صفحة من الثلاث. وانحراف معلن ثانٍ: ADR-0019 لا يسمّي معرّف الجذر ولا الفئات ولا مفتاح الجلسة، فاعتُمدت السابقة --pg-install- المنصوص عليها في §6 أساسًا للتسمية: pg-install-root وفئات pg-install* ومفتاح sessionStorage واحد اسمه pg-install-dismissed. وانحراف معلن ثالث: القسم خالٍ من animation وtransition كليًا، فلم تُعرَّف خاصية المدة التي أجازها §6 ولم تُكتب كتلة prefers-reduced-motion، لأن إلغاء الحركة المطلوب في §7 متحقق بغيابها أصلًا. والملفات المحمية لم تُمسّ وبصماتها بعد التنفيذ مطابقة لما قبله: manifest.webmanifest bc2cb4f45f39e848fc215ef6e7f0d450aede55f9e9b4454c94e96e41d35e915c، وassets/js/lesson-viewer.js 01422204dcd5876e5e37c5082b75a8da7efa752820fd2107a2a009a483b0003a، وdocs/decisions/ADR-0019-install-promotion-ui.md 8bbb616d95771b5a2f082007545dde9e0222004a17af524856554307d433a464؛ وكتلة الطباعة المجمدة باقية 98 سطرًا ببصمة SHA-1 f8bf32aa9b06dd8d72704d6abab9a37a987a14c3 محسوبة بعد الكتابة لا قبلها. وملخص التطبيق: الحالة الافتراضية صامتة بلا أي عنصر في DOM، والجذر يُبنى hidden ثم لا يظهر إلا في prompt-ready بعد وصول beforeinstallprompt فعليًا أو في ios-manual ضمن نطاق §4؛ وpreventDefault في مسار الحدث وحده، ومرجع الحدث في ذاكرة السكربت ويُمسح قبل استدعاء prompt()؛ وprompt() لا يُستدعى إلا من مستمع click واحد على زر الترويج؛ وdismissed يفعّل suppression لبقية الجلسة براية sessionStorage واحدة بقراءة وكتابة محميتين باستثناء؛ وaccepted يخفي الواجهة ولا يُعامل بديلًا عن appinstalled الذي ينفذ الإخفاء والتنظيف وإزالة المستمعات؛ وفشل prompt أو رفض userChoice أو تعذّر sessionStorage كلها فشل ناعم بصفر console وبلا إعادة ظهور تلقائية؛ وكشف وضع التطبيق يطابق standalone أو minimal-ui أو fullscreen أو navigator.standalone بفحص تأكيدي على browser ومستمعات change؛ وكشف Safari heuristic من platform وmaxTouchPoints ووجود navigator.standalone بلا userAgent ولا أثر له على الحكم بوصول الحدث؛ ومسار iOS يصمت عند غياب HTMLDialogElement أو showModal؛ والنافذة <dialog> أصلية بـaria-modal وaria-labelledby وقائمة ol دلالية ورمز SVG مضمّن aria-hidden وإغلاق بـcancel وبزر «إغلاق» وبالنقر خارج اللوحة عبر wrapper مع اختبار حدود اللوحة، وإعادة التركيز إلى زر التثبيت عند close، وقفل تمرير بclass على html مع حفظ الموضع واستعادته دون position:fixed على body؛ وصفحة الدرس تُفحَص فيها F1 وقت التشغيل على سلسلة الحاويات قبل الإدراج ثم يُدرَج الجذر شقيقًا بعد .lesson-viewer-controls تحت main نفسه بتحقق compareDocumentPosition وبإزالة الجذر وإسقاط العرض عند أي فشل، والرئيسية و404 يُدرَج فيهما آخر body، ولا تكرار للجذر عند إعادة التنفيذ؛ وإخفاء المكوّن عند فتح لوحة العارض عقد CSS أخوي عام وحده وJavaScript لا يقرأ data-panel-open ولا يكتبه؛ وصفر Service Worker وصفر Cache API وصفر localStorage وصفر IndexedDB وصفر cookies وصفر طلب شبكة وصفر dependency وصفر innerHTML وصفر inline handler وصفر MutationObserver وصفر polling وصفر تعديل على lesson-viewer.js. والاختبارات لم تُنفَّذ في هذه الحزمة ونتائجها غير مسجَّلة هنا عن قصد: مشغّلها المقرر unittest حصرًا بأمر PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -p 'test_*.py'، وتُلحق نتائجها الفعلية ومخرجات git diff --check وtools/verify_lesson.py في سجل ثانٍ append-only بعد تشغيلها بيد المالك، ولا يُدّعى منها شيء قبل ذلك. ويبقى Unknown ولا يُفترض: كل بنود التحقق المتصفحي والأجهزة في ADR-0019 §11.9، ودعم <dialog> وshowModal() في المتصفحات المستهدفة، وfalse positives وfalse negatives في heuristic كشف Safari، وسلوك ما بعد التثبيت على iOS مع minimal-ui، وسلوك Chrome على أندرويد، ووصول الحدث على مسارات الدروس؛ وG1 الموجبة المقيسة على الجذر تعني وصول beforeinstallprompt وحده ولا تعني تلقائيًا صحة مسار prompt() ولا userChoice ولا appinstalled فهي ثلاثتها NOT VERIFIED هنا. والتراجع الكامل يبقى ميكانيكيًا وفق §14: حذف assets/js/pwa-install.js، وحذف ما بين BEGIN pwa-install وEND pwa-install في assets/css/parmaga.css، وحذف ثلاثة أسطر <script>، وحذف tests/test_install_promotion_contract.py.
+
+### سجل مصالحة ADR-0020 — 2026-09-16
+
+نُفِّذت مصالحة نصية واختبارية لـADR-0020 بقرار المالك الحرفي: «اعتمد الخطة واكتب برومبت المهندس التنفيذي»، ولا تغيير منتج فيها إطلاقًا. والـbaseline المقيس قبل التنفيذ: الفرع feat/install-promotion-ui، وHEAD 60746e2d067931c340b792259c73128e99c31cb5 مطابقًا لـmain ولـorigin/main بمخرج git rev-parse للثلاثة، وgit log --oneline -3 يعطي 60746e2 Merge pull request #36. والشجرة dirty بتغييرات Install Promotion UI وحدها بمخرج git status --short --untracked-files=all: خمسة ملفات معدَّلة هي 404.html وassets/css/parmaga.css وصفحة الدرس courses/programming-ai-baccalaureate-2/term-1/chapter-01/lesson-01/index.html وdocs/ai/ARCHITECT_EVIDENCE_LEDGER.md وindex.html، وثلاثة ملفات نطاق غير متتبَّعة هي assets/js/pwa-install.js وdocs/decisions/ADR-0020-smart-install-banner-and-hero-cta.md وtests/test_install_promotion_contract.py، وأربعة ملفات .pyc غير متتبَّعة في tests/__pycache__ وtools/__pycache__ لم تُحذف ولم يُنشأ .gitignore لغياب إذن مالك. وgit diff --stat يعطي 5 files changed, 241 insertions(+) منها 234 في assets/css/parmaga.css، وgit diff --cached --stat فارغ وgit stash list فارغ، فصفر staging وصفر commit. وHEAD بعد هذه الحزمة هو الـbaseline نفسه ولا يتغير حتى يُنفَّذ commit، ولم يُنفَّذ commit ولا push ولا PR. والملفات المصونة لم تُمسّ ببايت، وبصماتها المقيسة قبل التنفيذ بـsha256sum هي: index.html 00fec0e034568eb4173af47d99e0d9aa813d5f1e431fb1967f4f705b469de8d1، و404.html 44778735a67d9b08b3e2e016b0e81044a5e7145ac9c664ec2fb59a85fb4319e8، وصفحة الدرس 7bd2afe45f54bbfa493f8bba20c5eca46495448b7e9386d5a76bd1e28296e92f، وassets/css/parmaga.css 1faad95d924135bac720e47f17472827cac1cf6b8f3575c6e601e96dba31e0e2، وassets/js/pwa-install.js 86e8ee90dcfa4b40cdb7e3beae1146a3269dd3f08c9d5aecb9f9c046f5cc339f، وdocs/decisions/ADR-0019-install-promotion-ui.md 8bbb616d95771b5a2f082007545dde9e0222004a17af524856554307d433a464، و.gitattributes 3536d4e1764291a9d0f880e9f657f0b0c3771153f1e39f72ad6e40f8f26207a6. ونمط الأسطر CRLF كامل قبل التنفيذ بعدّ البايتات: ADR-0020 393/393، وtests/test_install_promotion_contract.py 561/561، وهذا الدفتر 1215/1215. وجوهر المصالحة أن ADR-0020 كان يصف عقدًا عدديًا مخالفًا للتنفيذ المقيس، فصُحِّح النص لا الكود: صيغة العرض الضيق في assets/css/parmaga.css:962 هي calc(var(--pg-touch-target) * 2 + var(--pg-space-7)) وناتجها 112px، وصيغة 800px وما فوق في :1128 هي calc(var(--pg-touch-target) + var(--pg-space-7)) وناتجها 68px، بالرمزين --pg-space-7: 24px في :41 و--pg-touch-target: 44px في :73؛ بينما كانت E4 تنص على touch-target + space-7 ضيقًا وtouch-target + space-2 عند 800px، أي 68px و54px. وانحرافات ADR المعلنة صارت أربعة بعد أن كانت اثنين: جذر pg-install-root بدل حرف E2؛ و112px بصفّين بدل سقف 72px؛ و68px عند 800px بدل صيغة 54px؛ والإخفاء الافتراضي بـdisplay: none مع حصر الإظهار والحجز في @media screen بدل إنشاء @media print داخل القسم المعزول. وأُسقط من E4 ومن E14 ادعاء بقاء الارتفاع دون 72px، وسُجِّل نقض السقف عمدًا مع نصّ صريح بأن 112px لا يُدّعى تحقيقه لإرشاد «جزء صغير من الشاشة». وانحراف سادس اكتشفه المنفّذ ولم يكن مُعدَّدًا في برومبت المرحلة: E4 كانت تصف قيمة الحجز بأنها calc(var(--pg-install-bar-block-size) + env(safe-area-inset-bottom, 0px)) بينما التنفيذ في :964 يضيف var(--pg-space-4) على padding-block-end، وهو مؤكَّد بثلاث assertions قائمة في test_reservation_is_permanent_and_preserves_body_padding، فصُحِّح النص. وأُضيف حارس عددي واحد في tests/test_install_promotion_contract.py داخل TestStyles باسم test_bar_height_formulas_resolve_to_112px_and_68px، يستخرج الرمزين من CSS الفعلي بمطابقة وحدانية لكل منهما، ويثبت 44 و24 و44×2+24=112 و44+24=68، ويثبت وحدانية كل من الصيغتين داخل القسم المعزول، ويثبت ترتيب الصيغة الضيقة ثم @media screen and (min-width: 800px) ثم الصيغة الواسعة، بلا eval وبلا parser عام لـCSS. ولم تُضعَف أي assertion قائمة: البنود التي كانت منفّذة سلفًا لم تُكرَّر، وهي عدّ تعريفات --pg-install-bar-block-size عند اثنين في :469، وربط الحجز بالمتغير نفسه في :467، ونفي @media print من القسم المعزول في :503، وبصمة كتلة الطباعة المجمّدة 98 سطرًا بـSHA-1 f8bf32aa9b06dd8d72704d6abab9a37a987a14c3 في :510-519. وأُعيد توجيه تثبيت حالة القرار: كان test_adr_0020_is_accepted_and_complete يؤكد '## Status\r\nAccepted' وينفي سطر Proposed المجرد، فصار test_adr_0020_status_and_completeness يؤكد الحالة الانتقالية بمساواة نصية دقيقة وينفي سطر Accepted صراحةً، والاسم محايد بين المرحلتين فلا يحتاج إعادة تسمية عند الإغلاق. والاختبارات قبل المصالحة نُفِّذت بيد المالك وأعطت Ran 191 tests OK بأمر PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests، وقائمة git status بعد التشغيل مطابقة لما قبله فلا مخلفات bytecode جديدة؛ ونتائج ما بعد المصالحة غير مسجَّلة هنا عن قصد وتُلحق في سجل الإغلاق بمخرجها الفعلي. وبوابة E13 لم تُنفَّذ: لا قياس CLS ولا LCP ولا INP قبل/بعد، ومسار قياس INP لم يُحسم بعد، ولذلك حالة ADR-0020 صارت Proposed — Owner-approved reconciliation; pending E13 verification ولا تُعدّ مقبولة نهائيًا، ولا يُكتب Confirmed على أي من المقاييس الثلاثة. ويبقى Unknown ولا يُفترض: كل بنود التحقق المتصفحي والأجهزة في ADR-0019 §11.9 وE13، وأثر التنفيذ الفعلي على CLS وLCP وINP، وسلوك احتساب الزمن المرئي عبر تعليق التبويب وتجميد الصفحة، وصحة مسار prompt ثم userChoice ثم appinstalled. وملاحظة مؤجَّلة لم تُنفَّذ: ملفات .pyc الأربعة وغياب .gitignore يبقيان قرار مالك. والتراجع عن هذه الحزمة وحدها ميكانيكي: عكس خمس كتل نصية في ADR-0020، وعكس كتلتين في tests/test_install_promotion_contract.py، وحذف هذا السجل من الدفتر، ولا شيء غير ذلك إذ لم يُمسّ كود المنتج.
+
+دفتر التسليم
+المرحلة الحالية: مصالحة ADR-0020 وحراسة هندسته العددية قبل الاعتماد النهائي
+الحالة: BLOCKED — المصالحة وإصلاحها مطبَّقان نصيًا، وبوابة E13 لم تُقَس فلا اعتماد نهائي لـADR-0020؛ وحالة Open السابقة كانت انحرافًا عن حالات §10 و§21 وقد صُحِّحت
+HEAD: 60746e2d067931c340b792259c73128e99c31cb5 | الفرع: feat/install-promotion-ui | الشجرة: dirty بتغييرات Install Promotion UI وحدها، بلا staging ولا commit
+الملفات المعدلة: docs/decisions/ADR-0020-smart-install-banner-and-hero-cta.md وtests/test_install_promotion_contract.py وdocs/ai/ARCHITECT_EVIDENCE_LEDGER.md؛ وصفر تغيير في كود المنتج ببصمات sha256 مسجَّلة
+الأدلة الجديدة: صيغتا الارتفاع المقيستان من CSS وناتجهما 112px و68px، وحارس عددي يمنع الانزياح، وبصمات الملفات المصونة، وعدّ CRLF للملفات غير المتتبَّعة
+القرارات المعتمدة حرفيًا: الحفاظ على 112px و68px ومسار screen-only بلا تعديل منتج؛ ومصالحة النص لا الكود؛ واعتماد Chrome DevTools Performance → Live metrics مسارًا وحيدًا لقياس CLS وLCP وINP بلا dependency ولا أداة مكتوبة في المستودع، بقيوده الخمسة عشر ومنها baseline من worktree عند origin/main والمنفذ نفسه بالتتابع، وثلاث جولات لكل صفحة لكل نسخة بقيم خام معلنة والوسيط للمقارنة، وLocal metrics بتعطيل CrUX، ومنع استبدال INP بـLighthouse أو TBT أو FID، ومنع القياس على تفاعل غير مشترك مثل زر التثبيت، ورفع Blocker عند غياب تفاعل مشترك غير انتقالي قابل للتكرار
+الأسئلة المفتوحة: أرقام E13 قبل/بعد للصفحات الثلاث، ومسار قياس INP المسموح، وبنود المتصفحات والأجهزة غير المقيسة
+الانحرافات: انحراف سادس مُصحَّح لم يكن مُعدَّدًا في البرومبت، هو غياب var(--pg-space-4) من وصف الحجز في E4؛ وإعادة توجيه اختبار حالة ADR لأنه كان يثبّت Accepted
+المرحلة التالية الوحيدة: غير محددة حتى إغلاق المرحلة الحالية؛ وبوابة E13 استكمال لهذه المرحلة لا مرحلة لاحقة، وقد كان وصفها مرحلةً تاليةً انحرافًا صُحِّح هنا
+شرط بدء المرحلة التالية: نجاح E13 وإغلاق ADR-0020 بحالة Accepted بأرقام مقيسة ملصقة
+الخطوة التالية الوحيدة: تقديم E13 Measurement Readiness Report بجرد التفاعلات المشتركة في الصفحات الثلاث وviewport وطريقة إعادة الحالة بين الجولات وطريقة تسجيل Local CLS وLCP وINP، ولا يبدأ أي رقم قبل إقراره ولا إن تعذّرت مقارنة INP بعدالة
+
+### سجل تمييز CTA ومصالحة قابلية تطبيق E13 — 2026-09-16
+
+قرار المالك الحرفي: «اعتمد الخطة المعدلة واكتب برومبت المهندس التنفيذي الجديد.»
+وكتلة التسليم التي تسبق هذا السجل مباشرة لم تُعدَّل بحرف، وتُنسَخ بالموضع لا
+بالتحرير التزامًا بقاعدة الإلحاق فقط.
+
+والـbaseline المقيس قبل هذه الحزمة: الفرع feat/install-promotion-ui، وHEAD
+60746e2d067931c340b792259c73128e99c31cb5 مطابقًا لـmain ولـorigin/main بمخرج
+git rev-parse للثلاثة. والشجرة dirty بتغييرات Install Promotion UI وحدها:
+git diff --stat قبل هذه الحزمة يعطي 5 files changed, 258 insertions(+) موزَّعة
+234 في assets/css/parmaga.css وسطر سكربت واحد في كلٍّ من index.html و404.html
+وصفحة الدرس و21 في هذا الدفتر، وgit diff --cached --stat فارغ وgit stash list
+فارغ وgit diff --check نظيف، فصفر staging وصفر commit وصفر push وصفر PR.
+وبصمة assets/css/parmaga.css قبل التعديل
+1faad95d924135bac720e47f17472827cac1cf6b8f3575c6e601e96dba31e0e2. وأربعة ملفات
+.pyc غير متتبَّعة لم تُحذف ولم يُنشأ .gitignore لغياب إذن مالك.
+
+وتغيير CSS محدود في قاعدتين داخل القسم المعزول ولا ثالثة: أُضيفت إلى
+.pg-install-cta ثلاث خصائص لونية بالتوكنات وحدها هي border-color وbackground
+بـvar(--pg-blue-500) وcolor بـvar(--pg-paper)؛ وأُنشئت .pg-install-cta:hover عند
+السطر 1062 بحدّ var(--pg-navy-900) وخلفية var(--pg-blue-500) ونص var(--pg-paper)
+وتسطير بـtext-underline-offset من var(--pg-space-1). وسند قاعدة hover تقني لا
+تجميلي: .button:hover وزنها النوعي 0,2,0 فلا يغلبها override بوزن 0,1,0 مهما
+تأخر، فلولا القاعدة لعاد CTA إلى Navy عند المرور. وقاعدة .button:active المقيسة
+في الأسطر 194–201 لا تضبط background إطلاقًا، وهو مثبَّت بحارس اختبار جديد،
+فخلفية CTA تبقى زرقاء في active سواء تزامن مع hover أو لم يتزامن، ولم يُنشأ لها
+override. ولم تُنشأ قاعدة .pg-install-cta:focus-visible، فالقاعدة العامة
+element-based ثنائية الطبقة في الأسطر 213–215 باقية. ولم تُمسّ .button العامة
+ولا HTML ولا JavaScript ولا كتلة الطباعة المجمّدة، وصفر transition وصفر transform
+وصفر animation فعلية في الملف كله بمخرج grep، وما ظهر منها في الأسطر 94 و193
+و921 تعليقات وفي 897–898 داخل prefers-reduced-motion.
+
+والتباين مُعاد حسابه محليًا من قيمتي :root الفعليتين --pg-paper: #FDFBF2 في
+السطر 15 و--pg-blue-500: #2E6DA4 في السطر 20، بصيغة WCAG 2.x على sRGB، وأعطى
+paper=0.962878 وblue=0.141985 وratio=5.275831، أي 5.2758:1 فوق عتبة 4.5:1
+(Confirmed). ولم يُنسخ الرقم من تقرير سابق.
+
+ومصالحة E10 نصية: كانت تعطف CTA على زر إجراء الشريط في --pg-wood-700، وهو وصف
+صحيح لـ.pg-install-button وحده بدليل الحد والخلفية في الأسطر 1062–1065 قبل
+التعديل، فبقي وصف زر الشريط كما هو وصُحِّح عطف CTA وحده. ومصالحة E13 استبدلت
+عقدًا غير قابل للتنفيذ بمصفوفة صريحة: CLS وLCP مطلوبان قبل/بعد على الصفحات
+الثلاث، وINP مطلوب على صفحة الدرس وحدها بعيّنة <summary> الأصلية، وN/A مبرَّرة
+على index.html و404.html.
+
+وسند N/A جردٌ مقيس لا منقول: grep -c -o -E على
+'<(button|details|summary|select|input|textarea)\b' يعطي صفرًا في index.html
+و404.html في شجرة العمل وفي git show origin/main للملفين معًا، وgrep على
+href="#" يعطي صفر مطابقة فيهما. وصفحة الدرس تعطي 22 عنصر <summary> في النسختين
+بترتيب عناصر متطابق، وفرقها الوحيد عن origin/main سطر
+<script src="/assets/js/pwa-install.js" defer> واحد بمخرج git diff. وN/A قرار
+انطباق لا نجاح أداء، ولا تُقرأ Pass ولا Unknown، ولا تُعدّ إعفاءً دائمًا.
+
+وملاحظة نطاق مسجَّلة: صفحة الدرس مستثناة سلوكيًا من الترويج بدليل
+test_lesson_page_is_excluded، لكنها تحمّل ملف pwa-install.js المؤجَّل في
+التنفيذ، فقياس LCP وINP عليها يقارن كلفة تحميل سكربت مؤجَّل وأثر CSS، لا أثر
+شريط ترويج، ولا يُقرأ رقمها على غير ذلك.
+
+وأُضيفت ثلاثة حراس اختبار ولم تُضعَف أي assertion قائمة: حارس ألوان CTA وhover
+بلا raw hex وبلا حركة وبنفي .pg-install-cta:focus-visible؛ وحارس ثبات عقد
+.button العام بما فيه أن .button:active لا تضبط background؛ وحارس نصّي لـADR
+يثبت 5.2758:1 وبقاء واتساب Navy ويثبت وجود خليتي N/A بالصيغة المعتمدة مرتين
+بالضبط وينفي بقاء جملة فرض INP على الصفحات الثلاث. وحارس حالة القرار
+test_adr_0020_status_and_completeness لم يُمسّ، فالحالة تبقى انتقالية.
+
+والتحقق بعد التطبيق مقيس لا مُدَّعى: الاختبارات بأمر
+PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -p 'test_*.py'
+تعطي Ran 195 tests in 1.875s وOK، بزيادة ثلاثة اختبارات عن 192 السابقة. والأسطر
+بعد التعديل مع CRLF كامل: assets/css/parmaga.css 1266/1266، وADR-0020 467/467،
+وtests/test_install_promotion_contract.py 650/650، وهذا الدفتر 1232/1232 قبل
+إلحاق هذا السجل. والملفات المصونة لم تتغير ببايت بعد التعديل:
+index.html 00fec0e034568eb4173af47d99e0d9aa813d5f1e431fb1967f4f705b469de8d1،
+و404.html 44778735a67d9b08b3e2e016b0e81044a5e7145ac9c664ec2fb59a85fb4319e8،
+وassets/js/pwa-install.js
+86e8ee90dcfa4b40cdb7e3beae1146a3269dd3f08c9d5aecb9f9c046f5cc339f، وصفحة الدرس
+7bd2afe45f54bbfa493f8bba20c5eca46495448b7e9386d5a76bd1e28296e92f. وgit
+diff --check صامت، وgit diff --cached --stat فارغ، وgit status غير متغير عن
+الـbaseline في عدد الملفات وأنواعها فلا مخلفات bytecode جديدة. وبصمات الملفات
+الأربعة المعدَّلة لا تُثبَّت هنا لأنها ستتغير مرة أخرى في حزمة الإغلاق،
+وتُسجَّل هناك بقيمها النهائية.
+
+وبوابة E13 لم تُنفَّذ في هذه الحزمة: لا CLS ولا LCP ولا INP مقيسة قبل/بعد، ولا
+يُكتب Confirmed على أي منها، ولا تُستبدل بـTBT ولا FID ولا Lighthouse ولا CrUX.
+وADR-0020 يبقى Proposed — Owner-approved reconciliation; pending E13 verification
+ولا يُعاد إلى Accepted إلا بأرقام مقيسة ملصقة. والتراجع عن هذه الحزمة وحدها
+ميكانيكي: عكس كتلتين في assets/css/parmaga.css، وكتلتين في
+docs/decisions/ADR-0020-smart-install-banner-and-hero-cta.md، وكتلتين في
+tests/test_install_promotion_contract.py، وحذف هذا السجل، ولا شيء غير ذلك إذ لم
+يُمسّ كود المنتج.
