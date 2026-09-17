@@ -1162,6 +1162,117 @@ summary:focus-visible {
 
 /* END pwa-install */
 
+/* BEGIN lesson-board */
+
+.pg-lesson-board-root,
+.pg-lesson-board-dialog {
+  display: none;
+}
+
+@media screen {
+  .pg-lesson-board-root {
+    display: block;
+    position: fixed;
+    inset-inline-start: auto;
+    inset-inline-end: var(--pg-float-inset);
+    inset-block-end: calc(var(--pg-float-inset) + env(safe-area-inset-bottom, 0px));
+  }
+
+  .pg-lesson-board-dialog[open] {
+    display: grid;
+    grid-template-rows: auto minmax(0, 1fr);
+    gap: var(--pg-space-1);
+    inline-size: calc(100% - (var(--pg-space-1) * 2));
+    block-size: calc(100% - (var(--pg-space-1) * 2));
+    margin: auto;
+    padding: var(--pg-space-1);
+    overflow: hidden;
+    border: var(--pg-focus-width) solid var(--pg-wood-700);
+    border-radius: var(--pg-radius-control);
+    background: var(--pg-paper);
+    color: var(--pg-navy-700);
+    box-shadow: var(--pg-shadow-panel);
+  }
+
+  .pg-lesson-board-dialog::backdrop {
+    background: var(--pg-shadow);
+  }
+
+  .pg-lesson-board-title,
+  .pg-lesson-board-status {
+    position: absolute;
+    inline-size: var(--pg-border-width);
+    block-size: var(--pg-border-width);
+    margin: calc(var(--pg-border-width) * -1);
+    padding: var(--pg-space-0);
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  .pg-lesson-board-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--pg-space-1);
+    align-items: center;
+  }
+
+  .pg-lesson-board-button {
+    min-inline-size: var(--pg-touch-target);
+    min-block-size: var(--pg-touch-target);
+    padding-block: var(--pg-space-1);
+    padding-inline: var(--pg-space-2);
+    border: var(--pg-focus-width) solid var(--pg-wood-700);
+    border-radius: var(--pg-radius-control);
+    background: var(--pg-paper);
+    color: var(--pg-navy-700);
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: var(--pg-font-weight-strong);
+    cursor: pointer;
+  }
+
+  .pg-lesson-board-button[aria-pressed="true"] {
+    background: var(--pg-navy-700);
+    color: var(--pg-paper);
+  }
+
+  .pg-lesson-board-button:disabled {
+    opacity: calc(1 / 2);
+    cursor: default;
+  }
+
+  .pg-lesson-board-open {
+    box-shadow: var(--pg-shadow-panel);
+  }
+
+  .pg-lesson-board-surface {
+    min-block-size: 0;
+    overflow: hidden;
+    border: var(--pg-focus-width) solid var(--pg-rule);
+    border-radius: var(--pg-radius-control);
+    background: var(--pg-paper);
+  }
+
+  .pg-lesson-board-canvas {
+    display: block;
+    inline-size: 100%;
+    block-size: 100%;
+    min-block-size: 0;
+    background: var(--pg-paper);
+    touch-action: none;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .pg-lesson-board-root {
+    inset-inline-start: var(--pg-float-inset);
+    inset-inline-end: auto;
+  }
+}
+
+/* END lesson-board */
+
 /* ==========================================================================
    Layer 5 — Print
    ========================================================================== */
