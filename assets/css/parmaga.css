@@ -1179,23 +1179,29 @@ summary:focus-visible {
   }
 
   .pg-lesson-board-dialog[open] {
-    display: grid;
-    grid-template-rows: auto minmax(0, 1fr);
-    gap: var(--pg-space-1);
-    inline-size: calc(100% - (var(--pg-space-1) * 2));
-    block-size: calc(100% - (var(--pg-space-1) * 2));
-    margin: auto;
-    padding: var(--pg-space-1);
+    display: block;
+    position: relative;
+    inline-size: 100%;
+    block-size: 100%;
+    max-inline-size: none;
+    max-block-size: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
-    border: var(--pg-focus-width) solid var(--pg-wood-700);
-    border-radius: var(--pg-radius-control);
-    background: var(--pg-paper);
+    border: 0;
+    border-radius: 0;
+    background: transparent;
     color: var(--pg-navy-700);
-    box-shadow: var(--pg-shadow-panel);
+    box-shadow: none;
+  }
+
+  .pg-lesson-board-dialog[open]:modal {
+    position: fixed;
+    inset: 0;
   }
 
   .pg-lesson-board-dialog::backdrop {
-    background: var(--pg-shadow);
+    background: transparent;
   }
 
   .pg-lesson-board-title,
@@ -1211,17 +1217,35 @@ summary:focus-visible {
   }
 
   .pg-lesson-board-toolbar {
+    position: absolute;
+    inset-block: var(--pg-space-1);
+    inset-inline-end: var(--pg-space-1);
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: var(--pg-space-1);
-    align-items: center;
+    max-block-size: calc(100% - (var(--pg-space-1) * 2));
+  }
+
+  .pg-lesson-board-tools {
+    display: flex;
+    flex-direction: column;
+    gap: var(--pg-space-1);
+    min-block-size: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .pg-lesson-board-close {
+    flex: 0 0 auto;
+    margin-block-start: auto;
   }
 
   .pg-lesson-board-button {
+    flex: 0 0 auto;
     min-inline-size: var(--pg-touch-target);
     min-block-size: var(--pg-touch-target);
     padding-block: var(--pg-space-1);
-    padding-inline: var(--pg-space-2);
+    padding-inline: var(--pg-space-1);
     border: var(--pg-focus-width) solid var(--pg-wood-700);
     border-radius: var(--pg-radius-control);
     background: var(--pg-paper);
@@ -1247,19 +1271,24 @@ summary:focus-visible {
   }
 
   .pg-lesson-board-surface {
+    position: absolute;
+    inset: 0;
     min-block-size: 0;
-    overflow: hidden;
-    border: var(--pg-focus-width) solid var(--pg-rule);
-    border-radius: var(--pg-radius-control);
-    background: var(--pg-paper);
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
   }
 
   .pg-lesson-board-canvas {
     display: block;
     inline-size: 100%;
-    block-size: 100%;
+    block-size: auto;
     min-block-size: 0;
-    background: var(--pg-paper);
+    border: 0;
+    background: transparent;
+    box-shadow: none;
     touch-action: none;
   }
 }
