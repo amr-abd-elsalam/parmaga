@@ -30,6 +30,12 @@ HTML_PATH = (
     / "index.html"
 )
 VIEWER_PATH = ROOT / "assets" / "js" / "lesson-viewer.js"
+ADR_0022_PATH = (
+    ROOT
+    / "docs"
+    / "decisions"
+    / "ADR-0022-transparent-lesson-ink-overlay.md"
+)
 
 SECTION_BEGIN = "/* BEGIN lesson-board */"
 SECTION_END = "/* END lesson-board */"
@@ -82,6 +88,155 @@ def has_complete_crlf(path):
 JS_READY = JS_PATH.is_file()
 CSS_TEXT = read_text(CSS_PATH)
 CSS_READY = SECTION_BEGIN in CSS_TEXT and SECTION_END in CSS_TEXT
+
+
+class TestADR0022(unittest.TestCase):
+    """عقود القرار المعماري المقبول قبل تعديل المنتج."""
+
+    @classmethod
+    def setUpClass(cls):
+        if not ADR_0022_PATH.is_file():
+            raise AssertionError(f"ADR-0022 غير موجود: {ADR_0022_PATH}")
+        cls.adr = read_text(ADR_0022_PATH)
+
+    def test_status_relationship_and_model_are_explicit(self):
+        for token in (
+            "Accepted — Owner-approved; implementation pending",
+            "ADR-0021",
+            "يعلو ADR-0022 على ADR-0021 فقط",
+            "النموذج A+",
+            "ليست document/content-anchored",
+            "ثلاثة أضعاف ارتفاع viewport",
+        ):
+            self.assertIn(token, self.adr, token)
+
+    def test_transparency_is_visual_but_modal_is_not_click_through(self):
+        for token in (
+            "native modal dialog",
+            "`dialog`",
+            "Canvas",
+            "حاوية السطح",
+            "`::backdrop`",
+            "شفافة بصريًا",
+            "inert",
+            "click-through",
+            "لا توجد ورقة بيضاء",
+            "لا إطار كبير",
+            "لا ظل",
+            "لا يحتاج الحوار أو Canvas إلى `z-index`",
+            "لا يعدل إعداد viewport",
+        ):
+            self.assertIn(token, self.adr, token)
+
+    def test_canvas_coordinates_resize_and_session_are_decided(self):
+        for token in (
+            "Canvas واحدة فقط",
+            "boardX = clientX - scrollerRect.left",
+            "boardY = clientY - scrollerRect.top + scroller.scrollTop",
+            "يقاس `scrollerRect` عند بداية الضربة",
+            "لا يستدعى `getBoundingClientRect()` لكل عينة",
+            "لا يدخل `scrollLeft` في حساب الرسم",
+            "لا يغير DPR الإحداثيات المنطقية",
+            "لا يستخدم transform لعكس Canvas",
+            "تنتهي الضربة بصورة منضبطة قبل تغيير الأبعاد",
+            "تحجيم موحد يحافظ على النسبة",
+            "يبقى Undo وRedo صالحين",
+            "لا يحدث replay بسبب scroll العادي",
+        ):
+            self.assertIn(token, self.adr, token)
+
+    def test_vertical_pan_colors_and_eraser_are_decided(self):
+        for token in (
+            "وضع مستقل اسمه `pan`",
+            "initialScrollTop + initialClientY - currentClientY",
+            "scrollHeight - clientHeight",
+            "لا يعدل PAN قيمة `scrollLeft`",
+            "لا يسمح بحركة أفقية",
+            "--pg-navy-700",
+            "--pg-red-600",
+            "تخزن كل ضربة رسم اللون الذي بدأت به",
+            "الممحاة لا تعتمد على لون",
+            "عرض الممحاة مستقل تمامًا عن عرض القلم",
+            "5% من أصغر بعد منطقي للـviewport",
+            "`destination-out`",
+            "لا يستخدم `crosshair`",
+        ):
+            self.assertIn(token, self.adr, token)
+
+    def test_input_performance_and_dpr_cap_are_decided(self):
+        for token in (
+            "الإصبع هو مسار الإدخال الأساسي",
+            "pointer capture",
+            "coalesced events",
+            "fallback إلى pointer event العادي",
+            "العينات المكررة",
+            "timestamp أقدم",
+            "عينة `pointerup` إذا كانت مكررة",
+            "يثبت mode واللون عند بداية الضربة",
+            "لا يستخدم `pendingSamples.shift()`",
+            "read index",
+            "لا يحدث replay داخل `pointermove` أو `drawIncrement` أو scroll",
+            "8,294,400 backing-store pixels",
+            "effectiveDPR",
+            "sqrt(8294400 / logicalArea)",
+            "أقل من 1",
+            "لا تنشأ Canvas ثانية",
+        ):
+            self.assertIn(token, self.adr, token)
+
+    def test_tools_have_short_visible_text_and_full_arabic_names(self):
+        expected = {
+            "BD": "فتح البورد",
+            "NV": "الرسم باللون الكحلي",
+            "RD": "الرسم باللون الأحمر",
+            "ER": "الممحاة",
+            "PAN": "تمرير البورد رأسيًا",
+            "UN": "تراجع",
+            "RE": "إعادة",
+            "CLR": "مسح كل الكتابة",
+            "X": "إخفاء البورد",
+        }
+        for visible, accessible_name in expected.items():
+            self.assertIn(f"`{visible}`", self.adr, visible)
+            self.assertIn(accessible_name, self.adr, accessible_name)
+
+        for token in (
+            "`button` حقيقي",
+            "`aria-label` عربي كامل",
+            "`aria-pressed`",
+            "`disabled` دلاليًا",
+            "--pg-touch-target",
+            "44px",
+            "شريط الأدوات رأسيًا",
+            "قائمة رأسية قابلة للتمرير",
+            "زر `X` عند الطرف السفلي",
+            "لا يوجد overflow أفقي",
+            "ولا يضاف animation أو transition",
+        ):
+            self.assertIn(token, self.adr, token)
+
+    def test_stop_gates_and_complete_footprint_are_recorded(self):
+        for path in (
+            "docs/decisions/ADR-0022-transparent-lesson-ink-overlay.md",
+            "assets/js/lesson-board.js",
+            "assets/css/parmaga.css",
+            "tests/test_lesson_board_contract.py",
+            "docs/ai/ARCHITECT_EVIDENCE_LEDGER.md",
+        ):
+            self.assertIn(f"`{path}`", self.adr, path)
+
+        for token in (
+            "### D12 — بصمة التنفيذ",
+            "### D14 — بوابات التوقف",
+            "لا يشمل الإذن الحالي JavaScript أو CSS أو HTML أو دفتر الأدلة",
+            "تعديل `lesson-viewer.js`",
+            "إضافة `z-index`",
+            "إنشاء Canvas ثانية",
+            "تغيير ارتفاع البورد عن ثلاثة أضعاف viewport",
+            "تقليل هدف اللمس عن 44px",
+            "انتظار موافقة المالك قبل تعديل JavaScript أو CSS",
+        ):
+            self.assertIn(token, self.adr, token)
 
 
 class TestFootprint(unittest.TestCase):
@@ -179,14 +334,76 @@ class TestStyles(unittest.TestCase):
         )
         self.assertNotIn("z-index", self.code)
 
-    def test_compact_header_preserves_canvas_space(self):
-        self.assertIn(
+    def _declarations_for(self, selector):
+        pattern = re.compile(
+            re.escape(selector) + r"\s*\{(?P<body>[^}]*)\}",
+            re.DOTALL,
+        )
+        match = pattern.search(self.code)
+        self.assertIsNotNone(match, f"قاعدة CSS مفقودة: {selector}")
+        return match.group("body")
+
+    def test_dialog_and_surface_leave_full_canvas_space(self):
+        dialog = self._declarations_for(".pg-lesson-board-dialog[open]")
+        surface = self._declarations_for(".pg-lesson-board-surface")
+        canvas = self._declarations_for(".pg-lesson-board-canvas")
+
+        self.assertNotIn("grid-template-rows", dialog)
+        self.assertIn("position: relative;", dialog)
+        self.assertIn("position: absolute;", surface)
+        self.assertIn("inset: 0;", surface)
+        self.assertIn("inline-size: 100%;", canvas)
+        self.assertIn("block-size: auto;", canvas)
+
+    def test_toolbar_is_vertical_and_overlays_canvas(self):
+        toolbar = self._declarations_for(".pg-lesson-board-toolbar")
+
+        self.assertIn("position: absolute;", toolbar)
+        self.assertIn("display: flex;", toolbar)
+        self.assertIn("flex-direction: column;", toolbar)
+        self.assertNotIn("flex-direction: row;", toolbar)
+
+    def test_tools_scroll_vertically_without_horizontal_overflow(self):
+        tools = self._declarations_for(".pg-lesson-board-tools")
+
+        self.assertIn("display: flex;", tools)
+        self.assertIn("flex-direction: column;", tools)
+        self.assertIn("overflow-y: auto;", tools)
+        self.assertIn("overflow-x: hidden;", tools)
+
+    def test_close_button_stays_at_logical_block_end(self):
+        close = self._declarations_for(".pg-lesson-board-close")
+
+        self.assertIn("margin-block-start: auto;", close)
+        self.assertIn("flex: 0 0 auto;", close)
+
+    def test_dialog_surface_canvas_and_backdrop_are_transparent(self):
+        for selector in (
+            ".pg-lesson-board-dialog[open]",
+            ".pg-lesson-board-dialog::backdrop",
+            ".pg-lesson-board-surface",
+            ".pg-lesson-board-canvas",
+        ):
+            declarations = self._declarations_for(selector)
+            self.assertIn("background: transparent;", declarations, selector)
+
+    def test_screen_plane_has_no_large_border_or_shadow(self):
+        for selector in (
+            ".pg-lesson-board-dialog[open]",
+            ".pg-lesson-board-surface",
+            ".pg-lesson-board-canvas",
+        ):
+            declarations = self._declarations_for(selector)
+            self.assertIn("border: 0;", declarations, selector)
+            self.assertIn("box-shadow: none;", declarations, selector)
+
+    def test_a_plus_css_has_no_horizontal_toolbar_row(self):
+        self.assertNotIn(
             "grid-template-rows: auto minmax(0, 1fr);",
             self.section,
         )
-        self.assertIn("gap: var(--pg-space-1);", self.section)
-        self.assertIn("padding: var(--pg-space-1);", self.section)
-        self.assertIn("clip-path: inset(50%);", self.section)
+        self.assertNotIn("overflow-x: auto;", self.code)
+        self.assertNotIn("cursor: crosshair;", self.code)
 
     def test_no_layer_animation_transition_or_local_focus_rule(self):
         for token in (
@@ -464,6 +681,202 @@ class TestScriptContract(unittest.TestCase):
             "require(",
         ):
             self.assertNotIn(token, self.code, token)
+
+    def test_a_plus_board_uses_three_viewport_heights(self):
+        self.assertRegex(
+            self.code,
+            r"(?:BOARD_HEIGHT_MULTIPLIER|BOARD_VIEWPORTS)\s*=\s*3\b",
+        )
+        for token in (
+            "window.innerWidth",
+            "window.innerHeight",
+            "scrollHeight",
+            "clientHeight",
+        ):
+            self.assertIn(token, self.js, token)
+
+    def test_pan_is_an_independent_vertical_only_mode(self):
+        for token in (
+            "'pan'",
+            "initialScrollTop",
+            "initialClientY",
+            "scrollTop",
+            "setPointerCapture",
+            "releasePointerCapture",
+        ):
+            self.assertIn(token, self.js, token)
+
+        self.assertRegex(
+            self.code,
+            r"initialScrollTop\s*\+\s*initialClientY\s*-\s*"
+            r"(?:currentClientY|event\.clientY)",
+        )
+        self.assertNotIn("scrollLeft", self.code)
+
+    def test_board_coordinates_include_scroll_top(self):
+        self.assertRegex(
+            self.code,
+            r"clientX\s*-\s*scrollerRect\.left",
+        )
+        self.assertRegex(
+            self.code,
+            r"clientY\s*-\s*scrollerRect\.top\s*\+\s*"
+            r"(?:scroller\.)?scrollTop",
+        )
+        self.assertIn("scrollerRect", self.js)
+        self.assertNotIn("scrollLeft", self.code)
+
+    def test_strokes_capture_mode_and_color(self):
+        for token in (
+            "getComputedStyle",
+            "--pg-navy-700",
+            "--pg-red-600",
+            "color",
+            "mode",
+        ):
+            self.assertIn(token, self.js, token)
+
+        self.assertRegex(
+            self.code,
+            r"(?:stroke|command)\.color\s*=",
+        )
+        self.assertRegex(
+            self.code,
+            r"(?:stroke|command)\.mode\s*=",
+        )
+
+    def test_short_visible_labels_and_full_arabic_names_exist(self):
+        for visible in (
+            "'BD'",
+            "'NV'",
+            "'RD'",
+            "'ER'",
+            "'PAN'",
+            "'UN'",
+            "'RE'",
+            "'CLR'",
+            "'X'",
+        ):
+            self.assertIn(visible, self.js, visible)
+
+        for accessible_name in (
+            "فتح البورد",
+            "الرسم باللون الكحلي",
+            "الرسم باللون الأحمر",
+            "الممحاة",
+            "تمرير البورد رأسيًا",
+            "تراجع",
+            "إعادة",
+            "مسح كل الكتابة",
+            "إخفاء البورد",
+        ):
+            self.assertIn(accessible_name, self.js, accessible_name)
+
+        self.assertIn("aria-pressed", self.js)
+        self.assertIn("disabled", self.js)
+
+    def test_eraser_width_is_independent_and_larger(self):
+        for token in (
+            "ERASER_RATIO",
+            "eraserWidth",
+            "destination-out",
+        ):
+            self.assertIn(token, self.js, token)
+
+        self.assertRegex(
+            self.code,
+            r"ERASER_RATIO\s*=\s*0?\.05\b",
+        )
+        self.assertRegex(
+            self.code,
+            r"Math\.min\([^)]*(?:innerWidth|viewportWidth)[^)]*"
+            r"(?:innerHeight|viewportHeight)[^)]*\)",
+        )
+
+    def test_sample_queue_rejects_duplicates_and_old_timestamps(self):
+        for token in (
+            "timeStamp",
+            "lastAcceptedTimestamp",
+            "isDuplicateSample",
+        ):
+            self.assertIn(token, self.js, token)
+
+        self.assertNotIn("pendingSamples.shift()", self.code)
+        self.assertRegex(
+            self.code,
+            r"(?:sample|event)\.timeStamp\s*<\s*lastAcceptedTimestamp",
+        )
+
+    def test_pointerup_uses_the_same_sample_acceptance_path(self):
+        self.assertIn("function acceptSample(", self.js)
+        self.assertRegex(
+            self.code,
+            r"acceptSample\([^)]*(?:event|sample)[^)]*\)",
+        )
+        self.assertIn("'pointerup'", self.js)
+
+    def test_no_replay_is_bound_to_scroll_or_hot_paths(self):
+        self.assertIn("addEventListener('scroll'", self.js)
+
+        for function_name in (
+            "onPointerMove",
+            "drawIncrement",
+            "onBoardScroll",
+        ):
+            pattern = re.compile(
+                r"function\s+"
+                + re.escape(function_name)
+                + r"\s*\([^)]*\)\s*\{(?P<body>.*?)\r?\n  \}",
+                re.DOTALL,
+            )
+            match = pattern.search(self.js)
+            self.assertIsNotNone(
+                match,
+                f"دالة مطلوبة مفقودة: {function_name}",
+            )
+            self.assertNotIn("replay()", match.group("body"), function_name)
+
+    def test_resize_finishes_active_stroke_and_updates_model(self):
+        for token in (
+            "finishActiveStroke",
+            "logicalWidth",
+            "logicalHeight",
+            "orientationchange",
+            "scrollTop",
+        ):
+            self.assertIn(token, self.js, token)
+
+        self.assertRegex(
+            self.code,
+            r"(?:BOARD_HEIGHT_MULTIPLIER|BOARD_VIEWPORTS)\s*=\s*3\b",
+        )
+
+    def test_dpr_cap_accounts_for_the_long_canvas(self):
+        for token in (
+            "MAX_BACKING_PIXELS = 8294400",
+            "logicalArea",
+            "effectiveDPR",
+            "Math.sqrt",
+        ):
+            self.assertIn(token, self.js, token)
+
+        self.assertRegex(
+            self.code,
+            r"Math\.sqrt\(\s*MAX_BACKING_PIXELS\s*/\s*logicalArea\s*\)",
+        )
+
+    def test_hide_show_preserves_strokes_history_colors_and_scroll(self):
+        for token in (
+            "undoStack",
+            "redoStack",
+            "scrollTop",
+            "savedScrollTop",
+            "color",
+        ):
+            self.assertIn(token, self.js, token)
+
+        self.assertNotIn("localStorage", self.code)
+        self.assertNotIn("sessionStorage", self.code)
 
     def test_javascript_uses_repository_crlf_convention(self):
         self.assertTrue(has_complete_crlf(JS_PATH))
