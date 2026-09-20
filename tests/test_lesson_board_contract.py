@@ -903,6 +903,61 @@ class TestScriptContract(unittest.TestCase):
     def test_javascript_uses_repository_crlf_convention(self):
         self.assertTrue(has_complete_crlf(JS_PATH))
 
+    def test_d9_mode_is_locked_after_stroke_starts(self):
+        """ADR-0022 D9: mode يثبت عند بداية الضربة ويظل ثابتًا طوالها."""
+        for function_name in (
+            "onPointerMove",
+            "finishStroke",
+            "finishActiveStroke",
+        ):
+            pattern = re.compile(
+                r"function\s+"
+                + re.escape(function_name)
+                + r"\s*\([^)]*\)\s*\{(?P<body>.*?)\r?\n  \}",
+                re.DOTALL,
+            )
+            match = pattern.search(self.js)
+            self.assertIsNotNone(match, f"دالة مطلوبة مفقودة: {function_name}")
+            body = match.group("body")
+            self.assertIn(
+                "strokeMode",
+                body,
+                f"{function_name} يجب أن تقرأ strokeMode",
+            )
+            self.assertNotIn(
+                "activeMode",
+                body,
+                f"{function_name} يجب ألا تقرأ activeMode بعد بدء الضربة",
+            )
+        self.assertNotIn(
+            "activeMode !== 'pan' && acceptSample",
+            self.js,
+            "onPointerDown يجب أن يقرأ strokeMode لا activeMode بعد التثبيت",
+        )
+
+    def test_clear_all_respects_the_undo_limit(self):
+        """F3: clearAll يسجّل أمرًا بلا فحص limitReached فيتجاوز MAX_STROKES."""
+        pattern = re.compile(
+            r"function\s+clearAll\s*\([^)]*\)\s*\{(?P<body>.*?)\r?\n  \}",
+            re.DOTALL,
+        )
+        match = pattern.search(self.js)
+        self.assertIsNotNone(match, "clearAll مفقودة")
+        body = match.group("body")
+        guard_index = body.find("limitReached(")
+        command_index = body.find("commandAdded(")
+        self.assertNotEqual(
+            guard_index, -1, "حارس limitReached مفقود من clearAll"
+        )
+        self.assertNotEqual(
+            command_index, -1, "تسجيل الأمر مفقود من clearAll"
+        )
+        self.assertLess(
+            guard_index,
+            command_index,
+            "حارس الحدّ يجب أن يسبق تسجيل الأمر في clearAll",
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

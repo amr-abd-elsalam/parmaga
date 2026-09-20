@@ -274,7 +274,7 @@
     if (canvas.hasPointerCapture(activePointerId)) {
     canvas.releasePointerCapture(activePointerId);
     }
-    if (activeMode !== 'pan' && !cancelled && activePoints.length) {
+    if (strokeMode !== 'pan' && !cancelled && activePoints.length) {
     command = {};
     command.type = strokeMode;
     command.mode = strokeMode;
@@ -283,7 +283,7 @@
     command.points = activePoints.slice();
     sessionPoints += command.points.length;
     commandAdded(command);
-    } else if (cancelled && activeMode !== 'pan') {
+    } else if (cancelled && strokeMode !== 'pan') {
     replay();
     }
     resetActivePointer();
@@ -507,7 +507,7 @@
     setStatus('تعذر بدء التفاعل');
     return;
     }
-    if (activeMode !== 'pan' && acceptSample(event)) {
+    if (strokeMode !== 'pan' && acceptSample(event)) {
     scheduleIncrement();
     }
   }
@@ -527,7 +527,7 @@
     return;
     }
     event.preventDefault();
-    if (activeMode === 'pan') {
+    if (strokeMode === 'pan') {
     currentClientY = event.clientY;
     nextScrollTop =
       initialScrollTop + initialClientY - currentClientY;
@@ -561,13 +561,13 @@
     return;
     }
     event.preventDefault();
-    if (!cancelled && activeMode !== 'pan') {
+    if (!cancelled && strokeMode !== 'pan') {
     acceptSample(event);
     }
     finishActiveStroke(cancelled);
     if (cancelled) {
     setStatus('أُلغي التفاعل');
-    } else if (activeMode === 'pan') {
+    } else if (strokeMode === 'pan') {
     setStatus('تم تمرير البورد رأسيًا');
     } else if (strokeMode === 'erase') {
     setStatus('تم المحو');
@@ -611,7 +611,7 @@
     setStatus('تمت الإعادة');
   }
   function clearAll() {
-    if (!undoStack.length || activePointerId !== null) {
+    if (!undoStack.length || activePointerId !== null || limitReached()) {
     return;
     }
     commandAdded({ type: 'clear' });
