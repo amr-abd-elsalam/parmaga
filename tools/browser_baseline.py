@@ -121,6 +121,33 @@ class QuietHandler(http.server.SimpleHTTPRequestHandler):
     def log_message(self, fmt, *args):
         return
 
+    @staticmethod
+    def hidden_segment(root, target):
+        """اسم أول مقطع يبدأ بنقطة في target نسبةً إلى root، أو نصّ فارغ."""
+        try:
+            rel = os.path.relpath(target, root)
+        except ValueError:
+            return os.pardir
+        if rel == os.curdir:
+            return ""
+        for part in rel.replace(os.sep, "/").split("/"):
+            if part.startswith("."):
+                return part
+        return ""
+
+    def send_head(self):
+        """يرفض المقاطع المخفية قبل تسليم الطلب إلى المعالج الأصلي."""
+        target = self.translate_path(self.path)
+        if self.hidden_segment(self.directory, target):
+            self.send_error(404, "File not found")
+            return None
+        return http.server.SimpleHTTPRequestHandler.send_head(self)
+
+    def list_directory(self, path):
+        """سرد الأدلة معطَّل: لا فهرسة لشجرة العمل."""
+        self.send_error(404, "File not found")
+        return None
+
 
 def start_server(root):
     handler = functools.partial(QuietHandler, directory=root)
