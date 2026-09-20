@@ -815,6 +815,28 @@ class TestScriptContract(unittest.TestCase):
         )
         self.assertIn("'pointerup'", self.js)
 
+    def test_pointerup_rejects_samples_from_non_active_pointer(self):
+        pattern = re.compile(
+            r"function\s+onPointerUp\s*\([^)]*\)\s*\{(?P<body>.*?)\r?\n  \}",
+            re.DOTALL,
+        )
+        match = pattern.search(self.js)
+        self.assertIsNotNone(match, "onPointerUp مفقودة")
+        body = match.group("body")
+        guard_index = body.find("event.pointerId !== activePointerId")
+        accept_index = body.find("acceptSample(")
+        self.assertNotEqual(
+            guard_index, -1, "حارس هوية المؤشر مفقود من onPointerUp"
+        )
+        self.assertNotEqual(
+            accept_index, -1, "قبول العينة مفقود من onPointerUp"
+        )
+        self.assertLess(
+            guard_index,
+            accept_index,
+            "حارس الهوية يجب أن يسبق قبول العينة في onPointerUp",
+        )
+
     def test_no_replay_is_bound_to_scroll_or_hot_paths(self):
         self.assertIn("addEventListener('scroll'", self.js)
 

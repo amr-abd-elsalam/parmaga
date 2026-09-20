@@ -576,6 +576,9 @@
     }
   }
   function onPointerUp(event) {
+    if (event.pointerId !== activePointerId) {
+    return;
+    }
     acceptSample(event);
     finishStroke(event, false);
   }
