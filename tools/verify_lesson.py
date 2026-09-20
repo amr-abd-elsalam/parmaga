@@ -549,8 +549,17 @@ def verify_page_asset(root, key, manifest_relpath, index, page, report):
                         ),
                     )
 
-    text = raw.decode("utf-8", "replace")
-    detected = scan_security(text)
+    if b"\x00" in raw:
+        detected = []
+        report.add(asset_relpath, "encoding", "asset bytes are not valid UTF-8 text")
+    else:
+        try:
+            text = raw.decode("utf-8")
+        except UnicodeDecodeError:
+            detected = []
+            report.add(asset_relpath, "encoding", "asset bytes are not valid UTF-8 text")
+        else:
+            detected = scan_security(text)
     detected_keys = set()
     for flag_key, description in detected:
         detected_keys.add(flag_key)

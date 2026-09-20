@@ -622,6 +622,19 @@ class TestSecurityScanning(VerifyLessonTestCase):
         output = self.assert_passes()
         self.assertNotIn("security", output)
 
+    def test_utf16_encoded_script_is_rejected(self):
+        """A UTF-16 asset hides <script> from the UTF-8 scanner (R-S8)."""
+        body = (
+            '<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" '
+            'viewBox="0 0 1080 1350"><script>alert(1)</script></svg>'
+        )
+        raw = body.encode("utf-16")
+        manifest, assets = default_manifest(default_assets()), default_assets()
+        assets["page-001.svg"] = raw
+        sync_page(manifest, 0, raw)
+        self.write_lesson(manifest, assets)
+        self.assert_fails("asset bytes are not valid UTF-8 text")
+
 
 class TestToolBehaviour(VerifyLessonTestCase):
     """Items 28, 29 and 30."""
