@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{DISPLAY_TITLE_AR}} | Parmaga</title>
+<meta name="description" content="{{META_DESCRIPTION}}">
+<link rel="canonical" href="{{PERMANENT_URL}}">
+<meta name="theme-color" content="#7A4E28">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/assets/images/fav180.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/fav32.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/fav32D.png" media="(prefers-color-scheme: dark)">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/fav16.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/fav16D.png" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{{DISPLAY_TITLE_AR}}">
+<meta property="og:description" content="{{META_DESCRIPTION}}">
+<meta property="og:url" content="{{PERMANENT_URL}}">
+<meta property="og:image" content="https://parmaga.com/assets/images/og-cover.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<link rel="stylesheet" href="/assets/css/parmaga.css">
+<script src="/assets/js/lesson-viewer.js" defer></script>
+<script src="/assets/js/pwa-install.js" defer></script>
+<script src="/assets/js/lesson-board.js" defer></script>
+</head>
+<body class="page-lesson">
+<main>
+<header class="lesson-head">
+<p class="lesson-eyebrow">الدرس {{DISPLAY_NUMBER}} — البرمجة والذكاء الاصطناعي — البكالوريا 2</p>
+<h1>{{DISPLAY_TITLE_AR}}</h1>
+<p class="lesson-lede">درس من {{DECLARED_PAGE_COUNT}} صفحة. الصفحات معروضة كاملة أدناه بالترتيب، ولكل صفحة نصها الكامل بالعربية والإنجليزية.</p>
+</header>
+
+<div class="lesson-viewer-controls" data-viewer-controls hidden>
+<p class="viewer-status" data-viewer-status role="status">جارٍ التحضير…</p>
+<div class="viewer-panel" id="viewer-panel-nav" data-viewer-panel="nav" hidden>
+<button type="button" class="viewer-btn" data-viewer-prev>الصفحة السابقة</button>
+<span class="viewer-jump">
+<label class="viewer-jump-label" for="viewer-page-select">الصفحة</label>
+<select id="viewer-page-select" class="viewer-select" data-viewer-jump></select>
+</span>
+<button type="button" class="viewer-btn" data-viewer-next>الصفحة التالية</button>
+<button type="button" class="viewer-btn" data-viewer-mode>العرض التفاعلي لهذه الصفحة</button>
+</div>
+<div class="viewer-panel" id="viewer-panel-motion" data-viewer-panel="motion" hidden>
+<button type="button" class="viewer-btn" data-viewer-play>تشغيل العرض</button>
+<button type="button" class="viewer-btn" data-viewer-replay>إعادة التشغيل</button>
+<button type="button" class="viewer-btn" data-viewer-skip>إظهار الصفحة كاملة</button>
+<button type="button" class="viewer-btn" data-viewer-slower>إبطاء</button>
+<span class="viewer-speed">السرعة <span data-viewer-speed>1×</span></span>
+<button type="button" class="viewer-btn" data-viewer-faster>تسريع</button>
+<button type="button" class="viewer-btn" data-viewer-pen>إخفاء القلم</button>
+</div>
+<div class="viewer-bar">
+<button type="button" class="viewer-fab" data-viewer-disclosure="nav" aria-expanded="false" aria-controls="viewer-panel-nav" aria-label="التنقل بين الصفحات"><span class="viewer-fab-text">صفحات</span></button>
+<button type="button" class="viewer-fab" data-viewer-disclosure="motion" aria-expanded="false" aria-controls="viewer-panel-motion" aria-label="أدوات محاكاة الكتابة" hidden><span class="viewer-fab-text">كتابة</span></button>
+</div>
+</div>
+
+<ol class="lesson-pages" data-lesson-pages>
+
+{{PAGES_LIST}}
+
+</ol>
+
+<footer class="lesson-foot">
+<p><a href="/">العودة إلى الصفحة الرئيسية</a></p>
+</footer>
+</main>
+</body>
+</html>
