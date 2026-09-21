@@ -27,6 +27,7 @@ import hashlib
 import http.server
 import os
 import re
+import shutil
 import subprocess
 import sys
 import tempfile
@@ -421,6 +422,7 @@ def main(argv):
     finally:
         httpd.shutdown()
         httpd.server_close()
+        shutil.rmtree(profile_root, ignore_errors=True)
 
     print()
     print("=== RESULTS ===")
