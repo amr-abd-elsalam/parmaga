@@ -8,6 +8,7 @@ is ever added to the repository by these tests.
 from __future__ import annotations
 
 import http.client
+import inspect
 import os
 import shutil
 import sys
@@ -135,6 +136,19 @@ class ServedScopeTests(unittest.TestCase):
 
     def test_server_is_bound_to_the_loopback_interface(self):
         self.assertEqual(self.httpd.server_address[0], "127.0.0.1")
+
+
+class ProfileCleanupTests(unittest.TestCase):
+    """B1: main() must remove the temp profile root so it does not leak."""
+
+    def test_main_removes_profile_root(self):
+        source = inspect.getsource(browser_baseline.main)
+        normalized = source.replace("\r\n", "\n")
+        self.assertIn(
+            "shutil.rmtree(profile_root",
+            normalized,
+            "main() must remove profile_root so temp dirs do not leak (B1)",
+        )
 
 
 if __name__ == "__main__":
