@@ -11,6 +11,10 @@ Commands:
 Idempotent and fail-safe: every write is prepared in /tmp, compared, then moved.
 Never reads or writes parmaga-content. Never re-implements verify_lesson checks;
 imports verify_lesson and calls its scan_security.
+
+Common options:
+  --in-place     Write to canonical repository paths instead of --output-dir.
+  --force        Write even if the target file already has identical content.
 """
 from __future__ import annotations
 
@@ -172,7 +176,6 @@ def build_manifest(config):
     }
 
 
-
 def dumps_canonical(value, indent=2, max_width=300):
     """Column-aware canonical JSON writer."""
     def primitive_repr(v):
@@ -313,8 +316,8 @@ def write_with_ending(path, content, ending):
         f.write(content)
 
 
-def safe_write(target_path, content, ending):
-    """Write to /tmp, then atomically move to target. Idempotent."""
+def safe_write(target_path, content, ending, force=False):
+    """Write atomically. If target exists with identical bytes, skip unless force."""
     target_path = os.path.abspath(target_path)
     os.makedirs(os.path.dirname(target_path), exist_ok=True)
     fd, tmp = tempfile.mkstemp(prefix=".publish-", suffix=".tmp",
@@ -322,12 +325,11 @@ def safe_write(target_path, content, ending):
     os.close(fd)
     try:
         write_with_ending(tmp, content, ending)
-        # Idempotency: if identical, skip move.
-        if os.path.exists(target_path):
+        if not force and os.path.exists(target_path):
             with open(tmp, "rb") as f1, open(target_path, "rb") as f2:
                 if f1.read() == f2.read():
                     os.unlink(tmp)
-                    return False  # unchanged
+                    return False
         shutil.move(tmp, target_path)
         return True
     except Exception:
@@ -339,47 +341,88 @@ def safe_write(target_path, content, ending):
 # --- commands ---
 
 
-def cmd_inventory(config_path, output_path):
+def cmd_inventory(config_path, output_path, force=False):
     config = load_config(config_path)
     manifest = build_manifest(config)
     text = manifest_to_text(manifest)
-    with open(output_path, "w", encoding="utf-8", newline="") as f:
-        f.write(text)
-    print("inventory: wrote", output_path)
+    wrote = safe_write(output_path, text, "lf", force=force)
+    print("inventory: %s (wrote=%s)" % (output_path, wrote))
     return 0
 
 
-def cmd_render(config_path, output_dir):
+def cmd_render(config_path, output_dir, force=False, in_place=False):
     config = load_config(config_path)
     manifest = load_manifest(os.path.join(REPO_ROOT, manifest_relpath_for(config)))
     html = build_html(config, manifest)
     ctx = build_context(config, manifest)
-    html_out = os.path.join(output_dir, config["lesson"] + "_index_regen.html")
-    ctx_out = os.path.join(output_dir, config["lesson"] + "_context_regen.md")
-    write_with_ending(html_out, html, "crlf")
-    write_with_ending(ctx_out, ctx, "lf")
-    print("render: wrote", html_out)
-    print("render: wrote", ctx_out)
+    if in_place:
+        html_out = os.path.join(REPO_ROOT, lesson_html_relpath_for(config))
+        ctx_out = os.path.join(REPO_ROOT, context_relpath_for(config))
+    else:
+        html_out = os.path.join(output_dir, config["lesson"] + "_index_regen.html")
+        ctx_out = os.path.join(output_dir, config["lesson"] + "_context_regen.md")
+    wrote_html = safe_write(html_out, html, "crlf", force=force)
+    wrote_ctx = safe_write(ctx_out, ctx, "lf", force=force)
+    print("render: %s (wrote=%s)" % (html_out, wrote_html))
+    print("render: %s (wrote=%s)" % (ctx_out, wrote_ctx))
     return 0
 
 
-def cmd_patch(config_path, output_dir):
-    config = load_config(config_path)
-    root_html = read_text(os.path.join(REPO_ROOT, "index.html")).replace("\r\n", "\n")
-    sitemap_xml = read_text(os.path.join(REPO_ROOT, "sitemap.xml")).replace("\r\n", "\n")
+def _patch_root_html(config, root_html):
     permanent_path = "/courses/%s/%s/%s/%s/" % (
         config["course"], config["term"], config["chapter"], config["lesson"])
-    permanent_url = "https://parmaga.com" + permanent_path
-    already_root = permanent_path in root_html
-    already_sitemap = permanent_url in sitemap_xml
-    root_out = os.path.join(output_dir, "index_regen.html")
-    sm_out = os.path.join(output_dir, "sitemap_regen.xml")
-    write_with_ending(root_out, root_html, "crlf")
-    write_with_ending(sm_out, sitemap_xml, "lf")
-    print("patch: root already patched:", already_root)
-    print("patch: sitemap already patched:", already_sitemap)
-    print("patch: wrote", root_out)
-    print("patch: wrote", sm_out)
+    link_text = "%s \u2014 %s" % (config["displayNumber"], config["displayTitleAr"])
+    new_link = '<a class="action-link" href="%s">%s</a>' % (permanent_path, link_text)
+    existing_marker = '<a class="action-link" href="%s">' % permanent_path
+    placeholder = "<p>%s</p>" % link_text
+    if existing_marker in root_html:
+        return root_html, "already-patched"
+    if placeholder not in root_html:
+        return None, "placeholder-not-found"
+    return root_html.replace(placeholder, new_link), "patched"
+
+
+def _patch_sitemap(config, sitemap_xml):
+    permanent_url = "https://parmaga.com/courses/%s/%s/%s/%s/" % (
+        config["course"], config["term"], config["chapter"], config["lesson"])
+    if permanent_url in sitemap_xml:
+        return sitemap_xml, "already-patched"
+    if "</urlset>" not in sitemap_xml:
+        return None, "urlset-not-found"
+    block = "  <url>\n    <loc>%s</loc>\n  </url>\n" % permanent_url
+    new_sitemap = sitemap_xml.replace("</urlset>", block + "</urlset>")
+    return new_sitemap, "patched"
+
+
+def cmd_patch(config_path, output_dir, force=False, in_place=False):
+    config = load_config(config_path)
+    root_html = read_text(os.path.join(REPO_ROOT, "index.html"))
+    sitemap_xml = read_text(os.path.join(REPO_ROOT, "sitemap.xml"))
+
+    new_root, root_status = _patch_root_html(config, root_html)
+    if new_root is None:
+        print("patch: ERROR: lesson placeholder not found in root index.html",
+              file=sys.stderr)
+        print("patch: expected placeholder: <p>%s \u2014 %s</p>" % (
+            config["displayNumber"], config["displayTitleAr"]), file=sys.stderr)
+        return 2
+
+    new_sitemap, sitemap_status = _patch_sitemap(config, sitemap_xml)
+    if new_sitemap is None:
+        print("patch: ERROR: sitemap structure unexpected", file=sys.stderr)
+        return 2
+
+    if in_place:
+        root_out = os.path.join(REPO_ROOT, "index.html")
+        sm_out = os.path.join(REPO_ROOT, "sitemap.xml")
+    else:
+        root_out = os.path.join(output_dir, "index_regen.html")
+        sm_out = os.path.join(output_dir, "sitemap_regen.xml")
+
+    wrote_root = safe_write(root_out, new_root, "crlf", force=force)
+    wrote_sm = safe_write(sm_out, new_sitemap, "lf", force=force)
+    print("patch: root %s -> %s (wrote=%s)" % (root_status, root_out, wrote_root))
+    print("patch: sitemap %s -> %s (wrote=%s)" % (sitemap_status, sm_out, wrote_sm))
     return 0
 
 
@@ -388,20 +431,33 @@ def cmd_verify(config_path):
     return verify_lesson.main([REPO_ROOT])
 
 
-def cmd_all(config_path):
+def cmd_all(config_path, output_dir, force=False, in_place=False):
     config = load_config(config_path)
-    manifest_abs = os.path.join(REPO_ROOT, manifest_relpath_for(config))
-    # inventory -> /tmp
-    tmp_manifest = os.path.join(tempfile.gettempdir(), "publish_all_manifest.json")
-    cmd_inventory(config_path, tmp_manifest)
-    # compare with canonical and report
     canonical = os.path.join(REPO_ROOT, manifest_relpath_for(config))
+
+    # 1. inventory -> /tmp, compare with canonical
+    tmp_manifest = os.path.join(tempfile.gettempdir(), "publish_all_manifest.json")
+    rc = cmd_inventory(config_path, tmp_manifest, force=True)
+    if rc != 0:
+        return rc
     with open(tmp_manifest, "rb") as f1, open(canonical, "rb") as f2:
         if f1.read() != f2.read():
             print("all: MANIFEST DIFFERS from canonical; stopping", file=sys.stderr)
             return 1
     print("all: manifest matches canonical")
-    return 0
+
+    # 2. render
+    rc = cmd_render(config_path, output_dir, force=force, in_place=in_place)
+    if rc != 0:
+        return rc
+
+    # 3. patch
+    rc = cmd_patch(config_path, output_dir, force=force, in_place=in_place)
+    if rc != 0:
+        return rc
+
+    # 4. verify
+    return cmd_verify(config_path)
 
 
 def main(argv):
@@ -411,33 +467,53 @@ def main(argv):
     p_inv = sub.add_parser("inventory")
     p_inv.add_argument("config")
     p_inv.add_argument("--output", required=True)
+    p_inv.add_argument("--force", action="store_true")
 
     p_ren = sub.add_parser("render")
     p_ren.add_argument("config")
-    p_ren.add_argument("--output-dir", required=True)
+    p_ren.add_argument("--output-dir")
+    p_ren.add_argument("--in-place", action="store_true")
+    p_ren.add_argument("--force", action="store_true")
 
     p_pat = sub.add_parser("patch")
     p_pat.add_argument("config")
-    p_pat.add_argument("--output-dir", required=True)
+    p_pat.add_argument("--output-dir")
+    p_pat.add_argument("--in-place", action="store_true")
+    p_pat.add_argument("--force", action="store_true")
 
     p_ver = sub.add_parser("verify")
     p_ver.add_argument("config")
 
     p_all = sub.add_parser("all")
     p_all.add_argument("config")
+    p_all.add_argument("--output-dir")
+    p_all.add_argument("--in-place", action="store_true")
+    p_all.add_argument("--force", action="store_true")
 
     args = parser.parse_args(argv)
 
+    def _resolve_outdir(args):
+        if getattr(args, "in_place", False):
+            return None
+        if not getattr(args, "output_dir", None):
+            print("ERROR: --output-dir required unless --in-place is given",
+                  file=sys.stderr)
+            sys.exit(2)
+        return args.output_dir
+
     if args.cmd == "inventory":
-        return cmd_inventory(args.config, args.output)
+        return cmd_inventory(args.config, args.output, force=args.force)
     if args.cmd == "render":
-        return cmd_render(args.config, args.output_dir)
+        return cmd_render(args.config, _resolve_outdir(args),
+                          force=args.force, in_place=args.in_place)
     if args.cmd == "patch":
-        return cmd_patch(args.config, args.output_dir)
+        return cmd_patch(args.config, _resolve_outdir(args),
+                         force=args.force, in_place=args.in_place)
     if args.cmd == "verify":
         return cmd_verify(args.config)
     if args.cmd == "all":
-        return cmd_all(args.config)
+        return cmd_all(args.config, _resolve_outdir(args),
+                       force=args.force, in_place=args.in_place)
     return 2
 
 
