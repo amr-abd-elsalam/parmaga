@@ -63,8 +63,10 @@ Parmaga منصة تعليمية تستهدف السوق المصري وطلاب 
 │       └── programming-ai-baccalaureate-2/
 │           └── term-1/
 │               └── chapter-01/
-│                   └── lesson-01/
-│                       └── page-001.svg .. page-022.svg   (22 published SVG files)
+│                   ├── lesson-01/
+│                   │   └── page-001.svg .. page-022.svg   (22 published SVG files)
+│                   └── lesson-02/
+│                       └── page-001.svg .. page-015.svg   (15 published SVG files)
 ├── docs/
 │   ├── ai/
 │   │   ├── AI_ARCHITECT_PROTOCOL.md
@@ -76,12 +78,14 @@ Parmaga منصة تعليمية تستهدف السوق المصري وطلاب 
 │   │   │   └── programming-ai-baccalaureate-2/
 │   │   │       └── term-1/
 │   │   │           └── chapter-01/
-│   │   │               └── lesson-01.md
+│   │   │               ├── lesson-01.md
+│   │   │               └── lesson-02.md
 │   │   └── manifests/
 │   │       └── programming-ai-baccalaureate-2/
 │   │           └── term-1/
 │   │               └── chapter-01/
-│   │                   └── lesson-01.json
+│   │                   ├── lesson-01.json
+│   │                   └── lesson-02.json
 │   └── decisions/
 │       ├── ADR-0001-hosting-and-routing.md
 │       ├── ADR-0002-design-tokens-and-styling-strategy.md
@@ -104,12 +108,16 @@ Parmaga منصة تعليمية تستهدف السوق المصري وطلاب 
 │       ├── ADR-0019-install-promotion-ui.md
 │       ├── ADR-0020-smart-install-banner-and-hero-cta.md
 │       ├── ADR-0021-lesson-board-overlay.md
-│       └── ADR-0022-transparent-lesson-ink-overlay.md
+│       ├── ADR-0022-transparent-lesson-ink-overlay.md
+│       ├── ADR-0023-brand-image-refresh.md
+│       └── ADR-0024-lesson-publication-tool.md
 ├── courses/
 │   └── programming-ai-baccalaureate-2/
 │       └── term-1/
 │           └── chapter-01/
-│               └── lesson-01/
+│               ├── lesson-01/
+│               │   └── index.html
+│               └── lesson-02/
 │                   └── index.html
 ├── tests/
 │   ├── test_browser_baseline_serve_scope.py
@@ -120,6 +128,16 @@ Parmaga منصة تعليمية تستهدف السوق المصري وطلاب 
 │   └── test_workflow_checkout_contract.py
 └── tools/
     ├── browser_baseline.py
+    ├── publish_configs/
+    │   └── programming-ai-baccalaureate-2/
+    │       └── term-1/
+    │           └── chapter-01/
+    │               ├── lesson-01.json
+    │               └── lesson-02.json
+    ├── publish_lesson.py
+    ├── templates/
+    │   ├── context.md.tmpl
+    │   └── lesson-page.html.tmpl
     └── verify_lesson.py
 ```
 
@@ -195,7 +213,7 @@ Gate A مسجَّل اليوم بوصفه **Required Status Check على `main`*
 
 ثم أُنشئت صفحة الدرس على مسارها الدائم، فصار الرابط `‏/courses/programming-ai-baccalaureate-2/term-1/chapter-01/lesson-01/` يعيد `200`. الصفحة تعرض الصفحات الـ22 عبر `<img>` بأبعاد صريحة في الوسم، بتحميل مؤجل لإحدى وعشرين صفحة وتحميل فوري للصفحة الأولى، ولكل صفحة مرساة ثابتة من `#page-1` إلى `#page-22` ونص كامل بالعربية والإنجليزية متاح دون JavaScript. ويضيف `assets/js/lesson-viewer.js` عرضًا تفاعليًا اختياريًا لصفحة واحدة نشطة، فإذا تعطّل أو حُجب بقي الدرس كاملًا ساكنًا. ولم تُعدّل ملفات SVG الأصلية. وتبقى مستويات Course وTerm وChapter بلا فهارس، فتعيد `404` حتى تُنشأ بقرار مستقل.
 
-توجد أداتان تحت `tools/` وستة ملفات اختبار وworkflowان. الأولى أداة التحقق الحاجبة `tools/verify_lesson.py` مع `.github/workflows/verify-lessons.yml`. والثانية أداة قياس تشخيصية اختيارية هي `tools/browser_baseline.py` مع `.github/workflows/browser-baseline.yml`، تعمل على Pull Request وبالتشغيل اليدوي فقط ولا تعمل على `main`، ولا تحجب شيئًا، ولا يثبّت الـworkflow متصفحًا فهي معتمدة كليًا على صورة الـrunner، وأدلتها مرفوعة بمدة احتفاظ 14 يومًا فليست مرجعًا دائمًا. والاختبارات هي `tests/test_verify_lesson.py` و`tests/test_lesson_ui_contract.py` و`tests/test_install_promotion_contract.py` و`tests/test_lesson_board_contract.py` و`tests/test_browser_baseline_serve_scope.py` و`tests/test_workflow_checkout_contract.py`. ويبقى المشروع صفر Dependencies وصفر Build Step، ويبقى GitHub Pages على وضع `Deploy from a branch`، ولا يشارك GitHub Actions في تقديم الموقع.
+توجد ثلاث أدوات تحت `tools/` وستة ملفات اختبار وworkflowان. الأولى أداة التحقق الحاجبة `tools/verify_lesson.py` مع `.github/workflows/verify-lessons.yml`. والثانية أداة قياس تشخيصية اختيارية هي `tools/browser_baseline.py` مع `.github/workflows/browser-baseline.yml`، تعمل على Pull Request وبالتشغيل اليدوي فقط ولا تعمل على `main`، ولا تحجب شيئًا، ولا يثبّت الـworkflow متصفحًا فهي معتمدة كليًا على صورة الـrunner، وأدلتها مرفوعة بمدة احتفاظ 14 يومًا فليست مرجعًا دائمًا. والثالثة أداة النشر `tools/publish_lesson.py` وفق `ADR-0024`، تولّد Manifest الدرس وصفحته وملف سياقه ورابطه في الرئيسة ومدخله في `sitemap.xml` من ملف config في `tools/publish_configs/`، ولا يغطيها اختبار بعد. والاختبارات هي `tests/test_verify_lesson.py` و`tests/test_lesson_ui_contract.py` و`tests/test_install_promotion_contract.py` و`tests/test_lesson_board_contract.py` و`tests/test_browser_baseline_serve_scope.py` و`tests/test_workflow_checkout_contract.py`. ويبقى المشروع صفر Dependencies وصفر Build Step، ويبقى GitHub Pages على وضع `Deploy from a branch`، ولا يشارك GitHub Actions في تقديم الموقع.
 
 ## القرارات المعمارية
 
@@ -223,6 +241,8 @@ Gate A مسجَّل اليوم بوصفه **Required Status Check على `main`*
 - `ADR-0020-smart-install-banner-and-hero-cta.md`: بانر تثبيت ذكي وCTA في الصفحة الرئيسة، ببوابتين مستقلتين وظهور محكوم بالجلسة وبفعل المستخدم.
 - `ADR-0021-lesson-board-overlay.md`: طبقة بورد الدرس العائمة — Canvas ونموذج strokes وأوامر جلسة في الذاكرة، بلا تخزين دائم وبلا شبكة وبلا build step.
 - `ADR-0022-transparent-lesson-ink-overlay.md`: طبقة الحبر الشفافة فوق الدرس، يبقى معها محتوى الدرس مقروءًا خلف الحبر، وتنتهي أوامر الجلسة بانتهائها.
+- `ADR-0023-brand-image-refresh.md`: تحديث صورة الإعلان بمقاساتها القديمة وشفافية كاملة، ويعلن انقضاء قيد `ADR-0018` بند 9 في عائلة `amr-abdelsalam-ad.*` وحدها، ويجرّد حاويتها من الخلفية والظل.
+- `ADR-0024-lesson-publication-tool.md`: أداة نشر الدروس `tools/publish_lesson.py` — أوامرها ومدخلاتها ومخرجاتها ونهايات أسطرها، وبرهان إعادة التوليد بـ`wrote=False`، والتزام النشر الواحد بحالة `published`، وثمانية قيود معروفة مقيسة أولها أن `all` لا ينشئ Manifest لدرس جديد وثانيها غياب تهريب HTML.
 
 للعارض التفاعلي نمطان صريحان وفق `ADR-0008`: نمط تفاعلي يعرض صفحة نشطة واحدة على مسرح واحد، ونمط الدرس الكامل الذي يعيد الصفحات الـ22 ظاهرة بترتيبها. النمط الساكن الكامل هو الحالة الافتراضية قبل نجاح أول تركيب تفاعلي، وهو ما يعود إليه العرض عند أي فشل، والتبديل بينهما بفعل واحد دون إعادة تحميل الصفحة.
 
