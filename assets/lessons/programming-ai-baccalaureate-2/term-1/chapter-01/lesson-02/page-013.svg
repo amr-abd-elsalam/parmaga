@@ -1,0 +1,247 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+
+  <defs>
+    <linearGradient id="deskWood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b8813f"/>
+      <stop offset="0.55" stop-color="#a06b31"/>
+      <stop offset="1" stop-color="#875427"/>
+    </linearGradient>
+    <linearGradient id="paperTone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf6"/>
+      <stop offset="1" stop-color="#fbf6e9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 1) الخلفية الخشبية البسيطة -->
+  <rect x="0" y="0" width="1080" height="1350" fill="url(#deskWood)"/>
+  <path d="M0,240 C300,200 780,300 1080,250" fill="none" stroke="#6d3f18" stroke-width="16" opacity="0.10"/>
+  <path d="M0,1080 C320,1030 760,1140 1080,1090" fill="none" stroke="#6d3f18" stroke-width="20" opacity="0.09"/>
+
+  <!-- 2) الورقة -->
+  <rect x="42" y="46" width="1012" height="1296" rx="8" fill="#000000" opacity="0.16"/>
+  <rect x="34" y="34" width="1012" height="1296" rx="6" fill="url(#paperTone)"/>
+
+  <!-- 3) سطور الدفتر الزرقاء الباهتة -->
+  <g stroke="#cfe1f0" stroke-width="1.3">
+    <line x1="80" y1="104" x2="1000" y2="104"/>
+    <line x1="80" y1="142" x2="1000" y2="142"/>
+    <line x1="80" y1="180" x2="1000" y2="180"/>
+    <line x1="80" y1="218" x2="1000" y2="218"/>
+    <line x1="80" y1="256" x2="1000" y2="256"/>
+    <line x1="80" y1="294" x2="1000" y2="294"/>
+    <line x1="80" y1="332" x2="1000" y2="332"/>
+    <line x1="80" y1="370" x2="1000" y2="370"/>
+    <line x1="80" y1="408" x2="1000" y2="408"/>
+    <line x1="80" y1="446" x2="1000" y2="446"/>
+    <line x1="80" y1="484" x2="1000" y2="484"/>
+    <line x1="80" y1="522" x2="1000" y2="522"/>
+    <line x1="80" y1="560" x2="1000" y2="560"/>
+    <line x1="80" y1="598" x2="1000" y2="598"/>
+    <line x1="80" y1="636" x2="1000" y2="636"/>
+    <line x1="80" y1="674" x2="1000" y2="674"/>
+    <line x1="80" y1="712" x2="1000" y2="712"/>
+    <line x1="80" y1="750" x2="1000" y2="750"/>
+    <line x1="80" y1="788" x2="1000" y2="788"/>
+    <line x1="80" y1="826" x2="1000" y2="826"/>
+    <line x1="80" y1="864" x2="1000" y2="864"/>
+    <line x1="80" y1="902" x2="1000" y2="902"/>
+    <line x1="80" y1="940" x2="1000" y2="940"/>
+    <line x1="80" y1="978" x2="1000" y2="978"/>
+    <line x1="80" y1="1016" x2="1000" y2="1016"/>
+    <line x1="80" y1="1054" x2="1000" y2="1054"/>
+    <line x1="80" y1="1092" x2="1000" y2="1092"/>
+    <line x1="80" y1="1130" x2="1000" y2="1130"/>
+  </g>
+
+  <!-- 4) إطار أحمر خارجي واحد فقط -->
+  <rect x="67" y="58" width="946" height="1260" rx="5"
+        fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+  <!-- 5) خلفيات البطاقات والفواصل -->
+  <rect x="105" y="186" width="870" height="190" rx="14"
+        fill="#f1f8fd" stroke="#2f6fb0" stroke-width="2.6"/>
+  <line x1="330" y1="172" x2="750" y2="172" stroke="#9dbfdd" stroke-width="2"/>
+  <line x1="105" y1="792" x2="975" y2="792" stroke="#9dbfdd" stroke-width="1.8"/>
+
+  <!-- 6) الرسم اليدوي المبسط: صورتان لمحصولين -->
+  <g>
+    <rect x="295" y="390" width="180" height="92" rx="5" fill="#ffffff" stroke="#b9c6d2" stroke-width="2"/>
+    <rect x="303" y="398" width="164" height="76" rx="3" fill="#f4fbf5" stroke="#dcead e" stroke-width="1"/>
+    <line x1="317" y1="460" x2="453" y2="460" stroke="#8a9a7b" stroke-width="2"/>
+    <path d="M385,460 L385,414" fill="none" stroke="#2e8b57" stroke-width="3" stroke-linecap="round"/>
+    <path d="M385,433 C366,421 350,427 346,439 C360,449 377,445 385,433" fill="#57b07a" stroke="#2e8b57" stroke-width="1.4"/>
+    <path d="M385,433 C404,421 420,427 424,439 C410,449 393,445 385,433" fill="#57b07a" stroke="#2e8b57" stroke-width="1.4"/>
+    <path d="M385,416 C377,405 385,393 394,389 C400,399 396,410 385,416" fill="#6ec18b" stroke="#2e8b57" stroke-width="1.4"/>
+    <path d="M429,460 L429,441" fill="none" stroke="#2e8b57" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M429,447 C420,441 412,444 410,450 C417,454 425,452 429,447" fill="#6ec18b" stroke="#2e8b57" stroke-width="1.2"/>
+
+    <rect x="605" y="390" width="180" height="92" rx="5" fill="#ffffff" stroke="#b9c6d2" stroke-width="2"/>
+    <rect x="613" y="398" width="164" height="76" rx="3" fill="#fdf6ef" stroke="#ecdfd0" stroke-width="1"/>
+    <line x1="627" y1="460" x2="763" y2="460" stroke="#a3937b" stroke-width="2"/>
+    <path d="M695,460 C692,442 700,430 696,415" fill="none" stroke="#8a8d3d" stroke-width="3" stroke-linecap="round"/>
+    <path d="M696,436 C676,436 661,446 657,456 C671,459 689,450 696,436" fill="#c2b25a" stroke="#8a7a2f" stroke-width="1.4"/>
+    <path d="M696,430 C716,428 731,438 735,448 C721,451 703,443 696,430" fill="#c2b25a" stroke="#8a7a2f" stroke-width="1.4"/>
+    <path d="M696,417 C689,408 693,398 700,394 C705,402 703,412 696,417" fill="#cbbe72" stroke="#8a7a2f" stroke-width="1.3"/>
+    <circle cx="672" cy="449" r="3.6" fill="#8b4513"/>
+    <circle cx="686" cy="442" r="2.6" fill="#8b4513"/>
+    <circle cx="719" cy="441" r="3.2" fill="#8b4513"/>
+    <circle cx="729" cy="446" r="2.4" fill="#8b4513"/>
+    <circle cx="699" cy="424" r="2.4" fill="#8b4513"/>
+  </g>
+
+  <!-- 7) مساحات الإجابة الفارغة -->
+  <g stroke="#a3b8cc" stroke-width="1.7" stroke-linecap="round">
+    <line x1="135" y1="636" x2="945" y2="636"/>
+    <line x1="135" y1="762" x2="945" y2="762"/>
+    <line x1="135" y1="984" x2="945" y2="984"/>
+    <line x1="135" y1="1158" x2="945" y2="1158"/>
+  </g>
+
+  <!-- 8) النصوص التعليمية -->
+
+  <text x="540" y="112"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="42"
+        font-weight="bold"
+        fill="#1a4f86">طبّق ما تعلمته في سياق جديد</text>
+
+  <text x="540" y="152"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="29"
+        fill="#24506f">Apply Your Learning in a New Context</text>
+
+  <text x="940" y="228"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="29"
+        fill="#225f9c">
+    <tspan x="940" dy="0">يريد مزارع استخدام الذكاء الاصطناعي لفحص صور المحاصيل</tspan>
+    <tspan x="940" dy="38">والتمييز بين المحصول السليم والمحصول المصاب بالمرض.</tspan>
+  </text>
+
+  <text x="140" y="310"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27"
+        fill="#152b42">
+    <tspan x="140" dy="0">A farmer wants to use AI to look at crop photos</tspan>
+    <tspan x="140" dy="34">and tell healthy crops from diseased ones.</tspan>
+  </text>
+
+  <text x="945" y="524"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30"
+        fill="#225f9c">
+    <tspan x="945" dy="0">1. ما نوع البيانات التي يحتاج إليها النظام ليتعلم؟</tspan>
+  </text>
+
+  <text x="135" y="562"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27"
+        fill="#152b42">
+    <tspan x="135" dy="0">1. What type of data would the system</tspan>
+    <tspan x="163" dy="34">need to learn from?</tspan>
+  </text>
+
+  <text x="945" y="684"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30"
+        fill="#225f9c">
+    <tspan x="945" dy="0">2. اذكر سببًا واحدًا قد يجعل حكم النظام خاطئًا.</tspan>
+  </text>
+
+  <text x="135" y="722"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27"
+        fill="#152b42">
+    <tspan x="135" dy="0">2. Give one reason why its judgment might be wrong.</tspan>
+  </text>
+
+  <text x="945" y="834"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="34"
+        font-weight="bold"
+        fill="#1a4f86">تأمل وتحدَّ نفسك</text>
+
+  <text x="135" y="834"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="28"
+        fill="#24506f">Reflect and Challenge</text>
+
+  <text x="945" y="880"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="29"
+        fill="#225f9c">
+    <tspan x="945" dy="0">هل كنت تظن قبل اليوم أن الذكاء الاصطناعي تقنية واحدة فقط؟</tspan>
+  </text>
+
+  <text x="135" y="916"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="26"
+        fill="#152b42">
+    <tspan x="135" dy="0">Did you think, before today, that AI was</tspan>
+    <tspan x="135" dy="30">just one single technology?</tspan>
+  </text>
+
+  <text x="945" y="1022"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="28"
+        fill="#225f9c">
+    <tspan x="945" dy="0">اذكر استخدامًا مفيدًا واحدًا للذكاء الاصطناعي،</tspan>
+    <tspan x="945" dy="34">واستخدامًا سيئًا محتملًا، وكيف نقلّل هذا الاستخدام.</tspan>
+  </text>
+
+  <text x="135" y="1092"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="26"
+        fill="#152b42">
+    <tspan x="135" dy="0">Name one useful use, one possible misuse,</tspan>
+    <tspan x="135" dy="30">and how to reduce that misuse.</tspan>
+  </text>
+
+</svg>
