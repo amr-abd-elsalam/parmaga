@@ -1,0 +1,266 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+
+  <defs>
+    <linearGradient id="deskWood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b98455"/>
+      <stop offset="0.55" stop-color="#a06f42"/>
+      <stop offset="1" stop-color="#875a33"/>
+    </linearGradient>
+    <linearGradient id="paperTone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf7"/>
+      <stop offset="1" stop-color="#fbf7ec"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 1. خلفية خشبية بسيطة -->
+  <rect x="0" y="0" width="1080" height="1350" fill="url(#deskWood)"/>
+  <path d="M0 250 C 300 210 780 320 1080 265" stroke="#7d5330" stroke-width="16" fill="none" opacity=".16"/>
+  <path d="M0 1080 C 320 1035 760 1145 1080 1095" stroke="#7d5330" stroke-width="14" fill="none" opacity=".13"/>
+
+  <!-- 2. الورقة -->
+  <rect x="42" y="54" width="1012" height="1262" rx="8" fill="#000000" opacity=".18"/>
+  <rect x="34" y="44" width="1012" height="1262" rx="8" fill="url(#paperTone)"/>
+
+  <!-- 3. سطور الدفتر الزرقاء الباهتة -->
+  <g stroke="#c3d8ea" stroke-width="1.2" opacity=".8">
+    <line x1="75" y1="130" x2="1005" y2="130"/>
+    <line x1="75" y1="164" x2="1005" y2="164"/>
+    <line x1="75" y1="198" x2="1005" y2="198"/>
+    <line x1="75" y1="232" x2="1005" y2="232"/>
+    <line x1="75" y1="266" x2="1005" y2="266"/>
+    <line x1="75" y1="300" x2="1005" y2="300"/>
+    <line x1="75" y1="334" x2="1005" y2="334"/>
+    <line x1="75" y1="368" x2="1005" y2="368"/>
+    <line x1="75" y1="402" x2="1005" y2="402"/>
+    <line x1="75" y1="436" x2="1005" y2="436"/>
+    <line x1="75" y1="470" x2="1005" y2="470"/>
+    <line x1="75" y1="504" x2="1005" y2="504"/>
+    <line x1="75" y1="538" x2="1005" y2="538"/>
+    <line x1="75" y1="572" x2="1005" y2="572"/>
+    <line x1="75" y1="606" x2="1005" y2="606"/>
+    <line x1="75" y1="640" x2="1005" y2="640"/>
+    <line x1="75" y1="674" x2="1005" y2="674"/>
+    <line x1="75" y1="708" x2="1005" y2="708"/>
+    <line x1="75" y1="742" x2="1005" y2="742"/>
+    <line x1="75" y1="776" x2="1005" y2="776"/>
+    <line x1="75" y1="810" x2="1005" y2="810"/>
+    <line x1="75" y1="844" x2="1005" y2="844"/>
+    <line x1="75" y1="878" x2="1005" y2="878"/>
+    <line x1="75" y1="912" x2="1005" y2="912"/>
+    <line x1="75" y1="946" x2="1005" y2="946"/>
+    <line x1="75" y1="980" x2="1005" y2="980"/>
+    <line x1="75" y1="1014" x2="1005" y2="1014"/>
+    <line x1="75" y1="1048" x2="1005" y2="1048"/>
+    <line x1="75" y1="1082" x2="1005" y2="1082"/>
+    <line x1="75" y1="1116" x2="1005" y2="1116"/>
+    <line x1="75" y1="1150" x2="1005" y2="1150"/>
+  </g>
+
+  <!-- 4. إطار أحمر خارجي واحد فقط -->
+  <rect x="67" y="96" width="946" height="1080" rx="4" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+
+  <!-- 5. خلفيات البطاقات -->
+  <rect x="548" y="230" width="432" height="436" rx="14" fill="#f3f9ff" stroke="#9dc0e0" stroke-width="1.6"/>
+  <rect x="100" y="230" width="432" height="436" rx="14" fill="#f9fbff" stroke="#b7c8d9" stroke-width="1.6"/>
+  <rect x="300" y="682" width="480" height="80" rx="12" fill="#fdf3c7" stroke="#dcbf62" stroke-width="1.6"/>
+
+  <!-- 6. المخطط الهرمي المتداخل + سهم أحمر وظيفي -->
+  <rect x="165" y="774" width="750" height="378" rx="26" fill="#eaf2fb" stroke="#1f5fa8" stroke-width="2.6"/>
+  <rect x="213" y="822" width="654" height="300" rx="22" fill="#eaf7ee" stroke="#1f7a44" stroke-width="2.6"/>
+  <rect x="261" y="868" width="558" height="224" rx="18" fill="#e9eef5" stroke="#152b42" stroke-width="2.6"/>
+  <rect x="309" y="914" width="462" height="144" rx="14" fill="#fdf1e3" stroke="#d97706" stroke-width="2.6"/>
+  <line x1="140" y1="810" x2="140" y2="1050" stroke="#c0392b" stroke-width="2"/>
+  <polygon points="132,1050 148,1050 140,1068" fill="#c0392b"/>
+
+  <!-- 7. النصوص التعليمية -->
+
+  <!-- العنوان العربي أعلى اليمين -->
+  <text x="965"
+        y="160"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="36"
+        font-weight="bold"
+        fill="#1f5fa8">
+    <tspan x="965" dy="0">العلاقة بين تقنيات الذكاء الاصطناعي</tspan>
+  </text>
+
+  <!-- العنوان الإنجليزي أعلى اليسار -->
+  <text x="115"
+        y="200"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="28"
+        fill="#152b42">
+    <tspan x="115" dy="0">The Relationship Between AI Technologies</tspan>
+  </text>
+
+  <!-- الشرح العربي داخل البطاقة اليمنى -->
+  <text x="956"
+        y="266"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="27"
+        fill="#225f9c">
+    <tspan x="956" dy="0">ليست كل أمثلة الذكاء الاصطناعي</tspan>
+    <tspan x="956" dy="34">من النوع نفسه. في النموذج</tspan>
+    <tspan x="956" dy="34">التعليمي المبسط، الذكاء</tspan>
+    <tspan x="956" dy="34">الاصطناعي هو المجال الأوسع،</tspan>
+    <tspan x="956" dy="34">ويقع داخله التعلم الآلي، ثم</tspan>
+    <tspan x="956" dy="34">التعلم العميق داخل التعلم</tspan>
+    <tspan x="956" dy="34">الآلي. وتعتمد غالبية أنظمة</tspan>
+    <tspan x="956" dy="34">الذكاء الاصطناعي التوليدي</tspan>
+    <tspan x="956" dy="34">الحالية على التعلم العميق.</tspan>
+    <tspan x="956" dy="34">تمثل هذه العلاقة مستويات</tspan>
+    <tspan x="956" dy="34">متزايدة من التخصص، وليست</tspan>
+    <tspan x="956" dy="34">احتواءً صارمًا في كل حالة.</tspan>
+  </text>
+
+  <!-- الشرح الإنجليزي داخل البطاقة اليسرى -->
+  <text x="124"
+        y="260"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="23"
+        fill="#152b42">
+    <tspan x="124" dy="0">Not all examples of AI are</tspan>
+    <tspan x="124" dy="32">the same type. In this</tspan>
+    <tspan x="124" dy="32">simplified educational model,</tspan>
+    <tspan x="124" dy="32">AI is the broadest field.</tspan>
+    <tspan x="124" dy="32">Machine learning sits within</tspan>
+    <tspan x="124" dy="32">AI, and deep learning sits</tspan>
+    <tspan x="124" dy="32">within machine learning. Most</tspan>
+    <tspan x="124" dy="32">current generative AI systems</tspan>
+    <tspan x="124" dy="32">are built on deep learning.</tspan>
+    <tspan x="124" dy="32">This relationship shows</tspan>
+    <tspan x="124" dy="32">increasing specialization</tspan>
+    <tspan x="124" dy="32">rather than strict containment</tspan>
+    <tspan x="124" dy="32">in every case.</tspan>
+  </text>
+
+  <!-- البطاقة الصفراء -->
+  <text x="752"
+        y="716"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="26"
+        font-weight="bold"
+        fill="#8a5a12">
+    <tspan x="752" dy="0">نموذج تعليمي مبسط</tspan>
+  </text>
+  <text x="328"
+        y="746"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="21"
+        fill="#7a4f0d">
+    <tspan x="328" dy="0">Simplified educational model</tspan>
+  </text>
+
+  <!-- تسميات المخطط: عربي RTL وإنجليزي LTR في عناصر منفصلة -->
+  <text x="888"
+        y="810"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="27"
+        font-weight="bold"
+        fill="#1f5fa8">
+    <tspan x="888" dy="0">الذكاء الاصطناعي</tspan>
+  </text>
+  <text x="610"
+        y="810"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="26"
+        fill="#1f5fa8">
+    <tspan x="610" dy="0">AI</tspan>
+  </text>
+
+  <text x="840"
+        y="858"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="27"
+        font-weight="bold"
+        fill="#1f7a44">
+    <tspan x="840" dy="0">التعلم الآلي</tspan>
+  </text>
+  <text x="610"
+        y="858"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="26"
+        fill="#1f7a44">
+    <tspan x="610" dy="0">ML</tspan>
+  </text>
+
+  <text x="792"
+        y="904"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="27"
+        font-weight="bold"
+        fill="#152b42">
+    <tspan x="792" dy="0">التعلم العميق</tspan>
+  </text>
+  <text x="555"
+        y="904"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="26"
+        fill="#152b42">
+    <tspan x="555" dy="0">DL</tspan>
+  </text>
+
+  <text x="744"
+        y="950"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="25"
+        font-weight="bold"
+        fill="#d97706">
+    <tspan x="744" dy="0">الذكاء الاصطناعي التوليدي</tspan>
+  </text>
+  <text x="340"
+        y="950"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="24"
+        fill="#d97706">
+    <tspan x="340" dy="0">GenAI</tspan>
+  </text>
+
+</svg>

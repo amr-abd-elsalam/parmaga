@@ -1,0 +1,1340 @@
+{
+  "schemaVersion": 1,
+  "course": "programming-ai-baccalaureate-2",
+  "term": "term-1",
+  "chapter": "chapter-01",
+  "lesson": "lesson-02",
+  "displayNumber": "1-2",
+  "displayTitleAr": "كيف يعمل الذكاء الاصطناعي",
+  "displayTitleEn": "How AI Works",
+  "courseLabelAr": "البرمجة والذكاء الاصطناعي، ثانية بكالوريا",
+  "termLabelAr": "ترم أول",
+  "pivotQuestionAr": "كيف يعمل الذكاء الاصطناعي؟",
+  "custodyRepository": "parmaga-content",
+  "custodySnapshot": "79cba74464c5ba627457a964cb1c1d942e551e81",
+  "declaredPageCount": 15,
+  "inventoryDate": "2026-09-22",
+  "status": "published",
+  "extraNotes": [
+    "السؤال المحوري للدرس: كيف يعمل الذكاء الاصطناعي؟",
+    "حزمة أصول الدرس مدرجة للنشر في المسار القانوني داخل المستودع العام، وتتحقق tools/verify_lesson.py من مطابقة بايتاتها لهذا الـManifest.",
+    "أسماء الملفات الواردة من التوليد مطابقة أصلًا للنمط page-<NNN>.svg، لذلك sourceFileName يساوي file في المداخل الخمسة عشر كلها، ولم تجرِ إعادة تسمية.",
+    "المقاس 1080×1350 وviewBox «0 0 1080 1350» مقيسان ومؤكدان في الصفحات الخمس عشرة كلها، أي نسبة 4:5 رأسية.",
+    "منطقة الـ12% المحجوزة: الحد y = 1188. أعلى إحداثي y مرصود هو 1152 في page-005، وعدد الإحداثيات دون الحد صفر في كل الصفحات. القياس بحدود معلنة: يعتمد سمات y وحدها ولا يحسب transform ولا إحداثيات path d ولا y+height ولا cy+r، فهو مؤشر قوي لا إثبات هندسي كامل.",
+    "الفحص الأمني نظيف في الصفحات الخمس عشرة كلها: صفر script، صفر foreignObject، صفر سمات on*، صفر javascript:، صفر مرجع http(s) خارجي، صفر data:، صفر image مضمَّن، صفر use خارجي، صفر iframe أو embed أو object، صفر @import. لا يوجد اكتشاف يحتاج قرارًا مكتوبًا.",
+    "قيمة encoding مستنتجة لا مقروءة: لا يحتوي أي ملف إعلان XML ولا BOM، ونجاح تحليل XML على البايتات دون إعلان يعني أن البايتات UTF-8 صالحة.",
+    "نهايات الأسطر داخل الأصول الخمسة عشر كلها CRLF. لم تُغيَّر ولا يجوز تغييرها، وقاعدة *.svg -text في .gitattributes تغطيها وفق ADR-0005 البند 11.",
+    "الحجم المقيس: المجموع 151300 بايت، والمتوسط 10086 بايت، وأصغر ملف 6440 بايت في page-014، وأكبر ملف 20177 بايت في page-001.",
+    "الخطوط المستدعاة في أربع عشرة صفحة: Arial وComic Sans MS وSegoe Print وSegoe UI وTahoma وsans-serif، وتزيد page-010 وحدها DejaVu Sans وSegoe UI Symbol. قيد معروف مسجَّل في ADR-0004 §23 ولا يُعالَج بتعديل الأصول.",
+    "عنوان الدرس في الصفحة الرئيسة مكتوب بلا علامة استفهام، وفي الأصل بعلامة استفهام. اعتُمد نصّ الرئيسة في displayTitleAr لتبقى مطابقة الاستبدال حرفية، وصيغة السؤال محفوظة في pivotQuestionAr وفي نص page-002.",
+    "تحتوي أربعة بنود في page-011 على علامة > حرفية ضمن سلاسل مثل AI > Deep Learning. العلامة صالحة في متن HTML، وتحقّقنا من ذلك بإعادة تحليل الصفحة المبنية واسترجاع البنود الخمسة والثلاثين ومئتين كاملة بلا فقد ولا تشويه.",
+    "نصوص الصفحات مستخرجة آليًّا من عناصر <text> بترتيب المستند، ثم حُذفت منها علامات الترقيم البصرية بقاعدة أُثبت أنها لا تمسّ بندًا حقيقيًّا واحدًا في درس سابق كامل. وطوبق مجموع عناصر النص في الأصول وهو 243 مع عدد البنود المنشورة وهو 235 صفحةً صفحة في الخمس عشرة كلها، والفرق ثمانية بنود ترقيم في page-011 وpage-012 وحدهما. وروجعت سبع صفحات بصريًّا بعين مالك المشروع: 001 و002 و003 و004 و005 و006 و011."
+  ],
+  "contextSections": {
+    "structureSummaryAr": "تمهيد 002. شرح تقني متدرّج 003-006 من العلاقة بين تقنيات الذكاء الاصطناعي إلى التعلم الآلي فالتعلم العميق والشبكات العصبية فالذكاء الاصطناعي التوليدي. نشاط تشاركي وسؤال تفكير 007-008. مثال محلول وحلّه 009-010. تدريب 011. نشاط بحثي هندسي 012. تطبيق في سياق جديد 013. تمرينان ختاميان 014-015.",
+    "statusAr": "الـManifest بحالة `published`، وأصوله الخمسة عشر مدرجة في مسار النشر القانوني وتتحقق الأداة من مطابقتها له.\n\nصفحة HTML للدرس موجودة ومنشورة على المسار `/courses/programming-ai-baccalaureate-2/term-1/chapter-01/lesson-02/`. تحتوي الصفحات الخمس عشرة كاملة، ونصوصها العربية والإنجليزية موجودة داخل HTML النهائي، فهي مقروءة دون JavaScript. والأصول مستقلة تحت `/assets/lessons/`.\n\nالعارض `assets/js/lesson-viewer.js` طبقة تحسين تدريجي تُحمَّل بـ`defer`، تقرأ DOM وتضيف التفاعل؛ وعند تعطيل JavaScript أو فشل التحميل يبقى الدرس الكامل ظاهرًا بمراسيه ونصوصه وصوره.\n\nالاكتشاف والتنقل جزئيان لا غائبان: الصفحة الرئيسة تحمل رابطًا مباشرًا إلى الدرس، و`sitemap.xml` يضم رابطه فيصير ثلاثة روابط. ولا يوجد بعد فهرس `/courses/`، ولا فهارس Course وTerm وChapter، ولا روابط Previous/Next بين الدروس. وأزرار `data-viewer-prev` و`data-viewer-next` داخل الصفحة تنقّل بين صفحات الدرس داخل العارض، وليست تنقلًا بين الدروس.\n\nهذا الوصف مقيس في 2026-09-22 عند baseline `8b6bd1a`.",
+    "pagesNarrativeAr": "15 صفحة: صفحة افتتاحية واحدة (`page-001`) + 14 صفحة محتوى (`page-002` … `page-015`). ترقيم متصل بلا فجوة ولا تكرار.\n\nخصائص مشتركة في الخمس عشرة كلها: المقاس `1080×1350` بنسبة 4:5 رأسية، و`viewBox \"0 0 1080 1350\"`، وXML سليم البناء، وترميز utf-8، ونتيجة فحص أمني نظيفة. لذلك لا تتكرر في الجدول.\n\nالمطابقة مع المراسي حتمية: `#page-1` ⇄ `page-001.svg` و`#page-15` ⇄ `page-015.svg`.",
+    "constraintsAr": "**الخطوط.** تستدعي خطوط Windows: Tahoma، Segoe Print، Comic Sans MS، Segoe UI، Arial، إضافة إلى `sans-serif` العام، وفي `page-010` وحدها أيضًا DejaVu Sans و Segoe UI Symbol. قد لا تتوفر على أندرويد، ومع تقطيع النص بإحداثيات ثابتة قد يخرج النص عن إطاره عند استخدام خط بديل. قيد مسجَّل في `ADR-0004 §23`: لا يُعالَج بتعديل الأصول الحالية، بل في قالب التوليد القادم بعد اختبار عينة على هاتف أندرويد حقيقي.\n\n**الألوان خارج نطاق Design Tokens.** العرض عبر `<img>` يجعل كل ملف في نطاق مستند منفصل، فلا تصل إليه CSS Custom Properties في `assets/css/parmaga.css`. الوضع الليلي لا يعيد تلوين SVG. تغيير هذا الحد يحتاج قرارًا مستقلًا.\n\n**منطقة الـ12% المحجوزة.** آخر 12% محجوز فارغًا، أي ما دون `y = 1188`. أعلى `y` مرصود 1152 في `page-005`، ولا إحداثي دون الحد. القياس يعتمد سمات `y` وحدها ولا يحسب `transform` ولا `path` ولا `y+height` ولا `cy+r`، فهو مؤشر قوي لا إثبات كامل. الأثر الملزم: رقم الصفحة والتنقل وهوية الموقع من طبقة HTML **حصرًا** وفق `ADR-0004 §19`.\n\n**بايتات الأصول ثابتة.** نهايات الأسطر داخل الأصول CRLF، ولا إعلان XML ولا BOM. البصمات محسوبة على هذه البايتات، وأي تعديل أو ضغط أو إعادة تصدير أو تطبيع يُبطلها.",
+    "decidedAr": "المسار الدائم والمعرّفات وفق `ADR-0004`. عدد الصفحات 15 وترتيبها وأدوارها: `opening` للأولى و`content` للأربع عشرة الباقية. أسماء الأصول `page-<NNN>.svg` واشتقاق مسارها. المقاس والنسبة. نمط المراسي `#page-<n>` بلا تصفير.\n\nالنشر التزام واحد يضم الأصول والـManifest وملف السياق وصفحة الدرس والرئيسة والـ`sitemap`، والـManifest يُكتب بحالة `published` مباشرةً بلا حالة وسيطة.\n\nملف السياق مولَّد آليًّا 100% من الـconfig والـManifest، ولا يُحرَّر بيد بعد توليده؛ وكل نصّ بشري مكانه الـconfig وحده ليبقى كل مخرَج قابلًا لإعادة توليده بايتًا ببايت.\n\nوحدة نصّ الصفحة هي عنصر `<text>` كامل بترتيب المستند، كما خزّنه الأصل، فلا تُدمج العناصر المتجاورة ولا تُقسَّم. وتُحذف علامات الترقيم البصرية القصيرة التي تُخزَّن معكوسة في الأصل مثل `(1` وتظهر للعين `1)`، لأنها ترقيم لا محتوى، ولأنها لو نُشرت لصارت فقرة قائمة بذاتها.\n\n`displayTitleAr` نصّ الرئيسة بلا علامة استفهام، مطابقةً حرفية للـplaceholder المستبدَل؛ وصيغة السؤال محفوظة في `pivotQuestionAr` وفي نص الصفحة.",
+    "undecidedAr": "معالجة محارف الترميز في مولّد HTML: `render_page_block` لا يطبّق escaping، وهذا الدرس سليم بالقياس لخلوّه من `<` و`&` وعلامة التنصيص، وعلامة `>` الحرفية صالحة في متن HTML وتحقّقنا منها بإعادة تحليل الصفحة المبنية واسترجاع البنود الـ235 كاملة. المعالجة العامة تُضاف في طلب دمج مستقل مع اختبار يغطي `& < \" >`.\n\nإدخال أداة استخراج النصوص إلى `tools/` بعد نشر هذا الدرس، وتصحيح `CONTENT_INTAKE §7` و`§8`، وكتابة ADR أداة النشر.\n\nروابط Previous/Next بين الدروس. فهرس `/courses/` وفهارس Course وTerm وChapter. Structured Data. حل مشكلة الخطوط على أندرويد. مراسي `#concept-*`. نظام البحث وتقدم الطالب. مسارات اللغات.",
+    "howToUseAr": "هذا مصدرك لجرد بنية الدرس وقيوده، لا مصدر حالته الوحيد. **لا تطلب ملف SVG.** تمرير الأصول إلى النماذج ممنوع وفق `ADR-0005` البند 10، والاستثناء الوحيد صفحة واحدة عند مشكلة محددة موصوفة مسبقًا، ويُوثَّق.\n\nتقسيم المصادر النافذ: الـManifest مسؤول عن جرد الأصول وبصماتها وأبعادها وعهدتها؛ ونصّ الدرس المنشور بلغتيه موجود في HTML الصفحة نفسها؛ وملفات SVG أصول عهدة منشورة لا تُعدَّل ولا يُعاد تصديرها؛ وعقد العارض في `ADR-0007` وما بعده.\n\nهذا الدرس وما بعده يُنشر بأداة واحدة هي `tools/publish_lesson.py` من ملف config في `tools/publish_configs/`. فإن أردت تغيير مخرَج منشور فغيّر الـconfig وأعد التوليد، ولا تحرّر المخرَج بيدك: التحرير اليدوي يكسر قابلية إعادة التوليد التي يقوم عليها إثبات صحة النشر.\n\nاقرأ معه بالترتيب: `PROJECT_VISION.md`، ثم `ADR-0003` و`ADR-0004` و`ADR-0005`، ثم `ADR-0007` وما بعده لعقد صفحة الدرس والعارض، ثم `docs/ai/AI_EXECUTOR_PROTOCOL.md` إن كان دورك تنفيذيًا.\n\nممنوع عليك: تعديل أصل SVG أو تنظيفه أو إعادة تصديره، تغيير مسار منشور أو معرّف تقني، اختراع رقم صفحة أو بصمة أو بُعد، افتراض ترتيب غير المسجَّل. إن احتجت معلومة ناقصة فاطلبها من الـManifest أو من مالك المشروع وقل صراحة إنها ناقصة بدل تقديرها."
+  },
+  "svgSourceDir": "assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-01/lesson-02",
+  "pages": [
+    {
+      "id": "page-001",
+      "htmlId": "page-1",
+      "role": "opening",
+      "descriptionAr": "الدرس 1-2",
+      "transcript": [
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "الدرس 1-2"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "كيف يعمل الذكاء الاصطناعي؟"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Lesson 1-2"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "How AI Works"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "البريد الإلكتروني"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Email"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "التوصيات"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Recommendations"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "الترجمة"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Translation"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "توليد المحتوى"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Content Generation"
+        }
+      ]
+    },
+    {
+      "id": "page-002",
+      "htmlId": "page-2",
+      "role": "content",
+      "descriptionAr": "كيف يعمل الذكاء الاصطناعي؟",
+      "transcript": [
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "كيف يعمل الذكاء الاصطناعي؟"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "How AI Works"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "When you use your phone, AI often works in the background: a spam filter sorts unwanted email, a store recommends products, a translation app changes one language into another, and ChatGPT generates text from a prompt."
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Artificial Intelligence (AI) is a general term for technologies that perform behaviors associated with human intelligence, such as learning, reasoning, and judgment."
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "عندما تستخدم هاتفك، يعمل الذكاء الاصطناعي غالبًا في الخلفية: يفرز مرشح البريد الرسائل المزعجة، ويوصي متجر بمنتجات، ويترجم تطبيق بين اللغات، ويولّد ChatGPT نصًا من طلب."
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "الذكاء الاصطناعي"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Artificial Intelligence (AI)"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "مصطلح عام لتقنيات تنفذ على الحاسوب سلوكيات مرتبطة بالذكاء البشري، مثل التعلم والاستدلال والحكم."
+        }
+      ]
+    },
+    {
+      "id": "page-003",
+      "htmlId": "page-3",
+      "role": "content",
+      "descriptionAr": "العلاقة بين تقنيات الذكاء الاصطناعي",
+      "transcript": [
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "العلاقة بين تقنيات الذكاء الاصطناعي"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "The Relationship Between AI Technologies"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "ليست كل أمثلة الذكاء الاصطناعي من النوع نفسه. في النموذج التعليمي المبسط، الذكاء الاصطناعي هو المجال الأوسع، ويقع داخله التعلم الآلي، ثم التعلم العميق داخل التعلم الآلي. وتعتمد غالبية أنظمة الذكاء الاصطناعي التوليدي الحالية على التعلم العميق. تمثل هذه العلاقة مستويات متزايدة من التخصص، وليست احتواءً صارمًا في كل حالة."
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Not all examples of AI are the same type. In this simplified educational model, AI is the broadest field. Machine learning sits within AI, and deep learning sits within machine learning. Most current generative AI systems are built on deep learning. This relationship shows increasing specialization rather than strict containment in every case."
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "نموذج تعليمي مبسط"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Simplified educational model"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "الذكاء الاصطناعي"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "AI"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "التعلم الآلي"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "ML"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "التعلم العميق"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "DL"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "الذكاء الاصطناعي التوليدي"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "GenAI"
+        }
+      ]
+    },
+    {
+      "id": "page-004",
+      "htmlId": "page-4",
+      "role": "content",
+      "descriptionAr": "التعلم الآلي",
+      "transcript": [
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "التعلم الآلي"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Machine Learning"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "التعلم الآلي"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Machine Learning (ML)"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "إحدى تقنيات التعلم التي تجعل الذكاء الاصطناعي يعمل. يتعلم الأنماط من البيانات ليقدم تنبؤات أو أحكامًا، بدلًا من برمجة كل قرار على هيئة قاعدة ثابتة. من أمثلته اكتشاف الرسائل المزعجة والتوصية بالمنتجات اعتمادًا على بيانات المستخدم."
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Machine Learning (ML) is one of the learning technologies that makes AI work. It learns patterns from data to make predictions or judgments instead of programming every decision as a fixed rule. Examples include detecting spam messages and recommending products based on user data."
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "البيانات"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Data"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "تعلم الأنماط"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Learning Patterns"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "تنبؤ أو حكم"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Prediction or Judgment"
+        }
+      ]
+    },
+    {
+      "id": "page-005",
+      "htmlId": "page-5",
+      "role": "content",
+      "descriptionAr": "التعلم العميق والشبكات العصبية",
+      "transcript": [
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "التعلم العميق والشبكات العصبية"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Deep Learning and Neural Networks"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "التعلم العميق Deep Learning (DL) تقنية متقدمة ضمن التعلم الآلي، تستخدم الشبكات العصبية لتعلم أنماط معقدة من بيانات واسعة النطاق. والشبكة العصبية الاصطناعية Artificial Neural Network (ANN) نموذج حاسوبي مستوحى بصورة مبسطة من ترابط الخلايا العصبية، ويتكون من وحدات مترابطة تتعلم من البيانات وتدعم إصدار أحكام معقدة."
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Deep Learning (DL) is an advanced technology within machine learning that uses neural networks to learn complex patterns from large-scale data. An Artificial Neural Network (ANN) is a computational model inspired by a simplified view of connected nerve cells. It consists of connected units that learn from data and support complex judgments."
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "شبكة عصبية مبسطة"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Simplified Neural Network"
+        }
+      ]
+    },
+    {
+      "id": "page-006",
+      "htmlId": "page-6",
+      "role": "content",
+      "descriptionAr": "الذكاء الاصطناعي التوليدي",
+      "transcript": [
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "الذكاء الاصطناعي التوليدي"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Generative AI"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "الذكاء الاصطناعي التوليدي"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Generative AI (GenAI)"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "تقنية تستخدم التعلم العميق لإنشاء بيانات جديدة، مثل النصوص والصور والصوت والبرامج. تعتمد المخرجات الجديدة على الأنماط التي تعلمها النظام من بيانات التدريب. من أمثلته ChatGPT وأنظمة توليد الصور."
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Generative AI (GenAI) is a technology that uses deep learning to generate new data, such as text, images, audio, and programs. Its new outputs are based on patterns the system learned from training data. Examples include ChatGPT and image-generation systems."
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "بيانات التدريب"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Training Data"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "الذكاء الاصطناعي التوليدي"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Generative AI"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "نصوص — صور — صوت — برامج"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Text — Images — Audio — Programs"
+        }
+      ]
+    },
+    {
+      "id": "page-007",
+      "htmlId": "page-7",
+      "role": "content",
+      "descriptionAr": "استكشف مع زميلك",
+      "transcript": [
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "استكشف مع زميلك"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Explore — In Pairs"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "ما الذكاء الاصطناعي؟ وما العلاقة بين التعلم الآلي والتعلم العميق والذكاء الاصطناعي التوليدي؟"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "What is AI, and how are machine learning, deep learning, and generative AI related?"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "بالتعاون مع زميلك، اذكرا ثلاث مهام ينفذها الهاتف أو الحاسوب وتبدو كأنها تحتاج إلى «ذكاء»، مثل فرز الرسائل المزعجة أو التوصية بمقطع فيديو أو ترجمة نص. ثم حددا: هل يتبع الحاسوب قواعد ثابتة، أم يتعلم من الأمثلة؟ اذكرا سببًا واحدًا."
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "With a partner, list three tasks a phone or computer performs that seem to require “intelligence,” such as sorting spam, recommending a video, or translating text. Then decide: does the computer follow fixed rules, or does it learn from examples? Give one reason."
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "المهمة"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Task"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "قواعد ثابتة"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Fixed Rules"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "تعلم من الأمثلة"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Learns from Examples"
+        }
+      ]
+    },
+    {
+      "id": "page-008",
+      "htmlId": "page-8",
+      "role": "content",
+      "descriptionAr": "توقف وفكّر",
+      "transcript": [
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "توقف وفكّر"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Pause and Think"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "تُعد مرشحات الرسائل المزعجة وأنظمة التوصية بالمنتجات مثالين على التعلم الآلي، لكنهما يؤديان مهمتين مختلفتين. من منظور طريقة عمل الذكاء الاصطناعي، وضّح شيئًا واحدًا مشتركًا بين التطبيقين."
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Spam filters and product recommendation systems are both examples of machine learning, but they perform different tasks. From the perspective of how AI works, explain one thing these two applications have in common."
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "يحتاج التعلم العميق عادةً إلى بيانات كثيرة ليتعلم الأنماط المعقدة. لماذا قد يواجه نظام ذكاء اصطناعي صعوبة في التعامل مع شيء نادرًا ما ظهر في بيانات التدريب؟"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Deep learning usually needs large amounts of data to learn complex patterns. Why might an AI system struggle with something that has rarely appeared in its training data?"
+        }
+      ]
+    },
+    {
+      "id": "page-009",
+      "htmlId": "page-9",
+      "role": "content",
+      "descriptionAr": "مثال محلول",
+      "transcript": [
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "مثال محلول"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Worked Example"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "1. صواب أم خطأ؟"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "— True or False?"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "أ — A: التعلم الآلي إحدى تقنيات التعلم التي تجعل الذكاء الاصطناعي يعمل."
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Machine learning is one of the learning technologies that makes AI work."
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "ب — B: التعلم العميق تقنية مختلفة تمامًا عن التعلم الآلي."
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Deep learning is a completely different technology from machine learning."
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "ج — C: يستخدم الذكاء الاصطناعي التوليدي التعلم العميق لإنشاء بيانات جديدة."
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Generative AI uses deep learning to generate new data."
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "د — D: الذكاء الاصطناعي والتعلم الآلي لهما المعنى نفسه."
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "AI and machine learning have the same meaning."
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "2. صِل الوصف بالمصطلح المناسب"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "— Match Each Description"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "A. التعلم الآلي Machine Learning"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "B. التعلم العميق Deep Learning"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "C. الذكاء الاصطناعي التوليدي Generative AI"
+        }
+      ]
+    },
+    {
+      "id": "page-010",
+      "htmlId": "page-10",
+      "role": "content",
+      "descriptionAr": "الحل",
+      "transcript": [
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "الحل"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Solution"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "أ"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "— A:"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "✓"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "ب"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "— B:"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "✗"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "ج"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "— C:"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "✓"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "د"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "— D:"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "✗"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "التعلم العميق نوع متقدم من التعلم الآلي، وليس تقنية منفصلة عنه تمامًا."
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Deep learning is an advanced type of machine learning, not a completely separate technology."
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "الذكاء الاصطناعي مجال واسع، والتعلم الآلي إحدى التقنيات التي تقع داخله؛ لذلك لا يحملان المعنى نفسه."
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "AI is a broad field, and machine learning is one of the technologies within it; therefore, they do not have the same meaning."
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "أ"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "— a:"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "التعلم الآلي"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Machine Learning — A"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "ب"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "— b:"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "التعلم العميق"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Deep Learning — B"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "ج"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "— c:"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "الذكاء الاصطناعي التوليدي"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Generative AI — C"
+        }
+      ]
+    },
+    {
+      "id": "page-011",
+      "htmlId": "page-11",
+      "role": "content",
+      "descriptionAr": "تدرّب",
+      "transcript": [
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "تدرّب"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Try"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "أولًا: أجب عن الأسئلة —"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Answer the Questions"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "ما هو الذكاء الاصطناعي؟"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "ما هو تعلّم الآلة؟"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "ما هو التعلّم العميق؟"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "ما هو الذكاء الاصطناعي التوليدي؟"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "What is Artificial Intelligence?"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "What is Machine Learning?"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "What is Deep Learning?"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "What is Generative AI?"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "ثانيًا: اختر الإجابة الصحيحة —"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Choose the Correct Answer"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "ما العلاقة الصحيحة بين هذه المفاهيم؟"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "What is the correct relationship between them?"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "A. AI > Deep Learning > Machine Learning > Generative AI"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "B. Machine Learning > AI > Generative AI > Deep Learning"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "C. AI > Machine Learning > Deep Learning > Generative AI"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "D. Generative AI > Deep Learning > Machine Learning > AI"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "أيٌّ مما يلي مثال على الذكاء الاصطناعي التوليدي؟"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Which of the following is an example of Generative AI?"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "A. ChatGPT"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "B. Image-generation AI"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "C. Spam filter"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "D. Audio-generation AI"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "مفتاح الإجابة"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Answer Key"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "1. AI"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "2. Machine Learning"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "3. Deep Learning"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "4. Generative AI"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "1-C، 2-C"
+        }
+      ]
+    },
+    {
+      "id": "page-012",
+      "htmlId": "page-12",
+      "role": "content",
+      "descriptionAr": "فكّر كمهندس: ابحث ثم قرر",
+      "transcript": [
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "فكّر كمهندس: ابحث ثم قرر"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Think as an Engineer — Investigate and Decide"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "1. ابحث"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "— Investigate"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "ابحث عن حالة موثقة واحدة لهلوسة الذكاء الاصطناعي التوليدي، وسجّل مصدرها."
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Find one documented case of generative AI hallucination, and record its source."
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "2. قيّم الأمر"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "— Weigh It Up"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "اكتب فائدة واحدة وخطرًا واحدًا للطالب وللمعلم."
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Write one benefit and one risk for the student and the teacher."
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "3. اتخذ قرارًا"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "— Decide"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "قرّر هل يُسمح باستخدام الذكاء الاصطناعي التوليدي في الواجبات المنزلية، وأوصِ بقاعدة واحدة مع سببين."
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Decide whether generative AI should be allowed in homework, and recommend one rule with two reasons."
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "من الفوائد المحتملة السرعة، ومن المخاطر احتمال الحصول على معلومات خاطئة أو غير مدعومة؛ لذلك يجب التحقق من المخرجات ومصادرها."
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "One possible benefit is speed, and one risk is receiving incorrect or unsupported information; therefore, outputs and sources must be checked."
+        }
+      ]
+    },
+    {
+      "id": "page-013",
+      "htmlId": "page-13",
+      "role": "content",
+      "descriptionAr": "طبّق ما تعلمته في سياق جديد",
+      "transcript": [
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "طبّق ما تعلمته في سياق جديد"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Apply Your Learning in a New Context"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "يريد مزارع استخدام الذكاء الاصطناعي لفحص صور المحاصيل والتمييز بين المحصول السليم والمحصول المصاب بالمرض."
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "A farmer wants to use AI to look at crop photos and tell healthy crops from diseased ones."
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "1. ما نوع البيانات التي يحتاج إليها النظام ليتعلم؟"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "1. What type of data would the system need to learn from?"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "2. اذكر سببًا واحدًا قد يجعل حكم النظام خاطئًا."
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "2. Give one reason why its judgment might be wrong."
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "تأمل وتحدَّ نفسك"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Reflect and Challenge"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "هل كنت تظن قبل اليوم أن الذكاء الاصطناعي تقنية واحدة فقط؟"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Did you think, before today, that AI was just one single technology?"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "اذكر استخدامًا مفيدًا واحدًا للذكاء الاصطناعي، واستخدامًا سيئًا محتملًا، وكيف نقلّل هذا الاستخدام."
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Name one useful use, one possible misuse, and how to reduce that misuse."
+        }
+      ]
+    },
+    {
+      "id": "page-014",
+      "htmlId": "page-14",
+      "role": "content",
+      "descriptionAr": "تمرين: أكمل المصطلحات",
+      "transcript": [
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "تمرين: أكمل المصطلحات"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Exercise — Complete the Terms"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "أكمل المصطلحات الناقصة في الفراغات التالية."
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Complete the missing terms in the blanks below."
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "(أ: ________) (ب: ________) (ج: ________) (د: ________)"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "(a: ________) (b: ________) (c: ________) (d: ________)"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "أ — a: الذكاء الاصطناعي Artificial Intelligence"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "ب — b: التعلم الآلي Machine Learning"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "ج — c: التعلم العميق Deep Learning"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "د — d: الذكاء الاصطناعي التوليدي Generative AI"
+        }
+      ]
+    },
+    {
+      "id": "page-015",
+      "htmlId": "page-15",
+      "role": "content",
+      "descriptionAr": "تمرين: صنّف وحدد العلاقة",
+      "transcript": [
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "تمرين: صنّف وحدد العلاقة"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Exercise — Classify and Identify the Relationship"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "A."
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "التعلم الآلي"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Machine Learning"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "B."
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "التعلم العميق"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Deep Learning"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "C."
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "الذكاء الاصطناعي التوليدي"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Generative AI"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "أ — a:"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "فرز الرسائل المزعجة تلقائيًا."
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Automatically sorting spam emails."
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "ب — b:"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "التعرف على المشاة على الطريق في القيادة الذاتية."
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Recognizing pedestrians on the road in autonomous driving."
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "ج — c:"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "إنشاء صور جديدة تلقائيًا من نص."
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Automatically generating new images from text."
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "د — d:"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "التوصية بمنتجات اعتمادًا على سجل مشتريات المستخدم."
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Recommending products based on a user’s purchase history."
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "A."
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "B."
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "C."
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "D."
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "أ — a: A"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "ب — b: B"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "ج — c: C"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "د — d: A"
+        },
+        {
+          "lang": "ar",
+          "dir": "rtl",
+          "text": "وصف العلاقة الصحيح: A"
+        },
+        {
+          "lang": "en",
+          "dir": "ltr",
+          "text": "Correct relationship: A"
+        }
+      ]
+    }
+  ]
+}

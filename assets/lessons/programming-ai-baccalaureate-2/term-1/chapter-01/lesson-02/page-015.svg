@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+
+  <defs>
+    <linearGradient id="gWood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#9a6634"/>
+      <stop offset="55%" stop-color="#82522a"/>
+      <stop offset="100%" stop-color="#6a4120"/>
+    </linearGradient>
+    <linearGradient id="gPaper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fffdf6"/>
+      <stop offset="100%" stop-color="#fbf6e9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 1) الخلفية الخشبية البسيطة -->
+  <rect x="0" y="0" width="1080" height="1350" fill="url(#gWood)"/>
+  <path d="M0 250 C 300 210, 760 300, 1080 240" stroke="#5b3718" stroke-width="10" fill="none" opacity=".10"/>
+  <path d="M0 1090 C 320 1040, 740 1140, 1080 1080" stroke="#5b3718" stroke-width="9" fill="none" opacity=".09"/>
+
+  <!-- 2) الورقة -->
+  <rect x="42" y="34" width="1012" height="1300" fill="#3a2410" opacity=".18" rx="6"/>
+  <rect x="34" y="26" width="1012" height="1300" fill="url(#gPaper)" rx="6"/>
+
+  <!-- 3) سطور الدفتر الأفقية الزرقاء الفاتحة -->
+  <g stroke="#c9dcee" stroke-width="1.6" opacity=".62">
+    <line x1="52" y1="120" x2="1028" y2="120"/>
+    <line x1="52" y1="165" x2="1028" y2="165"/>
+    <line x1="52" y1="210" x2="1028" y2="210"/>
+    <line x1="52" y1="255" x2="1028" y2="255"/>
+    <line x1="52" y1="300" x2="1028" y2="300"/>
+    <line x1="52" y1="345" x2="1028" y2="345"/>
+    <line x1="52" y1="390" x2="1028" y2="390"/>
+    <line x1="52" y1="435" x2="1028" y2="435"/>
+    <line x1="52" y1="480" x2="1028" y2="480"/>
+    <line x1="52" y1="525" x2="1028" y2="525"/>
+    <line x1="52" y1="570" x2="1028" y2="570"/>
+    <line x1="52" y1="615" x2="1028" y2="615"/>
+    <line x1="52" y1="660" x2="1028" y2="660"/>
+    <line x1="52" y1="705" x2="1028" y2="705"/>
+    <line x1="52" y1="750" x2="1028" y2="750"/>
+    <line x1="52" y1="795" x2="1028" y2="795"/>
+    <line x1="52" y1="840" x2="1028" y2="840"/>
+    <line x1="52" y1="885" x2="1028" y2="885"/>
+    <line x1="52" y1="930" x2="1028" y2="930"/>
+    <line x1="52" y1="975" x2="1028" y2="975"/>
+    <line x1="52" y1="1020" x2="1028" y2="1020"/>
+    <line x1="52" y1="1065" x2="1028" y2="1065"/>
+    <line x1="52" y1="1110" x2="1028" y2="1110"/>
+    <line x1="52" y1="1155" x2="1028" y2="1155"/>
+    <line x1="52" y1="1200" x2="1028" y2="1200"/>
+    <line x1="52" y1="1245" x2="1028" y2="1245"/>
+    <line x1="52" y1="1290" x2="1028" y2="1290"/>
+  </g>
+
+  <!-- 4) الإطار الأحمر الخارجي الوحيد -->
+  <rect x="67" y="66" width="946" height="1250" fill="none" stroke="#c62828" stroke-width="2.6" rx="4"/>
+
+  <!-- 5) خلفيات البطاقات والصناديق -->
+  <rect x="115" y="186" width="276" height="100" fill="#e9f6ee" stroke="#1e7a46" stroke-width="1.8" rx="12"/>
+  <rect x="402" y="186" width="276" height="100" fill="#e8f1fb" stroke="#1d5f9c" stroke-width="1.8" rx="12"/>
+  <rect x="689" y="186" width="276" height="100" fill="#fdf0e2" stroke="#c2661a" stroke-width="1.8" rx="12"/>
+
+  <rect x="115" y="740" width="850" height="210" fill="#f5f9fd" stroke="#9db8d4" stroke-width="1.8" rx="14"/>
+  <rect x="115" y="988" width="850" height="172" fill="#eaf7ec" stroke="#6fb287" stroke-width="1.8" rx="14"/>
+
+  <!-- 6) العلامات والخطوط الوظيفية -->
+  <g fill="none" stroke="#c62828" stroke-width="2">
+    <rect x="140" y="768" width="24" height="24" rx="4"/>
+    <rect x="140" y="808" width="24" height="24" rx="4"/>
+    <rect x="140" y="848" width="24" height="24" rx="4"/>
+    <rect x="140" y="888" width="24" height="24" rx="4"/>
+  </g>
+  <g stroke="#b9cfe2" stroke-width="1.6" stroke-dasharray="7 7">
+    <line x1="222" y1="798" x2="930" y2="798"/>
+    <line x1="222" y1="838" x2="930" y2="838"/>
+    <line x1="222" y1="878" x2="930" y2="878"/>
+    <line x1="222" y1="918" x2="930" y2="918"/>
+  </g>
+
+  <!-- 7) النصوص التعليمية -->
+
+  <!-- العنوان العربي -->
+  <text x="540" y="118" direction="rtl" unicode-bidi="plaintext" text-anchor="middle"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="38" font-weight="bold" fill="#17436e">تمرين: صنّف وحدد العلاقة</text>
+
+  <!-- العنوان الإنجليزي -->
+  <text x="540" y="158" direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="25" fill="#2a5580">Exercise — Classify and Identify the Relationship</text>
+
+  <!-- بطاقة A -->
+  <text x="131" y="218" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="24" font-weight="bold" fill="#1e7a46">A.</text>
+  <text x="375" y="218" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="22" fill="#1e7a46">التعلم الآلي</text>
+  <text x="131" y="272" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="21" fill="#152b42">Machine Learning</text>
+
+  <!-- بطاقة B -->
+  <text x="418" y="218" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="24" font-weight="bold" fill="#1d5f9c">B.</text>
+  <text x="662" y="218" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="22" fill="#1d5f9c">التعلم العميق</text>
+  <text x="418" y="272" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="21" fill="#152b42">Deep Learning</text>
+
+  <!-- بطاقة C -->
+  <text x="705" y="218" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="24" font-weight="bold" fill="#c2661a">C.</text>
+  <text x="949" y="218" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="22" fill="#c2661a">
+    <tspan x="949" dy="0">الذكاء الاصطناعي</tspan>
+    <tspan x="949" dy="28">التوليدي</tspan>
+  </text>
+  <text x="705" y="272" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="21" fill="#152b42">Generative AI</text>
+
+  <!-- المثال الأول -->
+  <text x="950" y="336" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="27" font-weight="bold" fill="#1e7a46">أ — a:</text>
+  <text x="872" y="336" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="27" fill="#225f9c">فرز الرسائل المزعجة تلقائيًا.</text>
+  <text x="140" y="372" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">Automatically sorting spam emails.</text>
+
+  <!-- المثال الثاني -->
+  <text x="950" y="420" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="27" font-weight="bold" fill="#1e7a46">ب — b:</text>
+  <text x="866" y="420" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="27" fill="#225f9c">التعرف على المشاة على الطريق في القيادة الذاتية.</text>
+  <text x="140" y="456" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">
+    <tspan x="140" dy="0">Recognizing pedestrians on the road</tspan>
+    <tspan x="140" dy="32">in autonomous driving.</tspan>
+  </text>
+
+  <!-- المثال الثالث -->
+  <text x="950" y="536" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="27" font-weight="bold" fill="#1e7a46">ج — c:</text>
+  <text x="868" y="536" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="27" fill="#225f9c">إنشاء صور جديدة تلقائيًا من نص.</text>
+  <text x="140" y="572" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">Automatically generating new images from text.</text>
+
+  <!-- المثال الرابع -->
+  <text x="950" y="620" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="27" font-weight="bold" fill="#1e7a46">د — d:</text>
+  <text x="866" y="620" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="27" fill="#225f9c">التوصية بمنتجات اعتمادًا على سجل مشتريات المستخدم.</text>
+  <text x="140" y="656" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">
+    <tspan x="140" dy="0">Recommending products based on</tspan>
+    <tspan x="140" dy="32">a user’s purchase history.</tspan>
+  </text>
+
+  <!-- حروف اختيارات سؤال العلاقة -->
+  <text x="182" y="798" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" font-weight="bold" fill="#1e7a46">A.</text>
+  <text x="182" y="838" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" font-weight="bold" fill="#1e7a46">B.</text>
+  <text x="182" y="878" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" font-weight="bold" fill="#1e7a46">C.</text>
+  <text x="182" y="918" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" font-weight="bold" fill="#1e7a46">D.</text>
+
+  <!-- مفتاح الإجابة -->
+  <text x="930" y="1046" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="27" fill="#1b5e35">أ — a: A</text>
+  <text x="730" y="1046" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="27" fill="#1b5e35">ب — b: B</text>
+  <text x="530" y="1046" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="27" fill="#1b5e35">ج — c: C</text>
+  <text x="330" y="1046" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="27" fill="#1b5e35">د — d: A</text>
+
+  <text x="930" y="1096" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="27" fill="#1b5e35">وصف العلاقة الصحيح: A</text>
+  <text x="140" y="1136" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#1b5e35">Correct relationship: A</text>
+
+</svg>
