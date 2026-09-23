@@ -172,5 +172,41 @@ class CommittedLessonTests(unittest.TestCase):
         self._assert_round_trip("lesson-02")
 
 
+class ContextPacketTests(unittest.TestCase):
+    """ADR-0005 section 10: every Context Packet stays under 8000 bytes with no
+    SVG markup, and the committed packets are exactly what the tool renders."""
+
+    CAP = 8000
+
+    def _each(self):
+        for root, _dirs, files in os.walk(os.path.join(REPO_ROOT, "tools", "publish_configs")):
+            for name in sorted(files):
+                if name.endswith(".json"):
+                    config = publish_lesson.load_config(os.path.join(root, name))
+                    manifest = publish_lesson.load_manifest(
+                        os.path.join(REPO_ROOT, publish_lesson.manifest_relpath_for(config)))
+                    yield config, publish_lesson.build_context(config, manifest)
+
+    def test_every_context_packet_is_under_cap_without_svg(self):
+        seen = 0
+        for config, text in self._each():
+            data = text.encode("utf-8")
+            self.assertLess(len(data), self.CAP, config["lesson"])
+            self.assertNotIn(b"<svg", data.lower(), config["lesson"])
+            seen += 1
+        self.assertGreaterEqual(seen, 2)
+
+    def test_committed_context_regenerates_byte_for_byte(self):
+        for config, text in self._each():
+            path = os.path.join(REPO_ROOT, publish_lesson.context_relpath_for(config))
+            with tempfile.TemporaryDirectory() as tmp:
+                out = os.path.join(tmp, "context.md")
+                publish_lesson.write_with_ending(out, text, "lf")
+                with open(out, "rb") as f:
+                    rendered = f.read()
+            with open(path, "rb") as f:
+                self.assertTrue(rendered == f.read(), "%s context differs" % config["lesson"])
+
+
 if __name__ == "__main__":
     unittest.main()
