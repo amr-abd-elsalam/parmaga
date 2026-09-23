@@ -2,17 +2,21 @@
 first regression net for the tool (ADR-0024 K3).
 
 Standard library only, as required by ADR-0006 section 2. Nothing is written
-inside the repository: the only file these tests write goes to a temporary
-directory that is removed automatically.
+inside the repository: files these tests write go to temporary directories
+outside it, plus the tool's own publish_all_manifest.json in the system temp dir.
 """
 
 from __future__ import annotations
 
+import contextlib
 import html.parser
+import io
 import os
+import shutil
 import sys
 import tempfile
 import unittest
+from unittest import mock
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONFIG_DIR = os.path.join(
@@ -224,6 +228,69 @@ class ToolInventoryTests(unittest.TestCase):
                 if name.endswith(".py"):
                     found.append(os.path.relpath(os.path.join(root, name), base))
         self.assertEqual(sorted(found), self.RECORDED)
+
+
+class AllNewLessonTests(unittest.TestCase):
+    """ADR-0024 K1: `all` on a lesson with no canonical Manifest. With
+    --in-place it creates the Manifest through `inventory` and continues; with
+    --output-dir it stops with exit status 1 and writes nothing. Runs on a copy
+    of lesson 1-1 in a temporary repository root; `verify` is replaced here
+    because it scans the whole repository (tests/test_verify_lesson.py)."""
+
+    LESSON = "lesson-01"
+
+    def setUp(self):
+        tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(tmp.cleanup)
+        self.root = tmp.name
+        self.config_path = os.path.join(CONFIG_DIR, self.LESSON + ".json")
+        self.config = publish_lesson.load_config(self.config_path)
+        c = self.config
+        assets = os.path.join("assets", "lessons", c["course"], c["term"], c["chapter"], c["lesson"])
+        shutil.copytree(os.path.join(REPO_ROOT, assets), os.path.join(self.root, assets))
+        for name in ("index.html", "sitemap.xml"):
+            shutil.copy2(os.path.join(REPO_ROOT, name), os.path.join(self.root, name))
+        patcher = mock.patch.multiple(
+            publish_lesson, REPO_ROOT=self.root, cmd_verify=lambda _config_path: 0)
+        patcher.start()
+        self.addCleanup(patcher.stop)
+        self.canonical = os.path.join(self.root, publish_lesson.manifest_relpath_for(c))
+
+    def _run(self, output_dir=None, in_place=True):
+        out, err = io.StringIO(), io.StringIO()
+        with contextlib.redirect_stdout(out), contextlib.redirect_stderr(err):
+            rc = publish_lesson.cmd_all(self.config_path, output_dir, in_place=in_place)
+        return rc, out.getvalue()
+
+    def _bytes(self, root, relpath):
+        with open(os.path.join(root, relpath), "rb") as f:
+            return f.read()
+
+    def test_in_place_creates_manifest_equal_to_committed(self):
+        self.assertFalse(os.path.exists(self.canonical))
+        self.assertEqual(self._run()[0], 0)
+        c = self.config
+        for rel in (publish_lesson.manifest_relpath_for(c),
+                    publish_lesson.lesson_html_relpath_for(c),
+                    publish_lesson.context_relpath_for(c),
+                    "index.html", "sitemap.xml"):
+            self.assertTrue(self._bytes(self.root, rel) == self._bytes(REPO_ROOT, rel), rel)
+
+    def test_second_run_writes_nothing_in_repository(self):
+        self.assertEqual(self._run()[0], 0)
+        rc, out = self._run()
+        self.assertEqual(rc, 0)
+        inside = [line for line in out.splitlines()
+                  if "wrote=" in line and (self.root + os.sep) in line]
+        self.assertEqual(len(inside), 4, out)
+        self.assertTrue(all(line.endswith("(wrote=False)") for line in inside), out)
+
+    def test_output_dir_without_manifest_stops_and_writes_nothing(self):
+        outdir = os.path.join(self.root, "out")
+        os.mkdir(outdir)
+        self.assertEqual(self._run(output_dir=outdir, in_place=False)[0], 1)
+        self.assertFalse(os.path.exists(self.canonical))
+        self.assertEqual(os.listdir(outdir), [])
 
 
 if __name__ == "__main__":

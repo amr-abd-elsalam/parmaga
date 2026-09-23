@@ -436,6 +436,18 @@ def cmd_all(config_path, output_dir, force=False, in_place=False):
     config = load_config(config_path)
     canonical = os.path.join(REPO_ROOT, manifest_relpath_for(config))
 
+    # 0. new lesson (ADR-0024 K1): no canonical Manifest yet. render reads the
+    #    Manifest from its canonical path only, so it is created in place only.
+    if not os.path.exists(canonical):
+        if not in_place:
+            print("all: canonical manifest missing: %s; rerun with --in-place "
+                  "to create it" % canonical, file=sys.stderr)
+            return 1
+        rc = cmd_inventory(config_path, canonical)
+        if rc != 0:
+            return rc
+        print("all: manifest created at canonical path")
+
     # 1. inventory -> /tmp, compare with canonical
     tmp_manifest = os.path.join(tempfile.gettempdir(), "publish_all_manifest.json")
     rc = cmd_inventory(config_path, tmp_manifest, force=True)

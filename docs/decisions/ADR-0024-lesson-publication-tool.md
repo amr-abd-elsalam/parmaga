@@ -56,7 +56,7 @@ Accepted — Owner-approved; records a tool already merged and exercised on two 
 - `verify <config>`: يعيد حالة خروج `verify_lesson.main([REPO_ROOT])` (السطر 431).
 - `all <config> (--output-dir DIR | --in-place) [--force]`: `inventory` إلى `publish_all_manifest.json` في مجلد النظام المؤقت (السطران 439 و440)، ثم مقارنة بايتية بالـManifest القانوني (السطر 443)، ثم `render` ثم `patch` ثم `verify` (السطور 450–460).
 
-حالات الخروج: غياب `--output-dir` بلا `--in-place` يخرج بـ2 (السطر 501)، وغياب سطر الدرس في الرئيسة أو وسم `</urlset>` يعيد 2 (السطران 408 و413)، واختلاف الـManifest في `all` يعيد 1 (السطر 446).
+حالات الخروج: غياب `--output-dir` بلا `--in-place` يخرج بـ2 (السطر 501)، وغياب سطر الدرس في الرئيسة أو وسم `</urlset>` يعيد 2 (السطران 408 و413)، واختلاف الـManifest في `all` يعيد 1 (السطر 446). وغياب الـManifest القانوني في `all` بغير `--in-place` يعيد 1 بلا كتابة (K1).
 
 ### D4 — الكتابة الذرية وبرهان إعادة التوليد
 
@@ -80,7 +80,7 @@ Accepted — Owner-approved; records a tool already merged and exercised on two 
 
 1. نسخ الأصول إلى `assets/lessons/<course>/<term>/<chapter>/<lesson>/` بلا أي تعديل، وفق `CONTENT_INTAKE` §1–§3.
 2. كتابة الـconfig.
-3. `inventory <config> --output docs/content/manifests/<course>/<term>/<chapter>/<lesson>.json`، لأن `all` لا ينشئ الـManifest (K1).
+3. لا خطوة منفصلة للـManifest بعد معالجة K1: `all <config> --in-place` في الخطوة 4 ينشئه في مساره القانوني بـ`inventory` نفسه إن غاب. وأمر `inventory <config> --output docs/content/manifests/<course>/<term>/<chapter>/<lesson>.json` باقٍ صالحًا وناتجه البايتات نفسها، وبه نُشر الدرس 1-2.
 4. `all <config> --in-place`.
 5. الأدلة قبل الالتزام: `verify` PASS، ومجموعة الاختبارات، وإعادة `all --in-place` بـ`wrote=False` لكل مخرَج في المستودع، ومطابقة بايتات الأصول في فهرس git لبايتات القرص، و`git -c core.whitespace=cr-at-eol diff --check` نظيف.
 6. التزام واحد بمسارات صريحة.
@@ -103,7 +103,7 @@ Accepted — Owner-approved; records a tool already merged and exercised on two 
 
 المعالجة: طلب دمج مستقل مع اختبار يغطي الحالة.
 
-الحالة: قائم.
+الحالة: معالَج: إن غاب الـManifest القانوني أنشأه `cmd_all` مع `--in-place` بـ`cmd_inventory` نفسه في مساره القانوني ثم أكمل المقارنة و`render` و`patch` و`verify`، ومع `--output-dir` يقف بحالة خروج 1 بلا كتابة لأن `render` يقرأ الـManifest من مساره القانوني وحده. والمقارنة حين يوجد الـManifest باقية كما هي. ويحرسه `AllNewLessonTests` في `tests/test_publish_lesson.py`.
 
 ### K2 — لا تهريب HTML
 
@@ -123,7 +123,7 @@ Accepted — Owner-approved; records a tool already merged and exercised on two 
 
 المعالجة: يرافق كلَّ طلب إصلاح اختبارُه، بدءًا بـK1 وK2.
 
-الحالة: قائم جزئيًّا: `tests/test_publish_lesson.py` أول ملف اختبار للأداة، باثني عشر اختبارًا تغطي K2 وإعادة توليد صفحتي الدرسين بايتًا ببايت واسترجاع بنودهما وسقف ملف السياق وفق K4 وقائمة أدوات Python في `tools/`، ولا يغطي بعدُ `inventory` ولا `patch` ولا `all` ولا K1.
+الحالة: قائم جزئيًّا: `tests/test_publish_lesson.py` أول ملف اختبار للأداة، بخمسة عشر اختبارًا تغطي K2 وإعادة توليد صفحتي الدرسين بايتًا ببايت واسترجاع بنودهما وسقف ملف السياق وفق K4 وقائمة أدوات Python في `tools/` وK1 بتشغيل `all` على نسخة من الدرس 1-1 في جذر مؤقت، ولا يغطي بعدُ `inventory` منفردًا ولا `patch` على رئيسة بلا سطر الدرس ولا `verify` داخل `all`.
 
 ### K4 — ملف السياق فوق سقف `ADR-0005` §10
 
