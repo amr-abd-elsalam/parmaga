@@ -208,5 +208,23 @@ class ContextPacketTests(unittest.TestCase):
                 self.assertTrue(rendered == f.read(), "%s context differs" % config["lesson"])
 
 
+class ToolInventoryTests(unittest.TestCase):
+    """ADR-0024, ledger contract (kha): the text-extraction tool stays outside
+    the repository. A new Python tool under tools/ needs its own ADR and must be
+    added to this recorded set in the same pull request."""
+
+    RECORDED = ["browser_baseline.py", "publish_lesson.py", "verify_lesson.py"]
+
+    def test_tools_python_files_are_the_recorded_set(self):
+        base = os.path.join(REPO_ROOT, "tools")
+        found = []
+        for root, dirs, files in os.walk(base):
+            dirs[:] = [d for d in dirs if d != "__pycache__"]
+            for name in files:
+                if name.endswith(".py"):
+                    found.append(os.path.relpath(os.path.join(root, name), base))
+        self.assertEqual(sorted(found), self.RECORDED)
+
+
 if __name__ == "__main__":
     unittest.main()
