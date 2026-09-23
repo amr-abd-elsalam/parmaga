@@ -27,6 +27,7 @@ import shutil
 import sys
 import tempfile
 import xml.etree.ElementTree as ET
+from html import escape as html_escape
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TOOLS_DIR = os.path.join(REPO_ROOT, "tools")
@@ -226,7 +227,7 @@ def render_page_block(page, transcript, total, is_first, config):
     n = page["order"]
     page_id = page["id"]
     html_id = "page-{}".format(n)
-    alt = page["descriptionAr"]
+    alt = html_escape(page["descriptionAr"], quote=True)
     lazy = "" if is_first else ' loading="lazy"'
     src = "/assets/lessons/%s/%s/%s/%s/%s.svg" % (
         config["course"], config["term"], config["chapter"], config["lesson"], page_id)
@@ -241,7 +242,7 @@ def render_page_block(page, transcript, total, is_first, config):
     ]
     for item in transcript:
         lines.append('<p lang="%s" dir="%s">%s</p>'
-                     % (item["lang"], item["dir"], item["text"]))
+                     % (item["lang"], item["dir"], html_escape(item["text"], quote=True)))
     lines.append("</div>")
     lines.append("</details>")
     lines.append("</li>")
@@ -265,8 +266,8 @@ def build_html(config, manifest):
             page, transcript, config["declaredPageCount"], page["order"] == 1, config))
     pages_list = "\n\n".join(blocks)
     html = tmpl
-    html = html.replace("{{DISPLAY_TITLE_AR}}", config["displayTitleAr"])
-    html = html.replace("{{META_DESCRIPTION}}", meta_description)
+    html = html.replace("{{DISPLAY_TITLE_AR}}", html_escape(config["displayTitleAr"], quote=True))
+    html = html.replace("{{META_DESCRIPTION}}", html_escape(meta_description, quote=True))
     html = html.replace("{{PERMANENT_URL}}", permanent_url)
     html = html.replace("{{DISPLAY_NUMBER}}", config["displayNumber"])
     html = html.replace("{{DECLARED_PAGE_COUNT}}", str(config["declaredPageCount"]))
