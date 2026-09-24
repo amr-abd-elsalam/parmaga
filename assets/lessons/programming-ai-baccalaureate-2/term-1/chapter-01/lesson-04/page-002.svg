@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+
+  <defs>
+    <linearGradient id="deskWood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b3835a"/>
+      <stop offset="0.55" stop-color="#9a6b41"/>
+      <stop offset="1" stop-color="#7f5430"/>
+    </linearGradient>
+    <linearGradient id="paperTone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf7"/>
+      <stop offset="1" stop-color="#faf4e7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 1) خلفية بسيطة -->
+  <rect x="0" y="0" width="1080" height="1350" fill="url(#deskWood)"/>
+  <path d="M0,170 C 300,128 760,236 1080,182" fill="none" stroke="#66421f" stroke-width="14" opacity="0.12"/>
+  <path d="M0,1128 C 330,1188 750,1064 1080,1136" fill="none" stroke="#66421f" stroke-width="18" opacity="0.10"/>
+
+  <!-- 2) الورقة -->
+  <rect x="44" y="42" width="1012" height="1290" rx="10" fill="#38230f" opacity="0.22"/>
+  <rect x="34" y="30" width="1012" height="1290" rx="8" fill="url(#paperTone)"/>
+
+  <!-- 3) سطور الدفتر الزرقاء الباهتة -->
+  <g stroke="#b7d2e8" stroke-width="1.4" opacity="0.6">
+    <line x1="80" y1="224" x2="1000" y2="224"/>
+    <line x1="80" y1="268" x2="1000" y2="268"/>
+    <line x1="80" y1="312" x2="1000" y2="312"/>
+    <line x1="80" y1="356" x2="1000" y2="356"/>
+    <line x1="80" y1="400" x2="1000" y2="400"/>
+    <line x1="80" y1="444" x2="1000" y2="444"/>
+    <line x1="80" y1="488" x2="1000" y2="488"/>
+    <line x1="80" y1="532" x2="1000" y2="532"/>
+    <line x1="80" y1="576" x2="1000" y2="576"/>
+    <line x1="80" y1="620" x2="1000" y2="620"/>
+    <line x1="80" y1="664" x2="1000" y2="664"/>
+    <line x1="80" y1="708" x2="1000" y2="708"/>
+    <line x1="80" y1="752" x2="1000" y2="752"/>
+    <line x1="80" y1="796" x2="1000" y2="796"/>
+    <line x1="80" y1="840" x2="1000" y2="840"/>
+    <line x1="80" y1="884" x2="1000" y2="884"/>
+    <line x1="80" y1="928" x2="1000" y2="928"/>
+    <line x1="80" y1="972" x2="1000" y2="972"/>
+    <line x1="80" y1="1016" x2="1000" y2="1016"/>
+    <line x1="80" y1="1060" x2="1000" y2="1060"/>
+    <line x1="80" y1="1104" x2="1000" y2="1104"/>
+    <line x1="80" y1="1148" x2="1000" y2="1148"/>
+  </g>
+
+  <!-- 4) الإطار الأحمر الخارجي الوحيد -->
+  <rect x="67" y="64" width="946" height="1222" rx="4" fill="none" stroke="#c0392b" stroke-width="2"/>
+
+  <!-- 5) الرسم التوضيحي: واجهة ذكاء اصطناعي شفافة + طلاب -->
+  <g>
+    <!-- لوحة الواجهة الشفافة -->
+    <rect x="300" y="250" width="480" height="300" rx="18" fill="#e8f2fa" opacity="0.72"/>
+    <rect x="300" y="250" width="480" height="300" rx="18" fill="none" stroke="#6fa8cf" stroke-width="2"/>
+    <line x1="300" y1="288" x2="780" y2="288" stroke="#6fa8cf" stroke-width="1.5" opacity="0.85"/>
+    <circle cx="324" cy="269" r="5" fill="#c0392b"/>
+    <circle cx="346" cy="269" r="5" fill="#d8b25a"/>
+    <circle cx="368" cy="269" r="5" fill="#6fa8cf"/>
+
+    <!-- الميزان المتوازن (العدالة) -->
+    <line x1="452" y1="338" x2="628" y2="338" stroke="#14315e" stroke-width="3"/>
+    <polygon points="540,318 531,338 549,338" fill="#c0392b"/>
+    <line x1="540" y1="338" x2="540" y2="412" stroke="#14315e" stroke-width="3"/>
+    <line x1="508" y1="412" x2="572" y2="412" stroke="#14315e" stroke-width="4"/>
+    <line x1="452" y1="338" x2="452" y2="360" stroke="#14315e" stroke-width="2"/>
+    <line x1="628" y1="338" x2="628" y2="360" stroke="#14315e" stroke-width="2"/>
+    <path d="M 424,360 A 28,16 0 0 0 480,360" fill="none" stroke="#14315e" stroke-width="2.5"/>
+    <path d="M 600,360 A 28,16 0 0 0 656,360" fill="none" stroke="#14315e" stroke-width="2.5"/>
+
+    <!-- درع الخصوصية -->
+    <path d="M 370,428 L 412,444 L 412,486 Q 412,514 370,528 Q 328,514 328,486 L 328,444 Z"
+          fill="#f3f8fd" opacity="0.9" stroke="#14315e" stroke-width="2.5"/>
+    <circle cx="370" cy="468" r="8" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+    <line x1="370" y1="476" x2="370" y2="494" stroke="#c0392b" stroke-width="3"/>
+
+    <!-- مخطط القرار -->
+    <line x1="688" y1="450" x2="664" y2="492" stroke="#14315e" stroke-width="2.5"/>
+    <line x1="712" y1="450" x2="736" y2="483" stroke="#c0392b" stroke-width="2.5"/>
+    <polygon points="740,489 728,483 737,476" fill="#c0392b"/>
+    <circle cx="700" cy="438" r="17" fill="#ffffff" stroke="#14315e" stroke-width="2.5"/>
+    <circle cx="654" cy="504" r="15" fill="#ffffff" stroke="#14315e" stroke-width="2.5"/>
+    <circle cx="746" cy="504" r="15" fill="#ffffff" stroke="#14315e" stroke-width="2.5"/>
+
+    <!-- طلاب متنوعون يتأملون الواجهة -->
+    <path d="M 130,550 Q 130,500 168,500 Q 206,500 206,550 Z" fill="#3f7fae"/>
+    <circle cx="168" cy="478" r="21" fill="#d9a273"/>
+    <path d="M 147,472 Q 168,448 189,472 Q 168,461 147,472 Z" fill="#4a3526"/>
+
+    <path d="M 214,550 Q 214,502 252,502 Q 290,502 290,550 Z" fill="#7a6aa8"/>
+    <path d="M 225,505 Q 222,455 252,452 Q 282,455 279,505 Q 252,516 225,505 Z" fill="#5f8fbf"/>
+    <circle cx="252" cy="480" r="18" fill="#c98a5b"/>
+
+    <path d="M 790,550 Q 790,500 828,500 Q 866,500 866,550 Z" fill="#5aa07a"/>
+    <circle cx="828" cy="478" r="21" fill="#a56a3e"/>
+    <path d="M 807,470 Q 828,446 849,470 Q 828,459 807,470 Z" fill="#221a14"/>
+
+    <path d="M 874,550 Q 874,502 912,502 Q 950,502 950,550 Z" fill="#b06a5a"/>
+    <circle cx="912" cy="480" r="20" fill="#e8b98f"/>
+    <path d="M 892,474 Q 912,450 932,474 Q 912,463 892,474 Z" fill="#6b4a2a"/>
+  </g>
+
+  <!-- 6) فاصل أحمر وظيفي رفيع بين الفقرتين -->
+  <line x1="430" y1="846" x2="650" y2="846" stroke="#c0392b" stroke-width="1.6" opacity="0.75"/>
+  <circle cx="415" cy="846" r="3" fill="#c0392b" opacity="0.75"/>
+  <circle cx="665" cy="846" r="3" fill="#c0392b" opacity="0.75"/>
+
+  <!-- 7) النصوص التعليمية -->
+  <text x="950"
+        y="140"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="36"
+        font-weight="bold"
+        fill="#14315e">
+    <tspan x="950" dy="0">القضايا الأخلاقية المتعلقة بالذكاء الاصطناعي</tspan>
+  </text>
+
+  <text x="620"
+        y="190"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27"
+        fill="#16345f">
+    <tspan x="620" dy="0">Ethical Issues with AI</tspan>
+  </text>
+
+  <text x="950"
+        y="620"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30"
+        fill="#225f9c">
+    <tspan x="950" dy="0">يساعد الذكاء الاصطناعي اليوم في اتخاذ قرارات حقيقية</tspan>
+    <tspan x="950" dy="44">تؤثر في الناس، مثل اختيار المتقدمين للوظائف</tspan>
+    <tspan x="950" dy="44">والتعرف على الأفراد. ومع انتشاره، تظهر أسئلة تتعلق</tspan>
+    <tspan x="950" dy="44">بعدالة نتائجه، وشفافية قراراته، وحماية الخصوصية،</tspan>
+    <tspan x="950" dy="44">وتحديد المسؤولية عندما ينتج قرارًا غير صحيح أو غير عادل.</tspan>
+  </text>
+
+  <text x="120"
+        y="886"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27"
+        fill="#152b42">
+    <tspan x="120" dy="0">AI now helps make real decisions that affect</tspan>
+    <tspan x="120" dy="37">people, such as selecting job candidates and</tspan>
+    <tspan x="120" dy="37">identifying individuals. As AI spreads, questions</tspan>
+    <tspan x="120" dy="37">arise about the fairness of its results, the</tspan>
+    <tspan x="120" dy="37">transparency of its decisions, privacy protection,</tspan>
+    <tspan x="120" dy="37">and who is responsible when it produces an</tspan>
+    <tspan x="120" dy="37">incorrect or unfair result.</tspan>
+  </text>
+
+</svg>

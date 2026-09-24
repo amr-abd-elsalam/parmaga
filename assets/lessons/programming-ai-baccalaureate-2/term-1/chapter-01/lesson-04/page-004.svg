@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+
+  <defs>
+    <linearGradient id="deskWoodGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b98a55"/>
+      <stop offset="0.55" stop-color="#a3743f"/>
+      <stop offset="1" stop-color="#8a5f31"/>
+    </linearGradient>
+    <linearGradient id="paperSheetGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf6"/>
+      <stop offset="1" stop-color="#fbf6e9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 1) خلفية مكتب خشبي بسيطة -->
+  <rect x="0" y="0" width="1080" height="1350" fill="url(#deskWoodGrad)"/>
+  <path d="M0,250 C300,210 760,300 1080,240" fill="none" stroke="#7d5527" stroke-width="16" opacity="0.16"/>
+  <path d="M0,1080 C320,1130 740,1030 1080,1090" fill="none" stroke="#7d5527" stroke-width="14" opacity="0.14"/>
+
+  <!-- 2) ورقة الدفتر -->
+  <rect x="42" y="46" width="1012" height="1278" rx="10" fill="#3d2a13" opacity="0.22"/>
+  <rect x="34" y="36" width="1012" height="1278" rx="10" fill="url(#paperSheetGrad)"/>
+
+  <!-- 3) أسطر الدفتر الزرقاء الباهتة -->
+  <g stroke="#cfe0ef" stroke-width="1.6" opacity="0.6">
+    <line x1="92" y1="180" x2="988" y2="180"/>
+    <line x1="92" y1="224" x2="988" y2="224"/>
+    <line x1="92" y1="268" x2="988" y2="268"/>
+    <line x1="92" y1="312" x2="988" y2="312"/>
+    <line x1="92" y1="356" x2="988" y2="356"/>
+    <line x1="92" y1="400" x2="988" y2="400"/>
+    <line x1="92" y1="444" x2="988" y2="444"/>
+    <line x1="92" y1="488" x2="988" y2="488"/>
+    <line x1="92" y1="532" x2="988" y2="532"/>
+    <line x1="92" y1="576" x2="988" y2="576"/>
+    <line x1="92" y1="620" x2="988" y2="620"/>
+    <line x1="92" y1="664" x2="988" y2="664"/>
+    <line x1="92" y1="708" x2="988" y2="708"/>
+    <line x1="92" y1="752" x2="988" y2="752"/>
+    <line x1="92" y1="796" x2="988" y2="796"/>
+    <line x1="92" y1="840" x2="988" y2="840"/>
+    <line x1="92" y1="884" x2="988" y2="884"/>
+    <line x1="92" y1="928" x2="988" y2="928"/>
+    <line x1="92" y1="972" x2="988" y2="972"/>
+    <line x1="92" y1="1016" x2="988" y2="1016"/>
+    <line x1="92" y1="1060" x2="988" y2="1060"/>
+    <line x1="92" y1="1104" x2="988" y2="1104"/>
+    <line x1="92" y1="1148" x2="988" y2="1148"/>
+  </g>
+
+  <!-- 4) الإطار الأحمر الخارجي الوحيد -->
+  <rect x="67" y="66" width="946" height="1222" rx="8" fill="none" stroke="#d0342c" stroke-width="3"/>
+
+  <!-- 5) خلفيات لوحتي الرسم التوضيحي -->
+  <rect x="105" y="258" width="400" height="306" rx="16" fill="#f7fbff" opacity="0.75" stroke="#bcd6ec" stroke-width="2"/>
+  <rect x="575" y="258" width="400" height="306" rx="16" fill="#f7fbff" opacity="0.75" stroke="#bcd6ec" stroke-width="2"/>
+
+  <!-- 6) الرسم التوضيحي: الجزء الأول - كاميرا التعرف على الوجه -->
+  <rect x="150" y="286" width="120" height="10" rx="5" fill="#1b4b7a"/>
+  <rect x="200" y="296" width="12" height="18" fill="#1b4b7a"/>
+  <rect x="155" y="314" width="118" height="58" rx="10" fill="#2a6fb5" stroke="#1b4b7a" stroke-width="3"/>
+  <rect x="273" y="330" width="22" height="26" rx="6" fill="#1b4b7a"/>
+  <circle cx="303" cy="343" r="17" fill="#dceaf7" stroke="#1b4b7a" stroke-width="4"/>
+  <circle cx="303" cy="343" r="7" fill="#1b4b7a"/>
+
+  <polygon points="316,338 352,372 352,458 316,350" fill="#2a6fb5" opacity="0.13"/>
+  <line x1="316" y1="338" x2="352" y2="372" stroke="#2a6fb5" stroke-width="2.6" stroke-dasharray="9 8"/>
+  <line x1="316" y1="350" x2="352" y2="458" stroke="#2a6fb5" stroke-width="2.6" stroke-dasharray="9 8"/>
+
+  <path d="M356,500 C356,452 374,438 398,438 C422,438 440,452 440,500 Z" fill="#dceaf7" stroke="#1b4b7a" stroke-width="4"/>
+  <circle cx="398" cy="404" r="28" fill="#dceaf7" stroke="#1b4b7a" stroke-width="4"/>
+
+  <g fill="none" stroke="#2a6fb5" stroke-width="4" stroke-linecap="square">
+    <polyline points="356,392 356,366 382,366"/>
+    <polyline points="414,366 440,366 440,392"/>
+    <polyline points="440,424 440,450 414,450"/>
+    <polyline points="382,450 356,450 356,424"/>
+  </g>
+
+  <circle cx="468" cy="300" r="19" fill="#ffffff" stroke="#c0392b" stroke-width="3.5"/>
+  <rect x="465.5" y="289" width="5" height="15" rx="2.5" fill="#c0392b"/>
+  <circle cx="468" cy="311" r="3" fill="#c0392b"/>
+
+  <!-- 7) سهم الربط بين الجزأين -->
+  <line x1="508" y1="411" x2="556" y2="411" stroke="#2a6fb5" stroke-width="4"/>
+  <polygon points="556,401 572,411 556,421" fill="#2a6fb5"/>
+
+  <!-- 8) الرسم التوضيحي: الجزء الثاني - بيانات السلوك نحو مجلد محمي -->
+  <rect x="600" y="316" width="150" height="100" rx="10" fill="#dceaf7" stroke="#1b4b7a" stroke-width="4"/>
+  <rect x="618" y="340" width="70" height="8" rx="4" fill="#ef8f2a"/>
+  <rect x="618" y="358" width="100" height="8" rx="4" fill="#ef8f2a"/>
+  <rect x="618" y="376" width="54" height="8" rx="4" fill="#ef8f2a"/>
+  <rect x="660" y="416" width="30" height="16" fill="#1b4b7a"/>
+  <rect x="634" y="432" width="82" height="10" rx="5" fill="#1b4b7a"/>
+
+  <path d="M754,352 C786,320 818,320 846,346" fill="none" stroke="#ef8f2a" stroke-width="3.5" stroke-dasharray="9 8"/>
+  <polygon points="843,336 860,347 842,357" fill="#ef8f2a"/>
+  <circle cx="772" cy="332" r="7" fill="#ef8f2a"/>
+  <circle cx="800" cy="323" r="6" fill="#ef8f2a"/>
+  <circle cx="828" cy="330" r="7" fill="#ef8f2a"/>
+
+  <rect x="858" y="328" width="48" height="20" rx="6" fill="#e2952b" stroke="#c9821f" stroke-width="3"/>
+  <rect x="858" y="346" width="104" height="76" rx="8" fill="#f6b352" stroke="#c9821f" stroke-width="3.5"/>
+  <line x1="858" y1="372" x2="962" y2="372" stroke="#c9821f" stroke-width="2.5"/>
+
+  <path d="M880,430 L920,444 V482 C920,506 902,518 880,526 C858,518 840,506 840,482 V444 Z" fill="#2a6fb5" stroke="#1b4b7a" stroke-width="3.5"/>
+  <rect x="868" y="478" width="24" height="22" rx="4" fill="#ffffff"/>
+  <path d="M872,478 v-9 a8,8 0 0 1 16,0 v9" fill="none" stroke="#ffffff" stroke-width="4"/>
+
+  <!-- 9) العنوان العربي -->
+  <text x="950"
+        y="180"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="48"
+        font-weight="bold"
+        fill="#16345e">
+    <tspan x="950" dy="0">قضايا الخصوصية</tspan>
+  </text>
+
+  <!-- 10) العنوان الإنجليزي -->
+  <text x="712"
+        y="224"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="32"
+        fill="#1d4a7a">
+    <tspan x="712" dy="0">Privacy Issues</tspan>
+  </text>
+
+  <!-- 11) الفقرة العربية -->
+  <text x="950"
+        y="620"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30"
+        fill="#225f9c">
+    <tspan x="950" dy="0">أدى تطور تقنيات الذكاء الاصطناعي إلى ظهور قضايا جديدة</tspan>
+    <tspan x="950" dy="44">تتعلق بالخصوصية <tspan direction="ltr" unicode-bidi="isolate">Privacy.</tspan> فقد تُستخدم كاميرات التعرف على</tspan>
+    <tspan x="950" dy="44">الوجه في الأماكن العامة للتعرف على الأفراد وتتبعهم، كما</tspan>
+    <tspan x="950" dy="44">تُجمع كميات كبيرة من بيانات السلوك عبر الإنترنت وتُحلل،</tspan>
+    <tspan x="950" dy="44">مما يتطلب التعامل المناسب مع المعلومات الشخصية وحمايتها.</tspan>
+  </text>
+
+  <!-- 12) فاصل خفيف بين الكتلتين -->
+  <line x1="200" y1="840" x2="880" y2="840" stroke="#c9d8e8" stroke-width="2" stroke-dasharray="10 10"/>
+
+  <!-- 13) الفقرة الإنجليزية -->
+  <text x="120"
+        y="884"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="29"
+        fill="#152b42">
+    <tspan x="120" dy="0">The development of AI technology has created new</tspan>
+    <tspan x="120" dy="44">privacy issues. Face-recognition cameras may be</tspan>
+    <tspan x="120" dy="44">used in public spaces to identify and track</tspan>
+    <tspan x="120" dy="44">individuals. Large amounts of online behavior</tspan>
+    <tspan x="120" dy="44">data are also collected and analyzed, requiring</tspan>
+    <tspan x="120" dy="44">personal information to be handled appropriately</tspan>
+    <tspan x="120" dy="44">and protected.</tspan>
+  </text>
+
+</svg>
