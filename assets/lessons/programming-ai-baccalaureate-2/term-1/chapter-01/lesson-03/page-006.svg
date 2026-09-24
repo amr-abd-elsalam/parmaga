@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+
+  <defs>
+    <linearGradient id="woodBgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9a6636"/>
+      <stop offset="0.5" stop-color="#8a5729"/>
+      <stop offset="1" stop-color="#734620"/>
+    </linearGradient>
+    <linearGradient id="paperGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf6"/>
+      <stop offset="1" stop-color="#fbf6e9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 1. Simple warm background -->
+  <rect x="0" y="0" width="1080" height="1350" fill="url(#woodBgGrad)"/>
+  <path d="M0,240 C260,206 700,286 1080,236" stroke="#5d3616" stroke-width="10" fill="none" opacity=".12"/>
+  <path d="M0,1090 C300,1052 760,1136 1080,1084" stroke="#5d3616" stroke-width="12" fill="none" opacity=".10"/>
+
+  <!-- 2. Paper -->
+  <rect x="42" y="32" width="1012" height="1302" rx="10" fill="#000000" opacity=".16"/>
+  <rect x="34" y="24" width="1012" height="1302" rx="10" fill="url(#paperGrad)"/>
+
+  <!-- 3. Pale horizontal notebook lines -->
+  <g stroke="#bcd4ea" stroke-width="1.4" opacity=".75">
+    <line x1="80" y1="140" x2="1000" y2="140"/>
+    <line x1="80" y1="180" x2="1000" y2="180"/>
+    <line x1="80" y1="220" x2="1000" y2="220"/>
+    <line x1="80" y1="260" x2="1000" y2="260"/>
+    <line x1="80" y1="300" x2="1000" y2="300"/>
+    <line x1="80" y1="340" x2="1000" y2="340"/>
+    <line x1="80" y1="380" x2="1000" y2="380"/>
+    <line x1="80" y1="420" x2="1000" y2="420"/>
+    <line x1="80" y1="460" x2="1000" y2="460"/>
+    <line x1="80" y1="500" x2="1000" y2="500"/>
+    <line x1="80" y1="540" x2="1000" y2="540"/>
+    <line x1="80" y1="580" x2="1000" y2="580"/>
+    <line x1="80" y1="620" x2="1000" y2="620"/>
+    <line x1="80" y1="660" x2="1000" y2="660"/>
+    <line x1="80" y1="700" x2="1000" y2="700"/>
+    <line x1="80" y1="740" x2="1000" y2="740"/>
+    <line x1="80" y1="780" x2="1000" y2="780"/>
+    <line x1="80" y1="820" x2="1000" y2="820"/>
+    <line x1="80" y1="860" x2="1000" y2="860"/>
+    <line x1="80" y1="900" x2="1000" y2="900"/>
+    <line x1="80" y1="940" x2="1000" y2="940"/>
+    <line x1="80" y1="980" x2="1000" y2="980"/>
+    <line x1="80" y1="1020" x2="1000" y2="1020"/>
+    <line x1="80" y1="1060" x2="1000" y2="1060"/>
+    <line x1="80" y1="1100" x2="1000" y2="1100"/>
+    <line x1="80" y1="1140" x2="1000" y2="1140"/>
+  </g>
+
+  <!-- 4. Single thin outer red border -->
+  <rect x="67" y="64" width="946" height="1252" fill="none" stroke="#c8342b" stroke-width="2.4"/>
+
+  <!-- 5. Card and box backgrounds -->
+  <rect x="95" y="440" width="890" height="150" rx="12" fill="#fdeceb" stroke="#d9534f" stroke-width="1.8"/>
+  <rect x="95" y="612" width="890" height="115" rx="12" fill="#fdeceb" stroke="#d9534f" stroke-width="1.8"/>
+  <rect x="95" y="749" width="890" height="150" rx="12" fill="#fdeceb" stroke="#d9534f" stroke-width="1.8"/>
+  <rect x="95" y="935" width="890" height="208" rx="14" fill="#fdf6d8" stroke="#d3ab45" stroke-width="1.8"/>
+
+  <!-- 6. Functional lines and hand-drawn balance scale -->
+  <line x1="360" y1="212" x2="720" y2="212" stroke="#c8342b" stroke-width="2" opacity=".65"/>
+
+  <g stroke="#7a4a22" stroke-width="4" fill="none" stroke-linecap="round">
+    <line x1="405" y1="238" x2="675" y2="254"/>
+    <path d="M540,246 L520,322 L560,322"/>
+    <line x1="502" y1="322" x2="578" y2="322"/>
+    <line x1="405" y1="238" x2="405" y2="272"/>
+    <line x1="675" y1="254" x2="675" y2="288"/>
+    <path d="M373,272 Q405,300 437,272"/>
+    <path d="M643,288 Q675,316 707,288"/>
+  </g>
+  <circle cx="540" cy="246" r="5.5" fill="#7a4a22"/>
+
+  <g fill="#d9534f">
+    <circle cx="967" cy="473" r="6"/>
+    <circle cx="967" cy="645" r="6"/>
+    <circle cx="967" cy="782" r="6"/>
+  </g>
+
+  <!-- 7. Educational text -->
+  <text x="540"
+        y="146"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="46"
+        font-weight="bold"
+        fill="#17457f">متى نحتاج إلى الحذر؟</text>
+
+  <text x="540"
+        y="196"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="33"
+        fill="#152b42">When Is Caution Needed?</text>
+
+  <text x="950"
+        y="374"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="31"
+        fill="#225f9c">
+    <tspan x="950" dy="0">نحتاج إلى الحذر عند استخدام الذكاء الاصطناعي في:</tspan>
+  </text>
+
+  <text x="120"
+        y="418"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="29"
+        fill="#152b42">
+    <tspan x="120" dy="0">Caution is needed when AI is used for:</tspan>
+  </text>
+
+  <text x="950"
+        y="482"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="29"
+        fill="#225f9c">
+    <tspan x="950" dy="0">الأحكام الأخلاقية التي قد تؤدي إلى التمييز أو التحيز.</tspan>
+  </text>
+
+  <text x="125"
+        y="524"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27"
+        fill="#152b42">
+    <tspan x="125" dy="0">Ethical judgments that may lead</tspan>
+    <tspan x="125" dy="34">to discrimination or prejudice.</tspan>
+  </text>
+
+  <text x="950"
+        y="654"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="29"
+        fill="#225f9c">
+    <tspan x="950" dy="0">القرارات التي تتضمن معلومات شخصية أو خصوصية.</tspan>
+  </text>
+
+  <text x="125"
+        y="696"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27"
+        fill="#152b42">
+    <tspan x="125" dy="0">Decisions involving personal information or privacy.</tspan>
+  </text>
+
+  <text x="950"
+        y="791"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="29"
+        fill="#225f9c">
+    <tspan x="950" dy="0">اتخاذ القرارات النهائية وتحديد المسؤول عن النتيجة.</tspan>
+  </text>
+
+  <text x="125"
+        y="833"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27"
+        fill="#152b42">
+    <tspan x="125" dy="0">Final decision-making and determining</tspan>
+    <tspan x="125" dy="34">who is responsible for the result.</tspan>
+  </text>
+
+  <text x="945"
+        y="988"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30"
+        fill="#1c4f86">
+    <tspan x="945" dy="0">لا ينبغي ترك الأحكام الأخلاقية والقرارات</tspan>
+    <tspan x="945" dy="40">المسؤولة للذكاء الاصطناعي وحده.</tspan>
+  </text>
+
+  <text x="128"
+        y="1078"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="28"
+        fill="#152b42">
+    <tspan x="128" dy="0">Ethical judgments and responsible decisions</tspan>
+    <tspan x="128" dy="36">should not be left to AI alone.</tspan>
+  </text>
+
+</svg>

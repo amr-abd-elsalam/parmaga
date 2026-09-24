@@ -1,0 +1,239 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+
+  <defs>
+    <linearGradient id="deskWood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b07c50"/>
+      <stop offset="0.55" stop-color="#96633c"/>
+      <stop offset="1" stop-color="#7b4e2c"/>
+    </linearGradient>
+    <filter id="paperShadow" x="-12%" y="-12%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#3a2312" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- 1) خلفية المكتب الخشبي البسيطة -->
+  <rect x="0" y="0" width="1080" height="1350" fill="url(#deskWood)"/>
+  <path d="M0 250 C 300 205, 760 300, 1080 245" fill="none" stroke="#5d3a1f" stroke-width="16" opacity="0.10"/>
+  <path d="M0 1080 C 340 1135, 740 1030, 1080 1095" fill="none" stroke="#5d3a1f" stroke-width="14" opacity="0.10"/>
+
+  <!-- 2) ورقة الدفتر -->
+  <rect x="34" y="30" width="1012" height="1300" rx="10" fill="#fdfaf2" filter="url(#paperShadow)"/>
+
+  <!-- 3) خطوط الدفتر الأفقية الزرقاء الباهتة -->
+  <g stroke="#cfe0ef" stroke-width="1.4">
+    <line x1="84" y1="150" x2="996" y2="150"/>
+    <line x1="84" y1="190" x2="996" y2="190"/>
+    <line x1="84" y1="230" x2="996" y2="230"/>
+    <line x1="84" y1="270" x2="996" y2="270"/>
+    <line x1="84" y1="310" x2="996" y2="310"/>
+    <line x1="84" y1="350" x2="996" y2="350"/>
+    <line x1="84" y1="390" x2="996" y2="390"/>
+    <line x1="84" y1="430" x2="996" y2="430"/>
+    <line x1="84" y1="470" x2="996" y2="470"/>
+    <line x1="84" y1="510" x2="996" y2="510"/>
+    <line x1="84" y1="550" x2="996" y2="550"/>
+    <line x1="84" y1="590" x2="996" y2="590"/>
+    <line x1="84" y1="630" x2="996" y2="630"/>
+    <line x1="84" y1="670" x2="996" y2="670"/>
+    <line x1="84" y1="710" x2="996" y2="710"/>
+    <line x1="84" y1="750" x2="996" y2="750"/>
+    <line x1="84" y1="790" x2="996" y2="790"/>
+    <line x1="84" y1="830" x2="996" y2="830"/>
+    <line x1="84" y1="870" x2="996" y2="870"/>
+    <line x1="84" y1="910" x2="996" y2="910"/>
+    <line x1="84" y1="950" x2="996" y2="950"/>
+    <line x1="84" y1="990" x2="996" y2="990"/>
+    <line x1="84" y1="1030" x2="996" y2="1030"/>
+    <line x1="84" y1="1070" x2="996" y2="1070"/>
+    <line x1="84" y1="1110" x2="996" y2="1110"/>
+    <line x1="84" y1="1150" x2="996" y2="1150"/>
+    <line x1="84" y1="1190" x2="996" y2="1190"/>
+    <line x1="84" y1="1230" x2="996" y2="1230"/>
+    <line x1="84" y1="1270" x2="996" y2="1270"/>
+  </g>
+
+  <!-- 4) الإطار الأحمر الخارجي الوحيد -->
+  <rect x="67" y="96" width="946" height="1219" rx="7" fill="none" stroke="#c0392b" stroke-width="3"/>
+
+  <!-- 5) خلفيات الشريط والبطاقة -->
+  <rect x="105" y="602" width="870" height="54" rx="10" fill="#eaf2fb" stroke="#a9c7e6" stroke-width="1.6"/>
+  <rect x="105" y="680" width="870" height="184" rx="12" fill="#fdf6d8" stroke="#e0ca82" stroke-width="1.8"/>
+
+  <!-- 6) خطوط وظيفية -->
+  <line x1="300" y1="242" x2="780" y2="242" stroke="#a9c7e6" stroke-width="2.4"/>
+
+  <!-- 7) النص التعليمي -->
+
+  <!-- العنوان العربي -->
+  <text x="540" y="168"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="middle"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="38" font-weight="bold" fill="#13416e">اختبر فهمك: الاستخدامات ومجالات الصناعة</text>
+
+  <!-- العنوان الإنجليزي -->
+  <text x="540" y="212"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27" fill="#1d3f66">Check Your Understanding: Uses and Industries</text>
+
+  <!-- السؤال 3 : الرقم -->
+  <text x="965" y="300"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="end"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30" font-weight="bold" fill="#225f9c">.3</text>
+
+  <!-- السؤال 3 : العربية -->
+  <text x="920" y="300"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30" fill="#225f9c">
+    <tspan x="920" dy="0">في أي مجال صناعي يُستخدم الذكاء الاصطناعي</tspan>
+    <tspan x="920" dy="40">لتشخيص الأمراض من الصور؟</tspan>
+  </text>
+
+  <!-- السؤال 3 : الإنجليزية -->
+  <text x="130" y="384"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27" fill="#152b42">
+    <tspan x="130" dy="0">In which industry is image-diagnosis AI used?</tspan>
+  </text>
+
+  <!-- السؤال 4 : الرقم -->
+  <text x="965" y="444"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="end"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30" font-weight="bold" fill="#225f9c">.4</text>
+
+  <!-- السؤال 4 : العربية -->
+  <text x="920" y="444"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30" fill="#225f9c">
+    <tspan x="920" dy="0">ما اسم النظام المستخدم في التصنيع للتنبؤ</tspan>
+    <tspan x="920" dy="40">بأعطال المنتجات أو الآلات مسبقًا؟</tspan>
+  </text>
+
+  <!-- السؤال 4 : الإنجليزية -->
+  <text x="130" y="528"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27" fill="#152b42">
+    <tspan x="130" dy="0">In manufacturing, what is the term for the system</tspan>
+    <tspan x="130" dy="34">that predicts product or machine failures in advance?</tspan>
+  </text>
+
+  <!-- شريط القسم : العربية -->
+  <text x="940" y="639"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30" font-weight="bold" fill="#13416e">اختر الإجابة الصحيحة</text>
+
+  <!-- شريط القسم : الفاصل -->
+  <text x="580" y="638"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="28" fill="#7a93ad">|</text>
+
+  <!-- شريط القسم : الإنجليزية -->
+  <text x="140" y="638"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27" fill="#1d3f66">Choose the Correct Answer</text>
+
+  <!-- بطاقة السؤال : العربية -->
+  <text x="930" y="722"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30" fill="#225f9c">
+    <tspan x="930" dy="0">أي الاختيارات التالية لا ينتمي إلى ما يتطلب</tspan>
+    <tspan x="930" dy="40">الحذر عند استخدام الذكاء الاصطناعي؟</tspan>
+  </text>
+
+  <!-- بطاقة السؤال : الإنجليزية -->
+  <text x="140" y="804"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27" fill="#152b42">
+    <tspan x="140" dy="0">Which option does not belong to what requires</tspan>
+    <tspan x="140" dy="34">caution when using AI?</tspan>
+  </text>
+
+  <!-- الاختيار A -->
+  <text x="965" y="910"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="end"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="31" font-weight="bold" fill="#c62828">A</text>
+  <text x="925" y="900"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="28" fill="#225f9c">
+    <tspan x="925" dy="0">الأحكام الأخلاقية</tspan>
+  </text>
+  <text x="135" y="934"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="26" fill="#152b42">
+    <tspan x="135" dy="0">Ethical judgments</tspan>
+  </text>
+
+  <!-- الاختيار B -->
+  <text x="965" y="982"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="end"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="31" font-weight="bold" fill="#c62828">B</text>
+  <text x="925" y="972"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="28" fill="#225f9c">
+    <tspan x="925" dy="0">إيجاد الأنماط وتصنيفها</tspan>
+  </text>
+  <text x="135" y="1006"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="26" fill="#152b42">
+    <tspan x="135" dy="0">Finding and classifying patterns</tspan>
+  </text>
+
+  <!-- الاختيار C -->
+  <text x="965" y="1054"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="end"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="31" font-weight="bold" fill="#c62828">C</text>
+  <text x="925" y="1044"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="28" fill="#225f9c">
+    <tspan x="925" dy="0">القرارات المرتبطة بالمعلومات الشخصية أو الخصوصية</tspan>
+  </text>
+  <text x="135" y="1078"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="26" fill="#152b42">
+    <tspan x="135" dy="0">Judgments involving personal information or privacy</tspan>
+  </text>
+
+  <!-- الاختيار D -->
+  <text x="965" y="1126"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="end"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="31" font-weight="bold" fill="#c62828">D</text>
+  <text x="925" y="1116"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="28" fill="#225f9c">
+    <tspan x="925" dy="0">اتخاذ القرار النهائي</tspan>
+  </text>
+  <text x="135" y="1150"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="26" fill="#152b42">
+    <tspan x="135" dy="0">Final decision-making</tspan>
+  </text>
+
+</svg>
