@@ -1,0 +1,263 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+
+  <defs>
+    <linearGradient id="deskWood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b5a30"/>
+      <stop offset="0.55" stop-color="#794b26"/>
+      <stop offset="1" stop-color="#633c1d"/>
+    </linearGradient>
+    <linearGradient id="paperTone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf6"/>
+      <stop offset="1" stop-color="#fbf6e9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 1) خلفية بسيطة -->
+  <rect x="0" y="0" width="1080" height="1350" fill="url(#deskWood)"/>
+  <path d="M0 250 C 300 210, 780 300, 1080 240" fill="none" stroke="#4a2c14" stroke-width="16" opacity="0.10"/>
+  <path d="M0 1090 C 320 1140, 760 1040, 1080 1100" fill="none" stroke="#4a2c14" stroke-width="14" opacity="0.09"/>
+
+  <!-- 2) الورقة -->
+  <rect x="41" y="35" width="1012" height="1298" rx="10" fill="#2f1d0d" opacity="0.26"/>
+  <rect x="34" y="26" width="1012" height="1298" rx="10" fill="url(#paperTone)"/>
+
+  <!-- 3) سطور الدفتر الزرقاء الباهتة -->
+  <g stroke="#bcd8ee" stroke-width="1.4" opacity="0.8">
+    <line x1="80" y1="140" x2="1000" y2="140"/>
+    <line x1="80" y1="178" x2="1000" y2="178"/>
+    <line x1="80" y1="216" x2="1000" y2="216"/>
+    <line x1="80" y1="254" x2="1000" y2="254"/>
+    <line x1="80" y1="292" x2="1000" y2="292"/>
+    <line x1="80" y1="330" x2="1000" y2="330"/>
+    <line x1="80" y1="368" x2="1000" y2="368"/>
+    <line x1="80" y1="406" x2="1000" y2="406"/>
+    <line x1="80" y1="444" x2="1000" y2="444"/>
+    <line x1="80" y1="482" x2="1000" y2="482"/>
+    <line x1="80" y1="520" x2="1000" y2="520"/>
+    <line x1="80" y1="558" x2="1000" y2="558"/>
+    <line x1="80" y1="596" x2="1000" y2="596"/>
+    <line x1="80" y1="634" x2="1000" y2="634"/>
+    <line x1="80" y1="672" x2="1000" y2="672"/>
+    <line x1="80" y1="710" x2="1000" y2="710"/>
+    <line x1="80" y1="748" x2="1000" y2="748"/>
+    <line x1="80" y1="786" x2="1000" y2="786"/>
+    <line x1="80" y1="824" x2="1000" y2="824"/>
+    <line x1="80" y1="862" x2="1000" y2="862"/>
+    <line x1="80" y1="900" x2="1000" y2="900"/>
+    <line x1="80" y1="938" x2="1000" y2="938"/>
+    <line x1="80" y1="976" x2="1000" y2="976"/>
+    <line x1="80" y1="1014" x2="1000" y2="1014"/>
+    <line x1="80" y1="1052" x2="1000" y2="1052"/>
+    <line x1="80" y1="1090" x2="1000" y2="1090"/>
+    <line x1="80" y1="1128" x2="1000" y2="1128"/>
+    <line x1="80" y1="1166" x2="1000" y2="1166"/>
+    <line x1="80" y1="1204" x2="1000" y2="1204"/>
+    <line x1="80" y1="1242" x2="1000" y2="1242"/>
+    <line x1="80" y1="1280" x2="1000" y2="1280"/>
+  </g>
+
+  <!-- 4) إطار أحمر خارجي واحد فقط -->
+  <rect x="67" y="62" width="946" height="1253" rx="5" fill="none" stroke="#c62828" stroke-width="2.6"/>
+
+  <!-- 5) خلفية صندوق الاختيارات (رمادي باهت) -->
+  <rect x="100" y="925" width="880" height="243" rx="14" fill="#f2f2ee" stroke="#c9c9c0" stroke-width="2"/>
+
+  <!-- 6) مربعات الإجابة الفارغة والعناصر الوظيفية -->
+  <g fill="#ffffff" stroke="#8b97a4" stroke-width="2.2">
+    <rect x="115" y="362" width="56" height="56" rx="7"/>
+    <rect x="115" y="500" width="56" height="56" rx="7"/>
+    <rect x="115" y="638" width="56" height="56" rx="7"/>
+    <rect x="115" y="776" width="56" height="56" rx="7"/>
+  </g>
+  <line x1="700" y1="1002" x2="700" y2="1148" stroke="#b9b9ae" stroke-width="1.6"/>
+
+  <!-- 7) النصوص التعليمية -->
+
+  <!-- العنوان العربي -->
+  <text x="540" y="112"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="middle"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="38" font-weight="bold" fill="#123c66">مثال محلول: تعرّف على تقنية الذكاء الاصطناعي</text>
+
+  <!-- العنوان الإنجليزي -->
+  <text x="540" y="152"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27" fill="#2b5f8f">Worked Example: Identify the AI Technology</text>
+
+  <!-- التعليمة العربية -->
+  <text x="945" y="212"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30" fill="#1a5fa4">
+    <tspan x="945" dy="0">صِل كل مثال من (أ–د) بتقنية الذكاء الاصطناعي المناسبة</tspan>
+    <tspan x="945" dy="40">من الاختيارات (A–D).</tspan>
+  </text>
+
+  <!-- التعليمة الإنجليزية -->
+  <text x="118" y="296"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27" fill="#1a5fa4">
+    <tspan x="118" dy="0">Match each example (a–d) with the most appropriate</tspan>
+    <tspan x="118" dy="34">AI technology from choices (A–D).</tspan>
+  </text>
+
+  <!-- المثال أ -->
+  <text x="945" y="396"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30" fill="#1f5c99">يقترح YouTube مقاطع فيديو تناسب تفضيلات المستخدم.</text>
+  <text y="440"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="26" font-weight="bold" fill="#c62828">
+    <tspan x="190">أ</tspan><tspan x="210">|</tspan><tspan x="226">a</tspan>
+  </text>
+  <text x="262" y="440"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27" fill="#16283f">
+    <tspan x="262" dy="0">YouTube recommends videos that match</tspan>
+    <tspan x="262" dy="34">the user’s preferences.</tspan>
+  </text>
+
+  <!-- المثال ب -->
+  <text x="945" y="534"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30" fill="#1f5c99">التحدث إلى هاتف ذكي لمعرفة حالة الطقس.</text>
+  <text y="578"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="26" font-weight="bold" fill="#c62828">
+    <tspan x="190">ب</tspan><tspan x="212">|</tspan><tspan x="228">b</tspan>
+  </text>
+  <text x="262" y="578"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27" fill="#16283f">
+    <tspan x="262" dy="0">Speaking to a smartphone</tspan>
+    <tspan x="262" dy="34">to check the weather.</tspan>
+  </text>
+
+  <!-- المثال ج -->
+  <text x="945" y="672"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30" fill="#1f5c99">ترجمة موقع إلكتروني بلغة أجنبية إلى اللغة الأم للمستخدم.</text>
+  <text y="716"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="26" font-weight="bold" fill="#c62828">
+    <tspan x="190">ج</tspan><tspan x="212">|</tspan><tspan x="228">c</tspan>
+  </text>
+  <text x="262" y="716"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27" fill="#16283f">
+    <tspan x="262" dy="0">Translating a foreign-language website</tspan>
+    <tspan x="262" dy="34">into one’s native language.</tspan>
+  </text>
+
+  <!-- المثال د -->
+  <text x="945" y="810"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30" fill="#1f5c99">تكتشف كاميرا الهاتف الذكي وجه الشخص تلقائيًا.</text>
+  <text y="854"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="26" font-weight="bold" fill="#c62828">
+    <tspan x="190">د</tspan><tspan x="210">|</tspan><tspan x="226">d</tspan>
+  </text>
+  <text x="262" y="854"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27" fill="#16283f">
+    <tspan x="262" dy="0">A smartphone camera automatically</tspan>
+    <tspan x="262" dy="34">detects a person’s face.</tspan>
+  </text>
+
+  <!-- عنوان صندوق الاختيارات -->
+  <text x="543" y="972"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30" font-weight="bold" fill="#123c66">الاختيارات</text>
+  <text x="557" y="972"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="28" fill="#7c7c72">|</text>
+  <text x="578" y="972"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="28" font-weight="bold" fill="#123c66">Choices</text>
+
+  <!-- حروف الاختيارات -->
+  <text y="1022"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30" font-weight="bold" fill="#c62828">
+    <tspan x="140">A</tspan>
+  </text>
+  <text y="1060"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30" font-weight="bold" fill="#c62828">
+    <tspan x="140">B</tspan>
+  </text>
+  <text y="1098"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30" font-weight="bold" fill="#c62828">
+    <tspan x="140">C</tspan>
+  </text>
+  <text y="1136"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30" font-weight="bold" fill="#c62828">
+    <tspan x="140">D</tspan>
+  </text>
+
+  <!-- المقابل الإنجليزي للاختيارات -->
+  <text x="185" y="1022"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27" fill="#16283f">Recommendation System</text>
+  <text x="185" y="1060"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27" fill="#16283f">Voice Assistant</text>
+  <text x="185" y="1098"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27" fill="#16283f">Machine Translation</text>
+  <text x="185" y="1136"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27" fill="#16283f">Face Recognition</text>
+
+  <!-- المقابل العربي للاختيارات -->
+  <text x="945" y="1022"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="29" fill="#1f5c99">نظام التوصية</text>
+  <text x="945" y="1060"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="29" fill="#1f5c99">المساعد الصوتي</text>
+  <text x="945" y="1098"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="29" fill="#1f5c99">الترجمة الآلية</text>
+  <text x="945" y="1136"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="29" fill="#1f5c99">التعرّف على الوجه</text>
+
+</svg>

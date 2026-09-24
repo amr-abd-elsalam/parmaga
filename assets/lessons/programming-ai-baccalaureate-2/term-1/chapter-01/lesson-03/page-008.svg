@@ -1,0 +1,231 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+
+  <defs>
+    <linearGradient id="ktWoodGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a9743f"/>
+      <stop offset="55%" stop-color="#96632f"/>
+      <stop offset="100%" stop-color="#7d5026"/>
+    </linearGradient>
+    <linearGradient id="ktPaperGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fffdf6"/>
+      <stop offset="100%" stop-color="#fbf6e9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- الخلفية الخشبية البسيطة -->
+  <rect x="0" y="0" width="1080" height="1350" fill="url(#ktWoodGrad)"/>
+  <path d="M0,180 C300,140 780,240 1080,190" stroke="#6f4520" stroke-width="10" fill="none" opacity=".12"/>
+  <path d="M0,1130 C320,1180 760,1080 1080,1140" stroke="#6f4520" stroke-width="12" fill="none" opacity=".10"/>
+
+  <!-- ظل الورقة -->
+  <rect x="42" y="34" width="1012" height="1306" rx="6" fill="#3b2410" opacity=".22"/>
+
+  <!-- الورقة -->
+  <rect x="34" y="24" width="1012" height="1306" rx="6" fill="url(#ktPaperGrad)"/>
+
+  <!-- سطور الدفتر الأفقية الباهتة -->
+  <g stroke="#cfe0f2" stroke-width="1.5">
+    <line x1="80" y1="222" x2="1000" y2="222"/>
+    <line x1="80" y1="262" x2="1000" y2="262"/>
+    <line x1="80" y1="302" x2="1000" y2="302"/>
+    <line x1="80" y1="342" x2="1000" y2="342"/>
+    <line x1="80" y1="382" x2="1000" y2="382"/>
+    <line x1="80" y1="422" x2="1000" y2="422"/>
+    <line x1="80" y1="462" x2="1000" y2="462"/>
+    <line x1="80" y1="502" x2="1000" y2="502"/>
+    <line x1="80" y1="542" x2="1000" y2="542"/>
+    <line x1="80" y1="582" x2="1000" y2="582"/>
+    <line x1="80" y1="622" x2="1000" y2="622"/>
+    <line x1="80" y1="662" x2="1000" y2="662"/>
+    <line x1="80" y1="702" x2="1000" y2="702"/>
+    <line x1="80" y1="742" x2="1000" y2="742"/>
+    <line x1="80" y1="782" x2="1000" y2="782"/>
+    <line x1="80" y1="822" x2="1000" y2="822"/>
+    <line x1="80" y1="862" x2="1000" y2="862"/>
+    <line x1="80" y1="902" x2="1000" y2="902"/>
+    <line x1="80" y1="942" x2="1000" y2="942"/>
+    <line x1="80" y1="982" x2="1000" y2="982"/>
+    <line x1="80" y1="1022" x2="1000" y2="1022"/>
+    <line x1="80" y1="1062" x2="1000" y2="1062"/>
+    <line x1="80" y1="1102" x2="1000" y2="1102"/>
+    <line x1="80" y1="1142" x2="1000" y2="1142"/>
+  </g>
+
+  <!-- الإطار الأحمر الخارجي الوحيد -->
+  <rect x="67" y="56" width="946" height="1262" fill="none" stroke="#c0392b" stroke-width="3"/>
+
+  <!-- خلفية بطاقة الخلاصة الصفراء -->
+  <rect x="105" y="968" width="870" height="196" rx="16" fill="#fdf6d8" stroke="#e0c766" stroke-width="2"/>
+
+  <!-- صندوقا الرسم التوضيحي المركزي -->
+  <rect x="140" y="520" width="320" height="110" rx="18" fill="#f2f8ff" stroke="#2f6fb0" stroke-width="2.5"/>
+  <rect x="620" y="520" width="320" height="110" rx="18" fill="#f2f8ff" stroke="#2f6fb0" stroke-width="2.5"/>
+
+  <!-- السهم الأحمر المزدوج بين القدرات والحكم البشري -->
+  <line x1="492" y1="575" x2="588" y2="575" stroke="#c0392b" stroke-width="3"/>
+  <polygon points="478,575 494,567 494,583" fill="#c0392b"/>
+  <polygon points="602,575 586,567 586,583" fill="#c0392b"/>
+
+  <!-- فاصل بسيط تحت العنوان -->
+  <line x1="400" y1="194" x2="680" y2="194" stroke="#9dbfe0" stroke-width="2"/>
+
+  <!-- العنوان العربي -->
+  <text x="540"
+        y="124"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="46"
+        font-weight="bold"
+        fill="#1c4f86">الفكرة الرئيسية</text>
+
+  <!-- العنوان الإنجليزي -->
+  <text x="540"
+        y="170"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="32"
+        fill="#152b42">Key Takeaway</text>
+
+  <!-- الفقرة العربية الأولى -->
+  <text x="950"
+        y="222"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30"
+        fill="#225f9c">
+    <tspan x="950" dy="0">يُستخدم الذكاء الاصطناعي في أنظمة التوصية والمساعدات</tspan>
+    <tspan x="950" dy="40">الصوتية والترجمة الآلية والتعرّف على الوجه، كما</tspan>
+    <tspan x="950" dy="40">يُستخدم في الرعاية الصحية والزراعة والتصنيع</tspan>
+    <tspan x="950" dy="40">والخدمات اللوجستية.</tspan>
+  </text>
+
+  <!-- الفقرة الإنجليزية الأولى -->
+  <text x="120"
+        y="386"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27"
+        fill="#152b42">
+    <tspan x="120" dy="0">AI is used in recommendation systems, voice</tspan>
+    <tspan x="120" dy="34">assistants, machine translation, and face</tspan>
+    <tspan x="120" dy="34">recognition. It is also used in healthcare,</tspan>
+    <tspan x="120" dy="34">agriculture, manufacturing, and logistics.</tspan>
+  </text>
+
+  <!-- نصوص الرسم التوضيحي: الطرف الأول -->
+  <text x="300"
+        y="566"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="30"
+        fill="#152b42">AI</text>
+
+  <text x="300"
+        y="606"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="26"
+        fill="#225f9c">الذكاء الاصطناعي</text>
+
+  <!-- نصوص الرسم التوضيحي: الطرف الثاني -->
+  <text x="780"
+        y="566"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27"
+        fill="#152b42">Human Judgment</text>
+
+  <text x="780"
+        y="606"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="26"
+        fill="#225f9c">الحكم البشري</text>
+
+  <!-- الفقرة العربية الثانية -->
+  <text x="950"
+        y="674"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30"
+        fill="#225f9c">
+    <tspan x="950" dy="0">وهو جيد في اكتشاف الأنماط والتعرّف والتنبؤ</tspan>
+    <tspan x="950" dy="40">اعتمادًا على البيانات، لكن الحكم البشري يظل ضروريًا</tspan>
+    <tspan x="950" dy="40">عند التعامل مع الأخلاق والخصوصية والمسؤولية</tspan>
+    <tspan x="950" dy="40">ودقة النتائج.</tspan>
+  </text>
+
+  <!-- الفقرة الإنجليزية الثانية -->
+  <text x="120"
+        y="830"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27"
+        fill="#152b42">
+    <tspan x="120" dy="0">It is good at finding patterns, recognition, and</tspan>
+    <tspan x="120" dy="34">prediction based on data, but human judgment</tspan>
+    <tspan x="120" dy="34">remains necessary when ethics, privacy,</tspan>
+    <tspan x="120" dy="34">responsibility, and the accuracy of results are</tspan>
+  </text>
+
+  <text x="120"
+        y="932"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27"
+        fill="#152b42">involved.</text>
+
+  <!-- نص بطاقة الخلاصة: العربية -->
+  <text x="940"
+        y="1018"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="29"
+        fill="#225f9c">
+    <tspan x="940" dy="0">الذكاء الاصطناعي أداة قوية، لكن استخدامه</tspan>
+    <tspan x="940" dy="38">المسؤول يحتاج إلى حكم بشري.</tspan>
+  </text>
+
+  <!-- نص بطاقة الخلاصة: الإنجليزية -->
+  <text x="140"
+        y="1098"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27"
+        fill="#152b42">
+    <tspan x="140" dy="0">AI is a powerful tool, but its responsible use</tspan>
+    <tspan x="140" dy="34">requires human judgment.</tspan>
+  </text>
+
+</svg>

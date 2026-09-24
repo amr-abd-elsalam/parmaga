@@ -1,0 +1,229 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+
+  <defs>
+    <linearGradient id="deskWood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b07a45"/>
+      <stop offset="0.55" stop-color="#9a6636"/>
+      <stop offset="1" stop-color="#82532b"/>
+    </linearGradient>
+    <linearGradient id="paperTone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf6"/>
+      <stop offset="1" stop-color="#fbf6e9"/>
+    </linearGradient>
+    <marker id="recArrowHead" markerWidth="12" markerHeight="12" refX="9" refY="5"
+            orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L11,5 L0,10 z" fill="#c0392b"/>
+    </marker>
+  </defs>
+
+  <!-- 1) خلفية بسيطة -->
+  <rect x="0" y="0" width="1080" height="1350" fill="url(#deskWood)"/>
+  <path d="M0,210 C300,170 780,270 1080,220" stroke="#7d4f28" stroke-width="16" fill="none" opacity="0.16"/>
+  <path d="M0,1140 C320,1200 760,1080 1080,1150" stroke="#7d4f28" stroke-width="14" fill="none" opacity="0.14"/>
+
+  <!-- 2) الورقة -->
+  <rect x="44" y="36" width="1012" height="1298" rx="10" fill="#5c3a1e" opacity="0.28"/>
+  <rect x="34" y="26" width="1012" height="1298" rx="10" fill="url(#paperTone)"/>
+
+  <!-- 3) سطور الدفتر الزرقاء الباهتة -->
+  <g stroke="#cfe0f2" stroke-width="1.3">
+    <line x1="92" y1="240" x2="988" y2="240"/>
+    <line x1="92" y1="280" x2="988" y2="280"/>
+    <line x1="92" y1="320" x2="988" y2="320"/>
+    <line x1="92" y1="360" x2="988" y2="360"/>
+    <line x1="92" y1="400" x2="988" y2="400"/>
+    <line x1="92" y1="440" x2="988" y2="440"/>
+    <line x1="92" y1="480" x2="988" y2="480"/>
+    <line x1="92" y1="520" x2="988" y2="520"/>
+    <line x1="92" y1="560" x2="988" y2="560"/>
+    <line x1="92" y1="600" x2="988" y2="600"/>
+    <line x1="92" y1="640" x2="988" y2="640"/>
+    <line x1="92" y1="680" x2="988" y2="680"/>
+    <line x1="92" y1="720" x2="988" y2="720"/>
+    <line x1="92" y1="760" x2="988" y2="760"/>
+    <line x1="92" y1="800" x2="988" y2="800"/>
+    <line x1="92" y1="840" x2="988" y2="840"/>
+    <line x1="92" y1="880" x2="988" y2="880"/>
+    <line x1="92" y1="920" x2="988" y2="920"/>
+    <line x1="92" y1="960" x2="988" y2="960"/>
+    <line x1="92" y1="1000" x2="988" y2="1000"/>
+    <line x1="92" y1="1040" x2="988" y2="1040"/>
+    <line x1="92" y1="1080" x2="988" y2="1080"/>
+    <line x1="92" y1="1120" x2="988" y2="1120"/>
+    <line x1="92" y1="1160" x2="988" y2="1160"/>
+    <line x1="92" y1="1200" x2="988" y2="1200"/>
+    <line x1="92" y1="1240" x2="988" y2="1240"/>
+    <line x1="92" y1="1280" x2="988" y2="1280"/>
+  </g>
+
+  <!-- 4) حدّ خارجي أحمر واحد فقط -->
+  <rect x="67" y="72" width="946" height="1244" rx="6" fill="none" stroke="#c0392b" stroke-width="2.6"/>
+
+  <!-- 5) خلفيات البطاقات -->
+  <rect x="105" y="224" width="870" height="276" rx="14" fill="#e7f6f5" stroke="#1f8a8a" stroke-width="2.4"/>
+  <rect x="105" y="960" width="870" height="206" rx="14" fill="#e9f1fc" stroke="#2f6bb5" stroke-width="2.4"/>
+
+  <!-- 6) خطوط وظيفية ورسم توضيحي بسيط -->
+  <line x1="352" y1="212" x2="728" y2="212" stroke="#1f8a8a" stroke-width="3" stroke-linecap="round"/>
+  <line x1="540" y1="244" x2="540" y2="274" stroke="#1f8a8a" stroke-width="2.4"/>
+  <line x1="540" y1="982" x2="540" y2="1010" stroke="#2f6bb5" stroke-width="2.4"/>
+
+  <g>
+    <rect x="330" y="846" width="176" height="90" rx="6" fill="#fffaf0" stroke="#8a5a34" stroke-width="3"/>
+    <line x1="330" y1="892" x2="506" y2="892" stroke="#8a5a34" stroke-width="2.4"/>
+    <rect x="341" y="854" width="19" height="34" fill="#2f7d8f"/>
+    <rect x="365" y="858" width="17" height="30" fill="#d1712f"/>
+    <rect x="387" y="852" width="21" height="36" fill="#3a7d3a"/>
+    <rect x="413" y="856" width="16" height="32" fill="#7a3f8a"/>
+    <rect x="434" y="854" width="20" height="34" fill="#2b5f9e"/>
+    <rect x="341" y="900" width="18" height="30" fill="#c0392b"/>
+    <rect x="364" y="898" width="21" height="32" fill="#3a7d3a"/>
+    <rect x="390" y="902" width="16" height="28" fill="#d1712f"/>
+    <rect x="411" y="898" width="20" height="32" fill="#2f7d8f"/>
+    <rect x="436" y="900" width="18" height="30" fill="#7a3f8a"/>
+    <line x1="330" y1="938" x2="506" y2="938" stroke="#8a5a34" stroke-width="3" stroke-linecap="round"/>
+    <path d="M524 906 C 572 858, 642 856, 688 890" fill="none" stroke="#c0392b" stroke-width="3.2"
+          stroke-linecap="round" marker-end="url(#recArrowHead)"/>
+    <rect x="706" y="872" width="52" height="66" rx="5" fill="#fffaf0" stroke="#c0392b" stroke-width="3"/>
+    <line x1="722" y1="876" x2="722" y2="934" stroke="#c0392b" stroke-width="2"/>
+    <polygon points="732,838 737,850 750,851 740,859 743,872 732,865 721,872 724,859 714,851 727,850"
+             fill="#e0a72e" stroke="#c07f14" stroke-width="1.4"/>
+  </g>
+
+  <!-- 7) النصوص التعليمية -->
+
+  <text x="540" y="142"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="46"
+        font-weight="bold"
+        fill="#14497f">طبّق ما تعلمته في سياق جديد</text>
+
+  <text x="540" y="188"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="29"
+        fill="#22405e">Apply What You Learned in a New Context</text>
+
+  <text x="380" y="270"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30"
+        font-weight="bold"
+        fill="#0f6f6f">مكتبة المدرسة</text>
+
+  <text x="680" y="268"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="26"
+        font-weight="bold"
+        fill="#0f6f6f">School Library</text>
+
+  <text x="940"
+        y="322"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="28"
+        fill="#1a5a9e">
+    <tspan x="940" dy="0">تريد مكتبة مدرسية استخدام الذكاء الاصطناعي</tspan>
+    <tspan x="940" dy="36">للتوصية بالكتب للطلاب اعتمادًا على الكتب</tspan>
+    <tspan x="940" dy="36">التي استعاروها سابقًا.</tspan>
+  </text>
+
+  <text x="135"
+        y="442"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="26"
+        fill="#152b42">
+    <tspan x="135" dy="0">A school library wants to use AI to recommend books</tspan>
+    <tspan x="135" dy="34">to students based on what they have borrowed before.</tspan>
+  </text>
+
+  <text x="950"
+        y="550"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30"
+        fill="#1a5a9e">
+    <tspan x="950" dy="0">باستخدام ما تعلمته عن أنظمة التوصية وما يبرع فيه</tspan>
+    <tspan x="950" dy="40">الذكاء الاصطناعي، وضّح كيف سيعمل النظام، وحدد</tspan>
+    <tspan x="950" dy="40">جانبًا واحدًا ينبغي للمدرسة أن تراعيه.</tspan>
+  </text>
+
+  <text x="130"
+        y="682"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="26"
+        fill="#152b42">
+    <tspan x="130" dy="0">Using what you learned about recommendation</tspan>
+    <tspan x="130" dy="32">systems and what AI is good at, explain how the</tspan>
+    <tspan x="130" dy="32">AI would work and identify one caution the</tspan>
+    <tspan x="130" dy="32">school should consider.</tspan>
+  </text>
+
+  <text x="410" y="1006"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="28"
+        font-weight="bold"
+        fill="#22579c">راجع نفسك</text>
+
+  <text x="680" y="1004"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="middle"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="25"
+        font-weight="bold"
+        fill="#22579c">Review Yourself</text>
+
+  <text x="940"
+        y="1046"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="27"
+        fill="#1a5a9e">
+    <tspan x="940" dy="0">غطِّ قسم الشرح أو الملاحظة المهمة، ثم حاول</tspan>
+    <tspan x="940" dy="32">استرجاع ما تعلمته دون الرجوع إليه.</tspan>
+  </text>
+
+  <text x="132"
+        y="1112"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="25"
+        fill="#152b42">
+    <tspan x="132" dy="0">Cover the explanation or key-point section, then try to</tspan>
+    <tspan x="132" dy="30">recall what you learned without looking back.</tspan>
+  </text>
+
+</svg>

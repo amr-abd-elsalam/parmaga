@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+
+  <defs>
+    <linearGradient id="woodBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b07d46"/>
+      <stop offset="0.55" stop-color="#96652f"/>
+      <stop offset="1" stop-color="#7d5426"/>
+    </linearGradient>
+    <linearGradient id="paperTone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf6"/>
+      <stop offset="1" stop-color="#fbf6e9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 1. الخلفية الخشبية البسيطة -->
+  <rect x="0" y="0" width="1080" height="1350" fill="url(#woodBg)"/>
+  <path d="M0 250 C 300 220 760 300 1080 260" stroke="#6f4a21" stroke-width="10" fill="none" opacity="0.18"/>
+  <path d="M0 1090 C 320 1130 720 1040 1080 1080" stroke="#6f4a21" stroke-width="12" fill="none" opacity="0.15"/>
+
+  <!-- 2. الورقة -->
+  <rect x="42" y="36" width="1012" height="1294" rx="8" fill="#4d3315" opacity="0.28"/>
+  <rect x="34" y="28" width="1012" height="1294" rx="8" fill="url(#paperTone)"/>
+
+  <!-- 3. سطور الدفتر الأفقية الزرقاء الفاتحة -->
+  <g stroke="#cfe0f2" stroke-width="1.6">
+    <line x1="92" y1="150" x2="988" y2="150"/>
+    <line x1="92" y1="195" x2="988" y2="195"/>
+    <line x1="92" y1="240" x2="988" y2="240"/>
+    <line x1="92" y1="285" x2="988" y2="285"/>
+    <line x1="92" y1="330" x2="988" y2="330"/>
+    <line x1="92" y1="375" x2="988" y2="375"/>
+    <line x1="92" y1="420" x2="988" y2="420"/>
+    <line x1="92" y1="465" x2="988" y2="465"/>
+    <line x1="92" y1="510" x2="988" y2="510"/>
+    <line x1="92" y1="555" x2="988" y2="555"/>
+    <line x1="92" y1="600" x2="988" y2="600"/>
+    <line x1="92" y1="645" x2="988" y2="645"/>
+    <line x1="92" y1="690" x2="988" y2="690"/>
+    <line x1="92" y1="735" x2="988" y2="735"/>
+    <line x1="92" y1="780" x2="988" y2="780"/>
+    <line x1="92" y1="825" x2="988" y2="825"/>
+    <line x1="92" y1="870" x2="988" y2="870"/>
+    <line x1="92" y1="915" x2="988" y2="915"/>
+    <line x1="92" y1="960" x2="988" y2="960"/>
+    <line x1="92" y1="1005" x2="988" y2="1005"/>
+    <line x1="92" y1="1050" x2="988" y2="1050"/>
+    <line x1="92" y1="1095" x2="988" y2="1095"/>
+    <line x1="92" y1="1140" x2="988" y2="1140"/>
+    <line x1="92" y1="1185" x2="988" y2="1185"/>
+    <line x1="92" y1="1230" x2="988" y2="1230"/>
+    <line x1="92" y1="1275" x2="988" y2="1275"/>
+  </g>
+
+  <!-- 4. الحد الأحمر الخارجي الوحيد -->
+  <rect x="67" y="100" width="946" height="1200" rx="5" fill="none" stroke="#c8322c" stroke-width="3"/>
+
+  <!-- 5. خلفيات البطاقات -->
+  <rect x="95" y="272" width="890" height="236" rx="16" fill="#fffdf6" stroke="#c3d3e0" stroke-width="1.8"/>
+  <rect x="95" y="534" width="890" height="200" rx="16" fill="#fffdf6" stroke="#c3d3e0" stroke-width="1.8"/>
+  <rect x="95" y="760" width="890" height="200" rx="16" fill="#fffdf6" stroke="#c3d3e0" stroke-width="1.8"/>
+  <rect x="95" y="986" width="890" height="168" rx="16" fill="#fffdf6" stroke="#c3d3e0" stroke-width="1.8"/>
+
+  <!-- 6. الأيقونات الوظيفية البسيطة -->
+  <!-- أيقونة 1: التصوير الطبي -->
+  <g fill="none" stroke="#2d4a63" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="124" y="358" width="58" height="66" rx="6" fill="#f3f8fc"/>
+    <line x1="124" y1="372" x2="182" y2="372"/>
+  </g>
+  <polyline points="132,398 143,398 149,382 157,414 163,398 174,398"
+            fill="none" stroke="#c8322c" stroke-width="3"
+            stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- أيقونة 2: الزراعة -->
+  <g fill="none" stroke="#1f7a4d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="153" y1="662" x2="153" y2="618"/>
+    <path d="M153 638 C 136 636 128 624 132 612 C 146 613 153 624 153 638 Z"/>
+    <path d="M153 630 C 170 628 178 616 174 604 C 160 605 153 616 153 630 Z"/>
+    <line x1="126" y1="664" x2="180" y2="664"/>
+  </g>
+
+  <!-- أيقونة 3: التصنيع -->
+  <g fill="none" stroke="#2d4a63" stroke-width="2.8" stroke-linecap="round">
+    <circle cx="153" cy="860" r="20"/>
+    <circle cx="153" cy="860" r="7"/>
+    <line x1="173" y1="860" x2="181" y2="860"/>
+    <line x1="167" y1="846" x2="173" y2="840"/>
+    <line x1="153" y1="840" x2="153" y2="832"/>
+    <line x1="139" y1="846" x2="133" y2="840"/>
+    <line x1="133" y1="860" x2="125" y2="860"/>
+    <line x1="139" y1="874" x2="133" y2="880"/>
+    <line x1="153" y1="880" x2="153" y2="888"/>
+    <line x1="167" y1="874" x2="173" y2="880"/>
+  </g>
+
+  <!-- أيقونة 4: مسارات التوصيل -->
+  <g fill="none" stroke="#2d4a63" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M126 1096 C 143 1096 141 1068 158 1066 C 174 1064 170 1050 180 1048" stroke-dasharray="7 6"/>
+    <rect x="128" y="1074" width="18" height="14" rx="3" fill="#f3f8fc"/>
+  </g>
+  <circle cx="126" cy="1096" r="4.5" fill="#2d4a63"/>
+  <polyline points="174,1042 184,1048 174,1054"
+            fill="none" stroke="#c8322c" stroke-width="3"
+            stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 7. النصوص التعليمية -->
+
+  <!-- العنوان العربي -->
+  <text x="540" y="176"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="middle"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="46" font-weight="bold" fill="#173f6b">استخدام الذكاء الاصطناعي في الصناعة</text>
+
+  <!-- العنوان الإنجليزي -->
+  <text x="540" y="222"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="30" fill="#152b42">Use of AI in Industry</text>
+
+  <line x1="400" y1="242" x2="680" y2="242" stroke="#c8322c" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- بطاقة 1 -->
+  <text x="960" y="318"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="31" font-weight="bold" fill="#1f7a4d">الرعاية الصحية <tspan direction="ltr" unicode-bidi="embed">Healthcare  |</tspan></text>
+
+  <text x="960" y="364"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="29" fill="#1a5fa8">
+    <tspan x="960" dy="0">تشخيص الأمراض من صور الأشعة السينية</tspan>
+    <tspan x="960" dy="36">والتصوير المقطعي، ودعم اكتشاف الأدوية.</tspan>
+  </text>
+
+  <text x="205" y="444"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27" fill="#152b42">
+    <tspan x="205" dy="0">Detecting diseases from X-ray and CT images</tspan>
+    <tspan x="205" dy="34">and supporting drug discovery.</tspan>
+  </text>
+
+  <!-- بطاقة 2 -->
+  <text x="960" y="580"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="31" font-weight="bold" fill="#1f7a4d">الزراعة <tspan direction="ltr" unicode-bidi="embed">Agriculture  |</tspan></text>
+
+  <text x="960" y="626"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="29" fill="#1a5fa8">
+    <tspan x="960" dy="0">التنبؤ بموعد الحصاد، والكشف عن الآفات والأمراض.</tspan>
+  </text>
+
+  <text x="205" y="670"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27" fill="#152b42">
+    <tspan x="205" dy="0">Predicting harvest timing and</tspan>
+    <tspan x="205" dy="34">detecting pests and diseases.</tspan>
+  </text>
+
+  <!-- بطاقة 3 -->
+  <text x="960" y="806"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="31" font-weight="bold" fill="#1f7a4d">التصنيع <tspan direction="ltr" unicode-bidi="embed">Manufacturing  |</tspan></text>
+
+  <text x="960" y="852"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="29" fill="#1a5fa8">
+    <tspan x="960" dy="0">أتمتة فحص جودة المنتجات واستخدام الصيانة التنبؤية.</tspan>
+  </text>
+
+  <text x="205" y="896"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27" fill="#152b42">
+    <tspan x="205" dy="0">Automating product quality inspection</tspan>
+    <tspan x="205" dy="34">and using predictive maintenance.</tspan>
+  </text>
+
+  <!-- بطاقة 4 -->
+  <text x="960" y="1032"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="31" font-weight="bold" fill="#1f7a4d">الخدمات اللوجستية <tspan direction="ltr" unicode-bidi="embed">Logistics  |</tspan></text>
+
+  <text x="960" y="1078"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="29" fill="#1a5fa8">
+    <tspan x="960" dy="0">تحسين مسارات التوصيل.</tspan>
+  </text>
+
+  <text x="205" y="1122"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27" fill="#152b42">
+    <tspan x="205" dy="0">Optimizing delivery routes.</tspan>
+  </text>
+
+</svg>
