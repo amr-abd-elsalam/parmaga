@@ -1,0 +1,273 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+
+  <defs>
+    <linearGradient id="pmWood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b57e50"/>
+      <stop offset="0.55" stop-color="#9a6640"/>
+      <stop offset="1" stop-color="#83552f"/>
+    </linearGradient>
+    <linearGradient id="pmPaper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf6"/>
+      <stop offset="1" stop-color="#fbf6ea"/>
+    </linearGradient>
+    <linearGradient id="pmPanel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#173f68"/>
+      <stop offset="1" stop-color="#102c4a"/>
+    </linearGradient>
+    <marker id="pmArrowRed" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,1 L9,5 L0,9 Z" fill="#c8392f"/>
+    </marker>
+    <marker id="pmArrowGreen" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,1 L9,5 L0,9 Z" fill="#2e9e63"/>
+    </marker>
+  </defs>
+
+  <!-- 1) خلفية خشبية بسيطة -->
+  <rect x="0" y="0" width="1080" height="1350" fill="url(#pmWood)"/>
+  <path d="M0,240 C300,196 780,300 1080,236" fill="none" stroke="#6f4526" stroke-width="10" opacity="0.13"/>
+  <path d="M0,1108 C320,1160 760,1046 1080,1104" fill="none" stroke="#6f4526" stroke-width="12" opacity="0.11"/>
+
+  <!-- 2) ظل الورقة ثم الورقة -->
+  <rect x="44" y="40" width="1012" height="1294" rx="10" fill="#3b2411" opacity="0.22"/>
+  <rect x="34" y="28" width="1012" height="1294" rx="8" fill="url(#pmPaper)"/>
+
+  <!-- 3) سطور الكراسة الأفقية الباهتة -->
+  <g stroke="#cfe1f1" stroke-width="1.6">
+    <line x1="78" y1="150" x2="1002" y2="150"/>
+    <line x1="78" y1="194" x2="1002" y2="194"/>
+    <line x1="78" y1="238" x2="1002" y2="238"/>
+    <line x1="78" y1="282" x2="1002" y2="282"/>
+    <line x1="78" y1="326" x2="1002" y2="326"/>
+    <line x1="78" y1="370" x2="1002" y2="370"/>
+    <line x1="78" y1="414" x2="1002" y2="414"/>
+    <line x1="78" y1="458" x2="1002" y2="458"/>
+    <line x1="78" y1="502" x2="1002" y2="502"/>
+    <line x1="78" y1="546" x2="1002" y2="546"/>
+    <line x1="78" y1="590" x2="1002" y2="590"/>
+    <line x1="78" y1="634" x2="1002" y2="634"/>
+    <line x1="78" y1="678" x2="1002" y2="678"/>
+    <line x1="78" y1="722" x2="1002" y2="722"/>
+    <line x1="78" y1="766" x2="1002" y2="766"/>
+    <line x1="78" y1="810" x2="1002" y2="810"/>
+    <line x1="78" y1="854" x2="1002" y2="854"/>
+    <line x1="78" y1="898" x2="1002" y2="898"/>
+    <line x1="78" y1="942" x2="1002" y2="942"/>
+    <line x1="78" y1="986" x2="1002" y2="986"/>
+    <line x1="78" y1="1030" x2="1002" y2="1030"/>
+    <line x1="78" y1="1074" x2="1002" y2="1074"/>
+    <line x1="78" y1="1118" x2="1002" y2="1118"/>
+    <line x1="78" y1="1162" x2="1002" y2="1162"/>
+    <line x1="78" y1="1206" x2="1002" y2="1206"/>
+  </g>
+
+  <!-- 4) إطار أحمر خارجي واحد فقط -->
+  <rect x="67" y="62" width="946" height="1203" rx="6"
+        fill="none" stroke="#c8392f" stroke-width="2.4"/>
+
+  <!-- 5) حاوية المشهد التعليمي -->
+  <rect x="115" y="105" width="850" height="585" rx="26"
+        fill="#f3f9fd" fill-opacity="0.97" stroke="#c9dced" stroke-width="2"/>
+
+  <!-- تفاصيل معمارية هادئة (أقواس) -->
+  <g fill="none" stroke="#d6e7f2" stroke-width="2.5" opacity="0.85">
+    <path d="M198,205 L198,170 Q198,132 250,125 Q302,132 302,170 L302,205"/>
+    <path d="M488,205 L488,170 Q488,132 540,125 Q592,132 592,170 L592,205"/>
+    <path d="M778,205 L778,170 Q778,132 830,125 Q882,132 882,170 L882,205"/>
+    <line x1="165" y1="207" x2="915" y2="207"/>
+  </g>
+
+  <!-- بطاقات البيانات الداخلة (برتقالي) -->
+  <g>
+    <rect x="150" y="250" width="150" height="78" rx="11" fill="#fdf1e2" stroke="#e0a55e" stroke-width="2"/>
+    <circle cx="180" cy="278" r="13" fill="#e08b3a"/>
+    <path d="M164,312 C165,294 172,289 180,289 C188,289 195,294 196,312 Z" fill="#e08b3a"/>
+    <rect x="208" y="272" width="78" height="8" rx="4" fill="#f0c48c"/>
+    <rect x="208" y="292" width="56" height="8" rx="4" fill="#f0c48c"/>
+
+    <rect x="150" y="348" width="150" height="78" rx="11" fill="#fdf1e2" stroke="#e0a55e" stroke-width="2"/>
+    <circle cx="180" cy="376" r="13" fill="#e08b3a"/>
+    <path d="M164,410 C165,392 172,387 180,387 C188,387 195,392 196,410 Z" fill="#e08b3a"/>
+    <rect x="208" y="370" width="78" height="8" rx="4" fill="#f0c48c"/>
+    <rect x="208" y="390" width="56" height="8" rx="4" fill="#f0c48c"/>
+
+    <rect x="150" y="446" width="150" height="78" rx="11" fill="#fdf1e2" stroke="#e0a55e" stroke-width="2"/>
+    <circle cx="180" cy="474" r="13" fill="#e08b3a"/>
+    <path d="M164,508 C165,490 172,485 180,485 C188,485 195,490 196,508 Z" fill="#e08b3a"/>
+    <rect x="208" y="468" width="78" height="8" rx="4" fill="#f0c48c"/>
+    <rect x="208" y="488" width="56" height="8" rx="4" fill="#f0c48c"/>
+  </g>
+
+  <!-- أسهم دخول حمراء صغيرة -->
+  <g stroke="#c8392f" stroke-width="2.5" marker-end="url(#pmArrowRed)">
+    <line x1="304" y1="289" x2="320" y2="289"/>
+    <line x1="304" y1="387" x2="320" y2="387"/>
+    <line x1="304" y1="485" x2="320" y2="485"/>
+  </g>
+
+  <!-- واجهة القرار الشفافة -->
+  <rect x="330" y="225" width="420" height="295" rx="18"
+        fill="#eaf6fd" fill-opacity="0.92" stroke="#6bb3d6" stroke-width="2.5"/>
+  <g fill="#9fc9de">
+    <circle cx="352" cy="240" r="5"/>
+    <circle cx="368" cy="240" r="5"/>
+    <circle cx="384" cy="240" r="5"/>
+  </g>
+  <line x1="330" y1="256" x2="750" y2="256" stroke="#bcdcec" stroke-width="1.8"/>
+  <g stroke="#bcdcec" stroke-width="1.6" stroke-dasharray="5 7" opacity="0.9">
+    <line x1="540" y1="270" x2="540" y2="505"/>
+    <line x1="350" y1="378" x2="730" y2="378"/>
+  </g>
+
+  <!-- 1) ميزان العدالة -->
+  <g stroke="#2f7fb5" fill="none" stroke-linecap="round">
+    <circle cx="435" cy="272" r="5" fill="#2f7fb5" stroke="none"/>
+    <line x1="435" y1="274" x2="435" y2="352" stroke-width="4"/>
+    <line x1="412" y1="352" x2="458" y2="352" stroke-width="5"/>
+    <line x1="373" y1="282" x2="497" y2="282" stroke-width="4"/>
+    <line x1="373" y1="282" x2="373" y2="302" stroke-width="2.5"/>
+    <line x1="497" y1="282" x2="497" y2="302" stroke-width="2.5"/>
+    <path d="M353,302 Q373,326 393,302" stroke-width="3.5"/>
+    <path d="M477,302 Q497,326 517,302" stroke-width="3.5"/>
+  </g>
+
+  <!-- 2) مسار القرار الشفاف -->
+  <g stroke="#3aa3c9" stroke-width="2.6" fill="none" stroke-dasharray="6 5">
+    <line x1="597" y1="304" x2="636" y2="286"/>
+    <line x1="597" y1="316" x2="636" y2="334"/>
+    <line x1="654" y1="286" x2="693" y2="304"/>
+    <line x1="654" y1="334" x2="693" y2="316"/>
+  </g>
+  <g fill="#ffffff" stroke="#2f7fb5" stroke-width="3">
+    <circle cx="588" cy="310" r="11"/>
+    <circle cx="645" cy="281" r="11"/>
+    <circle cx="645" cy="339" r="11"/>
+    <circle cx="702" cy="310" r="11"/>
+  </g>
+
+  <!-- 3) درع حماية الخصوصية -->
+  <path d="M435,402 L477,416 L477,452 C477,484 456,497 435,502 C414,497 393,484 393,452 L393,416 Z"
+        fill="#dff0fa" stroke="#2f7fb5" stroke-width="3"/>
+  <circle cx="435" cy="446" r="7" fill="#2f7fb5"/>
+  <rect x="432" y="450" width="6" height="13" rx="3" fill="#2f7fb5"/>
+
+  <!-- 4) وثيقة المسؤولية المعتمدة -->
+  <rect x="612" y="402" width="68" height="90" rx="7" fill="#ffffff" stroke="#2f7fb5" stroke-width="3"/>
+  <g stroke="#9dc4dd" stroke-width="3" stroke-linecap="round">
+    <line x1="624" y1="424" x2="668" y2="424"/>
+    <line x1="624" y1="440" x2="668" y2="440"/>
+    <line x1="624" y1="456" x2="656" y2="456"/>
+  </g>
+  <circle cx="686" cy="482" r="16" fill="#2e9e63"/>
+  <path d="M678,482 L684,489 L695,474" fill="none" stroke="#ffffff" stroke-width="4"
+        stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- أسهم النتائج الخضراء -->
+  <g stroke="#2e9e63" stroke-width="2.5" marker-end="url(#pmArrowGreen)">
+    <line x1="754" y1="324" x2="772" y2="324"/>
+    <line x1="754" y1="444" x2="772" y2="444"/>
+  </g>
+
+  <!-- نتائج قرار متوازنة (أخضر) -->
+  <g>
+    <rect x="780" y="280" width="150" height="88" rx="12" fill="#e9f7ee" stroke="#46a06a" stroke-width="2"/>
+    <circle cx="812" cy="324" r="15" fill="#2e9e63"/>
+    <path d="M805,324 L810,330 L820,318" fill="none" stroke="#ffffff" stroke-width="3.5"
+          stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="838" y="310" width="72" height="8" rx="4" fill="#a9dcbe"/>
+    <rect x="838" y="330" width="52" height="8" rx="4" fill="#a9dcbe"/>
+
+    <rect x="780" y="400" width="150" height="88" rx="12" fill="#e9f7ee" stroke="#46a06a" stroke-width="2"/>
+    <circle cx="812" cy="444" r="15" fill="#2e9e63"/>
+    <path d="M805,444 L810,450 L820,438" fill="none" stroke="#ffffff" stroke-width="3.5"
+          stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="838" y="430" width="72" height="8" rx="4" fill="#a9dcbe"/>
+    <rect x="838" y="450" width="52" height="8" rx="4" fill="#a9dcbe"/>
+  </g>
+
+  <!-- مجموعة الطلاب المتحاورين (ظلال بشرية مجردة) -->
+  <line x1="165" y1="650" x2="905" y2="650" stroke="#d8e7f1" stroke-width="2"/>
+
+  <g fill="#244f70">
+    <circle cx="215" cy="568" r="25"/>
+    <path d="M170,646 C171,600 190,592 215,592 C240,592 259,600 260,646 Z"/>
+  </g>
+
+  <g fill="#2f5f85">
+    <path d="M350,536 C322,536 308,558 308,584 C308,606 316,620 320,632 L380,632 C384,620 392,606 392,584 C392,558 378,536 350,536 Z"/>
+    <path d="M312,646 C313,630 330,626 350,626 C370,626 387,630 388,646 Z"/>
+    <path d="M372,626 L414,560" stroke="#2f5f85" stroke-width="15" stroke-linecap="round" fill="none"/>
+    <circle cx="417" cy="556" r="9"/>
+  </g>
+
+  <g fill="#2b6187">
+    <circle cx="495" cy="576" r="24"/>
+    <path d="M453,646 C454,606 472,599 495,599 C518,599 536,606 537,646 Z"/>
+  </g>
+
+  <g fill="#27567a">
+    <path d="M690,540 C663,540 650,561 650,586 C650,608 658,621 662,633 L718,633 C722,621 730,608 730,586 C730,561 717,540 690,540 Z"/>
+    <path d="M654,646 C655,631 671,627 690,627 C709,627 725,631 726,646 Z"/>
+  </g>
+
+  <g fill="#1f4a6b">
+    <circle cx="850" cy="572" r="25"/>
+    <path d="M806,646 C807,602 826,596 850,596 C874,596 893,602 894,646 Z"/>
+  </g>
+
+  <!-- 6) لوحة العنوان الزرقاء الداكنة -->
+  <rect x="113" y="666" width="870" height="380" rx="30" fill="#0a2138" opacity="0.22"/>
+  <rect x="105" y="655" width="870" height="380" rx="30" fill="url(#pmPanel)"/>
+
+  <text x="940" y="730"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="40"
+        font-weight="bold"
+        fill="#ffd24a">
+    <tspan x="940" dy="0">الدرس 1-4</tspan>
+  </text>
+
+  <text x="940" y="812"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="54"
+        font-weight="bold"
+        fill="#ffffff">
+    <tspan x="940" dy="0">القضايا الأخلاقية المتعلقة</tspan>
+    <tspan x="940" dy="68">بالذكاء الاصطناعي</tspan>
+  </text>
+
+  <line x1="505" y1="916" x2="940" y2="916" stroke="#ffffff" stroke-width="2" opacity="0.28"/>
+
+  <text x="505" y="952"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27"
+        fill="#ffd24a">
+    <tspan x="505" dy="0">Lesson 1-4</tspan>
+  </text>
+
+  <text x="505" y="992"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="34"
+        fill="#ffffff">
+    <tspan x="505" dy="0">Ethical Issues with AI</tspan>
+  </text>
+
+</svg>

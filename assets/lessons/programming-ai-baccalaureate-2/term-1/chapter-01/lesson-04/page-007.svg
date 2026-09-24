@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+
+  <defs>
+    <linearGradient id="deskWood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b07c44"/>
+      <stop offset="0.55" stop-color="#9a6835"/>
+      <stop offset="1" stop-color="#7d5228"/>
+    </linearGradient>
+    <linearGradient id="paperTone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf6"/>
+      <stop offset="1" stop-color="#fbf6ea"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 1 - الخلفية الخشبية البسيطة -->
+  <rect x="0" y="0" width="1080" height="1350" fill="url(#deskWood)"/>
+  <path d="M0 250 Q 540 200 1080 268" stroke="#6d4620" stroke-width="16" fill="none" opacity=".14"/>
+  <path d="M0 1085 Q 540 1035 1080 1105" stroke="#6d4620" stroke-width="14" fill="none" opacity=".12"/>
+
+  <!-- 2 - الورقة مع ظل بسيط -->
+  <rect x="42" y="40" width="1012" height="1290" rx="10" fill="#4a2f14" opacity=".18"/>
+  <rect x="34" y="30" width="1012" height="1290" rx="10" fill="url(#paperTone)"/>
+
+  <!-- 3 - سطور الدفتر الزرقاء الباهتة -->
+  <g stroke="#c7dcef" stroke-width="1.6" opacity=".75">
+    <line x1="85" y1="108" x2="995" y2="108"/>
+    <line x1="85" y1="150" x2="995" y2="150"/>
+    <line x1="85" y1="192" x2="995" y2="192"/>
+    <line x1="85" y1="234" x2="995" y2="234"/>
+    <line x1="85" y1="276" x2="995" y2="276"/>
+    <line x1="85" y1="318" x2="995" y2="318"/>
+    <line x1="85" y1="360" x2="995" y2="360"/>
+    <line x1="85" y1="402" x2="995" y2="402"/>
+    <line x1="85" y1="444" x2="995" y2="444"/>
+    <line x1="85" y1="486" x2="995" y2="486"/>
+    <line x1="85" y1="528" x2="995" y2="528"/>
+    <line x1="85" y1="570" x2="995" y2="570"/>
+    <line x1="85" y1="612" x2="995" y2="612"/>
+    <line x1="85" y1="654" x2="995" y2="654"/>
+    <line x1="85" y1="696" x2="995" y2="696"/>
+    <line x1="85" y1="738" x2="995" y2="738"/>
+    <line x1="85" y1="780" x2="995" y2="780"/>
+    <line x1="85" y1="822" x2="995" y2="822"/>
+    <line x1="85" y1="864" x2="995" y2="864"/>
+    <line x1="85" y1="906" x2="995" y2="906"/>
+    <line x1="85" y1="948" x2="995" y2="948"/>
+    <line x1="85" y1="990" x2="995" y2="990"/>
+    <line x1="85" y1="1032" x2="995" y2="1032"/>
+    <line x1="85" y1="1074" x2="995" y2="1074"/>
+    <line x1="85" y1="1116" x2="995" y2="1116"/>
+    <line x1="85" y1="1158" x2="995" y2="1158"/>
+  </g>
+
+  <!-- 4 - إطار أحمر خارجي واحد فقط -->
+  <rect x="67" y="62" width="946" height="1250" rx="8" fill="none" stroke="#c0392b" stroke-width="3"/>
+
+  <!-- 5 - الرسم التوضيحي: طالبان وشاشة تعرّف على الوجه -->
+  <g>
+    <!-- الطالبة على اليسار -->
+    <path d="M155 406 L155 352 Q200 322 245 352 L245 406 Z" fill="#2e6f9e"/>
+    <path d="M200 240 Q246 240 248 296 Q248 336 234 348 L166 348 Q152 336 152 296 Q154 240 200 240 Z" fill="#3f7d8c"/>
+    <ellipse cx="200" cy="292" rx="26" ry="31" fill="#f2d6ba"/>
+    <circle cx="191" cy="288" r="3.2" fill="#33323a"/>
+    <circle cx="210" cy="288" r="3.2" fill="#33323a"/>
+    <path d="M191 305 Q200 312 210 305" stroke="#a0674a" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+    <path d="M243 366 L318 344" stroke="#f2d6ba" stroke-width="12" fill="none" stroke-linecap="round"/>
+
+    <!-- الطالب على اليمين -->
+    <path d="M835 406 L835 352 Q880 322 925 352 L925 406 Z" fill="#5b6f9b"/>
+    <circle cx="880" cy="292" r="30" fill="#e6bd94"/>
+    <path d="M850 286 Q854 256 880 256 Q906 256 910 286 Q896 272 880 274 Q862 276 850 286 Z" fill="#2f2a26"/>
+    <circle cx="871" cy="290" r="3.2" fill="#33323a"/>
+    <circle cx="890" cy="290" r="3.2" fill="#33323a"/>
+    <path d="M871 307 Q880 314 890 307" stroke="#a0674a" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+    <path d="M837 366 L762 344" stroke="#e6bd94" stroke-width="12" fill="none" stroke-linecap="round"/>
+
+    <!-- الشاشة -->
+    <rect x="405" y="205" width="270" height="166" rx="12" fill="#e9f0f8" stroke="#223a5e" stroke-width="4"/>
+    <rect x="419" y="219" width="242" height="126" rx="6" fill="#ffffff" stroke="#a9bed4" stroke-width="2"/>
+    <rect x="521" y="371" width="38" height="22" fill="#223a5e"/>
+    <rect x="486" y="393" width="108" height="11" rx="5.5" fill="#223a5e"/>
+
+    <!-- أطر التعرّف الثلاثة داخل الشاشة -->
+    <rect x="432" y="231" width="62" height="62" rx="6" fill="none" stroke="#2e8b57" stroke-width="3"/>
+    <circle cx="463" cy="262" r="16" fill="#f2d3b3"/>
+    <path d="M447 253 Q463 240 479 253" stroke="#3a3a3a" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+    <rect x="509" y="231" width="62" height="62" rx="6" fill="none" stroke="#2e8b57" stroke-width="3"/>
+    <circle cx="540" cy="262" r="16" fill="#d9a878"/>
+    <path d="M524 253 Q540 240 556 253" stroke="#3a3a3a" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+    <rect x="586" y="231" width="62" height="62" rx="6" fill="none" stroke="#c0392b" stroke-width="3"/>
+    <circle cx="617" cy="262" r="16" fill="#8d5a3b"/>
+    <path d="M601 253 Q617 240 633 253" stroke="#3a3a3a" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+    <!-- علامات النتيجة -->
+    <path d="M452 316 l8 10 l15 -19" stroke="#2e8b57" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M529 316 l8 10 l15 -19" stroke="#2e8b57" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M607 307 l19 19 M626 307 l-19 19" stroke="#c0392b" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- 6 - خلفيات الصناديق -->
+  <rect x="100" y="432" width="880" height="352" rx="16" fill="#eef4fc" stroke="#7fa9d4" stroke-width="2"/>
+  <rect x="966" y="452" width="7" height="312" rx="3.5" fill="#2e6f9e"/>
+
+  <rect x="100" y="838" width="880" height="324" rx="16" fill="#f3f5fa" stroke="#8794ad" stroke-width="2"/>
+  <rect x="107" y="858" width="7" height="284" rx="3.5" fill="#223a5e"/>
+
+  <!-- 7 - النصوص التعليمية -->
+  <text x="950"
+        y="132"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="46"
+        font-weight="bold"
+        fill="#1f5fa8">
+    <tspan x="950" dy="0">استكشف مع زميلك</tspan>
+  </text>
+
+  <text x="690"
+        y="180"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="28"
+        fill="#152b42">
+    <tspan x="690" dy="0">Explore in Pairs</tspan>
+  </text>
+
+  <line x1="600" y1="194" x2="952" y2="194" stroke="#7fa9d4" stroke-width="2"/>
+
+  <text x="950"
+        y="482"
+        direction="rtl"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="30"
+        fill="#1f5fa8">
+    <tspan x="950" dy="0" font-weight="bold">مع زميلك، تأمل الموقف الآتي:</tspan>
+    <tspan x="950" dy="50">يزداد احتمال أن يخطئ نظام للتعرف على الوجه في تحديد هوية</tspan>
+    <tspan x="950" dy="42">أشخاص من بعض المجموعات مقارنةً بغيرهم.</tspan>
+    <tspan x="950" dy="50" font-weight="bold">قبل إكمال القراءة، توقّعا:</tspan>
+    <tspan x="950" dy="44">1. من قد يتضرر من هذا الخطأ؟</tspan>
+    <tspan x="950" dy="42">2. كيف قد يحدث الضرر؟</tspan>
+    <tspan x="950" dy="42">3. اذكرا سببًا واحدًا لهذا التفاوت.</tspan>
+  </text>
+
+  <text x="126"
+        y="882"
+        direction="ltr"
+        unicode-bidi="plaintext"
+        text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="27"
+        fill="#152b42">
+    <tspan x="126" dy="0" font-weight="bold">With a partner, consider the following situation:</tspan>
+    <tspan x="126" dy="48">A face-recognition AI is more likely to misidentify</tspan>
+    <tspan x="126" dy="38">people from some groups than others.</tspan>
+    <tspan x="126" dy="46" font-weight="bold">Before continuing, predict:</tspan>
+    <tspan x="126" dy="42">1. Who could be harmed?</tspan>
+    <tspan x="126" dy="38">2. How could the harm occur?</tspan>
+    <tspan x="126" dy="38">3. Give one reason for this difference.</tspan>
+  </text>
+
+</svg>

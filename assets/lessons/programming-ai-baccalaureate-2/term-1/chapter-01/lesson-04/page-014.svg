@@ -1,0 +1,206 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+
+  <defs>
+    <linearGradient id="woodGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b5c33"/>
+      <stop offset="0.55" stop-color="#7a4d29"/>
+      <stop offset="1" stop-color="#65401f"/>
+    </linearGradient>
+    <linearGradient id="paperGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf6"/>
+      <stop offset="1" stop-color="#fbf6e9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 1. الخلفية الخشبية البسيطة -->
+  <rect x="0" y="0" width="1080" height="1350" fill="url(#woodGrad)"/>
+  <path d="M0 250 C 300 210, 760 300, 1080 240" fill="none" stroke="#5b3a1c" stroke-width="16" opacity=".18"/>
+  <path d="M0 1080 C 340 1040, 720 1130, 1080 1070" fill="none" stroke="#5b3a1c" stroke-width="14" opacity=".15"/>
+
+  <!-- 2. الورقة -->
+  <rect x="42" y="34" width="1012" height="1298" rx="8" fill="#3a2411" opacity=".22"/>
+  <rect x="34" y="26" width="1012" height="1298" rx="8" fill="url(#paperGrad)"/>
+
+  <!-- 3. سطور الكراسة الزرقاء الفاتحة -->
+  <g stroke="#cfe0f2" stroke-width="1.2">
+    <line x1="84" y1="136" x2="996" y2="136"/>
+    <line x1="84" y1="170" x2="996" y2="170"/>
+    <line x1="84" y1="204" x2="996" y2="204"/>
+    <line x1="84" y1="238" x2="996" y2="238"/>
+    <line x1="84" y1="272" x2="996" y2="272"/>
+    <line x1="84" y1="306" x2="996" y2="306"/>
+    <line x1="84" y1="340" x2="996" y2="340"/>
+    <line x1="84" y1="374" x2="996" y2="374"/>
+    <line x1="84" y1="408" x2="996" y2="408"/>
+    <line x1="84" y1="442" x2="996" y2="442"/>
+    <line x1="84" y1="476" x2="996" y2="476"/>
+    <line x1="84" y1="510" x2="996" y2="510"/>
+    <line x1="84" y1="544" x2="996" y2="544"/>
+    <line x1="84" y1="578" x2="996" y2="578"/>
+    <line x1="84" y1="612" x2="996" y2="612"/>
+    <line x1="84" y1="646" x2="996" y2="646"/>
+    <line x1="84" y1="680" x2="996" y2="680"/>
+    <line x1="84" y1="714" x2="996" y2="714"/>
+    <line x1="84" y1="748" x2="996" y2="748"/>
+    <line x1="84" y1="782" x2="996" y2="782"/>
+    <line x1="84" y1="816" x2="996" y2="816"/>
+    <line x1="84" y1="850" x2="996" y2="850"/>
+    <line x1="84" y1="884" x2="996" y2="884"/>
+    <line x1="84" y1="918" x2="996" y2="918"/>
+    <line x1="84" y1="952" x2="996" y2="952"/>
+    <line x1="84" y1="986" x2="996" y2="986"/>
+    <line x1="84" y1="1020" x2="996" y2="1020"/>
+    <line x1="84" y1="1054" x2="996" y2="1054"/>
+    <line x1="84" y1="1088" x2="996" y2="1088"/>
+    <line x1="84" y1="1122" x2="996" y2="1122"/>
+    <line x1="84" y1="1156" x2="996" y2="1156"/>
+    <line x1="84" y1="1190" x2="996" y2="1190"/>
+    <line x1="84" y1="1224" x2="996" y2="1224"/>
+    <line x1="84" y1="1258" x2="996" y2="1258"/>
+    <line x1="84" y1="1292" x2="996" y2="1292"/>
+  </g>
+
+  <!-- 4. الإطار الأحمر الخارجي الوحيد -->
+  <rect x="67" y="70" width="946" height="1248" rx="5" fill="none" stroke="#d3372f" stroke-width="2.2"/>
+
+  <!-- 5. خلفيات البطاقات -->
+  <rect x="95" y="182" width="890" height="330" rx="14" fill="#fdf6d9" stroke="#dcc267" stroke-width="1.8"/>
+  <rect x="95" y="528" width="890" height="382" rx="14" fill="#fdf6d9" stroke="#dcc267" stroke-width="1.8"/>
+  <rect x="95" y="926" width="890" height="238" rx="14" fill="#fdeddc" stroke="#e08a3c" stroke-width="2"/>
+
+  <!-- 6. الخطوط الوظيفية -->
+  <line x1="380" y1="172" x2="700" y2="172" stroke="#1c5a9c" stroke-width="2"/>
+  <line x1="135" y1="1054" x2="945" y2="1054" stroke="#e0a86a" stroke-width="1.2" stroke-dasharray="6 6"/>
+
+  <!-- 7. النصوص التعليمية -->
+
+  <!-- العنوان العربي -->
+  <text x="540" y="122"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="middle"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="40" font-weight="bold" fill="#14477e">اختر الإجابة المناسبة</text>
+
+  <!-- العنوان الإنجليزي -->
+  <text x="540" y="158"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="26" fill="#1c5a9c">Choose the Appropriate Answer</text>
+
+  <!-- السؤال الأول: العربية -->
+  <text x="952" y="214"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="25" font-weight="bold" fill="#14477e">
+    <tspan x="952" dy="0">أيٌّ مما يلي ليس سببًا مناسبًا للتحيز الخوارزمي؟</tspan>
+  </text>
+
+  <text x="952" y="243"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="24" fill="#1c5a9c">
+    <tspan x="952" dy="0">أ. بيانات التدريب متحيزة.</tspan>
+    <tspan x="952" dy="29">ب. انعكاس أنماط تمييز سابقة في البيانات.</tspan>
+    <tspan x="952" dy="29">ج. بطء سرعة معالجة الحاسوب.</tspan>
+    <tspan x="952" dy="29">د. عدم كفاية البيانات المتعلقة ببعض السمات.</tspan>
+  </text>
+
+  <!-- السؤال الأول: الإنجليزية -->
+  <text x="122" y="360"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="22" font-weight="bold" fill="#16283f">
+    <tspan x="122" dy="0">Which of the following is NOT an appropriate</tspan>
+    <tspan x="122" dy="26">cause of algorithmic bias?</tspan>
+  </text>
+
+  <text x="122" y="412"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="22" fill="#1f3a5c">
+    <tspan x="122" dy="0">A. The training data is biased.</tspan>
+    <tspan x="122" dy="26">B. Past discriminatory patterns are reflected in the data.</tspan>
+    <tspan x="122" dy="26">C. The computer’s processing speed is slow.</tspan>
+    <tspan x="122" dy="26">D. There is insufficient data about certain attributes.</tspan>
+  </text>
+
+  <!-- السؤال الثاني: العربية -->
+  <text x="952" y="560"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="25" font-weight="bold" fill="#14477e">
+    <tspan x="952" dy="0">اختر كل ما يمثل قضية خصوصية مرتبطة بالذكاء الاصطناعي:</tspan>
+  </text>
+
+  <text x="952" y="589"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="24" fill="#1c5a9c">
+    <tspan x="952" dy="0">أ. التعرف على الأفراد وتتبعهم باستخدام تقنية التعرف على الوجه.</tspan>
+    <tspan x="952" dy="29">ب. جمع كميات كبيرة من بيانات السلوك عبر الإنترنت وتحليلها.</tspan>
+    <tspan x="952" dy="29">ج. إنتاج الذكاء الاصطناعي أعمالًا إبداعية.</tspan>
+    <tspan x="952" dy="29">د. تحسن سرعة الحوسبة.</tspan>
+  </text>
+
+  <!-- السؤال الثاني: الإنجليزية -->
+  <text x="122" y="706"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="22" font-weight="bold" fill="#16283f">
+    <tspan x="122" dy="0">Choose all the options that represent privacy</tspan>
+    <tspan x="122" dy="26">issues associated with AI:</tspan>
+  </text>
+
+  <text x="122" y="758"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="22" fill="#1f3a5c">
+    <tspan x="122" dy="0">A. Identifying and tracking individuals through</tspan>
+    <tspan x="150" dy="26">face-recognition technology.</tspan>
+    <tspan x="122" dy="26">B. Collecting and analyzing large amounts of</tspan>
+    <tspan x="150" dy="26">online behavior data.</tspan>
+    <tspan x="122" dy="26">C. AI creating creative works.</tspan>
+    <tspan x="122" dy="26">D. Improvements in computing speed.</tspan>
+  </text>
+
+  <!-- الصندوق الامتحاني: العربية -->
+  <text x="952" y="958"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="23" font-weight="bold" fill="#a2521a">
+    <tspan x="952" dy="0">حلّل كيف يمكن أن ينشأ التحيز الخوارزمي في نظام ذكاء اصطناعي،</tspan>
+    <tspan x="952" dy="28">وكيف يمكن الحد منه. [6 درجات]</tspan>
+  </text>
+
+  <!-- الصندوق الامتحاني: الإنجليزية -->
+  <text x="122" y="1012"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="21" fill="#8a4514">
+    <tspan x="122" dy="0">Analyze how algorithmic bias can arise in an AI system</tspan>
+    <tspan x="122" dy="26">and how it can be reduced. [6 marks]</tspan>
+  </text>
+
+  <!-- الإرشاد: العربية -->
+  <text x="952" y="1078"
+        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Tahoma, Arial, Segoe UI, sans-serif"
+        font-size="21" fill="#1c5a9c">
+    <tspan x="952" dy="0">ارجع إلى أسباب التحيز، ثم وضّح كيف يمكن لمبدأي العدالة</tspan>
+    <tspan x="952" dy="26">والشفافية المساعدة في معالجته.</tspan>
+  </text>
+
+  <!-- الإرشاد: الإنجليزية -->
+  <text x="122" y="1128"
+        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+        font-size="19" fill="#1f3a5c">
+    <tspan x="122" dy="0">Refer to the causes of bias, then explain how fairness</tspan>
+    <tspan x="122" dy="20">and transparency can help address it.</tspan>
+  </text>
+
+</svg>
