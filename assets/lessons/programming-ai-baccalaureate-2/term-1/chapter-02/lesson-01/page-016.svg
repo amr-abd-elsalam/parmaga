@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="32" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="31.5" x2="1080" y2="31.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Info card shadow and fill (English twin band) -->
+<rect x="109" y="640" width="870" height="520" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="634" width="870" height="520" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="650" width="6" height="488" rx="3" fill="#2f7fb5"/>
+
+<!-- Red question mark beside the title -->
+<g transform="translate(250 100) scale(1.5)">
+  <path d="M -10 -8 C -10 -24, 12 -24, 12 -8 C 12 0, 3 2, 3 8 L 3 10 L -3 10 L -3 7 C -3 -2, 6 -3, 6 -8 C 6 -16, -4 -16, -4 -8 Z" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="0" cy="18" r="4" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Security shield icon -->
+<g transform="translate(830 98)">
+  <path d="M 0 -26 L 22 -18 L 22 0 C 22 14, 12 22, 0 28 C -12 22, -22 14, -22 0 L -22 -18 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M -9 1 L -2 8 L 10 -6" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Titles -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">إجابة السؤال الرئيسي</text>
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="normal" fill="#152b42">Lesson Question — Answered</text>
+
+<!-- Arabic paragraph -->
+<text x="950" y="242" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" font-weight="normal" fill="#225f9c">
+  <tspan x="950" dy="0">تناول الدرس كيف تحافظ تقنيات التشفير والمصادقة على</tspan>
+  <tspan x="950" dy="32">أمان الاتصال والخدمات. يجمع <tspan font-weight="bold" fill="#17457f">HTTPS</tspan> بين التشفير</tspan>
+  <tspan x="950" dy="32">بالمفتاح العام، المستخدم لمشاركة مفتاح بأمان، والتشفير</tspan>
+  <tspan x="950" dy="32">بالمفتاح المشترك، المستخدم لتبادل البيانات بسرعة،</tspan>
+  <tspan x="950" dy="32">فيكون الاتصال آمنًا وسريعًا معًا. وبعيدًا عن الاتصال،</tspan>
+  <tspan x="950" dy="32">تظل الخدمات آمنة بالجمع بين عدة تقنيات: التشفير</tspan>
+  <tspan x="950" dy="32">يُخفي المحتوى، والشهادات الرقمية تُثبت أن الموقع</tspan>
+  <tspan x="950" dy="32">حقيقي، والتوقيعات الرقمية تكتشف التلاعب،</tspan>
+  <tspan x="950" dy="32"><tspan font-weight="bold" fill="#17457f">والمصادقة متعددة العوامل</tspan> تمنع تسجيل الدخول غير</tspan>
+  <tspan x="950" dy="32">المصرح به. لذلك يأتي الأمان عبر الإنترنت من تكديس</tspan>
+  <tspan x="950" dy="32">هذه التقنيات في <tspan font-weight="bold" fill="#17457f">طبقات،</tspan> بحيث تُعالَج تهديدات كثيرة</tspan>
+  <tspan x="950" dy="32">في الوقت نفسه.</tspan>
+</text>
+
+<!-- English twin inside the band -->
+<text x="140" y="658" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="25" font-weight="normal" fill="#152b42">
+  <tspan x="140" dy="0">The lesson asked how cryptographic technologies</tspan>
+  <tspan x="140" dy="32">and authentication keep communication and</tspan>
+  <tspan x="140" dy="32">services secure. <tspan font-weight="bold" fill="#17457f">HTTPS</tspan> combines public-key</tspan>
+  <tspan x="140" dy="32">cryptography — used to share a key safely —</tspan>
+  <tspan x="140" dy="32">with common-key cryptography — used to</tspan>
+  <tspan x="140" dy="32">exchange data quickly — so communication is</tspan>
+  <tspan x="140" dy="32">both secure and fast. Beyond communication,</tspan>
+  <tspan x="140" dy="32">services stay safe by combining several</tspan>
+  <tspan x="140" dy="32">technologies: encryption hides content,</tspan>
+  <tspan x="140" dy="32">digital certificates prove a site is genuine,</tspan>
+  <tspan x="140" dy="32">digital signatures detect tampering, and</tspan>
+  <tspan x="140" dy="32"><tspan font-weight="bold" fill="#17457f">multi-factor authentication</tspan> blocks</tspan>
+  <tspan x="140" dy="32">unauthorized logins. Security online</tspan>
+  <tspan x="140" dy="32">therefore comes from <tspan font-weight="bold" fill="#17457f">layering</tspan> these</tspan>
+  <tspan x="140" dy="32">technologies so that many threats are</tspan>
+  <tspan x="140" dy="32">addressed at the same time.</tspan>
+</text>
+</svg>

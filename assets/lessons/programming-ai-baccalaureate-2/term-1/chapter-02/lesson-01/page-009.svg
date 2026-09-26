@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="32" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="31.5" x2="1080" y2="31.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilLockClosed" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8fc9f2"/>
+    <stop offset="1" stop-color="#2f7fb5"/>
+  </linearGradient>
+  <linearGradient id="ilLockOpen" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#a9dcbe"/>
+    <stop offset="1" stop-color="#2e7d32"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Card shadows -->
+<rect x="109" y="288" width="870" height="200" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="109" y="832" width="870" height="136" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="109" y="992" width="870" height="264" rx="16" fill="#22303f" opacity=".12"/>
+
+<!-- English band 1 (Info card) -->
+<rect x="105" y="282" width="870" height="200" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="298" width="6" height="168" rx="3" fill="#2f7fb5"/>
+
+<!-- English band 2 (Info card) -->
+<rect x="105" y="826" width="870" height="136" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="842" width="6" height="104" rx="3" fill="#2f7fb5"/>
+
+<!-- Key terms card (Main idea) -->
+<rect x="105" y="986" width="870" height="264" rx="16" fill="#fdf6d8" stroke="#e0c46a" stroke-width="2"/>
+<rect x="961" y="1002" width="6" height="232" rx="3" fill="#e0a55e"/>
+
+<!-- Sketch: public key -->
+<g transform="translate(215 590) rotate(-15)">
+  <circle cx="-41" cy="6" r="24" fill="#22303f" opacity=".18"/>
+  <rect x="-20" y="-1" width="94" height="14" rx="5" fill="#22303f" opacity=".18"/>
+  <rect x="46" y="5" width="10" height="16" rx="2" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="60" y="5" width="8" height="11" rx="2" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="-24" y="-7" width="94" height="14" rx="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="-45" cy="0" r="24" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-45" cy="0" r="9" fill="#fffdf7" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Sketch: closed padlock -->
+<g transform="translate(410 610) scale(.9)">
+  <rect x="-51" y="-14" width="110" height="85" rx="12" fill="#22303f" opacity=".18"/>
+  <path d="M -40 -15 L -40 -55 A 40 40 0 0 1 40 -55 L 40 -15 L 26 -15 L 26 -55 A 26 26 0 0 0 -26 -55 L -26 -15 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="-55" y="-20" width="110" height="85" rx="12" fill="url(#ilLockClosed)" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="0" cy="12" r="8" fill="#22303f"/>
+  <polygon points="-4,16 4,16 7,40 -7,40" fill="#22303f"/>
+</g>
+
+<!-- Sketch: private key (different shape) -->
+<g transform="translate(625 590) rotate(-15)">
+  <rect x="-64" y="-16" width="44" height="44" rx="10" fill="#22303f" opacity=".18"/>
+  <rect x="-20" y="-1" width="94" height="14" rx="5" fill="#22303f" opacity=".18"/>
+  <rect x="40" y="5" width="8" height="12" rx="2" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="52" y="5" width="8" height="18" rx="2" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="64" y="5" width="6" height="10" rx="2" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="-24" y="-7" width="94" height="14" rx="5" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="-68" y="-22" width="44" height="44" rx="10" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="-46" cy="0" r="8" fill="#fffdf7" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Sketch: open padlock -->
+<g transform="translate(830 610) scale(.9)">
+  <rect x="-51" y="-14" width="110" height="85" rx="12" fill="#22303f" opacity=".18"/>
+  <path d="M -40 -15 L -40 -65 A 40 40 0 0 1 40 -65 L 40 -45 L 26 -45 L 26 -65 A 26 26 0 0 0 -26 -65 L -26 -15 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="-55" y="-20" width="110" height="85" rx="12" fill="url(#ilLockOpen)" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="0" cy="12" r="8" fill="#22303f"/>
+  <polygon points="-4,16 4,16 7,40 -7,40" fill="#22303f"/>
+</g>
+
+<!-- Icon: open book in key terms card -->
+<g transform="translate(128 994)">
+  <path d="M 24 12 Q 13 5 2 9 L 2 41 Q 13 37 24 44 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 24 12 Q 35 5 46 9 L 46 41 Q 35 37 24 44 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="8" y1="18" x2="18" y2="20" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+  <line x1="8" y1="26" x2="18" y2="28" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+  <line x1="30" y1="20" x2="40" y2="18" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+  <line x1="30" y1="28" x2="40" y2="26" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+</g>
+
+<!-- Text: top Arabic paragraph -->
+<text x="950" y="146" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">
+  <tspan x="950" dy="0">(3) يُستخدم <tspan font-weight="bold" fill="#c0392b">التشفير بالمفتاح العام</tspan> «لمشاركة</tspan>
+  <tspan x="950" dy="32">المفاتيح بأمان»، ويُستخدم التشفير بالمفتاح المشترك</tspan>
+  <tspan x="950" dy="32">«لتبادل كميات كبيرة من البيانات بسرعة». ويتيح هذا</tspan>
+  <tspan x="950" dy="32">التقسيم في الأدوار تحقيق <tspan font-weight="bold" fill="#2e7d32">الأمان وسرعة الاتصال</tspan> معًا.</tspan>
+</text>
+
+<!-- Text: top English twin -->
+<text x="140" y="306" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="25" fill="#152b42">
+  <tspan x="140" dy="0">(3) <tspan font-weight="bold" fill="#c0392b">Public-key cryptography</tspan> is used to</tspan>
+  <tspan x="140" dy="32">“share keys safely,” and common-key</tspan>
+  <tspan x="140" dy="32">cryptography is used to “exchange large</tspan>
+  <tspan x="140" dy="32">amounts of data quickly.” This division</tspan>
+  <tspan x="140" dy="32">of roles makes it possible to achieve both</tspan>
+  <tspan x="140" dy="32"><tspan font-weight="bold" fill="#2e7d32">security and communication speed</tspan>.</tspan>
+</text>
+
+<!-- Text: Arabic caption -->
+<text x="950" y="722" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">
+  <tspan x="950" dy="0">المفتاح العام يُقفل، ومفتاح خاص مختلف يفتح.</tspan>
+  <tspan x="950" dy="32">وفي <tspan font-weight="bold" fill="#17457f">التوقيع الرقمي</tspan> ينعكس الاتجاه:</tspan>
+  <tspan x="950" dy="32">المفتاح الخاص يوقّع، والمفتاح العام يتحقق.</tspan>
+</text>
+
+<!-- Text: English caption -->
+<text x="140" y="850" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="25" fill="#152b42">
+  <tspan x="140" dy="0">A public key locks; a different</tspan>
+  <tspan x="140" dy="32">private key unlocks. In a <tspan font-weight="bold" fill="#17457f">digital signature</tspan></tspan>
+  <tspan x="140" dy="32">the direction reverses: the private key</tspan>
+  <tspan x="140" dy="32">signs and the public key verifies.</tspan>
+</text>
+
+<!-- Text: key terms card -->
+<text x="935" y="1010" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" font-weight="bold" fill="#c0392b">
+  <tspan x="935" dy="0">مصطلحات أساسية:</tspan>
+</text>
+<text x="935" y="1042" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">التشفير بالمفتاح العام:</tspan> يشارك المفتاح بأمان.</tspan>
+  <tspan x="935" dy="32"><tspan font-weight="bold" fill="#c0392b">التشفير بالمفتاح المشترك:</tspan> يتبادل البيانات بسرعة.</tspan>
+</text>
+<text x="140" y="1106" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" font-weight="bold" fill="#c0392b">
+  <tspan x="140" dy="0">KEY TERMS:</tspan>
+</text>
+<text x="140" y="1138" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="25" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">public-key cryptography</tspan> —</tspan>
+  <tspan x="140" dy="32">shares a key safely.</tspan>
+  <tspan x="140" dy="32"><tspan font-weight="bold" fill="#c0392b">common-key cryptography</tspan> —</tspan>
+  <tspan x="140" dy="32">exchanges data quickly.</tspan>
+</text>
+</svg>

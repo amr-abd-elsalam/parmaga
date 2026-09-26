@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="36" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="35.5" x2="1080" y2="35.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Shadows -->
+<rect x="109" y="344" width="870" height="188" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="109" y="704" width="870" height="188" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="109" y="920" width="870" height="296" rx="16" fill="#22303f" opacity=".12"/>
+
+<!-- English band 1 (Info) -->
+<rect x="105" y="338" width="870" height="188" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="354" width="6" height="156" rx="3" fill="#2f7fb5"/>
+
+<!-- English band 2 (Info) -->
+<rect x="105" y="698" width="870" height="188" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="714" width="6" height="156" rx="3" fill="#2f7fb5"/>
+
+<!-- Key terms card (Main idea) -->
+<rect x="105" y="914" width="870" height="296" rx="16" fill="#fdf6d8" stroke="#e0c46a" stroke-width="2"/>
+<rect x="961" y="930" width="6" height="264" rx="3" fill="#e0a55e"/>
+
+<!-- Icon: lock (security) -->
+<g transform="translate(140 92)">
+  <rect x="14" y="34" width="44" height="32" rx="6" fill="#22303f" opacity=".18"/>
+  <path d="M18 30 V20 A14 14 0 0 1 46 20 V30 H40 V20 A8 8 0 0 0 24 20 V30 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="10" y="28" width="44" height="32" rx="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="32" cy="41" r="4" fill="#22303f"/>
+  <rect x="30" y="43" width="4" height="9" rx="2" fill="#22303f"/>
+</g>
+
+<!-- Icon: open book (key terms) -->
+<g transform="translate(128 920)">
+  <path d="M4 8 Q14 4 24 10 V44 Q14 38 4 42 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M24 10 Q34 4 44 8 V42 Q34 38 24 44 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="9" y1="18" x2="19" y2="19" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="9" y1="27" x2="19" y2="28" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="29" y1="19" x2="39" y2="18" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="29" y1="28" x2="39" y2="27" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Titles -->
+<text x="950" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">
+  <tspan x="950" dy="0">2. استخدام المصادقة</tspan>
+  <tspan x="950" dy="50">في الخدمات الفعلية</tspan>
+</text>
+<text x="540" y="210" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" fill="#152b42">2. Use of Authentication in Real Services</text>
+
+<!-- Pair 1 Arabic -->
+<text x="950" y="258" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
+  <tspan x="950" dy="0">(1) تعتمد خدمات كثيرة <tspan font-weight="bold" fill="#c0392b">المصادقة متعددة العوامل،</tspan></tspan>
+  <tspan x="950" dy="36">وفيها يُجمع بين اثنين أو أكثر من عوامل المصادقة</tspan>
+  <tspan x="950" dy="36">الثلاثة (المعرفة، والحيازة، والسمات الحيوية).</tspan>
+</text>
+
+<!-- Pair 1 English -->
+<text x="140" y="366" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
+  <tspan x="140" dy="0">(1) Many services adopt <tspan font-weight="bold" fill="#c0392b">multi-factor</tspan></tspan>
+  <tspan x="140" dy="36"><tspan font-weight="bold" fill="#c0392b">authentication,</tspan> in which two or more of</tspan>
+  <tspan x="140" dy="36">the three factors of authentication</tspan>
+  <tspan x="140" dy="36">(knowledge, possession, biometric)</tspan>
+  <tspan x="140" dy="36">are combined.</tspan>
+</text>
+
+<!-- Pair 2 Arabic -->
+<text x="950" y="582" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
+  <tspan x="950" dy="0">(2) عند استخدام عامل واحد فقط، يستطيع طرف غير</tspan>
+  <tspan x="950" dy="36">مصرح له الوصول إذا اختُرق هذا العامل.</tspan>
+  <tspan x="950" dy="36">أما <tspan font-weight="bold" fill="#17457f">بالجمع بين عدة عوامل،</tspan> فحتى إذا اختُرق أحدها،</tspan>
+  <tspan x="950" dy="36">يظل عامل آخر قادرًا على <tspan font-weight="bold" fill="#2e7d32">منع الوصول.</tspan></tspan>
+</text>
+
+<!-- Pair 2 English -->
+<text x="140" y="726" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
+  <tspan x="140" dy="0">(2) When only one factor is used, an</tspan>
+  <tspan x="140" dy="36">unauthorized party can gain access if that</tspan>
+  <tspan x="140" dy="36">factor is broken. By <tspan font-weight="bold" fill="#17457f">combining multiple</tspan></tspan>
+  <tspan x="140" dy="36"><tspan font-weight="bold" fill="#17457f">factors,</tspan> even if one is broken, another</tspan>
+  <tspan x="140" dy="36">can still <tspan font-weight="bold" fill="#2e7d32">prevent access.</tspan></tspan>
+</text>
+
+<!-- Key terms card texts -->
+<text x="935" y="942" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#c0392b">مصطلحات أساسية:</text>
+<text x="935" y="978" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
+  <tspan x="935" dy="0">المصادقة متعددة العوامل: الجمع بين اثنين</tspan>
+  <tspan x="935" dy="36">أو أكثر من العوامل الثلاثة: المعرفة، والحيازة،</tspan>
+  <tspan x="935" dy="36">والسمات الحيوية.</tspan>
+</text>
+<text x="140" y="1086" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="bold" fill="#c0392b">KEY TERMS:</text>
+<text x="140" y="1122" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
+  <tspan x="140" dy="0">multi-factor authentication — combining</tspan>
+  <tspan x="140" dy="36">two or more of the three factors:</tspan>
+  <tspan x="140" dy="36">knowledge, possession, biometric.</tspan>
+</text>
+</svg>

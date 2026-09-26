@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilLockBody" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+  <linearGradient id="ilPhoneScreen" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#8fc9f2"/>
+  </linearGradient>
+</defs>
+
+<!-- Illustration zone: background scene -->
+<g id="illustration">
+  <ellipse cx="540" cy="420" rx="420" ry="290" fill="#dff1f7" opacity=".6"/>
+  <circle cx="540" cy="420" r="150" fill="#ffd24a" opacity=".35"/>
+
+  <!-- Dotted secure-communication ring -->
+  <ellipse cx="540" cy="420" rx="310" ry="230" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="0 12"/>
+
+  <!-- Sparkles -->
+  <g transform="translate(540 160)">
+    <polygon points="0,-14 4,-4 14,0 4,4 0,14 -4,4 -14,0 -4,-4" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(135 430)">
+    <polygon points="0,-14 4,-4 14,0 4,4 0,14 -4,4 -14,0 -4,-4" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(945 420)">
+    <polygon points="0,-14 4,-4 14,0 4,4 0,14 -4,4 -14,0 -4,-4" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Central padlock with shield -->
+  <ellipse cx="540" cy="552" rx="120" ry="12" fill="#22303f" opacity=".12"/>
+  <path d="M 455 360 V 300 A 85 85 0 0 1 625 300 V 360 H 595 V 300 A 55 55 0 0 0 485 300 V 360 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="434" y="351" width="220" height="180" rx="24" fill="#22303f" opacity=".18"/>
+  <rect x="430" y="345" width="220" height="180" rx="24" fill="url(#ilLockBody)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="446" y="362" width="14" height="110" rx="7" fill="#ffffff" opacity=".35"/>
+  <path d="M 540 380 L 588 396 V 436 C 588 468 568 488 540 500 C 512 488 492 468 492 436 V 396 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="540" cy="430" r="11" fill="#22303f"/>
+  <path d="M 533 436 L 547 436 L 551 466 L 529 466 Z" fill="#22303f"/>
+
+  <!-- Upper left: browser window with tiny padlock -->
+  <g transform="translate(150 170)">
+    <rect x="4" y="6" width="220" height="150" rx="14" fill="#22303f" opacity=".18"/>
+    <rect x="0" y="0" width="220" height="150" rx="14" fill="#ffffff"/>
+    <rect x="0" y="0" width="220" height="36" rx="14" fill="#dff1f7"/>
+    <rect x="0" y="18" width="220" height="18" fill="#dff1f7"/>
+    <line x1="0" y1="36" x2="220" y2="36" stroke="#22303f" stroke-width="2"/>
+    <rect x="0" y="0" width="220" height="150" rx="14" fill="none" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="18" cy="18" r="5" fill="#c0392b"/>
+    <circle cx="34" cy="18" r="5" fill="#ffd24a"/>
+    <circle cx="50" cy="18" r="5" fill="#a9dcbe"/>
+    <rect x="66" y="9" width="140" height="18" rx="9" fill="#ffffff" stroke="#7f95ab" stroke-width="2"/>
+    <path d="M 78 16 V 13 A 3 3 0 0 1 84 13 V 16" fill="none" stroke="#2e7d32" stroke-width="2" stroke-linecap="round"/>
+    <rect x="76" y="15" width="10" height="8" rx="2" fill="#2e7d32"/>
+    <rect x="20" y="54" width="110" height="12" rx="6" fill="#8fc9f2"/>
+    <rect x="150" y="52" width="50" height="40" rx="6" fill="#a9dcbe"/>
+    <rect x="20" y="78" width="115" height="10" rx="5" fill="#e8dfd1"/>
+    <rect x="20" y="100" width="180" height="10" rx="5" fill="#e8dfd1"/>
+    <rect x="20" y="122" width="130" height="10" rx="5" fill="#e8dfd1"/>
+  </g>
+
+  <!-- Upper right: digital certificate with seal and ribbon -->
+  <g transform="translate(700 160)">
+    <rect x="4" y="6" width="200" height="150" rx="10" fill="#22303f" opacity=".18"/>
+    <rect x="0" y="0" width="200" height="150" rx="10" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="10" y="10" width="180" height="130" rx="6" fill="none" stroke="#f0c48c" stroke-width="2"/>
+    <rect x="30" y="30" width="140" height="10" rx="5" fill="#8fc9f2"/>
+    <rect x="30" y="54" width="110" height="8" rx="4" fill="#e8dfd1"/>
+    <rect x="30" y="72" width="130" height="8" rx="4" fill="#e8dfd1"/>
+    <rect x="30" y="90" width="80" height="8" rx="4" fill="#e8dfd1"/>
+    <polygon points="142,122 130,174 145,164 155,178 160,128" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="162,128 166,178 176,164 192,174 180,122" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="161" cy="112" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="161" cy="112" r="16" fill="none" stroke="#c96a1b" stroke-width="2"/>
+  </g>
+
+  <!-- Lower left: public key (blue) and private key (red) -->
+  <g transform="translate(160 540)">
+    <rect x="150" y="44" width="12" height="18" rx="2" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="170" y="44" width="12" height="26" rx="2" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="66" y="33" width="124" height="14" rx="4" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="40" cy="40" r="30" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="40" cy="40" r="10" fill="#fffdf7" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(170 628)">
+    <rect x="136" y="38" width="12" height="24" rx="2" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="156" y="38" width="12" height="14" rx="2" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="52" y="27" width="124" height="14" rx="4" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="4" y="8" width="52" height="52" rx="14" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="30" cy="34" r="9" fill="#fffdf7" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+
+  <!-- Lower right: smartphone with shield and one-time code dots -->
+  <g transform="translate(740 470)">
+    <rect x="4" y="6" width="120" height="210" rx="18" fill="#22303f" opacity=".18"/>
+    <rect x="0" y="0" width="120" height="210" rx="18" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="10" y="22" width="100" height="160" rx="8" fill="url(#ilPhoneScreen)"/>
+    <rect x="45" y="9" width="30" height="5" rx="2.5" fill="#7f95ab"/>
+    <circle cx="60" cy="196" r="7" fill="#7f95ab"/>
+    <path d="M 60 44 L 86 54 V 78 C 86 96 74 106 60 112 C 46 106 34 96 34 78 V 54 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M 48 78 L 57 87 L 73 68" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="18" y="134" width="84" height="26" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+    <circle cx="30" cy="147" r="4" fill="#17457f"/>
+    <circle cx="42" cy="147" r="4" fill="#17457f"/>
+    <circle cx="54" cy="147" r="4" fill="#17457f"/>
+    <circle cx="66" cy="147" r="4" fill="#17457f"/>
+    <circle cx="78" cy="147" r="4" fill="#17457f"/>
+    <circle cx="90" cy="147" r="4" fill="#17457f"/>
+  </g>
+
+  <!-- Fingerprint next to the phone -->
+  <g transform="translate(915 640)">
+    <circle cx="0" cy="0" r="36" fill="#ffd24a" opacity=".35"/>
+    <path d="M -24 14 C -24 -30 24 -30 24 14" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M -16 22 C -16 -18 16 -18 16 18" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M -8 26 C -8 -6 8 -6 8 22" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 0 28 V 10" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+</g>
+
+<!-- Title panel (drawn after the illustration) -->
+<rect x="111" y="726" width="870" height="364" rx="28" fill="#22303f" opacity=".18"/>
+<rect x="105" y="720" width="870" height="364" rx="28" fill="#17457f"/>
+
+<!-- Icon row below the panel -->
+<g id="icon-row">
+  <g transform="translate(242 1122)">
+    <path d="M 16 26 V 18 A 12 12 0 0 1 40 18 V 26" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+    <rect x="8" y="24" width="40" height="30" rx="6" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="28" cy="38" r="4" fill="#ffd24a"/>
+  </g>
+  <g transform="translate(422 1122)">
+    <rect x="42" y="30" width="6" height="12" rx="2" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="26" y="24" width="27" height="8" rx="3" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="16" cy="28" r="12" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="16" cy="28" r="4" fill="#fffdf7" stroke="#22303f" stroke-width="2"/>
+  </g>
+  <g transform="translate(602 1122)">
+    <path d="M 28 2 L 50 10 V 28 C 50 42 40 50 28 54 C 16 50 6 42 6 28 V 10 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M 18 28 L 25 35 L 38 20" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(782 1122)">
+    <rect x="6" y="4" width="38" height="46" rx="5" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="13" y="13" width="24" height="5" rx="2.5" fill="#8fc9f2"/>
+    <rect x="13" y="23" width="18" height="4" rx="2" fill="#e8dfd1"/>
+    <rect x="13" y="31" width="14" height="4" rx="2" fill="#e8dfd1"/>
+    <circle cx="40" cy="42" r="10" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+</g>
+
+<!-- Texts (document order per §13C) -->
+<text x="935" y="785" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="36" font-weight="bold" fill="#ffd24a">الدرس 2-1</text>
+<text x="935" y="850" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="48" font-weight="bold" fill="#ffffff">
+  <tspan x="935" dy="0">تقنيات التشفير والمصادقة</tspan>
+</text>
+<text x="935" y="965" direction="ltr" unicode-bidi="plaintext" text-anchor="end" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="bold" fill="#ffd24a">Lesson 2-1</text>
+<text x="935" y="1008" direction="ltr" unicode-bidi="plaintext" text-anchor="end" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="34" font-weight="normal" fill="#ffffff">
+  <tspan x="935" dy="0">Cryptographic Technologies</tspan>
+  <tspan x="935" dy="44">and Authentication</tspan>
+</text>
+</svg>

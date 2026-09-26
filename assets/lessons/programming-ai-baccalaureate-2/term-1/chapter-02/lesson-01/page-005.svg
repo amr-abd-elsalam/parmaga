@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Card shadows -->
+<rect x="109" y="488" width="870" height="408" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="109" y="928" width="870" height="328" rx="16" fill="#22303f" opacity=".12"/>
+
+<!-- English twin band (Info card) -->
+<rect x="105" y="482" width="870" height="408" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="498" width="6" height="376" rx="3" fill="#2f7fb5"/>
+
+<!-- Key-term card (Main idea card) -->
+<rect x="105" y="922" width="870" height="328" rx="16" fill="#fdf6d8" stroke="#e0c46a" stroke-width="2"/>
+<rect x="961" y="938" width="6" height="296" rx="3" fill="#e0a55e"/>
+
+<!-- Icon: lock (title left) -->
+<g transform="translate(118 78)">
+  <path d="M16 24 V16 A12 12 0 0 1 40 16 V24" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="6" y="24" width="44" height="30" rx="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="28" cy="36" r="4" fill="#22303f"/>
+  <rect x="26.5" y="38" width="3" height="8" fill="#22303f"/>
+</g>
+
+<!-- Icon: connected nodes (title right) -->
+<g transform="translate(900 80)">
+  <line x1="10" y1="40" x2="28" y2="10" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="28" y1="10" x2="46" y2="40" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="10" y1="40" x2="46" y2="40" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="28" cy="10" r="8" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="10" cy="40" r="8" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="46" cy="40" r="8" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: shield with check (English band) -->
+<g transform="translate(878 492)">
+  <path d="M26 2 L48 10 V26 C48 40 38 50 26 54 C14 50 4 40 4 26 V10 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M15 28 L23 36 L38 20" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: key (key-term card) -->
+<g transform="translate(128 928)">
+  <circle cx="16" cy="24" r="12" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="16" cy="24" r="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M28 24 H52 M44 24 V34 M50 24 V32" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Titles -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">1. كيف يعمل اتصال HTTPS</text>
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="normal" fill="#152b42">1. How HTTPS Communication Works</text>
+
+<!-- Arabic paragraph -->
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">&#x200F;(1) <tspan font-weight="bold" fill="#c0392b">HTTPS</tspan> (HTTP الآمن): بروتوكول اتصال يضيف</tspan>
+  <tspan x="950" dy="40"><tspan font-weight="bold" fill="#17457f">تشفير TLS</tspan> إلى HTTP. وهو يحمي المستخدمين من</tspan>
+  <tspan x="950" dy="40">تهديدات مثل التنصت والتلاعب وانتحال الهوية،</tspan>
+  <tspan x="950" dy="40">وذلك من خلال التشفير، واكتشاف التلاعب،</tspan>
+  <tspan x="950" dy="40">والتحقق من الطرف المقابل. وتُسمى خطوات إنشاء</tspan>
+  <tspan x="950" dy="40">الاتصال الآمن <tspan font-weight="bold" fill="#17457f">مصافحة TLS.</tspan></tspan>
+</text>
+
+<!-- English twin -->
+<text x="140" y="514" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">(1) <tspan font-weight="bold" fill="#c0392b">HTTPS</tspan> (HTTP Secure)…a</tspan>
+  <tspan x="140" dy="40">communication protocol that adds</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#17457f">TLS encryption</tspan> to HTTP. By providing</tspan>
+  <tspan x="140" dy="40">encryption, detection of tampering, and</tspan>
+  <tspan x="140" dy="40">verification of the communication</tspan>
+  <tspan x="140" dy="40">partner, it protects users from threats</tspan>
+  <tspan x="140" dy="40">such as eavesdropping, tampering, and</tspan>
+  <tspan x="140" dy="40">impersonation. The procedure for</tspan>
+  <tspan x="140" dy="40">establishing a secure communication is</tspan>
+  <tspan x="140" dy="40">called the <tspan font-weight="bold" fill="#17457f">TLS handshake.</tspan></tspan>
+</text>
+
+<!-- Key-term card: Arabic -->
+<text x="935" y="954" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0" font-size="32" font-weight="bold" fill="#c0392b">مصطلحات أساسية: HTTPS:</tspan>
+  <tspan x="935" dy="40">بروتوكول HTTP مضافًا إليه <tspan font-weight="bold" fill="#17457f">تشفير TLS</tspan></tspan>
+  <tspan x="935" dy="40">(التشفير، واكتشاف التلاعب، والتحقق</tspan>
+  <tspan x="935" dy="40">من الطرف المقابل).</tspan>
+</text>
+
+<!-- Key-term card: English -->
+<text x="140" y="1114" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0" font-size="31" font-weight="bold" fill="#c0392b">KEY TERMS: HTTPS —</tspan>
+  <tspan x="140" dy="40">HTTP with <tspan font-weight="bold" fill="#17457f">TLS encryption</tspan> added</tspan>
+  <tspan x="140" dy="40">(encryption, tamper detection, and</tspan>
+  <tspan x="140" dy="40">partner verification).</tspan>
+</text>
+</svg>
