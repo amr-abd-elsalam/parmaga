@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="32" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="31.5" x2="1080" y2="31.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Shadows -->
+<rect x="109" y="256" width="870" height="136" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="109" y="416" width="870" height="360" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="109" y="800" width="870" height="392" rx="16" fill="#22303f" opacity=".12"/>
+
+<!-- Top English band -->
+<rect x="105" y="250" width="870" height="136" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="266" width="6" height="104" rx="3" fill="#2f7fb5"/>
+
+<!-- Card 1 -->
+<rect x="105" y="410" width="870" height="360" rx="16" fill="#fffdf7" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="426" width="6" height="328" rx="3" fill="#2f7fb5"/>
+<rect x="121" y="570" width="826" height="136" rx="10" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="625" y="731" width="320" height="32" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="130" y="731" width="340" height="32" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+
+<!-- Card 2 -->
+<rect x="105" y="794" width="870" height="392" rx="16" fill="#fffdf7" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="810" width="6" height="360" rx="3" fill="#2f7fb5"/>
+<rect x="121" y="954" width="826" height="168" rx="10" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="625" y="1147" width="320" height="32" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="130" y="1147" width="340" height="32" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+
+<!-- Icon: lock (card 1) -->
+<g transform="translate(526 718)">
+  <path d="M 13 20 V 14 A 9 9 0 0 1 31 14 V 20" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="7" y="19" width="30" height="23" rx="5" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="22" cy="28" r="3.5" fill="#22303f"/>
+  <rect x="20.5" y="29" width="3" height="7" rx="1.5" fill="#22303f"/>
+</g>
+
+<!-- Icon: key (card 2) -->
+<g transform="translate(526 1134)">
+  <rect x="21" y="19" width="19" height="6" rx="2" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="29" y="24" width="4" height="7" rx="1" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="35" y="24" width="4" height="5" rx="1" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="13" cy="22" r="9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="11" cy="22" r="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Text: top paragraph pair -->
+<text x="950" y="146" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">
+  <tspan x="950" dy="0">(2) يجمع <tspan font-weight="bold" fill="#c0392b">HTTPS</tspan> بين التشفير <tspan font-weight="bold" fill="#17457f">بالمفتاح المشترك</tspan></tspan>
+  <tspan x="950" dy="32">(المتماثل) والتشفير <tspan font-weight="bold" fill="#17457f">بالمفتاح العام</tspan> على النحو</tspan>
+  <tspan x="950" dy="32">التالي، مستفيدًا من مزايا الطريقتين.</tspan>
+</text>
+<text x="140" y="274" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="25" fill="#152b42">
+  <tspan x="140" dy="0">(2) <tspan font-weight="bold" fill="#c0392b">HTTPS</tspan> combines <tspan font-weight="bold" fill="#17457f">common-key</tspan> (symmetric-key)</tspan>
+  <tspan x="140" dy="32">cryptography and <tspan font-weight="bold" fill="#17457f">public-key cryptography</tspan></tspan>
+  <tspan x="140" dy="32">as follows, taking advantage of the strengths</tspan>
+  <tspan x="140" dy="32">of both methods.</tspan>
+</text>
+
+<!-- Text: card 1 -->
+<text x="935" y="434" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" font-weight="bold" fill="#c0392b">① الاتصال</text>
+<text x="140" y="434" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" font-weight="bold" fill="#c0392b">① Connection</text>
+<text x="935" y="466" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">
+  <tspan x="935" dy="0">يرسل خادم الويب <tspan font-weight="bold" fill="#c0392b">شهادة رقمية</tspan> <tspan font-weight="bold" fill="#17457f">ومفتاحًا عامًا</tspan> إلى</tspan>
+  <tspan x="935" dy="32">المتصفح، ويتحقق المتصفح من أصالة الخادم عن طريق</tspan>
+  <tspan x="935" dy="32"><tspan font-weight="bold" fill="#c0392b">جهة إصدار الشهادات</tspan> (CA).</tspan>
+</text>
+<text x="140" y="594" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="25" fill="#152b42">
+  <tspan x="140" dy="0">The web server sends a <tspan font-weight="bold" fill="#c0392b">digital certificate</tspan></tspan>
+  <tspan x="140" dy="32">and a <tspan font-weight="bold" fill="#17457f">public key</tspan> to the browser. The browser</tspan>
+  <tspan x="140" dy="32">verifies the server's authenticity through a</tspan>
+  <tspan x="140" dy="32"><tspan font-weight="bold" fill="#c0392b">certificate authority</tspan> (CA).</tspan>
+</text>
+<text x="925" y="754" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="23" fill="#3d5a76">التشفير بالمفتاح العام</text>
+<text x="150" y="754" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="23" fill="#3d5a76">Public-key cryptography</text>
+
+<!-- Text: card 2 -->
+<text x="935" y="818" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" font-weight="bold" fill="#c0392b">② تبادل المفتاح</text>
+<text x="140" y="818" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" font-weight="bold" fill="#c0392b">② Key exchange</text>
+<text x="935" y="850" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">
+  <tspan x="935" dy="0">ينشئ المتصفح <tspan font-weight="bold" fill="#17457f">مفتاحًا مشتركًا</tspan> للاتصال، ويشفّره</tspan>
+  <tspan x="935" dy="32"><tspan font-weight="bold" fill="#17457f">بالمفتاح العام</tspan> للخادم ثم يرسله. ويفك الخادم</tspan>
+  <tspan x="935" dy="32">تشفيره <tspan font-weight="bold" fill="#c0392b">بمفتاحه الخاص</tspan> ليحصل على المفتاح المشترك.</tspan>
+</text>
+<text x="140" y="978" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="25" fill="#152b42">
+  <tspan x="140" dy="0">The browser creates a <tspan font-weight="bold" fill="#17457f">common key</tspan> for</tspan>
+  <tspan x="140" dy="32">communication, encrypts it with the server's</tspan>
+  <tspan x="140" dy="32"><tspan font-weight="bold" fill="#17457f">public key</tspan>, and sends it. The server</tspan>
+  <tspan x="140" dy="32">decrypts it with its <tspan font-weight="bold" fill="#c0392b">private key</tspan> to obtain</tspan>
+  <tspan x="140" dy="32">the common key.</tspan>
+</text>
+<text x="925" y="1170" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="23" fill="#3d5a76">التشفير بالمفتاح العام</text>
+<text x="150" y="1170" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="23" fill="#3d5a76">Public-key cryptography</text>
+</svg>

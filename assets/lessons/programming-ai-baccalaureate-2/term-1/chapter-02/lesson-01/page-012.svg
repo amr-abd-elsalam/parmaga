@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="36" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="35.5" x2="1080" y2="35.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Table shadow -->
+<rect x="99" y="306" width="890" height="928" rx="12" fill="#22303f" opacity=".12"/>
+
+<!-- Table fills -->
+<rect x="95" y="300" width="890" height="928" rx="12" fill="#fffdf7"/>
+<rect x="95" y="300" width="890" height="128" rx="12" fill="#fdf6d8"/>
+<rect x="95" y="364" width="890" height="64" fill="#fdf6d8"/>
+<rect x="95" y="592" width="890" height="200" fill="#fbf6e9"/>
+<path d="M95 992 H985 V1216 Q985 1228 973 1228 H107 Q95 1228 95 1216 Z" fill="#fbf6e9"/>
+
+<!-- Table separators -->
+<line x1="95" y1="428" x2="985" y2="428" stroke="#c0392b" stroke-width="1.4"/>
+<line x1="95" y1="592" x2="985" y2="592" stroke="#c0392b" stroke-width="1.4"/>
+<line x1="95" y1="792" x2="985" y2="792" stroke="#c0392b" stroke-width="1.4"/>
+<line x1="95" y1="992" x2="985" y2="992" stroke="#c0392b" stroke-width="1.4"/>
+<line x1="685" y1="300" x2="685" y2="1228" stroke="#c0392b" stroke-width="1.4"/>
+
+<!-- Table frame -->
+<rect x="95" y="300" width="890" height="928" rx="12" fill="none" stroke="#c0392b" stroke-width="2"/>
+
+<!-- Icon: security shield -->
+<g transform="translate(125 120)">
+  <path d="M28 4 L50 12 L50 28 C50 42 40 50 28 54 C16 50 6 42 6 28 L6 12 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18 29 L25 36 L39 21" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: network nodes (online services) -->
+<g transform="translate(906 364)">
+  <line x1="22" y1="9" x2="9" y2="35" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="22" y1="9" x2="35" y2="35" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="9" y1="35" x2="35" y2="35" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="22" cy="9" r="7" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="9" cy="35" r="7" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="35" cy="35" r="7" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Top pair: Arabic -->
+<text x="950" y="150" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
+  <tspan x="950" dy="0">(3) الأمثلة التالية <tspan font-weight="bold" fill="#c0392b">للمصادقة متعددة العوامل</tspan></tspan>
+  <tspan x="950" dy="36">مستخدمة في خدمات متنوعة.</tspan>
+</text>
+
+<!-- Top pair: English -->
+<text x="120" y="222" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
+  <tspan x="120" dy="0">(3) The following examples of <tspan font-weight="bold" fill="#c0392b">multi-factor</tspan></tspan>
+  <tspan x="120" dy="36"><tspan font-weight="bold" fill="#c0392b">authentication</tspan> are used in various services.</tspan>
+</text>
+
+<!-- Header row -->
+<text x="967" y="336" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" font-weight="bold" fill="#c0392b">
+  <tspan x="967" dy="0">الخدمة</tspan>
+</text>
+<text x="703" y="372" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" font-weight="bold" fill="#152b42">
+  <tspan x="703" dy="0">Service</tspan>
+</text>
+<text x="667" y="336" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" font-weight="bold" fill="#c0392b">
+  <tspan x="667" dy="0">أمثلة على المصادقة المستخدمة</tspan>
+</text>
+<text x="113" y="372" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" font-weight="bold" fill="#152b42">
+  <tspan x="113" dy="0">Examples of</tspan>
+  <tspan x="113" dy="36">authentication used</tspan>
+</text>
+
+<!-- Row 1 -->
+<text x="967" y="464" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
+  <tspan x="967" dy="0">الخدمات المصرفية</tspan>
+  <tspan x="967" dy="36">عبر الإنترنت</tspan>
+</text>
+<text x="703" y="536" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
+  <tspan x="703" dy="0">Online banking</tspan>
+</text>
+<text x="667" y="464" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
+  <tspan x="667" dy="0">كلمة مرور (المعرفة) <tspan font-weight="bold" fill="#c0392b">+</tspan></tspan>
+  <tspan x="667" dy="36">كلمة مرور لمرة واحدة (الحيازة)</tspan>
+</text>
+<text x="113" y="536" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
+  <tspan x="113" dy="0">Password (knowledge) <tspan font-weight="bold" fill="#c0392b">+</tspan></tspan>
+  <tspan x="113" dy="36">one-time password (possession)</tspan>
+</text>
+
+<!-- Row 2 -->
+<text x="967" y="628" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
+  <tspan x="967" dy="0">تسجيل الدخول إلى</tspan>
+  <tspan x="967" dy="36">وسائل التواصل</tspan>
+  <tspan x="967" dy="36">الاجتماعي</tspan>
+</text>
+<text x="703" y="736" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
+  <tspan x="703" dy="0">SNS login</tspan>
+</text>
+<text x="667" y="628" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
+  <tspan x="667" dy="0">كلمة مرور (المعرفة) <tspan font-weight="bold" fill="#c0392b">+</tspan></tspan>
+  <tspan x="667" dy="36">المصادقة عبر الرسائل</tspan>
+  <tspan x="667" dy="36">القصيرة SMS (الحيازة)</tspan>
+</text>
+<text x="113" y="736" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
+  <tspan x="113" dy="0">Password (knowledge) <tspan font-weight="bold" fill="#c0392b">+</tspan> SMS</tspan>
+  <tspan x="113" dy="36">authentication (possession)</tspan>
+</text>
+
+<!-- Row 3 -->
+<text x="967" y="828" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
+  <tspan x="967" dy="0">تسجيل الدخول إلى</tspan>
+  <tspan x="967" dy="36">حاسوب الشركة</tspan>
+  <tspan x="967" dy="36">المحمول</tspan>
+</text>
+<text x="703" y="936" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
+  <tspan x="703" dy="0">Company laptop</tspan>
+  <tspan x="703" dy="36">login</tspan>
+</text>
+<text x="667" y="828" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
+  <tspan x="667" dy="0">بطاقة ذكية (الحيازة) <tspan font-weight="bold" fill="#c0392b">+</tspan> مصادقة</tspan>
+  <tspan x="667" dy="36">ببصمة الإصبع (السمات الحيوية)</tspan>
+</text>
+<text x="113" y="900" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
+  <tspan x="113" dy="0">Smart card (possession) <tspan font-weight="bold" fill="#c0392b">+</tspan></tspan>
+  <tspan x="113" dy="36">fingerprint authentication</tspan>
+  <tspan x="113" dy="36">(biometric)</tspan>
+</text>
+
+<!-- Row 4 -->
+<text x="967" y="1028" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
+  <tspan x="967" dy="0">التسوق</tspan>
+  <tspan x="967" dy="36">الإلكتروني</tspan>
+</text>
+<text x="703" y="1100" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
+  <tspan x="703" dy="0">Online</tspan>
+  <tspan x="703" dy="36">shopping</tspan>
+</text>
+<text x="667" y="1028" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
+  <tspan x="667" dy="0">كلمة مرور (المعرفة) <tspan font-weight="bold" fill="#c0392b">+</tspan></tspan>
+  <tspan x="667" dy="36">رمز لمرة واحدة من 3-D Secure</tspan>
+  <tspan x="667" dy="36">(الحيازة)</tspan>
+</text>
+<text x="113" y="1136" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
+  <tspan x="113" dy="0">Password (knowledge) <tspan font-weight="bold" fill="#c0392b">+</tspan></tspan>
+  <tspan x="113" dy="36">one-time code from 3-D Secure</tspan>
+  <tspan x="113" dy="36">(possession)</tspan>
+</text>
+</svg>

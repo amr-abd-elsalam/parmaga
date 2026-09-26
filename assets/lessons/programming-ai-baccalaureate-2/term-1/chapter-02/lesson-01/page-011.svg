@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Card shadows -->
+<rect x="109" y="408" width="870" height="328" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="109" y="1088" width="870" height="88" rx="16" fill="#22303f" opacity=".12"/>
+
+<!-- Drawing shadows -->
+<rect x="144" y="821" width="240" height="64" rx="14" fill="#22303f" opacity=".18"/>
+<rect x="489" y="776" width="110" height="160" rx="16" fill="#22303f" opacity=".18"/>
+<rect x="794" y="831" width="130" height="105" rx="14" fill="#22303f" opacity=".18"/>
+
+<!-- English bands (Info cards) -->
+<rect x="105" y="402" width="870" height="328" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="418" width="6" height="296" rx="3" fill="#2f7fb5"/>
+<rect x="105" y="1082" width="870" height="88" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="1098" width="6" height="56" rx="3" fill="#2f7fb5"/>
+
+<!-- Functional arrow -->
+<line x1="625" y1="847" x2="745" y2="847" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="745,835 767,847 745,859" fill="#c0392b"/>
+
+<!-- Sketch: password field -->
+<g>
+  <rect x="140" y="815" width="240" height="64" rx="14" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="178" cy="847" r="7" fill="#22303f"/>
+  <circle cx="210" cy="847" r="7" fill="#22303f"/>
+  <circle cx="242" cy="847" r="7" fill="#22303f"/>
+  <circle cx="274" cy="847" r="7" fill="#22303f"/>
+  <circle cx="306" cy="847" r="7" fill="#22303f"/>
+  <circle cx="338" cy="847" r="7" fill="#22303f"/>
+</g>
+
+<!-- Sketch: red plus sign -->
+<g>
+  <rect x="412" y="839" width="36" height="16" rx="4" fill="#c0392b"/>
+  <rect x="422" y="829" width="16" height="36" rx="4" fill="#c0392b"/>
+</g>
+
+<!-- Sketch: smartphone with notification -->
+<g>
+  <rect x="485" y="770" width="110" height="160" rx="16" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="497" y="790" width="86" height="116" rx="6" fill="#4fc3e8"/>
+  <rect x="525" y="778" width="30" height="5" rx="2.5" fill="#8fc9f2"/>
+  <rect x="505" y="810" width="70" height="26" rx="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="519" cy="823" r="6" fill="#2e7d32"/>
+  <rect x="531" y="820" width="36" height="6" rx="3" fill="#7f95ab"/>
+  <circle cx="540" cy="918" r="5" fill="#dff1f7"/>
+</g>
+
+<!-- Sketch: closed padlock -->
+<g>
+  <path d="M 812 830 V 800 A 43 43 0 0 1 898 800 V 830 H 882 V 800 A 27 27 0 0 0 828 800 V 830 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="790" y="825" width="130" height="105" rx="14" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="855" cy="868" r="10" fill="#22303f"/>
+  <rect x="851" y="872" width="8" height="24" rx="3" fill="#22303f"/>
+</g>
+
+<!-- Icon: shield (security) -->
+<g transform="translate(140 306)">
+  <path d="M28 4 L50 12 V28 C50 42 40 50 28 54 C16 50 6 42 6 28 V12 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18 29 L25 36 L39 21" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: light bulb (main idea) -->
+<g transform="translate(150 985)">
+  <circle cx="28" cy="22" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="20" y="38" width="16" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="22" y1="44" x2="34" y2="44" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Text: top Arabic paragraph -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">مثال: إذا استُخدمت كلمة المرور <tspan font-weight="bold" fill="#17457f">(المعرفة)</tspan></tspan>
+  <tspan x="950" dy="40">وحدها، يصبح تسجيل الدخول غير المصرح به ممكنًا</tspan>
+  <tspan x="950" dy="40">بمجرد تسرب كلمة المرور. أما إذا اشتُرط أيضًا</tspan>
+  <tspan x="950" dy="40">إشعار على الهاتف الذكي <tspan font-weight="bold" fill="#17457f">(الحيازة)،</tspan> فلن يستطيع</tspan>
+  <tspan x="950" dy="40">المهاجم تسجيل الدخول من دون الجهاز،</tspan>
+  <tspan x="950" dy="40">حتى لو تسربت كلمة المرور.</tspan>
+</text>
+
+<!-- Text: top English twin -->
+<text x="140" y="434" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">e.g., If only a password <tspan font-weight="bold" fill="#17457f">(knowledge)</tspan></tspan>
+  <tspan x="140" dy="40">is used, an unauthorized login is</tspan>
+  <tspan x="140" dy="40">possible once the password is leaked.</tspan>
+  <tspan x="140" dy="40">However, if a notification to a</tspan>
+  <tspan x="140" dy="40">smartphone <tspan font-weight="bold" fill="#17457f">(possession)</tspan> is also</tspan>
+  <tspan x="140" dy="40">required, an attacker cannot log in</tspan>
+  <tspan x="140" dy="40">without the device,</tspan>
+  <tspan x="140" dy="40">even if the password is leaked.</tspan>
+</text>
+
+<!-- Text: Arabic caption -->
+<text x="950" y="994" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">تسجيل الدخول <tspan font-weight="bold" fill="#2e7d32">القوي</tspan> يجمع بين عاملين</tspan>
+  <tspan x="950" dy="40">مختلفين أو أكثر.</tspan>
+</text>
+
+<!-- Text: English caption twin -->
+<text x="140" y="1114" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#2e7d32">Strong</tspan> login combines two or more</tspan>
+  <tspan x="140" dy="40">different factors.</tspan>
+</text>
+</svg>

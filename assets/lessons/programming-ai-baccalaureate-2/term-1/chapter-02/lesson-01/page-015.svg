@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="36" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="35.5" x2="1080" y2="35.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Shadows -->
+<rect x="109" y="236" width="870" height="152" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="109" y="416" width="870" height="268" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="109" y="848" width="870" height="188" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="109" y="1136" width="870" height="80" rx="16" fill="#22303f" opacity=".12"/>
+
+<!-- English band 1 -->
+<rect x="105" y="230" width="870" height="152" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="246" width="6" height="120" rx="3" fill="#2f7fb5"/>
+
+<!-- Clarification box (dashed red) -->
+<rect x="105" y="410" width="870" height="268" rx="16" fill="#fffdf7" stroke="#c0392b" stroke-width="2" stroke-dasharray="12 8"/>
+<rect x="961" y="426" width="6" height="236" rx="3" fill="#2f7fb5"/>
+<rect x="121" y="518" width="830" height="152" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+
+<!-- English band 3 -->
+<rect x="105" y="842" width="870" height="188" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="858" width="6" height="156" rx="3" fill="#2f7fb5"/>
+
+<!-- Caption English band -->
+<rect x="105" y="1130" width="870" height="80" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="1146" width="6" height="48" rx="3" fill="#2f7fb5"/>
+
+<!-- Icon: shield (security) -->
+<g transform="translate(125 128)">
+  <path d="M28 4 L50 12 V28 C50 42 40 50 28 54 C16 50 6 42 6 28 V12 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18 29 L25 36 L39 22" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: warning triangle (threats) -->
+<g transform="translate(125 784)">
+  <polygon points="22,2 42,40 2,40" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="22" y1="14" x2="22" y2="27" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="22" cy="33" r="2.5" fill="#22303f"/>
+</g>
+
+<!-- Sketch: certificate with seal -->
+<g transform="translate(210 1048)">
+  <rect x="4" y="6" width="110" height="58" rx="6" fill="#22303f" opacity=".18"/>
+  <rect x="0" y="0" width="110" height="58" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="14" y1="14" x2="80" y2="14" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="14" y1="26" x2="68" y2="26" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="14" y1="38" x2="56" y2="38" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="80,46 76,62 83,58 87,64 88,48" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="96,46 100,62 93,58 89,64 88,48" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="88" cy="40" r="12" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="88" cy="40" r="5" fill="#f0c48c"/>
+</g>
+
+<!-- Sketch: browser window with padlock -->
+<g transform="translate(360 1048)">
+  <rect x="4" y="6" width="130" height="62" rx="8" fill="#22303f" opacity=".18"/>
+  <rect x="0" y="0" width="130" height="62" rx="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M8 0 H122 A8 8 0 0 1 130 8 V16 H0 V8 A8 8 0 0 1 8 0 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="10" cy="8" r="3" fill="#ffffff"/>
+  <circle cx="20" cy="8" r="3" fill="#ffffff"/>
+  <circle cx="30" cy="8" r="3" fill="#ffffff"/>
+  <rect x="42" y="4" width="80" height="8" rx="4" fill="#ffffff"/>
+  <path d="M57 36 V31 A8 8 0 0 1 73 31 V36" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="53" y="35" width="24" height="18" rx="3" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="65" cy="43" r="2.5" fill="#ffd24a"/>
+</g>
+
+<!-- Text: step 4 -->
+<text x="950" y="150" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">④</tspan> عند إرسال تفاصيل الطلب، يمكن أيضًا</tspan>
+  <tspan x="950" dy="36">استخدام <tspan font-weight="bold" fill="#c0392b">التوقيع الرقمي</tspan> حتى يمكن اكتشاف</tspan>
+  <tspan x="950" dy="36">أي تلاعب أثناء الاتصال.</tspan>
+</text>
+<text x="140" y="258" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">④</tspan> When sending order details,</tspan>
+  <tspan x="140" dy="36">a <tspan font-weight="bold" fill="#c0392b">digital signature</tspan> can also be used</tspan>
+  <tspan x="140" dy="36">so that tampering during communication</tspan>
+  <tspan x="140" dy="36">can be detected.</tspan>
+</text>
+
+<!-- Text: clarification box -->
+<text x="935" y="438" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#17457f">توضيح:</tspan> يكتشف TLS نفسه التلاعب أثناء النقل،</tspan>
+  <tspan x="935" dy="36">أما <tspan font-weight="bold" fill="#c0392b">التوقيع الرقمي</tspan> فيُستخدم عندما يلزم إثبات</tspan>
+  <tspan x="935" dy="36">مصدر بيانات أو رسالة محددة.</tspan>
+</text>
+<text x="140" y="546" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#17457f">Clarification:</tspan> TLS itself already detects</tspan>
+  <tspan x="140" dy="36">tampering in transit; a <tspan font-weight="bold" fill="#c0392b">digital signature</tspan></tspan>
+  <tspan x="140" dy="36">is used when the origin of specific data</tspan>
+  <tspan x="140" dy="36">or a message must be proven.</tspan>
+</text>
+
+<!-- Text: pair (3) -->
+<text x="950" y="726" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
+  <tspan x="950" dy="0">(3) بالجمع بين <tspan font-weight="bold" fill="#17457f">عدة تقنيات</tspan> بهذه الطريقة، يمكن</tspan>
+  <tspan x="950" dy="36">التصدي في آن واحد <tspan font-weight="bold" fill="#c0392b">لتهديدات متنوعة،</tspan> مثل «التنصت»</tspan>
+  <tspan x="950" dy="36">و«التلاعب» و«انتحال الهوية»</tspan>
+  <tspan x="950" dy="36">و«تسجيل الدخول غير المصرح به».</tspan>
+</text>
+<text x="140" y="870" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
+  <tspan x="140" dy="0">(3) By combining <tspan font-weight="bold" fill="#17457f">multiple technologies</tspan></tspan>
+  <tspan x="140" dy="36">in this way, <tspan font-weight="bold" fill="#c0392b">various threats</tspan> such as</tspan>
+  <tspan x="140" dy="36">“eavesdropping,” “tampering,”</tspan>
+  <tspan x="140" dy="36">“impersonation,” and “unauthorized login”</tspan>
+  <tspan x="140" dy="36">can be addressed simultaneously.</tspan>
+</text>
+
+<!-- Text: sketch caption -->
+<text x="950" y="1086" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">جهة إصدار الشهادات</tspan> تضمن</tspan>
+  <tspan x="950" dy="36">أن الموقع حقيقي.</tspan>
+</text>
+<text x="140" y="1158" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
+  <tspan x="140" dy="0">A <tspan font-weight="bold" fill="#c0392b">certificate authority</tspan> vouches that</tspan>
+  <tspan x="140" dy="36">a site is genuine.</tspan>
+</text>
+</svg>

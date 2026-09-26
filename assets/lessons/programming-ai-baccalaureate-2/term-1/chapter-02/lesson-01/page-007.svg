@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Shadows -->
+<rect x="109" y="128" width="870" height="248" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="109" y="768" width="870" height="368" rx="16" fill="#22303f" opacity=".12"/>
+
+<!-- Stage card (Outlined) -->
+<rect x="105" y="122" width="870" height="248" rx="16" fill="#fffdf7" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="216" rx="3" fill="#2f7fb5"/>
+<!-- English band in stage card -->
+<rect x="117" y="246" width="832" height="76" rx="10" fill="#eaf2fb"/>
+<rect x="125" y="252" width="6" height="64" rx="3" fill="#2f7fb5"/>
+<!-- Tag pills -->
+<rect x="560" y="328" width="375" height="34" rx="16" fill="#fdf6d8" stroke="#e0c46a" stroke-width="2"/>
+<rect x="125" y="328" width="380" height="34" rx="16" fill="#fdf6d8" stroke="#e0c46a" stroke-width="2"/>
+
+<!-- Note English band -->
+<rect x="105" y="566" width="870" height="156" rx="10" fill="#eaf2fb"/>
+<rect x="113" y="574" width="6" height="140" rx="3" fill="#2f7fb5"/>
+
+<!-- Clarification box (dashed red border) -->
+<rect x="105" y="762" width="870" height="368" rx="16" fill="#fffdf7" stroke="#c0392b" stroke-width="2" stroke-dasharray="10 7"/>
+<rect x="961" y="778" width="6" height="336" rx="3" fill="#2f7fb5"/>
+<rect x="117" y="926" width="832" height="196" rx="10" fill="#eaf2fb"/>
+<rect x="125" y="932" width="6" height="184" rx="3" fill="#2f7fb5"/>
+
+<!-- Icon: key (stage card) -->
+<g transform="translate(882 258)">
+  <line x1="24" y1="24" x2="46" y2="24" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="38" y1="24" x2="38" y2="32" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="44" y1="24" x2="44" y2="30" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="14" cy="24" r="10" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="14" cy="24" r="3.5" fill="#fffdf7" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: pin (note) -->
+<g transform="translate(118 398)">
+  <line x1="24" y1="24" x2="24" y2="46" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="24" cy="15" r="11" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="20" cy="11" r="3.5" fill="#ffffff" opacity=".6"/>
+</g>
+
+<!-- Icon: light bulb (clarification) -->
+<g transform="translate(125 768)">
+  <circle cx="24" cy="19" r="14" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="17" y="32" width="14" height="10" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="20" y1="46" x2="28" y2="46" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Stage card texts -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">③ نقل البيانات</text>
+<text x="140" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">③ Data communication</text>
+<text x="935" y="194" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">تُشفَّر</tspan> البيانات وتُتبادل باستخدام</tspan>
+  <tspan x="935" dy="40"><tspan font-weight="bold" fill="#17457f">المفتاح المشترك.</tspan></tspan>
+</text>
+<text x="146" y="274" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="146" dy="0">Data is <tspan font-weight="bold" fill="#c0392b">encrypted</tspan> and exchanged</tspan>
+  <tspan x="146" dy="40">using the <tspan font-weight="bold" fill="#17457f">shared common key.</tspan></tspan>
+</text>
+<text x="915" y="354" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#3d5a76">التشفير بالمفتاح المشترك</text>
+<text x="145" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#3d5a76">Common-key cryptography</text>
+
+<!-- Note texts -->
+<text x="950" y="434" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">ملاحظة:</tspan> يوضح التبادل السابق إحدى الطرق التي</tspan>
+  <tspan x="950" dy="40">يمكن بها مشاركة <tspan font-weight="bold" fill="#17457f">مفتاح مشترك.</tspan> أما الإصدارات</tspan>
+  <tspan x="950" dy="40">الحالية من TLS فتستخدم بدلًا منها الاتفاق</tspan>
+  <tspan x="950" dy="40">على المفتاح بطريقة <tspan font-weight="bold" fill="#17457f">ديفي-هيلمان.</tspan></tspan>
+</text>
+<text x="140" y="594" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Note:</tspan> the exchange above shows</tspan>
+  <tspan x="140" dy="40">one way a <tspan font-weight="bold" fill="#17457f">common key</tspan> can be shared.</tspan>
+  <tspan x="140" dy="40">Current versions of TLS use</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#17457f">Diffie-Hellman</tspan> key agreement instead.</tspan>
+</text>
+
+<!-- Clarification texts -->
+<text x="935" y="794" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">توضيح:</tspan> في طريقة ديفي-هيلمان لا يُرسل</tspan>
+  <tspan x="935" dy="40"><tspan font-weight="bold" fill="#17457f">المفتاح المشترك</tspan> نفسه عبر الشبكة، بل</tspan>
+  <tspan x="935" dy="40">يتبادل الطرفان قيمًا عامة، ويحسب كل طرف</tspan>
+  <tspan x="935" dy="40"><tspan font-weight="bold" fill="#2e7d32">المفتاح نفسه</tspan> لديه.</tspan>
+</text>
+<text x="146" y="954" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="146" dy="0"><tspan font-weight="bold" fill="#c0392b">Clarification:</tspan> With Diffie-Hellman,</tspan>
+  <tspan x="146" dy="40">the <tspan font-weight="bold" fill="#17457f">common key</tspan> itself is never sent</tspan>
+  <tspan x="146" dy="40">over the network; both sides exchange</tspan>
+  <tspan x="146" dy="40">public values, and each side computes</tspan>
+  <tspan x="146" dy="40"><tspan font-weight="bold" fill="#2e7d32">the same key</tspan> on its own.</tspan>
+</text>
+</svg>

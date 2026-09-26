@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="36" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="35.5" x2="1080" y2="35.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Card shadows -->
+<rect x="109" y="488" width="870" height="440" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="109" y="956" width="870" height="260" rx="16" fill="#22303f" opacity=".12"/>
+
+<!-- Card fills -->
+<rect x="105" y="482" width="870" height="440" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="498" width="6" height="408" rx="3" fill="#2f7fb5"/>
+<rect x="105" y="950" width="870" height="260" rx="16" fill="#fdf6d8" stroke="#e0c46a" stroke-width="2"/>
+<rect x="961" y="966" width="6" height="228" rx="3" fill="#e0a55e"/>
+
+<!-- Icon: padlock -->
+<g transform="translate(118 190)">
+  <path d="M12 22 V15 A12 12 0 0 1 36 15 V22 H30 V15 A6 6 0 0 0 18 15 V22 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="6" y="22" width="36" height="24" rx="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="24" cy="32" r="3.5" fill="#22303f"/>
+  <rect x="22.5" y="33" width="3" height="7" fill="#22303f"/>
+</g>
+
+<!-- Icon: shield -->
+<g transform="translate(118 396)">
+  <path d="M24 4 L42 10 V24 C42 36 34 43 24 47 C14 43 6 36 6 24 V10 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M16 25 L22 31 L33 19" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: red question mark -->
+<g transform="translate(125 958)">
+  <circle cx="28" cy="28" r="27" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M16 20 A12 12 0 1 1 34.5 30 L32 33 L32 38 L25 38 L25 30 Q25 27 28 25.5 A5 5 0 1 0 23 20 Z" fill="#c0392b"/>
+  <circle cx="28.5" cy="45" r="4" fill="#c0392b"/>
+</g>
+
+<!-- Arabic paragraph -->
+<text x="950" y="150" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
+  <tspan x="950" dy="0">في كل مرة تسجل فيها الدخول إلى تطبيق مصرفي،</tspan>
+  <tspan x="950" dy="36">أو تشتري شيئًا عبر الإنترنت، أو تفتح موقعًا</tspan>
+  <tspan x="950" dy="36">يظهر في شريط عنوانه قفل صغير،</tspan>
+  <tspan x="950" dy="36">تعمل <tspan font-weight="bold" fill="#17457f">تقنيات خفية</tspan> للحفاظ على أمان معلوماتك.</tspan>
+  <tspan x="950" dy="36"><tspan font-weight="bold" fill="#c0392b">تُشفَّر</tspan> الرسائل فلا يستطيع غيرك قراءتها،</tspan>
+  <tspan x="950" dy="36">ويُثبت الموقع أنه حقيقي، <tspan font-weight="bold" fill="#17457f">ويُتحقق من هويتك</tspan></tspan>
+  <tspan x="950" dy="36">قبل منحك حق الوصول. ومن دون هذه الحمايات</tspan>
+  <tspan x="950" dy="36">قد تُسرق كلمات المرور، وقد يقرأ أشخاص</tspan>
+  <tspan x="950" dy="36">غير مصرح لهم البيانات الخاصة.</tspan>
+</text>
+
+<!-- English paragraph -->
+<text x="140" y="510" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
+  <tspan x="140" dy="0">Every time you log in to a bank app,</tspan>
+  <tspan x="140" dy="36">buy something online, or open a website</tspan>
+  <tspan x="140" dy="36">with a small padlock in the address bar,</tspan>
+  <tspan x="140" dy="36"><tspan font-weight="bold" fill="#17457f">hidden technologies</tspan> are working</tspan>
+  <tspan x="140" dy="36">to keep your information safe. Messages</tspan>
+  <tspan x="140" dy="36">are <tspan font-weight="bold" fill="#c0392b">scrambled</tspan> so no one else can read</tspan>
+  <tspan x="140" dy="36">them, the website proves that it is</tspan>
+  <tspan x="140" dy="36">genuine, and <tspan font-weight="bold" fill="#17457f">your identity is checked</tspan></tspan>
+  <tspan x="140" dy="36">before you are granted access. Without</tspan>
+  <tspan x="140" dy="36">these protections, passwords could be</tspan>
+  <tspan x="140" dy="36">stolen and private data could be read by</tspan>
+  <tspan x="140" dy="36">unauthorized people.</tspan>
+</text>
+
+<!-- Arabic guiding question -->
+<text x="935" y="978" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">السؤال الرئيسي:</tspan> كيف تعمل تقنيات <tspan font-weight="bold" fill="#17457f">التشفير</tspan></tspan>
+  <tspan x="935" dy="36"><tspan font-weight="bold" fill="#17457f">والمصادقة</tspan> معًا للحفاظ على أمان الاتصال</tspan>
+  <tspan x="935" dy="36">والخدمات عبر الإنترنت؟</tspan>
+</text>
+
+<!-- English guiding question -->
+<text x="140" y="1086" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Guiding question:</tspan> How do <tspan font-weight="bold" fill="#17457f">cryptographic</tspan></tspan>
+  <tspan x="140" dy="36">technologies and <tspan font-weight="bold" fill="#17457f">authentication</tspan> work</tspan>
+  <tspan x="140" dy="36">together to keep online communication</tspan>
+  <tspan x="140" dy="36">and services secure?</tspan>
+</text>
+</svg>

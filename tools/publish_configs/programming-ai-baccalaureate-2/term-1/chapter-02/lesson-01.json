@@ -1,0 +1,1066 @@
+{
+  "schemaVersion": 1,
+  "course": "programming-ai-baccalaureate-2",
+  "term": "term-1",
+  "chapter": "chapter-02",
+  "lesson": "lesson-01",
+  "displayNumber": "2-1",
+  "displayTitleAr": "تقنيات التشفير والمصادقة",
+  "displayTitleEn": "Cryptographic Technologies and Authentication",
+  "courseLabelAr": "البرمجة والذكاء الاصطناعي، ثانية بكالوريا",
+  "termLabelAr": "ترم أول",
+  "pivotQuestionAr": "كيف تعمل تقنيات التشفير والمصادقة معًا للحفاظ على أمان الاتصال والخدمات عبر الإنترنت؟",
+  "custodyRepository": "parmaga-content",
+  "custodySnapshot": "1d9a5f2c54c1e9f53db8820228053ac6271db035",
+  "declaredPageCount": 17,
+  "inventoryDate": "2026-09-26",
+  "status": "published",
+  "extraNotes": [
+    "السؤال المحوري للدرس: كيف تعمل تقنيات التشفير والمصادقة معًا للحفاظ على أمان الاتصال والخدمات عبر الإنترنت؟",
+    "حزمة أصول الدرس مدرجة للنشر في المسار القانوني داخل المستودع العام، وتتحقق tools/verify_lesson.py من مطابقة بايتاتها لهذا الـManifest.",
+    "أسماء الملفات الواردة من التوليد مطابقة أصلًا للنمط page-<NNN>.svg، لذلك sourceFileName يساوي file في المداخل السبعة عشر كلها، ولم تجرِ إعادة تسمية.",
+    "المقاس 1080×1350 وviewBox «0 0 1080 1350» مقيسان ومؤكدان في الصفحات السبع عشرة كلها، أي نسبة 4:5 رأسية.",
+    "منطقة الـ12% المحجوزة: الحد y = 1188. أعلى إحداثي y مرصود هو 1171 في page-013، وعدد الإحداثيات دون الحد صفر في كل الصفحات. القياس بحدود معلنة: يعتمد سمات y وحدها ولا يحسب transform ولا إحداثيات path d ولا y+height ولا cy+r، فهو مؤشر قوي لا إثبات هندسي كامل.",
+    "الفحص الأمني نظيف في الصفحات السبع عشرة كلها: صفر script، صفر foreignObject، صفر سمات on*، صفر javascript:، صفر مرجع http(s) خارجي، صفر data:، صفر image مضمَّن، صفر use خارجي، صفر iframe أو embed أو object، صفر @import. لا يوجد اكتشاف يحتاج قرارًا مكتوبًا.",
+    "قيمة encoding مستنتجة لا مقروءة: لا يحتوي أي ملف إعلان XML ولا BOM، ونجاح تحليل XML على البايتات دون إعلان يعني أن البايتات UTF-8 صالحة.",
+    "نهايات الأسطر داخل الأصول السبعة عشر كلها CRLF. لم تُغيَّر ولا يجوز تغييرها، وقاعدة *.svg -text في .gitattributes تغطيها وفق ADR-0005 البند 11.",
+    "الحجم المقيس: المجموع 152407 بايت، والمتوسط 8965 بايت، وأصغر ملف 6229 بايت في page-016، وأكبر ملف 11991 بايت في page-001.",
+    "الخطوط المستدعاة في الصفحات السبع عشرة كلها: Arial وComic Sans MS وSegoe Print وSegoe UI وTahoma وsans-serif، ولا تزيد أي صفحة خطًّا آخر. قيد معروف مسجَّل في ADR-0004 §23 ولا يُعالَج بتعديل الأصول.",
+    "عنوان الدرس في الصفحة الرئيسة «تقنيات التشفير والمصادقة» يرد حرفيًّا في page-001، ومنها displayTitleEn «Cryptographic Technologies and Authentication». ولا تحتوي page-002 سؤالًا، فأُخذ pivotQuestionAr من page-003 بحذف التسمية «السؤال الرئيسي: » وبقي السؤال حرفيًّا، وتجيب عنه page-016. وأوصاف تسع صفحات (descriptionAr، وهي نص alt) مؤلَّفة قصيرة لأن أول بند فيها أطول من 60 حرفًا، والنص الكامل باقٍ في بنودها. والأمران باقتراح المنفّذ وموافقة المالك المكتوبة.",
+    "يحتوي بند واحد فقط على العلامة &، في page-008، ويهرّبها القالب في HTML وفق ADR-0024 K2، ولا يحتوي أي بند آخر على < أو > أو &.",
+    "نصوص الصفحات مستخرجة آليًّا من عناصر <text> بترتيب المستند، ثم طُبّقت عليها قاعدة حذف علامات الترقيم البصرية وحدها المسجلة في ADR-0024 D7 وREADME. وطوبق مجموع عناصر النص في الأصول وهو 177 مع عدد البنود المنشورة وهو 177 صفحةً صفحة في السبع عشرة كلها، ولا فرق بينهما: لا تحتوي الأصول بند ترقيم منفردًا ولا عنصر نص فارغًا."
+  ],
+  "contextSections": {
+    "structureSummaryAr": "أهداف التعلم 002. مقدمة الدرس والسؤال الرئيسي 003. حقيقة أساسية 004. كيف يعمل اتصال HTTPS 005-009. استخدام المصادقة في الخدمات الفعلية 010-012. الجمع بين تقنيات الأمان 013-015. إجابة السؤال الرئيسي 016. الخلاصة 017.",
+    "statusAr": "الـManifest بحالة `published`، وأصوله السبعة عشر منشورة في مسارها القانوني. وصفحة الدرس منشورة بصفحاتها السبع عشرة ونصوصها العربية والإنجليزية داخل HTML، فهي مقروءة دون JavaScript، والعارض `assets/js/lesson-viewer.js` تحسين تدريجي فوقها.\n\nللدرس رابط في الصفحة الرئيسة ومدخل في `sitemap.xml`، ولا يوجد بعد فهرس `/courses/` ولا فهارس Course وTerm وChapter ولا روابط Previous/Next بين الدروس. والحالة الجارية للمشروع في `docs/ai/ARCHITECT_EVIDENCE_LEDGER.md`.",
+    "pagesNarrativeAr": "17 صفحة: صفحة افتتاحية واحدة (`page-001`) + 16 صفحة محتوى (`page-002` … `page-017`). ترقيم متصل بلا فجوة ولا تكرار.\n\nخصائص مشتركة في السبع عشرة كلها: المقاس `1080×1350` بنسبة 4:5 رأسية، و`viewBox \"0 0 1080 1350\"`، وXML سليم البناء، وترميز utf-8، ونتيجة فحص أمني نظيفة. لذلك لا تتكرر في الجدول.\n\nالمطابقة مع المراسي حتمية: `#page-1` ⇄ `page-001.svg` و`#page-17` ⇄ `page-017.svg`.",
+    "constraintsAr": "**الخطوط.** تستدعي الأصول خطوط Windows: Tahoma وSegoe Print وComic Sans MS وSegoe UI وArial و`sans-serif` العام في الصفحات كلها. قد تغيب على أندرويد فيخرج النص عن إطاره، وعلاجه في قالب التوليد القادم لا في الأصول وفق `ADR-0004 §23`.\n\n**الألوان خارج نطاق Design Tokens.** العرض عبر `<img>` يعزل كل أصل عن متغيرات CSS في `assets/css/parmaga.css`، فلا يعيد الوضع الليلي تلوينه.\n\n**منطقة الـ12% المحجوزة.** ما دون `y = 1188` فارغ، وأعلى `y` مرصود 1171 في `page-013`، بقياس سمات `y` وحدها فهو مؤشر لا إثبات. ورقم الصفحة والتنقل وهوية الموقع من طبقة HTML حصرًا وفق `ADR-0004 §19`.\n\n**بايتات الأصول ثابتة.** نهاياتها CRLF بلا إعلان XML ولا BOM، وأي تعديل أو ضغط أو إعادة تصدير يُبطل البصمات.",
+    "decidedAr": "المسار الدائم والمعرّفات وفق `ADR-0004`. عدد الصفحات 17 وترتيبها وأدوارها: `opening` للأولى و`content` للبقية. أسماء الأصول `page-<NNN>.svg`، والمقاس والنسبة، ونمط المراسي `#page-<n>` بلا تصفير.\n\nالنشر التزام واحد يضم الأصول والـManifest وملف السياق وصفحة الدرس والرئيسة و`sitemap.xml`، والـManifest بحالة `published` مباشرةً.\n\nوحدة نص الصفحة عنصر `<text>` كامل بترتيب المستند بلا دمج ولا تقسيم، وتُحذف علامات الترقيم البصرية القصيرة المخزَّنة معكوسة مثل `(1`. والنص يُهرَّب في HTML وفق `ADR-0024` K2.\n\n`displayTitleAr` مطابق لسطر الدرس المحجوز في الرئيسة ولنص `page-001`، و`pivotQuestionAr` من `page-003` بحذف التسمية «السؤال الرئيسي: »، وأوصاف تسع صفحات قصيرة مؤلَّفة، بموافقة المالك.\n\nأداة استخراج النصوص لا تدخل `tools/` ولا خط النشر، وفق `ADR-0024`: بنود الدرس تُكتب وتُراجَع في الـconfig وحده، وهو مصدر النشر الوحيد.",
+    "undecidedAr": "روابط Previous/Next بين الدروس. فهرس `/courses/` وفهارس Course وTerm وChapter. Structured Data. حل مشكلة الخطوط على أندرويد. مراسي `#concept-*`. نظام البحث وتقدم الطالب. مسارات اللغات.",
+    "howToUseAr": "هذا مصدرك لجرد بنية الدرس وقيوده، لا مصدر حالته الوحيد. **لا تطلب ملف SVG**: تمريره إلى النماذج ممنوع وفق `ADR-0005` §10 إلا صفحة واحدة لمشكلة موصوفة مسبقًا، ويُوثَّق.\n\nنص الدرس بلغتيه في HTML صفحته، والـManifest لجرد الأصول وبصماتها وأبعادها وعهدتها. ولا تحرّر مخرَجًا منشورًا بيدك: غيّر config الدرس في `tools/publish_configs/` وأعد التوليد وفق `ADR-0024`.\n\nاقرأ معه: `PROJECT_VISION.md`، ثم `ADR-0003` و`ADR-0004` و`ADR-0005`، ثم `ADR-0007` وما بعده.\n\nلا تعدّل أصلًا ولا مسارًا منشورًا ولا معرّفًا تقنيًا، ولا تخترع رقم صفحة أو بصمة أو بُعدًا، وما نقصك فاطلبه من الـManifest أو من مالك المشروع. وإن لم يكفك هذا الملف فذلك عيب فيه، فأبلغ عنه ليُصلَح."
+  },
+  "svgSourceDir": "assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-02/lesson-01",
+  "pages": [
+    {
+      "id": "page-001",
+      "htmlId": "page-1",
+      "role": "opening",
+      "descriptionAr": "الدرس 2-1",
+      "transcript": [
+        {
+          "text": "الدرس 2-1",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "تقنيات التشفير والمصادقة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Lesson 2-1",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "Cryptographic Technologies and Authentication",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-002",
+      "htmlId": "page-2",
+      "role": "content",
+      "descriptionAr": "أهداف التعلم",
+      "transcript": [
+        {
+          "text": "أهداف التعلم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Learning Objectives",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اشرح كيف يؤمّن HTTPS الاتصال: كيف تستخدم مصافحة TLS التشفير بالمفتاح العام لمشاركة مفتاح بأمان، وكيف يحمي التشفير بالمفتاح المشترك البيانات التي تليها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Explain how HTTPS secures communication: how the TLS handshake uses public-key cryptography to share a key safely, and how common-key cryptography then protects the data that follows.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "صِف كيف تُستخدم المصادقة، ومنها المصادقة متعددة العوامل، في الخدمات الفعلية، واشرح لماذا تُجمع تقنيات الأمان معًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Describe how authentication, including multi-factor authentication, is used in real services, and explain why security technologies are combined.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-003",
+      "htmlId": "page-3",
+      "role": "content",
+      "descriptionAr": "مقدمة الدرس والسؤال الرئيسي",
+      "transcript": [
+        {
+          "text": "في كل مرة تسجل فيها الدخول إلى تطبيق مصرفي، أو تشتري شيئًا عبر الإنترنت، أو تفتح موقعًا يظهر في شريط عنوانه قفل صغير، تعمل تقنيات خفية للحفاظ على أمان معلوماتك. تُشفَّر الرسائل فلا يستطيع غيرك قراءتها، ويُثبت الموقع أنه حقيقي، ويُتحقق من هويتك قبل منحك حق الوصول. ومن دون هذه الحمايات قد تُسرق كلمات المرور، وقد يقرأ أشخاص غير مصرح لهم البيانات الخاصة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Every time you log in to a bank app, buy something online, or open a website with a small padlock in the address bar, hidden technologies are working to keep your information safe. Messages are scrambled so no one else can read them, the website proves that it is genuine, and your identity is checked before you are granted access. Without these protections, passwords could be stolen and private data could be read by unauthorized people.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "السؤال الرئيسي: كيف تعمل تقنيات التشفير والمصادقة معًا للحفاظ على أمان الاتصال والخدمات عبر الإنترنت؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Guiding question: How do cryptographic technologies and authentication work together to keep online communication and services secure?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-004",
+      "htmlId": "page-4",
+      "role": "content",
+      "descriptionAr": "حقيقة أساسية",
+      "transcript": [
+        {
+          "text": "حقيقة أساسية: يعتمد أمان الاتصال والخدمات عبر الإنترنت على الجمع بين التشفير والمصادقة، وليس على تقنية واحدة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Key Fact: Secure online communication and services depend on combining cryptography and authentication — not on any single technology.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المفاهيم الأساسية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Key Concepts",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "HTTPS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "HTTPS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التشفير بالمفتاح المشترك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "common-key cryptography",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التشفير بالمفتاح العام",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "public-key cryptography",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مصافحة TLS",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "TLS handshake",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المصادقة متعددة العوامل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "multi-factor authentication",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التوقيع الرقمي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "digital signature",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الشهادة الرقمية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "digital certificate",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "عدم التنصل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "non-repudiation",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-005",
+      "htmlId": "page-5",
+      "role": "content",
+      "descriptionAr": "1. كيف يعمل اتصال HTTPS",
+      "transcript": [
+        {
+          "text": "1. كيف يعمل اتصال HTTPS",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1. How HTTPS Communication Works",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏(1) HTTPS (HTTP الآمن): بروتوكول اتصال يضيف تشفير TLS إلى HTTP. وهو يحمي المستخدمين من تهديدات مثل التنصت والتلاعب وانتحال الهوية، وذلك من خلال التشفير، واكتشاف التلاعب، والتحقق من الطرف المقابل. وتُسمى خطوات إنشاء الاتصال الآمن مصافحة TLS.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "(1) HTTPS (HTTP Secure)…a communication protocol that adds TLS encryption to HTTP. By providing encryption, detection of tampering, and verification of the communication partner, it protects users from threats such as eavesdropping, tampering, and impersonation. The procedure for establishing a secure communication is called the TLS handshake.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مصطلحات أساسية: HTTPS: بروتوكول HTTP مضافًا إليه تشفير TLS (التشفير، واكتشاف التلاعب، والتحقق من الطرف المقابل).",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "KEY TERMS: HTTPS — HTTP with TLS encryption added (encryption, tamper detection, and partner verification).",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-006",
+      "htmlId": "page-6",
+      "role": "content",
+      "descriptionAr": "كيف يجمع HTTPS بين نوعي التشفير",
+      "transcript": [
+        {
+          "text": "(2) يجمع HTTPS بين التشفير بالمفتاح المشترك (المتماثل) والتشفير بالمفتاح العام على النحو التالي، مستفيدًا من مزايا الطريقتين.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "(2) HTTPS combines common-key (symmetric-key) cryptography and public-key cryptography as follows, taking advantage of the strengths of both methods.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "① الاتصال",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "① Connection",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يرسل خادم الويب شهادة رقمية ومفتاحًا عامًا إلى المتصفح، ويتحقق المتصفح من أصالة الخادم عن طريق جهة إصدار الشهادات (CA).",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The web server sends a digital certificate and a public key to the browser. The browser verifies the server's authenticity through a certificate authority (CA).",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التشفير بالمفتاح العام",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Public-key cryptography",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "② تبادل المفتاح",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "② Key exchange",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ينشئ المتصفح مفتاحًا مشتركًا للاتصال، ويشفّره بالمفتاح العام للخادم ثم يرسله. ويفك الخادم تشفيره بمفتاحه الخاص ليحصل على المفتاح المشترك.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The browser creates a common key for communication, encrypts it with the server's public key, and sends it. The server decrypts it with its private key to obtain the common key.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التشفير بالمفتاح العام",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Public-key cryptography",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-007",
+      "htmlId": "page-7",
+      "role": "content",
+      "descriptionAr": "③ نقل البيانات",
+      "transcript": [
+        {
+          "text": "③ نقل البيانات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "③ Data communication",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تُشفَّر البيانات وتُتبادل باستخدام المفتاح المشترك.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Data is encrypted and exchanged using the shared common key.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التشفير بالمفتاح المشترك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Common-key cryptography",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ملاحظة: يوضح التبادل السابق إحدى الطرق التي يمكن بها مشاركة مفتاح مشترك. أما الإصدارات الحالية من TLS فتستخدم بدلًا منها الاتفاق على المفتاح بطريقة ديفي-هيلمان.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Note: the exchange above shows one way a common key can be shared. Current versions of TLS use Diffie-Hellman key agreement instead.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "توضيح: في طريقة ديفي-هيلمان لا يُرسل المفتاح المشترك نفسه عبر الشبكة، بل يتبادل الطرفان قيمًا عامة، ويحسب كل طرف المفتاح نفسه لديه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Clarification: With Diffie-Hellman, the common key itself is never sent over the network; both sides exchange public values, and each side computes the same key on its own.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-008",
+      "htmlId": "page-8",
+      "role": "content",
+      "descriptionAr": "تدفق اتصال HTTPS",
+      "transcript": [
+        {
+          "text": "تدفق اتصال HTTPS",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "HTTPS Communication Flow",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المتصفح (العميل)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Browser (Client)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خادم الويب (مع المفتاح الخاص)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Web Server (with private key)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "① الاتصال — يرسل الخادم الشهادة والمفتاح العام، ويتحقق المتصفح عن طريق CA",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "① Connection — Server sends certificate & public key; browser verifies via CA",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "② تبادل المفتاح — ينشئ المتصفح مفتاحًا مشتركًا، ويشفّره بالمفتاح العام، ثم يرسله",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "② Key Exchange — Browser creates a common key, encrypts with public key, sends",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "③ نقل البيانات — نقل بيانات مشفرة باستخدام المفتاح المشترك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "③ Data Transfer — Encrypted data transfer using the shared common key",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التشفير بالمفتاح العام لتبادل المفتاح بأمان؛ والتشفير بالمفتاح المشترك للاتصال السريع.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Public-key cryptography for safe key exchange; common-key cryptography for fast communication.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-009",
+      "htmlId": "page-9",
+      "role": "content",
+      "descriptionAr": "دور كل نوع من التشفير في HTTPS",
+      "transcript": [
+        {
+          "text": "(3) يُستخدم التشفير بالمفتاح العام «لمشاركة المفاتيح بأمان»، ويُستخدم التشفير بالمفتاح المشترك «لتبادل كميات كبيرة من البيانات بسرعة». ويتيح هذا التقسيم في الأدوار تحقيق الأمان وسرعة الاتصال معًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "(3) Public-key cryptography is used to “share keys safely,” and common-key cryptography is used to “exchange large amounts of data quickly.” This division of roles makes it possible to achieve both security and communication speed.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المفتاح العام يُقفل، ومفتاح خاص مختلف يفتح. وفي التوقيع الرقمي ينعكس الاتجاه: المفتاح الخاص يوقّع، والمفتاح العام يتحقق.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A public key locks; a different private key unlocks. In a digital signature the direction reverses: the private key signs and the public key verifies.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مصطلحات أساسية:",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "التشفير بالمفتاح العام: يشارك المفتاح بأمان. التشفير بالمفتاح المشترك: يتبادل البيانات بسرعة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "KEY TERMS:",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "public-key cryptography — shares a key safely. common-key cryptography — exchanges data quickly.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-010",
+      "htmlId": "page-10",
+      "role": "content",
+      "descriptionAr": "2. استخدام المصادقة في الخدمات الفعلية",
+      "transcript": [
+        {
+          "text": "2. استخدام المصادقة في الخدمات الفعلية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2. Use of Authentication in Real Services",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "(1) تعتمد خدمات كثيرة المصادقة متعددة العوامل، وفيها يُجمع بين اثنين أو أكثر من عوامل المصادقة الثلاثة (المعرفة، والحيازة، والسمات الحيوية).",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "(1) Many services adopt multi-factor authentication, in which two or more of the three factors of authentication (knowledge, possession, biometric) are combined.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "(2) عند استخدام عامل واحد فقط، يستطيع طرف غير مصرح له الوصول إذا اختُرق هذا العامل. أما بالجمع بين عدة عوامل، فحتى إذا اختُرق أحدها، يظل عامل آخر قادرًا على منع الوصول.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "(2) When only one factor is used, an unauthorized party can gain access if that factor is broken. By combining multiple factors, even if one is broken, another can still prevent access.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مصطلحات أساسية:",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "المصادقة متعددة العوامل: الجمع بين اثنين أو أكثر من العوامل الثلاثة: المعرفة، والحيازة، والسمات الحيوية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "KEY TERMS:",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "multi-factor authentication — combining two or more of the three factors: knowledge, possession, biometric.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-011",
+      "htmlId": "page-11",
+      "role": "content",
+      "descriptionAr": "مثال: كلمة المرور وحدها مقابل المصادقة متعددة العوامل",
+      "transcript": [
+        {
+          "text": "مثال: إذا استُخدمت كلمة المرور (المعرفة) وحدها، يصبح تسجيل الدخول غير المصرح به ممكنًا بمجرد تسرب كلمة المرور. أما إذا اشتُرط أيضًا إشعار على الهاتف الذكي (الحيازة)، فلن يستطيع المهاجم تسجيل الدخول من دون الجهاز، حتى لو تسربت كلمة المرور.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "e.g., If only a password (knowledge) is used, an unauthorized login is possible once the password is leaked. However, if a notification to a smartphone (possession) is also required, an attacker cannot log in without the device, even if the password is leaked.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تسجيل الدخول القوي يجمع بين عاملين مختلفين أو أكثر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Strong login combines two or more different factors.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-012",
+      "htmlId": "page-12",
+      "role": "content",
+      "descriptionAr": "أمثلة للمصادقة متعددة العوامل في الخدمات",
+      "transcript": [
+        {
+          "text": "(3) الأمثلة التالية للمصادقة متعددة العوامل مستخدمة في خدمات متنوعة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "(3) The following examples of multi-factor authentication are used in various services.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الخدمة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Service",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أمثلة على المصادقة المستخدمة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Examples of authentication used",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الخدمات المصرفية عبر الإنترنت",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Online banking",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كلمة مرور (المعرفة) + كلمة مرور لمرة واحدة (الحيازة)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Password (knowledge) + one-time password (possession)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تسجيل الدخول إلى وسائل التواصل الاجتماعي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "SNS login",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كلمة مرور (المعرفة) + المصادقة عبر الرسائل القصيرة SMS (الحيازة)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Password (knowledge) + SMS authentication (possession)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تسجيل الدخول إلى حاسوب الشركة المحمول",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Company laptop login",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "بطاقة ذكية (الحيازة) + مصادقة ببصمة الإصبع (السمات الحيوية)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Smart card (possession) + fingerprint authentication (biometric)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التسوق الإلكتروني",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Online shopping",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كلمة مرور (المعرفة) + رمز لمرة واحدة من 3-D Secure (الحيازة)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Password (knowledge) + one-time code from 3-D Secure (possession)",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-013",
+      "htmlId": "page-13",
+      "role": "content",
+      "descriptionAr": "3. الجمع بين تقنيات الأمان",
+      "transcript": [
+        {
+          "text": "3. الجمع بين تقنيات الأمان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3. Combinations of Security Technologies",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "(1) لا يتحقق أمان الاتصال والخدمات بتقنية واحدة، بل بالجمع بين عدة تقنيات أمان.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "(1) Safe communication and services are achieved not by a single technology, but by combining multiple security technologies.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التقنية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Technology",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التأثير",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Effect",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التشفير (بالمفتاح المشترك، بالمفتاح العام)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Encryption (common-key, public-key)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يمنع أطرافًا ثالثة من قراءة محتوى الاتصال",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Prevents communication content from being read by third parties",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التوقيع الرقمي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Digital signature",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يكتشف التلاعب بالبيانات أو انتحال هوية المرسل، ويجعل المرسل غير قادر على إنكار إرساله البيانات لاحقًا (عدم التنصل)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Detects data tampering or impersonation of the sender, and makes it impossible for the sender to deny having sent the data afterward (non-repudiation)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الشهادة الرقمية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Digital certificate",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تتحقق من أن الطرف المقابل في الاتصال حقيقي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Verifies that the communication partner is authentic",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المصادقة متعددة العوامل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Multi-factor authentication",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تمنع تسجيل الدخول غير المصرح به",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Prevents unauthorized logins",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-014",
+      "htmlId": "page-14",
+      "role": "content",
+      "descriptionAr": "مثال: تقنيات الأمان عند الشراء عبر الإنترنت",
+      "transcript": [
+        {
+          "text": "(2) مثلًا، عند شراء منتج عبر التسوق الإلكتروني، تُجمع هذه التقنيات وتُستخدم على النحو التالي:",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "(2) For example, when purchasing a product through online shopping, these technologies are combined and used as follows.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "① عندما تدخل إلى الموقع، يبدأ اتصال HTTPS، ويمنع التشفير أطرافًا ثالثة من قراءة محتوى الاتصال.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "① When you access the site, HTTPS communication begins, and encryption prevents communication content from being read by third parties.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "② يفحص المتصفح الشهادة الرقمية للتأكد من أن الوجهة هي موقع التسوق الحقيقي.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "② The browser checks the digital certificate to confirm that the destination is the genuine shopping site.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "③ عند تسجيل الدخول إلى الحساب، تمنع المصادقة متعددة العوامل، التي تجمع مثلًا بين كلمة المرور والمصادقة عبر الرسائل القصيرة SMS، تسجيل الدخول غير المصرح به.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "③ For account login, multi-factor authentication combining a password and SMS authentication, etc., prevents unauthorized logins.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-015",
+      "htmlId": "page-15",
+      "role": "content",
+      "descriptionAr": "التوقيع الرقمي عند إرسال الطلب",
+      "transcript": [
+        {
+          "text": "④ عند إرسال تفاصيل الطلب، يمكن أيضًا استخدام التوقيع الرقمي حتى يمكن اكتشاف أي تلاعب أثناء الاتصال.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "④ When sending order details, a digital signature can also be used so that tampering during communication can be detected.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "توضيح: يكتشف TLS نفسه التلاعب أثناء النقل، أما التوقيع الرقمي فيُستخدم عندما يلزم إثبات مصدر بيانات أو رسالة محددة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Clarification: TLS itself already detects tampering in transit; a digital signature is used when the origin of specific data or a message must be proven.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "(3) بالجمع بين عدة تقنيات بهذه الطريقة، يمكن التصدي في آن واحد لتهديدات متنوعة، مثل «التنصت» و«التلاعب» و«انتحال الهوية» و«تسجيل الدخول غير المصرح به».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "(3) By combining multiple technologies in this way, various threats such as “eavesdropping,” “tampering,” “impersonation,” and “unauthorized login” can be addressed simultaneously.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جهة إصدار الشهادات تضمن أن الموقع حقيقي.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A certificate authority vouches that a site is genuine.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-016",
+      "htmlId": "page-16",
+      "role": "content",
+      "descriptionAr": "إجابة السؤال الرئيسي",
+      "transcript": [
+        {
+          "text": "إجابة السؤال الرئيسي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Lesson Question — Answered",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تناول الدرس كيف تحافظ تقنيات التشفير والمصادقة على أمان الاتصال والخدمات. يجمع HTTPS بين التشفير بالمفتاح العام، المستخدم لمشاركة مفتاح بأمان، والتشفير بالمفتاح المشترك، المستخدم لتبادل البيانات بسرعة، فيكون الاتصال آمنًا وسريعًا معًا. وبعيدًا عن الاتصال، تظل الخدمات آمنة بالجمع بين عدة تقنيات: التشفير يُخفي المحتوى، والشهادات الرقمية تُثبت أن الموقع حقيقي، والتوقيعات الرقمية تكتشف التلاعب، والمصادقة متعددة العوامل تمنع تسجيل الدخول غير المصرح به. لذلك يأتي الأمان عبر الإنترنت من تكديس هذه التقنيات في طبقات، بحيث تُعالَج تهديدات كثيرة في الوقت نفسه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The lesson asked how cryptographic technologies and authentication keep communication and services secure. HTTPS combines public-key cryptography — used to share a key safely — with common-key cryptography — used to exchange data quickly — so communication is both secure and fast. Beyond communication, services stay safe by combining several technologies: encryption hides content, digital certificates prove a site is genuine, digital signatures detect tampering, and multi-factor authentication blocks unauthorized logins. Security online therefore comes from layering these technologies so that many threats are addressed at the same time.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-017",
+      "htmlId": "page-17",
+      "role": "content",
+      "descriptionAr": "الخلاصة",
+      "transcript": [
+        {
+          "text": "الخلاصة: تذكّر: يستخدم HTTPS التشفير بالمفتاح العام لمشاركة مفتاح بأمان، والتشفير بالمفتاح المشترك لنقل البيانات بسرعة. وتظل الخدمات آمنة بتكديس التشفير والشهادات والتوقيعات والمصادقة متعددة العوامل في طبقات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Key takeaway — Remember: HTTPS uses public-key cryptography to share a key safely and common-key cryptography to move data quickly. Services stay safe by layering encryption, certificates, signatures, and multi-factor authentication.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مصطلحات أساسية | KEY TERMS",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "الشهادة الرقمية: تُثبت أن الموقع حقيقي.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "digital certificate — proves a site is genuine.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المصادقة متعددة العوامل: تمنع تسجيل الدخول غير المصرح به.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "multi-factor authentication — blocks unauthorized logins.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التشفير: يحافظ على خصوصية المحتوى.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "encryption — keeps content private.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التوقيع الرقمي: يكتشف التلاعب، ويوفر عدم التنصل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "digital signature — detects tampering; gives non-repudiation.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    }
+  ]
+}
