@@ -422,8 +422,25 @@
         var spans = t.getElementsByTagName('tspan');
         for (var j = 0; j < spans.length; j += 1) {
           var sp = spans[j];
+          if (sp.parentNode && sp.parentNode.localName === 'tspan') { continue; }
           var inner = sp.getElementsByTagName('tspan');
-          if (inner.length > 0) { continue; }
+          if (inner.length > 0) {
+            var part = sp.firstChild;
+            while (part) {
+              if (part.nodeType === 3) {
+                if (part.nodeValue && part.nodeValue.replace(/\s+/g, '') !== '') {
+                  kids.push({ node: part, original: part.nodeValue, isTextNode: true });
+                }
+              } else if (part.nodeType === 1 && part.localName === 'tspan') {
+                var pv = part.textContent;
+                if (pv && pv.replace(/\s+/g, '') !== '') {
+                  kids.push({ node: part, original: pv });
+                }
+              }
+              part = part.nextSibling;
+            }
+            continue;
+          }
           var val = sp.textContent;
           if (val && val.replace(/\s+/g, '') !== '') {
             kids.push({ node: sp, original: val });
