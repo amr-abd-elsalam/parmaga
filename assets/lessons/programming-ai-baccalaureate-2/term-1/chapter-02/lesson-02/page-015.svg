@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Illustration shadow -->
+<rect x="119" y="826" width="850" height="200" rx="24" fill="#22303f" opacity=".18"/>
+
+<!-- Functional line: thin navy line on the left edge of the English block -->
+<line x1="106" y1="448" x2="106" y2="764" stroke="#152b42" stroke-width="2" stroke-linecap="round"/>
+
+<!-- Icon: small red question mark (title) -->
+<g transform="translate(230 128)">
+  <circle cx="0" cy="0" r="28" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M -9 -9 Q -9 -19 0 -19 Q 10 -19 10 -9 Q 10 -2 2 1 Q 0 2 0 7" fill="none" stroke="#c0392b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="0" cy="14" r="3" fill="#c0392b"/>
+</g>
+
+<!-- Icon: check badge (answered) -->
+<g transform="translate(850 128)">
+  <circle cx="0" cy="0" r="26" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M -11 1 L -3 9 L 12 -8" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Memory illustration: layered network defense -->
+<g>
+  <rect x="115" y="820" width="850" height="200" rx="24" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Remote laptop -->
+  <rect x="150" y="870" width="110" height="72" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="158" y="878" width="94" height="56" rx="3" fill="#4fc3e8"/>
+  <polygon points="136,946 274,946 284,962 126,962" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- VPN tunnel with lock -->
+  <rect x="290" y="895" width="150" height="40" rx="20" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 355 910 L 355 902 Q 355 892 365 892 Q 375 892 375 902 L 375 910" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="351" y="906" width="28" height="22" rx="4" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Firewall (brick wall) -->
+  <rect x="445" y="845" width="70" height="140" rx="6" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="447" y1="873" x2="513" y2="873" stroke="#f0c48c" stroke-width="2"/>
+  <line x1="447" y1="901" x2="513" y2="901" stroke="#f0c48c" stroke-width="2"/>
+  <line x1="447" y1="929" x2="513" y2="929" stroke="#f0c48c" stroke-width="2"/>
+  <line x1="447" y1="957" x2="513" y2="957" stroke="#f0c48c" stroke-width="2"/>
+  <line x1="480" y1="847" x2="480" y2="873" stroke="#f0c48c" stroke-width="2"/>
+  <line x1="462" y1="873" x2="462" y2="901" stroke="#f0c48c" stroke-width="2"/>
+  <line x1="498" y1="873" x2="498" y2="901" stroke="#f0c48c" stroke-width="2"/>
+  <line x1="480" y1="901" x2="480" y2="929" stroke="#f0c48c" stroke-width="2"/>
+  <line x1="462" y1="929" x2="462" y2="957" stroke="#f0c48c" stroke-width="2"/>
+  <line x1="498" y1="929" x2="498" y2="957" stroke="#f0c48c" stroke-width="2"/>
+  <line x1="480" y1="957" x2="480" y2="983" stroke="#f0c48c" stroke-width="2"/>
+
+  <!-- Connector firewall to DMZ -->
+  <line x1="515" y1="915" x2="540" y2="915" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- DMZ zone with public server -->
+  <rect x="540" y="860" width="120" height="110" rx="14" fill="#fdf6d8" stroke="#e0c46a" stroke-width="2"/>
+  <rect x="570" y="875" width="60" height="80" rx="6" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="578" y="887" width="44" height="10" rx="3" fill="#dff1f7"/>
+  <rect x="578" y="907" width="44" height="10" rx="3" fill="#dff1f7"/>
+  <rect x="578" y="927" width="44" height="10" rx="3" fill="#dff1f7"/>
+  <circle cx="616" cy="892" r="3" fill="#2e7d32"/>
+  <circle cx="616" cy="912" r="3" fill="#2e7d32"/>
+  <circle cx="616" cy="932" r="3" fill="#2e7d32"/>
+
+  <!-- Connector DMZ to internal network -->
+  <line x1="660" y1="915" x2="700" y2="915" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Internal network with protected endpoints -->
+  <rect x="700" y="850" width="256" height="150" rx="16" fill="#e9f7ee" stroke="#a9dcbe" stroke-width="2"/>
+  <line x1="776" y1="890" x2="800" y2="890" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="856" y1="890" x2="880" y2="890" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <rect x="720" y="870" width="56" height="40" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="726" y="876" width="44" height="28" rx="2" fill="#4fc3e8"/>
+  <rect x="742" y="910" width="12" height="10" fill="#7f95ab"/>
+  <rect x="732" y="920" width="32" height="6" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+
+  <rect x="800" y="870" width="56" height="40" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="806" y="876" width="44" height="28" rx="2" fill="#4fc3e8"/>
+  <rect x="822" y="910" width="12" height="10" fill="#7f95ab"/>
+  <rect x="812" y="920" width="32" height="6" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+
+  <rect x="880" y="870" width="56" height="40" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="886" y="876" width="44" height="28" rx="2" fill="#4fc3e8"/>
+  <rect x="902" y="910" width="12" height="10" fill="#7f95ab"/>
+  <rect x="892" y="920" width="32" height="6" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+
+  <path d="M 734 950 L 748 944 L 762 950 L 762 962 Q 762 978 748 986 Q 734 978 734 962 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 741 964 L 746 969 L 755 959" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 814 950 L 828 944 L 842 950 L 842 962 Q 842 978 828 986 Q 814 978 814 962 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 821 964 L 826 969 L 835 959" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 894 950 L 908 944 L 922 950 L 922 962 Q 922 978 908 986 Q 894 978 894 962 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 901 964 L 906 969 L 915 959" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Titles -->
+<text x="540"
+      y="116"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="middle"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="44"
+      font-weight="bold"
+      fill="#1a4f8a">إجابة السؤال الرئيسي</text>
+<text x="540"
+      y="154"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="middle"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="28"
+      font-weight="normal"
+      fill="#152b42">Lesson Question — Answered</text>
+
+<!-- Arabic paragraph -->
+<text x="950"
+      y="234"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="950" dy="0">تناول السؤال الرئيسي تصميم شبكة لا يؤدي فيها</tspan>
+  <tspan x="950" dy="40"><tspan font-weight="bold" fill="#17457f">فشل وسيلة واحدة</tspan> إلى <tspan font-weight="bold" fill="#17457f">كشف النظام كله.</tspan> يراقب</tspan>
+  <tspan x="950" dy="40">جدار الحماية حركة الشبكة، وتحمي الشبكة</tspan>
+  <tspan x="950" dy="40">الافتراضية الخاصة الاتصال البعيد، وتفصل</tspan>
+  <tspan x="950" dy="40">المنطقة المعزولة الخوادم العامة عن الشبكة</tspan>
+  <tspan x="950" dy="40">الداخلية، وتحمي ضوابط الأجهزة الطرفية كل جهاز.</tspan>
+</text>
+
+<!-- English paragraph -->
+<text x="120"
+      y="474"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="120" dy="0">The guiding question asked how to</tspan>
+  <tspan x="120" dy="40">design a network in which the</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#17457f">failure of one measure</tspan> does not</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#17457f">expose the whole system.</tspan> A firewall</tspan>
+  <tspan x="120" dy="40">monitors network traffic, a VPN protects</tspan>
+  <tspan x="120" dy="40">remote communication, a DMZ separates</tspan>
+  <tspan x="120" dy="40">public servers from the internal network,</tspan>
+  <tspan x="120" dy="40">and endpoint controls protect each device.</tspan>
+</text>
+</svg>

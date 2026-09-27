@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilMoat" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8fc9f2"/>
+    <stop offset="1" stop-color="#2f7fb5"/>
+  </linearGradient>
+  <linearGradient id="ilShield" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Figure frame -->
+<rect x="105" y="236" width="870" height="670" rx="16" fill="#fffdf7" stroke="#7f95ab" stroke-width="2"/>
+<line x1="540" y1="258" x2="540" y2="512" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+<line x1="540" y1="580" x2="540" y2="884" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+
+<!-- Right panel: traditional perimeter security -->
+<g>
+  <ellipse cx="764" cy="506" rx="175" ry="190" fill="#22303f" opacity=".18"/>
+  <ellipse cx="760" cy="500" rx="175" ry="190" fill="url(#ilMoat)" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="760" cy="500" rx="140" ry="155" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="646,400 675,362 704,400" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="816,400 845,362 874,400" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="652" y="400" width="46" height="170" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="822" y="400" width="46" height="170" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="698" y="440" width="124" height="130" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="700" y="422" width="22" height="18" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="733" y="422" width="22" height="18" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="766" y="422" width="22" height="18" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="798" y="422" width="22" height="18" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="667" y="440" width="16" height="26" rx="8" fill="#17457f"/>
+  <rect x="837" y="440" width="16" height="26" rx="8" fill="#17457f"/>
+  <path d="M740 570 L740 522 Q760 496 780 522 L780 570 Z" fill="#7d4f28" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="740" y="570" width="40" height="120" fill="#b07a45" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="740" y1="600" x2="780" y2="600" stroke="#7d4f28" stroke-width="2" stroke-linecap="round"/>
+  <line x1="740" y1="630" x2="780" y2="630" stroke="#7d4f28" stroke-width="2" stroke-linecap="round"/>
+  <line x1="740" y1="660" x2="780" y2="660" stroke="#7d4f28" stroke-width="2" stroke-linecap="round"/>
+  <!-- person entering, trusted once inside -->
+  <path d="M736 806 Q736 762 760 762 Q784 762 784 806 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="760" cy="738" r="16" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M744 735 Q746 718 760 718 Q775 718 776 735 Q768 727 760 727 Q751 727 744 735 Z" fill="#2b211c"/>
+  <circle cx="798" cy="728" r="14" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M791 728 L796 733 L805 722" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- remote laptop outside the wall -->
+  <rect x="590" y="770" width="64" height="42" rx="4" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M580 812 L664 812 L672 826 L572 826 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- cloud crossing the perimeter -->
+  <path d="M860 322 Q848 290 880 288 Q890 262 918 272 Q945 266 946 298 Q962 305 950 322 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- outside threat -->
+  <polygon points="905,788 936,842 874,842" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="902" y="804" width="6" height="22" rx="3" fill="#22303f"/>
+  <circle cx="905" cy="833" r="3.5" fill="#22303f"/>
+</g>
+
+<!-- Transition arrow -->
+<circle cx="540" cy="546" r="30" fill="#fffdf7" stroke="#22303f" stroke-width="2.5"/>
+<line x1="556" y1="546" x2="530" y2="546" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="518,546 532,537 532,555" fill="#c0392b"/>
+
+<!-- Left panel: zero trust, every access verified -->
+<g>
+  <line x1="215" y1="376" x2="275" y2="482" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="445" y1="356" x2="385" y2="482" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="215" y1="742" x2="285" y2="622" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="445" y1="732" x2="375" y2="622" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M334 461 L404 488 L404 551 Q404 616 334 646 Q264 616 264 551 L264 488 Z" fill="#22303f" opacity=".18"/>
+  <path d="M330 455 L400 482 L400 545 Q400 610 330 640 Q260 610 260 545 L260 482 Z" fill="url(#ilShield)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M315 540 L315 526 Q315 506 330 506 Q345 506 345 526 L345 540" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <rect x="305" y="540" width="50" height="40" rx="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="330" cy="556" r="5" fill="#22303f"/>
+  <rect x="328" y="558" width="4" height="12" rx="2" fill="#22303f"/>
+  <!-- node 1: person -->
+  <path d="M171 372 Q171 330 195 330 Q219 330 219 372 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="195" cy="306" r="16" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M179 303 Q181 286 195 286 Q210 286 211 303 Q203 295 195 295 Q186 295 179 303 Z" fill="#2b211c"/>
+  <!-- node 2: laptop -->
+  <rect x="433" y="295" width="64" height="42" rx="4" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M423 337 L507 337 L515 351 L415 351 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- node 3: cloud -->
+  <path d="M155 792 Q143 760 175 758 Q185 732 213 742 Q240 736 241 768 Q257 775 245 792 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- node 4: phone -->
+  <rect x="445" y="735" width="40" height="72" rx="8" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="451" y="745" width="28" height="46" rx="3" fill="#4fc3e8"/>
+  <!-- verification badges on every access path -->
+  <circle cx="245" cy="429" r="15" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M238 429 L243 434 L252 423" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="415" cy="419" r="15" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M408 419 L413 424 L422 413" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="250" cy="682" r="15" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M243 682 L248 687 L257 676" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="410" cy="677" r="15" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M403 677 L408 682 L417 671" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Texts -->
+<text x="950"
+      y="116"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="44"
+      font-weight="bold"
+      fill="#1a4f8a">
+  <tspan x="950" dy="0">الأمان التقليدي مقابل</tspan>
+  <tspan x="950" dy="48">نهج انعدام الثقة</tspan>
+</text>
+<text x="540"
+      y="210"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="middle"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="28"
+      fill="#152b42">Traditional Security vs. Zero Trust</text>
+<text x="950"
+      y="954"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="950" dy="0">مع تلاشي الخط الفاصل بين «الداخلي» و«الخارجي»</tspan>
+  <tspan x="950" dy="40">بسبب السحابة والعمل عن بُعد،</tspan>
+  <tspan x="950" dy="40"><tspan font-weight="bold" fill="#17457f">يُتحقق من كل عملية وصول.</tspan></tspan>
+</text>
+<text x="120"
+      y="1074"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="120" dy="0">As cloud and remote work blur the</tspan>
+  <tspan x="120" dy="40">"internal/external" line,</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#17457f">every access is verified.</tspan></tspan>
+</text>
+</svg>

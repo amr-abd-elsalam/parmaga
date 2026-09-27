@@ -1,0 +1,871 @@
+{
+  "schemaVersion": 1,
+  "course": "programming-ai-baccalaureate-2",
+  "term": "term-1",
+  "chapter": "chapter-02",
+  "lesson": "lesson-02",
+  "displayNumber": "2-2",
+  "displayTitleAr": "تصميم أمن الشبكات",
+  "displayTitleEn": "Network Security Design",
+  "courseLabelAr": "البرمجة والذكاء الاصطناعي، ثانية بكالوريا",
+  "termLabelAr": "ترم أول",
+  "pivotQuestionAr": "كيف يمكن لمؤسسة أن تصمم شبكتها بحيث يظل النظام محميًا حتى لو اختُرق أحد الدفاعات؟",
+  "custodyRepository": "parmaga-content",
+  "custodySnapshot": "50753b1d6e494863729564439c69579bd48b9009",
+  "declaredPageCount": 17,
+  "inventoryDate": "2026-09-27",
+  "status": "published",
+  "extraNotes": [
+    "السؤال المحوري للدرس: كيف يمكن لمؤسسة أن تصمم شبكتها بحيث يظل النظام محميًا حتى لو اختُرق أحد الدفاعات؟",
+    "حزمة أصول الدرس مدرجة للنشر في المسار القانوني داخل المستودع العام، وتتحقق tools/verify_lesson.py من مطابقة بايتاتها لهذا الـManifest.",
+    "أسماء الملفات الواردة من التوليد مطابقة أصلًا للنمط page-<NNN>.svg، لذلك sourceFileName يساوي file في المداخل السبعة عشر كلها، ولم تجرِ إعادة تسمية.",
+    "المقاس 1080×1350 وviewBox «0 0 1080 1350» مقيسان ومؤكدان في الصفحات السبع عشرة كلها، أي نسبة 4:5 رأسية.",
+    "منطقة الـ12% المحجوزة: الحد y = 1188. أعلى إحداثي y مرصود هو 1194 في page-004، وعدد الإحداثيات دون الحد ثلاثة، كلها في page-004 على سطر واحد: ثلاثة عناصر نص إنجليزية بخط 27 هي Defense in Depth وZero Trust وPerimeter، وصفر في بقية الصفحات. القياس بحدود معلنة: يعتمد سمات y وحدها ولا يحسب transform ولا إحداثيات path d ولا y+height ولا cy+r، فهو مؤشر قوي لا إثبات هندسي كامل. والحجز لم يعد ملزمًا من الفصل الثاني (الوحدة الثانية) بقرار المالك.",
+    "الفحص الأمني نظيف في الصفحات السبع عشرة كلها: صفر script، صفر foreignObject، صفر سمات on*، صفر javascript:، صفر مرجع http(s) خارجي، صفر data:، صفر image مضمَّن، صفر use خارجي، صفر iframe أو embed أو object، صفر @import. لا يوجد اكتشاف يحتاج قرارًا مكتوبًا.",
+    "قيمة encoding مستنتجة لا مقروءة: لا يحتوي أي ملف إعلان XML ولا BOM، ونجاح تحليل XML على البايتات دون إعلان يعني أن البايتات UTF-8 صالحة.",
+    "نهايات الأسطر داخل الأصول السبعة عشر كلها CRLF. لم تُغيَّر ولا يجوز تغييرها، وقاعدة *.svg -text في .gitattributes تغطيها وفق ADR-0005 البند 11.",
+    "الحجم المقيس: المجموع 161598 بايت، والمتوسط 9505 بايت، وأصغر ملف 6920 بايت في page-013، وأكبر ملف 14502 بايت في page-009.",
+    "الخطوط المستدعاة في الصفحات السبع عشرة كلها: Arial وComic Sans MS وSegoe Print وSegoe UI وTahoma وsans-serif، ولا تزيد أي صفحة خطًّا آخر. قيد معروف مسجَّل في ADR-0004 §23 ولا يُعالَج بتعديل الأصول.",
+    "عنوان الدرس في الصفحة الرئيسة «تصميم أمن الشبكات»، وهو في page-001 «تصميم أمان الشبكات»، فطابق displayTitleAr سطر الرئيسة حرفًا بحرف وفق README كما في الدرسين 1-2 و1-4، ومن page-001 displayTitleEn «Network Security Design». ولا تحتوي page-002 سؤالًا، فأُخذ pivotQuestionAr من page-004 بحذف التسمية «السؤال الرئيسي: » وبقي السؤال حرفيًّا، وتجيب عنه page-015 وpage-016، بقاعدة المالك المكتوبة: البند المكتوب فيه «السؤال الرئيسي» يُعتمد متى كانت إجابته في أواخر صفحات الدرس. ووصف كل صفحة (descriptionAr، وهو نص alt) أول بند فيها، إذ لا يزيد أول بند في أي صفحة على 60 حرفًا.",
+    "يحتوي بندان فقط على العلامة &، في page-004 وpage-017، وهما عنوانان إنجليزيان، ويهرّبها القالب في HTML وفق ADR-0024 K2، ولا يحتوي أي بند آخر على < أو > أو &.",
+    "نصوص الصفحات مستخرجة آليًّا من عناصر <text> بترتيب المستند، ثم طُبّقت عليها قاعدة حذف علامات الترقيم البصرية وحدها المسجلة في ADR-0024 D7 وREADME. وطوبق مجموع عناصر النص في الأصول وهو 138 مع عدد البنود المنشورة وهو 138 صفحةً صفحة في السبع عشرة كلها، ولا فرق بينهما: لا تحتوي الأصول بند ترقيم منفردًا ولا عنصر نص فارغًا."
+  ],
+  "contextSections": {
+    "structureSummaryAr": "أهداف التعلم 002. لماذا لا تكفي وسيلة حماية واحدة؟ 003. السؤال الرئيسي وخريطة الدرس 004. دور جدران الحماية 005. الشبكة الافتراضية الخاصة (VPN) 006-007. المنطقة المعزولة 008-009. الدفاع في العمق 010-011. مفهوم نهج انعدام الثقة 012-014. إجابة السؤال الرئيسي 015-016. الفكرة الرئيسة والخلاصة 017.",
+    "statusAr": "الـManifest بحالة `published`، وأصوله السبعة عشر منشورة في مسارها القانوني. وصفحة الدرس منشورة بصفحاتها السبع عشرة ونصوصها العربية والإنجليزية داخل HTML، فهي مقروءة دون JavaScript، والعارض `assets/js/lesson-viewer.js` تحسين تدريجي فوقها.\n\nللدرس رابط في الصفحة الرئيسة ومدخل في `sitemap.xml`، ولا يوجد بعد فهرس `/courses/` ولا فهارس Course وTerm وChapter ولا روابط Previous/Next بين الدروس. والحالة الجارية للمشروع في `docs/ai/ARCHITECT_EVIDENCE_LEDGER.md`.",
+    "pagesNarrativeAr": "17 صفحة: صفحة افتتاحية واحدة (`page-001`) + 16 صفحة محتوى (`page-002` … `page-017`). ترقيم متصل بلا فجوة ولا تكرار.\n\nخصائص مشتركة في السبع عشرة كلها: المقاس `1080×1350` بنسبة 4:5 رأسية، و`viewBox \"0 0 1080 1350\"`، وXML سليم البناء، وترميز utf-8، ونتيجة فحص أمني نظيفة. لذلك لا تتكرر في الجدول.\n\nالمطابقة مع المراسي حتمية: `#page-1` ⇄ `page-001.svg` و`#page-17` ⇄ `page-017.svg`.",
+    "constraintsAr": "**الخطوط.** تستدعي الأصول خطوط Windows: Tahoma وSegoe Print وComic Sans MS وSegoe UI وArial و`sans-serif` العام في الصفحات كلها. قد تغيب على أندرويد فيخرج النص عن إطاره، وعلاجه في قالب التوليد القادم لا في الأصول وفق `ADR-0004 §23`.\n\n**الألوان خارج نطاق Design Tokens.** العرض عبر `<img>` يعزل كل أصل عن متغيرات CSS في `assets/css/parmaga.css`، فلا يعيد الوضع الليلي تلوينه.\n\n**منطقة الـ12% المحجوزة.** أعلى `y` مرصود 1194 في `page-004`: ثلاث كلمات إنجليزية على سطر واحد تحت الحد `y = 1188`، وما عداها فارغ، بقياس سمات `y` وحدها فهو مؤشر لا إثبات، والحجز لم يعد ملزمًا من الفصل الثاني (الوحدة الثانية) بقرار المالك. ورقم الصفحة والتنقل وهوية الموقع من طبقة HTML حصرًا وفق `ADR-0004 §19`.\n\n**بايتات الأصول ثابتة.** نهاياتها CRLF بلا إعلان XML ولا BOM، وأي تعديل أو ضغط أو إعادة تصدير يُبطل البصمات.",
+    "decidedAr": "المسار الدائم والمعرّفات وفق `ADR-0004`. عدد الصفحات 17 وترتيبها وأدوارها: `opening` للأولى و`content` للبقية. أسماء الأصول `page-<NNN>.svg`، والمقاس والنسبة، ونمط المراسي `#page-<n>` بلا تصفير.\n\nالنشر التزام واحد يضم الأصول والـManifest وملف السياق وصفحة الدرس والرئيسة و`sitemap.xml`، والـManifest بحالة `published` مباشرةً.\n\nوحدة نص الصفحة عنصر `<text>` كامل بترتيب المستند بلا دمج ولا تقسيم، وتُحذف علامات الترقيم البصرية القصيرة المخزَّنة معكوسة مثل `(1`. والنص يُهرَّب في HTML وفق `ADR-0024` K2.\n\n`displayTitleAr` مطابق لسطر الدرس المحجوز في الرئيسة، و`pivotQuestionAr` من `page-004` بحذف التسمية «السؤال الرئيسي: » بقاعدة المالك، ووصف كل صفحة أول بند فيها.\n\nأداة استخراج النصوص لا تدخل `tools/` ولا خط النشر، وفق `ADR-0024`: بنود الدرس تُكتب وتُراجَع في الـconfig وحده، وهو مصدر النشر الوحيد.",
+    "undecidedAr": "روابط Previous/Next بين الدروس. فهرس `/courses/` وفهارس Course وTerm وChapter. Structured Data. حل مشكلة الخطوط على أندرويد. مراسي `#concept-*`. نظام البحث وتقدم الطالب. مسارات اللغات.",
+    "howToUseAr": "هذا مصدرك لجرد بنية الدرس وقيوده، لا مصدر حالته الوحيد. **لا تطلب ملف SVG**: تمريره إلى النماذج ممنوع وفق `ADR-0005` §10 إلا صفحة واحدة لمشكلة موصوفة مسبقًا، ويُوثَّق.\n\nنص الدرس بلغتيه في HTML صفحته، والـManifest لجرد الأصول وبصماتها وأبعادها وعهدتها. ولا تحرّر مخرَجًا منشورًا بيدك: غيّر config الدرس في `tools/publish_configs/` وأعد التوليد وفق `ADR-0024`.\n\nاقرأ معه: `PROJECT_VISION.md`، ثم `ADR-0003` و`ADR-0004` و`ADR-0005`، ثم `ADR-0007` وما بعده.\n\nلا تعدّل أصلًا ولا مسارًا منشورًا ولا معرّفًا تقنيًا، ولا تخترع رقم صفحة أو بصمة أو بُعدًا، وما نقصك فاطلبه من الـManifest أو من مالك المشروع. وإن لم يكفك هذا الملف فذلك عيب فيه، فأبلغ عنه ليُصلَح."
+  },
+  "svgSourceDir": "assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-02/lesson-02",
+  "pages": [
+    {
+      "id": "page-001",
+      "htmlId": "page-1",
+      "role": "opening",
+      "descriptionAr": "الدرس 2-2",
+      "transcript": [
+        {
+          "text": "الدرس 2-2",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "تصميم أمان الشبكات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Lesson 2-2",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "Network Security Design",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-002",
+      "htmlId": "page-2",
+      "role": "content",
+      "descriptionAr": "أهداف التعلم",
+      "transcript": [
+        {
+          "text": "أهداف التعلم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Learning Objectives",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اشرح أدوار جدار الحماية، وVPN، وDMZ، وضوابط الأجهزة الطرفية في حماية الشبكة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Explain the roles of firewalls, VPNs, DMZs, and endpoint controls in protecting a network.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اشرح لماذا يوفر الدفاع في العمق حماية أقوى من الاعتماد على إجراء أمني واحد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Explain why defense in depth provides stronger protection than relying on a single security measure.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قيّم تصميمًا أمنيًا لشبكة، وبرّر اختيار الضوابط المناسبة وفق الأصول والتهديدات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Evaluate a network security design, and justify the choice of suitable controls based on assets and threats.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-003",
+      "htmlId": "page-3",
+      "role": "content",
+      "descriptionAr": "لماذا لا تكفي وسيلة حماية واحدة؟",
+      "transcript": [
+        {
+          "text": "لماذا لا تكفي وسيلة حماية واحدة؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Why Is One Protective Measure Not Enough?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في الدرس 2-1 تعلمت كيف تحمي تقنيات التشفير والمصادقة الاتصالَ والحسابات. في هذا الدرس ستوسّع الحماية إلى تصميم الشبكة نفسها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In Lesson 2-1, you learned how encryption and authentication protect communication and accounts. In this lesson, you will extend protection to the design of the network itself.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تحتفظ شبكات المؤسسات ببيانات وخدمات مهمة قد يحاول مهاجم الوصول إليها. ولا تكفي وسيلة حماية واحدة؛ فإذا فشلت، قد تتعرض موارد أخرى للخطر. لذلك يُستخدم الدفاع في العمق، فتعمل طبقات متعددة على تقليل احتمال الاختراق والحد من أثره.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Organizations' networks hold important data and services that an attacker may try to reach. A single protective measure is not enough: if it fails, other resources may be put at risk. That is why defense in depth is used: multiple layers work to reduce the likelihood of a breach and limit its impact.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-004",
+      "htmlId": "page-4",
+      "role": "content",
+      "descriptionAr": "السؤال الرئيسي وخريطة الدرس",
+      "transcript": [
+        {
+          "text": "السؤال الرئيسي وخريطة الدرس",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Guiding Question & Lesson Map",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "السؤال الرئيسي: كيف يمكن لمؤسسة أن تصمم شبكتها بحيث يظل النظام محميًا حتى لو اختُرق أحد الدفاعات؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Guiding question: How can an organization design its network so that the system stays protected even if one defense is breached?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الفكرة الأساسية: يأتي أمان الشبكات القوي من تكديس الإجراءات — جدار الحماية، والشبكة الافتراضية الخاصة، والمنطقة المعزولة، وحماية الأجهزة الطرفية — ومن التحقق من كل عملية وصول (نهج انعدام الثقة)، وليس من حاجز واحد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Key Fact: Strong network security comes from layering measures — firewall, VPN, DMZ, endpoint protection — and from verifying every access (zero trust), not from a single barrier.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المفاهيم الأساسية |",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Key Concepts:",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جدار الحماية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Firewall",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الشبكة الافتراضية الخاصة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "VPN",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المنطقة المعزولة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DMZ",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الدفاع في العمق",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Defense in Depth",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نهج انعدام الثقة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Zero Trust",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المحيط الأمني",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Perimeter",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-005",
+      "htmlId": "page-5",
+      "role": "content",
+      "descriptionAr": "ملحوظة مهمة",
+      "transcript": [
+        {
+          "text": "ملحوظة مهمة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Point!",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "1. دور جدران الحماية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1. The Role of Firewalls",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "(1) جدار الحماية Firewall: نظام أو برنامج يراقب حركة مرور الشبكة ويسمح بها أو يمنعها وفق قواعد أمنية. وقد يوجد عند حدود الشبكة، أو بين أجزائها، أو على جهاز مضيف.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "(1) Firewall: a system or program that monitors network traffic and allows or blocks it according to security rules. It may be placed at the network boundary, between parts of the network, or on a host device.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثال: السماح بالوصول إلى خادم الويب، مع منع الوصول الخارجي المباشر إلى قاعدة البيانات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "e.g., Allow access to the web server, while blocking direct external access to the database.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مصطلح أساسي: جدار الحماية — يسمح بالاتصال أو يمنعه وفق قواعد محددة مسبقًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "KEY TERM: Firewall — allows or blocks communication according to preset rules.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-006",
+      "htmlId": "page-6",
+      "role": "content",
+      "descriptionAr": "2. الشبكة الافتراضية الخاصة (VPN)",
+      "transcript": [
+        {
+          "text": "2. الشبكة الافتراضية الخاصة (VPN)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2. VPN (Virtual Private Network)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "(1) الشبكة الافتراضية الخاصة VPN: اتصال أو شبكة منطقية خاصة عبر شبكة عامة مثل الإنترنت، تستخدم عادةً التشفير وتقنيات النفق Tunneling لحماية البيانات بين الطرفين.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "(1) VPN: a private logical connection or network over a public network such as the Internet. It usually uses encryption and tunneling to protect data between the two ends.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تنقل الشبكة الافتراضية الخاصة (VPN) البيانات بأمان عبر شبكة غير موثوقة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A VPN carries data securely across an untrusted network.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-007",
+      "htmlId": "page-7",
+      "role": "content",
+      "descriptionAr": "استخدامات الشبكة الافتراضية الخاصة",
+      "transcript": [
+        {
+          "text": "استخدامات الشبكة الافتراضية الخاصة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Uses of a VPN",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "(2) الاستخدامات الرئيسية للشبكة الافتراضية الخاصة:",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "(2) Main uses of a VPN:",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "① العمل عن بُعد: الاتصال بأمان بشبكة المؤسسة من المنزل أو أثناء التنقل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "① Remote work: connecting securely to the organization's network from home or while traveling.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "② ربط الفروع: ربط المكاتب في مواقع مختلفة بأمان.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "② Connecting branches: securely linking offices in different locations.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "(3) نظرًا لأن محتوى الاتصال يُشفَّر عند استخدام الشبكة الافتراضية الخاصة، تقل مخاطر التنصت حتى عند استخدام شبكة Wi-Fi عامة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "(3) Because communication content is encrypted when using a VPN, the risk of eavesdropping is reduced even on public Wi-Fi.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-008",
+      "htmlId": "page-8",
+      "role": "content",
+      "descriptionAr": "3. المنطقة المعزولة",
+      "transcript": [
+        {
+          "text": "3. المنطقة المعزولة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3. DMZ (Demilitarized Zone)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "(1) المنطقة المعزولة DMZ: منطقة تُوضع فيها الخوادم المعرَّضة للشبكة الخارجية (خوادم الويب، وخوادم البريد، وغيرها) منفصلةً عن الشبكة الداخلية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "(1) DMZ: an area where servers exposed to the external network (web servers, mail servers, etc.) are placed separately from the internal network.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "(2) يساعد فصل الخوادم العامة في منطقة معزولة على تقليل احتمال وصول الهجوم منها إلى الشبكة الداخلية إذا تعرّض أحدها للاختراق.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "(2) Separating public servers in a DMZ helps reduce the likelihood that an attack will reach the internal network from them if one of them is breached.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مصطلح أساسي: المنطقة المعزولة — منطقة للخوادم المواجهة للجمهور، منفصلة عن الشبكة الداخلية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "KEY TERM: DMZ — a zone for public-facing servers, separated from the internal network.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-009",
+      "htmlId": "page-9",
+      "role": "content",
+      "descriptionAr": "تكوين شبكة المنطقة المعزولة (DMZ)",
+      "transcript": [
+        {
+          "text": "تكوين شبكة المنطقة المعزولة (DMZ)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DMZ Network Configuration",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "إذا هوجم خادم عام، يقل احتمال وصول الهجوم إلى الشبكة الداخلية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "If a public server is attacked, the attack is less likely to reach the internal network.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-010",
+      "htmlId": "page-10",
+      "role": "content",
+      "descriptionAr": "4. الدفاع في العمق",
+      "transcript": [
+        {
+          "text": "4. الدفاع في العمق",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "4. Defense in Depth",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "(1) الدفاع في العمق Defense in Depth: استخدام طبقات متعددة من الضوابط الأمنية، بحيث تساعد طبقات أخرى على تقليل الخطر والحد من أثر الاختراق إذا فشلت إحدى الطبقات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "(1) Defense in depth: using multiple layers of security controls, so that if one layer fails, other layers help reduce the risk and limit the impact of the breach.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "إذا فشلت طبقة حماية، تبقى طبقات أخرى تقلل الخطر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "If one layer of protection fails, other layers remain to reduce the risk.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مصطلح أساسي: الدفاع في العمق — تكديس الإجراءات الأمنية في طبقات متعددة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "KEY TERM: Defense in depth — layering security measures in multiple layers.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-011",
+      "htmlId": "page-11",
+      "role": "content",
+      "descriptionAr": "طبقات الدفاع في أمان الشبكات",
+      "transcript": [
+        {
+          "text": "طبقات الدفاع في أمان الشبكات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Defense Layers in Network Security",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "(2) في أمان الشبكات، يُجمع بين عدة إجراءات على النحو التالي:",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "(2) In network security, several measures are combined as follows:",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الطبقة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Layer",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أمثلة على الإجراءات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Examples of measures",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الطبقة 1: مدخل الشبكة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Layer 1: Network entry",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "منع الاتصال غير المصرح به باستخدام جدار الحماية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Block unauthorized communication using a firewall",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الطبقة 2: مسار الاتصال",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Layer 2: Communication path",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تشفير الاتصال باستخدام الشبكة الافتراضية الخاصة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Encrypt communication using a VPN",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الطبقة 3: وضع الخوادم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Layer 3: Server placement",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "فصل الخوادم المواجهة للجمهور عن الشبكة الداخلية باستخدام المنطقة المعزولة (DMZ)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Separate public-facing servers from the internal network using a DMZ",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الطبقة 4: الأجهزة الطرفية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Layer 4: Endpoints",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تثبيت برنامج مكافحة الفيروسات والحفاظ على تحديث نظام التشغيل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Install antivirus software and keep the operating system updated",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-012",
+      "htmlId": "page-12",
+      "role": "content",
+      "descriptionAr": "5. مفهوم نهج انعدام الثقة",
+      "transcript": [
+        {
+          "text": "5. مفهوم نهج انعدام الثقة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "5. The Concept of Zero Trust",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "(1) نهج انعدام الثقة Zero Trust: نهج أمني لا يمنح الثقة تلقائيًا لمستخدم أو جهاز لمجرد وجوده داخل الشبكة أو لكونه مملوكًا للمؤسسة. تُفحص الهوية والصلاحيات والسياق عند طلب الوصول إلى الموارد وفق سياسة المؤسسة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "(1) Zero trust: a security approach that does not automatically trust a user or device merely because it is inside the network or owned by the organization. Identity, permissions, and context are checked when access to resources is requested, according to the organization's policy.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مصطلح أساسي: نهج انعدام الثقة — التحقق من كل عملية وصول.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "KEY TERM: Zero trust — verify every access.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-013",
+      "htmlId": "page-13",
+      "role": "content",
+      "descriptionAr": "المحيط الأمني التقليدي",
+      "transcript": [
+        {
+          "text": "المحيط الأمني التقليدي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Traditional Perimeter",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "(2) صُمِّم أمان الشبكات التقليدي بشكل أساسي حول حماية المحيط الأمني Perimeter، بناءً على فرضية أن «داخل شبكة المؤسسة آمن، وخارجها خطر». لكن مع انتشار الخدمات السحابية والعمل عن بُعد، أصبحت الحدود بين «الداخل» و«الخارج» غير واضحة، وأصبحت التصاميم التي تحمي المحيط الأمني فقط غير كافية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "(2) Traditional network security was designed mainly around protecting the perimeter, based on the assumption that \"inside the organization's network is safe, and outside is dangerous.\" But with the spread of cloud services and remote work, the boundary between \"inside\" and \"outside\" has become unclear, and designs that protect only the perimeter have become insufficient.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مصطلح أساسي: المحيط الأمني — الحدود التقليدية التي تفترض أن «الداخل آمن»، والتي طمستها الخدمات السحابية والعمل عن بُعد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "KEY TERM: Perimeter — the traditional boundary that assumes \"inside is safe,\" blurred by cloud services and remote work.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-014",
+      "htmlId": "page-14",
+      "role": "content",
+      "descriptionAr": "الأمان التقليدي مقابل نهج انعدام الثقة",
+      "transcript": [
+        {
+          "text": "الأمان التقليدي مقابل نهج انعدام الثقة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Traditional Security vs. Zero Trust",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مع تلاشي الخط الفاصل بين «الداخلي» و«الخارجي» بسبب السحابة والعمل عن بُعد، يُتحقق من كل عملية وصول.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "As cloud and remote work blur the \"internal/external\" line, every access is verified.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-015",
+      "htmlId": "page-15",
+      "role": "content",
+      "descriptionAr": "إجابة السؤال الرئيسي",
+      "transcript": [
+        {
+          "text": "إجابة السؤال الرئيسي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Lesson Question — Answered",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تناول السؤال الرئيسي تصميم شبكة لا يؤدي فيها فشل وسيلة واحدة إلى كشف النظام كله. يراقب جدار الحماية حركة الشبكة، وتحمي الشبكة الافتراضية الخاصة الاتصال البعيد، وتفصل المنطقة المعزولة الخوادم العامة عن الشبكة الداخلية، وتحمي ضوابط الأجهزة الطرفية كل جهاز.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The guiding question asked how to design a network in which the failure of one measure does not expose the whole system. A firewall monitors network traffic, a VPN protects remote communication, a DMZ separates public servers from the internal network, and endpoint controls protect each device.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-016",
+      "htmlId": "page-16",
+      "role": "content",
+      "descriptionAr": "إجابة السؤال الرئيسي (تابع)",
+      "transcript": [
+        {
+          "text": "إجابة السؤال الرئيسي (تابع)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Lesson Question — Answered (continued)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ومع السحابة والعمل عن بُعد، أصبح موقع المستخدم داخل الشبكة دليلًا أقل فاعلية على الثقة؛ لذلك لا يمنح نهج انعدام الثقة ثقة تلقائية، بل يطلب التحقق المناسب من الهوية والصلاحيات عند الوصول. تعمل هذه الطبقات معًا لتقليل الخطر والحد من أثر الاختراق.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "With cloud services and remote work, a user's location inside the network has become a less reliable indicator of trust. So zero trust grants no automatic trust; instead, it requires appropriate verification of identity and permissions at access. These layers work together to reduce risk and limit the impact of a breach.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-017",
+      "htmlId": "page-17",
+      "role": "content",
+      "descriptionAr": "الفكرة الرئيسة والخلاصة",
+      "transcript": [
+        {
+          "text": "الفكرة الرئيسة والخلاصة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Main Idea & Key Takeaway",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الفكرة الرئيسة: يكون أمان الشبكة في أقوى حالاته عندما تُكدَّس الإجراءات في طبقات متعددة (الدفاع في العمق)، ولا يُمنح أي وصول ثقةً تلقائيًا (نهج انعدام الثقة)، بحيث يصبح من غير المرجح أن يؤدي خرق واحد إلى كشف النظام بأكمله.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Main Idea: Network security is strongest when measures are layered (defense in depth) and no access is automatically trusted (zero trust), making it unlikely that a single breach will expose the whole system.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الخلاصة: تذكّر: كدّس دفاعاتك — جدار الحماية، والشبكة الافتراضية الخاصة، والمنطقة المعزولة، والأجهزة الطرفية — وتحقق من كل عملية وصول (نهج انعدام الثقة). عندها يصبح من غير المرجح أن يؤدي خرق واحد إلى كشف الشبكة بأكملها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Key Takeaway: Remember: Layer your defenses — firewall, VPN, DMZ, endpoints — and verify every access (zero trust). A single breach is then unlikely to expose the whole network.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    }
+  ]
+}
