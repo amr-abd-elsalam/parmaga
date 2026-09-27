@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="36" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="35.5" x2="1080" y2="35.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="ilBrick" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#c96a1b"/>
+    <stop offset="1" stop-color="#f0c48c"/>
+  </linearGradient>
+  <linearGradient id="ilServer" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#17457f"/>
+    <stop offset="1" stop-color="#2f7fb5"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Shadows -->
+<rect x="660" y="128" width="315" height="80" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="419" y="920" width="556" height="260" rx="10" fill="#22303f" opacity=".12"/>
+
+<!-- Fills: label, key-term strip, image frame -->
+<rect x="656" y="122" width="319" height="80" rx="16" fill="#e9f7ee" stroke="#2e7d32" stroke-width="2"/>
+<rect x="415" y="914" width="560" height="260" rx="10" fill="#fdf6d8"/>
+<rect x="961" y="930" width="6" height="228" rx="3" fill="#e0a55e"/>
+<rect x="105" y="914" width="290" height="260" rx="12" fill="#fffdf7" stroke="#7f95ab" stroke-width="1.4"/>
+
+<!-- Functional lines: thin navy line at the left edge of English blocks -->
+<line x1="114" y1="452" x2="114" y2="662" stroke="#17457f" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="114" y1="776" x2="114" y2="878" stroke="#17457f" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="437" y1="1028" x2="437" y2="1166" stroke="#17457f" stroke-width="2.5" stroke-linecap="round"/>
+
+<!-- Icon: red pin on the label -->
+<g transform="translate(670 128) rotate(-15 22 22)">
+  <line x1="22" y1="26" x2="22" y2="44" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M16 21 L28 21 L25 28 L19 28 Z" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="22" cy="13" r="10" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="18" cy="10" r="3" fill="#ffffff" opacity=".6"/>
+</g>
+
+<!-- Icon: security shield next to the section header -->
+<g transform="translate(120 208)">
+  <path d="M22 2 L40 9 L40 22 C40 33 32 40 22 44 C12 40 4 33 4 22 L4 9 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M14 23 L20 29 L31 16" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Illustration inside the frame: firewall scene -->
+<g>
+  <rect x="117" y="926" width="266" height="236" rx="8" fill="url(#ilSky)"/>
+  <rect x="117" y="1126" width="266" height="36" rx="8" fill="#a9dcbe"/>
+  <path d="M135 992 C119 992 119 968 138 966 C140 950 162 944 171 958 C179 946 199 951 197 968 C211 970 210 992 194 992 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="148" cy="978" r="4" fill="#2f7fb5"/>
+  <circle cx="166" cy="970" r="4" fill="#2f7fb5"/>
+  <circle cx="184" cy="980" r="4" fill="#2f7fb5"/>
+  <path d="M148 978 L166 970 L184 980" fill="none" stroke="#2f7fb5" stroke-width="2" stroke-linecap="round"/>
+  <path d="M232 998 C226 984 238 976 236 962 C246 970 250 978 249 988 C253 978 257 972 255 962 C268 974 272 988 268 998 Z" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M242 998 C240 990 246 984 246 976 C252 984 257 990 256 998 Z" fill="#ffd24a"/>
+  <rect x="226" y="1024" width="56" height="130" fill="#22303f" opacity=".18"/>
+  <rect x="222" y="996" width="56" height="130" fill="url(#ilBrick)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="222" y1="1022" x2="278" y2="1022" stroke="#7d4f28" stroke-width="1.4"/>
+  <line x1="222" y1="1048" x2="278" y2="1048" stroke="#7d4f28" stroke-width="1.4"/>
+  <line x1="222" y1="1074" x2="278" y2="1074" stroke="#7d4f28" stroke-width="1.4"/>
+  <line x1="222" y1="1100" x2="278" y2="1100" stroke="#7d4f28" stroke-width="1.4"/>
+  <line x1="250" y1="996" x2="250" y2="1022" stroke="#7d4f28" stroke-width="1.4"/>
+  <line x1="236" y1="1022" x2="236" y2="1048" stroke="#7d4f28" stroke-width="1.4"/>
+  <line x1="264" y1="1022" x2="264" y2="1048" stroke="#7d4f28" stroke-width="1.4"/>
+  <line x1="236" y1="1074" x2="236" y2="1100" stroke="#7d4f28" stroke-width="1.4"/>
+  <line x1="264" y1="1074" x2="264" y2="1100" stroke="#7d4f28" stroke-width="1.4"/>
+  <line x1="250" y1="1100" x2="250" y2="1126" stroke="#7d4f28" stroke-width="1.4"/>
+  <path d="M250 1052 L266 1058 L266 1070 C266 1080 259 1086 250 1090 C241 1086 234 1080 234 1070 L234 1058 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M243 1070 L248 1075 L258 1063" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="316" y="1026" width="56" height="100" rx="6" fill="#22303f" opacity=".18"/>
+  <rect x="312" y="1020" width="56" height="100" rx="6" fill="url(#ilServer)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="320" y="1032" width="40" height="10" rx="3" fill="#4fc3e8"/>
+  <rect x="320" y="1052" width="40" height="10" rx="3" fill="#4fc3e8"/>
+  <rect x="320" y="1072" width="40" height="10" rx="3" fill="#4fc3e8"/>
+  <circle cx="326" cy="1104" r="4" fill="#a9dcbe"/>
+  <circle cx="340" cy="1104" r="4" fill="#ffd24a"/>
+  <path d="M140 1010 L300 1010" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round"/>
+  <path d="M292 1003 L304 1010 L292 1017 Z" fill="#2e7d32" stroke="#2e7d32" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M140 1110 L208 1110" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M200 1103 L212 1110 L200 1117 Z" fill="#c0392b" stroke="#c0392b" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M168 1084 L180 1096 M180 1084 L168 1096" fill="none" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Text -->
+<text x="935" y="150" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" font-weight="bold" fill="#2e7d32">
+  <tspan x="935" dy="0">ملحوظة مهمة</tspan>
+</text>
+<text x="740" y="186" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" font-weight="bold" fill="#2e7d32">
+  <tspan x="740" dy="0">Point!</tspan>
+</text>
+
+<text x="950" y="258" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#c0392b">
+  <tspan x="950" dy="0">1. دور جدران الحماية</tspan>
+</text>
+<text x="120" y="294" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="bold" fill="#c0392b">
+  <tspan x="120" dy="0">1. The Role of Firewalls</tspan>
+</text>
+
+<text x="950" y="330" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
+  <tspan x="950" dy="0">(1) <tspan font-weight="bold" fill="#c0392b">جدار الحماية</tspan> <tspan font-weight="bold" fill="#c0392b">Firewall:</tspan> نظام أو برنامج يراقب</tspan>
+  <tspan x="950" dy="36">حركة مرور الشبكة ويسمح بها أو يمنعها وفق</tspan>
+  <tspan x="950" dy="36"><tspan font-weight="bold" fill="#17457f">قواعد أمنية.</tspan> وقد يوجد عند حدود الشبكة، أو بين</tspan>
+  <tspan x="950" dy="36">أجزائها، أو على جهاز مضيف.</tspan>
+</text>
+<text x="132" y="474" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
+  <tspan x="132" dy="0">(1) <tspan font-weight="bold" fill="#c0392b">Firewall:</tspan> a system or program that</tspan>
+  <tspan x="132" dy="36">monitors network traffic and allows or</tspan>
+  <tspan x="132" dy="36">blocks it according to <tspan font-weight="bold" fill="#17457f">security rules.</tspan></tspan>
+  <tspan x="132" dy="36">It may be placed at the network</tspan>
+  <tspan x="132" dy="36">boundary, between parts of the network,</tspan>
+  <tspan x="132" dy="36">or on a host device.</tspan>
+</text>
+
+<text x="950" y="726" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#17457f">مثال:</tspan> السماح بالوصول إلى <tspan fill="#c96a1b">خادم الويب،</tspan> مع منع</tspan>
+  <tspan x="950" dy="36">الوصول الخارجي المباشر إلى <tspan fill="#c96a1b">قاعدة البيانات.</tspan></tspan>
+</text>
+<text x="132" y="798" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#17457f">e.g.,</tspan> Allow access to the <tspan fill="#c96a1b">web server,</tspan></tspan>
+  <tspan x="132" dy="36">while blocking direct external</tspan>
+  <tspan x="132" dy="36">access to the <tspan fill="#c96a1b">database.</tspan></tspan>
+</text>
+
+<text x="935" y="942" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">مصطلح أساسي: <tspan fill="#c0392b">جدار الحماية</tspan> —</tspan>
+  <tspan x="935" dy="36">يسمح بالاتصال أو يمنعه وفق</tspan>
+  <tspan x="935" dy="36">قواعد محددة مسبقًا.</tspan>
+</text>
+<text x="455" y="1050" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" font-weight="bold" fill="#17457f">
+  <tspan x="455" dy="0">KEY TERM: <tspan fill="#c0392b">Firewall</tspan> —</tspan>
+  <tspan x="455" dy="36">allows or blocks</tspan>
+  <tspan x="455" dy="36">communication according to</tspan>
+  <tspan x="455" dy="36">preset rules.</tspan>
+</text>
+</svg>

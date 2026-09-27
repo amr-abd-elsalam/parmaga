@@ -1,0 +1,226 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilCloud" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#8fc9f2"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Figure frame -->
+<rect x="109" y="234" width="870" height="688" rx="12" fill="#22303f" opacity=".12"/>
+<rect x="105" y="228" width="870" height="688" rx="12" fill="#fffdf7" stroke="#7f95ab" stroke-width="1.4"/>
+
+<!-- Zones -->
+<rect x="394" y="316" width="262" height="540" rx="18" fill="#22303f" opacity=".12"/>
+<rect x="390" y="310" width="262" height="540" rx="18" fill="#dff1f7" stroke="#2f7fb5" stroke-width="2"/>
+<rect x="740" y="316" width="210" height="540" rx="18" fill="#22303f" opacity=".12"/>
+<rect x="736" y="310" width="210" height="540" rx="18" fill="#e9f7ee" stroke="#2e7d32" stroke-width="2"/>
+
+<!-- Internet cloud -->
+<g>
+  <path d="M169 466 C144 466 139 431 164 424 C162 396 199 386 212 406 C224 378 269 384 272 414 C299 411 309 451 284 466 Z" fill="#22303f" opacity=".18"/>
+  <path d="M165 460 C140 460 135 425 160 418 C158 390 195 380 208 400 C220 372 265 378 268 408 C295 405 305 445 280 460 Z" fill="url(#ilCloud)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="218" cy="430" r="20" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="218" cy="430" rx="8" ry="20" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="198" y1="430" x2="238" y2="430" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+<line x1="220" y1="470" x2="220" y2="584" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+
+<!-- Attacker laptop -->
+<g>
+  <rect x="174" y="596" width="100" height="66" rx="6" fill="#22303f" opacity=".18"/>
+  <rect x="170" y="590" width="100" height="66" rx="6" fill="#22303f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="178" y="598" width="84" height="50" rx="4" fill="#7f95ab"/>
+  <polygon points="220,603 241,641 199,641" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="218" y="614" width="4" height="14" rx="2" fill="#22303f"/>
+  <circle cx="220" cy="634" r="2.5" fill="#22303f"/>
+  <path d="M158 660 L282 660 L292 674 L148 674 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Normal public traffic line -->
+<line x1="284" y1="440" x2="410" y2="418" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+
+<!-- Firewall 1 -->
+<g>
+  <rect x="326" y="346" width="44" height="480" rx="6" fill="#22303f" opacity=".18"/>
+  <rect x="322" y="340" width="44" height="480" rx="6" fill="#c96a1b"/>
+  <path d="M322 380 H366 M322 420 H366 M322 460 H366 M322 500 H366 M322 540 H366 M322 580 H366 M322 620 H366 M322 660 H366 M322 700 H366 M322 740 H366 M322 780 H366 M344 340 V380 M344 420 V460 M344 500 V540 M344 580 V620 M344 660 V700 M344 740 V780 M333 380 V420 M355 380 V420 M333 460 V500 M355 460 V500 M333 540 V580 M355 540 V580 M333 620 V660 M355 620 V660 M333 700 V740 M355 700 V740 M333 780 V820 M355 780 V820" fill="none" stroke="#f0c48c" stroke-width="2"/>
+  <rect x="322" y="340" width="44" height="480" rx="6" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M344 278 L364 286 V302 C364 316 354 324 344 328 C334 324 324 316 324 302 V286 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M335 303 L342 310 L354 296" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Firewall 2 -->
+<g>
+  <rect x="676" y="346" width="44" height="480" rx="6" fill="#22303f" opacity=".18"/>
+  <rect x="672" y="340" width="44" height="480" rx="6" fill="#c96a1b"/>
+  <path d="M672 380 H716 M672 420 H716 M672 460 H716 M672 500 H716 M672 540 H716 M672 580 H716 M672 620 H716 M672 660 H716 M672 700 H716 M672 740 H716 M672 780 H716 M694 340 V380 M694 420 V460 M694 500 V540 M694 580 V620 M694 660 V700 M694 740 V780 M683 380 V420 M705 380 V420 M683 460 V500 M705 460 V500 M683 540 V580 M705 540 V580 M683 620 V660 M705 620 V660 M683 700 V740 M705 700 V740 M683 780 V820 M705 780 V820" fill="none" stroke="#f0c48c" stroke-width="2"/>
+  <rect x="672" y="340" width="44" height="480" rx="6" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M694 278 L714 286 V302 C714 316 704 324 694 328 C684 324 674 316 674 302 V286 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M685 303 L692 310 L704 296" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- DMZ servers -->
+<g>
+  <rect x="419" y="351" width="90" height="140" rx="8" fill="#22303f" opacity=".18"/>
+  <rect x="415" y="345" width="90" height="140" rx="8" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="427" y="363" width="66" height="24" rx="4" fill="#2f7fb5"/>
+  <rect x="427" y="401" width="66" height="24" rx="4" fill="#2f7fb5"/>
+  <rect x="427" y="439" width="66" height="24" rx="4" fill="#2f7fb5"/>
+  <line x1="435" y1="375" x2="461" y2="375" stroke="#8fc9f2" stroke-width="2" stroke-linecap="round"/>
+  <line x1="435" y1="413" x2="461" y2="413" stroke="#8fc9f2" stroke-width="2" stroke-linecap="round"/>
+  <line x1="435" y1="451" x2="461" y2="451" stroke="#8fc9f2" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="483" cy="375" r="4" fill="#a9dcbe"/>
+  <circle cx="483" cy="413" r="4" fill="#a9dcbe"/>
+  <circle cx="483" cy="451" r="4" fill="#a9dcbe"/>
+</g>
+<g>
+  <rect x="541" y="351" width="90" height="140" rx="8" fill="#22303f" opacity=".18"/>
+  <rect x="537" y="345" width="90" height="140" rx="8" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="549" y="363" width="66" height="24" rx="4" fill="#2f7fb5"/>
+  <rect x="549" y="401" width="66" height="24" rx="4" fill="#2f7fb5"/>
+  <rect x="549" y="439" width="66" height="24" rx="4" fill="#2f7fb5"/>
+  <line x1="557" y1="375" x2="583" y2="375" stroke="#8fc9f2" stroke-width="2" stroke-linecap="round"/>
+  <line x1="557" y1="413" x2="583" y2="413" stroke="#8fc9f2" stroke-width="2" stroke-linecap="round"/>
+  <line x1="557" y1="451" x2="583" y2="451" stroke="#8fc9f2" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="605" cy="375" r="4" fill="#a9dcbe"/>
+  <circle cx="605" cy="413" r="4" fill="#a9dcbe"/>
+  <circle cx="605" cy="451" r="4" fill="#a9dcbe"/>
+</g>
+<g>
+  <rect x="480" y="591" width="90" height="140" rx="8" fill="#22303f" opacity=".18"/>
+  <rect x="476" y="585" width="90" height="140" rx="8" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="488" y="603" width="66" height="24" rx="4" fill="#2f7fb5"/>
+  <rect x="488" y="641" width="66" height="24" rx="4" fill="#2f7fb5"/>
+  <rect x="488" y="679" width="66" height="24" rx="4" fill="#2f7fb5"/>
+  <line x1="496" y1="615" x2="522" y2="615" stroke="#8fc9f2" stroke-width="2" stroke-linecap="round"/>
+  <line x1="496" y1="653" x2="522" y2="653" stroke="#8fc9f2" stroke-width="2" stroke-linecap="round"/>
+  <line x1="496" y1="691" x2="522" y2="691" stroke="#8fc9f2" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="544" cy="615" r="4" fill="#c0392b"/>
+  <circle cx="544" cy="653" r="4" fill="#c0392b"/>
+  <circle cx="544" cy="691" r="4" fill="#c0392b"/>
+  <polygon points="606,556 628,594 584,594" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="604" y="568" width="4" height="14" rx="2" fill="#22303f"/>
+  <circle cx="606" cy="588" r="2.5" fill="#22303f"/>
+</g>
+
+<!-- Attack arrow: internet to public server -->
+<line x1="288" y1="655" x2="460" y2="655" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="472,655 457,646 457,664" fill="#c0392b"/>
+
+<!-- Blocked arrow: DMZ to internal network -->
+<line x1="574" y1="700" x2="652" y2="700" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="664,700 649,691 649,709" fill="#c0392b"/>
+<circle cx="694" cy="700" r="17" fill="#ffffff" stroke="#c0392b" stroke-width="2.4"/>
+<path d="M686 692 L702 708 M702 692 L686 708" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+
+<!-- Internal network: shield, lock, computers -->
+<g>
+  <path d="M847 346 L897 364 V406 C897 446 872 468 847 478 C822 468 797 446 797 406 V364 Z" fill="#22303f" opacity=".18"/>
+  <path d="M843 340 L893 358 V400 C893 440 868 462 843 472 C818 462 793 440 793 400 V358 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M829 400 V388 C829 368 857 368 857 388 V400" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="818" y="400" width="50" height="40" rx="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="843" cy="416" r="5" fill="#22303f"/>
+  <rect x="841" y="416" width="4" height="13" rx="2" fill="#22303f"/>
+</g>
+<line x1="843" y1="474" x2="843" y2="518" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="843" y1="616" x2="843" y2="686" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+<g>
+  <rect x="794" y="526" width="106" height="70" rx="8" fill="#22303f" opacity=".18"/>
+  <rect x="790" y="520" width="106" height="70" rx="8" fill="#22303f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="798" y="528" width="90" height="54" rx="4" fill="#4fc3e8"/>
+  <path d="M829 556 L839 566 L858 545" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="836" y="590" width="14" height="16" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="818" y="606" width="50" height="8" rx="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+<g>
+  <rect x="794" y="696" width="106" height="70" rx="8" fill="#22303f" opacity=".18"/>
+  <rect x="790" y="690" width="106" height="70" rx="8" fill="#22303f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="798" y="698" width="90" height="54" rx="4" fill="#4fc3e8"/>
+  <path d="M829 726 L839 736 L858 715" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="836" y="760" width="14" height="16" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="818" y="776" width="50" height="8" rx="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Header icons: shield and network nodes -->
+<g transform="translate(125 78)">
+  <path d="M28 2 L52 10 V28 C52 44 40 52 28 56 C16 52 4 44 4 28 V10 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M17 29 L25 37 L39 21" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(198 80)">
+  <line x1="10" y1="42" x2="28" y2="10" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="46" y1="42" x2="28" y2="10" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="10" y1="42" x2="46" y2="42" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="28" cy="10" r="8" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="10" cy="42" r="8" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="46" cy="42" r="8" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Small red arrow pointing up -->
+<line x1="540" y1="954" x2="540" y2="938" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="540,926 531,940 549,940" fill="#c0392b"/>
+
+<!-- Texts -->
+<text x="950"
+      y="116"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="44"
+      font-weight="bold"
+      fill="#1a4f8a">
+  <tspan x="950" dy="0">تكوين شبكة</tspan>
+  <tspan x="950" dy="50">المنطقة المعزولة (DMZ)</tspan>
+</text>
+<text x="540"
+      y="210"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="middle"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="28"
+      fill="#152b42">DMZ Network Configuration</text>
+<text x="950"
+      y="994"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="950" dy="0">إذا هوجم <tspan font-weight="bold" fill="#c0392b">خادم عام،</tspan> <tspan font-weight="bold" fill="#2e7d32">يقل احتمال</tspan></tspan>
+  <tspan x="950" dy="40">وصول الهجوم إلى <tspan font-weight="bold" fill="#17457f">الشبكة الداخلية.</tspan></tspan>
+</text>
+<text x="120"
+      y="1074"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="120" dy="0">If a <tspan font-weight="bold" fill="#c0392b">public server</tspan> is attacked,</tspan>
+  <tspan x="120" dy="40">the attack is <tspan font-weight="bold" fill="#2e7d32">less likely</tspan> to reach</tspan>
+  <tspan x="120" dy="40">the <tspan font-weight="bold" fill="#17457f">internal network.</tspan></tspan>
+</text>
+</svg>

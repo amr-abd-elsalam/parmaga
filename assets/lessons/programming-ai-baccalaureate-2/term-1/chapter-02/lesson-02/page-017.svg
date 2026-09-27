@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Card shadows -->
+<rect x="109" y="208" width="870" height="488" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="109" y="728" width="870" height="448" rx="16" fill="#22303f" opacity=".12"/>
+
+<!-- Card 1: Main idea (soft yellow) -->
+<rect x="105" y="202" width="870" height="488" rx="16" fill="#fdf6d8" stroke="#e0c46a" stroke-width="2"/>
+<rect x="961" y="218" width="6" height="456" rx="3" fill="#e0a55e"/>
+
+<!-- Card 2: Outlined (thin blue outline) -->
+<rect x="105" y="722" width="870" height="448" rx="16" fill="#fffdf7" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="738" width="6" height="416" rx="3" fill="#2f7fb5"/>
+
+<!-- Thin navy lines on the left edge of English text -->
+<line x1="122" y1="448" x2="122" y2="684" stroke="#17457f" stroke-width="2" stroke-linecap="round"/>
+<line x1="122" y1="968" x2="122" y2="1164" stroke="#17457f" stroke-width="2" stroke-linecap="round"/>
+
+<!-- Icon: shield (security) near title, left -->
+<g transform="translate(120 84)">
+  <path d="M28 4 L50 12 L50 28 C50 42 40 50 28 54 C16 50 6 42 6 28 L6 12 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18 29 L26 37 L39 21" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: lock (security) near title, right -->
+<g transform="translate(904 84)">
+  <path d="M18 26 L18 18 C18 7 38 7 38 18 L38 26" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="12" y="26" width="32" height="24" rx="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="28" cy="36" r="3.5" fill="#22303f"/>
+  <rect x="26.5" y="37" width="3" height="7" rx="1.5" fill="#22303f"/>
+</g>
+
+<!-- Icon: light bulb (main idea) in card 1 top-left -->
+<g transform="translate(128 212)">
+  <circle cx="28" cy="22" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="20" y="36" width="16" height="10" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="23" y1="51" x2="33" y2="51" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: small red star in card 2 top-left -->
+<g transform="translate(130 734)">
+  <polygon points="22,2 27,15.1 41,15.8 30.1,24.6 33.8,38.2 22,30.5 10.2,38.2 13.9,24.6 3,15.8 17,15.1" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Titles -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">الفكرة الرئيسة والخلاصة</text>
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="normal" fill="#152b42">Main Idea &amp; Key Takeaway</text>
+
+<!-- Card 1: Arabic -->
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">الفكرة الرئيسة:</tspan> يكون أمان الشبكة في أقوى</tspan>
+  <tspan x="935" dy="40">حالاته عندما تُكدَّس الإجراءات في طبقات</tspan>
+  <tspan x="935" dy="40">متعددة <tspan font-weight="bold" fill="#17457f">(الدفاع في العمق)،</tspan> ولا يُمنح أي</tspan>
+  <tspan x="935" dy="40">وصول ثقةً تلقائيًا <tspan font-weight="bold" fill="#17457f">(نهج انعدام الثقة)،</tspan></tspan>
+  <tspan x="935" dy="40">بحيث يصبح من غير المرجح أن يؤدي خرق واحد</tspan>
+  <tspan x="935" dy="40">إلى كشف النظام بأكمله.</tspan>
+</text>
+
+<!-- Card 1: English -->
+<text x="140" y="474" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Main Idea:</tspan> Network security is</tspan>
+  <tspan x="140" dy="40">strongest when measures are layered</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#17457f">(defense in depth)</tspan> and no access is</tspan>
+  <tspan x="140" dy="40">automatically trusted <tspan font-weight="bold" fill="#17457f">(zero trust),</tspan></tspan>
+  <tspan x="140" dy="40">making it unlikely that a single</tspan>
+  <tspan x="140" dy="40">breach will expose the whole system.</tspan>
+</text>
+
+<!-- Card 2: Arabic -->
+<text x="935" y="754" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">الخلاصة:</tspan> تذكّر: كدّس دفاعاتك —</tspan>
+  <tspan x="935" dy="40">جدار الحماية، والشبكة الافتراضية الخاصة،</tspan>
+  <tspan x="935" dy="40">والمنطقة المعزولة، والأجهزة الطرفية —</tspan>
+  <tspan x="935" dy="40">وتحقق من كل عملية وصول <tspan font-weight="bold" fill="#17457f">(نهج انعدام الثقة).</tspan></tspan>
+  <tspan x="935" dy="40">عندها يصبح من غير المرجح أن يؤدي خرق واحد</tspan>
+  <tspan x="935" dy="40">إلى كشف الشبكة بأكملها.</tspan>
+</text>
+
+<!-- Card 2: English -->
+<text x="140" y="994" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Key Takeaway:</tspan> Remember: Layer your</tspan>
+  <tspan x="140" dy="40">defenses — firewall, VPN, DMZ,</tspan>
+  <tspan x="140" dy="40">endpoints — and verify every access</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#17457f">(zero trust).</tspan> A single breach is then</tspan>
+  <tspan x="140" dy="40">unlikely to expose the whole network.</tspan>
+</text>
+</svg>

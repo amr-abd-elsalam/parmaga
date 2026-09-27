@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="32" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="31.5" x2="1080" y2="31.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Table shadow -->
+<rect x="99" y="378" width="890" height="804" rx="12" fill="#22303f" opacity=".12"/>
+<!-- Table fill -->
+<rect x="95" y="372" width="890" height="804" rx="12" fill="#fffdf7"/>
+<!-- Header row background -->
+<rect x="95" y="372" width="890" height="84" rx="12" fill="#fdf6d8"/>
+<rect x="95" y="414" width="890" height="42" fill="#fdf6d8"/>
+<!-- Zebra rows -->
+<rect x="95" y="636" width="890" height="148" fill="#fbf6e9"/>
+<path d="M95 996 H985 V1164 Q985 1176 973 1176 H107 Q95 1176 95 1164 Z" fill="#fbf6e9"/>
+
+<!-- Table separators -->
+<line x1="95" y1="456" x2="985" y2="456" stroke="#c0392b" stroke-width="1.4"/>
+<line x1="95" y1="636" x2="985" y2="636" stroke="#c0392b" stroke-width="1.4"/>
+<line x1="95" y1="784" x2="985" y2="784" stroke="#c0392b" stroke-width="1.4"/>
+<line x1="95" y1="996" x2="985" y2="996" stroke="#c0392b" stroke-width="1.4"/>
+<line x1="649" y1="372" x2="649" y2="1176" stroke="#c0392b" stroke-width="1.4"/>
+<!-- Table frame -->
+<rect x="95" y="372" width="890" height="804" rx="12" fill="none" stroke="#c0392b" stroke-width="2"/>
+
+<!-- Icon: shield (security) -->
+<g transform="translate(128 216)">
+  <path d="M26 2 L48 10 L48 26 C48 40 38 48 26 52 C14 48 4 40 4 26 L4 10 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M16 27 L23 34 L37 19" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: connected nodes (network) -->
+<g transform="translate(898 302)">
+  <line x1="24" y1="9" x2="9" y2="38" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="24" y1="9" x2="39" y2="38" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="9" y1="38" x2="39" y2="38" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="24" cy="9" r="7" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="9" cy="38" r="7" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="39" cy="38" r="7" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Titles -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">طبقات الدفاع في أمان الشبكات</text>
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="normal" fill="#152b42">Defense Layers in Network Security</text>
+
+<!-- Intro -->
+<text x="950" y="242" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">
+  <tspan x="950" dy="0">(2) في <tspan font-weight="bold" fill="#c0392b">أمان الشبكات،</tspan> يُجمع بين عدة</tspan>
+  <tspan x="950" dy="32">إجراءات على النحو التالي:</tspan>
+</text>
+<text x="120" y="306" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="25" fill="#152b42">
+  <tspan x="120" dy="0">(2) In <tspan font-weight="bold" fill="#c0392b">network security,</tspan> several</tspan>
+  <tspan x="120" dy="32">measures are combined as follows:</tspan>
+</text>
+
+<!-- Header row -->
+<text x="965" y="406" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" font-weight="bold" fill="#c0392b">الطبقة</text>
+<text x="669" y="438" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" font-weight="bold" fill="#152b42">Layer</text>
+<text x="629" y="406" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" font-weight="bold" fill="#c0392b">أمثلة على الإجراءات</text>
+<text x="115" y="438" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" font-weight="bold" fill="#152b42">Examples of measures</text>
+
+<!-- Row 1 -->
+<text x="965" y="506" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">
+  <tspan x="965" dy="0">الطبقة <tspan font-weight="bold" fill="#c0392b">1:</tspan></tspan>
+  <tspan x="965" dy="32">مدخل الشبكة</tspan>
+</text>
+<text x="669" y="570" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="25" fill="#152b42">
+  <tspan x="669" dy="0">Layer <tspan font-weight="bold" fill="#c0392b">1:</tspan></tspan>
+  <tspan x="669" dy="32">Network entry</tspan>
+</text>
+<text x="629" y="490" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">
+  <tspan x="629" dy="0">منع الاتصال غير المصرح به</tspan>
+  <tspan x="629" dy="32">باستخدام <tspan font-weight="bold" fill="#17457f">جدار الحماية</tspan></tspan>
+</text>
+<text x="115" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="25" fill="#152b42">
+  <tspan x="115" dy="0">Block unauthorized</tspan>
+  <tspan x="115" dy="32">communication using</tspan>
+  <tspan x="115" dy="32">a <tspan font-weight="bold" fill="#17457f">firewall</tspan></tspan>
+</text>
+
+<!-- Row 2 -->
+<text x="965" y="670" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">
+  <tspan x="965" dy="0">الطبقة <tspan font-weight="bold" fill="#c0392b">2:</tspan></tspan>
+  <tspan x="965" dy="32">مسار الاتصال</tspan>
+</text>
+<text x="669" y="734" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="25" fill="#152b42">
+  <tspan x="669" dy="0">Layer <tspan font-weight="bold" fill="#c0392b">2:</tspan></tspan>
+  <tspan x="669" dy="32">Communication path</tspan>
+</text>
+<text x="629" y="670" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">
+  <tspan x="629" dy="0">تشفير الاتصال باستخدام</tspan>
+  <tspan x="629" dy="32"><tspan font-weight="bold" fill="#17457f">الشبكة الافتراضية الخاصة</tspan></tspan>
+</text>
+<text x="115" y="734" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="25" fill="#152b42">
+  <tspan x="115" dy="0">Encrypt communication</tspan>
+  <tspan x="115" dy="32">using a <tspan font-weight="bold" fill="#17457f">VPN</tspan></tspan>
+</text>
+
+<!-- Row 3 -->
+<text x="965" y="850" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">
+  <tspan x="965" dy="0">الطبقة <tspan font-weight="bold" fill="#c0392b">3:</tspan></tspan>
+  <tspan x="965" dy="32">وضع الخوادم</tspan>
+</text>
+<text x="669" y="914" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="25" fill="#152b42">
+  <tspan x="669" dy="0">Layer <tspan font-weight="bold" fill="#c0392b">3:</tspan></tspan>
+  <tspan x="669" dy="32">Server placement</tspan>
+</text>
+<text x="629" y="818" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">
+  <tspan x="629" dy="0">فصل الخوادم المواجهة للجمهور عن</tspan>
+  <tspan x="629" dy="32">الشبكة الداخلية باستخدام</tspan>
+  <tspan x="629" dy="32"><tspan font-weight="bold" fill="#17457f">المنطقة المعزولة (DMZ)</tspan></tspan>
+</text>
+<text x="115" y="914" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="25" fill="#152b42">
+  <tspan x="115" dy="0">Separate public-facing servers</tspan>
+  <tspan x="115" dy="32">from the internal network</tspan>
+  <tspan x="115" dy="32">using a <tspan font-weight="bold" fill="#17457f">DMZ</tspan></tspan>
+</text>
+
+<!-- Row 4 -->
+<text x="965" y="1046" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">
+  <tspan x="965" dy="0">الطبقة <tspan font-weight="bold" fill="#c0392b">4:</tspan></tspan>
+  <tspan x="965" dy="32">الأجهزة الطرفية</tspan>
+</text>
+<text x="669" y="1110" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="25" fill="#152b42">
+  <tspan x="669" dy="0">Layer <tspan font-weight="bold" fill="#c0392b">4:</tspan></tspan>
+  <tspan x="669" dy="32">Endpoints</tspan>
+</text>
+<text x="629" y="1030" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">
+  <tspan x="629" dy="0">تثبيت <tspan font-weight="bold" fill="#17457f">برنامج مكافحة الفيروسات</tspan></tspan>
+  <tspan x="629" dy="32">والحفاظ على تحديث نظام التشغيل</tspan>
+</text>
+<text x="115" y="1094" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="25" fill="#152b42">
+  <tspan x="115" dy="0">Install <tspan font-weight="bold" fill="#17457f">antivirus software</tspan></tspan>
+  <tspan x="115" dy="32">and keep the operating system</tspan>
+  <tspan x="115" dy="32">updated</tspan>
+</text>
+</svg>

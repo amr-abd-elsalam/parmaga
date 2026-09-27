@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Card shadow and fill -->
+<rect x="109" y="848" width="870" height="328" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="842" width="870" height="328" rx="16" fill="#fdf6d8" stroke="#e0c46a" stroke-width="2"/>
+<rect x="961" y="858" width="6" height="296" rx="3" fill="#e0a55e"/>
+
+<!-- Thin navy lines on the left edge of English blocks -->
+<line x1="114" y1="328" x2="114" y2="362" stroke="#17457f" stroke-width="2" stroke-linecap="round"/>
+<line x1="114" y1="488" x2="114" y2="602" stroke="#17457f" stroke-width="2" stroke-linecap="round"/>
+<line x1="114" y1="728" x2="114" y2="802" stroke="#17457f" stroke-width="2" stroke-linecap="round"/>
+<line x1="134" y1="1008" x2="134" y2="1162" stroke="#17457f" stroke-width="2" stroke-linecap="round"/>
+
+<!-- Icon: shield (security) beside section header -->
+<g transform="translate(118 252)">
+  <path d="M28 4 L50 12 L50 28 C50 42 40 50 28 54 C16 50 6 42 6 28 L6 12 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18 29 L25 36 L39 21" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: house (remote work) -->
+<g transform="translate(900 500)">
+  <rect x="10" y="24" width="36" height="28" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M4 28 L28 6 L52 28 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="23" y="36" width="10" height="16" fill="#7d4f28" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: connected nodes (branches) -->
+<g transform="translate(900 744)">
+  <line x1="10" y1="44" x2="28" y2="10" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="28" y1="10" x2="46" y2="44" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="10" y1="44" x2="46" y2="44" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="28" cy="10" r="8" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="10" cy="44" r="8" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="46" cy="44" r="8" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: lock inside card -->
+<g transform="translate(127 852)">
+  <path d="M16 26 L16 18 C16 6 40 6 40 18 L40 26" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="8" y="24" width="40" height="30" rx="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="28" cy="37" r="4" fill="#22303f"/>
+  <rect x="26.5" y="38" width="3" height="9" fill="#22303f"/>
+</g>
+
+<!-- Face: surprise (important fact) -->
+<g transform="translate(910 1104)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="0" cy="10" r="5" fill="#22303f"/>
+</g>
+
+<!-- Titles -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">
+  <tspan x="540" dy="0">استخدامات الشبكة</tspan>
+  <tspan x="540" dy="52">الافتراضية الخاصة</tspan>
+</text>
+<text x="540" y="208" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" fill="#152b42">Uses of a VPN</text>
+
+<!-- Section header -->
+<text x="950" y="274" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="950" dy="0">(2) الاستخدامات الرئيسية</tspan>
+  <tspan x="950" dy="40">للشبكة الافتراضية الخاصة:</tspan>
+</text>
+<text x="132" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">(2) Main uses of a VPN:</text>
+
+<!-- Item 1 -->
+<text x="950" y="434" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">①</tspan> <tspan font-weight="bold" fill="#17457f">العمل عن بُعد:</tspan> الاتصال بأمان بشبكة المؤسسة</tspan>
+  <tspan x="950" dy="40">من المنزل أو أثناء التنقل.</tspan>
+</text>
+<text x="132" y="514" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#c0392b">①</tspan> <tspan font-weight="bold" fill="#17457f">Remote work:</tspan> connecting securely to</tspan>
+  <tspan x="132" dy="40">the organization's network from home</tspan>
+  <tspan x="132" dy="40">or while traveling.</tspan>
+</text>
+
+<!-- Item 2 -->
+<text x="950" y="674" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">②</tspan> <tspan font-weight="bold" fill="#17457f">ربط الفروع:</tspan> ربط المكاتب</tspan>
+  <tspan x="950" dy="40">في مواقع مختلفة بأمان.</tspan>
+</text>
+<text x="132" y="754" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#c0392b">②</tspan> <tspan font-weight="bold" fill="#17457f">Connecting branches:</tspan> securely linking</tspan>
+  <tspan x="132" dy="40">offices in different locations.</tspan>
+</text>
+
+<!-- Soft yellow box -->
+<text x="935" y="874" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">(3) نظرًا لأن محتوى الاتصال <tspan font-weight="bold" fill="#17457f">يُشفَّر</tspan> عند</tspan>
+  <tspan x="935" dy="40">استخدام الشبكة الافتراضية الخاصة،</tspan>
+  <tspan x="935" dy="40"><tspan font-weight="bold" fill="#2e7d32">تقل مخاطر التنصت</tspan> حتى عند</tspan>
+  <tspan x="935" dy="40">استخدام شبكة Wi-Fi عامة.</tspan>
+</text>
+<text x="150" y="1034" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="150" dy="0">(3) Because communication content is</tspan>
+  <tspan x="150" dy="40"><tspan font-weight="bold" fill="#17457f">encrypted</tspan> when using a VPN, the risk</tspan>
+  <tspan x="150" dy="40">of eavesdropping is <tspan font-weight="bold" fill="#2e7d32">reduced</tspan> even on</tspan>
+  <tspan x="150" dy="40">public Wi-Fi.</tspan>
+</text>
+</svg>

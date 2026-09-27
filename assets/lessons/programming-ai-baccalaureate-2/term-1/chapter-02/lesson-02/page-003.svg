@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Functional navy lines on the left edge of English paragraphs -->
+<line x1="106" y1="368" x2="106" y2="562" stroke="#17457f" stroke-width="2" stroke-linecap="round"/>
+<line x1="106" y1="848" x2="106" y2="1162" stroke="#17457f" stroke-width="2" stroke-linecap="round"/>
+
+<!-- Thinking face beside the title -->
+<g transform="translate(160 150)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Network icon -->
+<g transform="translate(125 286)">
+  <line x1="10" y1="44" x2="28" y2="12" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="28" y1="12" x2="46" y2="44" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="10" y1="44" x2="46" y2="44" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="28" cy="12" r="8" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="10" cy="44" r="8" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="46" cy="44" r="8" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Lock icon -->
+<g transform="translate(900 418)">
+  <path d="M16 26 V18 A12 12 0 0 1 40 18 V26" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="8" y="26" width="40" height="28" rx="6" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="28" cy="37" r="4" fill="#22303f"/>
+  <rect x="26.5" y="39" width="3" height="8" rx="1.5" fill="#22303f"/>
+</g>
+
+<!-- Layered shield icon -->
+<g transform="translate(125 690)">
+  <path d="M28 2 L52 11 V28 C52 42 42 51 28 56 C14 51 4 42 4 28 V11 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M28 12 L42 17 V28 C42 36 36 42 28 45 C20 42 14 36 14 28 V17 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M28 22 L34 24.5 V29 C34 32 31.5 34.5 28 35.5 C24.5 34.5 22 32 22 29 V24.5 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Layers icon -->
+<g transform="translate(902 960)">
+  <path d="M28 30 L54 42 L28 54 L2 42 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M28 18 L54 30 L28 42 L2 30 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M28 6 L54 18 L28 30 L2 18 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Arabic title -->
+<text x="540"
+      y="116"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="middle"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="44"
+      font-weight="bold"
+      fill="#1a4f8a">
+  <tspan x="540" dy="0">لماذا لا تكفي</tspan>
+  <tspan x="540" dy="56">وسيلة حماية واحدة؟</tspan>
+</text>
+
+<!-- English title -->
+<text x="540"
+      y="222"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="middle"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="28"
+      fill="#152b42">Why Is One Protective Measure Not Enough?</text>
+
+<!-- Paragraph 1: Arabic -->
+<text x="950"
+      y="274"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="950" dy="0">في الدرس 2-1 تعلمت كيف تحمي تقنيات <tspan font-weight="bold" fill="#17457f">التشفير</tspan></tspan>
+  <tspan x="950" dy="40"><tspan font-weight="bold" fill="#17457f">والمصادقة</tspan> الاتصالَ والحسابات. في هذا الدرس</tspan>
+  <tspan x="950" dy="40">ستوسّع الحماية إلى <tspan font-weight="bold" fill="#17457f">تصميم الشبكة</tspan> نفسها.</tspan>
+</text>
+
+<!-- Paragraph 1: English -->
+<text x="120"
+      y="394"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="120" dy="0">In Lesson 2-1, you learned how</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#17457f">encryption</tspan> and <tspan font-weight="bold" fill="#17457f">authentication</tspan> protect</tspan>
+  <tspan x="120" dy="40">communication and accounts. In this</tspan>
+  <tspan x="120" dy="40">lesson, you will extend protection</tspan>
+  <tspan x="120" dy="40">to the <tspan font-weight="bold" fill="#17457f">design of the network</tspan> itself.</tspan>
+</text>
+
+<!-- Paragraph 2: Arabic -->
+<text x="950"
+      y="634"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="950" dy="0">تحتفظ شبكات المؤسسات ببيانات وخدمات مهمة</tspan>
+  <tspan x="950" dy="40">قد يحاول مهاجم الوصول إليها.</tspan>
+  <tspan x="950" dy="40">ولا تكفي وسيلة حماية واحدة؛ فإذا فشلت،</tspan>
+  <tspan x="950" dy="40">قد تتعرض موارد أخرى للخطر. لذلك يُستخدم</tspan>
+  <tspan x="950" dy="40"><tspan font-weight="bold" fill="#c0392b">الدفاع في العمق،</tspan> فتعمل <tspan font-weight="bold" fill="#17457f">طبقات متعددة</tspan> على تقليل</tspan>
+  <tspan x="950" dy="40">احتمال الاختراق والحد من أثره.</tspan>
+</text>
+
+<!-- Paragraph 2: English -->
+<text x="120"
+      y="874"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="120" dy="0">Organizations' networks hold important</tspan>
+  <tspan x="120" dy="40">data and services that an attacker may</tspan>
+  <tspan x="120" dy="40">try to reach. A single protective measure</tspan>
+  <tspan x="120" dy="40">is not enough: if it fails, other</tspan>
+  <tspan x="120" dy="40">resources may be put at risk. That is why</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#c0392b">defense in depth</tspan> is used: <tspan font-weight="bold" fill="#17457f">multiple layers</tspan></tspan>
+  <tspan x="120" dy="40">work to reduce the likelihood of a breach</tspan>
+  <tspan x="120" dy="40">and limit its impact.</tspan>
+</text>
+</svg>

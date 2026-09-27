@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Card shadow -->
+<rect x="109" y="1008" width="870" height="168" rx="16" fill="#22303f" opacity=".12"/>
+
+<!-- Key-term card (Main idea) -->
+<rect x="105" y="1002" width="870" height="168" rx="16" fill="#fdf6d8" stroke="#e0c46a" stroke-width="2"/>
+<rect x="961" y="1018" width="6" height="136" rx="3" fill="#e0a55e"/>
+
+<!-- Thin navy lines at the left edge of English blocks -->
+<line x1="106" y1="372" x2="106" y2="562" stroke="#152b42" stroke-width="2" stroke-linecap="round"/>
+<line x1="106" y1="892" x2="106" y2="962" stroke="#152b42" stroke-width="2" stroke-linecap="round"/>
+<line x1="126" y1="1092" x2="126" y2="1162" stroke="#152b42" stroke-width="2" stroke-linecap="round"/>
+
+<!-- Title icon: shield -->
+<g transform="translate(118 86)">
+  <path d="M28 4 L50 12 L50 28 C50 42 40 50 28 54 C16 50 6 42 6 28 L6 12 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18 29 L25 36 L38 21" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Diagram: concentric layers around a database -->
+<g>
+  <circle cx="540" cy="684" r="40" fill="#dff1f7" stroke="#2f7fb5" stroke-width="2.5"/>
+  <circle cx="540" cy="684" r="58" fill="none" stroke="#2f7fb5" stroke-width="2.5"/>
+  <circle cx="540" cy="684" r="78" fill="none" stroke="#2f7fb5" stroke-width="2.5"/>
+  <path d="M 630.6 641.7 A 100 100 0 1 1 574.2 590.0" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 621.9 626.6 A 100 100 0 0 1 630.6 641.7" fill="none" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 574.2 590.0 A 100 100 0 0 1 590 597.4" fill="none" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+  <path d="M522 670 L522 698 A18 6 0 0 0 558 698 L558 670 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M522 684 A18 6 0 0 0 558 684" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <ellipse cx="540" cy="670" rx="18" ry="6" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon left of diagram: lock -->
+<g transform="translate(330 656)">
+  <path d="M16 24 L16 16 C16 4 40 4 40 16 L40 24" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="8" y="24" width="40" height="30" rx="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="28" cy="37" r="4" fill="#22303f"/>
+  <rect x="26" y="38" width="4" height="9" fill="#22303f"/>
+</g>
+
+<!-- Icon right of diagram: check badge -->
+<g transform="translate(694 656)">
+  <circle cx="28" cy="28" r="24" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M17 29 L25 37 L40 20" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Card icon: star -->
+<g transform="translate(150 1010)">
+  <polygon points="25,3 30.3,17.7 45.9,18.2 33.6,27.8 37.9,42.8 25,34 12.1,42.8 16.4,27.8 4.1,18.2 19.7,17.7" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Titles -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">4. الدفاع في العمق</text>
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" fill="#152b42">4. Defense in Depth</text>
+
+<!-- Definition: Arabic -->
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">(1) <tspan font-weight="bold" fill="#c0392b">الدفاع في العمق</tspan> <tspan font-weight="bold" fill="#c0392b">Defense in Depth</tspan>:</tspan>
+  <tspan x="950" dy="40">استخدام <tspan font-weight="bold" fill="#17457f">طبقات متعددة</tspan> من الضوابط الأمنية،</tspan>
+  <tspan x="950" dy="40">بحيث تساعد طبقات أخرى على تقليل الخطر والحد</tspan>
+  <tspan x="950" dy="40">من أثر الاختراق إذا فشلت إحدى الطبقات.</tspan>
+</text>
+
+<!-- Definition: English -->
+<text x="120" y="394" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">(1) <tspan font-weight="bold" fill="#c0392b">Defense in depth</tspan>: using</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#17457f">multiple layers</tspan> of security controls,</tspan>
+  <tspan x="120" dy="40">so that if one layer fails, other layers</tspan>
+  <tspan x="120" dy="40">help reduce the risk and limit the impact</tspan>
+  <tspan x="120" dy="40">of the breach.</tspan>
+</text>
+
+<!-- Caption: Arabic -->
+<text x="950" y="834" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">إذا فشلت طبقة حماية،</tspan>
+  <tspan x="950" dy="40">تبقى <tspan font-weight="bold" fill="#2e7d32">طبقات أخرى</tspan> تقلل الخطر.</tspan>
+</text>
+
+<!-- Caption: English -->
+<text x="120" y="914" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">If one layer of protection fails,</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#2e7d32">other layers</tspan> remain to reduce the risk.</tspan>
+</text>
+
+<!-- Key-term card: Arabic -->
+<text x="935" y="1034" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">مصطلح أساسي: <tspan font-weight="bold" fill="#c0392b">الدفاع في العمق</tspan> —</tspan>
+  <tspan x="935" dy="40">تكديس الإجراءات الأمنية في طبقات متعددة.</tspan>
+</text>
+
+<!-- Key-term card: English -->
+<text x="140" y="1114" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">KEY TERM: <tspan font-weight="bold" fill="#c0392b">Defense in depth</tspan> — layering</tspan>
+  <tspan x="140" dy="40">security measures in multiple layers.</tspan>
+</text>
+</svg>
