@@ -25,6 +25,7 @@ import argparse
 import functools
 import hashlib
 import http.server
+import json
 import os
 import re
 import shutil
@@ -36,7 +37,17 @@ import threading
 LESSON_URL_PATH = (
     "/courses/programming-ai-baccalaureate-2/term-1/chapter-01/lesson-01/index.html"
 )
-EXPECTED_SVG_REFS = 22
+MANIFEST_REL_PATH = (
+    "docs/content/manifests/programming-ai-baccalaureate-2/term-1/chapter-01/lesson-01.json"
+)
+
+
+def expected_svg_refs(root):
+    """عدد صور الصفحات المتوقع يُقرأ من Manifest الدرس، لا رقمًا ثابتًا."""
+    path = os.path.join(root, *MANIFEST_REL_PATH.split("/"))
+    with open(path, "r", encoding="utf-8") as handle:
+        return json.load(handle)["declaredPageCount"]
+
 
 # مرساتان مقيستان حرفيًا من بايتات صفحة الدرس، لا مفترضتان.
 ARABIC_ANCHOR = "تطور تكنولوجيا المعلومات والتحول الاجتماعي"
@@ -357,14 +368,14 @@ def main(argv):
             results.append(
                 (
                     "M2 svg-refs-in-dom",
-                    "PASS" if svg_refs == EXPECTED_SVG_REFS else "FAIL",
-                    "%d refs, expected %d" % (svg_refs, EXPECTED_SVG_REFS),
+                    "PASS" if svg_refs == expected_svg_refs(root) else "FAIL",
+                    "%d refs, expected %d" % (svg_refs, expected_svg_refs(root)),
                     True,
                 )
             )
             blocking_failures += sum(
                 1 for value in (arabic, latin) if not value
-            ) + (0 if svg_refs == EXPECTED_SVG_REFS else 1)
+            ) + (0 if svg_refs == expected_svg_refs(root) else 1)
 
         preferred = working if ok else None
 
