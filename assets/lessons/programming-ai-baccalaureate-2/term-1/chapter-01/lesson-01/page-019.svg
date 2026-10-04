@@ -4,209 +4,234 @@
      viewBox="0 0 1080 1350"
      preserveAspectRatio="xMidYMid meet"
      style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-  <defs>
-    <linearGradient id="deskWood" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#a9773f"/>
-      <stop offset="0.55" stop-color="#8d5d2e"/>
-      <stop offset="1" stop-color="#734820"/>
-    </linearGradient>
-    <linearGradient id="paperTone" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fffdf6"/>
-      <stop offset="1" stop-color="#fbf6ea"/>
-    </linearGradient>
-  </defs>
+<!-- Shadows -->
+<rect x="109" y="688" width="870" height="368" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="169" y="1111" width="110" height="110" rx="10" fill="#22303f" opacity=".18"/>
+<rect x="349" y="1111" width="110" height="110" rx="10" fill="#22303f" opacity=".18"/>
+<rect x="529" y="1111" width="110" height="110" rx="10" fill="#22303f" opacity=".18"/>
+<rect x="709" y="1111" width="110" height="110" rx="10" fill="#22303f" opacity=".18"/>
+<rect x="876" y="1106" width="68" height="120" rx="4" fill="#22303f" opacity=".18"/>
 
-  <rect x="0" y="0" width="1080" height="1350" fill="url(#deskWood)"/>
-  <path d="M0 210 C 300 168, 760 262, 1080 208" stroke="#5f3a18" stroke-width="10" fill="none" opacity="0.10"/>
-  <path d="M0 1080 C 320 1032, 730 1136, 1080 1078" stroke="#5f3a18" stroke-width="12" fill="none" opacity="0.09"/>
+<!-- Info card -->
+<rect x="105" y="682" width="870" height="368" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="698" width="6" height="336" rx="3" fill="#2f7fb5"/>
 
-  <rect x="40" y="34" width="1018" height="1304" rx="6" fill="#3a2410" opacity="0.20"/>
-  <rect x="30" y="22" width="1020" height="1306" rx="6" fill="url(#paperTone)"/>
+<!-- Bullets -->
+<circle cx="966" cy="264" r="6" fill="#c0392b"/>
+<circle cx="114" cy="344" r="6" fill="#c0392b"/>
+<circle cx="966" cy="504" r="6" fill="#c0392b"/>
+<circle cx="114" cy="584" r="6" fill="#c0392b"/>
 
-  <g stroke="#cfe0f2" stroke-width="1.6">
-    <line x1="80" y1="100" x2="1000" y2="100"/>
-    <line x1="80" y1="138" x2="1000" y2="138"/>
-    <line x1="80" y1="176" x2="1000" y2="176"/>
-    <line x1="80" y1="214" x2="1000" y2="214"/>
-    <line x1="80" y1="252" x2="1000" y2="252"/>
-    <line x1="80" y1="290" x2="1000" y2="290"/>
-    <line x1="80" y1="328" x2="1000" y2="328"/>
-    <line x1="80" y1="366" x2="1000" y2="366"/>
-    <line x1="80" y1="404" x2="1000" y2="404"/>
-    <line x1="80" y1="442" x2="1000" y2="442"/>
-    <line x1="80" y1="480" x2="1000" y2="480"/>
-    <line x1="80" y1="518" x2="1000" y2="518"/>
-    <line x1="80" y1="556" x2="1000" y2="556"/>
-    <line x1="80" y1="594" x2="1000" y2="594"/>
-    <line x1="80" y1="632" x2="1000" y2="632"/>
-    <line x1="80" y1="670" x2="1000" y2="670"/>
-    <line x1="80" y1="708" x2="1000" y2="708"/>
-    <line x1="80" y1="746" x2="1000" y2="746"/>
-    <line x1="80" y1="784" x2="1000" y2="784"/>
-    <line x1="80" y1="822" x2="1000" y2="822"/>
-    <line x1="80" y1="860" x2="1000" y2="860"/>
-    <line x1="80" y1="898" x2="1000" y2="898"/>
-    <line x1="80" y1="936" x2="1000" y2="936"/>
-    <line x1="80" y1="974" x2="1000" y2="974"/>
-    <line x1="80" y1="1012" x2="1000" y2="1012"/>
-    <line x1="80" y1="1050" x2="1000" y2="1050"/>
-    <line x1="80" y1="1088" x2="1000" y2="1088"/>
-    <line x1="80" y1="1126" x2="1000" y2="1126"/>
-    <line x1="80" y1="1164" x2="1000" y2="1164"/>
-  </g>
+<!-- Arrows of the memory illustration -->
+<line x1="285" y1="1160" x2="326" y2="1160" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="338,1160 326,1153 326,1167" fill="#c0392b"/>
+<line x1="465" y1="1160" x2="506" y2="1160" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="518,1160 506,1153 506,1167" fill="#c0392b"/>
+<line x1="645" y1="1160" x2="686" y2="1160" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="698,1160 686,1153 686,1167" fill="#c0392b"/>
+<line x1="825" y1="1160" x2="853" y2="1160" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="865,1160 853,1153 853,1167" fill="#c0392b"/>
 
-  <rect x="67" y="58" width="946" height="1258" rx="4" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+<!-- Memory illustration: chips doubling transistors until a limit wall -->
+<g transform="translate(220 1160)">
+  <line x1="-30" y1="-55" x2="-30" y2="-65" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="-10" y1="-55" x2="-10" y2="-65" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="10" y1="-55" x2="10" y2="-65" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="30" y1="-55" x2="30" y2="-65" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="-30" y1="55" x2="-30" y2="65" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="-10" y1="55" x2="-10" y2="65" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="10" y1="55" x2="10" y2="65" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="30" y1="55" x2="30" y2="65" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="-55" y="-55" width="110" height="110" rx="10" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-40" y="-40" width="80" height="80" rx="6" fill="#17457f"/>
+  <rect x="-16" y="-7" width="14" height="14" rx="2" fill="#4fc3e8"/>
+  <rect x="2" y="-7" width="14" height="14" rx="2" fill="#4fc3e8"/>
+</g>
+<g transform="translate(400 1160)">
+  <line x1="-30" y1="-55" x2="-30" y2="-65" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="-10" y1="-55" x2="-10" y2="-65" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="10" y1="-55" x2="10" y2="-65" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="30" y1="-55" x2="30" y2="-65" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="-30" y1="55" x2="-30" y2="65" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="-10" y1="55" x2="-10" y2="65" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="10" y1="55" x2="10" y2="65" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="30" y1="55" x2="30" y2="65" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="-55" y="-55" width="110" height="110" rx="10" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-40" y="-40" width="80" height="80" rx="6" fill="#17457f"/>
+  <rect x="-16" y="-16" width="14" height="14" rx="2" fill="#4fc3e8"/>
+  <rect x="2" y="-16" width="14" height="14" rx="2" fill="#4fc3e8"/>
+  <rect x="-16" y="2" width="14" height="14" rx="2" fill="#4fc3e8"/>
+  <rect x="2" y="2" width="14" height="14" rx="2" fill="#4fc3e8"/>
+</g>
+<g transform="translate(580 1160)">
+  <line x1="-30" y1="-55" x2="-30" y2="-65" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="-10" y1="-55" x2="-10" y2="-65" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="10" y1="-55" x2="10" y2="-65" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="30" y1="-55" x2="30" y2="-65" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="-30" y1="55" x2="-30" y2="65" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="-10" y1="55" x2="-10" y2="65" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="10" y1="55" x2="10" y2="65" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="30" y1="55" x2="30" y2="65" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="-55" y="-55" width="110" height="110" rx="10" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-40" y="-40" width="80" height="80" rx="6" fill="#17457f"/>
+  <rect x="-34" y="-16" width="14" height="14" rx="2" fill="#4fc3e8"/>
+  <rect x="-16" y="-16" width="14" height="14" rx="2" fill="#4fc3e8"/>
+  <rect x="2" y="-16" width="14" height="14" rx="2" fill="#4fc3e8"/>
+  <rect x="20" y="-16" width="14" height="14" rx="2" fill="#4fc3e8"/>
+  <rect x="-34" y="2" width="14" height="14" rx="2" fill="#4fc3e8"/>
+  <rect x="-16" y="2" width="14" height="14" rx="2" fill="#4fc3e8"/>
+  <rect x="2" y="2" width="14" height="14" rx="2" fill="#4fc3e8"/>
+  <rect x="20" y="2" width="14" height="14" rx="2" fill="#4fc3e8"/>
+</g>
+<g transform="translate(760 1160)">
+  <line x1="-30" y1="-55" x2="-30" y2="-65" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="-10" y1="-55" x2="-10" y2="-65" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="10" y1="-55" x2="10" y2="-65" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="30" y1="-55" x2="30" y2="-65" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="-30" y1="55" x2="-30" y2="65" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="-10" y1="55" x2="-10" y2="65" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="10" y1="55" x2="10" y2="65" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="30" y1="55" x2="30" y2="65" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="-55" y="-55" width="110" height="110" rx="10" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-40" y="-40" width="80" height="80" rx="6" fill="#17457f"/>
+  <rect x="-34" y="-34" width="14" height="14" rx="2" fill="#4fc3e8"/>
+  <rect x="-16" y="-34" width="14" height="14" rx="2" fill="#4fc3e8"/>
+  <rect x="2" y="-34" width="14" height="14" rx="2" fill="#4fc3e8"/>
+  <rect x="20" y="-34" width="14" height="14" rx="2" fill="#4fc3e8"/>
+  <rect x="-34" y="-16" width="14" height="14" rx="2" fill="#4fc3e8"/>
+  <rect x="-16" y="-16" width="14" height="14" rx="2" fill="#4fc3e8"/>
+  <rect x="2" y="-16" width="14" height="14" rx="2" fill="#4fc3e8"/>
+  <rect x="20" y="-16" width="14" height="14" rx="2" fill="#4fc3e8"/>
+  <rect x="-34" y="2" width="14" height="14" rx="2" fill="#4fc3e8"/>
+  <rect x="-16" y="2" width="14" height="14" rx="2" fill="#4fc3e8"/>
+  <rect x="2" y="2" width="14" height="14" rx="2" fill="#4fc3e8"/>
+  <rect x="20" y="2" width="14" height="14" rx="2" fill="#4fc3e8"/>
+  <rect x="-34" y="20" width="14" height="14" rx="2" fill="#4fc3e8"/>
+  <rect x="-16" y="20" width="14" height="14" rx="2" fill="#4fc3e8"/>
+  <rect x="2" y="20" width="14" height="14" rx="2" fill="#4fc3e8"/>
+  <rect x="20" y="20" width="14" height="14" rx="2" fill="#4fc3e8"/>
+</g>
+<g>
+  <rect x="872" y="1100" width="68" height="120" rx="4" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="874" y="1102" width="64" height="12" rx="2" fill="#c0392b"/>
+  <line x1="872" y1="1130" x2="940" y2="1130" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="872" y1="1160" x2="940" y2="1160" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="872" y1="1190" x2="940" y2="1190" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="906" y1="1114" x2="906" y2="1130" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="889" y1="1130" x2="889" y2="1160" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="923" y1="1130" x2="923" y2="1160" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="906" y1="1160" x2="906" y2="1190" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="889" y1="1190" x2="889" y2="1220" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="923" y1="1190" x2="923" y2="1220" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+<g transform="translate(312 1120)">
+  <circle cx="0" cy="0" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M -7 -1 L 0 -8 L 7 -1 M -7 7 L 0 0 L 7 7" fill="none" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(492 1120)">
+  <circle cx="0" cy="0" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M -7 -1 L 0 -8 L 7 -1 M -7 7 L 0 0 L 7 7" fill="none" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(672 1120)">
+  <circle cx="0" cy="0" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M -7 -1 L 0 -8 L 7 -1 M -7 7 L 0 0 L 7 7" fill="none" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
 
-  <text x="540" y="108"
-        direction="rtl" unicode-bidi="plaintext" text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="42" font-weight="bold" fill="#14477e">طبّق ما تعلمت</text>
+<!-- Icon: chip beside bullet 1 -->
+<g transform="translate(880 410)">
+  <line x1="-12" y1="-26" x2="-12" y2="-18" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="0" y1="-26" x2="0" y2="-18" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="12" y1="-26" x2="12" y2="-18" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="-12" y1="18" x2="-12" y2="26" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="0" y1="18" x2="0" y2="26" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="12" y1="18" x2="12" y2="26" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="-26" y1="-12" x2="-18" y2="-12" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="-26" y1="0" x2="-18" y2="0" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="-26" y1="12" x2="-18" y2="12" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="18" y1="-12" x2="26" y2="-12" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="18" y1="0" x2="26" y2="0" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="18" y1="12" x2="26" y2="12" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="-18" y="-18" width="36" height="36" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-9" y="-9" width="18" height="18" rx="2" fill="#4fc3e8"/>
+</g>
 
-  <text x="540" y="147"
-        direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27" fill="#2f5074">Apply What You Learned</text>
+<!-- Icon: warning triangle beside bullet 2 -->
+<g transform="translate(220 520)">
+  <polygon points="0,-24 26,20 -26,20" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="-3" y="-10" width="6" height="16" rx="3" fill="#22303f"/>
+  <circle cx="0" cy="12" r="3.5" fill="#22303f"/>
+</g>
 
-  <line x1="404" y1="161" x2="676" y2="161" stroke="#b98b3a" stroke-width="2" opacity="0.8"/>
+<!-- Icon: open book beside card header -->
+<g transform="translate(620 722)">
+  <path d="M 0 -16 Q -13 -24 -26 -18 L -26 18 Q -13 12 0 20 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 0 -16 Q 13 -24 26 -18 L 26 18 Q 13 12 0 20 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="-20" y1="-8" x2="-6" y2="-6" stroke="#8fc9f2" stroke-width="1.4"/>
+  <line x1="-20" y1="0" x2="-6" y2="2" stroke="#8fc9f2" stroke-width="1.4"/>
+  <line x1="6" y1="-6" x2="20" y2="-8" stroke="#2f7fb5" stroke-width="1.4"/>
+  <line x1="6" y1="2" x2="20" y2="0" stroke="#2f7fb5" stroke-width="1.4"/>
+</g>
 
-  <rect x="95" y="176" width="890" height="340" rx="14" fill="#e8f4e6" stroke="#7fae83" stroke-width="2"/>
+<!-- Text -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">والآن اربط اللعبة <tspan font-weight="bold" fill="#17457f">بالكمبيوتر:</tspan></tspan>
+</text>
+<text x="120" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Now link the game to the <tspan font-weight="bold" fill="#17457f">computer:</tspan></tspan>
+</text>
 
-  <text x="955" y="218"
-        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30" font-weight="bold" fill="#1f6b3a">في سياق جديد</text>
+<text x="950" y="274" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">التضاعف</tspan> = عدد <tspan font-weight="bold" fill="#17457f">الترانزستورات</tspan> في الشريحة</tspan>
+  <tspan x="950" dy="40">يتضاعف تقريبًا كل عامين.</tspan>
+</text>
+<text x="132" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#c0392b">Doubling</tspan> = the number of <tspan font-weight="bold" fill="#17457f">transistors</tspan></tspan>
+  <tspan x="132" dy="40">on a chip roughly doubles about</tspan>
+  <tspan x="132" dy="40">every two years.</tspan>
+</text>
 
-  <text x="125" y="218"
-        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="25" fill="#2c7a4b">In a New Context</text>
+<text x="950" y="514" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">العجز عن الطي</tspan> = التصغير يقترب</tspan>
+  <tspan x="950" dy="40">الآن من <tspan font-weight="bold" fill="#17457f">حد فيزيائي.</tspan></tspan>
+</text>
+<text x="132" y="594" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#c0392b">Being unable to fold</tspan> = miniaturization</tspan>
+  <tspan x="132" dy="40">is now approaching a <tspan font-weight="bold" fill="#17457f">physical limit.</tspan></tspan>
+</text>
 
-  <text x="955" y="266"
-        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="27" fill="#1b4f8f">
-    <tspan x="955" dy="0">قرية لم يتوفر بها اتصال بالإنترنت من قبل، ثم اتصلت</tspan>
-    <tspan x="955" dy="33">بالإنترنت عالي السرعة، وأصبحت خدمات الدفع غير النقدي</tspan>
-    <tspan x="955" dy="33">متاحة فيها لأول مرة. بالاستعانة بمراحل التطور</tspan>
-    <tspan x="955" dy="33">والتغيرات الاجتماعية التي درستها:</tspan>
-  </text>
+<text x="935" y="714" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">مصطلحات أساسية</tspan>
+</text>
+<text x="140" y="754" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">KEY TERMS</tspan>
+</text>
 
-  <line x1="140" y1="386" x2="940" y2="386" stroke="#a8cba9" stroke-width="1.6" stroke-dasharray="7 7"/>
-
-  <text x="125" y="415"
-        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="25" fill="#16324f">
-    <tspan x="125" dy="0">A village that has never had Internet access is</tspan>
-    <tspan x="125" dy="28">connected to high-speed Internet, and cashless</tspan>
-    <tspan x="125" dy="28">payment becomes available for the first time.</tspan>
-    <tspan x="125" dy="28">Using the stages and social changes you studied:</tspan>
-  </text>
-
-  <text x="944" y="546"
-        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="27" font-weight="bold" fill="#1f6b3a">1.</text>
-
-  <text x="928" y="546"
-        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="27" fill="#1b4f8f">توقّع تغيرين قد يطرآن على الحياة اليومية.</text>
-
-  <text x="155" y="576"
-        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="24" fill="#16324f">Predict two ways daily life may change.</text>
-
-  <text x="944" y="614"
-        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="27" font-weight="bold" fill="#1f6b3a">2.</text>
-
-  <text x="928" y="614"
-        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="27" fill="#1b4f8f">حدّد مشكلة جديدة قد تواجه القرية.</text>
-
-  <text x="155" y="644"
-        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="24" fill="#16324f">Identify one new problem the village may face.</text>
-
-  <g>
-    <line x1="260" y1="744" x2="822" y2="744" stroke="#a08e72" stroke-width="2.5"/>
-
-    <polygon points="314,744 328,694 342,744" fill="none" stroke="#4a6b8a" stroke-width="2.5"/>
-    <line x1="319" y1="726" x2="337" y2="726" stroke="#4a6b8a" stroke-width="2"/>
-    <line x1="322" y1="712" x2="334" y2="712" stroke="#4a6b8a" stroke-width="2"/>
-    <circle cx="328" cy="692" r="3.5" fill="#c0392b"/>
-    <path d="M 339 683 A 16 16 0 0 1 339 705" fill="none" stroke="#4a6b8a" stroke-width="2"/>
-    <path d="M 346 676 A 26 26 0 0 1 346 712" fill="none" stroke="#4a6b8a" stroke-width="2" opacity="0.75"/>
-
-    <path d="M 498 708 A 16 16 0 0 1 504 678 A 22 22 0 0 1 546 676 A 16 16 0 0 1 552 708 Z"
-          fill="#dbe9f9" stroke="#6f9bd1" stroke-width="2"/>
-    <circle cx="512" cy="698" r="3" fill="#6f9bd1"/>
-    <circle cx="526" cy="692" r="3" fill="#6f9bd1"/>
-    <circle cx="540" cy="698" r="3" fill="#6f9bd1"/>
-
-    <path d="M 348 702 Q 420 676 496 694" fill="none" stroke="#c0504d" stroke-width="2.2" stroke-dasharray="8 6"/>
-    <path d="M 554 698 Q 600 684 646 706" fill="none" stroke="#c0504d" stroke-width="2.2" stroke-dasharray="8 6"/>
-
-    <rect x="636" y="714" width="46" height="30" fill="#f7edda" stroke="#7a6a55" stroke-width="2"/>
-    <polygon points="630,714 659,693 688,714" fill="#c98b6a" stroke="#7a6a55" stroke-width="2"/>
-    <rect x="652" y="728" width="14" height="16" fill="#a9764f" stroke="#7a6a55" stroke-width="1.4"/>
-
-    <rect x="696" y="706" width="52" height="38" fill="#f7edda" stroke="#7a6a55" stroke-width="2"/>
-    <polygon points="690,706 722,681 754,706" fill="#c98b6a" stroke="#7a6a55" stroke-width="2"/>
-    <rect x="705" y="714" width="14" height="12" fill="#dbe9f9" stroke="#7a6a55" stroke-width="1.4"/>
-    <rect x="728" y="724" width="14" height="20" fill="#a9764f" stroke="#7a6a55" stroke-width="1.4"/>
-
-    <rect x="762" y="718" width="42" height="26" fill="#f7edda" stroke="#7a6a55" stroke-width="2"/>
-    <polygon points="756,718 783,699 810,718" fill="#c98b6a" stroke="#7a6a55" stroke-width="2"/>
-    <rect x="776" y="728" width="13" height="16" fill="#a9764f" stroke="#7a6a55" stroke-width="1.4"/>
-  </g>
-
-  <rect x="95" y="758" width="890" height="404" rx="14" fill="#e6effb" stroke="#7ba7d9" stroke-width="2"/>
-
-  <text x="955" y="796"
-        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30" font-weight="bold" fill="#14477e">إجابة السؤال الرئيسي</text>
-
-  <text x="125" y="796"
-        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="25" fill="#2f5074">Lesson Question Answered</text>
-
-  <text x="955" y="840"
-        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="26" fill="#1b4f8f">
-    <tspan x="955" dy="0">تطورت تكنولوجيا المعلومات عبر مراحل متتابعة؛ وفي كل مرحلة</tspan>
-    <tspan x="955" dy="30">أصبحت الأجهزة أصغر وأسرع وأكثر اتصالًا. وأدى ذلك إلى تغير</tspan>
-    <tspan x="955" dy="30">طرق الوصول إلى المعلومات والتواصل والعمل والتعلم والدفع.</tspan>
-    <tspan x="955" dy="30">كما انتقلت تكنولوجيا المعلومات من أجهزة منفردة إلى خدمات</tspan>
-    <tspan x="955" dy="30">رقمية متصلة تدعم تحليل البيانات والذكاء الاصطناعي.</tspan>
-  </text>
-
-  <line x1="140" y1="978" x2="940" y2="978" stroke="#9dbfe0" stroke-width="1.6" stroke-dasharray="7 7"/>
-
-  <text x="125" y="1000"
-        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="24" fill="#16324f">
-    <tspan x="125" dy="0">Information technology developed through a series of</tspan>
-    <tspan x="125" dy="26">stages. At each stage, devices became smaller, faster,</tspan>
-    <tspan x="125" dy="26">and more connected. This changed how people access</tspan>
-    <tspan x="125" dy="26">information, communicate, work, learn, and pay.</tspan>
-    <tspan x="125" dy="26">Information technology also moved from individual</tspan>
-    <tspan x="125" dy="26">machines to connected digital services supporting</tspan>
-  </text>
-
-  <text x="125" y="1152"
-        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="24" fill="#16324f">data analysis and AI.</text>
-
+<text x="935" y="794" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">قانون مور</tspan> (Moore's Law) — ملاحظة تقول</tspan>
+  <tspan x="935" dy="40">إن عدد الترانزستورات في الدائرة المتكاملة</tspan>
+  <tspan x="935" dy="40"><tspan font-weight="bold" fill="#17457f">يتضاعف</tspan> تقريبًا كل عامين.</tspan>
+</text>
+<text x="140" y="914" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Moore's Law</tspan> — the observation that</tspan>
+  <tspan x="140" dy="40">the number of transistors on an</tspan>
+  <tspan x="140" dy="40">integrated circuit roughly <tspan font-weight="bold" fill="#17457f">doubles</tspan></tspan>
+  <tspan x="140" dy="40">every two years.</tspan>
+</text>
 </svg>

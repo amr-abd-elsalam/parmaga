@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilWall" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+</defs>
+
+<!-- Memory illustration: shadow and wall -->
+<rect x="109" y="956" width="866" height="290" rx="24" fill="#22303f" opacity=".18"/>
+<rect x="105" y="950" width="866" height="290" rx="24" fill="url(#ilWall)" stroke="#22303f" stroke-width="2.5"/>
+<path d="M107 1160 H969 V1216 Q969 1238 947 1238 H129 Q107 1238 107 1216 Z" fill="#e8dfd1"/>
+<ellipse cx="440" cy="1202" rx="210" ry="22" fill="#f0c48c"/>
+
+<!-- Window -->
+<g>
+  <rect x="140" y="985" width="120" height="95" rx="8" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="200" y1="985" x2="200" y2="1080" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="140" y1="1032" x2="260" y2="1032" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Plant -->
+<g>
+  <ellipse cx="172" cy="1128" rx="12" ry="26" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="198" cy="1124" rx="12" ry="28" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="185" cy="1118" rx="11" ry="30" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="160" y="1150" width="50" height="46" rx="6" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Armchair -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="262" y="1030" width="136" height="120" rx="26" fill="#c96a1b"/>
+  <rect x="248" y="1120" width="164" height="46" rx="14" fill="#f0c48c"/>
+  <rect x="236" y="1090" width="30" height="76" rx="12" fill="#c96a1b"/>
+  <rect x="394" y="1090" width="30" height="76" rx="12" fill="#c96a1b"/>
+  <line x1="258" y1="1166" x2="254" y2="1192"/>
+  <line x1="402" y1="1166" x2="406" y2="1192"/>
+</g>
+
+<!-- Grandfather -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="300" y="1126" width="110" height="26" rx="12" fill="#7f95ab"/>
+  <rect x="388" y="1140" width="22" height="50" rx="8" fill="#7f95ab"/>
+  <ellipse cx="404" cy="1194" rx="18" ry="8" fill="#22303f"/>
+  <path d="M290 1130 Q290 1088 330 1086 Q370 1088 370 1130 Z" fill="#17457f"/>
+  <circle cx="330" cy="1058" r="26" fill="#e8b98d"/>
+  <path d="M305 1052 Q306 1029 330 1029 Q354 1029 355 1052 Q345 1040 330 1040 Q315 1040 305 1052 Z" fill="#e8dfd1"/>
+  <path d="M312 1068 Q330 1094 348 1068 Q330 1076 312 1068 Z" fill="#e8dfd1"/>
+</g>
+<circle cx="321" cy="1054" r="3" fill="#22303f"/>
+<circle cx="339" cy="1054" r="3" fill="#22303f"/>
+
+<!-- Speech bubble with an old phone -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="392,1022 372,1046 410,1030" fill="#ffffff"/>
+  <ellipse cx="430" cy="1000" rx="56" ry="34" fill="#ffffff"/>
+  <path d="M406 1016 Q406 998 430 998 Q454 998 454 1016 Z" fill="#c0392b"/>
+  <rect x="402" y="984" width="56" height="10" rx="5" fill="#22303f"/>
+  <circle cx="430" cy="1008" r="5" fill="#ffffff"/>
+</g>
+
+<!-- Side table and tea cup -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="464" y="1142" width="12" height="50" fill="#7d4f28"/>
+  <rect x="430" y="1130" width="80" height="12" rx="4" fill="#7d4f28"/>
+  <rect x="455" y="1108" width="26" height="22" rx="5" fill="#ffffff"/>
+  <path d="M481 1113 Q492 1119 481 1125" fill="none"/>
+</g>
+
+<!-- Child with notebook -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="548" y1="1164" x2="544" y2="1196"/>
+  <line x1="596" y1="1164" x2="600" y2="1196"/>
+  <rect x="540" y="1150" width="64" height="14" rx="6" fill="#b07a45"/>
+  <rect x="550" y="1164" width="14" height="28" rx="6" fill="#17457f"/>
+  <rect x="580" y="1164" width="14" height="28" rx="6" fill="#17457f"/>
+  <path d="M538 1152 Q538 1106 572 1104 Q606 1106 606 1152 Z" fill="#2e7d32"/>
+  <circle cx="572" cy="1078" r="24" fill="#d59f6f"/>
+  <path d="M548 1076 Q548 1052 572 1052 Q596 1052 596 1076 Q584 1064 572 1066 Q558 1066 548 1076 Z" fill="#2b211c"/>
+  <rect x="518" y="1112" width="40" height="30" rx="3" fill="#ffffff"/>
+  <polygon points="540,1124 566,1100 572,1106 546,1130" fill="#ffd24a"/>
+  <path d="M563 1089 Q571 1095 579 1089" fill="none"/>
+</g>
+<circle cx="564" cy="1080" r="3" fill="#22303f"/>
+<circle cx="580" cy="1080" r="3" fill="#22303f"/>
+
+<!-- Timeline of five stations -->
+<line x1="660" y1="1010" x2="940" y2="1010" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="660" cy="1010" r="22" fill="#dff1f7"/>
+  <circle cx="730" cy="1010" r="22" fill="#dff1f7"/>
+  <circle cx="800" cy="1010" r="22" fill="#dff1f7"/>
+  <circle cx="870" cy="1010" r="22" fill="#dff1f7"/>
+  <circle cx="940" cy="1010" r="22" fill="#dff1f7"/>
+  <circle cx="660" cy="1010" r="10" fill="#ffd24a"/>
+  <path d="M716 1002 L730 1006 L744 1002 L744 1018 L730 1022 L716 1018 Z" fill="#ffffff"/>
+  <line x1="730" y1="1006" x2="730" y2="1022"/>
+  <rect x="788" y="1002" width="24" height="16" rx="2" fill="#ffffff"/>
+  <polyline points="788,1004 800,1012 812,1004" fill="none"/>
+  <rect x="862" y="997" width="16" height="26" rx="3" fill="#7f95ab"/>
+  <rect x="932" y="996" width="16" height="28" rx="4" fill="#22303f"/>
+</g>
+<rect x="865" y="1001" width="10" height="8" fill="#4fc3e8"/>
+<rect x="934" y="999" width="12" height="20" fill="#4fc3e8"/>
+
+<!-- Desk with laptop and magnifier -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="696" y="1164" width="12" height="50" fill="#7d4f28"/>
+  <rect x="922" y="1164" width="12" height="50" fill="#7d4f28"/>
+  <rect x="680" y="1150" width="270" height="14" rx="5" fill="#7d4f28"/>
+  <rect x="740" y="1068" width="130" height="74" rx="6" fill="#22303f"/>
+  <polygon points="726,1142 884,1142 896,1150 714,1150" fill="#7f95ab"/>
+</g>
+<rect x="748" y="1076" width="114" height="58" rx="3" fill="#4fc3e8"/>
+<circle cx="800" cy="1100" r="14" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+<line x1="810" y1="1110" x2="824" y2="1124" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+
+<!-- Text -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">أنشطة الباحث الصغير</text>
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" fill="#152b42">Young Researcher Activities</text>
+
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">الهدف من هذا الدرس أن <tspan font-weight="bold" fill="#17457f">تبحث وتفكر،</tspan></tspan>
+  <tspan x="950" dy="40">لا أن تحفظ فقط. جرّب هذه الأنشطة:</tspan>
+</text>
+<text x="120" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">The goal of this lesson is to <tspan font-weight="bold" fill="#17457f">research</tspan></tspan>
+  <tspan x="120" dy="40">and <tspan font-weight="bold" fill="#17457f">think,</tspan> not just memorize.</tspan>
+  <tspan x="120" dy="40">Try these activities:</tspan>
+</text>
+
+<text x="950" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">1 مقابلة مع العيلة</text>
+<text x="120" y="514" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">1 Interview your family</text>
+
+<text x="950" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">اسأل أحد والديك أو أجدادك:</tspan>
+  <tspan x="950" dy="40">كيف كنت تدفع <tspan fill="#c96a1b">الفواتير،</tspan> وتبحث عن <tspan fill="#c96a1b">معلومة،</tspan></tspan>
+  <tspan x="950" dy="40"><tspan fill="#c96a1b">وتراسل</tspan> أحدًا عندما كنت في عمري؟</tspan>
+</text>
+<text x="120" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Ask one of your parents or grandparents:</tspan>
+  <tspan x="120" dy="40">How did you pay <tspan fill="#c96a1b">bills,</tspan> look up</tspan>
+  <tspan x="120" dy="40"><tspan fill="#c96a1b">information,</tspan> and <tspan fill="#c96a1b">message</tspan> someone when</tspan>
+  <tspan x="120" dy="40">you were my age?</tspan>
+</text>
+
+<text x="950" y="834" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">ثم ضع كل إجابة في محطة من <tspan font-weight="bold" fill="#17457f">المحطات الخمس.</tspan></text>
+<text x="120" y="874" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Then place each answer in one of</tspan>
+  <tspan x="120" dy="40">the <tspan font-weight="bold" fill="#17457f">five stations.</tspan></tspan>
+</text>
+</svg>

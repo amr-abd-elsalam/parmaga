@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilPipe" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#e8dfd1"/>
+    <stop offset="1" stop-color="#7f95ab"/>
+  </linearGradient>
+  <linearGradient id="ilHeat" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#c96a1b"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Shadows -->
+<rect x="109" y="448" width="870" height="568" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="149" y="1121" width="90" height="90" rx="10" fill="#22303f" opacity=".18"/>
+<rect x="274" y="1136" width="60" height="60" rx="8" fill="#22303f" opacity=".18"/>
+<rect x="369" y="1148" width="36" height="36" rx="5" fill="#22303f" opacity=".18"/>
+<rect x="464" y="1086" width="130" height="24" rx="8" fill="#22303f" opacity=".18"/>
+<rect x="774" y="1126" width="110" height="110" rx="12" fill="#22303f" opacity=".18"/>
+
+<!-- Info card -->
+<rect x="105" y="442" width="870" height="568" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="458" width="6" height="536" rx="3" fill="#2f7fb5"/>
+
+<!-- Memory illustration part 1: transistors getting smaller -->
+<g>
+  <line x1="168" y1="1105" x2="168" y2="1115" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="190" y1="1105" x2="190" y2="1115" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="212" y1="1105" x2="212" y2="1115" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="168" y1="1205" x2="168" y2="1215" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="190" y1="1205" x2="190" y2="1215" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="212" y1="1205" x2="212" y2="1215" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="145" y="1115" width="90" height="90" rx="10" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="160" y="1130" width="60" height="60" rx="6" fill="#17457f"/>
+  <rect x="180" y="1150" width="20" height="20" rx="3" fill="#4fc3e8"/>
+
+  <line x1="285" y1="1120" x2="285" y2="1130" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="300" y1="1120" x2="300" y2="1130" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="315" y1="1120" x2="315" y2="1130" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="285" y1="1190" x2="285" y2="1200" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="300" y1="1190" x2="300" y2="1200" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="315" y1="1190" x2="315" y2="1200" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="270" y="1130" width="60" height="60" rx="8" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="280" y="1140" width="40" height="40" rx="5" fill="#17457f"/>
+  <rect x="293" y="1153" width="14" height="14" rx="2" fill="#4fc3e8"/>
+
+  <line x1="377" y1="1134" x2="377" y2="1142" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="391" y1="1134" x2="391" y2="1142" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="377" y1="1178" x2="377" y2="1186" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="391" y1="1178" x2="391" y2="1186" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="366" y="1142" width="36" height="36" rx="5" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="378" y="1154" width="12" height="12" rx="2" fill="#4fc3e8"/>
+
+  <line x1="160" y1="1240" x2="378" y2="1240" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="390,1240 378,1233 378,1247" fill="#c0392b"/>
+</g>
+
+<!-- Memory illustration part 2: closed tap that still drips -->
+<g>
+  <rect x="460" y="1080" width="130" height="24" rx="8" fill="url(#ilPipe)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="560" y="1100" width="24" height="40" rx="6" fill="url(#ilPipe)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="512" y="1064" width="12" height="18" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="490" y="1052" width="56" height="14" rx="7" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 572 1150 C 578 1160 582 1166 582 1170 A 10 10 0 0 1 562 1170 C 562 1166 566 1160 572 1150 Z" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 572 1188 C 577 1196 580 1201 580 1204 A 8 8 0 0 1 564 1204 C 564 1201 567 1196 572 1188 Z" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="572" cy="1240" rx="46" ry="9" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 548 1226 Q 572 1218 596 1226" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Memory illustration part 3: chip heating up -->
+<g>
+  <path d="M 790 1100 Q 780 1085 790 1070 Q 800 1055 790 1040" fill="none" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 825 1100 Q 815 1085 825 1070 Q 835 1055 825 1040" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 860 1100 Q 850 1085 860 1070 Q 870 1055 860 1040" fill="none" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="795" y1="1110" x2="795" y2="1120" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="825" y1="1110" x2="825" y2="1120" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="855" y1="1110" x2="855" y2="1120" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="795" y1="1230" x2="795" y2="1240" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="825" y1="1230" x2="825" y2="1240" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="855" y1="1230" x2="855" y2="1240" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="760" y1="1145" x2="770" y2="1145" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="760" y1="1175" x2="770" y2="1175" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="760" y1="1205" x2="770" y2="1205" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="880" y1="1145" x2="890" y2="1145" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="880" y1="1175" x2="890" y2="1175" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="880" y1="1205" x2="890" y2="1205" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="770" y="1120" width="110" height="110" rx="12" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="785" y="1135" width="80" height="80" rx="8" fill="url(#ilHeat)"/>
+  <circle cx="825" cy="1175" r="14" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: open book beside card header -->
+<g transform="translate(560 490)">
+  <path d="M 0 -16 Q -13 -24 -26 -18 L -26 18 Q -13 12 0 20 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 0 -16 Q 13 -24 26 -18 L 26 18 Q 13 12 0 20 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="-20" y1="-8" x2="-6" y2="-6" stroke="#8fc9f2" stroke-width="1.4"/>
+  <line x1="-20" y1="0" x2="-6" y2="2" stroke="#8fc9f2" stroke-width="1.4"/>
+  <line x1="6" y1="-6" x2="20" y2="-8" stroke="#2f7fb5" stroke-width="1.4"/>
+  <line x1="6" y1="2" x2="20" y2="0" stroke="#2f7fb5" stroke-width="1.4"/>
+</g>
+
+<!-- Face: surprise beside short English line -->
+<g transform="translate(880 388)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="0" cy="10" r="5" fill="#22303f"/>
+</g>
+
+<!-- Icon: water drop beside leakage definition -->
+<g transform="translate(890 950)">
+  <path d="M 0 -22 C 9 -8 16 2 16 8 A 16 16 0 0 1 -16 8 C -16 2 -9 -8 0 -22 Z" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M -7 6 Q -7 13 0 15" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Text -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">لماذا يتباطأ قانون مور؟</text>
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" fill="#152b42">Why Is Moore's Law Slowing Down?</text>
+
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">كلما صغُر الترانزستور، ظهرت <tspan font-weight="bold" fill="#17457f">مشكلات</tspan></tspan>
+  <tspan x="950" dy="40">لم تكن موجودة من قبل.</tspan>
+</text>
+<text x="120" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">The smaller the transistor gets,</tspan>
+  <tspan x="120" dy="40">the more <tspan font-weight="bold" fill="#17457f">new problems</tspan> appear that did</tspan>
+  <tspan x="120" dy="40">not exist before.</tspan>
+</text>
+
+<text x="935" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">مصطلحات أساسية</tspan>
+</text>
+<text x="140" y="514" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">KEY TERMS</tspan>
+</text>
+
+<text x="935" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">التصغير</tspan> — جعل الترانزستورات أصغر فأصغر</tspan>
+  <tspan x="935" dy="40">ليدخل عدد أكبر منها في الشريحة نفسها.</tspan>
+</text>
+<text x="140" y="634" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">miniaturization</tspan> — making transistors</tspan>
+  <tspan x="140" dy="40">smaller and smaller so more of them</tspan>
+  <tspan x="140" dy="40">fit on the same chip.</tspan>
+</text>
+
+<text x="935" y="754" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">تيار التسرب</tspan> — تيار يمر رغم أن الترانزستور</tspan>
+  <tspan x="935" dy="40">«مغلق»، فيضيع جزء من الطاقة ويسخن الجهاز.</tspan>
+  <tspan x="935" dy="40">مثل <tspan fill="#c96a1b">صنبور مغلق لكنه ينقّط.</tspan></tspan>
+</text>
+<text x="140" y="874" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">leakage current</tspan> — current that flows</tspan>
+  <tspan x="140" dy="40">even when the transistor is "off,"</tspan>
+  <tspan x="140" dy="40">wasting energy and heating the device.</tspan>
+  <tspan x="140" dy="40">Like a <tspan fill="#c96a1b">closed tap that still drips.</tspan></tspan>
+</text>
+</svg>
