@@ -12,6 +12,7 @@ Unknown صراحة بنص قسم Verification من ADR-0012.
 from __future__ import annotations
 
 import hashlib
+import json
 import os
 import re
 import unittest
@@ -27,7 +28,13 @@ ASSETS_REL = (
     "assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-01/lesson-01"
 )
 
-PAGE_COUNT = 22
+MANIFEST_REL = (
+    "docs/content/manifests/programming-ai-baccalaureate-2/term-1/chapter-01/"
+    "lesson-01.json"
+)
+
+with open(os.path.join(ROOT, MANIFEST_REL), "r", encoding="utf-8") as _manifest:
+    PAGE_COUNT = json.load(_manifest)["declaredPageCount"]
 PRINT_BLOCK_SHA1 = "f8bf32aa9b06dd8d72704d6abab9a37a987a14c3"
 PRINT_BLOCK_LINES = 98
 
@@ -85,7 +92,7 @@ class TestFullViewDefault(SourceTestCase):
         for call in ("loadPage(n, ", "loadPage(start, ", "loadPage(state.current, "):
             self.assertNotIn(call, self.js, "نداء يحمل معامل ثانيًا: " + call)
 
-    def test_static_pages_are_twenty_two_in_order(self):
+    def test_static_pages_match_manifest_count_in_order(self):
         ids = re.findall(r'<li class="lesson-page" id="page-(\d+)"', self.html)
         self.assertEqual([str(i) for i in range(1, PAGE_COUNT + 1)], ids)
 
@@ -477,7 +484,7 @@ class TestPrintContractFrozen(SourceTestCase):
 class TestLessonAssetsUntouched(unittest.TestCase):
     """أصول SVG خارج النطاق — عددها وأسماؤها كما هي."""
 
-    def test_twenty_two_canonical_assets(self):
+    def test_canonical_assets_match_manifest_count(self):
         directory = os.path.join(ROOT, ASSETS_REL)
         names = sorted(
             name for name in os.listdir(directory) if name.endswith(".svg")
