@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="ilCar" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+</defs>
+
+<!-- Instruction strip (Main idea card, no header) -->
+<rect x="109" y="288" width="870" height="168" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="282" width="870" height="168" rx="16" fill="#fdf6d8" stroke="#e0c46a" stroke-width="2"/>
+<rect x="961" y="298" width="6" height="136" rx="3" fill="#e0a55e"/>
+
+<!-- Illustration: the car moves while the cloud has not replied -->
+<g>
+  <rect x="105" y="740" width="870" height="288" rx="24" fill="url(#ilSky)" stroke="#9db9d6" stroke-width="2"/>
+  <!-- faraway cloud -->
+  <path d="M 155 798 C 132 798 132 770 156 770 C 160 754 186 752 198 764 C 210 750 240 752 244 768 C 268 764 282 790 266 798 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- hourglass -->
+  <rect x="302" y="758" width="28" height="5" rx="2" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="306,763 326,763 316,776 326,789 306,789 316,776" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="310,766 322,766 316,773" fill="#c96a1b"/>
+  <polygon points="310,789 322,789 316,782" fill="#c96a1b"/>
+  <rect x="302" y="789" width="28" height="5" rx="2" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <!-- long dashed arrow from the cloud toward the car -->
+  <path d="M 342 786 Q 405 788 440 818" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="10 8"/>
+  <polygon points="446,824 434,821 442,812" fill="#c0392b"/>
+  <!-- road -->
+  <rect x="106" y="868" width="868" height="84" fill="#7f95ab"/>
+  <rect x="130" y="873" width="60" height="5" rx="2.5" fill="#ffffff"/>
+  <rect x="250" y="873" width="60" height="5" rx="2.5" fill="#ffffff"/>
+  <rect x="370" y="873" width="60" height="5" rx="2.5" fill="#ffffff"/>
+  <rect x="490" y="873" width="60" height="5" rx="2.5" fill="#ffffff"/>
+  <rect x="610" y="873" width="60" height="5" rx="2.5" fill="#ffffff"/>
+  <rect x="730" y="873" width="60" height="5" rx="2.5" fill="#ffffff"/>
+  <rect x="850" y="873" width="60" height="5" rx="2.5" fill="#ffffff"/>
+  <!-- speed lines -->
+  <line x1="362" y1="846" x2="404" y2="846" stroke="#2f7fb5" stroke-width="3" stroke-linecap="round"/>
+  <line x1="372" y1="858" x2="408" y2="858" stroke="#2f7fb5" stroke-width="3" stroke-linecap="round"/>
+  <!-- earlier position of the car -->
+  <g transform="translate(420 920)" opacity=".35">
+    <path d="M 0 -16 L 0 -42 Q 1 -52 12 -55 L 40 -59 L 66 -82 Q 72 -88 82 -88 L 138 -88 Q 148 -88 155 -81 L 177 -59 L 190 -56 Q 200 -53 200 -42 L 200 -16 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M 52 -60 L 72 -79 L 96 -79 L 96 -60 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M 104 -79 L 136 -79 Q 141 -79 145 -75 L 160 -60 L 104 -60 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="40" cy="-14" r="15" fill="#22303f"/>
+    <circle cx="160" cy="-14" r="15" fill="#22303f"/>
+  </g>
+  <!-- car in motion -->
+  <g transform="translate(570 920)">
+    <ellipse cx="100" cy="2" rx="104" ry="5" fill="#22303f" opacity=".18"/>
+    <path d="M 0 -16 L 0 -42 Q 1 -52 12 -55 L 40 -59 L 66 -82 Q 72 -88 82 -88 L 138 -88 Q 148 -88 155 -81 L 177 -59 L 190 -56 Q 200 -53 200 -42 L 200 -16 Z" fill="url(#ilCar)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M 52 -60 L 72 -79 L 96 -79 L 96 -60 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M 104 -79 L 136 -79 Q 141 -79 145 -75 L 160 -60 L 104 -60 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <line x1="100" y1="-54" x2="100" y2="-22" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <ellipse cx="194" cy="-44" rx="4" ry="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="2" y="-48" width="6" height="8" rx="2" fill="#c0392b"/>
+    <circle cx="40" cy="-14" r="15" fill="#22303f"/>
+    <circle cx="40" cy="-14" r="6" fill="#e8dfd1"/>
+    <circle cx="160" cy="-14" r="15" fill="#22303f"/>
+    <circle cx="160" cy="-14" r="6" fill="#e8dfd1"/>
+  </g>
+  <!-- measuring bracket on the road -->
+  <line x1="420" y1="906" x2="420" y2="926" stroke="#ffffff" stroke-width="2" stroke-dasharray="4 4"/>
+  <line x1="570" y1="906" x2="570" y2="926" stroke="#ffffff" stroke-width="2" stroke-dasharray="4 4"/>
+  <line x1="420" y1="928" x2="420" y2="948" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <line x1="570" y1="928" x2="570" y2="948" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <line x1="424" y1="938" x2="566" y2="938" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="421,938 431,933 431,943" fill="#ffffff"/>
+  <polygon points="569,938 559,933 559,943" fill="#ffffff"/>
+  <!-- stopwatch above the car -->
+  <rect x="694" y="760" width="12" height="8" rx="2" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="700" cy="790" r="20" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 700 790 L 700 772 A 18 18 0 0 1 710.6 775.4 Z" fill="#c0392b"/>
+  <line x1="700" y1="790" x2="700" y2="776" stroke="#17457f" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="700" cy="790" r="3.5" fill="#22303f"/>
+</g>
+
+<!-- Header icon: stopwatch -->
+<g transform="translate(125 94)">
+  <rect x="22" y="4" width="12" height="8" rx="2" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="28" cy="32" r="20" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="28" y1="32" x2="28" y2="18" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+  <line x1="28" y1="32" x2="37" y2="36" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="28" cy="32" r="3.5" fill="#22303f"/>
+</g>
+
+<!-- Header icon: cloud -->
+<g transform="translate(899 94)">
+  <path d="M 14 42 C 2 42 2 26 14 26 C 16 14 32 12 36 22 C 48 18 56 30 48 42 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Strip icon: pencil -->
+<g transform="translate(125 290)">
+  <polygon points="14,34 40,8 48,16 22,42" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="40,8 44,4 52,12 48,16" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="14,34 22,42 8,48" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="8,48 11,41 15,45" fill="#22303f"/>
+</g>
+
+<!-- Face: surprise (important fact) -->
+<g transform="translate(180 554)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="0" cy="10" r="5" fill="#22303f"/>
+</g>
+
+<!-- Bottom icon row -->
+<g transform="translate(412 1187)">
+  <path d="M 14 42 C 2 42 2 26 14 26 C 16 14 32 12 36 22 C 48 18 56 30 48 42 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+<g transform="translate(512 1187)">
+  <line x1="18" y1="4" x2="18" y2="52" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="28" y1="4" x2="28" y2="52" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="38" y1="4" x2="38" y2="52" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="4" y1="18" x2="52" y2="18" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="4" y1="28" x2="52" y2="28" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="4" y1="38" x2="52" y2="38" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="10" y="10" width="36" height="36" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="20" y="20" width="16" height="16" rx="3" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+</g>
+<g transform="translate(612 1187)">
+  <rect x="22" y="4" width="12" height="8" rx="2" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="28" cy="32" r="20" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="28" y1="32" x2="28" y2="18" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+  <line x1="28" y1="32" x2="37" y2="36" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="28" cy="32" r="3.5" fill="#22303f"/>
+</g>
+
+<!-- Page titles -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">
+  <tspan x="540" dy="0">الحوسبة الطرفية: لماذا</tspan>
+  <tspan x="540" dy="48">لا تنتظر السيارة السحابة؟</tspan>
+</text>
+<text x="540" y="202" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="normal" fill="#152b42">
+  <tspan x="540" dy="0">Edge Computing: Why Doesn't the Car</tspan>
+  <tspan x="540" dy="36">Wait for the Cloud?</tspan>
+</text>
+
+<!-- Instruction strip text -->
+<text x="935" y="314" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">احسبها:</tspan> سيارة تسير بسرعة 100 كم/ساعة</tspan>
+  <tspan x="935" dy="40">تقطع نحو <tspan fill="#c96a1b">27.8 مترًا</tspan> في الثانية.</tspan>
+</text>
+<text x="140" y="394" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Calculate:</tspan> A car moving at 100 km/h</tspan>
+  <tspan x="140" dy="40">covers about <tspan fill="#c96a1b">27.8 meters</tspan> per second.</tspan>
+</text>
+
+<!-- Paragraph -->
+<text x="950" y="514" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">إذن في <tspan fill="#c96a1b">0.1 ثانية</tspan> فقط تتحرك نحو <tspan fill="#c96a1b">2.8 متر،</tspan></tspan>
+  <tspan x="950" dy="40">أي قرابة ثلاثة أرباع طول سيارة صغيرة،</tspan>
+  <tspan x="950" dy="40">قبل أن «تفكر»!</tspan>
+</text>
+<text x="120" y="634" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">So in just <tspan fill="#c96a1b">0.1 seconds</tspan> it moves about</tspan>
+  <tspan x="120" dy="40"><tspan fill="#c96a1b">2.8 meters,</tspan> about three-quarters of a</tspan>
+  <tspan x="120" dy="40">small car's length, before it "thinks"!</tspan>
+</text>
+
+<!-- Illustration labels -->
+<text x="870" y="794" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">0.1 ثانية</text>
+<text x="480" y="794" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">0.1 seconds</text>
+<text x="640" y="994" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">2.8 متر</text>
+<text x="355" y="994" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">2.8 meters</text>
+<text x="380" y="834" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">السحابة</text>
+<text x="120" y="834" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">The cloud</text>
+
+<!-- Caption -->
+<text x="950" y="1074" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">لو انتظرت السيارة <tspan font-weight="bold" fill="#17457f">السحابة،</tspan><tspan> قد </tspan><tspan font-weight="bold" fill="#c0392b">يتأخر</tspan><tspan> القرار.</tspan></text>
+<text x="120" y="1114" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">If the car waited for the <tspan font-weight="bold" fill="#17457f">cloud,</tspan></tspan>
+  <tspan x="120" dy="40">the decision could come <tspan font-weight="bold" fill="#c0392b">too late.</tspan></tspan>
+</text>
+</svg>

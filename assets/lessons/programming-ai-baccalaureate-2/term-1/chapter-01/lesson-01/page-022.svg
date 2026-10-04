@@ -4,276 +4,132 @@
      viewBox="0 0 1080 1350"
      preserveAspectRatio="xMidYMid meet"
      style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-  <defs>
-    <linearGradient id="deskWood" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#b07b45"/>
-      <stop offset="0.55" stop-color="#96633399"/>
-      <stop offset="1" stop-color="#7c4f28"/>
-    </linearGradient>
-    <linearGradient id="paperTone" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fefcf5"/>
-      <stop offset="1" stop-color="#fbf6e9"/>
-    </linearGradient>
-  </defs>
+<!-- Shadow -->
+<rect x="109" y="568" width="870" height="608" rx="16" fill="#22303f" opacity=".12"/>
 
-  <rect x="0" y="0" width="1080" height="1350" fill="url(#deskWood)"/>
-  <path d="M0 250 C 300 210, 780 300, 1080 250" fill="none" stroke="#6d431f" stroke-width="16" opacity="0.10"/>
-  <path d="M0 1010 C 320 1060, 760 970, 1080 1020" fill="none" stroke="#6d431f" stroke-width="14" opacity="0.09"/>
+<!-- Success card -->
+<rect x="105" y="562" width="870" height="608" rx="16" fill="#e9f7ee" stroke="#a9dcbe" stroke-width="2"/>
+<rect x="961" y="578" width="6" height="576" rx="3" fill="#2e7d32"/>
 
-  <rect x="42" y="40" width="1012" height="1290" rx="8" fill="#000000" opacity="0.16"/>
-  <rect x="34" y="30" width="1012" height="1290" rx="8" fill="url(#paperTone)"/>
+<!-- Icon: pencil beside question 2 -->
+<g transform="translate(200 170) rotate(-40)">
+  <rect x="-22" y="-7" width="36" height="14" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="-30" y="-7" width="8" height="14" rx="2" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="14,-7 28,0 14,7" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="23,-2.5 28,0 23,2.5" fill="#22303f"/>
+</g>
 
-  <g stroke="#c9dcee" stroke-width="1.4">
-    <line x1="82" y1="110" x2="998" y2="110"/>
-    <line x1="82" y1="150" x2="998" y2="150"/>
-    <line x1="82" y1="190" x2="998" y2="190"/>
-    <line x1="82" y1="230" x2="998" y2="230"/>
-    <line x1="82" y1="270" x2="998" y2="270"/>
-    <line x1="82" y1="310" x2="998" y2="310"/>
-    <line x1="82" y1="350" x2="998" y2="350"/>
-    <line x1="82" y1="390" x2="998" y2="390"/>
-    <line x1="82" y1="430" x2="998" y2="430"/>
-    <line x1="82" y1="470" x2="998" y2="470"/>
-    <line x1="82" y1="510" x2="998" y2="510"/>
-    <line x1="82" y1="550" x2="998" y2="550"/>
-    <line x1="82" y1="590" x2="998" y2="590"/>
-    <line x1="82" y1="630" x2="998" y2="630"/>
-    <line x1="82" y1="670" x2="998" y2="670"/>
-    <line x1="82" y1="710" x2="998" y2="710"/>
-    <line x1="82" y1="750" x2="998" y2="750"/>
-    <line x1="82" y1="790" x2="998" y2="790"/>
-    <line x1="82" y1="830" x2="998" y2="830"/>
-    <line x1="82" y1="870" x2="998" y2="870"/>
-    <line x1="82" y1="910" x2="998" y2="910"/>
-    <line x1="82" y1="950" x2="998" y2="950"/>
-    <line x1="82" y1="990" x2="998" y2="990"/>
-    <line x1="82" y1="1030" x2="998" y2="1030"/>
-    <line x1="82" y1="1070" x2="998" y2="1070"/>
-    <line x1="82" y1="1110" x2="998" y2="1110"/>
-    <line x1="82" y1="1150" x2="998" y2="1150"/>
-    <line x1="82" y1="1190" x2="998" y2="1190"/>
-    <line x1="82" y1="1230" x2="998" y2="1230"/>
-    <line x1="82" y1="1270" x2="998" y2="1270"/>
-  </g>
+<!-- Face: thinking beside question 3 -->
+<g transform="translate(880 505)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
 
-  <rect x="67" y="62" width="946" height="1253" rx="6" fill="none" stroke="#c0392b" stroke-width="3"/>
+<!-- Icon: check badge beside card header -->
+<g transform="translate(600 610)">
+  <circle cx="0" cy="0" r="22" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M -10 0 L -3 8 L 11 -8" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
 
-  <text x="540"
-        y="118"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="46"
-        font-weight="bold"
-        fill="#1b3a63">تأمّل وتحدَّ نفسك</text>
+<!-- Bottom icon row -->
+<g transform="translate(400 1222)">
+  <polygon points="0,-24 5.9,-8.1 22.8,-7.4 9.5,3.1 14.1,19.4 0,10 -14.1,19.4 -9.5,3.1 -22.8,-7.4 -5.9,-8.1" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+<g transform="translate(540 1222)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+<g transform="translate(680 1222)">
+  <line x1="-26" y1="-10" x2="-18" y2="-10" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="-26" y1="0" x2="-18" y2="0" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="-26" y1="10" x2="-18" y2="10" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="18" y1="-10" x2="26" y2="-10" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="18" y1="0" x2="26" y2="0" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="18" y1="10" x2="26" y2="10" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="-10" y1="-26" x2="-10" y2="-18" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="0" y1="-26" x2="0" y2="-18" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="10" y1="-26" x2="10" y2="-18" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="-10" y1="18" x2="-10" y2="26" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="0" y1="18" x2="0" y2="26" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="10" y1="18" x2="10" y2="26" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="-18" y="-18" width="36" height="36" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-9" y="-9" width="18" height="18" rx="2" fill="#4fc3e8"/>
+</g>
 
-  <text x="540"
-        y="162"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="30"
-        fill="#1f4e79">Reflect and Challenge</text>
+<!-- Text -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">2.</tspan> كم مرة يجب أن <tspan font-weight="bold" fill="#c0392b">نضاعف</tspan> العدد 1</tspan>
+  <tspan x="950" dy="40">لنصل إلى هذا الناتج؟</tspan>
+</text>
+<text x="120" y="234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">2.</tspan> How many <tspan font-weight="bold" fill="#c0392b">doublings</tspan> take 1 up to</tspan>
+  <tspan x="120" dy="40">this result?</tspan>
+</text>
 
-  <line x1="392" y1="178" x2="688" y2="178" stroke="#7ba7d7" stroke-width="2"/>
+<text x="950" y="354" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">3.</tspan> اقسم عدد السنوات (2022 − 1971 = 51 سنة)</tspan>
+  <tspan x="950" dy="40">على <tspan font-weight="bold" fill="#17457f">عدد المضاعفات.</tspan> ماذا تلاحظ؟</tspan>
+</text>
+<text x="120" y="434" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">3.</tspan> Divide the number of years</tspan>
+  <tspan x="120" dy="40">(2022 − 1971 = 51 years) by the number</tspan>
+  <tspan x="120" dy="40">of <tspan font-weight="bold" fill="#17457f">doublings.</tspan> What do you notice?</tspan>
+</text>
 
-  <rect x="95" y="190" width="890" height="540" rx="18" fill="#eaf2fb" stroke="#7ba7d7" stroke-width="2"/>
+<text x="935" y="594" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#2e7d32">
+  <tspan x="935" dy="0">الحل</tspan>
+</text>
+<text x="140" y="634" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#2e7d32">
+  <tspan x="140" dy="0">Solution</tspan>
+</text>
 
-  <circle cx="955" cy="226" r="7" fill="#2f6fad"/>
+<text x="935" y="674" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">1. 114,000,000,000 ÷ 2,300 ≈ 50 مليون ضعف</tspan>
+  <tspan x="935" dy="40">تقريبًا.</tspan>
+</text>
+<text x="140" y="754" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">1. 114,000,000,000 ÷ 2,300 ≈ about</tspan>
+  <tspan x="140" dy="40">50 million times.</tspan>
+</text>
 
-  <text x="940"
-        y="236"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        fill="#1c4f8a">
-    <tspan x="940" dy="0">أي مرحلة من مراحل تطور تكنولوجيا المعلومات</tspan>
-    <tspan x="940" dy="38">تعتقد أنها ستكون الأكثر أهمية خلال السنوات</tspan>
-    <tspan x="940" dy="38">العشر القادمة؟ اذكر سببًا واحدًا.</tspan>
-  </text>
+<text x="935" y="834" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">2. نحو 25 إلى 26 مضاعفة، لأن 2 أس 25</tspan>
+  <tspan x="935" dy="40">≈ 33 مليونًا، و2 أس 26 ≈ 67 مليونًا.</tspan>
+</text>
+<text x="140" y="914" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">2. About 25 to 26 doublings, because</tspan>
+  <tspan x="140" dy="40">2 to the power 25 ≈ 33 million, and</tspan>
+  <tspan x="140" dy="40">2 to the power 26 ≈ 67 million.</tspan>
+</text>
 
-  <text x="125"
-        y="352"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26"
-        fill="#16324f">
-    <tspan x="125" dy="0">Which stage of information technology do you think will</tspan>
-    <tspan x="125" dy="34">matter most in the next ten years? Give one reason.</tspan>
-  </text>
-
-  <g stroke="#b9cfe4" stroke-width="1.6">
-    <line x1="130" y1="428" x2="950" y2="428"/>
-    <line x1="130" y1="472" x2="950" y2="472"/>
-  </g>
-
-  <circle cx="955" cy="506" r="7" fill="#2f6fad"/>
-
-  <text x="940"
-        y="516"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        fill="#1c4f8a">
-    <tspan x="940" dy="0">هل كان توقّعك في بداية الدرس صحيحًا؟</tspan>
-    <tspan x="940" dy="38">ما الذي غيّر رأيك؟</tspan>
-  </text>
-
-  <text x="125"
-        y="594"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26"
-        fill="#16324f">
-    <tspan x="125" dy="0">Was your prediction at the start of the lesson correct?</tspan>
-    <tspan x="125" dy="34">What changed your mind?</tspan>
-  </text>
-
-  <g stroke="#b9cfe4" stroke-width="1.6">
-    <line x1="130" y1="670" x2="950" y2="670"/>
-    <line x1="130" y1="712" x2="950" y2="712"/>
-  </g>
-
-  <rect x="95" y="752" width="890" height="412" rx="18" fill="#fdf1e0" stroke="#e08b33" stroke-width="2"/>
-
-  <text x="940"
-        y="800"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        fill="#a4560d">
-    <tspan x="940" dy="0">اختر تقنية ناشئة واحدة من الدرس:</tspan>
-  </text>
-
-  <text x="125"
-        y="836"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26"
-        fill="#a4560d">
-    <tspan x="125" dy="0">Choose one emerging technology from the lesson:</tspan>
-  </text>
-
-  <rect x="105" y="852" width="204" height="84" rx="12" fill="#fffdf8" stroke="#e0a86a" stroke-width="2"/>
-  <rect x="117" y="864" width="16" height="16" rx="3" fill="#ffffff" stroke="#c98a3c" stroke-width="2"/>
-  <text x="215"
-        y="890"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="19"
-        fill="#1c4f8a">القيادة الذاتية</text>
-  <text x="215"
-        y="916"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="16"
-        fill="#16324f">Autonomous Driving</text>
-
-  <rect x="327" y="852" width="204" height="84" rx="12" fill="#fffdf8" stroke="#e0a86a" stroke-width="2"/>
-  <rect x="339" y="864" width="16" height="16" rx="3" fill="#ffffff" stroke="#c98a3c" stroke-width="2"/>
-  <text x="437"
-        y="890"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="19"
-        fill="#1c4f8a">الواقع المعزز</text>
-  <text x="437"
-        y="916"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="16"
-        fill="#16324f">AR</text>
-
-  <rect x="549" y="852" width="204" height="84" rx="12" fill="#fffdf8" stroke="#e0a86a" stroke-width="2"/>
-  <rect x="561" y="864" width="16" height="16" rx="3" fill="#ffffff" stroke="#c98a3c" stroke-width="2"/>
-  <text x="659"
-        y="890"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="19"
-        fill="#1c4f8a">الواقع الافتراضي</text>
-  <text x="659"
-        y="916"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="16"
-        fill="#16324f">VR</text>
-
-  <rect x="771" y="852" width="204" height="84" rx="12" fill="#fffdf8" stroke="#e0a86a" stroke-width="2"/>
-  <rect x="783" y="864" width="16" height="16" rx="3" fill="#ffffff" stroke="#c98a3c" stroke-width="2"/>
-  <text x="881"
-        y="890"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="19"
-        fill="#1c4f8a">الحوسبة الكمومية</text>
-  <text x="881"
-        y="916"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="16"
-        fill="#16324f">Quantum Computing</text>
-
-  <circle cx="955" cy="958" r="7" fill="#d2801f"/>
-
-  <text x="940"
-        y="968"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        fill="#1c4f8a">
-    <tspan x="940" dy="0">اقترح طريقة يمكن أن تساعد بها التقنية المختارة على حل</tspan>
-    <tspan x="940" dy="36">مشكلة حقيقية، واذكر خطرًا محتملًا واحدًا.</tspan>
-  </text>
-
-  <text x="125"
-        y="1040"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26"
-        fill="#16324f">
-    <tspan x="125" dy="0">Suggest one way the chosen technology could help solve</tspan>
-    <tspan x="125" dy="32">a real problem, and state one possible risk.</tspan>
-  </text>
-
-  <g stroke="#e6c49a" stroke-width="1.6">
-    <line x1="130" y1="1108" x2="950" y2="1108"/>
-    <line x1="130" y1="1146" x2="950" y2="1146"/>
-  </g>
-
+<text x="935" y="1034" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">3. 51 ÷ 25.6 ≈ سنتان.</tspan>
+  <tspan x="935" dy="40">لقد اكتشفت قانون مور بنفسك!</tspan>
+</text>
+<text x="140" y="1114" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">3. 51 ÷ 25.6 ≈ two years. You have</tspan>
+  <tspan x="140" dy="40">discovered Moore's Law yourself!</tspan>
+</text>
 </svg>

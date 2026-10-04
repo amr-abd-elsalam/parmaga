@@ -4,200 +4,193 @@
      viewBox="0 0 1080 1350"
      preserveAspectRatio="xMidYMid meet"
      style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-  <defs>
-    <linearGradient id="deskWood" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#b8804a"/>
-      <stop offset="0.55" stop-color="#a06a38"/>
-      <stop offset="1" stop-color="#8a5629"/>
-    </linearGradient>
-    <linearGradient id="paperTone" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fefcf5"/>
-      <stop offset="1" stop-color="#faf5e7"/>
-    </linearGradient>
-  </defs>
+<!-- Shadows -->
+<rect x="109" y="208" width="870" height="208" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="109" y="1048" width="870" height="128" rx="10" fill="#22303f" opacity=".12"/>
+<rect x="119" y="966" width="850" height="18" rx="6" fill="#22303f" opacity=".18"/>
+<rect x="139" y="984" width="810" height="30" fill="#22303f" opacity=".18"/>
+<rect x="134" y="956" width="90" height="10" rx="3" fill="#22303f" opacity=".18"/>
+<rect x="294" y="946" width="90" height="20" rx="3" fill="#22303f" opacity=".18"/>
+<rect x="454" y="926" width="90" height="40" rx="3" fill="#22303f" opacity=".18"/>
+<rect x="614" y="886" width="90" height="80" rx="3" fill="#22303f" opacity=".18"/>
+<rect x="804" y="806" width="110" height="160" rx="4" fill="#22303f" opacity=".18"/>
 
-  <!-- 1. الخلفية البسيطة -->
-  <rect x="0" y="0" width="1080" height="1350" fill="url(#deskWood)"/>
-  <path d="M0 210 C 300 250, 760 150, 1080 205" stroke="#7d4d24" stroke-width="10" fill="none" opacity="0.12"/>
-  <path d="M0 1120 C 320 1070, 780 1170, 1080 1110" stroke="#7d4d24" stroke-width="12" fill="none" opacity="0.10"/>
+<!-- Instruction strip (Main idea card, no header) -->
+<rect x="105" y="202" width="870" height="208" rx="16" fill="#fdf6d8" stroke="#e0c46a" stroke-width="2"/>
+<rect x="961" y="218" width="6" height="176" rx="3" fill="#e0a55e"/>
 
-  <!-- 2. الورق -->
-  <rect x="40" y="32" width="1012" height="1298" fill="#6b421d" opacity="0.22" rx="8"/>
-  <rect x="34" y="26" width="1012" height="1298" fill="url(#paperTone)" rx="8"/>
+<!-- Key sentence strip (caption) -->
+<rect x="105" y="1042" width="870" height="128" rx="10" fill="#fdf6d8"/>
+<rect x="961" y="1058" width="6" height="96" rx="3" fill="#e0a55e"/>
 
-  <!-- 3. سطور الدفتر الزرقاء الباهتة -->
-  <g stroke="#b9d3e6" stroke-width="1.2" opacity="0.5">
-    <line x1="52" y1="150" x2="1028" y2="150"/>
-    <line x1="52" y1="182" x2="1028" y2="182"/>
-    <line x1="52" y1="214" x2="1028" y2="214"/>
-    <line x1="52" y1="246" x2="1028" y2="246"/>
-    <line x1="52" y1="278" x2="1028" y2="278"/>
-    <line x1="52" y1="310" x2="1028" y2="310"/>
-    <line x1="52" y1="342" x2="1028" y2="342"/>
-    <line x1="52" y1="374" x2="1028" y2="374"/>
-    <line x1="52" y1="406" x2="1028" y2="406"/>
-    <line x1="52" y1="438" x2="1028" y2="438"/>
-    <line x1="52" y1="470" x2="1028" y2="470"/>
-    <line x1="52" y1="502" x2="1028" y2="502"/>
-    <line x1="52" y1="534" x2="1028" y2="534"/>
-    <line x1="52" y1="566" x2="1028" y2="566"/>
-    <line x1="52" y1="598" x2="1028" y2="598"/>
-    <line x1="52" y1="630" x2="1028" y2="630"/>
-    <line x1="52" y1="662" x2="1028" y2="662"/>
-    <line x1="52" y1="694" x2="1028" y2="694"/>
-    <line x1="52" y1="726" x2="1028" y2="726"/>
-    <line x1="52" y1="758" x2="1028" y2="758"/>
-    <line x1="52" y1="790" x2="1028" y2="790"/>
-    <line x1="52" y1="822" x2="1028" y2="822"/>
-    <line x1="52" y1="854" x2="1028" y2="854"/>
-    <line x1="52" y1="886" x2="1028" y2="886"/>
-    <line x1="52" y1="918" x2="1028" y2="918"/>
-    <line x1="52" y1="950" x2="1028" y2="950"/>
-    <line x1="52" y1="982" x2="1028" y2="982"/>
-    <line x1="52" y1="1014" x2="1028" y2="1014"/>
-    <line x1="52" y1="1046" x2="1028" y2="1046"/>
-    <line x1="52" y1="1078" x2="1028" y2="1078"/>
-    <line x1="52" y1="1110" x2="1028" y2="1110"/>
-    <line x1="52" y1="1142" x2="1028" y2="1142"/>
-    <line x1="52" y1="1174" x2="1028" y2="1174"/>
-    <line x1="52" y1="1206" x2="1028" y2="1206"/>
-    <line x1="52" y1="1238" x2="1028" y2="1238"/>
-    <line x1="52" y1="1270" x2="1028" y2="1270"/>
+<!-- Illustration: doubling paper stacks -->
+<g>
+  <circle cx="855" cy="830" r="110" fill="#dff1f7"/>
+  <rect x="115" y="960" width="850" height="18" rx="6" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="135" y="978" width="810" height="30" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <rect x="130" y="950" width="90" height="10" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <rect x="290" y="940" width="90" height="20" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="296" y1="950" x2="374" y2="950" stroke="#8fc9f2" stroke-width="1.4"/>
+
+  <rect x="450" y="920" width="90" height="40" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="456" y1="930" x2="534" y2="930" stroke="#8fc9f2" stroke-width="1.4"/>
+  <line x1="456" y1="940" x2="534" y2="940" stroke="#8fc9f2" stroke-width="1.4"/>
+  <line x1="456" y1="950" x2="534" y2="950" stroke="#8fc9f2" stroke-width="1.4"/>
+
+  <rect x="610" y="880" width="90" height="80" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="616" y1="890" x2="694" y2="890" stroke="#8fc9f2" stroke-width="1.4"/>
+  <line x1="616" y1="900" x2="694" y2="900" stroke="#8fc9f2" stroke-width="1.4"/>
+  <line x1="616" y1="910" x2="694" y2="910" stroke="#8fc9f2" stroke-width="1.4"/>
+  <line x1="616" y1="920" x2="694" y2="920" stroke="#8fc9f2" stroke-width="1.4"/>
+  <line x1="616" y1="930" x2="694" y2="930" stroke="#8fc9f2" stroke-width="1.4"/>
+  <line x1="616" y1="940" x2="694" y2="940" stroke="#8fc9f2" stroke-width="1.4"/>
+  <line x1="616" y1="950" x2="694" y2="950" stroke="#8fc9f2" stroke-width="1.4"/>
+
+  <rect x="800" y="800" width="110" height="160" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="806" y1="810" x2="904" y2="810" stroke="#8fc9f2" stroke-width="1.4"/>
+  <line x1="806" y1="820" x2="904" y2="820" stroke="#8fc9f2" stroke-width="1.4"/>
+  <line x1="806" y1="830" x2="904" y2="830" stroke="#8fc9f2" stroke-width="1.4"/>
+  <line x1="806" y1="840" x2="904" y2="840" stroke="#8fc9f2" stroke-width="1.4"/>
+  <line x1="806" y1="850" x2="904" y2="850" stroke="#8fc9f2" stroke-width="1.4"/>
+  <line x1="806" y1="860" x2="904" y2="860" stroke="#8fc9f2" stroke-width="1.4"/>
+  <line x1="806" y1="870" x2="904" y2="870" stroke="#8fc9f2" stroke-width="1.4"/>
+  <line x1="806" y1="880" x2="904" y2="880" stroke="#8fc9f2" stroke-width="1.4"/>
+  <line x1="806" y1="890" x2="904" y2="890" stroke="#8fc9f2" stroke-width="1.4"/>
+  <line x1="806" y1="900" x2="904" y2="900" stroke="#8fc9f2" stroke-width="1.4"/>
+  <line x1="806" y1="910" x2="904" y2="910" stroke="#8fc9f2" stroke-width="1.4"/>
+  <line x1="806" y1="920" x2="904" y2="920" stroke="#8fc9f2" stroke-width="1.4"/>
+  <line x1="806" y1="930" x2="904" y2="930" stroke="#8fc9f2" stroke-width="1.4"/>
+  <line x1="806" y1="940" x2="904" y2="940" stroke="#8fc9f2" stroke-width="1.4"/>
+  <line x1="806" y1="950" x2="904" y2="950" stroke="#8fc9f2" stroke-width="1.4"/>
+
+  <line x1="228" y1="930" x2="272" y2="930" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="282,930 270,923 270,937" fill="#c0392b"/>
+  <line x1="388" y1="930" x2="432" y2="930" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="442,930 430,923 430,937" fill="#c0392b"/>
+  <line x1="548" y1="930" x2="592" y2="930" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="602,930 590,923 590,937" fill="#c0392b"/>
+  <line x1="710" y1="930" x2="778" y2="930" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="788,930 776,923 776,937" fill="#c0392b"/>
+
+  <g transform="translate(255 890)">
+    <circle cx="0" cy="0" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M -7 -1 L 0 -8 L 7 -1 M -7 7 L 0 0 L 7 7" fill="none" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(415 890)">
+    <circle cx="0" cy="0" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M -7 -1 L 0 -8 L 7 -1 M -7 7 L 0 0 L 7 7" fill="none" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(575 890)">
+    <circle cx="0" cy="0" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M -7 -1 L 0 -8 L 7 -1 M -7 7 L 0 0 L 7 7" fill="none" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(749 890)">
+    <circle cx="0" cy="0" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M -7 -1 L 0 -8 L 7 -1 M -7 7 L 0 0 L 7 7" fill="none" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 
-  <!-- 4. الإطار الأحمر الخارجي الوحيد -->
-  <rect x="67" y="62" width="946" height="1240" rx="6" fill="none" stroke="#c62828" stroke-width="2.4"/>
+  <path d="M 770 700 L 805 700 L 845 778 L 812 784 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 935 700 L 970 700 L 902 784 L 869 778 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="834" cy="792" rx="26" ry="12" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="880" cy="792" rx="26" ry="12" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 822 787 L 822 797 M 834 786 L 834 798 M 846 787 L 846 797" fill="none" stroke="#b57e50" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 868 787 L 868 797 M 880 786 L 880 798 M 892 787 L 892 797" fill="none" stroke="#b57e50" stroke-width="2.5" stroke-linecap="round"/>
 
-  <!-- 5. خلفيات الألواح والجدول -->
-  <rect x="100" y="165" width="880" height="42" rx="10" fill="#dcefd7" stroke="#7ba871" stroke-width="1.5"/>
-  <rect x="100" y="428" width="880" height="42" rx="10" fill="#dcefd7" stroke="#7ba871" stroke-width="1.5"/>
-  <rect x="100" y="866" width="880" height="42" rx="10" fill="#dcefd7" stroke="#7ba871" stroke-width="1.5"/>
-  <rect x="95" y="632" width="890" height="48" fill="#e9f5e5"/>
-  <rect x="100" y="1040" width="880" height="126" rx="12" fill="#fdf6d9" stroke="#d9c46e" stroke-width="1.6"/>
+  <path d="M 788 830 L 774 824 M 788 860 L 770 860 M 788 890 L 774 896" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M 922 830 L 936 824 M 922 860 L 940 860 M 922 890 L 936 896" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+</g>
 
-  <!-- 6. خطوط الجدول الوظيفية -->
-  <g stroke="#c1443f" stroke-width="1.6" fill="none">
-    <rect x="95" y="632" width="890" height="222"/>
-    <line x1="95" y1="680" x2="985" y2="680"/>
-    <line x1="95" y1="730" x2="985" y2="730"/>
-    <line x1="95" y1="780" x2="985" y2="780"/>
-    <line x1="515" y1="632" x2="515" y2="854"/>
-    <line x1="750" y1="632" x2="750" y2="854"/>
-  </g>
+<!-- Icon: star in instruction strip -->
+<g transform="translate(152 234)">
+  <polygon points="0,-24 5.9,-8.1 22.8,-7.4 9.5,3.1 14.1,19.4 0,10 -14.1,19.4 -9.5,3.1 -22.8,-7.4 -5.9,-8.1" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
 
-  <!-- 7. النصوص التعليمية -->
+<!-- Face: surprise beside paragraph -->
+<g transform="translate(900 590)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="0" cy="10" r="5" fill="#22303f"/>
+</g>
 
-  <!-- العنوان -->
-  <text x="540" y="114" direction="rtl" unicode-bidi="plaintext" text-anchor="middle"
-        font-family="Tahoma, Arial, 'Segoe UI', sans-serif" font-size="38" font-weight="bold" fill="#123f73">فكّر كمهندس: ابحث ثم قرّر</text>
-  <text x="540" y="147" direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
-        font-family="'Segoe Print', 'Comic Sans MS', Arial, sans-serif" font-size="24" fill="#1b3a5c">Think as an Engineer: Investigate and Decide</text>
+<!-- Bottom icon row -->
+<g transform="translate(400 1218)">
+  <line x1="-26" y1="-10" x2="-18" y2="-10" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="-26" y1="0" x2="-18" y2="0" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="-26" y1="10" x2="-18" y2="10" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="18" y1="-10" x2="26" y2="-10" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="18" y1="0" x2="26" y2="0" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="18" y1="10" x2="26" y2="10" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="-10" y1="-26" x2="-10" y2="-18" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="0" y1="-26" x2="0" y2="-18" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="10" y1="-26" x2="10" y2="-18" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="-10" y1="18" x2="-10" y2="26" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="0" y1="18" x2="0" y2="26" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="10" y1="18" x2="10" y2="26" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="-18" y="-18" width="36" height="36" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-9" y="-9" width="18" height="18" rx="2" fill="#4fc3e8"/>
+</g>
+<g transform="translate(540 1218)">
+  <rect x="-12" y="-24" width="32" height="44" rx="3" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-20" y="-18" width="32" height="44" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="-14" y1="-8" x2="6" y2="-8" stroke="#8fc9f2" stroke-width="1.4"/>
+  <line x1="-14" y1="2" x2="6" y2="2" stroke="#8fc9f2" stroke-width="1.4"/>
+  <line x1="-14" y1="12" x2="2" y2="12" stroke="#8fc9f2" stroke-width="1.4"/>
+</g>
+<g transform="translate(680 1214)">
+  <path d="M -30 -6 L -24 -6 M 24 -6 L 30 -6 M -21 -27 L -17 -23 M 21 -27 L 17 -23" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="0" cy="-6" r="18" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-8" y="12" width="16" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
 
-  <!-- القسم الأول -->
-  <text x="950" y="195" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, 'Segoe UI', sans-serif" font-size="26" font-weight="bold" fill="#14508c">1. اجمع البيانات —</text>
-  <text x="125" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="'Segoe Print', 'Comic Sans MS', Arial, sans-serif" font-size="22" font-weight="bold" fill="#1c4b7a">Collect Data</text>
+<!-- Text -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">قانون مور: لعبة طيّ الورقة</text>
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" fill="#152b42">Moore's Law: The Paper-Folding Game</text>
 
-  <text x="950" y="229" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, 'Segoe UI', sans-serif" font-size="27" fill="#1b5aa0">
-    <tspan x="950" dy="0">اسأل عشرة من زملائك: هل يدفعون عادةً نقدًا أم</tspan>
-    <tspan x="950" dy="32">بطريقة غير نقدية، مثل البطاقة أو تطبيق الهاتف أو رمز QR؟</tspan>
-    <tspan x="950" dy="32">سجّل النتائج وحدّد الطريقة الأكثر شيوعًا.</tspan>
-  </text>
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#17457f">جرّب الآن:</tspan> هات ورقة واطوِها نصفين،</tspan>
+  <tspan x="935" dy="40">ثم نصفين، وهكذا.</tspan>
+</text>
+<text x="140" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#17457f">Try it now:</tspan> Take a sheet of paper</tspan>
+  <tspan x="140" dy="40">and fold it in half, then in half</tspan>
+  <tspan x="140" dy="40">again, and so on.</tspan>
+</text>
 
-  <text x="120" y="325" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="'Segoe Print', 'Comic Sans MS', Arial, sans-serif" font-size="24" fill="#16304d">
-    <tspan x="120" dy="0">Survey ten classmates: do they usually pay with cash</tspan>
-    <tspan x="120" dy="27">or with a cashless method, such as a card, mobile app,</tspan>
-    <tspan x="120" dy="27">or QR code? Record the results and identify the most</tspan>
-    <tspan x="120" dy="27">common response.</tspan>
-  </text>
+<text x="950" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">مع كل طيّة <tspan font-weight="bold" fill="#c0392b">يتضاعف</tspan> سُمك الورقة.</tspan>
+  <tspan x="950" dy="40">وبعد <tspan fill="#c96a1b">7 أو 8</tspan> طيات تقريبًا لن تستطيع أن تكمل!</tspan>
+</text>
+<text x="120" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">With each fold, the paper's thickness</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#c0392b">doubles.</tspan> After about <tspan fill="#c96a1b">7 or 8</tspan> folds,</tspan>
+  <tspan x="120" dy="40">you will not be able to continue!</tspan>
+</text>
 
-  <!-- القسم الثاني -->
-  <text x="950" y="458" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, 'Segoe UI', sans-serif" font-size="26" font-weight="bold" fill="#14508c">2. حلّل أصحاب المصلحة —</text>
-  <text x="125" y="457" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="'Segoe Print', 'Comic Sans MS', Arial, sans-serif" font-size="22" font-weight="bold" fill="#1c4b7a">Analyze the Stakeholders</text>
-
-  <text x="950" y="492" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, 'Segoe UI', sans-serif" font-size="27" fill="#1b5aa0">
-    <tspan x="950" dy="0">استنادًا إلى نتائج الاستطلاع وتفكيرك، اذكر فائدة واحدة</tspan>
-    <tspan x="950" dy="32">وعيبًا واحدًا للدفع غير النقدي لكل مجموعة.</tspan>
-  </text>
-
-  <text x="120" y="556" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="'Segoe Print', 'Comic Sans MS', Arial, sans-serif" font-size="24" fill="#16304d">
-    <tspan x="120" dy="0">Using your survey results and your own reasoning,</tspan>
-    <tspan x="120" dy="27">identify one benefit and one drawback of cashless</tspan>
-    <tspan x="120" dy="27">payment for each group.</tspan>
-  </text>
-
-  <!-- رؤوس الجدول -->
-  <text x="305" y="652" direction="rtl" unicode-bidi="plaintext" text-anchor="middle"
-        font-family="Tahoma, Arial, 'Segoe UI', sans-serif" font-size="21" font-weight="bold" fill="#14508c">المجموعة</text>
-  <text x="305" y="671" direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
-        font-family="'Segoe Print', 'Comic Sans MS', Arial, sans-serif" font-size="18" font-weight="bold" fill="#16304d">Group</text>
-
-  <text x="632" y="652" direction="rtl" unicode-bidi="plaintext" text-anchor="middle"
-        font-family="Tahoma, Arial, 'Segoe UI', sans-serif" font-size="21" font-weight="bold" fill="#14508c">الفائدة</text>
-  <text x="632" y="671" direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
-        font-family="'Segoe Print', 'Comic Sans MS', Arial, sans-serif" font-size="18" font-weight="bold" fill="#16304d">Benefit</text>
-
-  <text x="867" y="652" direction="rtl" unicode-bidi="plaintext" text-anchor="middle"
-        font-family="Tahoma, Arial, 'Segoe UI', sans-serif" font-size="21" font-weight="bold" fill="#14508c">العيب</text>
-  <text x="867" y="671" direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
-        font-family="'Segoe Print', 'Comic Sans MS', Arial, sans-serif" font-size="18" font-weight="bold" fill="#16304d">Drawback</text>
-
-  <!-- صفوف الجدول: عمود المجموعة فقط، وباقي الخلايا فارغة -->
-  <text x="305" y="700" direction="rtl" unicode-bidi="plaintext" text-anchor="middle"
-        font-family="Tahoma, Arial, 'Segoe UI', sans-serif" font-size="21" fill="#1b5aa0">عميل يدفع</text>
-  <text x="305" y="720" direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
-        font-family="'Segoe Print', 'Comic Sans MS', Arial, sans-serif" font-size="18" fill="#16304d">A customer paying</text>
-
-  <text x="305" y="750" direction="rtl" unicode-bidi="plaintext" text-anchor="middle"
-        font-family="Tahoma, Arial, 'Segoe UI', sans-serif" font-size="21" fill="#1b5aa0">صاحب متجر صغير</text>
-  <text x="305" y="770" direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
-        font-family="'Segoe Print', 'Comic Sans MS', Arial, sans-serif" font-size="18" fill="#16304d">A small shop owner</text>
-
-  <text x="305" y="800" direction="rtl" unicode-bidi="plaintext" text-anchor="middle"
-        font-family="Tahoma, Arial, 'Segoe UI', sans-serif" font-size="21" fill="#1b5aa0">شخص لا يملك بطاقة بنكية أو هاتفًا ذكيًا</text>
-  <text x="305" y="823" direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
-        font-family="'Segoe Print', 'Comic Sans MS', Arial, sans-serif" font-size="18" fill="#16304d">
-    <tspan x="305" dy="0">A person with no bank card</tspan>
-    <tspan x="305" dy="20">or smartphone</tspan>
-  </text>
-
-  <!-- القسم الثالث -->
-  <text x="950" y="896" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, 'Segoe UI', sans-serif" font-size="26" font-weight="bold" fill="#14508c">3. اتخذ قرارًا —</text>
-  <text x="125" y="895" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="'Segoe Print', 'Comic Sans MS', Arial, sans-serif" font-size="22" font-weight="bold" fill="#1c4b7a">Decide</text>
-
-  <text x="950" y="930" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, 'Segoe UI', sans-serif" font-size="27" fill="#1b5aa0">
-    <tspan x="950" dy="0">هل ينبغي أن يتجه مجتمعك نحو الدفع غير النقدي؟</tspan>
-    <tspan x="950" dy="32">أوصِ بخطوة واحدة، واذكر سببين.</tspan>
-  </text>
-
-  <text x="120" y="994" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="'Segoe Print', 'Comic Sans MS', Arial, sans-serif" font-size="24" fill="#16304d">
-    <tspan x="120" dy="0">Should your community move toward cashless payment?</tspan>
-    <tspan x="120" dy="27">Recommend one step and give two reasons.</tspan>
-  </text>
-
-  <!-- صندوق التلميح -->
-  <text x="940" y="1072" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, 'Segoe UI', sans-serif" font-size="23" fill="#7a5a12">
-    <tspan x="940" dy="0">تلميح: ابدأ باحتياجات العميل؛ فقد تكون سرعة الدفع فائدة محتملة،</tspan>
-    <tspan x="940" dy="28">والحاجة إلى بطاقة أو هاتف ذكي عيبًا محتملًا.</tspan>
-  </text>
-
-  <text x="135" y="1130" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="'Segoe Print', 'Comic Sans MS', Arial, sans-serif" font-size="21" fill="#5f4a10">
-    <tspan x="135" dy="0">Hint: Start with the customer. Speed of payment may be a</tspan>
-    <tspan x="135" dy="26">benefit, while needing a card or smartphone may be a drawback.</tspan>
-  </text>
-
+<text x="935" y="1074" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">التضاعف سريع جدًا… لكنه يصل إلى حد.</tspan>
+</text>
+<text x="140" y="1114" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">Doubling is very fast…</tspan>
+  <tspan x="140" dy="40">but it reaches a limit.</tspan>
+</text>
 </svg>

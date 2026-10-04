@@ -4,219 +4,280 @@
      viewBox="0 0 1080 1350"
      preserveAspectRatio="xMidYMid meet"
      style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-  <defs>
-    <linearGradient id="deskWoodGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#b07a42"/>
-      <stop offset="0.5" stop-color="#96622f"/>
-      <stop offset="1" stop-color="#7d4f24"/>
-    </linearGradient>
-    <linearGradient id="paperToneGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fffdf6"/>
-      <stop offset="1" stop-color="#faf5e8"/>
-    </linearGradient>
-  </defs>
+<defs>
+  <linearGradient id="ilPanel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="ilGlobe" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8fc9f2"/>
+    <stop offset="1" stop-color="#2f7fb5"/>
+  </linearGradient>
+</defs>
 
-  <!-- الخلفية الخشبية البسيطة -->
-  <rect x="0" y="0" width="1080" height="1350" fill="url(#deskWoodGrad)"/>
-  <path d="M0 240 C 300 200, 760 300, 1080 250" fill="none" stroke="#5f3a18" stroke-width="14" opacity="0.10"/>
-  <path d="M0 1080 C 320 1030, 780 1130, 1080 1075" fill="none" stroke="#5f3a18" stroke-width="12" opacity="0.09"/>
+<!-- Shadows -->
+<rect x="109" y="128" width="870" height="368" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="109" y="528" width="870" height="568" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="129" y="1116" width="830" height="134" rx="20" fill="#22303f" opacity=".18"/>
 
-  <!-- ظل بسيط تحت الورقة -->
-  <rect x="42" y="32" width="1012" height="1308" rx="10" fill="#3a2513" opacity="0.22"/>
+<!-- Info card 1 -->
+<rect x="105" y="122" width="870" height="368" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="336" rx="3" fill="#2f7fb5"/>
 
-  <!-- الورقة -->
-  <rect x="34" y="22" width="1012" height="1308" rx="8" fill="url(#paperToneGrad)"/>
+<!-- Info card 2 -->
+<rect x="105" y="522" width="870" height="568" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="538" width="6" height="536" rx="3" fill="#2f7fb5"/>
 
-  <!-- أسطر الكراسة الأفقية الزرقاء الفاتحة -->
-  <g stroke="#cfe1f0" stroke-width="1.4">
-    <line x1="85" y1="100" x2="995" y2="100"/>
-    <line x1="85" y1="136" x2="995" y2="136"/>
-    <line x1="85" y1="172" x2="995" y2="172"/>
-    <line x1="85" y1="208" x2="995" y2="208"/>
-    <line x1="85" y1="244" x2="995" y2="244"/>
-    <line x1="85" y1="280" x2="995" y2="280"/>
-    <line x1="85" y1="316" x2="995" y2="316"/>
-    <line x1="85" y1="352" x2="995" y2="352"/>
-    <line x1="85" y1="388" x2="995" y2="388"/>
-    <line x1="85" y1="424" x2="995" y2="424"/>
-    <line x1="85" y1="460" x2="995" y2="460"/>
-    <line x1="85" y1="496" x2="995" y2="496"/>
-    <line x1="85" y1="532" x2="995" y2="532"/>
-    <line x1="85" y1="568" x2="995" y2="568"/>
-    <line x1="85" y1="604" x2="995" y2="604"/>
-    <line x1="85" y1="640" x2="995" y2="640"/>
-    <line x1="85" y1="676" x2="995" y2="676"/>
-    <line x1="85" y1="712" x2="995" y2="712"/>
-    <line x1="85" y1="748" x2="995" y2="748"/>
-    <line x1="85" y1="784" x2="995" y2="784"/>
-    <line x1="85" y1="820" x2="995" y2="820"/>
-    <line x1="85" y1="856" x2="995" y2="856"/>
-    <line x1="85" y1="892" x2="995" y2="892"/>
-    <line x1="85" y1="928" x2="995" y2="928"/>
-    <line x1="85" y1="964" x2="995" y2="964"/>
-    <line x1="85" y1="1000" x2="995" y2="1000"/>
-    <line x1="85" y1="1036" x2="995" y2="1036"/>
-    <line x1="85" y1="1072" x2="995" y2="1072"/>
-    <line x1="85" y1="1108" x2="995" y2="1108"/>
-    <line x1="85" y1="1144" x2="995" y2="1144"/>
-  </g>
+<!-- Card 1 icon: envelope -->
+<g transform="translate(800 404)">
+  <rect x="4" y="10" width="48" height="36" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M6 12 L28 30 L50 12" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="46" cy="40" r="7" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+</g>
 
-  <!-- الإطار الأحمر الخارجي الوحيد -->
-  <rect x="67" y="55" width="946" height="1257" rx="5" fill="none" stroke="#c8352f" stroke-width="2.4"/>
+<!-- Card 1 icon: open book -->
+<g transform="translate(870 400)">
+  <path d="M32 16 Q20 8 4 12 L4 52 Q20 48 32 56 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M32 16 Q44 8 60 12 L60 52 Q44 48 32 56 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="10" y1="22" x2="26" y2="24" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="10" y1="32" x2="26" y2="34" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="38" y1="24" x2="54" y2="22" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="38" y1="34" x2="54" y2="32" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+</g>
 
-  <!-- العناوين -->
-  <text x="540"
-        y="112"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="52"
-        font-weight="bold"
-        fill="#16447d">توقف وفكّر</text>
+<!-- Card 2 icon: light bulb -->
+<g transform="translate(820 768)">
+  <line x1="28" y1="0" x2="28" y2="2" stroke="#ffd24a" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="6" y1="8" x2="9" y2="10" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="50" y1="8" x2="47" y2="10" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="28" cy="22" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M23 26 L28 20 L33 26" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="21" y="38" width="14" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="24" y1="54" x2="32" y2="54" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+</g>
 
-  <text x="540"
-        y="152"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="32"
-        fill="#2b4a66">Pause and Think</text>
+<!-- Card 2 icon: network nodes -->
+<g transform="translate(880 768)">
+  <line x1="28" y1="14" x2="12" y2="42" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="28" y1="14" x2="44" y2="42" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="12" y1="42" x2="44" y2="42" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="28" cy="14" r="9" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="12" cy="42" r="9" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="44" cy="42" r="9" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+</g>
 
-  <line x1="410" y1="168" x2="670" y2="168" stroke="#9fb8cd" stroke-width="2"/>
+<!-- Card 2 face: surprise -->
+<g transform="translate(898 1018)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="0" cy="10" r="5" fill="#22303f"/>
+</g>
 
-  <!-- ===== البطاقة الأولى ===== -->
-  <rect x="100" y="184" width="880" height="244" rx="18" fill="#fdf8e6" stroke="#dcc98d" stroke-width="2"/>
+<!-- Memory illustration: Web pages, free gift, connected globe, email -->
+<rect x="125" y="1110" width="830" height="134" rx="20" fill="url(#ilPanel)" stroke="#22303f" stroke-width="2.5"/>
 
-  <g stroke="#d1932a" stroke-linecap="round">
-    <line x1="150" y1="200" x2="150" y2="193" stroke-width="2.4"/>
-    <line x1="131" y1="208" x2="126" y2="202" stroke-width="2.4"/>
-    <line x1="169" y1="208" x2="174" y2="202" stroke-width="2.4"/>
-  </g>
-  <circle cx="150" cy="226" r="15" fill="#fff2c4" stroke="#d1932a" stroke-width="2.4"/>
-  <path d="M146 224 L150 231 L154 224" fill="none" stroke="#d1932a" stroke-width="2"/>
-  <line x1="143" y1="243" x2="157" y2="243" stroke="#d1932a" stroke-width="3" stroke-linecap="round"/>
-  <line x1="145" y1="249" x2="155" y2="249" stroke="#d1932a" stroke-width="3" stroke-linecap="round"/>
+<!-- Connection line -->
+<line x1="330" y1="1180" x2="760" y2="1180" stroke="#17457f" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="360" cy="1180" r="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+<circle cx="680" cy="1180" r="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
 
-  <text x="940"
-        y="230"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        fill="#1b4f8f">
-    <tspan x="940" dy="0">من بين التغيرات الاجتماعية الخمسة، أيها سيكون</tspan>
-    <tspan x="940" dy="36">من الأصعب أن تتخلى عنه، ولماذا؟</tspan>
-  </text>
+<!-- Browser pages -->
+<g>
+  <rect x="214" y="1128" width="120" height="78" rx="8" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="215" y="1129" width="118" height="14" fill="#17457f"/>
+  <rect x="194" y="1150" width="130" height="84" rx="8" fill="#22303f" opacity=".18"/>
+  <rect x="190" y="1144" width="130" height="84" rx="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="191" y="1145" width="128" height="16" fill="#2f7fb5"/>
+  <circle cx="201" cy="1153" r="3" fill="#ffffff"/>
+  <circle cx="211" cy="1153" r="3" fill="#ffffff"/>
+  <circle cx="221" cy="1153" r="3" fill="#ffffff"/>
+  <rect x="202" y="1170" width="40" height="32" rx="4" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="252" y="1172" width="56" height="6" rx="3" fill="#8fc9f2"/>
+  <rect x="252" y="1186" width="44" height="6" rx="3" fill="#8fc9f2"/>
+  <rect x="202" y="1210" width="60" height="10" rx="5" fill="#c96a1b"/>
+</g>
 
-  <text x="138"
-        y="308"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27"
-        fill="#152b42">
-    <tspan x="138" dy="0">Of the five social changes, which would be</tspan>
-    <tspan x="138" dy="31">hardest to give up, and why?</tspan>
-  </text>
+<!-- Gift box -->
+<g>
+  <rect x="396" y="1176" width="56" height="44" rx="4" fill="#22303f" opacity=".18"/>
+  <rect x="392" y="1170" width="56" height="44" rx="4" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="388" y="1158" width="64" height="14" rx="3" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="416" y="1158" width="8" height="56" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M420 1158 Q404 1138 398 1150 Q396 1158 420 1158 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M420 1158 Q436 1138 442 1150 Q444 1158 420 1158 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
 
-  <g stroke="#a9c0d4" stroke-width="1.8">
-    <line x1="138" y1="374" x2="940" y2="374"/>
-    <line x1="138" y1="408" x2="940" y2="408"/>
-  </g>
+<!-- Globe -->
+<g>
+  <circle cx="544" cy="1186" r="55" fill="#22303f" opacity=".18"/>
+  <circle cx="540" cy="1180" r="55" fill="url(#ilGlobe)" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M502 1150 Q518 1138 532 1148 Q538 1162 524 1170 Q512 1178 504 1168 Q496 1160 502 1150 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M552 1186 Q570 1178 580 1192 Q580 1210 566 1220 Q552 1220 550 1206 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="540" cy="1180" rx="24" ry="55" fill="none" stroke="#dff1f7" stroke-width="2.5"/>
+  <line x1="485" y1="1180" x2="595" y2="1180" stroke="#dff1f7" stroke-width="2.5" stroke-linecap="round"/>
+  <polyline points="506,1196 528,1146 574,1160 566,1210 506,1196" fill="none" stroke="#ffd24a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="506" cy="1196" r="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="528" cy="1146" r="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="574" cy="1160" r="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="566" cy="1210" r="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+</g>
 
-  <!-- ===== البطاقة الثانية ===== -->
-  <rect x="100" y="446" width="880" height="344" rx="18" fill="#fdf8e6" stroke="#dcc98d" stroke-width="2"/>
+<!-- Envelope traveling -->
+<g>
+  <rect x="764" y="1154" width="100" height="64" rx="6" fill="#22303f" opacity=".18"/>
+  <rect x="760" y="1148" width="100" height="64" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M762 1150 L810 1186 L858 1150" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M762 1210 L798 1180 M858 1210 L822 1180" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="878" y1="1162" x2="912" y2="1162" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="884" y1="1180" x2="926" y2="1180" stroke="#4fc3e8" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="878" y1="1198" x2="912" y2="1198" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+</g>
 
-  <g stroke="#d1932a" stroke-linecap="round">
-    <line x1="150" y1="462" x2="150" y2="455" stroke-width="2.4"/>
-    <line x1="131" y1="470" x2="126" y2="464" stroke-width="2.4"/>
-    <line x1="169" y1="470" x2="174" y2="464" stroke-width="2.4"/>
-  </g>
-  <circle cx="150" cy="488" r="15" fill="#fff2c4" stroke="#d1932a" stroke-width="2.4"/>
-  <path d="M146 486 L150 493 L154 486" fill="none" stroke="#d1932a" stroke-width="2"/>
-  <line x1="143" y1="505" x2="157" y2="505" stroke="#d1932a" stroke-width="3" stroke-linecap="round"/>
-  <line x1="145" y1="511" x2="155" y2="511" stroke="#d1932a" stroke-width="3" stroke-linecap="round"/>
+<!-- Text: Card 1 -->
+<text x="935"
+      y="154"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="32"
+      font-weight="bold"
+      fill="#17457f">
+  <tspan x="935" dy="0">مصطلحات المحطة 3</tspan>
+</text>
 
-  <text x="940"
-        y="492"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        fill="#1b4f8f">
-    <tspan x="940" dy="0">في القيادة الذاتية، لماذا يجب معالجة البيانات فورًا</tspan>
-    <tspan x="940" dy="36">داخل السيارة باستخدام الحوسبة الطرفية، بدلًا من</tspan>
-    <tspan x="940" dy="36">إرسالها إلى السحابة وانتظار القرار؟ فسّر إجابتك.</tspan>
-  </text>
+<text x="140"
+      y="194"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="31"
+      font-weight="bold"
+      fill="#17457f">
+  <tspan x="140" dy="0">STATION 3 TERMS</tspan>
+</text>
 
-  <text x="138"
-        y="604"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27"
-        fill="#152b42">
-    <tspan x="138" dy="0">In autonomous driving, why is it necessary to</tspan>
-    <tspan x="138" dy="31">process data instantly on the vehicle using edge</tspan>
-    <tspan x="138" dy="31">computing, rather than sending the data to the</tspan>
-    <tspan x="138" dy="31">cloud for judgment? Explain your answer.</tspan>
-  </text>
+<text x="935"
+      y="234"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">البريد الإلكتروني</tspan> — إرسال الرسائل</tspan>
+  <tspan x="935" dy="40">والمرفقات عبر الإنترنت، وهو <tspan font-weight="bold" fill="#17457f">خدمة</tspan></tspan>
+  <tspan x="935" dy="40">على الإنترنت <tspan font-weight="bold" fill="#17457f">وليس من الويب.</tspan></tspan>
+</text>
 
-  <g stroke="#a9c0d4" stroke-width="1.8">
-    <line x1="138" y1="732" x2="940" y2="732"/>
-    <line x1="138" y1="766" x2="940" y2="766"/>
-  </g>
+<text x="140"
+      y="354"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">email</tspan> — sending messages and</tspan>
+  <tspan x="140" dy="40">attachments over the Internet;</tspan>
+  <tspan x="140" dy="40">it is an Internet <tspan font-weight="bold" fill="#17457f">service,</tspan></tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#17457f">not part of the Web.</tspan></tspan>
+</text>
 
-  <!-- ===== البطاقة الثالثة ===== -->
-  <rect x="100" y="808" width="880" height="344" rx="18" fill="#fdf8e6" stroke="#dcc98d" stroke-width="2"/>
+<!-- Text: Card 2 -->
+<text x="935"
+      y="554"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="32"
+      font-weight="bold"
+      fill="#17457f">
+  <tspan x="935" dy="0">هل تعلم؟</tspan>
+</text>
 
-  <g stroke="#d1932a" stroke-linecap="round">
-    <line x1="150" y1="824" x2="150" y2="817" stroke-width="2.4"/>
-    <line x1="131" y1="832" x2="126" y2="826" stroke-width="2.4"/>
-    <line x1="169" y1="832" x2="174" y2="826" stroke-width="2.4"/>
-  </g>
-  <circle cx="150" cy="850" r="15" fill="#fff2c4" stroke="#d1932a" stroke-width="2.4"/>
-  <path d="M146 848 L150 855 L154 848" fill="none" stroke="#d1932a" stroke-width="2"/>
-  <line x1="143" y1="867" x2="157" y2="867" stroke="#d1932a" stroke-width="3" stroke-linecap="round"/>
-  <line x1="145" y1="873" x2="155" y2="873" stroke="#d1932a" stroke-width="3" stroke-linecap="round"/>
+<text x="140"
+      y="594"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="31"
+      font-weight="bold"
+      fill="#17457f">
+  <tspan x="140" dy="0">DID YOU KNOW?</tspan>
+</text>
 
-  <text x="940"
-        y="854"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        fill="#1b4f8f">
-    <tspan x="940" dy="0">ينتشر الدفع غير النقدي في دول كثيرة. إذا أصبح</tspan>
-    <tspan x="940" dy="36">المجتمع غير نقدي بالكامل، فاختر فائدة محتملة</tspan>
-    <tspan x="940" dy="36">ومشكلة محتملة، واشرح بإيجاز سبب كل منهما.</tspan>
-  </text>
+<text x="935"
+      y="634"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="935" dy="0">اقترح <tspan font-weight="bold" fill="#17457f">Tim Berners-Lee</tspan> الويب</tspan>
+  <tspan x="935" dy="40">في <tspan fill="#c96a1b">مارس 1989</tspan> أثناء عمله في CERN،</tspan>
+  <tspan x="935" dy="40">وفي <tspan fill="#c96a1b">1991</tspan> أُتيح الويب خارج CERN.</tspan>
+</text>
 
-  <text x="138"
-        y="966"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27"
-        fill="#152b42">
-    <tspan x="138" dy="0">Cashless payment is spreading in many countries.</tspan>
-    <tspan x="138" dy="31">If a fully cashless society were realized, choose one</tspan>
-    <tspan x="138" dy="31">possible advantage and one possible concern, and</tspan>
-    <tspan x="138" dy="31">briefly explain the reason for each.</tspan>
-  </text>
+<text x="140"
+      y="754"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#17457f">Tim Berners-Lee</tspan> proposed the Web</tspan>
+  <tspan x="140" dy="40">in <tspan fill="#c96a1b">March 1989</tspan> while working at CERN,</tspan>
+  <tspan x="140" dy="40">and in <tspan fill="#c96a1b">1991</tspan> the Web was made</tspan>
+  <tspan x="140" dy="40">available outside CERN.</tspan>
+</text>
 
-  <g stroke="#a9c0d4" stroke-width="1.8">
-    <line x1="138" y1="1094" x2="940" y2="1094"/>
-    <line x1="138" y1="1128" x2="940" y2="1128"/>
-  </g>
+<text x="935"
+      y="874"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="935" dy="0">وفي <tspan fill="#c96a1b">30 أبريل 1993</tspan> أتاحت CERN</tspan>
+  <tspan x="935" dy="40">برمجيات الويب للجميع <tspan font-weight="bold" fill="#2e7d32">دون مقابل،</tspan></tspan>
+  <tspan x="935" dy="40">فانتشر في التسعينيات.</tspan>
+</text>
 
+<text x="140"
+      y="994"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="140" dy="0">On <tspan fill="#c96a1b">April 30, 1993,</tspan> CERN made</tspan>
+  <tspan x="140" dy="40">the Web software <tspan font-weight="bold" fill="#2e7d32">freely available</tspan></tspan>
+  <tspan x="140" dy="40">to everyone, so it spread in the 1990s.</tspan>
+</text>
 </svg>

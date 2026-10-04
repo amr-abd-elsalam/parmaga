@@ -4,228 +4,207 @@
      viewBox="0 0 1080 1350"
      preserveAspectRatio="xMidYMid meet"
      style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-  <defs>
-    <linearGradient id="woodGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%"   stop-color="#a9702f"/>
-      <stop offset="50%"  stop-color="#8f5a24"/>
-      <stop offset="100%" stop-color="#79491c"/>
-    </linearGradient>
-    <linearGradient id="paperGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%"   stop-color="#fffefa"/>
-      <stop offset="100%" stop-color="#fbf7ec"/>
-    </linearGradient>
-  </defs>
+<!-- Shadows -->
+<rect x="109" y="128" width="870" height="288" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="109" y="448" width="870" height="728" rx="16" fill="#22303f" opacity=".12"/>
 
-  <!-- 1. الخلفية الخشبية البسيطة -->
-  <rect x="0" y="0" width="1080" height="1350" fill="url(#woodGrad)"/>
-  <path d="M0 250 C 300 210, 780 300, 1080 240" stroke="#5f3714" stroke-width="14" fill="none" opacity=".13"/>
-  <path d="M0 1080 C 320 1130, 760 1030, 1080 1090" stroke="#5f3714" stroke-width="12" fill="none" opacity=".11"/>
+<!-- Success card -->
+<rect x="105" y="122" width="870" height="288" rx="16" fill="#e9f7ee" stroke="#a9dcbe" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="256" rx="3" fill="#2e7d32"/>
 
-  <!-- 2. الورقة -->
-  <rect x="42" y="34" width="1012" height="1302" fill="#3a2109" opacity=".18"/>
-  <rect x="34" y="24" width="1012" height="1302" fill="url(#paperGrad)"/>
+<!-- Info card -->
+<rect x="105" y="442" width="870" height="728" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="458" width="6" height="696" rx="3" fill="#2f7fb5"/>
 
-  <!-- 3. سطور الكراسة الزرقاء الباهتة -->
-  <g stroke="#d5e4f4" stroke-width="1.2">
-    <line x1="82" y1="152"  x2="998" y2="152"/>
-    <line x1="82" y1="190"  x2="998" y2="190"/>
-    <line x1="82" y1="228"  x2="998" y2="228"/>
-    <line x1="82" y1="266"  x2="998" y2="266"/>
-    <line x1="82" y1="304"  x2="998" y2="304"/>
-    <line x1="82" y1="342"  x2="998" y2="342"/>
-    <line x1="82" y1="380"  x2="998" y2="380"/>
-    <line x1="82" y1="456"  x2="998" y2="456"/>
-    <line x1="82" y1="494"  x2="998" y2="494"/>
-    <line x1="82" y1="532"  x2="998" y2="532"/>
-    <line x1="82" y1="570"  x2="998" y2="570"/>
-    <line x1="82" y1="646"  x2="998" y2="646"/>
-    <line x1="82" y1="684"  x2="998" y2="684"/>
-    <line x1="82" y1="722"  x2="998" y2="722"/>
-    <line x1="82" y1="760"  x2="998" y2="760"/>
-    <line x1="82" y1="836"  x2="998" y2="836"/>
-    <line x1="82" y1="874"  x2="998" y2="874"/>
-    <line x1="82" y1="912"  x2="998" y2="912"/>
-    <line x1="82" y1="988"  x2="998" y2="988"/>
-    <line x1="82" y1="1026" x2="998" y2="1026"/>
-    <line x1="82" y1="1064" x2="998" y2="1064"/>
-    <line x1="82" y1="1102" x2="998" y2="1102"/>
-  </g>
+<!-- Success card icon: light bulb -->
+<g transform="translate(800 340)">
+  <line x1="28" y1="0" x2="28" y2="2" stroke="#ffd24a" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="6" y1="8" x2="9" y2="10" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="50" y1="8" x2="47" y2="10" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="28" cy="22" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M23 26 L28 20 L33 26" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="21" y="38" width="14" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="24" y1="54" x2="32" y2="54" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+</g>
 
-  <!-- 4. الإطار الأحمر الخارجي الوحيد -->
-  <rect x="67" y="58" width="946" height="1258" fill="none" stroke="#c8443b" stroke-width="2.6"/>
+<!-- Success card icon: star -->
+<g transform="translate(870 342)">
+  <polygon points="28,2 34.5,19.1 52.7,20 38.5,31.4 43.3,49 28,39 12.7,49 17.5,31.4 3.3,20 21.5,19.1" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
 
-  <!-- 5. العناوين -->
-  <text x="540"
-        y="142"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="44"
-        font-weight="bold"
-        fill="#1a4f8a">تدرّب: أجب عن الأسئلة</text>
+<!-- Info card icon: document stack with data bars -->
+<g transform="translate(860 740)">
+  <rect x="12" y="2" width="30" height="38" rx="3" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="6" y="8" width="30" height="38" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="12" y1="16" x2="30" y2="16" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="12" y="30" width="4" height="10" fill="#c96a1b"/>
+  <rect x="19" y="24" width="4" height="16" fill="#f0c48c"/>
+  <rect x="26" y="27" width="4" height="13" fill="#c96a1b"/>
+</g>
 
-  <text x="540"
-        y="190"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="30"
-        fill="#17324d">Try: Answer the Questions</text>
+<!-- Info card icon: chip -->
+<g transform="translate(870 1104)">
+  <line x1="20" y1="4" x2="20" y2="12" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="28" y1="4" x2="28" y2="12" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="36" y1="4" x2="36" y2="12" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="20" y1="44" x2="20" y2="52" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="28" y1="44" x2="28" y2="52" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="36" y1="44" x2="36" y2="52" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="4" y1="20" x2="12" y2="20" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="4" y1="28" x2="12" y2="28" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="4" y1="36" x2="12" y2="36" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="44" y1="20" x2="52" y2="20" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="44" y1="28" x2="52" y2="28" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="44" y1="36" x2="52" y2="36" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="12" y="12" width="32" height="32" rx="4" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="21" y="21" width="14" height="14" rx="2" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+</g>
 
-  <line x1="392" y1="212" x2="688" y2="212" stroke="#b9cfe6" stroke-width="2"/>
+<!-- Lower band: cloud, smile face, document stack -->
+<g transform="translate(424 1190)">
+  <path d="M14 44 Q4 44 4 35 Q4 26 14 26 Q16 14 28 14 Q40 14 42 26 Q52 26 52 35 Q52 44 42 44 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M18 34 Q20 28 26 28" fill="none" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+<g transform="translate(540 1218)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+<g transform="translate(604 1194)">
+  <rect x="12" y="2" width="30" height="38" rx="3" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="6" y="8" width="30" height="38" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="12" y1="16" x2="30" y2="16" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="12" y="30" width="4" height="10" fill="#2f7fb5"/>
+  <rect x="19" y="24" width="4" height="16" fill="#4fc3e8"/>
+  <rect x="26" y="27" width="4" height="13" fill="#2f7fb5"/>
+</g>
 
-  <!-- 6. السؤال الأول -->
-  <text x="956" y="252" direction="ltr" unicode-bidi="plaintext" text-anchor="end"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="30" fill="#c0392b">.1</text>
+<!-- Text: Success card -->
+<text x="935"
+      y="154"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#2e7d32">تشبيه:</tspan> بدل ما تشتري مولّد كهربا لبيتك،</tspan>
+  <tspan x="935" dy="40">بتشترك في شركة الكهرباء</tspan>
+  <tspan x="935" dy="40"><tspan font-weight="bold" fill="#17457f">وتدفع حسب استهلاكك.</tspan></tspan>
+</text>
 
-  <text x="908"
-        y="252"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="29"
-        fill="#1f5fa8">
-    <tspan x="908" dy="0">ما اسم الملاحظة التجريبية التي تفيد بأن عدد الترانزستورات</tspan>
-    <tspan x="908" dy="36">في الدائرة المتكاملة يتضاعف تقريبًا كل عامين؟</tspan>
-  </text>
+<text x="140"
+      y="274"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#2e7d32">Analogy:</tspan> Instead of buying a power</tspan>
+  <tspan x="140" dy="40">generator for your home, you subscribe</tspan>
+  <tspan x="140" dy="40">to the electricity company and</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#17457f">pay for what you use.</tspan></tspan>
+</text>
 
-  <text x="126"
-        y="326"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26"
-        fill="#16283f">
-    <tspan x="126" dy="0">What is the name of the empirical observation that</tspan>
-    <tspan x="126" dy="31">the number of transistors on an integrated circuit</tspan>
-    <tspan x="126" dy="31">doubles approximately every two years?</tspan>
-  </text>
+<!-- Text: Info card header -->
+<text x="935"
+      y="474"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="32"
+      font-weight="bold"
+      fill="#17457f">
+  <tspan x="935" dy="0">مصطلحات المحطة 5</tspan>
+</text>
 
-  <line x1="126" y1="422" x2="956" y2="422" stroke="#9db3c8" stroke-width="1.8"/>
+<text x="140"
+      y="514"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="31"
+      font-weight="bold"
+      fill="#17457f">
+  <tspan x="140" dy="0">STATION 5 TERMS</tspan>
+</text>
 
-  <!-- 7. السؤال الثاني -->
-  <text x="956" y="464" direction="ltr" unicode-bidi="plaintext" text-anchor="end"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="30" fill="#c0392b">.2</text>
+<!-- Text: term 1 -->
+<text x="935"
+      y="554"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">البيانات الضخمة</tspan> — كميات من البيانات</tspan>
+  <tspan x="935" dy="40">أكبر وأسرع وأكثر تنوعًا من أن يعالجها</tspan>
+  <tspan x="935" dy="40">جهاز عادي، وتحليلها يكشف <tspan font-weight="bold" fill="#2e7d32">أنماطًا مفيدة.</tspan></tspan>
+</text>
 
-  <text x="908"
-        y="464"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="29"
-        fill="#1f5fa8">
-    <tspan x="908" dy="0">ما المصطلح الذي يعني شراء السلع والخدمات</tspan>
-    <tspan x="908" dy="36">وبيعها باستخدام الإنترنت؟</tspan>
-  </text>
+<text x="140"
+      y="674"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">big data</tspan> — amounts of data too large,</tspan>
+  <tspan x="140" dy="40">fast, and varied for an ordinary</tspan>
+  <tspan x="140" dy="40">device to process; analyzing them</tspan>
+  <tspan x="140" dy="40">reveals <tspan font-weight="bold" fill="#2e7d32">useful patterns.</tspan></tspan>
+</text>
 
-  <text x="126"
-        y="538"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26"
-        fill="#16283f">
-    <tspan x="126" dy="0">What is the term for buying and selling goods</tspan>
-    <tspan x="126" dy="31">and services using the Internet?</tspan>
-  </text>
+<!-- Text: term 2 -->
+<text x="935"
+      y="834"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">الذكاء الاصطناعي</tspan> — أنظمة حاسوبية تؤدي</tspan>
+  <tspan x="935" dy="40">مهام تحتاج عادة إلى ذكاء بشري، وغالبًا</tspan>
+  <tspan x="935" dy="40"><tspan font-weight="bold" fill="#17457f">تتعلم من البيانات.</tspan></tspan>
+  <tspan x="935" dy="40">ليس عقلًا بشريًا داخل الآلة.</tspan>
+</text>
 
-  <line x1="126" y1="603" x2="956" y2="603" stroke="#9db3c8" stroke-width="1.8"/>
-
-  <!-- 8. السؤال الثالث -->
-  <text x="956" y="645" direction="ltr" unicode-bidi="plaintext" text-anchor="end"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="30" fill="#c0392b">.3</text>
-
-  <text x="908"
-        y="645"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="29"
-        fill="#1f5fa8">
-    <tspan x="908" dy="0">ما المصطلح الذي يصف أداء العمل من المنزل أو من</tspan>
-    <tspan x="908" dy="36">أماكن بعيدة باستخدام الإنترنت؟</tspan>
-  </text>
-
-  <text x="126"
-        y="719"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26"
-        fill="#16283f">
-    <tspan x="126" dy="0">What is the term for working from home or other</tspan>
-    <tspan x="126" dy="31">remote locations using the Internet?</tspan>
-  </text>
-
-  <line x1="126" y1="784" x2="956" y2="784" stroke="#9db3c8" stroke-width="1.8"/>
-
-  <!-- 9. السؤال الرابع -->
-  <text x="956" y="826" direction="ltr" unicode-bidi="plaintext" text-anchor="end"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="30" fill="#c0392b">.4</text>
-
-  <text x="908"
-        y="826"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="29"
-        fill="#1f5fa8">
-    <tspan x="908" dy="0">ما المصطلح الذي يعني دفع قيمة السلع والخدمات</tspan>
-    <tspan x="908" dy="36">بالنقود الإلكترونية أو رموز QR دون استخدام النقد؟</tspan>
-  </text>
-
-  <text x="126"
-        y="900"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26"
-        fill="#16283f">
-    <tspan x="126" dy="0">What is the term for making payments using</tspan>
-    <tspan x="126" dy="31">electronic money or QR codes without using cash?</tspan>
-  </text>
-
-  <line x1="126" y1="965" x2="956" y2="965" stroke="#9db3c8" stroke-width="1.8"/>
-
-  <!-- 10. السؤال الخامس -->
-  <text x="956" y="1007" direction="ltr" unicode-bidi="plaintext" text-anchor="end"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="30" fill="#c0392b">.5</text>
-
-  <text x="908"
-        y="1007"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="29"
-        fill="#1f5fa8">
-    <tspan x="908" dy="0">ما المصطلح الذي يشير إلى التقنية التي تستخدم</tspan>
-    <tspan x="908" dy="36">الذكاء الاصطناعي لقيادة مركبة دون تدخل بشري؟</tspan>
-  </text>
-
-  <text x="126"
-        y="1081"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26"
-        fill="#16283f">
-    <tspan x="126" dy="0">What is the term for the technology that uses AI to</tspan>
-    <tspan x="126" dy="31">drive a vehicle without human operation?</tspan>
-  </text>
-
-  <line x1="126" y1="1146" x2="956" y2="1146" stroke="#9db3c8" stroke-width="1.8"/>
-
+<text x="140"
+      y="994"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">AI</tspan> — computer systems that perform</tspan>
+  <tspan x="140" dy="40">tasks that usually need human</tspan>
+  <tspan x="140" dy="40">intelligence, often by</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#17457f">learning from data.</tspan> It is not a human</tspan>
+  <tspan x="140" dy="40">mind inside a machine.</tspan>
+</text>
 </svg>

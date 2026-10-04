@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="ilCoin" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#ffd24a"/>
+    <stop offset="1" stop-color="#f0c48c"/>
+  </linearGradient>
+  <radialGradient id="ilBulbOn" cx="0.4" cy="0.35" r="0.7">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#ffd24a"/>
+  </radialGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Shadows -->
+<rect x="109" y="86" width="870" height="336" rx="20" fill="#22303f" opacity=".12"/>
+<rect x="109" y="848" width="870" height="328" rx="16" fill="#22303f" opacity=".12"/>
+
+<!-- Info card -->
+<rect x="105" y="842" width="870" height="328" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="858" width="6" height="296" rx="3" fill="#2f7fb5"/>
+
+<!-- Illustration panel -->
+<rect x="105" y="80" width="870" height="336" rx="20" fill="url(#ilSky)" stroke="#8fc9f2" stroke-width="2"/>
+<line x1="540" y1="110" x2="540" y2="386" stroke="#8fc9f2" stroke-width="2" stroke-linecap="round"/>
+
+<!-- Right side: bit as a light switch (off, then on) -->
+<g>
+  <!-- bulb off -->
+  <circle cx="664" cy="156" r="32" fill="#22303f" opacity=".18"/>
+  <circle cx="660" cy="150" r="32" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 650 160 Q 660 146 670 160" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="646" y="178" width="28" height="22" rx="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="648" y1="189" x2="672" y2="189" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="660" y1="200" x2="660" y2="250" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- switch off -->
+  <rect x="624" y="256" width="80" height="124" rx="12" fill="#22303f" opacity=".18"/>
+  <rect x="620" y="250" width="80" height="124" rx="12" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="642" y="272" width="36" height="80" rx="8" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="642" y="312" width="36" height="40" rx="8" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="660" cy="261" r="3" fill="#7f95ab"/>
+  <circle cx="660" cy="363" r="3" fill="#7f95ab"/>
+
+  <!-- arrow from off to on -->
+  <path d="M 716 300 Q 760 274 802 300" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="810,306 796,306 803,294" fill="#c0392b"/>
+
+  <!-- bulb on -->
+  <circle cx="860" cy="150" r="46" fill="#ffd24a" opacity=".35"/>
+  <circle cx="864" cy="156" r="32" fill="#22303f" opacity=".18"/>
+  <circle cx="860" cy="150" r="32" fill="url(#ilBulbOn)" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 850 160 Q 860 146 870 160" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="846" y="178" width="28" height="22" rx="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="848" y1="189" x2="872" y2="189" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="860" y1="96" x2="860" y2="84" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="820" y1="112" x2="812" y2="104" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="900" y1="112" x2="908" y2="104" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="806" y1="150" x2="794" y2="150" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="914" y1="150" x2="926" y2="150" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="860" y1="200" x2="860" y2="250" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- switch on -->
+  <rect x="824" y="256" width="80" height="124" rx="12" fill="#22303f" opacity=".18"/>
+  <rect x="820" y="250" width="80" height="124" rx="12" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="842" y="272" width="36" height="80" rx="8" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="842" y="272" width="36" height="40" rx="8" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="860" cy="261" r="3" fill="#7f95ab"/>
+  <circle cx="860" cy="363" r="3" fill="#7f95ab"/>
+</g>
+
+<!-- Left side: qubit as a coin spinning above an open hand -->
+<g>
+  <!-- motion arcs -->
+  <path d="M 236 140 Q 216 200 236 260" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round" opacity=".6"/>
+  <path d="M 404 140 Q 424 200 404 260" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round" opacity=".6"/>
+  <path d="M 258 156 Q 244 200 258 244" fill="none" stroke="#17457f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 382 156 Q 396 200 382 244" fill="none" stroke="#17457f" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- blurred coin copies -->
+  <ellipse cx="290" cy="200" rx="24" ry="58" fill="#f0c48c" opacity=".18"/>
+  <ellipse cx="350" cy="200" rx="24" ry="58" fill="#f0c48c" opacity=".18"/>
+  <ellipse cx="302" cy="200" rx="26" ry="58" fill="#ffd24a" opacity=".35"/>
+  <ellipse cx="338" cy="200" rx="26" ry="58" fill="#ffd24a" opacity=".35"/>
+  <ellipse cx="320" cy="200" rx="28" ry="58" fill="url(#ilCoin)" stroke="#22303f" stroke-width="2.5" opacity=".85"/>
+  <!-- sparkles -->
+  <path transform="translate(176 126)" d="M 0 -10 L 3 -3 L 10 0 L 3 3 L 0 10 L -3 3 L -10 0 L -3 -3 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <path transform="translate(474 118)" d="M 0 -10 L 3 -3 L 10 0 L 3 3 L 0 10 L -3 3 L -10 0 L -3 -3 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <path transform="translate(468 300)" d="M 0 -10 L 3 -3 L 10 0 L 3 3 L 0 10 L -3 3 L -10 0 L -3 -3 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <!-- coin shadow on palm -->
+  <ellipse cx="306" cy="346" rx="34" ry="5" fill="#22303f" opacity=".18"/>
+  <!-- open hand -->
+  <path d="M 222 392 Q 218 360 252 354 L 332 352 Q 366 350 390 342 Q 408 337 411 349 Q 413 361 394 369 Q 372 378 362 390 Q 342 410 292 410 L 244 410 Q 224 408 222 392 Z" fill="#e8b98d" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 344 364 Q 370 360 392 352" fill="none" stroke="#b57e50" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 340 376 Q 364 372 380 368" fill="none" stroke="#b57e50" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 262 356 Q 252 330 268 324 Q 284 320 288 338 L 290 354" fill="#e8b98d" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="182" y="370" width="46" height="42" rx="8" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Card header icon: open book -->
+<g transform="translate(420 854)">
+  <path d="M 2 8 Q 13 3 26 8 L 26 46 Q 13 41 2 46 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 26 8 Q 39 3 50 8 L 50 46 Q 39 41 26 46 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="8" y1="18" x2="20" y2="16" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="8" y1="28" x2="20" y2="26" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="32" y1="16" x2="44" y2="18" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="32" y1="26" x2="44" y2="28" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Bottom band: smile face, coin icon, bulb icon -->
+<g transform="translate(440 1218)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+<g transform="translate(512 1190)">
+  <circle cx="28" cy="28" r="24" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="28" cy="28" r="15" fill="none" stroke="#c96a1b" stroke-width="2.5"/>
+  <path d="M 0 14 Q -6 28 0 42" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 56 14 Q 62 28 56 42" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+<g transform="translate(612 1190)">
+  <circle cx="28" cy="22" r="18" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="20" y="38" width="16" height="14" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="28" y1="0" x2="28" y2="-4" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="4" y1="22" x2="0" y2="22" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="52" y1="22" x2="56" y2="22" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Illustration labels -->
+<text x="950" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#17457f">
+  <tspan x="950" dy="0">البت: 0 أو 1</tspan>
+</text>
+<text x="740" y="514" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="740" dy="0">Bit: 0 or 1</tspan>
+</text>
+<text x="500" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#17457f">
+  <tspan x="500" dy="0">الكيوبت: مزيج من 0 و1</tspan>
+</text>
+<text x="160" y="514" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="160" dy="0">Qubit: a combination</tspan>
+  <tspan x="160" dy="40">of 0 and 1</tspan>
+</text>
+
+<!-- Caption -->
+<text x="950" y="634" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">يشبه <tspan font-weight="bold" fill="#c0392b">التراكب</tspan> عملة تدور في الهواء:</tspan>
+  <tspan x="950" dy="40">ليست <tspan fill="#c96a1b">«صورة»</tspan> ولا <tspan fill="#c96a1b">«كتابة»</tspan> حتى تسقط.</tspan>
+</text>
+<text x="120" y="714" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">Superposition</tspan> is like a coin spinning</tspan>
+  <tspan x="120" dy="40">in the air: neither <tspan fill="#c96a1b">"heads"</tspan> nor <tspan fill="#c96a1b">"tails"</tspan></tspan>
+  <tspan x="120" dy="40">until it lands.</tspan>
+</text>
+
+<!-- Card header -->
+<text x="935" y="874" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">مصطلحات أساسية</tspan>
+</text>
+<text x="140" y="914" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">KEY TERMS</tspan>
+</text>
+
+<!-- Term -->
+<text x="935" y="954" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">التراكب</tspan> (Superposition) — قدرة الكيوبت</tspan>
+  <tspan x="935" dy="40">على أن يكون في مزيج من الحالات معًا</tspan>
+  <tspan x="935" dy="40">حتى <tspan font-weight="bold" fill="#17457f">لحظة القياس.</tspan></tspan>
+</text>
+<text x="140" y="1074" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">superposition</tspan> — a qubit's ability to</tspan>
+  <tspan x="140" dy="40">be in a combination of states at once</tspan>
+  <tspan x="140" dy="40">until it is <tspan font-weight="bold" fill="#17457f">measured.</tspan></tspan>
+</text>
+</svg>

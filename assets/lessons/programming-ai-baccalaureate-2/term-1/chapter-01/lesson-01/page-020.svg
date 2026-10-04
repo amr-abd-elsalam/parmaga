@@ -4,241 +4,132 @@
      viewBox="0 0 1080 1350"
      preserveAspectRatio="xMidYMid meet"
      style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-  <defs>
-    <linearGradient id="deskWood" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#b57a41"/>
-      <stop offset="0.55" stop-color="#9d6432"/>
-      <stop offset="1" stop-color="#7f4e26"/>
-    </linearGradient>
-    <linearGradient id="paperTone" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fefcf5"/>
-      <stop offset="1" stop-color="#faf5e8"/>
-    </linearGradient>
-    <filter id="paperShadow" x="-8%" y="-6%" width="116%" height="114%">
-      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#3a2411" flood-opacity="0.35"/>
-    </filter>
-  </defs>
+<!-- Shadows -->
+<rect x="109" y="128" width="870" height="368" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="109" y="528" width="870" height="328" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="174" y="1156" width="80" height="100" rx="8" fill="#22303f" opacity=".18"/>
+<circle cx="824" cy="1196" r="36" fill="#22303f" opacity=".18"/>
 
-  <!-- 1) خلفية مكتب خشبي بسيطة -->
-  <rect x="0" y="0" width="1080" height="1350" fill="url(#deskWood)"/>
-  <path d="M0 210 C 300 170, 780 250, 1080 205" stroke="#6f421f" stroke-width="16" fill="none" opacity="0.16"/>
-  <path d="M0 1140 C 320 1100, 760 1180, 1080 1130" stroke="#6f421f" stroke-width="18" fill="none" opacity="0.14"/>
+<!-- Info card -->
+<rect x="105" y="122" width="870" height="368" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="336" rx="3" fill="#2f7fb5"/>
 
-  <!-- 2) الورقة -->
-  <rect x="34" y="26" width="1012" height="1300" rx="10" fill="url(#paperTone)" filter="url(#paperShadow)"/>
+<!-- Warning card -->
+<rect x="105" y="522" width="870" height="328" rx="16" fill="#fdf1e2" stroke="#f0c48c" stroke-width="2"/>
+<rect x="961" y="538" width="6" height="296" rx="3" fill="#c96a1b"/>
 
-  <!-- 3) سطور الكراسة الزرقاء الباهتة -->
-  <g stroke="#b9d4e8" stroke-width="1.4" opacity="0.85">
-    <line x1="80" y1="118" x2="1000" y2="118"/>
-    <line x1="80" y1="151" x2="1000" y2="151"/>
-    <line x1="80" y1="184" x2="1000" y2="184"/>
-    <line x1="80" y1="217" x2="1000" y2="217"/>
-    <line x1="80" y1="250" x2="1000" y2="250"/>
-    <line x1="80" y1="283" x2="1000" y2="283"/>
-    <line x1="80" y1="316" x2="1000" y2="316"/>
-    <line x1="80" y1="349" x2="1000" y2="349"/>
-    <line x1="80" y1="382" x2="1000" y2="382"/>
-    <line x1="80" y1="415" x2="1000" y2="415"/>
-    <line x1="80" y1="448" x2="1000" y2="448"/>
-    <line x1="80" y1="481" x2="1000" y2="481"/>
-    <line x1="80" y1="514" x2="1000" y2="514"/>
-    <line x1="80" y1="547" x2="1000" y2="547"/>
-    <line x1="80" y1="580" x2="1000" y2="580"/>
-    <line x1="80" y1="613" x2="1000" y2="613"/>
-    <line x1="80" y1="646" x2="1000" y2="646"/>
-    <line x1="80" y1="679" x2="1000" y2="679"/>
-    <line x1="80" y1="712" x2="1000" y2="712"/>
-    <line x1="80" y1="745" x2="1000" y2="745"/>
-    <line x1="80" y1="778" x2="1000" y2="778"/>
-    <line x1="80" y1="811" x2="1000" y2="811"/>
-    <line x1="80" y1="844" x2="1000" y2="844"/>
-    <line x1="80" y1="877" x2="1000" y2="877"/>
-    <line x1="80" y1="910" x2="1000" y2="910"/>
-    <line x1="80" y1="943" x2="1000" y2="943"/>
-    <line x1="80" y1="976" x2="1000" y2="976"/>
-    <line x1="80" y1="1009" x2="1000" y2="1009"/>
-    <line x1="80" y1="1042" x2="1000" y2="1042"/>
-    <line x1="80" y1="1075" x2="1000" y2="1075"/>
-    <line x1="80" y1="1108" x2="1000" y2="1108"/>
-    <line x1="80" y1="1141" x2="1000" y2="1141"/>
-    <line x1="80" y1="1174" x2="1000" y2="1174"/>
-  </g>
+<!-- Memory illustration: observed and measured doubling trend -->
+<g>
+  <rect x="170" y="1150" width="80" height="100" rx="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="192" y="1142" width="36" height="16" rx="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 182 1180 L 188 1186 L 198 1174" fill="none" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="206" y1="1180" x2="238" y2="1180" stroke="#8fc9f2" stroke-width="1.4"/>
+  <path d="M 182 1204 L 188 1210 L 198 1198" fill="none" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="206" y1="1204" x2="238" y2="1204" stroke="#8fc9f2" stroke-width="1.4"/>
+  <path d="M 182 1228 L 188 1234 L 198 1222" fill="none" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="206" y1="1228" x2="238" y2="1228" stroke="#8fc9f2" stroke-width="1.4"/>
 
-  <!-- 4) الإطار الأحمر الخارجي الوحيد -->
-  <rect x="67" y="70" width="946" height="1242" rx="6" fill="none" stroke="#c0392b" stroke-width="2.6"/>
+  <rect x="360" y="1244" width="40" height="6" rx="2" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="420" y="1238" width="40" height="12" rx="2" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="480" y="1226" width="40" height="24" rx="2" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="540" y="1202" width="40" height="48" rx="2" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="600" y="1160" width="40" height="90" rx="2" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="330" y1="1150" x2="330" y2="1250" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="330" y1="1250" x2="680" y2="1250" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
 
-  <!-- 5) بطاقات صفراء باهتة (رأس العنوان + قسم القطعة) -->
-  <rect x="105" y="100" width="870" height="98" rx="14"
-        fill="#fdf3cf" fill-opacity="0.88" stroke="#e3d296" stroke-width="1.6"/>
-  <rect x="95" y="226" width="890" height="522" rx="16"
-        fill="#fdf6da" fill-opacity="0.82" stroke="#e3d296" stroke-width="1.6"/>
+  <path d="M 370 1230 Q 560 1226 650 1156" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="660,1146 657,1162 645,1153" fill="#c0392b"/>
 
-  <!-- 6) أسطر الكتابة الفارغة للإجابات -->
-  <g stroke="#9fb8cc" stroke-width="1.8" stroke-linecap="round">
-    <line x1="140" y1="995" x2="940" y2="995"/>
-    <line x1="140" y1="1160" x2="940" y2="1160"/>
-  </g>
+  <polygon points="843,1222 851,1214 889,1252 881,1260" fill="#7d4f28" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="820" cy="1190" r="36" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 798 1206 L 812 1198 L 826 1188 L 842 1170" fill="none" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="842" cy="1170" r="4" fill="#2e7d32"/>
+</g>
 
-  <!-- 7) النصوص التعليمية -->
+<!-- Icon: open book beside card header -->
+<g transform="translate(560 148)">
+  <path d="M 0 -16 Q -13 -24 -26 -18 L -26 18 Q -13 12 0 20 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 0 -16 Q 13 -24 26 -18 L 26 18 Q 13 12 0 20 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="-20" y1="-8" x2="-6" y2="-6" stroke="#8fc9f2" stroke-width="1.4"/>
+  <line x1="-20" y1="0" x2="-6" y2="2" stroke="#8fc9f2" stroke-width="1.4"/>
+  <line x1="6" y1="-6" x2="20" y2="-8" stroke="#2f7fb5" stroke-width="1.4"/>
+  <line x1="6" y1="2" x2="20" y2="0" stroke="#2f7fb5" stroke-width="1.4"/>
+</g>
 
-  <!-- العنوان العربي -->
-  <text x="540"
-        y="151"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="42"
-        font-weight="bold"
-        fill="#1f4e79">تمرين: اقرأ ثم أجب</text>
+<!-- Icon: warning triangle in warning card -->
+<g transform="translate(175 552)">
+  <polygon points="0,-24 26,20 -26,20" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="-3" y="-10" width="6" height="16" rx="3" fill="#22303f"/>
+  <circle cx="0" cy="12" r="3.5" fill="#22303f"/>
+</g>
 
-  <!-- العنوان الإنجليزي -->
-  <text x="540"
-        y="186"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26"
-        fill="#163050">Exercise: Read and Answer</text>
+<!-- Face: thinking beside short English line -->
+<g transform="translate(880 1100)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
 
-  <!-- القطعة العربية -->
-  <text x="925"
-        y="283"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="26"
-        fill="#225f9c">
-    <tspan x="955" dy="0">ظهرت الحواسيب الإلكترونية في الأربعينيات، واستُخدمت في البداية</tspan>
-    <tspan x="955" dy="33">أساسًا في الحسابات العسكرية والعلمية. وفي السبعينيات والثمانينيات،</tspan>
-    <tspan x="955" dy="33">انتشرت (أ) ______، مما أتاح للأفراد استخدام الحاسوب. وفي التسعينيات،</tspan>
-    <tspan x="955" dy="33">جرى الاستخدام التجاري لـ (ب) ______، فساعد ذلك على انتشار</tspan>
-    <tspan x="955" dy="33">المعلومات عالميًا. وفي العقد الأول من الألفية ظهرت (ج) ______،</tspan>
-    <tspan x="955" dy="33">فانتشر الإنترنت عبر الهواتف المحمولة بسرعة.</tspan>
-  </text>
+<!-- Text -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">مصطلحات أساسية</tspan>
+</text>
+<text x="140" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">KEY TERMS</tspan>
+</text>
 
-  <!-- القطعة الإنجليزية -->
-  <text x="125"
-        y="514"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="24"
-        fill="#152b42">
-    <tspan x="125" dy="0">Electronic computers appeared in the 1940s and were</tspan>
-    <tspan x="125" dy="33">initially used mainly for military and scientific</tspan>
-    <tspan x="125" dy="33">computation. In the 1970s and 1980s, (a) ______ became</tspan>
-    <tspan x="125" dy="33">widespread, allowing individuals to use computers.</tspan>
-    <tspan x="125" dy="33">In the 1990s, (b) ______ was commercialized, helping</tspan>
-    <tspan x="125" dy="33">information spread globally. In the 2000s, (c) ______</tspan>
-    <tspan x="125" dy="33">emerged, leading to the rapid spread of mobile Internet.</tspan>
-  </text>
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">الملاحظة التجريبية</tspan> — استنتاج مبني على ما</tspan>
+  <tspan x="935" dy="40">رُصد وقيس في الواقع، لا على برهان نظري،</tspan>
+  <tspan x="935" dy="40">لذلك <tspan font-weight="bold" fill="#17457f">قد يتوقف.</tspan></tspan>
+</text>
+<text x="140" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">empirical observation</tspan> — a conclusion</tspan>
+  <tspan x="140" dy="40">based on what was observed and</tspan>
+  <tspan x="140" dy="40">measured, not on a theoretical proof,</tspan>
+  <tspan x="140" dy="40">so it can <tspan font-weight="bold" fill="#17457f">stop being true.</tspan></tspan>
+</text>
 
-  <!-- السؤال الأول -->
-  <text x="962"
-        y="795"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="end"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="26"
-        font-weight="bold"
-        fill="#1e7a46">.1</text>
+<text x="935" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">انتبه في الامتحان:</tspan> اسمه «قانون» لكنه ليس</tspan>
+  <tspan x="935" dy="40">قانونًا فيزيائيًا مثل الجاذبية، بل</tspan>
+  <tspan x="935" dy="40"><tspan font-weight="bold" fill="#17457f">ملاحظة تجريبية</tspan> لاتجاه استمر عقودًا.</tspan>
+</text>
+<text x="140" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Watch out in the exam:</tspan> It is called</tspan>
+  <tspan x="140" dy="40">a "law," but it is not a physical law</tspan>
+  <tspan x="140" dy="40">like gravity; it is an</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#17457f">empirical observation</tspan> of a trend that</tspan>
+  <tspan x="140" dy="40">lasted for decades.</tspan>
+</text>
 
-  <text x="925"
-        y="795"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="25"
-        fill="#225f9c">
-    <tspan x="925" dy="0">املأ الفراغات من (أ) إلى (ج).</tspan>
-  </text>
-
-  <text x="140"
-        y="826"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="23"
-        fill="#152b42">
-    <tspan x="140" dy="0">Fill in the blanks from (a) to (c).</tspan>
-  </text>
-
-  <!-- السؤال الثاني -->
-  <text x="962"
-        y="869"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="end"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="26"
-        font-weight="bold"
-        fill="#1e7a46">.2</text>
-
-  <text x="925"
-        y="869"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="25"
-        fill="#225f9c">
-    <tspan x="925" dy="0">ما التقنية التي انتشرت من العقد الثاني من الألفية فصاعدًا، وتدعم</tspan>
-    <tspan x="925" dy="31">تحليل البيانات على نطاق واسع واستخدام الذكاء الاصطناعي؟</tspan>
-  </text>
-
-  <text x="140"
-        y="931"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="23"
-        fill="#152b42">
-    <tspan x="140" dy="0">What technology spread from the 2010s onward and supports</tspan>
-    <tspan x="140" dy="29">large-scale data analysis and the use of AI?</tspan>
-  </text>
-
-  <!-- السؤال الثالث -->
-  <text x="962"
-        y="1035"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="end"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="26"
-        font-weight="bold"
-        fill="#1e7a46">.3</text>
-
-  <text x="925"
-        y="1035"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="25"
-        fill="#225f9c">
-    <tspan x="925" dy="0">وفقًا لقانون مور، كل كم سنة تقريبًا يتضاعف عدد</tspan>
-    <tspan x="925" dy="31">الترانزستورات في الدائرة المتكاملة؟</tspan>
-  </text>
-
-  <text x="140"
-        y="1097"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="23"
-        fill="#152b42">
-    <tspan x="140" dy="0">According to Moore’s Law, approximately how often does the</tspan>
-    <tspan x="140" dy="29">number of transistors on an integrated circuit double?</tspan>
-  </text>
-
+<text x="950" y="914" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">توقّع <tspan font-weight="bold" fill="#17457f">Gordon Moore</tspan> سنة <tspan fill="#c96a1b">1965</tspan> أن يتضاعف</tspan>
+  <tspan x="950" dy="40">العدد كل عام، ثم عدّل توقعه سنة <tspan fill="#c96a1b">1975</tspan></tspan>
+  <tspan x="950" dy="40">إلى كل عامين.</tspan>
+</text>
+<text x="120" y="1034" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">In <tspan fill="#c96a1b">1965,</tspan> <tspan font-weight="bold" fill="#17457f">Gordon Moore</tspan> predicted the</tspan>
+  <tspan x="120" dy="40">number would double every year; in <tspan fill="#c96a1b">1975</tspan></tspan>
+  <tspan x="120" dy="40">he revised it to every two years.</tspan>
+</text>
 </svg>

@@ -4,232 +4,289 @@
      viewBox="0 0 1080 1350"
      preserveAspectRatio="xMidYMid meet"
      style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-  <defs>
-    <linearGradient id="woodGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#b07c46"/>
-      <stop offset="55%" stop-color="#986533"/>
-      <stop offset="100%" stop-color="#7d4f26"/>
-    </linearGradient>
-    <linearGradient id="paperGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#fffdf8"/>
-      <stop offset="100%" stop-color="#fbf6ea"/>
-    </linearGradient>
-  </defs>
+<defs>
+  <linearGradient id="ilPanel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+</defs>
 
-  <!-- 1. الخلفية الخشبية البسيطة -->
-  <rect x="0" y="0" width="1080" height="1350" fill="url(#woodGrad)"/>
-  <path d="M0 250 C 300 210, 760 300, 1080 240" fill="none" stroke="#6f4520" stroke-width="14" opacity=".16"/>
-  <path d="M0 1080 C 340 1130, 720 1030, 1080 1090" fill="none" stroke="#6f4520" stroke-width="12" opacity=".14"/>
+<!-- Shadows -->
+<rect x="109" y="488" width="870" height="648" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="129" y="1152" width="830" height="104" rx="20" fill="#22303f" opacity=".18"/>
 
-  <!-- 2. الورقة -->
-  <rect x="42" y="40" width="1012" height="1290" rx="10" fill="#3d2612" opacity=".22"/>
-  <rect x="34" y="30" width="1012" height="1290" rx="10" fill="url(#paperGrad)"/>
+<!-- Info card -->
+<rect x="105" y="482" width="870" height="648" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="498" width="6" height="616" rx="3" fill="#2f7fb5"/>
 
-  <!-- 3. سطور الكراسة الزرقاء الباهتة -->
-  <g stroke="#cfe0ef" stroke-width="1.6" opacity=".55">
-    <line x1="80" y1="192" x2="1000" y2="192"/>
-    <line x1="80" y1="230" x2="1000" y2="230"/>
-    <line x1="80" y1="268" x2="1000" y2="268"/>
-    <line x1="80" y1="306" x2="1000" y2="306"/>
-    <line x1="80" y1="344" x2="1000" y2="344"/>
-    <line x1="80" y1="382" x2="1000" y2="382"/>
-    <line x1="80" y1="420" x2="1000" y2="420"/>
-    <line x1="80" y1="458" x2="1000" y2="458"/>
-    <line x1="80" y1="496" x2="1000" y2="496"/>
-    <line x1="80" y1="534" x2="1000" y2="534"/>
-    <line x1="80" y1="572" x2="1000" y2="572"/>
-    <line x1="80" y1="610" x2="1000" y2="610"/>
-    <line x1="80" y1="648" x2="1000" y2="648"/>
-    <line x1="80" y1="686" x2="1000" y2="686"/>
-    <line x1="80" y1="724" x2="1000" y2="724"/>
-    <line x1="80" y1="762" x2="1000" y2="762"/>
-    <line x1="80" y1="800" x2="1000" y2="800"/>
-    <line x1="80" y1="838" x2="1000" y2="838"/>
-    <line x1="80" y1="876" x2="1000" y2="876"/>
-    <line x1="80" y1="914" x2="1000" y2="914"/>
-    <line x1="80" y1="952" x2="1000" y2="952"/>
-    <line x1="80" y1="990" x2="1000" y2="990"/>
-    <line x1="80" y1="1028" x2="1000" y2="1028"/>
-    <line x1="80" y1="1066" x2="1000" y2="1066"/>
-    <line x1="80" y1="1104" x2="1000" y2="1104"/>
-    <line x1="80" y1="1142" x2="1000" y2="1142"/>
-  </g>
+<!-- Title icon: chip -->
+<g transform="translate(128 78)">
+  <line x1="20" y1="4" x2="20" y2="12" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="28" y1="4" x2="28" y2="12" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="36" y1="4" x2="36" y2="12" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="20" y1="44" x2="20" y2="52" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="28" y1="44" x2="28" y2="52" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="36" y1="44" x2="36" y2="52" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="4" y1="20" x2="12" y2="20" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="4" y1="28" x2="12" y2="28" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="4" y1="36" x2="12" y2="36" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="44" y1="20" x2="52" y2="20" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="44" y1="28" x2="52" y2="28" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="44" y1="36" x2="52" y2="36" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="12" y="12" width="32" height="32" rx="4" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="21" y="21" width="14" height="14" rx="2" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+</g>
 
-  <!-- 4. الإطار الأحمر الخارجي الوحيد -->
-  <rect x="67" y="64" width="946" height="1238" rx="6" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+<!-- Title icon: star -->
+<g transform="translate(896 78)">
+  <polygon points="28,2 34.5,19.1 52.7,20 38.5,31.4 43.3,49 28,39 12.7,49 17.5,31.4 3.3,20 21.5,19.1" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
 
-  <!-- 5. خلفيات البطاقات -->
-  <rect x="350" y="660" width="370" height="74" rx="12" fill="#eef8f0" stroke="#2f7d52" stroke-width="2"/>
-  <rect x="105" y="976" width="870" height="186" rx="16" fill="#fdf7dd" stroke="#d9c47a" stroke-width="2"/>
+<!-- Card icon: chip -->
+<g transform="translate(800 772)">
+  <line x1="20" y1="4" x2="20" y2="12" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="28" y1="4" x2="28" y2="12" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="36" y1="4" x2="36" y2="12" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="20" y1="44" x2="20" y2="52" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="28" y1="44" x2="28" y2="52" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="36" y1="44" x2="36" y2="52" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="4" y1="20" x2="12" y2="20" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="4" y1="28" x2="12" y2="28" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="4" y1="36" x2="12" y2="36" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="44" y1="20" x2="52" y2="20" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="44" y1="28" x2="52" y2="28" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="44" y1="36" x2="52" y2="36" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="12" y="12" width="32" height="32" rx="4" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="21" y="21" width="14" height="14" rx="2" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+</g>
 
-  <!-- 6. الرسم التوضيحي: خطوط وظيفية وأشكال -->
+<!-- Card icon: open book -->
+<g transform="translate(878 768)">
+  <path d="M32 16 Q20 8 4 12 L4 52 Q20 48 32 56 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M32 16 Q44 8 60 12 L60 52 Q44 48 32 56 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="10" y1="22" x2="26" y2="24" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="10" y1="32" x2="26" y2="34" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="38" y1="24" x2="54" y2="22" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="38" y1="34" x2="54" y2="32" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+</g>
 
-  <!-- الطريق -->
-  <rect x="115" y="898" width="850" height="60" rx="6" fill="#e9e5dc" stroke="#c9c2b4" stroke-width="1.6"/>
-  <line x1="150" y1="930" x2="930" y2="930" stroke="#ffffff" stroke-width="5" stroke-dasharray="28 22" opacity=".95"/>
+<!-- Memory illustration: from room cabinets to a desk PC -->
+<rect x="125" y="1146" width="830" height="104" rx="20" fill="url(#ilPanel)" stroke="#22303f" stroke-width="2.5"/>
 
-  <!-- السحابة البعيدة -->
-  <g fill="#eef3f9" stroke="#8fa5ba" stroke-width="2">
-    <circle cx="828" cy="692" r="26"/>
-    <circle cx="868" cy="678" r="32"/>
-    <circle cx="910" cy="694" r="24"/>
-    <rect x="810" y="694" width="120" height="24" rx="12" stroke="none"/>
-  </g>
-  <line x1="812" y1="718" x2="928" y2="718" stroke="#8fa5ba" stroke-width="2"/>
+<!-- Desk -->
+<rect x="145" y="1232" width="790" height="10" rx="4" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
 
-  <!-- سهم الانتظار نحو السحابة مع علامة الإلغاء -->
-  <line x1="692" y1="812" x2="795" y2="734" stroke="#8fa5ba" stroke-width="3" stroke-dasharray="10 9"/>
-  <path d="M795 734 L 779 736 L 788 748 Z" fill="#8fa5ba"/>
-  <g stroke="#c0392b" stroke-width="4" stroke-linecap="round">
-    <line x1="734" y1="759" x2="758" y2="783"/>
-    <line x1="758" y1="759" x2="734" y2="783"/>
-  </g>
+<!-- Old room cabinets (right) -->
+<g>
+  <rect x="770" y="1164" width="34" height="68" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="810" y="1164" width="34" height="68" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="850" y="1164" width="34" height="68" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="780" cy="1178" r="3.5" fill="#ffd24a"/>
+  <circle cx="794" cy="1178" r="3.5" fill="#f0c48c"/>
+  <circle cx="780" cy="1192" r="3.5" fill="#f0c48c"/>
+  <circle cx="794" cy="1192" r="3.5" fill="#ffd24a"/>
+  <circle cx="820" cy="1178" r="3.5" fill="#f0c48c"/>
+  <circle cx="834" cy="1178" r="3.5" fill="#ffd24a"/>
+  <circle cx="820" cy="1192" r="3.5" fill="#ffd24a"/>
+  <circle cx="834" cy="1192" r="3.5" fill="#f0c48c"/>
+  <circle cx="860" cy="1178" r="3.5" fill="#ffd24a"/>
+  <circle cx="874" cy="1178" r="3.5" fill="#f0c48c"/>
+  <circle cx="860" cy="1192" r="3.5" fill="#f0c48c"/>
+  <circle cx="874" cy="1192" r="3.5" fill="#ffd24a"/>
+  <circle cx="787" cy="1214" r="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="827" cy="1214" r="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="867" cy="1214" r="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+</g>
 
-  <!-- المركبة الأخرى على اليسار -->
-  <g stroke="#8a5a3b" stroke-width="2.5">
-    <path d="M190 838 L 212 806 L 272 806 L 294 838 Z" fill="#faeadf"/>
-    <rect x="160" y="838" width="156" height="46" rx="10" fill="#f5ded0"/>
-  </g>
-  <circle cx="196" cy="888" r="16" fill="#3a3a3a"/>
-  <circle cx="282" cy="888" r="16" fill="#3a3a3a"/>
+<!-- Arrow: room to desk -->
+<line x1="752" y1="1192" x2="662" y2="1192" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="650,1192 664,1184 664,1200" fill="#c0392b"/>
 
-  <!-- أحد المشاة على اليمين -->
-  <g stroke="#1f4e79" stroke-width="3.6" stroke-linecap="round" fill="none">
-    <circle cx="874" cy="798" r="13"/>
-    <line x1="874" y1="811" x2="874" y2="852"/>
-    <line x1="854" y1="828" x2="894" y2="822"/>
-    <line x1="874" y1="852" x2="862" y2="890"/>
-    <line x1="874" y1="852" x2="888" y2="890"/>
-  </g>
+<!-- Personal computer -->
+<g>
+  <rect x="474" y="1162" width="140" height="64" rx="8" fill="#22303f" opacity=".18"/>
+  <rect x="470" y="1156" width="140" height="64" rx="8" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="482" y="1164" width="116" height="46" rx="4" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="492" y="1174" width="54" height="6" rx="3" fill="#ffffff"/>
+  <rect x="492" y="1186" width="38" height="6" rx="3" fill="#dff1f7"/>
+  <rect x="492" y="1198" width="62" height="6" rx="3" fill="#ffffff"/>
+  <rect x="525" y="1220" width="30" height="12" rx="2" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="395" y="1222" width="66" height="10" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="404" y1="1227" x2="452" y2="1227" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <ellipse cx="630" cy="1226" rx="9" ry="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+</g>
 
-  <!-- السيارة ذاتية القيادة في المنتصف -->
-  <path d="M466 830 L 496 790 L 600 790 L 632 830 Z" fill="#eef4fb" stroke="#1f4e79" stroke-width="2.5"/>
-  <rect x="426" y="830" width="246" height="56" rx="14" fill="#dce9f6" stroke="#1f4e79" stroke-width="2.5"/>
-  <circle cx="478" cy="890" r="18" fill="#3a3a3a"/>
-  <circle cx="622" cy="890" r="18" fill="#3a3a3a"/>
+<!-- Chip (left) -->
+<g>
+  <ellipse cx="328" cy="1196" rx="40" ry="34" fill="#ffd24a" opacity=".35"/>
+  <line x1="316" y1="1170" x2="316" y2="1178" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="328" y1="1170" x2="328" y2="1178" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="340" y1="1170" x2="340" y2="1178" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="316" y1="1214" x2="316" y2="1222" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="328" y1="1214" x2="328" y2="1222" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="340" y1="1214" x2="340" y2="1222" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="300" y1="1184" x2="308" y2="1184" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="300" y1="1196" x2="308" y2="1196" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="300" y1="1208" x2="308" y2="1208" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="348" y1="1184" x2="356" y2="1184" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="348" y1="1196" x2="356" y2="1196" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="348" y1="1208" x2="356" y2="1208" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="308" y="1178" width="40" height="36" rx="4" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="319" y="1187" width="18" height="18" rx="2" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+</g>
 
-  <!-- مستشعر السقف والكاميرات -->
-  <line x1="547" y1="790" x2="547" y2="778" stroke="#1f4e79" stroke-width="3"/>
-  <circle cx="547" cy="774" r="7" fill="#c0392b"/>
-  <circle cx="668" cy="842" r="6" fill="#c0392b"/>
-  <circle cx="428" cy="848" r="6" fill="#c0392b"/>
+<!-- Face: smile -->
+<g transform="translate(210 1196)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
 
-  <!-- شريحة المعالجة داخل السيارة -->
-  <rect x="512" y="796" width="76" height="28" rx="5" fill="#d8f0dd" stroke="#2f7d52" stroke-width="2.2"/>
-  <g stroke="#2f7d52" stroke-width="2.2">
-    <line x1="504" y1="804" x2="512" y2="804"/>
-    <line x1="504" y1="812" x2="512" y2="812"/>
-    <line x1="504" y1="820" x2="512" y2="820"/>
-    <line x1="588" y1="804" x2="596" y2="804"/>
-    <line x1="588" y1="812" x2="596" y2="812"/>
-    <line x1="588" y1="820" x2="596" y2="820"/>
-  </g>
-  <line x1="550" y1="734" x2="550" y2="794" stroke="#2f7d52" stroke-width="2" stroke-dasharray="7 6"/>
+<!-- Text: titles -->
+<text x="540"
+      y="116"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="middle"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="44"
+      font-weight="bold"
+      fill="#1a4f8a">
+  <tspan x="540" dy="0">المحطة 2: المكتب —</tspan>
+  <tspan x="540" dy="48">الكمبيوتر الشخصي</tspan>
+</text>
 
-  <!-- خطوط الكشف الحمراء الرفيعة -->
-  <g stroke="#c0392b" stroke-width="1.8" opacity=".9">
-    <line x1="672" y1="838" x2="852" y2="800"/>
-    <line x1="672" y1="850" x2="856" y2="878"/>
-    <line x1="672" y1="862" x2="796" y2="932"/>
-    <line x1="424" y1="844" x2="322" y2="828"/>
-    <line x1="424" y1="856" x2="318" y2="874"/>
-  </g>
+<text x="540"
+      y="202"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="middle"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="28"
+      font-weight="normal"
+      fill="#152b42">
+  <tspan x="540" dy="0">Station 2: The Desk — The Personal Computer</tspan>
+</text>
 
-  <!-- 7. النصوص التعليمية -->
+<!-- Text: intro paragraph -->
+<text x="950"
+      y="314"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="950" dy="0">في <tspan fill="#c96a1b">السبعينيات والثمانينيات</tspan> صار الكمبيوتر</tspan>
+  <tspan x="950" dy="40"><tspan font-weight="bold" fill="#17457f">صغيرًا ورخيصًا</tspan> ليوضع على مكتب.</tspan>
+</text>
 
-  <text x="540"
-        y="124"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="42"
-        font-weight="bold"
-        fill="#16436b">القيادة الذاتية والحوسبة الطرفية</text>
+<text x="120"
+      y="394"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="120" dy="0">In the <tspan fill="#c96a1b">1970s and 1980s,</tspan> the computer</tspan>
+  <tspan x="120" dy="40">became <tspan font-weight="bold" fill="#17457f">small and cheap</tspan> enough for a desk.</tspan>
+</text>
 
-  <text x="540"
-        y="168"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="29"
-        fill="#1f3c5a">Autonomous Driving and Edge Computing</text>
+<!-- Text: Info card -->
+<text x="935"
+      y="514"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="32"
+      font-weight="bold"
+      fill="#17457f">
+  <tspan x="935" dy="0">مصطلحات المحطة 2</tspan>
+</text>
 
-  <text x="950"
-        y="224"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="28"
-        fill="#1f5c96">
-    <tspan x="950" dy="0">تستخدم القيادة الذاتية Autonomous Driving الذكاء</tspan>
-    <tspan x="950" dy="38">الاصطناعي والكاميرات والمستشعرات للتعرف على البيئة</tspan>
-    <tspan x="950" dy="38">واتخاذ قرارات القيادة. ولأن التأخير القصير قد يؤدي</tspan>
-    <tspan x="950" dy="38">إلى حادث، تعالج السيارة بعض البيانات على الجهاز نفسه</tspan>
-    <tspan x="950" dy="38">باستخدام الحوسبة الطرفية Edge Computing، بدلًا من</tspan>
-    <tspan x="950" dy="38">انتظار إرسالها إلى السحابة.</tspan>
-  </text>
+<text x="140"
+      y="554"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="31"
+      font-weight="bold"
+      fill="#17457f">
+  <tspan x="140" dy="0">STATION 2 TERMS</tspan>
+</text>
 
-  <text x="120"
-        y="456"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27"
-        fill="#152b42">
-    <tspan x="120" dy="0">Autonomous driving uses AI, cameras, and sensors</tspan>
-    <tspan x="120" dy="34">to recognize the surroundings and make driving</tspan>
-    <tspan x="120" dy="34">decisions. Because even a short delay could cause</tspan>
-    <tspan x="120" dy="34">an accident, the vehicle processes some data on</tspan>
-    <tspan x="120" dy="34">the device itself using edge computing instead of</tspan>
-    <tspan x="120" dy="34">waiting to send it to the cloud.</tspan>
-  </text>
+<text x="935"
+      y="594"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">الدائرة المتكاملة</tspan> (الشريحة) — قطعة صغيرة</tspan>
+  <tspan x="935" dy="40">من السيليكون تضم عددًا هائلًا</tspan>
+  <tspan x="935" dy="40">من <tspan font-weight="bold" fill="#17457f">الترانزستورات</tspan> وتوصيلاتها.</tspan>
+</text>
 
-  <text x="704"
-        y="692"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="26"
-        font-weight="bold"
-        fill="#2f7d52">الحوسبة الطرفية</text>
+<text x="140"
+      y="714"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">integrated circuit</tspan> (chip) — a small</tspan>
+  <tspan x="140" dy="40">piece of silicon containing a huge</tspan>
+  <tspan x="140" dy="40">number of <tspan font-weight="bold" fill="#17457f">transistors</tspan></tspan>
+  <tspan x="140" dy="40">and their connections.</tspan>
+</text>
 
-  <text x="366"
-        y="724"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="25"
-        fill="#2f7d52">Edge Computing</text>
+<text x="935"
+      y="874"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">الكمبيوتر الشخصي (PC)</tspan> — كمبيوتر <tspan font-weight="bold" fill="#17457f">يملكه فرد</tspan></tspan>
+  <tspan x="935" dy="40">ويستخدمه وحده، بعد أن كان الكمبيوتر</tspan>
+  <tspan x="935" dy="40">ملكًا للجيش والجامعات والشركات الكبرى.</tspan>
+</text>
 
-  <text x="940"
-        y="1020"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="27"
-        fill="#1f5c96">
-    <tspan x="940" dy="0">الحوسبة الطرفية: معالجة البيانات بالقرب من مكان</tspan>
-    <tspan x="940" dy="36">إنشائها لاتخاذ قرار سريع.</tspan>
-  </text>
-
-  <text x="140"
-        y="1098"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26"
-        fill="#152b42">
-    <tspan x="140" dy="0">Edge computing: processing data near where it is</tspan>
-    <tspan x="140" dy="34">created to make a rapid decision.</tspan>
-  </text>
-
+<text x="140"
+      y="994"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">personal computer (PC)</tspan> — a computer</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#17457f">one person owns</tspan> and uses alone, after</tspan>
+  <tspan x="140" dy="40">computers had belonged to armies,</tspan>
+  <tspan x="140" dy="40">universities, and large companies.</tspan>
+</text>
 </svg>

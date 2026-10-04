@@ -4,199 +4,173 @@
      viewBox="0 0 1080 1350"
      preserveAspectRatio="xMidYMid meet"
      style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilRoom" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="ilBlanket" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-  <defs>
-    <linearGradient id="woodGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#b98450"/>
-      <stop offset="0.55" stop-color="#a06f3f"/>
-      <stop offset="1" stop-color="#835730"/>
-    </linearGradient>
-    <linearGradient id="paperGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fffdf6"/>
-      <stop offset="1" stop-color="#fbf7ea"/>
-    </linearGradient>
-  </defs>
+<!-- Illustration shadow -->
+<rect x="184" y="996" width="720" height="250" rx="24" fill="#22303f" opacity=".18"/>
 
-  <!-- 1. Simple warm background -->
-  <rect x="0" y="0" width="1080" height="1350" fill="url(#woodGrad)"/>
-  <path d="M0,240 C300,190 780,300 1080,235" stroke="#6d4522" stroke-width="16" fill="none" opacity="0.10"/>
-  <path d="M0,1120 C320,1075 760,1180 1080,1110" stroke="#6d4522" stroke-width="14" fill="none" opacity="0.09"/>
+<!-- Answer boxes -->
+<rect x="892" y="635" width="58" height="58" rx="8" fill="#fffdf7" stroke="#225f9c" stroke-width="2"/>
+<rect x="892" y="715" width="58" height="58" rx="8" fill="#fffdf7" stroke="#225f9c" stroke-width="2"/>
+<rect x="892" y="795" width="58" height="58" rx="8" fill="#fffdf7" stroke="#225f9c" stroke-width="2"/>
+<rect x="892" y="875" width="58" height="58" rx="8" fill="#fffdf7" stroke="#225f9c" stroke-width="2"/>
 
-  <!-- 2. Paper -->
-  <rect x="42" y="34" width="1012" height="1298" rx="8" fill="#5b3a1c" opacity="0.22"/>
-  <rect x="34" y="26" width="1012" height="1298" rx="8" fill="url(#paperGrad)"/>
+<!-- Icon: network nodes crossed -->
+<g transform="translate(130 74)">
+  <line x1="12" y1="44" x2="28" y2="12" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="28" y1="12" x2="46" y2="40" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="12" y1="44" x2="46" y2="40" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="12" cy="44" r="8" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="28" cy="12" r="8" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="46" cy="40" r="8" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="4,50 50,4 54,8 8,54" fill="#c0392b"/>
+</g>
 
-  <!-- 3. Pale horizontal notebook lines -->
-  <g stroke="#bfd8ec" stroke-width="1.2" opacity="0.85">
-    <line x1="80" y1="170" x2="1000" y2="170"/>
-    <line x1="80" y1="212" x2="1000" y2="212"/>
-    <line x1="80" y1="254" x2="1000" y2="254"/>
-    <line x1="80" y1="296" x2="1000" y2="296"/>
-    <line x1="80" y1="338" x2="1000" y2="338"/>
-    <line x1="80" y1="380" x2="1000" y2="380"/>
-    <line x1="80" y1="422" x2="1000" y2="422"/>
-    <line x1="80" y1="464" x2="1000" y2="464"/>
-    <line x1="80" y1="506" x2="1000" y2="506"/>
-    <line x1="80" y1="548" x2="1000" y2="548"/>
-    <line x1="80" y1="590" x2="1000" y2="590"/>
-    <line x1="80" y1="632" x2="1000" y2="632"/>
-    <line x1="80" y1="674" x2="1000" y2="674"/>
-    <line x1="80" y1="716" x2="1000" y2="716"/>
-    <line x1="80" y1="758" x2="1000" y2="758"/>
-    <line x1="80" y1="800" x2="1000" y2="800"/>
-    <line x1="80" y1="842" x2="1000" y2="842"/>
-    <line x1="80" y1="884" x2="1000" y2="884"/>
-    <line x1="80" y1="926" x2="1000" y2="926"/>
-    <line x1="80" y1="968" x2="1000" y2="968"/>
-    <line x1="80" y1="1010" x2="1000" y2="1010"/>
-    <line x1="80" y1="1052" x2="1000" y2="1052"/>
-    <line x1="80" y1="1094" x2="1000" y2="1094"/>
-    <line x1="80" y1="1136" x2="1000" y2="1136"/>
-  </g>
+<!-- Face: surprise -->
+<g transform="translate(922 102)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="0" cy="10" r="5" fill="#22303f"/>
+</g>
 
-  <!-- 4. Single thin outer red border -->
-  <rect x="67" y="62" width="946" height="1238" fill="none" stroke="#c62828" stroke-width="2.6"/>
+<!-- Icon: wall calendar -->
+<g transform="translate(870 392)">
+  <rect x="0" y="6" width="56" height="50" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="0" y="6" width="56" height="14" rx="6" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="16" cy="6" r="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="40" cy="6" r="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="8" y="26" width="10" height="9" rx="2" fill="#dff1f7"/>
+  <rect x="23" y="26" width="10" height="9" rx="2" fill="#ffd24a"/>
+  <rect x="38" y="26" width="10" height="9" rx="2" fill="#dff1f7"/>
+  <rect x="8" y="40" width="10" height="9" rx="2" fill="#dff1f7"/>
+  <rect x="23" y="40" width="10" height="9" rx="2" fill="#dff1f7"/>
+  <rect x="38" y="40" width="10" height="9" rx="2" fill="#dff1f7"/>
+</g>
 
-  <!-- 5. Card background (question box) -->
-  <rect x="100" y="984" width="880" height="182" rx="14" fill="#fdf5d4" stroke="#dcc169" stroke-width="2"/>
+<!-- Icon: pencil -->
+<g transform="translate(130 504)">
+  <polygon points="6,38 30,6 38,12 14,44 4,46" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="30,6 34,1 42,7 38,12" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="6,38 14,44 4,46" fill="#22303f"/>
+</g>
 
-  <!-- 6. Functional drawing: student and icons -->
-  <g stroke="#8fb3cf" stroke-width="2" stroke-dasharray="6 7" fill="none" opacity="0.9">
-    <line x1="240" y1="870" x2="320" y2="870"/>
-    <line x1="406" y1="870" x2="498" y2="870"/>
-    <line x1="582" y1="870" x2="684" y2="870"/>
-    <line x1="764" y1="870" x2="836" y2="870"/>
-  </g>
-
-  <!-- icon: social networking -->
-  <g>
-    <rect x="166" y="840" width="68" height="48" rx="11" fill="#eaf3fb" stroke="#2f78b8" stroke-width="2.4"/>
-    <polygon points="184,886 184,906 204,886" fill="#eaf3fb" stroke="#2f78b8" stroke-width="2.4" stroke-linejoin="round"/>
-    <circle cx="184" cy="864" r="4" fill="#2f78b8"/>
-    <circle cx="200" cy="864" r="4" fill="#2f78b8"/>
-    <circle cx="216" cy="864" r="4" fill="#2f78b8"/>
-  </g>
-
-  <!-- icon: online learning -->
-  <g>
-    <polygon points="360,820 388,831 360,842 332,831" fill="#2e8b57" opacity="0.9"/>
-    <rect x="326" y="848" width="68" height="42" rx="5" fill="#edf8ef" stroke="#2e8b57" stroke-width="2.4"/>
-    <line x1="338" y1="862" x2="382" y2="862" stroke="#2e8b57" stroke-width="2.2"/>
-    <line x1="338" y1="874" x2="370" y2="874" stroke="#2e8b57" stroke-width="2.2"/>
-    <rect x="316" y="893" width="88" height="8" rx="4" fill="#2e8b57"/>
-  </g>
-
+<!-- Illustration: surprised student, old technology -->
+<g>
+  <rect x="180" y="990" width="720" height="250" rx="24" fill="url(#ilRoom)" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M180 1200 H900 V1216 Q900 1240 876 1240 H204 Q180 1240 180 1216 Z" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- window -->
+  <rect x="200" y="1012" width="72" height="64" rx="6" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="222" cy="1032" r="10" fill="#ffd24a"/>
+  <rect x="234" y="1012" width="4" height="64" fill="#ffffff"/>
+  <rect x="200" y="1042" width="72" height="4" fill="#ffffff"/>
+  <!-- bed -->
+  <rect x="290" y="1080" width="28" height="130" rx="8" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="310" y="1204" width="12" height="22" rx="3" fill="#7d4f28"/>
+  <rect x="680" y="1204" width="12" height="22" rx="3" fill="#7d4f28"/>
+  <rect x="300" y="1170" width="400" height="36" rx="8" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="305" y="1150" width="395" height="26" rx="10" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="355" cy="1140" rx="40" ry="18" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
   <!-- student -->
-  <g stroke="#14304d" stroke-width="3.2" fill="none" stroke-linecap="round">
-    <circle cx="540" cy="846" r="21"/>
-    <path d="M531,852 Q540,860 549,852"/>
-    <line x1="540" y1="867" x2="540" y2="912"/>
-    <path d="M508,886 L540,876 L572,886"/>
-    <line x1="540" y1="912" x2="522" y2="942"/>
-    <line x1="540" y1="912" x2="558" y2="942"/>
-  </g>
-  <circle cx="533" cy="841" r="2.6" fill="#14304d"/>
-  <circle cx="547" cy="841" r="2.6" fill="#14304d"/>
+  <rect x="396" y="1094" width="14" height="12" fill="#e8b98d"/>
+  <rect x="368" y="1100" width="70" height="62" rx="22" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="403" cy="1072" r="28" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M375 1068 Q378 1036 403 1036 Q430 1036 431 1068 Q420 1052 403 1052 Q388 1052 375 1068 Z" fill="#2b211c"/>
+  <line x1="388" y1="1058" x2="398" y2="1056" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="408" y1="1056" x2="418" y2="1058" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="393" cy="1072" r="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="413" cy="1072" r="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="393" cy="1072" r="2.5" fill="#22303f"/>
+  <circle cx="413" cy="1072" r="2.5" fill="#22303f"/>
+  <circle cx="403" cy="1090" r="4" fill="#22303f"/>
+  <!-- blanket -->
+  <path d="M420 1135 Q560 1120 700 1140 L700 1178 L420 1178 Z" fill="url(#ilBlanket)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M440 1150 Q560 1138 690 1155" fill="none" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- thought bubble -->
+  <circle cx="448" cy="1060" r="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="472" cy="1054" r="9" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="570" cy="1050" rx="72" ry="46" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="540" y="1016" width="40" height="68" rx="8" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="545" y="1025" width="30" height="48" rx="3" fill="#4fc3e8"/>
+  <path d="M552 1040 Q553 1030 560 1030 Q568 1030 568 1038 Q568 1044 560 1047 L560 1054" fill="none" stroke="#ffd24a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="560" cy="1063" r="3" fill="#ffd24a"/>
+  <!-- wall calendar -->
+  <line x1="800" y1="1000" x2="800" y2="1012" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="760" y="1012" width="80" height="78" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="760" y="1012" width="80" height="20" rx="6" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="780" cy="1012" r="4" fill="#7f95ab"/>
+  <circle cx="820" cy="1012" r="4" fill="#7f95ab"/>
+  <rect x="770" y="1040" width="14" height="12" rx="2" fill="#dff1f7"/>
+  <rect x="793" y="1040" width="14" height="12" rx="2" fill="#f0c48c"/>
+  <rect x="816" y="1040" width="14" height="12" rx="2" fill="#dff1f7"/>
+  <rect x="770" y="1060" width="14" height="12" rx="2" fill="#dff1f7"/>
+  <rect x="793" y="1060" width="14" height="12" rx="2" fill="#dff1f7"/>
+  <rect x="816" y="1060" width="14" height="12" rx="2" fill="#ffd24a"/>
+  <!-- bedside table -->
+  <rect x="738" y="1204" width="10" height="22" rx="3" fill="#7d4f28"/>
+  <rect x="812" y="1204" width="10" height="22" rx="3" fill="#7d4f28"/>
+  <rect x="730" y="1150" width="100" height="56" rx="6" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="740" y1="1176" x2="820" y2="1176" stroke="#7d4f28" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="780" cy="1190" r="4" fill="#7d4f28"/>
+  <!-- corded landline phone -->
+  <path d="M745 1150 L752 1128 H808 L815 1150 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="780" cy="1140" r="7" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M748 1126 Q750 1112 762 1114 H798 Q810 1112 812 1126 L802 1128 Q798 1120 790 1122 H770 Q762 1120 758 1128 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M815 1146 q8 4 4 10 q-6 6 2 12 q8 6 2 12" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+</g>
 
-  <!-- icon: e-commerce -->
-  <g>
-    <path d="M688,838 L700,838 L707,850" stroke="#cf6a1f" stroke-width="2.6" fill="none" stroke-linecap="round"/>
-    <polygon points="702,850 764,850 755,882 710,882" fill="#fdeede" stroke="#cf6a1f" stroke-width="2.4" stroke-linejoin="round"/>
-    <line x1="718" y1="856" x2="722" y2="876" stroke="#cf6a1f" stroke-width="2"/>
-    <line x1="740" y1="856" x2="738" y2="876" stroke="#cf6a1f" stroke-width="2"/>
-    <circle cx="716" cy="893" r="6" fill="#cf6a1f"/>
-    <circle cx="750" cy="893" r="6" fill="#cf6a1f"/>
-  </g>
+<!-- Text -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">
+  <tspan x="540" dy="0">قبل أن نبدأ:</tspan>
+  <tspan x="540" dy="48">يوم من غير إنترنت!</tspan>
+</text>
+<text x="540" y="202" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" fill="#152b42">Before We Start: A Day Without the Internet!</text>
 
-  <!-- icon: electronic payment -->
-  <g>
-    <rect x="842" y="846" width="78" height="50" rx="8" fill="#f4edfb" stroke="#6a4fb0" stroke-width="2.4"/>
-    <rect x="843" y="858" width="76" height="11" fill="#6a4fb0" opacity="0.85"/>
-    <rect x="854" y="878" width="28" height="8" rx="3" fill="#6a4fb0" opacity="0.55"/>
-    <rect x="890" y="878" width="16" height="8" rx="3" fill="#6a4fb0" opacity="0.35"/>
-  </g>
+<text x="950" y="314" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">تخيّل أنك صحيت بكرة فوجدت</tspan>
+  <tspan x="950" dy="40">كل شيء رجع إلى <tspan font-weight="bold" fill="#17457f">التسعينيات.</tspan></tspan>
+</text>
+<text x="120" y="394" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Imagine you wake up tomorrow</tspan>
+  <tspan x="120" dy="40">and find that everything has gone</tspan>
+  <tspan x="120" dy="40">back to the <tspan font-weight="bold" fill="#17457f">1990s.</tspan></tspan>
+</text>
 
-  <!-- title separator -->
-  <line x1="272" y1="262" x2="808" y2="262" stroke="#9cbfe0" stroke-width="2.6" stroke-linecap="round"/>
+<text x="950" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">إيه أول حاجة <tspan font-weight="bold" fill="#17457f">هتفتقدها؟</tspan></text>
+<text x="120" y="594" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">What is the first thing you would <tspan font-weight="bold" fill="#17457f">miss?</tspan></text>
 
-  <!-- 7. Educational text -->
-  <text x="540"
-        y="164"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="38"
-        font-weight="bold"
-        fill="#1b4f8a">تطور تكنولوجيا المعلومات والتحول الاجتماعي</text>
+<text x="876" y="674" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">رسائل أصحابي</text>
+<text x="120" y="714" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Messages from my friends</text>
 
-  <text x="540"
-        y="206"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26"
-        fill="#14304d">
-    <tspan x="540" dy="0">Development of Information Technology</tspan>
-    <tspan x="540" dy="32">and Social Transformation</tspan>
-  </text>
+<text x="876" y="754" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">الدفع بالموبايل</text>
+<text x="120" y="794" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Paying with my phone</text>
 
-  <text x="950"
-        y="296"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        fill="#1d5fa8">
-    <tspan x="950" dy="0">في يوم عادي، يستخدم الطالب تطبيقات التواصل</tspan>
-    <tspan x="950" dy="42">الاجتماعي، ويدفع إلكترونيًا، ويتعلم عبر الإنترنت،</tspan>
-    <tspan x="950" dy="42">ويشتري من متجر إلكتروني. لم تكن معظم هذه</tspan>
-    <tspan x="950" dy="42">الخدمات متاحة قبل عشرين عامًا؛ فقد تطورت</tspan>
-    <tspan x="950" dy="42">تكنولوجيا المعلومات على مراحل، وغيّرت في كل</tspan>
-    <tspan x="950" dy="42">مرحلة طريقة تواصل المجتمع وعمله وتعلمه ودفعه.</tspan>
-  </text>
+<text x="876" y="834" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">الدروس أونلاين</text>
+<text x="120" y="874" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Online lessons</text>
 
-  <text x="120"
-        y="566"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27"
-        fill="#152b42">
-    <tspan x="120" dy="0">On an ordinary day, a student uses social</tspan>
-    <tspan x="120" dy="34">networking apps, pays electronically, learns</tspan>
-    <tspan x="120" dy="34">online, and buys from an e-commerce store. Most</tspan>
-    <tspan x="120" dy="34">of these services were not available twenty</tspan>
-    <tspan x="120" dy="34">years ago. Information technology developed</tspan>
-    <tspan x="120" dy="34">in stages, and each stage changed how society</tspan>
-    <tspan x="120" dy="34">communicates, works, learns, and pays.</tspan>
-  </text>
-
-  <text x="944"
-        y="1028"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="29"
-        fill="#1d5fa8">
-    <tspan x="944" dy="0">كيف تطورت تكنولوجيا المعلومات عبر مراحلها</tspan>
-    <tspan x="944" dy="40">الرئيسية، وكيف غيّرت كل مرحلة المجتمع؟</tspan>
-  </text>
-
-  <text x="136"
-        y="1108"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26"
-        fill="#152b42">
-    <tspan x="136" dy="0">How has information technology developed through its</tspan>
-    <tspan x="136" dy="34">major stages, and how has each stage changed society?</tspan>
-  </text>
-
+<text x="876" y="914" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">الطلب من المتاجر الإلكترونية</text>
+<text x="120" y="954" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Ordering from online shops</text>
 </svg>

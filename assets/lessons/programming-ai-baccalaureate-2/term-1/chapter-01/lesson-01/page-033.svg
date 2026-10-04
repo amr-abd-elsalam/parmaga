@@ -1,0 +1,288 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilStep" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+  <linearGradient id="ilCar" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+</defs>
+
+<!-- Shadows -->
+<rect x="109" y="688" width="125" height="64" fill="#22303f" opacity=".18"/>
+<rect x="234" y="648" width="125" height="104" fill="#22303f" opacity=".18"/>
+<rect x="359" y="608" width="125" height="144" fill="#22303f" opacity=".18"/>
+<rect x="484" y="568" width="125" height="184" fill="#22303f" opacity=".18"/>
+<rect x="609" y="528" width="125" height="224" fill="#22303f" opacity=".18"/>
+<rect x="734" y="488" width="241" height="264" fill="#22303f" opacity=".18"/>
+<rect x="109" y="968" width="870" height="208" rx="16" fill="#22303f" opacity=".12"/>
+
+<!-- Warning card -->
+<rect x="105" y="962" width="870" height="208" rx="16" fill="#fdf1e2" stroke="#f0c48c" stroke-width="2"/>
+<rect x="961" y="978" width="6" height="176" rx="3" fill="#c96a1b"/>
+
+<!-- Functional arrow: Level 0 label to lowest step -->
+<line x1="170" y1="578" x2="170" y2="604" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="163,603 177,603 170,614" fill="#c0392b"/>
+
+<!-- Face: surprise (did you know) -->
+<g transform="translate(890 210)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="0" cy="10" r="5" fill="#22303f"/>
+</g>
+
+<!-- Icon: chip (AI) -->
+<g transform="translate(140 254)">
+  <line x1="18" y1="4" x2="18" y2="52" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="28" y1="4" x2="28" y2="52" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="38" y1="4" x2="38" y2="52" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="4" y1="18" x2="52" y2="18" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="4" y1="28" x2="52" y2="28" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="4" y1="38" x2="52" y2="38" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="10" y="10" width="36" height="36" rx="6" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="20" y="20" width="16" height="16" rx="3" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: steering wheel -->
+<g transform="translate(212 254)">
+  <circle cx="28" cy="28" r="24" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="28" cy="28" r="16" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="12" y="25" width="32" height="6" rx="3" fill="#17457f"/>
+  <rect x="25" y="28" width="6" height="16" rx="3" fill="#17457f"/>
+  <circle cx="28" cy="28" r="7" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Illustration: staircase of six automation levels -->
+<g>
+  <line x1="105" y1="746" x2="975" y2="746" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="105" y="682" width="125" height="64" fill="url(#ilStep)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="105" y="682" width="125" height="10" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="230" y="642" width="125" height="104" fill="url(#ilStep)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="230" y="642" width="125" height="10" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="355" y="602" width="125" height="144" fill="url(#ilStep)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="355" y="602" width="125" height="10" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="480" y="562" width="125" height="184" fill="url(#ilStep)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="480" y="562" width="125" height="10" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="605" y="522" width="125" height="224" fill="url(#ilStep)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="605" y="522" width="125" height="10" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="730" y="482" width="241" height="264" fill="url(#ilStep)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="730" y="482" width="241" height="10" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Level 0 driver: both hands on the wheel -->
+  <g transform="translate(140 682)">
+    <rect x="2" y="-30" width="12" height="30" rx="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="2" y="-12" width="30" height="10" rx="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="12" y="-38" width="16" height="26" rx="7" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M 26 -14 L 40 -14 L 40 -2" fill="none" stroke="#17457f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="20" cy="-46" r="9" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M 11 -47 Q 12 -57 20 -57 Q 28 -57 29 -47 Q 24 -52 11 -47 Z" fill="#2b211c"/>
+    <line x1="50" y1="-16" x2="50" y2="0" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="50" cy="-28" r="12" fill="none" stroke="#22303f" stroke-width="3"/>
+    <line x1="24" y1="-32" x2="39" y2="-32" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+    <line x1="24" y1="-30" x2="41" y2="-20" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="39" cy="-32" r="3.5" fill="#e8b98d"/>
+    <circle cx="41" cy="-20" r="3.5" fill="#e8b98d"/>
+  </g>
+
+  <!-- Level 1 driver: one hand moves away -->
+  <g transform="translate(270 642)">
+    <rect x="2" y="-30" width="12" height="30" rx="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="2" y="-12" width="30" height="10" rx="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="12" y="-38" width="16" height="26" rx="7" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M 26 -14 L 40 -14 L 40 -2" fill="none" stroke="#17457f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="20" cy="-46" r="9" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M 11 -47 Q 12 -57 20 -57 Q 28 -57 29 -47 Q 24 -52 11 -47 Z" fill="#2b211c"/>
+    <line x1="50" y1="-16" x2="50" y2="0" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="50" cy="-28" r="12" fill="none" stroke="#22303f" stroke-width="3"/>
+    <line x1="24" y1="-32" x2="39" y2="-32" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+    <line x1="24" y1="-30" x2="32" y2="-18" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="39" cy="-32" r="3.5" fill="#d59f6f"/>
+    <circle cx="32" cy="-18" r="3.5" fill="#d59f6f"/>
+  </g>
+
+  <!-- Level 2 driver: hands just off the wheel -->
+  <g transform="translate(405 602)">
+    <rect x="2" y="-30" width="12" height="30" rx="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="2" y="-12" width="30" height="10" rx="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="12" y="-38" width="16" height="26" rx="7" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M 26 -14 L 40 -14 L 40 -2" fill="none" stroke="#17457f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="20" cy="-46" r="9" fill="#b57e50" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M 11 -47 Q 12 -57 20 -57 Q 28 -57 29 -47 Q 24 -52 11 -47 Z" fill="#2b211c"/>
+    <line x1="50" y1="-16" x2="50" y2="0" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="50" cy="-28" r="12" fill="none" stroke="#22303f" stroke-width="3"/>
+    <line x1="24" y1="-32" x2="33" y2="-36" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+    <line x1="24" y1="-30" x2="32" y2="-21" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="33" cy="-36" r="3.5" fill="#b57e50"/>
+    <circle cx="32" cy="-21" r="3.5" fill="#b57e50"/>
+  </g>
+
+  <!-- Level 3 driver: hands lowered, car helps -->
+  <g transform="translate(530 562)">
+    <rect x="2" y="-30" width="12" height="30" rx="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="2" y="-12" width="30" height="10" rx="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="12" y="-38" width="16" height="26" rx="7" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M 26 -14 L 40 -14 L 40 -2" fill="none" stroke="#17457f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="20" cy="-46" r="9" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M 11 -47 Q 12 -57 20 -57 Q 28 -57 29 -47 Q 24 -52 11 -47 Z" fill="#2b211c"/>
+    <line x1="50" y1="-16" x2="50" y2="0" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="50" cy="-28" r="12" fill="none" stroke="#22303f" stroke-width="3"/>
+    <path d="M 64 -36 Q 69 -28 64 -20" fill="none" stroke="#4fc3e8" stroke-width="3" stroke-linecap="round"/>
+    <line x1="24" y1="-30" x2="30" y2="-22" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+    <line x1="24" y1="-28" x2="32" y2="-16" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="30" cy="-22" r="3.5" fill="#e8b98d"/>
+    <circle cx="32" cy="-16" r="3.5" fill="#e8b98d"/>
+  </g>
+
+  <!-- Level 4 driver: hands resting, car drives -->
+  <g transform="translate(655 522)">
+    <rect x="2" y="-30" width="12" height="30" rx="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="2" y="-12" width="30" height="10" rx="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="12" y="-38" width="16" height="26" rx="7" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M 26 -14 L 40 -14 L 40 -2" fill="none" stroke="#17457f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="20" cy="-46" r="9" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M 11 -47 Q 12 -57 20 -57 Q 28 -57 29 -47 Q 24 -52 11 -47 Z" fill="#2b211c"/>
+    <line x1="50" y1="-16" x2="50" y2="0" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="50" cy="-28" r="12" fill="none" stroke="#22303f" stroke-width="3"/>
+    <path d="M 64 -38 Q 70 -28 64 -18" fill="none" stroke="#4fc3e8" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 56 -46 Q 50 -50 44 -46" fill="none" stroke="#4fc3e8" stroke-width="3" stroke-linecap="round"/>
+    <line x1="24" y1="-28" x2="28" y2="-17" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+    <line x1="24" y1="-26" x2="34" y2="-15" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="28" cy="-17" r="3.5" fill="#d59f6f"/>
+    <circle cx="34" cy="-15" r="3.5" fill="#d59f6f"/>
+  </g>
+
+  <!-- Level 5: car drives alone with sensor waves -->
+  <path d="M 856 420 Q 869 410 882 420" fill="none" stroke="#4fc3e8" stroke-width="3" stroke-linecap="round"/>
+  <rect x="866" y="429" width="6" height="4" fill="#22303f"/>
+  <rect x="862" y="423" width="14" height="7" rx="3" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 806 470 L 806 456 Q 808 450 816 449 L 834 447 L 850 434 Q 854 431 860 431 L 890 431 Q 896 431 900 435 L 914 447 L 922 449 Q 930 451 930 458 L 930 470 Z" fill="url(#ilCar)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 840 446 L 853 436 L 868 436 L 868 446 Z" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 874 436 L 892 436 Q 896 436 898 439 L 906 446 L 874 446 Z" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="830" cy="472" r="10" fill="#22303f"/>
+  <circle cx="830" cy="472" r="4" fill="#e8dfd1"/>
+  <circle cx="906" cy="472" r="10" fill="#22303f"/>
+  <circle cx="906" cy="472" r="4" fill="#e8dfd1"/>
+  <path d="M 940 444 Q 950 458 940 472" fill="none" stroke="#4fc3e8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 952 436 Q 966 458 952 480" fill="none" stroke="#4fc3e8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 798 444 Q 788 458 798 472" fill="none" stroke="#4fc3e8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 786 436 Q 772 458 786 480" fill="none" stroke="#4fc3e8" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: warning triangle in card -->
+<g transform="translate(128 972)">
+  <polygon points="28,4 54,50 2,50" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="25" y="18" width="6" height="18" rx="3" fill="#22303f"/>
+  <circle cx="28" cy="43" r="3.5" fill="#22303f"/>
+</g>
+
+<!-- Bottom icon row -->
+<g transform="translate(410 1194)">
+  <path d="M 12 28 A 16 16 0 0 1 28 44" fill="none" stroke="#2f7fb5" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 12 16 A 28 28 0 0 1 40 44" fill="none" stroke="#2f7fb5" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 12 4 A 40 40 0 0 1 52 44" fill="none" stroke="#2f7fb5" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="12" cy="44" r="6" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+</g>
+<g transform="translate(512 1194)">
+  <line x1="18" y1="4" x2="18" y2="52" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="28" y1="4" x2="28" y2="52" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="38" y1="4" x2="38" y2="52" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="4" y1="18" x2="52" y2="18" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="4" y1="28" x2="52" y2="28" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="4" y1="38" x2="52" y2="38" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="10" y="10" width="36" height="36" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="20" y="20" width="16" height="16" rx="3" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+</g>
+<g transform="translate(614 1194)">
+  <path d="M 28 4 L 50 12 L 50 28 Q 50 44 28 52 Q 6 44 6 28 L 6 12 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 18 28 L 26 36 L 39 20" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Header -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">هل تعلم؟ مستويات أتمتة القيادة</text>
+<text x="120" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="120" dy="0">Did you know? Levels of</tspan>
+  <tspan x="120" dy="40">driving automation</tspan>
+</text>
+
+<!-- Paragraph -->
+<text x="950" y="274" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">يقسم معيار <tspan font-weight="bold" fill="#17457f">SAE J3016</tspan> أتمتة القيادة</tspan>
+  <tspan x="950" dy="40">إلى <tspan font-weight="bold" fill="#c0392b">6 مستويات.</tspan></tspan>
+</text>
+<text x="120" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">The <tspan font-weight="bold" fill="#17457f">SAE J3016</tspan> standard divides driving</tspan>
+  <tspan x="120" dy="40">automation into <tspan font-weight="bold" fill="#c0392b">6 levels.</tspan></tspan>
+</text>
+
+<!-- Illustration labels -->
+<text x="580" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">المستوى 0: السائق يقود كل شيء</text>
+<text x="120" y="514" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">
+  <tspan x="120" dy="0">Level 0: The driver</tspan>
+  <tspan x="120" dy="40">does everything</tspan>
+</text>
+<text x="345" y="674" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="20" fill="#225f9c">المستوى 1</text>
+<text x="240" y="714" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">Level 1</text>
+<text x="470" y="634" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="20" fill="#225f9c">المستوى 2</text>
+<text x="365" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">Level 2</text>
+<text x="595" y="594" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="20" fill="#225f9c">المستوى 3</text>
+<text x="490" y="634" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">Level 3</text>
+<text x="720" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="20" fill="#225f9c">المستوى 4</text>
+<text x="615" y="594" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">Level 4</text>
+<text x="960" y="514" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">
+  <tspan x="960" dy="0">المستوى 5:</tspan>
+  <tspan x="960" dy="40">أتمتة كاملة</tspan>
+  <tspan x="960" dy="40">في كل الظروف</tspan>
+</text>
+<text x="742" y="634" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">
+  <tspan x="742" dy="0">Level 5: Full</tspan>
+  <tspan x="742" dy="40">automation in</tspan>
+  <tspan x="742" dy="40">all conditions</tspan>
+</text>
+
+<!-- Caption -->
+<text x="950" y="794" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">كلما صعدت درجة، قلّ ما يفعله <tspan font-weight="bold" fill="#17457f">السائق</tspan></tspan>
+  <tspan x="950" dy="40">وزاد ما تفعله <tspan font-weight="bold" fill="#2e7d32">السيارة.</tspan></tspan>
+</text>
+<text x="120" y="874" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">With each step up, the <tspan font-weight="bold" fill="#17457f">driver</tspan> does less</tspan>
+  <tspan x="120" dy="40">and the <tspan font-weight="bold" fill="#2e7d32">car</tspan> does more.</tspan>
+</text>
+
+<!-- Warning card text -->
+<text x="935" y="994" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">في الامتحان اكتب <tspan font-weight="bold" fill="#17457f">تعريف الكتاب،</tspan> لكن افهم</tspan>
+  <tspan x="935" dy="40">أن <tspan font-weight="bold" fill="#c0392b">التدخل البشري</tspan> يختلف بحسب المستوى.</tspan>
+</text>
+<text x="140" y="1074" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">In the exam, write the <tspan font-weight="bold" fill="#17457f">textbook</tspan></tspan>
+  <tspan x="140" dy="40">definition, but know that <tspan font-weight="bold" fill="#c0392b">human</tspan></tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#c0392b">involvement</tspan> depends on the level.</tspan>
+</text>
+</svg>

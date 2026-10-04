@@ -4,252 +4,206 @@
      viewBox="0 0 1080 1350"
      preserveAspectRatio="xMidYMid meet"
      style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-  <defs>
-    <linearGradient id="deskWood" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#a9743f"/>
-      <stop offset="0.55" stop-color="#905c2c"/>
-      <stop offset="1" stop-color="#a06a36"/>
-    </linearGradient>
-    <linearGradient id="paperTone" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fefcf5"/>
-      <stop offset="1" stop-color="#faf5e8"/>
-    </linearGradient>
-  </defs>
+<!-- Shadows -->
+<rect x="114" y="638" width="860" height="348" rx="24" fill="#22303f" opacity=".18"/>
 
-  <!-- 1) خلفية المكتب الخشبي البسيطة -->
-  <rect x="0" y="0" width="1080" height="1350" fill="url(#deskWood)"/>
-  <path d="M0 250 C 300 210, 780 300, 1080 240" fill="none" stroke="#6f4520" stroke-width="16" opacity="0.13"/>
-  <path d="M0 980 C 320 1030, 760 930, 1080 1000" fill="none" stroke="#6f4520" stroke-width="14" opacity="0.11"/>
+<!-- Key sentence strip -->
+<rect x="105" y="362" width="870" height="248" rx="10" fill="#fdf6d8"/>
+<rect x="961" y="378" width="6" height="216" rx="3" fill="#e0a55e"/>
 
-  <!-- 2) الورقة -->
-  <rect x="44" y="42" width="1012" height="1290" fill="#3a2411" opacity="0.22"/>
-  <rect x="34" y="30" width="1012" height="1290" fill="url(#paperTone)"/>
+<!-- Icon: chip (title area) -->
+<g transform="translate(124 76)">
+  <line x1="16" y1="4" x2="16" y2="48" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="36" y1="4" x2="36" y2="48" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="4" y1="16" x2="48" y2="16" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="4" y1="36" x2="48" y2="36" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="10" y="10" width="32" height="32" rx="5" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="18" y="18" width="16" height="16" rx="2" fill="#4fc3e8"/>
+</g>
 
-  <!-- 3) سطور الدفتر الأفقية الباهتة -->
-  <g stroke="#cfe0ef" stroke-width="1.3">
-    <line x1="78" y1="180" x2="1002" y2="180"/>
-    <line x1="78" y1="220" x2="1002" y2="220"/>
-    <line x1="78" y1="260" x2="1002" y2="260"/>
-    <line x1="78" y1="300" x2="1002" y2="300"/>
-    <line x1="78" y1="340" x2="1002" y2="340"/>
-    <line x1="78" y1="380" x2="1002" y2="380"/>
-    <line x1="78" y1="420" x2="1002" y2="420"/>
-    <line x1="78" y1="460" x2="1002" y2="460"/>
-    <line x1="78" y1="500" x2="1002" y2="500"/>
-    <line x1="78" y1="540" x2="1002" y2="540"/>
-    <line x1="78" y1="580" x2="1002" y2="580"/>
-    <line x1="78" y1="620" x2="1002" y2="620"/>
-    <line x1="78" y1="660" x2="1002" y2="660"/>
-    <line x1="78" y1="700" x2="1002" y2="700"/>
-    <line x1="78" y1="740" x2="1002" y2="740"/>
-    <line x1="78" y1="780" x2="1002" y2="780"/>
-    <line x1="78" y1="820" x2="1002" y2="820"/>
-    <line x1="78" y1="860" x2="1002" y2="860"/>
-    <line x1="78" y1="900" x2="1002" y2="900"/>
-    <line x1="78" y1="940" x2="1002" y2="940"/>
-    <line x1="78" y1="980" x2="1002" y2="980"/>
-    <line x1="78" y1="1020" x2="1002" y2="1020"/>
-    <line x1="78" y1="1060" x2="1002" y2="1060"/>
-    <line x1="78" y1="1100" x2="1002" y2="1100"/>
-    <line x1="78" y1="1140" x2="1002" y2="1140"/>
-  </g>
+<!-- Face: wink (tip) -->
+<g transform="translate(925 100)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M 5 -6 L 13 -6" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
 
-  <!-- 4) الحدّ الأحمر الخارجي الوحيد -->
-  <rect x="67" y="92" width="946" height="1206" fill="none" stroke="#c62828" stroke-width="3"/>
+<!-- Icon: star (remember) -->
+<g transform="translate(880 264)">
+  <polygon points="28,2 34.5,19 52.7,19.6 38.5,31 43.3,49 28,38.6 12.7,49 17.5,31 3.3,19.6 21.5,19" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
 
-  <!-- 5) خلفيات البطاقات -->
-  <rect x="95" y="228" width="890" height="282" rx="16" fill="#f4f9ff" opacity="0.62" stroke="#9db9d6" stroke-width="1.6"/>
-  <rect x="95" y="578" width="890" height="366" rx="16" fill="#f4f9ff" opacity="0.62" stroke="#9db9d6" stroke-width="1.6"/>
-  <rect x="95" y="980" width="890" height="186" rx="16" fill="#fdf6d5" opacity="0.93" stroke="#dcc167" stroke-width="1.8"/>
+<!-- Icon: light bulb (inside strip) -->
+<g transform="translate(870 540)">
+  <circle cx="22" cy="20" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M16 22 Q22 28 28 22" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="14" y="34" width="16" height="10" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
 
-  <!-- 6) العناصر الوظيفية: السهم الأحمر والرسوم التوضيحية -->
-  <line x1="540" y1="522" x2="540" y2="556" stroke="#c62828" stroke-width="5" stroke-linecap="round"/>
-  <polygon points="540,572 526,548 554,548" fill="#c62828"/>
+<!-- Requested illustration: the computer's journey -->
+<g>
+  <rect x="110" y="632" width="860" height="348" rx="24" fill="url(#ilSky)" stroke="#22303f" stroke-width="2.5"/>
+  <!-- sun -->
+  <circle cx="430" cy="672" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <!-- winding road -->
+  <path d="M130 830 C 250 780, 330 880, 450 830 C 570 780, 650 880, 770 830 C 860 790, 920 850, 950 830 L 950 862 C 920 882, 860 822, 770 862 C 650 912, 570 812, 450 862 C 330 912, 250 812, 130 862 Z" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M130 846 C 250 796, 330 896, 450 846 C 570 796, 650 896, 770 846 C 860 806, 920 866, 950 846" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="14 12"/>
 
-  <!-- رسم الهاتف الذكي -->
-  <rect x="140" y="300" width="86" height="152" rx="13" fill="#eef4fb" stroke="#24425f" stroke-width="3"/>
-  <rect x="150" y="318" width="66" height="108" rx="4" fill="#d7e7f7" stroke="#24425f" stroke-width="1.6"/>
-  <line x1="170" y1="310" x2="196" y2="310" stroke="#24425f" stroke-width="3" stroke-linecap="round"/>
-  <circle cx="183" cy="439" r="7" fill="none" stroke="#24425f" stroke-width="2.4"/>
-  <path d="M242 352 a 26 26 0 0 1 0 34" fill="none" stroke="#3d7dbd" stroke-width="3" stroke-linecap="round"/>
-  <path d="M252 340 a 40 40 0 0 1 0 58" fill="none" stroke="#3d7dbd" stroke-width="2.6" stroke-linecap="round" opacity="0.75"/>
+  <!-- Station 1: room-sized computer in an open room -->
+  <rect x="800" y="664" width="150" height="130" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="800" y="794" width="150" height="28" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="812" y="684" width="36" height="122" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="830" cy="708" r="10" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="830" cy="738" r="10" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="820" y="764" width="20" height="6" rx="2" fill="#ffd24a"/>
+  <rect x="854" y="684" width="40" height="122" rx="3" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="862" y="696" width="8" height="8" rx="2" fill="#ffd24a"/>
+  <rect x="876" y="696" width="8" height="8" rx="2" fill="#4fc3e8"/>
+  <rect x="862" y="712" width="8" height="8" rx="2" fill="#4fc3e8"/>
+  <rect x="876" y="712" width="8" height="8" rx="2" fill="#ffd24a"/>
+  <rect x="862" y="736" width="24" height="40" rx="3" fill="#dff1f7"/>
+  <rect x="900" y="684" width="38" height="122" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="919" cy="708" r="10" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="919" cy="738" r="10" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="909" y="764" width="20" height="6" rx="2" fill="#f0c48c"/>
 
-  <!-- رسم السحابة المتصلة بالخوادم -->
-  <g fill="#d6e6f7">
-    <circle cx="166" cy="676" r="26"/>
-    <circle cx="202" cy="662" r="33"/>
-    <circle cx="238" cy="678" r="23"/>
-    <rect x="140" y="676" width="112" height="28" rx="14"/>
-  </g>
-  <path d="M140 704 L252 704" stroke="#5d86ad" stroke-width="2" opacity="0.6"/>
-  <line x1="196" y1="706" x2="196" y2="754" stroke="#35506b" stroke-width="2.6"/>
-  <rect x="146" y="756" width="104" height="28" rx="5" fill="#eef2f6" stroke="#35506b" stroke-width="2"/>
-  <rect x="146" y="792" width="104" height="28" rx="5" fill="#eef2f6" stroke="#35506b" stroke-width="2"/>
-  <rect x="146" y="828" width="104" height="28" rx="5" fill="#eef2f6" stroke="#35506b" stroke-width="2"/>
-  <circle cx="162" cy="770" r="4.5" fill="#2e8b57"/>
-  <circle cx="178" cy="770" r="4.5" fill="#d98324"/>
-  <circle cx="162" cy="806" r="4.5" fill="#2e8b57"/>
-  <circle cx="178" cy="806" r="4.5" fill="#d98324"/>
-  <circle cx="162" cy="842" r="4.5" fill="#2e8b57"/>
-  <circle cx="178" cy="842" r="4.5" fill="#d98324"/>
+  <!-- Station 2: boxy desktop on a wooden desk -->
+  <rect x="650" y="802" width="10" height="40" rx="2" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="740" y="802" width="10" height="40" rx="2" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="640" y="790" width="120" height="12" rx="3" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="686" y="780" width="16" height="10" fill="#7f95ab"/>
+  <rect x="662" y="728" width="64" height="52" rx="6" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="670" y="736" width="48" height="34" rx="3" fill="#4fc3e8"/>
+  <rect x="730" y="744" width="22" height="46" rx="3" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="741" cy="756" r="3" fill="#2f7fb5"/>
 
-  <!-- 7) النص التعليمي -->
+  <!-- Station 3: desktop beside a globe with network lines -->
+  <line x1="548" y1="730" x2="492" y2="698" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="548" y1="730" x2="600" y2="686" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="492" y1="698" x2="498" y2="760" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="492" cy="698" r="6" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="600" cy="686" r="6" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="545" y="770" width="6" height="30" fill="#7f95ab"/>
+  <ellipse cx="548" cy="804" rx="24" ry="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="548" cy="730" r="40" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M526 706 Q540 698 548 712 Q542 726 528 722 Z" fill="#2f7fb5"/>
+  <path d="M556 736 Q572 730 578 746 Q566 762 554 752 Z" fill="#2f7fb5"/>
+  <ellipse cx="548" cy="730" rx="18" ry="40" fill="none" stroke="#17457f" stroke-width="2"/>
+  <line x1="508" y1="730" x2="588" y2="730" stroke="#17457f" stroke-width="2" stroke-linecap="round"/>
+  <rect x="476" y="760" width="44" height="34" rx="4" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="481" y="765" width="34" height="22" rx="2" fill="#4fc3e8"/>
+  <rect x="492" y="794" width="12" height="8" fill="#7f95ab"/>
+  <rect x="486" y="802" width="24" height="6" rx="2" fill="#7f95ab"/>
 
-  <!-- العنوان العربي -->
-  <text x="540" y="152"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="40"
-        font-weight="bold"
-        fill="#17457f">من الهواتف الذكية إلى الحوسبة السحابية</text>
+  <!-- Station 4: smartphone in a jeans pocket -->
+  <rect x="314" y="724" width="102" height="110" rx="10" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="344" y="700" width="40" height="72" rx="7" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="349" y="708" width="30" height="40" rx="2" fill="#4fc3e8"/>
+  <path d="M322 746 Q365 766 408 746 L404 818 Q365 838 326 818 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M332 760 Q365 776 398 760" fill="none" stroke="#f0c48c" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 5"/>
+  <circle cx="326" cy="750" r="3" fill="#ffd24a"/>
+  <circle cx="404" cy="750" r="3" fill="#ffd24a"/>
 
-  <!-- العنوان الإنجليزي -->
-  <text x="540" y="194"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27"
-        fill="#1d3450">From Smartphones to Cloud Computing</text>
+  <!-- Station 5: cloud above a laptop and a phone -->
+  <path d="M150 716 Q146 690 172 690 Q178 664 206 668 Q228 654 244 676 Q268 676 266 700 Q266 716 248 716 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="180" y1="720" x2="176" y2="766" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="1 7"/>
+  <line x1="232" y1="720" x2="240" y2="768" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="1 7"/>
+  <rect x="156" y="772" width="40" height="26" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="160" y="776" width="32" height="18" rx="2" fill="#4fc3e8"/>
+  <polygon points="150,798 202,798 208,806 144,806" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="226" y="776" width="22" height="34" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="230" y="781" width="14" height="22" rx="2" fill="#4fc3e8"/>
 
-  <line x1="330" y1="210" x2="750" y2="210" stroke="#9fb6cf" stroke-width="2"/>
+  <!-- Arrows in reading order (right to left) -->
+  <line x1="794" y1="846" x2="774" y2="846" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="764,846 776,839 776,853" fill="#c0392b"/>
+  <line x1="632" y1="846" x2="606" y2="846" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="596,846 608,839 608,853" fill="#c0392b"/>
+  <line x1="466" y1="846" x2="442" y2="846" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="432,846 444,839 444,853" fill="#c0392b"/>
+  <line x1="306" y1="846" x2="282" y2="846" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="272,846 284,839 284,853" fill="#c0392b"/>
+</g>
 
-  <!-- المرحلة الأولى: عربي -->
-  <text x="945" y="272"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="31"
-        font-weight="bold"
-        fill="#17457f">العقد الأول من الألفية</text>
+<!-- Bottom icon group -->
+<g>
+  <line x1="430" y1="1196" x2="430" y2="1248" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="450" y1="1196" x2="450" y2="1248" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="414" y1="1212" x2="466" y2="1212" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="414" y1="1232" x2="466" y2="1232" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="420" y="1202" width="40" height="40" rx="6" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="430" y="1212" width="20" height="20" rx="2" fill="#4fc3e8"/>
 
-  <text x="945" y="314"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="29"
-        fill="#225f9c">
-    <tspan x="945" dy="0">ظهور الهواتف الذكية</tspan>
-  </text>
+  <line x1="516" y1="1240" x2="540" y2="1202" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="540" y1="1202" x2="564" y2="1236" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="516" y1="1240" x2="564" y2="1236" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="516" cy="1240" r="8" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="540" cy="1202" r="8" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="564" cy="1236" r="8" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
 
-  <text x="945" y="356"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="28"
-        fill="#225f9c">
-    <tspan x="945" dy="0">الانتشار السريع للإنترنت عبر الهواتف المحمولة</tspan>
-  </text>
+  <path d="M616 1238 Q604 1222 622 1214 Q626 1198 644 1200 Q660 1194 664 1212 Q676 1214 672 1228 Q670 1238 658 1238 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
 
-  <!-- المرحلة الأولى: إنجليزي -->
-  <text x="280" y="404"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="29"
-        font-weight="bold"
-        fill="#152b42">2000s</text>
+<!-- Text -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">رحلة الكمبيوتر في خمس محطات</text>
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" fill="#152b42">The Computer's Journey in Five Stations</text>
 
-  <text x="280" y="440"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="28"
-        fill="#152b42">
-    <tspan x="280" dy="0">Rise of smartphones</tspan>
-    <tspan x="280" dy="36">Rapid spread of mobile Internet</tspan>
-  </text>
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">احفظ الجملة دي وهتفتكر <tspan font-weight="bold" fill="#17457f">ترتيب المراحل</tspan><tspan> دائمًا:</tspan></text>
+<text x="120" y="274" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Memorize this sentence to always</tspan>
+  <tspan x="120" dy="40">remember the <tspan font-weight="bold" fill="#17457f">order:</tspan></tspan>
+</text>
 
-  <!-- المرحلة الثانية: عربي -->
-  <text x="945" y="622"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="31"
-        font-weight="bold"
-        fill="#17457f">من العقد الثاني من الألفية فصاعدًا</text>
+<text x="935" y="394" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">الكمبيوتر ساب الأوضة، وقعد على المكتب،</tspan>
+  <tspan x="935" dy="40">واتوصّل بالعالم، ودخل جيبك، وطار للسحابة.</tspan>
+</text>
+<text x="140" y="474" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">The computer left the room,</tspan>
+  <tspan x="140" dy="40">sat on the desk, connected to the world,</tspan>
+  <tspan x="140" dy="40">entered your pocket,</tspan>
+  <tspan x="140" dy="40">and flew to the cloud.</tspan>
+</text>
 
-  <text x="945" y="666"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="29"
-        fill="#225f9c">
-    <tspan x="945" dy="0">انتشار الحوسبة السحابية</tspan>
-  </text>
+<text x="918" y="918" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#3d5a76">الأوضة</text>
+<text x="813" y="954" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#3d5a76">The room</text>
+<text x="743" y="918" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#3d5a76">المكتب</text>
+<text x="638" y="954" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#3d5a76">The desk</text>
+<text x="573" y="918" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#3d5a76">العالم</text>
+<text x="460" y="954" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#3d5a76">The world</text>
+<text x="401" y="918" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#3d5a76">الجيب</text>
+<text x="287" y="954" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#3d5a76">The pocket</text>
+<text x="250" y="918" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#3d5a76">السحابة</text>
+<text x="130" y="954" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#3d5a76">The cloud</text>
 
-  <text x="300" y="666"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27"
-        fill="#1f6f4a">Cloud Computing</text>
-
-  <text x="945" y="710"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="28"
-        fill="#225f9c">
-    <tspan x="945" dy="0">تحليل البيانات الضخمة والذكاء الاصطناعي</tspan>
-    <tspan x="945" dy="40">وانتشار تكنولوجيا المعلومات بوصفها خدمة</tspan>
-  </text>
-
-  <!-- المرحلة الثانية: إنجليزي -->
-  <text x="300" y="796"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="29"
-        font-weight="bold"
-        fill="#152b42">2010s onward</text>
-
-  <text x="300" y="832"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="28"
-        fill="#152b42">
-    <tspan x="300" dy="0">Spread of cloud computing</tspan>
-    <tspan x="300" dy="36">Large-scale data analysis, AI, and the</tspan>
-    <tspan x="300" dy="36">spread of IT as a service</tspan>
-  </text>
-
-  <!-- شريط الخلاصة -->
-  <text x="945" y="1026"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        fill="#1c5285">
-    <tspan x="945" dy="0">أصبحت الأجهزة أصغر وأكثر اتصالًا،</tspan>
-    <tspan x="945" dy="40">وانتقلت خدمات كثيرة إلى الإنترنت.</tspan>
-  </text>
-
-  <text x="130" y="1106"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="28"
-        fill="#152b42">
-    <tspan x="130" dy="0">Devices became smaller and more connected,</tspan>
-    <tspan x="130" dy="36">while many services moved online.</tspan>
-  </text>
-
+<text x="950" y="1034" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">كل محطة <tspan font-weight="bold" fill="#17457f">أصغر حجمًا</tspan> <tspan font-weight="bold" fill="#17457f">وأكثر اتصالًا</tspan></tspan>
+  <tspan x="950" dy="40">من التي قبلها.</tspan>
+</text>
+<text x="120" y="1114" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Each station is <tspan font-weight="bold" fill="#17457f">smaller</tspan></tspan>
+  <tspan x="120" dy="40">and <tspan font-weight="bold" fill="#17457f">more connected</tspan> than the one before.</tspan>
+</text>
 </svg>

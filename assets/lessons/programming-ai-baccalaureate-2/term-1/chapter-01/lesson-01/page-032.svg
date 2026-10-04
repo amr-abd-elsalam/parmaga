@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="ilCar" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+</defs>
+
+<!-- Card shadow -->
+<rect x="109" y="528" width="870" height="408" rx="16" fill="#22303f" opacity=".12"/>
+
+<!-- Info card -->
+<rect x="105" y="522" width="870" height="408" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="538" width="6" height="376" rx="3" fill="#2f7fb5"/>
+
+<!-- Icon: chip (AI) -->
+<g transform="translate(130 132)">
+  <line x1="18" y1="4" x2="18" y2="52" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="28" y1="4" x2="28" y2="52" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="38" y1="4" x2="38" y2="52" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="4" y1="18" x2="52" y2="18" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="4" y1="28" x2="52" y2="28" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="4" y1="38" x2="52" y2="38" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="10" y="10" width="36" height="36" rx="6" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="20" y="20" width="16" height="16" rx="3" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: camera -->
+<g transform="translate(206 132)">
+  <rect x="16" y="8" width="16" height="12" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="4" y="16" width="48" height="34" rx="6" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="28" cy="33" r="11" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="28" cy="33" r="4" fill="#22303f"/>
+  <circle cx="44" cy="23" r="2.5" fill="#ffd24a"/>
+</g>
+
+<!-- Face: smile -->
+<g transform="translate(880 394)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: open book (key terms) -->
+<g transform="translate(500 524)">
+  <path d="M 28 12 Q 16 4 4 8 L 4 44 Q 16 40 28 48 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 28 12 Q 40 4 52 8 L 52 44 Q 40 40 28 48 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="10" y1="18" x2="22" y2="20" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="10" y1="27" x2="22" y2="29" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="34" y1="20" x2="46" y2="18" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="34" y1="29" x2="46" y2="27" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: sensor waves -->
+<g transform="translate(150 628)">
+  <path d="M 12 28 A 16 16 0 0 1 28 44" fill="none" stroke="#2f7fb5" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 12 16 A 28 28 0 0 1 40 44" fill="none" stroke="#2f7fb5" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 12 4 A 40 40 0 0 1 52 44" fill="none" stroke="#2f7fb5" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="12" cy="44" r="6" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: document stack (data) -->
+<g transform="translate(860 790)">
+  <rect x="12" y="4" width="36" height="44" rx="4" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="6" y="10" width="36" height="44" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="13" y1="22" x2="34" y2="22" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="13" y1="31" x2="34" y2="31" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="13" y1="40" x2="28" y2="40" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Memory illustration: a car sensing its surroundings -->
+<g>
+  <rect x="105" y="962" width="870" height="288" rx="24" fill="url(#ilSky)" stroke="#9db9d6" stroke-width="2"/>
+  <circle cx="170" cy="1004" r="22" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="380" cy="1004" rx="40" ry="14" fill="#ffffff"/>
+  <ellipse cx="408" cy="994" rx="26" ry="14" fill="#ffffff"/>
+  <!-- tree -->
+  <rect x="196" y="1130" width="8" height="50" fill="#7d4f28"/>
+  <circle cx="200" cy="1110" r="30" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <!-- road -->
+  <path d="M 105 1180 L 975 1180 L 975 1226 Q 975 1250 951 1250 L 129 1250 Q 105 1250 105 1226 Z" fill="#7f95ab"/>
+  <rect x="130" y="1226" width="70" height="6" rx="3" fill="#ffffff"/>
+  <rect x="250" y="1226" width="70" height="6" rx="3" fill="#ffffff"/>
+  <rect x="370" y="1226" width="70" height="6" rx="3" fill="#ffffff"/>
+  <rect x="490" y="1226" width="70" height="6" rx="3" fill="#ffffff"/>
+  <rect x="610" y="1226" width="70" height="6" rx="3" fill="#ffffff"/>
+  <rect x="730" y="1226" width="70" height="6" rx="3" fill="#ffffff"/>
+  <rect x="850" y="1226" width="70" height="6" rx="3" fill="#ffffff"/>
+  <!-- sensing cone -->
+  <polygon points="664,1144 856,1084 856,1204" fill="#4fc3e8" opacity=".35"/>
+  <!-- detected road sign -->
+  <rect x="896" y="1096" width="8" height="84" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="900" cy="1080" r="22" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="900" cy="1080" r="13" fill="#ffffff"/>
+  <rect x="866" y="1048" width="68" height="140" rx="6" fill="none" stroke="#2e7d32" stroke-width="2.5"/>
+  <!-- rear sensing waves -->
+  <path d="M 326 1112 Q 308 1140 326 1168" fill="none" stroke="#4fc3e8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 306 1100 Q 280 1140 306 1180" fill="none" stroke="#4fc3e8" stroke-width="3" stroke-linecap="round"/>
+  <!-- data to chip -->
+  <circle cx="560" cy="1040" r="4" fill="#4fc3e8"/>
+  <circle cx="610" cy="1026" r="4" fill="#4fc3e8"/>
+  <circle cx="660" cy="1014" r="4" fill="#4fc3e8"/>
+  <g transform="translate(694 978)">
+    <line x1="14" y1="2" x2="14" y2="42" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="30" y1="2" x2="30" y2="42" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="2" y1="14" x2="42" y2="14" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="2" y1="30" x2="42" y2="30" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <rect x="8" y="8" width="28" height="28" rx="5" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="16" y="16" width="12" height="12" rx="3" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <!-- car -->
+  <g transform="translate(-60 10)">
+    <ellipse cx="558" cy="1206" rx="170" ry="8" fill="#22303f" opacity=".18"/>
+    <path d="M 538 1046 Q 558 1030 578 1046" fill="none" stroke="#4fc3e8" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 526 1034 Q 558 1008 590 1034" fill="none" stroke="#4fc3e8" stroke-width="3" stroke-linecap="round"/>
+    <rect x="548" y="1066" width="20" height="8" fill="#22303f"/>
+    <rect x="540" y="1054" width="36" height="14" rx="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M 400 1180 L 400 1140 Q 402 1124 420 1120 L 465 1114 L 505 1080 Q 515 1072 530 1072 L 620 1072 Q 636 1072 646 1082 L 680 1114 L 700 1118 Q 716 1122 716 1140 L 716 1180 Z" fill="url(#ilCar)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M 482 1112 L 512 1084 L 552 1084 L 552 1112 Z" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M 564 1084 L 618 1084 Q 626 1084 632 1090 L 656 1112 L 564 1112 Z" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <line x1="558" y1="1118" x2="558" y2="1170" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <ellipse cx="706" cy="1134" rx="6" ry="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="402" y="1132" width="10" height="10" rx="3" fill="#c0392b"/>
+    <circle cx="460" cy="1182" r="24" fill="#22303f"/>
+    <circle cx="460" cy="1182" r="10" fill="#e8dfd1"/>
+    <circle cx="656" cy="1182" r="24" fill="#22303f"/>
+    <circle cx="656" cy="1182" r="10" fill="#e8dfd1"/>
+  </g>
+</g>
+
+<!-- Paragraph -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">القيادة الذاتية</tspan> تقنية تستخدم</tspan>
+  <tspan x="950" dy="40"><tspan font-weight="bold" fill="#17457f">الذكاء الاصطناعي</tspan> مع الكاميرات والمستشعرات</tspan>
+  <tspan x="950" dy="40">لتدرك المركبة محيطها، وتتخذ قرارات القيادة،</tspan>
+  <tspan x="950" dy="40">وتتحكم في المركبة.</tspan>
+</text>
+<text x="120" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">Autonomous driving</tspan> is a technology that</tspan>
+  <tspan x="120" dy="40">uses <tspan font-weight="bold" fill="#17457f">AI</tspan> with cameras and sensors so the</tspan>
+  <tspan x="120" dy="40">vehicle can sense its surroundings,</tspan>
+  <tspan x="120" dy="40">make driving decisions, and control</tspan>
+  <tspan x="120" dy="40">the vehicle.</tspan>
+</text>
+
+<!-- Info card text -->
+<text x="935" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">مصطلحات أساسية</text>
+<text x="140" y="594" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">KEY TERMS</text>
+<text x="935" y="634" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">المستشعر</tspan> — جهاز يقيس شيئًا من الواقع،</tspan>
+  <tspan x="935" dy="40">مثل المسافة أو الضوء أو الحركة، ويحوّله</tspan>
+  <tspan x="935" dy="40">إلى <tspan font-weight="bold" fill="#17457f">بيانات.</tspan> إنه «حواس» السيارة.</tspan>
+</text>
+<text x="140" y="754" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">sensor</tspan> — a device that measures</tspan>
+  <tspan x="140" dy="40">something in the real world, such as</tspan>
+  <tspan x="140" dy="40">distance, light, or motion, and turns</tspan>
+  <tspan x="140" dy="40">it into <tspan font-weight="bold" fill="#17457f">data.</tspan></tspan>
+  <tspan x="140" dy="40">It is the car's "senses."</tspan>
+</text>
+</svg>
