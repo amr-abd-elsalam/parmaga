@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilCore" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+  <radialGradient id="ilGlow" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#ffd24a"/>
+    <stop offset="1" stop-color="#2f7fb5"/>
+  </radialGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Shadows -->
+<rect x="109" y="328" width="870" height="488" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="174" y="881" width="110" height="130" rx="8" fill="#22303f" opacity=".18"/>
+<rect x="794" y="886" width="140" height="105" rx="8" fill="#22303f" opacity=".18"/>
+<rect x="454" y="991" width="180" height="130" rx="22" fill="#22303f" opacity=".18"/>
+<rect x="164" y="1116" width="130" height="100" rx="14" fill="#22303f" opacity=".18"/>
+<rect x="794" y="1111" width="140" height="110" rx="10" fill="#22303f" opacity=".18"/>
+
+<!-- Key sentence strip -->
+<rect x="105" y="122" width="870" height="168" rx="10" fill="#fdf6d8"/>
+<rect x="961" y="138" width="6" height="136" rx="3" fill="#e0a55e"/>
+
+<!-- Info card -->
+<rect x="105" y="322" width="870" height="488" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="338" width="6" height="456" rx="3" fill="#2f7fb5"/>
+
+<!-- Icon: open book beside the card header -->
+<g transform="translate(560 332)">
+  <path d="M 24 10 Q 12 2 2 6 L 2 42 Q 12 38 24 46 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 24 10 Q 36 2 46 6 L 46 42 Q 36 38 24 46 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="24" y1="10" x2="24" y2="46" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Arrows from the central box -->
+<line x1="440" y1="1000" x2="319.1" y2="954.9" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="306,950 321.6,948.3 316.7,961.5" fill="#c0392b"/>
+<line x1="640" y1="1000" x2="760.9" y2="954.9" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="774,950 763.3,961.5 758.4,948.3" fill="#c0392b"/>
+<line x1="440" y1="1100" x2="319.1" y2="1145.1" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="306,1150 321.6,1151.7 316.7,1138.5" fill="#c0392b"/>
+<line x1="640" y1="1100" x2="760.9" y2="1145.1" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="774,1150 758.4,1151.7 763.3,1138.5" fill="#c0392b"/>
+
+<!-- Central box with a soft spark -->
+<g>
+  <rect x="450" y="985" width="180" height="130" rx="22" fill="url(#ilCore)" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="540" cy="1050" r="44" fill="url(#ilGlow)" opacity=".6"/>
+  <polygon points="540,1018 548,1042 572,1050 548,1058 540,1082 532,1058 508,1050 532,1042" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="600,1002 603,1009 610,1012 603,1015 600,1022 597,1015 590,1012 597,1009" fill="#ffffff"/>
+  <polygon points="482,1080 485,1087 492,1090 485,1093 482,1100 479,1093 472,1090 479,1087" fill="#ffffff"/>
+</g>
+
+<!-- Item: page with text lines -->
+<g>
+  <rect x="170" y="875" width="110" height="130" rx="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="186" y="897" width="78" height="9" rx="4" fill="#8fc9f2"/>
+  <rect x="186" y="919" width="64" height="9" rx="4" fill="#8fc9f2"/>
+  <rect x="186" y="941" width="78" height="9" rx="4" fill="#8fc9f2"/>
+  <rect x="186" y="963" width="50" height="9" rx="4" fill="#f0c48c"/>
+  <rect x="186" y="983" width="34" height="9" rx="4" fill="#ffd24a"/>
+</g>
+
+<!-- Item: picture frame with a simple landscape -->
+<g>
+  <rect x="790" y="880" width="140" height="105" rx="8" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="802" y="892" width="116" height="81" rx="4" fill="#dff1f7"/>
+  <circle cx="898" cy="912" r="10" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="806,969 846,922 878,955 896,938 914,969" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Item: sound wave -->
+<g>
+  <rect x="160" y="1110" width="130" height="100" rx="14" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="175" y="1150" width="10" height="20" rx="5" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="192" y="1135" width="10" height="50" rx="5" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="209" y="1125" width="10" height="70" rx="5" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="226" y="1140" width="10" height="40" rx="5" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="243" y="1130" width="10" height="60" rx="5" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="260" y="1148" width="10" height="24" rx="5" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Item: code window with bracket shapes -->
+<g>
+  <rect x="790" y="1105" width="140" height="110" rx="10" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="792" y="1107" width="136" height="20" rx="8" fill="#2f7fb5"/>
+  <circle cx="806" cy="1117" r="4" fill="#c0392b"/>
+  <circle cx="820" cy="1117" r="4" fill="#ffd24a"/>
+  <circle cx="834" cy="1117" r="4" fill="#2e7d32"/>
+  <polygon points="830,1143 836,1149 822,1165 836,1181 830,1187 810,1165" fill="#4fc3e8"/>
+  <polygon points="890,1143 884,1149 898,1165 884,1181 890,1187 910,1165" fill="#4fc3e8"/>
+  <rect x="842" y="1160" width="36" height="10" rx="5" fill="#ffd24a"/>
+</g>
+
+<!-- Smile face above the central box -->
+<g transform="translate(540 925)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Text: key sentence strip -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">لذلك مرشح الرسائل المزعجة ليس</tspan>
+  <tspan x="935" dy="40">ذكاءً اصطناعيًا توليديًا.</tspan>
+</text>
+<text x="140" y="234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">That is why a spam filter</tspan>
+  <tspan x="140" dy="40">is not generative AI.</tspan>
+</text>
+
+<!-- Text: info card header -->
+<text x="935" y="354" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">مصطلحات أساسية</text>
+<text x="140" y="394" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">KEY TERMS</text>
+
+<!-- Text: info card paragraph -->
+<text x="935" y="434" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">الذكاء الاصطناعي التوليدي</tspan> Generative AI —</tspan>
+  <tspan x="935" dy="40">أنظمة تُنشئ <tspan font-weight="bold" fill="#17457f">محتوى جديدًا</tspan> (نصوصًا وصورًا</tspan>
+  <tspan x="935" dy="40">وصوتًا وبرمجيات) من الأنماط التي</tspan>
+  <tspan x="935" dy="40">تعلّمتها، ومعظم أنظمته الحديثة مبنية</tspan>
+  <tspan x="935" dy="40">على <tspan font-weight="bold" fill="#17457f">التعلم العميق.</tspan></tspan>
+</text>
+<text x="140" y="634" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Generative AI</tspan> — systems that create</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#17457f">new content</tspan> (text, images, audio,</tspan>
+  <tspan x="140" dy="40">and code) from the patterns they</tspan>
+  <tspan x="140" dy="40">learned; most modern systems are</tspan>
+  <tspan x="140" dy="40">built on <tspan font-weight="bold" fill="#17457f">deep learning.</tspan></tspan>
+</text>
+</svg>

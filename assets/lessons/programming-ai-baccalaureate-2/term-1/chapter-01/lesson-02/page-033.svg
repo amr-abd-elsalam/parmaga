@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilPanel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+  <linearGradient id="ilLeaf" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#a9dcbe"/>
+    <stop offset="1" stop-color="#2e7d32"/>
+  </linearGradient>
+</defs>
+
+<!-- Illustration panels: shadows -->
+<rect x="109" y="920" width="270" height="236" rx="18" fill="#22303f" opacity=".18"/>
+<rect x="403" y="920" width="270" height="236" rx="18" fill="#22303f" opacity=".18"/>
+<rect x="697" y="920" width="270" height="236" rx="18" fill="#22303f" opacity=".18"/>
+<!-- Illustration panels: fills -->
+<rect x="105" y="914" width="270" height="236" rx="18" fill="url(#ilPanel)" stroke="#8fc9f2" stroke-width="2"/>
+<rect x="399" y="914" width="270" height="236" rx="18" fill="url(#ilPanel)" stroke="#8fc9f2" stroke-width="2"/>
+<rect x="693" y="914" width="270" height="236" rx="18" fill="url(#ilPanel)" stroke="#8fc9f2" stroke-width="2"/>
+
+<!-- Functional arrows: left panel (sorting) -->
+<line x1="230" y1="1012" x2="186" y2="1050" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="178,1060 193.1,1054.4 180.9,1044.2" fill="#c0392b"/>
+<line x1="250" y1="1012" x2="294" y2="1050" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="302,1060 286.9,1054.4 299.1,1044.2" fill="#c0392b"/>
+<!-- Functional arrow: middle panel (two-way) -->
+<line x1="458" y1="1090" x2="610" y2="1090" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="444,1090 460,1081 460,1099" fill="#c0392b"/>
+<polygon points="624,1090 608,1081 608,1099" fill="#c0392b"/>
+
+<!-- Left panel: inbox tray splitting envelopes -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="196" y="940" width="70" height="44" rx="4" fill="#dff1f7"/>
+  <polyline points="196,942 231,964 266,942" fill="none"/>
+  <rect x="210" y="950" width="70" height="44" rx="4" fill="#ffffff"/>
+  <polyline points="210,952 245,974 280,952" fill="none"/>
+  <path d="M 180 978 L 300 978 L 290 1006 L 190 1006 Z" fill="#17457f"/>
+  <rect x="145" y="1066" width="60" height="38" rx="4" fill="#ffffff"/>
+  <polyline points="145,1068 175,1088 205,1068" fill="none"/>
+  <path d="M 125 1096 L 225 1096 L 217 1126 L 133 1126 Z" fill="#2e7d32"/>
+  <rect x="275" y="1066" width="60" height="38" rx="4" fill="#f0c48c"/>
+  <polyline points="275,1068 305,1088 335,1068" fill="none"/>
+  <path d="M 255 1096 L 355 1096 L 347 1126 L 263 1126 Z" fill="#c96a1b"/>
+</g>
+<polygon points="330,1048 342,1068 318,1068" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+<!-- Middle panel: two speech bubbles with abstract script -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M 428 956 L 500 956 Q 514 956 514 970 L 514 1026 Q 514 1040 500 1040 L 452 1040 L 432 1060 L 436 1040 L 428 1040 Q 414 1040 414 1026 L 414 970 Q 414 956 428 956 Z" fill="#2f7fb5"/>
+  <path d="M 568 956 L 640 956 Q 654 956 654 970 L 654 1026 Q 654 1040 640 1040 L 632 1040 L 636 1060 L 616 1040 L 568 1040 Q 554 1040 554 1026 L 554 970 Q 554 956 568 956 Z" fill="#f0c48c"/>
+</g>
+<rect x="430" y="974" width="30" height="7" rx="3.5" fill="#ffffff"/>
+<rect x="466" y="974" width="32" height="7" rx="3.5" fill="#ffffff"/>
+<rect x="430" y="994" width="44" height="7" rx="3.5" fill="#ffffff"/>
+<rect x="480" y="994" width="18" height="7" rx="3.5" fill="#ffffff"/>
+<rect x="430" y="1014" width="26" height="7" rx="3.5" fill="#ffffff"/>
+<rect x="462" y="1014" width="24" height="7" rx="3.5" fill="#ffffff"/>
+<g fill="none" stroke="#c96a1b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M 638 980 Q 630 970 622 980 T 606 980 T 590 980 T 572 980"/>
+  <path d="M 638 1000 Q 628 990 618 1000 T 598 1000 T 580 1000"/>
+  <path d="M 638 1020 Q 630 1010 622 1020 T 606 1020"/>
+</g>
+<circle cx="600" cy="1028" r="3" fill="#c96a1b"/>
+<circle cx="586" cy="1012" r="3" fill="#c96a1b"/>
+
+<!-- Right panel: leaf photo with dashed recognition square -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="744" y="946" width="168" height="168" rx="10" fill="#dff1f7"/>
+  <line x1="828" y1="1094" x2="828" y2="1106"/>
+  <path d="M 828 966 C 884 986 892 1060 828 1094 C 764 1060 772 986 828 966 Z" fill="url(#ilLeaf)"/>
+</g>
+<line x1="828" y1="976" x2="828" y2="1088" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" opacity=".6"/>
+<line x1="828" y1="1020" x2="852" y2="1002" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" opacity=".6"/>
+<line x1="828" y1="1046" x2="806" y2="1030" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" opacity=".6"/>
+<circle cx="814" cy="1034" r="7" fill="#7d4f28"/>
+<circle cx="842" cy="1052" r="5" fill="#7d4f28"/>
+<circle cx="826" cy="1066" r="4" fill="#b07a45"/>
+<circle cx="848" cy="1030" r="3.5" fill="#b07a45"/>
+<rect x="796" y="1014" width="66" height="66" rx="4" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-dasharray="8 6"/>
+
+<!-- Side icon: leaf, beside paragraph 1 -->
+<g transform="translate(866 338)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M 22 4 C 40 10 42 30 22 40 C 2 30 4 10 22 4 Z" fill="#a9dcbe"/>
+  <line x1="22" y1="10" x2="22" y2="40" stroke="#2e7d32"/>
+</g>
+
+<!-- Side icon: two bubbles, beside paragraph 2 -->
+<g transform="translate(866 576)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="2" y="4" width="26" height="18" rx="6" fill="#8fc9f2"/>
+  <rect x="16" y="22" width="26" height="18" rx="6" fill="#f0c48c"/>
+</g>
+
+<!-- Side face: smile, beside paragraph 3 -->
+<g transform="translate(900 840)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Bottom icon row: envelope, chip, network nodes -->
+<g transform="translate(372 1184)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="4" y="10" width="48" height="36" rx="4" fill="#ffffff"/>
+  <polyline points="4,12 28,30 52,12" fill="none"/>
+</g>
+<g transform="translate(512 1184)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="20" y1="2" x2="20" y2="10"/><line x1="36" y1="2" x2="36" y2="10"/>
+  <line x1="20" y1="46" x2="20" y2="54"/><line x1="36" y1="46" x2="36" y2="54"/>
+  <line x1="2" y1="20" x2="10" y2="20"/><line x1="2" y1="36" x2="10" y2="36"/>
+  <line x1="46" y1="20" x2="54" y2="20"/><line x1="46" y1="36" x2="54" y2="36"/>
+  <rect x="10" y="10" width="36" height="36" rx="6" fill="#8fc9f2"/>
+  <rect x="20" y="20" width="16" height="16" rx="3" fill="#17457f"/>
+</g>
+<g transform="translate(652 1184)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="10" y1="44" x2="28" y2="12"/>
+  <line x1="28" y1="12" x2="46" y2="44"/>
+  <line x1="10" y1="44" x2="46" y2="44"/>
+  <circle cx="28" cy="12" r="9" fill="#4fc3e8"/>
+  <circle cx="10" cy="44" r="9" fill="#f0c48c"/>
+  <circle cx="46" cy="44" r="9" fill="#a9dcbe"/>
+</g>
+
+<!-- Text: paragraph 1 -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="normal" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">التعرف على الصور</tspan> Image Recognition:</tspan>
+  <tspan x="950" dy="40">تحديد ما في الصورة، مثل وجه أو مشاة</tspan>
+  <tspan x="950" dy="40">أو ورقة نبات مصابة.</tspan>
+</text>
+<text x="120" y="274" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="normal" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">Image recognition:</tspan> identifying what is</tspan>
+  <tspan x="120" dy="40">in an image, like a face, pedestrians,</tspan>
+  <tspan x="120" dy="40">or a diseased leaf.</tspan>
+</text>
+
+<!-- Text: paragraph 2 -->
+<text x="950" y="434" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="normal" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">الترجمة الآلية</tspan> Machine Translation:</tspan>
+  <tspan x="950" dy="40">تحويل نص من لغة إلى أخرى آليًا.</tspan>
+</text>
+<text x="120" y="514" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="normal" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">Machine translation:</tspan> automatically</tspan>
+  <tspan x="120" dy="40">changing text from one language</tspan>
+  <tspan x="120" dy="40">to another.</tspan>
+</text>
+
+<!-- Text: paragraph 3 -->
+<text x="950" y="674" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="normal" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">مرشح الرسائل المزعجة</tspan> Spam Filter:</tspan>
+  <tspan x="950" dy="40">نظام تعلّم آلي يصنّف الرسائل</tspan>
+  <tspan x="950" dy="40">إلى مزعجة وسليمة.</tspan>
+</text>
+<text x="120" y="794" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="normal" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">Spam filter:</tspan> a machine learning system</tspan>
+  <tspan x="120" dy="40">that sorts messages into spam</tspan>
+  <tspan x="120" dy="40">and not spam.</tspan>
+</text>
+</svg>

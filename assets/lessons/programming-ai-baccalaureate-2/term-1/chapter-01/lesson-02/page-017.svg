@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilPanel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="ilSum" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#4fc3e8"/>
+    <stop offset="1" stop-color="#2f7fb5"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Info card -->
+<rect x="109" y="128" width="870" height="648" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="122" width="870" height="648" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="616" rx="3" fill="#2f7fb5"/>
+
+<!-- Icon: open book beside header -->
+<g transform="translate(370 150)" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M26 7 Q 15 0 2 3 L 2 31 Q 15 28 26 34 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M26 7 Q 37 0 50 3 L 50 31 Q 37 28 26 34 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="32" y1="13" x2="44" y2="11" stroke="#7f95ab" stroke-width="2.5"/>
+  <line x1="32" y1="21" x2="44" y2="19" stroke="#7f95ab" stroke-width="2.5"/>
+</g>
+
+<!-- Illustration panel -->
+<rect x="109" y="816" width="870" height="436" rx="24" fill="#22303f" opacity=".18"/>
+<rect x="105" y="810" width="870" height="436" rx="24" fill="url(#ilPanel)"/>
+
+<!-- Illustration: one artificial neuron -->
+<g stroke-linecap="round" stroke-linejoin="round">
+  <!-- Input lines -->
+  <polygon points="807.2,979.8 567.7,1058.1 565.3,1050.5 804.8,972.2" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="570" y="1072" width="236" height="8" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="804.8,1179.8 565.3,1101.5 567.7,1093.9 807.2,1172.2" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Weight diamonds -->
+  <polygon points="686,995 706,1015 686,1035 666,1015" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="688,1056 708,1076 688,1096 668,1076" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="686,1117 706,1137 686,1157 666,1137" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Input circles -->
+  <circle cx="844" cy="982" r="34" fill="#22303f" opacity=".18"/>
+  <circle cx="840" cy="976" r="34" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="840" cy="976" r="12" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="844" cy="1082" r="34" fill="#22303f" opacity=".18"/>
+  <circle cx="840" cy="1076" r="34" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="840" cy="1076" r="12" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="844" cy="1182" r="34" fill="#22303f" opacity=".18"/>
+  <circle cx="840" cy="1176" r="34" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="840" cy="1176" r="12" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Output arrow -->
+  <polygon points="440,1068 296,1068 296,1056 270,1076 296,1096 296,1084 440,1084" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Sum circle with sigma shape -->
+  <circle cx="504" cy="1082" r="70" fill="#22303f" opacity=".18"/>
+  <circle cx="500" cy="1076" r="70" fill="url(#ilSum)" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="500" cy="1076" r="52" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="476,1040 524,1040 524,1054 500,1054 516,1076 500,1098 524,1098 524,1112 476,1112 476,1103 497,1076 476,1049" fill="#17457f"/>
+
+  <!-- Output circle -->
+  <circle cx="234" cy="1082" r="34" fill="#22303f" opacity=".18"/>
+  <circle cx="230" cy="1076" r="34" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="230" cy="1076" r="12" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: chip -->
+<g transform="translate(130 1190)" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="16" y1="2" x2="16" y2="8" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="28" y1="2" x2="28" y2="8" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="16" y1="36" x2="16" y2="42" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="28" y1="36" x2="28" y2="42" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="2" y1="16" x2="8" y2="16" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="2" y1="28" x2="8" y2="28" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="36" y1="16" x2="42" y2="16" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="36" y1="28" x2="42" y2="28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="8" y="8" width="28" height="28" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="16" y="16" width="12" height="12" rx="2" fill="#4fc3e8"/>
+</g>
+
+<!-- Smile face -->
+<g transform="translate(935 1214)" stroke-linecap="round">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3"/>
+</g>
+
+<!-- Card header -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">مصطلحات أساسية</tspan>
+</text>
+<text x="140" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">KEY TERMS</tspan>
+</text>
+
+<!-- Term 1 -->
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">العصبون الاصطناعي Artificial Neuron</tspan> —</tspan>
+  <tspan x="935" dy="40">الوحدة الأصغر في الشبكة:</tspan>
+  <tspan x="935" dy="40">يضرب كل مدخل في وزنه، ويجمع النتائج،</tspan>
+  <tspan x="935" dy="40">ثم يقرر ماذا يمرّر.</tspan>
+</text>
+<text x="140" y="394" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Artificial neuron</tspan> — the smallest unit</tspan>
+  <tspan x="140" dy="40">in a network: it multiplies each input</tspan>
+  <tspan x="140" dy="40">by its weight, adds the results,</tspan>
+  <tspan x="140" dy="40">then decides what to pass on.</tspan>
+</text>
+
+<!-- Term 2 -->
+<text x="935" y="594" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">الوزن Weight</tspan> — رقم يحدد أهمية كل مدخل؛</tspan>
+  <tspan x="935" dy="40">والتعلّم كله هو <tspan font-weight="bold" fill="#17457f">ضبط هذه الأوزان.</tspan></tspan>
+</text>
+<text x="140" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Weight</tspan> — a number that sets how</tspan>
+  <tspan x="140" dy="40">important each input is; learning is</tspan>
+  <tspan x="140" dy="40">really <tspan font-weight="bold" fill="#17457f">adjusting these weights.</tspan></tspan>
+</text>
+
+<!-- Illustration labels -->
+<text x="878" y="874" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="878" dy="0">مدخل</tspan>
+</text>
+<text x="790" y="914" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="790" dy="0">Input</tspan>
+</text>
+<text x="717" y="874" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="717" dy="0">وزن</tspan>
+</text>
+<text x="629" y="914" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="629" dy="0">Weight</tspan>
+</text>
+<text x="529" y="874" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="529" dy="0">جمع</tspan>
+</text>
+<text x="470" y="914" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="470" dy="0">Sum</tspan>
+</text>
+<text x="268" y="874" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="268" dy="0">مخرَج</tspan>
+</text>
+<text x="171" y="914" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="171" dy="0">Output</tspan>
+</text>
+</svg>

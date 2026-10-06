@@ -4,143 +4,285 @@
      viewBox="0 0 1080 1350"
      preserveAspectRatio="xMidYMid meet"
      style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-  <defs>
-    <linearGradient id="woodBg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#b8834c"/>
-      <stop offset="0.55" stop-color="#a06f3c"/>
-      <stop offset="1" stop-color="#8a5c2f"/>
-    </linearGradient>
-    <linearGradient id="paperFill" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fffdf6"/>
-      <stop offset="1" stop-color="#fbf7ea"/>
-    </linearGradient>
-  </defs>
+<!-- Key sentence strip -->
+<rect x="109" y="568" width="870" height="328" rx="10" fill="#22303f" opacity=".12"/>
+<rect x="105" y="562" width="870" height="328" rx="10" fill="#fdf6d8"/>
+<rect x="961" y="578" width="6" height="296" rx="3" fill="#e0a55e"/>
 
-  <rect x="0" y="0" width="1080" height="1350" fill="url(#woodBg)"/>
-  <path d="M0 250 C 300 210, 760 300, 1080 240" fill="none" stroke="#6f4823" stroke-width="16" opacity=".12"/>
-  <path d="M0 1080 C 340 1130, 720 1020, 1080 1070" fill="none" stroke="#6f4823" stroke-width="14" opacity=".10"/>
+<!-- Icon: chip (computing) -->
+<g transform="translate(150 160)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="-7" y1="-20" x2="-7" y2="-14"/>
+  <line x1="7" y1="-20" x2="7" y2="-14"/>
+  <line x1="-7" y1="14" x2="-7" y2="20"/>
+  <line x1="7" y1="14" x2="7" y2="20"/>
+  <line x1="-20" y1="-7" x2="-14" y2="-7"/>
+  <line x1="-20" y1="7" x2="-14" y2="7"/>
+  <line x1="14" y1="-7" x2="20" y2="-7"/>
+  <line x1="14" y1="7" x2="20" y2="7"/>
+  <rect x="-14" y="-14" width="28" height="28" rx="5" fill="#8fc9f2"/>
+  <rect x="-7" y="-7" width="14" height="14" rx="2" fill="#17457f"/>
+</g>
 
-  <rect x="42" y="30" width="1012" height="1300" rx="6" fill="#5c3a1c" opacity=".22"/>
-  <rect x="34" y="20" width="1012" height="1300" rx="5" fill="url(#paperFill)"/>
+<!-- Thinking face beside paragraph 1 -->
+<g transform="translate(880 272)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
 
-  <g stroke="#cfe0f2" stroke-width="1.6">
-    <line x1="80" y1="120" x2="1000" y2="120"/>
-    <line x1="80" y1="162" x2="1000" y2="162"/>
-    <line x1="80" y1="204" x2="1000" y2="204"/>
-    <line x1="80" y1="246" x2="1000" y2="246"/>
-    <line x1="80" y1="288" x2="1000" y2="288"/>
-    <line x1="80" y1="330" x2="1000" y2="330"/>
-    <line x1="80" y1="372" x2="1000" y2="372"/>
-    <line x1="80" y1="414" x2="1000" y2="414"/>
-    <line x1="80" y1="456" x2="1000" y2="456"/>
-    <line x1="80" y1="498" x2="1000" y2="498"/>
-    <line x1="80" y1="540" x2="1000" y2="540"/>
-    <line x1="80" y1="582" x2="1000" y2="582"/>
-    <line x1="80" y1="624" x2="1000" y2="624"/>
-    <line x1="80" y1="666" x2="1000" y2="666"/>
-    <line x1="80" y1="708" x2="1000" y2="708"/>
-    <line x1="80" y1="750" x2="1000" y2="750"/>
-    <line x1="80" y1="792" x2="1000" y2="792"/>
-    <line x1="80" y1="834" x2="1000" y2="834"/>
-    <line x1="80" y1="876" x2="1000" y2="876"/>
-    <line x1="80" y1="918" x2="1000" y2="918"/>
-    <line x1="80" y1="960" x2="1000" y2="960"/>
-    <line x1="80" y1="1002" x2="1000" y2="1002"/>
-    <line x1="80" y1="1044" x2="1000" y2="1044"/>
-    <line x1="80" y1="1086" x2="1000" y2="1086"/>
-    <line x1="80" y1="1128" x2="1000" y2="1128"/>
-    <line x1="80" y1="1170" x2="1000" y2="1170"/>
+<!-- Icon: light bulb beside paragraph 2 -->
+<g transform="translate(852 466)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="6" y1="8" x2="10" y2="12"/>
+  <line x1="50" y1="8" x2="46" y2="12"/>
+  <line x1="28" y1="0" x2="28" y2="2"/>
+  <circle cx="28" cy="22" r="17" fill="#ffd24a"/>
+  <rect x="20" y="38" width="16" height="12" rx="3" fill="#7f95ab"/>
+  <path d="M 23 24 L 28 30 L 33 24" fill="none"/>
+</g>
+
+<!-- Icon: star inside the strip -->
+<g transform="translate(127 572)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="24,2 29.3,16.7 44.9,17.2 32.6,26.8 36.9,41.8 24,33 11.1,41.8 15.4,26.8 3.1,17.2 18.7,16.7" fill="#ffd24a"/>
+</g>
+
+<!-- Illustration: rug and group areas -->
+<ellipse cx="540" cy="1205" rx="430" ry="52" fill="#dff1f7"/>
+<ellipse cx="275" cy="1140" rx="150" ry="108" fill="#a9dcbe" opacity=".35"/>
+<ellipse cx="805" cy="1140" rx="150" ry="108" fill="#8fc9f2" opacity=".35"/>
+
+<!-- Illustration: stars above the groups -->
+<g transform="translate(251 930)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="24,2 29.3,16.7 44.9,17.2 32.6,26.8 36.9,41.8 24,33 11.1,41.8 15.4,26.8 3.1,17.2 18.7,16.7" fill="#ffd24a"/>
+</g>
+<g transform="translate(781 930)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="24,2 29.3,16.7 44.9,17.2 32.6,26.8 36.9,41.8 24,33 11.1,41.8 15.4,26.8 3.1,17.2 18.7,16.7" fill="#ffd24a"/>
+</g>
+
+<!-- Illustration: dog cards (left group) -->
+<g transform="translate(210 1080) rotate(-7)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="-32" y="-38" width="72" height="88" rx="8" fill="#22303f" stroke="none" opacity=".18"/>
+  <rect x="-36" y="-44" width="72" height="88" rx="8" fill="#ffffff"/>
+  <rect x="-28" y="-36" width="56" height="58" rx="5" fill="#a9dcbe" stroke="none"/>
+  <rect x="-20" y="30" width="40" height="6" rx="3" fill="#2e7d32" stroke="none"/>
+  <g transform="translate(0 -6) scale(1.1)">
+    <ellipse cx="-15" cy="2" rx="6" ry="11" fill="#c96a1b"/>
+    <ellipse cx="15" cy="2" rx="6" ry="11" fill="#c96a1b"/>
+    <circle cx="0" cy="0" r="15" fill="#ffffff"/>
+    <circle cx="-5" cy="-3" r="2.5" fill="#22303f" stroke="none"/>
+    <circle cx="5" cy="-3" r="2.5" fill="#22303f" stroke="none"/>
+    <ellipse cx="0" cy="5" rx="4" ry="3" fill="#22303f" stroke="none"/>
   </g>
-
-  <rect x="67" y="60" width="946" height="1230" fill="none" stroke="#c0392b" stroke-width="3"/>
-
-  <rect x="105" y="222" width="870" height="186" rx="14" fill="#fdf6d6" stroke="#e0c469" stroke-width="2"/>
-  <rect x="105" y="436" width="870" height="440" rx="14" fill="#e9f2fc" stroke="#93b9de" stroke-width="2"/>
-
-  <rect x="95" y="906" width="890" height="84" fill="#fdf1ef"/>
-  <g stroke="#c0392b" stroke-width="1.8" fill="none">
-    <rect x="95" y="906" width="890" height="255"/>
-    <line x1="95" y1="990" x2="985" y2="990"/>
-    <line x1="95" y1="1047" x2="985" y2="1047"/>
-    <line x1="95" y1="1104" x2="985" y2="1104"/>
-    <line x1="675" y1="906" x2="675" y2="1161"/>
-    <line x1="385" y1="906" x2="385" y2="1161"/>
+</g>
+<g transform="translate(320 1080) rotate(5)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="-32" y="-38" width="72" height="88" rx="8" fill="#22303f" stroke="none" opacity=".18"/>
+  <rect x="-36" y="-44" width="72" height="88" rx="8" fill="#ffffff"/>
+  <rect x="-28" y="-36" width="56" height="58" rx="5" fill="#a9dcbe" stroke="none"/>
+  <rect x="-20" y="30" width="40" height="6" rx="3" fill="#2e7d32" stroke="none"/>
+  <g transform="translate(0 -6) scale(0.8)">
+    <ellipse cx="-15" cy="2" rx="6" ry="11" fill="#7d4f28"/>
+    <ellipse cx="15" cy="2" rx="6" ry="11" fill="#7d4f28"/>
+    <circle cx="0" cy="0" r="15" fill="#f0c48c"/>
+    <circle cx="-5" cy="-3" r="2.5" fill="#22303f" stroke="none"/>
+    <circle cx="5" cy="-3" r="2.5" fill="#22303f" stroke="none"/>
+    <ellipse cx="0" cy="5" rx="4" ry="3" fill="#22303f" stroke="none"/>
   </g>
+</g>
+<g transform="translate(185 1190) rotate(-9)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="-32" y="-38" width="72" height="88" rx="8" fill="#22303f" stroke="none" opacity=".18"/>
+  <rect x="-36" y="-44" width="72" height="88" rx="8" fill="#ffffff"/>
+  <rect x="-28" y="-36" width="56" height="58" rx="5" fill="#a9dcbe" stroke="none"/>
+  <rect x="-20" y="30" width="40" height="6" rx="3" fill="#2e7d32" stroke="none"/>
+  <g transform="translate(0 -6) scale(1.2)">
+    <ellipse cx="-15" cy="2" rx="6" ry="11" fill="#2b211c"/>
+    <ellipse cx="15" cy="2" rx="6" ry="11" fill="#2b211c"/>
+    <circle cx="0" cy="0" r="15" fill="#e8dfd1"/>
+    <circle cx="-5" cy="-3" r="2.5" fill="#22303f" stroke="none"/>
+    <circle cx="5" cy="-3" r="2.5" fill="#22303f" stroke="none"/>
+    <ellipse cx="0" cy="5" rx="4" ry="3" fill="#22303f" stroke="none"/>
+  </g>
+</g>
+<g transform="translate(275 1160) rotate(8)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="-32" y="-38" width="72" height="88" rx="8" fill="#22303f" stroke="none" opacity=".18"/>
+  <rect x="-36" y="-44" width="72" height="88" rx="8" fill="#ffffff"/>
+  <rect x="-28" y="-36" width="56" height="58" rx="5" fill="#a9dcbe" stroke="none"/>
+  <rect x="-20" y="30" width="40" height="6" rx="3" fill="#2e7d32" stroke="none"/>
+  <g transform="translate(0 -6) scale(0.95)">
+    <ellipse cx="-15" cy="2" rx="6" ry="11" fill="#3a2411"/>
+    <ellipse cx="15" cy="2" rx="6" ry="11" fill="#3a2411"/>
+    <circle cx="0" cy="0" r="15" fill="#c96a1b"/>
+    <circle cx="-5" cy="-3" r="2.5" fill="#22303f" stroke="none"/>
+    <circle cx="5" cy="-3" r="2.5" fill="#22303f" stroke="none"/>
+    <ellipse cx="0" cy="5" rx="4" ry="3" fill="#22303f" stroke="none"/>
+  </g>
+</g>
+<g transform="translate(365 1190) rotate(-6)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="-32" y="-38" width="72" height="88" rx="8" fill="#22303f" stroke="none" opacity=".18"/>
+  <rect x="-36" y="-44" width="72" height="88" rx="8" fill="#ffffff"/>
+  <rect x="-28" y="-36" width="56" height="58" rx="5" fill="#a9dcbe" stroke="none"/>
+  <rect x="-20" y="30" width="40" height="6" rx="3" fill="#2e7d32" stroke="none"/>
+  <g transform="translate(0 -6) scale(0.85)">
+    <ellipse cx="-15" cy="2" rx="6" ry="11" fill="#7f95ab"/>
+    <ellipse cx="15" cy="2" rx="6" ry="11" fill="#7f95ab"/>
+    <circle cx="0" cy="0" r="15" fill="#ffffff"/>
+    <circle cx="-5" cy="-3" r="2.5" fill="#22303f" stroke="none"/>
+    <circle cx="5" cy="-3" r="2.5" fill="#22303f" stroke="none"/>
+    <ellipse cx="0" cy="5" rx="4" ry="3" fill="#22303f" stroke="none"/>
+  </g>
+</g>
 
-  <text x="540" y="150"
-        direction="rtl" unicode-bidi="plaintext" text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="46" font-weight="bold" fill="#14406f">استكشف مع زميلك</text>
+<!-- Illustration: cat cards (right group) -->
+<g transform="translate(870 1080) rotate(7)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="-32" y="-38" width="72" height="88" rx="8" fill="#22303f" stroke="none" opacity=".18"/>
+  <rect x="-36" y="-44" width="72" height="88" rx="8" fill="#ffffff"/>
+  <rect x="-28" y="-36" width="56" height="58" rx="5" fill="#dff1f7" stroke="none"/>
+  <rect x="-20" y="30" width="40" height="6" rx="3" fill="#8fc9f2" stroke="none"/>
+  <g transform="translate(0 -4) scale(1.05)">
+    <polygon points="-15,-6 -13,-24 -2,-14" fill="#f0c48c"/>
+    <polygon points="15,-6 13,-24 2,-14" fill="#f0c48c"/>
+    <circle cx="0" cy="0" r="16" fill="#f0c48c"/>
+    <circle cx="-6" cy="-2" r="2.5" fill="#22303f" stroke="none"/>
+    <circle cx="6" cy="-2" r="2.5" fill="#22303f" stroke="none"/>
+    <polygon points="-3,4 3,4 0,7" fill="#c96a1b" stroke="none"/>
+    <line x1="-6" y1="7" x2="-22" y2="4" stroke-width="1.4"/>
+    <line x1="6" y1="7" x2="22" y2="4" stroke-width="1.4"/>
+  </g>
+</g>
+<g transform="translate(760 1080) rotate(-5)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="-32" y="-38" width="72" height="88" rx="8" fill="#22303f" stroke="none" opacity=".18"/>
+  <rect x="-36" y="-44" width="72" height="88" rx="8" fill="#ffffff"/>
+  <rect x="-28" y="-36" width="56" height="58" rx="5" fill="#dff1f7" stroke="none"/>
+  <rect x="-20" y="30" width="40" height="6" rx="3" fill="#8fc9f2" stroke="none"/>
+  <g transform="translate(0 -4) scale(0.85)">
+    <polygon points="-15,-6 -13,-24 -2,-14" fill="#7f95ab"/>
+    <polygon points="15,-6 13,-24 2,-14" fill="#7f95ab"/>
+    <circle cx="0" cy="0" r="16" fill="#7f95ab"/>
+    <circle cx="-6" cy="-2" r="2.5" fill="#22303f" stroke="none"/>
+    <circle cx="6" cy="-2" r="2.5" fill="#22303f" stroke="none"/>
+    <polygon points="-3,4 3,4 0,7" fill="#c96a1b" stroke="none"/>
+    <line x1="-6" y1="7" x2="-22" y2="4" stroke-width="1.4"/>
+    <line x1="6" y1="7" x2="22" y2="4" stroke-width="1.4"/>
+  </g>
+</g>
+<g transform="translate(895 1190) rotate(9)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="-32" y="-38" width="72" height="88" rx="8" fill="#22303f" stroke="none" opacity=".18"/>
+  <rect x="-36" y="-44" width="72" height="88" rx="8" fill="#ffffff"/>
+  <rect x="-28" y="-36" width="56" height="58" rx="5" fill="#dff1f7" stroke="none"/>
+  <rect x="-20" y="30" width="40" height="6" rx="3" fill="#8fc9f2" stroke="none"/>
+  <g transform="translate(0 -4) scale(1.15)">
+    <polygon points="-15,-6 -13,-24 -2,-14" fill="#ffffff"/>
+    <polygon points="15,-6 13,-24 2,-14" fill="#ffffff"/>
+    <circle cx="0" cy="0" r="16" fill="#ffffff"/>
+    <circle cx="-6" cy="-2" r="2.5" fill="#22303f" stroke="none"/>
+    <circle cx="6" cy="-2" r="2.5" fill="#22303f" stroke="none"/>
+    <polygon points="-3,4 3,4 0,7" fill="#c96a1b" stroke="none"/>
+    <line x1="-6" y1="7" x2="-22" y2="4" stroke-width="1.4"/>
+    <line x1="6" y1="7" x2="22" y2="4" stroke-width="1.4"/>
+  </g>
+</g>
+<g transform="translate(805 1160) rotate(-8)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="-32" y="-38" width="72" height="88" rx="8" fill="#22303f" stroke="none" opacity=".18"/>
+  <rect x="-36" y="-44" width="72" height="88" rx="8" fill="#ffffff"/>
+  <rect x="-28" y="-36" width="56" height="58" rx="5" fill="#dff1f7" stroke="none"/>
+  <rect x="-20" y="30" width="40" height="6" rx="3" fill="#8fc9f2" stroke="none"/>
+  <g transform="translate(0 -4) scale(0.95)">
+    <polygon points="-15,-6 -13,-24 -2,-14" fill="#c96a1b"/>
+    <polygon points="15,-6 13,-24 2,-14" fill="#c96a1b"/>
+    <circle cx="0" cy="0" r="16" fill="#c96a1b"/>
+    <circle cx="-6" cy="-2" r="2.5" fill="#22303f" stroke="none"/>
+    <circle cx="6" cy="-2" r="2.5" fill="#22303f" stroke="none"/>
+    <polygon points="-3,4 3,4 0,7" fill="#22303f" stroke="none"/>
+    <line x1="-6" y1="7" x2="-22" y2="4" stroke-width="1.4"/>
+    <line x1="6" y1="7" x2="22" y2="4" stroke-width="1.4"/>
+  </g>
+</g>
+<g transform="translate(715 1190) rotate(6)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="-32" y="-38" width="72" height="88" rx="8" fill="#22303f" stroke="none" opacity=".18"/>
+  <rect x="-36" y="-44" width="72" height="88" rx="8" fill="#ffffff"/>
+  <rect x="-28" y="-36" width="56" height="58" rx="5" fill="#dff1f7" stroke="none"/>
+  <rect x="-20" y="30" width="40" height="6" rx="3" fill="#8fc9f2" stroke="none"/>
+  <g transform="translate(0 -4) scale(0.8)">
+    <polygon points="-15,-6 -13,-24 -2,-14" fill="#e8dfd1"/>
+    <polygon points="15,-6 13,-24 2,-14" fill="#e8dfd1"/>
+    <circle cx="0" cy="0" r="16" fill="#e8dfd1"/>
+    <circle cx="-6" cy="-2" r="2.5" fill="#22303f" stroke="none"/>
+    <circle cx="6" cy="-2" r="2.5" fill="#22303f" stroke="none"/>
+    <polygon points="-3,4 3,4 0,7" fill="#c96a1b" stroke="none"/>
+    <line x1="-6" y1="7" x2="-22" y2="4" stroke-width="1.4"/>
+    <line x1="6" y1="7" x2="22" y2="4" stroke-width="1.4"/>
+  </g>
+</g>
 
-  <text x="540" y="196"
-        direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="30" fill="#152b42">Explore — In Pairs</text>
+<!-- Illustration: child sitting on the floor -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <ellipse cx="544" cy="1162" rx="95" ry="20" fill="#22303f" stroke="none" opacity=".18"/>
+  <ellipse cx="540" cy="1150" rx="95" ry="28" fill="#17457f"/>
+  <ellipse cx="468" cy="1168" rx="18" ry="10" fill="#c96a1b"/>
+  <ellipse cx="612" cy="1168" rx="18" ry="10" fill="#c96a1b"/>
+  <path d="M 480 1140 C 476 1090, 490 1045, 540 1040 C 590 1045, 604 1090, 600 1140 Z" fill="#2f7fb5"/>
+  <path d="M 492 1060 C 470 1080, 462 1110, 474 1134 L 490 1132 C 484 1110, 490 1090, 504 1076 Z" fill="#2f7fb5"/>
+  <path d="M 588 1060 C 610 1080, 618 1110, 606 1134 L 590 1132 C 596 1110, 590 1090, 576 1076 Z" fill="#2f7fb5"/>
+  <circle cx="482" cy="1138" r="10" fill="#e8b98d"/>
+  <circle cx="598" cy="1138" r="10" fill="#e8b98d"/>
+  <rect x="530" y="1022" width="20" height="22" rx="4" fill="#e8b98d"/>
+  <path d="M 522 1042 Q 540 1058 558 1042" fill="#ffffff"/>
+  <circle cx="500" cy="995" r="8" fill="#e8b98d"/>
+  <circle cx="580" cy="995" r="8" fill="#e8b98d"/>
+  <circle cx="540" cy="990" r="40" fill="#e8b98d"/>
+  <path d="M 500 992 C 496 950, 530 940, 548 946 C 572 944, 586 966, 580 992 C 572 974, 556 968, 540 970 C 522 970, 508 978, 500 992 Z" fill="#2b211c"/>
+  <circle cx="526" cy="998" r="4" fill="#22303f" stroke="none"/>
+  <circle cx="554" cy="998" r="4" fill="#22303f" stroke="none"/>
+  <path d="M 528 1012 Q 540 1020 552 1012" fill="none"/>
+</g>
 
-  <text x="948" y="274"
-        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="29" fill="#225f9c">
-    <tspan x="948" dy="0">ما الذكاء الاصطناعي؟ وما العلاقة بين التعلم الآلي</tspan>
-    <tspan x="948" dy="42">والتعلم العميق والذكاء الاصطناعي التوليدي؟</tspan>
-  </text>
+<!-- Text -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">والآن: كيف <tspan font-weight="bold" fill="#17457f">تعلّمت</tspan> أنت التفريق بينهما</tspan>
+  <tspan x="950" dy="40">وأنت صغير؟ هل كتب لك أحد <tspan font-weight="bold" fill="#c0392b">قواعد؟</tspan></tspan>
+</text>
+<text x="120" y="234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Now: how did you <tspan font-weight="bold" fill="#17457f">learn</tspan> to tell</tspan>
+  <tspan x="120" dy="40">them apart as a child?</tspan>
+  <tspan x="120" dy="40">Did anyone write <tspan font-weight="bold" fill="#c0392b">rules</tspan> for you?</tspan>
+</text>
 
-  <text x="132" y="358"
-        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26" fill="#152b42">
-    <tspan x="132" dy="0">What is AI, and how are machine learning,</tspan>
-    <tspan x="132" dy="32">deep learning, and generative AI related?</tspan>
-  </text>
+<text x="950" y="394" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">لا، لقد رأيت قططًا وكلابًا <tspan font-weight="bold" fill="#17457f">كثيرة،</tspan></tspan>
+  <tspan x="950" dy="40">فتعلّمت الفرق <tspan font-weight="bold" fill="#2e7d32">بنفسك.</tspan></tspan>
+</text>
+<text x="120" y="474" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">No. You saw <tspan font-weight="bold" fill="#17457f">many</tspan> cats and dogs,</tspan>
+  <tspan x="120" dy="40">and learned the difference <tspan font-weight="bold" fill="#2e7d32">yourself.</tspan></tspan>
+</text>
 
-  <text x="948" y="488"
-        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="29" fill="#225f9c">
-    <tspan x="948" dy="0">بالتعاون مع زميلك، اذكرا ثلاث مهام ينفذها الهاتف</tspan>
-    <tspan x="948" dy="42">أو الحاسوب وتبدو كأنها تحتاج إلى «ذكاء»، مثل فرز</tspan>
-    <tspan x="948" dy="42">الرسائل المزعجة أو التوصية بمقطع فيديو أو ترجمة نص.</tspan>
-    <tspan x="948" dy="42">ثم حددا: هل يتبع الحاسوب قواعد ثابتة، أم يتعلم من</tspan>
-    <tspan x="948" dy="42">الأمثلة؟ اذكرا سببًا واحدًا.</tspan>
-  </text>
-
-  <text x="132" y="706"
-        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27" fill="#152b42">
-    <tspan x="132" dy="0">With a partner, list three tasks a phone or computer</tspan>
-    <tspan x="132" dy="35">performs that seem to require “intelligence,” such as</tspan>
-    <tspan x="132" dy="35">sorting spam, recommending a video, or translating text.</tspan>
-    <tspan x="132" dy="35">Then decide: does the computer follow fixed rules, or</tspan>
-    <tspan x="132" dy="35">does it learn from examples? Give one reason.</tspan>
-  </text>
-
-  <text x="830" y="944"
-        direction="rtl" unicode-bidi="plaintext" text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="26" font-weight="bold" fill="#14406f">المهمة</text>
-  <text x="830" y="974"
-        direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="22" fill="#152b42">Task</text>
-
-  <text x="530" y="944"
-        direction="rtl" unicode-bidi="plaintext" text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="26" font-weight="bold" fill="#14406f">قواعد ثابتة</text>
-  <text x="530" y="974"
-        direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="22" fill="#152b42">Fixed Rules</text>
-
-  <text x="240" y="944"
-        direction="rtl" unicode-bidi="plaintext" text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="26" font-weight="bold" fill="#14406f">تعلم من الأمثلة</text>
-  <text x="240" y="974"
-        direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="22" fill="#152b42">Learns from Examples</text>
-
+<text x="935" y="594" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">البرمجة التقليدية: نكتب القواعد بأيدينا.</tspan>
+  <tspan x="935" dy="40">التعلّم الآلي: نعطي الكمبيوتر أمثلة كثيرة</tspan>
+  <tspan x="935" dy="40">فيستخرج الأنماط بنفسه.</tspan>
+</text>
+<text x="140" y="714" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">Traditional programming:</tspan>
+  <tspan x="140" dy="40">we write the rules by hand.</tspan>
+  <tspan x="140" dy="40">Machine learning: we give the computer</tspan>
+  <tspan x="140" dy="40">many examples, and it finds</tspan>
+  <tspan x="140" dy="40">the patterns itself.</tspan>
+</text>
 </svg>

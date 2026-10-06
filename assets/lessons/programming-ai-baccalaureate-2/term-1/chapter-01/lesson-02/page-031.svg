@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="ilMachine" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Shadows -->
+<rect x="109" y="128" width="870" height="688" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="109" y="852" width="870" height="398" rx="24" fill="#22303f" opacity=".18"/>
+
+<!-- Info card -->
+<rect x="105" y="122" width="870" height="688" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="656" rx="3" fill="#2f7fb5"/>
+
+<!-- Illustration backdrop -->
+<rect x="105" y="846" width="870" height="398" rx="24" fill="url(#ilSky)" stroke="#22303f" stroke-width="2.5"/>
+<path d="M 105 1170 L 975 1170 L 975 1220 Q 975 1244 951 1244 L 129 1244 Q 105 1244 105 1220 Z" fill="#8fc9f2" opacity=".6"/>
+
+<!-- Left: dashed idea frame with question mark -->
+<ellipse cx="320" cy="1178" rx="150" ry="9" fill="#22303f" opacity=".18"/>
+<rect x="170" y="920" width="300" height="240" rx="24" fill="#ffffff" stroke="#2f7fb5" stroke-width="2.5" stroke-dasharray="14 10"/>
+<g transform="translate(320 990)">
+  <path d="M -50 0 A 50 50 0 0 1 50 0 C 50 25 12 30 12 45 L 12 70 L -12 70 L -12 40 C -12 20 26 15 26 0 A 26 26 0 0 0 -26 0 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="0" cy="98" r="13" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+</g>
+<g transform="translate(500 920)">
+  <path d="M 0 -12 L 3 -3 L 12 0 L 3 3 L 0 12 L -3 3 L -12 0 L -3 -3 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+<g transform="translate(145 900)">
+  <path d="M 0 -12 L 3 -3 L 12 0 L 3 3 L 0 12 L -3 3 L -12 0 L -3 -3 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Right: three single-task machines -->
+<ellipse cx="620" cy="1176" rx="62" ry="8" fill="#22303f" opacity=".18"/>
+<ellipse cx="755" cy="1176" rx="62" ry="8" fill="#22303f" opacity=".18"/>
+<ellipse cx="890" cy="1176" rx="62" ry="8" fill="#22303f" opacity=".18"/>
+
+<!-- Machine 1: chess -->
+<g>
+  <line x1="620" y1="1000" x2="620" y2="976" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="620" cy="968" r="8" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="580" y="1158" width="16" height="12" rx="3" fill="#22303f"/>
+  <rect x="644" y="1158" width="16" height="12" rx="3" fill="#22303f"/>
+  <rect x="560" y="1000" width="120" height="160" rx="20" fill="url(#ilMachine)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="575" y="1018" width="90" height="84" rx="12" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="620" cy="1040" r="11" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="610" y="1050" width="20" height="7" rx="2" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 608 1057 L 632 1057 L 638 1080 L 602 1080 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="596" y="1080" width="48" height="10" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="600" cy="1128" r="7" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="620" cy="1128" r="7" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="634" y="1124" width="24" height="8" rx="4" fill="#8fc9f2"/>
+</g>
+
+<!-- Machine 2: speech bubbles -->
+<g>
+  <line x1="755" y1="1000" x2="755" y2="976" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="755" cy="968" r="8" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="715" y="1158" width="16" height="12" rx="3" fill="#22303f"/>
+  <rect x="779" y="1158" width="16" height="12" rx="3" fill="#22303f"/>
+  <rect x="695" y="1000" width="120" height="160" rx="20" fill="url(#ilMachine)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="710" y="1018" width="90" height="84" rx="12" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="727,1058 723,1072 740,1059" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="717" y="1030" width="48" height="30" rx="10" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="731" cy="1045" r="3" fill="#17457f"/>
+  <circle cx="741" cy="1045" r="3" fill="#17457f"/>
+  <circle cx="751" cy="1045" r="3" fill="#17457f"/>
+  <polygon points="782,1082 788,1094 772,1083" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="747" y="1054" width="46" height="30" rx="10" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="735" cy="1128" r="7" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="755" cy="1128" r="7" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="769" y="1124" width="24" height="8" rx="4" fill="#8fc9f2"/>
+</g>
+
+<!-- Machine 3: envelope -->
+<g>
+  <line x1="890" y1="1000" x2="890" y2="976" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="890" cy="968" r="8" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="850" y="1158" width="16" height="12" rx="3" fill="#22303f"/>
+  <rect x="914" y="1158" width="16" height="12" rx="3" fill="#22303f"/>
+  <rect x="830" y="1000" width="120" height="160" rx="20" fill="url(#ilMachine)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="845" y="1018" width="90" height="84" rx="12" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="860" y="1040" width="60" height="40" rx="4" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <polyline points="860,1042 890,1064 920,1042" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="870" cy="1128" r="7" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="890" cy="1128" r="7" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="904" y="1124" width="24" height="8" rx="4" fill="#8fc9f2"/>
+</g>
+
+<!-- Icon: open book (key terms) -->
+<g transform="translate(878 362)">
+  <path d="M 28 12 Q 16 4 2 8 L 2 48 Q 16 44 28 52 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 28 12 Q 40 4 54 8 L 54 48 Q 40 44 28 52 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="9" y1="20" x2="21" y2="22" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="9" y1="30" x2="21" y2="32" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="35" y1="22" x2="47" y2="20" stroke="#17457f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="35" y1="32" x2="47" y2="30" stroke="#17457f" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: AI chip -->
+<g transform="translate(878 690)">
+  <line x1="18" y1="2" x2="18" y2="10" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="28" y1="2" x2="28" y2="10" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="38" y1="2" x2="38" y2="10" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="18" y1="46" x2="18" y2="54" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="28" y1="46" x2="28" y2="54" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="38" y1="46" x2="38" y2="54" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="2" y1="18" x2="10" y2="18" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="2" y1="28" x2="10" y2="28" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="2" y1="38" x2="10" y2="38" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="46" y1="18" x2="54" y2="18" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="46" y1="28" x2="54" y2="28" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="46" y1="38" x2="54" y2="38" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="10" y="10" width="36" height="36" rx="6" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="19" y="19" width="18" height="18" rx="3" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Card header -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">مصطلحات أساسية</text>
+<text x="140" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">KEY TERMS</text>
+
+<!-- Term 1 -->
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">الذكاء الاصطناعي الضيق</tspan> Narrow AI —</tspan>
+  <tspan x="935" dy="40">نظام مصمَّم <tspan font-weight="bold" fill="#17457f">لمهمة محددة</tspan> أو مجموعة محدودة</tspan>
+  <tspan x="935" dy="40">من المهام، وهو ما نستخدمه اليوم.</tspan>
+</text>
+<text x="140" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Narrow AI</tspan> — a system designed</tspan>
+  <tspan x="140" dy="40">for a <tspan font-weight="bold" fill="#17457f">specific task</tspan> or a limited set</tspan>
+  <tspan x="140" dy="40">of tasks; it is what we use today.</tspan>
+</text>
+
+<!-- Term 2 -->
+<text x="935" y="514" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">الذكاء الاصطناعي</tspan></tspan>
+  <tspan x="935" dy="40"><tspan font-weight="bold" fill="#c0392b">العام</tspan> Artificial General Intelligence (AGI)</tspan>
+  <tspan x="935" dy="40">— <tspan font-weight="bold" fill="#17457f">فكرة نظرية</tspan> لنظام يؤدي أي مهمة فكرية</tspan>
+  <tspan x="935" dy="40">يؤديها الإنسان، <tspan font-weight="bold" fill="#17457f">ولم يتحقق</tspan> حتى الآن.</tspan>
+</text>
+<text x="140" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Artificial general intelligence (AGI)</tspan></tspan>
+  <tspan x="140" dy="40">— a <tspan font-weight="bold" fill="#17457f">theoretical system</tspan> that could do</tspan>
+  <tspan x="140" dy="40">any intellectual task a human can;</tspan>
+  <tspan x="140" dy="40">it has <tspan font-weight="bold" fill="#17457f">not been achieved</tspan> yet.</tspan>
+</text>
+</svg>

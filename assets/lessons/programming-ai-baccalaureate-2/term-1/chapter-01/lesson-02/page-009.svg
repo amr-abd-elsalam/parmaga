@@ -4,256 +4,202 @@
      viewBox="0 0 1080 1350"
      preserveAspectRatio="xMidYMid meet"
      style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-  <defs>
-    <linearGradient id="woodGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#b07a45"/>
-      <stop offset="0.55" stop-color="#96633494"/>
-      <stop offset="1" stop-color="#7c4f28"/>
-    </linearGradient>
-    <linearGradient id="paperGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fffdf6"/>
-      <stop offset="1" stop-color="#faf4e6"/>
-    </linearGradient>
-  </defs>
+<!-- Info card: shadow, fill, accent -->
+<rect x="109" y="128" width="870" height="808" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="122" width="870" height="808" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="776" rx="3" fill="#2f7fb5"/>
 
-  <!-- 1) خلفية خشبية بسيطة -->
-  <rect x="0" y="0" width="1080" height="1350" fill="url(#woodGrad)"/>
-  <path d="M0 250 C 300 210, 760 300, 1080 240" fill="none" stroke="#5d3714" stroke-width="26" opacity="0.07"/>
-  <path d="M0 1010 C 340 1070, 720 970, 1080 1040" fill="none" stroke="#5d3714" stroke-width="22" opacity="0.06"/>
+<!-- Illustration panels: shadows and fills -->
+<rect x="109" y="968" width="278" height="282" rx="18" fill="#22303f" opacity=".18"/>
+<rect x="403" y="968" width="278" height="282" rx="18" fill="#22303f" opacity=".18"/>
+<rect x="697" y="968" width="278" height="282" rx="18" fill="#22303f" opacity=".18"/>
+<rect x="105" y="962" width="278" height="282" rx="18" fill="#dff1f7"/>
+<rect x="399" y="962" width="278" height="282" rx="18" fill="#dff1f7"/>
+<rect x="693" y="962" width="278" height="282" rx="18" fill="#dff1f7"/>
+<rect x="121" y="1206" width="246" height="24" rx="10" fill="#a9dcbe"/>
+<rect x="415" y="1206" width="246" height="24" rx="10" fill="#a9dcbe"/>
+<rect x="709" y="1206" width="246" height="24" rx="10" fill="#a9dcbe"/>
 
-  <!-- 2) الورقة -->
-  <rect x="42" y="36" width="1012" height="1294" fill="#3a2411" opacity="0.16" rx="8"/>
-  <rect x="34" y="28" width="1012" height="1294" fill="url(#paperGrad)" rx="8"/>
+<!-- Functional arrows -->
+<line x1="226" y1="1100" x2="242" y2="1100" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="240,1090 254,1100 240,1110" fill="#c0392b"/>
+<line x1="546" y1="1052" x2="564" y2="1052" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="562,1042 576,1052 562,1062" fill="#c0392b"/>
 
-  <!-- 3) سطور الدفتر الزرقاء الباهتة -->
-  <g stroke="#cadff1" stroke-width="1.2">
-    <line x1="80" y1="118" x2="1000" y2="118"/>
-    <line x1="80" y1="162" x2="1000" y2="162"/>
-    <line x1="80" y1="206" x2="1000" y2="206"/>
-    <line x1="80" y1="250" x2="1000" y2="250"/>
-    <line x1="80" y1="294" x2="1000" y2="294"/>
-    <line x1="80" y1="338" x2="1000" y2="338"/>
-    <line x1="80" y1="382" x2="1000" y2="382"/>
-    <line x1="80" y1="426" x2="1000" y2="426"/>
-    <line x1="80" y1="470" x2="1000" y2="470"/>
-    <line x1="80" y1="514" x2="1000" y2="514"/>
-    <line x1="80" y1="558" x2="1000" y2="558"/>
-    <line x1="80" y1="602" x2="1000" y2="602"/>
-    <line x1="80" y1="646" x2="1000" y2="646"/>
-    <line x1="80" y1="690" x2="1000" y2="690"/>
-    <line x1="80" y1="734" x2="1000" y2="734"/>
-    <line x1="80" y1="778" x2="1000" y2="778"/>
-    <line x1="80" y1="822" x2="1000" y2="822"/>
-    <line x1="80" y1="866" x2="1000" y2="866"/>
-    <line x1="80" y1="910" x2="1000" y2="910"/>
-    <line x1="80" y1="954" x2="1000" y2="954"/>
-    <line x1="80" y1="998" x2="1000" y2="998"/>
-    <line x1="80" y1="1042" x2="1000" y2="1042"/>
-    <line x1="80" y1="1086" x2="1000" y2="1086"/>
-    <line x1="80" y1="1130" x2="1000" y2="1130"/>
-    <line x1="80" y1="1174" x2="1000" y2="1174"/>
-    <line x1="80" y1="1218" x2="1000" y2="1218"/>
-    <line x1="80" y1="1262" x2="1000" y2="1262"/>
+<!-- Icon: open book beside the card header -->
+<g transform="translate(420 140)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M 28 8 C 20 2, 8 2, 2 6 L 2 40 C 8 36, 20 36, 28 42 Z" fill="#ffffff"/>
+  <path d="M 28 8 C 36 2, 48 2, 54 6 L 54 40 C 48 36, 36 36, 28 42 Z" fill="#8fc9f2"/>
+  <line x1="9" y1="16" x2="21" y2="16" stroke-width="2"/>
+  <line x1="9" y1="24" x2="21" y2="24" stroke-width="2"/>
+  <line x1="35" y1="16" x2="47" y2="16" stroke-width="2"/>
+  <line x1="35" y1="24" x2="47" y2="24" stroke-width="2"/>
+</g>
+
+<!-- Icon: document stack beside paragraph 1 -->
+<g transform="translate(150 222)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="10" y="0" width="30" height="38" rx="3" fill="#f0c48c"/>
+  <rect x="2" y="6" width="30" height="38" rx="3" fill="#ffffff"/>
+  <line x1="9" y1="17" x2="25" y2="17" stroke-width="2"/>
+  <line x1="9" y1="25" x2="25" y2="25" stroke-width="2"/>
+  <line x1="9" y1="33" x2="20" y2="33" stroke-width="2"/>
+</g>
+
+<!-- Icon: code brackets beside paragraph 2 -->
+<g transform="translate(150 444)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="20,6 26,12 14,24 26,36 20,42 2,24" fill="#2f7fb5"/>
+  <polygon points="36,6 54,24 36,42 30,36 42,24 30,12" fill="#2f7fb5"/>
+</g>
+
+<!-- Icon: chip beside paragraph 3 -->
+<g transform="translate(176 750)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="-7" y1="-20" x2="-7" y2="-14"/>
+  <line x1="7" y1="-20" x2="7" y2="-14"/>
+  <line x1="-7" y1="14" x2="-7" y2="20"/>
+  <line x1="7" y1="14" x2="7" y2="20"/>
+  <line x1="-20" y1="-7" x2="-14" y2="-7"/>
+  <line x1="-20" y1="7" x2="-14" y2="7"/>
+  <line x1="14" y1="-7" x2="20" y2="-7"/>
+  <line x1="14" y1="7" x2="20" y2="7"/>
+  <rect x="-14" y="-14" width="28" height="28" rx="5" fill="#8fc9f2"/>
+  <rect x="-7" y="-7" width="14" height="14" rx="2" fill="#17457f"/>
+</g>
+
+<!-- Left panel: example cards flowing into a computer with a grouped-dots chart -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="translate(160 1120) rotate(-10)">
+    <rect x="-30" y="-40" width="60" height="80" rx="6" fill="#ffffff"/>
+    <circle cx="0" cy="-10" r="10" fill="#2e7d32"/>
+    <rect x="-18" y="14" width="36" height="6" rx="3" fill="#8fc9f2" stroke="none"/>
   </g>
-
-  <!-- 4) الإطار الأحمر الخارجي الوحيد -->
-  <rect x="67" y="62" width="946" height="1250" fill="none" stroke="#c0392b" stroke-width="2.6" rx="6"/>
-
-  <!-- 5) صندوق النشاط الأحمر الفاتح -->
-  <rect x="88" y="196" width="904" height="952" fill="#fbe4e1" opacity="0.66" stroke="#dd8f86" stroke-width="2" rx="20"/>
-
-  <!-- صندوق الاختيارات -->
-  <rect x="115" y="892" width="850" height="228" fill="#fffdf6" opacity="0.96" stroke="#cdb27f" stroke-width="1.8" rx="14"/>
-
-  <!-- فواصل أفقية رفيعة تحت عنواني القسمين -->
-  <line x1="115" y1="258" x2="965" y2="258" stroke="#d98b84" stroke-width="1.5"/>
-  <line x1="115" y1="876" x2="965" y2="876" stroke="#d98b84" stroke-width="1.5"/>
-
-  <!-- 6) مربعات الإجابة الفارغة للقسم الأول -->
-  <g fill="#ffffff" stroke="#c0554b" stroke-width="2.2">
-    <rect x="115" y="272" width="56" height="56" rx="8"/>
-    <rect x="115" y="418" width="56" height="56" rx="8"/>
-    <rect x="115" y="564" width="56" height="56" rx="8"/>
-    <rect x="115" y="710" width="56" height="56" rx="8"/>
+  <g transform="translate(170 1110) rotate(-3)">
+    <rect x="-30" y="-40" width="60" height="80" rx="6" fill="#ffffff"/>
+    <circle cx="0" cy="-10" r="10" fill="#2f7fb5"/>
+    <rect x="-18" y="14" width="36" height="6" rx="3" fill="#8fc9f2" stroke="none"/>
   </g>
-
-  <!-- مربعات الإجابة الفارغة للقسم الثاني -->
-  <g fill="#ffffff" stroke="#c0554b" stroke-width="2.2">
-    <rect x="145" y="914" width="56" height="56" rx="8"/>
-    <rect x="145" y="978" width="56" height="56" rx="8"/>
-    <rect x="145" y="1042" width="56" height="56" rx="8"/>
+  <g transform="translate(180 1100) rotate(6)">
+    <rect x="-30" y="-40" width="60" height="80" rx="6" fill="#ffffff"/>
+    <circle cx="0" cy="-10" r="10" fill="#c96a1b"/>
+    <rect x="-18" y="14" width="36" height="6" rx="3" fill="#8fc9f2" stroke="none"/>
   </g>
+  <rect x="304" y="1134" width="20" height="24" fill="#7f95ab"/>
+  <rect x="284" y="1156" width="60" height="10" rx="4" fill="#7f95ab"/>
+  <rect x="258" y="1050" width="112" height="84" rx="8" fill="#17457f"/>
+  <rect x="266" y="1058" width="96" height="66" rx="4" fill="#4fc3e8"/>
+  <line x1="274" y1="1066" x2="274" y2="1116" stroke="#17457f" stroke-width="2"/>
+  <line x1="274" y1="1116" x2="356" y2="1116" stroke="#17457f" stroke-width="2"/>
+  <circle cx="284" cy="1098" r="4" fill="#c96a1b" stroke="none"/>
+  <circle cx="292" cy="1104" r="4" fill="#c96a1b" stroke="none"/>
+  <circle cx="286" cy="1108" r="4" fill="#c96a1b" stroke="none"/>
+  <circle cx="294" cy="1094" r="4" fill="#c96a1b" stroke="none"/>
+  <circle cx="324" cy="1076" r="4" fill="#2e7d32" stroke="none"/>
+  <circle cx="332" cy="1082" r="4" fill="#2e7d32" stroke="none"/>
+  <circle cx="326" cy="1086" r="4" fill="#2e7d32" stroke="none"/>
+  <circle cx="336" cy="1074" r="4" fill="#2e7d32" stroke="none"/>
+  <circle cx="338" cy="1104" r="4" fill="#ffffff" stroke="none"/>
+  <circle cx="346" cy="1108" r="4" fill="#ffffff" stroke="none"/>
+  <circle cx="340" cy="1111" r="4" fill="#ffffff" stroke="none"/>
+</g>
 
-  <!-- 7) النصوص التعليمية -->
+<!-- Middle panel: a hand writing rule lines, arrow to a computer -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="418" y="992" width="118" height="168" rx="6" fill="#ffffff"/>
+  <line x1="432" y1="1020" x2="506" y2="1020" stroke="#2f7fb5" stroke-width="3"/>
+  <line x1="432" y1="1046" x2="520" y2="1046" stroke="#2f7fb5" stroke-width="3"/>
+  <line x1="432" y1="1072" x2="492" y2="1072" stroke="#2f7fb5" stroke-width="3"/>
+  <line x1="432" y1="1098" x2="512" y2="1098" stroke="#2f7fb5" stroke-width="3"/>
+  <line x1="432" y1="1124" x2="470" y2="1124" stroke="#2f7fb5" stroke-width="3"/>
+  <g transform="translate(482 1128) rotate(-35)">
+    <polygon points="0,-6 0,6 -14,0" fill="#e8dfd1"/>
+    <polygon points="-9,-2 -9,2 -14,0" fill="#22303f" stroke="none"/>
+    <rect x="0" y="-6" width="56" height="12" fill="#ffd24a"/>
+    <rect x="56" y="-6" width="10" height="12" rx="2" fill="#c96a1b"/>
+  </g>
+  <polygon points="522,1132 548,1160 564,1146 530,1114" fill="#2f7fb5"/>
+  <ellipse cx="510" cy="1124" rx="20" ry="14" fill="#e8b98d"/>
+  <rect x="616" y="1084" width="18" height="18" fill="#7f95ab"/>
+  <rect x="600" y="1100" width="50" height="9" rx="4" fill="#7f95ab"/>
+  <rect x="584" y="1018" width="82" height="66" rx="8" fill="#17457f"/>
+  <rect x="591" y="1025" width="68" height="48" rx="4" fill="#4fc3e8"/>
+  <rect x="599" y="1035" width="40" height="6" rx="3" fill="#ffffff" stroke="none"/>
+  <rect x="599" y="1047" width="50" height="6" rx="3" fill="#ffffff" stroke="none"/>
+  <rect x="599" y="1059" width="32" height="6" rx="3" fill="#ffffff" stroke="none"/>
+</g>
 
-  <!-- العنوان العربي -->
-  <text x="540" y="132"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="48"
-        font-weight="bold"
-        fill="#17436f">مثال محلول</text>
+<!-- Right panel: recipe card with step lines next to a cooking pot -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="712" y="990" width="118" height="196" rx="8" fill="#ffffff"/>
+  <rect x="720" y="998" width="102" height="22" rx="5" fill="#f0c48c"/>
+  <circle cx="734" cy="1044" r="8" fill="#2f7fb5"/>
+  <circle cx="734" cy="1072" r="8" fill="#2f7fb5"/>
+  <circle cx="734" cy="1100" r="8" fill="#2f7fb5"/>
+  <circle cx="734" cy="1128" r="8" fill="#2f7fb5"/>
+  <circle cx="734" cy="1156" r="8" fill="#2f7fb5"/>
+  <line x1="750" y1="1044" x2="814" y2="1044" stroke="#8fc9f2" stroke-width="4"/>
+  <line x1="750" y1="1072" x2="804" y2="1072" stroke="#8fc9f2" stroke-width="4"/>
+  <line x1="750" y1="1100" x2="816" y2="1100" stroke="#8fc9f2" stroke-width="4"/>
+  <line x1="750" y1="1128" x2="798" y2="1128" stroke="#8fc9f2" stroke-width="4"/>
+  <line x1="750" y1="1156" x2="810" y2="1156" stroke="#8fc9f2" stroke-width="4"/>
+  <path d="M 884 1070 Q 876 1058 884 1046 Q 892 1034 884 1022" fill="none" stroke="#8fc9f2" stroke-width="3"/>
+  <path d="M 904 1070 Q 896 1058 904 1046 Q 912 1034 904 1022" fill="none" stroke="#8fc9f2" stroke-width="3"/>
+  <path d="M 924 1070 Q 916 1058 924 1046 Q 932 1034 924 1022" fill="none" stroke="#8fc9f2" stroke-width="3"/>
+  <rect x="842" y="1126" width="14" height="10" rx="4" fill="#c96a1b"/>
+  <rect x="952" y="1126" width="14" height="10" rx="4" fill="#c96a1b"/>
+  <rect x="862" y="1110" width="84" height="76" rx="14" fill="#c96a1b"/>
+  <rect x="854" y="1100" width="100" height="14" rx="6" fill="#f0c48c"/>
+  <ellipse cx="904" cy="1098" rx="44" ry="10" fill="#2f7fb5"/>
+  <circle cx="904" cy="1086" r="6" fill="#17457f"/>
+</g>
 
-  <!-- العنوان الإنجليزي -->
-  <text x="540" y="176"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="31"
-        fill="#2c5a86">Worked Example</text>
+<!-- Text -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">مصطلحات أساسية</text>
+<text x="140" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">KEY TERMS</text>
 
-  <!-- عنوان القسم الأول -->
-  <text x="965" y="242"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="31"
-        font-weight="bold"
-        fill="#1d5a94">1. صواب أم خطأ؟</text>
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">الخوارزمية</tspan> <tspan font-weight="bold" fill="#c0392b">Algorithm</tspan> — خطوات مرتبة</tspan>
+  <tspan x="935" dy="40">لحل مشكلة، مثل <tspan fill="#c96a1b">وصفة</tspan> الطبخ.</tspan>
+</text>
+<text x="140" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Algorithm</tspan> — ordered steps to solve</tspan>
+  <tspan x="140" dy="40">a problem, like a <tspan fill="#c96a1b">recipe.</tspan></tspan>
+</text>
 
-  <text x="115" y="242"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27"
-        fill="#1f3b57">— True or False?</text>
+<text x="935" y="434" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">البرمجة الصريحة</tspan> <tspan font-weight="bold" fill="#c0392b">Explicit Programming</tspan> —</tspan>
+  <tspan x="935" dy="40">يكتب المبرمج كل قاعدة بنفسه:</tspan>
+  <tspan x="935" dy="40">«إذا حدث كذا، فافعل كذا».</tspan>
+</text>
+<text x="140" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Explicit programming</tspan> —</tspan>
+  <tspan x="140" dy="40">the programmer writes every rule:</tspan>
+  <tspan x="140" dy="40">"If this happens, then do that."</tspan>
+</text>
 
-  <!-- العبارة أ -->
-  <text x="965" y="296"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        fill="#225f9c">
-    <tspan x="965" dy="0">أ — A: التعلم الآلي إحدى تقنيات التعلم</tspan>
-    <tspan x="965" dy="34">التي تجعل الذكاء الاصطناعي يعمل.</tspan>
-  </text>
-
-  <text x="190" y="368"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27"
-        fill="#152b42">
-    <tspan x="190" dy="0">Machine learning is one of the learning</tspan>
-    <tspan x="190" dy="30">technologies that makes AI work.</tspan>
-  </text>
-
-  <!-- العبارة ب -->
-  <text x="965" y="442"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        fill="#225f9c">
-    <tspan x="965" dy="0">ب — B: التعلم العميق تقنية مختلفة</tspan>
-    <tspan x="965" dy="34">تمامًا عن التعلم الآلي.</tspan>
-  </text>
-
-  <text x="190" y="514"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27"
-        fill="#152b42">
-    <tspan x="190" dy="0">Deep learning is a completely different</tspan>
-    <tspan x="190" dy="30">technology from machine learning.</tspan>
-  </text>
-
-  <!-- العبارة ج -->
-  <text x="965" y="588"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        fill="#225f9c">
-    <tspan x="965" dy="0">ج — C: يستخدم الذكاء الاصطناعي التوليدي</tspan>
-    <tspan x="965" dy="34">التعلم العميق لإنشاء بيانات جديدة.</tspan>
-  </text>
-
-  <text x="190" y="660"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27"
-        fill="#152b42">
-    <tspan x="190" dy="0">Generative AI uses deep learning</tspan>
-    <tspan x="190" dy="30">to generate new data.</tspan>
-  </text>
-
-  <!-- العبارة د -->
-  <text x="965" y="734"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        fill="#225f9c">
-    <tspan x="965" dy="0">د — D: الذكاء الاصطناعي والتعلم الآلي</tspan>
-    <tspan x="965" dy="34">لهما المعنى نفسه.</tspan>
-  </text>
-
-  <text x="190" y="806"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27"
-        fill="#152b42">AI and machine learning have the same meaning.</text>
-
-  <!-- عنوان القسم الثاني -->
-  <text x="975" y="860"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        font-weight="bold"
-        fill="#1d5a94">2. صِل الوصف بالمصطلح المناسب</text>
-
-  <text x="115" y="860"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27"
-        fill="#1f3b57">— Match Each Description</text>
-
-  <!-- عناصر صندوق الاختيارات -->
-  <text x="228" y="952"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="28"
-        fill="#1a3c5e">A. التعلم الآلي Machine Learning</text>
-
-  <text x="228" y="1016"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="28"
-        fill="#1a3c5e">B. التعلم العميق Deep Learning</text>
-
-  <text x="228" y="1080"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="28"
-        fill="#1a3c5e">C. الذكاء الاصطناعي التوليدي Generative AI</text>
-
+<text x="935" y="714" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">التعلّم الآلي</tspan> <tspan font-weight="bold" fill="#c0392b">Machine Learning</tspan> —</tspan>
+  <tspan x="935" dy="40">فرع من الذكاء الاصطناعي يتعلم <tspan font-weight="bold" fill="#17457f">الأنماط</tspan></tspan>
+  <tspan x="935" dy="40">من البيانات بدلًا من برمجة كل قاعدة.</tspan>
+</text>
+<text x="140" y="834" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Machine learning</tspan> — a branch of AI</tspan>
+  <tspan x="140" dy="40">that learns <tspan font-weight="bold" fill="#17457f">patterns</tspan> from data</tspan>
+  <tspan x="140" dy="40">instead of programming every rule.</tspan>
+</text>
 </svg>

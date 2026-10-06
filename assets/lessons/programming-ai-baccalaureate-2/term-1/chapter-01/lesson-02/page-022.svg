@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilSheet" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Info card: shadow, fill, accent bar -->
+<rect x="109" y="128" width="870" height="768" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="122" width="870" height="768" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="736" rx="3" fill="#2f7fb5"/>
+
+<!-- Illustration: four transparent layer sheets, right to left -->
+<g stroke-linecap="round" stroke-linejoin="round">
+  <!-- Sheet 1 (right): a few lines -->
+  <polygon points="749,966 959,946 959,1216 749,1236" fill="#22303f" opacity=".18"/>
+  <rect x="805" y="1218" width="90" height="18" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="745,960 955,940 955,1210 745,1230" fill="url(#ilSheet)" opacity=".85" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="765" y="978" width="12" height="10" rx="2" fill="#4fc3e8" opacity=".35"/>
+  <rect x="780" y="978" width="12" height="10" rx="2" fill="#4fc3e8" opacity=".35"/>
+  <rect x="795" y="978" width="12" height="10" rx="2" fill="#4fc3e8" opacity=".35"/>
+  <rect x="765" y="991" width="12" height="10" rx="2" fill="#4fc3e8" opacity=".35"/>
+  <rect x="780" y="991" width="12" height="10" rx="2" fill="#4fc3e8" opacity=".35"/>
+  <rect x="795" y="991" width="12" height="10" rx="2" fill="#4fc3e8" opacity=".35"/>
+  <line x1="800" y1="1050" x2="840" y2="1065" stroke="#17457f" stroke-width="3"/>
+  <line x1="860" y1="1045" x2="900" y2="1075" stroke="#17457f" stroke-width="3"/>
+  <line x1="805" y1="1120" x2="845" y2="1100" stroke="#17457f" stroke-width="3"/>
+  <line x1="865" y1="1130" x2="905" y2="1120" stroke="#17457f" stroke-width="3"/>
+  <polyline points="815,1165 815,1148 832,1148" fill="none" stroke="#2f7fb5" stroke-width="3"/>
+  <polyline points="878,1165 895,1165 895,1150" fill="none" stroke="#2f7fb5" stroke-width="3"/>
+
+  <!-- Sheet 2: simple shapes -->
+  <polygon points="559,966 769,946 769,1216 559,1236" fill="#22303f" opacity=".18"/>
+  <rect x="615" y="1218" width="90" height="18" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="555,960 765,940 765,1210 555,1230" fill="url(#ilSheet)" opacity=".85" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="575" y="978" width="12" height="10" rx="2" fill="#4fc3e8" opacity=".35"/>
+  <rect x="590" y="978" width="12" height="10" rx="2" fill="#4fc3e8" opacity=".35"/>
+  <rect x="605" y="978" width="12" height="10" rx="2" fill="#4fc3e8" opacity=".35"/>
+  <rect x="575" y="991" width="12" height="10" rx="2" fill="#4fc3e8" opacity=".35"/>
+  <rect x="590" y="991" width="12" height="10" rx="2" fill="#4fc3e8" opacity=".35"/>
+  <rect x="605" y="991" width="12" height="10" rx="2" fill="#4fc3e8" opacity=".35"/>
+  <circle cx="632" cy="1068" r="22" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="692,1046 717,1090 667,1090" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="612" y="1110" width="40" height="40" rx="5" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="697" cy="1132" r="18" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Sheet 3: eyes and ears -->
+  <polygon points="369,966 579,946 579,1216 369,1236" fill="#22303f" opacity=".18"/>
+  <rect x="425" y="1218" width="90" height="18" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="365,960 575,940 575,1210 365,1230" fill="url(#ilSheet)" opacity=".85" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="385" y="978" width="12" height="10" rx="2" fill="#4fc3e8" opacity=".35"/>
+  <rect x="400" y="978" width="12" height="10" rx="2" fill="#4fc3e8" opacity=".35"/>
+  <rect x="415" y="978" width="12" height="10" rx="2" fill="#4fc3e8" opacity=".35"/>
+  <rect x="385" y="991" width="12" height="10" rx="2" fill="#4fc3e8" opacity=".35"/>
+  <rect x="400" y="991" width="12" height="10" rx="2" fill="#4fc3e8" opacity=".35"/>
+  <rect x="415" y="991" width="12" height="10" rx="2" fill="#4fc3e8" opacity=".35"/>
+  <polygon points="430,1070 440,1026 464,1058" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="476,1058 500,1026 510,1070" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="452" cy="1100" rx="11" ry="12" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="452" cy="1100" rx="3" ry="8" fill="#22303f"/>
+  <ellipse cx="488" cy="1100" rx="11" ry="12" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="488" cy="1100" rx="3" ry="8" fill="#22303f"/>
+
+  <!-- Sheet 4 (left, front): full cat face -->
+  <polygon points="179,966 389,946 389,1216 179,1236" fill="#22303f" opacity=".18"/>
+  <rect x="235" y="1218" width="90" height="18" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="175,960 385,940 385,1210 175,1230" fill="url(#ilSheet)" opacity=".85" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="195" y="978" width="12" height="10" rx="2" fill="#4fc3e8" opacity=".35"/>
+  <rect x="210" y="978" width="12" height="10" rx="2" fill="#4fc3e8" opacity=".35"/>
+  <rect x="225" y="978" width="12" height="10" rx="2" fill="#4fc3e8" opacity=".35"/>
+  <rect x="195" y="991" width="12" height="10" rx="2" fill="#4fc3e8" opacity=".35"/>
+  <rect x="210" y="991" width="12" height="10" rx="2" fill="#4fc3e8" opacity=".35"/>
+  <rect x="225" y="991" width="12" height="10" rx="2" fill="#4fc3e8" opacity=".35"/>
+  <polygon points="242,1072 250,1028 274,1058" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="286,1058 310,1028 318,1072" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="280" cy="1100" r="46" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="264" cy="1090" rx="8" ry="9" fill="#8fc9f2" stroke="#22303f" stroke-width="2"/>
+  <ellipse cx="264" cy="1090" rx="2.5" ry="6" fill="#22303f"/>
+  <ellipse cx="296" cy="1090" rx="8" ry="9" fill="#8fc9f2" stroke="#22303f" stroke-width="2"/>
+  <ellipse cx="296" cy="1090" rx="2.5" ry="6" fill="#22303f"/>
+  <polygon points="273,1106 287,1106 280,1114" fill="#c96a1b" stroke="#22303f" stroke-width="2"/>
+  <path d="M270 1122 Q 280 1130 290 1122" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="262" y1="1112" x2="216" y2="1104" stroke="#22303f" stroke-width="2"/>
+  <line x1="262" y1="1120" x2="216" y2="1124" stroke="#22303f" stroke-width="2"/>
+  <line x1="298" y1="1112" x2="344" y2="1104" stroke="#22303f" stroke-width="2"/>
+  <line x1="298" y1="1120" x2="344" y2="1124" stroke="#22303f" stroke-width="2"/>
+</g>
+
+<!-- Icon: open book (key terms header) -->
+<g transform="translate(560 124)" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M28 14 Q 16 6 4 10 L 4 42 Q 16 38 28 46 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M28 14 Q 40 6 52 10 L 52 42 Q 40 38 28 46 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="10" y1="20" x2="22" y2="22" stroke="#2f7fb5" stroke-width="2"/>
+  <line x1="10" y1="28" x2="22" y2="30" stroke="#2f7fb5" stroke-width="2"/>
+  <line x1="34" y1="22" x2="46" y2="20" stroke="#17457f" stroke-width="2"/>
+  <line x1="34" y1="30" x2="46" y2="28" stroke="#17457f" stroke-width="2"/>
+</g>
+
+<!-- Icon: AI chip (deep learning) -->
+<g transform="translate(860 524)" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="20" y1="4" x2="20" y2="12" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="36" y1="4" x2="36" y2="12" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="20" y1="44" x2="20" y2="52" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="36" y1="44" x2="36" y2="52" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="4" y1="20" x2="12" y2="20" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="4" y1="36" x2="12" y2="36" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="44" y1="20" x2="52" y2="20" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="44" y1="36" x2="52" y2="36" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="12" y="12" width="32" height="32" rx="6" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="21" y="21" width="14" height="14" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2"/>
+</g>
+
+<!-- Icon: network nodes (representation) -->
+<g transform="translate(150 640)" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="28" y1="12" x2="10" y2="44" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="28" y1="12" x2="46" y2="44" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="10" y1="44" x2="46" y2="44" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="28" cy="12" r="9" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="10" cy="44" r="9" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="46" cy="44" r="9" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Text -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">مصطلحات أساسية</text>
+
+<text x="140" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">KEY TERMS</text>
+
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="normal" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">التعلم العميق Deep Learning</tspan> — أسلوب من</tspan>
+  <tspan x="935" dy="40">التعلّم الآلي يستخدم شبكات عصبية</tspan>
+  <tspan x="935" dy="40"><tspan font-weight="bold" fill="#17457f">بطبقات مخفية</tspan> كثيرة، ويحتاج غالبًا إلى</tspan>
+  <tspan x="935" dy="40">بيانات كثيرة وقدرة حاسوبية كبيرة.</tspan>
+</text>
+
+<text x="140" y="394" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="normal" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Deep learning</tspan> — a type of machine</tspan>
+  <tspan x="140" dy="40">learning that uses neural networks</tspan>
+  <tspan x="140" dy="40">with <tspan font-weight="bold" fill="#17457f">many hidden layers;</tspan></tspan>
+  <tspan x="140" dy="40">it usually needs a lot of data and</tspan>
+  <tspan x="140" dy="40">computing power.</tspan>
+</text>
+
+<text x="935" y="634" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="normal" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">التمثيل Representation</tspan> — طريقة وصف</tspan>
+  <tspan x="935" dy="40">النموذج للبيانات داخليًا <tspan font-weight="bold" fill="#17457f">بالأرقام:</tspan></tspan>
+  <tspan x="935" dy="40">خطوط، ثم أشكال، ثم ملامح.</tspan>
+</text>
+
+<text x="140" y="754" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="normal" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Representation</tspan> — how a model</tspan>
+  <tspan x="140" dy="40">describes data inside itself</tspan>
+  <tspan x="140" dy="40">using <tspan font-weight="bold" fill="#17457f">numbers:</tspan> lines, then shapes,</tspan>
+  <tspan x="140" dy="40">then features.</tspan>
+</text>
+</svg>

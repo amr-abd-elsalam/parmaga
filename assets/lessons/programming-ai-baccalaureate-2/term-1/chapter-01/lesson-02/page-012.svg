@@ -4,249 +4,163 @@
      viewBox="0 0 1080 1350"
      preserveAspectRatio="xMidYMid meet"
      style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-  <defs>
-    <linearGradient id="deskGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#b17d47"/>
-      <stop offset="0.55" stop-color="#96632f"/>
-      <stop offset="1" stop-color="#7c5226"/>
-    </linearGradient>
-    <linearGradient id="paperGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fffdf7"/>
-      <stop offset="1" stop-color="#faf4e6"/>
-    </linearGradient>
-  </defs>
+<!-- Info card: shadow, fill, accent -->
+<rect x="109" y="128" width="870" height="648" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="122" width="870" height="648" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="616" rx="3" fill="#2f7fb5"/>
 
-  <rect x="0" y="0" width="1080" height="1350" fill="url(#deskGrad)"/>
-  <path d="M0 250 C 300 200, 780 320, 1080 260" stroke="#5e3c1a" stroke-width="16" fill="none" opacity="0.07"/>
-  <path d="M0 1080 C 320 1140, 760 1010, 1080 1090" stroke="#5e3c1a" stroke-width="14" fill="none" opacity="0.06"/>
+<!-- Illustration: loop boxes shadows and fills -->
+<rect x="429" y="796" width="230" height="176" rx="16" fill="#22303f" opacity=".18"/>
+<rect x="704" y="1086" width="250" height="176" rx="16" fill="#22303f" opacity=".18"/>
+<rect x="134" y="1086" width="250" height="176" rx="16" fill="#22303f" opacity=".18"/>
+<rect x="425" y="790" width="230" height="176" rx="16" fill="#dff1f7"/>
+<rect x="700" y="1080" width="250" height="176" rx="16" fill="#fdf1e2"/>
+<rect x="130" y="1080" width="250" height="176" rx="16" fill="#e9f7ee"/>
 
-  <rect x="42" y="34" width="1012" height="1302" rx="8" fill="#3a2411" opacity="0.20"/>
-  <rect x="34" y="24" width="1012" height="1302" rx="8" fill="url(#paperGrad)"/>
+<!-- Functional arrows: one direction around the loop -->
+<path d="M 668 880 Q 820 890 825 1062" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="815,1060 835,1060 825,1076" fill="#c0392b"/>
+<path d="M 690 1196 Q 540 1246 398 1196" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="384,1192 402,1189 396,1205" fill="#c0392b"/>
+<path d="M 255 1066 Q 262 886 408 880" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="408,870 424,880 408,890" fill="#c0392b"/>
 
-  <line x1="80" y1="108" x2="1000" y2="108" stroke="#cfe0ef" stroke-width="1.2"/>
-  <line x1="80" y1="146" x2="1000" y2="146" stroke="#cfe0ef" stroke-width="1.2"/>
-  <line x1="80" y1="184" x2="1000" y2="184" stroke="#cfe0ef" stroke-width="1.2"/>
-  <line x1="80" y1="222" x2="1000" y2="222" stroke="#cfe0ef" stroke-width="1.2"/>
-  <line x1="80" y1="260" x2="1000" y2="260" stroke="#cfe0ef" stroke-width="1.2"/>
-  <line x1="80" y1="298" x2="1000" y2="298" stroke="#cfe0ef" stroke-width="1.2"/>
-  <line x1="80" y1="336" x2="1000" y2="336" stroke="#cfe0ef" stroke-width="1.2"/>
-  <line x1="80" y1="374" x2="1000" y2="374" stroke="#cfe0ef" stroke-width="1.2"/>
-  <line x1="80" y1="412" x2="1000" y2="412" stroke="#cfe0ef" stroke-width="1.2"/>
-  <line x1="80" y1="450" x2="1000" y2="450" stroke="#cfe0ef" stroke-width="1.2"/>
-  <line x1="80" y1="488" x2="1000" y2="488" stroke="#cfe0ef" stroke-width="1.2"/>
-  <line x1="80" y1="526" x2="1000" y2="526" stroke="#cfe0ef" stroke-width="1.2"/>
-  <line x1="80" y1="564" x2="1000" y2="564" stroke="#cfe0ef" stroke-width="1.2"/>
-  <line x1="80" y1="602" x2="1000" y2="602" stroke="#cfe0ef" stroke-width="1.2"/>
-  <line x1="80" y1="640" x2="1000" y2="640" stroke="#cfe0ef" stroke-width="1.2"/>
-  <line x1="80" y1="678" x2="1000" y2="678" stroke="#cfe0ef" stroke-width="1.2"/>
-  <line x1="80" y1="716" x2="1000" y2="716" stroke="#cfe0ef" stroke-width="1.2"/>
-  <line x1="80" y1="754" x2="1000" y2="754" stroke="#cfe0ef" stroke-width="1.2"/>
-  <line x1="80" y1="792" x2="1000" y2="792" stroke="#cfe0ef" stroke-width="1.2"/>
-  <line x1="80" y1="830" x2="1000" y2="830" stroke="#cfe0ef" stroke-width="1.2"/>
-  <line x1="80" y1="868" x2="1000" y2="868" stroke="#cfe0ef" stroke-width="1.2"/>
-  <line x1="80" y1="906" x2="1000" y2="906" stroke="#cfe0ef" stroke-width="1.2"/>
-  <line x1="80" y1="944" x2="1000" y2="944" stroke="#cfe0ef" stroke-width="1.2"/>
-  <line x1="80" y1="982" x2="1000" y2="982" stroke="#cfe0ef" stroke-width="1.2"/>
-  <line x1="80" y1="1020" x2="1000" y2="1020" stroke="#cfe0ef" stroke-width="1.2"/>
-  <line x1="80" y1="1058" x2="1000" y2="1058" stroke="#cfe0ef" stroke-width="1.2"/>
-  <line x1="80" y1="1096" x2="1000" y2="1096" stroke="#cfe0ef" stroke-width="1.2"/>
-  <line x1="80" y1="1134" x2="1000" y2="1134" stroke="#cfe0ef" stroke-width="1.2"/>
-  <line x1="80" y1="1172" x2="1000" y2="1172" stroke="#cfe0ef" stroke-width="1.2"/>
-  <line x1="80" y1="1210" x2="1000" y2="1210" stroke="#cfe0ef" stroke-width="1.2"/>
-  <line x1="80" y1="1248" x2="1000" y2="1248" stroke="#cfe0ef" stroke-width="1.2"/>
+<!-- Icon: open book beside the card header -->
+<g transform="translate(440 132)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M 28 8 C 20 2, 8 2, 2 6 L 2 40 C 8 36, 20 36, 28 42 Z" fill="#ffffff"/>
+  <path d="M 28 8 C 36 2, 48 2, 54 6 L 54 40 C 48 36, 36 36, 28 42 Z" fill="#8fc9f2"/>
+  <line x1="9" y1="16" x2="21" y2="16" stroke-width="2"/>
+  <line x1="9" y1="24" x2="21" y2="24" stroke-width="2"/>
+  <line x1="35" y1="16" x2="47" y2="16" stroke-width="2"/>
+  <line x1="35" y1="24" x2="47" y2="24" stroke-width="2"/>
+</g>
 
-  <rect x="67" y="58" width="946" height="1252" fill="none" stroke="#c0392b" stroke-width="2.2"/>
+<!-- Smile face (encouragement) top-left of the loop -->
+<g transform="translate(190 840)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
 
-  <rect x="88" y="160" width="904" height="778" rx="16" fill="#eff8f0" opacity="0.96" stroke="#6fae83" stroke-width="2"/>
+<!-- Icon: chip top-right of the loop -->
+<g transform="translate(905 840)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="-7" y1="-20" x2="-7" y2="-14"/>
+  <line x1="7" y1="-20" x2="7" y2="-14"/>
+  <line x1="-7" y1="14" x2="-7" y2="20"/>
+  <line x1="7" y1="14" x2="7" y2="20"/>
+  <line x1="-20" y1="-7" x2="-14" y2="-7"/>
+  <line x1="-20" y1="7" x2="-14" y2="7"/>
+  <line x1="14" y1="-7" x2="20" y2="-7"/>
+  <line x1="14" y1="7" x2="20" y2="7"/>
+  <rect x="-14" y="-14" width="28" height="28" rx="5" fill="#8fc9f2"/>
+  <rect x="-7" y="-7" width="14" height="14" rx="2" fill="#17457f"/>
+</g>
 
-  <line x1="124" y1="376" x2="950" y2="376" stroke="#a9c6dd" stroke-width="1.8"/>
+<!-- Middle: upward progress line -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="540" cy="1050" r="78" fill="#ffffff" stroke="#8fc9f2"/>
+  <polyline points="490,1000 490,1100 600,1100" fill="none"/>
+  <polyline points="500,1088 528,1072 556,1056 584,1028" fill="none" stroke="#2e7d32" stroke-width="4"/>
+  <polygon points="598,1014 578,1022 590,1034" fill="#2e7d32" stroke="#2e7d32"/>
+  <circle cx="500" cy="1088" r="5" fill="#ffffff" stroke="#2e7d32"/>
+  <circle cx="528" cy="1072" r="5" fill="#ffffff" stroke="#2e7d32"/>
+  <circle cx="556" cy="1056" r="5" fill="#ffffff" stroke="#2e7d32"/>
+</g>
 
-  <line x1="124" y1="554" x2="936" y2="554" stroke="#4f9d6b" stroke-width="1.8"/>
-  <circle cx="948" cy="554" r="6" fill="#4f9d6b"/>
-  <line x1="124" y1="590" x2="936" y2="590" stroke="#c0392b" stroke-width="1.8"/>
-  <circle cx="948" cy="590" r="6" fill="#c0392b"/>
+<!-- Top box: dart thrown at a target -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="600" cy="846" r="38" fill="#ffffff"/>
+  <circle cx="600" cy="846" r="27" fill="#c0392b"/>
+  <circle cx="600" cy="846" r="16" fill="#ffffff"/>
+  <circle cx="600" cy="846" r="6" fill="#c0392b"/>
+  <line x1="446" y1="838" x2="470" y2="838" stroke="#8fc9f2" stroke-width="3"/>
+  <line x1="452" y1="862" x2="472" y2="862" stroke="#8fc9f2" stroke-width="3"/>
+  <g transform="translate(540 850)">
+    <rect x="-46" y="-4" width="34" height="8" rx="3" fill="#2f7fb5"/>
+    <polygon points="0,0 -12,-5 -12,5" fill="#7f95ab"/>
+    <polygon points="-46,-4 -58,-12 -54,0 -58,12 -46,4" fill="#c96a1b"/>
+  </g>
+</g>
 
-  <rect x="118" y="784" width="838" height="138" rx="12" fill="#ffffff" opacity="0.86" stroke="#2e8b57" stroke-width="2"/>
-  <line x1="140" y1="824" x2="934" y2="824" stroke="#8ec3a4" stroke-width="1.6"/>
-  <line x1="176" y1="862" x2="934" y2="862" stroke="#8ec3a4" stroke-width="1.6"/>
-  <line x1="176" y1="900" x2="934" y2="900" stroke="#8ec3a4" stroke-width="1.6"/>
+<!-- Right box: dart missing the center -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="825" cy="1144" r="34" fill="#ffffff"/>
+  <circle cx="825" cy="1144" r="24" fill="#c0392b"/>
+  <circle cx="825" cy="1144" r="14" fill="#ffffff"/>
+  <circle cx="825" cy="1144" r="5" fill="#c0392b"/>
+  <g transform="translate(849 1122) rotate(135) scale(.8)">
+    <rect x="-46" y="-4" width="34" height="8" rx="3" fill="#2f7fb5"/>
+    <polygon points="0,0 -12,-5 -12,5" fill="#7f95ab"/>
+    <polygon points="-46,-4 -58,-12 -54,0 -58,12 -46,4" fill="#c96a1b"/>
+  </g>
+</g>
 
-  <rect x="95" y="956" width="890" height="208" rx="14" fill="#fdf6d8" stroke="#d3ba55" stroke-width="2"/>
+<!-- Left box: a hand adjusting a small dial -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="300" cy="1138" r="36" fill="#ffffff"/>
+  <line x1="300" y1="1106" x2="300" y2="1112"/>
+  <line x1="332" y1="1138" x2="326" y2="1138"/>
+  <line x1="300" y1="1170" x2="300" y2="1164"/>
+  <circle cx="300" cy="1138" r="12" fill="#c96a1b"/>
+  <rect x="196" y="1124" width="34" height="28" rx="4" fill="#2f7fb5"/>
+  <ellipse cx="248" cy="1138" rx="20" ry="15" fill="#e8b98d"/>
+  <ellipse cx="278" cy="1129" rx="12" ry="5.5" fill="#e8b98d"/>
+  <ellipse cx="278" cy="1147" rx="12" ry="5.5" fill="#e8b98d"/>
+  <line x1="300" y1="1138" x2="320" y2="1116" stroke="#2e7d32" stroke-width="4"/>
+  <path d="M 324 1100 A 46 46 0 0 1 345 1150" fill="none" stroke="#2e7d32" stroke-width="3"/>
+  <polygon points="342,1162 336,1148 352,1150" fill="#2e7d32" stroke="#2e7d32"/>
+</g>
 
-  <text x="540" y="98"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="38"
-        font-weight="bold"
-        fill="#0d4a86">فكّر كمهندس: ابحث ثم قرر</text>
+<!-- Text -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">مصطلحات أساسية</text>
+<text x="140" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">KEY TERMS</text>
 
-  <text x="540" y="138"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26"
-        fill="#152b42">Think as an Engineer — Investigate and Decide</text>
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">النموذج</tspan> <tspan font-weight="bold" fill="#c0392b">Model</tspan> — ما نحصل عليه بعد التدريب:</tspan>
+  <tspan x="935" dy="40">يستقبل مدخلات ويعطي مخرجات حسب ما تعلّمه،</tspan>
+  <tspan x="935" dy="40">مثل <tspan fill="#c96a1b">طالب</tspan> أنهى المذاكرة.</tspan>
+</text>
+<text x="140" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Model</tspan> — what we get after training:</tspan>
+  <tspan x="140" dy="40">it takes inputs and gives outputs</tspan>
+  <tspan x="140" dy="40">based on what it learned, like</tspan>
+  <tspan x="140" dy="40">a <tspan fill="#c96a1b">student</tspan> who has finished studying.</tspan>
+</text>
 
-  <text x="955" y="200"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        font-weight="bold"
-        fill="#0d4a86">1. ابحث</text>
+<text x="935" y="514" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">التدريب</tspan> <tspan font-weight="bold" fill="#c0392b">Training</tspan> — يرى النموذج البيانات،</tspan>
+  <tspan x="935" dy="40">ويقارن إجاباته بالصحيحة، ثم <tspan font-weight="bold" fill="#17457f">يعدّل نفسه</tspan></tspan>
+  <tspan x="935" dy="40">ليقلل أخطاءه.</tspan>
+</text>
+<text x="140" y="634" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Training</tspan> — the model sees data,</tspan>
+  <tspan x="140" dy="40">compares its answers with the correct</tspan>
+  <tspan x="140" dy="40">ones, and <tspan font-weight="bold" fill="#17457f">adjusts itself</tspan></tspan>
+  <tspan x="140" dy="40">to reduce its errors.</tspan>
+</text>
 
-  <text x="118" y="200"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26"
-        font-weight="bold"
-        fill="#14405f">— Investigate</text>
-
-  <text x="955" y="240"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        fill="#1a5f9e">
-    <tspan x="955" dy="0">ابحث عن حالة موثقة واحدة لهلوسة الذكاء الاصطناعي</tspan>
-    <tspan x="955" dy="36">التوليدي، وسجّل مصدرها.</tspan>
-  </text>
-
-  <text x="118" y="310"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26"
-        fill="#152b42">
-    <tspan x="118" dy="0">Find one documented case of generative AI</tspan>
-    <tspan x="118" dy="30">hallucination, and record its source.</tspan>
-  </text>
-
-  <text x="955" y="414"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        font-weight="bold"
-        fill="#0d4a86">2. قيّم الأمر</text>
-
-  <text x="118" y="414"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26"
-        font-weight="bold"
-        fill="#14405f">— Weigh It Up</text>
-
-  <text x="955" y="454"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        fill="#1a5f9e">
-    <tspan x="955" dy="0">اكتب فائدة واحدة وخطرًا واحدًا للطالب وللمعلم.</tspan>
-  </text>
-
-  <text x="118" y="488"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26"
-        fill="#152b42">
-    <tspan x="118" dy="0">Write one benefit and one risk</tspan>
-    <tspan x="118" dy="30">for the student and the teacher.</tspan>
-  </text>
-
-  <text x="955" y="628"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        font-weight="bold"
-        fill="#1f7a45">3. اتخذ قرارًا</text>
-
-  <text x="118" y="628"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26"
-        font-weight="bold"
-        fill="#1f7a45">— Decide</text>
-
-  <text x="955" y="668"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        fill="#1a5f9e">
-    <tspan x="955" dy="0">قرّر هل يُسمح باستخدام الذكاء الاصطناعي التوليدي في</tspan>
-    <tspan x="955" dy="36">الواجبات المنزلية، وأوصِ بقاعدة واحدة مع سببين.</tspan>
-  </text>
-
-  <text x="118" y="738"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26"
-        fill="#152b42">
-    <tspan x="118" dy="0">Decide whether generative AI should be allowed in</tspan>
-    <tspan x="118" dy="30">homework, and recommend one rule with two reasons.</tspan>
-  </text>
-
-  <text x="136" y="856"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="24"
-        fill="#1f7a45">1.</text>
-
-  <text x="136" y="894"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="24"
-        fill="#1f7a45">2.</text>
-
-  <text x="953" y="998"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="26"
-        fill="#1a5f9e">
-    <tspan x="953" dy="0">من الفوائد المحتملة السرعة، ومن المخاطر احتمال الحصول على</tspan>
-    <tspan x="953" dy="34">معلومات خاطئة أو غير مدعومة؛ لذلك يجب التحقق من المخرجات ومصادرها.</tspan>
-  </text>
-
-  <text x="127" y="1070"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="25"
-        fill="#152b42">
-    <tspan x="127" dy="0">One possible benefit is speed, and one risk is receiving</tspan>
-    <tspan x="127" dy="30">incorrect or unsupported information; therefore, outputs</tspan>
-    <tspan x="127" dy="30">and sources must be checked.</tspan>
-  </text>
-
+<text x="640" y="926" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">حاول</text>
+<text x="440" y="954" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">Try</text>
+<text x="935" y="1216" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">أخطئ</text>
+<text x="715" y="1246" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">Make a mistake</text>
+<text x="365" y="1216" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">صحّح</text>
+<text x="145" y="1246" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">Correct</text>
 </svg>

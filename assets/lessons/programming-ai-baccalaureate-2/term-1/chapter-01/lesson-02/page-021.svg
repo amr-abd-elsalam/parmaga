@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilShirt" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+  <linearGradient id="ilBoard" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Illustration: student with one study card, confused by a different exam question -->
+<g stroke-linecap="round" stroke-linejoin="round">
+  <!-- ground shadow -->
+  <ellipse cx="540" cy="1254" rx="400" ry="8" fill="#22303f" opacity=".12"/>
+
+  <!-- desk shadows -->
+  <rect x="164" y="1136" width="340" height="22" rx="6" fill="#22303f" opacity=".18"/>
+  <rect x="234" y="1002" width="190" height="132" rx="8" fill="#22303f" opacity=".18"/>
+
+  <!-- desk -->
+  <rect x="182" y="1152" width="16" height="96" rx="4" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="462" y="1152" width="16" height="96" rx="4" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="160" y="1130" width="340" height="22" rx="6" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- exam sheet on clipboard -->
+  <rect x="230" y="996" width="190" height="132" rx="8" fill="url(#ilBoard)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="295" y="988" width="60" height="16" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="250" y1="1022" x2="400" y2="1022" stroke="#8fc9f2" stroke-width="3"/>
+  <line x1="250" y1="1036" x2="360" y2="1036" stroke="#8fc9f2" stroke-width="3"/>
+  <polygon points="325,1050 362,1112 288,1112" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- small book stack on desk -->
+  <rect x="434" y="1114" width="56" height="16" rx="3" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="440" y="1098" width="46" height="16" rx="3" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- dashed link: card shape vs exam shape -->
+  <line x1="440" y1="1180" x2="620" y2="1180" stroke="#8fc9f2" stroke-width="3" stroke-dasharray="8 10"/>
+
+  <!-- student: feet -->
+  <ellipse cx="740" cy="1250" rx="20" ry="8" fill="#22303f"/>
+  <ellipse cx="782" cy="1250" rx="20" ry="8" fill="#22303f"/>
+  <!-- body (modest school clothing) -->
+  <path d="M712 1246 L 716 1132 Q 720 1100 760 1098 Q 800 1100 804 1132 L 808 1246 Z" fill="url(#ilShirt)" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="746,1099 760,1118 774,1099" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="760" y1="1120" x2="760" y2="1240" stroke="#22303f" stroke-width="2"/>
+  <!-- neck and head -->
+  <rect x="752" y="1084" width="16" height="16" rx="4" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="760" cy="1058" r="30" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M730 1054 Q 732 1026 760 1027 Q 788 1026 790 1054 Q 778 1040 760 1042 Q 742 1040 730 1054 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="750" cy="1060" r="3.5" fill="#22303f"/>
+  <circle cx="770" cy="1060" r="3.5" fill="#22303f"/>
+  <path d="M743 1050 L 755 1047" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M766 1046 L 777 1052" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M752 1076 Q 760 1071 768 1077" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <!-- right arm down -->
+  <path d="M798 1118 L 818 1188 L 804 1192 L 788 1134 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="812" cy="1196" r="9" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <!-- left arm holding the single study card -->
+  <path d="M722 1116 L 680 1154 L 692 1168 L 732 1134 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="632" y="1126" width="54" height="42" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="652" cy="1147" r="10" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="668" y1="1140" x2="678" y2="1140" stroke="#2f7fb5" stroke-width="2.5"/>
+  <circle cx="684" cy="1162" r="10" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- question marks drawn as shapes -->
+  <g transform="translate(704 1012)">
+    <path d="M -9 -8 Q -9 -20 2 -20 Q 13 -20 13 -9 Q 13 -2 4 2 L 4 8" fill="none" stroke="#c0392b" stroke-width="5"/>
+    <circle cx="4" cy="17" r="3.5" fill="#c0392b"/>
+  </g>
+  <g transform="translate(762 1002) scale(.8)">
+    <path d="M -9 -8 Q -9 -20 2 -20 Q 13 -20 13 -9 Q 13 -2 4 2 L 4 8" fill="none" stroke="#c96a1b" stroke-width="5"/>
+    <circle cx="4" cy="17" r="3.5" fill="#c96a1b"/>
+  </g>
+  <g transform="translate(816 1014)">
+    <path d="M -9 -8 Q -9 -20 2 -20 Q 13 -20 13 -9 Q 13 -2 4 2 L 4 8" fill="none" stroke="#17457f" stroke-width="5"/>
+    <circle cx="4" cy="17" r="3.5" fill="#17457f"/>
+  </g>
+</g>
+
+<!-- Icon: document stack (header, data) -->
+<g transform="translate(125 96)" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="14" y="2" width="32" height="40" rx="4" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="6" y="10" width="32" height="40" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="12" y1="22" x2="32" y2="22" stroke="#2f7fb5" stroke-width="2.5"/>
+  <line x1="12" y1="30" x2="32" y2="30" stroke="#2f7fb5" stroke-width="2.5"/>
+  <line x1="12" y1="38" x2="26" y2="38" stroke="#2f7fb5" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: AI chip (weights) -->
+<g transform="translate(884 266)" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="20" y1="4" x2="20" y2="12" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="36" y1="4" x2="36" y2="12" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="20" y1="44" x2="20" y2="52" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="36" y1="44" x2="36" y2="52" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="4" y1="20" x2="12" y2="20" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="4" y1="36" x2="12" y2="36" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="44" y1="20" x2="52" y2="20" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="44" y1="36" x2="52" y2="36" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="12" y="12" width="32" height="32" rx="6" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="21" y="21" width="14" height="14" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2"/>
+</g>
+
+<!-- Face: thinking (student example) -->
+<g transform="translate(158 432)" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3"/>
+</g>
+
+<!-- Icon: star (remember the pattern) -->
+<g transform="translate(130 724)" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="28,4 35,20 52,21 39,32 43,49 28,40 13,49 17,32 4,21 21,20" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Text -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">لماذا يحتاج إلى بيانات كثيرة؟</text>
+
+<text x="120" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">Why does it need so much data?</text>
+
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="normal" fill="#225f9c">لأن فيه ملايين <tspan font-weight="bold" fill="#c0392b">الأوزان</tspan><tspan> التي يجب ضبطها.</tspan></text>
+
+<text x="120" y="274" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="normal" fill="#152b42">
+  <tspan x="120" dy="0">Because it has millions of <tspan font-weight="bold" fill="#c0392b">weights</tspan></tspan>
+  <tspan x="120" dy="40">that must be adjusted.</tspan>
+</text>
+
+<text x="950" y="394" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="normal" fill="#225f9c">
+  <tspan x="950" dy="0">تخيّل طالبًا ذاكر من <tspan font-weight="bold" fill="#17457f">سؤال واحد فقط؛</tspan></tspan>
+  <tspan x="950" dy="40">إذا جاءه في الامتحان <tspan fill="#c96a1b">سؤال مختلف،</tspan></tspan>
+  <tspan x="950" dy="40">فلن يعرف حلّه.</tspan>
+</text>
+
+<text x="120" y="514" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="normal" fill="#152b42">
+  <tspan x="120" dy="0">Imagine a student who studied</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#17457f">only one question;</tspan> if a <tspan fill="#c96a1b">different</tspan></tspan>
+  <tspan x="120" dy="40">question comes in the exam,</tspan>
+  <tspan x="120" dy="40">he won't know how to solve it.</tspan>
+</text>
+
+<text x="950" y="714" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="normal" fill="#225f9c">
+  <tspan x="950" dy="0">وكذلك <tspan font-weight="bold" fill="#17457f">النموذج:</tspan> يتعثّر مع الشيء الذي</tspan>
+  <tspan x="950" dy="40">نادرًا ما رآه في بياناته،</tspan>
+  <tspan x="950" dy="40">لأنه لم يتعلّم <tspan font-weight="bold" fill="#c0392b">نمطه.</tspan></tspan>
+</text>
+
+<text x="120" y="834" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="normal" fill="#152b42">
+  <tspan x="120" dy="0">The same goes for a <tspan font-weight="bold" fill="#17457f">model:</tspan></tspan>
+  <tspan x="120" dy="40">it struggles with things it has rarely</tspan>
+  <tspan x="120" dy="40">seen in its data, because it never</tspan>
+  <tspan x="120" dy="40">learned their <tspan font-weight="bold" fill="#c0392b">pattern.</tspan></tspan>
+</text>
+</svg>

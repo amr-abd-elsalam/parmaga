@@ -1,0 +1,242 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilPanel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Illustration panel -->
+<rect x="109" y="758" width="866" height="492" rx="24" fill="#22303f" opacity=".18"/>
+<rect x="105" y="752" width="866" height="492" rx="24" fill="url(#ilPanel)"/>
+
+<!-- Bullets -->
+<circle cx="966" cy="224" r="6" fill="#c0392b"/>
+<circle cx="114" cy="304" r="6" fill="#c0392b"/>
+<circle cx="966" cy="384" r="6" fill="#c0392b"/>
+<circle cx="114" cy="464" r="6" fill="#c0392b"/>
+<circle cx="966" cy="584" r="6" fill="#c0392b"/>
+<circle cx="114" cy="664" r="6" fill="#c0392b"/>
+
+<!-- Icon: chip -->
+<g transform="translate(880 692)" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="16" y1="2" x2="16" y2="8" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="28" y1="2" x2="28" y2="8" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="16" y1="36" x2="16" y2="42" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="28" y1="36" x2="28" y2="42" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="2" y1="16" x2="8" y2="16" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="2" y1="28" x2="8" y2="28" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="36" y1="16" x2="42" y2="16" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="36" y1="28" x2="42" y2="28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="8" y="8" width="28" height="28" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="16" y="16" width="12" height="12" rx="2" fill="#4fc3e8"/>
+</g>
+
+<!-- Illustration: pixel cat image entering a neural network -->
+<g stroke-linecap="round" stroke-linejoin="round">
+  <!-- Pixel image frame -->
+  <rect x="128" y="860" width="104" height="104" rx="4" fill="#22303f" opacity=".18"/>
+  <rect x="124" y="854" width="104" height="104" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <!-- Pixel cat -->
+  <rect x="140" y="858" width="12" height="12" fill="#c96a1b"/>
+  <rect x="200" y="858" width="12" height="12" fill="#c96a1b"/>
+  <rect x="140" y="870" width="24" height="12" fill="#c96a1b"/>
+  <rect x="188" y="870" width="24" height="12" fill="#c96a1b"/>
+  <rect x="140" y="882" width="72" height="12" fill="#c96a1b"/>
+  <rect x="140" y="894" width="72" height="12" fill="#c96a1b"/>
+  <rect x="152" y="894" width="12" height="12" fill="#22303f"/>
+  <rect x="188" y="894" width="12" height="12" fill="#22303f"/>
+  <rect x="140" y="906" width="72" height="12" fill="#c96a1b"/>
+  <rect x="164" y="906" width="24" height="12" fill="#f0c48c"/>
+  <rect x="140" y="918" width="72" height="12" fill="#c96a1b"/>
+  <rect x="152" y="930" width="48" height="12" fill="#f0c48c"/>
+  <rect x="140" y="942" width="72" height="12" fill="#c96a1b"/>
+
+  <!-- Arrow from image to input layer -->
+  <line x1="240" y1="906" x2="312" y2="906" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="324,906 310,897 310,915" fill="#c0392b"/>
+
+  <!-- Connections -->
+  <g stroke="#2f7fb5" stroke-width="1.4" opacity=".6">
+    <line x1="350" y1="842" x2="520" y2="810"/>
+    <line x1="350" y1="842" x2="520" y2="874"/>
+    <line x1="350" y1="842" x2="520" y2="938"/>
+    <line x1="350" y1="842" x2="520" y2="1002"/>
+    <line x1="350" y1="906" x2="520" y2="810"/>
+    <line x1="350" y1="906" x2="520" y2="874"/>
+    <line x1="350" y1="906" x2="520" y2="938"/>
+    <line x1="350" y1="906" x2="520" y2="1002"/>
+    <line x1="350" y1="970" x2="520" y2="810"/>
+    <line x1="350" y1="970" x2="520" y2="874"/>
+    <line x1="350" y1="970" x2="520" y2="938"/>
+    <line x1="350" y1="970" x2="520" y2="1002"/>
+
+    <line x1="520" y1="810" x2="690" y2="810"/>
+    <line x1="520" y1="810" x2="690" y2="874"/>
+    <line x1="520" y1="810" x2="690" y2="938"/>
+    <line x1="520" y1="810" x2="690" y2="1002"/>
+    <line x1="520" y1="874" x2="690" y2="810"/>
+    <line x1="520" y1="874" x2="690" y2="874"/>
+    <line x1="520" y1="874" x2="690" y2="938"/>
+    <line x1="520" y1="874" x2="690" y2="1002"/>
+    <line x1="520" y1="938" x2="690" y2="810"/>
+    <line x1="520" y1="938" x2="690" y2="874"/>
+    <line x1="520" y1="938" x2="690" y2="938"/>
+    <line x1="520" y1="938" x2="690" y2="1002"/>
+    <line x1="520" y1="1002" x2="690" y2="810"/>
+    <line x1="520" y1="1002" x2="690" y2="874"/>
+    <line x1="520" y1="1002" x2="690" y2="938"/>
+    <line x1="520" y1="1002" x2="690" y2="1002"/>
+
+    <line x1="690" y1="810" x2="860" y2="874"/>
+    <line x1="690" y1="810" x2="860" y2="938"/>
+    <line x1="690" y1="874" x2="860" y2="874"/>
+    <line x1="690" y1="874" x2="860" y2="938"/>
+    <line x1="690" y1="938" x2="860" y2="874"/>
+    <line x1="690" y1="938" x2="860" y2="938"/>
+    <line x1="690" y1="1002" x2="860" y2="874"/>
+    <line x1="690" y1="1002" x2="860" y2="938"/>
+  </g>
+
+  <!-- Input layer: 3 circles -->
+  <circle cx="350" cy="842" r="20" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="350" cy="842" r="7" fill="#ffffff"/>
+  <circle cx="350" cy="906" r="20" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="350" cy="906" r="7" fill="#ffffff"/>
+  <circle cx="350" cy="970" r="20" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="350" cy="970" r="7" fill="#ffffff"/>
+
+  <!-- Hidden layer 1: 4 circles -->
+  <circle cx="520" cy="810" r="20" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="520" cy="810" r="7" fill="#dff1f7"/>
+  <circle cx="520" cy="874" r="20" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="520" cy="874" r="7" fill="#dff1f7"/>
+  <circle cx="520" cy="938" r="20" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="520" cy="938" r="7" fill="#dff1f7"/>
+  <circle cx="520" cy="1002" r="20" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="520" cy="1002" r="7" fill="#dff1f7"/>
+
+  <!-- Hidden layer 2: 4 circles -->
+  <circle cx="690" cy="810" r="20" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="690" cy="810" r="7" fill="#dff1f7"/>
+  <circle cx="690" cy="874" r="20" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="690" cy="874" r="7" fill="#dff1f7"/>
+  <circle cx="690" cy="938" r="20" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="690" cy="938" r="7" fill="#dff1f7"/>
+  <circle cx="690" cy="1002" r="20" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="690" cy="1002" r="7" fill="#dff1f7"/>
+
+  <!-- Output layer: 2 circles -->
+  <circle cx="860" cy="874" r="20" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="860" cy="874" r="7" fill="#a9dcbe"/>
+  <circle cx="860" cy="938" r="20" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="860" cy="938" r="7" fill="#a9dcbe"/>
+
+  <!-- Leader lines to the lower label row -->
+  <line x1="520" y1="1030" x2="520" y2="1118" stroke="#7f95ab" stroke-width="2.5"/>
+  <line x1="860" y1="966" x2="860" y2="1118" stroke="#7f95ab" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: star -->
+<g transform="translate(905 784)" stroke-linejoin="round">
+  <polygon points="22,2 27.3,14.7 41,15.8 30.6,24.8 33.8,38.2 22,31 10.2,38.2 13.4,24.8 3,15.8 16.7,14.7" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Smile face -->
+<g transform="translate(176 1160)" stroke-linecap="round">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3"/>
+</g>
+
+<!-- Section header -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="950" dy="0">طبقات الشبكة</tspan>
+</text>
+<text x="120" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="120" dy="0">Network layers</tspan>
+</text>
+
+<!-- Bullet 1 -->
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">طبقة الإدخال Input Layer</tspan> — تستقبل</tspan>
+  <tspan x="950" dy="40">البيانات الخام، مثل <tspan fill="#c96a1b">بكسلات الصورة.</tspan></tspan>
+</text>
+<text x="132" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#c0392b">Input layer</tspan> — receives the raw data,</tspan>
+  <tspan x="132" dy="40">like the <tspan fill="#c96a1b">pixels of an image.</tspan></tspan>
+</text>
+
+<!-- Bullet 2 -->
+<text x="950" y="394" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">الطبقة المخفية Hidden Layer</tspan> — بين الإدخال</tspan>
+  <tspan x="950" dy="40">والإخراج، تعالج البيانات <tspan font-weight="bold" fill="#17457f">وتستخرج خصائصها.</tspan></tspan>
+</text>
+<text x="132" y="474" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#c0392b">Hidden layer</tspan> — between input</tspan>
+  <tspan x="132" dy="40">and output; it processes data</tspan>
+  <tspan x="132" dy="40">and <tspan font-weight="bold" fill="#17457f">extracts its features.</tspan></tspan>
+</text>
+
+<!-- Bullet 3 -->
+<text x="950" y="594" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">طبقة الإخراج Output Layer</tspan> — تعطي النتيجة</tspan>
+  <tspan x="950" dy="40">النهائية، مثل <tspan fill="#c96a1b">«قطة بنسبة 95%».</tspan></tspan>
+</text>
+<text x="132" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#c0392b">Output layer</tspan> — gives the final result,</tspan>
+  <tspan x="132" dy="40">like <tspan fill="#c96a1b">"cat: 95%".</tspan></tspan>
+</text>
+
+<!-- Illustration labels: upper row (columns 1 and 3) -->
+<text x="445" y="1074" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="445" dy="0">طبقة الإدخال</tspan>
+</text>
+<text x="262" y="1114" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="262" dy="0">Input layer</tspan>
+</text>
+
+<!-- Illustration labels: lower row (column 2) -->
+<text x="600" y="1154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="600" dy="0">طبقة مخفية</tspan>
+</text>
+<text x="420" y="1194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="420" dy="0">Hidden layer</tspan>
+</text>
+
+<!-- Illustration labels: upper row (column 3) -->
+<text x="770" y="1074" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="770" dy="0">طبقة مخفية</tspan>
+</text>
+<text x="590" y="1114" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="590" dy="0">Hidden layer</tspan>
+</text>
+
+<!-- Illustration labels: lower row (column 4) -->
+<text x="955" y="1154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="955" dy="0">طبقة الإخراج</tspan>
+</text>
+<text x="760" y="1194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="760" dy="0">Output layer</tspan>
+</text>
+</svg>
