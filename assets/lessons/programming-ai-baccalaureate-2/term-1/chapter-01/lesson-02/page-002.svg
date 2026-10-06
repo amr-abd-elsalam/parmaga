@@ -4,184 +4,178 @@
      viewBox="0 0 1080 1350"
      preserveAspectRatio="xMidYMid meet"
      style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+<defs>
+  <linearGradient id="ilRoof" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#17457f"/>
+    <stop offset="1" stop-color="#2f7fb5"/>
+  </linearGradient>
+  <radialGradient id="ilGlow" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#ffd24a"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </radialGradient>
+</defs>
 
-  <defs>
-    <linearGradient id="deskWood" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#b07f4f"/>
-      <stop offset="0.55" stop-color="#9a6a3c"/>
-      <stop offset="1" stop-color="#82552e"/>
-    </linearGradient>
-    <linearGradient id="paperTone" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fffdf6"/>
-      <stop offset="1" stop-color="#fbf6ea"/>
-    </linearGradient>
-  </defs>
+<!-- Shadows -->
+<g transform="translate(4 6)" opacity=".18">
+  <polygon points="355,392 120,516 590,516" fill="#22303f"/>
+  <rect x="148" y="506" width="414" height="344" fill="#22303f"/>
+</g>
+<rect x="109" y="1008" width="870" height="168" rx="10" fill="#22303f" opacity=".12"/>
 
-  <rect x="0" y="0" width="1080" height="1350" fill="url(#deskWood)"/>
-  <path d="M0 250 C 300 200, 780 320, 1080 260" stroke="#6f4622" stroke-width="16" fill="none" opacity="0.10"/>
-  <path d="M0 980 C 320 1040, 760 900, 1080 970" stroke="#6f4622" stroke-width="14" fill="none" opacity="0.09"/>
+<!-- Key sentence strip fill -->
+<rect x="105" y="1002" width="870" height="168" rx="10" fill="#fdf6d8"/>
+<rect x="961" y="1018" width="6" height="136" rx="3" fill="#e0a55e"/>
 
-  <rect x="44" y="42" width="1012" height="1300" rx="8" fill="#3a2412" opacity="0.22"/>
-  <rect x="34" y="30" width="1012" height="1300" rx="8" fill="url(#paperTone)"/>
+<!-- Illustration: the big house -->
+<g stroke-linecap="round" stroke-linejoin="round">
+  <rect x="470" y="420" width="34" height="60" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="148" y="506" width="414" height="344" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="355,392 120,516 590,516" fill="url(#ilRoof)" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="355" cy="470" r="20" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="335" y1="470" x2="375" y2="470" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="355" y1="450" x2="355" y2="490" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="120" y="846" width="470" height="8" rx="4" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
 
-  <g stroke="#b9d3ea" stroke-width="1.4" opacity="0.85">
-    <line x1="92" y1="260" x2="988" y2="260"/>
-    <line x1="92" y1="300" x2="988" y2="300"/>
-    <line x1="92" y1="340" x2="988" y2="340"/>
-    <line x1="92" y1="380" x2="988" y2="380"/>
-    <line x1="92" y1="420" x2="988" y2="420"/>
-    <line x1="92" y1="460" x2="988" y2="460"/>
-    <line x1="92" y1="500" x2="988" y2="500"/>
-    <line x1="92" y1="540" x2="988" y2="540"/>
-    <line x1="92" y1="580" x2="988" y2="580"/>
-    <line x1="92" y1="620" x2="988" y2="620"/>
-    <line x1="92" y1="660" x2="988" y2="660"/>
-    <line x1="92" y1="700" x2="988" y2="700"/>
-    <line x1="92" y1="740" x2="988" y2="740"/>
-    <line x1="92" y1="780" x2="988" y2="780"/>
-    <line x1="92" y1="820" x2="988" y2="820"/>
-    <line x1="92" y1="860" x2="988" y2="860"/>
-    <line x1="92" y1="900" x2="988" y2="900"/>
-    <line x1="92" y1="940" x2="988" y2="940"/>
-    <line x1="92" y1="980" x2="988" y2="980"/>
-    <line x1="92" y1="1020" x2="988" y2="1020"/>
-    <line x1="92" y1="1060" x2="988" y2="1060"/>
-    <line x1="92" y1="1100" x2="988" y2="1100"/>
-    <line x1="92" y1="1140" x2="988" y2="1140"/>
-  </g>
+  <!-- Room -->
+  <rect x="172" y="548" width="366" height="290" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="188" y="564" width="334" height="258" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="188" y="790" width="334" height="32" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="208" y1="564" x2="208" y2="584" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M196 596 L220 596 L214 584 L202 584 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
 
-  <rect x="67" y="64" width="946" height="1252" rx="6" fill="none" stroke="#c0392b" stroke-width="2.6"/>
+  <!-- Closet -->
+  <polygon points="270,590 230,604 230,812 270,820" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="440,590 480,604 480,812 440,820" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="242" cy="712" r="4" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="468" cy="712" r="4" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="270" y="590" width="170" height="230" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="262" y="580" width="186" height="14" rx="4" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="272" y1="640" x2="438" y2="640" stroke="#c96a1b" stroke-width="2"/>
+  <rect x="285" y="616" width="40" height="24" rx="3" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="335" y="622" width="36" height="18" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="282" y="794" width="146" height="22" rx="3" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="345" y="802" width="20" height="6" rx="3" fill="#ffd24a"/>
 
-  <rect x="100" y="602" width="880" height="306" rx="18" fill="#fdf2c9" opacity="0.5" stroke="#e6d190" stroke-width="1.6"/>
+  <!-- Open drawer with glow -->
+  <polygon points="295,730 415,730 445,660 265,660" fill="#ffd24a" opacity=".35"/>
+  <ellipse cx="355" cy="712" rx="70" ry="45" fill="url(#ilGlow)" opacity=".6"/>
+  <polygon points="290,728 420,728 430,748 280,748" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="280" y="748" width="150" height="40" rx="4" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="340" y="762" width="30" height="8" rx="4" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M330 682 l2 -6 l6 -2 l-6 -2 l-2 -6 l-2 6 l-6 2 l6 2 Z" fill="#4fc3e8"/>
+  <path d="M385 690 l2 -6 l6 -2 l-6 -2 l-2 -6 l-2 6 l-6 2 l6 2 Z" fill="#4fc3e8"/>
+  <path d="M356 708 l2 -5 l5 -2 l-5 -2 l-2 -5 l-2 5 l-5 2 l5 2 Z" fill="#ffffff"/>
 
-  <line x1="580" y1="556" x2="580" y2="590" stroke="#c0392b" stroke-width="3.2" stroke-linecap="round"/>
-  <polygon points="572,586 588,586 580,600" fill="#c0392b"/>
+  <!-- Pointer lines -->
+  <line x1="604" y1="446" x2="520" y2="495" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="520" cy="495" r="5" fill="#22303f"/>
+  <line x1="604" y1="566" x2="530" y2="600" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="530" cy="600" r="5" fill="#22303f"/>
+  <line x1="604" y1="686" x2="466" y2="700" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="466" cy="700" r="5" fill="#22303f"/>
+  <line x1="604" y1="806" x2="432" y2="770" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="432" cy="770" r="5" fill="#22303f"/>
+</g>
 
-  <line x1="120" y1="248" x2="352" y2="248" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
-  <line x1="756" y1="188" x2="960" y2="188" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+<!-- Icons and faces -->
+<g transform="translate(130 84)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="28" cy="22" r="16" fill="#ffd24a"/>
+  <rect x="21" y="36" width="14" height="12" rx="3" fill="#7f95ab"/>
+  <line x1="28" y1="0" x2="28" y2="2"/>
+  <line x1="6" y1="22" x2="8" y2="22"/>
+  <line x1="48" y1="22" x2="50" y2="22"/>
+</g>
+<g transform="translate(920 108)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" stroke="#22303f" stroke-width="3" fill="none" stroke-linecap="round"/>
+</g>
+<g transform="translate(130 210)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="10" y="26" width="36" height="26" fill="#dff1f7"/>
+  <polygon points="28,6 4,26 52,26" fill="#17457f"/>
+  <rect x="23" y="36" width="10" height="16" fill="#c96a1b"/>
+</g>
+<g transform="translate(900 320)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" stroke="#22303f" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" stroke="#22303f" stroke-width="3" fill="none" stroke-linecap="round"/>
+</g>
+<g transform="translate(392 1190)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="20" y1="4" x2="20" y2="12"/>
+  <line x1="28" y1="4" x2="28" y2="12"/>
+  <line x1="36" y1="4" x2="36" y2="12"/>
+  <line x1="20" y1="44" x2="20" y2="52"/>
+  <line x1="28" y1="44" x2="28" y2="52"/>
+  <line x1="36" y1="44" x2="36" y2="52"/>
+  <line x1="4" y1="20" x2="12" y2="20"/>
+  <line x1="4" y1="36" x2="12" y2="36"/>
+  <line x1="44" y1="20" x2="52" y2="20"/>
+  <line x1="44" y1="36" x2="52" y2="36"/>
+  <rect x="12" y="12" width="32" height="32" rx="5" fill="#2f7fb5"/>
+  <rect x="21" y="21" width="14" height="14" rx="2" fill="#4fc3e8"/>
+</g>
+<g transform="translate(512 1190)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="12" y1="42" x2="44" y2="42"/>
+  <line x1="12" y1="42" x2="28" y2="12"/>
+  <line x1="44" y1="42" x2="28" y2="12"/>
+  <circle cx="28" cy="12" r="8" fill="#2f7fb5"/>
+  <circle cx="12" cy="42" r="8" fill="#8fc9f2"/>
+  <circle cx="44" cy="42" r="8" fill="#4fc3e8"/>
+</g>
+<g transform="translate(632 1190)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="28,4 33.9,19.9 50.8,20.6 37.5,31.1 42.1,47.4 28,38 13.9,47.4 18.5,31.1 5.2,20.6 22.1,19.9" fill="#ffd24a"/>
+</g>
 
-  <g fill="#fff8ec" stroke="#d97b2a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="145" y="965" width="130" height="88" rx="8"/>
-    <path d="M145 973 L210 1019 L275 973" fill="none"/>
+<!-- Text -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">الذكاء الاصطناعي بيت كبير</text>
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="normal" fill="#152b42">AI Is a Big House</text>
 
-    <path d="M395 985 a25 25 0 0 1 50 0" fill="none"/>
-    <rect x="370" y="985" width="100" height="80" rx="8"/>
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">هل <tspan font-weight="bold" fill="#c0392b">الذكاء الاصطناعي</tspan> تقنية واحدة؟</tspan>
+  <tspan x="950" dy="40">تخيّله معي <tspan font-weight="bold" fill="#17457f">بيتًا كبيرًا.</tspan></tspan>
+</text>
+<text x="120" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Is <tspan font-weight="bold" fill="#c0392b">AI</tspan> one single technology?</tspan>
+  <tspan x="120" dy="40">Imagine it with me as <tspan font-weight="bold" fill="#17457f">a big house.</tspan></tspan>
+</text>
 
-    <rect x="565" y="945" width="100" height="56" rx="16"/>
-    <path d="M585 1001 L580 1019 L603 1001" fill="none"/>
-    <rect x="605" y="1005" width="100" height="56" rx="16"/>
-    <path d="M685 1061 L690 1079 L667 1061" fill="none"/>
+<text x="950" y="434" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" font-weight="bold" fill="#17457f">الذكاء الاصطناعي</text>
+<text x="620" y="474" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">AI</text>
+<text x="950" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" font-weight="bold" fill="#17457f">التعلّم الآلي</text>
+<text x="620" y="594" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">Machine learning</text>
+<text x="950" y="674" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" font-weight="bold" fill="#17457f">التعلم العميق</text>
+<text x="620" y="714" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">Deep learning</text>
+<text x="950" y="794" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" font-weight="bold" fill="#17457f">الذكاء الاصطناعي التوليدي</text>
+<text x="620" y="834" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">Generative AI</text>
 
-    <rect x="800" y="965" width="130" height="90" rx="8"/>
-    <path d="M818 996 L838 1010 L818 1024" fill="none"/>
-    <line x1="852" y1="1012" x2="898" y2="1012"/>
-    <line x1="910" y1="994" x2="910" y2="1028"/>
-  </g>
+<text x="950" y="914" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">بيت ← أوضة ← دولاب ← درج</text>
+<text x="120" y="954" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">House → room → closet → drawer</text>
 
-  <text x="960"
-        y="168"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="42"
-        font-weight="bold"
-        fill="#1f5f9e">كيف يعمل الذكاء الاصطناعي؟</text>
-
-  <text x="120"
-        y="232"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="38"
-        font-weight="bold"
-        fill="#152b42">How AI Works</text>
-
-  <text x="120"
-        y="300"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26"
-        fill="#152b42">
-    <tspan x="120" dy="0">When you use your phone, AI</tspan>
-    <tspan x="120" dy="40">often works in the background:</tspan>
-    <tspan x="120" dy="40">a spam filter sorts unwanted</tspan>
-    <tspan x="120" dy="40">email, a store recommends</tspan>
-    <tspan x="120" dy="40">products, a translation app</tspan>
-    <tspan x="120" dy="40">changes one language into</tspan>
-    <tspan x="120" dy="40">another, and ChatGPT generates</tspan>
-    <tspan x="120" dy="40">text from a prompt.</tspan>
-  </text>
-
-  <text x="120"
-        y="640"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26"
-        fill="#152b42">
-    <tspan x="120" dy="0">Artificial Intelligence (AI)</tspan>
-    <tspan x="120" dy="40">is a general term for</tspan>
-    <tspan x="120" dy="40">technologies that perform</tspan>
-    <tspan x="120" dy="40">behaviors associated with</tspan>
-    <tspan x="120" dy="40">human intelligence, such as</tspan>
-    <tspan x="120" dy="40">learning, reasoning, and</tspan>
-    <tspan x="120" dy="40">judgment.</tspan>
-  </text>
-
-  <text x="960"
-        y="300"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="27"
-        fill="#225f9c">
-    <tspan x="960" dy="0">عندما تستخدم هاتفك، يعمل</tspan>
-    <tspan x="960" dy="40">الذكاء الاصطناعي غالبًا في</tspan>
-    <tspan x="960" dy="40">الخلفية: يفرز مرشح البريد</tspan>
-    <tspan x="960" dy="40">الرسائل المزعجة، ويوصي</tspan>
-    <tspan x="960" dy="40">متجر بمنتجات، ويترجم تطبيق</tspan>
-    <tspan x="960" dy="40">بين اللغات، ويولّد ChatGPT</tspan>
-    <tspan x="960" dy="40">نصًا من طلب.</tspan>
-  </text>
-
-  <text x="960"
-        y="640"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="27"
-        fill="#225f9c">
-    <tspan x="960" dy="0">الذكاء الاصطناعي</tspan>
-  </text>
-
-  <text x="650"
-        y="680"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="26"
-        fill="#152b42">Artificial Intelligence (AI)</text>
-
-  <text x="960"
-        y="720"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="27"
-        fill="#225f9c">
-    <tspan x="960" dy="0">مصطلح عام لتقنيات تنفذ على</tspan>
-    <tspan x="960" dy="40">الحاسوب سلوكيات مرتبطة</tspan>
-    <tspan x="960" dy="40">بالذكاء البشري، مثل التعلم</tspan>
-    <tspan x="960" dy="40">والاستدلال والحكم.</tspan>
-  </text>
-
+<text x="935" y="1034" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">ذكاء اصطناعي ← تعلّم آلي ←</tspan>
+  <tspan x="935" dy="40">تعلّم عميق ← توليدي</tspan>
+</text>
+<text x="140" y="1114" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">AI → machine learning →</tspan>
+  <tspan x="140" dy="40">deep learning → generative AI</tspan>
+</text>
 </svg>

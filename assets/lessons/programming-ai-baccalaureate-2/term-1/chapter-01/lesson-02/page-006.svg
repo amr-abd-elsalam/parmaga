@@ -4,199 +4,213 @@
      viewBox="0 0 1080 1350"
      preserveAspectRatio="xMidYMid meet"
      style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-  <defs>
-    <linearGradient id="deskWood" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#b07a45"/>
-      <stop offset="0.55" stop-color="#9c6636"/>
-      <stop offset="1" stop-color="#845128"/>
-    </linearGradient>
-    <linearGradient id="paperTone" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fefcf5"/>
-      <stop offset="1" stop-color="#faf5e8"/>
-    </linearGradient>
-  </defs>
+<!-- Icon row under the titles -->
+<g transform="translate(470 254)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="-18,-6 -14,-22 -4,-12" fill="#f0c48c"/>
+  <polygon points="18,-6 14,-22 4,-12" fill="#f0c48c"/>
+  <circle cx="0" cy="0" r="16" fill="#f0c48c"/>
+  <circle cx="-6" cy="-2" r="2.5" fill="#22303f" stroke="none"/>
+  <circle cx="6" cy="-2" r="2.5" fill="#22303f" stroke="none"/>
+  <polygon points="-3,4 3,4 0,7" fill="#c96a1b" stroke="none"/>
+</g>
+<g transform="translate(540 250)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="-7" y1="-20" x2="-7" y2="-14"/>
+  <line x1="7" y1="-20" x2="7" y2="-14"/>
+  <line x1="-7" y1="14" x2="-7" y2="20"/>
+  <line x1="7" y1="14" x2="7" y2="20"/>
+  <line x1="-20" y1="-7" x2="-14" y2="-7"/>
+  <line x1="-20" y1="7" x2="-14" y2="7"/>
+  <line x1="14" y1="-7" x2="20" y2="-7"/>
+  <line x1="14" y1="7" x2="20" y2="7"/>
+  <rect x="-14" y="-14" width="28" height="28" rx="5" fill="#8fc9f2"/>
+  <rect x="-7" y="-7" width="14" height="14" rx="2" fill="#17457f"/>
+</g>
+<g transform="translate(610 252)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="0" cy="0" r="16" fill="#ffffff"/>
+  <ellipse cx="-16" cy="2" rx="6" ry="11" fill="#c96a1b"/>
+  <ellipse cx="16" cy="2" rx="6" ry="11" fill="#c96a1b"/>
+  <circle cx="-6" cy="-3" r="2.5" fill="#22303f" stroke="none"/>
+  <circle cx="6" cy="-3" r="2.5" fill="#22303f" stroke="none"/>
+  <ellipse cx="0" cy="6" rx="4" ry="3" fill="#22303f" stroke="none"/>
+</g>
 
-  <rect x="0" y="0" width="1080" height="1350" fill="url(#deskWood)"/>
-  <path d="M0 250 C 300 210, 760 300, 1080 240" stroke="#7d4c25" stroke-width="16" fill="none" opacity="0.16"/>
-  <path d="M0 1080 C 340 1040, 720 1130, 1080 1070" stroke="#7d4c25" stroke-width="14" fill="none" opacity="0.14"/>
+<!-- Thinking face beside paragraph 1 -->
+<g transform="translate(880 432)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
 
-  <rect x="42" y="44" width="1012" height="1282" fill="#5f3b1c" opacity="0.28" rx="6"/>
-  <rect x="34" y="34" width="1012" height="1282" fill="url(#paperTone)" rx="5"/>
+<!-- Surprise face beside paragraph 2 -->
+<g transform="translate(880 672)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="0" cy="10" r="5" fill="#22303f"/>
+</g>
 
-  <g stroke="#cfe0ef" stroke-width="1.4" opacity="0.95">
-    <line x1="80" y1="124" x2="1000" y2="124"/>
-    <line x1="80" y1="166" x2="1000" y2="166"/>
-    <line x1="80" y1="208" x2="1000" y2="208"/>
-    <line x1="80" y1="250" x2="1000" y2="250"/>
-    <line x1="80" y1="292" x2="1000" y2="292"/>
-    <line x1="80" y1="334" x2="1000" y2="334"/>
-    <line x1="80" y1="376" x2="1000" y2="376"/>
-    <line x1="80" y1="418" x2="1000" y2="418"/>
-    <line x1="80" y1="460" x2="1000" y2="460"/>
-    <line x1="80" y1="502" x2="1000" y2="502"/>
-    <line x1="80" y1="544" x2="1000" y2="544"/>
-    <line x1="80" y1="586" x2="1000" y2="586"/>
-    <line x1="80" y1="628" x2="1000" y2="628"/>
-    <line x1="80" y1="670" x2="1000" y2="670"/>
-    <line x1="80" y1="712" x2="1000" y2="712"/>
-    <line x1="80" y1="754" x2="1000" y2="754"/>
-    <line x1="80" y1="796" x2="1000" y2="796"/>
-    <line x1="80" y1="838" x2="1000" y2="838"/>
-    <line x1="80" y1="880" x2="1000" y2="880"/>
-    <line x1="80" y1="922" x2="1000" y2="922"/>
-    <line x1="80" y1="964" x2="1000" y2="964"/>
-    <line x1="80" y1="1006" x2="1000" y2="1006"/>
-    <line x1="80" y1="1048" x2="1000" y2="1048"/>
-    <line x1="80" y1="1090" x2="1000" y2="1090"/>
-    <line x1="80" y1="1132" x2="1000" y2="1132"/>
-  </g>
+<!-- Warning triangle beside paragraph 3 -->
+<g transform="translate(852 884)" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="28,4 54,50 2,50" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="25" y="18" width="6" height="18" rx="3" fill="#22303f"/>
+  <circle cx="28" cy="43" r="3.5" fill="#22303f"/>
+</g>
 
-  <rect x="67" y="67" width="946" height="1216" fill="none" stroke="#d2413a" stroke-width="2.4" rx="4"/>
+<!-- Illustration: clipboard -->
+<g stroke-linecap="round" stroke-linejoin="round">
+  <rect x="294" y="1050" width="500" height="212" rx="18" fill="#22303f" opacity=".18"/>
+  <rect x="290" y="1044" width="500" height="212" rx="18" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="304" y="1062" width="472" height="186" rx="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="306" y="1064" width="468" height="36" rx="6" fill="#dff1f7"/>
+  <line x1="304" y1="1100" x2="776" y2="1100" stroke="#8fc9f2" stroke-width="2"/>
+  <line x1="304" y1="1148" x2="776" y2="1148" stroke="#8fc9f2" stroke-width="2"/>
+  <line x1="304" y1="1196" x2="776" y2="1196" stroke="#8fc9f2" stroke-width="2"/>
+  <line x1="652" y1="1064" x2="652" y2="1246" stroke="#8fc9f2" stroke-width="2"/>
+  <line x1="714" y1="1064" x2="714" y2="1246" stroke="#8fc9f2" stroke-width="2"/>
+  <rect x="490" y="1036" width="100" height="36" rx="8" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="540" cy="1048" r="5" fill="#dff1f7"/>
+  <!-- mini dog head column -->
+  <circle cx="683" cy="1082" r="11" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="672" cy="1084" rx="4" ry="8" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="694" cy="1084" rx="4" ry="8" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="679" cy="1080" r="2" fill="#22303f"/>
+  <circle cx="687" cy="1080" r="2" fill="#22303f"/>
+  <ellipse cx="683" cy="1087" rx="3" ry="2" fill="#22303f"/>
+  <!-- mini cat head column -->
+  <polygon points="735,1078 735,1066 743,1073" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="755,1078 755,1066 747,1073" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="745" cy="1083" r="11" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="741" cy="1081" r="2" fill="#22303f"/>
+  <circle cx="749" cy="1081" r="2" fill="#22303f"/>
+  <!-- check marks -->
+  <g transform="translate(683 1124)"><circle cx="0" cy="0" r="15" fill="#a9dcbe" stroke="#2e7d32" stroke-width="2"/><path d="M -7 0 L -2 6 L 8 -6" fill="none" stroke="#2e7d32" stroke-width="3"/></g>
+  <g transform="translate(745 1124)"><circle cx="0" cy="0" r="15" fill="#a9dcbe" stroke="#2e7d32" stroke-width="2"/><path d="M -7 0 L -2 6 L 8 -6" fill="none" stroke="#2e7d32" stroke-width="3"/></g>
+  <g transform="translate(683 1172)"><circle cx="0" cy="0" r="15" fill="#a9dcbe" stroke="#2e7d32" stroke-width="2"/><path d="M -7 0 L -2 6 L 8 -6" fill="none" stroke="#2e7d32" stroke-width="3"/></g>
+  <g transform="translate(745 1172)"><circle cx="0" cy="0" r="15" fill="#a9dcbe" stroke="#2e7d32" stroke-width="2"/><path d="M -7 0 L -2 6 L 8 -6" fill="none" stroke="#2e7d32" stroke-width="3"/></g>
+  <g transform="translate(683 1220)"><circle cx="0" cy="0" r="15" fill="#a9dcbe" stroke="#2e7d32" stroke-width="2"/><path d="M -7 0 L -2 6 L 8 -6" fill="none" stroke="#2e7d32" stroke-width="3"/></g>
+  <g transform="translate(745 1220)"><circle cx="0" cy="0" r="15" fill="#a9dcbe" stroke="#2e7d32" stroke-width="2"/><path d="M -7 0 L -2 6 L 8 -6" fill="none" stroke="#2e7d32" stroke-width="3"/></g>
+</g>
 
-  <text x="955" y="140"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, 'Segoe UI', sans-serif"
-        font-size="40"
-        font-weight="bold"
-        fill="#1a4f8a">الذكاء الاصطناعي التوليدي</text>
+<!-- Illustration: question mark above the clipboard -->
+<g transform="translate(650 1003)">
+  <path d="M -16 -10 C -16 -30, 18 -32, 18 -10 C 18 2, 6 6, 6 16 L -6 16 C -6 0, 6 -2, 6 -10 C 6 -20, -4 -20, -4 -10 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="0" cy="28" r="7" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+</g>
 
-  <text x="118" y="140"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="'Segoe Print', 'Comic Sans MS', Arial, sans-serif"
-        font-size="38"
-        font-weight="bold"
-        fill="#13293f">Generative AI</text>
+<!-- Illustration: sitting cat (right) -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <ellipse cx="885" cy="1250" rx="62" ry="8" fill="#22303f" stroke="none" opacity=".18"/>
+  <path d="M 925 1240 C 966 1236, 968 1180, 948 1160 C 942 1156, 936 1162, 940 1168 C 954 1190, 950 1222, 922 1226 Z" fill="#f0c48c"/>
+  <path d="M 845 1245 C 835 1200, 850 1150, 885 1145 C 920 1150, 935 1200, 925 1245 Z" fill="#f0c48c"/>
+  <ellipse cx="885" cy="1212" rx="20" ry="28" fill="#ffffff" stroke="none"/>
+  <path d="M 850 1200 L 862 1204" fill="none" stroke="#c96a1b" stroke-width="3"/>
+  <path d="M 848 1218 L 860 1220" fill="none" stroke="#c96a1b" stroke-width="3"/>
+  <path d="M 920 1200 L 908 1204" fill="none" stroke="#c96a1b" stroke-width="3"/>
+  <path d="M 922 1218 L 910 1220" fill="none" stroke="#c96a1b" stroke-width="3"/>
+  <ellipse cx="870" cy="1244" rx="12" ry="7" fill="#f0c48c"/>
+  <ellipse cx="900" cy="1244" rx="12" ry="7" fill="#f0c48c"/>
+  <polygon points="852,1092 856,1052 880,1078" fill="#f0c48c"/>
+  <polygon points="918,1092 914,1052 890,1078" fill="#f0c48c"/>
+  <polygon points="859,1084 860,1064 873,1078" fill="#c96a1b" stroke="none"/>
+  <polygon points="911,1084 910,1064 897,1078" fill="#c96a1b" stroke="none"/>
+  <circle cx="885" cy="1112" r="38" fill="#f0c48c"/>
+  <path d="M 875 1078 L 878 1090" fill="none" stroke="#c96a1b" stroke-width="3"/>
+  <path d="M 885 1076 L 885 1090" fill="none" stroke="#c96a1b" stroke-width="3"/>
+  <path d="M 895 1078 L 892 1090" fill="none" stroke="#c96a1b" stroke-width="3"/>
+  <ellipse cx="871" cy="1108" rx="6" ry="7" fill="#a9dcbe"/>
+  <ellipse cx="899" cy="1108" rx="6" ry="7" fill="#a9dcbe"/>
+  <ellipse cx="871" cy="1108" rx="2" ry="5" fill="#22303f" stroke="none"/>
+  <ellipse cx="899" cy="1108" rx="2" ry="5" fill="#22303f" stroke="none"/>
+  <polygon points="880,1120 890,1120 885,1126" fill="#c96a1b" stroke="none"/>
+  <path d="M 885 1126 Q 879 1134 873 1130 M 885 1126 Q 891 1134 897 1130" fill="none"/>
+  <line x1="866" y1="1124" x2="838" y2="1118" stroke-width="1.4"/>
+  <line x1="866" y1="1128" x2="838" y2="1132" stroke-width="1.4"/>
+  <line x1="904" y1="1124" x2="932" y2="1118" stroke-width="1.4"/>
+  <line x1="904" y1="1128" x2="932" y2="1132" stroke-width="1.4"/>
+  <rect x="860" y="1146" width="50" height="8" rx="4" fill="#4fc3e8"/>
+</g>
 
-  <text x="955" y="250"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, 'Segoe UI', sans-serif"
-        font-size="28"
-        fill="#225f9c">الذكاء الاصطناعي التوليدي</text>
+<!-- Illustration: small sitting dog (left) -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <ellipse cx="195" cy="1250" rx="62" ry="8" fill="#22303f" stroke="none" opacity=".18"/>
+  <path d="M 150 1238 C 122 1236, 114 1206, 124 1190 C 128 1186, 134 1190, 132 1196 C 126 1210, 134 1226, 152 1226 Z" fill="#ffffff"/>
+  <path d="M 155 1245 C 145 1200, 160 1150, 195 1145 C 230 1150, 245 1200, 235 1245 Z" fill="#ffffff"/>
+  <ellipse cx="220" cy="1195" rx="12" ry="16" fill="#f0c48c" stroke="none"/>
+  <ellipse cx="180" cy="1244" rx="12" ry="7" fill="#ffffff"/>
+  <ellipse cx="210" cy="1244" rx="12" ry="7" fill="#ffffff"/>
+  <circle cx="195" cy="1110" r="38" fill="#ffffff"/>
+  <ellipse cx="210" cy="1100" rx="13" ry="12" fill="#f0c48c" stroke="none"/>
+  <path d="M 165 1082 C 145 1080, 140 1115, 150 1132 C 158 1140, 168 1128, 168 1112 Z" fill="#c96a1b"/>
+  <path d="M 225 1082 C 245 1080, 250 1115, 240 1132 C 232 1140, 222 1128, 222 1112 Z" fill="#c96a1b"/>
+  <circle cx="181" cy="1104" r="5" fill="#22303f" stroke="none"/>
+  <circle cx="209" cy="1104" r="5" fill="#22303f" stroke="none"/>
+  <ellipse cx="195" cy="1126" rx="16" ry="11" fill="#ffffff"/>
+  <ellipse cx="195" cy="1120" rx="6" ry="4.5" fill="#22303f" stroke="none"/>
+  <path d="M 195 1124 L 195 1130 M 188 1132 Q 195 1137 202 1132" fill="none"/>
+  <rect x="170" y="1146" width="50" height="8" rx="4" fill="#2f7fb5"/>
+  <circle cx="195" cy="1160" r="5" fill="#ffd24a"/>
+</g>
 
-  <text x="630" y="292"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="'Segoe Print', 'Comic Sans MS', Arial, sans-serif"
-        font-size="25"
-        fill="#225f9c">Generative AI (GenAI)</text>
+<!-- Text -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">
+  <tspan x="540" dy="0">المحطة 1:</tspan>
+  <tspan x="540" dy="48">كيف يعرف الكمبيوتر القطة؟</tspan>
+</text>
+<text x="540" y="202" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" fill="#152b42">Stop 1: How Does a Computer Know a Cat?</text>
 
-  <text x="955" y="334"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, 'Segoe UI', sans-serif"
-        font-size="28"
-        fill="#225f9c">
-    <tspan x="955" dy="0">تقنية تستخدم التعلم العميق</tspan>
-    <tspan x="955" dy="42">لإنشاء بيانات جديدة، مثل</tspan>
-    <tspan x="955" dy="42">النصوص والصور والصوت والبرامج.</tspan>
-    <tspan x="955" dy="42">تعتمد المخرجات الجديدة على</tspan>
-    <tspan x="955" dy="42">الأنماط التي تعلمها النظام</tspan>
-    <tspan x="955" dy="42">من بيانات التدريب.</tspan>
-    <tspan x="955" dy="42">من أمثلته ChatGPT وأنظمة</tspan>
-    <tspan x="955" dy="42">توليد الصور.</tspan>
-  </text>
+<text x="950" y="314" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">تحدٍّ: اكتب <tspan font-weight="bold" fill="#c0392b">قواعد</tspan> تجعل الكمبيوتر يفرّق</tspan>
+  <tspan x="950" dy="40">بين صورة <tspan fill="#c96a1b">قطة</tspan> وصورة <tspan fill="#c96a1b">كلب.</tspan></tspan>
+</text>
+<text x="120" y="394" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Challenge: Write <tspan font-weight="bold" fill="#c0392b">rules</tspan> that</tspan>
+  <tspan x="120" dy="40">help a computer tell a <tspan fill="#c96a1b">cat</tspan> photo</tspan>
+  <tspan x="120" dy="40">from a <tspan fill="#c96a1b">dog</tspan> photo.</tspan>
+</text>
 
-  <text x="115" y="250"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="'Segoe Print', 'Comic Sans MS', Arial, sans-serif"
-        font-size="26"
-        fill="#152b42">
-    <tspan x="115" dy="0">Generative AI (GenAI) is</tspan>
-    <tspan x="115" dy="36">a technology that uses</tspan>
-    <tspan x="115" dy="36">deep learning to generate</tspan>
-    <tspan x="115" dy="36">new data, such as text,</tspan>
-    <tspan x="115" dy="36">images, audio, and</tspan>
-    <tspan x="115" dy="36">programs. Its new outputs</tspan>
-    <tspan x="115" dy="36">are based on patterns the</tspan>
-    <tspan x="115" dy="36">system learned from</tspan>
-    <tspan x="115" dy="36">training data. Examples</tspan>
-    <tspan x="115" dy="36">include ChatGPT and</tspan>
-    <tspan x="115" dy="36">image-generation systems.</tspan>
-  </text>
+<text x="950" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">أربع أرجل وذيل وأذنان؟</tspan>
+  <tspan x="950" dy="40"><tspan font-weight="bold" fill="#17457f">الكلب أيضًا</tspan> عنده أربع أرجل وذيل وأذنان!</tspan>
+</text>
+<text x="120" y="634" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Four legs, a tail, and ears?</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#17457f">A dog also</tspan> has four legs,</tspan>
+  <tspan x="120" dy="40">a tail, and ears!</tspan>
+</text>
 
-  <rect x="280" y="684" width="520" height="74" rx="12" fill="#fdf0e0" stroke="#e2801f" stroke-width="2.4"/>
-  <text x="770" y="731"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, 'Segoe UI', sans-serif"
-        font-size="29"
-        fill="#bf620f">بيانات التدريب</text>
-  <text x="312" y="731"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="'Segoe Print', 'Comic Sans MS', Arial, sans-serif"
-        font-size="28"
-        fill="#bf620f">Training Data</text>
+<text x="950" y="794" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">وكلما أضفت <tspan font-weight="bold" fill="#17457f">قاعدة،</tspan> ظهر <tspan font-weight="bold" fill="#c0392b">استثناء:</tspan></tspan>
+  <tspan x="950" dy="40">قطة بلا ذيل، أو كلب صغير يشبه القطة.</tspan>
+</text>
+<text x="120" y="874" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Every new <tspan font-weight="bold" fill="#17457f">rule</tspan> meets an <tspan font-weight="bold" fill="#c0392b">exception:</tspan></tspan>
+  <tspan x="120" dy="40">a cat without a tail, or a small dog</tspan>
+  <tspan x="120" dy="40">that looks like a cat.</tspan>
+</text>
 
-  <line x1="540" y1="766" x2="540" y2="798" stroke="#cf3a34" stroke-width="4"/>
-  <polygon points="527,798 553,798 540,814" fill="#cf3a34"/>
-
-  <rect x="200" y="818" width="680" height="86" rx="14" fill="#fdf6d6" stroke="#1f5fa8" stroke-width="2.8"/>
-  <text x="848" y="873"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, 'Segoe UI', sans-serif"
-        font-size="30"
-        fill="#1a5296">الذكاء الاصطناعي التوليدي</text>
-  <text x="232" y="873"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="'Segoe Print', 'Comic Sans MS', Arial, sans-serif"
-        font-size="29"
-        fill="#1a5296">Generative AI</text>
-
-  <line x1="540" y1="912" x2="540" y2="944" stroke="#cf3a34" stroke-width="4"/>
-  <polygon points="527,944 553,944 540,960" fill="#cf3a34"/>
-
-  <rect x="200" y="964" width="680" height="112" rx="14" fill="#f2faf4" stroke="#2f7a52" stroke-width="2.4"/>
-  <text x="540" y="1008"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Tahoma, Arial, 'Segoe UI', sans-serif"
-        font-size="30"
-        fill="#2f7a52">نصوص — صور — صوت — برامج</text>
-  <text x="540" y="1052"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="'Segoe Print', 'Comic Sans MS', Arial, sans-serif"
-        font-size="27"
-        fill="#152b42">Text — Images — Audio — Programs</text>
-
-  <g stroke="#2f7a52" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="306" y="1094" width="48" height="48" rx="6"/>
-    <line x1="318" y1="1110" x2="342" y2="1110"/>
-    <line x1="318" y1="1120" x2="342" y2="1120"/>
-    <line x1="318" y1="1130" x2="334" y2="1130"/>
-
-    <rect x="446" y="1094" width="48" height="48" rx="6"/>
-    <circle cx="461" cy="1109" r="5"/>
-    <polyline points="450,1136 468,1116 480,1128 490,1120"/>
-
-    <polygon points="594,1108 606,1108 618,1094 618,1142 606,1128 594,1128"/>
-    <path d="M626 1104 A 16 16 0 0 1 626 1132"/>
-    <path d="M634 1097 A 25 25 0 0 1 634 1139"/>
-
-    <rect x="726" y="1094" width="48" height="48" rx="6"/>
-    <line x1="726" y1="1106" x2="774" y2="1106"/>
-    <polyline points="744,1116 736,1124 744,1132"/>
-    <polyline points="758,1116 766,1124 758,1132"/>
-  </g>
-
+<text x="638" y="1132" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">أربع أرجل</text>
+<text x="318" y="1132" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">Four legs</text>
+<text x="638" y="1180" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">ذيل</text>
+<text x="318" y="1180" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">Tail</text>
+<text x="638" y="1228" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">أذنان</text>
+<text x="318" y="1228" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">Ears</text>
 </svg>

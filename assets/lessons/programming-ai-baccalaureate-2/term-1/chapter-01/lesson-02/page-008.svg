@@ -4,158 +4,212 @@
      viewBox="0 0 1080 1350"
      preserveAspectRatio="xMidYMid meet"
      style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-  <defs>
-    <linearGradient id="woodGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#9a6836"/>
-      <stop offset="50%" stop-color="#82552a"/>
-      <stop offset="100%" stop-color="#6a4522"/>
-    </linearGradient>
-    <linearGradient id="paperGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#fffdf6"/>
-      <stop offset="100%" stop-color="#faf5e8"/>
-    </linearGradient>
-  </defs>
+<!-- Illustration panels: shadows and fills -->
+<rect x="114" y="910" width="411" height="344" rx="18" fill="#22303f" opacity=".18"/>
+<rect x="559" y="910" width="411" height="344" rx="18" fill="#22303f" opacity=".18"/>
+<rect x="110" y="904" width="411" height="344" rx="18" fill="#dff1f7"/>
+<rect x="555" y="904" width="411" height="344" rx="18" fill="#dff1f7"/>
+<rect x="126" y="1200" width="379" height="30" rx="10" fill="#a9dcbe"/>
+<rect x="571" y="1200" width="379" height="30" rx="10" fill="#a9dcbe"/>
 
-  <!-- 1) الخلفية الخشبية البسيطة -->
-  <rect x="0" y="0" width="1080" height="1350" fill="url(#woodGrad)"/>
-  <path d="M0 250 C 260 210, 640 300, 1080 240" stroke="#5c3a1c" stroke-width="16" fill="none" opacity="0.14"/>
-  <path d="M0 1080 C 300 1130, 700 1030, 1080 1090" stroke="#5c3a1c" stroke-width="14" fill="none" opacity="0.12"/>
+<!-- Functional arrow: pile to computer -->
+<line x1="266" y1="1140" x2="290" y2="1140" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="288,1130 302,1140 288,1150" fill="#c0392b"/>
 
-  <!-- 2) ظل الورقة ثم الورقة -->
-  <rect x="42" y="40" width="1012" height="1290" rx="8" fill="#3a2412" opacity="0.28"/>
-  <rect x="34" y="30" width="1012" height="1290" rx="8" fill="url(#paperGrad)"/>
+<!-- Icon: shield beside the header -->
+<g transform="translate(122 100)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M 24 2 L 44 10 L 44 26 C 44 40, 34 48, 24 52 C 14 48, 4 40, 4 26 L 4 10 Z" fill="#2f7fb5"/>
+  <rect x="14" y="18" width="20" height="14" rx="2" fill="#ffffff"/>
+  <polyline points="14,18 24,26 34,18" fill="none"/>
+</g>
 
-  <!-- 3) سطور الكراسة الزرقاء الباهتة -->
-  <g stroke="#cfe0f0" stroke-width="1.6">
-    <line x1="70" y1="110"  x2="1010" y2="110"/>
-    <line x1="70" y1="150"  x2="1010" y2="150"/>
-    <line x1="70" y1="190"  x2="1010" y2="190"/>
-    <line x1="70" y1="230"  x2="1010" y2="230"/>
-    <line x1="70" y1="270"  x2="1010" y2="270"/>
-    <line x1="70" y1="310"  x2="1010" y2="310"/>
-    <line x1="70" y1="350"  x2="1010" y2="350"/>
-    <line x1="70" y1="390"  x2="1010" y2="390"/>
-    <line x1="70" y1="430"  x2="1010" y2="430"/>
-    <line x1="70" y1="470"  x2="1010" y2="470"/>
-    <line x1="70" y1="510"  x2="1010" y2="510"/>
-    <line x1="70" y1="550"  x2="1010" y2="550"/>
-    <line x1="70" y1="590"  x2="1010" y2="590"/>
-    <line x1="70" y1="630"  x2="1010" y2="630"/>
-    <line x1="70" y1="670"  x2="1010" y2="670"/>
-    <line x1="70" y1="710"  x2="1010" y2="710"/>
-    <line x1="70" y1="750"  x2="1010" y2="750"/>
-    <line x1="70" y1="790"  x2="1010" y2="790"/>
-    <line x1="70" y1="830"  x2="1010" y2="830"/>
-    <line x1="70" y1="870"  x2="1010" y2="870"/>
-    <line x1="70" y1="910"  x2="1010" y2="910"/>
-    <line x1="70" y1="950"  x2="1010" y2="950"/>
-    <line x1="70" y1="990"  x2="1010" y2="990"/>
-    <line x1="70" y1="1030" x2="1010" y2="1030"/>
-    <line x1="70" y1="1070" x2="1010" y2="1070"/>
-    <line x1="70" y1="1110" x2="1010" y2="1110"/>
-    <line x1="70" y1="1150" x2="1010" y2="1150"/>
+<!-- Thinking face beside paragraph 1 -->
+<g transform="translate(912 330)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Surprise face beside paragraph 2 -->
+<g transform="translate(912 520)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="0" cy="10" r="5" fill="#22303f"/>
+</g>
+
+<!-- Icon: chip beside paragraph 3 -->
+<g transform="translate(912 812)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="-7" y1="-20" x2="-7" y2="-14"/>
+  <line x1="7" y1="-20" x2="7" y2="-14"/>
+  <line x1="-7" y1="14" x2="-7" y2="20"/>
+  <line x1="7" y1="14" x2="7" y2="20"/>
+  <line x1="-20" y1="-7" x2="-14" y2="-7"/>
+  <line x1="-20" y1="7" x2="-14" y2="7"/>
+  <line x1="14" y1="-7" x2="20" y2="-7"/>
+  <line x1="14" y1="7" x2="20" y2="7"/>
+  <rect x="-14" y="-14" width="28" height="28" rx="5" fill="#8fc9f2"/>
+  <rect x="-7" y="-7" width="14" height="14" rx="2" fill="#17457f"/>
+</g>
+
+<!-- Right panel: rule gate fooled -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="835" y="980" width="12" height="12" fill="#7f95ab"/>
+  <rect x="786" y="920" width="110" height="62" rx="10" fill="#ffffff"/>
+  <rect x="802" y="936" width="44" height="30" rx="4" fill="#f0c48c"/>
+  <polyline points="802,936 824,954 846,936" fill="none"/>
+  <line x1="858" y1="936" x2="882" y2="964" stroke="#c0392b" stroke-width="3"/>
+  <line x1="882" y1="936" x2="858" y2="964" stroke="#c0392b" stroke-width="3"/>
+  <rect x="760" y="1010" width="22" height="200" rx="6" fill="#17457f"/>
+  <rect x="900" y="1010" width="22" height="200" rx="6" fill="#17457f"/>
+  <rect x="748" y="990" width="186" height="26" rx="8" fill="#2f7fb5"/>
+  <rect x="782" y="1090" width="118" height="16" rx="6" fill="#ffffff"/>
+  <rect x="796" y="1091" width="16" height="14" fill="#c0392b" stroke="none"/>
+  <rect x="832" y="1091" width="16" height="14" fill="#c0392b" stroke="none"/>
+  <rect x="868" y="1091" width="16" height="14" fill="#c0392b" stroke="none"/>
+  <line x1="800" y1="1150" x2="880" y2="1150" stroke="#8fc9f2" stroke-width="3"/>
+  <line x1="810" y1="1170" x2="886" y2="1170" stroke="#8fc9f2" stroke-width="3"/>
+  <line x1="800" y1="1190" x2="870" y2="1190" stroke="#8fc9f2" stroke-width="3"/>
+</g>
+<g transform="translate(668 1160) rotate(-8)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <ellipse cx="4" cy="40" rx="44" ry="6" fill="#22303f" stroke="none" opacity=".18"/>
+  <ellipse cx="-20" cy="34" rx="10" ry="5" fill="#c96a1b"/>
+  <ellipse cx="20" cy="34" rx="10" ry="5" fill="#c96a1b"/>
+  <rect x="-45" y="-30" width="90" height="60" rx="6" fill="#ffffff"/>
+  <polyline points="-45,-30 0,5 45,-30" fill="none"/>
+  <path d="M -40 -16 Q 0 -28 40 -16 L 38 2 Q 0 -8 -38 2 Z" fill="#22303f"/>
+  <ellipse cx="-16" cy="-9" rx="9" ry="6" fill="#ffffff" stroke="none"/>
+  <ellipse cx="16" cy="-9" rx="9" ry="6" fill="#ffffff" stroke="none"/>
+  <circle cx="-19" cy="-9" r="3" fill="#22303f" stroke="none"/>
+  <circle cx="13" cy="-9" r="3" fill="#22303f" stroke="none"/>
+  <path d="M -40 -10 L -52 -16 M -40 -6 L -50 -2" fill="none"/>
+</g>
+
+<!-- Left panel: pile of tagged envelopes -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="translate(170 1180) rotate(-6)">
+    <rect x="-30" y="-20" width="60" height="40" rx="4" fill="#ffffff"/>
+    <polyline points="-30,-20 0,2 30,-20" fill="none"/>
+    <line x1="24" y1="-20" x2="26" y2="-24"/>
+    <rect x="18" y="-36" width="16" height="12" rx="3" fill="#2e7d32"/>
   </g>
-
-  <!-- 4) الحد الأحمر الخارجي الوحيد -->
-  <rect x="67" y="66" width="946" height="1110" fill="none" stroke="#c62828" stroke-width="2.4"/>
-
-  <!-- 5) خلفيات صناديق النشاط ذات الحدود الخضراء -->
-  <rect x="96" y="212" width="888" height="471" rx="14" fill="#fdfbf3" stroke="#2e8b57" stroke-width="3"/>
-  <rect x="96" y="711" width="888" height="436" rx="14" fill="#fdfbf3" stroke="#2e8b57" stroke-width="3"/>
-
-  <!-- 6) أسطر الإجابة الفارغة -->
-  <g stroke="#a9bed4" stroke-width="1.6">
-    <line x1="130" y1="579"  x2="950" y2="579"/>
-    <line x1="130" y1="619"  x2="950" y2="619"/>
-    <line x1="130" y1="659"  x2="950" y2="659"/>
-    <line x1="130" y1="1043" x2="950" y2="1043"/>
-    <line x1="130" y1="1083" x2="950" y2="1083"/>
-    <line x1="130" y1="1123" x2="950" y2="1123"/>
+  <g transform="translate(225 1185) rotate(5)">
+    <rect x="-30" y="-20" width="60" height="40" rx="4" fill="#f0c48c"/>
+    <polyline points="-30,-20 0,2 30,-20" fill="none"/>
+    <line x1="24" y1="-20" x2="26" y2="-24"/>
+    <rect x="18" y="-36" width="16" height="12" rx="3" fill="#c0392b"/>
   </g>
+  <g transform="translate(195 1145) rotate(3)">
+    <rect x="-30" y="-20" width="60" height="40" rx="4" fill="#ffffff"/>
+    <polyline points="-30,-20 0,2 30,-20" fill="none"/>
+    <line x1="24" y1="-20" x2="26" y2="-24"/>
+    <rect x="18" y="-36" width="16" height="12" rx="3" fill="#c0392b"/>
+  </g>
+  <g transform="translate(160 1115) rotate(-10)">
+    <rect x="-30" y="-20" width="60" height="40" rx="4" fill="#f0c48c"/>
+    <polyline points="-30,-20 0,2 30,-20" fill="none"/>
+    <line x1="24" y1="-20" x2="26" y2="-24"/>
+    <rect x="18" y="-36" width="16" height="12" rx="3" fill="#2e7d32"/>
+  </g>
+  <g transform="translate(225 1110) rotate(8)">
+    <rect x="-30" y="-20" width="60" height="40" rx="4" fill="#ffffff"/>
+    <polyline points="-30,-20 0,2 30,-20" fill="none"/>
+    <line x1="24" y1="-20" x2="26" y2="-24"/>
+    <rect x="18" y="-36" width="16" height="12" rx="3" fill="#2e7d32"/>
+  </g>
+  <g transform="translate(195 1075) rotate(-4)">
+    <rect x="-30" y="-20" width="60" height="40" rx="4" fill="#f0c48c"/>
+    <polyline points="-30,-20 0,2 30,-20" fill="none"/>
+    <line x1="24" y1="-20" x2="26" y2="-24"/>
+    <rect x="18" y="-36" width="16" height="12" rx="3" fill="#c0392b"/>
+  </g>
+</g>
 
-  <!-- 7) النصوص التعليمية -->
+<!-- Left panel: computer, sorting arm, closed bin -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="346" y="1160" width="20" height="18" fill="#7f95ab"/>
+  <rect x="326" y="1176" width="60" height="10" rx="4" fill="#7f95ab"/>
+  <rect x="304" y="1080" width="104" height="80" rx="8" fill="#17457f"/>
+  <rect x="313" y="1090" width="86" height="60" rx="4" fill="#4fc3e8"/>
+  <line x1="333" y1="1130" x2="356" y2="1104" stroke="#17457f" stroke-width="2"/>
+  <line x1="356" y1="1104" x2="379" y2="1130" stroke="#17457f" stroke-width="2"/>
+  <line x1="333" y1="1130" x2="379" y2="1130" stroke="#17457f" stroke-width="2"/>
+  <circle cx="333" cy="1130" r="6" fill="#ffffff"/>
+  <circle cx="356" cy="1104" r="6" fill="#ffffff"/>
+  <circle cx="379" cy="1130" r="6" fill="#ffffff"/>
+  <rect x="388" y="985" width="14" height="97" fill="#7f95ab"/>
+  <rect x="388" y="978" width="94" height="14" fill="#7f95ab"/>
+  <circle cx="395" cy="985" r="9" fill="#c96a1b"/>
+  <circle cx="476" cy="985" r="9" fill="#c96a1b"/>
+  <rect x="470" y="992" width="12" height="18" fill="#7f95ab"/>
+  <path d="M 466 1010 L 460 1022 M 486 1010 L 492 1022" fill="none" stroke-width="3"/>
+  <line x1="446" y1="1030" x2="446" y2="1046" stroke="#8fc9f2" stroke-width="3"/>
+  <line x1="506" y1="1030" x2="506" y2="1046" stroke="#8fc9f2" stroke-width="3"/>
+  <polygon points="444,1110 504,1110 498,1200 450,1200" fill="#2f7fb5"/>
+  <line x1="462" y1="1122" x2="463" y2="1190" stroke="#17457f" stroke-width="2"/>
+  <line x1="474" y1="1122" x2="474" y2="1190" stroke="#17457f" stroke-width="2"/>
+  <line x1="486" y1="1122" x2="485" y2="1190" stroke="#17457f" stroke-width="2"/>
+  <rect x="462" y="1090" width="24" height="10" rx="4" fill="#17457f"/>
+  <rect x="436" y="1098" width="76" height="14" rx="5" fill="#17457f"/>
+</g>
+<g transform="translate(476 1054) rotate(10)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="-25" y="-17" width="50" height="34" rx="4" fill="#ffffff"/>
+  <polyline points="-25,-17 0,3 25,-17" fill="none"/>
+  <path d="M -22 -9 Q 0 -16 22 -9 L 21 2 Q 0 -4 -21 2 Z" fill="#22303f"/>
+  <ellipse cx="-9" cy="-5" rx="5" ry="3.5" fill="#ffffff" stroke="none"/>
+  <ellipse cx="9" cy="-5" rx="5" ry="3.5" fill="#ffffff" stroke="none"/>
+</g>
 
-  <!-- العنوان العربي -->
-  <text x="540"
-        y="132"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="54"
-        font-weight="bold"
-        fill="#1a4f8a">توقف وفكّر</text>
+<!-- Text -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">مثال: مرشح الرسائل المزعجة</text>
+<text x="120" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">Example: The spam filter</text>
 
-  <!-- العنوان الإنجليزي -->
-  <text x="540"
-        y="180"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="34"
-        fill="#152b42">Pause and Think</text>
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#17457f">بالقواعد:</tspan> «إذا وُجدت عبارة</tspan>
+  <tspan x="950" dy="40"><tspan fill="#c96a1b">"مبروك كسبت"</tspan> فالرسالة مزعجة».</tspan>
+</text>
+<text x="120" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">With <tspan font-weight="bold" fill="#17457f">rules:</tspan> "If the message contains</tspan>
+  <tspan x="120" dy="40"><tspan fill="#c96a1b">'Congrats, you won',</tspan> it is spam."</tspan>
+</text>
 
-  <!-- الصندوق الأول: الفقرة العربية -->
-  <text x="952"
-        y="256"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="28"
-        fill="#1c5fa8">
-    <tspan x="952" dy="0">تُعد مرشحات الرسائل المزعجة وأنظمة التوصية</tspan>
-    <tspan x="952" dy="37">بالمنتجات مثالين على التعلم الآلي، لكنهما يؤديان</tspan>
-    <tspan x="952" dy="37">مهمتين مختلفتين. من منظور طريقة عمل الذكاء</tspan>
-    <tspan x="952" dy="37">الاصطناعي، وضّح شيئًا واحدًا مشتركًا بين التطبيقين.</tspan>
-  </text>
+<text x="950" y="434" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">فيكتب المحتال <tspan fill="#c96a1b">«مبرووك كسـبت»،</tspan> <tspan font-weight="bold" fill="#17457f">وتمرّ رسالته!</tspan></tspan>
+</text>
+<text x="120" y="474" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">So the scammer writes</tspan>
+  <tspan x="120" dy="40"><tspan fill="#c96a1b">"Congratss, you wonn",</tspan> and the message</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#17457f">gets through!</tspan></tspan>
+</text>
 
-  <!-- الصندوق الأول: الفقرة الإنجليزية -->
-  <text x="128"
-        y="409"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27"
-        fill="#152b42">
-    <tspan x="128" dy="0">Spam filters and product recommendation systems</tspan>
-    <tspan x="128" dy="33">are both examples of machine learning, but they</tspan>
-    <tspan x="128" dy="33">perform different tasks. From the perspective of</tspan>
-    <tspan x="128" dy="33">how AI works, explain one thing these two</tspan>
-    <tspan x="128" dy="33">applications have in common.</tspan>
-  </text>
-
-  <!-- الصندوق الثاني: الفقرة العربية -->
-  <text x="952"
-        y="753"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="28"
-        fill="#1c5fa8">
-    <tspan x="952" dy="0">يحتاج التعلم العميق عادةً إلى بيانات كثيرة</tspan>
-    <tspan x="952" dy="37">ليتعلم الأنماط المعقدة. لماذا قد يواجه نظام</tspan>
-    <tspan x="952" dy="37">ذكاء اصطناعي صعوبة في التعامل مع شيء نادرًا</tspan>
-    <tspan x="952" dy="37">ما ظهر في بيانات التدريب<tspan fill="#c62828">؟</tspan></tspan>
-  </text>
-
-  <!-- الصندوق الثاني: الفقرة الإنجليزية -->
-  <text x="128"
-        y="906"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27"
-        fill="#152b42">
-    <tspan x="128" dy="0">Deep learning usually needs large amounts of</tspan>
-    <tspan x="128" dy="33">data to learn complex patterns. Why might an</tspan>
-    <tspan x="128" dy="33">AI system struggle with something that has</tspan>
-    <tspan x="128" dy="33">rarely appeared in its training data<tspan fill="#c62828">?</tspan></tspan>
-  </text>
-
+<text x="950" y="634" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">بالتعلّم:</tspan> نعطي النموذج آلاف الرسائل</tspan>
+  <tspan x="950" dy="40">المصنّفة <tspan fill="#c96a1b">«مزعجة» و«سليمة»،</tspan></tspan>
+  <tspan x="950" dy="40">فيلتقط <tspan font-weight="bold" fill="#2e7d32">أنماطًا</tspan> لم نكن لنكتبها بأيدينا.</tspan>
+</text>
+<text x="120" y="754" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">With <tspan font-weight="bold" fill="#c0392b">learning:</tspan> we give the model</tspan>
+  <tspan x="120" dy="40">thousands of messages labeled</tspan>
+  <tspan x="120" dy="40"><tspan fill="#c96a1b">"spam" or "not spam",</tspan> and it picks up</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#2e7d32">patterns</tspan> we could never write by hand.</tspan>
+</text>
 </svg>

@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilPanel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Info card -->
+<rect x="109" y="128" width="870" height="488" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="122" width="870" height="488" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="456" rx="3" fill="#2f7fb5"/>
+
+<!-- Warning card -->
+<rect x="109" y="648" width="870" height="128" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="642" width="870" height="128" rx="16" fill="#fdf1e2" stroke="#f0c48c" stroke-width="2"/>
+<rect x="961" y="658" width="6" height="96" rx="3" fill="#c96a1b"/>
+
+<!-- Icon: open book beside header -->
+<g transform="translate(370 150)" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M26 7 Q 15 0 2 3 L 2 31 Q 15 28 26 34 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M26 7 Q 37 0 50 3 L 50 31 Q 37 28 26 34 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="32" y1="13" x2="44" y2="11" stroke="#7f95ab" stroke-width="2.5"/>
+  <line x1="32" y1="21" x2="44" y2="19" stroke="#7f95ab" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: connected nodes inside info card -->
+<g transform="translate(860 470)" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="10" y1="40" x2="28" y2="10" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="28" y1="10" x2="46" y2="40" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="10" y1="40" x2="46" y2="40" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="28" cy="10" r="8" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="10" cy="40" r="8" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="46" cy="40" r="8" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: warning triangle inside warning card -->
+<g transform="translate(860 700)" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="28,4 54,50 2,50" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="25" y="18" width="6" height="18" rx="3" fill="#22303f"/>
+  <circle cx="28" cy="43" r="3.5" fill="#22303f"/>
+</g>
+
+<!-- Illustration panel -->
+<rect x="109" y="816" width="870" height="430" rx="24" fill="#22303f" opacity=".18"/>
+<rect x="105" y="810" width="870" height="430" rx="24" fill="url(#ilPanel)"/>
+
+<!-- Illustration: network of connected units in four columns -->
+<g stroke-linecap="round" stroke-linejoin="round">
+  <!-- Column 1 to column 2 -->
+  <line x1="840" y1="928" x2="640" y2="878" stroke="#17457f" stroke-width="3"/>
+  <line x1="840" y1="928" x2="640" y2="978" stroke="#2f7fb5" stroke-width="1.4" opacity=".6"/>
+  <line x1="840" y1="928" x2="640" y2="1078" stroke="#2f7fb5" stroke-width="2.4"/>
+  <line x1="840" y1="928" x2="640" y2="1178" stroke="#2f7fb5" stroke-width="1.4" opacity=".6"/>
+  <line x1="840" y1="1028" x2="640" y2="878" stroke="#2f7fb5" stroke-width="1.4" opacity=".6"/>
+  <polygon points="841,1024.1 641,974.1 639,981.9 839,1031.9" fill="#17457f"/>
+  <line x1="840" y1="1028" x2="640" y2="1078" stroke="#2f7fb5" stroke-width="2.4"/>
+  <line x1="840" y1="1028" x2="640" y2="1178" stroke="#2f7fb5" stroke-width="1.4" opacity=".6"/>
+  <line x1="840" y1="1128" x2="640" y2="878" stroke="#2f7fb5" stroke-width="1.4" opacity=".6"/>
+  <line x1="840" y1="1128" x2="640" y2="978" stroke="#2f7fb5" stroke-width="2.4"/>
+  <line x1="840" y1="1128" x2="640" y2="1078" stroke="#2f7fb5" stroke-width="1.4" opacity=".6"/>
+  <line x1="840" y1="1128" x2="640" y2="1178" stroke="#17457f" stroke-width="3"/>
+
+  <!-- Column 2 to column 3 -->
+  <line x1="640" y1="878" x2="440" y2="878" stroke="#2f7fb5" stroke-width="2.4"/>
+  <line x1="640" y1="878" x2="440" y2="978" stroke="#2f7fb5" stroke-width="1.4" opacity=".6"/>
+  <line x1="640" y1="878" x2="440" y2="1078" stroke="#2f7fb5" stroke-width="1.4" opacity=".6"/>
+  <line x1="640" y1="878" x2="440" y2="1178" stroke="#2f7fb5" stroke-width="1.4" opacity=".6"/>
+  <line x1="640" y1="978" x2="440" y2="878" stroke="#2f7fb5" stroke-width="1.4" opacity=".6"/>
+  <rect x="440" y="974" width="200" height="8" fill="#17457f"/>
+  <line x1="640" y1="978" x2="440" y2="1078" stroke="#2f7fb5" stroke-width="2.4"/>
+  <line x1="640" y1="978" x2="440" y2="1178" stroke="#2f7fb5" stroke-width="1.4" opacity=".6"/>
+  <line x1="640" y1="1078" x2="440" y2="878" stroke="#2f7fb5" stroke-width="1.4" opacity=".6"/>
+  <line x1="640" y1="1078" x2="440" y2="978" stroke="#2f7fb5" stroke-width="2.4"/>
+  <line x1="640" y1="1078" x2="440" y2="1078" stroke="#17457f" stroke-width="3"/>
+  <line x1="640" y1="1078" x2="440" y2="1178" stroke="#2f7fb5" stroke-width="1.4" opacity=".6"/>
+  <line x1="640" y1="1178" x2="440" y2="878" stroke="#2f7fb5" stroke-width="1.4" opacity=".6"/>
+  <line x1="640" y1="1178" x2="440" y2="978" stroke="#2f7fb5" stroke-width="1.4" opacity=".6"/>
+  <line x1="640" y1="1178" x2="440" y2="1078" stroke="#2f7fb5" stroke-width="2.4"/>
+  <line x1="640" y1="1178" x2="440" y2="1178" stroke="#17457f" stroke-width="3"/>
+
+  <!-- Column 3 to column 4 -->
+  <line x1="440" y1="878" x2="240" y2="978" stroke="#2f7fb5" stroke-width="2.4"/>
+  <line x1="440" y1="878" x2="240" y2="1078" stroke="#2f7fb5" stroke-width="1.4" opacity=".6"/>
+  <rect x="240" y="974" width="200" height="8" fill="#17457f"/>
+  <line x1="440" y1="978" x2="240" y2="1078" stroke="#2f7fb5" stroke-width="1.4" opacity=".6"/>
+  <line x1="440" y1="1078" x2="240" y2="978" stroke="#2f7fb5" stroke-width="1.4" opacity=".6"/>
+  <line x1="440" y1="1078" x2="240" y2="1078" stroke="#17457f" stroke-width="3"/>
+  <line x1="440" y1="1178" x2="240" y2="978" stroke="#2f7fb5" stroke-width="1.4" opacity=".6"/>
+  <line x1="440" y1="1178" x2="240" y2="1078" stroke="#2f7fb5" stroke-width="2.4"/>
+
+  <!-- Column 1 nodes -->
+  <circle cx="840" cy="928" r="20" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="840" cy="928" r="7" fill="#8fc9f2"/>
+  <circle cx="840" cy="1028" r="20" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="840" cy="1028" r="7" fill="#ffffff"/>
+  <circle cx="840" cy="1128" r="20" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="840" cy="1128" r="7" fill="#8fc9f2"/>
+
+  <!-- Column 2 nodes -->
+  <circle cx="640" cy="878" r="20" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="640" cy="878" r="7" fill="#ffffff"/>
+  <circle cx="640" cy="978" r="36" fill="#ffd24a" opacity=".35"/>
+  <circle cx="640" cy="978" r="22" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="640" cy="978" r="8" fill="#ffffff"/>
+  <circle cx="640" cy="1078" r="20" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="640" cy="1078" r="7" fill="#8fc9f2"/>
+  <circle cx="640" cy="1178" r="20" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="640" cy="1178" r="7" fill="#8fc9f2"/>
+
+  <!-- Column 3 nodes -->
+  <circle cx="440" cy="878" r="20" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="440" cy="878" r="7" fill="#8fc9f2"/>
+  <circle cx="440" cy="978" r="36" fill="#ffd24a" opacity=".35"/>
+  <circle cx="440" cy="978" r="22" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="440" cy="978" r="8" fill="#ffffff"/>
+  <circle cx="440" cy="1078" r="20" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="440" cy="1078" r="7" fill="#ffffff"/>
+  <circle cx="440" cy="1178" r="20" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="440" cy="1178" r="7" fill="#8fc9f2"/>
+
+  <!-- Column 4 nodes -->
+  <circle cx="240" cy="978" r="36" fill="#ffd24a" opacity=".35"/>
+  <circle cx="240" cy="978" r="22" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="240" cy="978" r="8" fill="#ffffff"/>
+  <circle cx="240" cy="1078" r="20" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="240" cy="1078" r="7" fill="#8fc9f2"/>
+</g>
+
+<!-- Info card header -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">مصطلحات أساسية</tspan>
+</text>
+<text x="140" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">KEY TERMS</tspan>
+</text>
+
+<!-- Info card term -->
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">الشبكة العصبية</tspan></tspan>
+  <tspan x="935" dy="40"><tspan font-weight="bold" fill="#c0392b">الاصطناعية Artificial Neural Network (ANN)</tspan></tspan>
+  <tspan x="935" dy="40">— نموذج حاسوبي مستوحى بصورة مبسطة من ترابط</tspan>
+  <tspan x="935" dy="40">الخلايا العصبية، من وحدات متصلة في طبقات</tspan>
+  <tspan x="935" dy="40">تتغير أوزانها أثناء التدريب.</tspan>
+</text>
+<text x="140" y="434" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Artificial neural network (ANN)</tspan> —</tspan>
+  <tspan x="140" dy="40">a computer model loosely inspired by</tspan>
+  <tspan x="140" dy="40">connected nerve cells, made of units</tspan>
+  <tspan x="140" dy="40">connected in layers whose weights</tspan>
+  <tspan x="140" dy="40">change during training.</tspan>
+</text>
+
+<!-- Warning card text -->
+<text x="935" y="674" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">انتبه:</tspan> مستوحاة من الدماغ، وليست نسخة منه.</tspan>
+</text>
+<text x="140" y="714" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Note:</tspan> it is inspired by the brain;</tspan>
+  <tspan x="140" dy="40">it is not a copy of it.</tspan>
+</text>
+</svg>

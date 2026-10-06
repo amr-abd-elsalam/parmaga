@@ -4,208 +4,164 @@
      viewBox="0 0 1080 1350"
      preserveAspectRatio="xMidYMid meet"
      style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+<defs>
+  <linearGradient id="ilShirt" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+  <linearGradient id="ilDeskTop" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#f0c48c"/>
+    <stop offset="1" stop-color="#c96a1b"/>
+  </linearGradient>
+</defs>
 
-  <defs>
-    <linearGradient id="woodGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#b58054"/>
-      <stop offset="0.55" stop-color="#a06e44"/>
-      <stop offset="1" stop-color="#8a5a34"/>
-    </linearGradient>
-    <linearGradient id="paperGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fefcf5"/>
-      <stop offset="1" stop-color="#faf5e8"/>
-    </linearGradient>
-    <filter id="softBlur" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="9"/>
-    </filter>
-  </defs>
+<!-- Illustration shadows -->
+<polygon points="234,1046 854,1046 884,1110 204,1110" fill="#22303f" opacity=".18"/>
+<rect x="204" y="1110" width="680" height="26" fill="#22303f" opacity=".18"/>
 
-  <rect x="0" y="0" width="1080" height="1350" fill="url(#woodGrad)"/>
-  <path d="M0 210 C 300 170, 760 260, 1080 200" fill="none" stroke="#7d4f2c" stroke-width="16" opacity="0.12"/>
-  <path d="M0 1120 C 340 1180, 720 1060, 1080 1140" fill="none" stroke="#6f4526" stroke-width="14" opacity="0.10"/>
+<!-- Bullets -->
+<circle cx="966" cy="224" r="6" fill="#c0392b"/>
+<circle cx="114" cy="304" r="6" fill="#c0392b"/>
+<circle cx="966" cy="384" r="6" fill="#c0392b"/>
+<circle cx="114" cy="464" r="6" fill="#c0392b"/>
+<circle cx="966" cy="584" r="6" fill="#c0392b"/>
+<circle cx="114" cy="664" r="6" fill="#c0392b"/>
 
-  <rect x="44" y="44" width="1010" height="1288" rx="8" fill="#4d3018" opacity="0.38" filter="url(#softBlur)"/>
-  <rect x="34" y="30" width="1012" height="1290" rx="6" fill="url(#paperGrad)"/>
+<!-- Illustration: student solving the exam calmly -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Light bulb above the head -->
+  <line x1="540" y1="780" x2="540" y2="786"/>
+  <line x1="512" y1="792" x2="506" y2="786"/>
+  <line x1="568" y1="792" x2="574" y2="786"/>
+  <circle cx="540" cy="810" r="20" fill="#ffd24a"/>
+  <rect x="532" y="828" width="16" height="10" rx="3" fill="#8fc9f2"/>
 
-  <g stroke="#cfe0f0" stroke-width="1.6">
-    <line x1="88" y1="132" x2="992" y2="132"/>
-    <line x1="88" y1="168" x2="992" y2="168"/>
-    <line x1="88" y1="204" x2="992" y2="204"/>
-    <line x1="88" y1="240" x2="992" y2="240"/>
-    <line x1="88" y1="276" x2="992" y2="276"/>
-    <line x1="88" y1="312" x2="992" y2="312"/>
-    <line x1="88" y1="348" x2="992" y2="348"/>
-    <line x1="88" y1="384" x2="992" y2="384"/>
-    <line x1="88" y1="420" x2="992" y2="420"/>
-    <line x1="88" y1="456" x2="992" y2="456"/>
-    <line x1="88" y1="492" x2="992" y2="492"/>
-    <line x1="88" y1="528" x2="992" y2="528"/>
-    <line x1="88" y1="564" x2="992" y2="564"/>
-    <line x1="88" y1="600" x2="992" y2="600"/>
-    <line x1="88" y1="636" x2="992" y2="636"/>
-    <line x1="88" y1="672" x2="992" y2="672"/>
-    <line x1="88" y1="708" x2="992" y2="708"/>
-    <line x1="88" y1="744" x2="992" y2="744"/>
-    <line x1="88" y1="780" x2="992" y2="780"/>
-    <line x1="88" y1="816" x2="992" y2="816"/>
-    <line x1="88" y1="852" x2="992" y2="852"/>
-    <line x1="88" y1="888" x2="992" y2="888"/>
-    <line x1="88" y1="924" x2="992" y2="924"/>
-    <line x1="88" y1="960" x2="992" y2="960"/>
-    <line x1="88" y1="996" x2="992" y2="996"/>
-    <line x1="88" y1="1032" x2="992" y2="1032"/>
-    <line x1="88" y1="1068" x2="992" y2="1068"/>
-    <line x1="88" y1="1104" x2="992" y2="1104"/>
-    <line x1="88" y1="1140" x2="992" y2="1140"/>
+  <!-- Torso and collar -->
+  <path d="M440 1040 Q440 966 492 952 L588 952 Q640 966 640 1040 Z" fill="url(#ilShirt)"/>
+  <polygon points="520,952 540,978 560,952" fill="#ffffff"/>
+  <rect x="528" y="936" width="24" height="18" fill="#e8b98d"/>
+
+  <!-- Head -->
+  <circle cx="496" cy="902" r="8" fill="#e8b98d"/>
+  <circle cx="584" cy="902" r="8" fill="#e8b98d"/>
+  <circle cx="540" cy="900" r="44" fill="#e8b98d"/>
+  <path d="M496 892 Q498 846 540 846 Q582 846 584 892 Q572 868 540 866 Q508 868 496 892 Z" fill="#2b211c"/>
+  <circle cx="526" cy="898" r="3.5" fill="#22303f" stroke="none"/>
+  <circle cx="554" cy="898" r="3.5" fill="#22303f" stroke="none"/>
+  <path d="M526 915 Q540 927 554 915" fill="none" stroke-width="3"/>
+
+  <!-- Desk -->
+  <polygon points="230,1040 850,1040 880,1104 200,1104" fill="url(#ilDeskTop)"/>
+  <rect x="200" y="1104" width="680" height="26" fill="#c96a1b"/>
+  <rect x="222" y="1130" width="26" height="98" fill="#c96a1b"/>
+  <rect x="832" y="1130" width="26" height="98" fill="#c96a1b"/>
+
+  <!-- Exam sheet -->
+  <polygon points="400,1046 680,1046 700,1098 380,1098" fill="#ffffff"/>
+  <line x1="414" y1="1060" x2="560" y2="1060" stroke="#8fc9f2" stroke-width="2"/>
+  <line x1="410" y1="1072" x2="556" y2="1072" stroke="#8fc9f2" stroke-width="2"/>
+  <line x1="406" y1="1084" x2="540" y2="1084" stroke="#8fc9f2" stroke-width="2"/>
+
+  <!-- House doodle in the margin -->
+  <polygon points="610,1066 635,1052 660,1066" fill="#ffffff" stroke="#2f7fb5" stroke-width="2"/>
+  <rect x="614" y="1066" width="42" height="26" fill="#ffffff" stroke="#2f7fb5" stroke-width="2"/>
+  <rect x="619" y="1070" width="32" height="19" fill="#8fc9f2" stroke="#2f7fb5" stroke-width="1.4"/>
+  <rect x="627" y="1072" width="16" height="16" fill="#f0c48c" stroke="#2f7fb5" stroke-width="1.4"/>
+  <rect x="630" y="1081" width="10" height="5" fill="#ffd24a" stroke="#2f7fb5" stroke-width="1.4"/>
+
+  <!-- Arms -->
+  <polygon points="466,970 440,990 360,1062 380,1080" fill="url(#ilShirt)"/>
+  <polygon points="614,970 640,990 606,1080 580,1070" fill="url(#ilShirt)"/>
+
+  <!-- Pencil -->
+  <g transform="translate(590 1082) rotate(35)">
+    <rect x="-5" y="-50" width="10" height="44" fill="#ffd24a"/>
+    <rect x="-5" y="-56" width="10" height="8" fill="#f0c48c"/>
+    <polygon points="-5,-6 5,-6 0,6" fill="#ffffff"/>
   </g>
 
-  <rect x="67" y="70" width="946" height="1232" fill="none" stroke="#c8322f" stroke-width="2.5"/>
+  <!-- Hands -->
+  <circle cx="370" cy="1072" r="12" fill="#e8b98d"/>
+  <circle cx="590" cy="1076" r="12" fill="#e8b98d"/>
+</g>
 
-  <g stroke="#9aa4ae" stroke-width="1.4" opacity="0.75">
-    <line x1="225" y1="924" x2="435" y2="924"/>
-    <line x1="225" y1="924" x2="435" y2="972"/>
-    <line x1="225" y1="924" x2="435" y2="1020"/>
-    <line x1="225" y1="924" x2="435" y2="1068"/>
-    <line x1="225" y1="972" x2="435" y2="924"/>
-    <line x1="225" y1="972" x2="435" y2="972"/>
-    <line x1="225" y1="972" x2="435" y2="1020"/>
-    <line x1="225" y1="972" x2="435" y2="1068"/>
-    <line x1="225" y1="1020" x2="435" y2="924"/>
-    <line x1="225" y1="1020" x2="435" y2="972"/>
-    <line x1="225" y1="1020" x2="435" y2="1020"/>
-    <line x1="225" y1="1020" x2="435" y2="1068"/>
-    <line x1="225" y1="1068" x2="435" y2="924"/>
-    <line x1="225" y1="1068" x2="435" y2="972"/>
-    <line x1="225" y1="1068" x2="435" y2="1020"/>
-    <line x1="225" y1="1068" x2="435" y2="1068"/>
-    <line x1="435" y1="924" x2="645" y2="924"/>
-    <line x1="435" y1="924" x2="645" y2="972"/>
-    <line x1="435" y1="924" x2="645" y2="1020"/>
-    <line x1="435" y1="924" x2="645" y2="1068"/>
-    <line x1="435" y1="972" x2="645" y2="924"/>
-    <line x1="435" y1="972" x2="645" y2="972"/>
-    <line x1="435" y1="972" x2="645" y2="1020"/>
-    <line x1="435" y1="972" x2="645" y2="1068"/>
-    <line x1="435" y1="1020" x2="645" y2="924"/>
-    <line x1="435" y1="1020" x2="645" y2="972"/>
-    <line x1="435" y1="1020" x2="645" y2="1020"/>
-    <line x1="435" y1="1020" x2="645" y2="1068"/>
-    <line x1="435" y1="1068" x2="645" y2="924"/>
-    <line x1="435" y1="1068" x2="645" y2="972"/>
-    <line x1="435" y1="1068" x2="645" y2="1020"/>
-    <line x1="435" y1="1068" x2="645" y2="1068"/>
-    <line x1="645" y1="924" x2="855" y2="972"/>
-    <line x1="645" y1="924" x2="855" y2="1020"/>
-    <line x1="645" y1="972" x2="855" y2="972"/>
-    <line x1="645" y1="972" x2="855" y2="1020"/>
-    <line x1="645" y1="1020" x2="855" y2="972"/>
-    <line x1="645" y1="1020" x2="855" y2="1020"/>
-    <line x1="645" y1="1068" x2="855" y2="972"/>
-    <line x1="645" y1="1068" x2="855" y2="1020"/>
+<!-- Icons and face -->
+<g transform="translate(130 100) scale(0.8)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="rotate(45 28 28)">
+    <rect x="20" y="6" width="16" height="34" fill="#ffd24a"/>
+    <rect x="20" y="0" width="16" height="8" fill="#f0c48c"/>
+    <polygon points="20,40 36,40 28,54" fill="#e8dfd1"/>
+    <polygon points="25.5,49 30.5,49 28,54" fill="#22303f"/>
   </g>
+</g>
+<g transform="translate(150 870)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="28,4 33.9,19.9 50.8,20.6 37.5,31.1 42.1,47.4 28,38 13.9,47.4 18.5,31.1 5.2,20.6 22.1,19.9" fill="#ffd24a"/>
+</g>
+<g transform="translate(150 960)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="14" y="4" width="30" height="38" fill="#dff1f7"/>
+  <rect x="8" y="12" width="30" height="40" fill="#ffffff"/>
+  <line x1="14" y1="24" x2="32" y2="24" stroke="#7f95ab"/>
+  <line x1="14" y1="32" x2="32" y2="32" stroke="#7f95ab"/>
+  <line x1="14" y1="40" x2="32" y2="40" stroke="#7f95ab"/>
+</g>
+<g transform="translate(860 870)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="10" y="26" width="36" height="26" fill="#dff1f7"/>
+  <polygon points="28,6 4,26 52,26" fill="#17457f"/>
+  <rect x="23" y="36" width="10" height="16" fill="#c96a1b"/>
+</g>
+<g transform="translate(888 990)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" stroke="#22303f" stroke-width="3" fill="none" stroke-linecap="round"/>
+</g>
 
-  <g fill="#e8862a" stroke="#b46318" stroke-width="2">
-    <circle cx="225" cy="924" r="16"/>
-    <circle cx="225" cy="972" r="16"/>
-    <circle cx="225" cy="1020" r="16"/>
-    <circle cx="225" cy="1068" r="16"/>
-  </g>
+<!-- Text -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">استخدم البيت في الامتحان</text>
+<text x="120" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">Use the house in the exam</text>
 
-  <g fill="#2f6fb5" stroke="#1d4a80" stroke-width="2">
-    <circle cx="435" cy="924" r="16"/>
-    <circle cx="435" cy="972" r="16"/>
-    <circle cx="435" cy="1020" r="16"/>
-    <circle cx="435" cy="1068" r="16"/>
-    <circle cx="645" cy="924" r="16"/>
-    <circle cx="645" cy="972" r="16"/>
-    <circle cx="645" cy="1020" r="16"/>
-    <circle cx="645" cy="1068" r="16"/>
-  </g>
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">«الذكاء الاصطناعي والتعلّم الآلي لهما</tspan>
+  <tspan x="950" dy="40">المعنى نفسه» ×، فالبيت ليس الأوضة.</tspan>
+</text>
+<text x="132" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">"AI and machine learning have the same</tspan>
+  <tspan x="132" dy="40">meaning" ×: the house is not the room.</tspan>
+</text>
 
-  <g fill="#2f8b57" stroke="#1e6340" stroke-width="2">
-    <circle cx="855" cy="972" r="18"/>
-    <circle cx="855" cy="1020" r="18"/>
-  </g>
+<text x="950" y="394" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">«التعلم العميق مختلف تمامًا عن التعلّم</tspan>
+  <tspan x="950" dy="40">الآلي» ×، فالدولاب داخل الأوضة.</tspan>
+</text>
+<text x="132" y="474" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">"Deep learning is completely different</tspan>
+  <tspan x="132" dy="40">from machine learning" ×: the closet</tspan>
+  <tspan x="132" dy="40">is inside the room.</tspan>
+</text>
 
-  <text x="960"
-        y="132"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="44"
-        font-weight="bold"
-        fill="#1a4a80">
-    <tspan x="960" dy="0">التعلم العميق والشبكات العصبية</tspan>
-  </text>
-
-  <text x="118"
-        y="204"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="34"
-        fill="#14314f">
-    <tspan x="118" dy="0">Deep Learning and Neural Networks</tspan>
-  </text>
-
-  <text x="960"
-        y="276"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        fill="#1f5f9e">
-    <tspan x="960" dy="0">التعلم العميق Deep Learning (DL) تقنية متقدمة</tspan>
-    <tspan x="960" dy="36">ضمن التعلم الآلي، تستخدم الشبكات العصبية لتعلم</tspan>
-    <tspan x="960" dy="36">أنماط معقدة من بيانات واسعة النطاق. والشبكة</tspan>
-    <tspan x="960" dy="36">العصبية الاصطناعية Artificial Neural Network (ANN)</tspan>
-    <tspan x="960" dy="36">نموذج حاسوبي مستوحى بصورة مبسطة من ترابط</tspan>
-    <tspan x="960" dy="36">الخلايا العصبية، ويتكون من وحدات مترابطة تتعلم</tspan>
-    <tspan x="960" dy="36">من البيانات وتدعم إصدار أحكام معقدة.</tspan>
-  </text>
-
-  <text x="118"
-        y="564"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="29"
-        fill="#152b42">
-    <tspan x="118" dy="0">Deep Learning (DL) is an advanced technology</tspan>
-    <tspan x="118" dy="36">within machine learning that uses neural</tspan>
-    <tspan x="118" dy="36">networks to learn complex patterns from</tspan>
-    <tspan x="118" dy="36">large-scale data. An Artificial Neural</tspan>
-    <tspan x="118" dy="36">Network (ANN) is a computational model</tspan>
-    <tspan x="118" dy="36">inspired by a simplified view of connected</tspan>
-    <tspan x="118" dy="36">nerve cells. It consists of connected units</tspan>
-    <tspan x="118" dy="36">that learn from data and support complex</tspan>
-    <tspan x="118" dy="36">judgments.</tspan>
-  </text>
-
-  <text x="540"
-        y="1116"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        fill="#1a4a80">
-    <tspan x="540" dy="0">شبكة عصبية مبسطة</tspan>
-  </text>
-
-  <text x="540"
-        y="1152"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27"
-        fill="#152b42">
-    <tspan x="540" dy="0">Simplified Neural Network</tspan>
-  </text>
-
+<text x="950" y="594" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">الترتيب الصحيح يبدأ بالأكبر: ذكاء اصطناعي &gt;</tspan>
+  <tspan x="950" dy="40">تعلّم آلي &gt; تعلّم عميق &gt; توليدي.</tspan>
+</text>
+<text x="132" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">The correct order starts with the</tspan>
+  <tspan x="132" dy="40">biggest: AI &gt; machine learning &gt;</tspan>
+  <tspan x="132" dy="40">deep learning &gt; generative AI.</tspan>
+</text>
 </svg>

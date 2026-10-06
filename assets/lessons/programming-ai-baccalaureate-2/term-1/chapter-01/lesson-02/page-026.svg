@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Shadows -->
+<rect x="109" y="128" width="870" height="728" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="204" y="906" width="240" height="140" rx="8" fill="#22303f" opacity=".18"/>
+<rect x="204" y="1106" width="240" height="140" rx="8" fill="#22303f" opacity=".18"/>
+<g transform="translate(4 6)">
+  <path d="M 710 920 H 850 Q 870 920 870 940 V 980 Q 870 1000 850 1000 H 845 L 865 1030 L 815 1000 H 710 Q 690 1000 690 980 V 940 Q 690 920 710 920 Z" fill="#22303f" opacity=".18"/>
+  <path d="M 672 1105 H 878 Q 900 1105 900 1127 V 1183 Q 900 1205 878 1205 H 870 L 892 1238 L 835 1205 H 672 Q 650 1205 650 1183 V 1127 Q 650 1105 672 1105 Z" fill="#22303f" opacity=".18"/>
+</g>
+
+<!-- Info card -->
+<rect x="105" y="122" width="870" height="728" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="696" rx="3" fill="#2f7fb5"/>
+
+<!-- Icon: open book beside the card header -->
+<g transform="translate(560 126)">
+  <path d="M 24 10 Q 12 2 2 6 L 2 42 Q 12 38 24 46 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 24 10 Q 36 2 46 6 L 46 42 Q 36 38 24 46 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="24" y1="10" x2="24" y2="46" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Arrows -->
+<line x1="672" y1="965" x2="478" y2="965" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="462,965 478,957 478,973" fill="#c0392b"/>
+<line x1="632" y1="1165" x2="478" y2="1165" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="462,1165 478,1157 478,1173" fill="#c0392b"/>
+
+<!-- Top row: short scribbled speech bubble -->
+<g>
+  <path d="M 710 920 H 850 Q 870 920 870 940 V 980 Q 870 1000 850 1000 H 845 L 865 1030 L 815 1000 H 710 Q 690 1000 690 980 V 940 Q 690 920 710 920 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 712 958 q 10 -18 20 0 t 20 0 t 20 0 t 20 0" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 800 950 C 820 935, 830 985, 845 960 S 820 945, 850 972" fill="none" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Top row: messy tangled drawing -->
+<g>
+  <rect x="200" y="900" width="240" height="140" rx="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 225 990 C 250 910, 300 1030, 320 950 S 390 1010, 360 930 S 260 1010, 300 1000" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 330 1020 C 420 1000, 250 940, 410 925 S 300 990, 420 1010" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 240 930 L 280 1015 L 300 925 L 345 1018 L 380 940" fill="none" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="395" cy="975" r="9" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Bottom row: neat speech bubble with tidy lines -->
+<g>
+  <path d="M 672 1105 H 878 Q 900 1105 900 1127 V 1183 Q 900 1205 878 1205 H 870 L 892 1238 L 835 1205 H 672 Q 650 1205 650 1183 V 1127 Q 650 1105 672 1105 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="674" y="1125" width="200" height="10" rx="5" fill="#2f7fb5"/>
+  <rect x="674" y="1147" width="170" height="10" rx="5" fill="#8fc9f2"/>
+  <rect x="674" y="1169" width="190" height="10" rx="5" fill="#8fc9f2"/>
+  <rect x="674" y="1187" width="120" height="10" rx="5" fill="#a9dcbe"/>
+</g>
+
+<!-- Bottom row: clean organized drawing with a green check -->
+<g>
+  <rect x="200" y="1100" width="240" height="140" rx="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="216" y="1116" width="208" height="22" rx="6" fill="#17457f"/>
+  <rect x="216" y="1150" width="60" height="44" rx="6" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="290" y="1150" width="60" height="44" rx="6" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="364" y="1150" width="60" height="44" rx="6" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="216" y="1206" width="150" height="9" rx="4" fill="#8fc9f2"/>
+  <rect x="216" y="1220" width="100" height="9" rx="4" fill="#8fc9f2"/>
+  <circle cx="430" cy="1104" r="22" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 419 1104 L 427 1112 L 442 1096" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Faces: thinking beside the vague row, smile beside the clear row -->
+<g transform="translate(150 970)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+<g transform="translate(150 1170)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Text: info card header -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">مصطلحات أساسية</text>
+<text x="140" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">KEY TERMS</text>
+
+<!-- Text: paragraph 1 -->
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">النموذج اللغوي الكبير</tspan> Large Language Model</tspan>
+  <tspan x="935" dy="40">(LLM) — نموذج توليدي دُرِّب على نصوص هائلة،</tspan>
+  <tspan x="935" dy="40">ويولّد النص <tspan font-weight="bold" fill="#17457f">بالتنبؤ بالكلمة التالية،</tspan></tspan>
+  <tspan x="935" dy="40">وعليه بُني ChatGPT.</tspan>
+</text>
+<text x="140" y="394" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Large language model (LLM)</tspan> —</tspan>
+  <tspan x="140" dy="40">a generative model trained on huge</tspan>
+  <tspan x="140" dy="40">amounts of text that generates text</tspan>
+  <tspan x="140" dy="40">by <tspan font-weight="bold" fill="#17457f">predicting the next word;</tspan> ChatGPT</tspan>
+  <tspan x="140" dy="40">is built on one.</tspan>
+</text>
+
+<!-- Text: paragraph 2 -->
+<text x="935" y="634" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">الطلب</tspan> Prompt — التعليمات التي تكتبها</tspan>
+  <tspan x="935" dy="40">للنظام التوليدي؛ كلما كان <tspan font-weight="bold" fill="#17457f">أوضح،</tspan></tspan>
+  <tspan x="935" dy="40">كانت <tspan font-weight="bold" fill="#2e7d32">النتيجة أفضل.</tspan></tspan>
+</text>
+<text x="140" y="754" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Prompt</tspan> — the instructions you write</tspan>
+  <tspan x="140" dy="40">to a generative system; the <tspan font-weight="bold" fill="#17457f">clearer</tspan></tspan>
+  <tspan x="140" dy="40">it is, <tspan font-weight="bold" fill="#2e7d32">the better the result.</tspan></tspan>
+</text>
+</svg>

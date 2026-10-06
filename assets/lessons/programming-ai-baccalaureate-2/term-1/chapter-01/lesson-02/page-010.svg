@@ -4,182 +4,201 @@
      viewBox="0 0 1080 1350"
      preserveAspectRatio="xMidYMid meet"
      style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-  <defs>
-    <linearGradient id="deskWood" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#b8834f"/>
-      <stop offset="0.55" stop-color="#a06d3d"/>
-      <stop offset="1" stop-color="#87582f"/>
-    </linearGradient>
-    <linearGradient id="paperTone" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fffdf6"/>
-      <stop offset="1" stop-color="#faf5e8"/>
-    </linearGradient>
-  </defs>
+<!-- Info card: shadow, fill, accent -->
+<rect x="109" y="128" width="870" height="408" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="122" width="870" height="408" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="376" rx="3" fill="#2f7fb5"/>
 
-  <rect x="0" y="0" width="1080" height="1350" fill="url(#deskWood)"/>
-  <path d="M0 250 C 300 210, 780 300, 1080 245" fill="none" stroke="#6f4523" stroke-width="16" opacity=".13"/>
-  <path d="M0 1080 C 320 1130, 760 1035, 1080 1090" fill="none" stroke="#6f4523" stroke-width="14" opacity=".11"/>
+<!-- Key sentence strip -->
+<rect x="109" y="568" width="870" height="168" rx="10" fill="#22303f" opacity=".12"/>
+<rect x="105" y="562" width="870" height="168" rx="10" fill="#fdf6d8"/>
+<rect x="961" y="578" width="6" height="136" rx="3" fill="#e0a55e"/>
 
-  <rect x="41" y="37" width="1012" height="1294" rx="8" fill="#3b2413" opacity=".22"/>
-  <rect x="34" y="28" width="1012" height="1294" rx="8" fill="url(#paperTone)"/>
+<!-- Illustration panels: shadows and fills -->
+<rect x="109" y="774" width="420" height="470" rx="18" fill="#22303f" opacity=".18"/>
+<rect x="559" y="774" width="420" height="470" rx="18" fill="#22303f" opacity=".18"/>
+<rect x="105" y="768" width="420" height="470" rx="18" fill="#dff1f7"/>
+<rect x="555" y="768" width="420" height="470" rx="18" fill="#dff1f7"/>
+<rect x="121" y="1206" width="388" height="20" rx="10" fill="#e8dfd1"/>
+<rect x="571" y="1206" width="388" height="20" rx="10" fill="#a9dcbe"/>
 
-  <g stroke="#cfe0f2" stroke-width="1.2">
-    <line x1="75" y1="180" x2="1005" y2="180"/>
-    <line x1="75" y1="220" x2="1005" y2="220"/>
-    <line x1="75" y1="260" x2="1005" y2="260"/>
-    <line x1="75" y1="300" x2="1005" y2="300"/>
-    <line x1="75" y1="340" x2="1005" y2="340"/>
-    <line x1="75" y1="380" x2="1005" y2="380"/>
-    <line x1="75" y1="420" x2="1005" y2="420"/>
-    <line x1="75" y1="460" x2="1005" y2="460"/>
-    <line x1="75" y1="500" x2="1005" y2="500"/>
-    <line x1="75" y1="540" x2="1005" y2="540"/>
-    <line x1="75" y1="580" x2="1005" y2="580"/>
-    <line x1="75" y1="620" x2="1005" y2="620"/>
-    <line x1="75" y1="660" x2="1005" y2="660"/>
-    <line x1="75" y1="700" x2="1005" y2="700"/>
-    <line x1="75" y1="740" x2="1005" y2="740"/>
-    <line x1="75" y1="780" x2="1005" y2="780"/>
-    <line x1="75" y1="820" x2="1005" y2="820"/>
-    <line x1="75" y1="860" x2="1005" y2="860"/>
-    <line x1="75" y1="900" x2="1005" y2="900"/>
-    <line x1="75" y1="940" x2="1005" y2="940"/>
-    <line x1="75" y1="980" x2="1005" y2="980"/>
-    <line x1="75" y1="1020" x2="1005" y2="1020"/>
-    <line x1="75" y1="1060" x2="1005" y2="1060"/>
-    <line x1="75" y1="1100" x2="1005" y2="1100"/>
-    <line x1="75" y1="1140" x2="1005" y2="1140"/>
+<!-- Icon: open book beside the card header -->
+<g transform="translate(500 136)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M 28 8 C 20 2, 8 2, 2 6 L 2 40 C 8 36, 20 36, 28 42 Z" fill="#ffffff"/>
+  <path d="M 28 8 C 36 2, 48 2, 54 6 L 54 40 C 48 36, 36 36, 28 42 Z" fill="#8fc9f2"/>
+  <line x1="9" y1="16" x2="21" y2="16" stroke-width="2"/>
+  <line x1="9" y1="24" x2="21" y2="24" stroke-width="2"/>
+  <line x1="35" y1="16" x2="47" y2="16" stroke-width="2"/>
+  <line x1="35" y1="24" x2="47" y2="24" stroke-width="2"/>
+</g>
+
+<!-- Icon: document stack beside paragraph 1 -->
+<g transform="translate(866 298)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="10" y="0" width="30" height="38" rx="3" fill="#f0c48c"/>
+  <rect x="2" y="6" width="30" height="38" rx="3" fill="#ffffff"/>
+  <line x1="9" y1="17" x2="25" y2="17" stroke-width="2"/>
+  <line x1="9" y1="25" x2="25" y2="25" stroke-width="2"/>
+  <line x1="9" y1="33" x2="20" y2="33" stroke-width="2"/>
+</g>
+
+<!-- Icon: chip beside paragraph 2 -->
+<g transform="translate(890 486)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="-7" y1="-20" x2="-7" y2="-14"/>
+  <line x1="7" y1="-20" x2="7" y2="-14"/>
+  <line x1="-7" y1="14" x2="-7" y2="20"/>
+  <line x1="7" y1="14" x2="7" y2="20"/>
+  <line x1="-20" y1="-7" x2="-14" y2="-7"/>
+  <line x1="-20" y1="7" x2="-14" y2="7"/>
+  <line x1="14" y1="-7" x2="20" y2="-7"/>
+  <line x1="14" y1="7" x2="20" y2="7"/>
+  <rect x="-14" y="-14" width="28" height="28" rx="5" fill="#8fc9f2"/>
+  <rect x="-7" y="-7" width="14" height="14" rx="2" fill="#17457f"/>
+</g>
+
+<!-- Icon: star inside the strip -->
+<g transform="translate(127 572)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="24,2 29.3,16.7 44.9,17.2 32.6,26.8 36.9,41.8 24,33 11.1,41.8 15.4,26.8 3.1,17.2 18.7,16.7" fill="#ffd24a"/>
+</g>
+
+<!-- Right panel: good data funnel -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="645,900 885,900 787,1030 787,1080 743,1080 743,1030" fill="#2f7fb5"/>
+  <line x1="672" y1="914" x2="760" y2="1024" stroke="#8fc9f2" stroke-width="3"/>
+  <rect x="739" y="1072" width="52" height="14" rx="5" fill="#17457f"/>
+  <ellipse cx="765" cy="900" rx="120" ry="16" fill="#17457f"/>
+  <line x1="755" y1="1094" x2="755" y2="1104" stroke="#2f7fb5" stroke-width="3"/>
+  <line x1="775" y1="1094" x2="775" y2="1104" stroke="#2f7fb5" stroke-width="3"/>
+  <polygon points="620,792 624,802 634,806 624,810 620,820 616,810 606,806 616,802" fill="#ffd24a"/>
+  <polygon points="910,792 914,802 924,806 914,810 910,820 906,810 896,806 906,802" fill="#ffd24a"/>
+  <g transform="translate(735 812) scale(.9)">
+    <path d="M 0 -14 C 14 -26, 32 -10, 26 8 C 20 26, 8 30, 0 24 C -8 30, -20 26, -26 8 C -32 -10, -14 -26, 0 -14 Z" fill="#c96a1b"/>
+    <path d="M 0 -14 L 3 -28" fill="none" stroke="#3a2411"/>
+    <path d="M 3 -24 Q 12 -34 22 -26 Q 12 -18 3 -24 Z" fill="#2e7d32"/>
+    <ellipse cx="-12" cy="-2" rx="5" ry="8" fill="#f0c48c" stroke="none"/>
   </g>
+  <g transform="translate(800 812) scale(.9)">
+    <path d="M 0 -14 C 14 -26, 32 -10, 26 8 C 20 26, 8 30, 0 24 C -8 30, -20 26, -26 8 C -32 -10, -14 -26, 0 -14 Z" fill="#2e7d32"/>
+    <path d="M 0 -14 L 3 -28" fill="none" stroke="#3a2411"/>
+    <path d="M 3 -24 Q 12 -34 22 -26 Q 12 -18 3 -24 Z" fill="#a9dcbe"/>
+    <ellipse cx="-12" cy="-2" rx="5" ry="8" fill="#a9dcbe" stroke="none"/>
+  </g>
+  <g transform="translate(700 858) scale(.9)">
+    <path d="M 0 -14 C 14 -26, 32 -10, 26 8 C 20 26, 8 30, 0 24 C -8 30, -20 26, -26 8 C -32 -10, -14 -26, 0 -14 Z" fill="#2e7d32"/>
+    <path d="M 0 -14 L 3 -28" fill="none" stroke="#3a2411"/>
+    <path d="M 3 -24 Q 12 -34 22 -26 Q 12 -18 3 -24 Z" fill="#a9dcbe"/>
+    <ellipse cx="-12" cy="-2" rx="5" ry="8" fill="#a9dcbe" stroke="none"/>
+  </g>
+  <g transform="translate(765 852) scale(.9)">
+    <path d="M 0 -14 C 14 -26, 32 -10, 26 8 C 20 26, 8 30, 0 24 C -8 30, -20 26, -26 8 C -32 -10, -14 -26, 0 -14 Z" fill="#c96a1b"/>
+    <path d="M 0 -14 L 3 -28" fill="none" stroke="#3a2411"/>
+    <path d="M 3 -24 Q 12 -34 22 -26 Q 12 -18 3 -24 Z" fill="#2e7d32"/>
+    <ellipse cx="-12" cy="-2" rx="5" ry="8" fill="#f0c48c" stroke="none"/>
+  </g>
+  <g transform="translate(830 858) scale(.9)">
+    <path d="M 0 -14 C 14 -26, 32 -10, 26 8 C 20 26, 8 30, 0 24 C -8 30, -20 26, -26 8 C -32 -10, -14 -26, 0 -14 Z" fill="#2e7d32"/>
+    <path d="M 0 -14 L 3 -28" fill="none" stroke="#3a2411"/>
+    <path d="M 3 -24 Q 12 -34 22 -26 Q 12 -18 3 -24 Z" fill="#a9dcbe"/>
+    <ellipse cx="-12" cy="-2" rx="5" ry="8" fill="#a9dcbe" stroke="none"/>
+  </g>
+  <g transform="translate(765 1150)">
+    <circle cx="0" cy="0" r="40" fill="#2e7d32"/>
+    <polygon points="-20,-2 -12,-10 -5,-2 13,-20 21,-12 -5,14" fill="#ffffff"/>
+  </g>
+</g>
 
-  <rect x="67" y="62" width="946" height="1254" rx="5" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+<!-- Left panel: poor data funnel -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="195,900 435,900 337,1030 337,1080 293,1080 293,1030" fill="#2f7fb5"/>
+  <line x1="222" y1="914" x2="310" y2="1024" stroke="#8fc9f2" stroke-width="3"/>
+  <rect x="289" y="1072" width="52" height="14" rx="5" fill="#17457f"/>
+  <ellipse cx="315" cy="900" rx="120" ry="16" fill="#17457f"/>
+  <line x1="305" y1="1094" x2="305" y2="1104" stroke="#2f7fb5" stroke-width="3"/>
+  <line x1="325" y1="1094" x2="325" y2="1104" stroke="#2f7fb5" stroke-width="3"/>
+  <g transform="translate(285 812) rotate(-25) scale(.9)">
+    <path d="M 0 -14 C 14 -26, 32 -10, 26 8 C 20 26, 8 30, 0 24 C -8 30, -20 26, -26 8 C -32 -10, -14 -26, 0 -14 Z" fill="#f0c48c"/>
+    <path d="M 0 -14 L 3 -28" fill="none" stroke="#3a2411"/>
+    <path d="M 3 -24 Q 12 -34 22 -26 Q 12 -18 3 -24 Z" fill="#7f95ab"/>
+    <ellipse cx="8" cy="6" rx="8" ry="6" fill="#7d4f28" stroke="none"/>
+    <circle cx="-12" cy="-2" r="3.5" fill="#3a2411" stroke="none"/>
+  </g>
+  <g transform="translate(350 812) rotate(35) scale(.9)">
+    <path d="M 0 -14 C 14 -26, 32 -10, 26 8 C 20 26, 8 30, 0 24 C -8 30, -20 26, -26 8 C -32 -10, -14 -26, 0 -14 Z" fill="#e8dfd1"/>
+    <path d="M 0 -14 L 3 -28" fill="none" stroke="#3a2411"/>
+    <ellipse cx="-8" cy="4" rx="9" ry="7" fill="#7d4f28" stroke="none"/>
+    <path d="M 10 -4 Q 16 2 12 10" fill="none" stroke="#7d4f28"/>
+  </g>
+  <g transform="translate(250 858) rotate(15) scale(.9)">
+    <path d="M 0 -14 C 14 -26, 32 -10, 26 8 C 20 26, 8 30, 0 24 C -8 30, -20 26, -26 8 C -32 -10, -14 -26, 0 -14 Z" fill="#c96a1b"/>
+    <path d="M 0 -14 L 3 -28" fill="none" stroke="#3a2411"/>
+    <ellipse cx="10" cy="8" rx="9" ry="7" fill="#3a2411" stroke="none"/>
+    <circle cx="-10" cy="-4" r="3" fill="#7d4f28" stroke="none"/>
+  </g>
+  <g transform="translate(315 852) rotate(-40) scale(.9)">
+    <path d="M 0 -14 C 14 -26, 32 -10, 26 8 C 20 26, 8 30, 0 24 C -8 30, -20 26, -26 8 C -32 -10, -14 -26, 0 -14 Z" fill="#f0c48c"/>
+    <path d="M 0 -14 L 3 -28" fill="none" stroke="#3a2411"/>
+    <path d="M 3 -24 Q 12 -34 22 -26 Q 12 -18 3 -24 Z" fill="#7f95ab"/>
+    <ellipse cx="-6" cy="8" rx="10" ry="7" fill="#7d4f28" stroke="none"/>
+  </g>
+  <g transform="translate(380 858) rotate(70) scale(.9)">
+    <path d="M 0 -14 C 14 -26, 32 -10, 26 8 C 20 26, 8 30, 0 24 C -8 30, -20 26, -26 8 C -32 -10, -14 -26, 0 -14 Z" fill="#e8dfd1"/>
+    <path d="M 0 -14 L 3 -28" fill="none" stroke="#3a2411"/>
+    <ellipse cx="6" cy="2" rx="8" ry="10" fill="#7d4f28" stroke="none"/>
+    <circle cx="-12" cy="8" r="3" fill="#3a2411" stroke="none"/>
+  </g>
+  <g transform="translate(315 1150)">
+    <circle cx="0" cy="0" r="40" fill="#c0392b"/>
+    <g transform="rotate(45)">
+      <rect x="-24" y="-5" width="48" height="10" rx="4" fill="#ffffff"/>
+      <rect x="-5" y="-24" width="10" height="48" rx="4" fill="#ffffff"/>
+    </g>
+  </g>
+</g>
 
-  <text x="540" y="142"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="56"
-        font-weight="bold"
-        fill="#1d5c9a">الحل</text>
+<!-- Text -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">مصطلحات أساسية</text>
+<text x="140" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">KEY TERMS</text>
 
-  <text x="540" y="192"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="34"
-        fill="#152b42">Solution</text>
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">البيانات</tspan> <tspan font-weight="bold" fill="#c0392b">Data</tspan> — الأمثلة التي يتعلم منها</tspan>
+  <tspan x="935" dy="40">النموذج: <tspan fill="#c96a1b">صور ونصوص وأرقام.</tspan></tspan>
+</text>
+<text x="140" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Data</tspan> — the examples a model learns</tspan>
+  <tspan x="140" dy="40">from: <tspan fill="#c96a1b">images, text, and numbers.</tspan></tspan>
+</text>
 
-  <line x1="425" y1="212" x2="655" y2="212" stroke="#a9c7e4" stroke-width="1.6"/>
+<text x="935" y="394" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">بيانات التدريب</tspan> <tspan font-weight="bold" fill="#c0392b">Training Data</tspan> — الجزء</tspan>
+  <tspan x="935" dy="40">من البيانات الذي <tspan font-weight="bold" fill="#17457f">نعلّم</tspan> به النموذج.</tspan>
+</text>
+<text x="140" y="474" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Training data</tspan> — the part of the data</tspan>
+  <tspan x="140" dy="40">we use to <tspan font-weight="bold" fill="#17457f">teach</tspan> the model.</tspan>
+</text>
 
-  <rect x="105" y="240" width="200" height="64" rx="12" fill="#e8f6ea" stroke="#86c194" stroke-width="2"/>
-  <rect x="328" y="240" width="200" height="64" rx="12" fill="#fdecec" stroke="#e0a1a1" stroke-width="2"/>
-  <rect x="551" y="240" width="200" height="64" rx="12" fill="#e8f6ea" stroke="#86c194" stroke-width="2"/>
-  <rect x="774" y="240" width="200" height="64" rx="12" fill="#fdecec" stroke="#e0a1a1" stroke-width="2"/>
-
-  <text x="145" y="282" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" fill="#1d5c9a">أ</text>
-  <text x="161" y="282" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="32" fill="#152b42">— A:</text>
-  <text x="253" y="284" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe UI Symbol, DejaVu Sans, Arial, sans-serif" font-size="34" fill="#1d7a34">✓</text>
-
-  <text x="368" y="282" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" fill="#1d5c9a">ب</text>
-  <text x="384" y="282" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="32" fill="#152b42">— B:</text>
-  <text x="476" y="284" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe UI Symbol, DejaVu Sans, Arial, sans-serif" font-size="34" fill="#c0392b">✗</text>
-
-  <text x="591" y="282" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" fill="#1d5c9a">ج</text>
-  <text x="607" y="282" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="32" fill="#152b42">— C:</text>
-  <text x="699" y="284" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe UI Symbol, DejaVu Sans, Arial, sans-serif" font-size="34" fill="#1d7a34">✓</text>
-
-  <text x="814" y="282" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" fill="#1d5c9a">د</text>
-  <text x="830" y="282" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="32" fill="#152b42">— D:</text>
-  <text x="922" y="284" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe UI Symbol, DejaVu Sans, Arial, sans-serif" font-size="34" fill="#c0392b">✗</text>
-
-  <rect x="105" y="336" width="870" height="200" rx="14" fill="#e8f6ea" stroke="#86c194" stroke-width="2"/>
-
-  <text x="945" y="378"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        fill="#225f9c">
-    <tspan x="945" dy="0">التعلم العميق نوع متقدم من التعلم الآلي،</tspan>
-    <tspan x="945" dy="40">وليس تقنية منفصلة عنه تمامًا.</tspan>
-  </text>
-
-  <text x="130" y="464"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="28"
-        fill="#152b42">
-    <tspan x="130" dy="0">Deep learning is an advanced type of machine</tspan>
-    <tspan x="130" dy="36">learning, not a completely separate technology.</tspan>
-  </text>
-
-  <rect x="105" y="566" width="870" height="234" rx="14" fill="#e8f6ea" stroke="#86c194" stroke-width="2"/>
-
-  <text x="945" y="604"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        fill="#225f9c">
-    <tspan x="945" dy="0">الذكاء الاصطناعي مجال واسع، والتعلم الآلي إحدى</tspan>
-    <tspan x="945" dy="40">التقنيات التي تقع داخله؛ لذلك لا يحملان المعنى نفسه.</tspan>
-  </text>
-
-  <text x="130" y="688"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="28"
-        fill="#152b42">
-    <tspan x="130" dy="0">AI is a broad field, and machine learning is one</tspan>
-    <tspan x="130" dy="36">of the technologies within it; therefore, they do</tspan>
-    <tspan x="130" dy="36">not have the same meaning.</tspan>
-  </text>
-
-  <text x="141" y="866" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#1d5c9a">أ</text>
-  <text x="157" y="866" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="30" fill="#1d7a34">— a:</text>
-  <text x="590" y="866" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="29" fill="#225f9c">التعلم الآلي</text>
-  <text x="610" y="866" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" fill="#152b42">Machine Learning — A</text>
-
-  <text x="141" y="926" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#1d5c9a">ب</text>
-  <text x="157" y="926" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="30" fill="#1d7a34">— b:</text>
-  <text x="590" y="926" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="29" fill="#225f9c">التعلم العميق</text>
-  <text x="610" y="926" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" fill="#152b42">Deep Learning — B</text>
-
-  <text x="141" y="986" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#1d5c9a">ج</text>
-  <text x="157" y="986" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="30" fill="#1d7a34">— c:</text>
-  <text x="590" y="986" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="29" fill="#225f9c">الذكاء الاصطناعي التوليدي</text>
-  <text x="610" y="986" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" fill="#152b42">Generative AI — C</text>
-
+<text x="935" y="594" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">القاعدة الذهبية:</tspan>
+  <tspan x="935" dy="40">جودة النموذج من جودة بياناته.</tspan>
+</text>
+<text x="140" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">Golden rule:</tspan>
+  <tspan x="140" dy="40">a model is only as good as its data.</tspan>
+</text>
 </svg>

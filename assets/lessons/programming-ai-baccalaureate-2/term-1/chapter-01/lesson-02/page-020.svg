@@ -1,0 +1,225 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilStation" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#8fc9f2"/>
+  </linearGradient>
+  <linearGradient id="ilBelt" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#7f95ab"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Illustration: factory conveyor line, four stations, right to left -->
+<g stroke-linecap="round" stroke-linejoin="round">
+  <!-- shadows -->
+  <rect x="124" y="1218" width="840" height="26" rx="13" fill="#22303f" opacity=".18"/>
+  <rect x="794" y="1056" width="160" height="130" rx="14" fill="#22303f" opacity=".18"/>
+  <rect x="574" y="1056" width="160" height="130" rx="14" fill="#22303f" opacity=".18"/>
+  <rect x="354" y="1056" width="160" height="130" rx="14" fill="#22303f" opacity=".18"/>
+  <rect x="134" y="1056" width="160" height="130" rx="14" fill="#22303f" opacity=".18"/>
+
+  <!-- conveyor legs -->
+  <rect x="160" y="1238" width="14" height="22" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="533" y="1238" width="14" height="22" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="906" y="1238" width="14" height="22" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <!-- conveyor belt -->
+  <rect x="120" y="1212" width="840" height="26" rx="13" fill="url(#ilBelt)" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="150" cy="1225" r="7" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="228" cy="1225" r="7" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="306" cy="1225" r="7" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="384" cy="1225" r="7" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="462" cy="1225" r="7" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="540" cy="1225" r="7" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="618" cy="1225" r="7" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="696" cy="1225" r="7" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="774" cy="1225" r="7" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="852" cy="1225" r="7" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="930" cy="1225" r="7" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- photo cards travelling on the belt -->
+  <rect x="742" y="1190" width="36" height="22" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="749" y="1196" width="22" height="10" rx="2" fill="#f0c48c"/>
+  <rect x="522" y="1190" width="36" height="22" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="529" y="1196" width="22" height="10" rx="2" fill="#f0c48c"/>
+  <rect x="302" y="1190" width="36" height="22" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="309" y="1196" width="22" height="10" rx="2" fill="#f0c48c"/>
+
+  <!-- flow chevrons (right to left) -->
+  <polygon points="748,1115 768,1103 768,1127" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="528,1115 548,1103 548,1127" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="308,1115 328,1103 328,1127" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Station 1: lines and edges -->
+  <rect x="840" y="1040" width="60" height="14" rx="7" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="790" y="1050" width="160" height="130" rx="14" fill="url(#ilStation)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="808" y="1064" width="124" height="92" rx="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="828" y1="1084" x2="854" y2="1092" stroke="#17457f" stroke-width="3"/>
+  <line x1="880" y1="1078" x2="902" y2="1098" stroke="#17457f" stroke-width="3"/>
+  <line x1="836" y1="1124" x2="862" y2="1110" stroke="#17457f" stroke-width="3"/>
+  <line x1="884" y1="1128" x2="912" y2="1120" stroke="#17457f" stroke-width="3"/>
+  <polyline points="822,1146 822,1134 834,1134" fill="none" stroke="#2f7fb5" stroke-width="3"/>
+  <polyline points="896,1146 908,1146 908,1136" fill="none" stroke="#2f7fb5" stroke-width="3"/>
+  <circle cx="870" cy="1168" r="4" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+
+  <!-- Station 2: simple shapes -->
+  <rect x="620" y="1040" width="60" height="14" rx="7" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="570" y="1050" width="160" height="130" rx="14" fill="url(#ilStation)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="588" y="1064" width="124" height="92" rx="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="618" cy="1094" r="14" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="665,1078 686,1112 644,1112" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="604" y="1120" width="26" height="26" rx="3" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="676" cy="1134" r="11" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="642" cy="1168" r="4" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+  <circle cx="658" cy="1168" r="4" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+
+  <!-- Station 3: eyes, pointed ears, whiskers -->
+  <rect x="400" y="1040" width="60" height="14" rx="7" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="350" y="1050" width="160" height="130" rx="14" fill="url(#ilStation)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="368" y="1064" width="124" height="92" rx="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="394,1100 404,1072 420,1094" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="440,1094 456,1072 466,1100" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="410" cy="1116" rx="9" ry="7" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="410" cy="1116" rx="2.5" ry="5" fill="#22303f"/>
+  <ellipse cx="450" cy="1116" rx="9" ry="7" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="450" cy="1116" rx="2.5" ry="5" fill="#22303f"/>
+  <line x1="400" y1="1136" x2="376" y2="1131" stroke="#22303f" stroke-width="2"/>
+  <line x1="400" y1="1142" x2="376" y2="1145" stroke="#22303f" stroke-width="2"/>
+  <line x1="460" y1="1136" x2="484" y2="1131" stroke="#22303f" stroke-width="2"/>
+  <line x1="460" y1="1142" x2="484" y2="1145" stroke="#22303f" stroke-width="2"/>
+  <circle cx="414" cy="1168" r="4" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+  <circle cx="430" cy="1168" r="4" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+  <circle cx="446" cy="1168" r="4" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+
+  <!-- Station 4: complete cat face with green check stamp -->
+  <rect x="180" y="1040" width="60" height="14" rx="7" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="130" y="1050" width="160" height="130" rx="14" fill="url(#ilStation)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="148" y="1064" width="124" height="92" rx="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="184,1102 188,1074 206,1092" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="214,1092 232,1074 236,1102" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="210" cy="1118" r="30" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="199" cy="1112" rx="5" ry="6" fill="#a9dcbe" stroke="#22303f" stroke-width="2"/>
+  <ellipse cx="199" cy="1112" rx="1.5" ry="4" fill="#22303f"/>
+  <ellipse cx="221" cy="1112" rx="5" ry="6" fill="#a9dcbe" stroke="#22303f" stroke-width="2"/>
+  <ellipse cx="221" cy="1112" rx="1.5" ry="4" fill="#22303f"/>
+  <polygon points="205,1123 215,1123 210,1129" fill="#c96a1b" stroke="#22303f" stroke-width="2"/>
+  <path d="M203 1134 Q 210 1139 217 1134" fill="none" stroke="#22303f" stroke-width="2"/>
+  <line x1="194" y1="1127" x2="166" y2="1122" stroke="#22303f" stroke-width="2"/>
+  <line x1="194" y1="1133" x2="166" y2="1136" stroke="#22303f" stroke-width="2"/>
+  <line x1="226" y1="1127" x2="254" y2="1122" stroke="#22303f" stroke-width="2"/>
+  <line x1="226" y1="1133" x2="254" y2="1136" stroke="#22303f" stroke-width="2"/>
+  <circle cx="252" cy="1082" r="15" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M245 1082 L 250 1088 L 260 1076" fill="none" stroke="#ffffff" stroke-width="3"/>
+  <circle cx="186" cy="1168" r="4" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+  <circle cx="202" cy="1168" r="4" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+  <circle cx="218" cy="1168" r="4" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+  <circle cx="234" cy="1168" r="4" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+</g>
+
+<!-- Icon: light bulb (top-left) -->
+<g transform="translate(130 112)" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="28" cy="22" r="17" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="20" y="37" width="16" height="13" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M22 22 Q 28 14 34 22" fill="none" stroke="#22303f" stroke-width="2"/>
+</g>
+
+<!-- Icon: network nodes (top-right) -->
+<g transform="translate(890 112)" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="28" y1="12" x2="10" y2="44" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="28" y1="12" x2="46" y2="44" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="10" y1="44" x2="46" y2="44" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="28" cy="12" r="9" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="10" cy="44" r="9" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="46" cy="44" r="9" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: AI chip (beside short paragraph) -->
+<g transform="translate(130 458)" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="20" y1="4" x2="20" y2="12" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="36" y1="4" x2="36" y2="12" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="20" y1="44" x2="20" y2="52" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="36" y1="44" x2="36" y2="52" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="4" y1="20" x2="12" y2="20" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="4" y1="36" x2="12" y2="36" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="44" y1="20" x2="52" y2="20" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="44" y1="36" x2="52" y2="36" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="12" y="12" width="32" height="32" rx="6" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="21" y="21" width="14" height="14" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2"/>
+</g>
+
+<!-- Bullets -->
+<circle cx="966" cy="624" r="6" fill="#c0392b"/>
+<circle cx="114" cy="664" r="6" fill="#c0392b"/>
+<circle cx="966" cy="704" r="6" fill="#c0392b"/>
+<circle cx="114" cy="744" r="6" fill="#c0392b"/>
+<circle cx="966" cy="824" r="6" fill="#c0392b"/>
+<circle cx="114" cy="864" r="6" fill="#c0392b"/>
+<circle cx="966" cy="944" r="6" fill="#c0392b"/>
+<circle cx="114" cy="984" r="6" fill="#c0392b"/>
+
+<!-- Text -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">
+  <tspan x="540" dy="0">المحطة 3: التعلم العميق…</tspan>
+  <tspan x="540" dy="48">خط إنتاج في مصنع</tspan>
+</text>
+
+<text x="540" y="202" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="normal" fill="#152b42">Stop 3: Deep Learning… A Factory Line</text>
+
+<text x="950" y="314" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="normal" fill="#225f9c">
+  <tspan x="950" dy="0">الشبكة <tspan font-weight="bold" fill="#c0392b">«العميقة»</tspan> فيها <tspan font-weight="bold" fill="#17457f">طبقات مخفية</tspan> كثيرة،</tspan>
+  <tspan x="950" dy="40">وكل طبقة تفهم أكثر مما قبلها.</tspan>
+</text>
+
+<text x="120" y="394" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="normal" fill="#152b42">
+  <tspan x="120" dy="0">A <tspan font-weight="bold" fill="#c0392b">"deep"</tspan> network has many <tspan font-weight="bold" fill="#17457f">hidden layers;</tspan></tspan>
+  <tspan x="120" dy="40">each one understands more than the last.</tspan>
+</text>
+
+<text x="950" y="514" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="normal" fill="#225f9c">تابع <tspan fill="#c96a1b">صورة قطة</tspan><tspan> وهي تدخل الشبكة:</tspan></text>
+
+<text x="120" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="normal" fill="#152b42">
+  <tspan x="120" dy="0">Follow a <tspan fill="#c96a1b">cat photo</tspan> as it</tspan>
+  <tspan x="120" dy="40">enters the network:</tspan>
+</text>
+
+<text x="950" y="634" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="normal" fill="#225f9c">الطبقة الأولى تلاحظ خطوطًا وحوافّ.</text>
+
+<text x="132" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="normal" fill="#152b42">The first layer notices lines and edges.</text>
+
+<text x="950" y="714" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="normal" fill="#225f9c">الطبقة التالية تجمع الخطوط في أشكال.</text>
+
+<text x="132" y="754" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="normal" fill="#152b42">
+  <tspan x="132" dy="0">The next layer combines</tspan>
+  <tspan x="132" dy="40">lines into shapes.</tspan>
+</text>
+
+<text x="950" y="834" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="normal" fill="#225f9c">التي بعدها ترى عيونًا وآذانًا وشوارب.</text>
+
+<text x="132" y="874" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="normal" fill="#152b42">
+  <tspan x="132" dy="0">The one after sees eyes,</tspan>
+  <tspan x="132" dy="40">ears, and whiskers.</tspan>
+</text>
+
+<text x="950" y="954" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="normal" fill="#225f9c">الطبقة الأخيرة تقرر: <tspan font-weight="bold" fill="#2e7d32">«قطة».</tspan></text>
+
+<text x="132" y="994" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="normal" fill="#152b42">The last layer decides: <tspan font-weight="bold" fill="#2e7d32">"cat".</tspan></text>
+</svg>

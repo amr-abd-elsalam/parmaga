@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#a9dcbe"/>
+  </linearGradient>
+</defs>
+
+<!-- Shadows -->
+<rect x="109" y="208" width="870" height="608" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="109" y="846" width="870" height="410" rx="28" fill="#22303f" opacity=".18"/>
+
+<!-- Warning card -->
+<rect x="105" y="202" width="870" height="608" rx="16" fill="#fdf1e2" stroke="#f0c48c" stroke-width="2"/>
+<rect x="961" y="218" width="6" height="576" rx="3" fill="#c96a1b"/>
+
+<!-- Bullets -->
+<circle cx="946" cy="304" r="6" fill="#c0392b"/>
+<circle cx="134" cy="344" r="6" fill="#c0392b"/>
+<circle cx="946" cy="384" r="6" fill="#c0392b"/>
+<circle cx="134" cy="464" r="6" fill="#c0392b"/>
+<circle cx="946" cy="544" r="6" fill="#c0392b"/>
+<circle cx="134" cy="624" r="6" fill="#c0392b"/>
+<circle cx="946" cy="704" r="6" fill="#c0392b"/>
+<circle cx="134" cy="744" r="6" fill="#c0392b"/>
+
+<!-- Title icons: warning triangle (left) and surprise face (right) -->
+<g transform="translate(150 82)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="28,4 54,50 2,50" fill="#ffd24a"/>
+  <rect x="25" y="18" width="6" height="18" rx="3" fill="#22303f"/>
+  <circle cx="28" cy="43" r="3.5" fill="#22303f"/>
+</g>
+<g transform="translate(900 112)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="0" cy="10" r="5" fill="#22303f"/>
+</g>
+
+<!-- Illustration: student on a path with hidden traps -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="105" y="840" width="870" height="410" rx="28" fill="url(#ilSky)"/>
+  <!-- Sun and clouds -->
+  <circle cx="880" cy="905" r="30" fill="#ffd24a"/>
+  <ellipse cx="300" cy="900" rx="44" ry="18" fill="#ffffff"/>
+  <circle cx="290" cy="888" r="16" fill="#ffffff"/>
+  <ellipse cx="660" cy="905" rx="38" ry="15" fill="#ffffff"/>
+  <!-- Bushes -->
+  <ellipse cx="210" cy="1035" rx="50" ry="28" fill="#2e7d32"/>
+  <ellipse cx="860" cy="1190" rx="56" ry="30" fill="#2e7d32"/>
+  <!-- Winding path, right to left -->
+  <path d="M955 990 C 820 980, 760 1060, 640 1060 C 520 1060, 470 1120, 360 1130 C 260 1140, 200 1150, 125 1150 L 125 1230 C 210 1230, 280 1215, 380 1200 C 500 1185, 560 1130, 660 1125 C 780 1120, 840 1060, 955 1060 Z" fill="#f0c48c"/>
+  <!-- Four holes -->
+  <ellipse cx="840" cy="1038" rx="30" ry="12" fill="#3a2411"/>
+  <ellipse cx="660" cy="1093" rx="30" ry="12" fill="#3a2411"/>
+  <ellipse cx="400" cy="1162" rx="30" ry="12" fill="#3a2411"/>
+  <ellipse cx="240" cy="1183" rx="30" ry="12" fill="#3a2411"/>
+</g>
+
+<!-- Leaves partly covering the holes -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="translate(852 1034) rotate(-15)"><path d="M -14 0 C -6 -10 8 -10 14 0 C 8 10 -6 10 -14 0 Z" fill="#2e7d32"/></g>
+  <g transform="translate(826 1042) rotate(20)"><path d="M -14 0 C -6 -10 8 -10 14 0 C 8 10 -6 10 -14 0 Z" fill="#c96a1b"/></g>
+  <g transform="translate(672 1089) rotate(-15)"><path d="M -14 0 C -6 -10 8 -10 14 0 C 8 10 -6 10 -14 0 Z" fill="#c96a1b"/></g>
+  <g transform="translate(646 1097) rotate(20)"><path d="M -14 0 C -6 -10 8 -10 14 0 C 8 10 -6 10 -14 0 Z" fill="#2e7d32"/></g>
+  <g transform="translate(412 1158) rotate(-15)"><path d="M -14 0 C -6 -10 8 -10 14 0 C 8 10 -6 10 -14 0 Z" fill="#2e7d32"/></g>
+  <g transform="translate(386 1166) rotate(20)"><path d="M -14 0 C -6 -10 8 -10 14 0 C 8 10 -6 10 -14 0 Z" fill="#c96a1b"/></g>
+  <g transform="translate(252 1179) rotate(-15)"><path d="M -14 0 C -6 -10 8 -10 14 0 C 8 10 -6 10 -14 0 Z" fill="#c96a1b"/></g>
+  <g transform="translate(226 1187) rotate(20)"><path d="M -14 0 C -6 -10 8 -10 14 0 C 8 10 -6 10 -14 0 Z" fill="#2e7d32"/></g>
+</g>
+
+<!-- Flag at the end of the path -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="162" y="1095" width="6" height="95" rx="3" fill="#7f95ab"/>
+  <polygon points="168,1098 210,1112 168,1126" fill="#c0392b"/>
+</g>
+
+<!-- Student holding a small map -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="512,1048 528,1048 516,1116 500,1116" fill="#17457f"/>
+  <polygon points="532,1048 548,1048 562,1116 546,1116" fill="#17457f"/>
+  <ellipse cx="502" cy="1120" rx="12" ry="6" fill="#22303f"/>
+  <ellipse cx="558" cy="1120" rx="12" ry="6" fill="#22303f"/>
+  <rect x="508" y="985" width="44" height="68" rx="12" fill="#ffffff"/>
+  <path d="M522 986 L530 998 L538 986" fill="none"/>
+  <polygon points="510,992 520,1000 490,1022 482,1014" fill="#ffffff"/>
+  <polygon points="548,992 556,1002 512,1030 506,1022" fill="#ffffff"/>
+  <rect x="462" y="1000" width="50" height="38" rx="3" fill="#ffffff"/>
+  <polygon points="476,1020 487,1010 498,1020" fill="#c0392b"/>
+  <rect x="479" y="1020" width="16" height="12" fill="#2f7fb5"/>
+  <circle cx="484" cy="1018" r="5" fill="#d59f6f"/>
+  <circle cx="508" cy="1028" r="5" fill="#d59f6f"/>
+  <circle cx="530" cy="962" r="20" fill="#d59f6f"/>
+  <path d="M510 960 C 510 935, 550 935, 550 960 C 545 948, 520 946, 510 960 Z" fill="#2b211c"/>
+</g>
+<circle cx="523" cy="963" r="2.5" fill="#22303f"/>
+<circle cx="537" cy="963" r="2.5" fill="#22303f"/>
+<path d="M524 971 Q 530 975 536 971" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+<!-- Text -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">فخاخ الامتحان</text>
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="normal" fill="#152b42">Exam Traps</text>
+
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">احذر هذه العبارات</text>
+<text x="140" y="274" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">Watch out for these statements</text>
+
+<text x="930" y="314" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">«الذكاء الاصطناعي = التعلّم الآلي» ×</text>
+<text x="150" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">"AI = machine learning" ×</text>
+
+<text x="930" y="394" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="930" dy="0">«التعلم العميق مختلف تمامًا</tspan>
+  <tspan x="930" dy="40">عن التعلّم الآلي» ×</tspan>
+</text>
+<text x="150" y="474" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="150" dy="0">"Deep learning is completely</tspan>
+  <tspan x="150" dy="40">different from machine learning" ×</tspan>
+</text>
+
+<text x="930" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="930" dy="0">«مرشح الرسائل المزعجة مثال</tspan>
+  <tspan x="930" dy="40">على الذكاء الاصطناعي التوليدي» ×</tspan>
+</text>
+<text x="150" y="634" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="150" dy="0">"A spam filter is an example</tspan>
+  <tspan x="150" dy="40">of generative AI" ×</tspan>
+</text>
+
+<text x="930" y="714" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">«التوليدي يعمل دون تعلّم آلي» ×</text>
+<text x="150" y="754" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="150" dy="0">"Generative AI works without</tspan>
+  <tspan x="150" dy="40">machine learning" ×</tspan>
+</text>
+</svg>

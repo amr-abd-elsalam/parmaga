@@ -1,0 +1,249 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilKitchen" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#f0c48c"/>
+  </linearGradient>
+  <linearGradient id="ilGarage" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#8fc9f2"/>
+  </linearGradient>
+  <linearGradient id="ilBrick" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#c96a1b"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <linearGradient id="ilCar" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Illustration panel shadows -->
+<rect x="114" y="1028" width="411" height="230" rx="18" fill="#22303f" opacity=".18"/>
+<rect x="559" y="1028" width="411" height="230" rx="18" fill="#22303f" opacity=".18"/>
+
+<!-- Left panel: garage -->
+<rect x="110" y="1022" width="411" height="230" rx="18" fill="url(#ilGarage)" stroke="#22303f" stroke-width="2.5"/>
+<path d="M 110 1230 L 521 1230 L 521 1234 Q 521 1252 503 1252 L 128 1252 Q 110 1252 110 1234 Z" fill="#7f95ab" opacity=".35"/>
+
+<!-- Car -->
+<g>
+  <path d="M 132 1222 L 132 1170 Q 134 1150 160 1146 L 190 1100 Q 196 1092 210 1092 L 280 1092 Q 292 1092 300 1102 L 330 1140 L 372 1146 Q 386 1150 386 1166 L 386 1222 Z" fill="url(#ilCar)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="198,1106 238,1106 238,1138 176,1138" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="248,1106 282,1106 308,1138 248,1138" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="336" y="1136" width="44" height="14" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="348" cy="1143" r="3" fill="#22303f"/>
+  <circle cx="360" cy="1143" r="3" fill="#22303f"/>
+  <circle cx="372" cy="1143" r="3" fill="#22303f"/>
+  <line x1="364" y1="1138" x2="378" y2="1098" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="330,1142 388,1082 398,1092 344,1148" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="378" cy="1172" r="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="140" y="1196" width="240" height="8" rx="4" fill="#dff1f7" opacity=".6"/>
+  <circle cx="190" cy="1222" r="24" fill="#22303f"/>
+  <circle cx="190" cy="1222" r="10" fill="#e8dfd1"/>
+  <circle cx="330" cy="1222" r="24" fill="#22303f"/>
+  <circle cx="330" cy="1222" r="10" fill="#e8dfd1"/>
+</g>
+
+<!-- Confused chef -->
+<g transform="translate(450 1244) scale(.8)">
+  <rect x="-22" y="-52" width="18" height="50" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="4" y="-52" width="18" height="50" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="-14" cy="-2" rx="14" ry="6" fill="#22303f"/>
+  <ellipse cx="14" cy="-2" rx="14" ry="6" fill="#22303f"/>
+  <path d="M -36 -50 L -32 -120 Q 0 -132 32 -120 L 36 -50 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="-8" cy="-108" r="3" fill="#7f95ab"/>
+  <circle cx="8" cy="-108" r="3" fill="#7f95ab"/>
+  <circle cx="-8" cy="-90" r="3" fill="#7f95ab"/>
+  <circle cx="8" cy="-90" r="3" fill="#7f95ab"/>
+  <circle cx="-8" cy="-72" r="3" fill="#7f95ab"/>
+  <circle cx="8" cy="-72" r="3" fill="#7f95ab"/>
+  <rect x="-66" y="-150" width="8" height="48" rx="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-62" cy="-92" r="11" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-66" y="-90" width="8" height="14" fill="#8fc9f2"/>
+  <path d="M -28 -118 L -58 -114 L -58 -102 L -26 -104 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="-62" cy="-108" r="7" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 28 -120 L 40 -150 L 30 -158 L 20 -124 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="-12,-124 12,-124 0,-110" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="0" cy="-146" r="22" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="32" cy="-160" r="7" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-7" cy="-148" r="2.5" fill="#22303f"/>
+  <circle cx="7" cy="-148" r="2.5" fill="#22303f"/>
+  <path d="M -12 -156 L -4 -158" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 4 -159 L 12 -155" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M -9 -140 Q 0 -145 9 -140 Q 0 -137 -9 -140 Z" fill="#2b211c"/>
+  <path d="M -7 -132 Q -3.5 -136 0 -132 Q 3.5 -128 7 -132" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="-20" y="-178" width="40" height="12" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M -22 -178 C -36 -192 -22 -214 -6 -204 C 0 -220 22 -216 22 -200 C 36 -198 34 -178 22 -178 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Question marks drawn as shapes -->
+<g transform="translate(425 1052)">
+  <path d="M -7 -8 Q -7 -16 0 -16 Q 8 -16 8 -8 Q 8 -3 2 0 Q 0 2 0 6" fill="none" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="0" cy="13" r="2.5" fill="#c0392b"/>
+</g>
+<g transform="translate(456 1042)">
+  <path d="M -7 -8 Q -7 -16 0 -16 Q 8 -16 8 -8 Q 8 -3 2 0 Q 0 2 0 6" fill="none" stroke="#17457f" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="0" cy="13" r="2.5" fill="#17457f"/>
+</g>
+<g transform="translate(488 1054)">
+  <path d="M -7 -8 Q -7 -16 0 -16 Q 8 -16 8 -8 Q 8 -3 2 0 Q 0 2 0 6" fill="none" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="0" cy="13" r="2.5" fill="#c0392b"/>
+</g>
+
+<!-- Right panel: kitchen -->
+<rect x="555" y="1022" width="411" height="230" rx="18" fill="url(#ilKitchen)" stroke="#22303f" stroke-width="2.5"/>
+<path d="M 555 1230 L 966 1230 L 966 1234 Q 966 1252 948 1252 L 573 1252 Q 555 1252 555 1234 Z" fill="#e8dfd1"/>
+
+<!-- Oven -->
+<g>
+  <circle cx="880" cy="1066" r="8" fill="#e8dfd1" opacity=".85"/>
+  <circle cx="892" cy="1048" r="6" fill="#e8dfd1" opacity=".85"/>
+  <rect x="866" y="1086" width="18" height="34" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="800" y="1166" width="150" height="66" rx="6" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 805 1170 Q 875 1060 945 1170 Z" fill="url(#ilBrick)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 845 1170 Q 875 1125 905 1170 Z" fill="#22303f"/>
+  <path d="M 858 1168 Q 866 1146 874 1158 Q 882 1136 892 1168 Z" fill="#ffd24a"/>
+  <path d="M 868 1168 Q 873 1154 877 1160 Q 882 1150 884 1168 Z" fill="#c96a1b"/>
+  <line x1="815" y1="1200" x2="935" y2="1200" stroke="#3a2411" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Proud chef with pizza -->
+<g transform="translate(690 1242) scale(.8)">
+  <rect x="-22" y="-52" width="18" height="50" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="4" y="-52" width="18" height="50" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="-14" cy="-2" rx="14" ry="6" fill="#22303f"/>
+  <ellipse cx="14" cy="-2" rx="14" ry="6" fill="#22303f"/>
+  <path d="M -36 -50 L -32 -120 Q 0 -132 32 -120 L 36 -50 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="-8" cy="-108" r="3" fill="#7f95ab"/>
+  <circle cx="8" cy="-108" r="3" fill="#7f95ab"/>
+  <circle cx="-8" cy="-90" r="3" fill="#7f95ab"/>
+  <circle cx="8" cy="-90" r="3" fill="#7f95ab"/>
+  <circle cx="-8" cy="-72" r="3" fill="#7f95ab"/>
+  <circle cx="8" cy="-72" r="3" fill="#7f95ab"/>
+  <path d="M -30 -118 L -48 -92 L -30 -78 L -26 -88 L -36 -94 L -26 -108 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 28 -118 L 62 -100 L 56 -88 L 26 -100 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="62" cy="-94" r="7" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="70" cy="-104" rx="34" ry="11" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="70" cy="-105" rx="28" ry="8" fill="#c0392b"/>
+  <ellipse cx="70" cy="-105" rx="23" ry="6" fill="#ffd24a"/>
+  <ellipse cx="58" cy="-106" rx="4" ry="2" fill="#c0392b"/>
+  <ellipse cx="73" cy="-103" rx="4" ry="2" fill="#c0392b"/>
+  <ellipse cx="84" cy="-107" rx="4" ry="2" fill="#c0392b"/>
+  <ellipse cx="66" cy="-108" rx="3" ry="1.5" fill="#2e7d32"/>
+  <path d="M 60 -122 Q 55 -130 61 -138" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 76 -122 Q 71 -130 77 -138" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="-12,-124 12,-124 0,-110" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="0" cy="-146" r="22" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-7" cy="-150" r="2.5" fill="#22303f"/>
+  <circle cx="7" cy="-150" r="2.5" fill="#22303f"/>
+  <path d="M -9 -141 Q 0 -146 9 -141 Q 0 -138 -9 -141 Z" fill="#2b211c"/>
+  <path d="M -8 -136 Q 0 -128 8 -136" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="-20" y="-178" width="40" height="12" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M -22 -178 C -36 -192 -22 -214 -6 -204 C 0 -220 22 -216 22 -200 C 36 -198 34 -178 22 -178 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+<path d="M 780 1068 L 785 1080 L 797 1085 L 785 1090 L 780 1102 L 775 1090 L 763 1085 L 775 1080 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+<!-- Icon: light bulb beside paragraph 1 -->
+<g transform="translate(140 286)">
+  <line x1="6" y1="8" x2="11" y2="12" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="50" y1="8" x2="45" y2="12" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="28" y1="0" x2="28" y2="2" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="28" cy="22" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="20" y="36" width="16" height="14" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Face: thinking, beside paragraph 1 English -->
+<g transform="translate(908 410)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: AI chip beside paragraph 2 English -->
+<g transform="translate(876 652)">
+  <line x1="18" y1="2" x2="18" y2="10" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="28" y1="2" x2="28" y2="10" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="38" y1="2" x2="38" y2="10" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="18" y1="46" x2="18" y2="54" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="28" y1="46" x2="28" y2="54" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="38" y1="46" x2="38" y2="54" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="2" y1="18" x2="10" y2="18" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="2" y1="28" x2="10" y2="28" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="2" y1="38" x2="10" y2="38" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="46" y1="18" x2="54" y2="18" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="46" y1="28" x2="54" y2="28" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="46" y1="38" x2="54" y2="38" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="10" y="10" width="36" height="36" rx="6" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="19" y="19" width="18" height="18" rx="3" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: warning triangle beside paragraph 3 English -->
+<g transform="translate(876 898)">
+  <polygon points="28,4 54,50 2,50" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="25" y="18" width="6" height="18" rx="3" fill="#22303f"/>
+  <circle cx="28" cy="43" r="3.5" fill="#22303f"/>
+</g>
+
+<!-- Titles -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">
+  <tspan x="540" dy="0">المحطة 6: الذكاء الاصطناعي</tspan>
+  <tspan x="540" dy="48">الضيق… الشيف المتخصص</tspan>
+</text>
+<text x="540" y="202" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" fill="#152b42">Stop 6: Narrow AI… The Specialist Chef</text>
+
+<!-- Paragraph 1 -->
+<text x="950" y="314" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan fill="#c96a1b">شيف البيتزا</tspan> العالمي، لو طلبت منه</tspan>
+  <tspan x="950" dy="40">أن يصلح سيارتك، هل سيعرف؟</tspan>
+</text>
+<text x="120" y="394" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">A world-famous <tspan fill="#c96a1b">pizza chef</tspan>: if you ask</tspan>
+  <tspan x="120" dy="40">him to fix your car, will he know how?</tspan>
+</text>
+
+<!-- Paragraph 2 -->
+<text x="950" y="514" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">هكذا معظم أنظمة <tspan font-weight="bold" fill="#17457f">الذكاء الاصطناعي</tspan> اليوم:</tspan>
+  <tspan x="950" dy="40">النظام الذي يلعب <tspan fill="#c96a1b">الشطرنج</tspan> كبطل العالم</tspan>
+  <tspan x="950" dy="40"><tspan font-weight="bold" fill="#17457f">لا يستطيع</tspan> أن يترجم جملة.</tspan>
+</text>
+<text x="120" y="634" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Most <tspan font-weight="bold" fill="#17457f">AI systems</tspan> today are like this:</tspan>
+  <tspan x="120" dy="40">a system that plays <tspan fill="#c96a1b">chess</tspan></tspan>
+  <tspan x="120" dy="40">like a world champion</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#17457f">cannot</tspan> translate a sentence.</tspan>
+</text>
+
+<!-- Paragraph 3 -->
+<text x="950" y="834" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">وصورة الأفلام <tspan font-weight="bold" fill="#17457f">غير صحيحة:</tspan> لا يوجد حتى الآن</tspan>
+  <tspan x="950" dy="40">ذكاء اصطناعي <tspan font-weight="bold" fill="#c0392b">«عام»</tspan> يفهم كل شيء مثل الإنسان.</tspan>
+</text>
+<text x="120" y="914" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">The movie picture is <tspan font-weight="bold" fill="#17457f">not true:</tspan></tspan>
+  <tspan x="120" dy="40">there is still no <tspan font-weight="bold" fill="#c0392b">"general"</tspan> AI</tspan>
+  <tspan x="120" dy="40">that understands everything like a human.</tspan>
+</text>
+</svg>

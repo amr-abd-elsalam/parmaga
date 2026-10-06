@@ -4,182 +4,208 @@
      viewBox="0 0 1080 1350"
      preserveAspectRatio="xMidYMid meet"
      style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilNeuron" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-  <defs>
-    <linearGradient id="gWood" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#9a6634"/>
-      <stop offset="55%" stop-color="#82522a"/>
-      <stop offset="100%" stop-color="#6a4120"/>
-    </linearGradient>
-    <linearGradient id="gPaper" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#fffdf6"/>
-      <stop offset="100%" stop-color="#fbf6e9"/>
-    </linearGradient>
-  </defs>
+<!-- Bullets -->
+<circle cx="966" cy="504" r="6" fill="#c0392b"/>
+<circle cx="114" cy="544" r="6" fill="#c0392b"/>
+<circle cx="966" cy="584" r="6" fill="#c0392b"/>
+<circle cx="114" cy="624" r="6" fill="#c0392b"/>
+<circle cx="966" cy="704" r="6" fill="#c0392b"/>
+<circle cx="114" cy="744" r="6" fill="#c0392b"/>
 
-  <!-- 1) الخلفية الخشبية البسيطة -->
-  <rect x="0" y="0" width="1080" height="1350" fill="url(#gWood)"/>
-  <path d="M0 250 C 300 210, 760 300, 1080 240" stroke="#5b3718" stroke-width="10" fill="none" opacity=".10"/>
-  <path d="M0 1090 C 320 1040, 740 1140, 1080 1080" stroke="#5b3718" stroke-width="9" fill="none" opacity=".09"/>
+<!-- Icon: light bulb -->
+<g transform="translate(880 226)" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="26" cy="20" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="19" y="34" width="14" height="10" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="26" y1="0" x2="26" y2="-2" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="4" y1="20" x2="1" y2="20" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="48" y1="20" x2="51" y2="20" stroke="#22303f" stroke-width="2.5"/>
+</g>
 
-  <!-- 2) الورقة -->
-  <rect x="42" y="34" width="1012" height="1300" fill="#3a2410" opacity=".18" rx="6"/>
-  <rect x="34" y="26" width="1012" height="1300" fill="url(#gPaper)" rx="6"/>
+<!-- Icon: chip -->
+<g transform="translate(140 302)" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="16" y1="2" x2="16" y2="8" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="28" y1="2" x2="28" y2="8" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="16" y1="36" x2="16" y2="42" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="28" y1="36" x2="28" y2="42" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="2" y1="16" x2="8" y2="16" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="2" y1="28" x2="8" y2="28" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="36" y1="16" x2="42" y2="16" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="36" y1="28" x2="42" y2="28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="8" y="8" width="28" height="28" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="16" y="16" width="12" height="12" rx="2" fill="#4fc3e8"/>
+</g>
 
-  <!-- 3) سطور الدفتر الأفقية الزرقاء الفاتحة -->
-  <g stroke="#c9dcee" stroke-width="1.6" opacity=".62">
-    <line x1="52" y1="120" x2="1028" y2="120"/>
-    <line x1="52" y1="165" x2="1028" y2="165"/>
-    <line x1="52" y1="210" x2="1028" y2="210"/>
-    <line x1="52" y1="255" x2="1028" y2="255"/>
-    <line x1="52" y1="300" x2="1028" y2="300"/>
-    <line x1="52" y1="345" x2="1028" y2="345"/>
-    <line x1="52" y1="390" x2="1028" y2="390"/>
-    <line x1="52" y1="435" x2="1028" y2="435"/>
-    <line x1="52" y1="480" x2="1028" y2="480"/>
-    <line x1="52" y1="525" x2="1028" y2="525"/>
-    <line x1="52" y1="570" x2="1028" y2="570"/>
-    <line x1="52" y1="615" x2="1028" y2="615"/>
-    <line x1="52" y1="660" x2="1028" y2="660"/>
-    <line x1="52" y1="705" x2="1028" y2="705"/>
-    <line x1="52" y1="750" x2="1028" y2="750"/>
-    <line x1="52" y1="795" x2="1028" y2="795"/>
-    <line x1="52" y1="840" x2="1028" y2="840"/>
-    <line x1="52" y1="885" x2="1028" y2="885"/>
-    <line x1="52" y1="930" x2="1028" y2="930"/>
-    <line x1="52" y1="975" x2="1028" y2="975"/>
-    <line x1="52" y1="1020" x2="1028" y2="1020"/>
-    <line x1="52" y1="1065" x2="1028" y2="1065"/>
-    <line x1="52" y1="1110" x2="1028" y2="1110"/>
-    <line x1="52" y1="1155" x2="1028" y2="1155"/>
-    <line x1="52" y1="1200" x2="1028" y2="1200"/>
-    <line x1="52" y1="1245" x2="1028" y2="1245"/>
-    <line x1="52" y1="1290" x2="1028" y2="1290"/>
+<!-- Smile face -->
+<g transform="translate(900 780)" stroke-linecap="round">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3"/>
+</g>
+
+<!-- Icon: star -->
+<g transform="translate(150 850)" stroke-linejoin="round">
+  <polygon points="22,2 27.3,14.7 41,15.8 30.6,24.8 33.8,38.2 22,31 10.2,38.2 13.4,24.8 3,15.8 16.7,14.7" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: connected nodes -->
+<g transform="translate(230 850)" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="10" y1="34" x2="22" y2="10" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="22" y1="10" x2="36" y2="34" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="10" y1="34" x2="36" y2="34" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="22" cy="10" r="7" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="10" cy="34" r="7" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="36" cy="34" r="7" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Illustration: neuron with inputs, weights, output -->
+<g stroke-linecap="round" stroke-linejoin="round">
+  <!-- Thick arrow from friend 1 -->
+  <g transform="translate(568 1050) rotate(-16.8)">
+    <polygon points="0,0 44,-30 44,-14 242,-14 242,14 44,14 44,30" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <!-- Medium arrow from friend 2 -->
+  <g transform="translate(574 1080)">
+    <polygon points="0,0 34,-20 34,-8 226,-8 226,8 34,8 34,20" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <!-- Thin arrow from friend 3 -->
+  <g transform="translate(568 1110) rotate(16.8)">
+    <line x1="16" y1="0" x2="242" y2="0" stroke="#2f7fb5" stroke-width="2.5"/>
+    <polygon points="0,0 18,-8 18,8" fill="#2f7fb5"/>
   </g>
 
-  <!-- 4) الإطار الأحمر الخارجي الوحيد -->
-  <rect x="67" y="66" width="946" height="1250" fill="none" stroke="#c62828" stroke-width="2.6" rx="4"/>
+  <!-- Neuron -->
+  <circle cx="484" cy="1086" r="90" fill="#22303f" opacity=".18"/>
+  <circle cx="480" cy="1080" r="90" fill="url(#ilNeuron)" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="480" cy="1080" r="46" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="474" y="1056" width="12" height="48" rx="4" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="456" y="1074" width="48" height="12" rx="4" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
 
-  <!-- 5) خلفيات البطاقات والصناديق -->
-  <rect x="115" y="186" width="276" height="100" fill="#e9f6ee" stroke="#1e7a46" stroke-width="1.8" rx="12"/>
-  <rect x="402" y="186" width="276" height="100" fill="#e8f1fb" stroke="#1d5f9c" stroke-width="1.8" rx="12"/>
-  <rect x="689" y="186" width="276" height="100" fill="#fdf0e2" stroke="#c2661a" stroke-width="1.8" rx="12"/>
+  <!-- Output arrow -->
+  <polygon points="304,1100 330,1084 330,1092 394,1092 394,1108 330,1108 330,1116" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
 
-  <rect x="115" y="740" width="850" height="210" fill="#f5f9fd" stroke="#9db8d4" stroke-width="1.8" rx="14"/>
-  <rect x="115" y="988" width="850" height="172" fill="#eaf7ec" stroke="#6fb287" stroke-width="1.8" rx="14"/>
+  <!-- Cinema ticket -->
+  <rect x="154" y="1071" width="146" height="70" rx="8" fill="#22303f" opacity=".18"/>
+  <rect x="150" y="1065" width="146" height="70" rx="8" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="195" y1="1074" x2="195" y2="1126" stroke="#c96a1b" stroke-width="2.5"/>
+  <circle cx="246" cy="1100" r="12" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="172" cy="1100" r="5" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
 
-  <!-- 6) العلامات والخطوط الوظيفية -->
-  <g fill="none" stroke="#c62828" stroke-width="2">
-    <rect x="140" y="768" width="24" height="24" rx="4"/>
-    <rect x="140" y="808" width="24" height="24" rx="4"/>
-    <rect x="140" y="848" width="24" height="24" rx="4"/>
-    <rect x="140" y="888" width="24" height="24" rx="4"/>
-  </g>
-  <g stroke="#b9cfe2" stroke-width="1.6" stroke-dasharray="7 7">
-    <line x1="222" y1="798" x2="930" y2="798"/>
-    <line x1="222" y1="838" x2="930" y2="838"/>
-    <line x1="222" y1="878" x2="930" y2="878"/>
-    <line x1="222" y1="918" x2="930" y2="918"/>
-  </g>
+  <!-- Friend 1: calm -->
+  <circle cx="840" cy="980" r="38" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="840" cy="980" r="28" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M812 976 C 812 946, 868 946, 868 976 C 860 962, 820 962, 812 976 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="831" cy="980" r="3.5" fill="#22303f"/>
+  <circle cx="849" cy="980" r="3.5" fill="#22303f"/>
+  <path d="M832 991 Q 840 997 848 991" fill="none" stroke="#22303f" stroke-width="2.5"/>
 
-  <!-- 7) النصوص التعليمية -->
+  <!-- Friend 2: laughing -->
+  <circle cx="840" cy="1080" r="38" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="840" cy="1080" r="28" fill="#b57e50" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M812 1076 C 812 1046, 868 1046, 868 1076 C 860 1062, 820 1062, 812 1076 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M829 1080 Q 833 1075 837 1080" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M843 1080 Q 847 1075 851 1080" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M829 1088 Q 840 1102 851 1088 Z" fill="#22303f" stroke="#22303f" stroke-width="2.5"/>
 
-  <!-- العنوان العربي -->
-  <text x="540" y="118" direction="rtl" unicode-bidi="plaintext" text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="38" font-weight="bold" fill="#17436e">تمرين: صنّف وحدد العلاقة</text>
+  <!-- Friend 3: shaking head -->
+  <circle cx="840" cy="1180" r="38" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="840" cy="1180" r="28" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M812 1176 C 812 1146, 868 1146, 868 1176 C 860 1162, 820 1162, 812 1176 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="831" cy="1180" r="3.5" fill="#22303f"/>
+  <circle cx="849" cy="1180" r="3.5" fill="#22303f"/>
+  <path d="M832 1193 L 848 1193" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M888 1166 Q 896 1180 888 1194" fill="none" stroke="#7f95ab" stroke-width="2.5"/>
+  <path d="M896 1160 Q 906 1180 896 1200" fill="none" stroke="#7f95ab" stroke-width="2.5"/>
+</g>
 
-  <!-- العنوان الإنجليزي -->
-  <text x="540" y="158" direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="25" fill="#2a5580">Exercise — Classify and Identify the Relationship</text>
+<!-- Icon: check badge -->
+<g transform="translate(200 1170)" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="26" cy="26" r="24" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M15 26 L 23 34 L 38 18" fill="none" stroke="#ffffff" stroke-width="3"/>
+</g>
 
-  <!-- بطاقة A -->
-  <text x="131" y="218" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="24" font-weight="bold" fill="#1e7a46">A.</text>
-  <text x="375" y="218" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="22" fill="#1e7a46">التعلم الآلي</text>
-  <text x="131" y="272" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="21" fill="#152b42">Machine Learning</text>
+<!-- Paragraph 1 -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">تجمع آراءهم، كل رأي <tspan font-weight="bold" fill="#17457f">على قدر أهميته،</tspan></tspan>
+  <tspan x="950" dy="40">ثم تقرر.</tspan>
+</text>
+<text x="120" y="234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">You combine their opinions,</tspan>
+  <tspan x="120" dy="40">each <tspan font-weight="bold" fill="#17457f">by its importance,</tspan> then decide.</tspan>
+</text>
 
-  <!-- بطاقة B -->
-  <text x="418" y="218" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="24" font-weight="bold" fill="#1d5f9c">B.</text>
-  <text x="662" y="218" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="22" fill="#1d5f9c">التعلم العميق</text>
-  <text x="418" y="272" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="21" fill="#152b42">Deep Learning</text>
+<!-- Paragraph 2 -->
+<text x="950" y="354" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">هذا بالضبط ما يفعله <tspan font-weight="bold" fill="#c0392b">العصبون الاصطناعي:</tspan></tspan>
+</text>
+<text x="120" y="394" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">This is exactly what an</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#c0392b">artificial neuron</tspan> does:</tspan>
+</text>
 
-  <!-- بطاقة C -->
-  <text x="705" y="218" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="24" font-weight="bold" fill="#c2661a">C.</text>
-  <text x="949" y="218" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="22" fill="#c2661a">
-    <tspan x="949" dy="0">الذكاء الاصطناعي</tspan>
-    <tspan x="949" dy="28">التوليدي</tspan>
-  </text>
-  <text x="705" y="272" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="21" fill="#152b42">Generative AI</text>
+<!-- Bullet 1 -->
+<text x="950" y="514" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">آراء الأصحاب هي <tspan font-weight="bold" fill="#c0392b">المدخلات Inputs.</tspan></tspan>
+</text>
+<text x="132" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">The friends' opinions are the <tspan font-weight="bold" fill="#c0392b">inputs.</tspan></tspan>
+</text>
 
-  <!-- المثال الأول -->
-  <text x="950" y="336" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="27" font-weight="bold" fill="#1e7a46">أ — a:</text>
-  <text x="872" y="336" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="27" fill="#225f9c">فرز الرسائل المزعجة تلقائيًا.</text>
-  <text x="140" y="372" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">Automatically sorting spam emails.</text>
+<!-- Bullet 2 -->
+<text x="950" y="594" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">أهمية رأي كل صاحب هي <tspan font-weight="bold" fill="#c0392b">الوزن Weight.</tspan></tspan>
+</text>
+<text x="132" y="634" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">How much each opinion matters</tspan>
+  <tspan x="132" dy="40">is the <tspan font-weight="bold" fill="#c0392b">weight.</tspan></tspan>
+</text>
 
-  <!-- المثال الثاني -->
-  <text x="950" y="420" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="27" font-weight="bold" fill="#1e7a46">ب — b:</text>
-  <text x="866" y="420" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="27" fill="#225f9c">التعرف على المشاة على الطريق في القيادة الذاتية.</text>
-  <text x="140" y="456" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">
-    <tspan x="140" dy="0">Recognizing pedestrians on the road</tspan>
-    <tspan x="140" dy="32">in autonomous driving.</tspan>
-  </text>
+<!-- Bullet 3 -->
+<text x="950" y="714" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">قرارك النهائي هو <tspan font-weight="bold" fill="#c0392b">المخرَج Output.</tspan></tspan>
+</text>
+<text x="132" y="754" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">Your final decision is the <tspan font-weight="bold" fill="#c0392b">output.</tspan></tspan>
+</text>
 
-  <!-- المثال الثالث -->
-  <text x="950" y="536" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="27" font-weight="bold" fill="#1e7a46">ج — c:</text>
-  <text x="868" y="536" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="27" fill="#225f9c">إنشاء صور جديدة تلقائيًا من نص.</text>
-  <text x="140" y="572" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">Automatically generating new images from text.</text>
-
-  <!-- المثال الرابع -->
-  <text x="950" y="620" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="27" font-weight="bold" fill="#1e7a46">د — d:</text>
-  <text x="866" y="620" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="27" fill="#225f9c">التوصية بمنتجات اعتمادًا على سجل مشتريات المستخدم.</text>
-  <text x="140" y="656" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">
-    <tspan x="140" dy="0">Recommending products based on</tspan>
-    <tspan x="140" dy="32">a user’s purchase history.</tspan>
-  </text>
-
-  <!-- حروف اختيارات سؤال العلاقة -->
-  <text x="182" y="798" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" font-weight="bold" fill="#1e7a46">A.</text>
-  <text x="182" y="838" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" font-weight="bold" fill="#1e7a46">B.</text>
-  <text x="182" y="878" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" font-weight="bold" fill="#1e7a46">C.</text>
-  <text x="182" y="918" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" font-weight="bold" fill="#1e7a46">D.</text>
-
-  <!-- مفتاح الإجابة -->
-  <text x="930" y="1046" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="27" fill="#1b5e35">أ — a: A</text>
-  <text x="730" y="1046" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="27" fill="#1b5e35">ب — b: B</text>
-  <text x="530" y="1046" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="27" fill="#1b5e35">ج — c: C</text>
-  <text x="330" y="1046" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="27" fill="#1b5e35">د — d: A</text>
-
-  <text x="930" y="1096" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="27" fill="#1b5e35">وصف العلاقة الصحيح: A</text>
-  <text x="140" y="1136" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#1b5e35">Correct relationship: A</text>
-
+<!-- Illustration labels -->
+<text x="905" y="880" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="905" dy="0">المدخلات</tspan>
+</text>
+<text x="790" y="916" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="790" dy="0">Inputs</tspan>
+</text>
+<text x="760" y="1212" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="760" dy="0">الأوزان</tspan>
+</text>
+<text x="632" y="1248" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="632" dy="0">Weights</tspan>
+</text>
+<text x="290" y="990" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="290" dy="0">المخرَج</tspan>
+</text>
+<text x="170" y="1026" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="170" dy="0">Output</tspan>
+</text>
 </svg>
