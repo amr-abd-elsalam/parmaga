@@ -43,7 +43,7 @@ SECTION_END = "/* END lesson-board */"
 PRINT_BLOCK_LINES = 98
 PRINT_BLOCK_SHA1 = "f8bf32aa9b06dd8d72704d6abab9a37a987a14c3"
 VIEWER_SHA256 = (
-    "4883311fc16bd6c703e1f1cb1a4509aff8d37f0fe89e0f30f97ce3b59028040e"
+    "0fa758e4bd48830aba56fcf2f8c434cc2c1e6e8378c27ce05bc45c6d75b7ed79"
 )
 
 COMMENT_RE = re.compile(r"/\*.*?\*/|//[^\r\n]*", re.DOTALL)

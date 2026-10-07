@@ -22,7 +22,7 @@
     svg: 1, g: 1, defs: 1, title: 1, desc: 1, metadata: 1,
     path: 1, rect: 1, circle: 1, ellipse: 1, line: 1, polygon: 1, polyline: 1,
     text: 1, tspan: 1,
-    linearGradient: 1, radialGradient: 1, stop: 1,
+    linearGradient: 1, radialGradient: 1, stop: 1, pattern: 1,
     filter: 1, feDropShadow: 1, feGaussianBlur: 1, feOffset: 1,
     feBlend: 1, feColorMatrix: 1, feComposite: 1, feFlood: 1, feMerge: 1, feMergeNode: 1
   };
@@ -43,7 +43,7 @@
     direction: 1, 'unicode-bidi': 1, 'writing-mode': 1,
     'marker-start': 1, 'marker-mid': 1, 'marker-end': 1,
     'stop-color': 1, 'stop-opacity': 1,
-    gradientUnits: 1, gradientTransform: 1, spreadMethod: 1,
+    gradientUnits: 1, gradientTransform: 1, spreadMethod: 1, patternUnits: 1,
     filterUnits: 1, primitiveUnits: 1, result: 1, in: 1, in2: 1, mode: 1,
     stdDeviation: 1, 'flood-color': 1, 'flood-opacity': 1,
     preserveAspectRatio: 1, 'xml:space': 1, 'xml:lang': 1, lang: 1,
