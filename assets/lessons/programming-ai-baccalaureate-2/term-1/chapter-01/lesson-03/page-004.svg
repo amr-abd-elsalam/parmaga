@@ -4,207 +4,176 @@
      viewBox="0 0 1080 1350"
      preserveAspectRatio="xMidYMid meet"
      style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-  <defs>
-    <linearGradient id="woodBg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#b07d46"/>
-      <stop offset="0.55" stop-color="#96652f"/>
-      <stop offset="1" stop-color="#7d5426"/>
-    </linearGradient>
-    <linearGradient id="paperTone" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fffdf6"/>
-      <stop offset="1" stop-color="#fbf6e9"/>
-    </linearGradient>
-  </defs>
+<defs>
+  <linearGradient id="ilBack" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+  <linearGradient id="ilBox" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+</defs>
 
-  <!-- 1. الخلفية الخشبية البسيطة -->
-  <rect x="0" y="0" width="1080" height="1350" fill="url(#woodBg)"/>
-  <path d="M0 250 C 300 220 760 300 1080 260" stroke="#6f4a21" stroke-width="10" fill="none" opacity="0.18"/>
-  <path d="M0 1090 C 320 1130 720 1040 1080 1080" stroke="#6f4a21" stroke-width="12" fill="none" opacity="0.15"/>
+<!-- Illustration: AI finds order in messy data -->
+<g stroke-linecap="round" stroke-linejoin="round">
+  <rect x="109" y="850" width="866" height="400" rx="24" fill="#22303f" opacity=".18"/>
+  <rect x="105" y="844" width="866" height="400" rx="24" fill="url(#ilBack)" stroke="#8fc9f2" stroke-width="2.5"/>
 
-  <!-- 2. الورقة -->
-  <rect x="42" y="36" width="1012" height="1294" rx="8" fill="#4d3315" opacity="0.28"/>
-  <rect x="34" y="28" width="1012" height="1294" rx="8" fill="url(#paperTone)"/>
+  <!-- ground shadows -->
+  <ellipse cx="840" cy="1180" rx="112" ry="12" fill="#22303f" opacity=".18"/>
+  <ellipse cx="530" cy="1180" rx="120" ry="12" fill="#22303f" opacity=".18"/>
 
-  <!-- 3. سطور الدفتر الأفقية الزرقاء الفاتحة -->
-  <g stroke="#cfe0f2" stroke-width="1.6">
-    <line x1="92" y1="150" x2="988" y2="150"/>
-    <line x1="92" y1="195" x2="988" y2="195"/>
-    <line x1="92" y1="240" x2="988" y2="240"/>
-    <line x1="92" y1="285" x2="988" y2="285"/>
-    <line x1="92" y1="330" x2="988" y2="330"/>
-    <line x1="92" y1="375" x2="988" y2="375"/>
-    <line x1="92" y1="420" x2="988" y2="420"/>
-    <line x1="92" y1="465" x2="988" y2="465"/>
-    <line x1="92" y1="510" x2="988" y2="510"/>
-    <line x1="92" y1="555" x2="988" y2="555"/>
-    <line x1="92" y1="600" x2="988" y2="600"/>
-    <line x1="92" y1="645" x2="988" y2="645"/>
-    <line x1="92" y1="690" x2="988" y2="690"/>
-    <line x1="92" y1="735" x2="988" y2="735"/>
-    <line x1="92" y1="780" x2="988" y2="780"/>
-    <line x1="92" y1="825" x2="988" y2="825"/>
-    <line x1="92" y1="870" x2="988" y2="870"/>
-    <line x1="92" y1="915" x2="988" y2="915"/>
-    <line x1="92" y1="960" x2="988" y2="960"/>
-    <line x1="92" y1="1005" x2="988" y2="1005"/>
-    <line x1="92" y1="1050" x2="988" y2="1050"/>
-    <line x1="92" y1="1095" x2="988" y2="1095"/>
-    <line x1="92" y1="1140" x2="988" y2="1140"/>
-    <line x1="92" y1="1185" x2="988" y2="1185"/>
-    <line x1="92" y1="1230" x2="988" y2="1230"/>
-    <line x1="92" y1="1275" x2="988" y2="1275"/>
+  <!-- messy pile (right) -->
+  <g stroke="#22303f" stroke-width="2.5">
+    <circle cx="825" cy="988" r="14" fill="#c96a1b"/>
+    <polygon points="790,1040 836,1050 806,1008" fill="#2f7fb5"/>
+    <polygon points="850,1020 886,1014 892,1050 856,1056" fill="#8fc9f2"/>
+    <circle cx="745" cy="1062" r="16" fill="#2e7d32"/>
+    <polygon points="760,1100 800,1068 806,1112" fill="#ffd24a"/>
+    <polygon points="815,1066 855,1073 848,1113 808,1106" fill="#f0c48c"/>
+    <circle cx="878" cy="1078" r="20" fill="#a9dcbe"/>
+    <polygon points="902,1062 938,1084 904,1094" fill="#c96a1b"/>
+    <circle cx="752" cy="1146" r="24" fill="#2f7fb5"/>
+    <polygon points="785,1124 827,1118 833,1162 791,1168" fill="#2e7d32"/>
+    <polygon points="852,1168 904,1168 878,1122" fill="#c96a1b"/>
+    <circle cx="918" cy="1140" r="20" fill="#ffd24a"/>
   </g>
 
-  <!-- 4. الحد الأحمر الخارجي الوحيد -->
-  <rect x="67" y="100" width="946" height="1200" rx="5" fill="none" stroke="#c8322c" stroke-width="3"/>
+  <!-- arrow from pile into box -->
+  <line x1="712" y1="1035" x2="666" y2="1035" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="650,1035 666,1026 666,1044" fill="#c0392b"/>
 
-  <!-- 5. خلفيات البطاقات -->
-  <rect x="95" y="272" width="890" height="236" rx="16" fill="#fffdf6" stroke="#c3d3e0" stroke-width="1.8"/>
-  <rect x="95" y="534" width="890" height="200" rx="16" fill="#fffdf6" stroke="#c3d3e0" stroke-width="1.8"/>
-  <rect x="95" y="760" width="890" height="200" rx="16" fill="#fffdf6" stroke="#c3d3e0" stroke-width="1.8"/>
-  <rect x="95" y="986" width="890" height="168" rx="16" fill="#fffdf6" stroke="#c3d3e0" stroke-width="1.8"/>
-
-  <!-- 6. الأيقونات الوظيفية البسيطة -->
-  <!-- أيقونة 1: التصوير الطبي -->
-  <g fill="none" stroke="#2d4a63" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="124" y="358" width="58" height="66" rx="6" fill="#f3f8fc"/>
-    <line x1="124" y1="372" x2="182" y2="372"/>
+  <!-- math signs on the box side -->
+  <g stroke="#22303f" stroke-width="2.5">
+    <circle cx="480" cy="902" r="15" fill="#ffd24a"/>
+    <circle cx="530" cy="902" r="15" fill="#ffd24a"/>
+    <circle cx="580" cy="902" r="15" fill="#ffd24a"/>
   </g>
-  <polyline points="132,398 143,398 149,382 157,414 163,398 174,398"
-            fill="none" stroke="#c8322c" stroke-width="3"
-            stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M472 902 H488 M480 894 V910 M522 902 H538 M574 896 L586 908 M586 896 L574 908" fill="none" stroke="#17457f" stroke-width="2.5" stroke-linecap="round"/>
 
-  <!-- أيقونة 2: الزراعة -->
-  <g fill="none" stroke="#1f7a4d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-    <line x1="153" y1="662" x2="153" y2="618"/>
-    <path d="M153 638 C 136 636 128 624 132 612 C 146 613 153 624 153 638 Z"/>
-    <path d="M153 630 C 170 628 178 616 174 604 C 160 605 153 616 153 630 Z"/>
-    <line x1="126" y1="664" x2="180" y2="664"/>
+  <!-- the box with a grid of connected dots -->
+  <rect x="424" y="936" width="220" height="210" rx="28" fill="#22303f" opacity=".18"/>
+  <rect x="420" y="930" width="220" height="210" rx="28" fill="url(#ilBox)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="440" y="950" width="180" height="170" rx="16" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M470 985 H590 M470 1035 H590 M470 1085 H590 M470 985 V1085 M530 985 V1085 M590 985 V1085 M470 985 L590 1085 M590 985 L470 1085" fill="none" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+  <g stroke="#22303f" stroke-width="2.5">
+    <circle cx="470" cy="985" r="8" fill="#4fc3e8"/>
+    <circle cx="530" cy="985" r="8" fill="#4fc3e8"/>
+    <circle cx="590" cy="985" r="8" fill="#4fc3e8"/>
+    <circle cx="470" cy="1035" r="8" fill="#4fc3e8"/>
+    <circle cx="530" cy="1035" r="10" fill="#ffd24a"/>
+    <circle cx="590" cy="1035" r="8" fill="#4fc3e8"/>
+    <circle cx="470" cy="1085" r="8" fill="#4fc3e8"/>
+    <circle cx="530" cy="1085" r="8" fill="#4fc3e8"/>
+    <circle cx="590" cy="1085" r="8" fill="#4fc3e8"/>
   </g>
+  <rect x="450" y="1140" width="160" height="14" rx="7" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
 
-  <!-- أيقونة 3: التصنيع -->
-  <g fill="none" stroke="#2d4a63" stroke-width="2.8" stroke-linecap="round">
-    <circle cx="153" cy="860" r="20"/>
-    <circle cx="153" cy="860" r="7"/>
-    <line x1="173" y1="860" x2="181" y2="860"/>
-    <line x1="167" y1="846" x2="173" y2="840"/>
-    <line x1="153" y1="840" x2="153" y2="832"/>
-    <line x1="139" y1="846" x2="133" y2="840"/>
-    <line x1="133" y1="860" x2="125" y2="860"/>
-    <line x1="139" y1="874" x2="133" y2="880"/>
-    <line x1="153" y1="880" x2="153" y2="888"/>
-    <line x1="167" y1="874" x2="173" y2="880"/>
+  <!-- arrow from box to sorted rows -->
+  <line x1="408" y1="1035" x2="368" y2="1035" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="352,1035 368,1026 368,1044" fill="#c0392b"/>
+
+  <!-- sorted rows (left) -->
+  <g stroke="#22303f" stroke-width="2.5">
+    <circle cx="320" cy="905" r="18" fill="#2e7d32"/>
+    <rect x="135" y="990" width="200" height="8" rx="4" fill="#8fc9f2"/>
+    <rect x="135" y="1072" width="200" height="8" rx="4" fill="#8fc9f2"/>
+    <rect x="135" y="1152" width="200" height="8" rx="4" fill="#8fc9f2"/>
+    <circle cx="170" cy="965" r="20" fill="#2f7fb5"/>
+    <circle cx="235" cy="965" r="20" fill="#2f7fb5"/>
+    <circle cx="300" cy="965" r="20" fill="#2f7fb5"/>
+    <polygon points="148,1068 192,1068 170,1028" fill="#c96a1b"/>
+    <polygon points="213,1068 257,1068 235,1028" fill="#c96a1b"/>
+    <polygon points="278,1068 322,1068 300,1028" fill="#c96a1b"/>
+    <rect x="150" y="1108" width="40" height="40" rx="4" fill="#2e7d32"/>
+    <rect x="215" y="1108" width="40" height="40" rx="4" fill="#2e7d32"/>
+    <rect x="280" y="1108" width="40" height="40" rx="4" fill="#2e7d32"/>
   </g>
+  <path d="M311 905 L318 912 L330 898" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
 
-  <!-- أيقونة 4: مسارات التوصيل -->
-  <g fill="none" stroke="#2d4a63" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M126 1096 C 143 1096 141 1068 158 1066 C 174 1064 170 1050 180 1048" stroke-dasharray="7 6"/>
-    <rect x="128" y="1074" width="18" height="14" rx="3" fill="#f3f8fc"/>
-  </g>
-  <circle cx="126" cy="1096" r="4.5" fill="#2d4a63"/>
-  <polyline points="174,1042 184,1048 174,1054"
-            fill="none" stroke="#c8322c" stroke-width="3"
-            stroke-linecap="round" stroke-linejoin="round"/>
+<!-- Icon: AI chip beside header -->
+<g transform="translate(120 190)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M15 8 V2 M22 8 V2 M29 8 V2 M15 36 V42 M22 36 V42 M29 36 V42 M8 15 H2 M8 22 H2 M8 29 H2 M36 15 H42 M36 22 H42 M36 29 H42" fill="none"/>
+  <rect x="8" y="8" width="28" height="28" rx="4" fill="#2f7fb5"/>
+  <rect x="15" y="15" width="14" height="14" rx="2" fill="#8fc9f2"/>
+</g>
 
-  <!-- 7. النصوص التعليمية -->
+<!-- Icon: light bulb beside first paragraph -->
+<g transform="translate(880 462)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M4 22 H9 M47 22 H52 M10 6 L14 10 M46 6 L42 10 M28 0 V0" fill="none" stroke="#c96a1b"/>
+  <circle cx="28" cy="22" r="17" fill="#ffd24a"/>
+  <path d="M22 24 L28 30 L34 24" fill="none"/>
+  <rect x="20" y="38" width="16" height="13" rx="3" fill="#7f95ab"/>
+</g>
 
-  <!-- العنوان العربي -->
-  <text x="540" y="176"
-        direction="rtl" unicode-bidi="plaintext" text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="46" font-weight="bold" fill="#173f6b">استخدام الذكاء الاصطناعي في الصناعة</text>
+<!-- Icon: warning triangle beside second paragraph -->
+<g transform="translate(866 716)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="28,4 54,50 2,50" fill="#ffd24a"/>
+  <rect x="25" y="18" width="6" height="18" rx="3" fill="#22303f"/>
+  <circle cx="28" cy="43" r="3.5" fill="#22303f"/>
+</g>
 
-  <!-- العنوان الإنجليزي -->
-  <text x="540" y="222"
-        direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="30" fill="#152b42">Use of AI in Industry</text>
+<!-- Face: surprise (important fact) -->
+<g transform="translate(790 744)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="0" cy="10" r="5" fill="#22303f"/>
+</g>
 
-  <line x1="400" y1="242" x2="680" y2="242" stroke="#c8322c" stroke-width="3" stroke-linecap="round"/>
+<!-- Text -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">عُدّة الرحلة: كلمات لازم تعرفها</text>
 
-  <!-- بطاقة 1 -->
-  <text x="960" y="318"
-        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="31" font-weight="bold" fill="#1f7a4d">الرعاية الصحية <tspan direction="ltr" unicode-bidi="embed">Healthcare  |</tspan></text>
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="normal" fill="#152b42">Your Toolkit: Words You Need to Know</text>
 
-  <text x="960" y="364"
-        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="29" fill="#1a5fa8">
-    <tspan x="960" dy="0">تشخيص الأمراض من صور الأشعة السينية</tspan>
-    <tspan x="960" dy="36">والتصوير المقطعي، ودعم اكتشاف الأدوية.</tspan>
-  </text>
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="950" dy="0">الذكاء الاصطناعي (AI)</tspan>
+</text>
 
-  <text x="205" y="444"
-        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27" fill="#152b42">
-    <tspan x="205" dy="0">Detecting diseases from X-ray and CT images</tspan>
-    <tspan x="205" dy="34">and supporting drug discovery.</tspan>
-  </text>
+<text x="120" y="274" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="120" dy="0">Artificial Intelligence (AI)</tspan>
+</text>
 
-  <!-- بطاقة 2 -->
-  <text x="960" y="580"
-        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="31" font-weight="bold" fill="#1f7a4d">الزراعة <tspan direction="ltr" unicode-bidi="embed">Agriculture  |</tspan></text>
+<text x="950" y="314" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">مجال في <tspan font-weight="bold" fill="#17457f">علوم الكمبيوتر</tspan> يبني أنظمة تؤدي مهامًا</tspan>
+  <tspan x="950" dy="40">تحتاج إلى <tspan font-weight="bold" fill="#c0392b">ذكاء الإنسان،</tspan> مثل التعرف على</tspan>
+  <tspan x="950" dy="40">الصور وفهم الكلام والتنبؤ.</tspan>
+</text>
 
-  <text x="960" y="626"
-        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="29" fill="#1a5fa8">
-    <tspan x="960" dy="0">التنبؤ بموعد الحصاد، والكشف عن الآفات والأمراض.</tspan>
-  </text>
+<text x="120" y="434" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">A field of <tspan font-weight="bold" fill="#17457f">computer science</tspan> that builds</tspan>
+  <tspan x="120" dy="40">systems to do tasks that need <tspan font-weight="bold" fill="#c0392b">human</tspan></tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#c0392b">intelligence,</tspan> like recognizing images,</tspan>
+  <tspan x="120" dy="40">understanding speech, and predicting.</tspan>
+</text>
 
-  <text x="205" y="670"
-        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27" fill="#152b42">
-    <tspan x="205" dy="0">Predicting harvest timing and</tspan>
-    <tspan x="205" dy="34">detecting pests and diseases.</tspan>
-  </text>
+<text x="950" y="634" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">انتبه:</tspan> هو ليس عقلًا بشريًا ولا سحرًا، بل</tspan>
+  <tspan x="950" dy="40"><tspan font-weight="bold" fill="#17457f">حسابات رياضية</tspan> تبحث عن <tspan font-weight="bold" fill="#17457f">الأنماط</tspan> في البيانات.</tspan>
+</text>
 
-  <!-- بطاقة 3 -->
-  <text x="960" y="806"
-        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="31" font-weight="bold" fill="#1f7a4d">التصنيع <tspan direction="ltr" unicode-bidi="embed">Manufacturing  |</tspan></text>
-
-  <text x="960" y="852"
-        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="29" fill="#1a5fa8">
-    <tspan x="960" dy="0">أتمتة فحص جودة المنتجات واستخدام الصيانة التنبؤية.</tspan>
-  </text>
-
-  <text x="205" y="896"
-        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27" fill="#152b42">
-    <tspan x="205" dy="0">Automating product quality inspection</tspan>
-    <tspan x="205" dy="34">and using predictive maintenance.</tspan>
-  </text>
-
-  <!-- بطاقة 4 -->
-  <text x="960" y="1032"
-        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="31" font-weight="bold" fill="#1f7a4d">الخدمات اللوجستية <tspan direction="ltr" unicode-bidi="embed">Logistics  |</tspan></text>
-
-  <text x="960" y="1078"
-        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="29" fill="#1a5fa8">
-    <tspan x="960" dy="0">تحسين مسارات التوصيل.</tspan>
-  </text>
-
-  <text x="205" y="1122"
-        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27" fill="#152b42">
-    <tspan x="205" dy="0">Optimizing delivery routes.</tspan>
-  </text>
-
+<text x="120" y="714" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">Careful:</tspan> it is not a human mind or</tspan>
+  <tspan x="120" dy="40">magic, but <tspan font-weight="bold" fill="#17457f">math</tspan> that searches for</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#17457f">patterns</tspan> in data.</tspan>
+</text>
 </svg>

@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilSkyPrivacy" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#8fc9f2"/>
+  </linearGradient>
+</defs>
+
+<!-- Outlined box: shadow, fill, accent -->
+<rect x="109" y="728" width="870" height="208" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="722" width="870" height="208" rx="16" fill="#fffdf7" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="738" width="6" height="176" rx="3" fill="#2f7fb5"/>
+
+<!-- Icon: shield (privacy) -->
+<g transform="translate(864 322)">
+  <path d="M28 4 L50 12 V28 C 50 40, 40 48, 28 52 C 16 48, 6 40, 6 28 V12 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M18 28 L25 35 L39 21" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: heart with pulse (health data) -->
+<g transform="translate(800 622)">
+  <path d="M28 50 C 6 36, 4 16, 16 12 C 22 10, 26 14, 28 18 C 30 14, 34 10, 40 12 C 52 16, 50 36, 28 50 Z" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polyline points="10,30 19,30 23,22 29,38 33,30 46,30" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: map pin (location data) -->
+<g transform="translate(880 622)">
+  <path d="M28 52 C 18 40, 10 30, 10 22 A 18 18 0 0 1 46 22 C 46 30, 38 40, 28 52 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="28" cy="22" r="7" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Face: thinking (question in the box) -->
+<g transform="translate(880 890)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Illustration: student keeps sensitive data safe in a locked box -->
+<g>
+  <rect x="109" y="956" width="870" height="294" rx="24" fill="#22303f" opacity=".18"/>
+  <rect x="105" y="950" width="870" height="294" rx="24" fill="url(#ilSkyPrivacy)"/>
+  <path d="M105 1210 H975 V1220 Q975 1244 951 1244 H129 Q105 1244 105 1220 Z" fill="#a9dcbe"/>
+  <line x1="105" y1="1210" x2="975" y2="1210" stroke="#2e7d32" stroke-width="2"/>
+
+  <!-- Sun and clouds -->
+  <circle cx="912" cy="990" r="18" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="220" cy="986" rx="32" ry="11" fill="#ffffff"/>
+  <ellipse cx="248" cy="978" rx="20" ry="11" fill="#ffffff"/>
+  <ellipse cx="780" cy="984" rx="28" ry="10" fill="#ffffff"/>
+
+  <!-- Soft shield around the student and the box -->
+  <path d="M540 966 L690 1000 V1110 C 690 1180, 620 1222, 540 1240 C 460 1222, 390 1180, 390 1110 V1000 Z" fill="#dff1f7" opacity=".85"/>
+  <path d="M540 966 L690 1000 V1110 C 690 1180, 620 1222, 540 1240 C 460 1222, 390 1180, 390 1110 V1000 Z" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Student -->
+  <rect x="508" y="1180" width="22" height="34" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="550" y="1180" width="22" height="34" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="517" cy="1215" rx="14" ry="6" fill="#22303f"/>
+  <ellipse cx="563" cy="1215" rx="14" ry="6" fill="#22303f"/>
+  <rect x="500" y="1034" width="80" height="156" rx="14" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="500,1040 514,1050 470,1124 456,1116" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="580,1040 566,1050 610,1124 624,1116" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="540" cy="1008" r="24" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M516 1004 Q 518 980 540 980 Q 562 980 564 1004 Q 552 992 516 1004 Z" fill="#2b211c"/>
+  <circle cx="532" cy="1010" r="2.5" fill="#22303f"/>
+  <circle cx="548" cy="1010" r="2.5" fill="#22303f"/>
+  <path d="M532 1018 Q 540 1024 548 1018" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Box with window and large padlock -->
+  <rect x="464" y="1076" width="160" height="126" rx="12" fill="#22303f" opacity=".18"/>
+  <rect x="460" y="1070" width="160" height="126" rx="12" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="474" y="1080" width="132" height="38" rx="6" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M508 1112 C 496 1104, 496 1090, 504 1090 C 507 1090, 508 1092, 508 1094 C 508 1092, 509 1090, 512 1090 C 520 1090, 520 1104, 508 1112 Z" fill="#c0392b"/>
+  <polyline points="499,1100 504,1100 506,1095 510,1105 512,1100 517,1100" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="540" cy="1099" rx="9" ry="12" fill="none" stroke="#17457f" stroke-width="2"/>
+  <circle cx="536.5" cy="1096" r="1.8" fill="#17457f"/>
+  <circle cx="543.5" cy="1096" r="1.8" fill="#17457f"/>
+  <path d="M536 1104 Q 540 1107 544 1104" fill="none" stroke="#17457f" stroke-width="2" stroke-linecap="round"/>
+  <path d="M574 1113 C 568 1105, 564 1100, 564 1096 A 10 10 0 0 1 584 1096 C 584 1100, 580 1105, 574 1113 Z" fill="#2e7d32"/>
+  <circle cx="574" cy="1096" r="3.5" fill="#ffffff"/>
+  <path d="M522 1148 V1140 A 18 18 0 0 1 558 1140 V1148 H550 V1140 A 10 10 0 0 0 530 1140 V1148 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="512" y="1146" width="56" height="40" rx="7" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="540" cy="1162" r="5" fill="#22303f"/>
+  <rect x="538" y="1163" width="4" height="12" rx="2" fill="#22303f"/>
+  <circle cx="460" cy="1124" r="9" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="620" cy="1124" r="9" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Reaching hands, left side -->
+  <rect x="220" y="1030" width="112" height="22" rx="8" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="344" cy="1041" rx="16" ry="11" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="340" cy="1029" rx="6" ry="4" fill="#e8b98d" stroke="#22303f" stroke-width="2"/>
+  <line x1="368" y1="1041" x2="382" y2="1041" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="367" y1="1031" x2="378" y2="1024" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="367" y1="1051" x2="378" y2="1058" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+
+  <rect x="210" y="1150" width="122" height="22" rx="8" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="344" cy="1161" rx="16" ry="11" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="340" cy="1149" rx="6" ry="4" fill="#d59f6f" stroke="#22303f" stroke-width="2"/>
+  <line x1="370" y1="1161" x2="390" y2="1161" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="369" y1="1151" x2="382" y2="1144" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="369" y1="1171" x2="382" y2="1178" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+
+  <!-- Reaching hands, right side -->
+  <rect x="748" y="1050" width="112" height="22" rx="8" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="736" cy="1061" rx="16" ry="11" fill="#b57e50" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="740" cy="1049" rx="6" ry="4" fill="#b57e50" stroke="#22303f" stroke-width="2"/>
+  <line x1="712" y1="1061" x2="698" y2="1061" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="713" y1="1051" x2="702" y2="1044" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="713" y1="1071" x2="702" y2="1078" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+
+  <rect x="734" y="1160" width="122" height="22" rx="8" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="722" cy="1171" rx="16" ry="11" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="726" cy="1159" rx="6" ry="4" fill="#e8b98d" stroke="#22303f" stroke-width="2"/>
+  <line x1="698" y1="1171" x2="684" y2="1171" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="699" y1="1161" x2="688" y2="1154" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="699" y1="1181" x2="688" y2="1188" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+
+  <rect x="105" y="950" width="870" height="294" rx="24" fill="none" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Text -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="950" dy="0">الخصوصية والبيانات الحساسة</tspan>
+</text>
+<text x="120" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="120" dy="0">Privacy and Sensitive Data</tspan>
+</text>
+
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">الخصوصية</tspan> <tspan font-weight="bold" fill="#17457f">حقك في التحكم</tspan> في معلوماتك:</tspan>
+  <tspan x="950" dy="40">من يراها، وفيمَ يستخدمها.</tspan>
+</text>
+<text x="120" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">Privacy</tspan> is your <tspan font-weight="bold" fill="#17457f">right to control</tspan></tspan>
+  <tspan x="120" dy="40">your information: who sees it and</tspan>
+  <tspan x="120" dy="40">what it is used for.</tspan>
+</text>
+
+<text x="950" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">البيانات الحساسة</tspan> هي التي يكبر ضررها إذا</tspan>
+  <tspan x="950" dy="40">تسربت، مثل حالتك الصحية وبصمة وجهك وموقعك.</tspan>
+</text>
+<text x="120" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">Sensitive data</tspan> is data that causes</tspan>
+  <tspan x="120" dy="40">great harm if leaked, such as your</tspan>
+  <tspan x="120" dy="40">health, your face print, and</tspan>
+  <tspan x="120" dy="40">your location.</tspan>
+</text>
+
+<text x="935" y="754" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="935" dy="0">فكّر لحظة</tspan>
+</text>
+<text x="140" y="794" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="140" dy="0">THINK FOR A MOMENT</tspan>
+</text>
+<text x="935" y="834" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">من ينبغي أن يقرر كيف تُستخدم بياناتك؟</tspan>
+</text>
+<text x="140" y="874" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">Who should decide how your data</tspan>
+  <tspan x="140" dy="40">is used?</tspan>
+</text>
+</svg>

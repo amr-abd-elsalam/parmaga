@@ -4,188 +4,190 @@
      viewBox="0 0 1080 1350"
      preserveAspectRatio="xMidYMid meet"
      style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilBg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+  <linearGradient id="ilC1" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8fc9f2"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+  <linearGradient id="ilC2" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#4fc3e8"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+  <linearGradient id="ilC3" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#f0c48c"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-  <defs>
-    <linearGradient id="deskWood" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#9c6836"/>
-      <stop offset="0.55" stop-color="#87552a"/>
-      <stop offset="1" stop-color="#a3713d"/>
-    </linearGradient>
-    <linearGradient id="paperTone" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fffdf6"/>
-      <stop offset="1" stop-color="#faf4e5"/>
-    </linearGradient>
-  </defs>
+<!-- Illustration shadow -->
+<rect x="124" y="838" width="840" height="318" rx="20" fill="#22303f" opacity=".18"/>
 
-  <!-- 1) الخلفية الخشبية البسيطة -->
-  <rect x="0" y="0" width="1080" height="1350" fill="url(#deskWood)"/>
-  <path d="M0,250 C 300,205 720,300 1080,255" stroke="#5d3c1b" stroke-width="24" fill="none" opacity="0.08"/>
-  <path d="M0,1090 C 340,1140 730,1045 1080,1100" stroke="#5d3c1b" stroke-width="22" fill="none" opacity="0.07"/>
+<!-- Key sentence strip -->
+<rect x="105" y="722" width="870" height="88" rx="10" fill="#fdf6d8"/>
+<rect x="961" y="738" width="6" height="56" rx="3" fill="#e0a55e"/>
 
-  <!-- 2) الورقة -->
-  <rect x="42" y="40" width="1012" height="1290" rx="8" fill="#3a2411" opacity="0.18"/>
-  <rect x="34" y="30" width="1012" height="1290" rx="8" fill="url(#paperTone)"/>
+<!-- Icon: AI chip beside paragraph 2 -->
+<g transform="translate(200 436)">
+  <g stroke="#22303f" stroke-width="2.5" stroke-linecap="round">
+    <line x1="18" y1="3" x2="18" y2="10"/>
+    <line x1="28" y1="3" x2="28" y2="10"/>
+    <line x1="38" y1="3" x2="38" y2="10"/>
+    <line x1="18" y1="46" x2="18" y2="53"/>
+    <line x1="28" y1="46" x2="28" y2="53"/>
+    <line x1="38" y1="46" x2="38" y2="53"/>
+    <line x1="3" y1="18" x2="10" y2="18"/>
+    <line x1="3" y1="28" x2="10" y2="28"/>
+    <line x1="3" y1="38" x2="10" y2="38"/>
+    <line x1="46" y1="18" x2="53" y2="18"/>
+    <line x1="46" y1="28" x2="53" y2="28"/>
+    <line x1="46" y1="38" x2="53" y2="38"/>
+  </g>
+  <rect x="10" y="10" width="36" height="36" rx="6" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="19" y="19" width="18" height="18" rx="3" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
 
-  <!-- 3) سطور الكراسة الزرقاء الباهتة -->
-  <g stroke="#cfe1f0" stroke-width="1.4">
-    <line x1="76" y1="104" x2="1004" y2="104"/>
-    <line x1="76" y1="140" x2="1004" y2="140"/>
-    <line x1="76" y1="176" x2="1004" y2="176"/>
-    <line x1="76" y1="212" x2="1004" y2="212"/>
-    <line x1="76" y1="248" x2="1004" y2="248"/>
-    <line x1="76" y1="284" x2="1004" y2="284"/>
-    <line x1="76" y1="320" x2="1004" y2="320"/>
-    <line x1="76" y1="356" x2="1004" y2="356"/>
-    <line x1="76" y1="392" x2="1004" y2="392"/>
-    <line x1="76" y1="428" x2="1004" y2="428"/>
-    <line x1="76" y1="464" x2="1004" y2="464"/>
-    <line x1="76" y1="500" x2="1004" y2="500"/>
-    <line x1="76" y1="536" x2="1004" y2="536"/>
-    <line x1="76" y1="572" x2="1004" y2="572"/>
-    <line x1="76" y1="608" x2="1004" y2="608"/>
-    <line x1="76" y1="644" x2="1004" y2="644"/>
-    <line x1="76" y1="680" x2="1004" y2="680"/>
-    <line x1="76" y1="716" x2="1004" y2="716"/>
-    <line x1="76" y1="752" x2="1004" y2="752"/>
-    <line x1="76" y1="788" x2="1004" y2="788"/>
-    <line x1="76" y1="824" x2="1004" y2="824"/>
-    <line x1="76" y1="860" x2="1004" y2="860"/>
-    <line x1="76" y1="896" x2="1004" y2="896"/>
-    <line x1="76" y1="932" x2="1004" y2="932"/>
-    <line x1="76" y1="968" x2="1004" y2="968"/>
-    <line x1="76" y1="1004" x2="1004" y2="1004"/>
-    <line x1="76" y1="1040" x2="1004" y2="1040"/>
-    <line x1="76" y1="1076" x2="1004" y2="1076"/>
-    <line x1="76" y1="1112" x2="1004" y2="1112"/>
-    <line x1="76" y1="1148" x2="1004" y2="1148"/>
-    <line x1="76" y1="1184" x2="1004" y2="1184"/>
-    <line x1="76" y1="1220" x2="1004" y2="1220"/>
-    <line x1="76" y1="1256" x2="1004" y2="1256"/>
+<!-- Emotion face: smile beside paragraph 1 -->
+<g transform="translate(900 366)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Illustration: listens, understands, acts -->
+<g>
+  <rect x="120" y="832" width="840" height="318" rx="20" fill="url(#ilBg)"/>
+
+  <g transform="translate(0 -6)">
+    <!-- Circle shadows -->
+    <circle cx="784" cy="956" r="80" fill="#22303f" opacity=".18"/>
+    <circle cx="544" cy="956" r="80" fill="#22303f" opacity=".18"/>
+    <circle cx="304" cy="956" r="80" fill="#22303f" opacity=".18"/>
+
+    <!-- Circles -->
+    <circle cx="780" cy="950" r="80" fill="url(#ilC1)" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="540" cy="950" r="80" fill="url(#ilC2)" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="300" cy="950" r="80" fill="url(#ilC3)" stroke="#22303f" stroke-width="2.5"/>
+
+    <!-- Arrows right to left -->
+    <line x1="688" y1="950" x2="642" y2="950" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+    <polygon points="628,950 642,941 642,959" fill="#c0392b"/>
+    <line x1="448" y1="950" x2="402" y2="950" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+    <polygon points="388,950 402,941 402,959" fill="#c0392b"/>
+
+    <!-- Step 1: ear with sound waves -->
+    <g transform="translate(750 950)">
+      <path d="M -22 -8 Q -22 -46 10 -46 Q 40 -46 40 -12 Q 40 8 24 20 Q 14 28 14 40 Q 14 54 0 54 Q -14 54 -16 42 Q -18 30 -22 -8 Z" fill="#e8b98d" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M -6 -8 Q -6 -28 10 -28 Q 24 -28 24 -12 Q 24 0 14 6" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+    <path d="M 800 925 Q 812 950 800 975" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 815 912 Q 832 950 815 988" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 830 900 Q 852 950 830 1000" fill="none" stroke="#17457f" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Step 2: speech bubble with gear -->
+    <path d="M 502 905 H 578 Q 600 905 600 927 V 963 Q 600 985 578 985 H 526 L 500 1008 L 506 985 H 502 Q 480 985 480 963 V 927 Q 480 905 502 905 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <g transform="translate(540 945)">
+      <rect x="-5" y="-27" width="10" height="54" rx="2" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+      <g transform="rotate(45)">
+        <rect x="-5" y="-27" width="10" height="54" rx="2" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+      </g>
+      <g transform="rotate(90)">
+        <rect x="-5" y="-27" width="10" height="54" rx="2" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+      </g>
+      <g transform="rotate(135)">
+        <rect x="-5" y="-27" width="10" height="54" rx="2" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+      </g>
+      <circle cx="0" cy="0" r="19" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+      <circle cx="0" cy="0" r="7" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    </g>
+
+    <!-- Step 3: smartphone with sun and cloud -->
+    <rect x="264" y="884" width="72" height="128" rx="12" fill="#22303f"/>
+    <rect x="271" y="896" width="58" height="104" rx="6" fill="#4fc3e8"/>
+    <line x1="294" y1="912" x2="294" y2="916" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="276" y1="930" x2="280" y2="930" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="281" y1="917" x2="284" y2="920" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="307" y1="917" x2="304" y2="920" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="294" cy="930" r="11" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M 292 966 Q 286 966 286 959 Q 286 952 294 952 Q 296 942 306 942 Q 316 942 318 950 Q 324 950 324 958 Q 324 966 318 966 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="284" y="976" width="32" height="6" rx="3" fill="#ffffff"/>
+    <rect x="290" y="988" width="20" height="6" rx="3" fill="#dff1f7"/>
   </g>
 
-  <!-- 4) الإطار الأحمر الخارجي الوحيد -->
-  <rect x="67" y="70" width="946" height="1226" rx="6" fill="none" stroke="#c0392b" stroke-width="2.6"/>
+  <rect x="120" y="832" width="840" height="318" rx="20" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
 
-  <!-- 5) خلفيات البطاقات -->
-  <rect x="95" y="176" width="890" height="546" rx="16" fill="#eaf6ea" fill-opacity="0.88" stroke="#79b97c" stroke-width="1.8"/>
-  <rect x="95" y="742" width="890" height="424" rx="16" fill="#fdf1de" fill-opacity="0.9" stroke="#e0a04a" stroke-width="1.8"/>
-  <rect x="112" y="758" width="195" height="42" rx="10" fill="#f6c98a" fill-opacity="0.55" stroke="#dd9433" stroke-width="1.4"/>
+<!-- Bottom icon group -->
+<g transform="translate(404 1182)">
+  <polygon points="28,4 33.9,19.9 50.8,20.6 37.5,31.1 42.1,47.4 28,38 13.9,47.4 18.5,31.1 5.2,20.6 22.1,19.9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+<g transform="translate(512 1182)">
+  <line x1="10" y1="42" x2="46" y2="42" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="10" y1="42" x2="28" y2="10" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="46" y1="42" x2="28" y2="10" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="28" cy="10" r="8" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="10" cy="42" r="8" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="46" cy="42" r="8" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+</g>
+<g transform="translate(620 1182)">
+  <circle cx="28" cy="28" r="24" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M17 28 L25 36 L40 20" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
 
-  <!-- 6) خطوط الإجابة الوظيفية -->
-  <line x1="130" y1="968" x2="950" y2="968" stroke="#9db4c7" stroke-width="2"/>
-  <line x1="130" y1="1148" x2="950" y2="1148" stroke="#9db4c7" stroke-width="2"/>
+<!-- Section header -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">الساعة 7:05 صباحًا — المساعد الصوتي</text>
+<text x="120" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">7:05 a.m. — Voice Assistant</text>
 
-  <!-- 7) النصوص التعليمية -->
+<!-- Paragraph 1 -->
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">تسأل هاتفك: «الجو عامل إيه النهارده؟»</tspan>
+  <tspan x="950" dy="40"><tspan font-weight="bold" fill="#2e7d32">فيرد عليك.</tspan></tspan>
+</text>
+<text x="120" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">You ask your phone, "What's the weather</tspan>
+  <tspan x="120" dy="40">like today?" and it <tspan font-weight="bold" fill="#2e7d32">answers you.</tspan></tspan>
+</text>
 
-  <!-- العنوانان -->
-  <text x="540" y="112" direction="rtl" unicode-bidi="plaintext" text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="42" font-weight="bold" fill="#16466f">حل الصح والخطأ ثم جرّب بنفسك</text>
-  <text x="540" y="150" direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#41648a">True-or-False Solution and Try It Yourself</text>
+<!-- Paragraph 2 -->
+<text x="950" y="434" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">المساعد الصوتي</tspan> يعمل في <tspan font-weight="bold" fill="#17457f">ثلاث خطوات:</tspan></tspan>
+  <tspan x="950" dy="40">يتعرف على صوتك ويحوّله إلى نص،</tspan>
+  <tspan x="950" dy="40">ثم يفهم المطلوب، ثم ينفّذه.</tspan>
+</text>
+<text x="120" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">A <tspan font-weight="bold" fill="#c0392b">voice assistant</tspan> works in <tspan font-weight="bold" fill="#17457f">three steps:</tspan></tspan>
+  <tspan x="120" dy="40">it recognizes your voice and turns it</tspan>
+  <tspan x="120" dy="40">into text, understands the request,</tspan>
+  <tspan x="120" dy="40">then carries it out.</tspan>
+</text>
 
-  <!-- البند A -->
-  <text x="118" y="216" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="bold" fill="#1e7e34">A —</text>
-  <text x="232" y="216" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" font-weight="bold" fill="#1e7e34">صح</text>
-  <text x="242" y="216" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="bold" fill="#1e7e34">| True</text>
-  <text x="958" y="216" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#1a5a96">
-    <tspan x="958" dy="0">يبرع الذكاء الاصطناعي في الاستدلال</tspan>
-    <tspan x="958" dy="36">الاحتمالي والتنبؤ اعتمادًا على البيانات.</tspan>
-  </text>
-  <text x="118" y="288" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="25" fill="#152b42">
-    <tspan x="118" dy="0">AI is good at probabilistic reasoning and</tspan>
-    <tspan x="118" dy="30">prediction based on data.</tspan>
-  </text>
+<!-- Key sentence strip text -->
+<text x="935" y="754" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#17457f">احفظها: يسمع، يفهم، ينفّذ.</text>
+<text x="140" y="794" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="bold" fill="#17457f">Remember: it listens, understands, acts.</text>
 
-  <!-- البند B -->
-  <text x="118" y="352" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="bold" fill="#1e7e34">B —</text>
-  <text x="232" y="352" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" font-weight="bold" fill="#1e7e34">صح</text>
-  <text x="242" y="352" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="bold" fill="#1e7e34">| True</text>
-  <text x="958" y="352" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#1a5a96">
-    <tspan x="958" dy="0">يبرع الذكاء الاصطناعي في التعرّف على</tspan>
-    <tspan x="958" dy="36">الصور والصوت والنصوص.</tspan>
-  </text>
-  <text x="118" y="424" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="25" fill="#152b42">
-    <tspan x="118" dy="0">AI is good at recognizing images, audio, and text.</tspan>
-  </text>
-
-  <!-- البند C -->
-  <text x="118" y="458" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="bold" fill="#c0392b">C —</text>
-  <text x="236" y="458" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" font-weight="bold" fill="#c0392b">خطأ</text>
-  <text x="246" y="458" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="bold" fill="#c0392b">| False</text>
-  <text x="958" y="458" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#1a5a96">
-    <tspan x="958" dy="0">قد تؤدي أحكام الذكاء الاصطناعي إلى التمييز أو</tspan>
-    <tspan x="958" dy="36">التحيز؛ لذلك لا ينبغي ترك الأحكام الأخلاقية له بالكامل.</tspan>
-  </text>
-  <text x="118" y="530" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="25" fill="#152b42">
-    <tspan x="118" dy="0">AI judgments can lead to discrimination or prejudice,</tspan>
-    <tspan x="118" dy="30">so ethical judgments should not be left entirely to AI.</tspan>
-  </text>
-
-  <!-- البند D -->
-  <text x="118" y="594" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="bold" fill="#1e7e34">D —</text>
-  <text x="232" y="594" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" font-weight="bold" fill="#1e7e34">صح</text>
-  <text x="242" y="594" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="bold" fill="#1e7e34">| True</text>
-  <text x="958" y="594" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#1a5a96">
-    <tspan x="958" dy="0">يؤثر التحيز في بيانات التدريب في دقة</tspan>
-    <tspan x="958" dy="36">أحكام الذكاء الاصطناعي.</tspan>
-  </text>
-  <text x="118" y="666" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="25" fill="#152b42">
-    <tspan x="118" dy="0">Bias in training data affects the accuracy</tspan>
-    <tspan x="118" dy="30">of AI judgments.</tspan>
-  </text>
-
-  <!-- عنوان قسم التجربة -->
-  <text x="190" y="788" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#b9670c">جرّب</text>
-  <text x="200" y="788" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="30" font-weight="bold" fill="#b9670c">| Try</text>
-
-  <!-- السؤال الأول -->
-  <text x="928" y="832" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" font-weight="bold" fill="#b9670c">.1</text>
-  <text x="912" y="832" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#1a5a96">
-    <tspan x="912" dy="0">ما اسم النظام الذي يتنبأ بالتفضيلات</tspan>
-    <tspan x="912" dy="36">من بيانات السلوك السابق ويعرض التوصيات؟</tspan>
-  </text>
-  <text x="120" y="904" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="25" fill="#152b42">
-    <tspan x="120" dy="0">What is the term for a system that predicts preferences</tspan>
-    <tspan x="120" dy="30">from past behavior data and displays recommendations?</tspan>
-  </text>
-
-  <!-- السؤال الثاني -->
-  <text x="928" y="1012" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" font-weight="bold" fill="#b9670c">.2</text>
-  <text x="912" y="1012" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#1a5a96">
-    <tspan x="912" dy="0">ما اسم تقنية الذكاء الاصطناعي التي تتعرّف</tspan>
-    <tspan x="912" dy="36">على الصوت، وتفهم الأوامر، وتنفذها؟</tspan>
-  </text>
-  <text x="120" y="1084" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="25" fill="#152b42">
-    <tspan x="120" dy="0">What is the term for the AI technology that recognizes</tspan>
-    <tspan x="120" dy="30">a voice, understands commands, and executes them?</tspan>
-  </text>
-
+<!-- Illustration labels -->
+<text x="810" y="1074" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">يسمع</text>
+<text x="724" y="1114" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Listens</text>
+<text x="570" y="1074" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">يفهم</text>
+<text x="452" y="1114" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Understands</text>
+<text x="331" y="1074" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">ينفّذ</text>
+<text x="268" y="1114" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Acts</text>
 </svg>

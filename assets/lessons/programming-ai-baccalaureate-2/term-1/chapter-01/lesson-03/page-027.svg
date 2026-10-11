@@ -1,0 +1,226 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilSkyBias" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#8fc9f2"/>
+  </linearGradient>
+</defs>
+
+<!-- Icon: open book beside the header (definition) -->
+<g transform="translate(222 146)">
+  <path d="M28 14 C 20 8, 10 8, 4 10 V46 C 10 44, 20 44, 28 50 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M28 14 C 36 8, 46 8, 52 10 V46 C 46 44, 36 44, 28 50 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M10 20 Q 17 18 23 21" fill="none" stroke="#2f7fb5" stroke-width="2" stroke-linecap="round"/>
+  <path d="M10 28 Q 17 26 23 29" fill="none" stroke="#2f7fb5" stroke-width="2" stroke-linecap="round"/>
+  <path d="M33 21 Q 39 18 46 20" fill="none" stroke="#17457f" stroke-width="2" stroke-linecap="round"/>
+  <path d="M33 29 Q 39 26 46 28" fill="none" stroke="#17457f" stroke-width="2" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: document stack (training data) -->
+<g transform="translate(860 316)">
+  <rect x="14" y="4" width="34" height="42" rx="4" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="8" y="10" width="34" height="42" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="14" y="20" width="22" height="3" rx="1.5" fill="#c96a1b"/>
+  <rect x="14" y="28" width="22" height="3" rx="1.5" fill="#c96a1b"/>
+  <rect x="14" y="36" width="16" height="3" rx="1.5" fill="#c96a1b"/>
+</g>
+
+<!-- Icon: basketball (example) -->
+<g transform="translate(860 560)">
+  <circle cx="28" cy="28" r="22" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M6 28 H50" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+  <path d="M28 6 V50" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+  <path d="M13 12 Q 22 28 13 44" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+  <path d="M43 12 Q 34 28 43 44" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: warning triangle (discrimination) -->
+<g transform="translate(790 858)">
+  <polygon points="28,4 54,50 2,50" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="25" y="18" width="6" height="18" rx="3" fill="#22303f"/>
+  <circle cx="28" cy="43" r="3.5" fill="#22303f"/>
+</g>
+
+<!-- Face: surprise (important fact) -->
+<g transform="translate(902 884)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="0" cy="11" r="5" fill="#22303f"/>
+</g>
+
+<!-- Illustration: biased system rejects a short skilled player -->
+<g>
+  <rect x="109" y="990" width="870" height="260" rx="24" fill="#22303f" opacity=".18"/>
+  <rect x="105" y="984" width="870" height="260" rx="24" fill="url(#ilSkyBias)"/>
+  <path d="M105 1204 H975 V1220 Q975 1244 951 1244 H129 Q105 1244 105 1220 Z" fill="#f0c48c"/>
+  <line x1="105" y1="1204" x2="975" y2="1204" stroke="#c96a1b" stroke-width="2"/>
+
+  <!-- Sun and clouds -->
+  <circle cx="922" cy="1020" r="18" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="260" cy="1014" rx="32" ry="11" fill="#ffffff"/>
+  <ellipse cx="288" cy="1006" rx="20" ry="11" fill="#ffffff"/>
+  <ellipse cx="720" cy="1016" rx="28" ry="10" fill="#ffffff"/>
+
+  <!-- Basketball hoop -->
+  <rect x="150" y="1060" width="8" height="144" rx="2" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="150" y="1040" width="60" height="42" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="170" y="1058" width="20" height="14" fill="none" stroke="#c0392b" stroke-width="2"/>
+  <line x1="190" y1="1082" x2="224" y2="1082" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M192 1084 L198 1102 M207 1084 L207 1102 M222 1084 L216 1102" fill="none" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Short skilled player dribbling -->
+  <g transform="rotate(25 286 1138)">
+    <rect x="281" y="1136" width="10" height="30" rx="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <rect x="287" y="1166" width="12" height="34" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <g transform="rotate(-15 309 1166)">
+    <rect x="303" y="1166" width="12" height="32" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <ellipse cx="292" cy="1201" rx="9" ry="4" fill="#c0392b" stroke="#22303f" stroke-width="2"/>
+  <ellipse cx="320" cy="1199" rx="9" ry="4" fill="#c0392b" stroke="#22303f" stroke-width="2"/>
+  <rect x="284" y="1132" width="32" height="38" rx="8" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <g transform="rotate(-40 314 1138)">
+    <rect x="309" y="1136" width="10" height="34" rx="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <circle cx="337" cy="1165" r="5" fill="#d59f6f" stroke="#22303f" stroke-width="2"/>
+  <circle cx="300" cy="1118" r="13" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M287 1116 Q 288 1103 300 1103 Q 313 1103 313 1116 Q 306 1109 287 1116 Z" fill="#2b211c"/>
+  <circle cx="295" cy="1120" r="2" fill="#22303f"/>
+  <circle cx="305" cy="1120" r="2" fill="#22303f"/>
+  <path d="M295 1125 Q 300 1129 305 1125" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="350" cy="1188" r="12" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M338 1188 H362 M350 1176 V1200" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+  <path d="M368 1178 Q 372 1188 368 1198" fill="none" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+  <path d="M376 1182 Q 379 1188 376 1194" fill="none" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Arrow from box toward the player -->
+  <line x1="484" y1="1140" x2="402" y2="1140" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="390,1140 404,1132 404,1148" fill="#c0392b"/>
+
+  <!-- System box with screen (red X) and gear -->
+  <rect x="494" y="1080" width="140" height="124" rx="12" fill="#22303f" opacity=".18"/>
+  <rect x="490" y="1074" width="140" height="130" rx="12" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="506" y="1088" width="108" height="44" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <g transform="translate(560 1110)">
+    <g transform="rotate(45)"><rect x="-3.5" y="-16" width="7" height="32" rx="3" fill="#c0392b"/></g>
+    <g transform="rotate(-45)"><rect x="-3.5" y="-16" width="7" height="32" rx="3" fill="#c0392b"/></g>
+  </g>
+  <g transform="translate(560 1168)">
+    <g><rect x="-3" y="-20" width="6" height="8" rx="1.5" fill="#ffd24a" stroke="#22303f" stroke-width="2"/></g>
+    <g transform="rotate(60)"><rect x="-3" y="-20" width="6" height="8" rx="1.5" fill="#ffd24a" stroke="#22303f" stroke-width="2"/></g>
+    <g transform="rotate(120)"><rect x="-3" y="-20" width="6" height="8" rx="1.5" fill="#ffd24a" stroke="#22303f" stroke-width="2"/></g>
+    <g transform="rotate(180)"><rect x="-3" y="-20" width="6" height="8" rx="1.5" fill="#ffd24a" stroke="#22303f" stroke-width="2"/></g>
+    <g transform="rotate(240)"><rect x="-3" y="-20" width="6" height="8" rx="1.5" fill="#ffd24a" stroke="#22303f" stroke-width="2"/></g>
+    <g transform="rotate(300)"><rect x="-3" y="-20" width="6" height="8" rx="1.5" fill="#ffd24a" stroke="#22303f" stroke-width="2"/></g>
+    <circle cx="0" cy="0" r="14" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="5" fill="#22303f"/>
+  </g>
+
+  <!-- Tilted balance scale floating above the box -->
+  <g transform="translate(526 994) scale(1.2)">
+    <rect x="26" y="12" width="4" height="36" fill="#17457f"/>
+    <rect x="14" y="46" width="28" height="6" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <g transform="rotate(-14 28 16)">
+      <line x1="6" y1="16" x2="50" y2="16" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="8" y1="16" x2="2" y2="30" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="8" y1="16" x2="14" y2="30" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="48" y1="16" x2="42" y2="30" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="48" y1="16" x2="54" y2="30" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M2 30 Q 8 40 14 30 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M42 30 Q 48 40 54 30 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    </g>
+    <circle cx="28" cy="16" r="4" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+
+  <!-- Arrow from photo cards into the box -->
+  <line x1="772" y1="1130" x2="648" y2="1130" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="636,1130 650,1122 650,1138" fill="#c0392b"/>
+
+  <!-- Stack of photo cards: tall players -->
+  <g transform="rotate(-9 840 1130)">
+    <rect x="792" y="1068" width="96" height="124" rx="8" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="840" cy="1088" r="8" fill="#b57e50"/>
+    <rect x="831" y="1098" width="18" height="70" rx="6" fill="#2f7fb5"/>
+  </g>
+  <g transform="rotate(7 840 1130)">
+    <rect x="792" y="1068" width="96" height="124" rx="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="840" cy="1088" r="8" fill="#e8b98d"/>
+    <rect x="831" y="1098" width="18" height="70" rx="6" fill="#17457f"/>
+  </g>
+  <rect x="796" y="1074" width="96" height="124" rx="8" fill="#22303f" opacity=".18"/>
+  <rect x="792" y="1068" width="96" height="124" rx="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="800" y="1076" width="80" height="100" rx="4" fill="#dff1f7"/>
+  <rect x="823" y="1102" width="7" height="30" rx="3" fill="#c96a1b" stroke="#22303f" stroke-width="2"/>
+  <rect x="850" y="1102" width="7" height="30" rx="3" fill="#c96a1b" stroke="#22303f" stroke-width="2"/>
+  <rect x="830" y="1100" width="20" height="34" rx="5" fill="#c96a1b" stroke="#22303f" stroke-width="2"/>
+  <rect x="831" y="1132" width="18" height="38" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2"/>
+  <line x1="840" y1="1142" x2="840" y2="1170" stroke="#22303f" stroke-width="2"/>
+  <circle cx="840" cy="1090" r="9" fill="#e8b98d" stroke="#22303f" stroke-width="2"/>
+  <path d="M831 1088 Q 832 1080 840 1080 Q 849 1080 849 1088 Q 844 1084 831 1088 Z" fill="#2b211c"/>
+
+  <rect x="105" y="984" width="870" height="260" rx="24" fill="none" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Text -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="950" dy="0">التحيز</tspan>
+</text>
+<text x="120" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="120" dy="0">Bias</tspan>
+</text>
+
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#17457f">ميل غير عادل</tspan> في النتائج، سببه غالبًا</tspan>
+  <tspan x="950" dy="40"><tspan font-weight="bold" fill="#17457f">بيانات تدريب</tspan> لا تمثل الجميع.</tspan>
+</text>
+<text x="120" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">An <tspan font-weight="bold" fill="#17457f">unfair tendency</tspan> in results,</tspan>
+  <tspan x="120" dy="40">often caused by <tspan font-weight="bold" fill="#17457f">training data</tspan> that</tspan>
+  <tspan x="120" dy="40">does not represent everyone.</tspan>
+</text>
+
+<text x="950" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">مثال: نظام تدرّب على صور <tspan fill="#c96a1b">لاعبين طوال</tspan> فقط</tspan>
+  <tspan x="950" dy="40">قد يستنتج خطأً أن القصير لا يجيد اللعب.</tspan>
+</text>
+<text x="120" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Example: a system trained only on</tspan>
+  <tspan x="120" dy="40">photos of <tspan fill="#c96a1b">tall players</tspan> may wrongly</tspan>
+  <tspan x="120" dy="40">decide short people can't play well.</tspan>
+</text>
+
+<text x="950" y="714" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">التمييز</tspan> (Discrimination) هو النتيجة</tspan>
+  <tspan x="950" dy="40">العملية للتحيز: معاملة شخص بظلم</tspan>
+  <tspan x="950" dy="40">بسبب صفة مثل النوع أو اللون.</tspan>
+</text>
+<text x="120" y="834" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">Discrimination</tspan> is the practical</tspan>
+  <tspan x="120" dy="40">result of bias: treating a person</tspan>
+  <tspan x="120" dy="40">unfairly because of a trait such as</tspan>
+  <tspan x="120" dy="40">gender or color.</tspan>
+</text>
+</svg>

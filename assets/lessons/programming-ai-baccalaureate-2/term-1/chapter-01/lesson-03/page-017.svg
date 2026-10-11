@@ -4,226 +4,187 @@
      viewBox="0 0 1080 1350"
      preserveAspectRatio="xMidYMid meet"
      style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-  <defs>
-    <linearGradient id="deskWood" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#b07a45"/>
-      <stop offset="0.55" stop-color="#9a6636"/>
-      <stop offset="1" stop-color="#82532b"/>
-    </linearGradient>
-    <linearGradient id="paperTone" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fffdf6"/>
-      <stop offset="1" stop-color="#fbf6e9"/>
-    </linearGradient>
-    <marker id="recArrowHead" markerWidth="12" markerHeight="12" refX="9" refY="5"
-            orient="auto" markerUnits="strokeWidth">
-      <path d="M0,0 L11,5 L0,10 z" fill="#c0392b"/>
-    </marker>
-  </defs>
+<defs>
+  <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8fc9f2"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+</defs>
 
-  <!-- 1) خلفية بسيطة -->
-  <rect x="0" y="0" width="1080" height="1350" fill="url(#deskWood)"/>
-  <path d="M0,210 C300,170 780,270 1080,220" stroke="#7d4f28" stroke-width="16" fill="none" opacity="0.16"/>
-  <path d="M0,1140 C320,1200 760,1080 1080,1150" stroke="#7d4f28" stroke-width="14" fill="none" opacity="0.14"/>
+<!-- Illustration: drone scanning a tomato field -->
+<rect x="109" y="906" width="870" height="350" rx="24" fill="#22303f" opacity=".18"/>
+<rect x="105" y="900" width="870" height="350" rx="24" fill="url(#ilSky)"/>
+<circle cx="900" cy="952" r="28" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+<g fill="#ffffff">
+  <ellipse cx="330" cy="958" rx="34" ry="16"/>
+  <ellipse cx="362" cy="946" rx="26" ry="18"/>
+  <ellipse cx="394" cy="960" rx="30" ry="14"/>
+  <ellipse cx="790" cy="1012" rx="30" ry="13"/>
+  <ellipse cx="816" cy="1002" rx="22" ry="15"/>
+  <ellipse cx="842" cy="1014" rx="26" ry="12"/>
+</g>
+<path d="M105 1096 Q 300 1050 520 1088 Q 740 1050 975 1092 L975 1226 Q975 1250 951 1250 L129 1250 Q105 1250 105 1226 Z" fill="#a9dcbe"/>
+<rect x="130" y="1114" width="820" height="10" rx="5" fill="#b07a45"/>
+<rect x="130" y="1170" width="820" height="12" rx="6" fill="#b07a45"/>
+<rect x="130" y="1232" width="820" height="12" rx="6" fill="#b07a45"/>
 
-  <!-- 2) الورقة -->
-  <rect x="44" y="36" width="1012" height="1298" rx="10" fill="#5c3a1e" opacity="0.28"/>
-  <rect x="34" y="26" width="1012" height="1298" rx="10" fill="url(#paperTone)"/>
+<!-- Back row -->
+<g transform="translate(175 1118) scale(.8)"><path d="M0 0 L0 -46" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" fill="none"/><ellipse cx="-11" cy="-30" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="11" cy="-38" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="0" cy="-50" rx="6" ry="9" fill="#2e7d32"/><circle cx="-9" cy="-14" r="7" fill="#c0392b"/><circle cx="9" cy="-20" r="7" fill="#c0392b"/></g>
+<g transform="translate(285 1118) scale(.8)"><path d="M0 0 L0 -46" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" fill="none"/><ellipse cx="-11" cy="-30" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="11" cy="-38" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="0" cy="-50" rx="6" ry="9" fill="#2e7d32"/><circle cx="-9" cy="-14" r="7" fill="#c0392b"/><circle cx="9" cy="-20" r="7" fill="#c0392b"/></g>
+<g transform="translate(395 1118) scale(.8)"><path d="M0 0 L0 -46" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" fill="none"/><ellipse cx="-11" cy="-30" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="11" cy="-38" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="0" cy="-50" rx="6" ry="9" fill="#2e7d32"/><circle cx="-9" cy="-14" r="7" fill="#c0392b"/><circle cx="9" cy="-20" r="7" fill="#c0392b"/></g>
+<g transform="translate(505 1118) scale(.8)"><path d="M0 0 L0 -46" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" fill="none"/><ellipse cx="-11" cy="-30" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="11" cy="-38" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="0" cy="-50" rx="6" ry="9" fill="#2e7d32"/><circle cx="-9" cy="-14" r="7" fill="#c0392b"/><circle cx="9" cy="-20" r="7" fill="#c0392b"/></g>
+<g transform="translate(615 1118) scale(.8)"><path d="M0 0 L0 -46" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" fill="none"/><ellipse cx="-11" cy="-30" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="11" cy="-38" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="0" cy="-50" rx="6" ry="9" fill="#2e7d32"/><circle cx="-9" cy="-14" r="7" fill="#c0392b"/><circle cx="9" cy="-20" r="7" fill="#c0392b"/></g>
+<g transform="translate(725 1118) scale(.8)"><path d="M0 0 L0 -46" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" fill="none"/><ellipse cx="-11" cy="-30" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="11" cy="-38" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="0" cy="-50" rx="6" ry="9" fill="#2e7d32"/><circle cx="-9" cy="-14" r="7" fill="#c0392b"/><circle cx="9" cy="-20" r="7" fill="#c0392b"/></g>
+<g transform="translate(835 1118) scale(.8)"><path d="M0 0 L0 -46" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" fill="none"/><ellipse cx="-11" cy="-30" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="11" cy="-38" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="0" cy="-50" rx="6" ry="9" fill="#2e7d32"/><circle cx="-9" cy="-14" r="7" fill="#c0392b"/><circle cx="9" cy="-20" r="7" fill="#c0392b"/></g>
+<g transform="translate(925 1118) scale(.8)"><path d="M0 0 L0 -46" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" fill="none"/><ellipse cx="-11" cy="-30" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="11" cy="-38" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="0" cy="-50" rx="6" ry="9" fill="#2e7d32"/><circle cx="-9" cy="-14" r="7" fill="#c0392b"/><circle cx="9" cy="-20" r="7" fill="#c0392b"/></g>
 
-  <!-- 3) سطور الدفتر الزرقاء الباهتة -->
-  <g stroke="#cfe0f2" stroke-width="1.3">
-    <line x1="92" y1="240" x2="988" y2="240"/>
-    <line x1="92" y1="280" x2="988" y2="280"/>
-    <line x1="92" y1="320" x2="988" y2="320"/>
-    <line x1="92" y1="360" x2="988" y2="360"/>
-    <line x1="92" y1="400" x2="988" y2="400"/>
-    <line x1="92" y1="440" x2="988" y2="440"/>
-    <line x1="92" y1="480" x2="988" y2="480"/>
-    <line x1="92" y1="520" x2="988" y2="520"/>
-    <line x1="92" y1="560" x2="988" y2="560"/>
-    <line x1="92" y1="600" x2="988" y2="600"/>
-    <line x1="92" y1="640" x2="988" y2="640"/>
-    <line x1="92" y1="680" x2="988" y2="680"/>
-    <line x1="92" y1="720" x2="988" y2="720"/>
-    <line x1="92" y1="760" x2="988" y2="760"/>
-    <line x1="92" y1="800" x2="988" y2="800"/>
-    <line x1="92" y1="840" x2="988" y2="840"/>
-    <line x1="92" y1="880" x2="988" y2="880"/>
-    <line x1="92" y1="920" x2="988" y2="920"/>
-    <line x1="92" y1="960" x2="988" y2="960"/>
-    <line x1="92" y1="1000" x2="988" y2="1000"/>
-    <line x1="92" y1="1040" x2="988" y2="1040"/>
-    <line x1="92" y1="1080" x2="988" y2="1080"/>
-    <line x1="92" y1="1120" x2="988" y2="1120"/>
-    <line x1="92" y1="1160" x2="988" y2="1160"/>
-    <line x1="92" y1="1200" x2="988" y2="1200"/>
-    <line x1="92" y1="1240" x2="988" y2="1240"/>
-    <line x1="92" y1="1280" x2="988" y2="1280"/>
-  </g>
+<!-- Middle row (sick plant at x=680) -->
+<g transform="translate(200 1175)"><path d="M0 0 L0 -46" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" fill="none"/><ellipse cx="-11" cy="-30" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="11" cy="-38" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="0" cy="-50" rx="6" ry="9" fill="#2e7d32"/><circle cx="-9" cy="-14" r="7" fill="#c0392b"/><circle cx="9" cy="-20" r="7" fill="#c0392b"/></g>
+<g transform="translate(320 1175)"><path d="M0 0 L0 -46" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" fill="none"/><ellipse cx="-11" cy="-30" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="11" cy="-38" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="0" cy="-50" rx="6" ry="9" fill="#2e7d32"/><circle cx="-9" cy="-14" r="7" fill="#c0392b"/><circle cx="9" cy="-20" r="7" fill="#c0392b"/></g>
+<g transform="translate(440 1175)"><path d="M0 0 L0 -46" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" fill="none"/><ellipse cx="-11" cy="-30" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="11" cy="-38" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="0" cy="-50" rx="6" ry="9" fill="#2e7d32"/><circle cx="-9" cy="-14" r="7" fill="#c0392b"/><circle cx="9" cy="-20" r="7" fill="#c0392b"/></g>
+<g transform="translate(560 1175)"><path d="M0 0 L0 -46" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" fill="none"/><ellipse cx="-11" cy="-30" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="11" cy="-38" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="0" cy="-50" rx="6" ry="9" fill="#2e7d32"/><circle cx="-9" cy="-14" r="7" fill="#c0392b"/><circle cx="9" cy="-20" r="7" fill="#c0392b"/></g>
+<g transform="translate(680 1175)"><path d="M0 0 L0 -46" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" fill="none"/><ellipse cx="-11" cy="-30" rx="12" ry="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/><ellipse cx="11" cy="-38" rx="12" ry="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/><ellipse cx="0" cy="-50" rx="6" ry="9" fill="#2e7d32"/><ellipse cx="11" cy="-16" rx="10" ry="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/><circle cx="-9" cy="-12" r="7" fill="#c0392b"/></g>
+<g transform="translate(800 1175)"><path d="M0 0 L0 -46" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" fill="none"/><ellipse cx="-11" cy="-30" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="11" cy="-38" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="0" cy="-50" rx="6" ry="9" fill="#2e7d32"/><circle cx="-9" cy="-14" r="7" fill="#c0392b"/><circle cx="9" cy="-20" r="7" fill="#c0392b"/></g>
+<g transform="translate(910 1175)"><path d="M0 0 L0 -46" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" fill="none"/><ellipse cx="-11" cy="-30" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="11" cy="-38" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="0" cy="-50" rx="6" ry="9" fill="#2e7d32"/><circle cx="-9" cy="-14" r="7" fill="#c0392b"/><circle cx="9" cy="-20" r="7" fill="#c0392b"/></g>
 
-  <!-- 4) حدّ خارجي أحمر واحد فقط -->
-  <rect x="67" y="72" width="946" height="1244" rx="6" fill="none" stroke="#c0392b" stroke-width="2.6"/>
+<!-- Front row -->
+<g transform="translate(150 1238)"><path d="M0 0 L0 -46" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" fill="none"/><ellipse cx="-11" cy="-30" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="11" cy="-38" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="0" cy="-50" rx="6" ry="9" fill="#2e7d32"/><circle cx="-9" cy="-14" r="7" fill="#c0392b"/><circle cx="9" cy="-20" r="7" fill="#c0392b"/></g>
+<g transform="translate(270 1238)"><path d="M0 0 L0 -46" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" fill="none"/><ellipse cx="-11" cy="-30" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="11" cy="-38" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="0" cy="-50" rx="6" ry="9" fill="#2e7d32"/><circle cx="-9" cy="-14" r="7" fill="#c0392b"/><circle cx="9" cy="-20" r="7" fill="#c0392b"/></g>
+<g transform="translate(390 1238)"><path d="M0 0 L0 -46" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" fill="none"/><ellipse cx="-11" cy="-30" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="11" cy="-38" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="0" cy="-50" rx="6" ry="9" fill="#2e7d32"/><circle cx="-9" cy="-14" r="7" fill="#c0392b"/><circle cx="9" cy="-20" r="7" fill="#c0392b"/></g>
+<g transform="translate(510 1238)"><path d="M0 0 L0 -46" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" fill="none"/><ellipse cx="-11" cy="-30" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="11" cy="-38" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="0" cy="-50" rx="6" ry="9" fill="#2e7d32"/><circle cx="-9" cy="-14" r="7" fill="#c0392b"/><circle cx="9" cy="-20" r="7" fill="#c0392b"/></g>
+<g transform="translate(630 1238)"><path d="M0 0 L0 -46" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" fill="none"/><ellipse cx="-11" cy="-30" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="11" cy="-38" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="0" cy="-50" rx="6" ry="9" fill="#2e7d32"/><circle cx="-9" cy="-14" r="7" fill="#c0392b"/><circle cx="9" cy="-20" r="7" fill="#c0392b"/></g>
+<g transform="translate(750 1238)"><path d="M0 0 L0 -46" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" fill="none"/><ellipse cx="-11" cy="-30" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="11" cy="-38" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="0" cy="-50" rx="6" ry="9" fill="#2e7d32"/><circle cx="-9" cy="-14" r="7" fill="#c0392b"/><circle cx="9" cy="-20" r="7" fill="#c0392b"/></g>
+<g transform="translate(870 1238)"><path d="M0 0 L0 -46" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" fill="none"/><ellipse cx="-11" cy="-30" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="11" cy="-38" rx="12" ry="6" fill="#2e7d32"/><ellipse cx="0" cy="-50" rx="6" ry="9" fill="#2e7d32"/><circle cx="-9" cy="-14" r="7" fill="#c0392b"/><circle cx="9" cy="-20" r="7" fill="#c0392b"/></g>
 
-  <!-- 5) خلفيات البطاقات -->
-  <rect x="105" y="224" width="870" height="276" rx="14" fill="#e7f6f5" stroke="#1f8a8a" stroke-width="2.4"/>
-  <rect x="105" y="960" width="870" height="206" rx="14" fill="#e9f1fc" stroke="#2f6bb5" stroke-width="2.4"/>
+<!-- Orange circle around the sick plant -->
+<ellipse cx="680" cy="1146" rx="38" ry="42" fill="none" stroke="#c96a1b" stroke-width="2.5"/>
 
-  <!-- 6) خطوط وظيفية ورسم توضيحي بسيط -->
-  <line x1="352" y1="212" x2="728" y2="212" stroke="#1f8a8a" stroke-width="3" stroke-linecap="round"/>
-  <line x1="540" y1="244" x2="540" y2="274" stroke="#1f8a8a" stroke-width="2.4"/>
-  <line x1="540" y1="982" x2="540" y2="1010" stroke="#2f6bb5" stroke-width="2.4"/>
+<!-- Scanning beam -->
+<polygon points="632,996 648,996 716,1150 644,1150" fill="#4fc3e8" opacity=".35"/>
 
-  <g>
-    <rect x="330" y="846" width="176" height="90" rx="6" fill="#fffaf0" stroke="#8a5a34" stroke-width="3"/>
-    <line x1="330" y1="892" x2="506" y2="892" stroke="#8a5a34" stroke-width="2.4"/>
-    <rect x="341" y="854" width="19" height="34" fill="#2f7d8f"/>
-    <rect x="365" y="858" width="17" height="30" fill="#d1712f"/>
-    <rect x="387" y="852" width="21" height="36" fill="#3a7d3a"/>
-    <rect x="413" y="856" width="16" height="32" fill="#7a3f8a"/>
-    <rect x="434" y="854" width="20" height="34" fill="#2b5f9e"/>
-    <rect x="341" y="900" width="18" height="30" fill="#c0392b"/>
-    <rect x="364" y="898" width="21" height="32" fill="#3a7d3a"/>
-    <rect x="390" y="902" width="16" height="28" fill="#d1712f"/>
-    <rect x="411" y="898" width="20" height="32" fill="#2f7d8f"/>
-    <rect x="436" y="900" width="18" height="30" fill="#7a3f8a"/>
-    <line x1="330" y1="938" x2="506" y2="938" stroke="#8a5a34" stroke-width="3" stroke-linecap="round"/>
-    <path d="M524 906 C 572 858, 642 856, 688 890" fill="none" stroke="#c0392b" stroke-width="3.2"
-          stroke-linecap="round" marker-end="url(#recArrowHead)"/>
-    <rect x="706" y="872" width="52" height="66" rx="5" fill="#fffaf0" stroke="#c0392b" stroke-width="3"/>
-    <line x1="722" y1="876" x2="722" y2="934" stroke="#c0392b" stroke-width="2"/>
-    <polygon points="732,838 737,850 750,851 740,859 743,872 732,865 721,872 724,859 714,851 727,850"
-             fill="#e0a72e" stroke="#c07f14" stroke-width="1.4"/>
-  </g>
+<!-- Drone -->
+<g transform="translate(640 965)">
+  <ellipse cx="4" cy="44" rx="34" ry="5" fill="#22303f" opacity=".12"/>
+  <line x1="-60" y1="0" x2="60" y2="0" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="-60" y1="0" x2="-60" y2="-8" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="60" y1="0" x2="60" y2="-8" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <ellipse cx="-60" cy="-10" rx="28" ry="6" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="60" cy="-10" rx="28" ry="6" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-32" y="-14" width="64" height="30" rx="12" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="0" cy="-1" r="5" fill="#4fc3e8"/>
+  <circle cx="0" cy="24" r="8" fill="#22303f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="0" cy="24" r="3" fill="#4fc3e8"/>
+</g>
 
-  <!-- 7) النصوص التعليمية -->
+<!-- Calendar card with one circled day -->
+<g transform="translate(140 922)">
+  <rect x="4" y="6" width="100" height="92" rx="10" fill="#22303f" opacity=".18"/>
+  <rect x="0" y="0" width="100" height="92" rx="10" fill="#ffffff"/>
+  <rect x="0" y="0" width="100" height="24" rx="10" fill="#c0392b"/>
+  <rect x="0" y="12" width="100" height="12" fill="#c0392b"/>
+  <rect x="0" y="0" width="100" height="92" rx="10" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="22" y="-8" width="6" height="16" rx="3" fill="#7f95ab"/>
+  <rect x="72" y="-8" width="6" height="16" rx="3" fill="#7f95ab"/>
+  <rect x="10" y="34" width="14" height="12" rx="2" fill="#dff1f7"/>
+  <rect x="32" y="34" width="14" height="12" rx="2" fill="#dff1f7"/>
+  <rect x="54" y="34" width="14" height="12" rx="2" fill="#dff1f7"/>
+  <rect x="76" y="34" width="14" height="12" rx="2" fill="#dff1f7"/>
+  <rect x="10" y="52" width="14" height="12" rx="2" fill="#dff1f7"/>
+  <rect x="32" y="52" width="14" height="12" rx="2" fill="#dff1f7"/>
+  <rect x="54" y="52" width="14" height="12" rx="2" fill="#f0c48c"/>
+  <rect x="76" y="52" width="14" height="12" rx="2" fill="#dff1f7"/>
+  <rect x="10" y="70" width="14" height="12" rx="2" fill="#dff1f7"/>
+  <rect x="32" y="70" width="14" height="12" rx="2" fill="#dff1f7"/>
+  <rect x="54" y="70" width="14" height="12" rx="2" fill="#dff1f7"/>
+  <rect x="76" y="70" width="14" height="12" rx="2" fill="#dff1f7"/>
+  <ellipse cx="61" cy="58" rx="13" ry="11" fill="none" stroke="#c96a1b" stroke-width="2.5"/>
+</g>
 
-  <text x="540" y="142"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="46"
-        font-weight="bold"
-        fill="#14497f">طبّق ما تعلمته في سياق جديد</text>
+<rect x="105" y="900" width="870" height="350" rx="24" fill="none" stroke="#22303f" stroke-width="2.5"/>
 
-  <text x="540" y="188"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="29"
-        fill="#22405e">Apply What You Learned in a New Context</text>
+<!-- Icons -->
+<g transform="translate(124 76)">
+  <circle cx="28" cy="32" r="22" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="20" cy="25" rx="5" ry="3" fill="#ffffff" opacity=".6"/>
+  <path d="M28 12 L19 6 M28 12 L37 6 M28 12 L28 2" fill="none" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(900 76)">
+  <path d="M18 2 L18 10 M28 2 L28 10 M38 2 L38 10 M18 46 L18 54 M28 46 L28 54 M38 46 L38 54 M2 18 L10 18 M2 28 L10 28 M2 38 L10 38 M46 18 L54 18 M46 28 L54 28 M46 38 L54 38" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="10" y="10" width="36" height="36" rx="6" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="20" y="20" width="16" height="16" rx="3" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+</g>
+<g transform="translate(128 290)">
+  <path d="M25 48 C 12 32, 8 24, 8 18 A17 17 0 0 1 42 18 C 42 24, 38 32, 25 48 Z" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="25" cy="18" r="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+</g>
+<g transform="translate(128 460)">
+  <ellipse cx="23" cy="40" rx="20" ry="6" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M23 40 L23 16" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M23 28 C 10 28, 4 18, 6 10 C 16 10, 23 18, 23 28 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M23 20 C 34 20, 42 12, 40 4 C 30 4, 23 10, 23 20 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+<g transform="translate(128 572)">
+  <rect x="2" y="8" width="48" height="38" rx="6" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="7,42 20,25 30,35 36,29 45,42" fill="#2e7d32"/>
+  <circle cx="38" cy="18" r="5" fill="#ffd24a"/>
+</g>
+<g transform="translate(128 740)">
+  <polygon points="31,35 35,31 48,44 44,48" fill="#7d4f28" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="22" cy="22" r="15" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="17" cy="17" rx="5" ry="3" fill="#ffffff" opacity=".85"/>
+</g>
 
-  <text x="380" y="270"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        font-weight="bold"
-        fill="#0f6f6f">مكتبة المدرسة</text>
+<!-- Text -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">
+  <tspan x="540" dy="0">رحلة حبة الطماطم:</tspan>
+  <tspan x="540" dy="48">الذكاء الاصطناعي في الصناعة</tspan>
+</text>
+<text x="540" y="202" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" fill="#152b42">A Tomato's Journey: AI in Industry</text>
 
-  <text x="680" y="268"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26"
-        font-weight="bold"
-        fill="#0f6f6f">School Library</text>
+<text x="950" y="314" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">تابع حبة طماطم واحدة في رحلتها، وستمر</tspan>
+  <tspan x="950" dy="40">على <tspan font-weight="bold" fill="#17457f">أربع صناعات</tspan> تستخدم <tspan font-weight="bold" fill="#c0392b">الذكاء الاصطناعي.</tspan></tspan>
+</text>
+<text x="120" y="394" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Follow one tomato's journey: it passes</tspan>
+  <tspan x="120" dy="40">through <tspan font-weight="bold" fill="#17457f">four industries</tspan> that use <tspan font-weight="bold" fill="#c0392b">AI.</tspan></tspan>
+</text>
 
-  <text x="940"
-        y="322"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="28"
-        fill="#1a5a9e">
-    <tspan x="940" dy="0">تريد مكتبة مدرسية استخدام الذكاء الاصطناعي</tspan>
-    <tspan x="940" dy="36">للتوصية بالكتب للطلاب اعتمادًا على الكتب</tspan>
-    <tspan x="940" dy="36">التي استعاروها سابقًا.</tspan>
-  </text>
+<text x="950" y="514" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">المحطة 1: الحقل (الزراعة)</text>
+<text x="120" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">Stop 1: The Field (Agriculture)</text>
 
-  <text x="135"
-        y="442"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26"
-        fill="#152b42">
-    <tspan x="135" dy="0">A school library wants to use AI to recommend books</tspan>
-    <tspan x="135" dy="34">to students based on what they have borrowed before.</tspan>
-  </text>
+<text x="950" y="594" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#17457f">طائرة مسيّرة</tspan> صغيرة تصوّر الزرع من أعلى،</tspan>
+  <tspan x="950" dy="40">والذكاء الاصطناعي <tspan font-weight="bold" fill="#17457f">يحلل</tspan> الصور.</tspan>
+</text>
+<text x="120" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">A small <tspan font-weight="bold" fill="#17457f">drone</tspan> photographs the crops</tspan>
+  <tspan x="120" dy="40">from above, and AI <tspan font-weight="bold" fill="#17457f">analyzes</tspan> the images.</tspan>
+</text>
 
-  <text x="950"
-        y="550"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        fill="#1a5a9e">
-    <tspan x="950" dy="0">باستخدام ما تعلمته عن أنظمة التوصية وما يبرع فيه</tspan>
-    <tspan x="950" dy="40">الذكاء الاصطناعي، وضّح كيف سيعمل النظام، وحدد</tspan>
-    <tspan x="950" dy="40">جانبًا واحدًا ينبغي للمدرسة أن تراعيه.</tspan>
-  </text>
-
-  <text x="130"
-        y="682"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26"
-        fill="#152b42">
-    <tspan x="130" dy="0">Using what you learned about recommendation</tspan>
-    <tspan x="130" dy="32">systems and what AI is good at, explain how the</tspan>
-    <tspan x="130" dy="32">AI would work and identify one caution the</tspan>
-    <tspan x="130" dy="32">school should consider.</tspan>
-  </text>
-
-  <text x="410" y="1006"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="28"
-        font-weight="bold"
-        fill="#22579c">راجع نفسك</text>
-
-  <text x="680" y="1004"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="25"
-        font-weight="bold"
-        fill="#22579c">Review Yourself</text>
-
-  <text x="940"
-        y="1046"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="27"
-        fill="#1a5a9e">
-    <tspan x="940" dy="0">غطِّ قسم الشرح أو الملاحظة المهمة، ثم حاول</tspan>
-    <tspan x="940" dy="32">استرجاع ما تعلمته دون الرجوع إليه.</tspan>
-  </text>
-
-  <text x="132"
-        y="1112"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="25"
-        fill="#152b42">
-    <tspan x="132" dy="0">Cover the explanation or key-point section, then try to</tspan>
-    <tspan x="132" dy="30">recall what you learned without looking back.</tspan>
-  </text>
-
+<text x="950" y="754" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">فيكتشف <tspan font-weight="bold" fill="#17457f">الآفات والأمراض</tspan> مبكرًا،</tspan>
+  <tspan x="950" dy="40">ويتنبأ بموعد الحصاد المناسب.</tspan>
+</text>
+<text x="120" y="834" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">It detects <tspan font-weight="bold" fill="#17457f">pests and diseases</tspan> early</tspan>
+  <tspan x="120" dy="40">and predicts the right time to harvest.</tspan>
+</text>
 </svg>

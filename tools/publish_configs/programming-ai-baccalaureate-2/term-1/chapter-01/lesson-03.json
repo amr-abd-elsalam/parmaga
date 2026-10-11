@@ -9,35 +9,36 @@
   "displayTitleEn": "AI in Daily Life and Industry",
   "courseLabelAr": "البرمجة والذكاء الاصطناعي، ثانية بكالوريا",
   "termLabelAr": "ترم أول",
-  "pivotQuestionAr": "أين يُستخدم الذكاء الاصطناعي في الحياة اليومية والصناعة؟ وما الذي يبرع فيه؟ وما الذي يتطلب الحذر؟",
+  "pivotQuestionAr": "أين يُستخدم الذكاء الاصطناعي في الحياة اليومية والصناعة، وما الذي يبرع فيه، وما الذي يتطلب الحذر؟",
   "custodyRepository": "parmaga-content",
-  "custodySnapshot": "13c78c885f709f9ef1a1fd59ee47fe143e1ee93d",
-  "declaredPageCount": 19,
-  "inventoryDate": "2026-09-24",
+  "custodySnapshot": "266a0a6a9505ad32d74245169b37bc0b96a41065",
+  "declaredPageCount": 42,
+  "inventoryDate": "2026-10-12",
   "status": "published",
   "extraNotes": [
-    "السؤال المحوري للدرس: أين يُستخدم الذكاء الاصطناعي في الحياة اليومية والصناعة؟ وما الذي يبرع فيه؟ وما الذي يتطلب الحذر؟",
+    "السؤال المحوري للدرس: أين يُستخدم الذكاء الاصطناعي في الحياة اليومية والصناعة، وما الذي يبرع فيه، وما الذي يتطلب الحذر؟",
     "حزمة أصول الدرس مدرجة للنشر في المسار القانوني داخل المستودع العام، وتتحقق tools/verify_lesson.py من مطابقة بايتاتها لهذا الـManifest.",
-    "أسماء الملفات الواردة من التوليد مطابقة أصلًا للنمط page-<NNN>.svg، لذلك sourceFileName يساوي file في المداخل التسعة عشر كلها، ولم تجرِ إعادة تسمية.",
-    "المقاس 1080×1350 وviewBox «0 0 1080 1350» مقيسان ومؤكدان في الصفحات التسع عشرة كلها، أي نسبة 4:5 رأسية.",
-    "منطقة الـ12% المحجوزة: الحد y = 1188. أعلى إحداثي y مرصود هو 1150 في page-014، وعدد الإحداثيات دون الحد صفر في كل الصفحات. القياس بحدود معلنة: يعتمد سمات y وحدها ولا يحسب transform ولا إحداثيات path d ولا y+height ولا cy+r، فهو مؤشر قوي لا إثبات هندسي كامل.",
-    "الفحص الأمني نظيف في الصفحات التسع عشرة كلها: صفر script، صفر foreignObject، صفر سمات on*، صفر javascript:، صفر مرجع http(s) خارجي، صفر data:، صفر image مضمَّن، صفر use خارجي، صفر iframe أو embed أو object، صفر @import. لا يوجد اكتشاف يحتاج قرارًا مكتوبًا.",
+    "أسماء الملفات الواردة مطابقة أصلًا للنمط page-<NNN>.svg، لذلك sourceFileName يساوي file في المداخل الـ42 كلها، ولم تجرِ إعادة تسمية.",
+    "viewBox «0 0 1080 1350» مقيس في الصفحات الـ42 كلها، أي مقاس 1080×1350 بنسبة 4:5 رأسية.",
+    "منطقة الـ12% المحجوزة: الحد y = 1188. أعلى سمة y مرصودة في عناصر النص هي 1234 في page-035 وpage-042، و9 عناصر نص عند الحد أو دونه في أربع صفحات: page-016 وpage-020 وpage-035 وpage-042. سُجّل ولم يوقف النشر، وتراجعه عين المالك في المتصفح. القياس يعتمد سمات y وحدها ولا يحسب transform ولا إحداثيات path d، فهو مؤشر قوي لا إثبات هندسي كامل.",
+    "الفحص الأمني نظيف في الصفحات الـ42 كلها: صفر script، صفر foreignObject، صفر سمات on*، صفر javascript:، صفر مرجع http(s) خارجي، صفر data:، صفر image مضمَّن، صفر use خارجي، صفر iframe أو embed أو object، صفر @import. لا يوجد اكتشاف يحتاج قرارًا مكتوبًا.",
     "قيمة encoding مستنتجة لا مقروءة: لا يحتوي أي ملف إعلان XML ولا BOM، ونجاح تحليل XML على البايتات دون إعلان يعني أن البايتات UTF-8 صالحة.",
-    "نهايات الأسطر داخل الأصول التسعة عشر كلها CRLF. لم تُغيَّر ولا يجوز تغييرها، وقاعدة *.svg -text في .gitattributes تغطيها وفق ADR-0005 البند 11.",
-    "الحجم المقيس: المجموع 211484 بايت، والمتوسط 11130 بايت، وأصغر ملف 8330 بايت في page-010، وأكبر ملف 15468 بايت في page-001.",
-    "الخطوط المستدعاة في الصفحات التسع عشرة كلها: Arial وComic Sans MS وSegoe Print وSegoe UI وTahoma وsans-serif، ولا تزيد أي صفحة خطًّا آخر. قيد معروف مسجَّل في ADR-0004 §23 ولا يُعالَج بتعديل الأصول.",
-    "عنوان الدرس في الصفحة الرئيسة مطابق حرفيًّا لنصه في page-001 وpage-002، فاعتُمد كما هو في displayTitleAr. ولا تحتوي page-002 سؤالًا، فأُخذ pivotQuestionAr حرفيًّا من page-009، وهو السؤال الجامع لهدفي التعلم.",
+    "نهايات الأسطر داخل الأصول الـ42 كلها CRLF. لم تُغيَّر ولا يجوز تغييرها، وقاعدة *.svg -text في .gitattributes تغطيها وفق ADR-0005 البند 11.",
+    "الحجم المقيس: المجموع 580324 بايت، والمتوسط 13817 بايت بالتقريب إلى الأدنى، وأصغر ملف 9166 بايت في page-035، وأكبر ملف 23082 بايت في page-001.",
+    "الخطوط المستدعاة في الصفحات الـ42 كلها: Arial وComic Sans MS وSegoe Print وSegoe UI وTahoma وsans-serif، ولا تزيد أي صفحة خطًّا آخر. قيد معروف مسجَّل في ADR-0004 §23 ولا يُعالَج بتعديل الأصول.",
+    "أُعيد نشر الدرس بـ42 صفحة بدل 19 بطلب المالك، من عهدة 266a0a6a9505ad32d74245169b37bc0b96a41065 التي حلّت محل عهدة 13c78c8، وقبلها وضع المالك ذيلَي النص بعد tspan في page-039 وpage-041 داخل tspan بلا خصائص. وما نُشر سابقًا بتسع عشرة صفحة سجل تاريخي لا يُحرَّر.",
+    "عنوان الدرس في page-001 وفي الصفحة الرئيسة «الذكاء الاصطناعي في الحياة اليومية والصناعة»، ومن page-001 displayTitleEn «AI in Daily Life and Industry». وpivotQuestionAr بنص المالك المكتوب حرفيًّا، إذ لا تسمية «السؤال الرئيسي» في الأصول، وتجيب عنه page-040 وpage-042. ووصف كل صفحة (descriptionAr، وهو نص alt) بقاعدة المالك المكتوبة: الصفحة التي أول بند فيها عنوان رئيسي بخط 44 غامق وصفها ذلك العنوان، وهي 9 صفحات (page-002، page-004، page-011، page-017، page-024، page-026، page-034، page-036، page-040)، والافتتاحية page-001 وصفها أول بند فيها، وكل صفحة سواهما وصفها «تابع: » ثم آخر عنوان رئيسي قبلها حرفيًّا، وهي 32 صفحة.",
     "لا يحتوي أي بند على العلامات < أو > أو &.",
-    "نصوص الصفحات مستخرجة آليًّا من عناصر <text> بترتيب المستند، ثم حُذفت منها علامات الترقيم البصرية وحدها بالقاعدة المسجلة في ADR-0024 D7 وREADME. وطوبق مجموع عناصر النص في الأصول وهو 394 مع عدد البنود المنشورة وهو 377 صفحةً صفحة في التسع عشرة كلها، والفرق سبعة عشر بند ترقيم في page-005 وpage-009 وpage-013 وpage-014 وpage-016 وpage-019."
+    "نصوص الصفحات مستخرجة آليًّا من عناصر <text> بترتيب المستند، ثم طُبّقت عليها قاعدة حذف علامات الترقيم البصرية وحدها المسجلة في ADR-0024 D7 وREADME. وطوبق مجموع عناصر النص في الأصول وهو 426 مع عدد البنود المنشورة وهو 426، ولا فرق بينهما: لا تحتوي الأصول بند ترقيم منفردًا ولا عنصر نص فارغًا."
   ],
   "contextSections": {
-    "structureSummaryAr": "تمهيد وأهداف 002. الاستخدامات اليومية والصناعية 003-004. ما يبرع فيه وما يحتاج الحذر 005-008. نشاطان 009-010. مثالان محلولان وتدريب 011-013. اختبار فهم 014-015. نشاط بحثي 016. تطبيق 017. مراجعة 018-019.",
-    "statusAr": "الـManifest بحالة `published`، وأصوله التسعة عشر منشورة في مسارها القانوني. وصفحة الدرس منشورة بصفحاتها التسع عشرة ونصوصها العربية والإنجليزية داخل HTML، فهي مقروءة دون JavaScript، والعارض `assets/js/lesson-viewer.js` تحسين تدريجي فوقها.\n\nللدرس رابط في الصفحة الرئيسة ومدخل في `sitemap.xml`، ولا يوجد بعد فهرس `/courses/` ولا فهارس Course وTerm وChapter ولا روابط Previous/Next بين الدروس. والحالة الجارية للمشروع في `docs/ai/ARCHITECT_EVIDENCE_LEDGER.md`.",
-    "pagesNarrativeAr": "19 صفحة: صفحة افتتاحية واحدة (`page-001`) + 18 صفحة محتوى (`page-002` … `page-019`). ترقيم متصل بلا فجوة ولا تكرار.\n\nخصائص مشتركة في التسع عشرة كلها: المقاس `1080×1350` بنسبة 4:5 رأسية، و`viewBox \"0 0 1080 1350\"`، وXML سليم البناء، وترميز utf-8، ونتيجة فحص أمني نظيفة. لذلك لا تتكرر في الجدول.\n\nالمطابقة مع المراسي حتمية: `#page-1` ⇄ `page-001.svg` و`#page-19` ⇄ `page-019.svg`.",
-    "constraintsAr": "**الخطوط.** تستدعي الأصول خطوط Windows: Tahoma وSegoe Print وComic Sans MS وSegoe UI وArial و`sans-serif` العام في الصفحات كلها. قد تغيب على أندرويد فيخرج النص عن إطاره، وعلاجه في قالب التوليد القادم لا في الأصول وفق `ADR-0004 §23`.\n\n**الألوان خارج نطاق Design Tokens.** العرض عبر `<img>` يعزل كل أصل عن متغيرات CSS في `assets/css/parmaga.css`، فلا يعيد الوضع الليلي تلوينه.\n\n**منطقة الـ12% المحجوزة.** ما دون `y = 1188` فارغ، وأعلى `y` مرصود 1150 في `page-014`، بقياس سمات `y` وحدها فهو مؤشر لا إثبات. ورقم الصفحة والتنقل وهوية الموقع من طبقة HTML حصرًا وفق `ADR-0004 §19`.\n\n**بايتات الأصول ثابتة.** نهاياتها CRLF بلا إعلان XML ولا BOM، وأي تعديل أو ضغط أو إعادة تصدير يُبطل البصمات.",
-    "decidedAr": "المسار الدائم والمعرّفات وفق `ADR-0004`. عدد الصفحات 19 وترتيبها وأدوارها: `opening` للأولى و`content` للبقية. أسماء الأصول `page-<NNN>.svg`، والمقاس والنسبة، ونمط المراسي `#page-<n>` بلا تصفير.\n\nالنشر التزام واحد يضم الأصول والـManifest وملف السياق وصفحة الدرس والرئيسة و`sitemap.xml`، والـManifest بحالة `published` مباشرةً.\n\nوحدة نص الصفحة عنصر `<text>` كامل بترتيب المستند بلا دمج ولا تقسيم، وتُحذف علامات الترقيم البصرية القصيرة المخزَّنة معكوسة مثل `(1`. والنص يُهرَّب في HTML وفق `ADR-0024` K2.\n\n`displayTitleAr` مطابق لعنوان `page-002`، و`pivotQuestionAr` حرفيًّا من `page-009`.\n\nأداة استخراج النصوص لا تدخل `tools/` ولا خط النشر، وفق `ADR-0024`: بنود الدرس تُكتب وتُراجَع في الـconfig وحده، وهو مصدر النشر الوحيد.",
-    "undecidedAr": "روابط Previous/Next بين الدروس. فهرس `/courses/` وفهارس Course وTerm وChapter. Structured Data. حل مشكلة الخطوط على أندرويد. مراسي `#concept-*`. نظام البحث وتقدم الطالب. مسارات اللغات.",
-    "howToUseAr": "هذا مصدرك لجرد بنية الدرس وقيوده، لا مصدر حالته الوحيد. **لا تطلب ملف SVG**: تمريره إلى النماذج ممنوع وفق `ADR-0005` §10 إلا صفحة واحدة لمشكلة موصوفة مسبقًا، ويُوثَّق.\n\nنص الدرس بلغتيه في HTML صفحته، والـManifest لجرد الأصول وبصماتها وأبعادها وعهدتها. ولا تحرّر مخرَجًا منشورًا بيدك: غيّر config الدرس في `tools/publish_configs/` وأعد التوليد وفق `ADR-0024`.\n\nاقرأ معه: `PROJECT_VISION.md`، ثم `ADR-0003` و`ADR-0004` و`ADR-0005`، ثم `ADR-0007` وما بعده.\n\nلا تعدّل أصلًا ولا مسارًا منشورًا ولا معرّفًا تقنيًا، ولا تخترع رقم صفحة أو بصمة أو بُعدًا، وما نقصك فاطلبه من الـManifest أو من مالك المشروع. وإن لم يكفك هذا الملف فذلك عيب فيه، فأبلغ عنه ليُصلَح."
+    "structureSummaryAr": "افتتاحية 001. الدرس في جملة واحدة 002–003. عُدّة الرحلة: كلمات لازم تعرفها 004–010. يومك من الصبح: الذكاء الاصطناعي في حياتك 011–016. رحلة حبة الطماطم: الذكاء الاصطناعي في الصناعة 017–023. فيمَ يبرع الذكاء الاصطناعي؟ 024–025. متى نحذر؟ 026–033. مقياس الوجع: متى يتدخل الإنسان؟ 034–035. قصص حقيقية: عندما أخطأ الذكاء الاصطناعي 036–039. مراجعة ليلة الامتحان 040–042. ومن محطاته: سؤال الذهب: «بِه صَح؟» 030، دورك الآن: ابحث بنفسك 039، فخاخ الامتحان 041، إجابة سؤال الست درجات (3 + 3) 042.",
+    "statusAr": "الـManifest بحالة `published` وأصوله الـ42 في مسارها القانوني، وأُعيد نشر الدرس بها بدل 19 بطلب المالك. ونصوص الصفحات بلغتيها في HTML فهي مقروءة دون JavaScript، والعارض تحسين تدريجي فوقها. والحالة الجارية في `docs/ai/ARCHITECT_EVIDENCE_LEDGER.md`.",
+    "pagesNarrativeAr": "42 صفحة: افتتاحية واحدة (`page-001`) و41 صفحة محتوى (`page-002` … `page-042`) بترقيم متصل بلا فجوة. و`viewBox` «0 0 1080 1350» وفحص أمني نظيف في كلها. والمراسي حتمية: `#page-1` ⇄ `page-001.svg` حتى `#page-42` ⇄ `page-042.svg`. والوصف «تابع: » يعني أن الصفحة تكمل آخر عنوان رئيسي قبلها.",
+    "constraintsAr": "**الخطوط.** Tahoma وSegoe Print وComic Sans MS وSegoe UI وArial قد تغيب على أندرويد، وعلاجها خارج الأصول وفق `ADR-0004 §23`. **الألوان.** العرض عبر `<img>` يعزل الأصل عن الوضع الليلي. **المنطقة السفلى.** 9 عناصر نص عند `y = 1188` أو دونه في أربع صفحات، أعلاها 1234 في `page-035` و`page-042`، سُجّلت ولم توقف النشر. **البايتات ثابتة.** CRLF بلا إعلان XML ولا BOM، وأي تعديل يُبطل البصمات.",
+    "decidedAr": "المسار والمعرّفات وفق `ADR-0004`، والصفحات الـ42 وترتيبها وأدوارها، والسؤال المحوري بنص المالك، ووصف «تابع: » بقاعدته المكتوبة. صفر Dependencies وصفر Build Step.",
+    "undecidedAr": "روابط Previous/Next بين الدروس. فهرس `/courses/` وفهارس Course وTerm وChapter. Structured Data. الخطوط على أندرويد. مراسي `#concept-*`.",
+    "howToUseAr": "مصدرك لجرد بنية الدرس وقيوده. **لا تطلب ملف SVG** وفق `ADR-0005` §10. النص في HTML صفحة الدرس، والجرد والبصمات في الـManifest. ولا تحرّر مخرَجًا منشورًا: غيّر الـconfig وأعد التوليد وفق `ADR-0024`، ولا تخترع رقمًا ولا بصمة."
   },
   "svgSourceDir": "assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-01/lesson-03",
   "pages": [
@@ -45,22 +46,27 @@
       "id": "page-001",
       "htmlId": "page-1",
       "role": "opening",
-      "descriptionAr": "الدرس 1-3",
+      "descriptionAr": "الدرس ‎3-1‎",
       "transcript": [
         {
+          "text": "الدرس ‎3-1‎",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "الدرس 1-3"
+          "dir": "rtl"
         },
         {
+          "text": "الذكاء الاصطناعي في الحياة اليومية والصناعة",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "الذكاء الاصطناعي في الحياة اليومية والصناعة"
+          "dir": "rtl"
         },
         {
+          "text": "Lesson 1-3",
           "lang": "en",
-          "dir": "ltr",
-          "text": "AI in Daily Life and Industry"
+          "dir": "ltr"
+        },
+        {
+          "text": "AI in Daily Life and Industry",
+          "lang": "en",
+          "dir": "ltr"
         }
       ]
     },
@@ -68,62 +74,57 @@
       "id": "page-002",
       "htmlId": "page-2",
       "role": "content",
-      "descriptionAr": "الذكاء الاصطناعي في الحياة اليومية والصناعة",
+      "descriptionAr": "الدرس في جملة واحدة",
       "transcript": [
         {
+          "text": "الدرس في جملة واحدة",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "الذكاء الاصطناعي في الحياة اليومية والصناعة"
+          "dir": "rtl"
         },
         {
+          "text": "The Whole Lesson in One Sentence",
           "lang": "en",
-          "dir": "ltr",
-          "text": "AI in Daily Life and Industry"
+          "dir": "ltr"
         },
         {
+          "text": "اعترف! استخدمته كام مرة النهارده؟",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "أصبح الذكاء الاصطناعي جزءًا من خدمات كثيرة نستخدمها يوميًا، كما يُستخدم في مجالات صناعية متعددة. يستطيع العثور على أنماط في البيانات والتنبؤ بالنتائج، لكنه لا يناسب كل مهمة، وبعض استخداماته تحتاج إلى الحذر والإشراف البشري."
+          "dir": "rtl"
         },
         {
+          "text": "Be honest! How many times did you use it today?",
           "lang": "en",
-          "dir": "ltr",
-          "text": "AI is already part of many services we use every day, and it is also used across various industries. It can find patterns in data and predict outcomes, but it is not suitable for every task, and some uses require caution and human oversight."
+          "dir": "ltr"
         },
         {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Learning Objectives"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "|"
-        },
-        {
+          "text": "قبل أن نبدأ، عُدّ على أصابعك: كم مرة استخدمت الذكاء الاصطناعي اليوم؟",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "أهداف التعلم"
+          "dir": "rtl"
         },
         {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "التعرّف على أمثلة لاستخدام الذكاء الاصطناعي في الحياة اليومية والصناعة."
-        },
-        {
+          "text": "Before we start, count on your fingers: how many times did you use AI today?",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Identify examples of AI use in daily life and industry."
+          "dir": "ltr"
         },
         {
+          "text": "إذا فتحت هاتفك بوجهك، أو شاهدت فيديو اقترحه التطبيق، فقد استخدمته دون أن تنتبه.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "توضيح ما يبرع فيه الذكاء الاصطناعي وما يتطلب الحذر عند استخدامه."
+          "dir": "rtl"
         },
         {
+          "text": "If your phone unlocked with your face or an app suggested a video, you already used AI.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Explain what AI is good at and what requires caution when using it."
+          "dir": "ltr"
+        },
+        {
+          "text": "الذكاء الاصطناعي يلاحظ، والإنسان يقرّر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "AI notices; the human decides.",
+          "lang": "en",
+          "dir": "ltr"
         }
       ]
     },
@@ -131,137 +132,67 @@
       "id": "page-003",
       "htmlId": "page-3",
       "role": "content",
-      "descriptionAr": "استخدام الذكاء الاصطناعي في الحياة اليومية",
+      "descriptionAr": "تابع: الدرس في جملة واحدة",
       "transcript": [
         {
+          "text": "تخيّل جهاز أشعة يلمح كسرًا صغيرًا في العظم بسرعة.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "استخدام الذكاء الاصطناعي في الحياة اليومية"
+          "dir": "rtl"
         },
         {
+          "text": "Imagine an X-ray machine that quickly spots a small crack in a bone.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Use of AI in Daily Life"
+          "dir": "ltr"
         },
         {
+          "text": "الجهاز يرى، لكن الطبيب هو الذي يكتب التشخيص ويتحمل مسؤوليته.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "أنظمة التوصية |"
+          "dir": "rtl"
         },
         {
+          "text": "The machine sees; the doctor writes the diagnosis and is responsible.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Recommendation Systems"
+          "dir": "ltr"
         },
         {
+          "text": "الجهاز يلاحظ",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "تتنبأ بتفضيلات المستخدم من بيانات سلوكه السابق، ثم تعرض توصيات مناسبة."
+          "dir": "rtl"
         },
         {
+          "text": "The machine notices",
           "lang": "en",
-          "dir": "ltr",
-          "text": "They predict user preferences from past behavior data and display suitable recommendations."
+          "dir": "ltr"
         },
         {
+          "text": "الطبيب يقرّر",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "أمثلة |"
+          "dir": "rtl"
         },
         {
+          "text": "The doctor decides",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Examples: YouTube, Amazon, Spotify"
+          "dir": "ltr"
         },
         {
+          "text": "فكّر لحظة",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "المساعدات الصوتية |"
+          "dir": "rtl"
         },
         {
+          "text": "THINK FOR A MOMENT",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Voice Assistants"
+          "dir": "ltr"
         },
         {
+          "text": "لو أخطأ الجهاز، فمن يُحاسَب: الجهاز أم الطبيب؟ ولماذا؟",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "تتعرّف على الصوت، وتفهم الأوامر، ثم تنفذها."
+          "dir": "rtl"
         },
         {
+          "text": "If the machine is wrong, who is held responsible: the machine or the doctor? Why?",
           "lang": "en",
-          "dir": "ltr",
-          "text": "They recognize a voice, understand commands, and execute them."
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "أمثلة |"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Examples: Siri, Google Assistant"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "الترجمة الآلية |"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Machine Translation"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "تترجم النصوص تلقائيًا من لغة إلى أخرى."
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "It automatically translates text from one language into another."
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "أمثلة |"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Examples: Google Translate, DeepL"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "التعرّف على الوجه |"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Face Recognition"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "يكتشف الوجوه البشرية في الصور ويتعرّف عليها تلقائيًا."
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "It automatically detects and identifies human faces in photographs."
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "مثال | فتح الهاتف الذكي |"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Example: Smartphone unlocking"
+          "dir": "ltr"
         }
       ]
     },
@@ -269,77 +200,47 @@
       "id": "page-004",
       "htmlId": "page-4",
       "role": "content",
-      "descriptionAr": "استخدام الذكاء الاصطناعي في الصناعة",
+      "descriptionAr": "عُدّة الرحلة: كلمات لازم تعرفها",
       "transcript": [
         {
+          "text": "عُدّة الرحلة: كلمات لازم تعرفها",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "استخدام الذكاء الاصطناعي في الصناعة"
+          "dir": "rtl"
         },
         {
+          "text": "Your Toolkit: Words You Need to Know",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Use of AI in Industry"
+          "dir": "ltr"
         },
         {
+          "text": "الذكاء الاصطناعي (AI)",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "الرعاية الصحية Healthcare |"
+          "dir": "rtl"
         },
         {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "تشخيص الأمراض من صور الأشعة السينية والتصوير المقطعي، ودعم اكتشاف الأدوية."
-        },
-        {
+          "text": "Artificial Intelligence (AI)",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Detecting diseases from X-ray and CT images and supporting drug discovery."
+          "dir": "ltr"
         },
         {
+          "text": "مجال في علوم الكمبيوتر يبني أنظمة تؤدي مهامًا تحتاج إلى ذكاء الإنسان، مثل التعرف على الصور وفهم الكلام والتنبؤ.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "الزراعة Agriculture |"
+          "dir": "rtl"
         },
         {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "التنبؤ بموعد الحصاد، والكشف عن الآفات والأمراض."
-        },
-        {
+          "text": "A field of computer science that builds systems to do tasks that need human intelligence, like recognizing images, understanding speech, and predicting.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Predicting harvest timing and detecting pests and diseases."
+          "dir": "ltr"
         },
         {
+          "text": "انتبه: هو ليس عقلًا بشريًا ولا سحرًا، بل حسابات رياضية تبحث عن الأنماط في البيانات.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "التصنيع Manufacturing |"
+          "dir": "rtl"
         },
         {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "أتمتة فحص جودة المنتجات واستخدام الصيانة التنبؤية."
-        },
-        {
+          "text": "Careful: it is not a human mind or magic, but math that searches for patterns in data.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Automating product quality inspection and using predictive maintenance."
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "الخدمات اللوجستية Logistics |"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "تحسين مسارات التوصيل."
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Optimizing delivery routes."
+          "dir": "ltr"
         }
       ]
     },
@@ -347,87 +248,67 @@
       "id": "page-005",
       "htmlId": "page-5",
       "role": "content",
-      "descriptionAr": "ما الذي يبرع فيه الذكاء الاصطناعي؟",
+      "descriptionAr": "تابع: عُدّة الرحلة: كلمات لازم تعرفها",
       "transcript": [
         {
+          "text": "التعلم الآلي",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "ما الذي يبرع فيه الذكاء الاصطناعي؟"
+          "dir": "rtl"
         },
         {
+          "text": "Machine Learning (ML)",
           "lang": "en",
-          "dir": "ltr",
-          "text": "What Is AI Good At?"
+          "dir": "ltr"
         },
         {
+          "text": "فرع من الذكاء الاصطناعي يتعلم فيه الكمبيوتر من الأمثلة والبيانات، بدل أن نكتب له كل قاعدة بأيدينا.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "إيجاد الأنماط وتصنيفها في البيانات المعقدة، مثل الصور والنصوص."
+          "dir": "rtl"
         },
         {
+          "text": "A branch of AI in which the computer learns from examples and data, instead of us writing every rule by hand.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Finding and classifying patterns in complex data, such as images and text."
+          "dir": "ltr"
         },
         {
+          "text": "مثال: نعطيه آلاف الرسائل المصنفة إلى «مزعجة» و«سليمة»، فيستنتج الفرق بينهما وحده.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "التعرّف على الصور والصوت والنصوص وتوليدها."
+          "dir": "rtl"
         },
         {
+          "text": "Example: we give it thousands of emails labeled \"spam\" or \"safe,\" and it works out the difference by itself.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Recognizing and generating images, audio, and text."
+          "dir": "ltr"
         },
         {
+          "text": "مزعجة",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "الاستدلال الاحتمالي والتنبؤ اعتمادًا على البيانات."
+          "dir": "rtl"
         },
         {
+          "text": "Spam",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Probabilistic reasoning and prediction based on data."
+          "dir": "ltr"
         },
         {
+          "text": "سليمة",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "البيانات"
+          "dir": "rtl"
         },
         {
+          "text": "Safe",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Data"
+          "dir": "ltr"
         },
         {
+          "text": "رسالة جديدة",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "اكتشاف الأنماط"
+          "dir": "rtl"
         },
         {
+          "text": "New email",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Pattern Finding"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "التنبؤ"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Prediction"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "الذكاء الاصطناعي بارع في إيجاد الأنماط داخل البيانات."
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "AI is good at finding patterns in data."
+          "dir": "ltr"
         }
       ]
     },
@@ -435,67 +316,67 @@
       "id": "page-006",
       "htmlId": "page-6",
       "role": "content",
-      "descriptionAr": "متى نحتاج إلى الحذر؟",
+      "descriptionAr": "تابع: عُدّة الرحلة: كلمات لازم تعرفها",
       "transcript": [
         {
+          "text": "التعلم العميق",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "متى نحتاج إلى الحذر؟"
+          "dir": "rtl"
         },
         {
+          "text": "Deep Learning",
           "lang": "en",
-          "dir": "ltr",
-          "text": "When Is Caution Needed?"
+          "dir": "ltr"
         },
         {
+          "text": "نوع من التعلم الآلي يستخدم شبكات عصبية اصطناعية من طبقات كثيرة، وكل طبقة تفهم مستوى أعمق من التي قبلها.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "نحتاج إلى الحذر عند استخدام الذكاء الاصطناعي في:"
+          "dir": "rtl"
         },
         {
+          "text": "A type of machine learning that uses artificial neural networks with many layers; each layer understands a deeper level than the one before.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Caution is needed when AI is used for:"
+          "dir": "ltr"
         },
         {
+          "text": "في صورة وجه: طبقة ترى الخطوط، ثم طبقة ترى الأشكال، ثم طبقة ترى الوجه كاملًا.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "الأحكام الأخلاقية التي قد تؤدي إلى التمييز أو التحيز."
+          "dir": "rtl"
         },
         {
+          "text": "In a face photo: one layer sees lines, the next sees shapes, and a later one sees the whole face.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Ethical judgments that may lead to discrimination or prejudice."
+          "dir": "ltr"
         },
         {
+          "text": "خطوط",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "القرارات التي تتضمن معلومات شخصية أو خصوصية."
+          "dir": "rtl"
         },
         {
+          "text": "Lines",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Decisions involving personal information or privacy."
+          "dir": "ltr"
         },
         {
+          "text": "أشكال",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "اتخاذ القرارات النهائية وتحديد المسؤول عن النتيجة."
+          "dir": "rtl"
         },
         {
+          "text": "Shapes",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Final decision-making and determining who is responsible for the result."
+          "dir": "ltr"
         },
         {
+          "text": "وجه",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "لا ينبغي ترك الأحكام الأخلاقية والقرارات المسؤولة للذكاء الاصطناعي وحده."
+          "dir": "rtl"
         },
         {
+          "text": "Face",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Ethical judgments and responsible decisions should not be left to AI alone."
+          "dir": "ltr"
         }
       ]
     },
@@ -503,107 +384,57 @@
       "id": "page-007",
       "htmlId": "page-7",
       "role": "content",
-      "descriptionAr": "البيانات والنتائج تحتاجان إلى المراجعة",
+      "descriptionAr": "تابع: عُدّة الرحلة: كلمات لازم تعرفها",
       "transcript": [
         {
+          "text": "الذكاء الاصطناعي التوليدي",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "البيانات والنتائج تحتاجان إلى المراجعة"
+          "dir": "rtl"
         },
         {
+          "text": "Generative AI",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Data and Results Need Review"
+          "dir": "ltr"
         },
         {
+          "text": "نوع من الذكاء الاصطناعي يصنع محتوى جديدًا، مثل نص أو صورة أو صوت، بدل أن يصنّف فقط.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "بيانات التدريب"
+          "dir": "rtl"
         },
         {
+          "text": "A type of AI that creates new content, such as text, images, or audio, instead of only classifying.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Training Data"
+          "dir": "ltr"
         },
         {
+          "text": "الفرق ببساطة: نموذج التصنيف يقول «هذه صورة قطة»، والنموذج التوليدي يرسم لك قطة جديدة.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "الذكاء الاصطناعي"
+          "dir": "rtl"
         },
         {
+          "text": "Simply put: a classifier says \"this is a photo of a cat,\" while a generative model draws you a new cat.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "AI"
+          "dir": "ltr"
         },
         {
+          "text": "يصنّف",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "النتيجة"
+          "dir": "rtl"
         },
         {
+          "text": "Classifies",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Result"
+          "dir": "ltr"
         },
         {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "!"
-        },
-        {
+          "text": "يولّد",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "قد تصبح أحكام الذكاء الاصطناعي غير دقيقة إذا كانت بيانات التدريب متحيزة."
+          "dir": "rtl"
         },
         {
+          "text": "Generates",
           "lang": "en",
-          "dir": "ltr",
-          "text": "AI judgments may become inaccurate when the training data is biased."
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "!"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "قد يولّد محتوى مختلفًا عن الحقائق، ويُعرف ذلك بالهلوسة."
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "It may generate content that differs from the facts; this is called hallucination."
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "!"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "قد تظهر مشكلات متعلقة بحقوق المؤلف عند استخدام أعمال محمية في التدريب."
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Copyright issues may arise when protected works are used as training data."
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "!"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "قد يصعب توضيح كيفية وصوله إلى الحكم، وتُعرف هذه بمشكلة الصندوق الأسود."
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "It may be unclear how AI reached its judgment; this is called the black-box problem."
+          "dir": "ltr"
         }
       ]
     },
@@ -611,72 +442,47 @@
       "id": "page-008",
       "htmlId": "page-8",
       "role": "content",
-      "descriptionAr": "الفكرة الرئيسية",
+      "descriptionAr": "تابع: عُدّة الرحلة: كلمات لازم تعرفها",
       "transcript": [
         {
+          "text": "البيانات وبيانات التدريب",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "الفكرة الرئيسية"
+          "dir": "rtl"
         },
         {
+          "text": "Data and Training Data",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Key Takeaway"
+          "dir": "ltr"
         },
         {
+          "text": "البيانات هي أي معلومات يتعامل معها الكمبيوتر: أرقام، أو صور، أو أصوات، أو نصوص.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "يُستخدم الذكاء الاصطناعي في أنظمة التوصية والمساعدات الصوتية والترجمة الآلية والتعرّف على الوجه، كما يُستخدم في الرعاية الصحية والزراعة والتصنيع والخدمات اللوجستية."
+          "dir": "rtl"
         },
         {
+          "text": "Data is any information a computer works with: numbers, images, sounds, or text.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "AI is used in recommendation systems, voice assistants, machine translation, and face recognition. It is also used in healthcare, agriculture, manufacturing, and logistics."
+          "dir": "ltr"
         },
         {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "AI"
-        },
-        {
+          "text": "بيانات التدريب هي الأمثلة التي تعلّم منها الذكاء الاصطناعي.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "الذكاء الاصطناعي"
+          "dir": "rtl"
         },
         {
+          "text": "Training data is the set of examples an AI learned from.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Human Judgment"
+          "dir": "ltr"
         },
         {
+          "text": "القاعدة الذهبية: ما يدخل فاسدًا يخرج فاسدًا.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "الحكم البشري"
+          "dir": "rtl"
         },
         {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "وهو جيد في اكتشاف الأنماط والتعرّف والتنبؤ اعتمادًا على البيانات، لكن الحكم البشري يظل ضروريًا عند التعامل مع الأخلاق والخصوصية والمسؤولية ودقة النتائج."
-        },
-        {
+          "text": "The golden rule: Garbage In, Garbage Out.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "It is good at finding patterns, recognition, and prediction based on data, but human judgment remains necessary when ethics, privacy, responsibility, and the accuracy of results are"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "involved."
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "الذكاء الاصطناعي أداة قوية، لكن استخدامه المسؤول يحتاج إلى حكم بشري."
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "AI is a powerful tool, but its responsible use requires human judgment."
+          "dir": "ltr"
         }
       ]
     },
@@ -684,57 +490,67 @@
       "id": "page-009",
       "htmlId": "page-9",
       "role": "content",
-      "descriptionAr": "نشاط استكشافي: الذكاء الاصطناعي من حولنا",
+      "descriptionAr": "تابع: عُدّة الرحلة: كلمات لازم تعرفها",
       "transcript": [
         {
+          "text": "النمط",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "نشاط استكشافي: الذكاء الاصطناعي من حولنا"
+          "dir": "rtl"
         },
         {
+          "text": "Pattern",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Explore: AI Around Us"
+          "dir": "ltr"
         },
         {
+          "text": "تكرار أو علاقة ثابتة في البيانات، مثل: من يشاهد مباراة كرة يبحث بعدها غالبًا عن ملخصها.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "السؤال الموجّه | Guiding Question"
+          "dir": "rtl"
         },
         {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "أين يُستخدم الذكاء الاصطناعي في الحياة اليومية والصناعة؟ وما الذي يبرع فيه؟ وما الذي يتطلب الحذر؟"
-        },
-        {
+          "text": "A repeated relationship in data, like: people who watch a football match often look for its highlights afterward.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Where is AI used in daily life and industry, what is AI good at, and what needs caution?"
+          "dir": "ltr"
         },
         {
+          "text": "التصنيف",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "استكشف مع زميل | Explore in Pairs"
+          "dir": "rtl"
         },
         {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "بالتعاون مع زميل، اذكر ثلاث خدمات استخدمتها هذا الأسبوع وتعتقد أنها تستخدم الذكاء الاصطناعي، مثل توصية بمقطع فيديو، أو مساعد صوتي، أو تطبيق للترجمة."
-        },
-        {
+          "text": "Classification",
           "lang": "en",
-          "dir": "ltr",
-          "text": "With a partner, list three services you used this week that you think used AI, such as a video recommendation, a voice assistant, or a translation app."
+          "dir": "ltr"
         },
         {
+          "text": "وضع كل عنصر في فئة: هل الرسالة مزعجة أم سليمة؟ هل الصورة سليمة أم فيها مرض؟",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "لكل خدمة، توقّع البيانات التي يحتاج إليها الذكاء الاصطناعي لأداء مهمته، ثم حددا أي خدمة ستكون عاقبة الخطأ فيها أكبر."
+          "dir": "rtl"
         },
         {
+          "text": "Putting each item into a group: is the email spam or safe? Is the scan healthy or showing disease?",
           "lang": "en",
-          "dir": "ltr",
-          "text": "For each service, predict what data the AI needed to do its job. Then decide which service would matter most if it made a mistake."
+          "dir": "ltr"
+        },
+        {
+          "text": "نمط",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Pattern",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تصنيف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Classification",
+          "lang": "en",
+          "dir": "ltr"
         }
       ]
     },
@@ -742,62 +558,47 @@
       "id": "page-010",
       "htmlId": "page-10",
       "role": "content",
-      "descriptionAr": "فكّر وناقش",
+      "descriptionAr": "تابع: عُدّة الرحلة: كلمات لازم تعرفها",
       "transcript": [
         {
+          "text": "الاستدلال الاحتمالي والتنبؤ",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "فكّر وناقش"
+          "dir": "rtl"
         },
         {
+          "text": "Probabilistic Reasoning and Prediction",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Think and Discuss"
+          "dir": "ltr"
         },
         {
+          "text": "الذكاء الاصطناعي لا يقول «أكيد»، بل «غالبًا»: احتمال 85% أن يعجبك هذا الفيلم. هذا تخمين ذكي، لا ضمان.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "الحالة الأولى: الرعاية الصحية | Healthcare"
+          "dir": "rtl"
         },
         {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "يفكر أحد المستشفيات في استخدام نظام ذكاء اصطناعي لتشخيص الأمراض من صور الأشعة السينية. وضّح لماذا يجب أن يؤكد طبيب بشري التشخيص النهائي، وألا يُترك للذكاء الاصطناعي وحده."
-        },
-        {
+          "text": "AI says \"probably,\" not \"certainly\": an 85% chance you'll like this film. A smart guess, not a guarantee.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "A hospital is considering using image-diagnosis AI to detect diseases from X-ray images. Explain why the final diagnosis should be confirmed by a human doctor rather than left to AI alone."
+          "dir": "ltr"
         },
         {
+          "text": "جرّب بنفسك",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "الحالة الثانية: الخصوصية | Privacy"
+          "dir": "rtl"
         },
         {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "تستخدم خدمات الذكاء الاصطناعي غالبًا بيانات شخصية، مثل ما تشاهده أو تشتريه أو تقوله. لماذا يثير ذلك مخاوف تتعلق بالخصوصية؟ ومن ينبغي أن يقرر كيفية استخدام بياناتك؟"
-        },
-        {
+          "text": "TRY IT",
           "lang": "en",
-          "dir": "ltr",
-          "text": "AI services often use your personal data, such as what you watch, buy, or say. Why does this raise privacy concerns, and who should decide how your data is used?"
+          "dir": "ltr"
         },
         {
+          "text": "توقّعات الطقس تقول: «احتمال المطر 70%». هل هذا وعد بأن السماء ستمطر؟",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "تأمل وتحدَّ نفسك | Reflect and Challenge"
+          "dir": "rtl"
         },
         {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "ما استخدام الذكاء الاصطناعي الذي فاجأك أكثر؟ وأين يتخذ الذكاء الاصطناعي قرارات تتعلق بك؟ اختر مهمة تحتاج إلى الحذر، واقترح قاعدة تجعل استخدام الذكاء الاصطناعي فيها أكثر أمانًا."
-        },
-        {
+          "text": "The weather forecast says: \"70% chance of rain.\" Is that a promise that it will rain?",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Which use of AI surprised you most? Where does AI make decisions about you? Choose one task where AI needs caution and suggest one rule that would make using AI for that task safer."
+          "dir": "ltr"
         }
       ]
     },
@@ -805,162 +606,57 @@
       "id": "page-011",
       "htmlId": "page-11",
       "role": "content",
-      "descriptionAr": "مثال محلول: تعرّف على تقنية الذكاء الاصطناعي",
+      "descriptionAr": "يومك من الصبح: الذكاء الاصطناعي في حياتك",
       "transcript": [
         {
+          "text": "يومك من الصبح: الذكاء الاصطناعي في حياتك",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "مثال محلول: تعرّف على تقنية الذكاء الاصطناعي"
+          "dir": "rtl"
         },
         {
+          "text": "Your Day from the Morning: AI in Your Life",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Worked Example: Identify the AI Technology"
+          "dir": "ltr"
         },
         {
+          "text": "تعال نتتبع يومًا عاديًا من حياتك، ونكتشف أين يختبئ الذكاء الاصطناعي.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "صِل كل مثال من (أ–د) بتقنية الذكاء الاصطناعي المناسبة من الاختيارات (A–D)."
+          "dir": "rtl"
         },
         {
+          "text": "Let's follow an ordinary day in your life and discover where AI is hiding.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Match each example (a–d) with the most appropriate AI technology from choices (A–D)."
+          "dir": "ltr"
         },
         {
+          "text": "الساعة 7:00 صباحًا — التعرف على الوجه",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "يقترح YouTube مقاطع فيديو تناسب تفضيلات المستخدم."
+          "dir": "rtl"
         },
         {
+          "text": "7:00 a.m. — Face Recognition",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تستيقظ، فتنظر إلى هاتفك، فيُفتح فورًا.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "أ|a"
+          "dir": "rtl"
         },
         {
+          "text": "You wake up, look at your phone, and it unlocks right away.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "YouTube recommends videos that match the user’s preferences."
+          "dir": "ltr"
         },
         {
+          "text": "التعرف على الوجه تقنية تكتشف الوجه في الصورة، ثم تتعرف على صاحبه.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "التحدث إلى هاتف ذكي لمعرفة حالة الطقس."
+          "dir": "rtl"
         },
         {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "ب|b"
-        },
-        {
+          "text": "Face recognition is a technology that detects a face in an image, then identifies whose face it is.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Speaking to a smartphone to check the weather."
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "ترجمة موقع إلكتروني بلغة أجنبية إلى اللغة الأم للمستخدم."
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "ج|c"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Translating a foreign-language website into one’s native language."
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "تكتشف كاميرا الهاتف الذكي وجه الشخص تلقائيًا."
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "د|d"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "A smartphone camera automatically detects a person’s face."
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "الاختيارات"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "|"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Choices"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "A"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "B"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "C"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "D"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Recommendation System"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Voice Assistant"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Machine Translation"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Face Recognition"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "نظام التوصية"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "المساعد الصوتي"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "الترجمة الآلية"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "التعرّف على الوجه"
+          "dir": "ltr"
         }
       ]
     },
@@ -968,137 +664,67 @@
       "id": "page-012",
       "htmlId": "page-12",
       "role": "content",
-      "descriptionAr": "مثال محلول: صح أم خطأ؟",
+      "descriptionAr": "تابع: يومك من الصبح: الذكاء الاصطناعي في حياتك",
       "transcript": [
         {
+          "text": "الاكتشاف (Detection) يجيب: «هل يوجد وجه؟»، والتعرف (Recognition) يجيب: «وجه مَن هذا؟».",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "مثال محلول: صح أم خطأ؟"
+          "dir": "rtl"
         },
         {
+          "text": "Detection answers \"Is there a face?\"; recognition answers \"Whose face is it?\"",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Worked Example: True or False?"
+          "dir": "ltr"
         },
         {
+          "text": "وفتح هاتفك يحتاج إلى الخطوتين معًا.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "ضع علامة صح أو خطأ أمام كل عبارة."
+          "dir": "rtl"
         },
         {
+          "text": "Unlocking your phone needs both steps.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Mark each statement True or False."
+          "dir": "ltr"
         },
         {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "A"
-        },
-        {
+          "text": "اكتشاف",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "يبرع الذكاء الاصطناعي في الاستدلال الاحتمالي والتنبؤ اعتمادًا على البيانات."
+          "dir": "rtl"
         },
         {
+          "text": "Detection",
           "lang": "en",
-          "dir": "ltr",
-          "text": "AI is good at probabilistic reasoning and prediction based on data."
+          "dir": "ltr"
         },
         {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "B"
-        },
-        {
+          "text": "تعرّف",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "يبرع الذكاء الاصطناعي في التعرّف على الصور والصوت."
+          "dir": "rtl"
         },
         {
+          "text": "Recognition",
           "lang": "en",
-          "dir": "ltr",
-          "text": "AI is good at recognizing images and audio."
+          "dir": "ltr"
         },
         {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "C"
-        },
-        {
+          "text": "خلي بالك",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "من المقبول ترك الأحكام الأخلاقية للذكاء الاصطناعي بالكامل."
+          "dir": "rtl"
         },
         {
+          "text": "ITS CAUTION",
           "lang": "en",
-          "dir": "ltr",
-          "text": "It is fine to leave ethical judgments entirely to AI."
+          "dir": "ltr"
         },
         {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "D"
-        },
-        {
+          "text": "الوجه بيانات حساسة، والتطابق الخاطئ قد يظلم إنسانًا بريئًا.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "قد تصبح أحكام الذكاء الاصطناعي غير دقيقة عندما تكون بيانات التدريب متحيزة."
+          "dir": "rtl"
         },
         {
+          "text": "A face is sensitive data, and a false match can harm an innocent person.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "AI judgments can become inaccurate when training data is biased."
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "حل الجزء الأول"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "| Solution to Part One"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "أ–A: نظام التوصية"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "| Recommendation System"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "ب–B: المساعد الصوتي"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "| Voice Assistant"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "ج–C: الترجمة الآلية"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "| Machine Translation"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "د–D: التعرّف على الوجه"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "| Face Recognition"
+          "dir": "ltr"
         }
       ]
     },
@@ -1106,147 +732,77 @@
       "id": "page-013",
       "htmlId": "page-13",
       "role": "content",
-      "descriptionAr": "حل الصح والخطأ ثم جرّب بنفسك",
+      "descriptionAr": "تابع: يومك من الصبح: الذكاء الاصطناعي في حياتك",
       "transcript": [
         {
+          "text": "الساعة 7:05 صباحًا — المساعد الصوتي",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "حل الصح والخطأ ثم جرّب بنفسك"
+          "dir": "rtl"
         },
         {
+          "text": "7:05 a.m. — Voice Assistant",
           "lang": "en",
-          "dir": "ltr",
-          "text": "True-or-False Solution and Try It Yourself"
+          "dir": "ltr"
         },
         {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "A —"
-        },
-        {
+          "text": "تسأل هاتفك: «الجو عامل إيه النهارده؟» فيرد عليك.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "صح"
+          "dir": "rtl"
         },
         {
+          "text": "You ask your phone, \"What's the weather like today?\" and it answers you.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "| True"
+          "dir": "ltr"
         },
         {
+          "text": "المساعد الصوتي يعمل في ثلاث خطوات: يتعرف على صوتك ويحوّله إلى نص، ثم يفهم المطلوب، ثم ينفّذه.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "يبرع الذكاء الاصطناعي في الاستدلال الاحتمالي والتنبؤ اعتمادًا على البيانات."
+          "dir": "rtl"
         },
         {
+          "text": "A voice assistant works in three steps: it recognizes your voice and turns it into text, understands the request, then carries it out.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "AI is good at probabilistic reasoning and prediction based on data."
+          "dir": "ltr"
         },
         {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "B —"
-        },
-        {
+          "text": "احفظها: يسمع، يفهم، ينفّذ.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "صح"
+          "dir": "rtl"
         },
         {
+          "text": "Remember: it listens, understands, acts.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "| True"
+          "dir": "ltr"
         },
         {
+          "text": "يسمع",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "يبرع الذكاء الاصطناعي في التعرّف على الصور والصوت والنصوص."
+          "dir": "rtl"
         },
         {
+          "text": "Listens",
           "lang": "en",
-          "dir": "ltr",
-          "text": "AI is good at recognizing images, audio, and text."
+          "dir": "ltr"
         },
         {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "C —"
-        },
-        {
+          "text": "يفهم",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "خطأ"
+          "dir": "rtl"
         },
         {
+          "text": "Understands",
           "lang": "en",
-          "dir": "ltr",
-          "text": "| False"
+          "dir": "ltr"
         },
         {
+          "text": "ينفّذ",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "قد تؤدي أحكام الذكاء الاصطناعي إلى التمييز أو التحيز؛ لذلك لا ينبغي ترك الأحكام الأخلاقية له بالكامل."
+          "dir": "rtl"
         },
         {
+          "text": "Acts",
           "lang": "en",
-          "dir": "ltr",
-          "text": "AI judgments can lead to discrimination or prejudice, so ethical judgments should not be left entirely to AI."
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "D —"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "صح"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "| True"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "يؤثر التحيز في بيانات التدريب في دقة أحكام الذكاء الاصطناعي."
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Bias in training data affects the accuracy of AI judgments."
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "جرّب"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "| Try"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "ما اسم النظام الذي يتنبأ بالتفضيلات من بيانات السلوك السابق ويعرض التوصيات؟"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "What is the term for a system that predicts preferences from past behavior data and displays recommendations?"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "ما اسم تقنية الذكاء الاصطناعي التي تتعرّف على الصوت، وتفهم الأوامر، وتنفذها؟"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "What is the term for the AI technology that recognizes a voice, understands commands, and executes them?"
+          "dir": "ltr"
         }
       ]
     },
@@ -1254,122 +810,57 @@
       "id": "page-014",
       "htmlId": "page-14",
       "role": "content",
-      "descriptionAr": "اختبر فهمك: الاستخدامات ومجالات الصناعة",
+      "descriptionAr": "تابع: يومك من الصبح: الذكاء الاصطناعي في حياتك",
       "transcript": [
         {
+          "text": "الساعة 4:00 عصرًا — الترجمة الآلية",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "اختبر فهمك: الاستخدامات ومجالات الصناعة"
+          "dir": "rtl"
         },
         {
+          "text": "4:00 p.m. — Machine Translation",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Check Your Understanding: Uses and Industries"
+          "dir": "ltr"
         },
         {
+          "text": "قائمة طعام بلغة لا تعرفها؟ وجّه إليها كاميرا هاتفك فتظهر الترجمة.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "في أي مجال صناعي يُستخدم الذكاء الاصطناعي لتشخيص الأمراض من الصور؟"
+          "dir": "rtl"
         },
         {
+          "text": "A menu in a language you don't know? Point your phone camera at it and the translation appears.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "In which industry is image-diagnosis AI used?"
+          "dir": "ltr"
         },
         {
+          "text": "الترجمة الآلية هي ترجمة النص من لغة إلى أخرى تلقائيًا بالكمبيوتر، دون مترجم بشري.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "ما اسم النظام المستخدم في التصنيع للتنبؤ بأعطال المنتجات أو الآلات مسبقًا؟"
+          "dir": "rtl"
         },
         {
+          "text": "Machine translation is translating text between languages automatically by computer, without a human translator.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "In manufacturing, what is the term for the system that predicts product or machine failures in advance?"
+          "dir": "ltr"
         },
         {
+          "text": "فخ امتحان",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "اختر الإجابة الصحيحة"
+          "dir": "rtl"
         },
         {
+          "text": "EXAM TRAP",
           "lang": "en",
-          "dir": "ltr",
-          "text": "|"
+          "dir": "ltr"
         },
         {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Choose the Correct Answer"
-        },
-        {
+          "text": "«يترجم فيها البشر يدويًا» عبارة خاطئة.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "أي الاختيارات التالية لا ينتمي إلى ما يتطلب الحذر عند استخدام الذكاء الاصطناعي؟"
+          "dir": "rtl"
         },
         {
+          "text": "\"Humans translate it by hand\" is a false statement.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Which option does not belong to what requires caution when using AI?"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "A"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "الأحكام الأخلاقية"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Ethical judgments"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "B"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "إيجاد الأنماط وتصنيفها"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Finding and classifying patterns"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "C"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "القرارات المرتبطة بالمعلومات الشخصية أو الخصوصية"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Judgments involving personal information or privacy"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "D"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "اتخاذ القرار النهائي"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Final decision-making"
+          "dir": "ltr"
         }
       ]
     },
@@ -1377,202 +868,37 @@
       "id": "page-015",
       "htmlId": "page-15",
       "role": "content",
-      "descriptionAr": "صِل الاستخدام بالمجال المناسب",
+      "descriptionAr": "تابع: يومك من الصبح: الذكاء الاصطناعي في حياتك",
       "transcript": [
         {
+          "text": "الساعة 10:00 مساءً — نظام التوصية",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "صِل الاستخدام بالمجال المناسب"
+          "dir": "rtl"
         },
         {
+          "text": "10:00 p.m. — Recommendation System",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Match Each Use with Its Industry"
+          "dir": "ltr"
         },
         {
+          "text": "تفتح فيديو واحدًا، فيقترح عليك التطبيق غيره، فتجد الساعة صارت 1:00!",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "لكل مثال من (أ–د)، حدد المجال الأكثر ارتباطًا به."
+          "dir": "rtl"
         },
         {
+          "text": "You open one video, the app suggests another, and suddenly it's 1:00 a.m.!",
           "lang": "en",
-          "dir": "ltr",
-          "text": "For each example (a–d), identify the most closely related industry."
+          "dir": "ltr"
         },
         {
+          "text": "نظام التوصية يتوقع ما قد يعجبك من سلوكك السابق: ما شاهدته، أو اشتريته، أو سمعته.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "المجالات"
+          "dir": "rtl"
         },
         {
+          "text": "A recommendation system predicts what you may like from your past behavior: what you watched, bought, or listened to.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "|"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Industries"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "A"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "الرعاية الصحية"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "|"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Healthcare"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "B"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "الزراعة"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "|"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Agriculture"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "C"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "التصنيع"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "|"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Manufacturing"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "D"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "الخدمات اللوجستية"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "|"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Logistics"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "أ"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "| a —"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "تحسين مسارات التوصيل."
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Optimizing delivery routes."
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "ب"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "| b —"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "الكشف عن الأمراض من صور الأشعة السينية."
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Detecting diseases from X-ray images."
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "ج"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "| c —"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "الكشف عن الآفات والأمراض."
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Detecting pests and diseases."
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "د"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "| d —"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "أتمتة فحص جودة المنتجات."
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Automating product quality inspection."
+          "dir": "ltr"
         }
       ]
     },
@@ -1580,97 +906,77 @@
       "id": "page-016",
       "htmlId": "page-16",
       "role": "content",
-      "descriptionAr": "فكّر كمهندس: ابحث ثم قرر",
+      "descriptionAr": "تابع: يومك من الصبح: الذكاء الاصطناعي في حياتك",
       "transcript": [
         {
+          "text": "كيف يعرف ما يعجبك؟",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "فكّر كمهندس: ابحث ثم قرر"
+          "dir": "rtl"
         },
         {
+          "text": "How Does It Know What You Like?",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Think as an Engineer: Investigate and Decide"
+          "dir": "ltr"
         },
         {
+          "text": "يقارن اختياراتك باختيارات أشخاص يشبهونك.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "ابحث"
+          "dir": "rtl"
         },
         {
+          "text": "It compares your choices with those of people like you.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "| Investigate"
+          "dir": "ltr"
         },
         {
+          "text": "أو يقارن العناصر الجديدة بما أحببته من قبل.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "اختر مجالًا واحدًا من الدرس غير الزراعة: الرعاية الصحية، أو التصنيع، أو الخدمات اللوجستية. ابحث عن مثال حقيقي وموثّق لاستخدام الذكاء الاصطناعي فيه، وسجّل المصدر الذي استخدمته."
+          "dir": "rtl"
         },
         {
+          "text": "Or it compares new items with things you liked before.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Choose one industry from the lesson other than agriculture: healthcare, manufacturing, or logistics. Find one real, documented example of AI being used in it and record the source you used."
+          "dir": "ltr"
         },
         {
+          "text": "خلي بالك",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "وازن"
+          "dir": "rtl"
         },
         {
+          "text": "ITS CAUTION",
           "lang": "en",
-          "dir": "ltr",
-          "text": "| Weigh It Up"
+          "dir": "ltr"
         },
         {
+          "text": "يستخدم بياناتك الشخصية، وقد يحبسك في نوع واحد من المحتوى.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "دوّن فائدة واحدة وجانبًا واحدًا يتطلب الحذر عند استخدام الذكاء الاصطناعي في هذا المجال."
+          "dir": "rtl"
         },
         {
+          "text": "It uses your personal data, and it can trap you in one type of content.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Note one benefit and one caution of using AI in that industry."
+          "dir": "ltr"
         },
         {
+          "text": "أشخاص يشبهونك",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "قرر"
+          "dir": "rtl"
         },
         {
+          "text": "People like you",
           "lang": "en",
-          "dir": "ltr",
-          "text": "| Decide"
+          "dir": "ltr"
         },
         {
+          "text": "ما أحببته",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "هل ينبغي استخدام الذكاء الاصطناعي لهذه المهمة بمفرده، أم مع مراجعة بشرية؟ اقترح نهجًا واحدًا، وقدّم سببين."
+          "dir": "rtl"
         },
         {
+          "text": "What you liked",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Should this industry use AI for this task on its own or with a human checking the result? Recommend one approach and give two reasons."
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "تلميح"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "| Hint"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "يجيد الذكاء الاصطناعي اكتشاف الأنماط بسرعة، لكننا نحتاج إلى إشراف بشري عندما قد يضر القرار الخاطئ بأحد الأشخاص أو يتعلق بالمسؤولية."
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "AI is good at finding patterns quickly, but a human is needed when a wrong result could harm someone or involve responsibility."
+          "dir": "ltr"
         }
       ]
     },
@@ -1678,67 +984,57 @@
       "id": "page-017",
       "htmlId": "page-17",
       "role": "content",
-      "descriptionAr": "طبّق ما تعلمته في سياق جديد",
+      "descriptionAr": "رحلة حبة الطماطم: الذكاء الاصطناعي في الصناعة",
       "transcript": [
         {
+          "text": "رحلة حبة الطماطم: الذكاء الاصطناعي في الصناعة",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "طبّق ما تعلمته في سياق جديد"
+          "dir": "rtl"
         },
         {
+          "text": "A Tomato's Journey: AI in Industry",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Apply What You Learned in a New Context"
+          "dir": "ltr"
         },
         {
+          "text": "تابع حبة طماطم واحدة في رحلتها، وستمر على أربع صناعات تستخدم الذكاء الاصطناعي.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "مكتبة المدرسة"
+          "dir": "rtl"
         },
         {
+          "text": "Follow one tomato's journey: it passes through four industries that use AI.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "School Library"
+          "dir": "ltr"
         },
         {
+          "text": "المحطة 1: الحقل (الزراعة)",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "تريد مكتبة مدرسية استخدام الذكاء الاصطناعي للتوصية بالكتب للطلاب اعتمادًا على الكتب التي استعاروها سابقًا."
+          "dir": "rtl"
         },
         {
+          "text": "Stop 1: The Field (Agriculture)",
           "lang": "en",
-          "dir": "ltr",
-          "text": "A school library wants to use AI to recommend books to students based on what they have borrowed before."
+          "dir": "ltr"
         },
         {
+          "text": "طائرة مسيّرة صغيرة تصوّر الزرع من أعلى، والذكاء الاصطناعي يحلل الصور.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "باستخدام ما تعلمته عن أنظمة التوصية وما يبرع فيه الذكاء الاصطناعي، وضّح كيف سيعمل النظام، وحدد جانبًا واحدًا ينبغي للمدرسة أن تراعيه."
+          "dir": "rtl"
         },
         {
+          "text": "A small drone photographs the crops from above, and AI analyzes the images.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Using what you learned about recommendation systems and what AI is good at, explain how the AI would work and identify one caution the school should consider."
+          "dir": "ltr"
         },
         {
+          "text": "فيكتشف الآفات والأمراض مبكرًا، ويتنبأ بموعد الحصاد المناسب.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "راجع نفسك"
+          "dir": "rtl"
         },
         {
+          "text": "It detects pests and diseases early and predicts the right time to harvest.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Review Yourself"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "غطِّ قسم الشرح أو الملاحظة المهمة، ثم حاول استرجاع ما تعلمته دون الرجوع إليه."
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Cover the explanation or key-point section, then try to recall what you learned without looking back."
+          "dir": "ltr"
         }
       ]
     },
@@ -1746,187 +1042,47 @@
       "id": "page-018",
       "htmlId": "page-18",
       "role": "content",
-      "descriptionAr": "تمارين المراجعة",
+      "descriptionAr": "تابع: رحلة حبة الطماطم: الذكاء الاصطناعي في الصناعة",
       "transcript": [
         {
+          "text": "المحطة 2: المصنع (التصنيع)",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "تمارين المراجعة"
+          "dir": "rtl"
         },
         {
+          "text": "Stop 2: The Factory (Manufacturing)",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Review Exercises"
+          "dir": "ltr"
         },
         {
+          "text": "تتحول الطماطم إلى صلصة في علب تمر بسرعة على خط الإنتاج.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "أولًا: اختر كل ما يبرع فيه الذكاء الاصطناعي"
+          "dir": "rtl"
         },
         {
+          "text": "The tomatoes become sauce in cans that move fast along the production line.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Select all the tasks that AI excels at."
+          "dir": "ltr"
         },
         {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "A"
-        },
-        {
+          "text": "أتمتة فحص الجودة",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "الأحكام الأخلاقية"
+          "dir": "rtl"
         },
         {
+          "text": "Automated Quality Inspection",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Ethical judgments"
+          "dir": "ltr"
         },
         {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "B"
-        },
-        {
+          "text": "الأتمتة تعني أن تؤدي الآلة العمل وحدها. هنا تفحص كاميرا مع الذكاء الاصطناعي كل علبة وتُخرج المعيبة.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "إيجاد السمات في الصور والنصوص وتصنيفها"
+          "dir": "rtl"
         },
         {
+          "text": "Automation means a machine does the work by itself. Here, a camera with AI checks every can and removes the faulty ones.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Finding features in images and text and classifying them"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "C"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "القرارات المرتبطة بالمعلومات الشخصية"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Judgments involving personal information"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "D"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "الاستدلال الاحتمالي والتنبؤ اعتمادًا على البيانات"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Probabilistic reasoning and prediction based on data"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "E"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "اتخاذ القرارات التي تتطلب تحمّل المسؤولية"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Decision-making that bears responsibility for results"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "F"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "التعرّف على الصور والصوت والنصوص وتوليدها"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Recognition and generation of images, audio, and text"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "ثانيًا: اختر الوصف غير الصحيح"
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Choose the description that is not correct."
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "A"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "يتنبأ نظام التوصية بالتفضيلات من بيانات السلوك السابق ويعرض التوصيات."
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "A recommendation system predicts preferences from past behavior data and displays recommendations."
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "B"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "يتعرّف المساعد الصوتي على الصوت، ويفهم الأوامر، وينفذها."
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "A voice assistant recognizes a voice, understands commands, and executes them."
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "C"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "الترجمة الآلية نظام يترجم فيه البشر النصوص يدويًا من لغة إلى أخرى."
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Machine translation is a system in which humans manually translate text from one language to another."
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "D"
-        },
-        {
-          "lang": "ar",
-          "dir": "rtl",
-          "text": "يكتشف التعرّف على الوجه الوجوه البشرية في الصور ويتعرّف عليها تلقائيًا."
-        },
-        {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Face recognition automatically detects and identifies human faces in photographs."
+          "dir": "ltr"
         }
       ]
     },
@@ -1934,147 +1090,1421 @@
       "id": "page-019",
       "htmlId": "page-19",
       "role": "content",
-      "descriptionAr": "اقرأ ثم أجب",
+      "descriptionAr": "تابع: رحلة حبة الطماطم: الذكاء الاصطناعي في الصناعة",
       "transcript": [
         {
+          "text": "الصيانة التنبؤية",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "اقرأ ثم أجب"
+          "dir": "rtl"
         },
         {
+          "text": "Predictive Maintenance",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Read and Answer"
+          "dir": "ltr"
         },
         {
+          "text": "حساسات تجمع بيانات الماكينة، مثل الاهتزاز والحرارة، فيتوقع الذكاء الاصطناعي عطلها قبل أن يحدث، ليصلحها الفني في الوقت المناسب.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "يُستخدم الذكاء الاصطناعي على نطاق واسع في حياتنا اليومية. على سبيل المثال، تستخدم توصيات مقاطع الفيديو التي تناسب تفضيلات المستخدم نظام (أ). كما تستخدم تقنية (ب) عند التحدث إلى هاتف ذكي لتشغيله، بينما تحوّل تقنية (ج) نصًا بلغة أجنبية إلى اللغة الأم للمستخدم."
+          "dir": "rtl"
         },
         {
+          "text": "Sensors collect machine data, such as vibration and heat, so AI can predict a failure before it happens and a technician can fix it in time.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "AI is widely used in our daily lives. For example, recommendations of videos that match the user’s preferences use an (a) system. A (b) technology is used when speaking to a smartphone to operate it, and (c) converts foreign-language text into one’s native language."
+          "dir": "ltr"
         },
         {
+          "text": "انتبه: الصيانة التنبؤية لأعطال الماكينات والمعدات، أما عيوب المنتجات فيكشفها فحص الجودة.",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "السؤال الأول"
+          "dir": "rtl"
         },
         {
+          "text": "Note: predictive maintenance is about machine and equipment failures; product defects are found by quality inspection.",
           "lang": "en",
-          "dir": "ltr",
-          "text": "|"
-        },
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-020",
+      "htmlId": "page-20",
+      "role": "content",
+      "descriptionAr": "تابع: رحلة حبة الطماطم: الذكاء الاصطناعي في الصناعة",
+      "transcript": [
         {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Question One"
-        },
-        {
+          "text": "ثلاث طرق للصيانة",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "أكمل الفراغات (أ–ج)."
+          "dir": "rtl"
         },
         {
+          "text": "Three Ways to Maintain a Machine",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Fill in the blanks (a–c)."
+          "dir": "ltr"
         },
         {
+          "text": "صيانة بعد العطل: «لما تبوظ نصلّحها».",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "(أ)"
+          "dir": "rtl"
         },
         {
+          "text": "Repair after failure: \"Fix it when it breaks.\"",
           "lang": "en",
-          "dir": "ltr",
-          "text": "(a)"
+          "dir": "ltr"
         },
         {
+          "text": "صيانة دورية: «نغيّر الزيت كل 3 شهور، احتاج أم لا».",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "(ب)"
+          "dir": "rtl"
         },
         {
+          "text": "Scheduled maintenance: \"Change the oil every 3 months, needed or not.\"",
           "lang": "en",
-          "dir": "ltr",
-          "text": "(b)"
+          "dir": "ltr"
         },
         {
+          "text": "صيانة تنبؤية: «الحساس يقول إن مشكلة قادمة، فلنصلح الآن».",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "(ج)"
+          "dir": "rtl"
         },
         {
+          "text": "Predictive maintenance: \"The sensor says trouble is coming, so fix it now.\"",
           "lang": "en",
-          "dir": "ltr",
-          "text": "(c)"
+          "dir": "ltr"
         },
         {
+          "text": "بعد العطل",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "السؤال الثاني"
+          "dir": "rtl"
         },
         {
+          "text": "After failure",
           "lang": "en",
-          "dir": "ltr",
-          "text": "|"
+          "dir": "ltr"
         },
         {
-          "lang": "en",
-          "dir": "ltr",
-          "text": "Question Two"
-        },
-        {
+          "text": "دورية",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "اختر كل ما يتطلب الحذر عند استخدام الذكاء الاصطناعي."
+          "dir": "rtl"
         },
         {
+          "text": "Scheduled",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Choose all that require caution when using AI."
+          "dir": "ltr"
         },
         {
+          "text": "تنبؤية",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "المعالجة عالية السرعة لكميات كبيرة من البيانات."
+          "dir": "rtl"
         },
         {
+          "text": "Predictive",
           "lang": "en",
-          "dir": "ltr",
-          "text": "High-speed processing of large amounts of data."
-        },
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-021",
+      "htmlId": "page-21",
+      "role": "content",
+      "descriptionAr": "تابع: رحلة حبة الطماطم: الذكاء الاصطناعي في الصناعة",
+      "transcript": [
         {
+          "text": "المحطة 3: الطريق (الخدمات اللوجستية)",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "الأحكام الأخلاقية."
+          "dir": "rtl"
         },
         {
+          "text": "Stop 3: The Road (Logistics)",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Ethical judgments."
+          "dir": "ltr"
         },
         {
+          "text": "شاحنة توصيل تحمل علب الصلصة إلى عشرات المتاجر. فما أفضل ترتيب للمحطات؟",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "القرارات التي تشمل المعلومات الشخصية أو الخصوصية."
+          "dir": "rtl"
         },
         {
+          "text": "A delivery truck carries the sauce cans to dozens of stores. What is the best order of stops?",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Judgments involving personal information or privacy."
+          "dir": "ltr"
         },
         {
+          "text": "تحسين مسارات التوصيل",
           "lang": "ar",
-          "dir": "rtl",
-          "text": "التعرّف على الصور والصوت."
+          "dir": "rtl"
         },
         {
+          "text": "Route Optimization",
           "lang": "en",
-          "dir": "ltr",
-          "text": "Recognition of images and audio."
+          "dir": "ltr"
+        },
+        {
+          "text": "يحسب الذكاء الاصطناعي أفضل طريق وترتيب للمحطات، مع مراعاة الزحام والمسافة والوقت، فيقل الوقود والتأخير.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "AI calculates the best route and order of stops, considering traffic, distance, and time, so less fuel is used and there are fewer delays.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-022",
+      "htmlId": "page-22",
+      "role": "content",
+      "descriptionAr": "تابع: رحلة حبة الطماطم: الذكاء الاصطناعي في الصناعة",
+      "transcript": [
+        {
+          "text": "المحطة 4: المستشفى (الرعاية الصحية)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Stop 4: The Hospital (Healthcare)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الأشعة السينية (X-ray) تُظهر العظام والصدر، والتصوير المقطعي (CT) يُظهر شرائح كثيرة من الجسم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "An X-ray shows bones and the chest; a CT scan shows many slices of the body.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الذكاء الاصطناعي للتشخيص بالصور تدرّب على آلاف الصور الطبية، فيلاحظ علامات مرض قد تفوت العين.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Image-diagnosis AI is trained on thousands of medical images, so it notices signs of disease the eye might miss.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لكنه أداة مساعدة، والقرار للطبيب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "But it is a helping tool; the doctor decides.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-023",
+      "htmlId": "page-23",
+      "role": "content",
+      "descriptionAr": "تابع: رحلة حبة الطماطم: الذكاء الاصطناعي في الصناعة",
+      "transcript": [
+        {
+          "text": "دعم اكتشاف الأدوية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Drug-Discovery Support",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يساعد الذكاء الاصطناعي العلماء على تسريع البحث عن أدوية جديدة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "AI helps scientists speed up the search for new medicines.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هل تعلم؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DID YOU KNOW?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في 2024، كان ديميس هاسابيس وجون جمبر ضمن الفائزين بجائزة نوبل في الكيمياء، عن AlphaFold2، وهو نموذج ذكاء اصطناعي يتنبأ بتركيب البروتينات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In 2024, Demis Hassabis and John Jumper were among the Chemistry Nobel winners for AlphaFold2, an AI model that predicts protein structures.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-024",
+      "htmlId": "page-24",
+      "role": "content",
+      "descriptionAr": "فيمَ يبرع الذكاء الاصطناعي؟",
+      "transcript": [
+        {
+          "text": "فيمَ يبرع الذكاء الاصطناعي؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "What Is AI Good At?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يلتقط النمط، يعرف الشكل، يتوقع القادم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Spots the pattern, knows the shape, predicts what's next.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يلتقط النمط ← إيجاد الأنماط وتصنيفها",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Spots the pattern → finding and classifying patterns",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يعرف الشكل ← التعرف على الصور والصوت والنص وتوليدها",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Knows the shape → recognizing and generating images, audio, text",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يتوقع القادم ← التنبؤ الاحتمالي من البيانات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Predicts what's next → probabilistic prediction from data",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-025",
+      "htmlId": "page-25",
+      "role": "content",
+      "descriptionAr": "تابع: فيمَ يبرع الذكاء الاصطناعي؟",
+      "transcript": [
+        {
+          "text": "أعطِ الذكاء الاصطناعي درجات فصلك في خمسة امتحانات، وسيلاحظ بسرعة أن الغياب الكثير يعني درجات أقل (نمط).",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Give AI your class's grades in five tests, and it quickly notices that frequent absence means lower grades (a pattern).",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ثم يتوقع درجة كل طالب في الامتحان القادم (تنبؤ).",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Then it predicts each student's grade in the next test (a prediction).",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لكنه لا يعرف لماذا غاب طالب بعينه؛ ربما كان مريضًا. هنا يأتي دور الإنسان.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "But it does not know why one student was absent; maybe they were ill. This is where the human comes in.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-026",
+      "htmlId": "page-26",
+      "role": "content",
+      "descriptionAr": "متى نحذر؟",
+      "transcript": [
+        {
+          "text": "متى نحذر؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "When Should We Be Careful?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الخطوط الحمراء الثلاثة: أخلاق، خصوصية، قرار",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The three red lines: ethics, privacy, decision",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الأخلاق: قد يظلم الحكم الآلي بعض الناس.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Ethics: an automated judgment may be unfair to some people.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الخصوصية: يتعامل مع بياناتك الشخصية والحساسة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Privacy: it handles your personal and sensitive data.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "القرار النهائي: إذا أخطأ، فمن المسؤول عن النتيجة؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Final decision: if it is wrong, who is responsible for the result?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-027",
+      "htmlId": "page-27",
+      "role": "content",
+      "descriptionAr": "تابع: متى نحذر؟",
+      "transcript": [
+        {
+          "text": "التحيز",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Bias",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ميل غير عادل في النتائج، سببه غالبًا بيانات تدريب لا تمثل الجميع.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "An unfair tendency in results, often caused by training data that does not represent everyone.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثال: نظام تدرّب على صور لاعبين طوال فقط قد يستنتج خطأً أن القصير لا يجيد اللعب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example: a system trained only on photos of tall players may wrongly decide short people can't play well.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التمييز (Discrimination) هو النتيجة العملية للتحيز: معاملة شخص بظلم بسبب صفة مثل النوع أو اللون.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Discrimination is the practical result of bias: treating a person unfairly because of a trait such as gender or color.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-028",
+      "htmlId": "page-28",
+      "role": "content",
+      "descriptionAr": "تابع: متى نحذر؟",
+      "transcript": [
+        {
+          "text": "الخصوصية والبيانات الحساسة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Privacy and Sensitive Data",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الخصوصية حقك في التحكم في معلوماتك: من يراها، وفيمَ يستخدمها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Privacy is your right to control your information: who sees it and what it is used for.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "البيانات الحساسة هي التي يكبر ضررها إذا تسربت، مثل حالتك الصحية وبصمة وجهك وموقعك.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Sensitive data is data that causes great harm if leaked, such as your health, your face print, and your location.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "فكّر لحظة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "THINK FOR A MOMENT",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "من ينبغي أن يقرر كيف تُستخدم بياناتك؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Who should decide how your data is used?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-029",
+      "htmlId": "page-29",
+      "role": "content",
+      "descriptionAr": "تابع: متى نحذر؟",
+      "transcript": [
+        {
+          "text": "القرار النهائي والمسؤولية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Final Decision and Accountability",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "عندما يخطئ الذكاء الاصطناعي، من يُحاسَب؟ الآلة لا تُحاسَب ولا تعتذر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "When AI makes a mistake, who is held accountable? A machine cannot be held accountable or apologize.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لذلك يجب أن يوقّع على القرارات عالية الأثر إنسانٌ يتحمل مسؤوليتها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "So high-impact decisions must be signed by a person who takes responsibility for them.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أمثلة: قبول طالب في منحة، أو منح قرض، أو تشخيص مرض.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Examples: accepting a student for a scholarship, granting a loan, or diagnosing a disease.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-030",
+      "htmlId": "page-30",
+      "role": "content",
+      "descriptionAr": "تابع: متى نحذر؟",
+      "transcript": [
+        {
+          "text": "سؤال الذهب: «بِه صَح؟»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Golden Question: \"Bih Sah?\" (Is it right?)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قبل أن تصدّق أي نتيجة، اسأل: «بِه صَح؟»؛ كل حرف يذكّرك بعيب في الآلة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Before believing any result, ask \"Bih Sah?\"; each letter is a machine weakness.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "بـ: بيانات تدريب متحيزة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "B: biased training data",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هـ: هلوسة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "H: hallucination",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "صَ: صندوق أسود",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "S: black box",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ح: حقوق المؤلف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "H: copyright (huquq)",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-031",
+      "htmlId": "page-31",
+      "role": "content",
+      "descriptionAr": "تابع: متى نحذر؟",
+      "transcript": [
+        {
+          "text": "الهلوسة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Hallucination",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أن يُنتج الذكاء الاصطناعي، وخاصة التوليدي، معلومة تبدو مقنعة ومنطقية لكنها خاطئة أو مختلَقة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "When AI, especially generative AI, produces information that sounds convincing and logical but is false or made up.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هو لا يكذب عن قصد، فهو لا يعرف أنه مخطئ؛ إنه يكمل الكلام بالشكل الأكثر احتمالًا، والأكثر احتمالًا ليس دائمًا الصحيح.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "It does not lie on purpose, because it does not know it is wrong; it continues the text in the most likely way, and the most likely is not always the correct.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قد يخطئ وهو واثق، فتحقّق دائمًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "It can be confidently wrong, so always verify.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-032",
+      "htmlId": "page-32",
+      "role": "content",
+      "descriptionAr": "تابع: متى نحذر؟",
+      "transcript": [
+        {
+          "text": "مشكلة الصندوق الأسود",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Black-Box Problem",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نرى المُدخل والنتيجة، لكننا لا نفهم كيف وصل الذكاء الاصطناعي إلى نتيجته.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "We see the input and the result, but we cannot understand how the AI reached its result.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تخيّل زميلًا أجاب إجابة صحيحة، فلما سأله المعلم: «كيف وصلت إليها؟» قال: «لا أعرف، أحسست بذلك».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Imagine a classmate who answered correctly, and when the teacher asked, \"How did you get it?\" said, \"I don't know, I just felt it.\"",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "فكّر لحظة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "THINK FOR A MOMENT",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هل تثق بإجابته في امتحان؟ وفي تشخيص مرض؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Would you trust his answer in a test? In diagnosing a disease?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مُدخل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Input",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نتيجة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Result",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-033",
+      "htmlId": "page-33",
+      "role": "content",
+      "descriptionAr": "تابع: متى نحذر؟",
+      "transcript": [
+        {
+          "text": "حقوق المؤلف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Copyright",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الحق القانوني لصاحب العمل، مثل كتاب أو صورة أو أغنية، في التحكم في استخدام عمله.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The legal right of a work's owner, such as a book, image, or song, to control how the work is used.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كثير من النماذج تدرّبت على أعمال محمية، والسؤال ما زال مطروحًا: هل هذا من حقها؟ وكيف يأخذ صاحب العمل حقه؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Many models were trained on protected works, and the question is still open: do they have the right? And how does the owner get their due?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-034",
+      "htmlId": "page-34",
+      "role": "content",
+      "descriptionAr": "مقياس الوجع: متى يتدخل الإنسان؟",
+      "transcript": [
+        {
+          "text": "مقياس الوجع: متى يتدخل الإنسان؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Pain Scale: When Should a Human Step In?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اسأل: لو أخطأ الذكاء الاصطناعي هنا، فكم ستوجع الغلطة من 1 إلى 10؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Ask: if AI is wrong here, how much would the mistake hurt, from 1 to 10?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اقترح أغنية لا تعجبك: 1",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Suggests a song you don't like: 1",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ترجم قائمة طعام خطأً: 3",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Translates a menu wrongly: 3",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قرر من يُقبل في وظيفة: 8",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Decides who gets a job: 8",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "شخّص مرضًا من الأشعة: 10",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Diagnoses a disease from an X-ray: 10",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-035",
+      "htmlId": "page-35",
+      "role": "content",
+      "descriptionAr": "تابع: مقياس الوجع: متى يتدخل الإنسان؟",
+      "transcript": [
+        {
+          "text": "كلما زاد وجع الغلطة، اقترب الإنسان أكثر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The more a mistake hurts, the closer the human must be.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الإشراف البشري",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Human Oversight",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "وجود إنسان يراجع نتيجة الذكاء الاصطناعي، ويستطيع تعديلها أو رفضها قبل تنفيذها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Having a person review the AI's result, able to change or reject it before it is carried out.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جرّب بنفسك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "TRY IT",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ضع كل حالة على المقياس من 1 إلى 10: تصحيح إملائي تلقائي، وكاميرا مرور تكتب مخالفة، ونظام يرشّح دواءً لمريض.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Place each case on the scale from 1 to 10: automatic spell-check, a traffic camera issuing a fine, and a system suggesting a medicine for a patient.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تصحيح إملائي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Spell-check",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كاميرا مرور",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Traffic camera",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ترشيح دواء",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Medicine suggestion",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-036",
+      "htmlId": "page-36",
+      "role": "content",
+      "descriptionAr": "قصص حقيقية: عندما أخطأ الذكاء الاصطناعي",
+      "transcript": [
+        {
+          "text": "قصص حقيقية: عندما أخطأ الذكاء الاصطناعي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "True Stories: When AI Got It Wrong",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "القصة 1: المحامي والقضايا المزيفة (الهلوسة)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Story 1: The Lawyer and the Fake Cases (Hallucination)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في قضية Mata v. Avianca سنة 2023 في نيويورك، استخدم محامون ChatGPT في البحث، فولّد لهم أوصافًا لقضايا غير موجودة أصلًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In Mata v. Avianca in New York in 2023, lawyers used ChatGPT for research, and it generated descriptions of cases that did not exist.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قدّموها إلى المحكمة، فعاقبتهم بغرامة 5,000 دولار.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "They submitted them to the court, which fined them $5,000.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-037",
+      "htmlId": "page-37",
+      "role": "content",
+      "descriptionAr": "تابع: قصص حقيقية: عندما أخطأ الذكاء الاصطناعي",
+      "transcript": [
+        {
+          "text": "القصة 2: أداة التوظيف المتحيزة (التحيز)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Story 2: The Biased Hiring Tool (Bias)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "بحسب تقرير لوكالة Reuters سنة 2018، اكتشف متخصصون في أمازون أن أداة توظيف تجريبية تقيّم المتقدمين بتحيز ضد النساء، فتخلّت الشركة عنها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "According to a 2018 Reuters report, specialists at Amazon found that an experimental hiring tool rated applicants with bias against women, so the company dropped it.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "فكّر لحظة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "THINK FOR A MOMENT",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "من أين تعلّمت الآلة هذا التحيز؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Where did the machine learn this bias from?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-038",
+      "htmlId": "page-38",
+      "role": "content",
+      "descriptionAr": "تابع: قصص حقيقية: عندما أخطأ الذكاء الاصطناعي",
+      "transcript": [
+        {
+          "text": "القصة 3: التطابق الخاطئ (التعرف على الوجه والقرار النهائي)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Story 3: The False Match (Face Recognition and the Final Decision)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في ديترويت بأمريكا، قُبض على روبرت ويليامز بسبب تطابق خاطئ من نظام تعرف على الوجه، وحُبس 30 ساعة في جريمة لم يرتكبها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In Detroit, USA, Robert Williams was arrested because of a false match from a face recognition system, and was held for 30 hours for a crime he did not commit.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كانت هذه أول حالة معلنة لقبض خاطئ بسبب تطابق وجه خاطئ.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "It was the first publicly reported wrongful arrest caused by a false face match.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التقنية نفسها التي تفتح هاتفك قد تظلم إنسانًا إذا تُرك لها قرار مهم دون مراجعة بشرية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The same technology that unlocks your phone can wrong a person if it is left to make an important decision without human review.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-039",
+      "htmlId": "page-39",
+      "role": "content",
+      "descriptionAr": "تابع: قصص حقيقية: عندما أخطأ الذكاء الاصطناعي",
+      "transcript": [
+        {
+          "text": "دورك الآن: ابحث بنفسك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Your Turn: Investigate",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اختر قصة واحدة، وابحث عن مصدرها، ثم أجب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Choose one story, find its source, then answer.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "1. ماذا حدث؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1. What happened?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2. أي حرف من «بِه صَح؟» أو أي خط أحمر ينطبق عليها؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2. Which letter of \"Bih Sah?\" or which red line applies to it?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "3. ما القاعدة التي كانت ستمنع المشكلة؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3. What rule would have prevented the problem?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "4. ما المصدر الذي استخدمته؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "4. What source did you use?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-040",
+      "htmlId": "page-40",
+      "role": "content",
+      "descriptionAr": "مراجعة ليلة الامتحان",
+      "transcript": [
+        {
+          "text": "مراجعة ليلة الامتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Night-Before-the-Exam Review",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "السؤال",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Question",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المفتاح",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Key",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خدمات الحياة اليومية؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Daily-life services?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "وجه ← صوت ← ترجمة ← توصية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Face → voice → translation → recommendation",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الصناعات الأربع؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The four industries?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "حقل ← مصنع ← طريق ← مستشفى",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Field → factory → road → hospital",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "فيمَ يبرع؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "What is it good at?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يلتقط النمط، يعرف الشكل، يتوقع القادم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Spots the pattern, knows the shape, predicts what's next",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "متى نحذر؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "When to be careful?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أخلاق، خصوصية، قرار + «بِه صَح؟»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Ethics, privacy, decision + \"Bih Sah?\"",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-041",
+      "htmlId": "page-41",
+      "role": "content",
+      "descriptionAr": "تابع: مراجعة ليلة الامتحان",
+      "transcript": [
+        {
+          "text": "فخاخ الامتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "EXAM TRAPS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المعالجة السريعة لبيانات كثيرة، والتعرف على الصور والصوت: نقاط قوة، لا حذر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Fast processing of large data and recognizing images and audio: strengths, not cautions.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "إيجاد الأنماط وتصنيفها: نقطة قوة، فهو ما «لا ينتمي» إلى الحذر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Finding and classifying patterns: a strength, so it \"does not belong\" to caution.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«نترك الأحكام الأخلاقية بالكامل للذكاء الاصطناعي»: ×",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "\"Leave ethical judgments entirely to AI\": ×",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الترجمة الآلية تلقائية، لا بشرية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Machine translation is automatic, not human.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التشخيص بالصور للرعاية الصحية، والآفات للزراعة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Image diagnosis is healthcare; pests are agriculture.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-042",
+      "htmlId": "page-42",
+      "role": "content",
+      "descriptionAr": "تابع: مراجعة ليلة الامتحان",
+      "transcript": [
+        {
+          "text": "إجابة سؤال الست درجات (3 + 3)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Answering the 6-Mark Question (3 + 3)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الفقرة 1 (القوة): يناسب المهام القائمة على الأنماط: الأنماط، والتعرف، والتنبؤ، مع مثال لكل نقطة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Paragraph 1 (strengths): suited to pattern-based tasks: patterns, recognition, prediction, with an example for each.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الفقرة 2 (الحذر): الأخلاق (تحيز)، والخصوصية (بيانات شخصية)، والقرار النهائي (المسؤولية)، مع مثال لكل نقطة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Paragraph 2 (cautions): ethics (bias), privacy (personal data), final decision (responsibility), with an example for each.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جملة الختام",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Closing Sentence",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لذلك يُستخدم أداةً مساعدة، ويبقى الحكم البشري ضروريًا كلما ارتفع أثر القرار.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "So it is used as a helping tool, and human judgment remains essential as the impact of the decision rises.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الذكاء الاصطناعي يلاحظ، والإنسان يقرّر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "AI notices; the human decides.",
+          "lang": "en",
+          "dir": "ltr"
         }
       ]
     }

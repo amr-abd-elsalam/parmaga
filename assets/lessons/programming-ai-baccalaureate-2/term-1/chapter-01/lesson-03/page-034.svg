@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilBar1" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#2e7d32"/>
+    <stop offset="1" stop-color="#ffd24a"/>
+  </linearGradient>
+  <linearGradient id="ilBar2" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#ffd24a"/>
+    <stop offset="1" stop-color="#c96a1b"/>
+  </linearGradient>
+  <linearGradient id="ilBar3" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#c96a1b"/>
+    <stop offset="1" stop-color="#c0392b"/>
+  </linearGradient>
+  <linearGradient id="ilPanel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Shadows -->
+<rect x="109" y="872" width="870" height="384" rx="24" fill="#22303f" opacity=".18"/>
+<rect x="154" y="1006" width="690" height="40" rx="20" fill="#22303f" opacity=".18"/>
+
+<!-- Illustration panel -->
+<rect x="105" y="866" width="870" height="384" rx="24" fill="url(#ilPanel)" stroke="#8fc9f2" stroke-width="2.5"/>
+
+<!-- Bullets -->
+<circle cx="966" cy="544" r="6" fill="#c0392b"/>
+<circle cx="114" cy="584" r="6" fill="#c0392b"/>
+<circle cx="966" cy="624" r="6" fill="#c0392b"/>
+<circle cx="114" cy="664" r="6" fill="#c0392b"/>
+<circle cx="966" cy="704" r="6" fill="#c0392b"/>
+<circle cx="114" cy="744" r="6" fill="#c0392b"/>
+<circle cx="966" cy="784" r="6" fill="#c0392b"/>
+<circle cx="114" cy="824" r="6" fill="#c0392b"/>
+
+<!-- Harm bar -->
+<rect x="150" y="1000" width="260" height="40" rx="20" fill="url(#ilBar1)"/>
+<rect x="590" y="1000" width="250" height="40" rx="20" fill="url(#ilBar3)"/>
+<rect x="380" y="1000" width="230" height="40" fill="url(#ilBar2)"/>
+<rect x="150" y="1000" width="690" height="40" rx="20" fill="none" stroke="#22303f" stroke-width="2.5"/>
+
+<!-- Pointers -->
+<polygon points="192,978 208,978 200,992" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="392,978 408,978 400,992" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="602,978 618,978 610,992" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="787,978 803,978 795,992" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+<!-- Arrow low to high -->
+<line x1="180" y1="1075" x2="730" y2="1075" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="730,1065 748,1075 730,1085" fill="#c0392b"/>
+
+<!-- Music note -->
+<g transform="translate(170 905)">
+  <rect x="21" y="8" width="5" height="44" fill="#22303f"/>
+  <rect x="53" y="2" width="5" height="44" fill="#22303f"/>
+  <polygon points="21,8 58,2 58,12 21,18" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="14" cy="52" rx="11" ry="8" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="46" cy="46" rx="11" ry="8" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Menu card -->
+<g transform="translate(372 898)">
+  <rect x="0" y="0" width="56" height="70" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="0" y="0" width="56" height="16" rx="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="10" y1="30" x2="46" y2="30" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="10" y1="42" x2="40" y2="42" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="10" y1="54" x2="44" y2="54" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Briefcase -->
+<g transform="translate(578 908)">
+  <path d="M22 14 L22 6 Q22 2 26 2 L38 2 Q42 2 42 6 L42 14" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="0" y="14" width="64" height="46" rx="8" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="0" y1="32" x2="64" y2="32" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="27" y="27" width="10" height="11" rx="2" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- X-ray card -->
+<g transform="translate(763 896)">
+  <rect x="0" y="0" width="64" height="72" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="32" y1="12" x2="32" y2="62" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M32 22 Q20 24 14 32" fill="none" stroke="#dff1f7" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M32 22 Q44 24 50 32" fill="none" stroke="#dff1f7" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M32 34 Q20 36 14 44" fill="none" stroke="#dff1f7" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M32 34 Q44 36 50 44" fill="none" stroke="#dff1f7" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M32 46 Q22 48 18 55" fill="none" stroke="#dff1f7" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M32 46 Q42 48 46 55" fill="none" stroke="#dff1f7" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="45" cy="39" r="4" fill="#c0392b"/>
+</g>
+
+<!-- Person with raised hand -->
+<g>
+  <ellipse cx="870" cy="1238" rx="52" ry="7" fill="#22303f" opacity=".18"/>
+  <rect x="853" y="1176" width="14" height="54" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="874" y="1176" width="14" height="54" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="858" cy="1230" rx="12" ry="6" fill="#22303f"/>
+  <ellipse cx="884" cy="1230" rx="12" ry="6" fill="#22303f"/>
+  <path d="M846 1110 L818 1062" fill="none" stroke="#17457f" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="816" cy="1056" r="9" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M842 1106 Q870 1100 898 1106 L910 1184 Q870 1192 830 1184 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M898 1114 L906 1160" fill="none" stroke="#17457f" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="907" cy="1166" r="7" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="870" cy="1080" r="20" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M850 1078 Q850 1058 870 1058 Q890 1058 890 1078 Q882 1068 870 1068 Q858 1068 850 1078 Z" fill="#2b211c"/>
+  <circle cx="863" cy="1082" r="2.5" fill="#22303f"/>
+  <circle cx="877" cy="1082" r="2.5" fill="#22303f"/>
+  <path d="M864 1090 Q870 1095 876 1090" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Lower icons: check, chip, warning -->
+<g transform="translate(212 1132)">
+  <circle cx="28" cy="28" r="26" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M16 29 L25 38 L41 20" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(422 1132)">
+  <line x1="18" y1="0" x2="18" y2="56" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="28" y1="0" x2="28" y2="56" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="38" y1="0" x2="38" y2="56" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="0" y1="18" x2="56" y2="18" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="0" y1="28" x2="56" y2="28" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="0" y1="38" x2="56" y2="38" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="8" y="8" width="40" height="40" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="18" y="18" width="20" height="20" rx="3" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+</g>
+<g transform="translate(632 1132)">
+  <polygon points="28,2 54,50 2,50" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="25" y="16" width="6" height="20" rx="3" fill="#22303f"/>
+  <circle cx="28" cy="43" r="3.5" fill="#22303f"/>
+</g>
+
+<!-- Title area: thinking face and light bulb -->
+<g transform="translate(185 180)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+<g transform="translate(868 146)">
+  <line x1="28" y1="-4" x2="28" y2="-12" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="4" y1="6" x2="-3" y2="1" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="52" y1="6" x2="59" y2="1" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="28" cy="24" r="18" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="20" y="40" width="16" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Titles -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">
+  <tspan x="540" dy="0">مقياس الوجع:</tspan>
+  <tspan x="540" dy="48">متى يتدخل الإنسان؟</tspan>
+</text>
+<text x="540" y="202" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="normal" fill="#152b42">
+  <tspan x="540" dy="0">The Pain Scale:</tspan>
+  <tspan x="540" dy="36">When Should a Human Step In?</tspan>
+</text>
+
+<!-- Paragraph -->
+<text x="950" y="314" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">اسأل: لو أخطأ <tspan font-weight="bold" fill="#17457f">الذكاء الاصطناعي</tspan> هنا،</tspan>
+  <tspan x="950" dy="40">فكم ستوجع <tspan font-weight="bold" fill="#c0392b">الغلطة</tspan> من 1 إلى 10؟</tspan>
+</text>
+<text x="120" y="394" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Ask: if <tspan font-weight="bold" fill="#17457f">AI</tspan> is wrong here, how much would</tspan>
+  <tspan x="120" dy="40">the <tspan font-weight="bold" fill="#c0392b">mistake</tspan> hurt, from 1 to 10?</tspan>
+</text>
+
+<!-- Bullets text -->
+<text x="950" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">اقترح أغنية لا تعجبك: <tspan fill="#c96a1b">1</tspan></tspan>
+</text>
+<text x="132" y="594" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">Suggests a song you don't like: <tspan fill="#c96a1b">1</tspan></tspan>
+</text>
+<text x="950" y="634" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">ترجم قائمة طعام خطأً: <tspan fill="#c96a1b">3</tspan></tspan>
+</text>
+<text x="132" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">Translates a menu wrongly: <tspan fill="#c96a1b">3</tspan></tspan>
+</text>
+<text x="950" y="714" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">قرر من يُقبل في وظيفة: <tspan fill="#c96a1b">8</tspan></tspan>
+</text>
+<text x="132" y="754" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">Decides who gets a job: <tspan fill="#c96a1b">8</tspan></tspan>
+</text>
+<text x="950" y="794" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">شخّص مرضًا من الأشعة: <tspan fill="#c96a1b">10</tspan></tspan>
+</text>
+<text x="132" y="834" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">Diagnoses a disease from an X-ray: <tspan fill="#c96a1b">10</tspan></tspan>
+</text>
+</svg>

@@ -4,295 +4,205 @@
      viewBox="0 0 1080 1350"
      preserveAspectRatio="xMidYMid meet"
      style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilBg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="ilPhoto" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8fc9f2"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+  <linearGradient id="ilScan" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#4fc3e8"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-  <defs>
-    <linearGradient id="woodBg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#a9764a"/>
-      <stop offset="55%" stop-color="#96643c"/>
-      <stop offset="100%" stop-color="#7d5231"/>
-    </linearGradient>
-    <linearGradient id="paperFill" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#fffdf6"/>
-      <stop offset="100%" stop-color="#fbf6e9"/>
-    </linearGradient>
-  </defs>
+<!-- Shadows -->
+<rect x="124" y="438" width="840" height="400" rx="20" fill="#22303f" opacity=".18"/>
+<rect x="109" y="888" width="870" height="288" rx="16" fill="#22303f" opacity=".12"/>
 
-  <rect x="0" y="0" width="1080" height="1350" fill="url(#woodBg)"/>
-  <path d="M0 250 C 300 210, 760 300, 1080 240 L 1080 285 C 760 345, 300 255, 0 295 Z" fill="#6f4726" opacity="0.14"/>
-  <path d="M0 900 C 320 860, 720 950, 1080 890 L 1080 935 C 720 995, 320 905, 0 945 Z" fill="#6f4726" opacity="0.12"/>
+<!-- Warning card -->
+<rect x="105" y="882" width="870" height="288" rx="16" fill="#fdf1e2" stroke="#f0c48c" stroke-width="2"/>
+<rect x="961" y="898" width="6" height="256" rx="3" fill="#c96a1b"/>
 
-  <rect x="42" y="50" width="1012" height="1278" rx="8" fill="#3d2716" opacity="0.28"/>
-  <rect x="34" y="40" width="1012" height="1278" rx="6" fill="url(#paperFill)"/>
+<!-- Illustration: detection then recognition -->
+<g>
+  <rect x="120" y="432" width="840" height="400" rx="20" fill="url(#ilBg)"/>
 
-  <g stroke="#cfe0f0" stroke-width="1.6">
-    <line x1="80" y1="120" x2="1000" y2="120"/>
-    <line x1="80" y1="164" x2="1000" y2="164"/>
-    <line x1="80" y1="208" x2="1000" y2="208"/>
-    <line x1="80" y1="252" x2="1000" y2="252"/>
-    <line x1="80" y1="296" x2="1000" y2="296"/>
-    <line x1="80" y1="340" x2="1000" y2="340"/>
-    <line x1="80" y1="384" x2="1000" y2="384"/>
-    <line x1="80" y1="428" x2="1000" y2="428"/>
-    <line x1="80" y1="472" x2="1000" y2="472"/>
-    <line x1="80" y1="516" x2="1000" y2="516"/>
-    <line x1="80" y1="560" x2="1000" y2="560"/>
-    <line x1="80" y1="604" x2="1000" y2="604"/>
-    <line x1="80" y1="648" x2="1000" y2="648"/>
-    <line x1="80" y1="692" x2="1000" y2="692"/>
-    <line x1="80" y1="736" x2="1000" y2="736"/>
-    <line x1="80" y1="780" x2="1000" y2="780"/>
-    <line x1="80" y1="824" x2="1000" y2="824"/>
-    <line x1="80" y1="868" x2="1000" y2="868"/>
-    <line x1="80" y1="912" x2="1000" y2="912"/>
-    <line x1="80" y1="956" x2="1000" y2="956"/>
-    <line x1="80" y1="1000" x2="1000" y2="1000"/>
-    <line x1="80" y1="1044" x2="1000" y2="1044"/>
-    <line x1="80" y1="1088" x2="1000" y2="1088"/>
-    <line x1="80" y1="1132" x2="1000" y2="1132"/>
-    <line x1="80" y1="1176" x2="1000" y2="1176"/>
-    <line x1="80" y1="1220" x2="1000" y2="1220"/>
-    <line x1="80" y1="1264" x2="1000" y2="1264"/>
+  <!-- Right card: group photo with detection frame -->
+  <rect x="584" y="466" width="340" height="252" rx="16" fill="#22303f" opacity=".18"/>
+  <rect x="580" y="460" width="340" height="252" rx="16" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="600" y="480" width="300" height="212" rx="10" fill="url(#ilPhoto)"/>
+  <ellipse cx="860" cy="506" rx="22" ry="10" fill="#ffffff"/>
+  <ellipse cx="640" cy="512" rx="16" ry="8" fill="#ffffff"/>
+
+  <!-- Person 1: girl with hijab -->
+  <path d="M 630 692 V640 Q 630 606 670 606 Q 710 606 710 640 V692 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="670" cy="574" r="32" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="670" cy="578" r="21" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="662" cy="576" r="3" fill="#22303f"/>
+  <circle cx="678" cy="576" r="3" fill="#22303f"/>
+  <path d="M 663 587 Q 670 592 677 587" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Person 2: the detected face -->
+  <path d="M 712 692 V640 Q 712 608 750 608 Q 788 608 788 640 V692 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <g transform="translate(750 576)">
+    <circle cx="0" cy="0" r="26" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M -26 -2 Q -28 -32 0 -32 Q 28 -32 26 -2 Q 14 -18 -4 -20 Q -18 -18 -26 -2 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="-9" cy="2" r="3" fill="#22303f"/>
+    <circle cx="9" cy="2" r="3" fill="#22303f"/>
+    <path d="M -8 12 Q 0 18 8 12" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
   </g>
 
-  <rect x="67" y="72" width="946" height="1228" rx="4" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+  <!-- Person 3 -->
+  <path d="M 792 692 V640 Q 792 608 830 608 Q 868 608 868 640 V692 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <g transform="translate(830 576)">
+    <circle cx="0" cy="0" r="26" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M -26 -2 Q -28 -32 0 -32 Q 28 -32 26 -2 Q 14 -18 -4 -20 Q -18 -18 -26 -2 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="-9" cy="2" r="3" fill="#22303f"/>
+    <circle cx="9" cy="2" r="3" fill="#22303f"/>
+    <path d="M -8 12 Q 0 18 8 12" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
 
-  <rect x="105" y="200" width="870" height="108" rx="14" fill="#fdf6d8" stroke="#d9c77a" stroke-width="2"/>
+  <rect x="714" y="538" width="72" height="74" rx="4" fill="none" stroke="#c96a1b" stroke-width="3"/>
+  <rect x="600" y="480" width="300" height="212" rx="10" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
 
-  <rect x="906" y="332" width="54" height="54" rx="8" fill="#ffffff" stroke="#c0392b" stroke-width="2.2"/>
-  <rect x="906" y="488" width="54" height="54" rx="8" fill="#ffffff" stroke="#c0392b" stroke-width="2.2"/>
-  <rect x="906" y="572" width="54" height="54" rx="8" fill="#ffffff" stroke="#c0392b" stroke-width="2.2"/>
-  <rect x="906" y="728" width="54" height="54" rx="8" fill="#ffffff" stroke="#c0392b" stroke-width="2.2"/>
+  <!-- Arrow from detection to recognition -->
+  <line x1="570" y1="586" x2="522" y2="586" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="508,586 524,576 524,596" fill="#c0392b"/>
 
-  <rect x="100" y="916" width="880" height="249" rx="16" fill="#e9f6ea" stroke="#3d8b52" stroke-width="2"/>
-  <line x1="140" y1="984" x2="945" y2="984" stroke="#7fbf8f" stroke-width="1.6"/>
+  <!-- Left card: matching the face with a profile -->
+  <rect x="164" y="466" width="340" height="252" rx="16" fill="#22303f" opacity=".18"/>
+  <rect x="160" y="460" width="340" height="252" rx="16" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="176" y="500" width="140" height="192" rx="10" fill="url(#ilScan)"/>
+  <path d="M 196 692 V664 Q 196 632 246 632 Q 296 632 296 664 V692 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="236" y="602" width="20" height="32" fill="#d59f6f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <g transform="translate(246 566)">
+    <circle cx="0" cy="0" r="40" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M -39 -3 Q -42 -48 0 -48 Q 42 -48 39 -3 Q 21 -27 -6 -30 Q -27 -27 -39 -3 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="-13" cy="3" r="4" fill="#22303f"/>
+    <circle cx="13" cy="3" r="4" fill="#22303f"/>
+    <path d="M -12 18 Q 0 27 12 18" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <rect x="198" y="512" width="96" height="106" rx="6" fill="none" stroke="#c96a1b" stroke-width="3"/>
+  <rect x="176" y="500" width="140" height="192" rx="10" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
 
-  <text x="540" y="132"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="46"
-        font-weight="bold"
-        fill="#1b4a80">مثال محلول: صح أم خطأ؟</text>
+  <rect x="336" y="500" width="148" height="192" rx="10" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 378 624 Q 378 594 410 594 Q 442 594 442 624 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <g transform="translate(410 562)">
+    <circle cx="0" cy="0" r="26" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M -26 -2 Q -28 -32 0 -32 Q 28 -32 26 -2 Q 14 -18 -4 -20 Q -18 -18 -26 -2 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="-9" cy="2" r="3" fill="#22303f"/>
+    <circle cx="9" cy="2" r="3" fill="#22303f"/>
+    <path d="M -8 12 Q 0 18 8 12" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <rect x="360" y="642" width="100" height="10" rx="5" fill="#8fc9f2"/>
+  <rect x="360" y="664" width="76" height="10" rx="5" fill="#8fc9f2"/>
+  <circle cx="474" cy="506" r="20" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 464 506 L 471 513 L 484 499" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <text x="540" y="176"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="32"
-        fill="#152b42">Worked Example: True or False?</text>
+  <rect x="120" y="432" width="840" height="400" rx="20" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
 
-  <text x="940" y="246"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        fill="#225f9c">ضع علامة صح أو خطأ أمام كل عبارة.</text>
+<!-- Icon: light bulb beside paragraph 2 -->
+<g transform="translate(126 302)">
+  <line x1="6" y1="6" x2="11" y2="11" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="50" y1="6" x2="45" y2="11" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="2" y1="24" x2="8" y2="24" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="54" y1="24" x2="48" y2="24" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="28" cy="22" r="17" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="20" y="37" width="16" height="13" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="22" y1="43.5" x2="34" y2="43.5" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+</g>
 
-  <text x="135" y="290"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="28"
-        fill="#152b42">Mark each statement True or False.</text>
+<!-- Emotion face: thinking -->
+<g transform="translate(920 250)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
 
-  <text x="874" y="372"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="32"
-        font-weight="bold"
-        fill="#c0392b">A</text>
+<!-- Icon: warning triangle inside card -->
+<g transform="translate(760 1074)">
+  <polygon points="28,4 54,50 2,50" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="25.5" y="18" width="5" height="18" rx="2.5" fill="#22303f"/>
+  <circle cx="28" cy="43" r="3" fill="#22303f"/>
+</g>
 
-  <text x="845" y="372"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        fill="#225f9c">
-    <tspan x="845" dy="0">يبرع الذكاء الاصطناعي في الاستدلال الاحتمالي</tspan>
-    <tspan x="845" dy="38">والتنبؤ اعتمادًا على البيانات.</tspan>
-  </text>
+<!-- Icon: shield inside card -->
+<g transform="translate(850 1074)">
+  <path d="M28 4 L50 12 V28 Q50 46 28 54 Q6 46 6 28 V12 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M28 12 L42 17 V28 Q42 40 28 46 Z" fill="#8fc9f2"/>
+</g>
 
-  <text x="120" y="450"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="28"
-        fill="#152b42">
-    <tspan x="120" dy="0">AI is good at probabilistic reasoning</tspan>
-    <tspan x="120" dy="34">and prediction based on data.</tspan>
-  </text>
+<!-- Bottom icon group -->
+<g transform="translate(404 1192)">
+  <path d="M14 24 V16 Q14 4 26 4 Q38 4 38 16 V24" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="6" y="22" width="40" height="28" rx="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="26" cy="33" r="4" fill="#22303f"/>
+  <rect x="24.5" y="35" width="3" height="9" rx="1.5" fill="#22303f"/>
+</g>
+<g transform="translate(514 1192)">
+  <circle cx="28" cy="28" r="24" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M17 28 L25 36 L40 20" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(624 1192)">
+  <line x1="10" y1="42" x2="46" y2="42" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="10" y1="42" x2="28" y2="10" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="46" y1="42" x2="28" y2="10" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="28" cy="10" r="8" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="10" cy="42" r="8" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="46" cy="42" r="8" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+</g>
 
-  <text x="874" y="528"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="32"
-        font-weight="bold"
-        fill="#c0392b">B</text>
+<!-- Paragraph 1 -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">الاكتشاف</tspan> (Detection) يجيب: «هل يوجد وجه؟»،</tspan>
+  <tspan x="950" dy="40"><tspan font-weight="bold" fill="#c0392b">والتعرف</tspan> (Recognition) يجيب: «وجه مَن هذا؟».</tspan>
+</text>
+<text x="120" y="234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">Detection</tspan> answers "Is there a face?";</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#c0392b">recognition</tspan> answers "Whose face is it?"</tspan>
+</text>
 
-  <text x="845" y="528"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        fill="#225f9c">
-    <tspan x="845" dy="0">يبرع الذكاء الاصطناعي في التعرّف على الصور والصوت.</tspan>
-  </text>
+<!-- Paragraph 2 -->
+<text x="950" y="354" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">وفتح هاتفك يحتاج إلى <tspan font-weight="bold" fill="#17457f">الخطوتين معًا.</tspan></text>
+<text x="120" y="394" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Unlocking your phone needs <tspan font-weight="bold" fill="#17457f">both steps.</tspan></text>
 
-  <text x="120" y="568"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="28"
-        fill="#152b42">
-    <tspan x="120" dy="0">AI is good at recognizing images and audio.</tspan>
-  </text>
+<!-- Illustration labels -->
+<text x="796" y="754" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">اكتشاف</text>
+<text x="680" y="794" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Detection</text>
+<text x="370" y="754" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">تعرّف</text>
+<text x="245" y="794" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Recognition</text>
 
-  <text x="874" y="612"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="32"
-        font-weight="bold"
-        fill="#c0392b">C</text>
-
-  <text x="845" y="612"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        fill="#225f9c">
-    <tspan x="845" dy="0">من المقبول ترك الأحكام الأخلاقية</tspan>
-    <tspan x="845" dy="38">للذكاء الاصطناعي بالكامل.</tspan>
-  </text>
-
-  <text x="120" y="690"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="28"
-        fill="#152b42">
-    <tspan x="120" dy="0">It is fine to leave ethical judgments</tspan>
-    <tspan x="120" dy="34">entirely to AI.</tspan>
-  </text>
-
-  <text x="874" y="768"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="32"
-        font-weight="bold"
-        fill="#c0392b">D</text>
-
-  <text x="845" y="768"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        fill="#225f9c">
-    <tspan x="845" dy="0">قد تصبح أحكام الذكاء الاصطناعي غير دقيقة</tspan>
-    <tspan x="845" dy="38">عندما تكون بيانات التدريب متحيزة.</tspan>
-  </text>
-
-  <text x="120" y="846"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="28"
-        fill="#152b42">
-    <tspan x="120" dy="0">AI judgments can become inaccurate</tspan>
-    <tspan x="120" dy="34">when training data is biased.</tspan>
-  </text>
-
-  <text x="945" y="964"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        font-weight="bold"
-        fill="#1f6b3a">حل الجزء الأول</text>
-
-  <text x="140" y="964"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="28"
-        font-weight="bold"
-        fill="#1f6b3a">| Solution to Part One</text>
-
-  <text x="945" y="1026"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="28"
-        fill="#256d3a">أ–A: نظام التوصية</text>
-
-  <text x="140" y="1026"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27"
-        fill="#14532d">| Recommendation System</text>
-
-  <text x="945" y="1061"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="28"
-        fill="#256d3a">ب–B: المساعد الصوتي</text>
-
-  <text x="140" y="1061"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27"
-        fill="#14532d">| Voice Assistant</text>
-
-  <text x="945" y="1096"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="28"
-        fill="#256d3a">ج–C: الترجمة الآلية</text>
-
-  <text x="140" y="1096"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27"
-        fill="#14532d">| Machine Translation</text>
-
-  <text x="945" y="1131"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="28"
-        fill="#256d3a">د–D: التعرّف على الوجه</text>
-
-  <text x="140" y="1131"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27"
-        fill="#14532d">| Face Recognition</text>
-
+<!-- Warning card text -->
+<text x="935" y="914" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">خلي بالك</text>
+<text x="140" y="954" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">ITS CAUTION</text>
+<text x="935" y="994" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">الوجه <tspan font-weight="bold" fill="#17457f">بيانات حساسة،</tspan> والتطابق الخاطئ</tspan>
+  <tspan x="935" dy="40">قد يظلم إنسانًا بريئًا.</tspan>
+</text>
+<text x="140" y="1074" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">A face is <tspan font-weight="bold" fill="#17457f">sensitive data,</tspan></tspan>
+  <tspan x="140" dy="40">and a false match can harm</tspan>
+  <tspan x="140" dy="40">an innocent person.</tspan>
+</text>
 </svg>

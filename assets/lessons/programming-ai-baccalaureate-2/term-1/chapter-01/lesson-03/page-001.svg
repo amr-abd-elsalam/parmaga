@@ -4,286 +4,323 @@
      viewBox="0 0 1080 1350"
      preserveAspectRatio="xMidYMid meet"
      style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilBg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-  <defs>
-    <linearGradient id="gWood" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#8b5c34"/>
-      <stop offset="0.55" stop-color="#7a4c29"/>
-      <stop offset="1" stop-color="#633d20"/>
-    </linearGradient>
-    <linearGradient id="gPaper" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fffdf6"/>
-      <stop offset="1" stop-color="#f7f2e6"/>
-    </linearGradient>
-    <linearGradient id="gPanel" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#eef5fd"/>
-      <stop offset="1" stop-color="#dbe8f7"/>
-    </linearGradient>
-    <linearGradient id="gCard" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0f3a6b"/>
-      <stop offset="1" stop-color="#17549e"/>
-    </linearGradient>
-    <linearGradient id="gScreen" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#123c66"/>
-      <stop offset="1" stop-color="#0b2b4a"/>
-    </linearGradient>
-    <radialGradient id="gGlow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.85"/>
-      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="fSoft" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="9"/>
-    </filter>
-  </defs>
+<!-- Illustration zone -->
+<g id="illustration" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="105" y="110" width="870" height="650" rx="28" fill="url(#ilBg)"/>
 
-  <!-- 1) خلفية خشبية بسيطة -->
-  <rect x="0" y="0" width="1080" height="1350" fill="url(#gWood)"/>
-  <path d="M 0 220 Q 340 170 660 250 Q 900 310 1080 265" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="26"/>
-  <path d="M 0 1010 Q 320 1080 640 1010 Q 900 955 1080 1015" fill="none" stroke="#000000" stroke-opacity="0.07" stroke-width="30"/>
+  <!-- Clouds -->
+  <ellipse cx="900" cy="182" rx="42" ry="16" fill="#ffffff"/>
+  <circle cx="884" cy="172" r="16" fill="#ffffff"/>
+  <circle cx="912" cy="166" r="20" fill="#ffffff"/>
+  <ellipse cx="915" cy="296" rx="30" ry="11" fill="#ffffff"/>
+  <circle cx="904" cy="289" r="11" fill="#ffffff"/>
+  <circle cx="924" cy="285" r="14" fill="#ffffff"/>
 
-  <!-- 2) ظل الورقة والورقة -->
-  <rect x="44" y="44" width="1006" height="1292" rx="10" fill="#000000" opacity="0.22" filter="url(#fSoft)"/>
-  <rect x="34" y="28" width="1012" height="1294" rx="10" fill="url(#gPaper)"/>
+  <!-- Scene cards: shadows -->
+  <rect x="129" y="136" width="205" height="120" rx="14" fill="#22303f" opacity=".18"/>
+  <rect x="164" y="276" width="205" height="120" rx="14" fill="#22303f" opacity=".18"/>
+  <rect x="129" y="416" width="205" height="120" rx="14" fill="#22303f" opacity=".18"/>
+  <rect x="164" y="561" width="205" height="120" rx="14" fill="#22303f" opacity=".18"/>
 
-  <!-- 3) سطور الدفتر الزرقاء الباهتة -->
-  <g stroke="#cfe0f0" stroke-width="1.6">
-    <line x1="88" y1="150" x2="992" y2="150"/>
-    <line x1="88" y1="195" x2="992" y2="195"/>
-    <line x1="88" y1="240" x2="992" y2="240"/>
-    <line x1="88" y1="285" x2="992" y2="285"/>
-    <line x1="88" y1="330" x2="992" y2="330"/>
-    <line x1="88" y1="375" x2="992" y2="375"/>
-    <line x1="88" y1="420" x2="992" y2="420"/>
-    <line x1="88" y1="465" x2="992" y2="465"/>
-    <line x1="88" y1="510" x2="992" y2="510"/>
-    <line x1="88" y1="555" x2="992" y2="555"/>
-    <line x1="88" y1="600" x2="992" y2="600"/>
-    <line x1="88" y1="645" x2="992" y2="645"/>
-    <line x1="88" y1="690" x2="992" y2="690"/>
-    <line x1="88" y1="735" x2="992" y2="735"/>
-    <line x1="88" y1="780" x2="992" y2="780"/>
-    <line x1="88" y1="825" x2="992" y2="825"/>
-    <line x1="88" y1="870" x2="992" y2="870"/>
-    <line x1="88" y1="915" x2="992" y2="915"/>
-    <line x1="88" y1="960" x2="992" y2="960"/>
-    <line x1="88" y1="1005" x2="992" y2="1005"/>
-    <line x1="88" y1="1050" x2="992" y2="1050"/>
-    <line x1="88" y1="1095" x2="992" y2="1095"/>
-    <line x1="88" y1="1140" x2="992" y2="1140"/>
-    <line x1="88" y1="1185" x2="992" y2="1185"/>
-    <line x1="88" y1="1230" x2="992" y2="1230"/>
-    <line x1="88" y1="1275" x2="992" y2="1275"/>
+  <!-- Scene 1: medical scan on light board -->
+  <rect x="125" y="130" width="205" height="120" rx="14" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="145" y="144" width="128" height="82" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="152" y="151" width="114" height="68" rx="4" fill="#8fc9f2"/>
+  <ellipse cx="192" cy="185" rx="16" ry="24" fill="#dff1f7" stroke="#ffffff" stroke-width="2"/>
+  <ellipse cx="226" cy="185" rx="16" ry="24" fill="#dff1f7" stroke="#ffffff" stroke-width="2"/>
+  <line x1="209" y1="158" x2="209" y2="212" stroke="#ffffff" stroke-width="2.5"/>
+  <circle cx="228" cy="195" r="11" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+  <line x1="209" y1="226" x2="209" y2="240" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="192" y1="240" x2="226" y2="240" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="288" y="160" width="28" height="28" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="298" y="165" width="8" height="18" fill="#c0392b"/>
+  <rect x="293" y="170" width="18" height="8" fill="#c0392b"/>
+
+  <!-- Scene 2: farm field with drone -->
+  <rect x="160" y="270" width="205" height="120" rx="14" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="172" y="282" width="181" height="96" rx="8" fill="url(#ilSky)"/>
+  <circle cx="330" cy="300" r="10" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="172,378 353,378 353,336 172,346" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="190" y1="376" x2="212" y2="346" stroke="#2e7d32" stroke-width="2.5"/>
+  <line x1="230" y1="376" x2="244" y2="344" stroke="#2e7d32" stroke-width="2.5"/>
+  <line x1="270" y1="376" x2="276" y2="342" stroke="#2e7d32" stroke-width="2.5"/>
+  <line x1="310" y1="376" x2="307" y2="340" stroke="#2e7d32" stroke-width="2.5"/>
+  <line x1="345" y1="376" x2="337" y2="338" stroke="#2e7d32" stroke-width="2.5"/>
+  <polygon points="255,312 269,312 290,342 234,342" fill="#4fc3e8" opacity=".35"/>
+  <line x1="248" y1="304" x2="232" y2="296" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="276" y1="304" x2="292" y2="296" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="232" cy="294" rx="12" ry="3" fill="#7f95ab" stroke="#22303f" stroke-width="2"/>
+  <ellipse cx="292" cy="294" rx="12" ry="3" fill="#7f95ab" stroke="#22303f" stroke-width="2"/>
+  <rect x="248" y="300" width="28" height="12" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Scene 3: conveyor belt under camera arm -->
+  <rect x="125" y="410" width="205" height="120" rx="14" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="300" y="420" width="10" height="92" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="222" y="422" width="86" height="8" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="216,455 230,455 240,465 206,465" fill="#4fc3e8" opacity=".35"/>
+  <rect x="208" y="430" width="30" height="20" rx="4" fill="#22303f"/>
+  <circle cx="223" cy="450" r="5" fill="#4fc3e8" stroke="#22303f" stroke-width="2"/>
+  <line x1="155" y1="508" x2="155" y2="522" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="275" y1="508" x2="275" y2="522" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="140" y="492" width="150" height="16" rx="8" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="152" cy="500" r="4" fill="#e8dfd1"/>
+  <circle cx="182" cy="500" r="4" fill="#e8dfd1"/>
+  <circle cx="212" cy="500" r="4" fill="#e8dfd1"/>
+  <circle cx="242" cy="500" r="4" fill="#e8dfd1"/>
+  <circle cx="272" cy="500" r="4" fill="#e8dfd1"/>
+  <rect x="150" y="466" width="26" height="26" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="163" y1="466" x2="163" y2="492" stroke="#c96a1b" stroke-width="2"/>
+  <rect x="206" y="466" width="26" height="26" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="219" y1="466" x2="219" y2="492" stroke="#c96a1b" stroke-width="2"/>
+  <rect x="258" y="466" width="26" height="26" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="271" y1="466" x2="271" y2="492" stroke="#c96a1b" stroke-width="2"/>
+
+  <!-- Scene 4: map with route and delivery truck -->
+  <rect x="160" y="555" width="205" height="120" rx="14" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="178,570 238,580 298,570 350,580 350,662 298,652 238,662 178,652" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="238" y1="580" x2="238" y2="662" stroke="#7f95ab" stroke-width="2"/>
+  <line x1="298" y1="570" x2="298" y2="652" stroke="#7f95ab" stroke-width="2"/>
+  <path d="M182 618 L346 608" fill="none" stroke="#ffffff" stroke-width="3"/>
+  <path d="M266 576 L270 656" fill="none" stroke="#ffffff" stroke-width="3"/>
+  <path d="M192 640 Q 222 598 262 614 Q 300 628 332 597" fill="none" stroke="#c96a1b" stroke-width="3"/>
+  <circle cx="192" cy="640" r="5" fill="#2e7d32" stroke="#22303f" stroke-width="2"/>
+  <circle cx="332" cy="590" r="7" fill="#c0392b" stroke="#22303f" stroke-width="2"/>
+  <circle cx="332" cy="590" r="2.5" fill="#ffffff"/>
+  <rect x="244" y="598" width="24" height="15" rx="2" fill="#2f7fb5" stroke="#22303f" stroke-width="2"/>
+  <rect x="268" y="603" width="11" height="10" rx="2" fill="#17457f" stroke="#22303f" stroke-width="2"/>
+  <circle cx="250" cy="615" r="4" fill="#22303f"/>
+  <circle cx="273" cy="615" r="4" fill="#22303f"/>
+
+  <!-- Central network glow -->
+  <circle cx="540" cy="255" r="118" fill="#8fc9f2" opacity=".35"/>
+
+  <!-- Arrows: network to industry scenes (left) -->
+  <line x1="455" y1="205" x2="351" y2="196.9" stroke="#2f7fb5" stroke-width="2.5"/>
+  <polygon points="340,196 351.4,191.9 350.6,201.9" fill="#2f7fb5"/>
+  <line x1="440" y1="320" x2="385.9" y2="328.3" stroke="#2f7fb5" stroke-width="2.5"/>
+  <polygon points="375,330 385.1,323.4 386.6,333.3" fill="#2f7fb5"/>
+  <line x1="440" y1="320" x2="346.3" y2="453" stroke="#2f7fb5" stroke-width="2.5"/>
+  <polygon points="340,462 342.2,450.1 350.4,455.9" fill="#2f7fb5"/>
+  <line x1="440" y1="320" x2="377.5" y2="587.3" stroke="#2f7fb5" stroke-width="2.5"/>
+  <polygon points="375,598 372.6,586.2 382.4,588.4" fill="#2f7fb5"/>
+
+  <!-- Arrows: network to daily-life symbols (right) -->
+  <line x1="610" y1="200" x2="725.4" y2="293.1" stroke="#2f7fb5" stroke-width="2.5"/>
+  <polygon points="734,300 722.3,297 728.6,289.2" fill="#2f7fb5"/>
+  <line x1="640" y1="300" x2="672" y2="381.8" stroke="#2f7fb5" stroke-width="2.5"/>
+  <polygon points="676,392 667.3,383.6 676.7,379.9" fill="#2f7fb5"/>
+  <line x1="640" y1="300" x2="677.5" y2="463.3" stroke="#2f7fb5" stroke-width="2.5"/>
+  <polygon points="680,474 672.7,464.4 682.4,462.2" fill="#2f7fb5"/>
+  <line x1="640" y1="300" x2="697.5" y2="546.3" stroke="#2f7fb5" stroke-width="2.5"/>
+  <polygon points="700,557 692.6,547.4 702.4,545.2" fill="#2f7fb5"/>
+
+  <!-- Network edges -->
+  <line x1="530" y1="160" x2="455" y2="205" stroke="#17457f" stroke-width="2.5"/>
+  <line x1="530" y1="160" x2="610" y2="200" stroke="#17457f" stroke-width="2.5"/>
+  <line x1="455" y1="205" x2="505" y2="262" stroke="#17457f" stroke-width="2.5"/>
+  <line x1="610" y1="200" x2="585" y2="272" stroke="#17457f" stroke-width="2.5"/>
+  <line x1="505" y1="262" x2="585" y2="272" stroke="#17457f" stroke-width="2.5"/>
+  <line x1="455" y1="205" x2="440" y2="320" stroke="#17457f" stroke-width="2.5"/>
+  <line x1="505" y1="262" x2="440" y2="320" stroke="#17457f" stroke-width="2.5"/>
+  <line x1="585" y1="272" x2="640" y2="300" stroke="#17457f" stroke-width="2.5"/>
+  <line x1="610" y1="200" x2="640" y2="300" stroke="#17457f" stroke-width="2.5"/>
+  <line x1="440" y1="320" x2="530" y2="345" stroke="#17457f" stroke-width="2.5"/>
+  <line x1="585" y1="272" x2="530" y2="345" stroke="#17457f" stroke-width="2.5"/>
+  <line x1="530" y1="160" x2="505" y2="262" stroke="#c96a1b" stroke-width="3"/>
+  <line x1="505" y1="262" x2="530" y2="345" stroke="#c96a1b" stroke-width="3"/>
+
+  <!-- Network nodes -->
+  <circle cx="530" cy="160" r="9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="455" cy="205" r="9" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="610" cy="200" r="9" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="505" cy="262" r="9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="585" cy="272" r="9" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="440" cy="320" r="9" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="640" cy="300" r="9" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="530" cy="345" r="9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Adult reviewer: torso, shirt, neck, head -->
+  <path d="M410 726 L414 590 Q 418 548 462 538 L 498 538 Q 542 548 546 590 L 550 726 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M464 539 L480 572 L496 539 Z" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <line x1="480" y1="572" x2="480" y2="726" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="488" cy="604" r="3.5" fill="#8fc9f2"/>
+  <circle cx="488" cy="640" r="3.5" fill="#8fc9f2"/>
+  <line x1="426" y1="596" x2="430" y2="726" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="468" y="508" width="24" height="32" fill="#d59f6f"/>
+  <circle cx="445" cy="482" r="7" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="515" cy="482" r="7" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="480" cy="478" r="36" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M444 476 Q 442 440 480 438 Q 518 440 516 476 Q 510 456 480 455 Q 450 456 444 476 Z" fill="#2b211c"/>
+  <path d="M446 486 Q 450 522 480 524 Q 510 522 514 486 Q 506 506 480 508 Q 454 506 446 486 Z" fill="#2b211c"/>
+  <path d="M468 497 Q 480 491 492 497 Q 480 495 468 497 Z" fill="#2b211c" stroke="#2b211c" stroke-width="2"/>
+  <line x1="461" y1="466" x2="474" y2="464" stroke="#2b211c" stroke-width="2.5"/>
+  <line x1="486" y1="464" x2="499" y2="466" stroke="#2b211c" stroke-width="2.5"/>
+  <circle cx="468" cy="476" r="3.5" fill="#22303f"/>
+  <circle cx="492" cy="476" r="3.5" fill="#22303f"/>
+  <path d="M472 501 Q 480 505 488 501" fill="none" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Adult raised arm (bent at the elbow) -->
+  <path d="M529.9 554.5 L598.5 518.4 L593 414.7 L619 413.3 L625.4 525 Q 627 538 617 538 L542.1 577.5 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Magnifying glass over the pattern -->
+  <circle cx="545" cy="300" r="38" fill="#dff1f7" opacity=".35"/>
+  <circle cx="545" cy="300" r="38" fill="none" stroke="#17457f" stroke-width="3"/>
+  <path d="M522 288 Q 527 274 541 270" fill="none" stroke="#ffffff" stroke-width="3"/>
+  <polygon points="568.6,333.7 579.4,328.4 611.4,393.4 600.6,398.7" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="606" cy="404" r="12" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Green check beside the glass -->
+  <circle cx="488" cy="372" r="15" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M481 372 L486 378 L496 366" fill="none" stroke="#ffffff" stroke-width="3"/>
+
+  <!-- Symbol: face outline inside a scanning frame -->
+  <path d="M740 306 L740 290 L756 290" fill="none" stroke="#2f7fb5" stroke-width="3"/>
+  <path d="M784 290 L800 290 L800 306" fill="none" stroke="#2f7fb5" stroke-width="3"/>
+  <path d="M740 338 L740 354 L756 354" fill="none" stroke="#2f7fb5" stroke-width="3"/>
+  <path d="M800 338 L800 354 L784 354" fill="none" stroke="#2f7fb5" stroke-width="3"/>
+  <ellipse cx="770" cy="321" rx="18" ry="22" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="764" cy="317" r="2.5" fill="#22303f"/>
+  <circle cx="776" cy="317" r="2.5" fill="#22303f"/>
+  <path d="M764 329 Q 770 334 776 329" fill="none" stroke="#22303f" stroke-width="2"/>
+  <line x1="746" y1="346" x2="794" y2="346" stroke="#4fc3e8" stroke-width="2.5"/>
+
+  <!-- Symbol: row of video thumbnails, one highlighted -->
+  <rect x="680" y="392" width="34" height="26" rx="5" fill="#8fc9f2" stroke="#22303f" stroke-width="2"/>
+  <polygon points="693,399 693,411 703,405" fill="#ffffff"/>
+  <rect x="718" y="392" width="34" height="26" rx="5" fill="#ffd24a" stroke="#22303f" stroke-width="3"/>
+  <polygon points="731,399 731,411 741,405" fill="#17457f"/>
+  <rect x="756" y="392" width="34" height="26" rx="5" fill="#8fc9f2" stroke="#22303f" stroke-width="2"/>
+  <polygon points="769,399 769,411 779,405" fill="#ffffff"/>
+
+  <!-- Symbol: sound waves -->
+  <line x1="690" y1="472" x2="690" y2="492" stroke="#2f7fb5" stroke-width="3"/>
+  <line x1="702" y1="462" x2="702" y2="502" stroke="#4fc3e8" stroke-width="3"/>
+  <line x1="714" y1="456" x2="714" y2="508" stroke="#2f7fb5" stroke-width="3"/>
+  <line x1="726" y1="466" x2="726" y2="498" stroke="#4fc3e8" stroke-width="3"/>
+  <line x1="738" y1="460" x2="738" y2="504" stroke="#2f7fb5" stroke-width="3"/>
+  <line x1="750" y1="474" x2="750" y2="490" stroke="#4fc3e8" stroke-width="3"/>
+
+  <!-- Symbol: two scribble cards joined by a two-way arrow -->
+  <rect x="680" y="565" width="46" height="40" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M688 577 Q 694 573 700 577 Q 706 581 712 577 Q 715 575 718 577" fill="none" stroke="#7f95ab" stroke-width="2"/>
+  <path d="M688 586 Q 694 582 700 586 Q 706 590 712 586 Q 715 584 718 586" fill="none" stroke="#7f95ab" stroke-width="2"/>
+  <path d="M688 595 Q 694 591 700 595 Q 704 598 708 595" fill="none" stroke="#7f95ab" stroke-width="2"/>
+  <rect x="760" y="565" width="46" height="40" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M768 577 Q 774 573 780 577 Q 786 581 792 577 Q 795 575 798 577" fill="none" stroke="#7f95ab" stroke-width="2"/>
+  <path d="M768 586 Q 774 582 780 586 Q 786 590 792 586 Q 795 584 798 586" fill="none" stroke="#7f95ab" stroke-width="2"/>
+  <path d="M768 595 Q 774 591 780 595 Q 784 598 788 595" fill="none" stroke="#7f95ab" stroke-width="2"/>
+  <line x1="739" y1="585" x2="747" y2="585" stroke="#c96a1b" stroke-width="2.5"/>
+  <polygon points="731,585 740,580 740,590" fill="#c96a1b"/>
+  <polygon points="755,585 746,580 746,590" fill="#c96a1b"/>
+
+  <!-- Teenage student: torso, strap, collar, neck, head -->
+  <path d="M850 726 L854 584 Q 858 544 892 536 L 912 536 Q 946 544 950 584 L 954 726 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="918,540 930,541 934,726 922,726" fill="#c96a1b" stroke="#22303f" stroke-width="2"/>
+  <line x1="942" y1="596" x2="946" y2="720" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="894" y="514" width="16" height="24" fill="#e8b98d"/>
+  <path d="M889 537 Q 902 550 915 537" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="872" cy="496" r="5" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="932" cy="496" r="5" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="902" cy="492" r="30" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M872 492 Q 870 460 902 458 Q 932 460 933 488 Q 922 474 900 476 Q 884 478 872 492 Z" fill="#2b211c"/>
+  <line x1="882" y1="483" x2="892" y2="482" stroke="#2b211c" stroke-width="2.5"/>
+  <line x1="901" y1="482" x2="911" y2="483" stroke="#2b211c" stroke-width="2.5"/>
+  <circle cx="887" cy="494" r="3.5" fill="#22303f"/>
+  <circle cx="905" cy="494" r="3.5" fill="#22303f"/>
+  <path d="M888 507 Q 897 513 906 507" fill="none" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Smartphone held in front of the face -->
+  <rect x="806" y="420" width="36" height="66" rx="7" fill="#22303f"/>
+  <rect x="810" y="427" width="28" height="50" rx="3" fill="#4fc3e8"/>
+  <rect x="815" y="434" width="18" height="10" rx="2" fill="#dff1f7"/>
+  <line x1="815" y1="452" x2="833" y2="452" stroke="#ffffff" stroke-width="2"/>
+  <line x1="815" y1="460" x2="827" y2="460" stroke="#ffffff" stroke-width="2"/>
+
+  <!-- Student raised arm (bent at the elbow) and hand -->
+  <path d="M838.9 498.3 L850.5 570.6 L857.8 552 L878.2 560 L856.2 616 Q 846 630 835.1 613.7 L817.1 501.7 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="828" cy="492" r="11" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Title panel -->
+<rect x="111" y="726" width="870" height="320" rx="28" fill="#22303f" opacity=".18"/>
+<rect x="105" y="720" width="870" height="320" rx="28" fill="#17457f"/>
+
+<!-- Icon row -->
+<g stroke-linecap="round" stroke-linejoin="round">
+  <g transform="translate(212 1122)">
+    <line x1="20" y1="4" x2="20" y2="12" stroke="#22303f" stroke-width="2.5"/>
+    <line x1="28" y1="4" x2="28" y2="12" stroke="#22303f" stroke-width="2.5"/>
+    <line x1="36" y1="4" x2="36" y2="12" stroke="#22303f" stroke-width="2.5"/>
+    <line x1="20" y1="44" x2="20" y2="52" stroke="#22303f" stroke-width="2.5"/>
+    <line x1="28" y1="44" x2="28" y2="52" stroke="#22303f" stroke-width="2.5"/>
+    <line x1="36" y1="44" x2="36" y2="52" stroke="#22303f" stroke-width="2.5"/>
+    <line x1="4" y1="20" x2="12" y2="20" stroke="#22303f" stroke-width="2.5"/>
+    <line x1="4" y1="28" x2="12" y2="28" stroke="#22303f" stroke-width="2.5"/>
+    <line x1="4" y1="36" x2="12" y2="36" stroke="#22303f" stroke-width="2.5"/>
+    <line x1="44" y1="20" x2="52" y2="20" stroke="#22303f" stroke-width="2.5"/>
+    <line x1="44" y1="28" x2="52" y2="28" stroke="#22303f" stroke-width="2.5"/>
+    <line x1="44" y1="36" x2="52" y2="36" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="12" y="12" width="32" height="32" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="20" y="20" width="16" height="16" rx="3" fill="#4fc3e8"/>
   </g>
-
-  <!-- 4) لوحة الرسم التوضيحي -->
-  <g>
-    <rect x="105" y="115" width="870" height="790" rx="22" fill="url(#gPanel)" stroke="#b9cfe6" stroke-width="2"/>
-
-    <!-- أرضية المشهد -->
-    <path d="M 105 750 L 975 750 L 975 883 Q 975 905 953 905 L 127 905 Q 105 905 105 883 Z" fill="#d7e5f5"/>
-    <line x1="105" y1="750" x2="975" y2="750" stroke="#c2d6ea" stroke-width="2"/>
-
-    <!-- الرعاية الصحية: شاشة تصوير طبي -->
-    <g>
-      <rect x="150" y="170" width="192" height="142" rx="12" fill="url(#gScreen)"/>
-      <rect x="163" y="183" width="166" height="116" rx="8" fill="#0a2740"/>
-      <path d="M 246 200 Q 214 208 208 246 Q 204 278 226 290" fill="none" stroke="#8fc9f2" stroke-width="4" opacity="0.85"/>
-      <path d="M 246 200 Q 278 208 284 246 Q 288 278 266 290" fill="none" stroke="#8fc9f2" stroke-width="4" opacity="0.85"/>
-      <line x1="246" y1="200" x2="246" y2="290" stroke="#8fc9f2" stroke-width="3" opacity="0.7"/>
-      <path d="M 216 232 L 276 232" stroke="#8fc9f2" stroke-width="2.5" opacity="0.5"/>
-      <path d="M 214 254 L 278 254" stroke="#8fc9f2" stroke-width="2.5" opacity="0.5"/>
-      <circle cx="272" cy="222" r="7" fill="#e05a4f" opacity="0.9"/>
-      <line x1="170" y1="288" x2="322" y2="288" stroke="#4e9a5a" stroke-width="2.5" opacity="0.8"/>
-      <rect x="236" y="312" width="20" height="20" fill="#5c7d99"/>
-      <rect x="208" y="332" width="76" height="9" rx="4" fill="#5c7d99"/>
-    </g>
-
-    <!-- التصنيع: ذراع آلية وخط إنتاج -->
-    <g>
-      <rect x="846" y="382" width="96" height="16" rx="6" fill="#3d5a76"/>
-      <path d="M 894 384 L 878 300 L 820 258" fill="none" stroke="#3d5a76" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
-      <circle cx="894" cy="384" r="12" fill="#ef8b3c"/>
-      <circle cx="878" cy="300" r="10" fill="#ef8b3c"/>
-      <circle cx="820" cy="258" r="9" fill="#ef8b3c"/>
-      <path d="M 812 250 L 796 240" stroke="#3d5a76" stroke-width="7" stroke-linecap="round"/>
-      <path d="M 814 266 L 798 274" stroke="#3d5a76" stroke-width="7" stroke-linecap="round"/>
-      <rect x="762" y="238" width="40" height="34" rx="5" fill="#d7a86a"/>
-      <rect x="782" y="400" width="172" height="14" rx="7" fill="#9fb3c8"/>
-      <rect x="796" y="372" width="40" height="28" rx="5" fill="#d7a86a"/>
-      <rect x="856" y="372" width="40" height="28" rx="5" fill="#c99a5e"/>
-      <circle cx="800" cy="424" r="7" fill="#7f95ab"/>
-      <circle cx="868" cy="424" r="7" fill="#7f95ab"/>
-      <circle cx="936" cy="424" r="7" fill="#7f95ab"/>
-    </g>
-
-    <!-- الزراعة الذكية -->
-    <g>
-      <path d="M 132 742 Q 220 716 318 742" fill="none" stroke="#6aa84f" stroke-width="6" opacity="0.75"/>
-      <path d="M 138 720 Q 224 694 312 720" fill="none" stroke="#6aa84f" stroke-width="5" opacity="0.6"/>
-      <path d="M 146 698 Q 226 674 304 698" fill="none" stroke="#6aa84f" stroke-width="4" opacity="0.45"/>
-      <line x1="224" y1="712" x2="224" y2="652" stroke="#4e8c3a" stroke-width="6" stroke-linecap="round"/>
-      <path d="M 224 674 Q 196 662 190 638 Q 218 636 224 664" fill="#5fae4a"/>
-      <path d="M 224 664 Q 252 650 258 626 Q 230 626 224 654" fill="#77c25e"/>
-      <g stroke="#4e9a5a" stroke-width="4" fill="none" stroke-linecap="round">
-        <path d="M 170 636 L 170 620 L 186 620"/>
-        <path d="M 278 620 L 294 620 L 294 636"/>
-        <path d="M 170 726 L 170 742 L 186 742"/>
-        <path d="M 278 742 L 294 742 L 294 726"/>
-      </g>
-    </g>
-
-    <!-- الخدمات اللوجستية: خريطة مسار توصيل -->
-    <g>
-      <rect x="790" y="556" width="170" height="156" rx="14" fill="#f4f8fd" stroke="#b9cfe6" stroke-width="2"/>
-      <g stroke="#dbe6f1" stroke-width="6">
-        <line x1="800" y1="600" x2="950" y2="600"/>
-        <line x1="800" y1="662" x2="950" y2="662"/>
-        <line x1="846" y1="566" x2="846" y2="702"/>
-        <line x1="908" y1="566" x2="908" y2="702"/>
-      </g>
-      <path d="M 812 690 L 846 690 L 846 600 L 908 600 L 908 578" fill="none" stroke="#2f6fb5" stroke-width="4.5" stroke-dasharray="9 7" stroke-linecap="round"/>
-      <circle cx="812" cy="690" r="8" fill="#2f6fb5"/>
-      <path d="M 908 560 Q 924 560 924 574 Q 924 586 908 600 Q 892 586 892 574 Q 892 560 908 560 Z" fill="#ef8b3c"/>
-      <circle cx="908" cy="574" r="5" fill="#ffffff"/>
-      <g>
-        <rect x="852" y="628" width="34" height="20" rx="4" fill="#2f6fb5"/>
-        <path d="M 886 634 L 900 634 L 906 642 L 906 648 L 886 648 Z" fill="#4a86c8"/>
-        <circle cx="862" cy="652" r="5" fill="#22303f"/>
-        <circle cx="898" cy="652" r="5" fill="#22303f"/>
-      </g>
-    </g>
-
-    <!-- توهج خلف الطالب -->
-    <ellipse cx="470" cy="470" rx="250" ry="250" fill="url(#gGlow)"/>
-
-    <!-- الطالب -->
-    <g>
-      <path d="M 368 800 L 380 468 Q 384 428 424 420 L 486 420 Q 526 428 530 468 L 545 800 Z" fill="#2f6fb5"/>
-      <path d="M 424 420 L 455 470 L 486 420 Q 470 412 455 412 Q 440 412 424 420 Z" fill="#dce9f7"/>
-      <path d="M 388 462 Q 376 560 392 640" fill="none" stroke="#2a63a4" stroke-width="28" stroke-linecap="round"/>
-      <path d="M 522 458 Q 528 528 552 574" fill="none" stroke="#2a63a4" stroke-width="28" stroke-linecap="round"/>
-      <circle cx="394" cy="650" r="16" fill="#e8b98d"/>
-      <rect x="437" y="386" width="36" height="42" rx="12" fill="#d9a377"/>
-      <circle cx="408" cy="345" r="9" fill="#e8b98d"/>
-      <circle cx="502" cy="345" r="9" fill="#e8b98d"/>
-      <ellipse cx="455" cy="340" rx="47" ry="53" fill="#e8b98d"/>
-      <path d="M 407 324 Q 407 268 455 264 Q 503 268 503 324 Q 492 296 455 296 Q 420 296 407 324 Z" fill="#2a2733"/>
-      <ellipse cx="437" cy="344" rx="5" ry="6.5" fill="#2a2733"/>
-      <ellipse cx="473" cy="344" rx="5" ry="6.5" fill="#2a2733"/>
-      <path d="M 428 328 Q 437 322 446 328" fill="none" stroke="#2a2733" stroke-width="3" stroke-linecap="round"/>
-      <path d="M 464 328 Q 473 322 482 328" fill="none" stroke="#2a2733" stroke-width="3" stroke-linecap="round"/>
-      <path d="M 443 370 Q 455 378 467 370" fill="none" stroke="#b9744f" stroke-width="3" stroke-linecap="round"/>
-    </g>
-
-    <!-- الهاتف الذكي -->
-    <g transform="rotate(-9 595 515)">
-      <rect x="551" y="435" width="88" height="160" rx="14" fill="#22303f"/>
-      <rect x="559" y="447" width="72" height="136" rx="8" fill="#eef6ff"/>
-      <rect x="583" y="441" width="24" height="4" rx="2" fill="#4a5a6b"/>
-      <rect x="568" y="458" width="54" height="26" rx="5" fill="#2f6fb5" opacity="0.85"/>
-      <rect x="568" y="492" width="54" height="8" rx="4" fill="#b9d5f0"/>
-      <rect x="568" y="508" width="40" height="8" rx="4" fill="#b9d5f0"/>
-      <rect x="568" y="524" width="48" height="8" rx="4" fill="#b9d5f0"/>
-      <circle cx="577" cy="552" r="7" fill="#4e9a5a" opacity="0.8"/>
-      <circle cx="597" cy="552" r="7" fill="#ef8b3c" opacity="0.8"/>
-      <circle cx="617" cy="552" r="7" fill="#2f6fb5" opacity="0.8"/>
-    </g>
-    <circle cx="560" cy="580" r="18" fill="#e8b98d"/>
-
-    <!-- خطوط ربط خفيفة -->
-    <g fill="none" stroke="#7fa8d0" stroke-width="2.5" stroke-dasharray="5 8" opacity="0.55">
-      <path d="M 636 452 Q 672 420 690 404"/>
-      <path d="M 646 500 Q 682 494 702 492"/>
-      <path d="M 640 556 Q 676 574 690 582"/>
-      <path d="M 620 600 Q 636 626 646 642"/>
-    </g>
-
-    <!-- أيقونات خدمات الذكاء الاصطناعي اليومية -->
-    <g>
-      <circle cx="705" cy="395" r="37" fill="#ffffff" opacity="0.88"/>
-      <circle cx="705" cy="395" r="37" fill="none" stroke="#2f6fb5" stroke-width="2.5"/>
-      <path d="M 694 379 L 722 395 L 694 411 Z" fill="#2f6fb5"/>
-    </g>
-    <g>
-      <circle cx="737" cy="490" r="37" fill="#ffffff" opacity="0.88"/>
-      <circle cx="737" cy="490" r="37" fill="none" stroke="#2f6fb5" stroke-width="2.5"/>
-      <rect x="729" y="468" width="16" height="30" rx="8" fill="#2f6fb5"/>
-      <path d="M 720 492 A 17 17 0 0 0 754 492" fill="none" stroke="#2f6fb5" stroke-width="3.5"/>
-      <line x1="737" y1="509" x2="737" y2="516" stroke="#2f6fb5" stroke-width="3.5"/>
-      <line x1="727" y1="516" x2="747" y2="516" stroke="#2f6fb5" stroke-width="3.5" stroke-linecap="round"/>
-    </g>
-    <g>
-      <circle cx="722" cy="588" r="37" fill="#ffffff" opacity="0.88"/>
-      <circle cx="722" cy="588" r="37" fill="none" stroke="#2f6fb5" stroke-width="2.5"/>
-      <path d="M 702 566 L 728 566 Q 734 566 734 572 L 734 584 Q 734 590 728 590 L 712 590 L 704 598 L 705 590 L 702 590 Q 696 590 696 584 L 696 572 Q 696 566 702 566 Z" fill="#2f6fb5"/>
-      <path d="M 720 592 L 742 592 Q 748 592 748 598 L 748 608 Q 748 614 742 614 L 730 614 L 722 621 L 723 614 L 720 614 Q 714 614 714 608 L 714 598 Q 714 592 720 592 Z" fill="#4e9a5a"/>
-    </g>
-    <g>
-      <rect x="618" y="640" width="84" height="84" rx="16" fill="#ffffff" opacity="0.88"/>
-      <rect x="618" y="640" width="84" height="84" rx="16" fill="none" stroke="#cfe0f0" stroke-width="2"/>
-      <g stroke="#2f6fb5" stroke-width="4" fill="none" stroke-linecap="round">
-        <path d="M 630 664 L 630 652 L 642 652"/>
-        <path d="M 678 652 L 690 652 L 690 664"/>
-        <path d="M 630 700 L 630 712 L 642 712"/>
-        <path d="M 678 712 L 690 712 L 690 700"/>
-      </g>
-      <ellipse cx="660" cy="682" rx="17" ry="20" fill="none" stroke="#2f6fb5" stroke-width="3"/>
-      <circle cx="654" cy="678" r="2.6" fill="#2f6fb5"/>
-      <circle cx="666" cy="678" r="2.6" fill="#2f6fb5"/>
-      <path d="M 653 690 Q 660 695 667 690" fill="none" stroke="#2f6fb5" stroke-width="2.6" stroke-linecap="round"/>
-      <line x1="632" y1="682" x2="688" y2="682" stroke="#ef8b3c" stroke-width="2.5" opacity="0.65"/>
-    </g>
-
-    <!-- لمسات صفراء صغيرة -->
-    <circle cx="668" cy="356" r="5" fill="#ffd451" opacity="0.9"/>
-    <circle cx="762" cy="546" r="4" fill="#ffd451" opacity="0.85"/>
-    <circle cx="596" cy="640" r="4" fill="#ffd451" opacity="0.85"/>
+  <g transform="translate(362 1122)">
+    <line x1="12" y1="40" x2="28" y2="14" stroke="#17457f" stroke-width="2.5"/>
+    <line x1="28" y1="14" x2="44" y2="40" stroke="#17457f" stroke-width="2.5"/>
+    <line x1="12" y1="40" x2="44" y2="40" stroke="#17457f" stroke-width="2.5"/>
+    <circle cx="28" cy="14" r="7" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="12" cy="40" r="7" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="44" cy="40" r="7" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
   </g>
+  <g transform="translate(512 1122)">
+    <circle cx="28" cy="28" r="24" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M17 28 L25 36 L40 20" fill="none" stroke="#ffffff" stroke-width="3"/>
+  </g>
+  <g transform="translate(662 1122)">
+    <rect x="18" y="4" width="30" height="38" rx="4" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="10" y="12" width="30" height="40" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <line x1="16" y1="24" x2="34" y2="24" stroke="#7f95ab" stroke-width="2"/>
+    <line x1="16" y1="32" x2="34" y2="32" stroke="#7f95ab" stroke-width="2"/>
+    <line x1="16" y1="40" x2="28" y2="40" stroke="#7f95ab" stroke-width="2"/>
+  </g>
+  <g transform="translate(812 1122)">
+    <path d="M26 52 Q 26 30 38 30 Q 50 30 50 52 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M6 52 Q 6 30 18 30 Q 30 30 30 52 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="38" cy="17" r="8" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="18" cy="17" r="8" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+</g>
 
-  <!-- 5) بطاقة العنوان -->
-  <rect x="142" y="776" width="820" height="268" rx="30" fill="#0b2b52" opacity="0.28" filter="url(#fSoft)"/>
-  <rect x="130" y="760" width="820" height="268" rx="30" fill="url(#gCard)"/>
-  <rect x="142" y="772" width="796" height="244" rx="22" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="2"/>
-
-  <!-- 6) نصوص البطاقة -->
-  <text x="540"
-        y="812"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="31"
-        font-weight="bold"
-        letter-spacing="1"
-        fill="#ffd451">الدرس 1-3</text>
-
-  <rect x="505" y="834" width="70" height="4" rx="2" fill="#ffd451" opacity="0.85"/>
-
-  <text x="540"
-        y="894"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="52"
-        font-weight="bold"
-        fill="#ffffff">
-    <tspan x="540" dy="0">الذكاء الاصطناعي</tspan>
-    <tspan x="540" dy="58">في الحياة اليومية والصناعة</tspan>
-  </text>
-
-  <text x="540"
-        y="998"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="30"
-        letter-spacing="1.2"
-        fill="#ffffff">AI in Daily Life and Industry</text>
-
-
-  <!-- 8) الإطار الأحمر الخارجي الوحيد -->
-  <rect x="67" y="62" width="946" height="1226" rx="6" fill="none" stroke="#d64545" stroke-width="2.5"/>
-
+<!-- Texts -->
+<text x="935" y="785" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="36" font-weight="bold" fill="#ffd24a">الدرس &#x200E;3-1&#x200E;</text>
+<text x="935" y="850" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="48" font-weight="bold" fill="#ffffff">
+  <tspan x="935" dy="0">الذكاء الاصطناعي في الحياة</tspan>
+  <tspan x="935" dy="60">اليومية والصناعة</tspan>
+</text>
+<text x="935" y="965" direction="ltr" unicode-bidi="plaintext" text-anchor="end" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="bold" fill="#ffd24a">Lesson 1-3</text>
+<text x="935" y="1008" direction="ltr" unicode-bidi="plaintext" text-anchor="end" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="34" font-weight="normal" fill="#ffffff">AI in Daily Life and Industry</text>
 </svg>

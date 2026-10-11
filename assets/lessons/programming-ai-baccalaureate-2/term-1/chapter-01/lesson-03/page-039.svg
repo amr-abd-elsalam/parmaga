@@ -1,0 +1,236 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="36" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="35.5" x2="1080" y2="35.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Instruction strip (Main idea card): shadow, fill, accent -->
+<rect x="109" y="236" width="870" height="116" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="230" width="870" height="116" rx="16" fill="#fdf6d8" stroke="#e0c46a" stroke-width="2"/>
+<rect x="961" y="246" width="6" height="84" rx="3" fill="#e0a55e"/>
+
+<!-- Answer boxes (empty) -->
+<rect x="892" y="462" width="58" height="58" rx="8" fill="#fffdf7" stroke="#225f9c" stroke-width="2"/>
+<rect x="892" y="714" width="58" height="58" rx="8" fill="#fffdf7" stroke="#225f9c" stroke-width="2"/>
+<rect x="892" y="930" width="58" height="58" rx="8" fill="#fffdf7" stroke="#225f9c" stroke-width="2"/>
+<rect x="892" y="1110" width="58" height="58" rx="8" fill="#fffdf7" stroke="#225f9c" stroke-width="2"/>
+
+<!-- Icon: magnifying glass beside the header -->
+<g transform="translate(120 96)">
+  <line x1="29" y1="29" x2="44" y2="44" stroke="#22303f" stroke-width="7" stroke-linecap="round"/>
+  <line x1="29" y1="29" x2="44" y2="44" stroke="#17457f" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="18" cy="18" r="15" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M10 14 Q12 8 18 7" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: light bulb inside the instruction strip -->
+<g transform="translate(868 282)">
+  <circle cx="22" cy="18" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M17 22 L22 27 L27 22" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="14" y="33" width="16" height="11" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Emotion face: thinking (Q1 band) -->
+<g transform="translate(150 491)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: open book (Q2 band) -->
+<g transform="translate(124 718)">
+  <path d="M28 10 Q16 2 2 6 V46 Q16 42 28 50 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M28 10 Q40 2 54 6 V46 Q40 42 28 50 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="9" y1="17" x2="22" y2="19" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+  <line x1="9" y1="27" x2="22" y2="29" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+  <line x1="34" y1="19" x2="47" y2="17" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+  <line x1="34" y1="29" x2="47" y2="27" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: star (Q3 band) -->
+<g transform="translate(126 934)">
+  <polygon points="25,1 30.9,16.9 47.8,17.6 34.5,28.1 39.1,44.4 25,35 10.9,44.4 15.5,28.1 2.2,17.6 19.1,16.9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: pencil (Q4 band) -->
+<g transform="translate(124 1112) rotate(-45 28 28)">
+  <rect x="4" y="21" width="36" height="14" rx="2" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="4" y="21" width="8" height="14" rx="2" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="40,21 54,28 40,35" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="49,25.5 54,28 49,30.5" fill="#22303f"/>
+</g>
+
+<!-- Bottom band: document stack, smile face, AI chip -->
+<g transform="translate(436 1197)">
+  <rect x="14" y="2" width="38" height="50" rx="4" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="4" y="8" width="38" height="48" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="4" y="8" width="38" height="10" rx="4" fill="#f0c48c"/>
+  <line x1="11" y1="28" x2="35" y2="28" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+  <line x1="11" y1="37" x2="35" y2="37" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+  <line x1="11" y1="46" x2="29" y2="46" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+</g>
+<g transform="translate(540 1225)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+<g transform="translate(588 1197) scale(.93)">
+  <line x1="20" y1="0" x2="20" y2="8" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="30" y1="0" x2="30" y2="8" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="40" y1="0" x2="40" y2="8" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="20" y1="52" x2="20" y2="60" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="30" y1="52" x2="30" y2="60" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="40" y1="52" x2="40" y2="60" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="0" y1="20" x2="8" y2="20" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="0" y1="30" x2="8" y2="30" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="0" y1="40" x2="8" y2="40" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="52" y1="20" x2="60" y2="20" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="52" y1="30" x2="60" y2="30" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="52" y1="40" x2="60" y2="40" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="8" y="8" width="44" height="44" rx="6" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="18" y="18" width="24" height="24" rx="3" fill="#17457f"/>
+</g>
+
+<!-- Texts -->
+<text x="950"
+      y="150"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      font-weight="bold"
+      fill="#c0392b">دورك الآن: ابحث بنفسك</text>
+
+<text x="120"
+      y="186"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      font-weight="bold"
+      fill="#c0392b">Your Turn: Investigate</text>
+
+<text x="935"
+      y="258"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="28"
+      fill="#225f9c">اختر قصة واحدة، وابحث عن <tspan font-weight="bold" fill="#17457f">مصدرها،</tspan><tspan> ثم أجب.</tspan></text>
+
+<text x="140"
+      y="294"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="27"
+      fill="#152b42">
+  <tspan x="140" dy="0">Choose one story, find its <tspan font-weight="bold" fill="#17457f">source,</tspan></tspan>
+  <tspan x="140" dy="36">then answer.</tspan>
+</text>
+
+<text x="950"
+      y="402"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="28"
+      fill="#225f9c">1. ماذا حدث؟</text>
+
+<text x="120"
+      y="438"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="27"
+      fill="#152b42">1. What happened?</text>
+
+<text x="950"
+      y="582"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="28"
+      fill="#225f9c">
+  <tspan x="950" dy="0">2. أي حرف من <tspan font-weight="bold" fill="#17457f">«بِه صَح؟»</tspan></tspan>
+  <tspan x="950" dy="36">أو أي خط أحمر ينطبق عليها؟</tspan>
+</text>
+
+<text x="120"
+      y="654"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="27"
+      fill="#152b42">
+  <tspan x="120" dy="0">2. Which letter of <tspan font-weight="bold" fill="#17457f">"Bih Sah?"</tspan> or</tspan>
+  <tspan x="120" dy="36">which red line applies to it?</tspan>
+</text>
+
+<text x="950"
+      y="834"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="28"
+      fill="#225f9c">3. ما القاعدة التي كانت ستمنع المشكلة؟</text>
+
+<text x="120"
+      y="870"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="27"
+      fill="#152b42">
+  <tspan x="120" dy="0">3. What rule would have prevented</tspan>
+  <tspan x="120" dy="36">the problem?</tspan>
+</text>
+
+<text x="950"
+      y="1050"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="28"
+      fill="#225f9c">4. ما المصدر الذي استخدمته؟</text>
+
+<text x="120"
+      y="1086"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="27"
+      fill="#152b42">4. What source did you use?</text>
+</svg>
