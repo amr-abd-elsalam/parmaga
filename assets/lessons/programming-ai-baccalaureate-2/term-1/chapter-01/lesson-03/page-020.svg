@@ -1,0 +1,262 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilFrame" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8fc9f2"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+</defs>
+
+<!-- Illustration frame -->
+<rect x="109" y="758" width="866" height="484" rx="24" fill="#22303f" opacity=".18"/>
+<rect x="105" y="752" width="866" height="484" rx="24" fill="url(#ilFrame)"/>
+
+<!-- Panels: right = after failure, middle = scheduled, left = predictive -->
+<rect x="687" y="768" width="268" height="452" rx="16" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+<rect x="404" y="768" width="268" height="452" rx="16" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+<rect x="121" y="768" width="268" height="452" rx="16" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+<rect x="697" y="778" width="248" height="332" rx="10" fill="#dff1f7"/>
+<rect x="414" y="778" width="248" height="332" rx="10" fill="#dff1f7"/>
+<rect x="131" y="778" width="248" height="332" rx="10" fill="#dff1f7"/>
+<rect x="697" y="1088" width="248" height="14" fill="#e8dfd1"/>
+<rect x="414" y="1088" width="248" height="14" fill="#e8dfd1"/>
+<rect x="131" y="1088" width="248" height="14" fill="#e8dfd1"/>
+
+<!-- Panel 1: broken machine -->
+<g transform="translate(830 1092) scale(.9)">
+  <rect x="-70" y="-12" width="140" height="12" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-60" y="-130" width="120" height="118" rx="10" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-60" y="-130" width="120" height="30" rx="10" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="30" cy="-115" r="6" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="46" cy="-115" r="6" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <g transform="translate(0 -56) rotate(20)">
+    <rect x="-7" y="-36" width="14" height="72" rx="3" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <g transform="rotate(45)"><rect x="-7" y="-36" width="14" height="72" rx="3" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/></g>
+    <g transform="rotate(90)"><rect x="-7" y="-36" width="14" height="72" rx="3" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/></g>
+    <g transform="rotate(135)"><rect x="-7" y="-36" width="14" height="72" rx="3" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/></g>
+    <circle cx="0" cy="0" r="28" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="9" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+</g>
+<path d="M784 1010 L792 1024 L784 1038 L792 1052" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M850 979 L856 989 L850 998" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<g fill="#7f95ab" opacity=".6">
+  <ellipse cx="812" cy="950" rx="22" ry="14"/>
+  <ellipse cx="840" cy="926" rx="24" ry="15"/>
+  <ellipse cx="814" cy="900" rx="18" ry="12"/>
+  <ellipse cx="842" cy="876" rx="14" ry="10"/>
+</g>
+<polygon points="752,980 758,992 770,994 760,1002 763,1014 752,1007 741,1014 744,1002 734,994 746,992" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="728" cy="1082" r="6" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+<g transform="translate(908 1080) rotate(30)"><rect x="-10" y="-4" width="20" height="8" rx="2" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/></g>
+<g transform="translate(912 830)">
+  <g transform="rotate(45)"><rect x="-7" y="-32" width="14" height="64" rx="4" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/></g>
+  <g transform="rotate(-45)"><rect x="-7" y="-32" width="14" height="64" rx="4" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/></g>
+</g>
+
+<!-- Panel 2: scheduled maintenance -->
+<g transform="translate(428 800)">
+  <rect x="4" y="6" width="92" height="100" rx="8" fill="#22303f" opacity=".18"/>
+  <rect x="0" y="0" width="92" height="100" rx="8" fill="#ffffff"/>
+  <rect x="0" y="0" width="92" height="22" rx="8" fill="#2f7fb5"/>
+  <rect x="0" y="11" width="92" height="11" fill="#2f7fb5"/>
+  <rect x="0" y="0" width="92" height="100" rx="8" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="20" y="-8" width="6" height="16" rx="3" fill="#7f95ab"/>
+  <rect x="66" y="-8" width="6" height="16" rx="3" fill="#7f95ab"/>
+  <rect x="9" y="34" width="12" height="12" rx="2" fill="#dff1f7"/>
+  <rect x="31" y="34" width="12" height="12" rx="2" fill="#dff1f7"/>
+  <rect x="53" y="34" width="12" height="12" rx="2" fill="#f0c48c"/>
+  <rect x="75" y="34" width="12" height="12" rx="2" fill="#dff1f7"/>
+  <rect x="9" y="54" width="12" height="12" rx="2" fill="#dff1f7"/>
+  <rect x="31" y="54" width="12" height="12" rx="2" fill="#f0c48c"/>
+  <rect x="53" y="54" width="12" height="12" rx="2" fill="#dff1f7"/>
+  <rect x="75" y="54" width="12" height="12" rx="2" fill="#dff1f7"/>
+  <rect x="9" y="74" width="12" height="12" rx="2" fill="#f0c48c"/>
+  <rect x="31" y="74" width="12" height="12" rx="2" fill="#dff1f7"/>
+  <rect x="53" y="74" width="12" height="12" rx="2" fill="#dff1f7"/>
+  <rect x="75" y="74" width="12" height="12" rx="2" fill="#f0c48c"/>
+  <ellipse cx="59" cy="40" rx="10" ry="9" fill="none" stroke="#c96a1b" stroke-width="2.5"/>
+  <ellipse cx="37" cy="60" rx="10" ry="9" fill="none" stroke="#c96a1b" stroke-width="2.5"/>
+  <ellipse cx="15" cy="80" rx="10" ry="9" fill="none" stroke="#c96a1b" stroke-width="2.5"/>
+  <ellipse cx="81" cy="80" rx="10" ry="9" fill="none" stroke="#c96a1b" stroke-width="2.5"/>
+</g>
+<path d="M570 880 A 30 30 0 1 0 600 850" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+<polygon points="590,850 602,842 602,858" fill="#2f7fb5"/>
+<g transform="translate(596 1092) scale(.9)">
+  <rect x="-70" y="-12" width="140" height="12" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-60" y="-130" width="120" height="118" rx="10" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-60" y="-130" width="120" height="30" rx="10" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="30" cy="-115" r="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="46" cy="-115" r="6" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <g transform="translate(0 -56)">
+    <rect x="-7" y="-36" width="14" height="72" rx="3" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <g transform="rotate(45)"><rect x="-7" y="-36" width="14" height="72" rx="3" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/></g>
+    <g transform="rotate(90)"><rect x="-7" y="-36" width="14" height="72" rx="3" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/></g>
+    <g transform="rotate(135)"><rect x="-7" y="-36" width="14" height="72" rx="3" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/></g>
+    <circle cx="0" cy="0" r="28" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="9" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+</g>
+<path d="M452 1046 Q 470 1024 488 1046" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+<polygon points="440,1088 500,1088 500,1052 470,1042 440,1052" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="498,1058 530,1038 534,1044 500,1068" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="452" y="1060" width="36" height="14" rx="3" fill="#f0c48c"/>
+
+<!-- Panel 3: predictive maintenance -->
+<g transform="translate(314 1092) scale(.9)">
+  <rect x="-70" y="-12" width="140" height="12" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-60" y="-130" width="120" height="118" rx="10" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-60" y="-130" width="120" height="30" rx="10" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="30" cy="-115" r="6" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="46" cy="-115" r="6" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <g transform="translate(0 -56)">
+    <rect x="-7" y="-36" width="14" height="72" rx="3" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <g transform="rotate(45)"><rect x="-7" y="-36" width="14" height="72" rx="3" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/></g>
+    <g transform="rotate(90)"><rect x="-7" y="-36" width="14" height="72" rx="3" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/></g>
+    <g transform="rotate(135)"><rect x="-7" y="-36" width="14" height="72" rx="3" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/></g>
+    <circle cx="0" cy="0" r="28" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="9" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+</g>
+<path d="M284 962 Q 280 915 258 900" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="1 9"/>
+<circle cx="290" cy="972" r="9" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+<circle cx="290" cy="972" r="3.5" fill="#17457f"/>
+<polygon points="232,858 256,898 208,898" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="229.5" y="868" width="5" height="16" rx="2.5" fill="#ffffff"/>
+<circle cx="232" cy="890" r="3" fill="#ffffff"/>
+<g transform="translate(352 810)">
+  <circle cx="0" cy="0" r="20" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M -9 0 L -3 7 L 10 -8" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(178 1092)">
+  <rect x="-16" y="-60" width="13" height="60" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="3" y="-60" width="13" height="60" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="-11" cy="0" rx="12" ry="5" fill="#22303f"/>
+  <ellipse cx="11" cy="0" rx="12" ry="5" fill="#22303f"/>
+  <polygon points="-22,-112 -14,-112 -18,-66 -26,-66" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="-22" cy="-64" r="6" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-22" y="-118" width="44" height="64" rx="12" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-22" y="-80" width="44" height="6" fill="#ffd24a"/>
+  <circle cx="0" cy="-136" r="18" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M -20 -140 A 20 20 0 0 1 20 -140 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="-24" y="-143" width="48" height="7" rx="3.5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-12" y="-134" width="24" height="8" rx="4" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M -6 -123 Q 0 -119 6 -123" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <g transform="translate(44 -88) rotate(-30)">
+    <rect x="-3.5" y="-34" width="7" height="36" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="-38" r="9" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="-2.5" y="-48" width="5" height="9" fill="#dff1f7"/>
+  </g>
+  <polygon points="14,-114 24,-110 42,-88 34,-82" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="40" cy="-84" r="6" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<rect x="105" y="752" width="866" height="484" rx="24" fill="none" stroke="#22303f" stroke-width="2.5"/>
+
+<!-- Header icon: wrench -->
+<g transform="translate(120 106)">
+  <g transform="translate(24 24) rotate(45)">
+    <rect x="-5" y="-16" width="10" height="36" rx="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="-20" r="12" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="-4" y="-34" width="8" height="12" fill="#fffdf7"/>
+  </g>
+</g>
+
+<!-- Icon beside bullet 1: warning triangle -->
+<g transform="translate(886 260)">
+  <polygon points="26,2 50,46 2,46" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="23.5" y="16" width="5" height="16" rx="2.5" fill="#22303f"/>
+  <circle cx="26" cy="39" r="3" fill="#22303f"/>
+</g>
+
+<!-- Icon beside bullet 2: calendar -->
+<g transform="translate(886 460)">
+  <rect x="2" y="8" width="48" height="42" rx="6" fill="#ffffff"/>
+  <rect x="2" y="8" width="48" height="12" rx="6" fill="#2f7fb5"/>
+  <rect x="2" y="14" width="48" height="6" fill="#2f7fb5"/>
+  <rect x="2" y="8" width="48" height="42" rx="6" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="13" y="2" width="5" height="12" rx="2.5" fill="#7f95ab"/>
+  <rect x="34" y="2" width="5" height="12" rx="2.5" fill="#7f95ab"/>
+  <rect x="10" y="26" width="8" height="7" rx="2" fill="#dff1f7"/>
+  <rect x="22" y="26" width="8" height="7" rx="2" fill="#dff1f7"/>
+  <rect x="34" y="26" width="8" height="7" rx="2" fill="#f0c48c"/>
+  <rect x="10" y="38" width="8" height="7" rx="2" fill="#dff1f7"/>
+  <rect x="22" y="38" width="8" height="7" rx="2" fill="#dff1f7"/>
+  <rect x="34" y="38" width="8" height="7" rx="2" fill="#dff1f7"/>
+</g>
+
+<!-- Icon beside bullet 3: sensor signal -->
+<g transform="translate(886 660)">
+  <circle cx="26" cy="26" r="10" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="26" cy="26" r="4" fill="#17457f"/>
+  <path d="M8 14 q -8 12 0 24" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M44 14 q 8 12 0 24" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Bullets -->
+<circle cx="966" cy="224" r="6" fill="#c0392b"/>
+<circle cx="114" cy="264" r="6" fill="#c0392b"/>
+<circle cx="966" cy="384" r="6" fill="#c0392b"/>
+<circle cx="114" cy="464" r="6" fill="#c0392b"/>
+<circle cx="966" cy="584" r="6" fill="#c0392b"/>
+<circle cx="114" cy="664" r="6" fill="#c0392b"/>
+
+<!-- Text -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">ثلاث طرق للصيانة</text>
+<text x="120" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">Three Ways to Maintain a Machine</text>
+
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">صيانة بعد العطل:</tspan> «لما تبوظ نصلّحها».</tspan>
+</text>
+<text x="132" y="274" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#c0392b">Repair after failure:</tspan></tspan>
+  <tspan x="132" dy="40">"Fix it when it breaks."</tspan>
+</text>
+
+<text x="950" y="394" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#17457f">صيانة دورية:</tspan> «نغيّر الزيت كل 3 شهور،</tspan>
+  <tspan x="950" dy="40">احتاج أم لا».</tspan>
+</text>
+<text x="132" y="474" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#17457f">Scheduled maintenance:</tspan> "Change the oil</tspan>
+  <tspan x="132" dy="40">every 3 months, needed or not."</tspan>
+</text>
+
+<text x="950" y="594" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#2e7d32">صيانة تنبؤية:</tspan> «الحساس يقول إن مشكلة قادمة،</tspan>
+  <tspan x="950" dy="40">فلنصلح الآن».</tspan>
+</text>
+<text x="132" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#2e7d32">Predictive maintenance:</tspan> "The sensor</tspan>
+  <tspan x="132" dy="40">says trouble is coming, so fix it now."</tspan>
+</text>
+
+<!-- Panel labels -->
+<text x="937" y="1154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">بعد العطل</text>
+<text x="705" y="1194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">After failure</text>
+<text x="654" y="1154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">دورية</text>
+<text x="422" y="1194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Scheduled</text>
+<text x="371" y="1154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">تنبؤية</text>
+<text x="139" y="1194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Predictive</text>
+</svg>

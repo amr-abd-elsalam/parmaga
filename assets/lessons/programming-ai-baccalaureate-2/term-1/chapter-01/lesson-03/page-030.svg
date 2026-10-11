@@ -1,0 +1,260 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilSkyGolden" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#8fc9f2"/>
+  </linearGradient>
+</defs>
+
+<!-- Bullets -->
+<circle cx="966" cy="504" r="6" fill="#c0392b"/>
+<circle cx="114" cy="544" r="6" fill="#c0392b"/>
+<circle cx="966" cy="624" r="6" fill="#c0392b"/>
+<circle cx="114" cy="664" r="6" fill="#c0392b"/>
+<circle cx="966" cy="744" r="6" fill="#c0392b"/>
+<circle cx="114" cy="784" r="6" fill="#c0392b"/>
+<circle cx="966" cy="864" r="6" fill="#c0392b"/>
+<circle cx="114" cy="904" r="6" fill="#c0392b"/>
+
+<!-- Icon: light bulb (the golden question) -->
+<g transform="translate(790 372)">
+  <circle cx="28" cy="22" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="21" y="36" width="14" height="10" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="23" y1="51" x2="33" y2="51" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M22 22 Q 28 14 34 22" fill="none" stroke="#c96a1b" stroke-width="2" stroke-linecap="round"/>
+</g>
+
+<!-- Face: thinking (question) -->
+<g transform="translate(900 400)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Bullet icon 1: tilted balance scale -->
+<g transform="translate(904 564) scale(.85)">
+  <g transform="translate(-28 -28)">
+    <rect x="26" y="12" width="4" height="36" fill="#17457f"/>
+    <rect x="14" y="46" width="28" height="6" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <g transform="rotate(-14 28 16)">
+      <line x1="6" y1="16" x2="50" y2="16" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="8" y1="16" x2="2" y2="30" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="8" y1="16" x2="14" y2="30" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="48" y1="16" x2="42" y2="30" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="48" y1="16" x2="54" y2="30" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M2 30 Q 8 40 14 30 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M42 30 Q 48 40 54 30 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    </g>
+    <circle cx="28" cy="16" r="4" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+</g>
+
+<!-- Bullet icon 2: cloud with question mark -->
+<g transform="translate(904 684) scale(.85)">
+  <ellipse cx="0" cy="6" rx="24" ry="13" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-8" cy="-4" r="11" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="8" cy="-8" r="12" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="0" cy="5" rx="21" ry="10" fill="#8fc9f2"/>
+  <circle cx="-8" cy="-3" r="8" fill="#8fc9f2"/>
+  <circle cx="8" cy="-7" r="9" fill="#8fc9f2"/>
+  <path d="M -6 -8 Q -6 -16 1 -16 Q 8 -16 8 -10 Q 8 -5 1 -2 V 3" fill="none" stroke="#17457f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="1" cy="10" r="2.5" fill="#17457f"/>
+</g>
+
+<!-- Bullet icon 3: closed black box -->
+<g transform="translate(904 804) scale(.85)">
+  <rect x="-18" y="-10" width="36" height="28" rx="3" fill="#22303f"/>
+  <rect x="-22" y="-18" width="44" height="10" rx="3" fill="#22303f" stroke="#7f95ab" stroke-width="2"/>
+  <rect x="-3" y="-6" width="6" height="9" rx="2" fill="#7f95ab"/>
+</g>
+
+<!-- Bullet icon 4: book with seal -->
+<g transform="translate(904 924) scale(.85)">
+  <rect x="-20" y="-18" width="40" height="36" rx="3" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-20" y="-18" width="8" height="36" rx="3" fill="#17457f"/>
+  <circle cx="5" cy="0" r="9" fill="#c0392b" stroke="#22303f" stroke-width="2"/>
+  <circle cx="5" cy="0" r="3.5" fill="#ffd24a"/>
+</g>
+
+<!-- Illustration: a student checks an AI answer through four gates -->
+<g>
+  <rect x="109" y="972" width="870" height="274" rx="24" fill="#22303f" opacity=".18"/>
+  <rect x="105" y="966" width="870" height="274" rx="24" fill="url(#ilSkyGolden)"/>
+  <path d="M105 1140 C 300 1120, 780 1120, 975 1140 V1216 Q975 1240 951 1240 H129 Q105 1240 105 1216 Z" fill="#a9dcbe"/>
+
+  <!-- Sun and clouds -->
+  <circle cx="920" cy="1004" r="18" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="210" cy="1004" rx="32" ry="11" fill="#ffffff"/>
+  <ellipse cx="238" cy="996" rx="20" ry="11" fill="#ffffff"/>
+  <ellipse cx="740" cy="1000" rx="28" ry="10" fill="#ffffff"/>
+
+  <!-- Student holding an answer card -->
+  <rect x="516" y="1120" width="20" height="40" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="544" y="1120" width="20" height="40" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="524" cy="1162" rx="13" ry="5" fill="#22303f"/>
+  <ellipse cx="556" cy="1162" rx="13" ry="5" fill="#22303f"/>
+  <rect x="504" y="1034" width="72" height="92" rx="14" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="540" cy="1012" r="22" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M518 1008 Q 520 986 540 986 Q 560 986 562 1008 Q 550 996 518 1008 Z" fill="#2b211c"/>
+  <circle cx="533" cy="1014" r="2.5" fill="#22303f"/>
+  <circle cx="547" cy="1014" r="2.5" fill="#22303f"/>
+  <path d="M533 1022 Q 540 1027 547 1022" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+  <rect x="512" y="1068" width="56" height="42" rx="5" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="522" y="1078" width="36" height="4" rx="2" fill="#7f95ab"/>
+  <rect x="522" y="1088" width="28" height="4" rx="2" fill="#7f95ab"/>
+  <rect x="522" y="1098" width="32" height="4" rx="2" fill="#7f95ab"/>
+  <circle cx="512" cy="1090" r="8" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="568" cy="1090" r="8" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Arrows between gates -->
+  <line x1="773" y1="1137" x2="740" y2="1148.5" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="727,1153 742.7,1156 737.3,1141" fill="#c0392b"/>
+  <path d="M 642 1196 Q 540 1236 449 1203" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="436,1198.6 451.9,1195.9 446.5,1210.9" fill="#c0392b"/>
+  <line x1="353" y1="1153" x2="324" y2="1142.7" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="311,1138 326.7,1135.2 321.3,1150.2" fill="#c0392b"/>
+  <line x1="215" y1="1098.5" x2="199.6" y2="1091" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="187,1085 203,1083.8 196.2,1098.2" fill="#c0392b"/>
+
+  <!-- Gate 1: tilted balance scale -->
+  <g transform="translate(820 1120)">
+    <rect x="-6" y="40" width="12" height="20" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="4" cy="6" r="44" fill="#22303f" opacity=".18"/>
+    <circle cx="0" cy="0" r="44" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="33" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <g transform="translate(-22 -24) scale(.8)">
+      <rect x="26" y="12" width="4" height="36" fill="#17457f"/>
+      <rect x="14" y="46" width="28" height="6" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+      <g transform="rotate(-14 28 16)">
+        <line x1="6" y1="16" x2="50" y2="16" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+        <line x1="8" y1="16" x2="2" y2="30" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+        <line x1="8" y1="16" x2="14" y2="30" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+        <line x1="48" y1="16" x2="42" y2="30" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+        <line x1="48" y1="16" x2="54" y2="30" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+        <path d="M2 30 Q 8 40 14 30 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+        <path d="M42 30 Q 48 40 54 30 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+      </g>
+      <circle cx="28" cy="16" r="4" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+    </g>
+  </g>
+
+  <!-- Gate 2: cloud with question mark -->
+  <g transform="translate(680 1170)">
+    <rect x="-6" y="40" width="12" height="20" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="4" cy="6" r="44" fill="#22303f" opacity=".18"/>
+    <circle cx="0" cy="0" r="44" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="33" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <g transform="scale(.9)">
+      <ellipse cx="0" cy="6" rx="24" ry="13" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+      <circle cx="-8" cy="-4" r="11" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+      <circle cx="8" cy="-8" r="12" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+      <ellipse cx="0" cy="5" rx="21" ry="10" fill="#8fc9f2"/>
+      <circle cx="-8" cy="-3" r="8" fill="#8fc9f2"/>
+      <circle cx="8" cy="-7" r="9" fill="#8fc9f2"/>
+      <path d="M -6 -8 Q -6 -16 1 -16 Q 8 -16 8 -10 Q 8 -5 1 -2 V 3" fill="none" stroke="#17457f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1" cy="10" r="2.5" fill="#17457f"/>
+    </g>
+  </g>
+
+  <!-- Gate 3: closed black box -->
+  <g transform="translate(400 1170)">
+    <rect x="-6" y="40" width="12" height="20" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="4" cy="6" r="44" fill="#22303f" opacity=".18"/>
+    <circle cx="0" cy="0" r="44" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="33" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="-18" y="-8" width="36" height="28" rx="3" fill="#22303f"/>
+    <rect x="-22" y="-16" width="44" height="10" rx="3" fill="#22303f" stroke="#7f95ab" stroke-width="2"/>
+    <rect x="-3" y="-4" width="6" height="9" rx="2" fill="#7f95ab"/>
+  </g>
+
+  <!-- Gate 4: book with seal -->
+  <g transform="translate(260 1120)">
+    <rect x="-6" y="40" width="12" height="20" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="4" cy="6" r="44" fill="#22303f" opacity=".18"/>
+    <circle cx="0" cy="0" r="44" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="33" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="-20" y="-18" width="40" height="36" rx="3" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="-20" y="-18" width="8" height="36" rx="3" fill="#17457f"/>
+    <circle cx="5" cy="0" r="9" fill="#c0392b" stroke="#22303f" stroke-width="2"/>
+    <circle cx="5" cy="0" r="3.5" fill="#ffd24a"/>
+  </g>
+
+  <!-- Green check after the last gate -->
+  <circle cx="164" cy="1078" r="24" fill="#22303f" opacity=".18"/>
+  <circle cx="160" cy="1072" r="24" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M149 1072 L157 1080 L172 1064" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="105" y="966" width="870" height="274" rx="24" fill="none" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Text -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="950" dy="0">سؤال الذهب: «بِه صَح؟»</tspan>
+</text>
+<text x="120" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="120" dy="0">The Golden Question: "Bih Sah?"</tspan>
+  <tspan x="120" dy="40">(Is it right?)</tspan>
+</text>
+
+<text x="950" y="274" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">قبل أن تصدّق أي نتيجة، اسأل: <tspan font-weight="bold" fill="#c0392b">«بِه صَح؟»؛</tspan></tspan>
+  <tspan x="950" dy="40">كل حرف يذكّرك <tspan font-weight="bold" fill="#17457f">بعيب</tspan> في الآلة.</tspan>
+</text>
+<text x="120" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Before believing any result, ask</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#c0392b">"Bih Sah?";</tspan> each letter is a</tspan>
+  <tspan x="120" dy="40">machine <tspan font-weight="bold" fill="#17457f">weakness.</tspan></tspan>
+</text>
+
+<text x="950" y="514" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">بـ:</tspan> بيانات تدريب متحيزة</tspan>
+</text>
+<text x="132" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#c0392b">B:</tspan> biased training data</tspan>
+</text>
+
+<text x="950" y="634" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">هـ:</tspan> هلوسة</tspan>
+</text>
+<text x="132" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#c0392b">H:</tspan> hallucination</tspan>
+</text>
+
+<text x="950" y="754" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">صَ:</tspan> صندوق أسود</tspan>
+</text>
+<text x="132" y="794" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#c0392b">S:</tspan> black box</tspan>
+</text>
+
+<text x="950" y="874" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">ح:</tspan> حقوق المؤلف</tspan>
+</text>
+<text x="132" y="914" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#c0392b">H:</tspan> copyright (huquq)</tspan>
+</text>
+</svg>

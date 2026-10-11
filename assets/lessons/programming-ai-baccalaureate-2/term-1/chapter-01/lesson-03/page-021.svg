@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8fc9f2"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+</defs>
+
+<!-- Illustration frame -->
+<rect x="109" y="836" width="866" height="410" rx="24" fill="#22303f" opacity=".18"/>
+<rect x="105" y="830" width="866" height="410" rx="24" fill="url(#ilSky)"/>
+
+<!-- City map seen from above -->
+<rect x="125" y="850" width="826" height="370" rx="14" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+
+<!-- Blocks: small buildings -->
+<g fill="#ffffff" stroke="#8fc9f2" stroke-width="2.5">
+  <rect x="140" y="860" width="100" height="24" rx="4"/>
+  <rect x="285" y="860" width="170" height="24" rx="4"/>
+  <rect x="505" y="860" width="170" height="24" rx="4"/>
+  <rect x="725" y="860" width="210" height="24" rx="4"/>
+  <rect x="285" y="1050" width="80" height="44" rx="4"/>
+  <rect x="380" y="1050" width="80" height="44" rx="4"/>
+  <rect x="285" y="1104" width="175" height="36" rx="4"/>
+  <rect x="140" y="1176" width="100" height="36" rx="4"/>
+  <rect x="285" y="1176" width="175" height="36" rx="4"/>
+  <rect x="725" y="1176" width="210" height="36" rx="4"/>
+  <rect x="725" y="1120" width="60" height="26" rx="4"/>
+</g>
+
+<!-- Parks -->
+<rect x="290" y="936" width="160" height="72" rx="12" fill="#a9dcbe" stroke="#2e7d32" stroke-width="2.5"/>
+<g fill="#2e7d32">
+  <circle cx="318" cy="962" r="11"/>
+  <circle cx="352" cy="982" r="11"/>
+  <circle cx="390" cy="960" r="11"/>
+  <circle cx="424" cy="984" r="11"/>
+</g>
+<rect x="505" y="1050" width="175" height="90" rx="12" fill="#a9dcbe" stroke="#2e7d32" stroke-width="2.5"/>
+<g fill="#2e7d32">
+  <circle cx="535" cy="1078" r="11"/>
+  <circle cx="575" cy="1108" r="11"/>
+  <circle cx="615" cy="1076" r="11"/>
+  <circle cx="650" cy="1110" r="11"/>
+</g>
+
+<!-- Thin grey streets -->
+<g fill="#e8dfd1" stroke="#7f95ab" stroke-width="2.5">
+  <rect x="127" y="892" width="822" height="16"/>
+  <rect x="127" y="1152" width="822" height="16"/>
+  <rect x="127" y="1022" width="673" height="16"/>
+  <rect x="252" y="852" width="16" height="366"/>
+  <rect x="472" y="852" width="16" height="366"/>
+  <rect x="692" y="852" width="16" height="366"/>
+</g>
+
+<!-- Traffic cluster on a street off the route -->
+<g transform="translate(313 1030)">
+  <rect x="-13" y="-6" width="26" height="12" rx="4" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-5" y="-3" width="8" height="6" rx="2" fill="#4fc3e8"/>
+</g>
+<g transform="translate(347 1030)">
+  <rect x="-13" y="-6" width="26" height="12" rx="4" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-5" y="-3" width="8" height="6" rx="2" fill="#4fc3e8"/>
+</g>
+<g transform="translate(381 1030)">
+  <rect x="-13" y="-6" width="26" height="12" rx="4" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-5" y="-3" width="8" height="6" rx="2" fill="#4fc3e8"/>
+</g>
+<g transform="translate(415 1030)">
+  <rect x="-13" y="-6" width="26" height="12" rx="4" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-5" y="-3" width="8" height="6" rx="2" fill="#4fc3e8"/>
+</g>
+
+<!-- Factory on the right -->
+<rect x="804" y="1016" width="140" height="90" fill="#22303f" opacity=".18"/>
+<rect x="912" y="950" width="18" height="50" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+<polygon points="800,1010 835,976 835,1010 870,976 870,1010 905,976 905,1010" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="800" y="1010" width="140" height="90" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+<rect x="815" y="1030" width="22" height="18" rx="3" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+<rect x="852" y="1030" width="22" height="18" rx="3" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+<rect x="889" y="1030" width="22" height="18" rx="3" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+<rect x="845" y="1064" width="40" height="36" rx="3" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+
+<!-- One clear blue route through all five stores -->
+<g fill="#17457f">
+  <rect x="696" y="1026" width="104" height="8" rx="4"/>
+  <rect x="696" y="896" width="8" height="138" rx="4"/>
+  <rect x="256" y="896" width="448" height="8" rx="4"/>
+  <rect x="256" y="896" width="8" height="268" rx="4"/>
+  <rect x="256" y="1156" width="338" height="8" rx="4"/>
+</g>
+
+<!-- Stop points on the route -->
+<g fill="#ffd24a" stroke="#22303f" stroke-width="2.5">
+  <circle cx="700" cy="965" r="7"/>
+  <circle cx="590" cy="900" r="7"/>
+  <circle cx="260" cy="950" r="7"/>
+  <circle cx="260" cy="1095" r="7"/>
+  <circle cx="590" cy="1160" r="7"/>
+</g>
+
+<!-- Five stores -->
+<g transform="translate(745 965)">
+  <rect x="-22" y="-12" width="44" height="30" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-26" y="-22" width="52" height="12" rx="3" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-10" y="-20" width="7" height="8" fill="#ffffff"/>
+  <rect x="5" y="-20" width="7" height="8" fill="#ffffff"/>
+  <rect x="-6" y="2" width="12" height="16" fill="#2f7fb5"/>
+</g>
+<g transform="translate(590 945)">
+  <rect x="-22" y="-12" width="44" height="30" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-26" y="-22" width="52" height="12" rx="3" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-10" y="-20" width="7" height="8" fill="#ffffff"/>
+  <rect x="5" y="-20" width="7" height="8" fill="#ffffff"/>
+  <rect x="-6" y="2" width="12" height="16" fill="#2f7fb5"/>
+</g>
+<g transform="translate(195 950)">
+  <rect x="-22" y="-12" width="44" height="30" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-26" y="-22" width="52" height="12" rx="3" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-10" y="-20" width="7" height="8" fill="#ffffff"/>
+  <rect x="5" y="-20" width="7" height="8" fill="#ffffff"/>
+  <rect x="-6" y="2" width="12" height="16" fill="#2f7fb5"/>
+</g>
+<g transform="translate(195 1095)">
+  <rect x="-22" y="-12" width="44" height="30" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-26" y="-22" width="52" height="12" rx="3" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-10" y="-20" width="7" height="8" fill="#ffffff"/>
+  <rect x="5" y="-20" width="7" height="8" fill="#ffffff"/>
+  <rect x="-6" y="2" width="12" height="16" fill="#2f7fb5"/>
+</g>
+<g transform="translate(590 1200)">
+  <rect x="-22" y="-12" width="44" height="30" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-26" y="-22" width="52" height="12" rx="3" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-10" y="-20" width="7" height="8" fill="#ffffff"/>
+  <rect x="5" y="-20" width="7" height="8" fill="#ffffff"/>
+  <rect x="-6" y="2" width="12" height="16" fill="#2f7fb5"/>
+</g>
+
+<!-- Delivery truck driving along the route -->
+<g transform="translate(420 900)">
+  <ellipse cx="-6" cy="20" rx="40" ry="5" fill="#22303f" opacity=".18"/>
+  <rect x="-28" y="-16" width="42" height="28" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-20" y="-8" width="26" height="10" rx="2" fill="#c0392b"/>
+  <rect x="-46" y="-8" width="18" height="20" rx="5" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-43" y="-4" width="9" height="7" rx="2" fill="#4fc3e8"/>
+  <circle cx="-36" cy="14" r="5" fill="#22303f"/>
+  <circle cx="-14" cy="14" r="5" fill="#22303f"/>
+  <circle cx="4" cy="14" r="5" fill="#22303f"/>
+</g>
+
+<rect x="105" y="830" width="866" height="410" rx="24" fill="none" stroke="#22303f" stroke-width="2.5"/>
+
+<!-- Icon beside paragraph 1: delivery truck -->
+<g transform="translate(884 380)">
+  <rect x="2" y="6" width="32" height="24" rx="3" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="34" y="14" width="18" height="16" rx="3" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="39" y="17" width="8" height="6" rx="2" fill="#dff1f7"/>
+  <circle cx="12" cy="34" r="6" fill="#22303f"/>
+  <circle cx="42" cy="34" r="6" fill="#22303f"/>
+</g>
+
+<!-- Header icon: route pin -->
+<g transform="translate(124 426)">
+  <path d="M25 46 C 12 30, 8 22, 8 17 A17 17 0 0 1 42 17 C 42 22, 38 30, 25 46 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="25" cy="17" r="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon beside paragraph 2: fuel pump -->
+<g transform="translate(900 780)">
+  <rect x="2" y="4" width="26" height="36" rx="4" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="7" y="10" width="16" height="10" rx="2" fill="#dff1f7"/>
+  <path d="M28 12 Q 40 14 38 28 L 38 34" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="38" cy="36" r="3" fill="#22303f"/>
+</g>
+
+<!-- Text -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">المحطة 3: الطريق (الخدمات اللوجستية)</text>
+<text x="120" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">Stop 3: The Road (Logistics)</text>
+
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#17457f">شاحنة توصيل</tspan> تحمل علب الصلصة إلى عشرات</tspan>
+  <tspan x="950" dy="40">المتاجر. فما أفضل ترتيب للمحطات؟</tspan>
+</text>
+<text x="120" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">A <tspan font-weight="bold" fill="#17457f">delivery truck</tspan> carries the sauce cans</tspan>
+  <tspan x="120" dy="40">to dozens of stores. What is the best</tspan>
+  <tspan x="120" dy="40">order of stops?</tspan>
+</text>
+
+<text x="950" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">تحسين مسارات التوصيل</text>
+<text x="190" y="514" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">Route Optimization</text>
+
+<text x="950" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">يحسب الذكاء الاصطناعي <tspan font-weight="bold" fill="#17457f">أفضل طريق</tspan> وترتيب</tspan>
+  <tspan x="950" dy="40">للمحطات، مع مراعاة <tspan fill="#c96a1b">الزحام</tspan> والمسافة والوقت،</tspan>
+  <tspan x="950" dy="40">فيقل الوقود والتأخير.</tspan>
+</text>
+<text x="120" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">AI calculates the <tspan font-weight="bold" fill="#17457f">best route</tspan> and order</tspan>
+  <tspan x="120" dy="40">of stops, considering <tspan fill="#c96a1b">traffic,</tspan> distance,</tspan>
+  <tspan x="120" dy="40">and time, so less fuel is used and</tspan>
+  <tspan x="120" dy="40">there are fewer delays.</tspan>
+</text>
+</svg>

@@ -4,346 +4,176 @@
      viewBox="0 0 1080 1350"
      preserveAspectRatio="xMidYMid meet"
      style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-  <defs>
-    <linearGradient id="deskWood" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#b17a41"/>
-      <stop offset="0.55" stop-color="#9a6531"/>
-      <stop offset="1" stop-color="#83522a"/>
-    </linearGradient>
-    <linearGradient id="paperTone" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fffdf7"/>
-      <stop offset="1" stop-color="#fdf7ea"/>
-    </linearGradient>
-  </defs>
+<defs>
+  <linearGradient id="ilWall" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+</defs>
 
-  <rect x="0" y="0" width="1080" height="1350" fill="url(#deskWood)"/>
-  <path d="M0,210 C300,168 720,262 1080,214" fill="none" stroke="#7c4d27" stroke-width="26" opacity="0.16"/>
-  <path d="M0,905 C330,862 760,978 1080,928" fill="none" stroke="#7c4d27" stroke-width="20" opacity="0.13"/>
+<!-- Info card -->
+<rect x="109" y="528" width="870" height="288" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="522" width="870" height="288" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="538" width="6" height="256" rx="3" fill="#2f7fb5"/>
 
-  <rect x="42" y="40" width="1012" height="1290" rx="6" fill="#573419" opacity="0.26"/>
-  <rect x="34" y="30" width="1012" height="1290" rx="5" fill="url(#paperTone)"/>
+<!-- Illustration: sensors warn a technician before the machine breaks down -->
+<rect x="109" y="852" width="866" height="394" rx="24" fill="#22303f" opacity=".18"/>
+<rect x="105" y="846" width="866" height="394" rx="24" fill="url(#ilWall)"/>
 
-  <g stroke="#cadff1" stroke-width="1.3" opacity="0.75">
-    <line x1="90" y1="134" x2="990" y2="134"/>
-    <line x1="90" y1="166" x2="990" y2="166"/>
-    <line x1="90" y1="198" x2="990" y2="198"/>
-    <line x1="90" y1="230" x2="990" y2="230"/>
-    <line x1="90" y1="262" x2="990" y2="262"/>
-    <line x1="90" y1="294" x2="990" y2="294"/>
-    <line x1="90" y1="326" x2="990" y2="326"/>
-    <line x1="90" y1="358" x2="990" y2="358"/>
-    <line x1="90" y1="390" x2="990" y2="390"/>
-    <line x1="90" y1="422" x2="990" y2="422"/>
-    <line x1="90" y1="454" x2="990" y2="454"/>
-    <line x1="90" y1="486" x2="990" y2="486"/>
-    <line x1="90" y1="518" x2="990" y2="518"/>
-    <line x1="90" y1="550" x2="990" y2="550"/>
-    <line x1="90" y1="582" x2="990" y2="582"/>
-    <line x1="90" y1="614" x2="990" y2="614"/>
-    <line x1="90" y1="646" x2="990" y2="646"/>
-    <line x1="90" y1="678" x2="990" y2="678"/>
-    <line x1="90" y1="710" x2="990" y2="710"/>
-    <line x1="90" y1="742" x2="990" y2="742"/>
-    <line x1="90" y1="774" x2="990" y2="774"/>
-    <line x1="90" y1="806" x2="990" y2="806"/>
-    <line x1="90" y1="838" x2="990" y2="838"/>
-    <line x1="90" y1="870" x2="990" y2="870"/>
-    <line x1="90" y1="902" x2="990" y2="902"/>
-    <line x1="90" y1="934" x2="990" y2="934"/>
-    <line x1="90" y1="966" x2="990" y2="966"/>
-    <line x1="90" y1="998" x2="990" y2="998"/>
-    <line x1="90" y1="1030" x2="990" y2="1030"/>
-    <line x1="90" y1="1062" x2="990" y2="1062"/>
-    <line x1="90" y1="1094" x2="990" y2="1094"/>
-    <line x1="90" y1="1126" x2="990" y2="1126"/>
-    <line x1="90" y1="1158" x2="990" y2="1158"/>
+<!-- Windows -->
+<rect x="150" y="868" width="70" height="40" rx="6" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+<rect x="250" y="868" width="70" height="40" rx="6" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+
+<!-- Floor -->
+<path d="M105 1188 L971 1188 L971 1216 Q971 1240 947 1240 L129 1240 Q105 1240 105 1216 Z" fill="#e8dfd1"/>
+
+<!-- Machine -->
+<rect x="680" y="1178" width="250" height="14" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+<rect x="690" y="930" width="230" height="250" rx="10" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+<rect x="690" y="930" width="230" height="40" rx="10" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+<circle cx="870" cy="950" r="7" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+<circle cx="895" cy="950" r="7" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+<g transform="translate(800 1050)">
+  <rect x="-8" y="-52" width="16" height="104" rx="3" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <g transform="rotate(45)"><rect x="-8" y="-52" width="16" height="104" rx="3" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/></g>
+  <g transform="rotate(90)"><rect x="-8" y="-52" width="16" height="104" rx="3" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/></g>
+  <g transform="rotate(135)"><rect x="-8" y="-52" width="16" height="104" rx="3" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/></g>
+  <circle cx="0" cy="0" r="42" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="0" cy="0" r="14" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+</g>
+<g transform="translate(870 1140)">
+  <rect x="-6" y="-36" width="12" height="72" rx="3" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <g transform="rotate(45)"><rect x="-6" y="-36" width="12" height="72" rx="3" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/></g>
+  <g transform="rotate(90)"><rect x="-6" y="-36" width="12" height="72" rx="3" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/></g>
+  <g transform="rotate(135)"><rect x="-6" y="-36" width="12" height="72" rx="3" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/></g>
+  <circle cx="0" cy="0" r="28" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="0" cy="0" r="9" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Vibration lines -->
+<path d="M934 980 q 8 10 0 20 q -8 10 0 20 q 8 10 0 20" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M952 990 q 8 10 0 20 q -8 10 0 20 q 8 10 0 20" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M740 914 q 10 -8 20 0 q 10 8 20 0" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M830 914 q 10 -8 20 0 q 10 8 20 0" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+
+<!-- Dotted data lines from sensors to tablet -->
+<path d="M700 990 Q 680 945 650 935" fill="none" stroke="#17457f" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="1 9"/>
+<path d="M700 1140 Q 630 1060 650 935" fill="none" stroke="#17457f" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="1 9"/>
+<path d="M650 935 C 560 880, 420 880, 345 950" fill="none" stroke="#17457f" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="1 9"/>
+
+<!-- Sensors -->
+<circle cx="712" cy="990" r="13" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+<circle cx="712" cy="990" r="5" fill="#17457f"/>
+<circle cx="712" cy="1140" r="13" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+<circle cx="712" cy="1140" r="5" fill="#17457f"/>
+
+<!-- Tablet on a stand -->
+<ellipse cx="245" cy="1182" rx="40" ry="8" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+<rect x="236" y="1058" width="18" height="122" rx="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+<rect x="150" y="920" width="190" height="140" rx="14" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+<rect x="162" y="932" width="166" height="116" rx="6" fill="#dff1f7"/>
+<path d="M175 1036 L 318 1036 M175 1036 L 175 990" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+<polyline points="180,1028 210,1016 242,1020 276,994 314,956" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="200,940 222,978 178,978" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="198.5" y="950" width="3" height="16" rx="1.5" fill="#ffffff"/>
+<circle cx="200" cy="971" r="2.2" fill="#ffffff"/>
+
+<!-- Technician walking toward the machine -->
+<polygon points="462,1078 486,1078 462,1180 440,1180" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="482,1078 506,1078 538,1178 516,1182" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+<ellipse cx="447" cy="1184" rx="16" ry="7" fill="#22303f"/>
+<ellipse cx="532" cy="1184" rx="16" ry="7" fill="#22303f"/>
+<polygon points="462,998 476,1002 462,1064 448,1060" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="455" cy="1066" r="7" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+<rect x="458" y="990" width="52" height="96" rx="14" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+<rect x="458" y="1050" width="52" height="8" fill="#ffd24a"/>
+<rect x="488" y="1006" width="14" height="14" rx="3" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+<circle cx="484" cy="966" r="22" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+<path d="M460 962 A24 24 0 0 1 508 962 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="455" y="958" width="58" height="8" rx="4" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+<rect x="488" y="970" width="20" height="9" rx="4" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+<path d="M494 984 Q 499 988 504 984" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+<g transform="translate(552 1040) rotate(-40)">
+  <rect x="-4" y="-34" width="8" height="40" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="0" cy="-40" r="10" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-3" y="-52" width="6" height="10" fill="#dff1f7"/>
+</g>
+<polygon points="498,998 512,1004 548,1040 538,1050" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="546" cy="1048" r="8" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+
+<rect x="105" y="846" width="866" height="394" rx="24" fill="none" stroke="#22303f" stroke-width="2.5"/>
+
+<!-- Header icon: gear -->
+<g transform="translate(120 90)">
+  <g transform="translate(28 28)">
+    <rect x="-5" y="-24" width="10" height="48" rx="2" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+    <g transform="rotate(45)"><rect x="-5" y="-24" width="10" height="48" rx="2" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/></g>
+    <g transform="rotate(90)"><rect x="-5" y="-24" width="10" height="48" rx="2" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/></g>
+    <g transform="rotate(135)"><rect x="-5" y="-24" width="10" height="48" rx="2" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/></g>
+    <circle cx="0" cy="0" r="18" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="6" fill="#17457f"/>
   </g>
+</g>
 
-  <rect x="67" y="92" width="946" height="1086" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+<!-- Icon beside paragraph: sensor signal -->
+<g>
+  <circle cx="900" cy="400" r="14" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="900" cy="400" r="5" fill="#17457f"/>
+  <path d="M874 386 q -10 14 0 28" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M862 380 q -14 20 0 40" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M926 386 q 10 14 0 28" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M938 380 q 14 20 0 40" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+</g>
 
-  <rect x="88" y="222" width="904" height="340" rx="14" fill="#fdf6d6" stroke="#d8c179" stroke-width="1.8"/>
+<!-- Card icon: open book -->
+<g transform="translate(130 534)">
+  <path d="M28 10 C 20 4, 8 4, 2 8 L 2 44 C 8 40, 20 40, 28 46 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M28 10 C 36 4, 48 4, 54 8 L 54 44 C 48 40, 36 40, 28 46 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M9 18 L 21 18 M9 26 L 21 26 M35 18 L 47 18 M35 26 L 47 26" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+</g>
 
-  <g>
-    <rect x="252" y="714" width="56" height="56" rx="6" fill="#ffffff" stroke="#1d4e89" stroke-width="2"/>
-    <rect x="512" y="714" width="56" height="56" rx="6" fill="#ffffff" stroke="#1d4e89" stroke-width="2"/>
-    <rect x="772" y="714" width="56" height="56" rx="6" fill="#ffffff" stroke="#1d4e89" stroke-width="2"/>
-  </g>
+<!-- Text -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">الصيانة التنبؤية</text>
+<text x="120" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">Predictive Maintenance</text>
 
-  <g fill="#ffffff" stroke="#1d4e89" stroke-width="1.9">
-    <rect x="920" y="904" width="34" height="34" rx="5"/>
-    <rect x="920" y="964" width="34" height="34" rx="5"/>
-    <rect x="920" y="1024" width="34" height="34" rx="5"/>
-    <rect x="920" y="1084" width="34" height="34" rx="5"/>
-  </g>
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#17457f">حساسات</tspan> تجمع بيانات الماكينة، مثل <tspan fill="#c96a1b">الاهتزاز</tspan></tspan>
+  <tspan x="950" dy="40"><tspan fill="#c96a1b">والحرارة،</tspan> فيتوقع الذكاء الاصطناعي عطلها</tspan>
+  <tspan x="950" dy="40">قبل أن يحدث، ليصلحها الفني في الوقت المناسب.</tspan>
+</text>
+<text x="120" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#17457f">Sensors</tspan> collect machine data, such as</tspan>
+  <tspan x="120" dy="40"><tspan fill="#c96a1b">vibration and heat,</tspan> so AI can predict</tspan>
+  <tspan x="120" dy="40">a failure before it happens and a</tspan>
+  <tspan x="120" dy="40">technician can fix it in time.</tspan>
+</text>
 
-  <line x1="420" y1="210" x2="660" y2="210" stroke="#7fa8cf" stroke-width="2.4"/>
-
-  <text x="540" y="158"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="44"
-        font-weight="bold"
-        fill="#1d4e89">اقرأ ثم أجب</text>
-
-  <text x="540" y="196"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="29"
-        fill="#2b4a6f">Read and Answer</text>
-
-  <text x="962" y="262"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="26"
-        fill="#1a4f8a">
-    <tspan x="962" dy="0">يُستخدم الذكاء الاصطناعي على نطاق واسع في حياتنا اليومية. على سبيل</tspan>
-    <tspan x="962" dy="32">المثال، تستخدم توصيات مقاطع الفيديو التي تناسب تفضيلات</tspan>
-    <tspan x="962" dy="32">المستخدم نظام (أ). كما تستخدم تقنية (ب) عند التحدث إلى هاتف</tspan>
-    <tspan x="962" dy="32">ذكي لتشغيله، بينما تحوّل تقنية (ج) نصًا بلغة أجنبية إلى اللغة</tspan>
-    <tspan x="962" dy="32">الأم للمستخدم.</tspan>
-  </text>
-
-  <text x="118" y="428"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="23"
-        fill="#14283f">
-    <tspan x="118" dy="0">AI is widely used in our daily lives. For example,</tspan>
-    <tspan x="118" dy="28">recommendations of videos that match the user’s</tspan>
-    <tspan x="118" dy="28">preferences use an (a) system. A (b) technology is used</tspan>
-    <tspan x="118" dy="28">when speaking to a smartphone to operate it, and (c)</tspan>
-    <tspan x="118" dy="28">converts foreign-language text into one’s native language.</tspan>
-  </text>
-
-  <text x="950" y="606"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        font-weight="bold"
-        fill="#1d4e89">السؤال الأول</text>
-
-  <text x="750" y="606"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="28"
-        fill="#8a94a0">|</text>
-
-  <text x="734" y="606"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="end"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="28"
-        fill="#14283f">Question One</text>
-
-  <text x="950" y="650"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="27"
-        fill="#1a4f8a">أكمل الفراغات (أ–ج).</text>
-
-  <text x="120" y="686"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="24"
-        fill="#14283f">Fill in the blanks (a–c).</text>
-
-  <text x="338" y="752"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="26"
-        font-weight="bold"
-        fill="#2e7d32">(أ)</text>
-  <text x="222" y="752"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="24"
-        fill="#2e7d32">(a)</text>
-
-  <text x="598" y="752"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="26"
-        font-weight="bold"
-        fill="#2e7d32">(ب)</text>
-  <text x="482" y="752"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="24"
-        fill="#2e7d32">(b)</text>
-
-  <text x="858" y="752"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="26"
-        font-weight="bold"
-        fill="#2e7d32">(ج)</text>
-  <text x="742" y="752"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="24"
-        fill="#2e7d32">(c)</text>
-
-  <text x="950" y="814"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        font-weight="bold"
-        fill="#1d4e89">السؤال الثاني</text>
-
-  <text x="736" y="814"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="28"
-        fill="#8a94a0">|</text>
-
-  <text x="720" y="814"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="end"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="28"
-        fill="#14283f">Question Two</text>
-
-  <text x="950" y="854"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="27"
-        fill="#1a4f8a">اختر كل ما يتطلب الحذر عند استخدام الذكاء الاصطناعي.</text>
-
-  <text x="120" y="888"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="24"
-        fill="#14283f">Choose all that require caution when using AI.</text>
-
-  <text x="896" y="930"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="25"
-        font-weight="bold"
-        fill="#1d4e89">.1</text>
-  <text x="872" y="930"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="26"
-        fill="#1a4f8a">المعالجة عالية السرعة لكميات كبيرة من البيانات.</text>
-  <text x="120" y="960"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="23"
-        fill="#14283f">High-speed processing of large amounts of data.</text>
-
-  <text x="896" y="990"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="25"
-        font-weight="bold"
-        fill="#1d4e89">.2</text>
-  <text x="872" y="990"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="26"
-        fill="#1a4f8a">الأحكام الأخلاقية.</text>
-  <text x="120" y="1020"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="23"
-        fill="#14283f">Ethical judgments.</text>
-
-  <text x="896" y="1050"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="25"
-        font-weight="bold"
-        fill="#1d4e89">.3</text>
-  <text x="872" y="1050"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="26"
-        fill="#1a4f8a">القرارات التي تشمل المعلومات الشخصية أو الخصوصية.</text>
-  <text x="120" y="1080"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="23"
-        fill="#14283f">Judgments involving personal information or privacy.</text>
-
-  <text x="896" y="1110"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="25"
-        font-weight="bold"
-        fill="#1d4e89">.4</text>
-  <text x="872" y="1110"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="26"
-        fill="#1a4f8a">التعرّف على الصور والصوت.</text>
-  <text x="120" y="1140"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="23"
-        fill="#14283f">Recognition of images and audio.</text>
-
+<text x="935" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">انتبه: <tspan font-weight="bold" fill="#c0392b">الصيانة التنبؤية</tspan> لأعطال الماكينات</tspan>
+  <tspan x="935" dy="40">والمعدات، أما عيوب المنتجات فيكشفها</tspan>
+  <tspan x="935" dy="40"><tspan font-weight="bold" fill="#17457f">فحص الجودة.</tspan></tspan>
+</text>
+<text x="140" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">Note: <tspan font-weight="bold" fill="#c0392b">predictive maintenance</tspan> is about</tspan>
+  <tspan x="140" dy="40">machine and equipment failures;</tspan>
+  <tspan x="140" dy="40">product defects are found by</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#17457f">quality inspection.</tspan></tspan>
+</text>
 </svg>

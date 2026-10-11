@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilPanel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+  <linearGradient id="ilShirt" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+</defs>
+
+<!-- Shadows -->
+<rect x="109" y="648" width="870" height="208" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="564" y="906" width="400" height="340" rx="20" fill="#22303f" opacity=".18"/>
+
+<!-- Warning card -->
+<rect x="105" y="642" width="870" height="208" rx="16" fill="#fdf1e2" stroke="#f0c48c" stroke-width="2"/>
+<rect x="961" y="658" width="6" height="176" rx="3" fill="#c96a1b"/>
+
+<!-- Icon: document stack (data) -->
+<g transform="translate(840 292)">
+  <rect x="12" y="2" width="36" height="46" rx="5" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="4" y="10" width="36" height="46" rx="5" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="12" y1="24" x2="32" y2="24" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="12" y1="33" x2="32" y2="33" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="12" y1="42" x2="26" y2="42" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Face: smile (prediction) -->
+<g transform="translate(870 600)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: warning triangle inside card -->
+<g transform="translate(850 762)">
+  <polygon points="30,4 56,52 4,52" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="27" y="18" width="6" height="20" rx="3" fill="#22303f"/>
+  <circle cx="30" cy="45" r="3.5" fill="#22303f"/>
+</g>
+
+<!-- Illustration right: bar chart with attendance calendars -->
+<g>
+  <rect x="560" y="900" width="400" height="340" rx="20" fill="url(#ilPanel)" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="600" y1="1030" x2="940" y2="1030" stroke="#8fc9f2" stroke-width="2"/>
+  <line x1="600" y1="1080" x2="940" y2="1080" stroke="#8fc9f2" stroke-width="2"/>
+  <line x1="600" y1="1130" x2="940" y2="1130" stroke="#8fc9f2" stroke-width="2"/>
+  <rect x="620" y="980" width="52" height="200" rx="6" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="700" y="1010" width="52" height="170" rx="6" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="780" y="1090" width="52" height="90" rx="6" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="860" y="1120" width="52" height="60" rx="6" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <polyline points="600,930 600,1180 940,1180" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Calendar 1: one cross -->
+  <rect x="623" y="1192" width="46" height="40" rx="5" fill="#ffffff"/>
+  <rect x="623" y="1192" width="46" height="10" rx="5" fill="#2f7fb5"/>
+  <rect x="623" y="1192" width="46" height="40" rx="5" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M630 1208 L638 1216 M638 1208 L630 1216" fill="none" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="646" cy="1212" r="2.5" fill="#8fc9f2"/>
+  <circle cx="658" cy="1212" r="2.5" fill="#8fc9f2"/>
+  <circle cx="634" cy="1224" r="2.5" fill="#8fc9f2"/>
+  <circle cx="646" cy="1224" r="2.5" fill="#8fc9f2"/>
+  <circle cx="658" cy="1224" r="2.5" fill="#8fc9f2"/>
+
+  <!-- Calendar 2: two crosses -->
+  <rect x="703" y="1192" width="46" height="40" rx="5" fill="#ffffff"/>
+  <rect x="703" y="1192" width="46" height="10" rx="5" fill="#2f7fb5"/>
+  <rect x="703" y="1192" width="46" height="40" rx="5" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M710 1208 L718 1216 M718 1208 L710 1216 M722 1220 L730 1228 M730 1220 L722 1228" fill="none" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="726" cy="1212" r="2.5" fill="#8fc9f2"/>
+  <circle cx="738" cy="1212" r="2.5" fill="#8fc9f2"/>
+  <circle cx="714" cy="1224" r="2.5" fill="#8fc9f2"/>
+  <circle cx="738" cy="1224" r="2.5" fill="#8fc9f2"/>
+
+  <!-- Calendar 3: four crosses -->
+  <rect x="783" y="1192" width="46" height="40" rx="5" fill="#ffffff"/>
+  <rect x="783" y="1192" width="46" height="10" rx="5" fill="#2f7fb5"/>
+  <rect x="783" y="1192" width="46" height="40" rx="5" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M790 1208 L798 1216 M798 1208 L790 1216 M802 1208 L810 1216 M810 1208 L802 1216 M814 1208 L822 1216 M822 1208 L814 1216 M790 1220 L798 1228 M798 1220 L790 1228" fill="none" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="806" cy="1224" r="2.5" fill="#8fc9f2"/>
+  <circle cx="818" cy="1224" r="2.5" fill="#8fc9f2"/>
+
+  <!-- Calendar 4: five crosses -->
+  <rect x="863" y="1192" width="46" height="40" rx="5" fill="#ffffff"/>
+  <rect x="863" y="1192" width="46" height="10" rx="5" fill="#2f7fb5"/>
+  <rect x="863" y="1192" width="46" height="40" rx="5" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M870 1208 L878 1216 M878 1208 L870 1216 M882 1208 L890 1216 M890 1208 L882 1216 M894 1208 L902 1216 M902 1208 L894 1216 M870 1220 L878 1228 M878 1220 L870 1228 M882 1220 L890 1228 M890 1220 L882 1228" fill="none" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="898" cy="1224" r="2.5" fill="#8fc9f2"/>
+</g>
+
+<!-- Illustration left: teacher holding a card -->
+<g>
+  <circle cx="300" cy="1070" r="160" fill="#dff1f7"/>
+  <ellipse cx="300" cy="1236" rx="120" ry="12" fill="#22303f" opacity=".18"/>
+
+  <!-- Trousers and shoes -->
+  <path d="M250 1110 L350 1110 L344 1226 L308 1226 L300 1142 L292 1226 L256 1226 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="272" cy="1230" rx="22" ry="8" fill="#22303f"/>
+  <ellipse cx="330" cy="1230" rx="22" ry="8" fill="#22303f"/>
+
+  <!-- Left arm hanging -->
+  <path d="M246 1004 Q222 1060 230 1112 L248 1112 Q246 1062 260 1024 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="239" cy="1118" r="10" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Neck and long-sleeved shirt -->
+  <rect x="290" y="972" width="20" height="24" rx="6" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M242 1000 Q300 982 358 1000 L366 1122 L234 1122 Z" fill="url(#ilShirt)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M286 992 L300 1014 L314 992" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="300" y1="1014" x2="300" y2="1118" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Head -->
+  <circle cx="268" cy="952" r="6" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="300" cy="948" r="34" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M266 940 Q268 908 302 908 Q334 908 334 936 Q322 922 300 922 Q280 924 266 940 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="310" cy="944" r="3.5" fill="#22303f"/>
+  <circle cx="326" cy="944" r="3.5" fill="#22303f"/>
+  <path d="M312 960 Q321 968 330 960" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Right arm reaching to the card -->
+  <path d="M350 1004 Q382 1030 400 1062 L386 1072 Q366 1044 340 1030 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Held card: student in bed with thermometer -->
+  <rect x="396" y="996" width="140" height="110" rx="10" fill="#22303f" opacity=".18"/>
+  <rect x="392" y="990" width="140" height="110" rx="10" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="402" y="1000" width="120" height="90" rx="6" fill="#dff1f7"/>
+  <rect x="406" y="1036" width="10" height="50" rx="3" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="410" y="1064" width="104" height="14" rx="4" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="510" y1="1078" x2="510" y2="1086" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <ellipse cx="430" cy="1058" rx="13" ry="7" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="436" cy="1046" r="10" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M427 1042 Q430 1033 440 1035 Q446 1037 446 1042 Q438 1039 427 1042 Z" fill="#2b211c"/>
+  <path d="M432 1046 L436 1046" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="440" y="1050" width="74" height="18" rx="8" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="444" y1="1050" x2="460" y2="1040" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="444" cy="1050" r="2.5" fill="#c0392b"/>
+
+  <!-- Hand holding card corner -->
+  <circle cx="396" cy="1068" r="10" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Text -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="normal" fill="#225f9c">
+  <tspan x="950" dy="0">أعطِ الذكاء الاصطناعي درجات فصلك في خمسة</tspan>
+  <tspan x="950" dy="40">امتحانات، وسيلاحظ بسرعة أن <tspan font-weight="bold" fill="#17457f">الغياب الكثير</tspan></tspan>
+  <tspan x="950" dy="40">يعني درجات أقل <tspan font-weight="bold" fill="#c0392b">(نمط).</tspan></tspan>
+</text>
+<text x="120" y="274" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="normal" fill="#152b42">
+  <tspan x="120" dy="0">Give AI your class's grades in five</tspan>
+  <tspan x="120" dy="40">tests, and it quickly notices that</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#17457f">frequent absence</tspan> means lower grades</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#c0392b">(a pattern).</tspan></tspan>
+</text>
+
+<text x="950" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="normal" fill="#225f9c">
+  <tspan x="950" dy="0">ثم <tspan font-weight="bold" fill="#17457f">يتوقع</tspan> درجة كل طالب في الامتحان</tspan>
+  <tspan x="950" dy="40">القادم <tspan font-weight="bold" fill="#c0392b">(تنبؤ).</tspan></tspan>
+</text>
+<text x="120" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="normal" fill="#152b42">
+  <tspan x="120" dy="0">Then it <tspan font-weight="bold" fill="#17457f">predicts</tspan> each student's grade in</tspan>
+  <tspan x="120" dy="40">the next test <tspan font-weight="bold" fill="#c0392b">(a prediction).</tspan></tspan>
+</text>
+
+<text x="935" y="674" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="normal" fill="#225f9c">
+  <tspan x="935" dy="0">لكنه لا يعرف <tspan font-weight="bold" fill="#c0392b">لماذا</tspan> غاب طالب بعينه؛</tspan>
+  <tspan x="935" dy="40">ربما كان مريضًا. هنا يأتي <tspan font-weight="bold" fill="#17457f">دور الإنسان.</tspan></tspan>
+</text>
+<text x="140" y="754" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="normal" fill="#152b42">
+  <tspan x="140" dy="0">But it does not know <tspan font-weight="bold" fill="#c0392b">why</tspan> one student</tspan>
+  <tspan x="140" dy="40">was absent; maybe they were ill.</tspan>
+  <tspan x="140" dy="40">This is where the <tspan font-weight="bold" fill="#17457f">human</tspan> comes in.</tspan>
+</text>
+</svg>

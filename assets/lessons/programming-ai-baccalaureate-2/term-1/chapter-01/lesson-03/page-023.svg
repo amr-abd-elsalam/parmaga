@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilLab" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+</defs>
+
+<!-- Info card -->
+<rect x="109" y="408" width="870" height="408" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="402" width="870" height="408" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="418" width="6" height="376" rx="3" fill="#2f7fb5"/>
+
+<!-- Illustration frame -->
+<rect x="109" y="848" width="866" height="404" rx="24" fill="#22303f" opacity=".18"/>
+<rect x="105" y="842" width="866" height="404" rx="24" fill="url(#ilLab)"/>
+
+<!-- Floor -->
+<path d="M105 1206 L971 1206 L971 1222 Q971 1246 947 1246 L129 1246 Q105 1246 105 1222 Z" fill="#e8dfd1"/>
+
+<!-- Straight chain of beads (right) -->
+<line x1="640" y1="920" x2="940" y2="920" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+<g stroke="#22303f" stroke-width="2.5">
+  <circle cx="640" cy="920" r="11" fill="#2f7fb5"/>
+  <circle cx="665" cy="920" r="11" fill="#4fc3e8"/>
+  <circle cx="690" cy="920" r="11" fill="#c96a1b"/>
+  <circle cx="715" cy="920" r="11" fill="#2e7d32"/>
+  <circle cx="740" cy="920" r="11" fill="#ffd24a"/>
+  <circle cx="765" cy="920" r="11" fill="#2f7fb5"/>
+  <circle cx="790" cy="920" r="11" fill="#4fc3e8"/>
+  <circle cx="815" cy="920" r="11" fill="#c96a1b"/>
+  <circle cx="840" cy="920" r="11" fill="#2e7d32"/>
+  <circle cx="865" cy="920" r="11" fill="#ffd24a"/>
+  <circle cx="890" cy="920" r="11" fill="#2f7fb5"/>
+  <circle cx="915" cy="920" r="11" fill="#4fc3e8"/>
+  <circle cx="940" cy="920" r="11" fill="#c96a1b"/>
+</g>
+
+<!-- Curved arrow from the chain to the folded shape -->
+<path d="M620 905 Q 530 850 445 895" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="438,899 455,897 449,885" fill="#c0392b"/>
+
+<!-- Folded chain: twisted ribbon (left) -->
+<g transform="translate(20 30)">
+  <path d="M188 866 C 262 832 330 896 276 936 C 226 972 196 994 252 1000 C 300 1004 338 944 398 912 L 404 926 C 344 958 306 1020 250 1014 C 182 1008 210 962 264 926 C 312 894 256 850 194 880 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polyline points="195,876 232,860 270,872 290,905 270,935 240,958 214,985 240,1006 275,1002 306,980 334,955 364,935 396,918" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g stroke="#22303f" stroke-width="2.5">
+    <circle cx="195" cy="876" r="9" fill="#2f7fb5"/>
+    <circle cx="232" cy="860" r="9" fill="#4fc3e8"/>
+    <circle cx="270" cy="872" r="9" fill="#c96a1b"/>
+    <circle cx="290" cy="905" r="9" fill="#2e7d32"/>
+    <circle cx="270" cy="935" r="9" fill="#ffd24a"/>
+    <circle cx="240" cy="958" r="9" fill="#2f7fb5"/>
+    <circle cx="214" cy="985" r="9" fill="#4fc3e8"/>
+    <circle cx="240" cy="1006" r="9" fill="#c96a1b"/>
+    <circle cx="275" cy="1002" r="9" fill="#2e7d32"/>
+    <circle cx="306" cy="980" r="9" fill="#ffd24a"/>
+    <circle cx="334" cy="955" r="9" fill="#2f7fb5"/>
+    <circle cx="364" cy="935" r="9" fill="#4fc3e8"/>
+    <circle cx="396" cy="918" r="9" fill="#c96a1b"/>
+  </g>
+</g>
+
+<!-- Scientist in a lab coat -->
+<rect x="425" y="1086" width="14" height="16" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+<rect x="398" y="1098" width="68" height="92" rx="16" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+<polygon points="418,1100 446,1100 432,1130" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M418 1100 L426 1146 M446 1100 L438 1146" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="432" cy="1070" r="22" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+<path d="M410 1066 Q 412 1044 432 1044 Q 452 1044 454 1066 Q 444 1054 432 1056 Q 420 1056 410 1066 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="437" cy="1069" r="3" fill="#22303f"/>
+<circle cx="449" cy="1069" r="3" fill="#22303f"/>
+<path d="M438 1080 Q 444 1084 450 1080" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+<polygon points="456,1108 468,1116 516,1160 506,1168" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+<!-- Laptop showing the folded shape -->
+<rect x="525" y="1086" width="120" height="80" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+<rect x="533" y="1094" width="104" height="64" rx="3" fill="#dff1f7"/>
+<polyline points="545,1146 562,1110 582,1140 602,1106 626,1144" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="545" cy="1146" r="4" fill="#c96a1b"/>
+<circle cx="562" cy="1110" r="4" fill="#2e7d32"/>
+<circle cx="582" cy="1140" r="4" fill="#ffd24a"/>
+<circle cx="602" cy="1106" r="4" fill="#4fc3e8"/>
+<circle cx="626" cy="1144" r="4" fill="#c96a1b"/>
+<polygon points="505,1178 665,1178 655,1166 515,1166" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="512" cy="1166" r="7" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+
+<!-- Medicine capsule beside the laptop -->
+<g transform="translate(705 1165) rotate(-25)">
+  <path d="M0 -9 L-11 -9 A9 9 0 0 0 -11 9 L0 9 Z" fill="#c96a1b"/>
+  <path d="M0 -9 L11 -9 A9 9 0 0 1 11 9 L0 9 Z" fill="#ffffff"/>
+  <rect x="-20" y="-9" width="40" height="18" rx="9" fill="none" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Desk -->
+<rect x="320" y="1188" width="10" height="48" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+<rect x="770" y="1188" width="10" height="48" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+<rect x="300" y="1178" width="500" height="12" rx="4" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+
+<rect x="105" y="842" width="866" height="404" rx="24" fill="none" stroke="#22303f" stroke-width="2.5"/>
+
+<!-- Header icon: flask -->
+<g transform="translate(120 92)">
+  <path d="M21 4 L21 20 L7 45 Q5 50 10 50 L42 50 Q47 50 45 45 L31 20 L31 4 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M13 36 L39 36 L44 45 Q46 48 42 48 L10 48 Q6 48 8 45 Z" fill="#4fc3e8"/>
+  <circle cx="22" cy="42" r="3" fill="#ffffff"/>
+  <circle cx="31" cy="40" r="2" fill="#ffffff"/>
+  <rect x="17" y="2" width="18" height="6" rx="3" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon beside the short paragraph line: molecule -->
+<g transform="translate(880 322)">
+  <path d="M12 32 L30 12 L48 30 L28 44 Z" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="12" cy="32" r="8" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="30" cy="12" r="8" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="48" cy="30" r="8" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="28" cy="44" r="7" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Face in the card: surprise for an important fact -->
+<g transform="translate(440 455) scale(.8)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="0" cy="10" r="5" fill="#22303f"/>
+</g>
+
+<!-- Text -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">دعم اكتشاف الأدوية</text>
+<text x="120" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">Drug-Discovery Support</text>
+
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">يساعد الذكاء الاصطناعي العلماء على <tspan font-weight="bold" fill="#17457f">تسريع</tspan></tspan>
+  <tspan x="950" dy="40">البحث عن <tspan font-weight="bold" fill="#c0392b">أدوية جديدة.</tspan></tspan>
+</text>
+<text x="120" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">AI helps scientists <tspan font-weight="bold" fill="#17457f">speed up</tspan> the search</tspan>
+  <tspan x="120" dy="40">for <tspan font-weight="bold" fill="#c0392b">new medicines.</tspan></tspan>
+</text>
+
+<text x="935" y="434" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">هل تعلم؟</text>
+<text x="140" y="474" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">DID YOU KNOW?</text>
+
+<text x="935" y="514" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">في 2024، كان ديميس هاسابيس وجون جمبر</tspan>
+  <tspan x="935" dy="40">ضمن الفائزين <tspan font-weight="bold" fill="#17457f">بجائزة نوبل</tspan> في الكيمياء،</tspan>
+  <tspan x="935" dy="40">عن <tspan font-weight="bold" fill="#c0392b">AlphaFold2،</tspan> وهو نموذج ذكاء اصطناعي</tspan>
+  <tspan x="935" dy="40">يتنبأ <tspan font-weight="bold" fill="#17457f">بتركيب البروتينات.</tspan></tspan>
+</text>
+<text x="140" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">In 2024, Demis Hassabis and John Jumper</tspan>
+  <tspan x="140" dy="40">were among the <tspan font-weight="bold" fill="#17457f">Chemistry Nobel</tspan> winners</tspan>
+  <tspan x="140" dy="40">for <tspan font-weight="bold" fill="#c0392b">AlphaFold2,</tspan> an AI model that</tspan>
+  <tspan x="140" dy="40">predicts <tspan font-weight="bold" fill="#17457f">protein structures.</tspan></tspan>
+</text>
+</svg>

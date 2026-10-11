@@ -4,219 +4,204 @@
      viewBox="0 0 1080 1350"
      preserveAspectRatio="xMidYMid meet"
      style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-  <defs>
-    <linearGradient id="woodBgGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#9a6636"/>
-      <stop offset="0.5" stop-color="#8a5729"/>
-      <stop offset="1" stop-color="#734620"/>
-    </linearGradient>
-    <linearGradient id="paperGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fffdf6"/>
-      <stop offset="1" stop-color="#fbf6e9"/>
-    </linearGradient>
-  </defs>
+<defs>
+  <linearGradient id="ilBack" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+  <linearGradient id="ilPanel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+</defs>
 
-  <!-- 1. Simple warm background -->
-  <rect x="0" y="0" width="1080" height="1350" fill="url(#woodBgGrad)"/>
-  <path d="M0,240 C260,206 700,286 1080,236" stroke="#5d3616" stroke-width="10" fill="none" opacity=".12"/>
-  <path d="M0,1090 C300,1052 760,1136 1080,1084" stroke="#5d3616" stroke-width="12" fill="none" opacity=".10"/>
+<!-- Illustration: a face photo passes through layers -->
+<g stroke-linecap="round" stroke-linejoin="round">
+  <rect x="109" y="756" width="866" height="410" rx="24" fill="#22303f" opacity=".18"/>
+  <rect x="105" y="750" width="866" height="410" rx="24" fill="url(#ilBack)" stroke="#8fc9f2" stroke-width="2.5"/>
 
-  <!-- 2. Paper -->
-  <rect x="42" y="32" width="1012" height="1302" rx="10" fill="#000000" opacity=".16"/>
-  <rect x="34" y="24" width="1012" height="1302" rx="10" fill="url(#paperGrad)"/>
+  <!-- panel shadows -->
+  <rect x="739" y="866" width="190" height="260" rx="18" fill="#22303f" opacity=".18"/>
+  <rect x="449" y="866" width="190" height="260" rx="18" fill="#22303f" opacity=".18"/>
+  <rect x="159" y="866" width="190" height="260" rx="18" fill="#22303f" opacity=".18"/>
 
-  <!-- 3. Pale horizontal notebook lines -->
-  <g stroke="#bcd4ea" stroke-width="1.4" opacity=".75">
-    <line x1="80" y1="140" x2="1000" y2="140"/>
-    <line x1="80" y1="180" x2="1000" y2="180"/>
-    <line x1="80" y1="220" x2="1000" y2="220"/>
-    <line x1="80" y1="260" x2="1000" y2="260"/>
-    <line x1="80" y1="300" x2="1000" y2="300"/>
-    <line x1="80" y1="340" x2="1000" y2="340"/>
-    <line x1="80" y1="380" x2="1000" y2="380"/>
-    <line x1="80" y1="420" x2="1000" y2="420"/>
-    <line x1="80" y1="460" x2="1000" y2="460"/>
-    <line x1="80" y1="500" x2="1000" y2="500"/>
-    <line x1="80" y1="540" x2="1000" y2="540"/>
-    <line x1="80" y1="580" x2="1000" y2="580"/>
-    <line x1="80" y1="620" x2="1000" y2="620"/>
-    <line x1="80" y1="660" x2="1000" y2="660"/>
-    <line x1="80" y1="700" x2="1000" y2="700"/>
-    <line x1="80" y1="740" x2="1000" y2="740"/>
-    <line x1="80" y1="780" x2="1000" y2="780"/>
-    <line x1="80" y1="820" x2="1000" y2="820"/>
-    <line x1="80" y1="860" x2="1000" y2="860"/>
-    <line x1="80" y1="900" x2="1000" y2="900"/>
-    <line x1="80" y1="940" x2="1000" y2="940"/>
-    <line x1="80" y1="980" x2="1000" y2="980"/>
-    <line x1="80" y1="1020" x2="1000" y2="1020"/>
-    <line x1="80" y1="1060" x2="1000" y2="1060"/>
-    <line x1="80" y1="1100" x2="1000" y2="1100"/>
-    <line x1="80" y1="1140" x2="1000" y2="1140"/>
+  <!-- panels -->
+  <rect x="735" y="860" width="190" height="260" rx="18" fill="url(#ilPanel)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="445" y="860" width="190" height="260" rx="18" fill="url(#ilPanel)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="155" y="860" width="190" height="260" rx="18" fill="url(#ilPanel)" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Panel 1 (right): short straight and curved lines -->
+  <g fill="none" stroke-width="3" stroke-linecap="round">
+    <path d="M762 895 L802 895" stroke="#2f7fb5"/>
+    <path d="M848 892 L890 918" stroke="#17457f"/>
+    <path d="M766 958 Q 788 936 810 958" stroke="#c96a1b"/>
+    <path d="M845 950 V992" stroke="#2f7fb5"/>
+    <path d="M868 968 Q 902 980 884 1006" stroke="#17457f"/>
+    <path d="M762 1022 L804 1044" stroke="#17457f"/>
+    <path d="M820 1072 Q 846 1050 872 1072" stroke="#2f7fb5"/>
+    <path d="M766 1096 L810 1090" stroke="#c96a1b"/>
+    <path d="M890 1040 L902 1094" stroke="#2f7fb5"/>
   </g>
 
-  <!-- 4. Single thin outer red border -->
-  <rect x="67" y="64" width="946" height="1252" fill="none" stroke="#c8342b" stroke-width="2.4"/>
-
-  <!-- 5. Card and box backgrounds -->
-  <rect x="95" y="440" width="890" height="150" rx="12" fill="#fdeceb" stroke="#d9534f" stroke-width="1.8"/>
-  <rect x="95" y="612" width="890" height="115" rx="12" fill="#fdeceb" stroke="#d9534f" stroke-width="1.8"/>
-  <rect x="95" y="749" width="890" height="150" rx="12" fill="#fdeceb" stroke="#d9534f" stroke-width="1.8"/>
-  <rect x="95" y="935" width="890" height="208" rx="14" fill="#fdf6d8" stroke="#d3ab45" stroke-width="1.8"/>
-
-  <!-- 6. Functional lines and hand-drawn balance scale -->
-  <line x1="360" y1="212" x2="720" y2="212" stroke="#c8342b" stroke-width="2" opacity=".65"/>
-
-  <g stroke="#7a4a22" stroke-width="4" fill="none" stroke-linecap="round">
-    <line x1="405" y1="238" x2="675" y2="254"/>
-    <path d="M540,246 L520,322 L560,322"/>
-    <line x1="502" y1="322" x2="578" y2="322"/>
-    <line x1="405" y1="238" x2="405" y2="272"/>
-    <line x1="675" y1="254" x2="675" y2="288"/>
-    <path d="M373,272 Q405,300 437,272"/>
-    <path d="M643,288 Q675,316 707,288"/>
-  </g>
-  <circle cx="540" cy="246" r="5.5" fill="#7a4a22"/>
-
-  <g fill="#d9534f">
-    <circle cx="967" cy="473" r="6"/>
-    <circle cx="967" cy="645" r="6"/>
-    <circle cx="967" cy="782" r="6"/>
+  <!-- Panel 2 (middle): simple shapes -->
+  <g stroke="#22303f" stroke-width="2.5">
+    <circle cx="490" cy="915" r="20" fill="#4fc3e8"/>
+    <ellipse cx="584" cy="920" rx="30" ry="18" fill="#f0c48c"/>
+    <circle cx="540" cy="995" r="28" fill="#8fc9f2"/>
+    <ellipse cx="487" cy="1068" rx="22" ry="32" fill="#2f7fb5"/>
+    <circle cx="592" cy="1072" r="18" fill="#c96a1b"/>
   </g>
 
-  <!-- 7. Educational text -->
-  <text x="540"
-        y="146"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="46"
-        font-weight="bold"
-        fill="#17457f">متى نحتاج إلى الحذر؟</text>
+  <!-- Panel 3 (left): complete simple face outline -->
+  <g stroke="#22303f" stroke-width="2.5">
+    <ellipse cx="190" cy="995" rx="10" ry="18" fill="#dff1f7"/>
+    <ellipse cx="310" cy="995" rx="10" ry="18" fill="#dff1f7"/>
+    <ellipse cx="250" cy="990" rx="60" ry="80" fill="#ffffff"/>
+    <path d="M196 960 Q 200 912 250 910 Q 300 912 304 960 Q 280 935 250 940 Q 220 935 196 960 Z" fill="#17457f"/>
+    <ellipse cx="228" cy="985" rx="8" ry="5" fill="#2f7fb5"/>
+    <ellipse cx="272" cy="985" rx="8" ry="5" fill="#2f7fb5"/>
+    <path d="M216 970 L238 968 M262 968 L284 970" fill="none"/>
+    <path d="M250 995 Q 243 1018 255 1020" fill="none"/>
+    <path d="M228 1040 Q 250 1056 272 1040" fill="none" stroke="#c96a1b" stroke-width="3"/>
+  </g>
 
-  <text x="540"
-        y="196"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="33"
-        fill="#152b42">When Is Caution Needed?</text>
+  <!-- network links between panels -->
+  <g fill="none" stroke="#2f7fb5" stroke-width="1.4">
+    <path d="M735 910 L635 950 M735 950 L635 910 M735 1050 L635 1090 M735 1090 L635 1050"/>
+    <path d="M445 910 L345 950 M445 950 L345 910 M445 1050 L345 1090 M445 1090 L345 1050"/>
+  </g>
+  <g fill="#4fc3e8" stroke="#22303f" stroke-width="2">
+    <circle cx="735" cy="910" r="5"/>
+    <circle cx="735" cy="950" r="5"/>
+    <circle cx="735" cy="1050" r="5"/>
+    <circle cx="735" cy="1090" r="5"/>
+    <circle cx="635" cy="910" r="5"/>
+    <circle cx="635" cy="950" r="5"/>
+    <circle cx="635" cy="1050" r="5"/>
+    <circle cx="635" cy="1090" r="5"/>
+    <circle cx="445" cy="910" r="5"/>
+    <circle cx="445" cy="950" r="5"/>
+    <circle cx="445" cy="1050" r="5"/>
+    <circle cx="445" cy="1090" r="5"/>
+    <circle cx="345" cy="910" r="5"/>
+    <circle cx="345" cy="950" r="5"/>
+    <circle cx="345" cy="1050" r="5"/>
+    <circle cx="345" cy="1090" r="5"/>
+  </g>
 
-  <text x="950"
-        y="374"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="31"
-        fill="#225f9c">
-    <tspan x="950" dy="0">نحتاج إلى الحذر عند استخدام الذكاء الاصطناعي في:</tspan>
-  </text>
+  <!-- arrows right to left -->
+  <line x1="725" y1="1000" x2="661" y2="1000" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="645,1000 661,991 661,1009" fill="#c0392b"/>
+  <line x1="435" y1="1000" x2="371" y2="1000" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="355,1000 371,991 371,1009" fill="#c0392b"/>
+</g>
 
-  <text x="120"
-        y="418"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="29"
-        fill="#152b42">
-    <tspan x="120" dy="0">Caution is needed when AI is used for:</tspan>
-  </text>
+<!-- Icon: chip beside header -->
+<g transform="translate(120 112)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M15 8 V2 M22 8 V2 M29 8 V2 M15 36 V42 M22 36 V42 M29 36 V42 M8 15 H2 M8 22 H2 M8 29 H2 M36 15 H42 M36 22 H42 M36 29 H42" fill="none"/>
+  <rect x="8" y="8" width="28" height="28" rx="4" fill="#2f7fb5"/>
+  <rect x="15" y="15" width="14" height="14" rx="2" fill="#8fc9f2"/>
+</g>
 
-  <text x="950"
-        y="482"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="29"
-        fill="#225f9c">
-    <tspan x="950" dy="0">الأحكام الأخلاقية التي قد تؤدي إلى التمييز أو التحيز.</tspan>
-  </text>
+<!-- Icon: open book beside the definition -->
+<g transform="translate(880 384)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M28 12 Q16 4 4 8 V48 Q16 44 28 52 Q40 44 52 48 V8 Q40 4 28 12 Z" fill="#ffffff"/>
+  <path d="M28 12 V52" fill="none"/>
+  <path d="M10 18 Q17 16 22 20 M10 28 Q17 26 22 30 M34 20 Q39 16 46 18 M34 30 Q39 26 46 28" fill="none" stroke="#2f7fb5"/>
+</g>
 
-  <text x="125"
-        y="524"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27"
-        fill="#152b42">
-    <tspan x="125" dy="0">Ethical judgments that may lead</tspan>
-    <tspan x="125" dy="34">to discrimination or prejudice.</tspan>
-  </text>
+<!-- Face: surprise beside the face example -->
+<g transform="translate(900 664)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="0" cy="10" r="5" fill="#22303f"/>
+</g>
 
-  <text x="950"
-        y="654"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="29"
-        fill="#225f9c">
-    <tspan x="950" dy="0">القرارات التي تتضمن معلومات شخصية أو خصوصية.</tspan>
-  </text>
+<!-- Bottom icon row: network, light bulb, star -->
+<g transform="translate(372 1190)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M28 12 L10 44 M28 12 L46 44 M10 44 H46" fill="none" stroke="#2f7fb5"/>
+  <circle cx="28" cy="12" r="9" fill="#4fc3e8"/>
+  <circle cx="10" cy="44" r="9" fill="#8fc9f2"/>
+  <circle cx="46" cy="44" r="9" fill="#8fc9f2"/>
+</g>
+<g transform="translate(512 1190)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M4 22 H9 M47 22 H52 M10 6 L14 10 M46 6 L42 10" fill="none" stroke="#c96a1b"/>
+  <circle cx="28" cy="22" r="17" fill="#ffd24a"/>
+  <path d="M22 24 L28 30 L34 24" fill="none"/>
+  <rect x="20" y="38" width="16" height="13" rx="3" fill="#7f95ab"/>
+</g>
+<g transform="translate(652 1190)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="28,2 34.5,19.1 52.7,20 38.5,31.4 43.3,49 28,39 12.7,49 17.5,31.4 3.3,20 21.5,19.1" fill="#ffd24a"/>
+</g>
 
-  <text x="125"
-        y="696"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27"
-        fill="#152b42">
-    <tspan x="125" dy="0">Decisions involving personal information or privacy.</tspan>
-  </text>
+<!-- Text -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="950" dy="0">التعلم العميق</tspan>
+</text>
 
-  <text x="950"
-        y="791"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="29"
-        fill="#225f9c">
-    <tspan x="950" dy="0">اتخاذ القرارات النهائية وتحديد المسؤول عن النتيجة.</tspan>
-  </text>
+<text x="120" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="120" dy="0">Deep Learning</tspan>
+</text>
 
-  <text x="125"
-        y="833"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27"
-        fill="#152b42">
-    <tspan x="125" dy="0">Final decision-making and determining</tspan>
-    <tspan x="125" dy="34">who is responsible for the result.</tspan>
-  </text>
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">نوع من التعلم الآلي يستخدم <tspan font-weight="bold" fill="#c0392b">شبكات عصبية</tspan></tspan>
+  <tspan x="950" dy="40">اصطناعية من <tspan font-weight="bold" fill="#17457f">طبقات كثيرة،</tspan> وكل طبقة تفهم</tspan>
+  <tspan x="950" dy="40">مستوى أعمق من التي قبلها.</tspan>
+</text>
 
-  <text x="945"
-        y="988"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        fill="#1c4f86">
-    <tspan x="945" dy="0">لا ينبغي ترك الأحكام الأخلاقية والقرارات</tspan>
-    <tspan x="945" dy="40">المسؤولة للذكاء الاصطناعي وحده.</tspan>
-  </text>
+<text x="120" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">A type of machine learning that uses</tspan>
+  <tspan x="120" dy="40">artificial <tspan font-weight="bold" fill="#c0392b">neural networks</tspan> with</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#17457f">many layers;</tspan> each layer understands a</tspan>
+  <tspan x="120" dy="40">deeper level than the one before.</tspan>
+</text>
 
-  <text x="128"
-        y="1078"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="28"
-        fill="#152b42">
-    <tspan x="128" dy="0">Ethical judgments and responsible decisions</tspan>
-    <tspan x="128" dy="36">should not be left to AI alone.</tspan>
-  </text>
+<text x="950" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">في صورة وجه: طبقة ترى <tspan fill="#c96a1b">الخطوط،</tspan> ثم طبقة</tspan>
+  <tspan x="950" dy="40">ترى <tspan fill="#c96a1b">الأشكال،</tspan> ثم طبقة ترى <tspan fill="#c96a1b">الوجه كاملًا.</tspan></tspan>
+</text>
 
+<text x="120" y="634" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">In a face photo: one layer sees <tspan fill="#c96a1b">lines,</tspan></tspan>
+  <tspan x="120" dy="40">the next sees <tspan fill="#c96a1b">shapes,</tspan> and a later one</tspan>
+  <tspan x="120" dy="40">sees the <tspan fill="#c96a1b">whole face.</tspan></tspan>
+</text>
+
+<!-- Illustration labels (listed in the page prompt) -->
+<text x="862" y="800" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="862" dy="0">خطوط</tspan>
+</text>
+<text x="792" y="840" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="792" dy="0">Lines</tspan>
+</text>
+<text x="577" y="800" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="577" dy="0">أشكال</tspan>
+</text>
+<text x="492" y="840" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="492" dy="0">Shapes</tspan>
+</text>
+<text x="274" y="800" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="274" dy="0">وجه</tspan>
+</text>
+<text x="217" y="840" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="217" dy="0">Face</tspan>
+</text>
 </svg>
