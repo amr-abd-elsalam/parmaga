@@ -2765,11 +2765,10 @@
 
   function onSkip() {
     var gen = cancelEverything();
+    try { Sound.stop(); } catch (err) { reportSoft(err); }
     destroyPen();
-    if (activeSaved) {
-      restoreAll(activeSaved);
-      activeSaved = null;
-    }
+    /* محرك V-2 يحفظ النص الأصلي في state.saved، فالاسترجاع بلا شرط، وrestoreAll لا تفعل شيئًا إن لم يُحفظ شيء. */
+    restoreAll();
     state.generation = gen;
     setPhase('INTERACTIVE_IDLE');
     updateButtons();
