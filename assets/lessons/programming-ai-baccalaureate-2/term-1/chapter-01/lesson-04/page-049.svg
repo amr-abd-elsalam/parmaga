@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="36" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="35.5" x2="1080" y2="35.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Instruction strip: shadow + fill + accent as one frame -->
+<g>
+  <rect x="109" y="128" width="870" height="116" rx="16" fill="#22303f" opacity=".12"/>
+  <rect x="105" y="122" width="870" height="116" rx="16" fill="#fdf6d8" stroke="#e0c46a" stroke-width="2"/>
+  <rect x="961" y="138" width="6" height="84" rx="3" fill="#e0a55e"/>
+</g>
+<text x="935" y="150" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
+  <tspan x="935" dy="0">حلّل كيف ينشأ التحيز الخوارزمي وكيف يُقلَّل.</tspan>
+</text>
+<text x="140" y="186" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
+  <tspan x="140" dy="0">Analyze how algorithmic bias arises and</tspan>
+  <tspan x="140" dy="36">how it can be reduced.</tspan>
+</text>
+<!-- Icon: light bulb -->
+<g transform="translate(866 170)">
+  <circle cx="24" cy="18" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M18 22 L24 28 L30 22" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="16" y="33" width="16" height="10" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Bullet 1 -->
+<circle cx="966" cy="284" r="6" fill="#c0392b"/>
+<text x="950" y="294" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
+  <tspan x="950" dy="0">1. <tspan font-weight="bold" fill="#c0392b">السبب</tspan> (درجتان): بيانات تدريب متحيزة</tspan>
+  <tspan x="950" dy="36">أو ناقصة، تمثل فئة أكثر من غيرها</tspan>
+  <tspan x="950" dy="36">أو تحمل تمييزًا سابقًا.</tspan>
+</text>
+<circle cx="114" cy="392" r="6" fill="#c0392b"/>
+<text x="132" y="402" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
+  <tspan x="132" dy="0">1. <tspan font-weight="bold" fill="#c0392b">Cause</tspan> (2 marks): biased or incomplete</tspan>
+  <tspan x="132" dy="36">training data that over-represents one</tspan>
+  <tspan x="132" dy="36">group or carries past discrimination.</tspan>
+</text>
+<!-- Icon: document stack -->
+<g transform="translate(842 392)">
+  <rect x="12" y="2" width="34" height="42" rx="5" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="4" y="8" width="34" height="42" rx="5" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="11" y1="20" x2="31" y2="20" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="11" y1="29" x2="31" y2="29" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="11" y1="38" x2="24" y2="38" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Bullet 2 -->
+<circle cx="966" cy="500" r="6" fill="#c0392b"/>
+<text x="950" y="510" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
+  <tspan x="950" dy="0">2. <tspan font-weight="bold" fill="#c0392b">الأثر</tspan> (درجة): النظام يتعلم النمط</tspan>
+  <tspan x="950" dy="36">ويكرره، فيظلم فئة معينة.</tspan>
+</text>
+<circle cx="114" cy="572" r="6" fill="#c0392b"/>
+<text x="132" y="582" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
+  <tspan x="132" dy="0">2. <tspan font-weight="bold" fill="#c0392b">Effect</tspan> (1 mark): the system learns the</tspan>
+  <tspan x="132" dy="36">pattern and repeats it, treating a group</tspan>
+  <tspan x="132" dy="36">unfairly.</tspan>
+</text>
+<!-- Icon: two figures -->
+<g transform="translate(842 574)">
+  <circle cx="16" cy="12" r="8" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M2 48 Q2 24 16 24 Q30 24 30 48 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="38" cy="14" r="7" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M26 48 Q26 26 38 26 Q50 26 50 48 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Bullet 3 -->
+<circle cx="966" cy="680" r="6" fill="#c0392b"/>
+<text x="950" y="690" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
+  <tspan x="950" dy="0">3. <tspan font-weight="bold" fill="#c0392b">العدالة</tspan> (درجة ونصف): نفحص تمثيل</tspan>
+  <tspan x="950" dy="36">البيانات ونختبر النتائج عبر الفئات.</tspan>
+</text>
+<circle cx="114" cy="752" r="6" fill="#c0392b"/>
+<text x="132" y="762" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
+  <tspan x="132" dy="0">3. <tspan font-weight="bold" fill="#c0392b">Fairness</tspan> (1.5 marks): check how</tspan>
+  <tspan x="132" dy="36">representative the data is and test</tspan>
+  <tspan x="132" dy="36">results across groups.</tspan>
+</text>
+<!-- Icon: check badge -->
+<g transform="translate(842 754)">
+  <circle cx="26" cy="24" r="23" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M15 24 L23 32 L38 16" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Bullet 4 -->
+<circle cx="966" cy="860" r="6" fill="#c0392b"/>
+<text x="950" y="870" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
+  <tspan x="950" dy="0">4. <tspan font-weight="bold" fill="#c0392b">الشفافية</tspan> (درجة ونصف): نوضح كيف يقرر</tspan>
+  <tspan x="950" dy="36">النظام، فيُكتشف التحيز ويُصحَّح.</tspan>
+</text>
+<circle cx="114" cy="932" r="6" fill="#c0392b"/>
+<text x="132" y="942" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
+  <tspan x="132" dy="0">4. <tspan font-weight="bold" fill="#c0392b">Transparency</tspan> (1.5 marks): show how the</tspan>
+  <tspan x="132" dy="36">system decides, so bias can be found and</tspan>
+  <tspan x="132" dy="36">fixed.</tspan>
+</text>
+<!-- Icon: magnifier -->
+<g transform="translate(842 934)">
+  <circle cx="22" cy="20" r="16" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M14 16 Q18 10 25 10" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="34" y1="32" x2="48" y2="46" stroke="#22303f" stroke-width="5" stroke-linecap="round"/>
+</g>
+
+<!-- Warning card: shadow + fill + accent as one frame -->
+<g>
+  <rect x="109" y="1064" width="870" height="152" rx="16" fill="#22303f" opacity=".12"/>
+  <rect x="105" y="1058" width="870" height="152" rx="16" fill="#fdf1e2" stroke="#f0c48c" stroke-width="2"/>
+  <rect x="961" y="1074" width="6" height="120" rx="3" fill="#c96a1b"/>
+</g>
+<!-- Icon: warning triangle -->
+<g transform="translate(150 1068)">
+  <polygon points="26,2 50,44 2,44" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="23.5" y="15" width="5" height="16" rx="2.5" fill="#22303f"/>
+  <circle cx="26" cy="37" r="3" fill="#22303f"/>
+</g>
+<text x="935" y="1086" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
+  <tspan x="935" dy="0">في الامتحان اكتب <tspan font-weight="bold" fill="#17457f">تعريف الكتاب</tspan> أولًا،</tspan>
+  <tspan x="935" dy="36">ثم أضف مثالك.</tspan>
+</text>
+<text x="140" y="1158" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
+  <tspan x="140" dy="0">In the exam, write the <tspan font-weight="bold" fill="#17457f">textbook</tspan></tspan>
+  <tspan x="140" dy="36"><tspan font-weight="bold" fill="#17457f">definition</tspan> first, then add your example.</tspan>
+</text>
+<!-- Emotion face: wink -->
+<g transform="translate(876 1176)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M 5 -6 L 13 -6" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+</svg>

@@ -1,0 +1,245 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilWall" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Success card: one group (shadow, fill, accent) -->
+<g>
+  <rect x="109" y="128" width="870" height="208" rx="16" fill="#22303f" opacity=".12"/>
+  <rect x="105" y="122" width="870" height="208" rx="16" fill="#e9f7ee" stroke="#a9dcbe" stroke-width="2"/>
+  <rect x="961" y="138" width="6" height="176" rx="3" fill="#2e7d32"/>
+</g>
+
+<!-- Icon: check badge (card top-left) -->
+<g transform="translate(128 132)">
+  <circle cx="24" cy="24" r="22" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M14 25 L21 32 L35 17" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: pencil (card top-left) -->
+<g transform="translate(198 172) rotate(-35)">
+  <rect x="-8" y="-8" width="10" height="16" rx="3" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="2" y="-8" width="38" height="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="40,-8 54,0 40,8" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="49,-3 54,0 49,3" fill="#22303f"/>
+</g>
+
+<!-- Key sentence strip: one group -->
+<g>
+  <rect x="105" y="362" width="870" height="88" rx="10" fill="#fdf6d8"/>
+  <rect x="961" y="378" width="6" height="56" rx="3" fill="#e0a55e"/>
+</g>
+
+<!-- Illustration: public exam rules (right) vs. one corrected paper (left) -->
+<g>
+  <rect x="105" y="470" width="870" height="780" rx="24" fill="url(#ilWall)"/>
+  <path d="M105 1160 L975 1160 L975 1226 Q975 1250 951 1250 L129 1250 Q105 1250 105 1226 Z" fill="#e8dfd1" opacity=".6"/>
+  <ellipse cx="330" cy="1206" rx="190" ry="10" fill="#22303f" opacity=".18"/>
+  <ellipse cx="750" cy="1206" rx="170" ry="10" fill="#22303f" opacity=".18"/>
+
+  <!-- Notice board on the wall (right) -->
+  <rect x="564" y="628" width="380" height="268" rx="14" fill="#22303f" opacity=".18"/>
+  <rect x="560" y="622" width="380" height="268" rx="14" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="576" y="638" width="348" height="236" rx="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="600" y="656" width="300" height="18" rx="9" fill="#2f7fb5"/>
+  <circle cx="606" cy="702" r="6" fill="#2f7fb5"/>
+  <rect x="622" y="697" width="260" height="10" rx="5" fill="#8fc9f2"/>
+  <circle cx="606" cy="732" r="6" fill="#2f7fb5"/>
+  <rect x="622" y="727" width="220" height="10" rx="5" fill="#8fc9f2"/>
+  <circle cx="606" cy="762" r="6" fill="#2f7fb5"/>
+  <rect x="622" y="757" width="250" height="10" rx="5" fill="#8fc9f2"/>
+  <circle cx="606" cy="792" r="6" fill="#2f7fb5"/>
+  <rect x="622" y="787" width="200" height="10" rx="5" fill="#8fc9f2"/>
+  <circle cx="606" cy="822" r="6" fill="#2f7fb5"/>
+  <rect x="622" y="817" width="240" height="10" rx="5" fill="#8fc9f2"/>
+  <circle cx="606" cy="852" r="6" fill="#2f7fb5"/>
+  <rect x="622" y="847" width="180" height="10" rx="5" fill="#8fc9f2"/>
+  <circle cx="600" cy="630" r="7" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="900" cy="630" r="7" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Wall clock -->
+  <circle cx="518" cy="700" r="24" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M518 700 L518 684 M518 700 L530 706" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="518" cy="700" r="3" fill="#22303f"/>
+
+  <!-- Student 1 (back view) -->
+  <rect x="622" y="1140" width="14" height="58" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="644" y="1140" width="14" height="58" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="629" cy="1200" rx="12" ry="6" fill="#22303f"/>
+  <ellipse cx="651" cy="1200" rx="12" ry="6" fill="#22303f"/>
+  <rect x="592" y="1040" width="14" height="90" rx="7" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="674" y="1040" width="14" height="90" rx="7" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="599" cy="1134" r="7" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="681" cy="1134" r="7" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="604" y="1026" width="72" height="120" rx="24" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="631" y="1018" width="18" height="12" fill="#d59f6f"/>
+  <ellipse cx="612" cy="1004" rx="6" ry="9" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="668" cy="1004" rx="6" ry="9" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="640" cy="998" r="28" fill="#2b211c" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Student 2 (back view, hijab and long dress) -->
+  <ellipse cx="738" cy="1202" rx="12" ry="6" fill="#22303f"/>
+  <ellipse cx="762" cy="1202" rx="12" ry="6" fill="#22303f"/>
+  <rect x="700" y="1044" width="14" height="92" rx="7" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="786" y="1044" width="14" height="92" rx="7" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="707" cy="1140" r="7" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="793" cy="1140" r="7" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="710" y="1028" width="80" height="170" rx="28" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="750" cy="1036" rx="44" ry="22" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="750" cy="998" r="30" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Student 3 (back view, pointing at the board) -->
+  <rect x="842" y="1140" width="14" height="58" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="864" y="1140" width="14" height="58" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="849" cy="1200" rx="12" ry="6" fill="#22303f"/>
+  <ellipse cx="871" cy="1200" rx="12" ry="6" fill="#22303f"/>
+  <rect x="812" y="1040" width="14" height="90" rx="7" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="819" cy="1134" r="7" fill="#b57e50" stroke="#22303f" stroke-width="2.5"/>
+  <g transform="translate(900 1040) rotate(-170)">
+    <rect x="-7" y="0" width="14" height="80" rx="7" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <circle cx="914" cy="961" r="7" fill="#b57e50" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="824" y="1026" width="72" height="120" rx="24" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="851" y="1018" width="18" height="12" fill="#b57e50"/>
+  <ellipse cx="832" cy="1004" rx="6" ry="9" fill="#b57e50" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="888" cy="1004" rx="6" ry="9" fill="#b57e50" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="860" cy="998" r="28" fill="#2b211c" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Single exam paper on a clipboard (left) -->
+  <rect x="190" y="618" width="288" height="368" rx="14" fill="#22303f" opacity=".18"/>
+  <rect x="186" y="612" width="288" height="368" rx="14" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="202" y="636" width="256" height="328" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="288" y="600" width="84" height="30" rx="8" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="222" y="660" width="150" height="14" rx="7" fill="#2f7fb5"/>
+  <circle cx="418" cy="672" r="24" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M404 678 Q410 660 416 676 Q422 692 432 666" fill="none" stroke="#c0392b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="222" y="715" width="150" height="10" rx="5" fill="#8fc9f2"/>
+  <path d="M398 720 L406 728 L422 712" fill="none" stroke="#2e7d32" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="222" y="765" width="130" height="10" rx="5" fill="#8fc9f2"/>
+  <path d="M398 770 L406 778 L422 762" fill="none" stroke="#2e7d32" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="222" y="815" width="150" height="10" rx="5" fill="#8fc9f2"/>
+  <circle cx="410" cy="820" r="18" fill="none" stroke="#c0392b" stroke-width="3"/>
+  <path d="M402 824 Q410 812 418 818" fill="none" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+  <rect x="222" y="865" width="140" height="10" rx="5" fill="#8fc9f2"/>
+  <path d="M398 870 L406 878 L422 862" fill="none" stroke="#2e7d32" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="222" y="915" width="120" height="10" rx="5" fill="#8fc9f2"/>
+  <path d="M398 920 L406 928 L422 912" fill="none" stroke="#2e7d32" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Desk and backpack -->
+  <rect x="140" y="980" width="380" height="24" rx="6" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="160" y="1004" width="20" height="196" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="480" y="1004" width="20" height="196" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M305 1112 Q325 1088 345 1112" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="270" y="1110" width="110" height="90" rx="22" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="295" y="1150" width="60" height="34" rx="10" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Text layer -->
+<text x="935"
+      y="154"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">الشفافية</tspan> هي لائحة الامتحان المعلنة</tspan>
+  <tspan x="935" dy="40">للجميع، <tspan font-weight="bold" fill="#c0392b">وXAI</tspan> هو تصحيح ورقتك أنت.</tspan>
+</text>
+
+<text x="140"
+      y="234"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Transparency</tspan> is the exam rules</tspan>
+  <tspan x="140" dy="40">announced to everyone; <tspan font-weight="bold" fill="#c0392b">XAI</tspan> is</tspan>
+  <tspan x="140" dy="40">the correction of your own paper.</tspan>
+</text>
+
+<text x="935"
+      y="394"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      font-weight="bold"
+      fill="#17457f">
+  <tspan x="935" dy="0">تذكّر: X = Explainable، أي «قابل للتفسير».</tspan>
+</text>
+
+<text x="140"
+      y="434"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      font-weight="bold"
+      fill="#17457f">
+  <tspan x="140" dy="0">Remember: X = Explainable.</tspan>
+</text>
+
+<!-- Illustration labels -->
+<text x="820"
+      y="554"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="32"
+      font-weight="bold"
+      fill="#c0392b">
+  <tspan x="820" dy="0">الشفافية</tspan>
+</text>
+
+<text x="648"
+      y="594"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="31"
+      font-weight="bold"
+      fill="#c0392b">
+  <tspan x="648" dy="0">Transparency</tspan>
+</text>
+
+<text x="300"
+      y="574"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="31"
+      font-weight="bold"
+      fill="#c0392b">
+  <tspan x="300" dy="0">XAI</tspan>
+</text>
+</svg>

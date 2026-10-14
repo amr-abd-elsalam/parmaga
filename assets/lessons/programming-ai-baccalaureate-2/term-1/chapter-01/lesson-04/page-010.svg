@@ -4,161 +4,170 @@
      viewBox="0 0 1080 1350"
      preserveAspectRatio="xMidYMid meet"
      style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="ilTunic" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-  <defs>
-    <linearGradient id="deskWood" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#a9713f"/>
-      <stop offset="0.55" stop-color="#8d5931"/>
-      <stop offset="1" stop-color="#794824"/>
-    </linearGradient>
-    <linearGradient id="paperTone" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fffdf6"/>
-      <stop offset="1" stop-color="#fbf5e8"/>
-    </linearGradient>
-  </defs>
+<!-- Info card shadow and fill -->
+<rect x="109" y="248" width="870" height="368" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="242" width="870" height="368" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="258" width="6" height="336" rx="3" fill="#2f7fb5"/>
 
-  <rect x="0" y="0" width="1080" height="1350" fill="url(#deskWood)"/>
-  <path d="M0 260 C 300 218, 770 306, 1080 258" fill="none" stroke="#67391a" stroke-width="11" opacity="0.15"/>
-  <path d="M0 1110 C 330 1150, 750 1058, 1080 1104" fill="none" stroke="#67391a" stroke-width="13" opacity="0.12"/>
+<!-- Icon: document stack beside header -->
+<g transform="translate(130 106)">
+  <rect x="12" y="0" width="30" height="38" rx="3" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="4" y="6" width="30" height="38" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M10 16 L28 16 M10 24 L28 24 M10 32 L22 32" fill="none" stroke="#2f7fb5" stroke-width="2" stroke-linecap="round"/>
+</g>
 
-  <rect x="44" y="40" width="1012" height="1294" rx="10" fill="#3a2110" opacity="0.24"/>
-  <rect x="34" y="28" width="1012" height="1294" rx="8" fill="url(#paperTone)"/>
+<!-- Icon: tag inside info card -->
+<g transform="translate(130 252)">
+  <polygon points="4,6 30,6 50,26 30,46 4,46" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="16" cy="26" r="5" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+</g>
 
-  <g stroke="#bcd6ea" stroke-width="1.6" opacity="0.75">
-    <line x1="95" y1="200" x2="985" y2="200"/>
-    <line x1="95" y1="236" x2="985" y2="236"/>
-    <line x1="95" y1="272" x2="985" y2="272"/>
-    <line x1="95" y1="308" x2="985" y2="308"/>
-    <line x1="95" y1="344" x2="985" y2="344"/>
-    <line x1="95" y1="380" x2="985" y2="380"/>
-    <line x1="95" y1="416" x2="985" y2="416"/>
-    <line x1="95" y1="452" x2="985" y2="452"/>
-    <line x1="95" y1="488" x2="985" y2="488"/>
-    <line x1="95" y1="524" x2="985" y2="524"/>
-    <line x1="95" y1="560" x2="985" y2="560"/>
-    <line x1="95" y1="596" x2="985" y2="596"/>
-    <line x1="95" y1="632" x2="985" y2="632"/>
-    <line x1="95" y1="668" x2="985" y2="668"/>
-    <line x1="95" y1="704" x2="985" y2="704"/>
-    <line x1="95" y1="740" x2="985" y2="740"/>
-    <line x1="95" y1="776" x2="985" y2="776"/>
-    <line x1="95" y1="812" x2="985" y2="812"/>
-    <line x1="95" y1="848" x2="985" y2="848"/>
-    <line x1="95" y1="884" x2="985" y2="884"/>
-    <line x1="95" y1="920" x2="985" y2="920"/>
-    <line x1="95" y1="956" x2="985" y2="956"/>
-    <line x1="95" y1="992" x2="985" y2="992"/>
-    <line x1="95" y1="1028" x2="985" y2="1028"/>
-    <line x1="95" y1="1064" x2="985" y2="1064"/>
-    <line x1="95" y1="1100" x2="985" y2="1100"/>
-    <line x1="95" y1="1136" x2="985" y2="1136"/>
+<!-- Icon: chip inside info card -->
+<g transform="translate(890 470)">
+  <path d="M14 0 L14 8 M22 0 L22 8 M30 0 L30 8 M14 36 L14 44 M22 36 L22 44 M30 36 L30 44 M0 14 L8 14 M0 22 L8 22 M0 30 L8 30 M36 14 L44 14 M36 22 L44 22 M36 30 L44 30" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="8" y="8" width="28" height="28" rx="4" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="15" y="15" width="14" height="14" rx="2" fill="#4fc3e8" stroke="#22303f" stroke-width="2"/>
+</g>
+
+<!-- Surprise face beside example -->
+<g transform="translate(820 815)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="0" cy="10" r="5" fill="#22303f"/>
+</g>
+
+<!-- Illustration: a child who has only seen white cats -->
+<g>
+  <rect x="125" y="870" width="830" height="380" rx="24" fill="url(#ilSky)"/>
+  <path d="M125 1200 L955 1200 L955 1226 Q955 1250 931 1250 L149 1250 Q125 1250 125 1226 Z" fill="#e8dfd1"/>
+  <path d="M180 912 L184 924 L196 924 L186 932 L190 944 L180 936 L170 944 L174 932 L164 924 L176 924 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="240" cy="930" r="5" fill="#ffd24a"/>
+  <circle cx="420" cy="905" r="5" fill="#ffd24a"/>
+
+  <!-- Dark cat (left) -->
+  <ellipse cx="290" cy="1210" rx="70" ry="8" fill="#22303f" opacity=".18"/>
+  <g transform="translate(280 1140) scale(2)">
+    <path d="M16 24 Q36 22 30 0" fill="none" stroke="#22303f" stroke-width="5" stroke-linecap="round"/>
+    <path d="M16 24 Q36 22 30 0" fill="none" stroke="#22303f" stroke-width="1.25" stroke-linecap="round"/>
+    <ellipse cx="0" cy="10" rx="18" ry="22" fill="#22303f" stroke="#22303f" stroke-width="1.25"/>
+    <polygon points="-12,-26 -10,-40 -2,-30" fill="#22303f" stroke="#22303f" stroke-width="1.25" stroke-linejoin="round"/>
+    <polygon points="12,-26 10,-40 2,-30" fill="#22303f" stroke="#22303f" stroke-width="1.25" stroke-linejoin="round"/>
+    <circle cx="0" cy="-18" r="14" fill="#22303f" stroke="#22303f" stroke-width="1.25"/>
+    <circle cx="-5" cy="-20" r="2.5" fill="#ffd24a"/>
+    <circle cx="5" cy="-20" r="2.5" fill="#ffd24a"/>
+    <path d="M-3 -12 Q0 -10 3 -12" fill="none" stroke="#8fc9f2" stroke-width="1" stroke-linecap="round"/>
   </g>
 
-  <rect x="67" y="62" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.6"/>
-
-  <g fill="#ffffff" fill-opacity="0.92" stroke="#c0392b" stroke-width="2.4">
-    <circle cx="928" cy="298" r="20"/>
-    <circle cx="928" cy="370" r="20"/>
-    <circle cx="928" cy="442" r="20"/>
-    <circle cx="928" cy="550" r="20"/>
-    <circle cx="152" cy="730" r="20"/>
-    <circle cx="152" cy="802" r="20"/>
-    <circle cx="152" cy="910" r="20"/>
-    <circle cx="152" cy="1018" r="20"/>
+  <!-- Large question mark (middle) -->
+  <g transform="translate(544 1046) scale(2)">
+    <path d="M-30 -40 A30 30 0 0 1 30 -40 Q30 -18 8 -8 L8 10 L-8 10 L-8 -16 Q14 -24 14 -40 A14 14 0 0 0 -14 -40 Z" fill="#22303f" opacity=".18"/>
+    <circle cx="0" cy="28" r="9" fill="#22303f" opacity=".18"/>
+  </g>
+  <g transform="translate(540 1040) scale(2)">
+    <path d="M-30 -40 A30 30 0 0 1 30 -40 Q30 -18 8 -8 L8 10 L-8 10 L-8 -16 Q14 -24 14 -40 A14 14 0 0 0 -14 -40 Z" fill="#c96a1b" stroke="#22303f" stroke-width="1.25" stroke-linejoin="round"/>
+    <circle cx="0" cy="28" r="9" fill="#c96a1b" stroke="#22303f" stroke-width="1.25"/>
   </g>
 
-  <text x="540" y="130"
-        direction="rtl" unicode-bidi="plaintext" text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="40" font-weight="bold" fill="#123a5e">مثال محلول — صواب أم خطأ؟</text>
+  <!-- Thought bubble with three white cats -->
+  <circle cx="796" cy="1062" r="5" fill="#dff1f7" stroke="#22303f" stroke-width="2"/>
+  <circle cx="782" cy="1042" r="8" fill="#dff1f7" stroke="#22303f" stroke-width="2"/>
+  <ellipse cx="760" cy="960" rx="130" ry="62" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <g transform="translate(690 972)">
+    <path d="M16 24 Q34 22 28 0" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <ellipse cx="0" cy="10" rx="18" ry="22" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <polygon points="-12,-26 -10,-40 -2,-30" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="12,-26 10,-40 2,-30" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="0" cy="-18" r="14" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="-5" cy="-20" r="2.5" fill="#22303f"/>
+    <circle cx="5" cy="-20" r="2.5" fill="#22303f"/>
+  </g>
+  <g transform="translate(760 972)">
+    <path d="M16 24 Q34 22 28 0" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <ellipse cx="0" cy="10" rx="18" ry="22" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <polygon points="-12,-26 -10,-40 -2,-30" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="12,-26 10,-40 2,-30" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="0" cy="-18" r="14" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="-5" cy="-20" r="2.5" fill="#22303f"/>
+    <circle cx="5" cy="-20" r="2.5" fill="#22303f"/>
+  </g>
+  <g transform="translate(830 972)">
+    <path d="M16 24 Q30 22 26 4" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <ellipse cx="0" cy="10" rx="18" ry="22" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <polygon points="-12,-26 -10,-40 -2,-30" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="12,-26 10,-40 2,-30" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="0" cy="-18" r="14" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="-5" cy="-20" r="2.5" fill="#22303f"/>
+    <circle cx="5" cy="-20" r="2.5" fill="#22303f"/>
+  </g>
 
-  <text x="540" y="174"
-        direction="ltr" unicode-bidi="plaintext" text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27" fill="#2b5480">Worked Example — True or False?</text>
+  <!-- Child (right) -->
+  <ellipse cx="814" cy="1216" rx="52" ry="7" fill="#22303f" opacity=".18"/>
+  <rect x="796" y="1172" width="13" height="40" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="813" y="1172" width="13" height="40" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="801" cy="1213" rx="10" ry="5" fill="#22303f"/>
+  <ellipse cx="822" cy="1213" rx="10" ry="5" fill="#22303f"/>
+  <path d="M780 1182 Q778 1124 811 1118 Q844 1124 842 1182 Z" fill="url(#ilTunic)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M811 1122 L811 1178" fill="none" stroke="#8fc9f2" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="782" cy="1176" r="6" fill="#e8b98d" stroke="#22303f" stroke-width="2"/>
+  <circle cx="840" cy="1176" r="6" fill="#e8b98d" stroke="#22303f" stroke-width="2"/>
+  <circle cx="811" cy="1094" r="22" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M789 1090 Q791 1070 811 1070 Q831 1070 833 1090 Q822 1080 811 1082 Q800 1080 789 1090 Z" fill="#2b211c" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="802" cy="1096" r="3" fill="#22303f"/>
+  <circle cx="816" cy="1096" r="3" fill="#22303f"/>
+  <circle cx="809" cy="1107" r="3" fill="#22303f"/>
+</g>
 
-  <text x="950" y="236"
-        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30" font-weight="bold" fill="#1a4f86">ضع علامة صواب أو خطأ أمام كل عبارة:</text>
+<!-- Texts -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">4. بيانات التدريب Training Data</text>
+<text x="120" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">4. Training Data</text>
 
-  <text x="886" y="308"
-        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="29" fill="#1d5b9a">
-    <tspan x="886" dy="0">أ. التحيز الخوارزمي هو تحيز في أحكام نظام الذكاء</tspan>
-    <tspan x="886" dy="36">الاصطناعي قد ينتج من التحيز في بيانات التدريب.</tspan>
-  </text>
+<text x="935" y="274" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">التعريف الدقيق:</tspan> <tspan font-weight="bold" fill="#17457f">الأمثلة</tspan> التي يتعلم منها</tspan>
+  <tspan x="935" dy="40">نظام الذكاء الاصطناعي أنماطه قبل استخدامه؛</tspan>
+  <tspan x="935" dy="40">وكلما قلّ تمثيلها للواقع</tspan>
+  <tspan x="935" dy="40">زاد احتمال <tspan font-weight="bold" fill="#17457f">تحيّز</tspan> مخرجاته.</tspan>
+</text>
+<text x="140" y="434" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Definition:</tspan> the <tspan font-weight="bold" fill="#17457f">examples</tspan> from which</tspan>
+  <tspan x="140" dy="40">an AI system learns its patterns</tspan>
+  <tspan x="140" dy="40">before it is used; the less they</tspan>
+  <tspan x="140" dy="40">represent reality, the more likely</tspan>
+  <tspan x="140" dy="40">its outputs are to be <tspan font-weight="bold" fill="#17457f">biased.</tspan></tspan>
+</text>
 
-  <text x="886" y="380"
-        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="29" fill="#1d5b9a">
-    <tspan x="886" dy="0">ب. لا توجد مشكلة عندما تكون عملية اتخاذ القرار في</tspan>
-    <tspan x="886" dy="36">نظام الذكاء الاصطناعي غامضة، ما دام الناتج صحيحًا.</tspan>
-  </text>
-
-  <text x="886" y="452"
-        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="29" fill="#1d5b9a">ج. يساعد الذكاء الاصطناعي القابل للتفسير</text>
-
-  <text x="886" y="488"
-        direction="ltr" unicode-bidi="plaintext" text-anchor="end"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="28" fill="#1d5b9a">Explainable AI (XAI)</text>
-
-  <text x="886" y="524"
-        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="29" fill="#1d5b9a">البشر على فهم أسباب قرارات النظام.</text>
-
-  <text x="886" y="560"
-        direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="29" fill="#1d5b9a">
-    <tspan x="886" dy="0">د. عندما يتخذ نظام الذكاء الاصطناعي قرارًا خاطئًا،</tspan>
-    <tspan x="886" dy="36">يكون الشخص المسؤول عنه محددًا بوضوح دائمًا.</tspan>
-  </text>
-
-  <text x="132" y="668"
-        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="28" font-weight="bold" fill="#14395c">Mark each statement True or False:</text>
-
-  <text x="192" y="740"
-        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27" fill="#152b42">
-    <tspan x="192" dy="0">A. Algorithmic bias is bias in AI judgments</tspan>
-    <tspan x="192" dy="36">that may result from bias in the training data.</tspan>
-  </text>
-
-  <text x="192" y="812"
-        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27" fill="#152b42">
-    <tspan x="192" dy="0">B. There is no problem when an AI system’s</tspan>
-    <tspan x="192" dy="36">decision-making process is opaque, as long</tspan>
-    <tspan x="192" dy="36">as the result is correct.</tspan>
-  </text>
-
-  <text x="192" y="920"
-        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27" fill="#152b42">
-    <tspan x="192" dy="0">C. Explainable AI (XAI) helps humans</tspan>
-    <tspan x="192" dy="36">understand the reasons for an AI</tspan>
-    <tspan x="192" dy="36">system’s decisions.</tspan>
-  </text>
-
-  <text x="192" y="1028"
-        direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27" fill="#152b42">
-    <tspan x="192" dy="0">D. When an AI system makes an incorrect</tspan>
-    <tspan x="192" dy="36">decision, the responsible person is always</tspan>
-    <tspan x="192" dy="36">clearly determined.</tspan>
-  </text>
-
+<text x="950" y="674" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">مثال:</tspan> طفل لم يرَ في حياته إلا قططًا <tspan fill="#c96a1b">بيضاء،</tspan></tspan>
+  <tspan x="950" dy="40">فإذا رأى قطة <tspan fill="#c96a1b">سوداء</tspan> قال: هذه ليست قطة!</tspan>
+</text>
+<text x="120" y="754" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">Example:</tspan> a child who has only ever seen</tspan>
+  <tspan x="120" dy="40"><tspan fill="#c96a1b">white</tspan> cats sees a <tspan fill="#c96a1b">black</tspan> cat and says:</tspan>
+  <tspan x="120" dy="40">That is not a cat!</tspan>
+</text>
 </svg>

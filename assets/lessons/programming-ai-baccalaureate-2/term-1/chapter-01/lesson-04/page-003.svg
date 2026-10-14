@@ -4,166 +4,202 @@
      viewBox="0 0 1080 1350"
      preserveAspectRatio="xMidYMid meet"
      style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilPanel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-  <defs>
-    <linearGradient id="deskWood" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#8b5c34"/>
-      <stop offset="0.55" stop-color="#7a4d2b"/>
-      <stop offset="1" stop-color="#653d21"/>
-    </linearGradient>
-    <linearGradient id="paperTone" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fffdf6"/>
-      <stop offset="1" stop-color="#fbf6e9"/>
-    </linearGradient>
-  </defs>
+<!-- Shadows -->
+<rect x="109" y="128" width="870" height="128" rx="10" fill="#22303f" opacity=".12"/>
+<rect x="154" y="590" width="780" height="316" rx="24" fill="#22303f" opacity=".18"/>
 
-  <rect x="0" y="0" width="1080" height="1350" fill="url(#deskWood)"/>
-  <path d="M0 210 Q 540 168 1080 232" fill="none" stroke="#5b3519" stroke-width="16" opacity="0.16"/>
-  <path d="M0 1082 Q 540 1132 1080 1064" fill="none" stroke="#5b3519" stroke-width="20" opacity="0.14"/>
+<!-- Key sentence strip -->
+<rect x="105" y="122" width="870" height="128" rx="10" fill="#fdf6d8"/>
+<rect x="961" y="138" width="6" height="96" rx="3" fill="#e0a55e"/>
 
-  <rect x="42" y="34" width="1012" height="1302" rx="8" fill="#3a2313" opacity="0.22"/>
-  <rect x="34" y="24" width="1012" height="1302" rx="8" fill="url(#paperTone)"/>
+<!-- Main illustration: the system picks the student with glasses -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="150" y="584" width="780" height="316" rx="24" fill="url(#ilPanel)" stroke="#8fc9f2"/>
+  <ellipse cx="290" cy="884" rx="72" ry="10" fill="#8fc9f2" stroke="none"/>
+  <ellipse cx="790" cy="884" rx="72" ry="10" fill="#8fc9f2" stroke="none"/>
 
-  <g stroke="#c3d8ec" stroke-width="2" opacity="0.75">
-    <line x1="88" y1="244" x2="992" y2="244"/>
-    <line x1="88" y1="288" x2="992" y2="288"/>
-    <line x1="88" y1="332" x2="992" y2="332"/>
-    <line x1="88" y1="376" x2="992" y2="376"/>
-    <line x1="88" y1="420" x2="992" y2="420"/>
-    <line x1="88" y1="464" x2="992" y2="464"/>
-    <line x1="88" y1="508" x2="992" y2="508"/>
-    <line x1="88" y1="552" x2="992" y2="552"/>
-    <line x1="88" y1="596" x2="992" y2="596"/>
-    <line x1="88" y1="640" x2="992" y2="640"/>
-    <line x1="88" y1="684" x2="992" y2="684"/>
-    <line x1="88" y1="728" x2="992" y2="728"/>
-    <line x1="88" y1="772" x2="992" y2="772"/>
-    <line x1="88" y1="816" x2="992" y2="816"/>
-    <line x1="88" y1="860" x2="992" y2="860"/>
-    <line x1="88" y1="904" x2="992" y2="904"/>
-    <line x1="88" y1="948" x2="992" y2="948"/>
-    <line x1="88" y1="992" x2="992" y2="992"/>
-    <line x1="88" y1="1036" x2="992" y2="1036"/>
-    <line x1="88" y1="1080" x2="992" y2="1080"/>
-    <line x1="88" y1="1124" x2="992" y2="1124"/>
+  <!-- Left student: no glasses -->
+  <g transform="translate(290 730)">
+    <path d="M-62 150 L-62 100 Q-62 56 0 56 Q62 56 62 100 L62 150 Z" fill="#8fc9f2"/>
+    <path d="M-58 30 Q-62 -64 0 -64 Q62 -64 58 30 Q44 76 0 76 Q-44 76 -58 30 Z" fill="#17457f"/>
+    <circle cx="0" cy="2" r="36" fill="#d59f6f"/>
+    <circle cx="-13" cy="0" r="4.5" fill="#22303f" stroke="none"/>
+    <circle cx="13" cy="0" r="4.5" fill="#22303f" stroke="none"/>
+    <path d="M-10 18 Q0 26 10 18" fill="none"/>
+  </g>
+  <!-- Red question mark -->
+  <g transform="translate(290 624) scale(1.5)">
+    <circle cx="0" cy="0" r="18" fill="#ffffff"/>
+    <path d="M -6 -5 Q -6 -11 0 -11 Q 7 -11 7 -5 Q 7 -1 1 2 L 1 5" fill="none" stroke="#c0392b" stroke-width="3"/>
+    <circle cx="1" cy="10" r="2.2" fill="#c0392b" stroke="none"/>
   </g>
 
-  <rect x="67" y="70" width="946" height="1245" rx="5" fill="none" stroke="#c62828" stroke-width="3"/>
-
-  <text x="965" y="165"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="54"
-        font-weight="bold"
-        fill="#14365e">
-    <tspan x="965" dy="0">التحيز الخوارزمي</tspan>
-  </text>
-
-  <text x="655" y="212"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="32"
-        fill="#1d4a7a">
-    <tspan x="655" dy="0">Algorithmic Bias</tspan>
-  </text>
-
-  <g>
-    <rect x="132" y="288" width="58" height="100" rx="8" fill="#eef3f8" stroke="#6f8ba6" stroke-width="3"/>
-    <circle cx="161" cy="314" r="13" fill="#9fb4c8"/>
-    <rect x="142" y="336" width="38" height="7" rx="3" fill="#9fb4c8"/>
-    <rect x="146" y="350" width="30" height="7" rx="3" fill="#bccbd9"/>
-
-    <rect x="200" y="258" width="58" height="130" rx="8" fill="#fdeeee" stroke="#c62828" stroke-width="3"/>
-    <circle cx="229" cy="286" r="14" fill="#d98a8a"/>
-    <rect x="210" y="310" width="38" height="7" rx="3" fill="#d98a8a"/>
-    <rect x="214" y="324" width="30" height="7" rx="3" fill="#e6a9a9"/>
-    <rect x="210" y="338" width="38" height="7" rx="3" fill="#d98a8a"/>
-
-    <rect x="268" y="318" width="58" height="70" rx="8" fill="#eef3f8" stroke="#6f8ba6" stroke-width="3"/>
-    <circle cx="297" cy="342" r="11" fill="#9fb4c8"/>
-    <rect x="278" y="360" width="38" height="6" rx="3" fill="#bccbd9"/>
-
-    <line x1="348" y1="328" x2="412" y2="328" stroke="#c62828" stroke-width="5" stroke-linecap="round"/>
-    <polygon points="412,317 438,328 412,339" fill="#c62828"/>
-
-    <rect x="440" y="268" width="205" height="130" rx="14" fill="#eaf3fb" opacity="0.65" stroke="#2a6099" stroke-width="3"/>
-    <polygon points="541,295 579,333 541,371 503,333" fill="#ffffff" opacity="0.8" stroke="#2a6099" stroke-width="3"/>
-    <circle cx="470" cy="333" r="7" fill="#2a6099" opacity="0.55"/>
-    <circle cx="614" cy="333" r="7" fill="#2a6099" opacity="0.55"/>
-    <line x1="477" y1="333" x2="503" y2="333" stroke="#2a6099" stroke-width="3" opacity="0.7"/>
-    <line x1="579" y1="333" x2="607" y2="333" stroke="#2a6099" stroke-width="3" opacity="0.7"/>
-
-    <line x1="657" y1="328" x2="719" y2="328" stroke="#c62828" stroke-width="5" stroke-linecap="round"/>
-    <polygon points="719,317 745,328 719,339" fill="#c62828"/>
-
-    <line x1="840" y1="288" x2="840" y2="392" stroke="#2f4a66" stroke-width="6" stroke-linecap="round"/>
-    <rect x="800" y="390" width="80" height="11" rx="5" fill="#2f4a66"/>
-    <line x1="753" y1="266" x2="927" y2="310" stroke="#c62828" stroke-width="6" stroke-linecap="round"/>
-    <line x1="753" y1="266" x2="753" y2="306" stroke="#2f4a66" stroke-width="3"/>
-    <path d="M725 306 Q 753 334 781 306" fill="none" stroke="#2f4a66" stroke-width="4"/>
-    <line x1="927" y1="310" x2="927" y2="360" stroke="#2f4a66" stroke-width="3"/>
-    <path d="M899 360 Q 927 388 955 360" fill="none" stroke="#2f4a66" stroke-width="4"/>
-    <circle cx="918" cy="368" r="7" fill="#c62828" opacity="0.85"/>
-    <circle cx="936" cy="368" r="7" fill="#c62828" opacity="0.85"/>
+  <!-- System box with gears -->
+  <rect x="444" y="686" width="200" height="140" rx="20" fill="#22303f" opacity=".18" stroke="none"/>
+  <rect x="440" y="680" width="200" height="140" rx="20" fill="#8fc9f2"/>
+  <g transform="translate(500 742)">
+    <rect x="-8" y="-37" width="16" height="74" rx="3" fill="#c96a1b"/>
+    <rect x="-37" y="-8" width="74" height="16" rx="3" fill="#c96a1b"/>
+    <g transform="rotate(45)">
+      <rect x="-8" y="-37" width="16" height="74" rx="3" fill="#c96a1b"/>
+      <rect x="-37" y="-8" width="74" height="16" rx="3" fill="#c96a1b"/>
+    </g>
+    <circle cx="0" cy="0" r="28" fill="#c96a1b"/>
+    <circle cx="0" cy="0" r="10" fill="#ffffff"/>
+  </g>
+  <g transform="translate(562 770)">
+    <rect x="-6" y="-26" width="12" height="52" rx="3" fill="#f0c48c"/>
+    <rect x="-26" y="-6" width="52" height="12" rx="3" fill="#f0c48c"/>
+    <g transform="rotate(45)">
+      <rect x="-6" y="-26" width="12" height="52" rx="3" fill="#f0c48c"/>
+      <rect x="-26" y="-6" width="52" height="12" rx="3" fill="#f0c48c"/>
+    </g>
+    <circle cx="0" cy="0" r="19" fill="#f0c48c"/>
+    <circle cx="0" cy="0" r="7" fill="#ffffff"/>
   </g>
 
-  <text x="950" y="464"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="31"
-        fill="#225f9c">
-    <tspan x="950" dy="0">التحيز الخوارزمي Algorithmic Bias هو تحيز في أحكام</tspan>
-    <tspan x="950" dy="44">نظام الذكاء الاصطناعي. قد ينتج من بيانات تدريب</tspan>
-    <tspan x="950" dy="44">متحيزة أو غير كافية، أو من انعكاس أنماط تمييز</tspan>
-    <tspan x="950" dy="44">سابقة في البيانات. وقد يدخل التحيز أيضًا من خلال</tspan>
-    <tspan x="950" dy="44">طريقة تصميم النظام أو اختيار المتغيرات أو تصميم</tspan>
-    <tspan x="950" dy="44">النموذج نفسه.</tspan>
-  </text>
+  <!-- Arrow toward the student with glasses -->
+  <path d="M652 750 L716 750" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+  <polygon points="732,750 716,741 716,759" fill="#c0392b" stroke="#c0392b" stroke-width="2.4"/>
 
-  <text x="120" y="724"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="29"
-        fill="#152b42">
-    <tspan x="120" dy="0">Algorithmic bias is bias in an AI system’s</tspan>
-    <tspan x="120" dy="36">judgments. It may result from biased or</tspan>
-    <tspan x="120" dy="36">insufficient training data or from past</tspan>
-    <tspan x="120" dy="36">discriminatory patterns reflected in the data.</tspan>
-    <tspan x="120" dy="36">Bias can also enter through the system’s</tspan>
-    <tspan x="120" dy="36">design, the choice of variables, or the design</tspan>
-    <tspan x="120" dy="36">of the model itself.</tspan>
-  </text>
+  <!-- Right student: round glasses -->
+  <g transform="translate(790 730)">
+    <path d="M-62 150 L-62 100 Q-62 56 0 56 Q62 56 62 100 L62 150 Z" fill="#2f7fb5"/>
+    <path d="M-18 57 L0 80 L18 57 Z" fill="#ffffff"/>
+    <circle cx="0" cy="0" r="44" fill="#e8b98d"/>
+    <path d="M-44 -6 Q-44 -50 0 -50 Q44 -50 44 -6 Q26 -30 0 -30 Q-26 -30 -44 -6 Z" fill="#2b211c"/>
+    <circle cx="-17" cy="2" r="13" fill="#dff1f7"/>
+    <circle cx="17" cy="2" r="13" fill="#dff1f7"/>
+    <path d="M-4 2 L4 2" fill="none"/>
+    <circle cx="-17" cy="2" r="4" fill="#22303f" stroke="none"/>
+    <circle cx="17" cy="2" r="4" fill="#22303f" stroke="none"/>
+    <path d="M-12 24 Q0 33 12 24" fill="none"/>
+  </g>
+  <!-- Green check mark -->
+  <g transform="translate(790 628) scale(1.5)">
+    <circle cx="0" cy="0" r="18" fill="#2e7d32"/>
+    <path d="M -8 0 L -2 6 L 9 -6" fill="none" stroke="#ffffff" stroke-width="3"/>
+  </g>
+</g>
 
-  <rect x="105" y="985" width="870" height="183" rx="16" fill="#fdf6d8" stroke="#e0c46a" stroke-width="3"/>
+<!-- Smile face inside the strip -->
+<g transform="translate(860 212)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
 
-  <text x="940" y="1025"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        fill="#225f9c">
-    <tspan x="940" dy="0">إذا كانت بيانات التدريب متحيزة، فقد يكرر</tspan>
-    <tspan x="940" dy="39">نظام الذكاء الاصطناعي هذا التحيز.</tspan>
-  </text>
+<!-- Icon: AI chip -->
+<g transform="translate(125 318)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M18 2 L18 10 M28 2 L28 10 M38 2 L38 10 M18 46 L18 54 M28 46 L28 54 M38 46 L38 54 M2 18 L10 18 M2 28 L10 28 M2 38 L10 38 M46 18 L54 18 M46 28 L54 28 M46 38 L54 38" fill="none"/>
+  <rect x="10" y="10" width="36" height="36" rx="6" fill="#2f7fb5"/>
+  <rect x="20" y="20" width="16" height="16" rx="3" fill="#8fc9f2"/>
+</g>
 
-  <text x="140" y="1102"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="28"
-        fill="#152b42">
-    <tspan x="140" dy="0">If the training data is biased, an AI system</tspan>
-    <tspan x="140" dy="34">can reproduce that bias.</tspan>
-  </text>
+<!-- Icon: document stack -->
+<g transform="translate(880 466)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="4" y="2" width="34" height="42" rx="4" fill="#f0c48c"/>
+  <rect x="12" y="10" width="34" height="42" rx="4" fill="#ffffff"/>
+  <path d="M19 22 L39 22 M19 31 L39 31 M19 40 L32 40" fill="none" stroke="#7f95ab"/>
+</g>
 
+<!-- Icon: light bulb -->
+<g transform="translate(125 932)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M28 0 L28 4 M8 10 L12 13 M48 10 L44 13" fill="none"/>
+  <circle cx="28" cy="24" r="15" fill="#ffd24a"/>
+  <rect x="21" y="38" width="14" height="14" rx="3" fill="#7f95ab"/>
+</g>
+
+<!-- Surprise face: important fact -->
+<g transform="translate(880 1050)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="0" cy="10" r="5" fill="#22303f"/>
+</g>
+
+<!-- Memory illustration: glasses and dice (coincidence) -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="translate(454 1176)">
+    <circle cx="-42" cy="0" r="34" fill="#22303f" opacity=".18" stroke="none"/>
+    <circle cx="42" cy="0" r="34" fill="#22303f" opacity=".18" stroke="none"/>
+  </g>
+  <g transform="translate(450 1170)">
+    <path d="M -76 -6 L -100 -18 M 76 -6 L 100 -18" fill="none"/>
+    <circle cx="-42" cy="0" r="34" fill="#dff1f7"/>
+    <circle cx="42" cy="0" r="34" fill="#dff1f7"/>
+    <path d="M -8 -4 Q 0 -12 8 -4" fill="none"/>
+    <path d="M -58 -14 Q -52 -22 -42 -22 M 26 -14 Q 32 -22 42 -22" fill="none" stroke="#ffffff"/>
+  </g>
+  <g transform="translate(644 1178) rotate(-12)">
+    <rect x="-30" y="-30" width="60" height="60" rx="10" fill="#22303f" opacity=".18" stroke="none"/>
+  </g>
+  <g transform="translate(640 1172) rotate(-12)">
+    <rect x="-30" y="-30" width="60" height="60" rx="10" fill="#ffffff"/>
+    <circle cx="-14" cy="-14" r="5" fill="#22303f" stroke="none"/>
+    <circle cx="0" cy="0" r="5" fill="#22303f" stroke="none"/>
+    <circle cx="14" cy="14" r="5" fill="#22303f" stroke="none"/>
+  </g>
+  <g transform="translate(728 1192) rotate(10)">
+    <rect x="-30" y="-30" width="60" height="60" rx="10" fill="#22303f" opacity=".18" stroke="none"/>
+  </g>
+  <g transform="translate(724 1186) rotate(10)">
+    <rect x="-30" y="-30" width="60" height="60" rx="10" fill="#ffd24a"/>
+    <circle cx="-14" cy="-14" r="5" fill="#22303f" stroke="none"/>
+    <circle cx="14" cy="-14" r="5" fill="#22303f" stroke="none"/>
+    <circle cx="0" cy="0" r="5" fill="#22303f" stroke="none"/>
+    <circle cx="-14" cy="14" r="5" fill="#22303f" stroke="none"/>
+    <circle cx="14" cy="14" r="5" fill="#22303f" stroke="none"/>
+  </g>
+</g>
+
+<!-- Text -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#17457f">مبروك! أصبحت نظامًا متحيزًا.</text>
+<text x="140" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">Congratulations!</tspan>
+  <tspan x="140" dy="40">You have become a biased system.</tspan>
+</text>
+
+<text x="950" y="314" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">إن اخترت صاحب النظارة، فقد فعلت ما يفعله</tspan>
+  <tspan x="950" dy="40"><tspan font-weight="bold" fill="#17457f">الذكاء الاصطناعي</tspan> تمامًا:</tspan>
+  <tspan x="950" dy="40">لاحظت <tspan font-weight="bold" fill="#c0392b">نمطًا</tspan> في البيانات وكررته.</tspan>
+</text>
+<text x="120" y="434" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">If you chose the student with glasses,</tspan>
+  <tspan x="120" dy="40">you did exactly what an <tspan font-weight="bold" fill="#17457f">AI</tspan> does:</tspan>
+  <tspan x="120" dy="40">you noticed a <tspan font-weight="bold" fill="#c0392b">pattern</tspan> in the data</tspan>
+  <tspan x="120" dy="40">and repeated it.</tspan>
+</text>
+
+<text x="950" y="954" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">لكن هل النظارة سبب التفوق؟</tspan>
+  <tspan x="950" dy="40">لا، إنها <tspan font-weight="bold" fill="#c0392b">صدفة</tspan> في البيانات.</tspan>
+</text>
+<text x="120" y="1034" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">But do glasses cause success?</tspan>
+  <tspan x="120" dy="40">No, they are a <tspan font-weight="bold" fill="#c0392b">coincidence</tspan> in the data.</tspan>
+</text>
 </svg>

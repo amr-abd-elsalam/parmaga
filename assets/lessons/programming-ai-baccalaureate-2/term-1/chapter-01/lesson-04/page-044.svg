@@ -1,0 +1,214 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Success card -->
+<rect x="109" y="888" width="870" height="248" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="882" width="870" height="248" rx="16" fill="#e9f7ee" stroke="#a9dcbe" stroke-width="2"/>
+<rect x="961" y="898" width="6" height="216" rx="3" fill="#2e7d32"/>
+
+<!-- Requested illustration: two teams debate -->
+<g>
+  <rect x="105" y="380" width="870" height="236" rx="24" fill="url(#ilSky)"/>
+  <ellipse cx="220" cy="604" rx="34" ry="5" fill="#22303f" opacity=".18"/>
+  <ellipse cx="320" cy="604" rx="34" ry="5" fill="#22303f" opacity=".18"/>
+  <ellipse cx="760" cy="604" rx="34" ry="5" fill="#22303f" opacity=".18"/>
+  <ellipse cx="860" cy="604" rx="34" ry="5" fill="#22303f" opacity=".18"/>
+  <rect x="404" y="546" width="280" height="16" rx="6" fill="#22303f" opacity=".18"/>
+  <path d="M814 398 L840 408 L840 426 Q840 444 814 454 Q788 444 788 426 L788 408 Z" fill="#22303f" opacity=".18"/>
+  <rect x="250" y="418" width="48" height="36" rx="6" fill="#22303f" opacity=".18"/>
+
+  <!-- Left team: girl -->
+  <ellipse cx="210" cy="600" rx="9" ry="4" fill="#22303f"/>
+  <ellipse cx="230" cy="600" rx="9" ry="4" fill="#22303f"/>
+  <rect x="194" y="496" width="52" height="102" rx="18" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M196 478 Q190 500 192 512 L248 512 Q250 500 244 478 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="220" cy="476" r="24" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="220" cy="476" r="15" fill="#b57e50" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="215" cy="475" r="2.5" fill="#22303f"/>
+  <circle cx="225" cy="475" r="2.5" fill="#22303f"/>
+  <path d="M215 482 Q220 486 225 482" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Left team: boy -->
+  <rect x="306" y="554" width="12" height="46" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="322" y="554" width="12" height="46" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="312" cy="600" rx="9" ry="4" fill="#22303f"/>
+  <ellipse cx="328" cy="600" rx="9" ry="4" fill="#22303f"/>
+  <rect x="294" y="496" width="52" height="64" rx="18" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="320" cy="474" r="20" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M300 470 Q299 452 320 453 Q341 452 340 470 Q320 460 300 470 Z" fill="#2b211c"/>
+  <circle cx="313" cy="474" r="2.5" fill="#22303f"/>
+  <circle cx="327" cy="474" r="2.5" fill="#22303f"/>
+  <path d="M314 482 Q320 487 326 482" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Right team: boy -->
+  <rect x="746" y="554" width="12" height="46" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="762" y="554" width="12" height="46" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="752" cy="600" rx="9" ry="4" fill="#22303f"/>
+  <ellipse cx="768" cy="600" rx="9" ry="4" fill="#22303f"/>
+  <rect x="734" y="496" width="52" height="64" rx="18" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="760" cy="474" r="20" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M740 470 Q739 452 760 453 Q781 452 780 470 Q760 460 740 470 Z" fill="#2b211c"/>
+  <circle cx="753" cy="474" r="2.5" fill="#22303f"/>
+  <circle cx="767" cy="474" r="2.5" fill="#22303f"/>
+  <path d="M754 482 Q760 487 766 482" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Right team: girl -->
+  <ellipse cx="850" cy="600" rx="9" ry="4" fill="#22303f"/>
+  <ellipse cx="870" cy="600" rx="9" ry="4" fill="#22303f"/>
+  <rect x="834" y="496" width="52" height="102" rx="18" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M836 478 Q830 500 832 512 L888 512 Q890 500 884 478 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="860" cy="476" r="24" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="860" cy="476" r="15" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="855" cy="475" r="2.5" fill="#22303f"/>
+  <circle cx="865" cy="475" r="2.5" fill="#22303f"/>
+  <path d="M855 482 Q860 486 865 482" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Table -->
+  <rect x="420" y="554" width="12" height="46" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="648" y="554" width="12" height="46" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="400" y="540" width="280" height="16" rx="6" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="450" y="532" width="56" height="8" rx="2" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="574" y="532" width="56" height="8" rx="2" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Shield above right team -->
+  <path d="M810 392 L836 402 L836 420 Q836 438 810 448 Q784 438 784 420 L784 402 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polyline points="798,420 807,429 823,410" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Padlock above left team -->
+  <path d="M252 416 L252 404 Q252 386 270 386 Q288 386 288 404 L288 416 L281 416 L281 404 Q281 393 270 393 Q259 393 259 404 L259 416 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="246" y="412" width="48" height="36" rx="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="270" cy="426" r="4" fill="#22303f"/>
+  <rect x="268.5" y="428" width="3" height="9" fill="#22303f"/>
+
+  <!-- Two-way swap arrow -->
+  <line x1="480" y1="462" x2="596" y2="462" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="608,462 594,454 594,470" fill="#c0392b"/>
+  <line x1="484" y1="490" x2="600" y2="490" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="472,490 486,482 486,498" fill="#c0392b"/>
+</g>
+
+<!-- Pencil icon beside header -->
+<g transform="translate(124 102) rotate(-45 22 22)">
+  <rect x="16" y="2" width="12" height="30" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="16" y="0" width="12" height="6" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="16,32 28,32 22,42" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="20,38.7 24,38.7 22,42" fill="#22303f"/>
+</g>
+
+<!-- Thinking face -->
+<g transform="translate(200 246)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Light bulb icon -->
+<g transform="translate(880 820)">
+  <circle cx="22" cy="18" r="14" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="15" y="30" width="14" height="10" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Check badge inside card -->
+<g transform="translate(152 896)">
+  <circle cx="24" cy="24" r="22" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <polyline points="13,24 21,32 35,16" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Memory illustration: balance between privacy and safety -->
+<g>
+  <rect x="500" y="1236" width="88" height="12" rx="6" fill="#22303f" opacity=".18"/>
+  <rect x="536" y="1166" width="8" height="68" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="496" y="1230" width="88" height="12" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="420" y="1162" width="240" height="8" rx="4" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="540" cy="1160" r="8" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="430" y1="1170" x2="406" y2="1220" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="430" y1="1170" x2="454" y2="1220" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="650" y1="1170" x2="626" y2="1220" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="650" y1="1170" x2="674" y2="1220" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M400 1220 L460 1220 Q430 1242 400 1220 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M620 1220 L680 1220 Q650 1242 620 1220 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M423 1202 L423 1196 Q423 1188 430 1188 Q437 1188 437 1196 L437 1202" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="418" y="1200" width="24" height="18" rx="3" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M650 1188 L666 1194 L666 1205 Q666 1214 650 1219 Q634 1214 634 1205 L634 1194 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Smile face -->
+<g transform="translate(230 1200)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Teamwork icon -->
+<g transform="translate(822 1172)">
+  <circle cx="18" cy="14" r="8" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="40" cy="14" r="8" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="6" y="26" width="24" height="26" rx="10" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="28" y="26" width="24" height="26" rx="10" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Texts -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="950" dy="0">مناظرة: الأمان أم الخصوصية؟</tspan>
+</text>
+<text x="120" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="120" dy="0">Debate: Safety or Privacy?</tspan>
+</text>
+
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">هل نركّب كاميرات <tspan font-weight="bold" fill="#c0392b">تعرّف على الوجه</tspan></tspan>
+  <tspan x="950" dy="40">في كل شوارع المدينة؟</tspan>
+</text>
+<text x="120" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Should we install <tspan font-weight="bold" fill="#c0392b">face-recognition</tspan></tspan>
+  <tspan x="120" dy="40">cameras on every street in the city?</tspan>
+</text>
+
+<text x="950" y="674" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">في منتصف المناظرة يتبادل الفريقان الأدوار،</tspan>
+  <tspan x="950" dy="40">لتتعلم أن <tspan font-weight="bold" fill="#17457f">تفهم الرأي الآخر،</tspan> لا أن تنتصر فقط.</tspan>
+</text>
+<text x="120" y="754" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Halfway through, the teams swap sides,</tspan>
+  <tspan x="120" dy="40">so you learn to <tspan font-weight="bold" fill="#17457f">understand the other</tspan></tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#17457f">view,</tspan> not only to win.</tspan>
+</text>
+
+<text x="935" y="914" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">مثال <tspan font-weight="bold" fill="#2e7d32">لحل وسط:</tspan> الكاميرات في المطارات فقط،</tspan>
+  <tspan x="935" dy="40">بموافقة معلنة،</tspan>
+  <tspan x="935" dy="40">وتُحذف التسجيلات بعد مدة محددة.</tspan>
+</text>
+<text x="140" y="1034" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">A <tspan font-weight="bold" fill="#2e7d32">middle-ground</tspan> example: cameras only</tspan>
+  <tspan x="140" dy="40">in airports, with public consent, and</tspan>
+  <tspan x="140" dy="40">recordings deleted after a set time.</tspan>
+</text>
+</svg>

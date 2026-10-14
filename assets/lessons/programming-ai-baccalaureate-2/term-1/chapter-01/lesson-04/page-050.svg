@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="ilSun" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffd24a"/>
+    <stop offset="1" stop-color="#f0c48c"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Key sentence strip -->
+<rect x="105" y="442" width="870" height="208" rx="10" fill="#fdf6d8"/>
+<rect x="961" y="458" width="6" height="176" rx="3" fill="#e0a55e"/>
+
+<!-- Success card -->
+<rect x="109" y="1008" width="870" height="168" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="1002" width="870" height="168" rx="16" fill="#e9f7ee" stroke="#a9dcbe" stroke-width="2"/>
+<rect x="961" y="1018" width="6" height="136" rx="3" fill="#2e7d32"/>
+
+<!-- Illustration -->
+<g>
+  <rect x="129" y="696" width="830" height="280" rx="24" fill="#22303f" opacity=".18"/>
+  <rect x="125" y="690" width="830" height="280" rx="24" fill="url(#ilSky)" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="210" cy="735" rx="42" ry="14" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="880" cy="728" rx="42" ry="14" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M415 920 A125 125 0 0 1 665 920 Z" fill="url(#ilSun)" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="610" y1="799" x2="620" y2="781" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="470" y1="799" x2="460" y2="781" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="661" y1="850" x2="679" y2="840" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="419" y1="850" x2="401" y2="840" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M126 920 H954 V946 Q954 969 931 969 H149 Q126 969 126 946 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Badge 1 (right): balance scale -->
+  <circle cx="800" cy="860" r="40" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="800" cy="860" r="32" fill="#dff1f7"/>
+  <line x1="800" y1="838" x2="800" y2="880" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="780" y1="843" x2="820" y2="843" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="780" y1="843" x2="772" y2="860" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="780" y1="843" x2="788" y2="860" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="820" y1="843" x2="812" y2="860" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="820" y1="843" x2="828" y2="860" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M770 860 Q780 872 790 860 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M810 860 Q820 872 830 860 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="788" y="879" width="24" height="6" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="800" cy="838" r="3.5" fill="#22303f"/>
+
+  <!-- Badge 2: open eye -->
+  <circle cx="670" cy="745" r="40" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="670" cy="745" r="32" fill="#ffd24a"/>
+  <path d="M644 745 Q670 723 696 745 Q670 767 644 745 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="670" cy="745" r="9" fill="#2f7fb5"/>
+  <circle cx="670" cy="745" r="4" fill="#22303f"/>
+
+  <!-- Badge 3: padlock -->
+  <circle cx="410" cy="745" r="40" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="410" cy="745" r="32" fill="#8fc9f2"/>
+  <path d="M398 741 L398 732 Q398 719 410 719 Q422 719 422 732 L422 741" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="394" y="739" width="32" height="26" rx="4" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="410" cy="750" r="3.5" fill="#22303f"/>
+  <line x1="410" y1="752" x2="410" y2="758" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Badge 4 (left): person with check -->
+  <circle cx="280" cy="860" r="40" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="280" cy="860" r="32" fill="#a9dcbe"/>
+  <circle cx="272" cy="845" r="8" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M256 878 Q258 859 272 857 Q286 859 288 878 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="294" cy="872" r="10" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M289 872 L293 876 L300 867" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Student -->
+  <rect x="532" y="826" width="16" height="20" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M478 924 Q480 852 540 842 Q600 852 602 924 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M526 846 Q540 856 554 846" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M492 862 Q472 884 460 912 L478 918 Q488 892 502 874 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M588 862 Q608 884 620 912 L602 918 Q592 892 578 874 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="466" cy="916" rx="10" ry="7" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="614" cy="916" rx="10" ry="7" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="540" cy="800" r="32" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M508 796 Q508 764 540 764 Q572 764 572 796 Q562 780 540 781 Q518 780 508 796 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="529" cy="801" r="3.5" fill="#22303f"/>
+  <circle cx="551" cy="801" r="3.5" fill="#22303f"/>
+  <path d="M528 812 Q540 822 552 812" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Laptop -->
+  <rect x="470" y="858" width="140" height="60" rx="6" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="540" cy="888" r="8" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="450" y="916" width="180" height="8" rx="3" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Desk -->
+  <rect x="350" y="938" width="14" height="28" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="716" y="938" width="14" height="28" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="330" y="924" width="420" height="16" rx="6" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Star icon in success card -->
+<g transform="translate(150 1014)">
+  <polygon points="24,2 29.3,16.7 44.9,17.2 32.6,26.8 36.9,41.8 24,33 11.1,41.8 15.4,26.8 3.1,17.2 18.7,16.7" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Wink face in success card -->
+<g transform="translate(880 1130)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M 5 -6 L 13 -6" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Lower icon row -->
+<g transform="translate(394 1192)">
+  <circle cx="26" cy="20" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="18" y="35" width="16" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+<g transform="translate(514 1192)">
+  <path d="M26 3 L46 11 Q46 36 26 49 Q6 36 6 11 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M26 12 L37 17 Q36 33 26 40 Z" fill="#2f7fb5"/>
+</g>
+<g transform="translate(634 1192)">
+  <circle cx="26" cy="26" r="22" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M15 26 L23 34 L37 18" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Texts -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">رسالة أخيرة</text>
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="normal" fill="#152b42">A Final Message</text>
+
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">الذكاء الاصطناعي</tspan> ليس عدوًا ولا ساحرًا؛</tspan>
+  <tspan x="950" dy="40">إنه <tspan font-weight="bold" fill="#17457f">أداة قوية</tspan> تعكس من صنعها ومن درّبها.</tspan>
+</text>
+<text x="120" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">AI</tspan> is neither an enemy nor a magician;</tspan>
+  <tspan x="120" dy="40">it is a <tspan font-weight="bold" fill="#17457f">powerful tool</tspan> that reflects</tspan>
+  <tspan x="120" dy="40">those who built and trained it.</tspan>
+</text>
+
+<text x="935" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">السؤال الحقيقي: هل استخدمناه نحن</tspan>
+  <tspan x="935" dy="40">بعدل وشفافية واحترام ومساءلة؟</tspan>
+</text>
+<text x="140" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">The real question: did we use it</tspan>
+  <tspan x="140" dy="40">with fairness, transparency, respect,</tspan>
+  <tspan x="140" dy="40">and accountability?</tspan>
+</text>
+
+<text x="935" y="1034" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">قد تصبح أنت <tspan font-weight="bold" fill="#c0392b">المطوّر</tspan> يومًا ما؛</tspan>
+  <tspan x="935" dy="40">فتذكّر <tspan font-weight="bold" fill="#17457f">الأسئلة الأربعة.</tspan></tspan>
+</text>
+<text x="140" y="1114" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">One day, you may be the <tspan font-weight="bold" fill="#c0392b">developer;</tspan></tspan>
+  <tspan x="140" dy="40">remember the <tspan font-weight="bold" fill="#17457f">four questions.</tspan></tspan>
+</text>
+</svg>

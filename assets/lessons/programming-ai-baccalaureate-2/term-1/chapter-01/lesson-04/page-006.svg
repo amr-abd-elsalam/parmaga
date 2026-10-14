@@ -4,216 +4,236 @@
      viewBox="0 0 1080 1350"
      preserveAspectRatio="xMidYMid meet"
      style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilPanel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-  <defs>
-    <linearGradient id="woodBg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#a9743f"/>
-      <stop offset="0.5" stop-color="#8f5f31"/>
-      <stop offset="1" stop-color="#7a4f27"/>
-    </linearGradient>
-    <linearGradient id="paperTone" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fffdf6"/>
-      <stop offset="1" stop-color="#fbf6e9"/>
-    </linearGradient>
-  </defs>
+<!-- Shadows -->
+<rect x="154" y="628" width="780" height="238" rx="24" fill="#22303f" opacity=".18"/>
+<rect x="109" y="888" width="870" height="168" rx="16" fill="#22303f" opacity=".12"/>
 
-  <!-- 1) الخلفية البسيطة -->
-  <rect x="0" y="0" width="1080" height="1350" fill="url(#woodBg)"/>
-  <path d="M0,170 C300,110 780,240 1080,160" fill="none" stroke="#5f3a1a" stroke-width="26" opacity="0.10"/>
-  <path d="M0,990 C290,1070 800,900 1080,1015" fill="none" stroke="#5f3a1a" stroke-width="22" opacity="0.08"/>
+<!-- Success card -->
+<rect x="105" y="882" width="870" height="168" rx="16" fill="#e9f7ee" stroke="#a9dcbe" stroke-width="2"/>
+<rect x="961" y="898" width="6" height="136" rx="3" fill="#2e7d32"/>
 
-  <!-- 2) الورقة -->
-  <rect x="42" y="45" width="1012" height="1282" rx="8" fill="#3a2311" opacity="0.20"/>
-  <rect x="34" y="34" width="1012" height="1282" rx="8" fill="url(#paperTone)"/>
+<!-- Bullets -->
+<circle cx="966" cy="144" r="6" fill="#c0392b"/>
+<circle cx="114" cy="184" r="6" fill="#c0392b"/>
+<circle cx="966" cy="264" r="6" fill="#c0392b"/>
+<circle cx="114" cy="304" r="6" fill="#c0392b"/>
+<circle cx="966" cy="384" r="6" fill="#c0392b"/>
+<circle cx="114" cy="424" r="6" fill="#c0392b"/>
+<circle cx="966" cy="504" r="6" fill="#c0392b"/>
+<circle cx="114" cy="544" r="6" fill="#c0392b"/>
 
-  <!-- 3) سطور الدفتر الزرقاء الباهتة -->
-  <g stroke="#cfe1f2" stroke-width="1.2">
-    <line x1="85" y1="150" x2="995" y2="150"/>
-    <line x1="85" y1="188" x2="995" y2="188"/>
-    <line x1="85" y1="226" x2="995" y2="226"/>
-    <line x1="85" y1="264" x2="995" y2="264"/>
-    <line x1="85" y1="302" x2="995" y2="302"/>
-    <line x1="85" y1="340" x2="995" y2="340"/>
-    <line x1="85" y1="378" x2="995" y2="378"/>
-    <line x1="85" y1="416" x2="995" y2="416"/>
-    <line x1="85" y1="454" x2="995" y2="454"/>
-    <line x1="85" y1="492" x2="995" y2="492"/>
-    <line x1="85" y1="530" x2="995" y2="530"/>
-    <line x1="85" y1="568" x2="995" y2="568"/>
-    <line x1="85" y1="606" x2="995" y2="606"/>
-    <line x1="85" y1="644" x2="995" y2="644"/>
-    <line x1="85" y1="682" x2="995" y2="682"/>
-    <line x1="85" y1="720" x2="995" y2="720"/>
-    <line x1="85" y1="758" x2="995" y2="758"/>
-    <line x1="85" y1="796" x2="995" y2="796"/>
-    <line x1="85" y1="834" x2="995" y2="834"/>
-    <line x1="85" y1="872" x2="995" y2="872"/>
-    <line x1="85" y1="910" x2="995" y2="910"/>
-    <line x1="85" y1="948" x2="995" y2="948"/>
-    <line x1="85" y1="986" x2="995" y2="986"/>
-    <line x1="85" y1="1024" x2="995" y2="1024"/>
-    <line x1="85" y1="1062" x2="995" y2="1062"/>
-    <line x1="85" y1="1100" x2="995" y2="1100"/>
-    <line x1="85" y1="1138" x2="995" y2="1138"/>
+<!-- Main illustration: four principle badges, right to left -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="150" y="622" width="780" height="238" rx="24" fill="url(#ilPanel)" stroke="#8fc9f2"/>
+
+  <!-- Badge shadows -->
+  <circle cx="814" cy="788" r="62" fill="#22303f" opacity=".18" stroke="none"/>
+  <circle cx="634" cy="788" r="62" fill="#22303f" opacity=".18" stroke="none"/>
+  <circle cx="454" cy="788" r="62" fill="#22303f" opacity=".18" stroke="none"/>
+  <circle cx="274" cy="788" r="62" fill="#22303f" opacity=".18" stroke="none"/>
+
+  <!-- Badge 1 (right): balance scale -->
+  <g transform="translate(810 782)">
+    <circle cx="0" cy="0" r="62" fill="#2f7fb5"/>
+    <circle cx="0" cy="0" r="48" fill="#ffffff"/>
+    <rect x="-3" y="-30" width="6" height="52" rx="2" fill="#2f7fb5"/>
+    <rect x="-34" y="-32" width="68" height="6" rx="3" fill="#2f7fb5"/>
+    <path d="M-29 -27 L-38 0 M-29 -27 L-20 0 M29 -27 L20 0 M29 -27 L38 0" fill="none"/>
+    <path d="M-42 0 Q-29 14 -16 0 Z" fill="#ffd24a"/>
+    <path d="M16 0 Q29 14 42 0 Z" fill="#ffd24a"/>
+    <rect x="-16" y="22" width="32" height="7" rx="3" fill="#2f7fb5"/>
   </g>
 
-  <!-- 4) الإطار الأحمر الخارجي الوحيد -->
-  <rect x="67" y="67" width="946" height="1216" rx="4" fill="none" stroke="#c8392b" stroke-width="2.4"/>
-
-  <!-- 5) خلفيات البطاقات -->
-  <rect x="555" y="296" width="420" height="415" rx="14" fill="#fdfbf2" opacity="0.97" stroke="#a9c1d8" stroke-width="1.6"/>
-  <rect x="105" y="296" width="420" height="415" rx="14" fill="#fdfbf2" opacity="0.97" stroke="#a9c1d8" stroke-width="1.6"/>
-  <rect x="555" y="741" width="420" height="415" rx="14" fill="#fdfbf2" opacity="0.97" stroke="#a9c1d8" stroke-width="1.6"/>
-  <rect x="105" y="741" width="420" height="415" rx="14" fill="#fdfbf2" opacity="0.97" stroke="#a9c1d8" stroke-width="1.6"/>
-
-  <!-- إبرازات صفراء خلف أسماء المبادئ -->
-  <rect x="839" y="407" width="118" height="42" rx="6" fill="#fbeeb0" opacity="0.85"/>
-  <rect x="363" y="407" width="142" height="42" rx="6" fill="#fbeeb0" opacity="0.85"/>
-  <rect x="695" y="852" width="262" height="42" rx="6" fill="#fbeeb0" opacity="0.85"/>
-  <rect x="365" y="852" width="140" height="42" rx="6" fill="#fbeeb0" opacity="0.85"/>
-
-  <!-- 6) الأيقونات الوظيفية -->
-  <!-- ميزان العدالة -->
-  <g transform="translate(765,354)" fill="none" stroke="#1f5f9e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-    <line x1="0" y1="-24" x2="0" y2="26"/>
-    <line x1="-17" y1="26" x2="17" y2="26"/>
-    <line x1="-34" y1="-20" x2="34" y2="-20"/>
-    <line x1="-34" y1="-20" x2="-34" y2="-9"/>
-    <line x1="34" y1="-20" x2="34" y2="-9"/>
-    <path d="M-48,-9 L-20,-9 L-34,6 Z"/>
-    <path d="M20,-9 L48,-9 L34,6 Z"/>
-    <circle cx="0" cy="-26" r="4" fill="#1f5f9e"/>
-  </g>
-  <!-- عين الشفافية -->
-  <g transform="translate(315,354)" fill="none" stroke="#1f5f9e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M-36,0 Q0,-27 36,0 Q0,27 -36,0 Z"/>
-    <circle cx="0" cy="0" r="10.5" fill="#1f5f9e" stroke="none"/>
-    <circle cx="4" cy="-4" r="3" fill="#fdfbf2" stroke="none"/>
-  </g>
-  <!-- درع حماية الخصوصية -->
-  <g transform="translate(765,799)" fill="none" stroke="#1f5f9e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M0,-29 L27,-19 L27,2 Q27,22 0,31 Q-27,22 -27,2 L-27,-19 Z"/>
-    <circle cx="0" cy="-4" r="5.5" fill="#1f5f9e" stroke="none"/>
-    <rect x="-2.6" y="-1" width="5.2" height="12" rx="2" fill="#1f5f9e" stroke="none"/>
-  </g>
-  <!-- مستند المساءلة بعلامة صح -->
-  <g transform="translate(315,799)" fill="none" stroke="#1f5f9e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="-23" y="-29" width="46" height="54" rx="5"/>
-    <line x1="-13" y1="-16" x2="13" y2="-16"/>
-    <line x1="-13" y1="-6" x2="13" y2="-6"/>
-    <line x1="-13" y1="4" x2="2" y2="4"/>
-    <path d="M-11,13 L-3,21 L13,3" stroke="#1f7a4d" stroke-width="3.6"/>
+  <!-- Badge 2: open eye -->
+  <g transform="translate(630 782)">
+    <circle cx="0" cy="0" r="62" fill="#2e7d32"/>
+    <circle cx="0" cy="0" r="48" fill="#ffffff"/>
+    <path d="M-36 0 Q0 -32 36 0 Q0 32 -36 0 Z" fill="#dff1f7"/>
+    <circle cx="0" cy="0" r="14" fill="#2e7d32"/>
+    <circle cx="0" cy="0" r="5" fill="#22303f" stroke="none"/>
   </g>
 
-  <!-- 7) النصوص التعليمية -->
+  <!-- Badge 3: closed padlock -->
+  <g transform="translate(450 782)">
+    <circle cx="0" cy="0" r="62" fill="#c96a1b"/>
+    <circle cx="0" cy="0" r="48" fill="#ffffff"/>
+    <path d="M-18 -2 L-18 -16 Q-18 -34 0 -34 Q18 -34 18 -16 L18 -2 L10 -2 L10 -16 Q10 -26 0 -26 Q-10 -26 -10 -16 L-10 -2 Z" fill="#7f95ab"/>
+    <rect x="-24" y="-4" width="48" height="38" rx="6" fill="#f0c48c"/>
+    <circle cx="0" cy="10" r="5" fill="#22303f" stroke="none"/>
+    <rect x="-2" y="12" width="4" height="12" rx="2" fill="#22303f" stroke="none"/>
+  </g>
 
-  <!-- العنوان العربي -->
-  <text x="965"
-        y="190"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="38"
-        font-weight="bold"
-        fill="#12355b">
-    <tspan x="965" dy="0">المبادئ الأساسية لأخلاقيات الذكاء الاصطناعي</tspan>
-  </text>
+  <!-- Badge 4 (left): person with check mark -->
+  <g transform="translate(270 782)">
+    <circle cx="0" cy="0" r="62" fill="#ffd24a"/>
+    <circle cx="0" cy="0" r="48" fill="#ffffff"/>
+    <path d="M-30 34 Q-30 4 -6 4 Q18 4 18 34 Z" fill="#2f7fb5"/>
+    <circle cx="-6" cy="-14" r="13" fill="#e8b98d"/>
+    <path d="M-19 -16 Q-19 -30 -6 -30 Q7 -30 7 -16 Q0 -23 -6 -23 Q-12 -23 -19 -16 Z" fill="#2b211c"/>
+    <circle cx="22" cy="-18" r="13" fill="#2e7d32"/>
+    <path d="M16 -18 L20 -13 L28 -23" fill="none" stroke="#ffffff" stroke-width="3"/>
+  </g>
 
-  <!-- العنوان الإنجليزي -->
-  <text x="540"
-        y="236"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26"
-        fill="#12355b">
-    <tspan x="540" dy="0">Basic Principles of AI Ethics</tspan>
-  </text>
+  <!-- Speech bubbles with question marks -->
+  <g transform="translate(810 666)">
+    <polygon points="-8,20 0,38 10,20" fill="#dff1f7"/>
+    <rect x="-30" y="-22" width="60" height="44" rx="14" fill="#dff1f7"/>
+    <g transform="scale(1.3)">
+      <path d="M -6 -5 Q -6 -11 0 -11 Q 7 -11 7 -5 Q 7 -1 1 2 L 1 5" fill="none" stroke="#2f7fb5" stroke-width="3"/>
+      <circle cx="1" cy="10" r="2.2" fill="#2f7fb5" stroke="none"/>
+    </g>
+  </g>
+  <g transform="translate(630 666)">
+    <polygon points="-8,20 0,38 10,20" fill="#a9dcbe"/>
+    <rect x="-30" y="-22" width="60" height="44" rx="14" fill="#a9dcbe"/>
+    <g transform="scale(1.3)">
+      <path d="M -6 -5 Q -6 -11 0 -11 Q 7 -11 7 -5 Q 7 -1 1 2 L 1 5" fill="none" stroke="#2e7d32" stroke-width="3"/>
+      <circle cx="1" cy="10" r="2.2" fill="#2e7d32" stroke="none"/>
+    </g>
+  </g>
+  <g transform="translate(450 666)">
+    <polygon points="-8,20 0,38 10,20" fill="#f0c48c"/>
+    <rect x="-30" y="-22" width="60" height="44" rx="14" fill="#f0c48c"/>
+    <g transform="scale(1.3)">
+      <path d="M -6 -5 Q -6 -11 0 -11 Q 7 -11 7 -5 Q 7 -1 1 2 L 1 5" fill="none" stroke="#c96a1b" stroke-width="3"/>
+      <circle cx="1" cy="10" r="2.2" fill="#c96a1b" stroke="none"/>
+    </g>
+  </g>
+  <g transform="translate(270 666)">
+    <polygon points="-8,20 0,38 10,20" fill="#ffd24a"/>
+    <rect x="-30" y="-22" width="60" height="44" rx="14" fill="#ffd24a"/>
+    <g transform="scale(1.3)">
+      <path d="M -6 -5 Q -6 -11 0 -11 Q 7 -11 7 -5 Q 7 -1 1 2 L 1 5" fill="none" stroke="#17457f" stroke-width="3"/>
+      <circle cx="1" cy="10" r="2.2" fill="#17457f" stroke="none"/>
+    </g>
+  </g>
+</g>
 
-  <!-- البطاقة 1: العدالة -->
-  <text x="949" y="438" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#12355b">
-    <tspan x="949" dy="0">العدالة</tspan>
-  </text>
-  <text x="581" y="480" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="24" fill="#12355b">
-    <tspan x="581" dy="0">— Fairness</tspan>
-  </text>
-  <text x="949" y="528" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="25" fill="#225f9c">
-    <tspan x="949" dy="0">عدم التمييز ظلمًا ضد شخص</tspan>
-    <tspan x="949" dy="34">أو مجموعة بعينها.</tspan>
-  </text>
-  <text x="581" y="608" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="21" fill="#152b42">
-    <tspan x="581" dy="0">Not unjustly discriminating</tspan>
-    <tspan x="581" dy="30">against any particular</tspan>
-    <tspan x="581" dy="30">person or group.</tspan>
-  </text>
+<!-- Icon: balance scale (fairness) -->
+<g transform="translate(890 182)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="20" y="8" width="4" height="28" rx="2" fill="#2f7fb5"/>
+  <rect x="6" y="6" width="32" height="5" rx="2" fill="#2f7fb5"/>
+  <path d="M9 10 L4 24 M9 10 L14 24 M35 10 L30 24 M35 10 L40 24" fill="none"/>
+  <path d="M2 24 Q9 32 16 24 Z" fill="#ffd24a"/>
+  <path d="M28 24 Q35 32 42 24 Z" fill="#ffd24a"/>
+  <rect x="12" y="36" width="20" height="5" rx="2" fill="#2f7fb5"/>
+</g>
 
-  <!-- البطاقة 2: الشفافية -->
-  <text x="499" y="438" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#12355b">
-    <tspan x="499" dy="0">الشفافية</tspan>
-  </text>
-  <text x="131" y="480" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="24" fill="#12355b">
-    <tspan x="131" dy="0">— Transparency</tspan>
-  </text>
-  <text x="499" y="528" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="25" fill="#225f9c">
-    <tspan x="499" dy="0">إتاحة معلومات واضحة عن</tspan>
-    <tspan x="499" dy="34">النظام وعملية اتخاذ القرار.</tspan>
-  </text>
-  <text x="131" y="608" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="21" fill="#152b42">
-    <tspan x="131" dy="0">Clearly showing information</tspan>
-    <tspan x="131" dy="30">about the system and its</tspan>
-    <tspan x="131" dy="30">decision-making process.</tspan>
-  </text>
+<!-- Icon: eye (transparency) -->
+<g transform="translate(890 302)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M2 22 Q22 4 42 22 Q22 40 2 22 Z" fill="#ffffff"/>
+  <circle cx="22" cy="22" r="8" fill="#2e7d32"/>
+  <circle cx="22" cy="22" r="3" fill="#22303f" stroke="none"/>
+</g>
 
-  <!-- البطاقة 3: حماية الخصوصية -->
-  <text x="949" y="883" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#12355b">
-    <tspan x="949" dy="0">حماية الخصوصية</tspan>
-  </text>
-  <text x="581" y="925" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="24" fill="#12355b">
-    <tspan x="581" dy="0">— Privacy Protection</tspan>
-  </text>
-  <text x="949" y="973" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="25" fill="#225f9c">
-    <tspan x="949" dy="0">التعامل المناسب مع المعلومات</tspan>
-    <tspan x="949" dy="34">الشخصية وحماية الخصوصية.</tspan>
-  </text>
-  <text x="581" y="1053" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="21" fill="#152b42">
-    <tspan x="581" dy="0">Handling personal</tspan>
-    <tspan x="581" dy="30">information appropriately</tspan>
-    <tspan x="581" dy="30">and protecting privacy.</tspan>
-  </text>
+<!-- Icon: padlock (privacy) -->
+<g transform="translate(890 422)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 20 L12 13 Q12 3 22 3 Q32 3 32 13 L32 20 L27 20 L27 13 Q27 8 22 8 Q17 8 17 13 L17 20 Z" fill="#7f95ab"/>
+  <rect x="8" y="18" width="28" height="24" rx="5" fill="#c96a1b"/>
+  <circle cx="22" cy="29" r="3.5" fill="#22303f" stroke="none"/>
+</g>
 
-  <!-- البطاقة 4: المساءلة -->
-  <text x="499" y="883" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#12355b">
-    <tspan x="499" dy="0">المساءلة</tspan>
-  </text>
-  <text x="131" y="925" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="24" fill="#12355b">
-    <tspan x="131" dy="0">— Accountability</tspan>
-  </text>
-  <text x="499" y="973" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="25" fill="#225f9c">
-    <tspan x="499" dy="0">تحديد الجهات المسؤولة عن</tspan>
-    <tspan x="499" dy="34">قرارات النظام وآثاره.</tspan>
-  </text>
-  <text x="131" y="1053" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="21" fill="#152b42">
-    <tspan x="131" dy="0">Identifying who is</tspan>
-    <tspan x="131" dy="30">answerable for the system’s</tspan>
-    <tspan x="131" dy="30">decisions and effects.</tspan>
-  </text>
+<!-- Icon: person with check (accountability) -->
+<g transform="translate(890 542)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M2 42 Q2 24 16 24 Q30 24 30 42 Z" fill="#2f7fb5"/>
+  <circle cx="16" cy="12" r="8" fill="#e8b98d"/>
+  <circle cx="34" cy="14" r="9" fill="#2e7d32"/>
+  <path d="M29 14 L33 18 L39 10" fill="none" stroke="#ffffff"/>
+</g>
 
+<!-- Wink face inside the success card (tip) -->
+<g transform="translate(880 1006)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M 5 -6 L 13 -6" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Memory illustration: exam paper, pencil, magnifying glass -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="translate(474 1172) rotate(-4)">
+    <rect x="-80" y="-72" width="160" height="144" rx="10" fill="#22303f" opacity=".18" stroke="none"/>
+  </g>
+  <g transform="translate(470 1166) rotate(-4)">
+    <rect x="-80" y="-72" width="160" height="144" rx="10" fill="#ffffff"/>
+    <circle cx="-52" cy="-44" r="9" fill="#2f7fb5"/>
+    <circle cx="-52" cy="-14" r="9" fill="#2e7d32"/>
+    <circle cx="-52" cy="16" r="9" fill="#c96a1b"/>
+    <circle cx="-52" cy="46" r="9" fill="#ffd24a"/>
+    <path d="M-32 -44 L58 -44 M-32 -14 L50 -14 M-32 16 L58 16 M-32 46 L44 46" fill="none" stroke="#7f95ab"/>
+  </g>
+  <g transform="translate(590 1110) scale(2)">
+    <polygon points="8,30 30,8 38,16 16,38" fill="#ffd24a"/>
+    <polygon points="8,30 16,38 4,42" fill="#f0c48c"/>
+    <polygon points="30,8 34,4 42,12 38,16" fill="#c0392b"/>
+  </g>
+  <g transform="translate(300 1150)">
+    <polygon points="22,22 30,14 60,44 52,52" fill="#17457f"/>
+    <circle cx="0" cy="0" r="34" fill="#dff1f7"/>
+    <path d="M-18 -10 Q-12 -22 0 -22" fill="none" stroke="#ffffff"/>
+  </g>
+</g>
+
+<!-- Text -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">هل يظلم أحدًا؟ ← <tspan font-weight="bold" fill="#c0392b">العدالة</tspan></tspan>
+</text>
+<text x="132" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">Is it unfair to anyone?</tspan>
+  <tspan x="132" dy="40">→ <tspan font-weight="bold" fill="#c0392b">Fairness</tspan></tspan>
+</text>
+
+<text x="950" y="274" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">هل نفهم لماذا قرر؟ ← <tspan font-weight="bold" fill="#c0392b">الشفافية</tspan></tspan>
+</text>
+<text x="132" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">Do we understand why it decided?</tspan>
+  <tspan x="132" dy="40">→ <tspan font-weight="bold" fill="#c0392b">Transparency</tspan></tspan>
+</text>
+
+<text x="950" y="394" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">هل يحترم أسرارنا؟ ← <tspan font-weight="bold" fill="#c0392b">حماية الخصوصية</tspan></tspan>
+</text>
+<text x="132" y="434" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">Does it respect our secrets?</tspan>
+  <tspan x="132" dy="40">→ <tspan font-weight="bold" fill="#c0392b">Privacy protection</tspan></tspan>
+</text>
+
+<text x="950" y="514" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">من سيُحاسَب إذا أخطأ؟ ← <tspan font-weight="bold" fill="#c0392b">المساءلة</tspan></tspan>
+</text>
+<text x="132" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">Who answers if it is wrong?</tspan>
+  <tspan x="132" dy="40">→ <tspan font-weight="bold" fill="#c0392b">Accountability</tspan></tspan>
+</text>
+
+<text x="935" y="914" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">اسأل نفسك في الامتحان:</tspan>
+  <tspan x="935" dy="40">الموقف ده بيجاوب على <tspan font-weight="bold" fill="#17457f">أنهي سؤال؟</tspan></tspan>
+</text>
+<text x="140" y="994" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">In the exam, ask: <tspan font-weight="bold" fill="#17457f">which question</tspan></tspan>
+  <tspan x="140" dy="40">does this situation answer?</tspan>
+</text>
 </svg>

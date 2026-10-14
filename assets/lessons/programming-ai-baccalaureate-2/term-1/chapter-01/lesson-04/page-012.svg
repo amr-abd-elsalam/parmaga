@@ -4,277 +4,282 @@
      viewBox="0 0 1080 1350"
      preserveAspectRatio="xMidYMid meet"
      style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="ilBox" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-  <defs>
-    <linearGradient id="deskWoodGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#ab7341"/>
-      <stop offset="0.55" stop-color="#8f5c31"/>
-      <stop offset="1" stop-color="#784a26"/>
-    </linearGradient>
-    <linearGradient id="paperToneGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fffdf7"/>
-      <stop offset="1" stop-color="#fbf6e8"/>
-    </linearGradient>
-    <pattern id="ruledLinesPat" width="12" height="38" patternUnits="userSpaceOnUse">
-      <line x1="0" y1="37.4" x2="12" y2="37.4" stroke="#c8dcee" stroke-width="1.4"/>
-    </pattern>
-  </defs>
+<!-- Info card shadow and fill -->
+<rect x="109" y="248" width="870" height="408" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="242" width="870" height="408" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="258" width="6" height="376" rx="3" fill="#2f7fb5"/>
 
-  <rect x="0" y="0" width="1080" height="1350" fill="url(#deskWoodGrad)"/>
-  <path d="M0,290 C 300,244 780,352 1080,296" fill="none" stroke="#6d4222" stroke-width="16" opacity="0.16"/>
-  <path d="M0,985 C 320,1046 760,912 1080,972" fill="none" stroke="#6d4222" stroke-width="14" opacity="0.13"/>
+<!-- Icon: tag inside info card -->
+<g transform="translate(130 252)">
+  <polygon points="4,6 30,6 50,26 30,46 4,46" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="16" cy="26" r="5" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+</g>
 
-  <rect x="46" y="42" width="1012" height="1294" rx="8" fill="#432a13" opacity="0.26"/>
-  <rect x="34" y="28" width="1012" height="1294" rx="8" fill="url(#paperToneGrad)"/>
+<!-- Icon: warning triangle inside info card -->
+<g transform="translate(150 380)">
+  <polygon points="26,4 50,46 2,46" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="23" y="16" width="6" height="16" rx="3" fill="#22303f"/>
+  <circle cx="26" cy="39" r="3.5" fill="#22303f"/>
+</g>
 
-  <rect x="80" y="86" width="920" height="1220" fill="url(#ruledLinesPat)"/>
+<!-- Illustration: unequal approvals from an AI system -->
+<g>
+  <rect x="125" y="690" width="830" height="560" rx="24" fill="url(#ilSky)"/>
+  <path d="M125 1200 L955 1200 L955 1226 Q955 1250 931 1250 L149 1250 Q125 1250 125 1226 Z" fill="#a9dcbe" opacity=".6"/>
+  <circle cx="190" cy="736" r="13" fill="#ffffff"/>
+  <circle cx="210" cy="730" r="17" fill="#ffffff"/>
+  <circle cx="232" cy="738" r="11" fill="#ffffff"/>
+  <circle cx="850" cy="740" r="12" fill="#ffffff"/>
+  <circle cx="870" cy="734" r="16" fill="#ffffff"/>
+  <circle cx="890" cy="742" r="11" fill="#ffffff"/>
+  <circle cx="300" cy="790" r="5" fill="#ffd24a"/>
+  <circle cx="780" cy="800" r="5" fill="#ffd24a"/>
 
-  <rect x="67" y="62" width="946" height="1256" rx="5" fill="none" stroke="#cf3a30" stroke-width="2.6"/>
+  <!-- AI box with gears -->
+  <rect x="444" y="726" width="200" height="120" rx="20" fill="#22303f" opacity=".18"/>
+  <rect x="440" y="720" width="200" height="120" rx="20" fill="url(#ilBox)" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="462" cy="738" r="4" fill="#4fc3e8"/>
+  <circle cx="476" cy="738" r="4" fill="#ffd24a"/>
+  <g transform="translate(505 780)">
+    <g transform="rotate(0)"><rect x="-6" y="-34" width="12" height="12" rx="2" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/></g>
+    <g transform="rotate(45)"><rect x="-6" y="-34" width="12" height="12" rx="2" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/></g>
+    <g transform="rotate(90)"><rect x="-6" y="-34" width="12" height="12" rx="2" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/></g>
+    <g transform="rotate(135)"><rect x="-6" y="-34" width="12" height="12" rx="2" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/></g>
+    <g transform="rotate(180)"><rect x="-6" y="-34" width="12" height="12" rx="2" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/></g>
+    <g transform="rotate(225)"><rect x="-6" y="-34" width="12" height="12" rx="2" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/></g>
+    <g transform="rotate(270)"><rect x="-6" y="-34" width="12" height="12" rx="2" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/></g>
+    <g transform="rotate(315)"><rect x="-6" y="-34" width="12" height="12" rx="2" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/></g>
+    <circle cx="0" cy="0" r="25" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(585 792)">
+    <g transform="rotate(22)"><rect x="-5" y="-27" width="10" height="10" rx="2" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/></g>
+    <g transform="rotate(82)"><rect x="-5" y="-27" width="10" height="10" rx="2" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/></g>
+    <g transform="rotate(142)"><rect x="-5" y="-27" width="10" height="10" rx="2" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/></g>
+    <g transform="rotate(202)"><rect x="-5" y="-27" width="10" height="10" rx="2" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/></g>
+    <g transform="rotate(262)"><rect x="-5" y="-27" width="10" height="10" rx="2" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/></g>
+    <g transform="rotate(322)"><rect x="-5" y="-27" width="10" height="10" rx="2" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/></g>
+    <circle cx="0" cy="0" r="19" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  </g>
 
-  <rect x="95" y="208" width="890" height="318" rx="12" fill="#e9f6ee" stroke="#8fc7a5" stroke-width="2"/>
-  <rect x="95" y="548" width="890" height="346" rx="12" fill="#e9f6ee" stroke="#8fc7a5" stroke-width="2"/>
-  <rect x="95" y="916" width="890" height="244" rx="12" fill="#e9f6ee" stroke="#8fc7a5" stroke-width="2"/>
+  <!-- Arrows down to the two groups -->
+  <path d="M610 842 Q760 858 765 946" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="756,944 765,960 774,944" fill="#c0392b"/>
+  <path d="M470 842 Q320 858 315 946" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="306,944 315,960 324,944" fill="#c0392b"/>
 
-  <line x1="255" y1="959" x2="336" y2="959" stroke="#c0392b" stroke-width="3.2"/>
-  <polygon points="334,950 354,959 334,968" fill="#c0392b"/>
+  <!-- Divider dots -->
+  <circle cx="540" cy="1080" r="6" fill="#8fc9f2"/>
+  <circle cx="540" cy="1106" r="6" fill="#8fc9f2"/>
+  <circle cx="540" cy="1132" r="6" fill="#8fc9f2"/>
 
-  <line x1="255" y1="1007" x2="336" y2="1007" stroke="#c0392b" stroke-width="3.2"/>
-  <polygon points="334,998 354,1007 334,1016" fill="#c0392b"/>
+  <!-- Marks above the right group: four checks -->
+  <g transform="translate(660 992)">
+    <circle cx="4" cy="6" r="18" fill="#22303f" opacity=".18"/>
+    <circle cx="0" cy="0" r="18" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-9 0 L-2 7 L10 -7" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(730 992)">
+    <circle cx="4" cy="6" r="18" fill="#22303f" opacity=".18"/>
+    <circle cx="0" cy="0" r="18" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-9 0 L-2 7 L10 -7" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(800 992)">
+    <circle cx="4" cy="6" r="18" fill="#22303f" opacity=".18"/>
+    <circle cx="0" cy="0" r="18" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-9 0 L-2 7 L10 -7" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(870 992)">
+    <circle cx="4" cy="6" r="18" fill="#22303f" opacity=".18"/>
+    <circle cx="0" cy="0" r="18" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-9 0 L-2 7 L10 -7" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
 
-  <line x1="255" y1="1055" x2="336" y2="1055" stroke="#c0392b" stroke-width="3.2"/>
-  <polygon points="334,1046 354,1055 334,1064" fill="#c0392b"/>
+  <!-- Marks above the left group: one check, three crosses -->
+  <g transform="translate(210 992)">
+    <circle cx="4" cy="6" r="18" fill="#22303f" opacity=".18"/>
+    <circle cx="0" cy="0" r="18" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-9 0 L-2 7 L10 -7" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(280 992)">
+    <circle cx="4" cy="6" r="18" fill="#22303f" opacity=".18"/>
+    <circle cx="0" cy="0" r="18" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-8 -8 L8 8 M8 -8 L-8 8" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(350 992)">
+    <circle cx="4" cy="6" r="18" fill="#22303f" opacity=".18"/>
+    <circle cx="0" cy="0" r="18" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-8 -8 L8 8 M8 -8 L-8 8" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(420 992)">
+    <circle cx="4" cy="6" r="18" fill="#22303f" opacity=".18"/>
+    <circle cx="0" cy="0" r="18" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-8 -8 L8 8 M8 -8 L-8 8" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  </g>
 
-  <line x1="255" y1="1103" x2="336" y2="1103" stroke="#c0392b" stroke-width="3.2"/>
-  <polygon points="334,1094 354,1103 334,1112" fill="#c0392b"/>
+  <!-- Group shadows -->
+  <ellipse cx="765" cy="1198" rx="140" ry="8" fill="#22303f" opacity=".18"/>
+  <ellipse cx="315" cy="1198" rx="140" ry="8" fill="#22303f" opacity=".18"/>
 
-  <text x="540" y="130"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="46"
-        font-weight="bold"
-        fill="#1f4e79">حل المثال</text>
+  <!-- Right group of figures -->
+  <g transform="translate(660 0)">
+    <rect x="-14" y="1150" width="12" height="40" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="2" y="1150" width="12" height="40" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <ellipse cx="-8" cy="1191" rx="10" ry="5" fill="#22303f"/>
+    <ellipse cx="8" cy="1191" rx="10" ry="5" fill="#22303f"/>
+    <path d="M-26 1160 Q-28 1086 0 1080 Q28 1086 26 1160 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="-25" cy="1154" r="6" fill="#e8b98d" stroke="#22303f" stroke-width="2"/>
+    <circle cx="25" cy="1154" r="6" fill="#e8b98d" stroke="#22303f" stroke-width="2"/>
+    <circle cx="0" cy="1054" r="20" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-20 1050 Q-18 1032 0 1032 Q18 1032 20 1050 Q10 1040 0 1042 Q-10 1040 -20 1050 Z" fill="#2b211c" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+    <circle cx="-7" cy="1056" r="2.5" fill="#22303f"/>
+    <circle cx="7" cy="1056" r="2.5" fill="#22303f"/>
+    <path d="M-6 1064 Q0 1069 6 1064" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(730 0)">
+    <rect x="-14" y="1150" width="12" height="40" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="2" y="1150" width="12" height="40" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <ellipse cx="-8" cy="1191" rx="10" ry="5" fill="#22303f"/>
+    <ellipse cx="8" cy="1191" rx="10" ry="5" fill="#22303f"/>
+    <path d="M-26 1160 Q-28 1086 0 1080 Q28 1086 26 1160 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="-25" cy="1154" r="6" fill="#d59f6f" stroke="#22303f" stroke-width="2"/>
+    <circle cx="25" cy="1154" r="6" fill="#d59f6f" stroke="#22303f" stroke-width="2"/>
+    <path d="M-24 1056 Q-24 1028 0 1028 Q24 1028 24 1056 L22 1082 L-22 1082 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <ellipse cx="0" cy="1056" rx="14" ry="16" fill="#d59f6f" stroke="#22303f" stroke-width="2"/>
+    <circle cx="-6" cy="1054" r="2.5" fill="#22303f"/>
+    <circle cx="6" cy="1054" r="2.5" fill="#22303f"/>
+    <path d="M-5 1062 Q0 1067 5 1062" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(800 0)">
+    <rect x="-14" y="1150" width="12" height="40" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="2" y="1150" width="12" height="40" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <ellipse cx="-8" cy="1191" rx="10" ry="5" fill="#22303f"/>
+    <ellipse cx="8" cy="1191" rx="10" ry="5" fill="#22303f"/>
+    <path d="M-26 1160 Q-28 1086 0 1080 Q28 1086 26 1160 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="-25" cy="1154" r="6" fill="#b57e50" stroke="#22303f" stroke-width="2"/>
+    <circle cx="25" cy="1154" r="6" fill="#b57e50" stroke="#22303f" stroke-width="2"/>
+    <circle cx="0" cy="1054" r="20" fill="#b57e50" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-20 1050 Q-18 1032 0 1032 Q18 1032 20 1050 Q10 1040 0 1042 Q-10 1040 -20 1050 Z" fill="#2b211c" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+    <circle cx="-7" cy="1056" r="2.5" fill="#22303f"/>
+    <circle cx="7" cy="1056" r="2.5" fill="#22303f"/>
+    <path d="M-6 1064 Q0 1069 6 1064" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(870 0)">
+    <rect x="-14" y="1150" width="12" height="40" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="2" y="1150" width="12" height="40" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <ellipse cx="-8" cy="1191" rx="10" ry="5" fill="#22303f"/>
+    <ellipse cx="8" cy="1191" rx="10" ry="5" fill="#22303f"/>
+    <path d="M-26 1160 Q-28 1086 0 1080 Q28 1086 26 1160 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="-25" cy="1154" r="6" fill="#e8b98d" stroke="#22303f" stroke-width="2"/>
+    <circle cx="25" cy="1154" r="6" fill="#e8b98d" stroke="#22303f" stroke-width="2"/>
+    <circle cx="0" cy="1054" r="20" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-20 1050 Q-18 1032 0 1032 Q18 1032 20 1050 Q10 1040 0 1042 Q-10 1040 -20 1050 Z" fill="#2b211c" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+    <circle cx="-7" cy="1056" r="2.5" fill="#22303f"/>
+    <circle cx="7" cy="1056" r="2.5" fill="#22303f"/>
+    <path d="M-6 1064 Q0 1069 6 1064" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
 
-  <text x="540" y="178"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="30"
-        fill="#14365c">Worked Example Solution</text>
+  <!-- Left group of figures -->
+  <g transform="translate(210 0)">
+    <rect x="-14" y="1150" width="12" height="40" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="2" y="1150" width="12" height="40" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <ellipse cx="-8" cy="1191" rx="10" ry="5" fill="#22303f"/>
+    <ellipse cx="8" cy="1191" rx="10" ry="5" fill="#22303f"/>
+    <path d="M-26 1160 Q-28 1086 0 1080 Q28 1086 26 1160 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="-25" cy="1154" r="6" fill="#d59f6f" stroke="#22303f" stroke-width="2"/>
+    <circle cx="25" cy="1154" r="6" fill="#d59f6f" stroke="#22303f" stroke-width="2"/>
+    <circle cx="0" cy="1054" r="20" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-20 1050 Q-18 1032 0 1032 Q18 1032 20 1050 Q10 1040 0 1042 Q-10 1040 -20 1050 Z" fill="#2b211c" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+    <circle cx="-7" cy="1056" r="2.5" fill="#22303f"/>
+    <circle cx="7" cy="1056" r="2.5" fill="#22303f"/>
+    <path d="M-6 1064 Q0 1069 6 1064" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(280 0)">
+    <rect x="-14" y="1150" width="12" height="40" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="2" y="1150" width="12" height="40" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <ellipse cx="-8" cy="1191" rx="10" ry="5" fill="#22303f"/>
+    <ellipse cx="8" cy="1191" rx="10" ry="5" fill="#22303f"/>
+    <path d="M-26 1160 Q-28 1086 0 1080 Q28 1086 26 1160 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="-25" cy="1154" r="6" fill="#e8b98d" stroke="#22303f" stroke-width="2"/>
+    <circle cx="25" cy="1154" r="6" fill="#e8b98d" stroke="#22303f" stroke-width="2"/>
+    <circle cx="0" cy="1054" r="20" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-20 1050 Q-18 1032 0 1032 Q18 1032 20 1050 Q10 1040 0 1042 Q-10 1040 -20 1050 Z" fill="#2b211c" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+    <circle cx="-7" cy="1056" r="2.5" fill="#22303f"/>
+    <circle cx="7" cy="1056" r="2.5" fill="#22303f"/>
+    <path d="M-6 1064 Q0 1069 6 1064" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(350 0)">
+    <rect x="-14" y="1150" width="12" height="40" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="2" y="1150" width="12" height="40" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <ellipse cx="-8" cy="1191" rx="10" ry="5" fill="#22303f"/>
+    <ellipse cx="8" cy="1191" rx="10" ry="5" fill="#22303f"/>
+    <path d="M-26 1160 Q-28 1086 0 1080 Q28 1086 26 1160 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="-25" cy="1154" r="6" fill="#b57e50" stroke="#22303f" stroke-width="2"/>
+    <circle cx="25" cy="1154" r="6" fill="#b57e50" stroke="#22303f" stroke-width="2"/>
+    <path d="M-24 1056 Q-24 1028 0 1028 Q24 1028 24 1056 L22 1082 L-22 1082 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <ellipse cx="0" cy="1056" rx="14" ry="16" fill="#b57e50" stroke="#22303f" stroke-width="2"/>
+    <circle cx="-6" cy="1054" r="2.5" fill="#22303f"/>
+    <circle cx="6" cy="1054" r="2.5" fill="#22303f"/>
+    <path d="M-5 1062 Q0 1067 5 1062" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(420 0)">
+    <rect x="-14" y="1150" width="12" height="40" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="2" y="1150" width="12" height="40" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <ellipse cx="-8" cy="1191" rx="10" ry="5" fill="#22303f"/>
+    <ellipse cx="8" cy="1191" rx="10" ry="5" fill="#22303f"/>
+    <path d="M-26 1160 Q-28 1086 0 1080 Q28 1086 26 1160 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="-25" cy="1154" r="6" fill="#d59f6f" stroke="#22303f" stroke-width="2"/>
+    <circle cx="25" cy="1154" r="6" fill="#d59f6f" stroke="#22303f" stroke-width="2"/>
+    <circle cx="0" cy="1054" r="20" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-20 1050 Q-18 1032 0 1032 Q18 1032 20 1050 Q10 1040 0 1042 Q-10 1040 -20 1050 Z" fill="#2b211c" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+    <circle cx="-7" cy="1056" r="2.5" fill="#22303f"/>
+    <circle cx="7" cy="1056" r="2.5" fill="#22303f"/>
+    <path d="M-6 1064 Q0 1069 6 1064" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+</g>
 
-  <text x="955" y="252"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="31"
-        font-weight="bold"
-        fill="#1f4e79">حل الصواب والخطأ</text>
+<!-- Texts -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">5. التحيز الخوارزمي Algorithmic Bias</text>
+<text x="120" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">5. Algorithmic Bias</text>
 
-  <text x="955" y="296"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="28"
-        fill="#1b7a44">أ: صواب — تصف العبارة صورة من صور التحيز الخوارزمي.</text>
-
-  <text x="955" y="334"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="28"
-        fill="#c0392b">
-    <tspan x="955" dy="0">ب: خطأ — عندما تكون عملية اتخاذ القرار غامضة،</tspan>
-    <tspan x="925" dy="38">يصعب التحقق من صحة النتيجة.</tspan>
-  </text>
-
-  <text x="955" y="410"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="28"
-        fill="#1b7a44">ج: صواب — هذا وصف صحيح للذكاء الاصطناعي القابل للتفسير.</text>
-
-  <text x="955" y="448"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="28"
-        fill="#c0392b">
-    <tspan x="955" dy="0">د: خطأ — قد تختلف المسؤولية باختلاف دور المطور</tspan>
-    <tspan x="925" dy="38">أو المستخدم أو المشغّل.</tspan>
-  </text>
-
-  <text x="125" y="594"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="29"
-        font-weight="bold"
-        fill="#14365c">True or False Solution</text>
-
-  <text x="125" y="638"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="25"
-        fill="#1b7a44">
-    <tspan x="125" dy="0">A: True — The statement describes a form of</tspan>
-    <tspan x="165" dy="36">algorithmic bias.</tspan>
-  </text>
-
-  <text x="125" y="710"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="25"
-        fill="#c0392b">
-    <tspan x="125" dy="0">B: False — When the decision-making process is</tspan>
-    <tspan x="165" dy="36">opaque, it is difficult to verify the result.</tspan>
-  </text>
-
-  <text x="125" y="782"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="25"
-        fill="#1b7a44">C: True — This correctly describes Explainable AI.</text>
-
-  <text x="125" y="818"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="25"
-        fill="#c0392b">
-    <tspan x="125" dy="0">D: False — Responsibility may differ depending</tspan>
-    <tspan x="165" dy="36">on the developer, user, or operator.</tspan>
-  </text>
-
-  <text x="170" y="968"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="27"
-        fill="#14365c">أ</text>
-  <text x="182" y="968"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26"
-        fill="#14365c">/ A</text>
-  <text x="570" y="968"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="27"
-        fill="#1b7a44">العدالة</text>
-  <text x="595" y="968"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26"
-        fill="#1b7a44">Fairness</text>
-
-  <text x="170" y="1016"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="27"
-        fill="#14365c">ب</text>
-  <text x="182" y="1016"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26"
-        fill="#14365c">/ B</text>
-  <text x="570" y="1016"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="27"
-        fill="#1b7a44">الشفافية</text>
-  <text x="595" y="1016"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26"
-        fill="#1b7a44">Transparency</text>
-
-  <text x="170" y="1064"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="27"
-        fill="#14365c">ج</text>
-  <text x="182" y="1064"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26"
-        fill="#14365c">/ C</text>
-  <text x="570" y="1064"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="27"
-        fill="#1b7a44">حماية الخصوصية</text>
-  <text x="595" y="1064"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26"
-        fill="#1b7a44">Privacy Protection</text>
-
-  <text x="170" y="1112"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="27"
-        fill="#14365c">د</text>
-  <text x="182" y="1112"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26"
-        fill="#14365c">/ D</text>
-  <text x="570" y="1112"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="27"
-        fill="#1b7a44">المساءلة</text>
-  <text x="595" y="1112"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="26"
-        fill="#1b7a44">Accountability</text>
-
+<text x="935" y="274" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">تعريف الكتاب:</tspan> <tspan font-weight="bold" fill="#17457f">نمط</tspan> في مخرجات</tspan>
+  <tspan x="935" dy="40">الذكاء الاصطناعي قد يؤدي إلى نتائج</tspan>
+  <tspan x="935" dy="40">غير عادلة أو ضارة، وقد ينشأ من البيانات</tspan>
+  <tspan x="935" dy="40">أو تصميم النظام أو طريقة استخدامه</tspan>
+  <tspan x="935" dy="40">أو السياق البشري والاجتماعي.</tspan>
+</text>
+<text x="140" y="474" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Textbook definition:</tspan> a <tspan font-weight="bold" fill="#17457f">pattern</tspan> in AI</tspan>
+  <tspan x="140" dy="40">outputs that may lead to unfair or</tspan>
+  <tspan x="140" dy="40">harmful results; it may arise from the</tspan>
+  <tspan x="140" dy="40">data, the system's design, the way it is</tspan>
+  <tspan x="140" dy="40">used, or the human and social context.</tspan>
+</text>
 </svg>

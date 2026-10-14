@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Success card -->
+<rect x="109" y="128" width="870" height="168" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="122" width="870" height="168" rx="16" fill="#e9f7ee" stroke="#a9dcbe" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="136" rx="3" fill="#2e7d32"/>
+
+<!-- Illustration: bar chart -->
+<g>
+  <defs>
+    <linearGradient id="ilBarTall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c0392b"/>
+      <stop offset="1" stop-color="#c96a1b"/>
+    </linearGradient>
+    <linearGradient id="ilBarShort" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a9dcbe"/>
+      <stop offset="1" stop-color="#2e7d32"/>
+    </linearGradient>
+  </defs>
+  <rect x="724" y="846" width="80" height="114" fill="#22303f" opacity=".18"/>
+  <rect x="284" y="954" width="80" height="6" fill="#22303f" opacity=".18"/>
+  <path d="M 744 1030 L 750 1004 Q 764 996 778 1004 L 784 1030 Z" fill="#22303f" opacity=".18"/>
+  <rect x="306" y="1002" width="36" height="28" rx="10" fill="#22303f" opacity=".18"/>
+  <rect x="720" y="840" width="80" height="114" fill="url(#ilBarTall)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="280" y="948" width="80" height="6" fill="url(#ilBarShort)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 200 826 L 200 954 L 945 954 M 190 868 L 210 868 M 190 911 L 210 911" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 740 1024 L 746 998 Q 760 990 774 998 L 780 1024 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 745 982 Q 744 1000 760 1002 Q 776 1000 775 982 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="760" cy="980" r="15" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="760" cy="982" rx="9" ry="10" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="756.5" cy="980" r="1.8" fill="#22303f"/>
+  <circle cx="763.5" cy="980" r="1.8" fill="#22303f"/>
+  <path d="M 756 986 Q 760 989 764 986" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="302" y="996" width="36" height="28" rx="10" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="320" cy="982" r="11" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 309 980 Q 310 968 320 968 Q 330 968 331 980 Q 326 974 320 974 Q 314 974 309 980 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="316.5" cy="983" r="1.8" fill="#22303f"/>
+  <circle cx="323.5" cy="983" r="1.8" fill="#22303f"/>
+  <path d="M 316 988 Q 320 991 324 988" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 575 1210 L 575 995 L 722 995" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="736,995 722,988 722,1002" fill="#c0392b"/>
+  <path d="M 510 1210 L 510 995 L 358 995" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="344,995 358,988 358,1002" fill="#c0392b"/>
+</g>
+
+<!-- Icon: AI chip -->
+<g transform="translate(118 840)">
+  <path d="M18 2 L18 8 M26 2 L26 8 M34 2 L34 8 M18 44 L18 50 M26 44 L26 50 M34 44 L34 50 M2 18 L8 18 M2 26 L8 26 M2 34 L8 34 M44 18 L50 18 M44 26 L50 26 M44 34 L50 34" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="8" y="8" width="36" height="36" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="18" y="18" width="16" height="16" rx="3" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Face: surprise -->
+<g transform="translate(930 866)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="0" cy="10" r="5" fill="#22303f"/>
+</g>
+
+<!-- Text -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">الدرس: هنا اجتمع <tspan font-weight="bold" fill="#17457f">باب البيانات</tspan></tspan>
+  <tspan x="935" dy="40"><tspan font-weight="bold" fill="#17457f">والمتغير البديل</tspan> معًا.</tspan>
+</text>
+<text x="140" y="234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">The lesson: the <tspan font-weight="bold" fill="#17457f">data door</tspan> and</tspan>
+  <tspan x="140" dy="40">a <tspan font-weight="bold" fill="#17457f">proxy variable</tspan> worked together here.</tspan>
+</text>
+
+<text x="950" y="354" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="950" dy="0">2. دراسة «Gender Shades»</tspan>
+</text>
+<text x="120" y="394" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="120" dy="0">2. The &quot;Gender Shades&quot; Study</tspan>
+</text>
+
+<text x="950" y="434" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">في 2018، اختبر باحثون من MIT أنظمة تجارية</tspan>
+  <tspan x="950" dy="40"><tspan font-weight="bold" fill="#17457f">لتحليل الوجوه.</tspan></tspan>
+</text>
+<text x="120" y="514" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">In 2018, researchers at MIT tested</tspan>
+  <tspan x="120" dy="40">commercial <tspan font-weight="bold" fill="#17457f">face-analysis systems.</tspan></tspan>
+</text>
+
+<text x="950" y="594" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">وصل الخطأ مع النساء ذوات البشرة الداكنة</tspan>
+  <tspan x="950" dy="40">إلى نحو <tspan fill="#c96a1b">35%،</tspan> بينما كان أقل من <tspan fill="#c96a1b">1%</tspan> مع الرجال</tspan>
+  <tspan x="950" dy="40">ذوي البشرة الفاتحة.</tspan>
+</text>
+<text x="120" y="714" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">The error rate reached about <tspan fill="#c96a1b">35%</tspan> for</tspan>
+  <tspan x="120" dy="40">darker-skinned women but was under <tspan fill="#c96a1b">1%</tspan></tspan>
+  <tspan x="120" dy="40">for lighter-skinned men.</tspan>
+</text>
+
+<text x="910" y="1074" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#3d5a76">
+  <tspan x="910" dy="0">نساء ذوات بشرة داكنة:</tspan>
+  <tspan x="910" dy="40">نحو <tspan fill="#c96a1b">35%</tspan></tspan>
+</text>
+<text x="600" y="1154" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#3d5a76">
+  <tspan x="600" dy="0">Darker-skinned women:</tspan>
+  <tspan x="600" dy="40">about <tspan fill="#c96a1b">35%</tspan></tspan>
+</text>
+<text x="450" y="1074" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#3d5a76">
+  <tspan x="450" dy="0">رجال ذوو بشرة فاتحة:</tspan>
+  <tspan x="450" dy="40">أقل من <tspan fill="#c96a1b">1%</tspan></tspan>
+</text>
+<text x="175" y="1154" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#3d5a76">
+  <tspan x="175" dy="0">Lighter-skinned men:</tspan>
+  <tspan x="175" dy="40">under <tspan fill="#c96a1b">1%</tspan></tspan>
+</text>
+</svg>

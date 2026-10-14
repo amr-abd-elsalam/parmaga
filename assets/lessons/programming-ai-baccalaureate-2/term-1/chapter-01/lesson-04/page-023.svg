@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilShield" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+  <linearGradient id="ilInner" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8fc9f2"/>
+    <stop offset="1" stop-color="#2f7fb5"/>
+  </linearGradient>
+  <radialGradient id="ilGlow" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </radialGradient>
+</defs>
+
+<!-- Card: shadow, fill, accent -->
+<rect x="109" y="688" width="870" height="168" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="682" width="870" height="168" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="698" width="6" height="136" rx="3" fill="#2f7fb5"/>
+
+<!-- Header icon: shield -->
+<g transform="translate(120 100)">
+  <path d="M24 2 L44 10 L44 24 Q44 40 24 46 Q4 40 4 24 L4 10 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M15 24 L22 31 L34 18" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Card icon: document stack -->
+<g transform="translate(128 690)">
+  <rect x="12" y="0" width="30" height="38" rx="4" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="4" y="6" width="30" height="38" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="11" y1="18" x2="27" y2="18" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="11" y1="26" x2="27" y2="26" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="11" y1="34" x2="22" y2="34" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Bullets -->
+<circle cx="966" cy="224" r="6" fill="#2e7d32"/>
+<circle cx="966" cy="304" r="6" fill="#2e7d32"/>
+<circle cx="966" cy="384" r="6" fill="#2e7d32"/>
+<circle cx="966" cy="504" r="6" fill="#2e7d32"/>
+<circle cx="966" cy="584" r="6" fill="#2e7d32"/>
+
+<!-- Text -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="950" dy="0">خمس خطوات لحماية الخصوصية</tspan>
+</text>
+<text x="120" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="120" dy="0">Five Steps to Protect Privacy</tspan>
+</text>
+
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">اجمع <tspan font-weight="bold" fill="#17457f">أقل قدر</tspan> من البيانات تحتاجه.</tspan>
+</text>
+<text x="120" y="274" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Collect <tspan font-weight="bold" fill="#17457f">only the data</tspan> you need.</tspan>
+</text>
+
+<text x="950" y="314" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">خذ <tspan font-weight="bold" fill="#17457f">موافقة</tspan> صاحبها.</tspan>
+</text>
+<text x="120" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Get the owner&#39;s <tspan font-weight="bold" fill="#17457f">consent.</tspan></tspan>
+</text>
+
+<text x="950" y="394" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">لا تستخدمها في غير <tspan font-weight="bold" fill="#17457f">الغرض</tspan> الذي جُمعت له.</tspan>
+</text>
+<text x="120" y="434" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Do not use it for any <tspan font-weight="bold" fill="#17457f">purpose</tspan> other</tspan>
+  <tspan x="120" dy="40">than the original one.</tspan>
+</text>
+
+<text x="950" y="514" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#17457f">أمّنها</tspan> جيدًا.</tspan>
+</text>
+<text x="120" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Keep it <tspan font-weight="bold" fill="#17457f">secure.</tspan></tspan>
+</text>
+
+<text x="950" y="594" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#17457f">احذفها</tspan> عندما ينتهي الغرض منها.</tspan>
+</text>
+<text x="120" y="634" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#17457f">Delete</tspan> it when the purpose ends.</tspan>
+</text>
+
+<text x="935" y="714" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#17457f">ربط بالواقع:</tspan> في مصر يحمي القانون رقم 151</tspan>
+  <tspan x="935" dy="40">لسنة 2020 <tspan font-weight="bold" fill="#c0392b">البيانات الشخصية.</tspan></tspan>
+</text>
+<text x="140" y="794" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#17457f">Real-world link:</tspan> in Egypt, Law No. 151</tspan>
+  <tspan x="140" dy="40">of 2020 protects <tspan font-weight="bold" fill="#c0392b">personal data.</tspan></tspan>
+</text>
+
+<!-- Illustration: one single drawing group, absolute coordinates, no nested groups -->
+<g id="ilFiveSteps">
+  <!-- shadows -->
+  <path d="M544 996 L634 1028 L634 1106 Q634 1186 544 1226 Q454 1186 454 1106 L454 1028 Z" fill="#22303f" opacity=".18"/>
+  <circle cx="874" cy="1146" r="42" fill="#22303f" opacity=".18"/>
+  <circle cx="777" cy="998" r="42" fill="#22303f" opacity=".18"/>
+  <circle cx="544" cy="936" r="42" fill="#22303f" opacity=".18"/>
+  <circle cx="311" cy="998" r="42" fill="#22303f" opacity=".18"/>
+  <circle cx="214" cy="1146" r="42" fill="#22303f" opacity=".18"/>
+  <!-- ground and glow -->
+  <ellipse cx="540" cy="1225" rx="360" ry="26" fill="#dff1f7"/>
+  <circle cx="540" cy="1105" r="125" fill="url(#ilGlow)"/>
+  <!-- arc joining the five steps, right to left -->
+  <path d="M870 1140 A330 210 0 0 0 210 1140" fill="none" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- central shield -->
+  <path d="M540 990 L630 1022 L630 1100 Q630 1180 540 1220 Q450 1180 450 1100 L450 1022 Z" fill="url(#ilShield)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M540 1010 L612 1036 L612 1100 Q612 1166 540 1200 Q468 1166 468 1100 L468 1036 Z" fill="url(#ilInner)"/>
+  <rect x="503" y="1074" width="74" height="52" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="523" cy="1094" r="9" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M510 1118 Q523 1106 536 1118" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="544" y1="1092" x2="566" y2="1092" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="544" y1="1106" x2="562" y2="1106" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="604" cy="1182" r="18" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M595 1182 L601 1188 L613 1175" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="425" cy="1012" r="5" fill="#ffd24a"/>
+  <circle cx="662" cy="1046" r="4" fill="#ffd24a"/>
+  <circle cx="440" cy="1160" r="4" fill="#4fc3e8"/>
+  <!-- step 1: basket holding one card -->
+  <circle cx="870" cy="1140" r="42" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="870" cy="1140" r="33" fill="#ffffff"/>
+  <rect x="860" y="1114" width="22" height="28" rx="3" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="865" y1="1122" x2="877" y2="1122" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M846 1138 L894 1138 L888 1162 L852 1162 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="842" y="1132" width="56" height="8" rx="3" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="862" y1="1144" x2="864" y2="1158" stroke="#f0c48c" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="878" y1="1144" x2="876" y2="1158" stroke="#f0c48c" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- step 2: ticked check box -->
+  <circle cx="773" cy="992" r="42" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="773" cy="992" r="33" fill="#ffffff"/>
+  <rect x="753" y="972" width="40" height="40" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M762 992 L770 1001 L786 982" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- step 3: target -->
+  <circle cx="540" cy="930" r="42" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="540" cy="930" r="33" fill="#ffffff"/>
+  <circle cx="540" cy="930" r="24" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="540" cy="930" r="15" fill="#ffffff"/>
+  <circle cx="540" cy="930" r="7" fill="#c96a1b"/>
+  <line x1="542" y1="928" x2="564" y2="906" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="564,906 570,910 570,900 560,900" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- step 4: closed padlock -->
+  <circle cx="307" cy="992" r="42" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="307" cy="992" r="33" fill="#ffffff"/>
+  <path d="M295 988 L295 978 Q295 966 307 966 Q319 966 319 978 L319 988" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="289" y="986" width="36" height="28" rx="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="307" cy="997" r="4" fill="#22303f"/>
+  <rect x="305.5" y="998" width="3" height="9" rx="1.5" fill="#22303f"/>
+  <!-- step 5: trash bin -->
+  <circle cx="210" cy="1140" r="42" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="210" cy="1140" r="33" fill="#ffffff"/>
+  <rect x="204" y="1114" width="12" height="6" rx="2" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="190" y="1120" width="40" height="7" rx="2" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M194 1128 L226 1128 L222 1162 L198 1162 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="204" y1="1135" x2="205" y2="1155" stroke="#17457f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="216" y1="1135" x2="215" y2="1155" stroke="#17457f" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- smile face -->
+  <circle cx="165" cy="935" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="156" cy="929" r="3.5" fill="#22303f"/>
+  <circle cx="174" cy="929" r="3.5" fill="#22303f"/>
+  <path d="M154 942 Q165 952 176 942" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <!-- star -->
+  <polygon points="920,911 925.88,926.91 942.83,927.58 929.51,938.09 934.11,954.42 920,945 905.89,954.42 910.49,938.09 897.17,927.58 914.12,926.91" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+</svg>

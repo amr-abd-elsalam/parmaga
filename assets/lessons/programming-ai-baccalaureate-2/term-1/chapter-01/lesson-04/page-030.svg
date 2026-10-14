@@ -1,0 +1,261 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilWall" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Info card: one group (shadow, fill, accent) -->
+<g>
+  <rect x="109" y="248" width="870" height="208" rx="16" fill="#22303f" opacity=".12"/>
+  <rect x="105" y="242" width="870" height="208" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+  <rect x="961" y="258" width="6" height="176" rx="3" fill="#2f7fb5"/>
+</g>
+
+<!-- Icon: balance scale (header line, left end) -->
+<g transform="translate(124 104)">
+  <rect x="21" y="8" width="4" height="32" rx="2" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="10" y="38" width="26" height="7" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="4" y="9" width="38" height="5" rx="2" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M8 13 L3 25 M8 13 L13 25 M38 13 L33 25 M38 13 L43 25" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+  <path d="M1 25 Q8 34 15 25 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M31 25 Q38 34 45 25 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="23" cy="6" r="4" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: open book (definition, card top-left) -->
+<g transform="translate(128 250)">
+  <path d="M24 10 Q14 4 2 6 L2 38 Q14 36 24 42 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M24 10 Q34 4 46 6 L46 38 Q34 36 24 42 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M8 16 L18 18 M8 24 L18 26 M30 18 L40 16 M30 26 L40 24" fill="none" stroke="#2f7fb5" stroke-width="2" stroke-linecap="round"/>
+</g>
+
+<!-- Surprise face beside the key-word paragraph -->
+<g transform="translate(180 556)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="0" cy="10" r="5" fill="#22303f"/>
+</g>
+
+<!-- Illustration: hospital reception, the most serious case goes first -->
+<g>
+  <rect x="105" y="796" width="870" height="420" rx="24" fill="url(#ilWall)"/>
+  <path d="M105 1150 L975 1150 L975 1192 Q975 1216 951 1216 L129 1216 Q105 1216 105 1192 Z" fill="#e8dfd1" opacity=".6"/>
+  <ellipse cx="285" cy="1184" rx="150" ry="8" fill="#22303f" opacity=".18"/>
+  <ellipse cx="595" cy="1184" rx="130" ry="8" fill="#22303f" opacity=".18"/>
+  <ellipse cx="770" cy="1190" rx="40" ry="6" fill="#22303f" opacity=".18"/>
+
+  <!-- Reception window and counter -->
+  <rect x="150" y="850" width="260" height="100" rx="12" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="162" y="862" width="236" height="76" rx="8" fill="#dff1f7"/>
+  <rect x="300" y="888" width="54" height="36" rx="4" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="322" y="924" width="10" height="12" fill="#7f95ab"/>
+  <rect x="180" y="900" width="70" height="30" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="140" y="942" width="280" height="16" rx="6" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Medical cross sign and clock on the wall -->
+  <circle cx="560" cy="872" r="34" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="549" y="848" width="22" height="48" rx="3" fill="#c0392b"/>
+  <rect x="536" y="861" width="48" height="22" rx="3" fill="#c0392b"/>
+  <circle cx="700" cy="872" r="24" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M700 872 L700 856 M700 872 L712 878" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Waiting chairs with three seated patients -->
+  <rect x="156" y="1030" width="68" height="80" rx="10" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="251" y="1030" width="68" height="80" rx="10" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="346" y="1030" width="68" height="80" rx="10" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Patient 1 -->
+  <rect x="164" y="1034" width="52" height="80" rx="18" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="190" cy="1010" r="22" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M168 1006 Q170 984 190 984 Q210 984 212 1006 Q202 994 190 996 Q178 994 168 1006 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="182" cy="1012" r="2.5" fill="#22303f"/>
+  <circle cx="198" cy="1012" r="2.5" fill="#22303f"/>
+  <path d="M184 1021 Q190 1025 196 1021" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Patient 2 (hijab, long dress) -->
+  <rect x="259" y="1034" width="52" height="142" rx="18" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="285" cy="1036" rx="32" ry="13" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="285" cy="1008" r="27" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="285" cy="1012" rx="16" ry="19" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="279" cy="1010" r="2.5" fill="#22303f"/>
+  <circle cx="291" cy="1010" r="2.5" fill="#22303f"/>
+  <path d="M280 1020 Q285 1024 290 1020" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Patient 3 -->
+  <rect x="354" y="1034" width="52" height="80" rx="18" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="380" cy="1010" r="22" fill="#b57e50" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M358 1006 Q360 986 380 986 Q400 986 402 1006 Q392 996 380 998 Q368 996 358 1006 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="372" cy="1012" r="2.5" fill="#22303f"/>
+  <circle cx="388" cy="1012" r="2.5" fill="#22303f"/>
+  <path d="M374 1021 Q380 1025 386 1021" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Seats, legs, and chair legs -->
+  <rect x="152" y="1108" width="76" height="16" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="247" y="1108" width="76" height="16" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="342" y="1108" width="76" height="16" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="170" y="1112" width="16" height="60" rx="7" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="194" y="1112" width="16" height="60" rx="7" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="360" y="1112" width="16" height="60" rx="7" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="384" y="1112" width="16" height="60" rx="7" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="178" cy="1176" rx="11" ry="6" fill="#22303f"/>
+  <ellipse cx="202" cy="1176" rx="11" ry="6" fill="#22303f"/>
+  <ellipse cx="274" cy="1178" rx="11" ry="6" fill="#22303f"/>
+  <ellipse cx="296" cy="1178" rx="11" ry="6" fill="#22303f"/>
+  <ellipse cx="368" cy="1176" rx="11" ry="6" fill="#22303f"/>
+  <ellipse cx="392" cy="1176" rx="11" ry="6" fill="#22303f"/>
+  <circle cx="190" cy="1104" r="7" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="285" cy="1100" r="7" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="380" cy="1104" r="7" fill="#b57e50" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Plant -->
+  <ellipse cx="435" cy="1110" rx="10" ry="18" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="455" cy="1106" rx="10" ry="18" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="445" cy="1094" rx="10" ry="20" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="428" y="1126" width="34" height="48" rx="6" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Door with green arrow sign -->
+  <rect x="856" y="838" width="90" height="46" rx="10" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="870,855 902,855 902,845 930,861 902,877 902,867 870,867" fill="#2e7d32" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="846" y="900" width="110" height="250" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="856" y="910" width="90" height="240" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="872" y="930" width="58" height="50" rx="6" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="868" cy="1040" r="5" fill="#22303f"/>
+
+  <!-- Floor guide arrow toward the door -->
+  <polygon points="560,1194 770,1194 770,1186 800,1200 770,1214 770,1206 560,1206" fill="#a9dcbe"/>
+
+  <!-- Stretcher with the patient -->
+  <rect x="500" y="1100" width="10" height="62" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="680" y="1100" width="10" height="62" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="505" cy="1170" r="10" fill="#22303f"/>
+  <circle cx="685" cy="1170" r="10" fill="#22303f"/>
+  <rect x="480" y="1090" width="230" height="14" rx="6" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="470" y="1070" width="250" height="24" rx="10" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="497" cy="1064" rx="24" ry="10" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="502" cy="1046" r="20" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M484 1040 Q488 1024 504 1026 Q518 1028 520 1040 Q510 1034 502 1036 Q492 1034 484 1040 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M494 1048 L500 1048 M506 1048 L512 1048" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="522" y="1038" width="194" height="38" rx="16" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="612" cy="1057" r="15" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <rect x="607" y="1046" width="10" height="22" rx="2" fill="#c0392b"/>
+  <rect x="601" y="1052" width="22" height="10" rx="2" fill="#c0392b"/>
+
+  <!-- Nurse (hijab, long uniform) pointing toward the door -->
+  <ellipse cx="758" cy="1186" rx="11" ry="6" fill="#22303f"/>
+  <ellipse cx="782" cy="1186" rx="11" ry="6" fill="#22303f"/>
+  <rect x="726" y="1008" width="14" height="80" rx="7" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="733" cy="1092" r="7" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <g transform="translate(798 1014) rotate(-100)">
+    <rect x="-7" y="0" width="14" height="50" rx="7" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <circle cx="850" cy="1004" r="7" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="738" y="1000" width="64" height="184" rx="24" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="779" y="1028" width="6" height="18" rx="1" fill="#c0392b"/>
+  <rect x="773" y="1034" width="18" height="6" rx="1" fill="#c0392b"/>
+  <ellipse cx="770" cy="998" rx="34" ry="14" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="770" cy="966" r="28" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="770" cy="970" rx="17" ry="20" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="764" cy="967" r="2.5" fill="#22303f"/>
+  <circle cx="776" cy="967" r="2.5" fill="#22303f"/>
+  <path d="M764 978 Q770 983 776 978" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Text layer -->
+<text x="950"
+      y="154"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="32"
+      font-weight="bold"
+      fill="#c0392b">
+  <tspan x="950" dy="0">14. العدالة Fairness</tspan>
+</text>
+
+<text x="120"
+      y="194"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="31"
+      font-weight="bold"
+      fill="#c0392b">
+  <tspan x="120" dy="0">14. Fairness</tspan>
+</text>
+
+<text x="935"
+      y="274"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="935" dy="0">تعريف الكتاب: <tspan font-weight="bold" fill="#17457f">عدم التمييز ظلمًا</tspan></tspan>
+  <tspan x="935" dy="40">ضد أي شخص أو مجموعة بعينها.</tspan>
+</text>
+
+<text x="140"
+      y="354"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="140" dy="0">Textbook definition: <tspan font-weight="bold" fill="#17457f">not unjustly</tspan></tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#17457f">discriminating</tspan> against any particular</tspan>
+  <tspan x="140" dy="40">person or group.</tspan>
+</text>
+
+<text x="950"
+      y="514"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="950" dy="0">كلمة السر <tspan font-weight="bold" fill="#c0392b">«ظلمًا»:</tspan> ليست كل تفرقة ظلمًا.</tspan>
+  <tspan x="950" dy="40">المستشفى يقدّم الحالة الأخطر، وهذه تفرقة</tspan>
+  <tspan x="950" dy="40"><tspan font-weight="bold" fill="#2e7d32">بمبرر مشروع.</tspan></tspan>
+</text>
+
+<text x="120"
+      y="634"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="120" dy="0">The key word is <tspan font-weight="bold" fill="#c0392b">"unjustly":</tspan> not every</tspan>
+  <tspan x="120" dy="40">difference in treatment is unfair.</tspan>
+  <tspan x="120" dy="40">A hospital treats the most serious case</tspan>
+  <tspan x="120" dy="40">first; that has a <tspan font-weight="bold" fill="#2e7d32">valid reason.</tspan></tspan>
+</text>
+</svg>
