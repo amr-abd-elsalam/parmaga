@@ -4,171 +4,172 @@
      viewBox="0 0 1080 1350"
      preserveAspectRatio="xMidYMid meet"
      style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="ilBook" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+  <linearGradient id="ilTunic" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-  <defs>
-    <linearGradient id="deskWood" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#b07c44"/>
-      <stop offset="0.55" stop-color="#9a6835"/>
-      <stop offset="1" stop-color="#7d5228"/>
-    </linearGradient>
-    <linearGradient id="paperTone" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fffdf6"/>
-      <stop offset="1" stop-color="#fbf6ea"/>
-    </linearGradient>
-  </defs>
+<!-- Card shadow and fill -->
+<rect x="109" y="528" width="870" height="208" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="522" width="870" height="208" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="538" width="6" height="176" rx="3" fill="#2f7fb5"/>
 
-  <!-- 1 - الخلفية الخشبية البسيطة -->
-  <rect x="0" y="0" width="1080" height="1350" fill="url(#deskWood)"/>
-  <path d="M0 250 Q 540 200 1080 268" stroke="#6d4620" stroke-width="16" fill="none" opacity=".14"/>
-  <path d="M0 1085 Q 540 1035 1080 1105" stroke="#6d4620" stroke-width="14" fill="none" opacity=".12"/>
+<!-- Icon: open book beside intro -->
+<g transform="translate(880 300)">
+  <path d="M28 12 Q14 4 2 8 L2 48 Q14 44 28 52 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M28 12 Q42 4 54 8 L54 48 Q42 44 28 52 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M8 18 L22 21 M8 27 L22 30 M34 21 L48 18 M34 30 L48 27" fill="none" stroke="#2f7fb5" stroke-width="2" stroke-linecap="round"/>
+</g>
 
-  <!-- 2 - الورقة مع ظل بسيط -->
-  <rect x="42" y="40" width="1012" height="1290" rx="10" fill="#4a2f14" opacity=".18"/>
-  <rect x="34" y="30" width="1012" height="1290" rx="10" fill="url(#paperTone)"/>
+<!-- Icon: light bulb beside section header -->
+<g transform="translate(330 438)">
+  <circle cx="24" cy="18" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="16" y="32" width="16" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M19 18 L24 24 L29 18" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
 
-  <!-- 3 - سطور الدفتر الزرقاء الباهتة -->
-  <g stroke="#c7dcef" stroke-width="1.6" opacity=".75">
-    <line x1="85" y1="108" x2="995" y2="108"/>
-    <line x1="85" y1="150" x2="995" y2="150"/>
-    <line x1="85" y1="192" x2="995" y2="192"/>
-    <line x1="85" y1="234" x2="995" y2="234"/>
-    <line x1="85" y1="276" x2="995" y2="276"/>
-    <line x1="85" y1="318" x2="995" y2="318"/>
-    <line x1="85" y1="360" x2="995" y2="360"/>
-    <line x1="85" y1="402" x2="995" y2="402"/>
-    <line x1="85" y1="444" x2="995" y2="444"/>
-    <line x1="85" y1="486" x2="995" y2="486"/>
-    <line x1="85" y1="528" x2="995" y2="528"/>
-    <line x1="85" y1="570" x2="995" y2="570"/>
-    <line x1="85" y1="612" x2="995" y2="612"/>
-    <line x1="85" y1="654" x2="995" y2="654"/>
-    <line x1="85" y1="696" x2="995" y2="696"/>
-    <line x1="85" y1="738" x2="995" y2="738"/>
-    <line x1="85" y1="780" x2="995" y2="780"/>
-    <line x1="85" y1="822" x2="995" y2="822"/>
-    <line x1="85" y1="864" x2="995" y2="864"/>
-    <line x1="85" y1="906" x2="995" y2="906"/>
-    <line x1="85" y1="948" x2="995" y2="948"/>
-    <line x1="85" y1="990" x2="995" y2="990"/>
-    <line x1="85" y1="1032" x2="995" y2="1032"/>
-    <line x1="85" y1="1074" x2="995" y2="1074"/>
-    <line x1="85" y1="1116" x2="995" y2="1116"/>
-    <line x1="85" y1="1158" x2="995" y2="1158"/>
-  </g>
+<!-- Icon: tag inside card -->
+<g transform="translate(130 536)">
+  <polygon points="4,6 30,6 50,26 30,46 4,46" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="16" cy="26" r="5" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+</g>
 
-  <!-- 4 - إطار أحمر خارجي واحد فقط -->
-  <rect x="67" y="62" width="946" height="1250" rx="8" fill="none" stroke="#c0392b" stroke-width="3"/>
+<!-- Thinking face beside paragraph -->
+<g transform="translate(240 800)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
 
-  <!-- 5 - الرسم التوضيحي: طالبان وشاشة تعرّف على الوجه -->
-  <g>
-    <!-- الطالبة على اليسار -->
-    <path d="M155 406 L155 352 Q200 322 245 352 L245 406 Z" fill="#2e6f9e"/>
-    <path d="M200 240 Q246 240 248 296 Q248 336 234 348 L166 348 Q152 336 152 296 Q154 240 200 240 Z" fill="#3f7d8c"/>
-    <ellipse cx="200" cy="292" rx="26" ry="31" fill="#f2d6ba"/>
-    <circle cx="191" cy="288" r="3.2" fill="#33323a"/>
-    <circle cx="210" cy="288" r="3.2" fill="#33323a"/>
-    <path d="M191 305 Q200 312 210 305" stroke="#a0674a" stroke-width="2.4" fill="none" stroke-linecap="round"/>
-    <path d="M243 366 L318 344" stroke="#f2d6ba" stroke-width="12" fill="none" stroke-linecap="round"/>
+<!-- Illustration: the law and ethics -->
+<g>
+  <rect x="125" y="950" width="830" height="296" rx="24" fill="url(#ilSky)"/>
+  <path d="M125 1190 L955 1190 L955 1222 Q955 1246 931 1246 L149 1246 Q125 1246 125 1222 Z" fill="#a9dcbe" opacity=".6"/>
+  <circle cx="200" cy="990" r="14" fill="#ffffff"/>
+  <circle cx="220" cy="984" r="18" fill="#ffffff"/>
+  <circle cx="242" cy="992" r="12" fill="#ffffff"/>
+  <circle cx="880" cy="980" r="12" fill="#ffffff"/>
+  <circle cx="898" cy="975" r="16" fill="#ffffff"/>
 
-    <!-- الطالب على اليمين -->
-    <path d="M835 406 L835 352 Q880 322 925 352 L925 406 Z" fill="#5b6f9b"/>
-    <circle cx="880" cy="292" r="30" fill="#e6bd94"/>
-    <path d="M850 286 Q854 256 880 256 Q906 256 910 286 Q896 272 880 274 Q862 276 850 286 Z" fill="#2f2a26"/>
-    <circle cx="871" cy="290" r="3.2" fill="#33323a"/>
-    <circle cx="890" cy="290" r="3.2" fill="#33323a"/>
-    <path d="M871 307 Q880 314 890 307" stroke="#a0674a" stroke-width="2.4" fill="none" stroke-linecap="round"/>
-    <path d="M837 366 L762 344" stroke="#e6bd94" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <!-- Balance scale (left) -->
+  <ellipse cx="270" cy="1217" rx="70" ry="7" fill="#22303f" opacity=".18"/>
+  <polygon points="220,1215 320,1215 300,1198 240,1198" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="264" y="1030" width="12" height="170" rx="4" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="170" y="1036" width="200" height="10" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="270" cy="1026" r="9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M180 1046 L145 1120 M180 1046 L215 1120 M360 1046 L325 1120 M360 1046 L395 1120" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+  <path d="M145 1120 Q180 1148 215 1120 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M325 1120 Q360 1148 395 1120 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="180" cy="1100" r="18" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M171 1100 L178 1107 L190 1093" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="360" cy="1100" r="18" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M352 1092 L368 1108 M368 1092 L352 1108" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
 
-    <!-- الشاشة -->
-    <rect x="405" y="205" width="270" height="166" rx="12" fill="#e9f0f8" stroke="#223a5e" stroke-width="4"/>
-    <rect x="419" y="219" width="242" height="126" rx="6" fill="#ffffff" stroke="#a9bed4" stroke-width="2"/>
-    <rect x="521" y="371" width="38" height="22" fill="#223a5e"/>
-    <rect x="486" y="393" width="108" height="11" rx="5.5" fill="#223a5e"/>
+  <!-- Rule book (right) -->
+  <ellipse cx="808" cy="1208" rx="90" ry="8" fill="#22303f" opacity=".18"/>
+  <rect x="734" y="1016" width="150" height="190" rx="10" fill="#22303f" opacity=".18"/>
+  <rect x="868" y="1018" width="14" height="176" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="730" y="1010" width="146" height="190" rx="10" fill="url(#ilBook)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="730" y="1010" width="22" height="190" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="830.5,1125.1 851.1,1104.5 851.1,1075.5 830.5,1054.9 801.5,1054.9 780.9,1075.5 780.9,1104.5 801.5,1125.1" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="796" y="1084" width="40" height="12" rx="3" fill="#ffffff"/>
+  <rect x="775" y="1150" width="82" height="8" rx="4" fill="#8fc9f2"/>
+  <rect x="785" y="1166" width="62" height="8" rx="4" fill="#8fc9f2"/>
+  <path d="M846 1200 L846 1226 L854 1218 L862 1226 L862 1200 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
 
-    <!-- أطر التعرّف الثلاثة داخل الشاشة -->
-    <rect x="432" y="231" width="62" height="62" rx="6" fill="none" stroke="#2e8b57" stroke-width="3"/>
-    <circle cx="463" cy="262" r="16" fill="#f2d3b3"/>
-    <path d="M447 253 Q463 240 479 253" stroke="#3a3a3a" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Arrows from student to scale and book -->
+  <path d="M480 1140 Q440 1120 412 1130" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="420,1123 406,1132 419,1138" fill="#c0392b"/>
+  <path d="M600 1140 Q660 1120 708 1130" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="700,1123 714,1132 701,1138" fill="#c0392b"/>
 
-    <rect x="509" y="231" width="62" height="62" rx="6" fill="none" stroke="#2e8b57" stroke-width="3"/>
-    <circle cx="540" cy="262" r="16" fill="#d9a878"/>
-    <path d="M524 253 Q540 240 556 253" stroke="#3a3a3a" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Student (center) -->
+  <ellipse cx="540" cy="1222" rx="60" ry="8" fill="#22303f" opacity=".18"/>
+  <rect x="520" y="1170" width="16" height="48" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="544" y="1170" width="16" height="48" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="526" cy="1220" rx="12" ry="6" fill="#22303f"/>
+  <ellipse cx="556" cy="1220" rx="12" ry="6" fill="#22303f"/>
+  <path d="M498 1182 Q496 1102 540 1096 Q584 1102 582 1182 Z" fill="url(#ilTunic)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M540 1100 L540 1176" fill="none" stroke="#8fc9f2" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="500" cy="1176" r="7" fill="#e8b98d" stroke="#22303f" stroke-width="2"/>
+  <circle cx="580" cy="1176" r="7" fill="#e8b98d" stroke="#22303f" stroke-width="2"/>
+  <circle cx="540" cy="1070" r="24" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M516 1066 Q518 1044 540 1044 Q562 1044 564 1066 Q552 1054 540 1056 Q528 1054 516 1066 Z" fill="#2b211c" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="533" cy="1072" r="3" fill="#22303f"/>
+  <circle cx="549" cy="1072" r="3" fill="#22303f"/>
+  <path d="M533 1082 Q540 1088 547 1082" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
 
-    <rect x="586" y="231" width="62" height="62" rx="6" fill="none" stroke="#c0392b" stroke-width="3"/>
-    <circle cx="617" cy="262" r="16" fill="#8d5a3b"/>
-    <path d="M601 253 Q617 240 633 253" stroke="#3a3a3a" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Thought bubble -->
+  <circle cx="572" cy="1042" r="5" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <circle cx="586" cy="1030" r="7" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <ellipse cx="600" cy="994" rx="66" ry="32" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M565 990 L565 1010 M558 1010 L572 1010 M548 990 L582 990" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="550" cy="998" r="5" fill="#2e7d32"/>
+  <circle cx="580" cy="998" r="5" fill="#c0392b"/>
+  <path d="M615 995 L599 995" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="599,990 591,995 599,1000" fill="#c0392b"/>
+  <rect x="620" y="981" width="22" height="28" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2"/>
+  <circle cx="631" cy="995" r="5" fill="#c0392b"/>
+</g>
 
-    <!-- علامات النتيجة -->
-    <path d="M452 316 l8 10 l15 -19" stroke="#2e8b57" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M529 316 l8 10 l15 -19" stroke="#2e8b57" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M607 307 l19 19 M626 307 l-19 19" stroke="#c0392b" stroke-width="4.5" fill="none" stroke-linecap="round"/>
-  </g>
+<!-- Texts -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">قاموس المصطلحات</text>
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="normal" fill="#152b42">The Precise Glossary</text>
 
-  <!-- 6 - خلفيات الصناديق -->
-  <rect x="100" y="432" width="880" height="352" rx="16" fill="#eef4fc" stroke="#7fa9d4" stroke-width="2"/>
-  <rect x="966" y="452" width="7" height="312" rx="3.5" fill="#2e6f9e"/>
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">لكل مصطلح: <tspan font-weight="bold" fill="#17457f">تعريف دقيق،</tspan> وشرح بلغتك،</tspan>
+  <tspan x="950" dy="40"><tspan font-weight="bold" fill="#c0392b">وفخ</tspan> احذر منه.</tspan>
+</text>
+<text x="120" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Each term: a <tspan font-weight="bold" fill="#17457f">precise definition,</tspan></tspan>
+  <tspan x="120" dy="40">a simple explanation, and a <tspan font-weight="bold" fill="#c0392b">trap.</tspan></tspan>
+</text>
 
-  <rect x="100" y="838" width="880" height="324" rx="16" fill="#f3f5fa" stroke="#8794ad" stroke-width="2"/>
-  <rect x="107" y="858" width="7" height="284" rx="3.5" fill="#223a5e"/>
+<text x="950" y="434" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">1. الأخلاقيات Ethics</text>
+<text x="120" y="474" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">1. Ethics</text>
 
-  <!-- 7 - النصوص التعليمية -->
-  <text x="950"
-        y="132"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="46"
-        font-weight="bold"
-        fill="#1f5fa8">
-    <tspan x="950" dy="0">استكشف مع زميلك</tspan>
-  </text>
+<text x="935" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">التعريف الدقيق:</tspan> <tspan font-weight="bold" fill="#17457f">المبادئ</tspan> التي نحكم بها</tspan>
+  <tspan x="935" dy="40">على الفعل: صواب أم خطأ، عادل أم ظالم.</tspan>
+</text>
+<text x="140" y="634" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Definition:</tspan> the <tspan font-weight="bold" fill="#17457f">principles</tspan> we use</tspan>
+  <tspan x="140" dy="40">to judge an action: right or wrong,</tspan>
+  <tspan x="140" dy="40">fair or unfair.</tspan>
+</text>
 
-  <text x="690"
-        y="180"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="28"
-        fill="#152b42">
-    <tspan x="690" dy="0">Explore in Pairs</tspan>
-  </text>
-
-  <line x1="600" y1="194" x2="952" y2="194" stroke="#7fa9d4" stroke-width="2"/>
-
-  <text x="950"
-        y="482"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        fill="#1f5fa8">
-    <tspan x="950" dy="0" font-weight="bold">مع زميلك، تأمل الموقف الآتي:</tspan>
-    <tspan x="950" dy="50">يزداد احتمال أن يخطئ نظام للتعرف على الوجه في تحديد هوية</tspan>
-    <tspan x="950" dy="42">أشخاص من بعض المجموعات مقارنةً بغيرهم.</tspan>
-    <tspan x="950" dy="50" font-weight="bold">قبل إكمال القراءة، توقّعا:</tspan>
-    <tspan x="950" dy="44">1. من قد يتضرر من هذا الخطأ؟</tspan>
-    <tspan x="950" dy="42">2. كيف قد يحدث الضرر؟</tspan>
-    <tspan x="950" dy="42">3. اذكرا سببًا واحدًا لهذا التفاوت.</tspan>
-  </text>
-
-  <text x="126"
-        y="882"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27"
-        fill="#152b42">
-    <tspan x="126" dy="0" font-weight="bold">With a partner, consider the following situation:</tspan>
-    <tspan x="126" dy="48">A face-recognition AI is more likely to misidentify</tspan>
-    <tspan x="126" dy="38">people from some groups than others.</tspan>
-    <tspan x="126" dy="46" font-weight="bold">Before continuing, predict:</tspan>
-    <tspan x="126" dy="42">1. Who could be harmed?</tspan>
-    <tspan x="126" dy="38">2. How could the harm occur?</tspan>
-    <tspan x="126" dy="38">3. Give one reason for this difference.</tspan>
-  </text>
-
+<text x="950" y="794" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#17457f">القانون</tspan> يسأل: هل هذا ممنوع؟</tspan>
+  <tspan x="950" dy="40">أما <tspan font-weight="bold" fill="#c0392b">الأخلاق</tspan> فتسأل: هل هذا صواب؟</tspan>
+</text>
+<text x="120" y="874" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">The <tspan font-weight="bold" fill="#17457f">law</tspan> asks: Is this forbidden?</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#c0392b">Ethics</tspan> asks: Is this right?</tspan>
+</text>
 </svg>

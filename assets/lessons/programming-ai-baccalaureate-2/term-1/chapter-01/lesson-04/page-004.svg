@@ -4,174 +4,219 @@
      viewBox="0 0 1080 1350"
      preserveAspectRatio="xMidYMid meet"
      style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-  <defs>
-    <linearGradient id="deskWoodGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#b98a55"/>
-      <stop offset="0.55" stop-color="#a3743f"/>
-      <stop offset="1" stop-color="#8a5f31"/>
-    </linearGradient>
-    <linearGradient id="paperSheetGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fffdf6"/>
-      <stop offset="1" stop-color="#fbf6e9"/>
-    </linearGradient>
-  </defs>
+<!-- Shadows -->
+<rect x="494" y="432" width="100" height="56" rx="14" fill="#22303f" opacity=".18"/>
+<rect x="376" y="502" width="336" height="20" rx="6" fill="#22303f" opacity=".18"/>
 
-  <!-- 1) خلفية مكتب خشبي بسيطة -->
-  <rect x="0" y="0" width="1080" height="1350" fill="url(#deskWoodGrad)"/>
-  <path d="M0,250 C300,210 760,300 1080,240" fill="none" stroke="#7d5527" stroke-width="16" opacity="0.16"/>
-  <path d="M0,1080 C320,1130 740,1030 1080,1090" fill="none" stroke="#7d5527" stroke-width="14" opacity="0.14"/>
+<!-- Main illustration: school gate with two lanes -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Ground -->
+  <rect x="160" y="612" width="760" height="10" rx="5" fill="#e8dfd1"/>
 
-  <!-- 2) ورقة الدفتر -->
-  <rect x="42" y="46" width="1012" height="1278" rx="10" fill="#3d2a13" opacity="0.22"/>
-  <rect x="34" y="36" width="1012" height="1278" rx="10" fill="url(#paperSheetGrad)"/>
+  <!-- Gate posts and beam -->
+  <rect x="380" y="500" width="20" height="114" rx="4" fill="#2f7fb5"/>
+  <rect x="530" y="500" width="20" height="114" rx="4" fill="#2f7fb5"/>
+  <rect x="680" y="500" width="20" height="114" rx="4" fill="#2f7fb5"/>
+  <rect x="372" y="496" width="336" height="20" rx="6" fill="#17457f"/>
 
-  <!-- 3) أسطر الدفتر الزرقاء الباهتة -->
-  <g stroke="#cfe0ef" stroke-width="1.6" opacity="0.6">
-    <line x1="92" y1="180" x2="988" y2="180"/>
-    <line x1="92" y1="224" x2="988" y2="224"/>
-    <line x1="92" y1="268" x2="988" y2="268"/>
-    <line x1="92" y1="312" x2="988" y2="312"/>
-    <line x1="92" y1="356" x2="988" y2="356"/>
-    <line x1="92" y1="400" x2="988" y2="400"/>
-    <line x1="92" y1="444" x2="988" y2="444"/>
-    <line x1="92" y1="488" x2="988" y2="488"/>
-    <line x1="92" y1="532" x2="988" y2="532"/>
-    <line x1="92" y1="576" x2="988" y2="576"/>
-    <line x1="92" y1="620" x2="988" y2="620"/>
-    <line x1="92" y1="664" x2="988" y2="664"/>
-    <line x1="92" y1="708" x2="988" y2="708"/>
-    <line x1="92" y1="752" x2="988" y2="752"/>
-    <line x1="92" y1="796" x2="988" y2="796"/>
-    <line x1="92" y1="840" x2="988" y2="840"/>
-    <line x1="92" y1="884" x2="988" y2="884"/>
-    <line x1="92" y1="928" x2="988" y2="928"/>
-    <line x1="92" y1="972" x2="988" y2="972"/>
-    <line x1="92" y1="1016" x2="988" y2="1016"/>
-    <line x1="92" y1="1060" x2="988" y2="1060"/>
-    <line x1="92" y1="1104" x2="988" y2="1104"/>
-    <line x1="92" y1="1148" x2="988" y2="1148"/>
+  <!-- System box with gears -->
+  <rect x="490" y="426" width="100" height="56" rx="14" fill="#8fc9f2"/>
+  <g transform="translate(524 454)">
+    <rect x="-5" y="-22" width="10" height="44" rx="2" fill="#ffd24a"/>
+    <rect x="-22" y="-5" width="44" height="10" rx="2" fill="#ffd24a"/>
+    <g transform="rotate(45)">
+      <rect x="-5" y="-22" width="10" height="44" rx="2" fill="#ffd24a"/>
+      <rect x="-22" y="-5" width="44" height="10" rx="2" fill="#ffd24a"/>
+    </g>
+    <circle cx="0" cy="0" r="15" fill="#ffd24a"/>
+    <circle cx="0" cy="0" r="5" fill="#ffffff"/>
+  </g>
+  <g transform="translate(566 460)">
+    <rect x="-4" y="-15" width="8" height="30" rx="2" fill="#ffd24a"/>
+    <rect x="-15" y="-4" width="30" height="8" rx="2" fill="#ffd24a"/>
+    <g transform="rotate(45)">
+      <rect x="-4" y="-15" width="8" height="30" rx="2" fill="#ffd24a"/>
+      <rect x="-15" y="-4" width="30" height="8" rx="2" fill="#ffd24a"/>
+    </g>
+    <circle cx="0" cy="0" r="10" fill="#ffd24a"/>
+    <circle cx="0" cy="0" r="3.5" fill="#ffffff"/>
   </g>
 
-  <!-- 4) الإطار الأحمر الخارجي الوحيد -->
-  <rect x="67" y="66" width="946" height="1222" rx="8" fill="none" stroke="#d0342c" stroke-width="3"/>
+  <!-- Red barrier on the left lane -->
+  <rect x="402" y="558" width="126" height="16" rx="4" fill="#c0392b"/>
+  <rect x="420" y="559" width="12" height="14" fill="#ffffff" stroke="none"/>
+  <rect x="456" y="559" width="12" height="14" fill="#ffffff" stroke="none"/>
+  <rect x="492" y="559" width="12" height="14" fill="#ffffff" stroke="none"/>
 
-  <!-- 5) خلفيات لوحتي الرسم التوضيحي -->
-  <rect x="105" y="258" width="400" height="306" rx="16" fill="#f7fbff" opacity="0.75" stroke="#bcd6ec" stroke-width="2"/>
-  <rect x="575" y="258" width="400" height="306" rx="16" fill="#f7fbff" opacity="0.75" stroke="#bcd6ec" stroke-width="2"/>
+  <!-- Dotted line from the system box to the barrier -->
+  <circle cx="532" cy="492" r="3" fill="#22303f" stroke="none"/>
+  <circle cx="524" cy="503" r="3" fill="#ffffff" stroke="none"/>
+  <circle cx="516" cy="514" r="3" fill="#ffffff" stroke="none"/>
+  <circle cx="507" cy="525" r="3" fill="#22303f" stroke="none"/>
+  <circle cx="498" cy="536" r="3" fill="#22303f" stroke="none"/>
+  <circle cx="489" cy="546" r="3" fill="#22303f" stroke="none"/>
+  <circle cx="480" cy="555" r="3" fill="#22303f" stroke="none"/>
 
-  <!-- 6) الرسم التوضيحي: الجزء الأول - كاميرا التعرف على الوجه -->
-  <rect x="150" y="286" width="120" height="10" rx="5" fill="#1b4b7a"/>
-  <rect x="200" y="296" width="12" height="18" fill="#1b4b7a"/>
-  <rect x="155" y="314" width="118" height="58" rx="10" fill="#2a6fb5" stroke="#1b4b7a" stroke-width="3"/>
-  <rect x="273" y="330" width="22" height="26" rx="6" fill="#1b4b7a"/>
-  <circle cx="303" cy="343" r="17" fill="#dceaf7" stroke="#1b4b7a" stroke-width="4"/>
-  <circle cx="303" cy="343" r="7" fill="#1b4b7a"/>
-
-  <polygon points="316,338 352,372 352,458 316,350" fill="#2a6fb5" opacity="0.13"/>
-  <line x1="316" y1="338" x2="352" y2="372" stroke="#2a6fb5" stroke-width="2.6" stroke-dasharray="9 8"/>
-  <line x1="316" y1="350" x2="352" y2="458" stroke="#2a6fb5" stroke-width="2.6" stroke-dasharray="9 8"/>
-
-  <path d="M356,500 C356,452 374,438 398,438 C422,438 440,452 440,500 Z" fill="#dceaf7" stroke="#1b4b7a" stroke-width="4"/>
-  <circle cx="398" cy="404" r="28" fill="#dceaf7" stroke="#1b4b7a" stroke-width="4"/>
-
-  <g fill="none" stroke="#2a6fb5" stroke-width="4" stroke-linecap="square">
-    <polyline points="356,392 356,366 382,366"/>
-    <polyline points="414,366 440,366 440,392"/>
-    <polyline points="440,424 440,450 414,450"/>
-    <polyline points="382,450 356,450 356,424"/>
+  <!-- Waiting students without glasses (left) -->
+  <g transform="translate(250 550)">
+    <path d="M-24 62 L-24 40 Q-24 22 0 22 Q24 22 24 40 L24 62 Z" fill="#8fc9f2"/>
+    <path d="M-24 12 Q-26 -26 0 -26 Q26 -26 24 12 Q18 32 0 32 Q-18 32 -24 12 Z" fill="#17457f"/>
+    <circle cx="0" cy="0" r="15" fill="#e8b98d"/>
+    <circle cx="-6" cy="0" r="2" fill="#22303f" stroke="none"/>
+    <circle cx="6" cy="0" r="2" fill="#22303f" stroke="none"/>
+    <path d="M-4 9 L4 9" fill="none"/>
+  </g>
+  <g transform="translate(330 550)">
+    <path d="M-24 62 L-24 40 Q-24 22 0 22 Q24 22 24 40 L24 62 Z" fill="#2f7fb5"/>
+    <path d="M-8 23 L0 33 L8 23 Z" fill="#ffffff"/>
+    <circle cx="0" cy="0" r="18" fill="#b57e50"/>
+    <path d="M-18 -2 Q-18 -20 0 -20 Q18 -20 18 -2 Q10 -12 0 -12 Q-10 -12 -18 -2 Z" fill="#2b211c"/>
+    <circle cx="-7" cy="0" r="2" fill="#22303f" stroke="none"/>
+    <circle cx="7" cy="0" r="2" fill="#22303f" stroke="none"/>
+    <path d="M-5 10 L5 10" fill="none"/>
   </g>
 
-  <circle cx="468" cy="300" r="19" fill="#ffffff" stroke="#c0392b" stroke-width="3.5"/>
-  <rect x="465.5" y="289" width="5" height="15" rx="2.5" fill="#c0392b"/>
-  <circle cx="468" cy="311" r="3" fill="#c0392b"/>
+  <!-- Student with glasses walking through the open right lane -->
+  <g transform="translate(615 550)">
+    <path d="M-24 62 L-24 40 Q-24 22 0 22 Q24 22 24 40 L24 62 Z" fill="#8fc9f2"/>
+    <path d="M-24 12 Q-26 -26 0 -26 Q26 -26 24 12 Q18 32 0 32 Q-18 32 -24 12 Z" fill="#17457f"/>
+    <circle cx="0" cy="0" r="15" fill="#d59f6f"/>
+    <circle cx="-6" cy="0" r="5" fill="#dff1f7"/>
+    <circle cx="6" cy="0" r="5" fill="#dff1f7"/>
+    <circle cx="-6" cy="0" r="2" fill="#22303f" stroke="none"/>
+    <circle cx="6" cy="0" r="2" fill="#22303f" stroke="none"/>
+    <path d="M-4 9 Q0 12 4 9" fill="none"/>
+  </g>
 
-  <!-- 7) سهم الربط بين الجزأين -->
-  <line x1="508" y1="411" x2="556" y2="411" stroke="#2a6fb5" stroke-width="4"/>
-  <polygon points="556,401 572,411 556,421" fill="#2a6fb5"/>
+  <!-- Green arrow -->
+  <polygon points="712,552 748,552 748,540 772,560 748,580 748,568 712,568" fill="#2e7d32"/>
 
-  <!-- 8) الرسم التوضيحي: الجزء الثاني - بيانات السلوك نحو مجلد محمي -->
-  <rect x="600" y="316" width="150" height="100" rx="10" fill="#dceaf7" stroke="#1b4b7a" stroke-width="4"/>
-  <rect x="618" y="340" width="70" height="8" rx="4" fill="#ef8f2a"/>
-  <rect x="618" y="358" width="100" height="8" rx="4" fill="#ef8f2a"/>
-  <rect x="618" y="376" width="54" height="8" rx="4" fill="#ef8f2a"/>
-  <rect x="660" y="416" width="30" height="16" fill="#1b4b7a"/>
-  <rect x="634" y="432" width="82" height="10" rx="5" fill="#1b4b7a"/>
+  <!-- Second student with glasses, already through -->
+  <g transform="translate(830 550)">
+    <path d="M-24 62 L-24 40 Q-24 22 0 22 Q24 22 24 40 L24 62 Z" fill="#2f7fb5"/>
+    <path d="M-8 23 L0 33 L8 23 Z" fill="#ffffff"/>
+    <circle cx="0" cy="0" r="18" fill="#e8b98d"/>
+    <path d="M-18 -2 Q-18 -20 0 -20 Q18 -20 18 -2 Q10 -12 0 -12 Q-10 -12 -18 -2 Z" fill="#2b211c"/>
+    <circle cx="-7" cy="0" r="6" fill="#dff1f7"/>
+    <circle cx="7" cy="0" r="6" fill="#dff1f7"/>
+    <circle cx="-7" cy="0" r="2" fill="#22303f" stroke="none"/>
+    <circle cx="7" cy="0" r="2" fill="#22303f" stroke="none"/>
+    <path d="M-5 10 Q0 14 5 10" fill="none"/>
+  </g>
+</g>
 
-  <path d="M754,352 C786,320 818,320 846,346" fill="none" stroke="#ef8f2a" stroke-width="3.5" stroke-dasharray="9 8"/>
-  <polygon points="843,336 860,347 842,357" fill="#ef8f2a"/>
-  <circle cx="772" cy="332" r="7" fill="#ef8f2a"/>
-  <circle cx="800" cy="323" r="6" fill="#ef8f2a"/>
-  <circle cx="828" cy="330" r="7" fill="#ef8f2a"/>
+<!-- Bullets -->
+<circle cx="966" cy="664" r="6" fill="#c0392b"/>
+<circle cx="114" cy="704" r="6" fill="#c0392b"/>
+<circle cx="966" cy="784" r="6" fill="#c0392b"/>
+<circle cx="114" cy="864" r="6" fill="#c0392b"/>
+<circle cx="966" cy="984" r="6" fill="#c0392b"/>
+<circle cx="114" cy="1064" r="6" fill="#c0392b"/>
 
-  <rect x="858" y="328" width="48" height="20" rx="6" fill="#e2952b" stroke="#c9821f" stroke-width="3"/>
-  <rect x="858" y="346" width="104" height="76" rx="8" fill="#f6b352" stroke="#c9821f" stroke-width="3.5"/>
-  <line x1="858" y1="372" x2="962" y2="372" stroke="#c9821f" stroke-width="2.5"/>
+<!-- Icon: two figures (people) -->
+<g transform="translate(125 150)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="18" cy="14" r="9" fill="#e8b98d"/>
+  <path d="M4 50 Q4 28 18 28 Q32 28 32 50 Z" fill="#2f7fb5"/>
+  <circle cx="38" cy="18" r="9" fill="#d59f6f"/>
+  <path d="M24 54 Q24 32 38 32 Q52 32 52 54 Z" fill="#8fc9f2"/>
+</g>
 
-  <path d="M880,430 L920,444 V482 C920,506 902,518 880,526 C858,518 840,506 840,482 V444 Z" fill="#2a6fb5" stroke="#1b4b7a" stroke-width="3.5"/>
-  <rect x="868" y="478" width="24" height="22" rx="4" fill="#ffffff"/>
-  <path d="M872,478 v-9 a8,8 0 0 1 16,0 v9" fill="none" stroke="#ffffff" stroke-width="4"/>
+<!-- Icon: warning triangle -->
+<g transform="translate(880 276)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="28,4 54,50 2,50" fill="#ffd24a"/>
+  <rect x="25" y="18" width="6" height="18" rx="3" fill="#22303f" stroke="none"/>
+  <circle cx="28" cy="43" r="3.5" fill="#22303f" stroke="none"/>
+</g>
 
-  <!-- 9) العنوان العربي -->
-  <text x="950"
-        y="180"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="48"
-        font-weight="bold"
-        fill="#16345e">
-    <tspan x="950" dy="0">قضايا الخصوصية</tspan>
-  </text>
+<!-- Icon: document stack (training data) -->
+<g transform="translate(880 702) scale(.85)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="4" y="2" width="34" height="42" rx="4" fill="#f0c48c"/>
+  <rect x="12" y="10" width="34" height="42" rx="4" fill="#ffffff"/>
+  <path d="M19 22 L39 22 M19 31 L39 31 M19 40 L32 40" fill="none" stroke="#7f95ab"/>
+</g>
 
-  <!-- 10) العنوان الإنجليزي -->
-  <text x="712"
-        y="224"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="32"
-        fill="#1d4a7a">
-    <tspan x="712" dy="0">Privacy Issues</tspan>
-  </text>
+<!-- Icon: AI chip (algorithmic bias) -->
+<g transform="translate(880 870)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M18 2 L18 10 M28 2 L28 10 M38 2 L38 10 M18 46 L18 54 M28 46 L28 54 M38 46 L38 54 M2 18 L10 18 M2 28 L10 28 M2 38 L10 38 M46 18 L54 18 M46 28 L54 28 M46 38 L54 38" fill="none"/>
+  <rect x="10" y="10" width="36" height="36" rx="6" fill="#2f7fb5"/>
+  <rect x="20" y="20" width="16" height="16" rx="3" fill="#8fc9f2"/>
+</g>
 
-  <!-- 11) الفقرة العربية -->
-  <text x="950"
-        y="620"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        fill="#225f9c">
-    <tspan x="950" dy="0">أدى تطور تقنيات الذكاء الاصطناعي إلى ظهور قضايا جديدة</tspan>
-    <tspan x="950" dy="44">تتعلق بالخصوصية <tspan direction="ltr" unicode-bidi="isolate">Privacy.</tspan> فقد تُستخدم كاميرات التعرف على</tspan>
-    <tspan x="950" dy="44">الوجه في الأماكن العامة للتعرف على الأفراد وتتبعهم، كما</tspan>
-    <tspan x="950" dy="44">تُجمع كميات كبيرة من بيانات السلوك عبر الإنترنت وتُحلل،</tspan>
-    <tspan x="950" dy="44">مما يتطلب التعامل المناسب مع المعلومات الشخصية وحمايتها.</tspan>
-  </text>
+<!-- Icon: tag (proxy variable) -->
+<g transform="translate(880 1070)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="4,28 28,4 52,4 52,28 28,52" fill="#f0c48c"/>
+  <circle cx="42" cy="14" r="4" fill="#ffffff"/>
+</g>
 
-  <!-- 12) فاصل خفيف بين الكتلتين -->
-  <line x1="200" y1="840" x2="880" y2="840" stroke="#c9d8e8" stroke-width="2" stroke-dasharray="10 10"/>
+<!-- Lower band: thinking face and light bulb -->
+<g transform="translate(500 1222)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+<g transform="translate(548 1196)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M28 0 L28 4 M8 10 L12 13 M48 10 L44 13" fill="none"/>
+  <circle cx="28" cy="24" r="15" fill="#ffd24a"/>
+  <rect x="21" y="38" width="14" height="14" rx="3" fill="#7f95ab"/>
+</g>
 
-  <!-- 13) الفقرة الإنجليزية -->
-  <text x="120"
-        y="884"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="29"
-        fill="#152b42">
-    <tspan x="120" dy="0">The development of AI technology has created new</tspan>
-    <tspan x="120" dy="44">privacy issues. Face-recognition cameras may be</tspan>
-    <tspan x="120" dy="44">used in public spaces to identify and track</tspan>
-    <tspan x="120" dy="44">individuals. Large amounts of online behavior</tspan>
-    <tspan x="120" dy="44">data are also collected and analyzed, requiring</tspan>
-    <tspan x="120" dy="44">personal information to be handled appropriately</tspan>
-    <tspan x="120" dy="44">and protected.</tspan>
-  </text>
+<!-- Text -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">والآن، لو استُخدم هذا النظام في القبول</tspan>
+  <tspan x="950" dy="40">بمدرسة للمتفوقين، فمن <tspan font-weight="bold" fill="#c0392b">سيُظلم؟</tspan></tspan>
+  <tspan x="950" dy="40">كل طالب لا يلبس نظارة.</tspan>
+</text>
+<text x="120" y="274" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Now, if this system decided admission</tspan>
+  <tspan x="120" dy="40">to a school for top students,</tspan>
+  <tspan x="120" dy="40">who would be <tspan font-weight="bold" fill="#c0392b">treated unfairly?</tspan></tspan>
+  <tspan x="120" dy="40">Every student without glasses.</tspan>
+</text>
 
+<text x="950" y="674" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">بيانات الطلاب العشرة هي <tspan font-weight="bold" fill="#c0392b">بيانات التدريب.</tspan></tspan>
+</text>
+<text x="132" y="714" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">The ten students' data</tspan>
+  <tspan x="132" dy="40">is the <tspan font-weight="bold" fill="#c0392b">training data.</tspan></tspan>
+</text>
+
+<text x="950" y="794" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">تفضيل أصحاب النظارات بلا مبرر</tspan>
+  <tspan x="950" dy="40">هو <tspan font-weight="bold" fill="#c0392b">التحيز الخوارزمي.</tspan></tspan>
+</text>
+<text x="132" y="874" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">Favoring students with glasses</tspan>
+  <tspan x="132" dy="40">for no valid reason</tspan>
+  <tspan x="132" dy="40">is <tspan font-weight="bold" fill="#c0392b">algorithmic bias.</tspan></tspan>
+</text>
+
+<text x="950" y="994" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">النظارة التي أخذها النظام مكان التفوق</tspan>
+  <tspan x="950" dy="40">الحقيقي هي <tspan font-weight="bold" fill="#c0392b">المتغير البديل.</tspan></tspan>
+</text>
+<text x="132" y="1074" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">The glasses, which the system used</tspan>
+  <tspan x="132" dy="40">in place of real ability,</tspan>
+  <tspan x="132" dy="40">are a <tspan font-weight="bold" fill="#c0392b">proxy variable.</tspan></tspan>
+</text>
 </svg>

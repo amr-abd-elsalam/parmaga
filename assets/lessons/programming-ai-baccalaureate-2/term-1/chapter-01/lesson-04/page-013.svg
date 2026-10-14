@@ -4,163 +4,209 @@
      viewBox="0 0 1080 1350"
      preserveAspectRatio="xMidYMid meet"
      style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-  <defs>
-    <linearGradient id="woodGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#9a6537"/>
-      <stop offset="0.55" stop-color="#82502a"/>
-      <stop offset="1" stop-color="#653d1f"/>
-    </linearGradient>
-    <linearGradient id="paperGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fffdf6"/>
-      <stop offset="1" stop-color="#fbf6ea"/>
-    </linearGradient>
-    <pattern id="ruledLines" x="0" y="0" width="1080" height="34" patternUnits="userSpaceOnUse">
-      <line x1="80" y1="33.5" x2="1000" y2="33.5" stroke="#cfe1f3" stroke-width="1.2"/>
-    </pattern>
-  </defs>
+<!-- Main idea card shadow and fill -->
+<rect x="109" y="128" width="870" height="208" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="122" width="870" height="208" rx="16" fill="#fdf6d8" stroke="#e0c46a" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="176" rx="3" fill="#e0a55e"/>
 
-  <rect x="0" y="0" width="1080" height="1350" fill="url(#woodGrad)"/>
-  <path d="M0 250 C 300 200, 780 320, 1080 250" stroke="#4d2d15" stroke-width="16" fill="none" opacity=".10"/>
-  <path d="M0 980 C 320 1050, 760 920, 1080 1000" stroke="#4d2d15" stroke-width="14" fill="none" opacity=".09"/>
+<!-- Key sentence strip -->
+<rect x="105" y="362" width="870" height="88" rx="10" fill="#fdf6d8"/>
+<rect x="961" y="378" width="6" height="56" rx="3" fill="#e0a55e"/>
 
-  <rect x="44" y="40" width="1012" height="1294" rx="10" fill="#2c1a0c" opacity=".22"/>
-  <rect x="34" y="28" width="1012" height="1294" rx="10" fill="url(#paperGrad)"/>
+<!-- Icon: light bulb inside main idea card -->
+<g transform="translate(130 132)">
+  <circle cx="24" cy="18" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="16" y="32" width="16" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M19 18 L24 24 L29 18" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
 
-  <rect x="80" y="192" width="920" height="968" fill="url(#ruledLines)" opacity=".75"/>
+<!-- Illustration: weak referee vs biased referee -->
+<g>
+  <rect x="125" y="480" width="830" height="420" rx="24" fill="url(#ilSky)"/>
+  <circle cx="180" cy="522" r="11" fill="#ffffff"/>
+  <circle cx="198" cy="516" r="15" fill="#ffffff"/>
+  <circle cx="218" cy="524" r="10" fill="#ffffff"/>
+  <circle cx="862" cy="520" r="11" fill="#ffffff"/>
+  <circle cx="880" cy="514" r="15" fill="#ffffff"/>
+  <circle cx="900" cy="522" r="10" fill="#ffffff"/>
+  <circle cx="470" cy="530" r="5" fill="#ffd24a"/>
+  <circle cx="610" cy="534" r="5" fill="#ffd24a"/>
 
-  <rect x="67" y="72" width="946" height="1244" rx="6" fill="none" stroke="#c9372c" stroke-width="2.6"/>
+  <!-- Grass -->
+  <rect x="145" y="730" width="790" height="56" rx="14" fill="#a9dcbe" opacity=".6"/>
 
-  <text x="540" y="126"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="42"
-        font-weight="bold"
-        fill="#16406e">أجب عن الأسئلة التالية</text>
+  <!-- Divider dots -->
+  <circle cx="540" cy="590" r="6" fill="#8fc9f2"/>
+  <circle cx="540" cy="616" r="6" fill="#8fc9f2"/>
+  <circle cx="540" cy="642" r="6" fill="#8fc9f2"/>
 
-  <text x="540" y="166"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="middle"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="30"
-        fill="#2a5f8f">Answer the Following Questions</text>
+  <!-- Goals: left half (orange, blue) -->
+  <g transform="translate(150 708)">
+    <rect x="4" y="4" width="76" height="56" fill="#ffffff"/>
+    <path d="M20 6 L20 60 M36 6 L36 60 M52 6 L52 60 M68 6 L68 60 M6 22 L78 22 M6 38 L78 38 M6 54 L78 54" fill="none" stroke="#8fc9f2" stroke-width="2" stroke-linecap="round"/>
+    <rect x="0" y="0" width="8" height="62" rx="3" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="76" y="0" width="8" height="62" rx="3" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="0" y="0" width="84" height="8" rx="3" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(430 708)">
+    <rect x="4" y="4" width="76" height="56" fill="#ffffff"/>
+    <path d="M20 6 L20 60 M36 6 L36 60 M52 6 L52 60 M68 6 L68 60 M6 22 L78 22 M6 38 L78 38 M6 54 L78 54" fill="none" stroke="#8fc9f2" stroke-width="2" stroke-linecap="round"/>
+    <rect x="0" y="0" width="8" height="62" rx="3" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="76" y="0" width="8" height="62" rx="3" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="0" y="0" width="84" height="8" rx="3" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  </g>
 
-  <line x1="410" y1="180" x2="670" y2="180" stroke="#9fb8d4" stroke-width="2"/>
+  <!-- Goals: right half (orange, blue) -->
+  <g transform="translate(566 708)">
+    <rect x="4" y="4" width="76" height="56" fill="#ffffff"/>
+    <path d="M20 6 L20 60 M36 6 L36 60 M52 6 L52 60 M68 6 L68 60 M6 22 L78 22 M6 38 L78 38 M6 54 L78 54" fill="none" stroke="#8fc9f2" stroke-width="2" stroke-linecap="round"/>
+    <rect x="0" y="0" width="8" height="62" rx="3" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="76" y="0" width="8" height="62" rx="3" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="0" y="0" width="84" height="8" rx="3" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(846 708)">
+    <rect x="4" y="4" width="76" height="56" fill="#ffffff"/>
+    <path d="M20 6 L20 60 M36 6 L36 60 M52 6 L52 60 M68 6 L68 60 M6 22 L78 22 M6 38 L78 38 M6 54 L78 54" fill="none" stroke="#8fc9f2" stroke-width="2" stroke-linecap="round"/>
+    <rect x="0" y="0" width="8" height="62" rx="3" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="76" y="0" width="8" height="62" rx="3" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="0" y="0" width="84" height="8" rx="3" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  </g>
 
-  <rect x="95" y="200" width="890" height="221" rx="14" fill="#ffffff" opacity=".80"/>
-  <rect x="95" y="200" width="890" height="221" rx="14" fill="none" stroke="#b8cbe2" stroke-width="1.8"/>
+  <!-- Red cards above goals: left half, all toward orange -->
+  <rect x="155" y="640" width="22" height="30" rx="3" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="181" y="640" width="22" height="30" rx="3" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="207" y="640" width="22" height="30" rx="3" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
 
-  <text x="955" y="234"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="28"
-        fill="#1f5c9e">
-    <tspan x="955" dy="0">1. ما المصطلح الذي يصف التحيز في أحكام نظام الذكاء</tspan>
-    <tspan x="955" dy="34">الاصطناعي نتيجة التحيز في بيانات التدريب؟</tspan>
-  </text>
+  <!-- Red cards above goals: right half, one each -->
+  <rect x="597" y="640" width="22" height="30" rx="3" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="877" y="640" width="22" height="30" rx="3" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
 
-  <text x="118" y="306"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="25"
-        fill="#14294a">
-    <tspan x="118" dy="0">1. What term describes bias in an AI system’s</tspan>
-    <tspan x="118" dy="31">judgments resulting from bias in the training data?</tspan>
-  </text>
+  <!-- Right referee: cards alternately toward both goals -->
+  <g transform="translate(748 0)">
+    <ellipse cx="0" cy="772" rx="46" ry="7" fill="#22303f" opacity=".18"/>
+    <g transform="translate(-24 640) rotate(-40)">
+      <rect x="-6" y="-50" width="12" height="54" rx="6" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+      <rect x="-11" y="-88" width="22" height="30" rx="3" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+      <circle cx="0" cy="-52" r="7" fill="#e8b98d" stroke="#22303f" stroke-width="2"/>
+    </g>
+    <g transform="translate(24 640) rotate(40)">
+      <rect x="-6" y="-50" width="12" height="54" rx="6" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+      <rect x="-11" y="-88" width="22" height="30" rx="3" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+      <circle cx="0" cy="-52" r="7" fill="#e8b98d" stroke="#22303f" stroke-width="2"/>
+    </g>
+    <rect x="-15" y="704" width="13" height="60" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="2" y="704" width="13" height="60" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <ellipse cx="-9" cy="766" rx="11" ry="5" fill="#22303f"/>
+    <ellipse cx="9" cy="766" rx="11" ry="5" fill="#22303f"/>
+    <path d="M-30 716 Q-32 636 0 628 Q32 636 30 716 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M-10 632 Q0 662 10 632" fill="none" stroke="#ffd24a" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="0" cy="660" r="5" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+    <circle cx="0" cy="602" r="22" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-22 598 Q-20 578 0 578 Q20 578 22 598 Q11 588 0 590 Q-11 588 -22 598 Z" fill="#2b211c" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+    <circle cx="-7" cy="604" r="2.5" fill="#22303f"/>
+    <circle cx="7" cy="604" r="2.5" fill="#22303f"/>
+    <path d="M-6 613 Q0 618 6 613" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
 
-  <line x1="130" y1="369" x2="950" y2="369" stroke="#9fb8d4" stroke-width="1.6"/>
-  <line x1="130" y1="401" x2="950" y2="401" stroke="#9fb8d4" stroke-width="1.6"/>
+  <!-- Left referee: every card toward the orange goal -->
+  <g transform="translate(332 0)">
+    <ellipse cx="0" cy="772" rx="46" ry="7" fill="#22303f" opacity=".18"/>
+    <g transform="translate(-24 640) rotate(-40)">
+      <rect x="-6" y="-50" width="12" height="54" rx="6" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+      <g transform="translate(0 -56) rotate(-18)">
+        <rect x="-11" y="-34" width="22" height="30" rx="3" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+      </g>
+      <g transform="translate(0 -56) rotate(18)">
+        <rect x="-11" y="-34" width="22" height="30" rx="3" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+      </g>
+      <g transform="translate(0 -56)">
+        <rect x="-11" y="-34" width="22" height="30" rx="3" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+      </g>
+      <circle cx="0" cy="-52" r="7" fill="#d59f6f" stroke="#22303f" stroke-width="2"/>
+    </g>
+    <g transform="translate(24 640) rotate(-12)">
+      <rect x="-6" y="-4" width="12" height="56" rx="6" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+      <circle cx="0" cy="54" r="7" fill="#d59f6f" stroke="#22303f" stroke-width="2"/>
+    </g>
+    <rect x="-15" y="704" width="13" height="60" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="2" y="704" width="13" height="60" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <ellipse cx="-9" cy="766" rx="11" ry="5" fill="#22303f"/>
+    <ellipse cx="9" cy="766" rx="11" ry="5" fill="#22303f"/>
+    <path d="M-30 716 Q-32 636 0 628 Q32 636 30 716 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M-10 632 Q0 662 10 632" fill="none" stroke="#ffd24a" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="0" cy="660" r="5" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+    <circle cx="0" cy="602" r="22" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-22 598 Q-20 578 0 578 Q20 578 22 598 Q11 588 0 590 Q-11 588 -22 598 Z" fill="#2b211c" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+    <circle cx="-7" cy="604" r="2.5" fill="#22303f"/>
+    <circle cx="7" cy="604" r="2.5" fill="#22303f"/>
+    <path d="M-6 614 L6 614" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+</g>
 
-  <rect x="95" y="435" width="890" height="252" rx="14" fill="#ffffff" opacity=".80"/>
-  <rect x="95" y="435" width="890" height="252" rx="14" fill="none" stroke="#b8cbe2" stroke-width="1.8"/>
+<!-- Bottom icon row -->
+<g transform="translate(352 1194)">
+  <polygon points="28,2 34.5,19.1 52.7,20 38.5,31.4 43.3,49 28,39 12.7,49 17.5,31.4 3.3,20 21.5,19.1" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+<g transform="translate(540 1222)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="0" cy="10" r="5" fill="#22303f"/>
+</g>
+<g transform="translate(672 1194)">
+  <circle cx="28" cy="28" r="24" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M17 28 L25 36 L40 20" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
 
-  <text x="955" y="469"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="28"
-        fill="#1f5c9e">
-    <tspan x="955" dy="0">2. ما التقنية التي تساعد البشر على فهم سبب اتخاذ نظام</tspan>
-    <tspan x="955" dy="34">الذكاء الاصطناعي قرارًا معينًا؟ اذكر اختصارها المكوّن من ثلاثة أحرف.</tspan>
-  </text>
+<!-- Texts -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">التعريف الأعمق:</tspan> خطأ <tspan font-weight="bold" fill="#17457f">منهجي</tspan> ومتكرر</tspan>
+  <tspan x="935" dy="40">يميل لصالح فئة أو ضدها دون مبرر مشروع.</tspan>
+</text>
+<text x="140" y="234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Deeper definition:</tspan> a <tspan font-weight="bold" fill="#17457f">systematic,</tspan></tspan>
+  <tspan x="140" dy="40">repeated error that favors or works</tspan>
+  <tspan x="140" dy="40">against a group without a valid reason.</tspan>
+</text>
 
-  <text x="118" y="541"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="25"
-        fill="#14294a">
-    <tspan x="118" dy="0">2. What technology helps humans understand why</tspan>
-    <tspan x="118" dy="31">an AI system made a particular decision? Give its</tspan>
-    <tspan x="118" dy="31">three-letter abbreviation.</tspan>
-  </text>
+<text x="935" y="394" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#17457f">الكلمة الذهبية: «منهجي»</text>
+<text x="140" y="434" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="bold" fill="#17457f">The golden word: "systematic"</text>
 
-  <line x1="130" y1="635" x2="950" y2="635" stroke="#9fb8d4" stroke-width="1.6"/>
-  <line x1="130" y1="667" x2="950" y2="667" stroke="#9fb8d4" stroke-width="1.6"/>
+<!-- Illustration labels -->
+<text x="808" y="834" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">حكم ضعيف</text>
+<text x="653" y="874" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Weak referee</text>
+<text x="399" y="834" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">حكم متحيز</text>
+<text x="220" y="874" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Biased referee</text>
 
-  <rect x="95" y="701" width="890" height="221" rx="14" fill="#ffffff" opacity=".80"/>
-  <rect x="95" y="701" width="890" height="221" rx="14" fill="none" stroke="#b8cbe2" stroke-width="1.8"/>
-
-  <text x="955" y="735"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="28"
-        fill="#1f5c9e">
-    <tspan x="955" dy="0">3. ما المبدأ الذي يقتضي عدم التمييز ظلمًا ضد</tspan>
-    <tspan x="955" dy="34">شخص أو مجموعة بعينها؟</tspan>
-  </text>
-
-  <text x="118" y="807"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="25"
-        fill="#14294a">
-    <tspan x="118" dy="0">3. Which principle requires not unjustly</tspan>
-    <tspan x="118" dy="31">discriminating against any particular person or group?</tspan>
-  </text>
-
-  <line x1="130" y1="870" x2="950" y2="870" stroke="#9fb8d4" stroke-width="1.6"/>
-  <line x1="130" y1="902" x2="950" y2="902" stroke="#9fb8d4" stroke-width="1.6"/>
-
-  <rect x="95" y="936" width="890" height="221" rx="14" fill="#ffffff" opacity=".80"/>
-  <rect x="95" y="936" width="890" height="221" rx="14" fill="none" stroke="#b8cbe2" stroke-width="1.8"/>
-
-  <text x="955" y="970"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="28"
-        fill="#1f5c9e">
-    <tspan x="955" dy="0">4. ما المبدأ الذي يقتضي التعامل المناسب مع</tspan>
-    <tspan x="955" dy="34">المعلومات الشخصية وحماية الخصوصية؟</tspan>
-  </text>
-
-  <text x="118" y="1042"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="25"
-        fill="#14294a">
-    <tspan x="118" dy="0">4. Which principle requires personal information to be</tspan>
-    <tspan x="118" dy="31">handled appropriately and privacy to be protected?</tspan>
-  </text>
-
-  <line x1="130" y1="1105" x2="950" y2="1105" stroke="#9fb8d4" stroke-width="1.6"/>
-  <line x1="130" y1="1137" x2="950" y2="1137" stroke="#9fb8d4" stroke-width="1.6"/>
-
+<text x="950" y="954" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">حكم يخطئ مرة ضد هذا الفريق ومرة ضد ذاك:</tspan>
+  <tspan x="950" dy="40">حكم <tspan font-weight="bold" fill="#17457f">ضعيف.</tspan> وحكم يخطئ <tspan font-weight="bold" fill="#17457f">كل مرة</tspan> ضد فريق واحد:</tspan>
+  <tspan x="950" dy="40">حكم <tspan font-weight="bold" fill="#c0392b">متحيز.</tspan></tspan>
+</text>
+<text x="120" y="1074" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">A referee who errs once against each team</tspan>
+  <tspan x="120" dy="40">is <tspan font-weight="bold" fill="#17457f">weak;</tspan> one who errs <tspan font-weight="bold" fill="#17457f">every time</tspan> against</tspan>
+  <tspan x="120" dy="40">the same team is <tspan font-weight="bold" fill="#c0392b">biased.</tspan></tspan>
+</text>
 </svg>

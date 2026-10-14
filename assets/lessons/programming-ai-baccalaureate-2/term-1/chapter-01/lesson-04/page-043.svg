@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Card shadows -->
+<rect x="109" y="528" width="870" height="168" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="109" y="1088" width="870" height="88" rx="16" fill="#22303f" opacity=".12"/>
+
+<!-- Instruction strip (Main idea card) -->
+<rect x="105" y="522" width="870" height="168" rx="16" fill="#fdf6d8" stroke="#e0c46a" stroke-width="2"/>
+<rect x="961" y="538" width="6" height="136" rx="3" fill="#e0a55e"/>
+
+<!-- Outlined box -->
+<rect x="105" y="1082" width="870" height="88" rx="16" fill="#fffdf7" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="1098" width="6" height="56" rx="3" fill="#2f7fb5"/>
+
+<!-- Bullets -->
+<circle cx="966" cy="224" r="6" fill="#c0392b"/>
+<circle cx="114" cy="344" r="6" fill="#c0392b"/>
+<circle cx="966" cy="824" r="6" fill="#c0392b"/>
+<circle cx="114" cy="864" r="6" fill="#c0392b"/>
+<circle cx="966" cy="904" r="6" fill="#c0392b"/>
+<circle cx="114" cy="944" r="6" fill="#c0392b"/>
+<circle cx="966" cy="984" r="6" fill="#c0392b"/>
+<circle cx="114" cy="1024" r="6" fill="#c0392b"/>
+
+<!-- Icon: two figures (roles) -->
+<g transform="translate(450 128)">
+  <path d="M4 52 Q4 30 18 30 Q32 30 32 52 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M28 52 Q28 30 42 30 Q56 30 56 52 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="18" cy="16" r="9" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="42" cy="16" r="9" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: scales -->
+<g transform="translate(570 124)">
+  <rect x="16" y="50" width="28" height="6" rx="3" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="28" y="12" width="4" height="38" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="8" y1="14" x2="52" y2="14" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <polyline points="2,32 8,14 14,32" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="46,32 52,14 58,32" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M0 32 Q8 42 16 32 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M44 32 Q52 42 60 32 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="30" cy="10" r="4" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: pin inside the instruction strip -->
+<g transform="translate(137 532)">
+  <line x1="24" y1="28" x2="24" y2="46" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="24" cy="16" r="12" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="20" cy="12" r="3.5" fill="#ffffff"/>
+</g>
+
+<!-- Lower band: gavel, thinking face, open book -->
+<g transform="translate(410 1188)">
+  <rect x="6" y="50" width="48" height="8" rx="3" fill="#3a2411" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="27" y="22" width="6" height="26" rx="3" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="8" y="6" width="44" height="16" rx="4" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="14" y="4" width="6" height="20" rx="2" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="40" y="4" width="6" height="20" rx="2" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+</g>
+<g transform="translate(540 1218)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+<g transform="translate(610 1194)">
+  <path d="M30 10 Q16 2 2 8 L2 46 Q16 40 30 48 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M30 10 Q44 2 58 8 L58 46 Q44 40 30 48 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M8 18 Q16 15 24 18" fill="none" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M8 28 Q16 25 24 28" fill="none" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M36 18 Q44 15 52 18" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M36 28 Q44 25 52 28" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Section 1: Roles -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="950" dy="0">الأدوار</tspan>
+</text>
+<text x="120" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="120" dy="0">The Roles</tspan>
+</text>
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">محامي الطالب، وممثل الشركة المطوّرة،</tspan>
+  <tspan x="950" dy="40">ومدير المدرسة، <tspan font-weight="bold" fill="#17457f">وهيئة المحلفين،</tspan></tspan>
+  <tspan x="950" dy="40">وهي بقية الفصل.</tspan>
+</text>
+<text x="132" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">The student's lawyer, the developer</tspan>
+  <tspan x="132" dy="40">company's representative,</tspan>
+  <tspan x="132" dy="40">the school principal, and the <tspan font-weight="bold" fill="#17457f">jury,</tspan></tspan>
+  <tspan x="132" dy="40">which is the rest of the class.</tspan>
+</text>
+
+<!-- Instruction strip text -->
+<text x="935" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">القاعدة:</tspan> كل طرف يدافع عن نفسه</tspan>
+  <tspan x="935" dy="40">مستخدمًا <tspan font-weight="bold" fill="#17457f">مصطلحات الدرس.</tspan></tspan>
+</text>
+<text x="140" y="634" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">The rule:</tspan> each side defends itself</tspan>
+  <tspan x="140" dy="40">using the <tspan font-weight="bold" fill="#17457f">lesson's terms.</tspan></tspan>
+</text>
+
+<!-- Section 2: Jury's questions -->
+<text x="950" y="754" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="950" dy="0">أسئلة المحلفين</tspan>
+</text>
+<text x="120" y="794" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="120" dy="0">The Jury's Questions</tspan>
+</text>
+<text x="950" y="834" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">هل سبّب نقص البيانات <tspan font-weight="bold" fill="#17457f">تحيزًا؟</tspan></tspan>
+</text>
+<text x="132" y="874" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">Did missing data cause <tspan font-weight="bold" fill="#17457f">bias?</tspan></tspan>
+</text>
+<text x="950" y="914" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">هل كان النظام <tspan font-weight="bold" fill="#17457f">شفافًا؟</tspan></tspan>
+</text>
+<text x="132" y="954" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">Was the system <tspan font-weight="bold" fill="#17457f">transparent?</tspan></tspan>
+</text>
+<text x="950" y="994" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">من كان واجبه <tspan font-weight="bold" fill="#17457f">التحقق؟</tspan></tspan>
+</text>
+<text x="132" y="1034" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">Whose duty was it to <tspan font-weight="bold" fill="#17457f">check?</tspan></tspan>
+</text>
+
+<!-- Outlined box text -->
+<text x="935" y="1114" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">أصدروا <tspan font-weight="bold" fill="#17457f">حكمًا،</tspan> واذكروا سببه.</tspan>
+</text>
+<text x="140" y="1154" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">Give a <tspan font-weight="bold" fill="#17457f">verdict,</tspan> and state its reason.</tspan>
+</text>
+</svg>

@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilSceneBg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="ilScreen" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#4fc3e8"/>
+    <stop offset="1" stop-color="#8fc9f2"/>
+  </linearGradient>
+</defs>
+
+<!-- Card: Outlined box (shadow, fill, accent) -->
+<rect x="109" y="728" width="870" height="328" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="722" width="870" height="328" rx="16" fill="#fffdf7" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="738" width="6" height="296" rx="3" fill="#2f7fb5"/>
+
+<!-- Requested illustration: wrongful face-recognition match -->
+<g>
+  <!-- shadows -->
+  <rect x="129" y="438" width="830" height="260" rx="24" fill="#22303f" opacity=".18"/>
+  <rect x="764" y="486" width="170" height="180" rx="10" fill="#22303f" opacity=".18"/>
+  <rect x="384" y="466" width="230" height="150" rx="12" fill="#22303f" opacity=".18"/>
+  <rect x="449" y="636" width="100" height="12" rx="6" fill="#22303f" opacity=".18"/>
+  <path d="M154 686 L154 586 C154 562, 172 546, 204 546 C236 546, 254 562, 254 586 L254 686 Z" fill="#22303f" opacity=".18"/>
+  <path d="M286 518 C286 488, 308 472, 326 472 C348 472, 366 488, 366 512 C366 536, 346 546, 338 558 C334 564, 336 574, 336 584 L314 584 C314 568, 314 554, 326 542 C338 530, 344 524, 344 512 C344 500, 336 492, 326 492 C314 492, 308 502, 308 518 Z" fill="#22303f" opacity=".18"/>
+  <circle cx="325" cy="610" r="12" fill="#22303f" opacity=".18"/>
+  <!-- background panel -->
+  <rect x="125" y="432" width="830" height="260" rx="24" fill="url(#ilSceneBg)" stroke="#8fc9f2" stroke-width="2"/>
+  <!-- security camera above the photo -->
+  <rect x="936" y="452" width="12" height="14" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="870" y="446" width="66" height="26" rx="6" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="870" cy="459" r="10" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <!-- blurry camera photo (right) -->
+  <rect x="760" y="480" width="170" height="180" rx="10" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M785 655 Q845 600 905 655 Z" fill="#7f95ab" opacity=".6"/>
+  <path d="M795 655 Q852 606 912 655 Z" fill="#7f95ab" opacity=".35"/>
+  <ellipse cx="845" cy="560" rx="40" ry="50" fill="#d59f6f" opacity=".35"/>
+  <ellipse cx="852" cy="566" rx="40" ry="50" fill="#d59f6f" opacity=".35"/>
+  <ellipse cx="838" cy="554" rx="40" ry="50" fill="#e8b98d" opacity=".35"/>
+  <ellipse cx="845" cy="522" rx="38" ry="18" fill="#2b211c" opacity=".35"/>
+  <ellipse cx="851" cy="527" rx="38" ry="18" fill="#2b211c" opacity=".12"/>
+  <!-- computer screen (middle) -->
+  <rect x="478" y="610" width="34" height="22" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="445" y="630" width="100" height="12" rx="6" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="380" y="460" width="230" height="150" rx="12" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="394" y="474" width="202" height="122" rx="6" fill="url(#ilScreen)"/>
+  <rect x="408" y="488" width="80" height="94" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <path d="M418 578 Q448 540 478 578 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="448" cy="522" r="18" fill="#e8b98d" stroke="#22303f" stroke-width="2"/>
+  <path d="M430 518 C430 498, 466 498, 466 518 C458 510, 438 510, 430 518 Z" fill="#2b211c"/>
+  <rect x="502" y="488" width="80" height="94" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <path d="M512 578 Q542 540 572 578 Z" fill="#7f95ab" opacity=".6"/>
+  <circle cx="542" cy="522" r="18" fill="#d59f6f" opacity=".35"/>
+  <circle cx="547" cy="527" r="18" fill="#d59f6f" opacity=".35"/>
+  <!-- red cross over the match -->
+  <polygon points="426,498 434,486 564,576 556,588" fill="#c0392b" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <polygon points="556,486 564,498 434,588 426,576" fill="#c0392b" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <!-- large question mark -->
+  <path d="M282 512 C282 482, 304 466, 322 466 C344 466, 362 482, 362 506 C362 530, 342 540, 334 552 C330 558, 332 568, 332 578 L310 578 C310 562, 310 548, 322 536 C334 524, 340 518, 340 506 C340 494, 332 486, 322 486 C310 486, 304 496, 304 512 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="321" cy="604" r="12" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <!-- calm man in modest clothing (left) -->
+  <ellipse cx="200" cy="684" rx="60" ry="5" fill="#22303f" opacity=".18"/>
+  <rect x="190" y="526" width="20" height="16" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M150 680 L150 580 C150 556, 168 540, 200 540 C232 540, 250 556, 250 580 L250 680 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M188 540 L200 558 L212 540 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M170 590 L170 676" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M230 590 L230 676" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="200" cy="500" r="30" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M170 496 C170 464, 230 464, 230 496 C222 482, 178 482, 170 496 Z" fill="#2b211c"/>
+  <circle cx="190" cy="503" r="3.5" fill="#22303f"/>
+  <circle cx="210" cy="503" r="3.5" fill="#22303f"/>
+  <path d="M191 515 Q200 521 209 515" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- dotted arrow from the photo to the screen -->
+  <path d="M748 570 L634 570" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="2 10"/>
+  <polygon points="616,570 632,560 632,580" fill="#c0392b"/>
+</g>
+
+<!-- Icon: warning triangle beside the paragraph -->
+<g transform="translate(830 300)">
+  <polygon points="28,2 54,52 2,52" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="25" y="16" width="6" height="22" rx="3" fill="#22303f"/>
+  <circle cx="28" cy="45" r="3.5" fill="#22303f"/>
+</g>
+
+<!-- Emotion face: thinking -->
+<g transform="translate(540 760)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: pencil -->
+<g transform="translate(600 736)">
+  <polygon points="8,34 34,8 44,18 18,44" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="34,8 40,2 50,12 44,18" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="8,34 18,44 2,50" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="2,50 4,44 8,48" fill="#22303f"/>
+</g>
+
+<!-- Memory illustration: camera, balance scale, face check (no text) -->
+<g>
+  <!-- shadows -->
+  <rect x="234" y="1122" width="100" height="44" rx="10" fill="#22303f" opacity=".18"/>
+  <rect x="494" y="1232" width="100" height="14" rx="7" fill="#22303f" opacity=".18"/>
+  <circle cx="874" cy="1202" r="26" fill="#22303f" opacity=".18"/>
+  <!-- security camera -->
+  <rect x="190" y="1110" width="14" height="60" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="204" y="1132" width="30" height="10" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="230" y="1116" width="100" height="44" rx="10" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="250" cy="1130" r="5" fill="#c0392b"/>
+  <circle cx="330" cy="1138" r="16" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="330" cy="1138" r="7" fill="#4fc3e8"/>
+  <!-- balance scale -->
+  <rect x="532" y="1110" width="16" height="118" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="490" y="1226" width="100" height="14" rx="7" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="420" y="1116" width="240" height="10" rx="5" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="540" cy="1104" r="10" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M430 1126 L400 1186 M430 1126 L460 1186 M650 1126 L620 1186 M650 1126 L680 1186" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M390 1186 L470 1186 Q430 1216 390 1186 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M610 1186 L690 1186 Q650 1216 610 1186 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- face check with magnifier -->
+  <path d="M756 1136 L756 1116 L776 1116 M824 1116 L844 1116 L844 1136 M756 1184 L756 1204 L776 1204 M844 1184 L844 1204 L824 1204" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="800" cy="1160" r="34" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M766 1156 C766 1118, 834 1118, 834 1156 C822 1140, 778 1140, 766 1156 Z" fill="#2b211c"/>
+  <circle cx="788" cy="1164" r="3.5" fill="#22303f"/>
+  <circle cx="812" cy="1164" r="3.5" fill="#22303f"/>
+  <path d="M789 1178 Q800 1186 811 1178" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="888,1214 894,1208 922,1236 916,1242" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="870" cy="1196" r="26" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Texts -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="950" dy="0">3. القبض الخطأ في ديترويت</tspan>
+</text>
+<text x="120" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="120" dy="0">3. The Wrongful Arrest in Detroit</tspan>
+</text>
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">في 2020، قُبض على روبرت ويليامز <tspan font-weight="bold" fill="#c0392b">خطأً</tspan></tspan>
+  <tspan x="950" dy="40">في ديترويت بسبب <tspan font-weight="bold" fill="#17457f">نظام للتعرف على الوجه.</tspan></tspan>
+</text>
+<text x="120" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">In 2020, Robert Williams was</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#c0392b">wrongly</tspan> arrested in Detroit because</tspan>
+  <tspan x="120" dy="40">of a <tspan font-weight="bold" fill="#17457f">face-recognition system.</tspan></tspan>
+</text>
+<text x="935" y="754" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="935" dy="0">فكّر</tspan>
+</text>
+<text x="140" y="794" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="140" dy="0">Think</tspan>
+</text>
+<text x="935" y="834" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">من <tspan font-weight="bold" fill="#17457f">يُحاسَب</tspan> هنا: الشركة المطوّرة،</tspan>
+  <tspan x="935" dy="40">أم الشرطة التي اعتمدت على النظام دون تحقق؟</tspan>
+</text>
+<text x="140" y="914" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">Who should be <tspan font-weight="bold" fill="#17457f">held answerable</tspan> here:</tspan>
+  <tspan x="140" dy="40">the company that built it,</tspan>
+  <tspan x="140" dy="40">or the police who relied on it</tspan>
+  <tspan x="140" dy="40">without checking?</tspan>
+</text>
+</svg>

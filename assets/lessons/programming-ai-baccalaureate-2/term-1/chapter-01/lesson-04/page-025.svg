@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="36" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="35.5" x2="1080" y2="35.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <radialGradient id="ilGlow" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </radialGradient>
+  <linearGradient id="ilDarkBox" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#17457f"/>
+    <stop offset="1" stop-color="#22303f"/>
+  </linearGradient>
+</defs>
+
+<!-- Warning card: shadow, fill, accent -->
+<rect x="109" y="128" width="870" height="260" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="122" width="870" height="260" rx="16" fill="#fdf1e2" stroke="#f0c48c" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="228" rx="3" fill="#c96a1b"/>
+
+<!-- Warning card icon: triangle with exclamation mark -->
+<g transform="translate(130 130)">
+  <polygon points="26,2 50,46 2,46" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="23.5" y="16" width="5" height="16" rx="2.5" fill="#22303f"/>
+  <circle cx="26" cy="39" r="3" fill="#22303f"/>
+</g>
+
+<!-- Info card: shadow, fill, accent -->
+<rect x="109" y="524" width="870" height="224" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="518" width="870" height="224" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="534" width="6" height="192" rx="3" fill="#2f7fb5"/>
+
+<!-- Info card icon: open book -->
+<g transform="translate(130 526)">
+  <path d="M4 6 Q14 2 26 8 L26 40 Q14 34 4 38 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M48 6 Q38 2 26 8 L26 40 Q38 34 48 38 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="10" y1="16" x2="20" y2="14" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="10" y1="24" x2="20" y2="22" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="32" y1="14" x2="42" y2="16" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="32" y1="22" x2="42" y2="24" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Text -->
+<text x="935" y="150" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">فخ:</tspan> عبارة «لا مشكلة طالما النتيجة صحيحة»</tspan>
+  <tspan x="935" dy="36"><tspan font-weight="bold" fill="#17457f">خاطئة؛</tspan> فنحن لا نستطيع أصلًا التأكد من صحة</tspan>
+  <tspan x="935" dy="36">نتيجة لا نعرف كيف تكونت.</tspan>
+</text>
+<text x="140" y="258" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Trap:</tspan> &quot;There is no problem as long as</tspan>
+  <tspan x="140" dy="36">the result is correct&quot; is <tspan font-weight="bold" fill="#17457f">false;</tspan></tspan>
+  <tspan x="140" dy="36">we cannot even verify a result if we</tspan>
+  <tspan x="140" dy="36">do not know how it was formed.</tspan>
+</text>
+
+<text x="950" y="438" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#c0392b">
+  <tspan x="950" dy="0">12. الذكاء الاصطناعي القابل للتفسير (XAI)</tspan>
+</text>
+<text x="120" y="480" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="bold" fill="#c0392b">
+  <tspan x="120" dy="0">12. Explainable AI (XAI)</tspan>
+</text>
+
+<text x="935" y="546" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#17457f">تعريف الكتاب:</tspan> تقنية تتيح للبشر <tspan font-weight="bold" fill="#c0392b">فهم سبب</tspan></tspan>
+  <tspan x="935" dy="36">اتخاذ الذكاء الاصطناعي حكمًا معينًا.</tspan>
+</text>
+<text x="140" y="618" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#17457f">Textbook definition:</tspan> technology that</tspan>
+  <tspan x="140" dy="36">makes it possible for humans to</tspan>
+  <tspan x="140" dy="36"><tspan font-weight="bold" fill="#c0392b">understand why</tspan> an AI made a</tspan>
+  <tspan x="140" dy="36">particular judgment.</tspan>
+</text>
+
+<!-- Illustration: one single drawing group, absolute coordinates, no nested groups -->
+<g id="ilExplainable">
+  <!-- shadows -->
+  <polygon points="704,916 754,871 934,871 934,1071 884,1116 704,1116" fill="#22303f" opacity=".18"/>
+  <rect x="144" y="976" width="150" height="140" rx="10" fill="#22303f" opacity=".18"/>
+  <!-- ground and glow -->
+  <ellipse cx="540" cy="1165" rx="390" ry="22" fill="#dff1f7"/>
+  <circle cx="450" cy="1000" r="150" fill="url(#ilGlow)"/>
+  <!-- top-band light bulb -->
+  <circle cx="180" cy="814" r="18" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="172" y="830" width="16" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="150" y1="814" x2="140" y2="814" stroke="#ffd24a" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="210" y1="814" x2="220" y2="814" stroke="#ffd24a" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="180" y1="784" x2="180" y2="776" stroke="#ffd24a" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- top-band smile face -->
+  <circle cx="900" cy="816" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="891" cy="810" r="3.5" fill="#22303f"/>
+  <circle cx="909" cy="810" r="3.5" fill="#22303f"/>
+  <path d="M889 823 Q900 833 911 823" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <!-- right: closed dark box with a question mark -->
+  <polygon points="700,910 750,865 930,865 880,910" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="880,910 930,865 930,1065 880,1110" fill="#22303f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="700" y="910" width="180" height="200" fill="url(#ilDarkBox)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="700" y1="936" x2="880" y2="936" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M750 970 A40 40 0 1 1 790 1010 L790 990 A20 20 0 1 0 770 970 Z" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="780" y="1004" width="20" height="34" rx="4" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="790" cy="1064" r="12" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <!-- arrow pointing left -->
+  <line x1="680" y1="1010" x2="598" y2="1010" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="582,1010 602,999 602,1021" fill="#c0392b"/>
+  <!-- open see-through box: back panel and lid -->
+  <rect x="380" y="880" width="200" height="190" fill="#8fc9f2" opacity=".35"/>
+  <rect x="380" y="880" width="200" height="190" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="380,880 580,880 560,810 360,810" fill="#4fc3e8" opacity=".6"/>
+  <polygon points="380,880 580,880 560,810 360,810" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- gears inside -->
+  <polygon points="464.4,1013.0 464.4,1027.0 452.7,1031.5 457.8,1043.0 448.0,1052.8 436.5,1047.7 432.0,1059.4 418.0,1059.4 413.5,1047.7 402.0,1052.8 392.2,1043.0 397.3,1031.5 385.6,1027.0 385.6,1013.0 397.3,1008.5 392.2,997.0 402.0,987.2 413.5,992.3 418.0,980.6 432.0,980.6 436.5,992.3 448.0,987.2 457.8,997.0 452.7,1008.5" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="425" cy="1020" r="10" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="503.6,975.8 503.6,984.2 496.6,986.9 499.7,993.8 493.8,999.7 486.9,996.6 484.2,1003.6 475.8,1003.6 473.1,996.6 466.2,999.7 460.3,993.8 463.4,986.9 456.4,984.2 456.4,975.8 463.4,973.1 460.3,966.2 466.2,960.3 473.1,963.4 475.8,956.4 484.2,956.4 486.9,963.4 493.8,960.3 499.7,966.2 496.6,973.1" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="480" cy="980" r="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <!-- open see-through box: front glass and edges -->
+  <rect x="340" y="920" width="200" height="190" fill="#dff1f7" opacity=".35"/>
+  <rect x="340" y="920" width="200" height="190" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="340" y1="920" x2="380" y2="880" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="540" y1="920" x2="580" y2="880" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="540" y1="1110" x2="580" y2="1070" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="340" y1="1110" x2="380" y2="1070" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- sparkles -->
+  <circle cx="330" cy="830" r="5" fill="#4fc3e8"/>
+  <circle cx="610" cy="850" r="4" fill="#2e7d32"/>
+  <circle cx="625" cy="815" r="5" fill="#8fc9f2"/>
+  <!-- short list of three lines -->
+  <rect x="140" y="970" width="150" height="140" rx="10" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="162" cy="1005" r="6" fill="#2e7d32"/>
+  <circle cx="162" cy="1040" r="6" fill="#2e7d32"/>
+  <circle cx="162" cy="1075" r="6" fill="#2e7d32"/>
+  <line x1="178" y1="1005" x2="270" y2="1005" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="178" y1="1040" x2="262" y2="1040" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="178" y1="1075" x2="254" y2="1075" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- magnifying glass over the list -->
+  <circle cx="240" cy="1020" r="36" fill="#8fc9f2" opacity=".35"/>
+  <path d="M196 1020 a44 44 0 1 0 88 0 a44 44 0 1 0 -88 0 Z M204 1020 a36 36 0 1 0 72 0 a36 36 0 1 0 -72 0 Z" fill="#17457f" fill-rule="evenodd" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="266,1058 278,1046 318,1086 306,1098" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- bottom icon row: chip, check badge, network -->
+  <line x1="388" y1="1200" x2="388" y2="1208" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="400" y1="1200" x2="400" y2="1208" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="412" y1="1200" x2="412" y2="1208" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="388" y1="1248" x2="388" y2="1256" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="400" y1="1248" x2="400" y2="1256" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="412" y1="1248" x2="412" y2="1256" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="372" y1="1216" x2="380" y2="1216" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="372" y1="1228" x2="380" y2="1228" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="372" y1="1240" x2="380" y2="1240" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="420" y1="1216" x2="428" y2="1216" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="420" y1="1228" x2="428" y2="1228" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="420" y1="1240" x2="428" y2="1240" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="380" y="1208" width="40" height="40" rx="6" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="390" y="1218" width="20" height="20" rx="3" fill="#8fc9f2"/>
+  <circle cx="540" cy="1228" r="24" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M529 1228 L537 1236 L552 1220" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="664" y1="1240" x2="680" y2="1212" stroke="#17457f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="696" y1="1240" x2="680" y2="1212" stroke="#17457f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="664" y1="1240" x2="696" y2="1240" stroke="#17457f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="680" cy="1212" r="9" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="664" cy="1240" r="9" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="696" cy="1240" r="9" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+</g>
+</svg>

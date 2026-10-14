@@ -4,185 +4,195 @@
      viewBox="0 0 1080 1350"
      preserveAspectRatio="xMidYMid meet"
      style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilPanel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-  <defs>
-    <linearGradient id="deskWood" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#b3803f"/>
-      <stop offset="0.55" stop-color="#996a33"/>
-      <stop offset="1" stop-color="#7d5325"/>
-    </linearGradient>
-    <linearGradient id="paperTone" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fffdf7"/>
-      <stop offset="1" stop-color="#f6f0e0"/>
-    </linearGradient>
-    <marker id="headBlue" viewBox="0 0 10 10" refX="9" refY="5"
-            markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2b6cb0"/>
-    </marker>
-    <marker id="headGreen" viewBox="0 0 10 10" refX="9" refY="5"
-            markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1e8a4c"/>
-    </marker>
-    <marker id="headRed" viewBox="0 0 10 10" refX="9" refY="5"
-            markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#c0392b"/>
-    </marker>
-  </defs>
+<!-- Shadows -->
+<rect x="109" y="208" width="870" height="208" rx="10" fill="#22303f" opacity=".12"/>
+<rect x="154" y="446" width="780" height="340" rx="24" fill="#22303f" opacity=".18"/>
 
-  <rect x="0" y="0" width="1080" height="1350" fill="url(#deskWood)"/>
-  <path d="M 0 210 C 300 160 780 300 1080 240" fill="none" stroke="#6d4720" stroke-width="24" opacity="0.13"/>
-  <path d="M 0 1120 C 320 1190 760 1030 1080 1100" fill="none" stroke="#6d4720" stroke-width="20" opacity="0.11"/>
+<!-- Key sentence strip -->
+<rect x="105" y="202" width="870" height="208" rx="10" fill="#fdf6d8"/>
+<rect x="961" y="218" width="6" height="176" rx="3" fill="#e0a55e"/>
 
-  <rect x="44" y="42" width="1012" height="1290" rx="6" fill="#3a2410" opacity="0.18"/>
-  <rect x="34" y="30" width="1012" height="1290" rx="5" fill="url(#paperTone)"/>
+<!-- Main illustration: past data flows into the system and the same pattern comes out -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="150" y="440" width="780" height="340" rx="24" fill="url(#ilPanel)" stroke="#8fc9f2"/>
+  <ellipse cx="790" cy="750" rx="90" ry="10" fill="#8fc9f2" stroke="none"/>
+  <ellipse cx="540" cy="740" rx="110" ry="10" fill="#8fc9f2" stroke="none"/>
+  <ellipse cx="290" cy="750" rx="90" ry="10" fill="#8fc9f2" stroke="none"/>
 
-  <g stroke="#b7d3e8" stroke-width="1.6" opacity="0.65">
-    <line x1="82" y1="132" x2="998" y2="132"/>
-    <line x1="82" y1="174" x2="998" y2="174"/>
-    <line x1="82" y1="216" x2="998" y2="216"/>
-    <line x1="82" y1="258" x2="998" y2="258"/>
-    <line x1="82" y1="300" x2="998" y2="300"/>
-    <line x1="82" y1="342" x2="998" y2="342"/>
-    <line x1="82" y1="384" x2="998" y2="384"/>
-    <line x1="82" y1="426" x2="998" y2="426"/>
-    <line x1="82" y1="468" x2="998" y2="468"/>
-    <line x1="82" y1="510" x2="998" y2="510"/>
-    <line x1="82" y1="552" x2="998" y2="552"/>
-    <line x1="82" y1="594" x2="998" y2="594"/>
-    <line x1="82" y1="636" x2="998" y2="636"/>
-    <line x1="82" y1="678" x2="998" y2="678"/>
-    <line x1="82" y1="720" x2="998" y2="720"/>
-    <line x1="82" y1="762" x2="998" y2="762"/>
-    <line x1="82" y1="804" x2="998" y2="804"/>
-    <line x1="82" y1="846" x2="998" y2="846"/>
-    <line x1="82" y1="888" x2="998" y2="888"/>
-    <line x1="82" y1="930" x2="998" y2="930"/>
-    <line x1="82" y1="972" x2="998" y2="972"/>
-    <line x1="82" y1="1014" x2="998" y2="1014"/>
-    <line x1="82" y1="1056" x2="998" y2="1056"/>
-    <line x1="82" y1="1098" x2="998" y2="1098"/>
-    <line x1="82" y1="1140" x2="998" y2="1140"/>
+  <!-- Old paper records (right) -->
+  <g transform="translate(790 642)">
+    <g transform="rotate(-6)"><rect x="-70" y="-70" width="140" height="160" rx="8" fill="#c96a1b"/></g>
+    <g transform="rotate(4)"><rect x="-70" y="-74" width="140" height="160" rx="8" fill="#f0c48c"/></g>
+    <rect x="-70" y="-80" width="140" height="160" rx="8" fill="#e8dfd1"/>
+    <polygon points="-50,-12 -30,-48 -10,-12" fill="#2f7fb5"/>
+    <polygon points="10,-12 30,-48 50,-12" fill="#2f7fb5"/>
+    <circle cx="0" cy="36" r="24" fill="#c96a1b"/>
+  </g>
+  <!-- Small clock on top of the old records -->
+  <g transform="translate(790 536)">
+    <circle cx="0" cy="0" r="24" fill="#ffffff"/>
+    <path d="M0 0 L0 -14 M0 0 L10 5" fill="none" stroke="#17457f" stroke-width="3"/>
+    <circle cx="0" cy="0" r="3" fill="#17457f" stroke="none"/>
   </g>
 
-  <rect x="67" y="62" width="946" height="1238" rx="4"
-        fill="none" stroke="#c0392b" stroke-width="2.5"/>
+  <!-- Arrow into the system -->
+  <polygon points="700,630 676,630 676,618 652,640 676,662 676,650 700,650" fill="#17457f"/>
 
-  <rect x="282" y="252" width="516" height="170" rx="18"
-        fill="#eaf3fb" opacity="0.45"/>
-  <rect x="282" y="252" width="516" height="170" rx="18"
-        fill="none" stroke="#3a6ea5" stroke-width="2.5"/>
-
-  <g fill="#dfeaf5" stroke="#2b6cb0" stroke-width="2.2">
-    <rect x="125" y="296" width="112" height="22" rx="7"/>
-    <rect x="125" y="326" width="112" height="22" rx="7"/>
-    <rect x="125" y="356" width="112" height="22" rx="7"/>
+  <!-- System box with gears -->
+  <rect x="444" y="576" width="200" height="140" rx="20" fill="#22303f" opacity=".18" stroke="none"/>
+  <rect x="440" y="570" width="200" height="140" rx="20" fill="#8fc9f2"/>
+  <g transform="translate(508 632)">
+    <rect x="-8" y="-37" width="16" height="74" rx="3" fill="#17457f"/>
+    <rect x="-37" y="-8" width="74" height="16" rx="3" fill="#17457f"/>
+    <g transform="rotate(45)">
+      <rect x="-8" y="-37" width="16" height="74" rx="3" fill="#17457f"/>
+      <rect x="-37" y="-8" width="74" height="16" rx="3" fill="#17457f"/>
+    </g>
+    <circle cx="0" cy="0" r="28" fill="#17457f"/>
+    <circle cx="0" cy="0" r="10" fill="#ffffff"/>
   </g>
-  <line x1="245" y1="337" x2="272" y2="337"
-        stroke="#2b6cb0" stroke-width="3.4" marker-end="url(#headBlue)"/>
-
-  <g fill="#e8f6ee" stroke="#1e8a4c" stroke-width="2.6">
-    <rect x="300" y="300" width="132" height="74" rx="12"/>
-    <rect x="474" y="300" width="132" height="74" rx="12"/>
-    <rect x="648" y="300" width="132" height="74" rx="12"/>
-  </g>
-  <g stroke="#1e8a4c" stroke-width="3" stroke-linecap="round" opacity="0.75">
-    <line x1="322" y1="326" x2="410" y2="326"/>
-    <line x1="322" y1="350" x2="378" y2="350"/>
-    <line x1="496" y1="326" x2="584" y2="326"/>
-    <line x1="496" y1="350" x2="552" y2="350"/>
-    <line x1="670" y1="326" x2="758" y2="326"/>
-    <line x1="670" y1="350" x2="726" y2="350"/>
-  </g>
-  <line x1="436" y1="337" x2="466" y2="337"
-        stroke="#1e8a4c" stroke-width="3.2" marker-end="url(#headGreen)"/>
-  <line x1="610" y1="337" x2="640" y2="337"
-        stroke="#1e8a4c" stroke-width="3.2" marker-end="url(#headGreen)"/>
-
-  <path d="M 296 348 C 420 428 660 428 784 348"
-        fill="none" stroke="#c0392b" stroke-width="2.8"
-        stroke-dasharray="10 9" stroke-linecap="round"
-        marker-end="url(#headRed)"/>
-
-  <line x1="800" y1="337" x2="830" y2="337"
-        stroke="#1e8a4c" stroke-width="3.4" marker-end="url(#headGreen)"/>
-  <rect x="838" y="302" width="112" height="70" rx="12"
-        fill="#e8f6ee" stroke="#1e8a4c" stroke-width="2.6"/>
-  <path d="M 866 338 L 886 356 L 922 316"
-        fill="none" stroke="#1e8a4c" stroke-width="5"
-        stroke-linecap="round" stroke-linejoin="round"/>
-
-  <g fill="none" stroke="#2b6cb0" stroke-width="3" stroke-linecap="round">
-    <circle cx="540" cy="482" r="15"/>
-    <path d="M 514 528 v-6 a 26 24 0 0 1 52 0 v6"/>
-    <circle cx="400" cy="552" r="15"/>
-    <path d="M 374 598 v-6 a 26 24 0 0 1 52 0 v6"/>
-    <circle cx="680" cy="552" r="15"/>
-    <path d="M 654 598 v-6 a 26 24 0 0 1 52 0 v6"/>
-  </g>
-  <g stroke="#c0392b" stroke-width="2.4" stroke-linecap="round">
-    <line x1="516" y1="528" x2="430" y2="540"/>
-    <line x1="564" y1="528" x2="650" y2="540"/>
-    <line x1="432" y1="592" x2="648" y2="592"/>
-  </g>
-  <g fill="#c0392b">
-    <circle cx="473" cy="534" r="5.5"/>
-    <circle cx="607" cy="534" r="5.5"/>
-    <circle cx="540" cy="592" r="5.5"/>
+  <g transform="translate(578 666)">
+    <rect x="-6" y="-26" width="12" height="52" rx="3" fill="#2f7fb5"/>
+    <rect x="-26" y="-6" width="52" height="12" rx="3" fill="#2f7fb5"/>
+    <g transform="rotate(45)">
+      <rect x="-6" y="-26" width="12" height="52" rx="3" fill="#2f7fb5"/>
+      <rect x="-26" y="-6" width="52" height="12" rx="3" fill="#2f7fb5"/>
+    </g>
+    <circle cx="0" cy="0" r="19" fill="#2f7fb5"/>
+    <circle cx="0" cy="0" r="7" fill="#ffffff"/>
   </g>
 
-  <text x="952"
-        y="174"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="42"
-        font-weight="bold"
-        fill="#123a63">
-    <tspan x="990" dy="0">الذكاء الاصطناعي القابل للتفسير والمسؤولية</tspan>
-  </text>
+  <!-- Arrow out of the system -->
+  <polygon points="428,630 396,630 396,618 372,640 396,662 396,650 428,650" fill="#17457f"/>
 
-  <text x="486"
-        y="216"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27"
-        fill="#123a63">
-    <tspan x="486" dy="0">Explainable AI and Responsibility</tspan>
-  </text>
+  <!-- New paper stack with the same pattern (left) -->
+  <g transform="translate(290 642)">
+    <g transform="rotate(3)"><rect x="-70" y="-70" width="140" height="160" rx="8" fill="#8fc9f2"/></g>
+    <g transform="rotate(-3)"><rect x="-70" y="-74" width="140" height="160" rx="8" fill="#dff1f7"/></g>
+    <rect x="-70" y="-80" width="140" height="160" rx="8" fill="#ffffff"/>
+    <polygon points="-50,-12 -30,-48 -10,-12" fill="#2f7fb5"/>
+    <polygon points="10,-12 30,-48 50,-12" fill="#2f7fb5"/>
+    <circle cx="0" cy="36" r="24" fill="#c96a1b"/>
+  </g>
+</g>
 
-  <text x="952"
-        y="678"
-        direction="rtl"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Tahoma, Arial, Segoe UI, sans-serif"
-        font-size="30"
-        fill="#225f9c">
-    <tspan x="952" dy="0">يساعد الذكاء الاصطناعي القابل للتفسير Explainable AI (XAI)</tspan>
-    <tspan x="952" dy="42">البشر على فهم سبب اتخاذ النظام قرارًا معينًا. وعندما تكون</tspan>
-    <tspan x="952" dy="42">عملية اتخاذ القرار غامضة، يصعب التحقق من صحة النتيجة.</tspan>
-    <tspan x="952" dy="42">كما تظهر مسألة تحديد المسؤول عن القرار الخاطئ، سواء كان</tspan>
-    <tspan x="952" dy="42">المطور أو المستخدم أو المشغّل.</tspan>
-  </text>
+<!-- Icon: AI chip beside the title -->
+<g transform="translate(130 82)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M18 2 L18 10 M28 2 L28 10 M38 2 L38 10 M18 46 L18 54 M28 46 L28 54 M38 46 L38 54 M2 18 L10 18 M2 28 L10 28 M2 38 L10 38 M46 18 L54 18 M46 28 L54 28 M46 38 L54 38" fill="none"/>
+  <rect x="10" y="10" width="36" height="36" rx="6" fill="#2f7fb5"/>
+  <rect x="20" y="20" width="16" height="16" rx="3" fill="#8fc9f2"/>
+</g>
 
-  <text x="118"
-        y="888"
-        direction="ltr"
-        unicode-bidi="plaintext"
-        text-anchor="start"
-        font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
-        font-size="27"
-        fill="#152b42">
-    <tspan x="118" dy="0">Explainable AI (XAI) helps humans understand</tspan>
-    <tspan x="118" dy="42">why an AI system made a particular decision.</tspan>
-    <tspan x="118" dy="42">When the decision-making process is opaque, it</tspan>
-    <tspan x="118" dy="42">is difficult to verify whether the result is</tspan>
-    <tspan x="118" dy="42">correct. This also raises the question of</tspan>
-    <tspan x="118" dy="42">responsibility for an incorrect decision: the</tspan>
-    <tspan x="118" dy="42">developer, user, or operator.</tspan>
-  </text>
+<!-- Icon: star beside the title -->
+<g transform="translate(922 110) scale(3.4)" stroke="#22303f" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="0,-7 1.76,-2.43 6.66,-2.16 2.85,0.93 4.11,5.66 0,3 -4.11,5.66 -2.85,0.93 -6.66,-2.16 -1.76,-2.43" fill="#ffd24a"/>
+</g>
 
+<!-- Icon: light bulb inside the strip -->
+<g transform="translate(860 330)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M28 0 L28 4 M8 10 L12 13 M48 10 L44 13" fill="none"/>
+  <circle cx="28" cy="24" r="15" fill="#ffd24a"/>
+  <rect x="21" y="38" width="14" height="14" rx="3" fill="#7f95ab"/>
+</g>
+
+<!-- Thinking face beside the paragraph -->
+<g transform="translate(200 878)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: pencil beside the English paragraph -->
+<g transform="translate(860 944) scale(1.2)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="8,30 30,8 38,16 16,38" fill="#ffd24a"/>
+  <polygon points="8,30 16,38 4,42" fill="#f0c48c"/>
+  <polygon points="30,8 34,4 42,12 38,16" fill="#c0392b"/>
+</g>
+
+<!-- Memory illustration: question bubbles -->
+<g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="224" y="1086" width="130" height="100" rx="20" fill="#22303f" opacity=".18" stroke="none"/>
+  <rect x="394" y="1116" width="130" height="100" rx="20" fill="#22303f" opacity=".18" stroke="none"/>
+  <rect x="564" y="1086" width="130" height="100" rx="20" fill="#22303f" opacity=".18" stroke="none"/>
+  <rect x="734" y="1116" width="130" height="100" rx="20" fill="#22303f" opacity=".18" stroke="none"/>
+
+  <g transform="translate(285 1130)">
+    <polygon points="-34,40 -44,72 -10,44" fill="#dff1f7"/>
+    <rect x="-65" y="-50" width="130" height="100" rx="20" fill="#dff1f7"/>
+    <g transform="scale(2)">
+      <path d="M -6 -5 Q -6 -11 0 -11 Q 7 -11 7 -5 Q 7 -1 1 2 L 1 5" fill="none" stroke="#17457f" stroke-width="3"/>
+      <circle cx="1" cy="10" r="2.2" fill="#17457f" stroke="none"/>
+    </g>
+  </g>
+  <g transform="translate(455 1160)">
+    <polygon points="34,40 44,72 10,44" fill="#f0c48c"/>
+    <rect x="-65" y="-50" width="130" height="100" rx="20" fill="#f0c48c"/>
+    <g transform="scale(2)">
+      <path d="M -6 -5 Q -6 -11 0 -11 Q 7 -11 7 -5 Q 7 -1 1 2 L 1 5" fill="none" stroke="#17457f" stroke-width="3"/>
+      <circle cx="1" cy="10" r="2.2" fill="#17457f" stroke="none"/>
+    </g>
+  </g>
+  <g transform="translate(625 1130)">
+    <polygon points="-34,40 -44,72 -10,44" fill="#8fc9f2"/>
+    <rect x="-65" y="-50" width="130" height="100" rx="20" fill="#8fc9f2"/>
+    <g transform="scale(2)">
+      <path d="M -6 -5 Q -6 -11 0 -11 Q 7 -11 7 -5 Q 7 -1 1 2 L 1 5" fill="none" stroke="#17457f" stroke-width="3"/>
+      <circle cx="1" cy="10" r="2.2" fill="#17457f" stroke="none"/>
+    </g>
+  </g>
+  <g transform="translate(795 1160)">
+    <polygon points="34,40 44,72 10,44" fill="#ffd24a"/>
+    <rect x="-65" y="-50" width="130" height="100" rx="20" fill="#ffd24a"/>
+    <g transform="scale(2)">
+      <path d="M -6 -5 Q -6 -11 0 -11 Q 7 -11 7 -5 Q 7 -1 1 2 L 1 5" fill="none" stroke="#17457f" stroke-width="3"/>
+      <circle cx="1" cy="10" r="2.2" fill="#17457f" stroke="none"/>
+    </g>
+  </g>
+</g>
+
+<!-- Text -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">الدرس في جملة واحدة</text>
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="normal" fill="#152b42">The Lesson in One Sentence</text>
+
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">الذكاء الاصطناعي يتعلم من الماضي؛</tspan>
+  <tspan x="935" dy="40">فإن كان الماضي ظالمًا كرر الظلم.</tspan>
+</text>
+<text x="140" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">AI learns from the past;</tspan>
+  <tspan x="140" dy="40">if the past was unfair,</tspan>
+  <tspan x="140" dy="40">it repeats the unfairness.</tspan>
+</text>
+
+<text x="950" y="874" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">ولكي نستخدمه <tspan font-weight="bold" fill="#17457f">بمسؤولية،</tspan></tspan>
+  <tspan x="950" dy="40">نسأل دائمًا <tspan font-weight="bold" fill="#c0392b">أربعة أسئلة.</tspan></tspan>
+</text>
+<text x="120" y="954" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">To use it <tspan font-weight="bold" fill="#17457f">responsibly,</tspan></tspan>
+  <tspan x="120" dy="40">we always ask <tspan font-weight="bold" fill="#c0392b">four questions.</tspan></tspan>
+</text>
 </svg>

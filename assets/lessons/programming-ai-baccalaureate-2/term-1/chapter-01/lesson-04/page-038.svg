@@ -1,0 +1,285 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilPitch" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#a9dcbe"/>
+    <stop offset="1" stop-color="#2e7d32"/>
+  </linearGradient>
+  <linearGradient id="ilWood" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <linearGradient id="ilStand" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#8fc9f2"/>
+  </linearGradient>
+</defs>
+
+<!-- Card shadow -->
+<rect x="109" y="1008" width="870" height="168" rx="16" fill="#22303f" opacity=".12"/>
+
+<!-- Key sentence strip and success card fills -->
+<rect x="105" y="802" width="870" height="168" rx="10" fill="#fdf6d8"/>
+<rect x="961" y="818" width="6" height="136" rx="3" fill="#e0a55e"/>
+<rect x="105" y="1002" width="870" height="168" rx="16" fill="#e9f7ee" stroke="#a9dcbe" stroke-width="2"/>
+<rect x="961" y="1018" width="6" height="136" rx="3" fill="#2e7d32"/>
+
+<!-- Illustration: one drawing (shadows, scene, connector) -->
+<g>
+  <g fill="#22303f" opacity=".18" stroke="none">
+    <rect x="134" y="90" width="240" height="130" rx="12"/>
+    <rect x="414" y="98" width="550" height="140" rx="10"/>
+    <rect x="354" y="268" width="460" height="260" rx="14"/>
+    <rect x="130" y="554" width="112" height="194" rx="4"/>
+    <rect x="800" y="696" width="168" height="14" rx="4"/>
+    <rect x="812" y="710" width="144" height="38"/>
+  </g>
+
+  <g stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Stadium screen showing a replay (transparency) -->
+    <rect x="160" y="214" width="12" height="36" fill="#7f95ab"/>
+    <rect x="328" y="214" width="12" height="36" fill="#7f95ab"/>
+    <rect x="130" y="84" width="240" height="130" rx="12" fill="#17457f"/>
+    <rect x="144" y="98" width="212" height="88" rx="6" fill="#4fc3e8"/>
+    <rect x="156" y="156" width="188" height="24" rx="4" fill="#a9dcbe" stroke="none"/>
+    <circle cx="320" cy="168" r="6" fill="#ffffff"/>
+    <path d="M 250 106 A 24 24 0 1 1 228 120" fill="none" stroke="#ffffff" stroke-width="3"/>
+    <polygon points="220,112 236,114 226,126" fill="#ffffff" stroke="#ffffff"/>
+    <polygon points="243,120 243,142 261,131" fill="#ffffff"/>
+    <circle cx="150" cy="202" r="4" fill="#ffd24a" stroke="none"/>
+    <circle cx="350" cy="202" r="4" fill="#ffd24a" stroke="none"/>
+
+    <!-- Stands with crowd -->
+    <rect x="410" y="92" width="550" height="140" rx="10" fill="url(#ilStand)"/>
+    <rect x="420" y="156" width="530" height="8" rx="3" fill="#7f95ab"/>
+    <rect x="420" y="216" width="530" height="8" rx="3" fill="#7f95ab"/>
+    <path d="M 438 156 Q 450 140 462 156 Z" fill="#2f7fb5"/>
+    <circle cx="450" cy="136" r="8" fill="#e8b98d"/>
+    <path d="M 490 156 Q 502 140 514 156 Z" fill="#c96a1b"/>
+    <circle cx="502" cy="136" r="8" fill="#d59f6f"/>
+    <path d="M 542 156 Q 554 140 566 156 Z" fill="#ffd24a"/>
+    <circle cx="554" cy="136" r="8" fill="#b57e50"/>
+    <path d="M 594 156 Q 606 140 618 156 Z" fill="#2f7fb5"/>
+    <circle cx="606" cy="136" r="8" fill="#d59f6f"/>
+    <path d="M 646 156 Q 658 140 670 156 Z" fill="#c96a1b"/>
+    <circle cx="658" cy="136" r="8" fill="#b57e50"/>
+    <path d="M 698 156 Q 710 140 722 156 Z" fill="#ffd24a"/>
+    <circle cx="710" cy="136" r="8" fill="#e8b98d"/>
+    <path d="M 750 156 Q 762 140 774 156 Z" fill="#2f7fb5"/>
+    <circle cx="762" cy="136" r="8" fill="#b57e50"/>
+    <path d="M 802 156 Q 814 140 826 156 Z" fill="#c96a1b"/>
+    <circle cx="814" cy="136" r="8" fill="#e8b98d"/>
+    <path d="M 854 156 Q 866 140 878 156 Z" fill="#ffd24a"/>
+    <circle cx="866" cy="136" r="8" fill="#d59f6f"/>
+    <path d="M 906 156 Q 918 140 930 156 Z" fill="#2f7fb5"/>
+    <circle cx="918" cy="136" r="8" fill="#e8b98d"/>
+    <path d="M 438 216 Q 450 200 462 216 Z" fill="#c96a1b"/>
+    <circle cx="450" cy="196" r="8" fill="#b57e50"/>
+    <path d="M 490 216 Q 502 200 514 216 Z" fill="#ffd24a"/>
+    <circle cx="502" cy="196" r="8" fill="#e8b98d"/>
+    <path d="M 542 216 Q 554 200 566 216 Z" fill="#2f7fb5"/>
+    <circle cx="554" cy="196" r="8" fill="#d59f6f"/>
+    <path d="M 594 216 Q 606 200 618 216 Z" fill="#c96a1b"/>
+    <circle cx="606" cy="196" r="8" fill="#e8b98d"/>
+    <path d="M 646 216 Q 658 200 670 216 Z" fill="#ffd24a"/>
+    <circle cx="658" cy="196" r="8" fill="#d59f6f"/>
+    <path d="M 698 216 Q 710 200 722 216 Z" fill="#2f7fb5"/>
+    <circle cx="710" cy="196" r="8" fill="#b57e50"/>
+    <path d="M 750 216 Q 762 200 774 216 Z" fill="#c96a1b"/>
+    <circle cx="762" cy="196" r="8" fill="#d59f6f"/>
+    <path d="M 802 216 Q 814 200 826 216 Z" fill="#ffd24a"/>
+    <circle cx="814" cy="196" r="8" fill="#b57e50"/>
+    <path d="M 854 216 Q 866 200 878 216 Z" fill="#2f7fb5"/>
+    <circle cx="866" cy="196" r="8" fill="#e8b98d"/>
+    <path d="M 906 216 Q 918 200 930 216 Z" fill="#c96a1b"/>
+    <circle cx="918" cy="196" r="8" fill="#d59f6f"/>
+
+    <!-- Pitch seen from above -->
+    <rect x="350" y="262" width="460" height="260" rx="14" fill="url(#ilPitch)"/>
+    <rect x="414" y="276" width="46" height="232" fill="#a9dcbe" opacity=".35" stroke="none"/>
+    <rect x="506" y="276" width="46" height="232" fill="#a9dcbe" opacity=".35" stroke="none"/>
+    <rect x="598" y="276" width="46" height="232" fill="#a9dcbe" opacity=".35" stroke="none"/>
+    <rect x="690" y="276" width="46" height="232" fill="#a9dcbe" opacity=".35" stroke="none"/>
+    <rect x="366" y="276" width="428" height="232" fill="none" stroke="#ffffff"/>
+    <line x1="580" y1="276" x2="580" y2="508" stroke="#ffffff"/>
+    <circle cx="580" cy="392" r="38" fill="none" stroke="#ffffff"/>
+    <circle cx="580" cy="392" r="4" fill="#ffffff" stroke="none"/>
+    <rect x="366" y="342" width="56" height="100" fill="none" stroke="#ffffff"/>
+    <rect x="738" y="342" width="56" height="100" fill="none" stroke="#ffffff"/>
+    <rect x="338" y="372" width="12" height="40" rx="3" fill="#ffffff"/>
+    <rect x="810" y="372" width="12" height="40" rx="3" fill="#ffffff"/>
+    <circle cx="500" cy="470" r="10" fill="#ffffff"/>
+    <polygon points="500,465 504.8,468.5 503,474 497,474 495.2,468.5" fill="#22303f" stroke="none"/>
+
+    <!-- Player (blue team) -->
+    <g transform="translate(660 20)">
+      <line x1="-14" y1="410" x2="-20" y2="434"/>
+      <line x1="14" y1="410" x2="20" y2="434"/>
+      <rect x="-10" y="446" width="7" height="24" rx="3" fill="#e8b98d"/>
+      <rect x="3" y="446" width="7" height="24" rx="3" fill="#e8b98d"/>
+      <ellipse cx="-7" cy="472" rx="7" ry="4" fill="#22303f"/>
+      <ellipse cx="7" cy="472" rx="7" ry="4" fill="#22303f"/>
+      <rect x="-13" y="432" width="26" height="16" rx="3" fill="#ffffff"/>
+      <path d="M -16 436 L -14 406 Q 0 398 14 406 L 16 436 Z" fill="#2f7fb5"/>
+      <circle cx="0" cy="388" r="11" fill="#e8b98d"/>
+      <path d="M -11 386 Q 0 370 11 386 Z" fill="#2b211c"/>
+    </g>
+
+    <!-- Referee standing between the two players (fairness) -->
+    <g transform="translate(715 20)">
+      <line x1="-14" y1="410" x2="-28" y2="404"/>
+      <line x1="14" y1="410" x2="28" y2="404"/>
+      <rect x="-10" y="446" width="7" height="24" rx="3" fill="#d59f6f"/>
+      <rect x="3" y="446" width="7" height="24" rx="3" fill="#d59f6f"/>
+      <ellipse cx="-7" cy="472" rx="7" ry="4" fill="#22303f"/>
+      <ellipse cx="7" cy="472" rx="7" ry="4" fill="#22303f"/>
+      <rect x="-13" y="432" width="26" height="16" rx="3" fill="#22303f"/>
+      <path d="M -16 436 L -14 406 Q 0 398 14 406 L 16 436 Z" fill="#ffd24a"/>
+      <circle cx="0" cy="388" r="11" fill="#d59f6f"/>
+      <path d="M -11 386 Q 0 370 11 386 Z" fill="#2b211c"/>
+    </g>
+
+    <!-- Player (orange team) -->
+    <g transform="translate(770 20)">
+      <line x1="-14" y1="410" x2="-20" y2="434"/>
+      <line x1="14" y1="410" x2="20" y2="434"/>
+      <rect x="-10" y="446" width="7" height="24" rx="3" fill="#b57e50"/>
+      <rect x="3" y="446" width="7" height="24" rx="3" fill="#b57e50"/>
+      <ellipse cx="-7" cy="472" rx="7" ry="4" fill="#22303f"/>
+      <ellipse cx="7" cy="472" rx="7" ry="4" fill="#22303f"/>
+      <rect x="-13" y="432" width="26" height="16" rx="3" fill="#17457f"/>
+      <path d="M -16 436 L -14 406 Q 0 398 14 406 L 16 436 Z" fill="#c96a1b"/>
+      <circle cx="0" cy="388" r="11" fill="#b57e50"/>
+      <path d="M -11 386 Q 0 370 11 386 Z" fill="#2b211c"/>
+    </g>
+
+    <!-- Closed changing-room door with padlock (privacy) -->
+    <rect x="126" y="548" width="112" height="194" rx="4" fill="#e8dfd1"/>
+    <rect x="138" y="560" width="88" height="182" rx="4" fill="url(#ilWood)"/>
+    <rect x="156" y="572" width="52" height="30" rx="4" fill="#ffffff"/>
+    <path d="M 170 580 L 176 578 Q 182 583 188 578 L 194 580 L 198 588 L 192 590 L 192 598 L 172 598 L 172 590 L 166 588 Z" fill="#8fc9f2"/>
+    <rect x="150" y="616" width="64" height="44" rx="3" fill="#b07a45"/>
+    <rect x="150" y="676" width="38" height="52" rx="3" fill="#b07a45"/>
+    <path d="M 200 682 L 200 676 Q 200 668 208 668 Q 216 668 216 676 L 216 682" fill="none"/>
+    <rect x="196" y="682" width="24" height="20" rx="3" fill="#ffd24a"/>
+    <circle cx="208" cy="692" r="3" fill="#22303f" stroke="none"/>
+
+    <!-- Official at desk holding a clipboard (accountability) -->
+    <path d="M 852 690 L 856 658 Q 880 644 904 658 L 908 690 Z" fill="#17457f"/>
+    <polygon points="876,652 884,652 880,674" fill="#c0392b"/>
+    <circle cx="880" cy="630" r="14" fill="#b57e50"/>
+    <path d="M 866 627 Q 880 608 894 627 Z" fill="#2b211c"/>
+    <rect x="900" y="648" width="10" height="6" rx="2" fill="#7f95ab"/>
+    <rect x="890" y="652" width="30" height="36" rx="3" fill="#c96a1b"/>
+    <rect x="894" y="660" width="22" height="24" fill="#ffffff"/>
+    <line x1="898" y1="668" x2="912" y2="668" stroke="#7f95ab"/>
+    <line x1="898" y1="676" x2="908" y2="676" stroke="#7f95ab"/>
+    <circle cx="888" cy="676" r="5" fill="#b57e50"/>
+    <rect x="820" y="676" width="26" height="14" rx="2" fill="#ffffff"/>
+    <rect x="796" y="690" width="168" height="14" rx="4" fill="#b07a45"/>
+    <rect x="808" y="704" width="144" height="38" fill="url(#ilWood)"/>
+  </g>
+
+  <!-- Connector: transparency label to screen -->
+  <line x1="245" y1="428" x2="245" y2="270" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="245,258 237,272 253,272" fill="#c0392b"/>
+</g>
+
+<!-- Icon: key inside success card -->
+<g transform="translate(150 1014)">
+  <circle cx="16" cy="28" r="12" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="16" cy="28" r="5" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="28" y="24" width="24" height="8" rx="2" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="38" y="32" width="5" height="8" rx="1" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="46" y="32" width="5" height="11" rx="1" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Lower icon group -->
+<g transform="translate(440 1194)">
+  <circle cx="16" cy="28" r="12" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="16" cy="28" r="5" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="28" y="24" width="24" height="8" rx="2" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="38" y="32" width="5" height="8" rx="1" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="46" y="32" width="5" height="11" rx="1" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+<g transform="translate(540 1222)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" stroke="#22303f" stroke-width="3" stroke-linecap="round" fill="none"/>
+</g>
+<g transform="translate(592 1196)">
+  <polygon points="25,1 30.9,16.9 47.8,17.6 34.5,28.1 39.1,44.4 25,35 10.9,44.4 15.5,28.1 2.2,17.6 19.1,16.9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Text: illustration labels (all below the drawing's vertical center, inside its extent) -->
+<text x="950" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">العدالة</tspan>
+</text>
+<text x="840" y="514" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="840" dy="0">Fairness</tspan>
+</text>
+
+<text x="232" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="232" dy="0">الشفافية</tspan>
+</text>
+<text x="120" y="514" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Transparency</tspan>
+</text>
+
+<text x="466" y="634" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="466" dy="0">حماية الخصوصية</tspan>
+</text>
+<text x="260" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="260" dy="0">Privacy protection</tspan>
+</text>
+
+<text x="776" y="634" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="776" dy="0">المساءلة</tspan>
+</text>
+<text x="566" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="566" dy="0">Accountability</tspan>
+</text>
+
+<!-- Text: key sentence strip -->
+<text x="935" y="834" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">أبواب التحيز الأربعة: البيانات، والتصميم،</tspan>
+  <tspan x="935" dy="40">والاستخدام، والسياق.</tspan>
+</text>
+<text x="140" y="914" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">The four doors of bias: data, design,</tspan>
+  <tspan x="140" dy="40">use, and context.</tspan>
+</text>
+
+<!-- Text: success card -->
+<text x="935" y="1034" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">والباب الأكبر والأشهر في الامتحان:</tspan>
+  <tspan x="935" dy="40"><tspan font-weight="bold" fill="#c0392b">البيانات.</tspan></tspan>
+</text>
+<text x="140" y="1114" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">The biggest and most common door</tspan>
+  <tspan x="140" dy="40">in exams: <tspan font-weight="bold" fill="#c0392b">data.</tspan></tspan>
+</text>
+</svg>

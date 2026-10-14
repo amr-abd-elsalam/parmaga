@@ -1,0 +1,291 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilBack" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Info card: one group (shadow, fill, accent) -->
+<g>
+  <rect x="109" y="248" width="870" height="288" rx="16" fill="#22303f" opacity=".12"/>
+  <rect x="105" y="242" width="870" height="288" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+  <rect x="961" y="258" width="6" height="256" rx="3" fill="#2f7fb5"/>
+</g>
+
+<!-- Icon: two figures (header line, left end) -->
+<g transform="translate(122 104)">
+  <circle cx="16" cy="12" r="8" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M2 44 Q2 24 16 24 Q30 24 30 44 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="34" cy="14" r="8" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M20 46 Q20 26 34 26 Q48 26 48 46 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: open book (definition, card top-left) -->
+<g transform="translate(128 250)">
+  <path d="M24 10 Q14 4 2 6 L2 38 Q14 36 24 42 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M24 10 Q34 4 46 6 L46 38 Q34 36 24 42 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M8 16 L18 18 M8 24 L18 26 M30 18 L40 16 M30 26 L40 24" fill="none" stroke="#2f7fb5" stroke-width="2" stroke-linecap="round"/>
+</g>
+
+<!-- Illustration: developer (right), operator (middle), user (left) -->
+<g>
+  <rect x="105" y="664" width="870" height="360" rx="24" fill="url(#ilBack)"/>
+  <path d="M105 970 L975 970 L975 1000 Q975 1024 951 1024 L129 1024 Q105 1024 105 1000 Z" fill="#e8dfd1" opacity=".6"/>
+  <ellipse cx="255" cy="988" rx="55" ry="8" fill="#22303f" opacity=".18"/>
+  <ellipse cx="530" cy="988" rx="130" ry="8" fill="#22303f" opacity=".18"/>
+  <ellipse cx="820" cy="988" rx="140" ry="8" fill="#22303f" opacity=".18"/>
+
+  <!-- Developer: desk, laptop, data cards -->
+  <rect x="702" y="919" width="14" height="66" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="844" y="919" width="14" height="66" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="690" y="905" width="180" height="14" rx="5" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="700" y="838" width="90" height="62" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="708" y="846" width="74" height="46" rx="3" fill="#4fc3e8"/>
+  <rect x="716" y="856" width="40" height="6" rx="3" fill="#ffffff"/>
+  <rect x="716" y="870" width="28" height="6" rx="3" fill="#dff1f7"/>
+  <rect x="692" y="898" width="106" height="8" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="798" y="876" width="44" height="28" rx="4" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="804" y="884" width="26" height="5" rx="2" fill="#c96a1b"/>
+  <rect x="804" y="894" width="18" height="5" rx="2" fill="#c96a1b"/>
+  <rect x="826" y="880" width="40" height="24" rx="4" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="832" y="887" width="22" height="5" rx="2" fill="#2f7fb5"/>
+  <rect x="832" y="896" width="16" height="4" rx="2" fill="#2f7fb5"/>
+
+  <!-- Developer figure -->
+  <rect x="884" y="925" width="16" height="58" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="910" y="925" width="16" height="58" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="892" cy="986" rx="12" ry="6" fill="#22303f"/>
+  <ellipse cx="918" cy="986" rx="12" ry="6" fill="#22303f"/>
+  <rect x="930" y="846" width="13" height="70" rx="6" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="936" cy="918" r="6" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="898" y="826" width="14" height="14" fill="#e8b98d"/>
+  <rect x="877" y="838" width="56" height="96" rx="20" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <g transform="translate(882 852) rotate(66)">
+    <rect x="-7" y="0" width="14" height="50" rx="7" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(818 860) rotate(-52)">
+    <rect x="-4" y="0" width="8" height="16" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <circle cx="806" cy="850" r="16" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="806" cy="850" r="16" fill="#4fc3e8" opacity=".35"/>
+  <rect x="797" y="841" width="5" height="12" rx="2.5" fill="#ffffff" opacity=".85"/>
+  <circle cx="836" cy="872" r="6" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="905" cy="808" r="24" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M879 806 Q880 776 905 776 Q931 776 931 806 Q920 790 905 792 Q890 790 879 806 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="897" cy="811" r="3" fill="#22303f"/>
+  <circle cx="913" cy="811" r="3" fill="#22303f"/>
+  <path d="M897 821 Q905 828 913 821" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Operator: control screen with gauge -->
+  <rect x="487" y="870" width="16" height="100" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="455" y="965" width="80" height="12" rx="6" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="424" y="766" width="150" height="110" rx="10" fill="#22303f" opacity=".18"/>
+  <rect x="420" y="760" width="150" height="110" rx="10" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="430" y="770" width="130" height="90" rx="6" fill="#dff1f7"/>
+  <path d="M461 840 A34 34 0 0 1 529 840 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M466 838 A29 29 0 0 1 480 815" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round"/>
+  <path d="M484 813 A29 29 0 0 1 506 813" fill="none" stroke="#ffd24a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M510 815 A29 29 0 0 1 524 838" fill="none" stroke="#c96a1b" stroke-width="3" stroke-linecap="round"/>
+  <path d="M495 840 L512 818" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="495" cy="840" r="5" fill="#22303f"/>
+  <circle cx="444" cy="852" r="4" fill="#2e7d32"/>
+  <circle cx="457" cy="852" r="4" fill="#ffd24a"/>
+  <circle cx="470" cy="852" r="4" fill="#4fc3e8"/>
+
+  <!-- Operator figure (hijab, long dress) pointing at the screen -->
+  <ellipse cx="612" cy="988" rx="11" ry="6" fill="#22303f"/>
+  <ellipse cx="638" cy="988" rx="11" ry="6" fill="#22303f"/>
+  <rect x="651" y="850" width="13" height="68" rx="6" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="657" cy="920" r="6.5" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <g transform="translate(600 852) rotate(102)">
+    <rect x="-7" y="0" width="14" height="40" rx="7" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <circle cx="561" cy="844" r="6.5" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="595" y="838" width="60" height="147" rx="22" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="625" cy="840" rx="34" ry="13" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="625" cy="808" r="27" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="625" cy="812" rx="16" ry="19" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="619" cy="809" r="2.5" fill="#22303f"/>
+  <circle cx="631" cy="809" r="2.5" fill="#22303f"/>
+  <path d="M620 820 Q625 824 630 820" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- User figure with phone and thought bubble -->
+  <rect x="239" y="926" width="16" height="58" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="265" y="926" width="16" height="58" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="247" cy="986" rx="12" ry="6" fill="#22303f"/>
+  <ellipse cx="273" cy="986" rx="12" ry="6" fill="#22303f"/>
+  <rect x="253" y="826" width="14" height="14" fill="#d59f6f"/>
+  <rect x="232" y="840" width="56" height="96" rx="20" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <g transform="translate(236 852) rotate(-25)">
+    <rect x="-6.5" y="0" width="13" height="46" rx="6" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <rect x="284" y="850" width="13" height="46" rx="6" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="262" y="868" width="26" height="42" rx="5" fill="#22303f"/>
+  <rect x="266" y="873" width="18" height="32" rx="2" fill="#4fc3e8"/>
+  <circle cx="259" cy="896" r="6" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="290" cy="898" r="6" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="260" cy="808" r="24" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M234 806 Q235 776 260 776 Q286 776 286 806 Q275 790 260 792 Q245 790 234 806 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="252" cy="813" r="3" fill="#22303f"/>
+  <circle cx="268" cy="813" r="3" fill="#22303f"/>
+  <path d="M253 822 Q260 827 267 822" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="226" cy="780" r="5" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="210" cy="764" r="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="172" cy="724" rx="48" ry="34" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="172" cy="716" r="15" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="165" y="729" width="14" height="10" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M167 718 Q172 712 177 718" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M146 716 L151 716 M193 716 L198 716 M154 697 L158 701 M190 697 L186 701" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Bullet markers -->
+<g>
+  <circle cx="966" cy="1064" r="6" fill="#c0392b"/>
+  <circle cx="114" cy="1104" r="6" fill="#c0392b"/>
+</g>
+
+<!-- Smile face beside the short bullet lines -->
+<g transform="translate(880 1130)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" stroke="#22303f" stroke-width="3" stroke-linecap="round" fill="none"/>
+</g>
+
+<!-- Bottom icon row: user (bulb), operator (gauge), developer (code) -->
+<g transform="translate(372 1188)">
+  <circle cx="28" cy="22" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="21" y="36" width="14" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M23 24 Q28 18 33 24" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+<g transform="translate(512 1188)">
+  <circle cx="28" cy="28" r="26" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M12 34 A16 16 0 0 1 19 21" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round"/>
+  <path d="M22 19 A16 16 0 0 1 34 19" fill="none" stroke="#ffd24a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M37 21 A16 16 0 0 1 44 34" fill="none" stroke="#c96a1b" stroke-width="3" stroke-linecap="round"/>
+  <path d="M28 34 L37 24" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="28" cy="34" r="3.5" fill="#22303f"/>
+</g>
+<g transform="translate(652 1188)">
+  <rect x="0" y="0" width="56" height="56" rx="12" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M20 16 L10 28 L20 40 M36 16 L46 28 L36 40" fill="none" stroke="#17457f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M31 14 L25 42" fill="none" stroke="#c96a1b" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Text layer -->
+<text x="950"
+      y="154"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="32"
+      font-weight="bold"
+      fill="#c0392b">
+  <tspan x="950" dy="0">15. المسؤولية Responsibility</tspan>
+</text>
+
+<text x="120"
+      y="194"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="31"
+      font-weight="bold"
+      fill="#c0392b">
+  <tspan x="120" dy="0">15. Responsibility</tspan>
+</text>
+
+<text x="935"
+      y="274"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="935" dy="0">تعريف الكتاب: <tspan font-weight="bold" fill="#17457f">تحديد أدوار وواجبات</tspan> الأطراف</tspan>
+  <tspan x="935" dy="40">المرتبطة بتطوير النظام وتشغيله واستخدامه،</tspan>
+  <tspan x="935" dy="40">ولا يوجد توزيع واحد يصلح لكل السياقات.</tspan>
+</text>
+
+<text x="140"
+      y="394"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="140" dy="0">Textbook definition: defining the</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#17457f">roles and duties</tspan> of those who develop,</tspan>
+  <tspan x="140" dy="40">operate, and use the system; no single</tspan>
+  <tspan x="140" dy="40">distribution fits all contexts.</tspan>
+</text>
+
+<text x="950"
+      y="594"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="950" dy="0">بلغتك: كل واحد واجبه إيه؟</tspan>
+</text>
+
+<text x="120"
+      y="634"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="120" dy="0">In your words: what is each person's duty?</tspan>
+</text>
+
+<text x="950"
+      y="1074"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">المطوّر:</tspan> يختبر النظام ويفحص البيانات.</tspan>
+</text>
+
+<text x="132"
+      y="1114"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#c0392b">Developer:</tspan> tests the system</tspan>
+  <tspan x="132" dy="40">and checks the data.</tspan>
+</text>
+</svg>

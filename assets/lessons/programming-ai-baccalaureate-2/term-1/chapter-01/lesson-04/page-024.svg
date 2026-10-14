@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="36" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="35.5" x2="1080" y2="35.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <radialGradient id="ilGlow" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </radialGradient>
+  <linearGradient id="ilBoxFront" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+</defs>
+
+<!-- Info card: shadow, fill, accent -->
+<rect x="109" y="236" width="870" height="260" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="230" width="870" height="260" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="246" width="6" height="228" rx="3" fill="#2f7fb5"/>
+
+<!-- Card icon: open book -->
+<g transform="translate(130 238)">
+  <path d="M4 6 Q14 2 26 8 L26 40 Q14 34 4 38 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M48 6 Q38 2 26 8 L26 40 Q38 34 48 38 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="10" y1="16" x2="20" y2="14" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+  <line x1="10" y1="24" x2="20" y2="22" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+  <line x1="32" y1="14" x2="42" y2="16" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+  <line x1="32" y1="22" x2="42" y2="24" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+</g>
+
+<!-- Thinking face beside the question paragraph -->
+<g transform="translate(900 700)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Text -->
+<text x="950" y="150" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#c0392b">
+  <tspan x="950" dy="0">11. مشكلة الصندوق الأسود Black-Box Problem</tspan>
+</text>
+<text x="120" y="186" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="bold" fill="#c0392b">
+  <tspan x="120" dy="0">11. The Black-Box Problem</tspan>
+</text>
+
+<text x="935" y="258" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#17457f">التعريف الدقيق:</tspan> أن يعطي النظام نتيجة</tspan>
+  <tspan x="935" dy="36">دون أن نستطيع معرفة <tspan font-weight="bold" fill="#c0392b">لماذا</tspan> وصل إليها،</tspan>
+  <tspan x="935" dy="36">لأن بعض النماذج فيها ملايين الحسابات المتشابكة.</tspan>
+</text>
+<text x="140" y="366" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#17457f">Definition:</tspan> when a system gives a result</tspan>
+  <tspan x="140" dy="36">but we cannot know <tspan font-weight="bold" fill="#c0392b">why,</tspan></tspan>
+  <tspan x="140" dy="36">because some models contain millions of</tspan>
+  <tspan x="140" dy="36">interconnected calculations.</tspan>
+</text>
+
+<text x="950" y="546" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
+  <tspan x="950" dy="0">تخيّل أن تستلم نتيجتك <tspan fill="#c96a1b">«راسب»</tspan> دون ورقة إجابة</tspan>
+  <tspan x="950" dy="36">ولا توزيع درجات. <tspan font-weight="bold" fill="#17457f">كيف تعترض؟</tspan> وكيف تعرف خطأك؟</tspan>
+</text>
+<text x="120" y="618" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
+  <tspan x="120" dy="0">Imagine getting your result as <tspan fill="#c96a1b">&quot;Fail&quot;</tspan> with</tspan>
+  <tspan x="120" dy="36">no answer sheet and no mark breakdown.</tspan>
+  <tspan x="120" dy="36"><tspan font-weight="bold" fill="#17457f">How would you appeal?</tspan></tspan>
+  <tspan x="120" dy="36">How would you find your mistake?</tspan>
+</text>
+
+<!-- Illustration: one single drawing group, absolute coordinates, no nested groups -->
+<g id="ilBlackBox">
+  <!-- shadows -->
+  <polygon points="164,946 229,886 449,886 449,1126 384,1186 164,1186" fill="#22303f" opacity=".18"/>
+  <ellipse cx="864" cy="821" rx="70" ry="50" fill="#22303f" opacity=".18"/>
+  <rect x="644" y="1006" width="90" height="115" rx="6" fill="#22303f" opacity=".18"/>
+  <!-- ground and glow -->
+  <ellipse cx="540" cy="1215" rx="380" ry="24" fill="#dff1f7"/>
+  <circle cx="300" cy="1030" r="170" fill="url(#ilGlow)"/>
+  <!-- closed dark box -->
+  <polygon points="160,940 225,880 445,880 380,940" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="380,940 445,880 445,1120 380,1180" fill="#22303f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="160" y="940" width="220" height="240" fill="url(#ilBoxFront)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="190" y1="912" x2="410" y2="912" stroke="#17457f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="160" y1="966" x2="380" y2="966" stroke="#17457f" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- large question mark on the box side -->
+  <path d="M230 1010 A40 40 0 1 1 270 1050 L270 1030 A20 20 0 1 0 250 1010 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="260" y="1044" width="20" height="34" rx="4" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="270" cy="1104" r="12" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <!-- sparkles -->
+  <circle cx="478" cy="900" r="6" fill="#ffd24a"/>
+  <circle cx="505" cy="955" r="4" fill="#ffd24a"/>
+  <circle cx="150" cy="880" r="5" fill="#8fc9f2"/>
+  <!-- arrow from the box to the student -->
+  <line x1="462" y1="1050" x2="608" y2="1050" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="624,1050 604,1039 604,1061" fill="#c0392b"/>
+  <!-- student: legs and shoes -->
+  <rect x="724" y="1100" width="32" height="100" rx="10" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="764" y="1100" width="32" height="100" rx="10" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="738" cy="1204" rx="20" ry="8" fill="#22303f"/>
+  <ellipse cx="782" cy="1204" rx="20" ry="8" fill="#22303f"/>
+  <!-- student: long-sleeved tunic -->
+  <rect x="712" y="975" width="96" height="145" rx="26" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <!-- student: neck and head -->
+  <rect x="752" y="958" width="16" height="20" rx="4" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="760" cy="930" r="36" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M724 928 Q724 886 760 886 Q796 886 796 928 Q786 906 760 906 Q734 906 724 928 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="748" cy="932" r="3.5" fill="#22303f"/>
+  <circle cx="772" cy="932" r="3.5" fill="#22303f"/>
+  <path d="M751 949 L769 949" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <!-- student: sleeves reaching to the paper -->
+  <polygon points="720,988 736,1004 652,1068 638,1052" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="800,988 812,1006 740,1070 724,1054" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- result paper with a large red cross -->
+  <rect x="640" y="1000" width="90" height="115" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="655" y1="1012" x2="715" y2="1012" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="662,1024 718,1080 708,1090 652,1034" fill="#c0392b" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <polygon points="708,1024 718,1034 662,1090 652,1080" fill="#c0392b" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <line x1="655" y1="1104" x2="700" y2="1104" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- hands -->
+  <circle cx="642" cy="1060" r="10" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="728" cy="1062" r="10" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <!-- thought bubble with a question mark -->
+  <circle cx="812" cy="880" r="8" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="828" cy="858" r="12" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="860" cy="815" rx="70" ry="50" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M840 800 A20 20 0 1 1 860 820 L860 810 A10 10 0 1 0 850 800 Z" fill="#17457f" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="855" y="816" width="10" height="14" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="860" cy="842" r="6" fill="#17457f"/>
+</g>
+</svg>
