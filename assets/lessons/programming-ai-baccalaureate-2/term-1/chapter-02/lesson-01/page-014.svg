@@ -9,8 +9,8 @@
     <stop offset="0" stop-color="#b07a45"/>
     <stop offset="1" stop-color="#7d4f28"/>
   </linearGradient>
-  <pattern id="pmRules" x="0" y="120" width="1080" height="36" patternUnits="userSpaceOnUse">
-    <line x1="0" y1="35.5" x2="1080" y2="35.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
   </pattern>
 </defs>
 <rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
@@ -21,88 +21,210 @@
 <rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
 <rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-<!-- Card shadows -->
-<rect x="109" y="236" width="870" height="116" rx="16" fill="#22303f" opacity=".12"/>
-<rect x="109" y="488" width="870" height="152" rx="16" fill="#22303f" opacity=".12"/>
-<rect x="109" y="776" width="870" height="116" rx="16" fill="#22303f" opacity=".12"/>
-<rect x="109" y="1100" width="870" height="152" rx="16" fill="#22303f" opacity=".12"/>
-
-<!-- Info cards (English twins) -->
-<rect x="105" y="230" width="870" height="116" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
-<rect x="961" y="246" width="6" height="84" rx="3" fill="#2f7fb5"/>
-<rect x="105" y="482" width="870" height="152" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
-<rect x="961" y="498" width="6" height="120" rx="3" fill="#2f7fb5"/>
-<rect x="105" y="770" width="870" height="116" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
-<rect x="961" y="786" width="6" height="84" rx="3" fill="#2f7fb5"/>
-<rect x="105" y="1094" width="870" height="152" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
-<rect x="961" y="1110" width="6" height="120" rx="3" fill="#2f7fb5"/>
-
-<!-- Icon: lock (step 1) -->
-<g transform="translate(118 418)">
-  <path d="M12 20 V14 A10 10 0 0 1 32 14 V20" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="6" y="20" width="32" height="22" rx="4" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
-  <circle cx="22" cy="29" r="3.5" fill="#22303f"/>
-  <rect x="20.5" y="30" width="3" height="7" rx="1.5" fill="#22303f"/>
+<!-- Illustration: server and browser shake hands, certificate above, session key card with stopwatch below -->
+<g>
+  <defs>
+    <linearGradient id="ilRack" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f7fb5"/>
+      <stop offset="1" stop-color="#17457f"/>
+    </linearGradient>
+    <linearGradient id="ilCard" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f0c48c"/>
+      <stop offset="1" stop-color="#c96a1b"/>
+    </linearGradient>
+    <radialGradient id="ilHalo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#fffdf7"/>
+    </radialGradient>
+  </defs>
+  <!-- shadows -->
+  <rect x="129" y="806" width="160" height="448" rx="16" fill="#22303f" opacity=".18"/>
+  <rect x="704" y="806" width="262" height="184" rx="14" fill="#22303f" opacity=".18"/>
+  <rect x="784" y="1014" width="102" height="12" rx="6" fill="#22303f" opacity=".18"/>
+  <rect x="436" y="796" width="120" height="68" rx="8" fill="#22303f" opacity=".18"/>
+  <rect x="396" y="1036" width="200" height="104" rx="14" fill="#22303f" opacity=".18"/>
+  <circle cx="654" cy="1086" r="32" fill="#22303f" opacity=".18"/>
+  <polygon points="900,1228 952,1228 946,1256 906,1256" fill="#22303f" opacity=".18"/>
+  <!-- soft halo behind the handshake -->
+  <circle cx="492" cy="918" r="64" fill="url(#ilHalo)"/>
+  <!-- arms and sleeves -->
+  <rect x="270" y="902" width="176" height="32" rx="16" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="540" y="902" width="176" height="32" rx="16" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- server rack -->
+  <rect x="125" y="800" width="160" height="448" rx="16" fill="url(#ilRack)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="141" y="814" width="128" height="10" rx="5" fill="#4fc3e8"/>
+  <rect x="141" y="838" width="128" height="44" rx="8" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="141" y="898" width="128" height="44" rx="8" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="141" y="958" width="128" height="44" rx="8" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="141" y="1018" width="128" height="44" rx="8" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="141" y="1078" width="128" height="44" rx="8" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="141" y="1138" width="128" height="44" rx="8" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="153" y="852" width="54" height="7" rx="3.5" fill="#7f95ab"/>
+  <rect x="153" y="863" width="36" height="7" rx="3.5" fill="#8fc9f2"/>
+  <rect x="153" y="912" width="54" height="7" rx="3.5" fill="#7f95ab"/>
+  <rect x="153" y="923" width="36" height="7" rx="3.5" fill="#8fc9f2"/>
+  <rect x="153" y="972" width="54" height="7" rx="3.5" fill="#7f95ab"/>
+  <rect x="153" y="983" width="36" height="7" rx="3.5" fill="#8fc9f2"/>
+  <rect x="153" y="1032" width="54" height="7" rx="3.5" fill="#7f95ab"/>
+  <rect x="153" y="1043" width="36" height="7" rx="3.5" fill="#8fc9f2"/>
+  <rect x="153" y="1092" width="54" height="7" rx="3.5" fill="#7f95ab"/>
+  <rect x="153" y="1103" width="36" height="7" rx="3.5" fill="#8fc9f2"/>
+  <rect x="153" y="1152" width="54" height="7" rx="3.5" fill="#7f95ab"/>
+  <rect x="153" y="1163" width="36" height="7" rx="3.5" fill="#8fc9f2"/>
+  <circle cx="234" cy="860" r="4" fill="#a9dcbe"/>
+  <circle cx="252" cy="860" r="5" fill="#2e7d32"/>
+  <circle cx="234" cy="920" r="4" fill="#a9dcbe"/>
+  <circle cx="252" cy="920" r="5" fill="#4fc3e8"/>
+  <circle cx="234" cy="980" r="4" fill="#a9dcbe"/>
+  <circle cx="252" cy="980" r="5" fill="#2e7d32"/>
+  <circle cx="234" cy="1040" r="4" fill="#a9dcbe"/>
+  <circle cx="252" cy="1040" r="5" fill="#4fc3e8"/>
+  <circle cx="234" cy="1100" r="4" fill="#a9dcbe"/>
+  <circle cx="252" cy="1100" r="5" fill="#2e7d32"/>
+  <circle cx="234" cy="1160" r="4" fill="#a9dcbe"/>
+  <circle cx="252" cy="1160" r="5" fill="#4fc3e8"/>
+  <rect x="141" y="1200" width="128" height="32" rx="8" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="153" y="1212" width="104" height="8" rx="4" fill="#2f7fb5"/>
+  <!-- browser stand -->
+  <rect x="815" y="982" width="32" height="28" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="780" y="1008" width="102" height="12" rx="6" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <!-- browser window -->
+  <rect x="700" y="800" width="262" height="184" rx="14" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M714 800 H948 Q962 800 962 814 V836 H700 V814 Q700 800 714 800 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="720" cy="818" r="5" fill="#ffffff"/>
+  <circle cx="738" cy="818" r="5" fill="#ffffff"/>
+  <circle cx="756" cy="818" r="5" fill="#ffffff"/>
+  <rect x="776" y="808" width="172" height="20" rx="10" fill="#ffffff"/>
+  <path d="M788 818 V814 Q788 810 792 810 Q796 810 796 814 V818" fill="none" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="785" y="817" width="14" height="9" rx="2" fill="#2e7d32"/>
+  <rect x="806" y="815" width="90" height="6" rx="3" fill="#8fc9f2"/>
+  <rect x="716" y="850" width="230" height="46" rx="8" fill="#dff1f7"/>
+  <rect x="730" y="862" width="120" height="10" rx="5" fill="#2f7fb5"/>
+  <rect x="730" y="880" width="170" height="8" rx="4" fill="#8fc9f2"/>
+  <rect x="716" y="908" width="92" height="60" rx="8" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M722 962 L748 934 L766 952 L778 940 L802 962 Z" fill="#2e7d32"/>
+  <circle cx="790" cy="924" r="6" fill="#ffd24a"/>
+  <rect x="822" y="912" width="124" height="9" rx="4.5" fill="#8fc9f2"/>
+  <rect x="822" y="932" width="110" height="9" rx="4.5" fill="#8fc9f2"/>
+  <rect x="822" y="952" width="80" height="9" rx="4.5" fill="#f0c48c"/>
+  <!-- cuffs -->
+  <rect x="432" y="898" width="14" height="40" rx="5" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="540" y="898" width="14" height="40" rx="5" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <!-- handshake -->
+  <path d="M540 906 C516 902 488 904 468 912 C456 918 458 930 470 934 C490 940 518 938 540 934 Z" fill="#d59f6f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M446 904 C468 898 496 900 516 908 C530 914 532 926 520 930 C504 934 478 934 446 932 Z" fill="#e8b98d" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M488 906 Q496 918 490 932 M502 908 Q510 919 504 932 M514 910 Q521 920 516 930" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M540 908 C530 896 508 892 494 898 C488 902 492 908 500 907 C512 905 526 908 534 914 Z" fill="#d59f6f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M454 948 L444 958 M530 948 L540 958" fill="none" stroke="#c96a1b" stroke-width="3" stroke-linecap="round"/>
+  <!-- certificate -->
+  <rect x="432" y="790" width="120" height="68" rx="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="444" y="800" width="96" height="10" rx="5" fill="#2f7fb5"/>
+  <rect x="444" y="816" width="72" height="7" rx="3.5" fill="#8fc9f2"/>
+  <rect x="444" y="830" width="56" height="7" rx="3.5" fill="#8fc9f2"/>
+  <rect x="444" y="844" width="40" height="6" rx="3" fill="#f0c48c"/>
+  <polygon points="534,856 528,880 538,874 542,882 546,858" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="546,858 550,882 554,874 564,880 556,856" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="544" cy="850" r="13" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M538 850 L543 855 L551 845" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- arrow: handshake produces the session key -->
+  <path d="M492 950 V1010" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="484,1010 500,1010 492,1022" fill="#c0392b"/>
+  <!-- hotel-style session key card -->
+  <rect x="392" y="1030" width="200" height="104" rx="14" fill="url(#ilCard)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="393.5" y="1046" width="197" height="16" fill="#3a2411"/>
+  <rect x="410" y="1078" width="36" height="28" rx="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M410 1092 H446 M428 1078 V1106" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M458 1084 Q464 1092 458 1100 M466 1080 Q474 1092 466 1104" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="500" cy="1100" r="12" fill="none" stroke="#ffffff" stroke-width="3"/>
+  <path d="M512 1100 H572 M558 1100 V1112 M570 1100 V1110" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <!-- stopwatch -->
+  <rect x="642" y="1038" width="16" height="10" rx="3" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="650" cy="1080" r="32" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="650" cy="1080" r="25" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M650 1080 V1055 A25 25 0 0 1 675 1080 Z" fill="#f0c48c"/>
+  <circle cx="650" cy="1100" r="2.5" fill="#7f95ab"/>
+  <circle cx="630" cy="1080" r="2.5" fill="#7f95ab"/>
+  <path d="M650 1080 V1062 M650 1080 L664 1088" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="650" cy="1080" r="4" fill="#22303f"/>
+  <!-- small plant -->
+  <path d="M922 1212 C908 1204 900 1194 902 1184 C916 1188 924 1200 922 1212 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M922 1212 C934 1200 946 1192 956 1192 C954 1204 940 1212 922 1212 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M922 1212 C918 1200 920 1190 926 1182 C932 1192 930 1204 922 1212 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="896,1222 948,1222 942,1250 902,1250" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="890" y="1212" width="64" height="12" rx="4" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <!-- connector from the handshake label to the hands -->
+  <path d="M800 1076 L562 948" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="552,942 568,942 561,955" fill="#c0392b"/>
 </g>
 
-<!-- Icon: shield with check (step 2) -->
-<g transform="translate(118 694)">
-  <path d="M22 2 L40 9 V22 C40 33 32 40 22 43 C12 40 4 33 4 22 V9 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M13 22 L20 29 L32 15" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- Icon: lock -->
+<g transform="translate(126 82)">
+  <path d="M16 24 V17 Q16 6 28 6 Q40 6 40 17 V24" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="6" y="24" width="44" height="32" rx="7" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="28" cy="37" r="4.5" fill="#22303f"/>
+  <rect x="26.5" y="39" width="3" height="9" rx="1.5" fill="#22303f"/>
 </g>
 
-<!-- Icon: key (step 3) -->
-<g transform="translate(118 1028)">
-  <circle cx="13" cy="22" r="10" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
-  <circle cx="13" cy="22" r="3.5" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
-  <path d="M23 22 H42 M35 22 V30 M41 22 V28" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- Icon: key -->
+<g transform="translate(890 96)">
+  <rect x="44" y="20" width="6" height="11" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="53" y="20" width="5" height="8" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="28" y="14" width="30" height="8" rx="3" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="16" cy="18" r="14" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="16" cy="18" r="5" fill="#fffdf7" stroke="#22303f" stroke-width="2.5"/>
 </g>
 
-<!-- Top pair -->
-<text x="950" y="150" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
-  <tspan x="950" dy="0">(2) مثلًا، عند شراء منتج عبر <tspan fill="#c96a1b">التسوق الإلكتروني،</tspan></tspan>
-  <tspan x="950" dy="36">تُجمع هذه التقنيات وتُستخدم على النحو التالي:</tspan>
-</text>
-<text x="140" y="258" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
-  <tspan x="140" dy="0">(2) For example, when purchasing a product</tspan>
-  <tspan x="140" dy="36">through <tspan fill="#c96a1b">online shopping,</tspan> these technologies</tspan>
-  <tspan x="140" dy="36">are combined and used as follows.</tspan>
+<!-- Icon: shield with check -->
+<g transform="translate(852 412)">
+  <path d="M28 2 L52 10 V28 C52 44 42 54 28 60 C14 54 4 44 4 28 V10 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M28 10 L44 16 V28 C44 40 37 47 28 52 Z" fill="#a9dcbe"/>
+  <path d="M17 31 L25 39 L40 22" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Face: wink -->
+<g transform="translate(880 700)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M 5 -6 L 13 -6" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Titles -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">كيف يتفق غريبان على سر؟</text>
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="normal" fill="#152b42">How Do Two Strangers Agree on a Secret?</text>
+
+<!-- Paragraph 1 Arabic -->
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">مصافحة</tspan> TLS (TLS handshake): الخطوات الأولى</tspan>
+  <tspan x="950" dy="40">قبل إرسال أي بيانات؛ يقدّم فيها الخادم</tspan>
+  <tspan x="950" dy="40">شهادته، ويتحقق المتصفح منها، ويتفق الطرفان</tspan>
+  <tspan x="950" dy="40">على <tspan font-weight="bold" fill="#17457f">مفاتيح الجلسة</tspan>.</tspan>
 </text>
 
-<!-- Step 1 -->
-<text x="950" y="402" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
-  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">①</tspan> عندما تدخل إلى الموقع، يبدأ اتصال <tspan font-weight="bold" fill="#c0392b">HTTPS،</tspan> ويمنع</tspan>
-  <tspan x="950" dy="36"><tspan font-weight="bold" fill="#c0392b">التشفير</tspan> أطرافًا ثالثة من قراءة محتوى الاتصال.</tspan>
-</text>
-<text x="140" y="510" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
-  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">①</tspan> When you access the site, <tspan font-weight="bold" fill="#c0392b">HTTPS</tspan></tspan>
-  <tspan x="140" dy="36">communication begins, and <tspan font-weight="bold" fill="#c0392b">encryption</tspan></tspan>
-  <tspan x="140" dy="36">prevents communication content from being</tspan>
-  <tspan x="140" dy="36">read by third parties.</tspan>
+<!-- Paragraph 1 English -->
+<text x="120" y="394" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">TLS handshake:</tspan> the first steps before any</tspan>
+  <tspan x="120" dy="40">data is sent; the server presents its</tspan>
+  <tspan x="120" dy="40">certificate, the browser checks it, and</tspan>
+  <tspan x="120" dy="40">both sides agree on <tspan font-weight="bold" fill="#17457f">session keys</tspan>.</tspan>
 </text>
 
-<!-- Step 2 -->
-<text x="950" y="690" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
-  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">②</tspan> يفحص المتصفح <tspan font-weight="bold" fill="#c0392b">الشهادة الرقمية</tspan> للتأكد من أن</tspan>
-  <tspan x="950" dy="36">الوجهة هي موقع التسوق الحقيقي.</tspan>
-</text>
-<text x="140" y="798" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
-  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">②</tspan> The browser checks the</tspan>
-  <tspan x="140" dy="36"><tspan font-weight="bold" fill="#c0392b">digital certificate</tspan> to confirm that the</tspan>
-  <tspan x="140" dy="36">destination is the genuine shopping site.</tspan>
+<!-- Paragraph 2 Arabic -->
+<text x="950" y="594" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">مفتاح الجلسة</tspan> Session key: مفتاح متماثل <tspan font-weight="bold" fill="#17457f">مؤقت</tspan></tspan>
+  <tspan x="950" dy="40">يُنشأ لاتصال واحد، ثم يُهمَل بعد انتهائه.</tspan>
 </text>
 
-<!-- Step 3 -->
-<text x="950" y="942" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
-  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">③</tspan> عند تسجيل الدخول إلى الحساب، تمنع</tspan>
-  <tspan x="950" dy="36"><tspan font-weight="bold" fill="#c0392b">المصادقة متعددة العوامل،</tspan> التي تجمع مثلًا بين</tspan>
-  <tspan x="950" dy="36">كلمة المرور والمصادقة عبر الرسائل</tspan>
-  <tspan x="950" dy="36">القصيرة <tspan font-weight="bold" fill="#c0392b">SMS،</tspan> تسجيل الدخول غير المصرح به.</tspan>
+<!-- Paragraph 2 English -->
+<text x="120" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">Session key:</tspan> a <tspan font-weight="bold" fill="#17457f">temporary</tspan> common key</tspan>
+  <tspan x="120" dy="40">created for one connection and discarded</tspan>
+  <tspan x="120" dy="40">when it ends.</tspan>
 </text>
-<text x="140" y="1122" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
-  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">③</tspan> For account login,</tspan>
-  <tspan x="140" dy="36"><tspan font-weight="bold" fill="#c0392b">multi-factor authentication</tspan> combining a</tspan>
-  <tspan x="140" dy="36">password and <tspan font-weight="bold" fill="#c0392b">SMS</tspan> authentication, etc.,</tspan>
-  <tspan x="140" dy="36">prevents unauthorized logins.</tspan>
-</text>
+
+<!-- Illustration labels -->
+<text x="940" y="1114" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">مصافحة</text>
+<text x="790" y="1154" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Handshake</text>
+<text x="760" y="1194" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">مفتاح الجلسة: صالح لاتصال واحد</text>
+<text x="310" y="1234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Session key: valid for one connection</text>
 </svg>

@@ -1,0 +1,223 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="ilCard" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffd24a"/>
+    <stop offset="1" stop-color="#f0c48c"/>
+  </linearGradient>
+  <linearGradient id="ilBadge" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#a9dcbe"/>
+  </linearGradient>
+  <linearGradient id="ilEnv" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#8fc9f2"/>
+  </linearGradient>
+  <linearGradient id="ilScreen" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#4fc3e8"/>
+    <stop offset="1" stop-color="#8fc9f2"/>
+  </linearGradient>
+</defs>
+
+<!-- Main illustration: signing and verifying -->
+<g>
+  <rect x="109" y="670" width="870" height="242" rx="24" fill="#22303f" opacity=".18"/>
+  <rect x="105" y="664" width="870" height="242" rx="24" fill="url(#ilSky)"/>
+  <path d="M129 664 H951 Q975 664 975 688 H105 Q105 664 129 664 Z" fill="#dff1f7"/>
+  <rect x="105" y="664" width="870" height="242" rx="24" fill="none" stroke="#8fc9f2" stroke-width="2"/>
+  <circle cx="132" cy="676" r="5" fill="#c0392b"/>
+  <circle cx="150" cy="676" r="5" fill="#ffd24a"/>
+  <circle cx="168" cy="676" r="5" fill="#2e7d32"/>
+  <ellipse cx="540" cy="884" rx="420" ry="12" fill="#dff1f7"/>
+
+  <path d="M872 752 H934 L952 770 V858 H872 Z" fill="#22303f" opacity=".18"/>
+  <rect x="708" y="756" width="100" height="100" rx="12" fill="#22303f" opacity=".18"/>
+  <rect x="592" y="698" width="34" height="44" rx="4" fill="#22303f" opacity=".18"/>
+  <circle cx="612" cy="806" r="22" fill="#22303f" opacity=".18"/>
+  <rect x="632" y="800" width="74" height="12" rx="3" fill="#22303f" opacity=".18"/>
+  <path d="M382 886 Q382 818 424 812 Q466 818 466 886 Z" fill="#22303f" opacity=".18"/>
+  <circle cx="344" cy="806" r="20" fill="#22303f" opacity=".18"/>
+  <rect x="258" y="800" width="70" height="12" rx="3" fill="#22303f" opacity=".18"/>
+  <circle cx="184" cy="801" r="54" fill="#22303f" opacity=".18"/>
+  <rect x="704" y="1070" width="265" height="10" rx="5" fill="#22303f" opacity=".18"/>
+  <rect x="449" y="1070" width="235" height="10" rx="5" fill="#22303f" opacity=".18"/>
+  <rect x="119" y="1070" width="310" height="10" rx="5" fill="#22303f" opacity=".18"/>
+
+  <path d="M868 746 H930 L948 764 V852 H868 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M930 746 V764 H948 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M882 778 H934 M882 796 H934 M882 814 H934 M882 832 H916" fill="none" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+
+  <path d="M858 800 H826" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="814,800 826,793 826,807" fill="#c0392b"/>
+
+  <rect x="704" y="750" width="100" height="100" rx="12" fill="url(#ilCard)" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M726 812 C724 770 784 770 782 812 M734 818 C730 786 778 786 774 818 M742 822 C740 800 768 800 766 822 M754 826 V806" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="796" cy="842" r="12" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M790 842 L795 847 L803 837" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M560 788 H578 M556 800 H576 M560 812 H578" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="676" y="804" width="9" height="14" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="690" y="804" width="9" height="10" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="628" y="794" width="74" height="12" rx="3" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="608" cy="800" r="22" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="602" cy="800" r="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+
+  <path d="M744 740 Q600 691 476 734" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="464.7,737.9 478.3,740.6 473.7,727.4" fill="#c0392b"/>
+  <rect x="588" y="692" width="34" height="44" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M595 704 H615 M595 714 H615" fill="none" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="614" cy="728" r="7" fill="#c96a1b" stroke="#22303f" stroke-width="2"/>
+
+  <path d="M378 880 Q378 812 420 806 Q462 812 462 880 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="420" cy="778" r="22" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M398 774 Q400 752 420 752 Q440 752 442 774 Q432 763 420 765 Q406 763 398 774 Z" fill="#2b211c"/>
+  <circle cx="413" cy="780" r="2.5" fill="#22303f"/>
+  <circle cx="427" cy="780" r="2.5" fill="#22303f"/>
+  <path d="M414 788 Q420 792 426 788" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <rect x="262" y="804" width="9" height="14" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="276" y="804" width="9" height="10" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="254" y="794" width="70" height="12" rx="3" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="340" cy="800" r="20" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="345" cy="800" r="7" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+
+  <circle cx="180" cy="795" r="54" fill="url(#ilBadge)" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="144,797 160,781 174,795 202,767 216,781 174,823" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="240" cy="744" r="6" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+  <circle cx="128" cy="740" r="4" fill="#4fc3e8"/>
+
+  <rect x="700" y="1064" width="265" height="10" rx="5" fill="#ffd24a"/>
+  <rect x="445" y="1064" width="235" height="10" rx="5" fill="#f0c48c"/>
+  <rect x="115" y="1064" width="310" height="10" rx="5" fill="#a9dcbe"/>
+
+  <path d="M754 896 V870" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="754,858 747,870 761,870" fill="#c0392b"/>
+  <path d="M608 896 V846" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="608,834 601,846 615,846" fill="#c0392b"/>
+  <path d="M300 896 V830" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="300,818 293,830 307,830" fill="#c0392b"/>
+</g>
+
+<!-- Shield icon beside paragraph 1 -->
+<g transform="translate(868 290)">
+  <path d="M32 4 L58 14 Q58 46 32 60 Q6 46 6 14 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="32" cy="28" r="6" fill="#22303f"/>
+  <rect x="29" y="30" width="6" height="14" rx="2" fill="#22303f"/>
+</g>
+
+<!-- Warning icon beside paragraph 2 -->
+<g transform="translate(812 560)">
+  <path d="M28 3 L54 50 H2 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="25" y="18" width="6" height="18" rx="3" fill="#22303f"/>
+  <circle cx="28" cy="43" r="3.5" fill="#22303f"/>
+</g>
+
+<!-- Surprise face beside paragraph 2 -->
+<g transform="translate(912 586)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="0" cy="10" r="5" fill="#22303f"/>
+</g>
+
+<!-- Memory illustration: the signed message travels safely -->
+<g>
+  <rect x="172" y="1128" width="124" height="82" rx="8" fill="#22303f" opacity=".18"/>
+  <path d="M154 1210 H314 L302 1224 H166 Z" fill="#22303f" opacity=".18"/>
+  <rect x="434" y="1114" width="220" height="128" rx="12" fill="#22303f" opacity=".18"/>
+  <rect x="850" y="1162" width="68" height="52" rx="8" fill="#22303f" opacity=".18"/>
+
+  <path d="M420 1172 C 390 1130, 350 1200, 312 1160" fill="none" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M660 1170 C 700 1120, 760 1210, 836 1170" fill="none" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+
+  <rect x="168" y="1122" width="124" height="82" rx="8" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="178" y="1132" width="104" height="62" rx="4" fill="url(#ilScreen)"/>
+  <circle cx="230" cy="1163" r="20" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M220 1163 L227 1171 L241 1155" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M150 1204 H310 L298 1218 H162 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <rect x="430" y="1108" width="220" height="128" rx="12" fill="url(#ilEnv)" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M436 1114 L540 1180 L644 1114" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M540 1146 L576 1160 Q576 1204 540 1226 Q504 1204 504 1160 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M524 1184 L536 1196 L558 1170" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="630" cy="1218" r="14" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="630" cy="1218" r="5" fill="#f0c48c"/>
+
+  <path d="M856 1160 V1146 Q856 1120 880 1120 Q904 1120 904 1146 V1160 H894 V1146 Q894 1130 880 1130 Q866 1130 866 1146 V1160 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="846" y="1156" width="68" height="52" rx="8" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="880" cy="1176" r="6" fill="#22303f"/>
+  <rect x="877" y="1178" width="6" height="14" rx="2" fill="#22303f"/>
+
+  <polygon points="760,1104 763.5,1112.5 772,1116 763.5,1119.5 760,1128 756.5,1119.5 748,1116 756.5,1112.5" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <polygon points="360,1220 363.5,1228.5 372,1232 363.5,1235.5 360,1244 356.5,1235.5 348,1232 356.5,1228.5" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <polygon points="946,1128 949.5,1136.5 958,1140 949.5,1143.5 946,1152 942.5,1143.5 934,1140 942.5,1136.5" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+</g>
+
+<!-- Text -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">التوقيع الرقمي</tspan> Digital signature: يحسب</tspan>
+  <tspan x="950" dy="40">المرسل بصمة الرسالة ويوقّعها <tspan font-weight="bold" fill="#17457f">بمفتاحه الخاص،</tspan></tspan>
+  <tspan x="950" dy="40">ويتحقق المستقبل منها بالمفتاح العام للمرسل.</tspan>
+</text>
+<text x="120" y="274" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">Digital signature:</tspan> the sender calculates</tspan>
+  <tspan x="120" dy="40">the message's hash and signs it with</tspan>
+  <tspan x="120" dy="40">their <tspan font-weight="bold" fill="#17457f">private key,</tspan> and the receiver</tspan>
+  <tspan x="120" dy="40">checks it with the sender's <tspan font-weight="bold" fill="#17457f">public key.</tspan></tspan>
+</text>
+<text x="950" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">إذا <tspan font-weight="bold" fill="#17457f">فشل التحقق،</tspan> فالرسالة عُدّلت</tspan>
+  <tspan x="950" dy="40">أو لم تصدر عن صاحب المفتاح.</tspan>
+</text>
+<text x="120" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">If the <tspan font-weight="bold" fill="#17457f">check fails,</tspan> the message</tspan>
+  <tspan x="120" dy="40">was changed or did not come from</tspan>
+  <tspan x="120" dy="40">the key's owner.</tspan>
+</text>
+
+<text x="791" y="954" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#3d5a76">
+  <tspan x="791" dy="0">البصمة</tspan>
+</text>
+<text x="722" y="994" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#3d5a76">
+  <tspan x="722" dy="0">Hash</tspan>
+</text>
+<text x="667" y="954" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#3d5a76">
+  <tspan x="667" dy="0">يوقّع بالمفتاح الخاص</tspan>
+</text>
+<text x="482" y="994" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#3d5a76">
+  <tspan x="482" dy="0">Signs with</tspan>
+  <tspan x="482" dy="40">private key</tspan>
+</text>
+<text x="411" y="954" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#3d5a76">
+  <tspan x="411" dy="0">يتحقق بالمفتاح العام</tspan>
+</text>
+<text x="212" y="994" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#3d5a76">
+  <tspan x="212" dy="0">Verifies with</tspan>
+  <tspan x="212" dy="40">public key</tspan>
+</text>
+</svg>

@@ -1,0 +1,257 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8fc9f2"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Key sentence strip (one group) -->
+<g>
+  <rect x="105" y="122" width="870" height="168" rx="10" fill="#fdf6d8"/>
+  <rect x="961" y="138" width="6" height="136" rx="3" fill="#e0a55e"/>
+</g>
+
+<!-- Outlined box (one group: shadow, body, accent) -->
+<g>
+  <rect x="109" y="320" width="870" height="376" rx="16" fill="#22303f" opacity=".12"/>
+  <rect x="105" y="314" width="870" height="376" rx="16" fill="#fffdf7" stroke="#9db9d6" stroke-width="2"/>
+  <rect x="961" y="330" width="6" height="344" rx="3" fill="#2f7fb5"/>
+</g>
+
+<!-- Icon: key (strip, top-left) -->
+<g transform="translate(150 128)" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="25" y="21" width="20" height="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="36" y="27" width="4" height="7" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="29" y="27" width="4" height="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="14" cy="24" r="11" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="14" cy="24" r="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: document stack (strip, bottom-right) -->
+<g transform="translate(880 222)" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="10" y="0" width="30" height="38" rx="4" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="2" y="6" width="30" height="38" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M8 18 H26 M8 26 H26 M8 34 H20" fill="none" stroke="#2f7fb5" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: pencil (beside TRY IT 3) -->
+<g transform="translate(300 344)" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M6 38 L10 26 L32 4 L40 12 L18 34 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M32 4 L40 12 L36 16 L28 8 Z" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M6 38 L10 26 L18 34 Z" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M6 38 L8 32 L12 36 Z" fill="#22303f"/>
+</g>
+
+<!-- Face: thinking (free space beside the English question) -->
+<g transform="translate(860 610)" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3"/>
+</g>
+
+<!-- Requested illustration: two video pages loading at different speeds -->
+<g stroke-linecap="round" stroke-linejoin="round">
+  <rect x="129" y="728" width="380" height="176" rx="14" fill="#22303f" opacity=".18"/>
+  <rect x="579" y="728" width="380" height="176" rx="14" fill="#22303f" opacity=".18"/>
+
+  <!-- Left window: slow -->
+  <rect x="125" y="722" width="380" height="176" rx="14" fill="#ffffff"/>
+  <path d="M125 748 V736 Q125 722 139 722 H491 Q505 722 505 736 V748 Z" fill="#8fc9f2"/>
+  <circle cx="145" cy="735" r="4" fill="#c0392b"/>
+  <circle cx="159" cy="735" r="4" fill="#ffd24a"/>
+  <circle cx="173" cy="735" r="4" fill="#2e7d32"/>
+  <rect x="192" y="729" width="290" height="12" rx="6" fill="#ffffff"/>
+  <rect x="145" y="760" width="340" height="80" rx="8" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="333" cy="800" r="5" fill="#2f7fb5"/>
+  <circle cx="327.7" cy="812.7" r="5" fill="#2f7fb5" opacity=".85"/>
+  <circle cx="315" cy="818" r="5" fill="#2f7fb5" opacity=".6"/>
+  <circle cx="302.3" cy="812.7" r="5" fill="#2f7fb5" opacity=".35"/>
+  <circle cx="297" cy="800" r="5" fill="#2f7fb5" opacity=".18"/>
+  <circle cx="302.3" cy="787.3" r="5" fill="#2f7fb5" opacity=".12"/>
+  <circle cx="315" cy="782" r="5" fill="#2f7fb5" opacity=".12"/>
+  <circle cx="327.7" cy="787.3" r="5" fill="#2f7fb5" opacity=".12"/>
+  <rect x="145" y="862" width="210" height="14" rx="7" fill="#dff1f7"/>
+  <rect x="145" y="862" width="34" height="14" rx="7" fill="#c96a1b"/>
+  <rect x="145" y="862" width="210" height="14" rx="7" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="366" cy="868" r="4" fill="#7f95ab" opacity=".35"/>
+  <circle cx="371" cy="878" r="3" fill="#7f95ab" opacity=".35"/>
+  <g transform="translate(380 846)">
+    <rect x="-2" y="32" width="96" height="5" rx="2" fill="#22303f"/>
+    <rect x="0" y="4" width="64" height="30" rx="5" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="6" cy="10" r="2" fill="#22303f"/>
+    <circle cx="58" cy="10" r="2" fill="#22303f"/>
+    <circle cx="6" cy="28" r="2" fill="#22303f"/>
+    <circle cx="58" cy="28" r="2" fill="#22303f"/>
+    <path d="M32 9 L42 13 V19 Q42 26 32 30 Q22 26 22 19 V13 Z" fill="#17457f" stroke="#22303f" stroke-width="2"/>
+    <circle cx="32" cy="19" r="3" fill="#ffd24a"/>
+    <path d="M64 12 H80 Q85 12 87 17 L92 25 V34 H64 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M68 16 H79 Q82 16 83 19 L86 24 H68 Z" fill="#4fc3e8"/>
+    <circle cx="16" cy="38" r="8" fill="#22303f"/>
+    <circle cx="16" cy="38" r="3" fill="#e8dfd1"/>
+    <circle cx="76" cy="38" r="8" fill="#22303f"/>
+    <circle cx="76" cy="38" r="3" fill="#e8dfd1"/>
+  </g>
+  <rect x="125" y="722" width="380" height="176" rx="14" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M125 748 H505" fill="none" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Right window: fast -->
+  <rect x="575" y="722" width="380" height="176" rx="14" fill="#ffffff"/>
+  <path d="M575 748 V736 Q575 722 589 722 H941 Q955 722 955 736 V748 Z" fill="#8fc9f2"/>
+  <circle cx="595" cy="735" r="4" fill="#c0392b"/>
+  <circle cx="609" cy="735" r="4" fill="#ffd24a"/>
+  <circle cx="623" cy="735" r="4" fill="#2e7d32"/>
+  <rect x="642" y="729" width="290" height="12" rx="6" fill="#ffffff"/>
+  <rect x="595" y="760" width="340" height="80" rx="8" fill="url(#ilSky)"/>
+  <circle cx="652" cy="782" r="10" fill="#ffd24a"/>
+  <polygon points="603,840 668,796 712,822 772,784 842,826 885,804 927,826 927,840" fill="#a9dcbe"/>
+  <path d="M603 840 Q700 812 790 830 T927 822 V840 Z" fill="#2e7d32"/>
+  <circle cx="765" cy="800" r="20" fill="#ffffff" opacity=".85"/>
+  <polygon points="758,789 758,811 777,800" fill="#17457f"/>
+  <rect x="595" y="760" width="340" height="80" rx="8" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="595" y="862" width="210" height="14" rx="7" fill="#dff1f7"/>
+  <rect x="595" y="862" width="192" height="14" rx="7" fill="#2e7d32"/>
+  <rect x="595" y="862" width="210" height="14" rx="7" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <g transform="translate(840 846)">
+    <path d="M-20 16 H-8 M-24 24 H-8 M-20 32 H-8" fill="none" stroke="#2e7d32" stroke-width="2.5"/>
+    <rect x="2" y="24" width="18" height="5" rx="2.5" fill="#7f95ab" stroke="#22303f" stroke-width="2"/>
+    <path d="M12 34 L30 20 H54 L72 34" fill="none" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M60 20 L72 34 M60 20 L64 6 L74 4" fill="none" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="12" cy="34" r="10" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="12" cy="34" r="3" fill="#22303f"/>
+    <circle cx="72" cy="34" r="10" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="72" cy="34" r="3" fill="#22303f"/>
+    <rect x="18" y="10" width="20" height="6" rx="3" fill="#22303f"/>
+    <path d="M26 22 Q32 8 52 10 L60 20 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="71" cy="15" r="4" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+  </g>
+  <rect x="575" y="722" width="380" height="176" rx="14" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M575 748 H955" fill="none" stroke="#22303f" stroke-width="2.5"/>
+
+  <rect x="125" y="1018" width="830" height="8" rx="4" fill="#8fc9f2" opacity=".6"/>
+</g>
+
+<!-- Memory illustration: armored truck delivers the key, motorbike carries the data (no text) -->
+<g stroke-linecap="round" stroke-linejoin="round">
+  <ellipse cx="540" cy="1160" rx="410" ry="86" fill="#dff1f7" opacity=".6"/>
+  <rect x="150" y="1196" width="780" height="30" rx="15" fill="#e8dfd1"/>
+  <path d="M190 1211 H230 M280 1211 H320 M370 1211 H410 M460 1211 H500 M550 1211 H590 M640 1211 H680 M730 1211 H770 M820 1211 H860" fill="none" stroke="#ffffff" stroke-width="3"/>
+
+  <g transform="translate(180 1127) scale(1.5)">
+    <circle cx="-8" cy="28" r="4" fill="#7f95ab" opacity=".35"/>
+    <circle cx="-15" cy="22" r="3" fill="#7f95ab" opacity=".35"/>
+    <rect x="-2" y="32" width="96" height="5" rx="2" fill="#22303f"/>
+    <rect x="0" y="4" width="64" height="30" rx="5" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="6" cy="10" r="2" fill="#22303f"/>
+    <circle cx="58" cy="10" r="2" fill="#22303f"/>
+    <circle cx="6" cy="28" r="2" fill="#22303f"/>
+    <circle cx="58" cy="28" r="2" fill="#22303f"/>
+    <rect x="24" y="17" width="24" height="4" rx="1" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+    <rect x="42" y="21" width="4" height="5" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+    <rect x="35" y="21" width="3" height="4" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+    <circle cx="18" cy="19" r="6" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+    <circle cx="18" cy="19" r="2" fill="#22303f"/>
+    <path d="M64 12 H80 Q85 12 87 17 L92 25 V34 H64 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M68 16 H79 Q82 16 83 19 L86 24 H68 Z" fill="#4fc3e8"/>
+    <circle cx="16" cy="38" r="8" fill="#22303f"/>
+    <circle cx="16" cy="38" r="3" fill="#e8dfd1"/>
+    <circle cx="76" cy="38" r="8" fill="#22303f"/>
+    <circle cx="76" cy="38" r="3" fill="#e8dfd1"/>
+  </g>
+
+  <path d="M350 1150 H452" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+  <polygon points="452,1142 466,1150 452,1158" fill="#c0392b"/>
+
+  <g transform="translate(4 6)">
+    <path d="M540 1086 L586 1102 V1136 Q586 1172 540 1190 Q494 1172 494 1136 V1102 Z" fill="#22303f" opacity=".18"/>
+  </g>
+  <path d="M540 1086 L586 1102 V1136 Q586 1172 540 1190 Q494 1172 494 1136 V1102 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M528 1132 V1122 A12 12 0 0 1 552 1122 V1132" fill="none" stroke="#22303f" stroke-width="3"/>
+  <rect x="522" y="1130" width="36" height="30" rx="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="540" cy="1142" r="4" fill="#22303f"/>
+  <rect x="538" y="1144" width="4" height="9" rx="2" fill="#22303f"/>
+
+  <path d="M614 1150 H700" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+  <polygon points="700,1142 714,1150 700,1158" fill="#c0392b"/>
+
+  <g transform="translate(770 1130) scale(1.5)">
+    <path d="M-20 16 H-8 M-24 24 H-8 M-20 32 H-8" fill="none" stroke="#2e7d32" stroke-width="2.5"/>
+    <rect x="2" y="24" width="18" height="5" rx="2.5" fill="#7f95ab" stroke="#22303f" stroke-width="2"/>
+    <path d="M12 34 L30 20 H54 L72 34" fill="none" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M60 20 L72 34 M60 20 L64 6 L74 4" fill="none" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="12" cy="34" r="10" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="12" cy="34" r="3" fill="#22303f"/>
+    <circle cx="72" cy="34" r="10" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="72" cy="34" r="3" fill="#22303f"/>
+    <rect x="18" y="10" width="20" height="6" rx="3" fill="#22303f"/>
+    <rect x="16" y="-12" width="20" height="22" rx="3" fill="#f0c48c" stroke="#22303f" stroke-width="2"/>
+    <rect x="12" y="-8" width="20" height="22" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+    <path d="M16 0 H28 M16 6 H28" fill="none" stroke="#2f7fb5" stroke-width="2"/>
+    <path d="M26 22 Q32 8 52 10 L60 20 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="71" cy="15" r="4" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+  </g>
+</g>
+
+<!-- Texts in Layout order -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">العام يوصّل المفتاح…</tspan>
+  <tspan x="935" dy="40">والمتماثل يشيل البيانات.</tspan>
+</text>
+<text x="140" y="234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">Public-key delivers the key…</tspan>
+  <tspan x="140" dy="40">common-key carries the data.</tspan>
+</text>
+
+<text x="935" y="354" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="935" dy="0">جرّب بنفسك 3</tspan>
+</text>
+<text x="140" y="394" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="140" dy="0">TRY IT 3</tspan>
+</text>
+
+<text x="935" y="434" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">لو استخدم HTTPS <tspan font-weight="bold" fill="#17457f">الشاحنة المصفحة</tspan></tspan>
+  <tspan x="935" dy="40">لكل البيانات، ماذا سيحدث لسرعة</tspan>
+  <tspan x="935" dy="40">تحميل صفحة فيها فيديو؟</tspan>
+</text>
+<text x="140" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">If HTTPS used the <tspan font-weight="bold" fill="#17457f">armored truck</tspan></tspan>
+  <tspan x="140" dy="40">for all the data, what would happen</tspan>
+  <tspan x="140" dy="40">to the loading speed of a page</tspan>
+  <tspan x="140" dy="40">with a video?</tspan>
+</text>
+
+<text x="800" y="954" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="800" dy="0">سريع</tspan>
+</text>
+<text x="734" y="994" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="734" dy="0">Fast</tspan>
+</text>
+<text x="350" y="954" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="350" dy="0">بطيء</tspan>
+</text>
+<text x="280" y="994" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="280" dy="0">Slow</tspan>
+</text>
+</svg>

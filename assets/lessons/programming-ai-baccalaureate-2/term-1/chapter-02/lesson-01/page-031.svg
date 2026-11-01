@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Key sentence strip -->
+<rect x="105" y="602" width="870" height="88" rx="10" fill="#fdf6d8"/>
+<rect x="961" y="618" width="6" height="56" rx="3" fill="#e0a55e"/>
+
+<!-- ATM illustration: one group with shadows, shapes, and connectors -->
+<g>
+  <defs>
+    <linearGradient id="ilGlow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="ilAtmBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f7fb5"/>
+      <stop offset="1" stop-color="#17457f"/>
+    </linearGradient>
+    <linearGradient id="ilAtmScreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4fc3e8"/>
+      <stop offset="1" stop-color="#dff1f7"/>
+    </linearGradient>
+    <linearGradient id="ilCard" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c96a1b"/>
+      <stop offset="1" stop-color="#f0c48c"/>
+    </linearGradient>
+  </defs>
+  <circle cx="545" cy="900" r="190" fill="url(#ilGlow)"/>
+  <path d="M392 770 L395 777 L402 780 L395 783 L392 790 L389 783 L382 780 L389 777 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M700 760 L703 767 L710 770 L703 773 L700 780 L697 773 L690 770 L697 767 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M722 812 L724 818 L730 820 L724 822 L722 828 L720 822 L714 820 L720 818 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <ellipse cx="545" cy="1150" rx="170" ry="8" fill="#22303f" opacity=".18"/>
+  <rect x="434" y="762" width="230" height="380" rx="18" fill="#22303f" opacity=".18"/>
+  <rect x="430" y="756" width="230" height="380" rx="18" fill="url(#ilAtmBody)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="418" y="722" width="254" height="40" rx="14" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="442" cy="742" r="5" fill="#4fc3e8"/>
+  <circle cx="648" cy="742" r="5" fill="#4fc3e8"/>
+  <rect x="525" y="730" width="40" height="24" rx="4" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+  <rect x="526" y="736" width="38" height="5" fill="#22303f"/>
+  <rect x="450" y="778" width="190" height="118" rx="10" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="460" y="788" width="170" height="98" rx="6" fill="url(#ilAtmScreen)" stroke="#22303f" stroke-width="2"/>
+  <polygon points="464,792 512,792 464,846" fill="#ffffff" opacity=".35"/>
+  <circle cx="545" cy="826" r="22" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M534 827 L542 835 L557 818" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="495" y="860" width="100" height="10" rx="5" fill="#a9dcbe" stroke="#22303f" stroke-width="2"/>
+  <rect x="438" y="806" width="8" height="16" rx="3" fill="#8fc9f2"/>
+  <rect x="438" y="836" width="8" height="16" rx="3" fill="#8fc9f2"/>
+  <rect x="644" y="806" width="8" height="16" rx="3" fill="#8fc9f2"/>
+  <rect x="644" y="836" width="8" height="16" rx="3" fill="#8fc9f2"/>
+  <rect x="452" y="912" width="120" height="120" rx="10" fill="#dff1f7" stroke="#22303f" stroke-width="2"/>
+  <rect x="461" y="921" width="30" height="20" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <rect x="497" y="921" width="30" height="20" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <rect x="533" y="921" width="30" height="20" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <rect x="461" y="948" width="30" height="20" rx="4" fill="#f0c48c" stroke="#22303f" stroke-width="2"/>
+  <rect x="497" y="948" width="30" height="20" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <rect x="533" y="948" width="30" height="20" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <rect x="461" y="975" width="30" height="20" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <rect x="497" y="975" width="30" height="20" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <rect x="533" y="975" width="30" height="20" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <rect x="461" y="1002" width="30" height="20" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <rect x="497" y="1002" width="30" height="20" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <rect x="533" y="1002" width="30" height="20" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <rect x="584" y="960" width="56" height="18" rx="5" fill="#2e7d32" stroke="#22303f" stroke-width="2"/>
+  <rect x="584" y="984" width="56" height="18" rx="5" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+  <rect x="584" y="1008" width="56" height="18" rx="5" fill="#c0392b" stroke="#22303f" stroke-width="2"/>
+  <circle cx="619" cy="912" r="4" fill="#2e7d32"/>
+  <rect x="584" y="920" width="70" height="26" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2"/>
+  <rect x="592" y="929" width="54" height="8" rx="3" fill="#22303f"/>
+  <rect x="452" y="1046" width="186" height="16" rx="6" fill="#22303f"/>
+  <rect x="452" y="1076" width="186" height="40" rx="8" fill="#8fc9f2" stroke="#22303f" stroke-width="2"/>
+  <path d="M472 1096 L618 1096" fill="none" stroke="#2f7fb5" stroke-width="2" stroke-linecap="round"/>
+  <rect x="418" y="1128" width="254" height="18" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="796" y="912" width="170" height="52" rx="16" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M900 920 Q 880 938 900 956" fill="none" stroke="#a9dcbe" stroke-width="2" stroke-linecap="round"/>
+  <rect x="774" y="909" width="26" height="58" rx="8" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="742" cy="955" rx="14" ry="8" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="724" cy="950" rx="15" ry="8" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="618" y="925" width="106" height="16" rx="3" fill="url(#ilCard)" stroke="#22303f" stroke-width="2"/>
+  <rect x="656" y="929" width="12" height="8" rx="2" fill="#ffd24a"/>
+  <ellipse cx="752" cy="938" rx="28" ry="24" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="722" cy="922" rx="15" ry="8" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="120" y="950" width="210" height="52" rx="16" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M180 958 Q 200 976 180 994" fill="none" stroke="#f0c48c" stroke-width="2" stroke-linecap="round"/>
+  <rect x="326" y="947" width="24" height="58" rx="8" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="374" cy="976" rx="28" ry="23" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="396" cy="988" rx="14" ry="9" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="392" y="955" width="82" height="14" rx="7" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M360 966 Q 368 972 360 980" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+  <line x1="850" y1="1026" x2="692" y2="959" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="680,954 695.2,954 690.6,965" fill="#c0392b"/>
+  <line x1="330" y1="1026" x2="444" y2="1019" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="458,1018 444.4,1024.9 443.6,1012.9" fill="#c0392b"/>
+</g>
+
+<!-- Icon: lock -->
+<g transform="translate(866 236)">
+  <path d="M20 30 V20 A12 12 0 0 1 44 20 V30" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="10" y="30" width="44" height="32" rx="7" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="32" cy="43" r="5" fill="#ffd24a"/>
+  <rect x="29.5" y="45" width="5" height="10" rx="2.5" fill="#ffd24a"/>
+</g>
+
+<!-- Icon: warning -->
+<g transform="translate(868 480)">
+  <polygon points="30,4 58,54 2,54" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="27" y="20" width="6" height="20" rx="3" fill="#22303f"/>
+  <circle cx="30" cy="47" r="3.5" fill="#22303f"/>
+</g>
+
+<!-- Bottom icon row: shield -->
+<g transform="translate(412 1186)">
+  <path d="M28 4 L50 12 V28 C50 42 40 50 28 54 C16 50 6 42 6 28 V12 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M18 29 L26 37 L39 22" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Bottom icon row: check badge -->
+<g transform="translate(512 1186)">
+  <circle cx="28" cy="28" r="24" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M17 29 L25 37 L40 20" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Bottom icon row: key -->
+<g transform="translate(612 1186)">
+  <rect x="28" y="24" width="24" height="8" rx="3" fill="#f0c48c" stroke="#22303f" stroke-width="2"/>
+  <rect x="44" y="32" width="5" height="9" rx="2" fill="#c96a1b"/>
+  <circle cx="18" cy="28" r="12" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="18" cy="28" r="4" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+</g>
+
+<!-- Paragraph 1 Arabic -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">مثال تعرفه: ماكينة الصراف الآلي <tspan fill="#c96a1b">ATM</tspan> تطلب</tspan>
+  <tspan x="950" dy="40">البطاقة <tspan font-weight="bold" fill="#17457f">(حيازة)</tspan> والرقم السري <tspan font-weight="bold" fill="#17457f">(معرفة).</tspan></tspan>
+</text>
+
+<!-- Paragraph 1 English -->
+<text x="120" y="234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">An example you know:</tspan>
+  <tspan x="120" dy="40">the <tspan fill="#c96a1b">ATM</tspan> asks for the card <tspan font-weight="bold" fill="#17457f">(possession)</tspan></tspan>
+  <tspan x="120" dy="40">and the PIN <tspan font-weight="bold" fill="#17457f">(knowledge).</tspan></tspan>
+</text>
+
+<!-- Paragraph 2 Arabic -->
+<text x="950" y="394" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">أما خطوتان من <tspan font-weight="bold" fill="#17457f">العامل نفسه،</tspan> مثل كلمتي مرور،</tspan>
+  <tspan x="950" dy="40">فليستا <tspan font-weight="bold" fill="#c0392b">مصادقة متعددة العوامل.</tspan></tspan>
+</text>
+
+<!-- Paragraph 2 English -->
+<text x="120" y="474" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">But two steps from the <tspan font-weight="bold" fill="#17457f">same factor,</tspan></tspan>
+  <tspan x="120" dy="40">like two passwords, are not</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#c0392b">multi-factor authentication.</tspan></tspan>
+</text>
+
+<!-- Key sentence strip text -->
+<text x="935" y="634" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">عِدّ <tspan fill="#c0392b">الفئات…</tspan> مش الخطوات.</tspan>
+</text>
+<text x="140" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">Count the <tspan fill="#c0392b">categories…</tspan> not the steps.</tspan>
+</text>
+
+<!-- Illustration labels -->
+<text x="950" y="1074" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">البطاقة: حيازة</tspan>
+</text>
+<text x="690" y="1114" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="690" dy="0">Card: possession</tspan>
+</text>
+<text x="405" y="1074" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="405" dy="0">الرقم السري: معرفة</tspan>
+</text>
+<text x="130" y="1114" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="130" dy="0">PIN: knowledge</tspan>
+</text>
+</svg>

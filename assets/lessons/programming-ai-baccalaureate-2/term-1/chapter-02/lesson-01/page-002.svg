@@ -20,75 +20,229 @@
 <rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
 <rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
 <rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+<defs>
+  <linearGradient id="ilCore" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+</defs>
 
-<!-- Card shadows -->
-<rect x="109" y="448" width="870" height="248" rx="16" fill="#22303f" opacity=".12"/>
-<rect x="109" y="928" width="870" height="168" rx="16" fill="#22303f" opacity=".12"/>
+<!-- Key sentence strip -->
+<rect x="109" y="608" width="870" height="208" rx="10" fill="#22303f" opacity=".12"/>
+<rect x="105" y="602" width="870" height="208" rx="10" fill="#fdf6d8"/>
+<rect x="961" y="618" width="6" height="176" rx="3" fill="#e0a55e"/>
 
-<!-- Info cards (English twins) -->
-<rect x="105" y="442" width="870" height="248" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
-<rect x="961" y="458" width="6" height="216" rx="3" fill="#2f7fb5"/>
-<rect x="105" y="922" width="870" height="168" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
-<rect x="961" y="938" width="6" height="136" rx="3" fill="#2f7fb5"/>
+<!-- Requested illustration: smartphone inside four security layers -->
+<g>
+  <path d="M334 884 A24 24 0 0 1 358 860 H640 A24 24 0 0 1 664 884 V1078 C664 1176 573 1229 499 1256 C425 1229 334 1176 334 1078 Z" fill="#22303f" opacity=".18"/>
+  <path d="M330 878 A24 24 0 0 1 354 854 H636 A24 24 0 0 1 660 878 V1072 C660 1170 569 1223 495 1250 C421 1223 330 1170 330 1072 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M354 902 A24 24 0 0 1 378 878 H612 A24 24 0 0 1 636 902 V1066 C636 1151 558 1197 495 1220 C432 1197 354 1151 354 1066 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M378 926 A24 24 0 0 1 402 902 H588 A24 24 0 0 1 612 926 V1060 C612 1132 548 1170 495 1190 C442 1170 378 1132 378 1060 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M402 946 A20 20 0 0 1 422 926 H568 A20 20 0 0 1 588 946 V1055 C588 1113 537 1144 495 1160 C453 1144 402 1113 402 1055 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M426 968 A18 18 0 0 1 444 950 H546 A18 18 0 0 1 564 968 V1049 C564 1094 526 1118 495 1130 C464 1118 426 1094 426 1049 Z" fill="url(#ilCore)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
 
-<!-- Bullets -->
-<circle cx="966" cy="264" r="6" fill="#c0392b"/>
-<circle cx="966" cy="784" r="6" fill="#c0392b"/>
+  <polygon points="122,848 126,856 134,860 126,864 122,872 118,864 110,860 118,856" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <polygon points="962,848 966,856 974,860 966,864 962,872 958,864 950,860 958,856" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <polygon points="250,921 253,927 259,930 253,933 250,939 247,933 241,930 247,927" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <polygon points="830,991 833,997 839,1000 833,1003 830,1009 827,1003 821,1000 827,997" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="180" cy="990" r="5" fill="#8fc9f2"/>
+  <circle cx="290" cy="1030" r="4" fill="#ffd24a"/>
+  <circle cx="200" cy="905" r="3" fill="#c96a1b" opacity=".6"/>
+  <circle cx="760" cy="930" r="5" fill="#a9dcbe"/>
+  <circle cx="920" cy="960" r="4" fill="#f0c48c"/>
+  <circle cx="880" cy="1040" r="3" fill="#2f7fb5" opacity=".6"/>
 
-<!-- Icon: open book beside the header -->
-<g transform="translate(118 96)">
-  <path d="M 26 12 C 18 6 8 6 2 9 V 46 C 8 43 18 43 26 49 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
-  <path d="M 26 12 C 34 6 44 6 50 9 V 46 C 44 43 34 43 26 49 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
-  <line x1="9" y1="19" x2="20" y2="21" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
-  <line x1="9" y1="29" x2="20" y2="31" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
-  <line x1="32" y1="21" x2="43" y2="19" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
-  <line x1="32" y1="31" x2="43" y2="29" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="471" y="966" width="56" height="102" rx="9" fill="#22303f" opacity=".18"/>
+  <rect x="467" y="960" width="56" height="102" rx="9" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="472" y="970" width="46" height="78" rx="4" fill="#ffffff"/>
+  <rect x="472" y="970" width="46" height="12" rx="4" fill="#4fc3e8"/>
+  <circle cx="495" cy="993" r="7" fill="#8fc9f2" stroke="#22303f" stroke-width="2"/>
+  <rect x="478" y="1005" width="34" height="8" rx="3" fill="#dff1f7" stroke="#22303f" stroke-width="2"/>
+  <rect x="478" y="1017" width="34" height="8" rx="3" fill="#dff1f7" stroke="#22303f" stroke-width="2"/>
+  <circle cx="484" cy="1021" r="1.5" fill="#22303f"/>
+  <circle cx="490" cy="1021" r="1.5" fill="#22303f"/>
+  <circle cx="496" cy="1021" r="1.5" fill="#22303f"/>
+  <circle cx="502" cy="1021" r="1.5" fill="#22303f"/>
+  <rect x="482" y="1031" width="26" height="10" rx="5" fill="#2e7d32"/>
+  <circle cx="495" cy="1055" r="3" fill="#ffffff"/>
+
+  <rect x="482" y="936" width="34" height="24" rx="5" fill="#22303f" opacity=".18"/>
+  <path d="M484 934 V926 A11 11 0 0 1 506 926 V934" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <rect x="478" y="930" width="34" height="24" rx="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="495" cy="940" r="3.5" fill="#22303f"/>
+  <rect x="493" y="941" width="4" height="7" rx="2" fill="#22303f"/>
+
+  <circle cx="600" cy="972" r="7" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="596" y="978" width="8" height="10" rx="2" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="584" y="988" width="32" height="10" rx="3" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="586" y="998" width="28" height="5" rx="2" fill="#c0392b"/>
+  <rect x="582" y="1010" width="36" height="20" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M587 1024 C591 1014 596 1028 600 1018 S 608 1024 613 1016" fill="none" stroke="#c0392b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="344" y="976" width="44" height="34" rx="3" fill="#22303f" opacity=".18"/>
+  <rect x="340" y="970" width="44" height="34" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="346" y="977" width="28" height="4" rx="2" fill="#17457f"/>
+  <rect x="346" y="985" width="22" height="3" rx="1.5" fill="#8fc9f2"/>
+  <rect x="346" y="992" width="16" height="3" rx="1.5" fill="#8fc9f2"/>
+  <polygon points="370,1006 366,1020 372,1016 376,1021 377,1007" fill="#c96a1b" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <polygon points="382,1006 386,1020 380,1016 376,1021 375,1007" fill="#c96a1b" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="376" cy="1000" r="9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="376" cy="1000" r="4" fill="#c96a1b"/>
+
+  <circle cx="648" cy="930" r="14" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M640 930 C641 919 655 919 656 930" fill="none" stroke="#c96a1b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M642 937 C640 924 656 924 654 937" fill="none" stroke="#c96a1b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M645 940 C644 930 652 930 651 940" fill="none" stroke="#c96a1b" stroke-width="2" stroke-linecap="round"/>
+  <rect x="638" y="956" width="22" height="36" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="641" y="961" width="16" height="22" rx="2" fill="#4fc3e8"/>
+  <rect x="643" y="967" width="12" height="10" rx="2" fill="#ffffff"/>
+  <circle cx="646" cy="972" r="1.5" fill="#22303f"/>
+  <circle cx="649" cy="972" r="1.5" fill="#22303f"/>
+  <circle cx="652" cy="972" r="1.5" fill="#22303f"/>
+
+  <line x1="330" y1="1088" x2="406" y2="1088" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="406,1081 418,1088 406,1095" fill="#c0392b"/>
+  <line x1="680" y1="1088" x2="608" y2="1088" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="608,1081 596,1088 608,1095" fill="#c0392b"/>
+  <line x1="330" y1="1168" x2="412" y2="1168" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="412,1161 424,1168 412,1175" fill="#c0392b"/>
+  <line x1="646" y1="1168" x2="624" y2="1168" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="624,1161 612,1168 624,1175" fill="#c0392b"/>
 </g>
 
-<!-- Icon: padlock in the first card -->
-<g transform="translate(852 522)">
-  <path d="M 16 24 V 16 A 12 12 0 0 1 40 16 V 24" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
-  <rect x="6" y="22" width="44" height="32" rx="6" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
-  <circle cx="28" cy="36" r="5" fill="#ffd24a"/>
-  <rect x="26" y="38" width="4" height="9" rx="2" fill="#ffd24a"/>
+<!-- Icon: stacked layers near title -->
+<g transform="translate(128 82)">
+  <polygon points="32,32 56,44 32,56 8,44" fill="#22303f" opacity=".18"/>
+  <polygon points="28,26 52,38 28,50 4,38" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="28,16 52,28 28,40 4,28" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="28,6 52,18 28,30 4,18" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
 </g>
 
-<!-- Icon: shield with check in the second card -->
-<g transform="translate(852 980)">
-  <path d="M 28 2 L 50 10 V 28 C 50 42 40 50 28 54 C 16 50 6 42 6 28 V 10 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
-  <path d="M 18 28 L 25 35 L 38 20" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- Face: smile near title -->
+<g transform="translate(925 112)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
 </g>
 
-<!-- Header -->
-<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">أهداف التعلم</text>
-<text x="120" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">Learning Objectives</text>
+<!-- Icon: login button with pointer beside paragraph 1 -->
+<g transform="translate(138 206)">
+  <rect x="4" y="12" width="56" height="26" rx="13" fill="#22303f" opacity=".18"/>
+  <rect x="0" y="6" width="56" height="26" rx="13" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="14" y="16" width="28" height="6" rx="3" fill="#ffffff"/>
+  <polygon points="34,22 34,52 41,45 46,56 51,54 46,43 56,43" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
 
-<!-- Objective 1 -->
-<text x="950" y="274" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
-  <tspan x="950" dy="0">اشرح كيف يؤمّن <tspan font-weight="bold" fill="#c0392b">HTTPS</tspan> الاتصال:</tspan>
-  <tspan x="950" dy="40">كيف تستخدم مصافحة TLS التشفير <tspan font-weight="bold" fill="#17457f">بالمفتاح العام</tspan></tspan>
-  <tspan x="950" dy="40">لمشاركة مفتاح بأمان، وكيف يحمي التشفير</tspan>
-  <tspan x="950" dy="40"><tspan font-weight="bold" fill="#17457f">بالمفتاح المشترك</tspan> البيانات التي تليها.</tspan>
-</text>
-<text x="140" y="474" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
-  <tspan x="140" dy="0">Explain how <tspan font-weight="bold" fill="#c0392b">HTTPS</tspan> secures</tspan>
-  <tspan x="140" dy="40">communication: how the TLS handshake</tspan>
-  <tspan x="140" dy="40">uses <tspan font-weight="bold" fill="#17457f">public-key</tspan> cryptography to share</tspan>
-  <tspan x="140" dy="40">a key safely, and how <tspan font-weight="bold" fill="#17457f">common-key</tspan></tspan>
-  <tspan x="140" dy="40">cryptography then protects the data</tspan>
-  <tspan x="140" dy="40">that follows.</tspan>
+<!-- Face: thinking beside paragraph 1 -->
+<g transform="translate(800 350)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: phone with login screen beside paragraph 1 -->
+<g transform="translate(866 314)">
+  <rect x="8" y="8" width="36" height="60" rx="7" fill="#22303f" opacity=".18"/>
+  <rect x="4" y="2" width="36" height="60" rx="7" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="9" y="10" width="26" height="40" rx="3" fill="#ffffff"/>
+  <circle cx="22" cy="19" r="4" fill="#8fc9f2"/>
+  <rect x="12" y="27" width="20" height="4" rx="2" fill="#dff1f7"/>
+  <rect x="13" y="37" width="18" height="7" rx="3.5" fill="#2e7d32"/>
+  <circle cx="22" cy="56" r="2.5" fill="#ffffff"/>
+</g>
+
+<!-- Icon: stopwatch beside paragraph 2 -->
+<g transform="translate(790 506)">
+  <circle cx="32" cy="38" r="22" fill="#22303f" opacity=".18"/>
+  <rect x="22" y="0" width="12" height="8" rx="2" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="25" y="7" width="6" height="5" rx="1" fill="#c96a1b"/>
+  <circle cx="28" cy="32" r="22" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="28" cy="32" r="16" fill="#dff1f7"/>
+  <line x1="28" y1="32" x2="28" y2="19" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+  <line x1="28" y1="32" x2="37" y2="32" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="28" cy="32" r="3" fill="#22303f"/>
+</g>
+
+<!-- Icon: four technology tiles beside paragraph 2 -->
+<g transform="translate(866 510)">
+  <rect x="4" y="6" width="58" height="58" rx="8" fill="#22303f" opacity=".18"/>
+  <rect x="0" y="0" width="26" height="26" rx="6" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="32" y="0" width="26" height="26" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="0" y="32" width="26" height="26" rx="6" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="32" y="32" width="26" height="26" rx="6" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="13" cy="13" r="4" fill="#ffffff"/>
+  <circle cx="45" cy="13" r="4" fill="#ffffff"/>
+  <circle cx="13" cy="45" r="4" fill="#2e7d32"/>
+  <circle cx="45" cy="45" r="4" fill="#c96a1b"/>
+</g>
+
+<!-- Icon: question bubble inside the key sentence strip -->
+<g transform="translate(150 612)">
+  <rect x="4" y="6" width="50" height="38" rx="12" fill="#22303f" opacity=".18"/>
+  <polygon points="12,34 10,50 24,37" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="0" y="0" width="50" height="38" rx="12" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M18 14 Q18 7 25 7 Q32 7 32 14 Q32 19 25 21 V25" fill="none" stroke="#c0392b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="25" cy="31" r="2.5" fill="#c0392b"/>
+</g>
+
+<!-- Texts -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">الأمان طبقات</text>
+
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="normal" fill="#152b42">Security Comes in Layers</text>
+
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="normal" fill="#225f9c">
+  <tspan x="950" dy="0">هل تساءلت يومًا ماذا يحدث في الثانية</tspan>
+  <tspan x="950" dy="40">التي تلي ضغطك على زر <tspan font-weight="bold" fill="#17457f">«تسجيل الدخول»؟</tspan></tspan>
 </text>
 
-<!-- Objective 2 -->
-<text x="950" y="794" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
-  <tspan x="950" dy="0">صِف كيف تُستخدم المصادقة، ومنها</tspan>
-  <tspan x="950" dy="40"><tspan font-weight="bold" fill="#c0392b">المصادقة متعددة العوامل،</tspan> في الخدمات الفعلية،</tspan>
-  <tspan x="950" dy="40">واشرح لماذا تُجمع <tspan font-weight="bold" fill="#17457f">تقنيات الأمان</tspan> معًا.</tspan>
+<text x="120" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="normal" fill="#152b42">
+  <tspan x="120" dy="0">Have you ever wondered what happens</tspan>
+  <tspan x="120" dy="40">in the second after you press the</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#17457f">"Log in"</tspan> button?</tspan>
 </text>
-<text x="140" y="954" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
-  <tspan x="140" dy="0">Describe how authentication, including</tspan>
-  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#c0392b">multi-factor authentication,</tspan> is used</tspan>
-  <tspan x="140" dy="40">in real services, and explain why</tspan>
-  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#17457f">security technologies</tspan> are combined.</tspan>
+
+<text x="950" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="normal" fill="#225f9c">
+  <tspan x="950" dy="0">في هذه الثانية تعمل <tspan font-weight="bold" fill="#c0392b">أربع تقنيات</tspan> معًا.</tspan>
+</text>
+
+<text x="120" y="514" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="normal" fill="#152b42">
+  <tspan x="120" dy="0">In that second, <tspan font-weight="bold" fill="#c0392b">four technologies</tspan></tspan>
+  <tspan x="120" dy="40">work together.</tspan>
+</text>
+
+<text x="935" y="634" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">لا توجد تقنية واحدة تحمينا؛ الأمان طبقات،</tspan>
+  <tspan x="935" dy="40">وكل طبقة تجيب عن سؤال مختلف.</tspan>
+</text>
+
+<text x="140" y="714" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">No single technology protects us;</tspan>
+  <tspan x="140" dy="40">security comes in layers, and each</tspan>
+  <tspan x="140" dy="40">layer answers a different question.</tspan>
+</text>
+
+<text x="312" y="1100" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" font-weight="normal" fill="#3d5a76">التشفير</text>
+
+<text x="140" y="1132" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" font-weight="normal" fill="#3d5a76">Encryption</text>
+
+<text x="965" y="1100" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" font-weight="normal" fill="#3d5a76">التوقيع الرقمي</text>
+
+<text x="700" y="1132" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" font-weight="normal" fill="#3d5a76">Digital signature</text>
+
+<text x="312" y="1180" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" font-weight="normal" fill="#3d5a76">الشهادة الرقمية</text>
+
+<text x="140" y="1212" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" font-weight="normal" fill="#3d5a76">
+  <tspan x="140" dy="0">Digital</tspan>
+  <tspan x="140" dy="32">certificate</tspan>
+</text>
+
+<text x="965" y="1180" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" font-weight="normal" fill="#3d5a76">المصادقة متعددة العوامل</text>
+
+<text x="700" y="1212" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" font-weight="normal" fill="#3d5a76">
+  <tspan x="700" dy="0">Multi-factor</tspan>
+  <tspan x="700" dy="32">authentication</tspan>
 </text>
 </svg>

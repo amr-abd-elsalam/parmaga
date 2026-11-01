@@ -1,0 +1,268 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Illustration: a website receiving its identity card from a trusted office -->
+<g>
+  <defs>
+    <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="ilBuild" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dff1f7"/>
+    </linearGradient>
+    <linearGradient id="ilBand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2f7fb5"/>
+      <stop offset="1" stop-color="#17457f"/>
+    </linearGradient>
+  </defs>
+
+  <!-- shadows on paper -->
+  <rect x="180" y="1160" width="84" height="96" rx="8" fill="#22303f" opacity=".18"/>
+  <rect x="834" y="1202" width="80" height="58" rx="10" fill="#22303f" opacity=".18"/>
+
+  <!-- sky backdrop -->
+  <rect x="105" y="746" width="870" height="274" rx="24" fill="url(#ilSky)" stroke="#9db9d6" stroke-width="2"/>
+
+  <!-- shadows in the scene -->
+  <polygon points="129,848 239,786 349,848" fill="#22303f" opacity=".18"/>
+  <rect x="159" y="852" width="160" height="118" fill="#22303f" opacity=".18"/>
+  <rect x="430" y="812" width="260" height="160" rx="16" fill="#22303f" opacity=".18"/>
+  <rect x="730" y="792" width="230" height="200" rx="16" fill="#22303f" opacity=".18"/>
+
+  <!-- sun, clouds, sparkles -->
+  <circle cx="372" cy="786" r="18" fill="#ffd24a"/>
+  <ellipse cx="398" cy="800" rx="22" ry="10" fill="#ffffff"/>
+  <ellipse cx="384" cy="794" rx="14" ry="10" fill="#ffffff"/>
+  <ellipse cx="600" cy="782" rx="28" ry="11" fill="#ffffff"/>
+  <ellipse cx="616" cy="774" rx="16" ry="11" fill="#ffffff"/>
+  <ellipse cx="586" cy="776" rx="12" ry="9" fill="#ffffff"/>
+  <ellipse cx="165" cy="778" rx="22" ry="9" fill="#ffffff"/>
+  <ellipse cx="176" cy="771" rx="13" ry="9" fill="#ffffff"/>
+  <path d="M380 932 Q380 940 388 940 Q380 940 380 948 Q380 940 372 940 Q380 940 380 932 Z" fill="#ffd24a"/>
+  <path d="M706 812 Q706 820 714 820 Q706 820 706 828 Q706 820 698 820 Q706 820 706 812 Z" fill="#ffd24a"/>
+  <path d="M548 973 Q548 980 555 980 Q548 980 548 987 Q548 980 541 980 Q548 980 548 973 Z" fill="#ffd24a"/>
+
+  <!-- ground -->
+  <rect x="121" y="990" width="838" height="12" rx="6" fill="#a9dcbe"/>
+  <path d="M366 990 L370 979 L374 990 Z" fill="#2e7d32"/>
+  <path d="M376 990 L379 983 L382 990 Z" fill="#2e7d32"/>
+  <path d="M700 990 L704 980 L708 990 Z" fill="#2e7d32"/>
+
+  <!-- official office building -->
+  <g stroke="#22303f" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="135" y="976" width="200" height="14" rx="3" fill="#e8dfd1"/>
+    <rect x="147" y="964" width="176" height="12" rx="3" fill="#e8dfd1"/>
+    <rect x="155" y="846" width="160" height="118" fill="url(#ilBuild)"/>
+    <polygon points="125,842 235,780 345,842" fill="#17457f"/>
+    <circle cx="235" cy="818" r="9" fill="#8fc9f2"/>
+    <rect x="141" y="838" width="188" height="16" rx="4" fill="#2f7fb5"/>
+    <rect x="165" y="862" width="14" height="100" fill="#ffffff"/>
+    <rect x="189" y="862" width="14" height="100" fill="#ffffff"/>
+    <rect x="267" y="862" width="14" height="100" fill="#ffffff"/>
+    <rect x="291" y="862" width="14" height="100" fill="#ffffff"/>
+    <polygon points="227,904 222,922 229,918 233,924 235,906" fill="#c0392b"/>
+    <polygon points="243,904 248,922 241,918 237,924 235,906" fill="#c0392b"/>
+    <circle cx="235" cy="884" r="24" fill="#ffd24a"/>
+    <circle cx="235" cy="884" r="16" fill="none"/>
+    <path d="M221 964 V946 A14 14 0 0 1 249 946 V964 Z" fill="#17457f"/>
+    <line x1="235" y1="780" x2="235" y2="754" fill="none"/>
+    <polygon points="235,754 262,761 235,768" fill="#2e7d32"/>
+  </g>
+  <polygon points="235,874 237.35,880.76 244.51,880.91 238.8,885.24 240.88,892.09 235,888 229.12,892.09 231.2,885.24 225.49,880.91 232.65,880.76" fill="#2e7d32"/>
+
+  <!-- identity card (middle) -->
+  <rect x="426" y="806" width="260" height="160" rx="16" fill="#ffffff"/>
+  <rect x="426" y="806" width="260" height="36" rx="16" fill="url(#ilBand)"/>
+  <rect x="426" y="824" width="260" height="18" fill="url(#ilBand)"/>
+  <rect x="446" y="818" width="96" height="8" rx="4" fill="#ffffff" opacity=".85"/>
+  <circle cx="664" cy="824" r="7" fill="#ffd24a"/>
+  <rect x="426" y="806" width="260" height="160" rx="16" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="446" y="856" width="72" height="54" rx="6" fill="#dff1f7"/>
+  <rect x="447" y="857" width="70" height="12" rx="5" fill="#17457f"/>
+  <circle cx="455" cy="863" r="2.5" fill="#ffd24a"/>
+  <circle cx="463" cy="863" r="2.5" fill="#a9dcbe"/>
+  <circle cx="462" cy="887" r="8" fill="#4fc3e8"/>
+  <rect x="474" y="881" width="34" height="5" rx="2.5" fill="#8fc9f2"/>
+  <rect x="474" y="892" width="26" height="5" rx="2.5" fill="#8fc9f2"/>
+  <rect x="446" y="856" width="72" height="54" rx="6" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="528" y="879" width="20" height="8" rx="3" fill="#17457f"/>
+  <rect x="534" y="873" width="8" height="20" rx="3" fill="#17457f"/>
+  <g stroke="#22303f" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="612" y="885" width="7" height="11" rx="2" fill="#ffd24a"/>
+    <rect x="624" y="885" width="7" height="8" rx="2" fill="#ffd24a"/>
+    <rect x="584" y="879" width="50" height="8" rx="3" fill="#ffd24a"/>
+    <circle cx="572" cy="883" r="13" fill="#ffd24a"/>
+    <circle cx="572" cy="883" r="4.5" fill="#ffffff"/>
+    <circle cx="636" cy="936" r="19" fill="#2e7d32"/>
+  </g>
+  <rect x="446" y="928" width="118" height="7" rx="3.5" fill="#e8dfd1"/>
+  <rect x="446" y="942" width="80" height="7" rx="3.5" fill="#e8dfd1"/>
+  <circle cx="636" cy="936" r="13" fill="none" stroke="#a9dcbe" stroke-width="2"/>
+  <path d="M629 936 L634 941 L644 930" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- website window (right) -->
+  <rect x="726" y="786" width="230" height="200" rx="16" fill="#ffffff"/>
+  <rect x="726" y="786" width="230" height="36" rx="16" fill="#17457f"/>
+  <rect x="726" y="804" width="230" height="18" fill="#17457f"/>
+  <circle cx="744" cy="804" r="5" fill="#ffd24a"/>
+  <circle cx="760" cy="804" r="5" fill="#a9dcbe"/>
+  <circle cx="776" cy="804" r="5" fill="#ffffff"/>
+  <rect x="790" y="795" width="152" height="18" rx="9" fill="#dff1f7"/>
+  <path d="M800 803 V800 A5 5 0 0 1 810 800 V803" fill="none" stroke="#2e7d32" stroke-width="2" stroke-linecap="round"/>
+  <rect x="798" y="802" width="14" height="9" rx="2" fill="#2e7d32"/>
+  <rect x="818" y="801" width="90" height="6" rx="3" fill="#8fc9f2"/>
+  <rect x="744" y="838" width="194" height="52" rx="8" fill="#8fc9f2"/>
+  <circle cx="772" cy="864" r="16" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="772" cy="864" rx="7" ry="16" fill="none" stroke="#22303f" stroke-width="2"/>
+  <line x1="756" y1="864" x2="788" y2="864" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+  <rect x="800" y="852" width="110" height="8" rx="4" fill="#ffffff"/>
+  <rect x="800" y="868" width="78" height="8" rx="4" fill="#ffffff" opacity=".85"/>
+  <rect x="744" y="904" width="150" height="8" rx="4" fill="#e8dfd1"/>
+  <rect x="744" y="920" width="120" height="8" rx="4" fill="#e8dfd1"/>
+  <rect x="744" y="938" width="78" height="34" rx="6" fill="#dff1f7"/>
+  <rect x="832" y="938" width="60" height="34" rx="6" fill="#f0c48c"/>
+  <rect x="726" y="786" width="230" height="200" rx="16" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="922" cy="955" r="15" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M915 955 L920 960 L929 950" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- the window holds the card -->
+  <g stroke="#22303f" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M728 864 C714 864 702 866 694 869 L696 880 C704 877 714 876 728 876 Z" fill="#17457f"/>
+    <path d="M728 924 C714 924 702 926 694 929 L696 940 C704 937 714 936 728 936 Z" fill="#17457f"/>
+    <circle cx="688" cy="874" r="10" fill="#ffd24a"/>
+    <circle cx="688" cy="934" r="10" fill="#ffd24a"/>
+  </g>
+
+  <!-- corner drawing: stamped documents -->
+  <g stroke="#22303f" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="160" y="1166" width="84" height="84" rx="8" fill="#dff1f7"/>
+    <rect x="176" y="1154" width="84" height="96" rx="8" fill="#ffffff"/>
+  </g>
+  <rect x="177" y="1155" width="82" height="14" rx="7" fill="#2f7fb5"/>
+  <rect x="190" y="1180" width="56" height="6" rx="3" fill="#8fc9f2"/>
+  <rect x="190" y="1194" width="44" height="6" rx="3" fill="#8fc9f2"/>
+  <rect x="190" y="1208" width="30" height="6" rx="3" fill="#e8dfd1"/>
+  <g stroke="#22303f" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+    <polygon points="238,1242 233,1260 240,1256 244,1262 246,1246" fill="#c0392b"/>
+    <polygon points="254,1242 259,1260 252,1256 248,1262 246,1246" fill="#c0392b"/>
+    <circle cx="246" cy="1232" r="15" fill="#ffd24a"/>
+  </g>
+  <circle cx="246" cy="1232" r="7" fill="#2e7d32"/>
+
+  <!-- corner drawing: padlock -->
+  <g stroke="#22303f" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M844 1200 V1180 C844 1146 896 1146 896 1180 V1200 H884 V1180 C884 1162 856 1162 856 1180 V1200 Z" fill="#7f95ab"/>
+    <rect x="830" y="1196" width="80" height="58" rx="10" fill="#2e7d32"/>
+  </g>
+  <rect x="840" y="1204" width="60" height="6" rx="3" fill="#a9dcbe"/>
+  <circle cx="870" cy="1224" r="7" fill="#ffd24a"/>
+  <rect x="867" y="1226" width="6" height="16" rx="3" fill="#ffd24a"/>
+  <path d="M930 1164 Q930 1172 938 1172 Q930 1172 930 1180 Q930 1172 922 1172 Q930 1172 930 1164 Z" fill="#ffd24a"/>
+  <path d="M812 1174 Q812 1180 818 1180 Q812 1180 812 1186 Q812 1180 806 1180 Q812 1180 812 1174 Z" fill="#ffd24a"/>
+
+  <!-- connector arrows -->
+  <line x1="352" y1="890" x2="404" y2="890" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="402,880 418,890 402,900" fill="#c0392b"/>
+  <line x1="235" y1="1028" x2="235" y2="1018" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="227,1020 235,1006 243,1020" fill="#c0392b"/>
+  <line x1="495" y1="1148" x2="495" y2="986" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="487,988 495,972 503,988" fill="#c0392b"/>
+  <line x1="600" y1="1028" x2="600" y2="986" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="592,988 600,972 608,988" fill="#c0392b"/>
+</g>
+
+<!-- Icon: certificate document -->
+<g transform="translate(176 216)">
+  <rect x="8" y="2" width="44" height="56" rx="6" fill="#ffffff"/>
+  <rect x="8" y="2" width="44" height="12" rx="6" fill="#2f7fb5"/>
+  <rect x="8" y="2" width="44" height="56" rx="6" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="16" y="22" width="28" height="5" rx="2.5" fill="#8fc9f2"/>
+  <rect x="16" y="32" width="20" height="5" rx="2.5" fill="#8fc9f2"/>
+  <polygon points="41,58 38,64 44,62 47,64 48,59" fill="#c0392b"/>
+  <circle cx="46" cy="50" r="11" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="46" cy="50" r="4.5" fill="#2e7d32"/>
+</g>
+
+<!-- Icon: key -->
+<g transform="translate(836 356)">
+  <g stroke="#22303f" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="44" y="33" width="6" height="11" rx="2" fill="#ffd24a"/>
+    <rect x="53" y="33" width="6" height="8" rx="2" fill="#ffd24a"/>
+    <rect x="28" y="26" width="32" height="9" rx="3" fill="#ffd24a"/>
+    <circle cx="18" cy="30" r="14" fill="#ffd24a"/>
+    <circle cx="18" cy="30" r="5" fill="#ffffff"/>
+  </g>
+</g>
+
+<!-- Icon: shield -->
+<g transform="translate(176 494)">
+  <path d="M32 4 L56 13 L56 30 C56 46 45 55 32 60 C19 55 8 46 8 30 L8 13 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M21 32 L29 40 L44 23" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Emotion face: smile -->
+<g transform="translate(875 662)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Titles -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">إنت مين يا موقع؟</text>
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" fill="#152b42">Who Are You, Website?</text>
+
+<!-- Paragraph 1 -->
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">الشهادة الرقمية</tspan> Digital certificate:</tspan>
+  <tspan x="950" dy="40">وثيقة إلكترونية تربط <tspan font-weight="bold" fill="#17457f">اسم نطاق</tspan> بمفتاح عام،</tspan>
+  <tspan x="950" dy="40">وتوقّعها جهة موثوقة.</tspan>
+</text>
+<text x="120" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">Digital certificate:</tspan> an electronic</tspan>
+  <tspan x="120" dy="40">document that links a <tspan font-weight="bold" fill="#17457f">domain name</tspan> to a</tspan>
+  <tspan x="120" dy="40">public key, signed by a trusted authority.</tspan>
+</text>
+
+<!-- Paragraph 2 -->
+<text x="950" y="514" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">جهة إصدار الشهادات CA (Certificate Authority):</tspan>
+  <tspan x="950" dy="40">جهة <tspan font-weight="bold" fill="#17457f">يثق بها المتصفح،</tspan> تتحقق من صاحب النطاق</tspan>
+  <tspan x="950" dy="40">ثم توقّع شهادته.</tspan>
+</text>
+<text x="120" y="634" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Certificate authority (CA): an organization</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#17457f">the browser trusts;</tspan> it checks the domain</tspan>
+  <tspan x="120" dy="40">owner and then signs their certificate.</tspan>
+</text>
+
+<!-- Illustration labels -->
+<text x="395" y="1074" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">جهة إصدار الشهادات</text>
+<text x="120" y="1114" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Certificate authority</text>
+<text x="712" y="1194" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">الشهادة: بطاقة هوية الموقع</text>
+<text x="330" y="1234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Certificate: the site's ID card</text>
+<text x="950" y="1074" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">اسم النطاق + المفتاح العام</text>
+<text x="565" y="1114" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Domain name + public key</text>
+</svg>
