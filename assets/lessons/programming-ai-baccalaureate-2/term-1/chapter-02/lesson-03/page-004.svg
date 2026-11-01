@@ -1,0 +1,268 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Outlined box: one group (shadow, frame, accent) -->
+<g>
+  <rect x="109" y="448" width="870" height="288" rx="16" fill="#22303f" opacity=".12"/>
+  <rect x="105" y="442" width="870" height="288" rx="16" fill="#fffdf7" stroke="#9db9d6" stroke-width="2"/>
+  <rect x="961" y="458" width="6" height="256" rx="3" fill="#2f7fb5"/>
+</g>
+
+<!-- Illustration: flooded living room, one group -->
+<g>
+  <defs>
+    <linearGradient id="ilWall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dff1f7"/>
+    </linearGradient>
+    <linearGradient id="ilFloor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8dfd1"/>
+      <stop offset="1" stop-color="#f0c48c"/>
+    </linearGradient>
+    <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#8fc9f2"/>
+    </linearGradient>
+    <linearGradient id="ilWater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fc9f2"/>
+      <stop offset="1" stop-color="#2f7fb5"/>
+    </linearGradient>
+  </defs>
+  <rect x="109" y="768" width="862" height="410" rx="16" fill="#22303f" opacity=".18"/>
+  <rect x="105" y="762" width="862" height="410" rx="16" fill="url(#ilWall)" stroke="#22303f" stroke-width="2.5"/>
+  <!-- floor -->
+  <path d="M107 1052 H965 V1156 Q965 1170 951 1170 H121 Q107 1170 107 1156 Z" fill="url(#ilFloor)"/>
+  <path d="M107 1090 H965 M107 1132 H965 M300 1052 V1090 M620 1052 V1090 M460 1090 V1132 M820 1090 V1132 M240 1132 V1170 M700 1132 V1170" fill="none" stroke="#b07a45" stroke-width="2.5" opacity=".35"/>
+  <rect x="107" y="1040" width="858" height="12" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <!-- window with curtains -->
+  <rect x="380" y="798" width="190" height="140" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="392" y="810" width="166" height="116" fill="url(#ilSky)" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M410 860 Q 412 846 428 848 Q 436 836 452 844 Q 466 842 466 856 Q 470 866 456 866 H418 Q 406 866 410 860 Z" fill="#ffffff"/>
+  <path d="M475 810 V926 M392 868 H558" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="372" y="938" width="206" height="10" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M362 790 H404 Q 396 860 408 960 H376 Q 360 880 362 790 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M546 790 H588 Q 590 880 574 960 H542 Q 554 860 546 790 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="352" y="784" width="246" height="8" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <!-- picture frame -->
+  <rect x="250" y="812" width="80" height="66" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="260" y="822" width="60" height="46" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="260,868 282,842 296,856 306,846 320,868" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="308" cy="832" r="5" fill="#ffd24a"/>
+  <!-- pipe on the left wall -->
+  <rect x="148" y="764" width="28" height="288" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="154" y="768" width="5" height="280" fill="#2f7fb5"/>
+  <rect x="142" y="792" width="40" height="12" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="142" y="936" width="40" height="12" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M150 860 L162 870 L154 880 L168 890 L160 900" fill="none" stroke="#dff1f7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- main valve wheel near the floor -->
+  <rect x="140" y="988" width="44" height="24" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="162" cy="976" r="5" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="186" cy="1000" r="5" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="162" cy="1024" r="5" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="138" cy="1000" r="5" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="162" cy="1000" r="22" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="162" cy="1000" r="13" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="159" y="978" width="6" height="44" fill="#c0392b"/>
+  <rect x="140" y="997" width="44" height="6" fill="#c0392b"/>
+  <circle cx="162" cy="1000" r="6" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <!-- sofa -->
+  <rect x="340" y="950" width="270" height="62" rx="18" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="356" y="962" width="114" height="44" rx="12" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="480" y="962" width="114" height="44" rx="12" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="330" y="996" width="290" height="44" rx="12" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="318" y="972" width="32" height="74" rx="14" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="600" y="972" width="32" height="74" rx="14" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="344" y="1040" width="10" height="18" fill="#3a2411"/>
+  <rect x="596" y="1040" width="10" height="18" fill="#3a2411"/>
+  <!-- plant -->
+  <path d="M658 1000 Q 626 964 636 932 Q 662 962 658 1000 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M658 1000 Q 692 960 686 928 Q 656 962 658 1000 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M658 1000 Q 654 950 660 914 Q 672 956 658 1000 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="636,1000 680,1000 674,1048 642,1048" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- submerged rug and large puddle -->
+  <ellipse cx="470" cy="1104" rx="210" ry="28" fill="#c96a1b" opacity=".35"/>
+  <path d="M112 1078 Q 150 1058 230 1062 Q 330 1050 450 1060 Q 580 1052 700 1066 Q 800 1070 812 1096 Q 820 1126 740 1140 Q 600 1160 430 1154 Q 260 1160 160 1146 Q 110 1136 112 1110 Z" fill="url(#ilWater)" stroke="#2f7fb5" stroke-width="2.5" opacity=".85"/>
+  <rect x="340" y="1064" width="270" height="16" rx="8" fill="#17457f" opacity=".18"/>
+  <!-- water from the crack -->
+  <path d="M174 868 Q 200 852 222 868" fill="none" stroke="#4fc3e8" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M174 878 Q 206 874 220 898" fill="none" stroke="#4fc3e8" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M174 884 Q 210 920 204 1066 L 192 1066 Q 196 930 174 896 Z" fill="#4fc3e8" opacity=".85"/>
+  <path d="M226 907 C 232 917, 235 922, 235 926 A 9 9 0 0 1 217 926 C 217 922, 220 917, 226 907 Z" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M240 953 C 246 963, 249 968, 249 972 A 9 9 0 0 1 231 972 C 231 968, 234 963, 240 953 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M226 999 C 232 1009, 235 1014, 235 1018 A 9 9 0 0 1 217 1018 C 217 1014, 220 1009, 226 999 Z" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="182" cy="1056" r="4" fill="#4fc3e8"/>
+  <circle cx="214" cy="1052" r="4" fill="#4fc3e8"/>
+  <circle cx="174" cy="1066" r="4" fill="#4fc3e8"/>
+  <circle cx="222" cy="1064" r="4" fill="#4fc3e8"/>
+  <!-- ripples -->
+  <ellipse cx="198" cy="1072" rx="26" ry="5" fill="none" stroke="#ffffff" stroke-width="2.5" opacity=".6"/>
+  <ellipse cx="198" cy="1074" rx="44" ry="9" fill="none" stroke="#ffffff" stroke-width="2.5" opacity=".6"/>
+  <ellipse cx="300" cy="1106" rx="56" ry="7" fill="none" stroke="#ffffff" stroke-width="2.5" opacity=".6"/>
+  <ellipse cx="540" cy="1126" rx="100" ry="9" fill="none" stroke="#ffffff" stroke-width="2.5" opacity=".6"/>
+  <!-- yellow mop leaning on the right wall -->
+  <polygon points="758,878 768,880 744,1066 734,1064" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M716 1060 H762 L766 1072 H712 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="712,1072 766,1072 780,1112 698,1112" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M716 1080 L708 1110 M730 1080 L726 1110 M748 1080 L752 1110 M762 1080 L770 1110" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <ellipse cx="739" cy="1116" rx="50" ry="6" fill="none" stroke="#ffffff" stroke-width="2.5" opacity=".6"/>
+  <!-- doorway -->
+  <rect x="790" y="804" width="156" height="248" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="802" y="816" width="132" height="236" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="803" y="1020" width="130" height="31" fill="#e8dfd1"/>
+  <polygon points="946,804 962,794 962,1062 946,1052" fill="#b07a45" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="955" cy="934" r="4" fill="#ffd24a"/>
+  <rect x="790" y="1048" width="156" height="8" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <!-- thinking student -->
+  <rect x="841" y="992" width="20" height="58" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="869" y="992" width="20" height="58" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="849" cy="1052" rx="14" ry="7" fill="#22303f"/>
+  <ellipse cx="881" cy="1052" rx="14" ry="7" fill="#22303f"/>
+  <rect x="858" y="888" width="14" height="18" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M834 916 Q 836 904 852 902 L 878 902 Q 894 904 896 916 L 900 1000 Q 865 1008 830 1000 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M852 902 L865 918 L878 902 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="839" cy="868" r="6" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="891" cy="868" r="6" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="865" cy="866" r="26" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M839 864 Q 838 836 865 834 Q 892 836 891 864 Q 884 850 870 848 Q 852 846 839 864 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="855" cy="864" r="3" fill="#22303f"/>
+  <circle cx="873" cy="864" r="3" fill="#22303f"/>
+  <path d="M849 856 L860 855 M869 853 L880 849 M858 882 L868 880" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="834,914 848,918 846,958 832,960" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M832 948 L886 954 Q 892 962 884 968 L834 964 Q 826 956 832 948 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="888" cy="960" r="7" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M890 912 Q 902 916 902 930 L 894 962 Q 884 966 878 958 L 884 920 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M880 962 Q 874 966 870 958 L 864 904 Q 870 896 878 900 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="869" cy="896" r="9" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <!-- thought cloud with three equal options -->
+  <circle cx="824" cy="848" r="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="806" cy="858" r="7" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M652 842 Q 632 818 660 802 Q 664 776 698 782 Q 718 762 750 778 Q 784 770 792 798 Q 816 814 794 838 Q 790 860 756 854 Q 734 870 704 858 Q 672 866 652 842 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <g transform="translate(680 816)">
+    <polygon points="4,-22 9,-21 2,8 -3,7" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="-12,8 12,8 16,20 -16,20" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(722 816)">
+    <circle cx="0" cy="0" r="16" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="9" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="-2" y="-15" width="4" height="30" fill="#c0392b"/>
+    <rect x="-15" y="-2" width="30" height="4" fill="#c0392b"/>
+    <circle cx="0" cy="0" r="4" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(766 820) rotate(-40)">
+    <rect x="-4" y="-6" width="8" height="26" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M -9 -4 A 11 11 0 0 1 -6 -21 L -3 -13 L 3 -13 L 6 -21 A 11 11 0 0 1 9 -4 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+</g>
+
+<!-- Icon: water drop beside the title -->
+<g transform="translate(126 82)">
+  <path d="M28 2 C 40 20, 50 32, 50 40 A 22 22 0 0 1 6 40 C 6 32, 16 20, 28 2 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="19" cy="40" rx="4" ry="7" fill="#ffffff"/>
+</g>
+
+<!-- Icon: cracked pipe beside the title -->
+<g transform="translate(898 86)">
+  <rect x="0" y="12" width="56" height="18" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="20" y="6" width="16" height="30" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M8 16 L13 21 L9 26" fill="none" stroke="#dff1f7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M44 34 C 48 40, 50 43, 50 46 A 6 6 0 0 1 38 46 C 38 43, 40 40, 44 34 Z" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: flooded house beside the paragraph -->
+<g transform="translate(680 316)">
+  <rect x="10" y="28" width="44" height="30" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="4,30 32,6 60,30" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="27" y="40" width="10" height="18" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="14" y="34" width="9" height="9" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M2 60 Q 10 54 18 60 Q 26 66 34 60 Q 42 54 50 60 Q 58 66 62 60" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Face: surprise beside the paragraph -->
+<g transform="translate(830 350)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="0" cy="10" r="5" fill="#22303f"/>
+</g>
+
+<!-- Icon: pencil inside the card -->
+<g transform="translate(748 640)">
+  <rect x="-8" y="20" width="8" height="16" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="0" y="20" width="40" height="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="40,20 56,28 40,36" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="51,25.5 56,28 51,30.5" fill="#22303f"/>
+</g>
+
+<!-- Face: thinking inside the card -->
+<g transform="translate(860 668)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Bottom band: light bulb -->
+<g transform="translate(418 1200)">
+  <circle cx="22" cy="17" r="14" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="15" y="29" width="14" height="10" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M14 14 Q 16 8 22 7" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Bottom band: water drop -->
+<g transform="translate(518 1198)">
+  <path d="M22 2 C 31 16, 38 25, 38 31 A 16 16 0 0 1 6 31 C 6 25, 13 16, 22 2 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="16" cy="31" rx="3" ry="5" fill="#ffffff"/>
+</g>
+
+<!-- Bottom band: star -->
+<g transform="translate(618 1200)">
+  <polygon points="22,2 26.7,15.5 41,15.8 29.6,24.5 33.8,38.2 22,30 10.2,38.2 14.4,24.5 3,15.8 17.3,15.5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Texts -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">قصة الماسورة</text>
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="normal" fill="#152b42">The Burst Pipe Story</text>
+
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">رجعت البيت فوجدت الماء <tspan font-weight="bold" fill="#17457f">يغرق</tspan> الصالة،</tspan>
+  <tspan x="950" dy="40"><tspan font-weight="bold" fill="#c0392b">والماسورة</tspan> ما زالت تنقّط.</tspan>
+</text>
+<text x="120" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">You come home and find water</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#17457f">flooding</tspan> the living room,</tspan>
+  <tspan x="120" dy="40">and the <tspan font-weight="bold" fill="#c0392b">pipe</tspan> is still dripping.</tspan>
+</text>
+
+<text x="935" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">توقّف وفكّر</text>
+<text x="140" y="514" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">PAUSE &amp; THINK</text>
+<text x="935" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">ماذا ستفعل أولًا: تمسح الأرض،</tspan>
+  <tspan x="935" dy="40">أم تغلق المحبس، أم تصلّح الماسورة؟ ولماذا؟</tspan>
+</text>
+<text x="140" y="634" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">What will you do first:</tspan>
+  <tspan x="140" dy="40">mop the floor, close the main valve,</tspan>
+  <tspan x="140" dy="40">or fix the pipe? Why?</tspan>
+</text>
+</svg>

@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Illustration: Risk evaluation matrix (one group: shadows, shapes, connectors) -->
+<g>
+  <!-- shadows -->
+  <rect x="394" y="436" width="558" height="294" rx="12" fill="#22303f" opacity=".18"/>
+  <g transform="translate(120 344)">
+    <polygon points="32,2 62,54 2,54" fill="#22303f" opacity=".18"/>
+  </g>
+  <g transform="translate(904 344)">
+    <path d="M32 2 L58 12 V30 C58 46 46 56 32 62 C18 56 6 46 6 30 V12 Z" fill="#22303f" opacity=".18"/>
+  </g>
+  <g transform="translate(132 796)">
+    <circle cx="30" cy="30" r="22" fill="#22303f" opacity=".18"/>
+    <polygon points="44,50 50,44 70,64 64,70" fill="#22303f" opacity=".18"/>
+  </g>
+
+  <!-- matrix cells -->
+  <path d="M390 442 Q390 430 402 430 H576 V528 H390 Z" fill="#ffd24a"/>
+  <rect x="576" y="430" width="186" height="98" fill="#f0c48c"/>
+  <path d="M762 430 H936 Q948 430 948 442 V528 H762 Z" fill="#c0392b"/>
+  <rect x="390" y="528" width="186" height="98" fill="#a9dcbe"/>
+  <rect x="576" y="528" width="186" height="98" fill="#ffd24a"/>
+  <rect x="762" y="528" width="186" height="98" fill="#f0c48c"/>
+  <path d="M390 626 H576 V724 H402 Q390 724 390 712 Z" fill="#dff1f7"/>
+  <rect x="576" y="626" width="186" height="98" fill="#a9dcbe"/>
+  <path d="M762 626 H948 V712 Q948 724 936 724 H762 Z" fill="#ffd24a"/>
+
+  <!-- grid lines and frame -->
+  <path d="M576 430 V724 M762 430 V724 M390 528 H948 M390 626 H948" fill="none" stroke="#17457f" stroke-width="2"/>
+  <rect x="390" y="430" width="558" height="294" rx="12" fill="none" stroke="#17457f" stroke-width="2.5"/>
+
+  <!-- top-left: warning triangle -->
+  <g transform="translate(116 338)">
+    <polygon points="32,2 62,54 2,54" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="29" y="18" width="6" height="20" rx="3" fill="#22303f"/>
+    <circle cx="32" cy="46" r="3.5" fill="#22303f"/>
+  </g>
+
+  <!-- top-right: shield -->
+  <g transform="translate(900 338)">
+    <path d="M32 2 L58 12 V30 C58 46 46 56 32 62 C18 56 6 46 6 30 V12 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M20 31 L29 40 L45 22" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- bottom-left: magnifier over a mini matrix -->
+  <g transform="translate(128 790)">
+    <polygon points="44,50 50,44 70,64 64,70" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="30" cy="30" r="22" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="19" y="19" width="11" height="11" fill="#ffd24a"/>
+    <rect x="30" y="19" width="11" height="11" fill="#c0392b"/>
+    <rect x="19" y="30" width="11" height="11" fill="#a9dcbe"/>
+    <rect x="30" y="30" width="11" height="11" fill="#ffd24a"/>
+  </g>
+
+  <!-- axes (connectors) -->
+  <path d="M380 734 V420 M380 734 H956" fill="none" stroke="#17457f" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="380,406 372,421 388,421" fill="#17457f"/>
+  <polygon points="970,734 955,726 955,742" fill="#17457f"/>
+</g>
+
+<!-- Icon: light bulb beside the first paragraph -->
+<g>
+  <g transform="translate(826 252)">
+    <rect x="19" y="40" width="18" height="14" rx="3" fill="#22303f" opacity=".18"/>
+    <circle cx="28" cy="24" r="20" fill="#22303f" opacity=".18"/>
+  </g>
+  <g transform="translate(822 246)">
+    <rect x="19" y="40" width="18" height="14" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M19 47 H37" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="28" cy="24" r="20" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M19 20 Q21 12 29 10" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</g>
+
+<!-- Icon: lock -->
+<g>
+  <g transform="translate(418 1200)">
+    <path d="M14 26 V18 A14 14 0 0 1 42 18 V26 H35 V18 A7 7 0 0 0 21 18 V26 Z" fill="#22303f" opacity=".18"/>
+    <rect x="8" y="24" width="40" height="30" rx="6" fill="#22303f" opacity=".18"/>
+  </g>
+  <g transform="translate(414 1194)">
+    <path d="M14 26 V18 A14 14 0 0 1 42 18 V26 H35 V18 A7 7 0 0 0 21 18 V26 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="8" y="24" width="40" height="30" rx="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="28" cy="36" r="4" fill="#22303f"/>
+    <rect x="26.5" y="38" width="3" height="8" rx="1.5" fill="#22303f"/>
+  </g>
+</g>
+
+<!-- Icon: star -->
+<g>
+  <g transform="translate(516 1200)">
+    <polygon points="28,2 34.5,19.1 52.7,20 38.5,31.4 43.3,49 28,39 12.7,49 17.5,31.4 3.3,20 21.5,19.1" fill="#22303f" opacity=".18"/>
+  </g>
+  <g transform="translate(512 1194)">
+    <polygon points="28,2 34.5,19.1 52.7,20 38.5,31.4 43.3,49 28,39 12.7,49 17.5,31.4 3.3,20 21.5,19.1" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+</g>
+
+<!-- Icon: check badge -->
+<g>
+  <g transform="translate(614 1200)">
+    <circle cx="28" cy="28" r="25" fill="#22303f" opacity=".18"/>
+  </g>
+  <g transform="translate(610 1194)">
+    <circle cx="28" cy="28" r="25" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M16 29 L25 38 L41 20" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</g>
+
+<!-- Paragraph 1 -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">المصفوفة</tspan> هي <tspan font-weight="bold" fill="#17457f">المعادلة</tspan> نفسها مرسومة:</tspan>
+  <tspan x="950" dy="40">التأثير على محور، والاحتمالية على محور.</tspan>
+</text>
+<text x="120" y="234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">The <tspan font-weight="bold" fill="#c0392b">matrix</tspan> is the same <tspan font-weight="bold" fill="#17457f">formula</tspan> drawn:</tspan>
+  <tspan x="120" dy="40">impact on one axis,</tspan>
+  <tspan x="120" dy="40">likelihood on the other.</tspan>
+</text>
+
+<!-- Illustration labels: formula -->
+<text x="864" y="372" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c"><tspan font-weight="bold" fill="#c0392b">الخطر</tspan><tspan> = التأثير × الاحتمالية</tspan></text>
+<text x="462" y="406" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42"><tspan font-weight="bold" fill="#c0392b">Risk</tspan><tspan> = Impact × Likelihood</tspan></text>
+
+<!-- Illustration labels: impact axis -->
+<text x="236" y="570" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">التأثير</text>
+<text x="120" y="608" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">Impact</text>
+
+<!-- Illustration labels: row labels -->
+<text x="360" y="472" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">مرتفع</text>
+<text x="252" y="502" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">High</text>
+<text x="360" y="570" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">متوسط</text>
+<text x="252" y="600" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">Medium</text>
+<text x="360" y="668" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">منخفض</text>
+<text x="252" y="698" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">Low</text>
+
+<!-- Illustration labels: top row -->
+<text x="560" y="472" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">متوسط</text>
+<text x="406" y="502" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">Medium</text>
+<text x="746" y="472" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">مرتفع</text>
+<text x="592" y="502" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">High</text>
+<text x="932" y="472" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" font-weight="bold" fill="#ffffff">حرج</text>
+<text x="778" y="502" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" font-weight="bold" fill="#ffffff">Critical</text>
+
+<!-- Illustration labels: middle row -->
+<text x="560" y="570" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">منخفض</text>
+<text x="406" y="600" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">Low</text>
+<text x="746" y="570" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">متوسط</text>
+<text x="592" y="600" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">Medium</text>
+<text x="932" y="570" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">مرتفع</text>
+<text x="778" y="600" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">High</text>
+
+<!-- Illustration labels: bottom row -->
+<text x="560" y="668" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">منخفض جدًا</text>
+<text x="406" y="698" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">Very Low</text>
+<text x="746" y="668" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">منخفض</text>
+<text x="592" y="698" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">Low</text>
+<text x="932" y="668" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">متوسط</text>
+<text x="778" y="698" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">Medium</text>
+
+<!-- Illustration labels: column labels -->
+<text x="521" y="776" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">منخفض</text>
+<text x="461" y="806" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">Low</text>
+<text x="705" y="776" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">متوسط</text>
+<text x="625" y="806" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">Medium</text>
+<text x="887" y="776" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#225f9c">مرتفع</text>
+<text x="827" y="806" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#152b42">High</text>
+
+<!-- Illustration labels: likelihood axis -->
+<text x="860" y="850" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">الاحتمالية</text>
+<text x="480" y="850" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">Likelihood</text>
+
+<!-- Caption -->
+<text x="950" y="914" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">مصفوفة تقييم المخاطر</text>
+<text x="120" y="954" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">Risk Evaluation Matrix</text>
+
+<!-- Paragraph 2 -->
+<text x="950" y="1034" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">اقرأها: الخانة الحمراء <tspan font-weight="bold" fill="#c0392b">«حرج»</tspan> حيث يلتقي</tspan>
+  <tspan x="950" dy="40"><tspan font-weight="bold" fill="#17457f">التأثير العالي</tspan> بالاحتمالية العالية.</tspan>
+</text>
+<text x="120" y="1114" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Read it: the red <tspan font-weight="bold" fill="#c0392b">"Critical"</tspan> cell is</tspan>
+  <tspan x="120" dy="40">where <tspan font-weight="bold" fill="#17457f">high impact</tspan> meets high likelihood.</tspan>
+</text>
+</svg>

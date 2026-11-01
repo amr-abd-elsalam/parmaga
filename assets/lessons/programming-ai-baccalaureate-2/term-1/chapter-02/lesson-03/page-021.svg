@@ -1,0 +1,258 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilFire" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#c0392b"/>
+    <stop offset="1" stop-color="#c96a1b"/>
+  </linearGradient>
+  <linearGradient id="ilFlameMid" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#c96a1b"/>
+    <stop offset="1" stop-color="#ffd24a"/>
+  </linearGradient>
+  <radialGradient id="ilGlow" cx=".5" cy=".5" r=".5">
+    <stop offset="0" stop-color="#ffd24a"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </radialGradient>
+  <linearGradient id="ilBin" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8fc9f2"/>
+    <stop offset="1" stop-color="#2f7fb5"/>
+  </linearGradient>
+  <linearGradient id="ilCurtain" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#8fc9f2"/>
+  </linearGradient>
+  <linearGradient id="ilShield" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+</defs>
+
+<!-- Info card: shadow, fill, accent bar in one group -->
+<g>
+  <rect x="109" y="448" width="870" height="288" rx="16" fill="#22303f" opacity=".12"/>
+  <rect x="105" y="442" width="870" height="288" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+  <rect x="961" y="458" width="6" height="256" rx="3" fill="#2f7fb5"/>
+</g>
+
+<!-- Main illustration: incident vs risk -->
+<g>
+  <rect x="129" y="776" width="390" height="240" rx="18" fill="#22303f" opacity=".18"/>
+  <rect x="569" y="776" width="390" height="240" rx="18" fill="#22303f" opacity=".18"/>
+  <rect x="125" y="770" width="390" height="240" rx="18" fill="#ffffff"/>
+  <rect x="565" y="770" width="390" height="240" rx="18" fill="#ffffff"/>
+  <path d="M125 962 H515 V992 Q515 1010 497 1010 H143 Q125 1010 125 992 Z" fill="#e8dfd1"/>
+  <path d="M565 962 H955 V992 Q955 1010 937 1010 H583 Q565 1010 565 992 Z" fill="#e8dfd1"/>
+  <!-- Right panel: fire in a wastebasket -->
+  <ellipse cx="760" cy="852" rx="120" ry="72" fill="url(#ilGlow)" opacity=".35"/>
+  <circle cx="836" cy="820" r="9" fill="#7f95ab" opacity=".35"/>
+  <circle cx="848" cy="804" r="11" fill="#7f95ab" opacity=".35"/>
+  <circle cx="862" cy="792" r="8" fill="#7f95ab" opacity=".35"/>
+  <path d="M708 892 C 690 860, 712 838, 722 806 C 734 832, 744 826, 750 790 C 764 822, 778 816, 790 798 C 800 830, 830 852, 812 892 Z" fill="url(#ilFire)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M722 892 C 712 868, 730 852, 738 830 C 748 850, 758 846, 764 822 C 774 848, 792 860, 798 892 Z" fill="url(#ilFlameMid)"/>
+  <path d="M738 892 C 732 874, 746 866, 750 850 C 758 864, 766 862, 772 852 C 778 870, 786 878, 782 892 Z" fill="#ffd24a"/>
+  <circle cx="706" cy="812" r="3.5" fill="#ffd24a"/>
+  <circle cx="816" cy="806" r="3.5" fill="#ffd24a"/>
+  <circle cx="730" cy="786" r="3.5" fill="#ffd24a"/>
+  <polygon points="714,890 732,876 742,890" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="784,890 796,872 810,890" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="704,900 816,900 802,988 718,988" fill="url(#ilBin)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="696" y="888" width="128" height="16" rx="6" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="738" y1="912" x2="741" y2="976" stroke="#17457f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="760" y1="912" x2="760" y2="976" stroke="#17457f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="782" y1="912" x2="779" y2="976" stroke="#17457f" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Left panel: socket, bare wire, sparks, curtain -->
+  <rect x="148" y="860" width="54" height="72" rx="10" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="163" y="880" width="6" height="16" rx="3" fill="#22303f"/>
+  <rect x="181" y="880" width="6" height="16" rx="3" fill="#22303f"/>
+  <path d="M202 894 C 242 894, 250 958, 292 954 C 324 950, 332 912, 348 904 L 352 916 C 338 922, 328 964, 292 966 C 240 970, 236 906, 202 906 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="380" cy="894" rx="34" ry="30" fill="url(#ilGlow)" opacity=".6"/>
+  <line x1="351" y1="906" x2="366" y2="898" stroke="#c96a1b" stroke-width="3" stroke-linecap="round"/>
+  <line x1="352" y1="910" x2="368" y2="910" stroke="#c96a1b" stroke-width="3" stroke-linecap="round"/>
+  <line x1="352" y1="914" x2="366" y2="922" stroke="#c96a1b" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="380,881 383.5,889 392,890 385.5,896 387,905 380,900 373,905 374.5,896 368,890 376.5,889" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <polygon points="394,862 396.4,867.6 402,868 397.8,872 399,878 394,875 389,878 390.2,872 386,868 391.6,867.6" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="370" cy="870" r="3.5" fill="#ffd24a"/>
+  <line x1="376" y1="918" x2="384" y2="926" stroke="#ffd24a" stroke-width="3" stroke-linecap="round"/>
+  <rect x="400" y="786" width="106" height="8" rx="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="400" cy="790" r="6" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="506" cy="790" r="6" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M410 794 L495 794 L495 980 C 480 972, 466 986, 452 978 C 438 986, 424 972, 410 980 Z" fill="url(#ilCurtain)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="438" y1="802" x2="438" y2="970" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="467" y1="802" x2="467" y2="970" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Panel outlines -->
+  <rect x="125" y="770" width="390" height="240" rx="18" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="565" y="770" width="390" height="240" rx="18" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <!-- Divider -->
+  <line x1="540" y1="784" x2="540" y2="1126" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Memory illustration (top right): risk gauge and hourglass -->
+<g>
+  <path d="M644 410 A80 80 0 0 1 804 410 Z" fill="#22303f" opacity=".18"/>
+  <rect x="636" y="410" width="176" height="16" rx="8" fill="#22303f" opacity=".18"/>
+  <path d="M640 404 A80 80 0 0 1 800 404 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M650 400 A70 70 0 0 1 685 339.4 L698 361.9 A44 44 0 0 0 676 400 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M685 339.4 A70 70 0 0 1 755 339.4 L742 361.9 A44 44 0 0 0 698 361.9 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M755 339.4 A70 70 0 0 1 790 400 L764 400 A44 44 0 0 0 742 361.9 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="723.2,403.8 766,361.4 716.8,396.2" fill="#22303f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="720" cy="400" r="8" fill="#22303f"/>
+  <rect x="632" y="404" width="176" height="16" rx="8" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="842" y="330" width="66" height="10" rx="4" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M852 340 L898 340 C898 362 880 368 880 375 C880 382 898 388 898 410 L852 410 C852 388 870 382 870 375 C870 368 852 362 852 340 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M858 352 L892 352 C890 362 878 368 875 372 C872 368 860 362 858 352 Z" fill="#f0c48c"/>
+  <path d="M856 408 L894 408 C892 396 880 392 875 392 C870 392 858 396 856 408 Z" fill="#f0c48c"/>
+  <line x1="875" y1="372" x2="875" y2="392" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="842" y="410" width="66" height="10" rx="4" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Memory illustration (bottom): priorities, shield, risk matrix, wrench -->
+<g>
+  <rect x="276" y="1158" width="68" height="96" rx="10" fill="#22303f" opacity=".18"/>
+  <path d="M423 1154 L469 1169 L469 1204 C469 1232 448 1248 423 1258 C398 1248 377 1232 377 1204 L377 1169 Z" fill="#22303f" opacity=".18"/>
+  <rect x="494" y="1156" width="102" height="102" fill="#22303f" opacity=".18"/>
+  <g transform="translate(666 1210) rotate(-145)">
+    <rect x="-42" y="-7" width="66" height="14" rx="7" fill="#22303f" opacity=".18"/>
+    <path d="M44 -6 L34 -6 L34 6 L44 6 A15.2 15.2 0 1 1 44 -6 Z" fill="#22303f" opacity=".18"/>
+  </g>
+  <rect x="272" y="1152" width="68" height="96" rx="10" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="290" y="1144" width="32" height="16" rx="5" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="290" cy="1182" r="6" fill="#c0392b"/>
+  <rect x="302" y="1178" width="26" height="8" rx="4" fill="#8fc9f2"/>
+  <circle cx="290" cy="1206" r="6" fill="#c96a1b"/>
+  <rect x="302" y="1202" width="26" height="8" rx="4" fill="#8fc9f2"/>
+  <circle cx="290" cy="1230" r="6" fill="#2e7d32"/>
+  <rect x="302" y="1226" width="26" height="8" rx="4" fill="#8fc9f2"/>
+  <path d="M419 1148 L465 1163 L465 1198 C465 1226 444 1242 419 1252 C394 1242 373 1226 373 1198 L373 1163 Z" fill="url(#ilShield)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="394,1196 404,1187 415,1200 442,1172 452,1181 415,1218" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="490" y="1150" width="34" height="34" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="524" y="1150" width="34" height="34" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="558" y="1150" width="34" height="34" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="490" y="1184" width="34" height="34" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="524" y="1184" width="34" height="34" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="558" y="1184" width="34" height="34" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="490" y="1218" width="34" height="34" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="524" y="1218" width="34" height="34" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="558" y="1218" width="34" height="34" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="575" cy="1167" r="9" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="575" cy="1167" r="3.5" fill="#ffffff"/>
+  <line x1="484" y1="1256" x2="484" y2="1152" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="484,1142 478,1152 490,1152" fill="#22303f"/>
+  <line x1="484" y1="1256" x2="604" y2="1256" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="614,1256 604,1250 604,1262" fill="#22303f"/>
+  <g transform="translate(662 1204) rotate(-145)">
+    <rect x="-42" y="-7" width="66" height="14" rx="7" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M44 -6 L34 -6 L34 6 L44 6 A15.2 15.2 0 1 1 44 -6 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="-33" cy="0" r="3.5" fill="#fffdf7"/>
+  </g>
+</g>
+
+<!-- Thinking face -->
+<g transform="translate(296 224)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Light bulb icon -->
+<g transform="translate(350 198)">
+  <line x1="28" y1="-2" x2="28" y2="2" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="6" y1="8" x2="10" y2="11" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="50" y1="8" x2="46" y2="11" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="28" cy="24" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="21" y="39" width="14" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Book icon in card -->
+<g transform="translate(680 642)">
+  <path d="M2 8 C 10 4, 18 4, 24 9 L24 44 C 18 39, 10 39, 2 43 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M46 8 C 38 4, 30 4, 24 9 L24 44 C 30 39, 38 39, 46 43 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="8" y1="17" x2="18" y2="16" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="8" y1="25" x2="18" y2="24" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="30" y1="16" x2="40" y2="17" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="30" y1="24" x2="40" y2="25" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Warning icon in card (harm) -->
+<g transform="translate(772 640)">
+  <polygon points="28,4 54,50 2,50" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="25" y="18" width="6" height="18" rx="3" fill="#22303f"/>
+  <circle cx="28" cy="43" r="3.5" fill="#22303f"/>
+</g>
+
+<!-- Die icon in card (likelihood) -->
+<g transform="translate(862 640)">
+  <rect x="4" y="4" width="48" height="48" rx="10" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="16" cy="16" r="4.5" fill="#17457f"/>
+  <circle cx="40" cy="16" r="4.5" fill="#17457f"/>
+  <circle cx="28" cy="28" r="4.5" fill="#17457f"/>
+  <circle cx="16" cy="40" r="4.5" fill="#17457f"/>
+  <circle cx="40" cy="40" r="4.5" fill="#17457f"/>
+</g>
+
+<!-- Smile face (bottom) -->
+<g transform="translate(776 1202)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Titles -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">الخطر: ماذا نعالج أولًا؟</text>
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="normal" fill="#152b42">Risk: What Do We Fix First?</text>
+
+<!-- Paragraph -->
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">الحادث</tspan> شيء وقع بالفعل،</tspan>
+  <tspan x="950" dy="40">أما <tspan font-weight="bold" fill="#c0392b">الخطر</tspan> فشيء قد يقع.</tspan>
+</text>
+<text x="120" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">An <tspan font-weight="bold" fill="#c0392b">incident</tspan> is something that</tspan>
+  <tspan x="120" dy="40">has happened; a <tspan font-weight="bold" fill="#c0392b">risk</tspan> is</tspan>
+  <tspan x="120" dy="40">something that might happen.</tspan>
+</text>
+
+<!-- Card header -->
+<text x="935" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">تعريف دقيق</text>
+<text x="140" y="514" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">PRECISE DEFINITION</text>
+
+<!-- Card paragraph -->
+<text x="935" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">الخطر Risk:</tspan> مقياس لمدى تهديد حدث محتمل،</tspan>
+  <tspan x="935" dy="40">يُحسب من <tspan font-weight="bold" fill="#17457f">حجم ضرره</tspan> إذا وقع <tspan font-weight="bold" fill="#17457f">واحتمال وقوعه.</tspan></tspan>
+</text>
+<text x="140" y="634" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Risk:</tspan> a measure of how much</tspan>
+  <tspan x="140" dy="40">a possible event threatens us,</tspan>
+  <tspan x="140" dy="40">from its <tspan font-weight="bold" fill="#17457f">harm</tspan> and its <tspan font-weight="bold" fill="#17457f">likelihood.</tspan></tspan>
+</text>
+
+<!-- Illustration labels -->
+<text x="808" y="1074" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c"><tspan font-weight="bold" fill="#c0392b">الحادث</tspan></text>
+<text x="700" y="1114" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42"><tspan font-weight="bold" fill="#c0392b">Incident</tspan></text>
+<text x="362" y="1074" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c"><tspan font-weight="bold" fill="#c0392b">الخطر</tspan></text>
+<text x="290" y="1114" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42"><tspan font-weight="bold" fill="#c0392b">Risk</tspan></text>
+</svg>
