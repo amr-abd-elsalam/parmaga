@@ -9,35 +9,36 @@
   "displayTitleEn": "Network Security Design",
   "courseLabelAr": "البرمجة والذكاء الاصطناعي، ثانية بكالوريا",
   "termLabelAr": "ترم أول",
-  "pivotQuestionAr": "كيف يمكن لمؤسسة أن تصمم شبكتها بحيث يظل النظام محميًا حتى لو اختُرق أحد الدفاعات؟",
+  "pivotQuestionAr": "كيف يمكن لمؤسسة أن تصمم شبكتها بحيث، حتى لو تم اختراق أحد الدفاعات، يظل النظام محميًا؟",
   "custodyRepository": "parmaga-content",
-  "custodySnapshot": "50753b1d6e494863729564439c69579bd48b9009",
-  "declaredPageCount": 17,
-  "inventoryDate": "2026-09-27",
+  "custodySnapshot": "63218f5bf165bc7e181298fc3db1694bf387fcac",
+  "declaredPageCount": 41,
+  "inventoryDate": "2026-11-01",
   "status": "published",
   "extraNotes": [
-    "السؤال المحوري للدرس: كيف يمكن لمؤسسة أن تصمم شبكتها بحيث يظل النظام محميًا حتى لو اختُرق أحد الدفاعات؟",
+    "السؤال المحوري للدرس: كيف يمكن لمؤسسة أن تصمم شبكتها بحيث، حتى لو تم اختراق أحد الدفاعات، يظل النظام محميًا؟",
     "حزمة أصول الدرس مدرجة للنشر في المسار القانوني داخل المستودع العام، وتتحقق tools/verify_lesson.py من مطابقة بايتاتها لهذا الـManifest.",
-    "أسماء الملفات الواردة من التوليد مطابقة أصلًا للنمط page-<NNN>.svg، لذلك sourceFileName يساوي file في المداخل السبعة عشر كلها، ولم تجرِ إعادة تسمية.",
-    "المقاس 1080×1350 وviewBox «0 0 1080 1350» مقيسان ومؤكدان في الصفحات السبع عشرة كلها، أي نسبة 4:5 رأسية.",
-    "منطقة الـ12% المحجوزة: الحد y = 1188. أعلى إحداثي y مرصود هو 1194 في page-004، وعدد الإحداثيات دون الحد ثلاثة، كلها في page-004 على سطر واحد: ثلاثة عناصر نص إنجليزية بخط 27 هي Defense in Depth وZero Trust وPerimeter، وصفر في بقية الصفحات. القياس بحدود معلنة: يعتمد سمات y وحدها ولا يحسب transform ولا إحداثيات path d ولا y+height ولا cy+r، فهو مؤشر قوي لا إثبات هندسي كامل. والحجز لم يعد ملزمًا من الفصل الثاني (الوحدة الثانية) بقرار المالك.",
-    "الفحص الأمني نظيف في الصفحات السبع عشرة كلها: صفر script، صفر foreignObject، صفر سمات on*، صفر javascript:، صفر مرجع http(s) خارجي، صفر data:، صفر image مضمَّن، صفر use خارجي، صفر iframe أو embed أو object، صفر @import. لا يوجد اكتشاف يحتاج قرارًا مكتوبًا.",
+    "أسماء الملفات الواردة مطابقة أصلًا للنمط page-<NNN>.svg، لذلك sourceFileName يساوي file في المداخل الـ41 كلها، ولم تجرِ إعادة تسمية.",
+    "viewBox «0 0 1080 1350» مقيس في الصفحات الـ41 كلها، أي مقاس 1080×1350 بنسبة 4:5 رأسية.",
+    "منطقة الـ12% المحجوزة: الحد y = 1188. أعلى سمة y مرصودة في عناصر النص هي 1234 في page-009، و17 عنصر نص عند الحد أو دونه في 6 صفحات: page-004، page-009، page-020، page-029، page-030، page-032. سُجّل ولم يوقف النشر، وتراجعه عين المالك في المتصفح. القياس يعتمد سمات y وحدها ولا يحسب transform ولا إحداثيات path d، فهو مؤشر قوي لا إثبات هندسي كامل.",
+    "الفحص الأمني نظيف في الصفحات الـ41 كلها: صفر script، صفر foreignObject، صفر سمات on*، صفر javascript:، صفر مرجع http(s) خارجي، صفر data:، صفر image مضمَّن، صفر use خارجي، صفر iframe أو embed أو object، صفر @import. لا يوجد اكتشاف يحتاج قرارًا مكتوبًا.",
     "قيمة encoding مستنتجة لا مقروءة: لا يحتوي أي ملف إعلان XML ولا BOM، ونجاح تحليل XML على البايتات دون إعلان يعني أن البايتات UTF-8 صالحة.",
-    "نهايات الأسطر داخل الأصول السبعة عشر كلها CRLF. لم تُغيَّر ولا يجوز تغييرها، وقاعدة *.svg -text في .gitattributes تغطيها وفق ADR-0005 البند 11.",
-    "الحجم المقيس: المجموع 161598 بايت، والمتوسط 9505 بايت، وأصغر ملف 6920 بايت في page-013، وأكبر ملف 14502 بايت في page-009.",
-    "الخطوط المستدعاة في الصفحات السبع عشرة كلها: Arial وComic Sans MS وSegoe Print وSegoe UI وTahoma وsans-serif، ولا تزيد أي صفحة خطًّا آخر. قيد معروف مسجَّل في ADR-0004 §23 ولا يُعالَج بتعديل الأصول.",
-    "عنوان الدرس في الصفحة الرئيسة «تصميم أمن الشبكات»، وهو في page-001 «تصميم أمان الشبكات»، فطابق displayTitleAr سطر الرئيسة حرفًا بحرف وفق README كما في الدرسين 1-2 و1-4، ومن page-001 displayTitleEn «Network Security Design». ولا تحتوي page-002 سؤالًا، فأُخذ pivotQuestionAr من page-004 بحذف التسمية «السؤال الرئيسي: » وبقي السؤال حرفيًّا، وتجيب عنه page-015 وpage-016، بقاعدة المالك المكتوبة: البند المكتوب فيه «السؤال الرئيسي» يُعتمد متى كانت إجابته في أواخر صفحات الدرس. ووصف كل صفحة (descriptionAr، وهو نص alt) أول بند فيها، إذ لا يزيد أول بند في أي صفحة على 60 حرفًا.",
-    "يحتوي بندان فقط على العلامة &، في page-004 وpage-017، وهما عنوانان إنجليزيان، ويهرّبها القالب في HTML وفق ADR-0024 K2، ولا يحتوي أي بند آخر على < أو > أو &.",
-    "نصوص الصفحات مستخرجة آليًّا من عناصر <text> بترتيب المستند، ثم طُبّقت عليها قاعدة حذف علامات الترقيم البصرية وحدها المسجلة في ADR-0024 D7 وREADME. وطوبق مجموع عناصر النص في الأصول وهو 138 مع عدد البنود المنشورة وهو 138 صفحةً صفحة في السبع عشرة كلها، ولا فرق بينهما: لا تحتوي الأصول بند ترقيم منفردًا ولا عنصر نص فارغًا."
+    "نهايات الأسطر داخل الأصول الـ41 كلها CRLF. لم تُغيَّر ولا يجوز تغييرها، وقاعدة *.svg -text في .gitattributes تغطيها وفق ADR-0005 البند 11.",
+    "الحجم المقيس: المجموع 723300 بايت، والمتوسط 17641 بايت بالتقريب إلى الأدنى، وأصغر ملف 12955 بايت في page-036، وأكبر ملف 25168 بايت في page-014.",
+    "الخطوط المستدعاة في الصفحات الـ41 كلها: Arial وComic Sans MS وSegoe Print وSegoe UI وTahoma وsans-serif، ولا تزيد أي صفحة خطًّا آخر. قيد معروف مسجَّل في ADR-0004 §23 ولا يُعالَج بتعديل الأصول.",
+    "أُعيد نشر الدرس بـ41 صفحة بدل 17 بطلب المالك، من عهدة 63218f5bf165bc7e181298fc3db1694bf387fcac التي حلّت محل عهدة 50753b1. وما نُشر سابقًا بسبع عشرة صفحة سجل تاريخي لا يُحرَّر. وفي page-013 وضع المالك بنفسه قبل العهدة خمسة نصوص كانت خارج `<tspan>` داخل `<tspan>`، ولم يتغير النص المقروء.",
+    "عنوان الدرس في الصفحة الرئيسة «تصميم أمن الشبكات»، وهو في page-001 «تصميم أمان الشبكات»، فطابق displayTitleAr سطر الرئيسة حرفًا بحرف وفق README، ومن page-001 displayTitleEn «Network Security Design». وpivotQuestionAr بنص المالك المكتوب حرفيًّا، إذ لا تسمية «السؤال الرئيسي» في الأصول الجديدة. ووصف كل صفحة (descriptionAr، وهو نص alt) بقاعدة المالك المكتوبة: الصفحة التي أول بند فيها عنوان رئيسي بخط 44 غامق وصفها ذلك العنوان، وهي 12 صفحة (page-002، page-005، page-009، page-013، page-016، page-020، page-023، page-026، page-032، page-036، page-038، page-041)، والافتتاحية page-001 وصفها أول بند فيها، وكل صفحة سواهما وصفها «تابع: » ثم آخر عنوان رئيسي قبلها حرفيًّا، وهي 28 صفحة.",
+    "لا يحتوي أي بند على العلامات < أو > أو &.",
+    "نصوص الصفحات مستخرجة آليًّا من عناصر <text> بترتيب المستند، ثم طُبّقت عليها قاعدة حذف علامات الترقيم البصرية وحدها المسجلة في ADR-0024 D7 وREADME. وطوبق مجموع عناصر النص في الأصول وهو 496 مع عدد البنود المنشورة وهو 496، ولا فرق بينهما: لا تحتوي الأصول بند ترقيم منفردًا ولا عنصر نص فارغًا."
   ],
   "contextSections": {
-    "structureSummaryAr": "أهداف التعلم 002. لماذا لا تكفي وسيلة حماية واحدة؟ 003. السؤال الرئيسي وخريطة الدرس 004. دور جدران الحماية 005. الشبكة الافتراضية الخاصة (VPN) 006-007. المنطقة المعزولة 008-009. الدفاع في العمق 010-011. مفهوم نهج انعدام الثقة 012-014. إجابة السؤال الرئيسي 015-016. الفكرة الرئيسة والخلاصة 017.",
-    "statusAr": "الـManifest بحالة `published`، وأصوله السبعة عشر منشورة في مسارها القانوني. وصفحة الدرس منشورة بصفحاتها السبع عشرة ونصوصها العربية والإنجليزية داخل HTML، فهي مقروءة دون JavaScript، والعارض `assets/js/lesson-viewer.js` تحسين تدريجي فوقها.\n\nللدرس رابط في الصفحة الرئيسة ومدخل في `sitemap.xml`، ولا يوجد بعد فهرس `/courses/` ولا فهارس Course وTerm وChapter ولا روابط Previous/Next بين الدروس. والحالة الجارية للمشروع في `docs/ai/ARCHITECT_EVIDENCE_LEDGER.md`.",
-    "pagesNarrativeAr": "17 صفحة: صفحة افتتاحية واحدة (`page-001`) + 16 صفحة محتوى (`page-002` … `page-017`). ترقيم متصل بلا فجوة ولا تكرار.\n\nخصائص مشتركة في السبع عشرة كلها: المقاس `1080×1350` بنسبة 4:5 رأسية، و`viewBox \"0 0 1080 1350\"`، وXML سليم البناء، وترميز utf-8، ونتيجة فحص أمني نظيفة. لذلك لا تتكرر في الجدول.\n\nالمطابقة مع المراسي حتمية: `#page-1` ⇄ `page-001.svg` و`#page-17` ⇄ `page-017.svg`.",
-    "constraintsAr": "**الخطوط.** تستدعي الأصول خطوط Windows: Tahoma وSegoe Print وComic Sans MS وSegoe UI وArial و`sans-serif` العام في الصفحات كلها. قد تغيب على أندرويد فيخرج النص عن إطاره، وعلاجه في قالب التوليد القادم لا في الأصول وفق `ADR-0004 §23`.\n\n**الألوان خارج نطاق Design Tokens.** العرض عبر `<img>` يعزل كل أصل عن متغيرات CSS في `assets/css/parmaga.css`، فلا يعيد الوضع الليلي تلوينه.\n\n**منطقة الـ12% المحجوزة.** أعلى `y` مرصود 1194 في `page-004`: ثلاث كلمات إنجليزية على سطر واحد تحت الحد `y = 1188`، وما عداها فارغ، بقياس سمات `y` وحدها فهو مؤشر لا إثبات، والحجز لم يعد ملزمًا من الفصل الثاني (الوحدة الثانية) بقرار المالك. ورقم الصفحة والتنقل وهوية الموقع من طبقة HTML حصرًا وفق `ADR-0004 §19`.\n\n**بايتات الأصول ثابتة.** نهاياتها CRLF بلا إعلان XML ولا BOM، وأي تعديل أو ضغط أو إعادة تصدير يُبطل البصمات.",
-    "decidedAr": "المسار الدائم والمعرّفات وفق `ADR-0004`. عدد الصفحات 17 وترتيبها وأدوارها: `opening` للأولى و`content` للبقية. أسماء الأصول `page-<NNN>.svg`، والمقاس والنسبة، ونمط المراسي `#page-<n>` بلا تصفير.\n\nالنشر التزام واحد يضم الأصول والـManifest وملف السياق وصفحة الدرس والرئيسة و`sitemap.xml`، والـManifest بحالة `published` مباشرةً.\n\nوحدة نص الصفحة عنصر `<text>` كامل بترتيب المستند بلا دمج ولا تقسيم، وتُحذف علامات الترقيم البصرية القصيرة المخزَّنة معكوسة مثل `(1`. والنص يُهرَّب في HTML وفق `ADR-0024` K2.\n\n`displayTitleAr` مطابق لسطر الدرس المحجوز في الرئيسة، و`pivotQuestionAr` من `page-004` بحذف التسمية «السؤال الرئيسي: » بقاعدة المالك، ووصف كل صفحة أول بند فيها.\n\nأداة استخراج النصوص لا تدخل `tools/` ولا خط النشر، وفق `ADR-0024`: بنود الدرس تُكتب وتُراجَع في الـconfig وحده، وهو مصدر النشر الوحيد.",
-    "undecidedAr": "روابط Previous/Next بين الدروس. فهرس `/courses/` وفهارس Course وTerm وChapter. Structured Data. حل مشكلة الخطوط على أندرويد. مراسي `#concept-*`. نظام البحث وتقدم الطالب. مسارات اللغات.",
-    "howToUseAr": "هذا مصدرك لجرد بنية الدرس وقيوده، لا مصدر حالته الوحيد. **لا تطلب ملف SVG**: تمريره إلى النماذج ممنوع وفق `ADR-0005` §10 إلا صفحة واحدة لمشكلة موصوفة مسبقًا، ويُوثَّق.\n\nنص الدرس بلغتيه في HTML صفحته، والـManifest لجرد الأصول وبصماتها وأبعادها وعهدتها. ولا تحرّر مخرَجًا منشورًا بيدك: غيّر config الدرس في `tools/publish_configs/` وأعد التوليد وفق `ADR-0024`.\n\nاقرأ معه: `PROJECT_VISION.md`، ثم `ADR-0003` و`ADR-0004` و`ADR-0005`، ثم `ADR-0007` وما بعده.\n\nلا تعدّل أصلًا ولا مسارًا منشورًا ولا معرّفًا تقنيًا، ولا تخترع رقم صفحة أو بصمة أو بُعدًا، وما نقصك فاطلبه من الـManifest أو من مالك المشروع. وإن لم يكفك هذا الملف فذلك عيب فيه، فأبلغ عنه ليُصلَح."
+    "structureSummaryAr": "افتتاحية 001. قبل أن نبدأ: الفيلا والخزنة 002–004. كلمات الأساس 005–008. جدار الحماية: البوّاب الذكي 009–012. الشبكة الافتراضية الخاصة: النفق المشفّر 013–015. المنطقة المعزولة: صالون الضيوف 016–019. الأجهزة الطرفية: مناعة كل جهاز 020–022. الدفاع في العمق: الجبن السويسري 023–025. من سور القلعة إلى انعدام الثقة 026–031. احفظها ولا تنسَها 032–035. فخاخ الامتحان 036–037. سؤال الست درجات 038–040. ليلة الامتحان 041.",
+    "statusAr": "الـManifest بحالة `published` وأصوله الـ41 في مسارها القانوني، وأُعيد نشر الدرس بها بدل 17 بطلب المالك. ونصوص الصفحات بلغتيها في HTML فهي مقروءة دون JavaScript، والعارض تحسين تدريجي فوقها. والحالة الجارية في `docs/ai/ARCHITECT_EVIDENCE_LEDGER.md`.",
+    "pagesNarrativeAr": "41 صفحة: افتتاحية واحدة (`page-001`) و40 صفحة محتوى (`page-002` … `page-041`) بترقيم متصل بلا فجوة. و`viewBox` «0 0 1080 1350» وفحص أمني نظيف في كلها. والمراسي حتمية: `#page-1` ⇄ `page-001.svg` حتى `#page-41` ⇄ `page-041.svg`. والوصف «تابع: » يعني أن الصفحة تكمل آخر عنوان رئيسي قبلها.",
+    "constraintsAr": "**الخطوط.** Tahoma وSegoe Print وComic Sans MS وSegoe UI وArial قد تغيب على أندرويد، وعلاجها خارج الأصول وفق `ADR-0004 §23`. **الألوان.** العرض عبر `<img>` يعزل الأصل عن الوضع الليلي. **المنطقة السفلى.** 17 عنصر نص عند `y = 1188` أو دونه في 6 صفحات، أعلاها 1234 في `page-009`، وقائمتها في الـManifest، سُجّلت ولم توقف النشر. **البايتات ثابتة.** CRLF بلا إعلان XML ولا BOM، وأي تعديل يُبطل البصمات.",
+    "decidedAr": "المسار والمعرّفات وفق `ADR-0004`، والصفحات الـ41 وترتيبها وأدوارها، والسؤال المحوري بنص المالك، ووصف «تابع: » بقاعدته المكتوبة. صفر Dependencies وصفر Build Step.",
+    "undecidedAr": "روابط Previous/Next بين الدروس. فهرس `/courses/` وفهارس Course وTerm وChapter. Structured Data. الخطوط على أندرويد. مراسي `#concept-*`.",
+    "howToUseAr": "مصدرك لجرد بنية الدرس وقيوده. **لا تطلب ملف SVG** وفق `ADR-0005` §10. النص في HTML صفحة الدرس، والجرد والبصمات في الـManifest. ولا تحرّر مخرَجًا منشورًا: غيّر الـconfig وأعد التوليد وفق `ADR-0024`، ولا تخترع رقمًا ولا بصمة."
   },
   "svgSourceDir": "assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-02/lesson-02",
   "pages": [
@@ -73,45 +74,95 @@
       "id": "page-002",
       "htmlId": "page-2",
       "role": "content",
-      "descriptionAr": "أهداف التعلم",
+      "descriptionAr": "قبل أن نبدأ: الفيلا والخزنة",
       "transcript": [
         {
-          "text": "أهداف التعلم",
+          "text": "قبل أن نبدأ: الفيلا والخزنة",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Learning Objectives",
+          "text": "Before We Start: The Villa and the Safe",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "اشرح أدوار جدار الحماية، وVPN، وDMZ، وضوابط الأجهزة الطرفية في حماية الشبكة.",
+          "text": "تخيّل أن عندك فيلا، وبداخلها خزنة مليئة بالذهب.",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Explain the roles of firewalls, VPNs, DMZs, and endpoint controls in protecting a network.",
+          "text": "Imagine you own a villa with a safe full of gold inside it.",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "اشرح لماذا يوفر الدفاع في العمق حماية أقوى من الاعتماد على إجراء أمني واحد.",
+          "text": "كيف ستحميها؟ فكّر في ثلاث وسائل قبل أن تكمل القراءة.",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Explain why defense in depth provides stronger protection than relying on a single security measure.",
+          "text": "How would you protect it? Think of three ways before you read on.",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "قيّم تصميمًا أمنيًا لشبكة، وبرّر اختيار الضوابط المناسبة وفق الأصول والتهديدات.",
+          "text": "السور والبواب",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Evaluate a network security design, and justify the choice of suitable controls based on assets and threats.",
+          "text": "Wall and guard",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الكاميرات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Cameras",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الباب الحديد",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Steel door",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قفل الغرفة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Room lock",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الخزنة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Safe",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كل وسيلة حماية طبقة، والذهب في المنتصف.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Each protection is a layer, and the gold is in the middle.",
           "lang": "en",
           "dir": "ltr"
         }
@@ -121,35 +172,55 @@
       "id": "page-003",
       "htmlId": "page-3",
       "role": "content",
-      "descriptionAr": "لماذا لا تكفي وسيلة حماية واحدة؟",
+      "descriptionAr": "تابع: قبل أن نبدأ: الفيلا والخزنة",
       "transcript": [
         {
-          "text": "لماذا لا تكفي وسيلة حماية واحدة؟",
+          "text": "والآن: لو نام البواب، هل سيُسرق الذهب؟",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Why Is One Protective Measure Not Enough?",
+          "text": "Now: if the guard falls asleep, will the gold be stolen?",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "في الدرس 2-1 تعلمت كيف تحمي تقنيات التشفير والمصادقة الاتصالَ والحسابات. في هذا الدرس ستوسّع الحماية إلى تصميم الشبكة نفسها.",
+          "text": "لا، فما زال هناك الباب الحديد، وأقفال الغرف، والخزنة نفسها.",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "In Lesson 2-1, you learned how encryption and authentication protect communication and accounts. In this lesson, you will extend protection to the design of the network itself.",
+          "text": "No. There is still the steel door, the room locks, and the safe itself.",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "تحتفظ شبكات المؤسسات ببيانات وخدمات مهمة قد يحاول مهاجم الوصول إليها. ولا تكفي وسيلة حماية واحدة؛ فإذا فشلت، قد تتعرض موارد أخرى للخطر. لذلك يُستخدم الدفاع في العمق، فتعمل طبقات متعددة على تقليل احتمال الاختراق والحد من أثره.",
+          "text": "هذه الفكرة لها اسم: الدفاع في العمق Defense in Depth.",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Organizations' networks hold important data and services that an attacker may try to reach. A single protective measure is not enough: if it fails, other resources may be put at risk. That is why defense in depth is used: multiple layers work to reduce the likelihood of a breach and limit its impact.",
+          "text": "This idea has a name: defense in depth.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "واليوم سنبني الفيلا نفسها، لكن لشبكة مؤسسة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Today we will build the same villa, but for an organization's network.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نام البواب، لكن الذهب ما زال في أمان.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The guard is asleep, but the gold is still safe.",
           "lang": "en",
           "dir": "ltr"
         }
@@ -159,45 +230,35 @@
       "id": "page-004",
       "htmlId": "page-4",
       "role": "content",
-      "descriptionAr": "السؤال الرئيسي وخريطة الدرس",
+      "descriptionAr": "تابع: قبل أن نبدأ: الفيلا والخزنة",
       "transcript": [
         {
-          "text": "السؤال الرئيسي وخريطة الدرس",
+          "text": "من الفيلا إلى الشبكة",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Guiding Question & Lesson Map",
+          "text": "From the Villa to the Network",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "السؤال الرئيسي: كيف يمكن لمؤسسة أن تصمم شبكتها بحيث يظل النظام محميًا حتى لو اختُرق أحد الدفاعات؟",
+          "text": "لكل وسيلة في الفيلا إجراء يقابلها في الشبكة.",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Guiding question: How can an organization design its network so that the system stays protected even if one defense is breached?",
+          "text": "Every villa protection has a network match.",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "الفكرة الأساسية: يأتي أمان الشبكات القوي من تكديس الإجراءات — جدار الحماية، والشبكة الافتراضية الخاصة، والمنطقة المعزولة، وحماية الأجهزة الطرفية — ومن التحقق من كل عملية وصول (نهج انعدام الثقة)، وليس من حاجز واحد.",
+          "text": "السور والبواب",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Key Fact: Strong network security comes from layering measures — firewall, VPN, DMZ, endpoint protection — and from verifying every access (zero trust), not from a single barrier.",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "المفاهيم الأساسية |",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "Key Concepts:",
+          "text": "Wall and guard",
           "lang": "en",
           "dir": "ltr"
         },
@@ -212,12 +273,32 @@
           "dir": "ltr"
         },
         {
+          "text": "سيارة مصفّحة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Armored car",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
           "text": "الشبكة الافتراضية الخاصة",
           "lang": "ar",
           "dir": "rtl"
         },
         {
           "text": "VPN",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "صالون الضيوف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Guest room",
           "lang": "en",
           "dir": "ltr"
         },
@@ -232,12 +313,32 @@
           "dir": "ltr"
         },
         {
-          "text": "الدفاع في العمق",
+          "text": "قفل لكل غرفة",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Defense in Depth",
+          "text": "A lock on every room",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "حماية الأجهزة الطرفية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Endpoint protection",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "رقم الخزنة يُطلب من الجميع",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Everyone gives the safe code",
           "lang": "en",
           "dir": "ltr"
         },
@@ -247,17 +348,37 @@
           "dir": "rtl"
         },
         {
-          "text": "Zero Trust",
+          "text": "Zero trust",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "المحيط الأمني",
+          "text": "الفيلا كلها معًا",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Perimeter",
+          "text": "The whole villa together",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الدفاع في العمق",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Defense in depth",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "احفظ هذه الخريطة جيدًا؛ فهي مفتاح الدرس كله.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Keep this map in mind; it is the key to the whole lesson.",
           "lang": "en",
           "dir": "ltr"
         }
@@ -267,55 +388,45 @@
       "id": "page-005",
       "htmlId": "page-5",
       "role": "content",
-      "descriptionAr": "ملحوظة مهمة",
+      "descriptionAr": "كلمات الأساس",
       "transcript": [
         {
-          "text": "ملحوظة مهمة",
+          "text": "كلمات الأساس",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Point!",
+          "text": "The Basic Words",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "1. دور جدران الحماية",
+          "text": "الشبكة الداخلية Internal Network: جزء المؤسسة الخاص، أي «داخل البيت».",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "1. The Role of Firewalls",
+          "text": "Internal network: the organization's private part — \"inside the house.\"",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "(1) جدار الحماية Firewall: نظام أو برنامج يراقب حركة مرور الشبكة ويسمح بها أو يمنعها وفق قواعد أمنية. وقد يوجد عند حدود الشبكة، أو بين أجزائها، أو على جهاز مضيف.",
+          "text": "الشبكة الخارجية External Network: كل ما خارج سيطرة المؤسسة، مثل الإنترنت، أي «الشارع».",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "(1) Firewall: a system or program that monitors network traffic and allows or blocks it according to security rules. It may be placed at the network boundary, between parts of the network, or on a host device.",
+          "text": "External network: everything outside the organization's control, like the Internet — \"the street.\"",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "مثال: السماح بالوصول إلى خادم الويب، مع منع الوصول الخارجي المباشر إلى قاعدة البيانات.",
+          "text": "حركة مرور الشبكة Network Traffic: بيانات تتنقل بين الأجهزة في وحدات صغيرة اسمها الحزم Packets.",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "e.g., Allow access to the web server, while blocking direct external access to the database.",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "مصطلح أساسي: جدار الحماية — يسمح بالاتصال أو يمنعه وفق قواعد محددة مسبقًا.",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "KEY TERM: Firewall — allows or blocks communication according to preset rules.",
+          "text": "Network traffic: data moving between devices in small units called packets.",
           "lang": "en",
           "dir": "ltr"
         }
@@ -325,35 +436,45 @@
       "id": "page-006",
       "htmlId": "page-6",
       "role": "content",
-      "descriptionAr": "2. الشبكة الافتراضية الخاصة (VPN)",
+      "descriptionAr": "تابع: كلمات الأساس",
       "transcript": [
         {
-          "text": "2. الشبكة الافتراضية الخاصة (VPN)",
+          "text": "الأصل Asset: أي شيء له قيمة ويحتاج إلى حماية، مثل قاعدة بيانات العملاء.",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "2. VPN (Virtual Private Network)",
+          "text": "Asset: anything valuable that needs protection, like a customer database.",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "(1) الشبكة الافتراضية الخاصة VPN: اتصال أو شبكة منطقية خاصة عبر شبكة عامة مثل الإنترنت، تستخدم عادةً التشفير وتقنيات النفق Tunneling لحماية البيانات بين الطرفين.",
+          "text": "التهديد Threat: أي شيء قد يضر أصلًا: مهاجم، أو فيروس، أو خطأ موظف.",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "(1) VPN: a private logical connection or network over a public network such as the Internet. It usually uses encryption and tunneling to protect data between the two ends.",
+          "text": "Threat: anything that could harm an asset: an attacker, a virus, or a staff mistake.",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "تنقل الشبكة الافتراضية الخاصة (VPN) البيانات بأمان عبر شبكة غير موثوقة.",
+          "text": "الخطر Risk: احتمال وقوع التهديد فعلًا، وحجم ضرره لو وقع.",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "A VPN carries data securely across an untrusted network.",
+          "text": "Risk: how likely a threat is to happen, and how much harm it causes.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "انتبه: اللص في المدينة تهديد، واحتمال دخوله بيتك أنت هو الخطر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Careful: a thief in the city is a threat; the chance he enters your house is the risk.",
           "lang": "en",
           "dir": "ltr"
         }
@@ -363,55 +484,45 @@
       "id": "page-007",
       "htmlId": "page-7",
       "role": "content",
-      "descriptionAr": "استخدامات الشبكة الافتراضية الخاصة",
+      "descriptionAr": "تابع: كلمات الأساس",
       "transcript": [
         {
-          "text": "استخدامات الشبكة الافتراضية الخاصة",
+          "text": "الاختراق Breach: تجاوز المهاجم وسيلة حماية ووصوله إلى ما لا يحق له.",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Uses of a VPN",
+          "text": "Breach: an attacker getting past a protection to reach what is not allowed.",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "(2) الاستخدامات الرئيسية للشبكة الافتراضية الخاصة:",
+          "text": "الضابط الأمني Security Control: أي إجراء يقلل الخطر، كجدار الحماية.",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "(2) Main uses of a VPN:",
+          "text": "Security control: any measure that reduces risk, like a firewall.",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "① العمل عن بُعد: الاتصال بأمان بشبكة المؤسسة من المنزل أو أثناء التنقل.",
+          "text": "المصادقة Authentication: التأكد من أنك من تدّعيه؛ وسؤالها: «أنت مين؟»",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "① Remote work: connecting securely to the organization's network from home or while traveling.",
+          "text": "Authentication: proving you are who you claim to be. It asks: \"Who are you?\"",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "② ربط الفروع: ربط المكاتب في مواقع مختلفة بأمان.",
+          "text": "الصلاحيات Authorization: ما يُسمح لك بفعله بعد معرفة هويتك؛ وسؤالها: «مسموح لك بإيه؟»",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "② Connecting branches: securely linking offices in different locations.",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "(3) نظرًا لأن محتوى الاتصال يُشفَّر عند استخدام الشبكة الافتراضية الخاصة، تقل مخاطر التنصت حتى عند استخدام شبكة Wi-Fi عامة.",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "(3) Because communication content is encrypted when using a VPN, the risk of eavesdropping is reduced even on public Wi-Fi.",
+          "text": "Authorization: what you may do once you are known. It asks: \"What are you allowed to do?\"",
           "lang": "en",
           "dir": "ltr"
         }
@@ -421,45 +532,35 @@
       "id": "page-008",
       "htmlId": "page-8",
       "role": "content",
-      "descriptionAr": "3. المنطقة المعزولة",
+      "descriptionAr": "تابع: كلمات الأساس",
       "transcript": [
         {
-          "text": "3. المنطقة المعزولة",
+          "text": "بطاقتك تُدخلك المدرسة (مصادقة)، لكنها لا تُدخلك غرفة المعلمين (صلاحيات).",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "3. DMZ (Demilitarized Zone)",
+          "text": "Your ID gets you into school (authentication), but not into the staff room (authorization).",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "(1) المنطقة المعزولة DMZ: منطقة تُوضع فيها الخوادم المعرَّضة للشبكة الخارجية (خوادم الويب، وخوادم البريد، وغيرها) منفصلةً عن الشبكة الداخلية.",
+          "text": "التشفير Encryption: تحويل البيانات إلى صيغة غير مفهومة، لا يقرؤها إلا من يملك المفتاح.",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "(1) DMZ: an area where servers exposed to the external network (web servers, mail servers, etc.) are placed separately from the internal network.",
+          "text": "Encryption: turning data into an unreadable form that only the key holder can read.",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "(2) يساعد فصل الخوادم العامة في منطقة معزولة على تقليل احتمال وصول الهجوم منها إلى الشبكة الداخلية إذا تعرّض أحدها للاختراق.",
+          "text": "التنصت Eavesdropping: التقاط البيانات أثناء انتقالها وقراءتها خِلسة، كما قد يحدث على Wi-Fi مجاني في مقهى.",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "(2) Separating public servers in a DMZ helps reduce the likelihood that an attack will reach the internal network from them if one of them is breached.",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "مصطلح أساسي: المنطقة المعزولة — منطقة للخوادم المواجهة للجمهور، منفصلة عن الشبكة الداخلية.",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "KEY TERM: DMZ — a zone for public-facing servers, separated from the internal network.",
+          "text": "Eavesdropping: secretly capturing and reading data in transit, as can happen on free café Wi-Fi.",
           "lang": "en",
           "dir": "ltr"
         }
@@ -469,25 +570,65 @@
       "id": "page-009",
       "htmlId": "page-9",
       "role": "content",
-      "descriptionAr": "تكوين شبكة المنطقة المعزولة (DMZ)",
+      "descriptionAr": "جدار الحماية: البوّاب الذكي",
       "transcript": [
         {
-          "text": "تكوين شبكة المنطقة المعزولة (DMZ)",
+          "text": "جدار الحماية: البوّاب الذكي",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "DMZ Network Configuration",
+          "text": "The Firewall: The Smart Guard",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "إذا هوجم خادم عام، يقل احتمال وصول الهجوم إلى الشبكة الداخلية.",
+          "text": "جدار الحماية Firewall: نظام أو جهاز أو برنامج يراقب حركة مرور الشبكة، ويسمح بها أو يمنعها وفق قواعد أمنية محددة مسبقًا.",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "If a public server is attacked, the attack is less likely to reach the internal network.",
+          "text": "Firewall: a system, device, or software that monitors network traffic and allows or blocks it based on preset security rules.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يوضع غالبًا عند نقطة دخول الشبكة وخروجها، وقد يوضع بين أجزاء الشبكة الداخلية، أو على الجهاز نفسه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "It usually sits at the network's entry/exit point, but it can also sit between internal parts or on the device itself.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "عند البوابة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "At the gate",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "بين أجزاء الشبكة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Between network parts",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "على الجهاز",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "On the device",
           "lang": "en",
           "dir": "ltr"
         }
@@ -497,45 +638,45 @@
       "id": "page-010",
       "htmlId": "page-10",
       "role": "content",
-      "descriptionAr": "4. الدفاع في العمق",
+      "descriptionAr": "تابع: جدار الحماية: البوّاب الذكي",
       "transcript": [
         {
-          "text": "4. الدفاع في العمق",
+          "text": "كيف يقرر؟",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "4. Defense in Depth",
+          "text": "How Does It Decide?",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "(1) الدفاع في العمق Defense in Depth: استخدام طبقات متعددة من الضوابط الأمنية، بحيث تساعد طبقات أخرى على تقليل الخطر والحد من أثر الاختراق إذا فشلت إحدى الطبقات.",
+          "text": "يفحص كل حزمة: من أين جاءت؟ وإلى أين تذهب؟",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "(1) Defense in depth: using multiple layers of security controls, so that if one layer fails, other layers help reduce the risk and limit the impact of the breach.",
+          "text": "It checks each packet: where is it from, and where is it going?",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "إذا فشلت طبقة حماية، تبقى طبقات أخرى تقلل الخطر.",
+          "text": "ثم يقارن ذلك بقواعده، فيسمح أو يمنع.",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "If one layer of protection fails, other layers remain to reduce the risk.",
+          "text": "Then it compares this with its rules, and allows or blocks.",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "مصطلح أساسي: الدفاع في العمق — تكديس الإجراءات الأمنية في طبقات متعددة.",
+          "text": "القاعدة الذهبية: امنع كل شيء، إلا ما سمحت به صراحةً.",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "KEY TERM: Defense in depth — layering security measures in multiple layers.",
+          "text": "Golden rule: block everything except what you clearly allow.",
           "lang": "en",
           "dir": "ltr"
         }
@@ -545,25 +686,857 @@
       "id": "page-011",
       "htmlId": "page-11",
       "role": "content",
-      "descriptionAr": "طبقات الدفاع في أمان الشبكات",
+      "descriptionAr": "تابع: جدار الحماية: البوّاب الذكي",
       "transcript": [
         {
-          "text": "طبقات الدفاع في أمان الشبكات",
+          "text": "مثال: الزوار يصلون إلى خادم الويب، لا إلى قاعدة البيانات مباشرة.",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Defense Layers in Network Security",
+          "text": "Example: visitors reach the web server, but not the database directly.",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "(2) في أمان الشبكات، يُجمع بين عدة إجراءات على النحو التالي:",
+          "text": "هل تعلم؟",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "(2) In network security, several measures are combined as follows:",
+          "text": "Did You Know?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الاسم من المباني: «الجدار الناري» يمنع انتقال الحريق من جزء إلى آخر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The name comes from buildings: a \"firewall\" stops fire spreading from one part to another.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "وفي الشبكة: يوقف الخطر عند نقطة محددة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In networks, it stops danger at a fixed point.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-012",
+      "htmlId": "page-12",
+      "role": "content",
+      "descriptionAr": "تابع: جدار الحماية: البوّاب الذكي",
+      "transcript": [
+        {
+          "text": "ما لا يفعله جدار الحماية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "What a Firewall Does NOT Do",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لا يكتشف فيروسًا داخل اتصال مسموح به.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "It misses a virus inside an allowed connection.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لا يحميك إذا أعطيت كلمة مرورك لمحتال.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "It cannot help if you give a scammer your password.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لا يرى ما يحدث داخل الشبكة إذا كان عند البوابة فقط.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "At the gate only, it cannot see what happens inside.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ولهذا بالذات لا يكفي وحده.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "That is exactly why it is not enough alone.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-013",
+      "htmlId": "page-13",
+      "role": "content",
+      "descriptionAr": "الشبكة الافتراضية الخاصة: النفق المشفّر",
+      "transcript": [
+        {
+          "text": "الشبكة الافتراضية الخاصة: النفق المشفّر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "VPN: The Encrypted Tunnel",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏VPN: تقنية تبني نفقًا خاصًا منطقيًا Tunnel عبر شبكة عامة كالإنترنت، وتستخدم عادةً (لا دائمًا) التشفير.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "VPN: builds a private logical tunnel over a public network like the Internet, usually (not always) with encryption.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "فُكّ الاسم لتحفظه",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Break the Name Down",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "شبكة: توصلك بشبكة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Network: it connects you to a network.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "افتراضية: بلا كابل خاص، عبر الإنترنت نفسه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Virtual: no private cable; it uses the Internet.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خاصة: لا يقرأ ما فيها إلا الطرفان.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Private: only the two ends can read it.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-014",
+      "htmlId": "page-14",
+      "role": "content",
+      "descriptionAr": "تابع: الشبكة الافتراضية الخاصة: النفق المشفّر",
+      "transcript": [
+        {
+          "text": "تخيّل سيارة مصفّحة بزجاج داكن تعبر سوقًا مزدحمًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Picture an armored car with dark windows crossing a busy market.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الكل يرى السيارة، ولا أحد يعرف ما بداخلها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Everyone sees the car; no one knows what is inside.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أين نستخدمها؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Where Do We Use It?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "العمل عن بُعد: من البيت كأنك في المكتب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Remote work: from home, as if at the office.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ربط الفروع: فرعان في مدينتين كشبكة واحدة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Branches: two offices in two cities as one network.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏Wi-Fi العام: البيانات مشفرة، فيقل خطر التنصت.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Public Wi-Fi: data is encrypted, so eavesdropping risk drops.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-015",
+      "htmlId": "page-15",
+      "role": "content",
+      "descriptionAr": "تابع: الشبكة الافتراضية الخاصة: النفق المشفّر",
+      "transcript": [
+        {
+          "text": "ما لا تفعله الـ VPN",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "What a VPN Does NOT Do",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لا تحذف الفيروسات؛ فهذا عمل برنامج المكافحة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "It does not delete viruses; that is antivirus work.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لا تجعلك مجهول الهوية تمامًا؛ فمزوّد الخدمة نفسه قد يرى اتصالك.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "It does not make you fully anonymous; the VPN provider itself may see your connection.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لا تحميك إذا ضغطت على رابط احتيالي.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "It does not protect you if you click a scam link.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الـ VPN تحمي الطريق، لا الجهاز ولا قرارك.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A VPN protects the road, not the device or your decision.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-016",
+      "htmlId": "page-16",
+      "role": "content",
+      "descriptionAr": "المنطقة المعزولة: صالون الضيوف",
+      "transcript": [
+        {
+          "text": "المنطقة المعزولة: صالون الضيوف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The DMZ: The Guest Room",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المنطقة المعزولة DMZ: جزء منفصل عن الشبكة الداخلية، توضع فيه الخوادم التي يصل إليها الجمهور، كخادم الويب والبريد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DMZ: a part separate from the internal network that holds servers the public must reach, like web and mail servers.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يفصلها جدار حماية عن الإنترنت، وآخر عن الداخل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "One firewall separates it from the Internet, another from the inside.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الإنترنت",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Internet",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جدار الحماية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Firewall",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جدار الحماية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Firewall",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المنطقة المعزولة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DMZ",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الشبكة الداخلية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Internal network",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-017",
+      "htmlId": "page-17",
+      "role": "content",
+      "descriptionAr": "تابع: المنطقة المعزولة: صالون الضيوف",
+      "transcript": [
+        {
+          "text": "لماذا نحتاج إليها؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Why Do We Need It?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الموقع مفتوح للعالم، وكل باب مفتوح فرصة للمهاجم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A website is open to the world, and every open door is a chance for attackers.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خادم مخترَق في الداخل = مهاجم «داخل البيت».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A hacked server inside = an attacker \"inside the house.\"",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خادم مخترَق في المنطقة المعزولة = مهاجم في غرفة مغلقة، أمامه جدار آخر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A hacked server in the DMZ = an attacker in a closed room, facing another wall.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-018",
+      "htmlId": "page-18",
+      "role": "content",
+      "descriptionAr": "تابع: المنطقة المعزولة: صالون الضيوف",
+      "transcript": [
+        {
+          "text": "تذكّر «المندرة»: صالون الضيوف في البيوت المصرية القديمة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Remember the \"mandara\": the guest room of old Egyptian houses.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الضيف يُكرَّم فيها، ولا يصل إلى بقية البيت.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Guests are welcomed there but never reach the rest of the house.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ولو كان «مش تمام»، فأقصى ما يصل إليه المندرة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Even a bad guest gets no further than the guest room.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هل تعلم؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Did You Know?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الاسم عسكري: «المنطقة منزوعة السلاح» أرض بين دولتين، لا تتبع أيًّا منهما.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The name is military: a demilitarized zone is land between two countries, owned by neither.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-019",
+      "htmlId": "page-19",
+      "role": "content",
+      "descriptionAr": "تابع: المنطقة المعزولة: صالون الضيوف",
+      "transcript": [
+        {
+          "text": "الصياغة الدقيقة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Precise Wording",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المنطقة المعزولة تقلل بشدة احتمال وصول الهجوم إلى الداخل، لكنها ليست ضمانًا مطلقًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A DMZ greatly reduces the chance an attack gets inside, but it is no absolute guarantee.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "وفي الامتحان، اكتب عبارة الكتاب: «يمكن منع الضرر».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In the exam, use the book's words: \"damage can be prevented.\"",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المنطقة المعزولة: افتح للضيف بابًا، ولا تفتح له البيت.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DMZ: open a door for the guest, not the whole house.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-020",
+      "htmlId": "page-20",
+      "role": "content",
+      "descriptionAr": "الأجهزة الطرفية: مناعة كل جهاز",
+      "transcript": [
+        {
+          "text": "الأجهزة الطرفية: مناعة كل جهاز",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Endpoints: Every Device's Immunity",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الجهاز الطرفي Endpoint: أي جهاز في طرف الاتصال، كالحاسوب والهاتف والخادم، وحتى الطابعة الذكية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Endpoint: any device at the end of a connection, like a computer, phone, server, or even a smart printer.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "حماية الأجهزة الطرفية: ضوابط تُطبَّق على كل جهاز بعينه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Endpoint protection: controls applied to each device itself.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "حاسوب",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Computer",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هاتف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Phone",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خادم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Server",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "طابعة ذكية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Smart printer",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-021",
+      "htmlId": "page-21",
+      "role": "content",
+      "descriptionAr": "تابع: الأجهزة الطرفية: مناعة كل جهاز",
+      "transcript": [
+        {
+          "text": "أهم ضوابطها",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Its Main Controls",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "برنامج مكافحة الفيروسات Antivirus.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Antivirus software.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تحديث النظام والبرامج Updates.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Updating the OS and apps.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جدار حماية خاص بالجهاز.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A firewall on the device.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قفل الشاشة وكلمة مرور قوية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A screen lock and a strong password.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تخيّلها مناعتك الشخصية: المدرسة قد تكون نظيفة، لكن المناعة الضعيفة تمرض.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Think of it as personal immunity: a clean school won't help if your immunity is weak.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-022",
+      "htmlId": "page-22",
+      "role": "content",
+      "descriptionAr": "تابع: الأجهزة الطرفية: مناعة كل جهاز",
+      "transcript": [
+        {
+          "text": "أحيانًا لا يأتي الهجوم من البوابة أصلًا: فلاشة مصابة، أو لابتوب أُصيب في البيت.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Sometimes the attack never passes the gate: an infected USB stick, or a laptop infected at home.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هنا لا يحمي إلا الجهاز نفسه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Here, only the device itself can protect you.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لماذا التحديثات؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Why Updates?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كل تحديث يسد ثغرة عرفها المهاجمون.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Each update closes a hole attackers already know.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "والجهاز غير المحدَّث بيت يعرف كل اللصوص أن شباكه مكسور.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "An unupdated device is a house whose broken window every thief knows.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-023",
+      "htmlId": "page-23",
+      "role": "content",
+      "descriptionAr": "الدفاع في العمق: الجبن السويسري",
+      "transcript": [
+        {
+          "text": "الدفاع في العمق: الجبن السويسري",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Defense in Depth: The Swiss Cheese",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الدفاع في العمق Defense in Depth: تكديس طبقات متعددة ومتنوعة من الضوابط، فإذا فشلت طبقة، بقيت الأخرى تقلل الخطر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Defense in depth: stacking many different layers of controls, so if one fails, the others still reduce the risk.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الكلمة المفتاحية: «متنوعة».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The key word: \"different.\"",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ثلاثة أقفال من النوع نفسه ليست دفاعًا في العمق؛ فالمفتاح الذي يفتح الأول يفتح الثلاثة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Three identical locks are not defense in depth: the key that opens one opens all three.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-024",
+      "htmlId": "page-24",
+      "role": "content",
+      "descriptionAr": "تابع: الدفاع في العمق: الجبن السويسري",
+      "transcript": [
+        {
+          "text": "هات أربع شرائح جبن سويسري، وفي كل شريحة ثقوب هي نقاط ضعفها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Take four slices of Swiss cheese; each has holes, which are its weak points.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "من شريحة واحدة ترى النور بسهولة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Through one slice, you see light easily.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لكن إذا رصصت الأربع، فمن النادر أن تقع الثقوب كلها على خط واحد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "But stack all four, and the holes rarely line up.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كل طبقة فيها ثغرات، لكن تكديسها يجعل مرور الهجوم منها كلها نادرًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Every layer has gaps, but stacking them makes it rare for an attack to pass through all of them.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-025",
+      "htmlId": "page-25",
+      "role": "content",
+      "descriptionAr": "تابع: الدفاع في العمق: الجبن السويسري",
+      "transcript": [
+        {
+          "text": "الطبقات الأربع في الدرس",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Four Layers of the Lesson",
           "lang": "en",
           "dir": "ltr"
         },
@@ -578,290 +1551,1300 @@
           "dir": "ltr"
         },
         {
-          "text": "أمثلة على الإجراءات",
+          "text": "ماذا تحمي؟",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Examples of measures",
+          "text": "What it protects",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "الطبقة 1: مدخل الشبكة",
+          "text": "الأداة",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Layer 1: Network entry",
+          "text": "Tool",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "منع الاتصال غير المصرح به باستخدام جدار الحماية",
+          "text": "1. مدخل الشبكة",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Block unauthorized communication using a firewall",
+          "text": "Network entry",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "الطبقة 2: مسار الاتصال",
+          "text": "البوابة",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Layer 2: Communication path",
+          "text": "The gate",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "تشفير الاتصال باستخدام الشبكة الافتراضية الخاصة",
+          "text": "جدار الحماية",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Encrypt communication using a VPN",
+          "text": "Firewall",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "الطبقة 3: وضع الخوادم",
+          "text": "2. مسار الاتصال",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Layer 3: Server placement",
+          "text": "Communication path",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "فصل الخوادم المواجهة للجمهور عن الشبكة الداخلية باستخدام المنطقة المعزولة (DMZ)",
+          "text": "الطريق",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Separate public-facing servers from the internal network using a DMZ",
+          "text": "The road",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "الطبقة 4: الأجهزة الطرفية",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "Layer 4: Endpoints",
+          "text": "VPN",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "تثبيت برنامج مكافحة الفيروسات والحفاظ على تحديث نظام التشغيل",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "Install antivirus software and keep the operating system updated",
-          "lang": "en",
-          "dir": "ltr"
-        }
-      ]
-    },
-    {
-      "id": "page-012",
-      "htmlId": "page-12",
-      "role": "content",
-      "descriptionAr": "5. مفهوم نهج انعدام الثقة",
-      "transcript": [
-        {
-          "text": "5. مفهوم نهج انعدام الثقة",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "5. The Concept of Zero Trust",
+          "text": "VPN",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "(1) نهج انعدام الثقة Zero Trust: نهج أمني لا يمنح الثقة تلقائيًا لمستخدم أو جهاز لمجرد وجوده داخل الشبكة أو لكونه مملوكًا للمؤسسة. تُفحص الهوية والصلاحيات والسياق عند طلب الوصول إلى الموارد وفق سياسة المؤسسة.",
+          "text": "3. وضع الخوادم",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "(1) Zero trust: a security approach that does not automatically trust a user or device merely because it is inside the network or owned by the organization. Identity, permissions, and context are checked when access to resources is requested, according to the organization's policy.",
+          "text": "Server placement",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "مصطلح أساسي: نهج انعدام الثقة — التحقق من كل عملية وصول.",
+          "text": "المكان",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "KEY TERM: Zero trust — verify every access.",
-          "lang": "en",
-          "dir": "ltr"
-        }
-      ]
-    },
-    {
-      "id": "page-013",
-      "htmlId": "page-13",
-      "role": "content",
-      "descriptionAr": "المحيط الأمني التقليدي",
-      "transcript": [
-        {
-          "text": "المحيط الأمني التقليدي",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "The Traditional Perimeter",
+          "text": "The place",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "(2) صُمِّم أمان الشبكات التقليدي بشكل أساسي حول حماية المحيط الأمني Perimeter، بناءً على فرضية أن «داخل شبكة المؤسسة آمن، وخارجها خطر». لكن مع انتشار الخدمات السحابية والعمل عن بُعد، أصبحت الحدود بين «الداخل» و«الخارج» غير واضحة، وأصبحت التصاميم التي تحمي المحيط الأمني فقط غير كافية.",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "(2) Traditional network security was designed mainly around protecting the perimeter, based on the assumption that \"inside the organization's network is safe, and outside is dangerous.\" But with the spread of cloud services and remote work, the boundary between \"inside\" and \"outside\" has become unclear, and designs that protect only the perimeter have become insufficient.",
+          "text": "DMZ",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "مصطلح أساسي: المحيط الأمني — الحدود التقليدية التي تفترض أن «الداخل آمن»، والتي طمستها الخدمات السحابية والعمل عن بُعد.",
+          "text": "DMZ",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "4. الأجهزة الطرفية",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "KEY TERM: Perimeter — the traditional boundary that assumes \"inside is safe,\" blurred by cloud services and remote work.",
+          "text": "Endpoints",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الجهاز",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The device",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مكافحة الفيروسات والتحديثات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Antivirus and updates",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هذا المفهوم هو قلب الدرس، وكل ما قبله أدوات تعمل داخله.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "This concept is the heart of the lesson; everything before it is a tool inside it.",
           "lang": "en",
           "dir": "ltr"
         }
       ]
     },
     {
-      "id": "page-014",
-      "htmlId": "page-14",
+      "id": "page-026",
+      "htmlId": "page-26",
       "role": "content",
-      "descriptionAr": "الأمان التقليدي مقابل نهج انعدام الثقة",
+      "descriptionAr": "من سور القلعة إلى انعدام الثقة",
       "transcript": [
         {
-          "text": "الأمان التقليدي مقابل نهج انعدام الثقة",
+          "text": "من سور القلعة إلى انعدام الثقة",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Traditional Security vs. Zero Trust",
+          "text": "From Castle Wall to Zero Trust",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "مع تلاشي الخط الفاصل بين «الداخلي» و«الخارجي» بسبب السحابة والعمل عن بُعد، يُتحقق من كل عملية وصول.",
+          "text": "المحيط الأمني Perimeter: الحد الفاصل بين داخل شبكة المؤسسة وخارجها.",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "As cloud and remote work blur the \"internal/external\" line, every access is verified.",
+          "text": "Perimeter: the boundary between inside and outside an organization's network.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "بُني الأمان التقليدي على فرضية: «الداخل آمن وموثوق، والخارج خطر».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Traditional security assumed: \"inside is safe and trusted; outside is dangerous.\"",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ويُسمى هذا النموذج «القلعة والخندق»: من يعبر السور يتحرك بحرية في الداخل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "This is called \"castle and moat\": whoever crosses the wall moves freely inside.",
           "lang": "en",
           "dir": "ltr"
         }
       ]
     },
     {
-      "id": "page-015",
-      "htmlId": "page-15",
+      "id": "page-027",
+      "htmlId": "page-27",
       "role": "content",
-      "descriptionAr": "إجابة السؤال الرئيسي",
+      "descriptionAr": "تابع: من سور القلعة إلى انعدام الثقة",
       "transcript": [
         {
-          "text": "إجابة السؤال الرئيسي",
+          "text": "أين المشكلة؟",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Lesson Question — Answered",
+          "text": "Where Is the Problem?",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "تناول السؤال الرئيسي تصميم شبكة لا يؤدي فيها فشل وسيلة واحدة إلى كشف النظام كله. يراقب جدار الحماية حركة الشبكة، وتحمي الشبكة الافتراضية الخاصة الاتصال البعيد، وتفصل المنطقة المعزولة الخوادم العامة عن الشبكة الداخلية، وتحمي ضوابط الأجهزة الطرفية كل جهاز.",
+          "text": "السحابة Cloud: البيانات صارت على خوادم شركات أخرى عبر الإنترنت.",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "The guiding question asked how to design a network in which the failure of one measure does not expose the whole system. A firewall monitors network traffic, a VPN protects remote communication, a DMZ separates public servers from the internal network, and endpoint controls protect each device.",
+          "text": "Cloud: data now lives on other companies' servers over the Internet.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "العمل عن بُعد: الموظف يعمل من بيته ومن المقهى.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Remote work: staff work from home and from cafés.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المهاجم الذي يصل «الداخل» مرة يصبح موثوقًا تلقائيًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "An attacker who gets \"inside\" once is trusted automatically.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "فأين السور الآن؟ لم يعد له مكان واضح.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "So where is the wall now? It no longer has a clear place.",
           "lang": "en",
           "dir": "ltr"
         }
       ]
     },
     {
-      "id": "page-016",
-      "htmlId": "page-16",
+      "id": "page-028",
+      "htmlId": "page-28",
       "role": "content",
-      "descriptionAr": "إجابة السؤال الرئيسي (تابع)",
+      "descriptionAr": "تابع: من سور القلعة إلى انعدام الثقة",
       "transcript": [
         {
-          "text": "إجابة السؤال الرئيسي (تابع)",
+          "text": "نهج انعدام الثقة Zero Trust: نهج لا يمنح الثقة تلقائيًا لأي مستخدم أو جهاز لمجرد وجوده داخل الشبكة أو ملكيته للمؤسسة.",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Lesson Question — Answered (continued)",
+          "text": "Zero trust: an approach that never trusts a user or device automatically just because it is inside the network or owned by the organization.",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "ومع السحابة والعمل عن بُعد، أصبح موقع المستخدم داخل الشبكة دليلًا أقل فاعلية على الثقة؛ لذلك لا يمنح نهج انعدام الثقة ثقة تلقائية، بل يطلب التحقق المناسب من الهوية والصلاحيات عند الوصول. تعمل هذه الطبقات معًا لتقليل الخطر والحد من أثر الاختراق.",
+          "text": "يُتحقق من الهوية والصلاحيات والسياق (الجهاز، والموقع، والوقت) عند كل طلب وصول.",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "With cloud services and remote work, a user's location inside the network has become a less reliable indicator of trust. So zero trust grants no automatic trust; instead, it requires appropriate verification of identity and permissions at access. These layers work together to reduce risk and limit the impact of a breach.",
+          "text": "Identity, permissions, and context (device, location, time) are checked at every access request.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لا تثق أبدًا، تحقّق دائمًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Never trust, always verify.",
           "lang": "en",
           "dir": "ltr"
         }
       ]
     },
     {
-      "id": "page-017",
-      "htmlId": "page-17",
+      "id": "page-029",
+      "htmlId": "page-29",
       "role": "content",
-      "descriptionAr": "الفكرة الرئيسة والخلاصة",
+      "descriptionAr": "تابع: من سور القلعة إلى انعدام الثقة",
       "transcript": [
         {
-          "text": "الفكرة الرئيسة والخلاصة",
+          "text": "المبادئ الثلاثة",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Main Idea & Key Takeaway",
+          "text": "The Three Principles",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "الفكرة الرئيسة: يكون أمان الشبكة في أقوى حالاته عندما تُكدَّس الإجراءات في طبقات متعددة (الدفاع في العمق)، ولا يُمنح أي وصول ثقةً تلقائيًا (نهج انعدام الثقة)، بحيث يصبح من غير المرجح أن يؤدي خرق واحد إلى كشف النظام بأكمله.",
+          "text": "1 التحقق الصريح: يُتحقق من كل طلب، وغالبًا بالتحقق متعدد العوامل MFA، كأن تُطلب كلمة مرور ورمز يصل إلى هاتفك.",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Main Idea: Network security is strongest when measures are layered (defense in depth) and no access is automatically trusted (zero trust), making it unlikely that a single breach will expose the whole system.",
+          "text": "1 Verify explicitly: every request is checked, often with MFA, such as a password plus a code sent to your phone.",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "الخلاصة: تذكّر: كدّس دفاعاتك — جدار الحماية، والشبكة الافتراضية الخاصة، والمنطقة المعزولة، والأجهزة الطرفية — وتحقق من كل عملية وصول (نهج انعدام الثقة). عندها يصبح من غير المرجح أن يؤدي خرق واحد إلى كشف الشبكة بأكملها.",
+          "text": "2 أقل صلاحية ممكنة Least Privilege: كل شخص يأخذ ما يحتاجه فقط.",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Key Takeaway: Remember: Layer your defenses — firewall, VPN, DMZ, endpoints — and verify every access (zero trust). A single breach is then unlikely to expose the whole network.",
+          "text": "2 Least privilege: each person gets only what they need.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "3 افترض أن الاختراق وارد Assume Breach: صمّم كأن المهاجم بالداخل فعلًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 Assume breach: design as if the attacker is already inside.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تحقّق",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Verify",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أقل صلاحية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Least privilege",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "افترض الاختراق",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Assume breach",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-030",
+      "htmlId": "page-30",
+      "role": "content",
+      "descriptionAr": "تابع: من سور القلعة إلى انعدام الثقة",
+      "transcript": [
+        {
+          "text": "تخيّل المطار: تُفحص عند الأمن، ثم الجوازات، ثم بوابة الطائرة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Picture the airport: you are checked at security, then passports, then the gate.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ولا أحد يقول: «ما دام دخل المطار، فهو مسافر أكيد».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "No one says: \"He entered the airport, so he must be a passenger.\"",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "توضيح مهم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Important Note",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "انعدام الثقة لا يعني الشك في الموظفين، بل أن النظام يتأكد في كل مرة، حتى من المدير.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Zero trust does not mean suspecting staff; the system checks every time, even the manager.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الأمن",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Security",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الجوازات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Passports",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "بوابة الطائرة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Boarding gate",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-031",
+      "htmlId": "page-31",
+      "role": "content",
+      "descriptionAr": "تابع: من سور القلعة إلى انعدام الثقة",
+      "transcript": [
+        {
+          "text": "المفهومان معًا",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Two Concepts Together",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الدفاع في العمق يسأل: كم طبقة عندي؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Defense in depth asks: how many layers do I have?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ونهج انعدام الثقة يسأل: هل أتحقق في كل مرة؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Zero trust asks: do I verify every time?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لا يتنافسان، بل يكمل كل منهما الآخر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "They do not compete; each completes the other.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-032",
+      "htmlId": "page-32",
+      "role": "content",
+      "descriptionAr": "احفظها ولا تنسَها",
+      "transcript": [
+        {
+          "text": "احفظها ولا تنسَها",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Remember It Forever",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "امنع — شفّر — افصل — حصّن… وتحقّق كل مرة!",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Block — Tunnel — Separate — Harden… and Verify!",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الكلمة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Word",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المصطلح",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Term",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "امنع",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Block",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جدار الحماية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Firewall",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "شفّر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Tunnel",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "VPN",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "VPN",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "افصل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Separate",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "DMZ",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "DMZ",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "حصّن",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Harden",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الأجهزة الطرفية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Endpoints",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "وتحقّق كل مرة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "and Verify",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نهج انعدام الثقة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Zero trust",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "والكلمات الأربع الأولى معًا هي الدفاع في العمق.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The first four words together are defense in depth.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-033",
+      "htmlId": "page-33",
+      "role": "content",
+      "descriptionAr": "تابع: احفظها ولا تنسَها",
+      "transcript": [
+        {
+          "text": "جرّبها بيدك: الجبن الورقي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Try It: Paper Cheese",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "1 اثقب أربع ورقات بالقلم في أماكن عشوائية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 Poke holes in four sheets of paper at random spots.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 أدخل قلم رصاص (الهجوم) في ورقة واحدة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 Push a pencil (the attack) through one sheet.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "3 رُصّ الأربع وحاول مرة أخرى.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 Stack all four and try again.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ماذا لاحظت؟ اكتب ملاحظتك في سطر واحد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "What did you notice? Write it in one line.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-034",
+      "htmlId": "page-34",
+      "role": "content",
+      "descriptionAr": "تابع: احفظها ولا تنسَها",
+      "transcript": [
+        {
+          "text": "لعبة: حدّد الطبقة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Game: Name the Layer",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اكتب رقم الطبقة (1 – 4) أمام كل موقف.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Write the layer number (1–4) next to each situation.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أ موظف في مقهى يفتح ملفات الشركة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A An employee in a café opens company files.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ب الموقع اختُرق، لكن بيانات العملاء سليمة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "B The website was hacked, but customer data is safe.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جـ فلاشة مصابة وُضعت في جهاز.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "C An infected USB stick was plugged into a device.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "د شخص من الخارج حاول الوصول إلى قاعدة البيانات مباشرة فرُفض.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "D Someone outside tried to reach the database directly and was refused.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-035",
+      "htmlId": "page-35",
+      "role": "content",
+      "descriptionAr": "تابع: احفظها ولا تنسَها",
+      "transcript": [
+        {
+          "text": "إجابات لعبة «حدّد الطبقة»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "\"Name the Layer\" Answers",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أ 2 (VPN)، ب 3 (DMZ)، جـ 4 (الأجهزة الطرفية)، د 1 (جدار الحماية).",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A 2 (VPN), B 3 (DMZ), C 4 (Endpoints), D 1 (Firewall).",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المهاجم يحتاج أن ينجح في كل الطبقات… وأنت تحتاج طبقة واحدة فقط تصمد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The attacker must beat every layer… you need just one layer to hold.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-036",
+      "htmlId": "page-36",
+      "role": "content",
+      "descriptionAr": "فخاخ الامتحان",
+      "transcript": [
+        {
+          "text": "فخاخ الامتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Exam Traps",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أي خيار فيه «وحده» أو «فقط» أو «جميع» أو «لا داعي للتحقق»، راجعه مرتين.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Any option with \"alone,\" \"only,\" \"all,\" or \"no need to verify\" — check it twice.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "× جدار الحماية وحده كافٍ: لا يرى الفيروس في الاتصال المسموح.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "× A firewall alone is enough: it misses viruses in allowed traffic.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "× الـ VPN تحذف الفيروسات: هي تحمي الطريق، والحذف لبرنامج المكافحة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "× A VPN deletes viruses: it protects the road; antivirus deletes them.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "× الـ DMZ تعرّض جميع الخوادم: تعرّض الخوادم العامة فقط، وتعزلها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "× A DMZ exposes all servers: it exposes only public servers, and isolates them.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-037",
+      "htmlId": "page-37",
+      "role": "content",
+      "descriptionAr": "تابع: فخاخ الامتحان",
+      "transcript": [
+        {
+          "text": "× الغرض من الـ DMZ تحسين السرعة: غرضها حماية الداخل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "× A DMZ is for speed: it is for protecting the inside.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "× انعدام الثقة يعني أن الداخل آمن: هذا هو المحيط القديم، أي العكس.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "× Zero trust means inside is safe: that is the old perimeter — the opposite.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "○ الـ VPN تقلل خطر التنصت على Wi-Fi العام، لأن البيانات مشفرة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "○ A VPN reduces eavesdropping risk on public Wi-Fi, because data is encrypted.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "○ الدفاع في العمق هو تكديس إجراءات متعددة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "○ Defense in depth is layering multiple measures.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-038",
+      "htmlId": "page-38",
+      "role": "content",
+      "descriptionAr": "سؤال الست درجات",
+      "transcript": [
+        {
+          "text": "سؤال الست درجات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The 6-Mark Question",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "سؤال على نمط الامتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "EXAM-STYLE QUESTION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اشرح لماذا يحمي الدفاع في العمق المؤسسة بشكل أفضل من الاعتماد على جدار الحماية وحده. [6 درجات]",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Explain why defense in depth protects an organization better than relying on a firewall alone. [6 marks]",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الدرجات الست = ثلاث نقاط × درجتان لكل نقطة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Six marks = three points × two marks each.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "1 حدود الإجراء الواحد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 The limits of one measure.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 ماذا يحدث عند الاختراق مع وجود الطبقات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 What happens in a breach when layers exist.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "3 النتيجة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 The result.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-039",
+      "htmlId": "page-39",
+      "role": "content",
+      "descriptionAr": "تابع: سؤال الست درجات",
+      "transcript": [
+        {
+          "text": "النقطة 1",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Point 1",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جدار الحماية يطبق قواعد محددة مسبقًا؛ فإذا تجاوزه المهاجم بثغرة أو باتصال يبدو مسموحًا، لم يبقَ ما يحمي الشبكة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A firewall applies preset rules; if an attacker passes it through a gap or allowed-looking traffic, nothing else protects the network.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "النقطة 2",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Point 2",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مع الطبقات: خادم الويب المخترَق معزول في الـ DMZ، فلا يصل المهاجم مباشرة إلى قاعدة البيانات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "With layers: a hacked web server is isolated in the DMZ, so the attacker cannot reach the database directly.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "والاتصال البعيد مشفر بالـ VPN، والأجهزة المحدَّثة توقف الفيروس الذي تجاوز البوابة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Remote traffic is encrypted by the VPN, and updated devices stop a virus that passed the gate.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-040",
+      "htmlId": "page-40",
+      "role": "content",
+      "descriptionAr": "تابع: سؤال الست درجات",
+      "transcript": [
+        {
+          "text": "النقطة 3",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Point 3",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لأن كل طبقة تغطي نوعًا مختلفًا من التهديدات، يصبح تجاوزها كلها معًا غير مرجح، فيقل الخطر ويُحد من أثر الاختراق.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Because each layer covers a different kind of threat, passing all of them is unlikely, so risk drops and breach impact is limited.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نصيحة الدرجة الكاملة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Full-Mark Tip",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اذكر مثالًا محددًا واحدًا على الأقل، مثل: «إذا اختُرق خادم الويب…».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Give at least one specific example, such as: \"If the web server is hacked…\"",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "فالمصحح يبحث عن: ماذا يحدث إذا اختُرق أحد الإجراءات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The marker looks for: what happens if one measure is breached.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-041",
+      "htmlId": "page-41",
+      "role": "content",
+      "descriptionAr": "ليلة الامتحان",
+      "transcript": [
+        {
+          "text": "ليلة الامتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Night Before the Exam",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المصطلح",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Term",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تشبيه للتذكر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Memory picture",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جدار الحماية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Firewall",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "بواب العمارة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Building guard",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "VPN",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "VPN",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "سيارة مصفّحة في سوق",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Armored car in a market",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "DMZ",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "DMZ",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المندرة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Guest room",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الأجهزة الطرفية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Endpoints",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المناعة الشخصية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Personal immunity",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الدفاع في العمق",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Defense in depth",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الجبن السويسري",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Swiss cheese",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المحيط الأمني",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Perimeter",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "سور القلعة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Castle wall",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نهج انعدام الثقة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Zero trust",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أمن المطار",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Airport security",
           "lang": "en",
           "dir": "ltr"
         }

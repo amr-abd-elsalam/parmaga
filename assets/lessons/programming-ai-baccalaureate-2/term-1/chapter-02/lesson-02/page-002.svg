@@ -21,91 +21,228 @@
 <rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
 <rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-<!-- Card shadows -->
-<rect x="109" y="368" width="870" height="128" rx="16" fill="#22303f" opacity=".12"/>
-<rect x="109" y="648" width="870" height="128" rx="16" fill="#22303f" opacity=".12"/>
-<rect x="109" y="928" width="870" height="128" rx="16" fill="#22303f" opacity=".12"/>
+<g>
+  <defs>
+    <linearGradient id="ilRoof" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f7fb5"/>
+      <stop offset="1" stop-color="#17457f"/>
+    </linearGradient>
+    <linearGradient id="ilSteel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7f95ab"/>
+      <stop offset="1" stop-color="#17457f"/>
+    </linearGradient>
+    <linearGradient id="ilRoom" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dff1f7"/>
+    </linearGradient>
+    <linearGradient id="ilCloud" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dff1f7"/>
+    </linearGradient>
+  </defs>
 
-<!-- Info cards -->
-<rect x="105" y="362" width="870" height="128" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
-<rect x="961" y="378" width="6" height="96" rx="3" fill="#2f7fb5"/>
-<rect x="105" y="642" width="870" height="128" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
-<rect x="961" y="658" width="6" height="96" rx="3" fill="#2f7fb5"/>
-<rect x="105" y="922" width="870" height="128" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
-<rect x="961" y="938" width="6" height="96" rx="3" fill="#2f7fb5"/>
+  <g transform="translate(4 6)">
+    <path d="M226 648 C208 648 206 626 224 622 C226 606 250 600 262 612 C272 600 296 606 294 624 C308 626 308 648 292 648 Z" fill="#22303f" opacity=".18"/>
+    <rect x="344" y="622" width="602" height="22" rx="6" fill="#22303f" opacity=".18"/>
+    <rect x="360" y="644" width="570" height="162" fill="#22303f" opacity=".18"/>
+    <rect x="124" y="732" width="198" height="74" fill="#22303f" opacity=".18"/>
+    <circle cx="292" cy="712" r="22" fill="#22303f" opacity=".18"/>
+  </g>
 
-<!-- Objective bullets -->
-<circle cx="966" cy="264" r="6" fill="#c0392b"/>
-<circle cx="966" cy="544" r="6" fill="#c0392b"/>
-<circle cx="966" cy="824" r="6" fill="#c0392b"/>
+  <rect x="105" y="580" width="870" height="446" rx="20" fill="none" stroke="#8fc9f2" stroke-width="2.5"/>
 
-<!-- Icons -->
-<g stroke-linecap="round" stroke-linejoin="round">
-  <!-- Open book beside the header -->
-  <g transform="translate(150 118)">
-    <path d="M 0 -12 Q -12 -20 -26 -18 L -26 16 Q -12 14 0 22 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
-    <path d="M 0 -12 Q 12 -20 26 -18 L 26 16 Q 12 14 0 22 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
-    <line x1="-19" y1="-8" x2="-7" y2="-6" stroke="#2f7fb5" stroke-width="2.5"/>
-    <line x1="-19" y1="0" x2="-7" y2="2" stroke="#2f7fb5" stroke-width="2.5"/>
-    <line x1="-19" y1="8" x2="-7" y2="10" stroke="#2f7fb5" stroke-width="2.5"/>
-    <line x1="7" y1="-6" x2="19" y2="-8" stroke="#c96a1b" stroke-width="2.5"/>
-    <line x1="7" y1="2" x2="19" y2="0" stroke="#c96a1b" stroke-width="2.5"/>
-    <line x1="7" y1="10" x2="19" y2="8" stroke="#c96a1b" stroke-width="2.5"/>
+  <path d="M170 596 V602 M170 650 V656 M140 626 H146 M194 626 H200 M149 605 L153 609 M187 643 L191 647 M191 605 L187 609 M153 643 L149 647" fill="none" stroke="#ffd24a" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="170" cy="626" r="18" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M226 648 C208 648 206 626 224 622 C226 606 250 600 262 612 C272 600 296 606 294 624 C308 626 308 648 292 648 Z" fill="url(#ilCloud)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M470 604 Q478 596 486 604 Q494 596 502 604 M520 596 Q526 590 532 596 Q538 590 544 596" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="288" y="728" width="8" height="30" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="292" cy="712" r="22" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="284" cy="704" r="7" fill="#a9dcbe" opacity=".6"/>
+
+  <rect x="124" y="758" width="16" height="48" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="216" y="758" width="106" height="48" fill="#e8dfd1"/>
+  <path d="M216 774H322 M216 790H322 M240 758V774 M270 758V774 M300 758V774 M228 774V790 M256 774V790 M286 774V790 M314 774V790 M244 790V806 M274 790V806 M304 790V806" fill="none" stroke="#7f95ab" stroke-width="1.4" stroke-linecap="round"/>
+  <rect x="216" y="758" width="106" height="48" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="212" y="752" width="114" height="8" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M152 764 Q178 744 204 764 M162 806V760 M172 806V755 M182 806V754 M192 806V757 M152 772H204 M152 796H204" fill="none" stroke="#17457f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="140" y="738" width="12" height="68" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="204" y="738" width="12" height="68" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="136" y="732" width="20" height="8" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="200" y="732" width="20" height="8" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+
+  <rect x="234" y="779" width="5" height="27" fill="#7d4f28"/>
+  <rect x="255" y="779" width="5" height="27" fill="#7d4f28"/>
+  <rect x="230" y="772" width="34" height="7" rx="3" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="234" y="732" width="28" height="44" rx="10" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="248" y="766" width="32" height="11" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="272" y="770" width="11" height="32" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="270" y="798" width="20" height="8" rx="3" fill="#22303f"/>
+  <rect x="239" y="740" width="7" height="8" rx="1" fill="#ffd24a"/>
+  <path d="M246 742 L268 758 L262 766 L240 752 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="267" cy="763" r="5" fill="#d59f6f"/>
+  <circle cx="248" cy="716" r="13" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M234 712 Q236 698 248 698 Q262 698 262 712 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="248" y="709" width="18" height="5" rx="2" fill="#22303f"/>
+  <circle cx="251" cy="718" r="2" fill="#22303f"/>
+  <circle cx="258" cy="718" r="2" fill="#22303f"/>
+  <path d="M251 724 Q255 727 259 724" fill="none" stroke="#22303f" stroke-width="1.4" stroke-linecap="round"/>
+
+  <rect x="344" y="622" width="602" height="22" rx="6" fill="url(#ilRoof)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="360" y="644" width="570" height="162" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="390" y="672" width="70" height="58" rx="4" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M425 672V730 M390 701H460" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M398 692 L410 680" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" opacity=".85"/>
+  <rect x="384" y="730" width="82" height="7" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="500" y="672" width="70" height="58" rx="4" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M535 672V730 M500 701H570" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M508 692 L520 680" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" opacity=".85"/>
+  <rect x="494" y="730" width="82" height="7" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M384 806 Q384 786 404 786 Q424 786 424 806 Z M430 806 Q430 792 444 792 Q458 792 458 806 Z M528 806 Q528 790 546 790 Q564 790 564 806 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <rect x="607" y="694" width="76" height="112" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="617" y="704" width="56" height="102" rx="3" fill="url(#ilSteel)" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M617 732H673 M617 780H673" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="624" cy="716" r="2.5" fill="#dff1f7"/>
+  <circle cx="666" cy="716" r="2.5" fill="#dff1f7"/>
+  <circle cx="624" cy="794" r="2.5" fill="#dff1f7"/>
+  <circle cx="666" cy="794" r="2.5" fill="#dff1f7"/>
+  <circle cx="645" cy="756" r="10" fill="none" stroke="#ffd24a" stroke-width="3"/>
+  <path d="M645 746V766 M635 756H655" fill="none" stroke="#ffd24a" stroke-width="2.5" stroke-linecap="round"/>
+
+  <rect x="690" y="656" width="226" height="150" fill="url(#ilRoom)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="704" y="666" width="204" height="140" fill="#dff1f7" stroke="#17457f" stroke-width="2.5"/>
+  <rect x="714" y="712" width="32" height="94" rx="3" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M719 720H741V748H719Z" fill="none" stroke="#f0c48c" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M724 762 V756 A6 6 0 0 1 736 756 V762" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="720" y="762" width="20" height="16" rx="3" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="730" cy="770" r="2.5" fill="#22303f"/>
+
+  <circle cx="820" cy="762" r="44" fill="#ffd24a" opacity=".35"/>
+  <rect x="784" y="728" width="72" height="74" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="792" y="736" width="56" height="58" rx="3" fill="#22303f"/>
+  <path d="M792 766H848" fill="none" stroke="#7f95ab" stroke-width="2.5"/>
+  <polygon points="796,766 799,757 813,757 816,766" fill="#ffd24a" stroke="#22303f" stroke-width="1.4" stroke-linejoin="round"/>
+  <polygon points="818,766 821,757 835,757 838,766" fill="#ffd24a" stroke="#22303f" stroke-width="1.4" stroke-linejoin="round"/>
+  <polygon points="807,757 810,748 824,748 827,757" fill="#ffd24a" stroke="#22303f" stroke-width="1.4" stroke-linejoin="round"/>
+  <polygon points="796,794 799,785 813,785 816,794" fill="#ffd24a" stroke="#22303f" stroke-width="1.4" stroke-linejoin="round"/>
+  <polygon points="818,794 821,785 835,785 838,794" fill="#ffd24a" stroke="#22303f" stroke-width="1.4" stroke-linejoin="round"/>
+  <polygon points="807,785 810,776 824,776 827,785" fill="#ffd24a" stroke="#22303f" stroke-width="1.4" stroke-linejoin="round"/>
+  <rect x="788" y="802" width="10" height="4" fill="#22303f"/>
+  <rect x="842" y="802" width="10" height="4" fill="#22303f"/>
+  <polygon points="856,730 884,738 884,794 856,802" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="871" cy="764" r="7" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M871 778 V786" fill="none" stroke="#ffd24a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M800 712 V724 M794 718 H806 M842 706 V716 M837 711 H847" fill="none" stroke="#ffd24a" stroke-width="2.5" stroke-linecap="round"/>
+
+  <g transform="translate(360 652)">
+    <rect x="-8" y="-6" width="10" height="12" rx="2" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <g transform="rotate(-25)">
+      <rect x="-36" y="-8" width="28" height="16" rx="5" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+      <rect x="-42" y="-6" width="7" height="12" rx="2" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+      <circle cx="-14" cy="-2" r="2.5" fill="#c0392b"/>
+    </g>
   </g>
-  <!-- Lock in card 1 -->
-  <g transform="translate(885 428)">
-    <path d="M -11 -4 L -11 -14 A 11 11 0 0 1 11 -14 L 11 -4" fill="none" stroke="#22303f" stroke-width="3"/>
-    <rect x="-18" y="-4" width="36" height="30" rx="5" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
-    <circle cx="0" cy="8" r="4" fill="#ffd24a"/>
-    <rect x="-2" y="10" width="4" height="8" rx="2" fill="#ffd24a"/>
+  <g transform="translate(930 652)">
+    <rect x="-2" y="-6" width="10" height="12" rx="2" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <g transform="rotate(25)">
+      <rect x="8" y="-8" width="28" height="16" rx="5" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+      <rect x="35" y="-6" width="7" height="12" rx="2" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+      <circle cx="14" cy="-2" r="2.5" fill="#c0392b"/>
+    </g>
   </g>
-  <!-- Layered shield in card 2 -->
-  <g transform="translate(885 704)">
-    <path d="M -22 -26 L 22 -26 L 22 0 Q 22 22 0 30 Q -22 22 -22 0 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
-    <path d="M -12 -16 L 12 -16 L 12 0 Q 12 13 0 18 Q -12 13 -12 0 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
-    <path d="M -6 0 L -1 5 L 7 -5" fill="none" stroke="#ffffff" stroke-width="3"/>
-  </g>
-  <!-- Check badge in card 3 -->
-  <g transform="translate(885 986)">
-    <circle cx="0" cy="0" r="26" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
-    <path d="M -11 1 L -3 9 L 12 -8" fill="none" stroke="#ffffff" stroke-width="3"/>
-  </g>
+
+  <rect x="121" y="806" width="838" height="12" rx="6" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+
+  <path d="M236 830 V804" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="236,790 228,804 244,804" fill="#c0392b"/>
+  <path d="M430 912 V846 Q430 832 416 832 H354 Q340 832 340 818 V694" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="340,680 332,694 348,694" fill="#c0392b"/>
+  <path d="M640 830 V806" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="640,792 632,806 648,806" fill="#c0392b"/>
+  <path d="M776 830 V772 H756" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="742,772 756,764 756,780" fill="#c0392b"/>
+  <path d="M900 830 V778 Q900 770 892 770" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="880,770 892,762 892,778" fill="#c0392b"/>
 </g>
 
-<!-- Section header -->
-<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">أهداف التعلم</text>
-<text x="120" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">Learning Objectives</text>
+<g transform="translate(190 240)">
+  <path d="M0 -30 V-36 M-22 -18 L-27 -22 M22 -18 L27 -22" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="0" cy="-6" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M-5 4 V-4 L0 -9 L5 -4 V4" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="-8" y="10" width="16" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+<g transform="translate(890 330)">
+  <path d="M0 -28 L24 -20 V0 C24 14 12 22 0 28 C-12 22 -24 14 -24 0 V-20 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M-10 0 L-2 9 L12 -8" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(200 440)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+<g transform="translate(890 530)">
+  <g transform="rotate(35)">
+    <rect x="-6" y="-24" width="12" height="38" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="-6" y="-30" width="12" height="7" rx="2" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+    <polygon points="-6,14 6,14 0,26" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+</g>
+<g transform="translate(440 1222)">
+  <path d="M-12 -4 V-14 A12 12 0 0 1 12 -14 V-4" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="-20" y="-6" width="40" height="32" rx="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="0" cy="8" r="4" fill="#22303f"/>
+</g>
+<g transform="translate(540 1222)">
+  <rect x="10" y="2" width="6" height="10" rx="1" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="20" y="2" width="6" height="8" rx="1" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-4" y="-4" width="32" height="8" rx="3" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-14" cy="0" r="14" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-14" cy="0" r="5" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+</g>
+<g transform="translate(640 1222)">
+  <polygon points="0,-24 5.9,-8.1 22.8,-7.4 9.5,3.1 14.1,19.4 0,10 -14.1,19.4 -9.5,3.1 -22.8,-7.4 -5.9,-8.1" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
 
-<!-- Objective 1 -->
-<text x="950" y="274" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
-  <tspan x="950" dy="0">اشرح أدوار <tspan font-weight="bold" fill="#c0392b">جدار الحماية،</tspan> وVPN، وDMZ،</tspan>
-  <tspan x="950" dy="40"><tspan font-weight="bold" fill="#17457f">وضوابط الأجهزة الطرفية</tspan> في حماية الشبكة.</tspan>
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">قبل أن نبدأ: الفيلا والخزنة</text>
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="normal" fill="#152b42">Before We Start: The Villa and the Safe</text>
+
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">تخيّل أن عندك <tspan font-weight="bold" fill="#17457f">فيلا،</tspan></tspan>
+  <tspan x="950" dy="40">وبداخلها <tspan font-weight="bold" fill="#c0392b">خزنة</tspan> مليئة بالذهب.</tspan>
 </text>
-<text x="140" y="394" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
-  <tspan x="140" dy="0">Explain the roles of <tspan font-weight="bold" fill="#c0392b">firewalls,</tspan></tspan>
-  <tspan x="140" dy="40">VPNs, DMZs, and <tspan font-weight="bold" fill="#17457f">endpoint controls</tspan></tspan>
-  <tspan x="140" dy="40">in protecting a network.</tspan>
+<text x="120" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Imagine you own a <tspan font-weight="bold" fill="#17457f">villa</tspan> with a <tspan font-weight="bold" fill="#c0392b">safe</tspan></tspan>
+  <tspan x="120" dy="40">full of gold inside it.</tspan>
 </text>
 
-<!-- Objective 2 -->
-<text x="950" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
-  <tspan x="950" dy="0">اشرح لماذا يوفر <tspan font-weight="bold" fill="#c0392b">الدفاع في العمق</tspan> <tspan font-weight="bold" fill="#2e7d32">حماية أقوى</tspan></tspan>
-  <tspan x="950" dy="40">من الاعتماد على إجراء أمني واحد.</tspan>
+<text x="950" y="434" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">كيف ستحميها؟ فكّر في <tspan font-weight="bold" fill="#17457f">ثلاث وسائل</tspan></tspan>
+  <tspan x="950" dy="40">قبل أن تكمل القراءة.</tspan>
 </text>
-<text x="140" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
-  <tspan x="140" dy="0">Explain why <tspan font-weight="bold" fill="#c0392b">defense in depth</tspan> provides</tspan>
-  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#2e7d32">stronger protection</tspan> than relying</tspan>
-  <tspan x="140" dy="40">on a single security measure.</tspan>
+<text x="120" y="514" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">How would you protect it?</tspan>
+  <tspan x="120" dy="40">Think of <tspan font-weight="bold" fill="#17457f">three ways</tspan> before you read on.</tspan>
 </text>
 
-<!-- Objective 3 -->
-<text x="950" y="834" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
-  <tspan x="950" dy="0">قيّم <tspan font-weight="bold" fill="#17457f">تصميمًا أمنيًا</tspan> لشبكة، وبرّر اختيار</tspan>
-  <tspan x="950" dy="40">الضوابط المناسبة وفق <tspan font-weight="bold" fill="#c0392b">الأصول والتهديدات.</tspan></tspan>
+<text x="320" y="874" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#3d5a76">السور والبواب</text>
+<text x="130" y="914" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#3d5a76">Wall and guard</text>
+<text x="492" y="954" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#3d5a76">الكاميرات</text>
+<text x="376" y="994" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#3d5a76">Cameras</text>
+<text x="690" y="874" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#3d5a76">الباب الحديد</text>
+<text x="528" y="914" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#3d5a76">Steel door</text>
+<text x="846" y="874" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#3d5a76">قفل الغرفة</text>
+<text x="712" y="914" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#3d5a76">Room lock</text>
+<text x="950" y="874" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#3d5a76">الخزنة</text>
+<text x="884" y="914" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#3d5a76">Safe</text>
+
+<text x="950" y="1074" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">كل وسيلة حماية <tspan font-weight="bold" fill="#c0392b">طبقة،</tspan> والذهب في <tspan font-weight="bold" fill="#17457f">المنتصف.</tspan></tspan>
 </text>
-<text x="140" y="954" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
-  <tspan x="140" dy="0">Evaluate a <tspan font-weight="bold" fill="#17457f">network security design,</tspan></tspan>
-  <tspan x="140" dy="40">and justify the choice of suitable</tspan>
-  <tspan x="140" dy="40">controls based on <tspan font-weight="bold" fill="#c0392b">assets and threats.</tspan></tspan>
+<text x="120" y="1114" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Each protection is a <tspan font-weight="bold" fill="#c0392b">layer,</tspan></tspan>
+  <tspan x="120" dy="40">and the gold is in the <tspan font-weight="bold" fill="#17457f">middle.</tspan></tspan>
 </text>
 </svg>

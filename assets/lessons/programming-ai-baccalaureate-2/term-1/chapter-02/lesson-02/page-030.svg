@@ -1,0 +1,316 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+<defs>
+  <linearGradient id="ilWall" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8fc9f2"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+  <linearGradient id="ilGlass" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+  <linearGradient id="ilArch" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+  <linearGradient id="ilDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <linearGradient id="ilCoat" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#f0c48c"/>
+    <stop offset="1" stop-color="#c96a1b"/>
+  </linearGradient>
+  <linearGradient id="ilCase" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8fc9f2"/>
+    <stop offset="1" stop-color="#2f7fb5"/>
+  </linearGradient>
+</defs>
+
+<!-- Info card: shadow, fill, accent as one frame -->
+<g>
+  <rect x="109" y="528" width="870" height="328" rx="16" fill="#22303f" opacity=".12"/>
+  <rect x="105" y="522" width="870" height="328" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+  <rect x="961" y="538" width="6" height="296" rx="3" fill="#2f7fb5"/>
+</g>
+
+<!-- Icon: boarding pass -->
+<g transform="translate(230 126)">
+  <rect x="4" y="6" width="64" height="40" rx="6" fill="#22303f" opacity=".18"/>
+  <rect x="0" y="0" width="64" height="40" rx="6" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M46 4 L46 36" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <ellipse cx="21" cy="13" rx="11" ry="3.5" fill="#17457f"/>
+  <polygon points="19,13 13,22 18,22 26,13" fill="#17457f"/>
+  <rect x="8" y="26" width="30" height="4" rx="2" fill="#c96a1b"/>
+  <rect x="8" y="32" width="18" height="3" rx="1.5" fill="#c96a1b"/>
+  <rect x="50" y="10" width="2" height="20" fill="#22303f"/>
+  <rect x="54" y="10" width="3" height="20" fill="#22303f"/>
+  <rect x="59" y="10" width="2" height="20" fill="#22303f"/>
+</g>
+<!-- Icon: check badge -->
+<g transform="translate(334 122)">
+  <circle cx="30" cy="32" r="26" fill="#22303f" opacity=".18"/>
+  <circle cx="26" cy="26" r="26" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M15 27 L23 35 L38 18" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<!-- Icon: plane -->
+<g transform="translate(860 214)">
+  <polygon points="48,16 56,4 62,4 60,16" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="30,16 38,8 43,8 40,16" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M4 21 Q4 15 13 15 L52 15 Q62 16 63 20 Q62 25 52 26 L13 26 Q4 26 4 21 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="18" cy="20" r="2" fill="#ffffff"/>
+  <circle cx="26" cy="20" r="2" fill="#ffffff"/>
+  <circle cx="34" cy="20" r="2" fill="#ffffff"/>
+  <circle cx="42" cy="20" r="2" fill="#ffffff"/>
+  <polygon points="26,22 37,38 43,38 37,22" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M70 16 L88 16 M72 27 L96 27" fill="none" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+<!-- Icon: shield -->
+<g transform="translate(240 316)">
+  <path d="M28 6 L52 14 L52 32 Q52 52 28 62 Q4 52 4 32 L4 14 Z" fill="#22303f" opacity=".18"/>
+  <path d="M24 0 L48 8 L48 26 Q48 46 24 56 Q0 46 0 26 L0 8 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M14 28 L21 35 L34 20" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<!-- Icon: passport -->
+<g transform="translate(330 317)">
+  <rect x="4" y="6" width="42" height="54" rx="5" fill="#22303f" opacity=".18"/>
+  <rect x="0" y="0" width="42" height="54" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="21" cy="22" r="9" fill="none" stroke="#ffd24a" stroke-width="2.5"/>
+  <path d="M12 22 L30 22 M21 13 Q15 22 21 31 Q27 22 21 13" fill="none" stroke="#ffd24a" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="10" y1="42" x2="32" y2="42" stroke="#ffd24a" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+<!-- Thinking face -->
+<g transform="translate(880 456)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+<!-- Icon: light bulb inside card free space -->
+<g transform="translate(830 762)">
+  <path d="M24 -8 L24 -2 M4 2 L8 6 M44 2 L40 6" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="24" cy="20" r="18" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M18 24 Q24 14 30 24" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="16" y="36" width="16" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Illustration: three airport checkpoints (one group) -->
+<g>
+  <!-- shadows -->
+  <rect x="109" y="886" width="862" height="232" rx="20" fill="#22303f" opacity=".18"/>
+  <rect x="124" y="918" width="124" height="128" rx="12" fill="#22303f" opacity=".18"/>
+  <rect x="124" y="1104" width="836" height="24" rx="12" fill="#22303f" opacity=".18"/>
+  <rect x="266" y="936" width="132" height="170" rx="8" fill="#22303f" opacity=".18"/>
+  <rect x="398" y="1018" width="34" height="26" rx="5" fill="#22303f" opacity=".18"/>
+  <rect x="496" y="940" width="146" height="14" rx="5" fill="#22303f" opacity=".18"/>
+  <rect x="494" y="1046" width="150" height="60" rx="6" fill="#22303f" opacity=".18"/>
+  <path d="M742 1106 L742 966 Q742 926 794 926 Q846 926 846 966 L846 1106 Z" fill="#22303f" opacity=".18"/>
+  <rect x="910" y="1062" width="34" height="40" rx="5" fill="#22303f" opacity=".18"/>
+  <circle cx="332" cy="908" r="14" fill="#22303f" opacity=".18"/>
+  <circle cx="569" cy="908" r="14" fill="#22303f" opacity=".18"/>
+  <circle cx="794" cy="908" r="14" fill="#22303f" opacity=".18"/>
+  <rect x="129" y="1228" width="36" height="36" rx="4" fill="#22303f" opacity=".18"/>
+  <rect x="924" y="1228" width="36" height="36" rx="4" fill="#22303f" opacity=".18"/>
+  <!-- hall, wall stripe, floor -->
+  <rect x="105" y="880" width="866" height="232" rx="20" fill="url(#ilWall)"/>
+  <rect x="105" y="1044" width="866" height="10" fill="#8fc9f2" opacity=".35"/>
+  <path d="M105 1068 L971 1068 L971 1092 Q971 1112 951 1112 L125 1112 Q105 1112 105 1092 Z" fill="#e8dfd1" opacity=".6"/>
+  <path d="M200 1068 L192 1112 M330 1068 L326 1112 M460 1068 L458 1112 M590 1068 L592 1112 M720 1068 L724 1112 M850 1068 L858 1112" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round" opacity=".35"/>
+  <!-- pendant lamps -->
+  <path d="M450 880 L450 902 M680 880 L680 902" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M434 916 Q450 896 466 916 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="450" cy="922" rx="12" ry="4" fill="#ffd24a" opacity=".85"/>
+  <path d="M664 916 Q680 896 696 916 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="680" cy="922" rx="12" ry="4" fill="#ffd24a" opacity=".85"/>
+  <!-- window with sky and plane -->
+  <rect x="120" y="912" width="124" height="128" rx="12" fill="url(#ilSky)"/>
+  <circle cx="220" cy="934" r="10" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="150" cy="938" rx="16" ry="6" fill="#ffffff"/>
+  <ellipse cx="162" cy="933" rx="10" ry="6" fill="#ffffff"/>
+  <ellipse cx="206" cy="1012" rx="18" ry="6" fill="#ffffff"/>
+  <path d="M121 1024 L243 1024 L243 1028 Q243 1039 232 1039 L132 1039 Q121 1039 121 1028 Z" fill="#a9dcbe"/>
+  <polygon points="214,976 226,954 236,954 232,976" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="190,976 202,962 210,962 206,976" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M142 984 Q142 976 156 976 L224 976 Q236 978 236 984 Q236 990 224 992 L156 992 Q142 992 142 984 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M147 981 Q150 978 157 978 L157 984 Z" fill="#17457f"/>
+  <circle cx="166" cy="983" r="2" fill="#2f7fb5"/>
+  <circle cx="176" cy="983" r="2" fill="#2f7fb5"/>
+  <circle cx="186" cy="983" r="2" fill="#2f7fb5"/>
+  <circle cx="196" cy="983" r="2" fill="#2f7fb5"/>
+  <circle cx="206" cy="983" r="2" fill="#2f7fb5"/>
+  <polygon points="182,988 200,1008 212,1008 204,988" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="120" y="912" width="124" height="128" rx="12" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="114" y="1040" width="136" height="10" rx="4" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <!-- walkway, right to left -->
+  <rect x="120" y="1098" width="836" height="24" rx="12" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M708 1103 L698 1110 L708 1117 M463 1103 L453 1110 L463 1117 M238 1103 L228 1110 L238 1117" fill="none" stroke="#17457f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- boarding gate -->
+  <rect x="262" y="930" width="132" height="170" rx="8" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="328" cy="940" rx="10" ry="3" fill="#ffd24a"/>
+  <polygon points="326,940 321,947 326,947 333,940" fill="#ffd24a"/>
+  <rect x="276" y="950" width="104" height="150" rx="4" fill="url(#ilGlass)" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M294 1100 L312 990 L344 990 L362 1100 Z" fill="#8fc9f2" opacity=".6"/>
+  <path d="M328 950 L328 1100" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="318" y="1016" width="4" height="22" rx="2" fill="#7f95ab"/>
+  <rect x="334" y="1016" width="4" height="22" rx="2" fill="#7f95ab"/>
+  <!-- ticket scanner -->
+  <rect x="402" y="1036" width="18" height="64" rx="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="411" cy="1050" r="3" fill="#2e7d32"/>
+  <rect x="394" y="1012" width="34" height="26" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="399" y="1017" width="24" height="12" rx="2" fill="#4fc3e8"/>
+  <!-- queue posts -->
+  <path d="M446 1056 Q459 1072 472 1056 M672 1056 Q692 1074 712 1056" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="443" y="1052" width="6" height="46" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="469" y="1052" width="6" height="46" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="669" y="1052" width="6" height="46" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="709" y="1052" width="6" height="46" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="446" cy="1050" r="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="472" cy="1050" r="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="672" cy="1050" r="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="712" cy="1050" r="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <!-- passport desk with officer -->
+  <rect x="498" y="944" width="134" height="88" rx="8" fill="url(#ilGlass)" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M510 1000 L524 956 M518 1000 L530 962" fill="none" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="492" y="934" width="146" height="14" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M536 1032 Q538 1004 565 1002 Q592 1004 594 1032 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M556 1004 L565 1016 L574 1004" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="581" cy="1018" r="3" fill="#ffd24a"/>
+  <circle cx="565" cy="988" r="14" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M549 982 Q565 962 581 982 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M547 982 L587 982" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="565" cy="975" r="2.5" fill="#ffd24a"/>
+  <circle cx="560" cy="990" r="2" fill="#22303f"/>
+  <circle cx="570" cy="990" r="2" fill="#22303f"/>
+  <path d="M560 996 Q565 1000 570 996" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="484" y="1030" width="162" height="12" rx="4" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="517" cy="1016" r="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="511" y="1020" width="12" height="10" rx="2" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="602" y="1017" width="20" height="13" rx="2" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="612" cy="1023" r="2.5" fill="#ffd24a"/>
+  <rect x="490" y="1040" width="150" height="60" rx="6" fill="url(#ilDesk)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="504" y="1052" width="122" height="36" rx="4" fill="none" stroke="#3a2411" stroke-width="2.5" opacity=".35"/>
+  <!-- security scanner arch -->
+  <path d="M738 1100 L738 960 Q738 920 790 920 Q842 920 842 960 L842 1100 L822 1100 L822 962 Q822 940 790 940 Q758 940 758 962 L758 1100 Z" fill="url(#ilArch)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="776" y="926" width="28" height="8" rx="3" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="748" cy="980" r="3" fill="#4fc3e8"/>
+  <circle cx="748" cy="1010" r="3" fill="#4fc3e8"/>
+  <circle cx="748" cy="1040" r="3" fill="#4fc3e8"/>
+  <circle cx="832" cy="980" r="3" fill="#4fc3e8"/>
+  <circle cx="832" cy="1010" r="3" fill="#4fc3e8"/>
+  <circle cx="832" cy="1040" r="3" fill="#4fc3e8"/>
+  <!-- traveler at security with suitcase -->
+  <path d="M948 1016 L962 1016 M952 1028 L966 1028" fill="none" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="866,1076 876,1076 868,1098 858,1098" fill="#22303f"/>
+  <polygon points="888,1076 898,1076 902,1098 892,1098" fill="#22303f"/>
+  <ellipse cx="859" cy="1099" rx="8" ry="3" fill="#22303f"/>
+  <ellipse cx="900" cy="1099" rx="8" ry="3" fill="#22303f"/>
+  <rect x="880" y="1000" width="8" height="8" fill="#d59f6f"/>
+  <path d="M870 1014 L862 1012 L852 1046 L859 1048 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="855" cy="1050" r="4" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M868 1010 Q884 1000 900 1010 L908 1078 L860 1078 Z" fill="url(#ilCoat)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M876 1006 L884 1016 L892 1006 M884 1016 L884 1076" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M898 1014 L906 1012 L918 1048 L911 1050 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="884" cy="990" r="14" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M870 988 Q871 972 886 972 Q899 973 898 986 Q891 979 879 981 Q874 984 870 988 Z" fill="#2b211c"/>
+  <circle cx="891" cy="991" r="3" fill="#d59f6f"/>
+  <circle cx="878" cy="990" r="2" fill="#22303f"/>
+  <path d="M875 997 Q879 1000 883 997" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M916 1056 L916 1046 L930 1046 L930 1056" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="906" y="1056" width="34" height="40" rx="5" fill="url(#ilCase)" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M915 1062 L915 1090 M931 1062 L931 1090" fill="none" stroke="#17457f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="912" cy="1098" r="3" fill="#22303f"/>
+  <circle cx="934" cy="1098" r="3" fill="#22303f"/>
+  <circle cx="914" cy="1052" r="4" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <!-- green checks above checkpoints -->
+  <circle cx="328" cy="902" r="19" fill="#a9dcbe"/>
+  <circle cx="328" cy="902" r="14" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M321 902 L326 907 L335 897" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="565" cy="902" r="19" fill="#a9dcbe"/>
+  <circle cx="565" cy="902" r="14" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M558 902 L563 907 L572 897" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="790" cy="902" r="19" fill="#a9dcbe"/>
+  <circle cx="790" cy="902" r="14" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M783 902 L788 907 L797 897" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- plants -->
+  <rect x="125" y="1222" width="36" height="36" rx="4" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M143 1222 Q120 1200 128 1176 Q146 1196 143 1222 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M143 1222 Q166 1200 158 1176 Q140 1196 143 1222 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M143 1222 Q132 1194 143 1166 Q154 1194 143 1222 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="920" y="1222" width="36" height="36" rx="4" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M938 1222 Q915 1200 923 1176 Q941 1196 938 1222 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M938 1222 Q961 1200 953 1176 Q935 1196 938 1222 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M938 1222 Q927 1194 938 1166 Q949 1194 938 1222 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- connector arrows from labels to checkpoints -->
+  <path d="M790 1146 L790 1138 M565 1146 L565 1138 M328 1146 L328 1138" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="790,1128 784,1138 796,1138" fill="#c0392b"/>
+  <polygon points="565,1128 559,1138 571,1138" fill="#c0392b"/>
+  <polygon points="328,1128 322,1138 334,1138" fill="#c0392b"/>
+</g>
+
+<!-- Paragraph 1 -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">تخيّل <tspan fill="#c96a1b">المطار:</tspan> <tspan font-weight="bold" fill="#17457f">تُفحص</tspan> عند الأمن،</tspan>
+  <tspan x="950" dy="40">ثم الجوازات، ثم بوابة الطائرة.</tspan>
+</text>
+<text x="120" y="234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Picture the <tspan fill="#c96a1b">airport:</tspan> you are <tspan font-weight="bold" fill="#17457f">checked</tspan> at</tspan>
+  <tspan x="120" dy="40">security, then passports, then the gate.</tspan>
+</text>
+
+<!-- Paragraph 2 -->
+<text x="950" y="354" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#17457f">ولا أحد</tspan> يقول: «ما دام دخل المطار،</tspan>
+  <tspan x="950" dy="40">فهو مسافر أكيد».</tspan>
+</text>
+<text x="120" y="434" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#17457f">No one</tspan> says: "He entered the airport,</tspan>
+  <tspan x="120" dy="40">so he must be a passenger."</tspan>
+</text>
+
+<!-- Info card text -->
+<text x="935" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">توضيح مهم</text>
+<text x="140" y="594" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">Important Note</text>
+<text x="935" y="634" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">انعدام الثقة</tspan> لا يعني الشك في الموظفين،</tspan>
+  <tspan x="935" dy="40">بل أن النظام يتأكد في <tspan font-weight="bold" fill="#17457f">كل مرة،</tspan></tspan>
+  <tspan x="935" dy="40">حتى من المدير.</tspan>
+</text>
+<text x="140" y="754" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Zero trust</tspan> does not mean suspecting</tspan>
+  <tspan x="140" dy="40">staff; the system checks <tspan font-weight="bold" fill="#17457f">every time,</tspan></tspan>
+  <tspan x="140" dy="40">even the manager.</tspan>
+</text>
+
+<!-- Illustration labels -->
+<text x="822" y="1194" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">الأمن</text>
+<text x="730" y="1234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Security</text>
+<text x="615" y="1194" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">الجوازات</text>
+<text x="495" y="1234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Passports</text>
+<text x="401" y="1194" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">بوابة الطائرة</text>
+<text x="224" y="1234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Boarding gate</text>
+</svg>

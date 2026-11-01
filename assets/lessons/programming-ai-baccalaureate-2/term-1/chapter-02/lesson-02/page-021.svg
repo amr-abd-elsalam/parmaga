@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+<defs>
+  <linearGradient id="ilScreen" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#4fc3e8"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+  <linearGradient id="ilShield" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+  <radialGradient id="ilGlow" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#8fc9f2"/>
+  </radialGradient>
+  <radialGradient id="ilBubble" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#8fc9f2"/>
+  </radialGradient>
+</defs>
+
+<g>
+  <rect x="416" y="886" width="256" height="176" rx="14" fill="#22303f" opacity=".18"/>
+  <path d="M388 1062 L700 1062 L726 1090 L362 1090 Z" fill="#22303f" opacity=".18"/>
+  <circle cx="219" cy="896" r="60" fill="#22303f" opacity=".18"/>
+  <circle cx="869" cy="896" r="60" fill="#22303f" opacity=".18"/>
+  <circle cx="219" cy="1156" r="60" fill="#22303f" opacity=".18"/>
+  <circle cx="869" cy="1156" r="60" fill="#22303f" opacity=".18"/>
+  <ellipse cx="540" cy="1000" rx="240" ry="165" fill="url(#ilBubble)" opacity=".6"/>
+  <ellipse cx="540" cy="1000" rx="240" ry="165" fill="none" stroke="#4fc3e8" stroke-width="2.5"/>
+  <path d="M366 915 Q420 862 490 850" fill="none" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="412" y="880" width="256" height="176" rx="14" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="540" cy="887" r="3" fill="#8fc9f2"/>
+  <rect x="426" y="894" width="228" height="148" rx="6" fill="url(#ilScreen)" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="540" cy="968" r="70" fill="url(#ilGlow)" opacity=".85"/>
+  <path d="M434 980 L450 980 L458 962 L468 998 L476 980 L486 980" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M594 980 L604 980 L612 962 L622 998 L630 980 L646 980" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="446,903 449,909 455,912 449,915 446,921 443,915 437,912 443,909" fill="#ffffff"/>
+  <polygon points="636,1015 639,1021 645,1024 639,1027 636,1033 633,1027 627,1024 633,1021" fill="#ffffff"/>
+  <path d="M540 902 L592 920 L592 962 Q592 1012 540 1032 Q488 1012 488 962 L488 920 Z" fill="url(#ilShield)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M540 914 L580 928 L580 962 Q580 1000 540 1018 Z" fill="#8fc9f2" opacity=".35"/>
+  <path d="M514 964 L532 982 L568 942" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M384 1056 L696 1056 L722 1084 L358 1084 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M400 1066 L680 1066" fill="none" stroke="#e8dfd1" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="510" y="1072" width="60" height="7" rx="3" fill="#e8dfd1"/>
+  <circle cx="215" cy="890" r="60" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="215" cy="890" r="50" fill="#dff1f7"/>
+  <polygon points="230,897 254,921 246,929 222,905" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="205" cy="880" r="27" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M205 868 L205 864 M205 892 L205 896 M193 880 L189 880 M217 880 L221 880 M196.5 871.5 L194 869 M213.5 888.5 L216 891 M196.5 888.5 L194 891 M213.5 871.5 L216 869" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="205" cy="880" r="11" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="865" cy="890" r="60" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="865" cy="890" r="50" fill="#dff1f7"/>
+  <path d="M897 890 A32 32 0 1 1 887.6 867.4 L880.6 874.4 A22 22 0 1 0 887 890 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="895,860 874,881 893,884" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="215" cy="1150" r="60" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="215" cy="1150" r="50" fill="#fdf1e2"/>
+  <rect x="171" y="1123" width="88" height="54" rx="3" fill="#c96a1b"/>
+  <path d="M171 1141 L259 1141 M171 1159 L259 1159 M200 1123 L200 1141 M230 1123 L230 1141 M185 1141 L185 1159 M215 1141 L215 1159 M245 1141 L245 1159 M200 1159 L200 1177 M230 1159 L230 1177" fill="none" stroke="#f0c48c" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="171" y="1123" width="88" height="54" rx="3" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="865" cy="1150" r="60" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="865" cy="1150" r="50" fill="#e9f7ee"/>
+  <path d="M847 1144 L847 1130 A18 18 0 0 1 883 1130 L883 1144 L875 1144 L875 1130 A10 10 0 0 0 855 1130 L855 1144 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="839" y="1142" width="52" height="40" rx="8" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="865" cy="1158" r="5" fill="#22303f"/>
+  <rect x="863" y="1158" width="4" height="12" rx="2" fill="#22303f"/>
+  <path d="M556 796 L564 796 M551 807 L557 813 M540 812 L540 820 M529 807 L523 813 M524 796 L516 796 M529 785 L523 779 M540 780 L540 772 M551 785 L557 779" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="540" cy="796" r="16" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M534 790 L546 802 M546 790 L534 802" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <path d="M505 838 Q540 824 575 838" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M386 848 L394 848 M381 859 L387 865 M370 864 L370 872 M359 859 L353 865 M354 848 L346 848 M359 837 L353 831 M370 832 L370 824 M381 837 L387 831" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="370" cy="848" r="16" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M364 842 L376 854 M376 842 L364 854" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <path d="M353 816 Q341 822 337 834 M347 808 Q334 815 327 830" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M726 848 L734 848 M721 859 L727 865 M710 864 L710 872 M699 859 L693 865 M694 848 L686 848 M699 837 L693 831 M710 832 L710 824 M721 837 L727 831" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="710" cy="848" r="16" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M704 842 L716 854 M716 842 L704 854" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <path d="M727 816 Q739 822 743 834 M733 808 Q746 815 753 830" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M271 1000 L279 1000 M266 1011 L272 1017 M255 1016 L255 1024 M244 1011 L238 1017 M239 1000 L231 1000 M244 989 L238 983 M255 984 L255 976 M266 989 L272 983" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="255" cy="1000" r="16" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M249 994 L261 1006 M261 994 L249 1006" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <path d="M223 988 Q217 1000 223 1012 M213 982 Q205 1000 213 1018" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M295 978 Q288 1000 295 1022" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M841 1000 L849 1000 M836 1011 L842 1017 M825 1016 L825 1024 M814 1011 L808 1017 M809 1000 L801 1000 M814 989 L808 983 M825 984 L825 976 M836 989 L842 983" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="825" cy="1000" r="16" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M819 994 L831 1006 M831 994 L819 1006" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <path d="M857 988 Q863 1000 857 1012 M867 982 Q875 1000 867 1018" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M785 978 Q792 1000 785 1022" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<g transform="translate(118 100)">
+  <path d="M22 2 L42 9 L42 22 Q42 38 22 44 Q2 38 2 22 L2 9 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M13 23 L20 30 L32 16" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<g>
+  <circle cx="800" cy="705" r="21" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M790 706 L797 713 L810 698" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<g transform="translate(880 705)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M 5 -6 L 13 -6" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<circle cx="966" cy="224" r="6" fill="#c0392b"/>
+<circle cx="114" cy="264" r="6" fill="#c0392b"/>
+<circle cx="966" cy="304" r="6" fill="#c0392b"/>
+<circle cx="114" cy="344" r="6" fill="#c0392b"/>
+<circle cx="966" cy="384" r="6" fill="#c0392b"/>
+<circle cx="114" cy="424" r="6" fill="#c0392b"/>
+<circle cx="966" cy="464" r="6" fill="#c0392b"/>
+<circle cx="114" cy="504" r="6" fill="#c0392b"/>
+
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="950" dy="0">أهم ضوابطها</tspan>
+</text>
+<text x="120" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="120" dy="0">Its Main Controls</tspan>
+</text>
+
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">برنامج <tspan font-weight="bold" fill="#17457f">مكافحة الفيروسات</tspan> Antivirus.</tspan>
+</text>
+<text x="132" y="274" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#17457f">Antivirus</tspan> software.</tspan>
+</text>
+
+<text x="950" y="314" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#17457f">تحديث</tspan> النظام والبرامج Updates.</tspan>
+</text>
+<text x="132" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#17457f">Updating</tspan> the OS and apps.</tspan>
+</text>
+
+<text x="950" y="394" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#17457f">جدار حماية</tspan> خاص بالجهاز.</tspan>
+</text>
+<text x="132" y="434" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">A <tspan font-weight="bold" fill="#17457f">firewall</tspan> on the device.</tspan>
+</text>
+
+<text x="950" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#17457f">قفل الشاشة</tspan> وكلمة مرور قوية.</tspan>
+</text>
+<text x="132" y="514" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">A <tspan font-weight="bold" fill="#17457f">screen lock</tspan> and a strong password.</tspan>
+</text>
+
+<text x="950" y="594" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">تخيّلها <tspan font-weight="bold" fill="#c0392b">مناعتك الشخصية:</tspan> المدرسة قد تكون</tspan>
+  <tspan x="950" dy="40">نظيفة، لكن المناعة الضعيفة تمرض.</tspan>
+</text>
+<text x="120" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Think of it as <tspan font-weight="bold" fill="#c0392b">personal immunity:</tspan></tspan>
+  <tspan x="120" dy="40">a clean school won't help</tspan>
+  <tspan x="120" dy="40">if your immunity is weak.</tspan>
+</text>
+</svg>

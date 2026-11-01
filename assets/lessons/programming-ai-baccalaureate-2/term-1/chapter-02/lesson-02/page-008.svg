@@ -21,90 +21,257 @@
 <rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
 <rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-<!-- Card shadow -->
-<rect x="109" y="888" width="870" height="248" rx="16" fill="#22303f" opacity=".12"/>
-
-<!-- Key-term card (Main idea variant) -->
-<rect x="105" y="882" width="870" height="248" rx="16" fill="#fdf6d8" stroke="#e0c46a" stroke-width="2"/>
-<rect x="961" y="898" width="6" height="216" rx="3" fill="#e0a55e"/>
-
-<!-- Thin navy lines on the left edge of English blocks -->
-<line x1="108" y1="366" x2="108" y2="524" stroke="#152b42" stroke-width="2" stroke-linecap="round"/>
-<line x1="108" y1="686" x2="108" y2="844" stroke="#152b42" stroke-width="2" stroke-linecap="round"/>
-<line x1="128" y1="1006" x2="128" y2="1122" stroke="#152b42" stroke-width="2" stroke-linecap="round"/>
-
-<!-- Icon: network nodes -->
-<g transform="translate(180 288)">
-  <line x1="28" y1="12" x2="10" y2="44" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
-  <line x1="28" y1="12" x2="46" y2="44" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
-  <line x1="10" y1="44" x2="46" y2="44" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
-  <circle cx="28" cy="12" r="9" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
-  <circle cx="10" cy="44" r="9" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
-  <circle cx="46" cy="44" r="9" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+<!-- Success card -->
+<g>
+  <rect x="109" y="128" width="870" height="208" rx="16" fill="#22303f" opacity=".12"/>
+  <rect x="105" y="122" width="870" height="208" rx="16" fill="#e9f7ee" stroke="#a9dcbe" stroke-width="2"/>
+  <rect x="961" y="138" width="6" height="176" rx="3" fill="#2e7d32"/>
 </g>
 
-<!-- Icon: shield -->
-<g transform="translate(905 742)">
-  <path d="M28 3 L50 11 L50 28 C50 42 40 50 28 55 C16 50 6 42 6 28 L6 11 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
-  <path d="M18 29 L25 36 L39 21" fill="none" stroke="#17457f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- Illustration: encrypted message caught on cafe Wi-Fi -->
+<g>
+  <defs>
+    <linearGradient id="ilCafeWall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fdf6d8"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="ilCafeSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fc9f2"/>
+      <stop offset="1" stop-color="#dff1f7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Panel shadow and wall -->
+  <rect x="119" y="876" width="850" height="380" rx="20" fill="#22303f" opacity=".18"/>
+  <path d="M135 870 H945 Q965 870 965 890 V1230 Q965 1250 945 1250 H135 Q115 1250 115 1230 V890 Q115 870 135 870 Z" fill="url(#ilCafeWall)"/>
+
+  <!-- Windows -->
+  <rect x="290" y="892" width="90" height="66" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="297" y="899" width="76" height="52" rx="3" fill="url(#ilCafeSky)"/>
+  <path d="M297 951 Q318 934 334 943 Q352 931 373 945 V951 Z" fill="#a9dcbe"/>
+  <path d="M335 899 V951 M297 925 H373" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <rect x="297" y="899" width="76" height="52" rx="3" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="820" y="892" width="100" height="66" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="827" y="899" width="86" height="52" rx="3" fill="url(#ilCafeSky)"/>
+  <path d="M827 951 Q850 936 868 944 Q890 932 913 946 V951 Z" fill="#a9dcbe"/>
+  <path d="M870 899 V951 M827 925 H913" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <rect x="827" y="899" width="86" height="52" rx="3" fill="none" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Pendant lamps -->
+  <line x1="240" y1="872" x2="240" y2="900" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M232 925 Q240 935 248 925 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="222,925 258,925 250,900 230,900" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="600" y1="872" x2="600" y2="900" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M592 925 Q600 935 608 925 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="582,925 618,925 610,900 590,900" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Wainscot and floor -->
+  <rect x="115" y="1120" width="850" height="65" fill="#f0c48c"/>
+  <path d="M115 1120 H965" fill="none" stroke="#c96a1b" stroke-width="3" stroke-linecap="round"/>
+  <path d="M115 1185 H965 V1230 Q965 1250 945 1250 H135 Q115 1250 115 1230 Z" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M195 1185 L185 1250 M295 1185 L290 1250 M395 1185 L395 1250 M495 1185 L500 1250 M595 1185 L605 1250 M695 1185 L710 1250 M795 1185 L815 1250 M895 1185 L920 1250" fill="none" stroke="#7f95ab" stroke-width="1.4" stroke-linecap="round" opacity=".6"/>
+
+  <!-- Cafe counter with coffee machine and cups -->
+  <rect x="470" y="1080" width="190" height="105" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="485" y="1095" width="72" height="76" rx="4" fill="none" stroke="#f0c48c" stroke-width="2.5"/>
+  <rect x="573" y="1095" width="72" height="76" rx="4" fill="none" stroke="#f0c48c" stroke-width="2.5"/>
+  <rect x="462" y="1072" width="206" height="10" rx="3" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="515" y="1030" width="56" height="42" rx="5" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="523" y="1037" width="16" height="9" rx="2" fill="#4fc3e8"/>
+  <circle cx="558" cy="1042" r="4" fill="#c0392b"/>
+  <rect x="534" y="1056" width="18" height="16" rx="2" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="604" y="1058" width="14" height="14" rx="2" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M618 1062 Q625 1065 618 1069" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="630" y="1058" width="14" height="14" rx="2" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M644 1062 Q651 1065 644 1069" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Wi-Fi symbol above the student's table -->
+  <path d="M705.3 982.3 A42 42 0 0 1 764.7 982.3 L760.5 986.5 A36 36 0 0 0 709.5 986.5 Z" fill="#2f7fb5"/>
+  <path d="M713.8 990.8 A30 30 0 0 1 756.2 990.8 L752 995 A24 24 0 0 0 718 995 Z" fill="#2f7fb5"/>
+  <path d="M722.3 999.3 A18 18 0 0 1 747.7 999.3 L743.5 1003.5 A12 12 0 0 0 726.5 1003.5 Z" fill="#2f7fb5"/>
+  <circle cx="735" cy="1012" r="5" fill="#2f7fb5"/>
+
+  <!-- Net handle -->
+  <polygon points="414,1040 420,1047 302,1082 298,1074" fill="#b07a45" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Eavesdropper (confused) -->
+  <g transform="translate(250 1022)">
+    <rect x="-34" y="18" width="68" height="74" rx="8" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="-32" y="96" width="7" height="66" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="25" y="96" width="7" height="66" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="-16" y="92" width="14" height="70" fill="#22303f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="2" y="92" width="14" height="70" fill="#22303f" stroke="#22303f" stroke-width="2.5"/>
+    <ellipse cx="-10" cy="163" rx="11" ry="5" fill="#22303f"/>
+    <ellipse cx="11" cy="163" rx="11" ry="5" fill="#22303f"/>
+    <rect x="-5" y="13" width="10" height="9" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-21 22 Q0 15 21 22 L24 92 H-24 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M-8 20 L0 30 L8 20 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M-18 30 L-24 72 L-16 73 L-10 34 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="-20" cy="76" r="5.5" fill="#b57e50" stroke="#22303f" stroke-width="2.5"/>
+    <polygon points="15,26 23,32 53,54 47,61" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="50" cy="57" r="6" fill="#b57e50" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="-18" cy="2" r="4" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="18" cy="2" r="4" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="18" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-19 -3 Q-18 -25 0 -25 Q18 -25 19 -3 Q10 -10 0 -10 Q-10 -10 -19 -3 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M8 -9 L30 -7 Q31 -3 27 -2 L10 -4 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M-11 -6 L-3 -6 M3 -9 Q7 -13 11 -9" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="-6" cy="2" r="2.5" fill="#22303f"/>
+    <circle cx="6" cy="2" r="2.5" fill="#22303f"/>
+    <path d="M-7 11 Q-4 7 -1 11 T5 11" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M-27 -20 Q-22 -13 -27 -10 Q-32 -13 -27 -20 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Left table with cup -->
+  <rect x="263" y="1118" width="14" height="64" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="270" cy="1184" rx="34" ry="6" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="160" y="1106" width="220" height="12" rx="4" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="186" y="1090" width="18" height="16" rx="2" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M204 1094 Q211 1098 204 1102" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M192 1084 Q189 1079 192 1074 M199 1084 Q202 1079 199 1074" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round" opacity=".6"/>
+
+  <!-- Student typing on the laptop -->
+  <g transform="translate(850 1022)">
+    <rect x="-34" y="18" width="68" height="74" rx="8" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="-32" y="96" width="7" height="66" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="25" y="96" width="7" height="66" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="-16" y="92" width="14" height="70" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="2" y="92" width="14" height="70" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <ellipse cx="-10" cy="163" rx="11" ry="5" fill="#22303f"/>
+    <ellipse cx="11" cy="163" rx="11" ry="5" fill="#22303f"/>
+    <rect x="-5" y="13" width="10" height="9" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-21 22 Q0 15 21 22 L24 92 H-24 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M-8 20 L0 32 L8 20 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M0 31 L-3 41 L0 47 L3 41 Z" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="-22,28 -13,31 -20,76 -28,74" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="15,27 22,33 -2,79 -9,75" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="-24" cy="77" r="5.5" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="-6" cy="78" r="5.5" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="-18" cy="2" r="4" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="18" cy="2" r="4" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="18" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-18 -2 Q-16 -22 0 -22 Q17 -22 18 -2 Q10 -12 0 -11 Q-10 -12 -18 -2 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M-10 -6 L-3 -7 M3 -7 L10 -6" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="-6" cy="2" r="2.5" fill="#22303f"/>
+    <circle cx="6" cy="2" r="2.5" fill="#22303f"/>
+    <path d="M-6 9 Q0 14 6 9" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Right table, laptop, and golden key -->
+  <rect x="803" y="1118" width="14" height="64" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="810" cy="1184" rx="34" ry="6" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="690" y="1106" width="240" height="12" rx="4" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="748" y="1048" width="76" height="52" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="786" cy="1074" r="6" fill="#4fc3e8"/>
+  <rect x="736" y="1099" width="96" height="7" rx="2" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="714" cy="1098" r="15" fill="#ffd24a" opacity=".35"/>
+  <rect x="710" y="1096" width="20" height="5" rx="2" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="722" y="1100" width="4" height="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="704" cy="1098" r="7" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="704" cy="1098" r="2.5" fill="#ffffff"/>
+
+  <!-- Arrow from the laptop toward the eavesdropper -->
+  <path d="M742 1062 Q650 1000 568 1000" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="555,1000 569,992 569,1008" fill="#c0392b"/>
+  <path d="M566 976 H594 M568 1024 H590" fill="none" stroke="#8fc9f2" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Net -->
+  <path d="M420 965 Q352 975 360 1005 Q366 1038 420 1045 Z" fill="#ffffff" opacity=".6"/>
+  <path d="M420 985 Q380 988 364 998 M420 1005 H360 M420 1025 Q380 1022 366 1018 M400 970 Q385 1005 402 1042 M380 977 Q370 1005 384 1039" fill="none" stroke="#7f95ab" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M420 965 Q352 975 360 1005 Q366 1038 420 1045" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <ellipse cx="420" cy="1005" rx="16" ry="40" fill="none" stroke="#c96a1b" stroke-width="3"/>
+
+  <!-- Encrypted envelope with scrambled letter and padlock -->
+  <rect x="456" y="976" width="96" height="60" rx="4" fill="#22303f" opacity=".18"/>
+  <rect x="466" y="936" width="68" height="50" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M474 948 q4 -5 8 0 t8 0 t8 0 t8 0 t8 0 t8 0" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M474 960 q4 -5 8 0 t8 0 t8 0 t8 0 t8 0" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="452" y="970" width="96" height="60" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M454 1028 L500 994 L546 1028" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="495" y="970" width="10" height="60" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="452" y="995" width="96" height="10" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M490 996 V986 Q490 976 500 976 Q510 976 510 986 V996" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <rect x="484" y="992" width="32" height="26" rx="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="500" cy="1002" r="3" fill="#22303f"/>
+  <rect x="498.5" y="1003" width="3" height="8" rx="1.5" fill="#22303f"/>
+
+  <!-- Red cross beside the scrambled letter -->
+  <circle cx="440" cy="940" r="14" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M434 934 L446 946 M446 934 L434 946" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Panel outline -->
+  <rect x="115" y="870" width="850" height="380" rx="20" fill="none" stroke="#22303f" stroke-width="2.5"/>
 </g>
 
-<!-- Icon: open book -->
-<g transform="translate(150 894)">
-  <path d="M28 14 C20 8 10 8 4 10 L4 46 C10 44 20 44 28 50 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
-  <path d="M28 14 C36 8 46 8 52 10 L52 46 C46 44 36 44 28 50 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
-  <line x1="11" y1="22" x2="21" y2="22" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
-  <line x1="11" y1="31" x2="21" y2="31" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
-  <line x1="35" y1="22" x2="45" y2="22" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
-  <line x1="35" y1="31" x2="45" y2="31" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+<!-- Icon: check badge in the success card -->
+<g transform="translate(127 134)">
+  <circle cx="25" cy="25" r="22" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M15 25 L22 32 L35 18" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 
-<!-- Titles -->
-<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">3. المنطقة المعزولة</text>
-<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" fill="#152b42">3. DMZ (Demilitarized Zone)</text>
+<!-- Icon: key beside encryption -->
+<g transform="translate(128 364)">
+  <rect x="25" y="22" width="24" height="8" rx="3" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="40" y="29" width="6" height="10" rx="2" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="31" y="29" width="5" height="7" rx="2" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="16" cy="26" r="12" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="16" cy="26" r="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+</g>
 
-<!-- (1) Arabic -->
-<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
-  <tspan x="950" dy="0">(1) <tspan font-weight="bold" fill="#c0392b">المنطقة المعزولة DMZ:</tspan> منطقة تُوضع فيها</tspan>
-  <tspan x="950" dy="40">الخوادم المعرَّضة للشبكة الخارجية</tspan>
-  <tspan x="950" dy="40">(خوادم الويب، وخوادم البريد، وغيرها)</tspan>
-  <tspan x="950" dy="40">منفصلةً عن <tspan font-weight="bold" fill="#17457f">الشبكة الداخلية.</tspan></tspan>
+<!-- Icon: lock beside the English encryption lines -->
+<g transform="translate(860 474)">
+  <path d="M15 24 V15 C15 8 20 4 26 4 C32 4 37 8 37 15 V24" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <rect x="8" y="22" width="36" height="27" rx="6" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="26" cy="33" r="4" fill="#22303f"/>
+  <rect x="24.5" y="34" width="3" height="8" rx="1.5" fill="#22303f"/>
+</g>
+
+<!-- Icon: warning triangle beside eavesdropping -->
+<g transform="translate(128 604)">
+  <polygon points="26,4 50,46 2,46" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="23.5" y="16" width="5" height="17" rx="2.5" fill="#22303f"/>
+  <circle cx="26" cy="39" r="3" fill="#22303f"/>
+</g>
+
+<!-- Surprise face beside the English eavesdropping lines -->
+<g transform="translate(880 794)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="0" cy="10" r="5" fill="#22303f"/>
+</g>
+
+<!-- Success card text -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">بطاقتك تُدخلك المدرسة <tspan font-weight="bold" fill="#17457f">(مصادقة)،</tspan></tspan>
+  <tspan x="935" dy="40">لكنها لا تُدخلك غرفة المعلمين <tspan font-weight="bold" fill="#17457f">(صلاحيات).</tspan></tspan>
+</text>
+<text x="140" y="234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">Your ID gets you into school</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#17457f">(authentication),</tspan> but not into</tspan>
+  <tspan x="140" dy="40">the staff room <tspan font-weight="bold" fill="#17457f">(authorization).</tspan></tspan>
 </text>
 
-<!-- (1) English -->
-<text x="120" y="394" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
-  <tspan x="120" dy="0">(1) <tspan font-weight="bold" fill="#c0392b">DMZ:</tspan> an area where servers exposed</tspan>
-  <tspan x="120" dy="40">to the external network (web servers,</tspan>
-  <tspan x="120" dy="40">mail servers, etc.) are placed separately</tspan>
-  <tspan x="120" dy="40">from the <tspan font-weight="bold" fill="#17457f">internal network.</tspan></tspan>
+<!-- Encryption -->
+<text x="950" y="394" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">التشفير Encryption:</tspan> تحويل البيانات إلى صيغة</tspan>
+  <tspan x="950" dy="40">غير مفهومة، لا يقرؤها إلا من يملك <tspan font-weight="bold" fill="#17457f">المفتاح.</tspan></tspan>
+</text>
+<text x="120" y="474" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">Encryption:</tspan> turning data into an</tspan>
+  <tspan x="120" dy="40">unreadable form that only the</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#17457f">key holder</tspan> can read.</tspan>
 </text>
 
-<!-- (2) Arabic -->
-<text x="950" y="594" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
-  <tspan x="950" dy="0">(2) يساعد <tspan font-weight="bold" fill="#17457f">فصل الخوادم العامة</tspan> في <tspan font-weight="bold" fill="#c0392b">منطقة معزولة</tspan></tspan>
-  <tspan x="950" dy="40">على <tspan font-weight="bold" fill="#2e7d32">تقليل</tspan> احتمال وصول الهجوم منها إلى</tspan>
-  <tspan x="950" dy="40">الشبكة الداخلية إذا تعرّض أحدها للاختراق.</tspan>
+<!-- Eavesdropping -->
+<text x="950" y="634" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">التنصت Eavesdropping:</tspan> التقاط البيانات أثناء</tspan>
+  <tspan x="950" dy="40">انتقالها وقراءتها خِلسة، كما قد يحدث</tspan>
+  <tspan x="950" dy="40">على <tspan fill="#c96a1b">Wi-Fi مجاني</tspan> في مقهى.</tspan>
 </text>
-
-<!-- (2) English -->
-<text x="120" y="714" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
-  <tspan x="120" dy="0">(2) <tspan font-weight="bold" fill="#17457f">Separating public servers</tspan> in a <tspan font-weight="bold" fill="#c0392b">DMZ</tspan></tspan>
-  <tspan x="120" dy="40">helps <tspan font-weight="bold" fill="#2e7d32">reduce</tspan> the likelihood that an</tspan>
-  <tspan x="120" dy="40">attack will reach the internal network</tspan>
-  <tspan x="120" dy="40">from them if one of them is breached.</tspan>
-</text>
-
-<!-- Key-term card: Arabic -->
-<text x="935" y="914" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
-  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#17457f">مصطلح أساسي:</tspan> <tspan font-weight="bold" fill="#c0392b">المنطقة المعزولة</tspan> —</tspan>
-  <tspan x="935" dy="40">منطقة للخوادم المواجهة للجمهور،</tspan>
-  <tspan x="935" dy="40">منفصلة عن الشبكة الداخلية.</tspan>
-</text>
-
-<!-- Key-term card: English -->
-<text x="140" y="1034" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
-  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#17457f">KEY TERM:</tspan> <tspan font-weight="bold" fill="#c0392b">DMZ</tspan> — a zone for</tspan>
-  <tspan x="140" dy="40">public-facing servers, separated from</tspan>
-  <tspan x="140" dy="40">the internal network.</tspan>
+<text x="120" y="754" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">Eavesdropping:</tspan> secretly capturing</tspan>
+  <tspan x="120" dy="40">and reading data in transit, as can</tspan>
+  <tspan x="120" dy="40">happen on <tspan fill="#c96a1b">free café Wi-Fi.</tspan></tspan>
 </text>
 </svg>

@@ -1,0 +1,234 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Key sentence strip -->
+<g>
+  <rect x="109" y="648" width="870" height="208" rx="10" fill="#22303f" opacity=".12"/>
+  <rect x="105" y="642" width="870" height="208" rx="10" fill="#fdf6d8"/>
+  <rect x="961" y="658" width="6" height="176" rx="3" fill="#e0a55e"/>
+</g>
+
+<!-- Illustration: Swiss cheese defense in depth -->
+<g>
+  <defs>
+    <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="ilCheese" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd24a"/>
+      <stop offset="1" stop-color="#f0c48c"/>
+    </linearGradient>
+    <linearGradient id="ilDb" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8fc9f2"/>
+      <stop offset="1" stop-color="#2f7fb5"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="105" y="872" width="870" height="384" rx="24" fill="url(#ilSky)"/>
+  <path d="M105 1168 L975 1168 L975 1232 Q975 1256 951 1256 L129 1256 Q105 1256 105 1232 Z" fill="#e8dfd1" opacity=".6"/>
+
+  <ellipse cx="268" cy="1226" rx="78" ry="9" fill="#22303f" opacity=".12"/>
+  <ellipse cx="433" cy="1226" rx="78" ry="9" fill="#22303f" opacity=".12"/>
+  <ellipse cx="598" cy="1226" rx="78" ry="9" fill="#22303f" opacity=".12"/>
+  <ellipse cx="763" cy="1226" rx="78" ry="9" fill="#22303f" opacity=".12"/>
+  <ellipse cx="900" cy="1214" rx="58" ry="9" fill="#22303f" opacity=".12"/>
+
+  <polygon points="209,986 225,980 335,952 335,1196 319,1202 209,1230" fill="#22303f" opacity=".18"/>
+  <polygon points="374,986 390,980 500,952 500,1196 484,1202 374,1230" fill="#22303f" opacity=".18"/>
+  <polygon points="539,986 555,980 665,952 665,1196 649,1202 539,1230" fill="#22303f" opacity=".18"/>
+  <polygon points="704,986 720,980 830,952 830,1196 814,1202 704,1230" fill="#22303f" opacity=".18"/>
+  <path d="M856 1092 L856 1202 A46 14 0 0 0 948 1202 L948 1092 A46 14 0 0 0 856 1092 Z" fill="#22303f" opacity=".18"/>
+  <circle cx="902" cy="1036" r="26" fill="#22303f" opacity=".18"/>
+
+  <!-- Slice 1 -->
+  <polygon points="315,952 331,946 331,1190 315,1196" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="205,980 221,974 331,946 315,952" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="205,980 315,952 315,1196 205,1224" fill="url(#ilCheese)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="215,990 223,988 223,1212 215,1214" fill="#ffffff" opacity=".35"/>
+  <ellipse cx="260" cy="1085" rx="22" ry="28" fill="#ffffff"/>
+  <path d="M260 1057 A22 28 0 0 0 260 1113 A13 28 0 0 1 260 1057 Z" fill="#c96a1b"/>
+  <ellipse cx="260" cy="1085" rx="22" ry="28" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="240" cy="1012" r="9" fill="#ffffff"/>
+  <path d="M240 1003 A9 9 0 0 0 240 1021 A5.4 9 0 0 1 240 1003 Z" fill="#c96a1b"/>
+  <circle cx="240" cy="1012" r="9" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="292" cy="1165" r="12" fill="#ffffff"/>
+  <path d="M292 1153 A12 12 0 0 0 292 1177 A7.2 12 0 0 1 292 1153 Z" fill="#c96a1b"/>
+  <circle cx="292" cy="1165" r="12" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="236" cy="1150" r="8" fill="#ffffff"/>
+  <path d="M236 1142 A8 8 0 0 0 236 1158 A4.8 8 0 0 1 236 1142 Z" fill="#c96a1b"/>
+  <circle cx="236" cy="1150" r="8" fill="none" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Slice 2 -->
+  <polygon points="480,952 496,946 496,1190 480,1196" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="370,980 386,974 496,946 480,952" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="370,980 480,952 480,1196 370,1224" fill="url(#ilCheese)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="380,990 388,988 388,1212 380,1214" fill="#ffffff" opacity=".35"/>
+  <ellipse cx="425" cy="1085" rx="22" ry="28" fill="#ffffff"/>
+  <path d="M425 1057 A22 28 0 0 0 425 1113 A13 28 0 0 1 425 1057 Z" fill="#c96a1b"/>
+  <ellipse cx="425" cy="1085" rx="22" ry="28" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="452" cy="1002" r="12" fill="#ffffff"/>
+  <path d="M452 990 A12 12 0 0 0 452 1014 A7.2 12 0 0 1 452 990 Z" fill="#c96a1b"/>
+  <circle cx="452" cy="1002" r="12" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="398" cy="1165" r="11" fill="#ffffff"/>
+  <path d="M398 1154 A11 11 0 0 0 398 1176 A6.6 11 0 0 1 398 1154 Z" fill="#c96a1b"/>
+  <circle cx="398" cy="1165" r="11" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="458" cy="1145" r="7" fill="#ffffff"/>
+  <path d="M458 1138 A7 7 0 0 0 458 1152 A4.2 7 0 0 1 458 1138 Z" fill="#c96a1b"/>
+  <circle cx="458" cy="1145" r="7" fill="none" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Slice 3 -->
+  <polygon points="645,952 661,946 661,1190 645,1196" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="535,980 551,974 661,946 645,952" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="535,980 645,952 645,1196 535,1224" fill="url(#ilCheese)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="545,990 553,988 553,1212 545,1214" fill="#ffffff" opacity=".35"/>
+  <circle cx="570" cy="1012" r="12" fill="#ffffff"/>
+  <path d="M570 1000 A12 12 0 0 0 570 1024 A7.2 12 0 0 1 570 1000 Z" fill="#c96a1b"/>
+  <circle cx="570" cy="1012" r="12" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="625" cy="1010" r="9" fill="#ffffff"/>
+  <path d="M625 1001 A9 9 0 0 0 625 1019 A5.4 9 0 0 1 625 1001 Z" fill="#c96a1b"/>
+  <circle cx="625" cy="1010" r="9" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="605" cy="1165" r="16" fill="#ffffff"/>
+  <path d="M605 1149 A16 16 0 0 0 605 1181 A9.6 16 0 0 1 605 1149 Z" fill="#c96a1b"/>
+  <circle cx="605" cy="1165" r="16" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="560" cy="1195" r="8" fill="#ffffff"/>
+  <path d="M560 1187 A8 8 0 0 0 560 1203 A4.8 8 0 0 1 560 1187 Z" fill="#c96a1b"/>
+  <circle cx="560" cy="1195" r="8" fill="none" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Slice 4 -->
+  <polygon points="810,952 826,946 826,1190 810,1196" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="700,980 716,974 826,946 810,952" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="700,980 810,952 810,1196 700,1224" fill="url(#ilCheese)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="710,990 718,988 718,1212 710,1214" fill="#ffffff" opacity=".35"/>
+  <circle cx="742" cy="1004" r="11" fill="#ffffff"/>
+  <path d="M742 993 A11 11 0 0 0 742 1015 A6.6 11 0 0 1 742 993 Z" fill="#c96a1b"/>
+  <circle cx="742" cy="1004" r="11" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="778" cy="1080" rx="18" ry="22" fill="#ffffff"/>
+  <path d="M778 1058 A18 22 0 0 0 778 1102 A11 22 0 0 1 778 1058 Z" fill="#c96a1b"/>
+  <ellipse cx="778" cy="1080" rx="18" ry="22" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="728" cy="1155" r="13" fill="#ffffff"/>
+  <path d="M728 1142 A13 13 0 0 0 728 1168 A7.8 13 0 0 1 728 1142 Z" fill="#c96a1b"/>
+  <circle cx="728" cy="1155" r="13" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="790" cy="1172" r="9" fill="#ffffff"/>
+  <path d="M790 1163 A9 9 0 0 0 790 1181 A5.4 9 0 0 1 790 1163 Z" fill="#c96a1b"/>
+  <circle cx="790" cy="1172" r="9" fill="none" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Protected data -->
+  <path d="M852 1086 L852 1196 A46 14 0 0 0 944 1196 L944 1086 Z" fill="url(#ilDb)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="860,1104 868,1106 868,1200 860,1197" fill="#ffffff" opacity=".35"/>
+  <ellipse cx="898" cy="1086" rx="46" ry="14" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M852 1108 A46 14 0 0 0 944 1108" fill="none" stroke="#17457f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M886 1150 L886 1142 C886 1128 910 1128 910 1142 L910 1150" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="878" y="1150" width="40" height="30" rx="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="898" cy="1162" r="4" fill="#22303f"/>
+  <rect x="896" y="1164" width="4" height="9" fill="#22303f"/>
+
+  <circle cx="898" cy="1030" r="36" fill="#a9dcbe" opacity=".6"/>
+  <circle cx="898" cy="1030" r="26" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M886 1030 L894 1039 L911 1020" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Impact on slice 3 -->
+  <polygon points="572,1085 559.2,1088.8 565.6,1100.6 553.8,1094.2 550,1107 546.2,1094.2 534.4,1100.6 540.8,1088.8 528,1085 540.8,1081.2 534.4,1069.4 546.2,1075.8 550,1063 553.8,1075.8 565.6,1069.4 559.2,1081.2" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="605" cy="1085" r="18" fill="#ffffff" stroke="#c0392b" stroke-width="2.5"/>
+  <path d="M597 1077 L613 1093 M613 1077 L597 1093" fill="none" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Attack arrow -->
+  <circle cx="132" cy="1085" r="6" fill="#c0392b"/>
+  <path d="M132 1085 L205 1085 M248 1085 L281 1085 M331 1085 L370 1085 M413 1085 L446 1085 M496 1085 L515 1085" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="533,1085 513,1074 513,1096" fill="#c0392b"/>
+</g>
+
+<!-- Icon: shield -->
+<g transform="translate(870 222)">
+  <path d="M28 2 L52 10 L52 28 C52 42 42 50 28 56 C14 50 4 42 4 28 L4 10 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M17 29 L25 37 L40 21" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: light bulb -->
+<g transform="translate(886 384)">
+  <path d="M2 18 L5 18 M39 18 L42 18 M6 4 L9 7 M38 4 L35 7" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M22 4 C12 4 8 12 8 18 C8 24 13 27 15 31 L29 31 C31 27 36 24 36 18 C36 12 32 4 22 4 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M15 15 Q17 10 22 9" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <rect x="15" y="31" width="14" height="9" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: lock -->
+<g transform="translate(880 548)">
+  <path d="M14 24 L14 16 C14 4 42 4 42 16 L42 24" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="6" y="24" width="44" height="30" rx="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="28" cy="37" r="4" fill="#22303f"/>
+  <rect x="26" y="39" width="4" height="8" fill="#22303f"/>
+</g>
+
+<!-- Face: smile -->
+<g transform="translate(780 790)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: star -->
+<g transform="translate(850 752)">
+  <polygon points="32,4 39.1,22.3 58.6,23.3 43.4,35.7 48.5,54.7 32,44 15.5,54.7 20.6,35.7 5.4,23.3 24.9,22.3" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Paragraph 1 -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">هات أربع شرائح جبن سويسري،</tspan>
+  <tspan x="950" dy="40">وفي كل شريحة <tspan font-weight="bold" fill="#c0392b">ثقوب</tspan> هي <tspan font-weight="bold" fill="#17457f">نقاط ضعفها</tspan>.</tspan>
+</text>
+<text x="120" y="234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Take four slices of Swiss cheese; each</tspan>
+  <tspan x="120" dy="40">has <tspan font-weight="bold" fill="#c0392b">holes</tspan>, which are its <tspan font-weight="bold" fill="#17457f">weak points</tspan>.</tspan>
+</text>
+
+<!-- Paragraph 2 -->
+<text x="950" y="354" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">من شريحة واحدة ترى <tspan font-weight="bold" fill="#17457f">النور</tspan> بسهولة.</tspan>
+</text>
+<text x="120" y="394" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Through one slice, you see <tspan font-weight="bold" fill="#17457f">light</tspan> easily.</tspan>
+</text>
+
+<!-- Paragraph 3 -->
+<text x="950" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">لكن إذا رصصت الأربع،</tspan>
+  <tspan x="950" dy="40">فمن <tspan font-weight="bold" fill="#17457f">النادر</tspan> أن تقع <tspan font-weight="bold" fill="#c0392b">الثقوب</tspan> كلها على خط واحد.</tspan>
+</text>
+<text x="120" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">But stack all four,</tspan>
+  <tspan x="120" dy="40">and the <tspan font-weight="bold" fill="#c0392b">holes</tspan> <tspan font-weight="bold" fill="#17457f">rarely</tspan> line up.</tspan>
+</text>
+
+<!-- Key sentence strip text -->
+<text x="935" y="674" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">كل طبقة فيها ثغرات، لكن تكديسها</tspan>
+  <tspan x="935" dy="40">يجعل مرور الهجوم منها كلها نادرًا.</tspan>
+</text>
+<text x="140" y="754" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">Every layer has gaps, but stacking</tspan>
+  <tspan x="140" dy="40">them makes it rare for an attack to</tspan>
+  <tspan x="140" dy="40">pass through all of them.</tspan>
+</text>
+</svg>
