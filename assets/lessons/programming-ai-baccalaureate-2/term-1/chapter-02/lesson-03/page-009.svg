@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilBar" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+  <linearGradient id="ilAlarm" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#c96a1b"/>
+    <stop offset="1" stop-color="#c0392b"/>
+  </linearGradient>
+  <linearGradient id="ilScreen" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#8fc9f2"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Info card (one frame) -->
+<g>
+  <rect x="109" y="128" width="870" height="368" rx="16" fill="#22303f" opacity=".12"/>
+  <rect x="105" y="122" width="870" height="368" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+  <rect x="961" y="138" width="6" height="336" rx="3" fill="#2f7fb5"/>
+</g>
+
+<!-- Icon: light bulb (insight) inside card -->
+<g transform="translate(820 380)">
+  <path d="M32 14 V6 M14 20 L9 15 M50 20 L55 15 M8 34 H2 M56 34 H62" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M32 18 Q48 18 48 34 Q48 42 40 48 V52 H24 V48 Q16 42 16 34 Q16 18 32 18 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M26 36 Q32 30 38 36" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="24" y="52" width="16" height="10" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: key beside the example paragraph -->
+<g transform="translate(300 548)">
+  <circle cx="16" cy="28" r="12" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="16" cy="28" r="4" fill="#fffdf7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M28 28 H54 M46 28 V38 M38 28 V35" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Illustration: Event vs Incident -->
+<g>
+  <rect x="129" y="796" width="400" height="270" rx="20" fill="#22303f" opacity=".18"/>
+  <rect x="559" y="796" width="400" height="270" rx="20" fill="#22303f" opacity=".18"/>
+
+  <!-- Left panel: Incident -->
+  <rect x="125" y="790" width="400" height="270" rx="20" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="325" cy="838" r="38" fill="#c0392b" opacity=".12"/>
+  <circle cx="325" cy="838" r="24" fill="#ffd24a" opacity=".35"/>
+  <path d="M325 812 L325 802 M304 822 L296 815 M346 822 L354 815 M298 840 L287 840 M352 840 L363 840" fill="none" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+  <path d="M309 852 Q309 820 325 820 Q341 820 341 852 Z" fill="url(#ilAlarm)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="319" cy="836" rx="4" ry="7" fill="#ffffff" opacity=".6"/>
+  <rect x="303" y="852" width="44" height="12" rx="3" fill="#22303f"/>
+  <g transform="translate(225 875)">
+    <rect x="4" y="6" width="200" height="150" rx="14" fill="#22303f" opacity=".18"/>
+    <rect x="0" y="0" width="200" height="150" rx="14" fill="url(#ilScreen)" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M0 14 Q0 0 14 0 H186 Q200 0 200 14 V34 H0 Z" fill="url(#ilBar)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="24" cy="17" r="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="20" y="50" width="160" height="26" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <line x1="32" y1="63" x2="100" y2="63" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+    <rect x="20" y="86" width="160" height="26" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="36" cy="99" r="4" fill="#22303f"/>
+    <circle cx="52" cy="99" r="4" fill="#22303f"/>
+    <circle cx="68" cy="99" r="4" fill="#22303f"/>
+    <circle cx="84" cy="99" r="4" fill="#22303f"/>
+    <circle cx="100" cy="99" r="4" fill="#22303f"/>
+    <rect x="60" y="120" width="80" height="20" rx="8" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <path d="M143 805 L157 819 M157 805 L143 819 M179 806 L191 818 M191 806 L179 818 M213 805 L227 819 M227 805 L213 819 M249 808 L261 820 M261 808 L249 820 M389 808 L401 820 M401 808 L389 820 M423 805 L437 819 M437 805 L423 819 M459 806 L471 818 M471 806 L459 818 M493 805 L507 819 M507 805 L493 819 M158 841 L172 855 M172 841 L158 855 M199 842 L211 854 M211 842 L199 854 M238 843 L252 857 M252 843 L238 857 M398 843 L412 857 M412 843 L398 857 M439 842 L451 854 M451 842 L439 854 M478 841 L492 855 M492 841 L478 855 M144 879 L156 891 M156 879 L144 891 M183 881 L197 895 M197 881 L183 895 M451 879 L465 893 M465 879 L451 893 M492 882 L504 894 M504 882 L492 894 M161 915 L175 929 M175 915 L161 929 M199 919 L211 931 M211 919 L199 931 M441 916 L453 928 M453 916 L441 928 M478 918 L492 932 M492 918 L478 932 M143 951 L157 965 M157 951 L143 965 M186 954 L198 966 M198 954 L186 966 M451 951 L465 965 M465 951 L451 965 M494 954 L506 966 M506 954 L494 966 M164 989 L176 1001 M176 989 L164 1001 M200 985 L214 999 M214 985 L200 999 M438 987 L452 1001 M452 987 L438 1001 M479 986 L491 998 M491 986 L479 998 M143 1028 L157 1042 M157 1028 L143 1042 M186 1034 L198 1046 M198 1034 L186 1046 M244 1038 L256 1050 M256 1038 L244 1050 M283 1037 L297 1051 M297 1037 L283 1051 M319 1038 L331 1050 M331 1038 L319 1050 M353 1037 L367 1051 M367 1037 L353 1051 M394 1038 L406 1050 M406 1038 L394 1050 M452 1034 L464 1046 M464 1034 L452 1046 M493 1028 L507 1042 M507 1028 L493 1042" fill="none" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Right panel: Event -->
+  <rect x="555" y="790" width="400" height="270" rx="20" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M556 810 Q556 791 575 791 H935 Q954 791 954 810 V832 H556 Z" fill="#a9dcbe"/>
+  <circle cx="582" cy="811" r="8" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="926" cy="811" r="13" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M919 811 L924 816 L933 806" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="755" cy="950" rx="130" ry="90" fill="#a9dcbe" opacity=".35"/>
+  <g transform="translate(655 875)">
+    <rect x="4" y="6" width="200" height="150" rx="14" fill="#22303f" opacity=".18"/>
+    <rect x="0" y="0" width="200" height="150" rx="14" fill="url(#ilScreen)" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M0 14 Q0 0 14 0 H186 Q200 0 200 14 V34 H0 Z" fill="url(#ilBar)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="24" cy="17" r="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="20" y="50" width="160" height="26" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <line x1="32" y1="63" x2="100" y2="63" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+    <rect x="20" y="86" width="160" height="26" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="36" cy="99" r="4" fill="#22303f"/>
+    <circle cx="52" cy="99" r="4" fill="#22303f"/>
+    <circle cx="68" cy="99" r="4" fill="#22303f"/>
+    <circle cx="84" cy="99" r="4" fill="#22303f"/>
+    <circle cx="100" cy="99" r="4" fill="#22303f"/>
+    <rect x="60" y="120" width="80" height="20" rx="8" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <path d="M620 963 L632 975 M632 963 L620 975" fill="none" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+  <g transform="translate(905 900)">
+    <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+    <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+    <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <path d="M905 1020 Q890 1010 893 994 Q906 1004 905 1020 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M905 1020 Q920 1008 918 992 Q904 1002 905 1020 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="890,1020 920,1020 915,1048 895,1048" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- connectors: divider and escalation badge -->
+  <line x1="540" y1="800" x2="540" y2="1170" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="540" cy="925" r="24" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="553" y1="925" x2="533" y2="925" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="525,925 535,917 535,933" fill="#c0392b"/>
+</g>
+
+<!-- Icon row in the lower free band -->
+<g transform="translate(392 1196)">
+  <path d="M28 2 L52 10 V28 Q52 46 28 54 Q4 46 4 28 V10 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M28 12 L42 17 V28 Q42 40 28 45 Q14 40 14 28 V17 Z" fill="#8fc9f2"/>
+  <path d="M20 28 L26 34 L37 22" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(512 1196)">
+  <path d="M28 4 L54 50 H2 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="25" y="18" width="6" height="18" rx="3" fill="#22303f"/>
+  <circle cx="28" cy="43" r="3.5" fill="#22303f"/>
+</g>
+<g transform="translate(632 1196)">
+  <path d="M16 24 V16 Q16 4 28 4 Q40 4 40 16 V24" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="8" y="24" width="40" height="30" rx="6" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="28" cy="36" r="4" fill="#22303f"/>
+  <rect x="26" y="38" width="4" height="8" fill="#22303f"/>
+</g>
+
+<!-- Text -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">معلومة تميّزك</text>
+<text x="140" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">BEYOND THE BOOK</text>
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">الحدث Event</tspan> هو أي شيء يقع في النظام،</tspan>
+  <tspan x="935" dy="40">مثل تسجيل دخول أو تحديث. ولا يصير</tspan>
+  <tspan x="935" dy="40"><tspan font-weight="bold" fill="#c0392b">حادثًا Incident</tspan> إلا إذا هدد الأمن.</tspan>
+</text>
+<text x="140" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">An <tspan font-weight="bold" fill="#c0392b">event</tspan> is anything that happens in</tspan>
+  <tspan x="140" dy="40">a system, like a login or an update.</tspan>
+  <tspan x="140" dy="40">It becomes an <tspan font-weight="bold" fill="#c0392b">incident</tspan> only if it</tspan>
+  <tspan x="140" dy="40">threatens security.</tspan>
+</text>
+<text x="950" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">مثال: كتابة كلمة مرور خطأ مرة واحدة</tspan>
+  <tspan x="950" dy="40"><tspan font-weight="bold" fill="#2e7d32">حدث عادي،</tspan> أما مئات المحاولات</tspan>
+  <tspan x="950" dy="40">الخاطئة في دقيقة فهي <tspan font-weight="bold" fill="#c0392b">حادث.</tspan></tspan>
+</text>
+<text x="120" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Example: typing a wrong password once is</tspan>
+  <tspan x="120" dy="40">a <tspan font-weight="bold" fill="#2e7d32">normal event,</tspan> but hundreds of wrong</tspan>
+  <tspan x="120" dy="40">tries in one minute is an <tspan font-weight="bold" fill="#c0392b">incident.</tspan></tspan>
+</text>
+<text x="785" y="1114" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c"><tspan font-weight="bold" fill="#2e7d32">حدث</tspan></text>
+<text x="712" y="1154" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42"><tspan font-weight="bold" fill="#2e7d32">Event</tspan></text>
+<text x="359" y="1114" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c"><tspan font-weight="bold" fill="#c0392b">حادث</tspan></text>
+<text x="265" y="1154" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42"><tspan font-weight="bold" fill="#c0392b">Incident</tspan></text>
+</svg>

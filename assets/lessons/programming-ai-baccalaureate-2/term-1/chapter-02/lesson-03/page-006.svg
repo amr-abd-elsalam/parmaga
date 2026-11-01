@@ -1,0 +1,267 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilWall" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+  <linearGradient id="ilFloor" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#e8dfd1"/>
+    <stop offset="1" stop-color="#f0c48c"/>
+  </linearGradient>
+  <linearGradient id="ilPipeH" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#a9dcbe"/>
+    <stop offset="1" stop-color="#2e7d32"/>
+  </linearGradient>
+  <linearGradient id="ilPipeV" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#a9dcbe"/>
+    <stop offset="1" stop-color="#2e7d32"/>
+  </linearGradient>
+  <linearGradient id="ilOld" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#e8dfd1"/>
+    <stop offset="1" stop-color="#7f95ab"/>
+  </linearGradient>
+  <linearGradient id="ilWindow" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#8fc9f2"/>
+  </linearGradient>
+</defs>
+
+<!-- Key sentence strip (one group) -->
+<g>
+  <rect x="109" y="728" width="870" height="208" rx="10" fill="#22303f" opacity=".12"/>
+  <rect x="105" y="722" width="870" height="208" rx="10" fill="#fdf6d8"/>
+  <rect x="961" y="738" width="6" height="176" rx="3" fill="#e0a55e"/>
+</g>
+
+<!-- Bullets -->
+<circle cx="966" cy="144" r="6" fill="#c0392b"/>
+<circle cx="114" cy="224" r="6" fill="#c0392b"/>
+<circle cx="966" cy="344" r="6" fill="#c0392b"/>
+<circle cx="114" cy="424" r="6" fill="#c0392b"/>
+<circle cx="966" cy="544" r="6" fill="#c0392b"/>
+<circle cx="114" cy="624" r="6" fill="#c0392b"/>
+
+<!-- Illustration: the last three steps -->
+<g>
+  <rect x="727" y="976" width="248" height="280" rx="22" fill="#22303f" opacity=".18"/>
+  <rect x="419" y="976" width="248" height="280" rx="22" fill="#22303f" opacity=".18"/>
+  <rect x="111" y="976" width="248" height="280" rx="22" fill="#22303f" opacity=".18"/>
+
+  <!-- Right panel: replacing the cracked pipe -->
+  <rect x="723" y="970" width="248" height="280" rx="22" fill="url(#ilWall)"/>
+  <path d="M 723 1180 H 971 V 1228 Q 971 1250 949 1250 H 745 Q 723 1250 723 1228 Z" fill="url(#ilFloor)"/>
+  <path d="M 723 1180 H 971" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="752" y="1062" width="12" height="36" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="932" y="1062" width="12" height="36" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="735" y="1070" width="55" height="20" rx="4" fill="url(#ilOld)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="906" y="1070" width="53" height="20" rx="4" fill="url(#ilOld)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="802" y="1068" width="90" height="24" rx="4" fill="url(#ilPipeH)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="808" y="1072" width="78" height="5" rx="2.5" fill="#ffffff" opacity=".6"/>
+  <rect x="786" y="1064" width="16" height="32" rx="4" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="892" y="1064" width="16" height="32" rx="4" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="828,1030 831,1037 838,1040 831,1043 828,1050 825,1043 818,1040 825,1037" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="862,1024 864,1030 870,1032 864,1034 862,1040 860,1034 854,1032 860,1030" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="868" y="1200" width="84" height="20" rx="4" fill="url(#ilOld)" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 906 1200 L 912 1208 L 904 1213 L 911 1220" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 888 1180 Q 895 1190 888 1194 Q 881 1190 888 1180 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 934 1182 Q 940 1190 934 1193 Q 928 1190 934 1182 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <g transform="translate(895 1092) rotate(30)">
+    <rect x="-8" y="16" width="16" height="112" rx="8" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="114" r="4" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M -22 -2 Q -22 22 0 22 Q 22 22 22 -2 L 22 -20 L 9 -20 L 9 -4 L -9 -4 L -9 -20 L -22 -20 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+  <rect x="723" y="970" width="248" height="280" rx="22" fill="none" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Middle panel: dry floor, towel, open valve -->
+  <rect x="415" y="970" width="248" height="280" rx="22" fill="url(#ilWall)"/>
+  <path d="M 415 1180 H 663 V 1228 Q 663 1250 641 1250 H 437 Q 415 1250 415 1228 Z" fill="url(#ilFloor)"/>
+  <path d="M 415 1180 H 663" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="437" y="994" width="86" height="70" rx="6" fill="url(#ilWindow)" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="502" cy="1013" r="9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 480 994 V 1064 M 437 1029 H 523" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="431" y="1062" width="98" height="8" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="596" y="984" width="18" height="206" rx="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="600" y="992" width="4" height="190" rx="2" fill="#ffffff" opacity=".35"/>
+  <rect x="590" y="1186" width="30" height="8" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="588" y="1080" width="34" height="30" rx="6" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="601" y="1066" width="8" height="16" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="605" cy="1046" r="28" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="605" cy="1046" r="19" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="602" y="1027" width="6" height="38" fill="#c0392b"/>
+  <rect x="586" y="1043" width="38" height="6" fill="#c0392b"/>
+  <circle cx="605" cy="1046" r="6" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 569 1029 A 40 40 0 0 0 569 1063" fill="none" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="573,1072 576,1059 563,1065" fill="#2e7d32"/>
+  <rect x="440" y="1176" width="100" height="22" rx="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="442" y="1185" width="96" height="5" fill="#c96a1b" opacity=".35"/>
+  <rect x="448" y="1156" width="84" height="22" rx="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="450" y="1165" width="80" height="5" fill="#c96a1b" opacity=".35"/>
+  <ellipse cx="572" cy="1224" rx="62" ry="8" fill="#ffffff" opacity=".6"/>
+  <polygon points="470,1212 473,1219 480,1222 473,1225 470,1232 467,1225 460,1222 467,1219" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="640,1206 642,1212 648,1214 642,1216 640,1222 638,1216 632,1214 638,1212" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="415" y="970" width="248" height="280" rx="22" fill="none" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Left panel: checklist notebook and new pipes -->
+  <rect x="107" y="970" width="248" height="280" rx="22" fill="url(#ilWall)"/>
+  <path d="M 107 1180 H 355 V 1228 Q 355 1250 333 1250 H 129 Q 107 1250 107 1228 Z" fill="url(#ilFloor)"/>
+  <path d="M 107 1180 H 355" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 146 1026 Q 130 1024 134 1010 Q 136 996 152 999 Q 158 984 178 987 Q 198 980 208 996 Q 226 997 224 1012 Q 226 1028 208 1028 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="174" cy="1006" r="11" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="181,1017 185,1013 197,1025 193,1029" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="160" cy="1048" r="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="170" cy="1068" r="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="114,1088 188,1098 262,1088 262,1208 188,1218 114,1208" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 120 1092 L 188 1102 L 188 1212 L 120 1202 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 188 1102 L 256 1092 L 256 1202 L 188 1212 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 130 1122 L 178 1128 M 130 1146 L 178 1152 M 130 1170 L 178 1176" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="196" y="1110" width="14" height="14" rx="2" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="196" y="1138" width="14" height="14" rx="2" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="196" y="1166" width="14" height="14" rx="2" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 198 1116 L 203 1121 L 212 1110 M 198 1144 L 203 1149 L 212 1138 M 198 1172 L 203 1177 L 212 1166" fill="none" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 218 1117 L 246 1114 M 218 1145 L 246 1142 M 218 1173 L 246 1170" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="280" y="1030" width="16" height="184" rx="4" fill="url(#ilPipeV)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="304" y="1030" width="16" height="184" rx="4" fill="url(#ilPipeV)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="328" y="1030" width="16" height="184" rx="4" fill="url(#ilPipeV)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="283" y="1040" width="4" height="164" rx="2" fill="#ffffff" opacity=".6"/>
+  <rect x="307" y="1040" width="4" height="164" rx="2" fill="#ffffff" opacity=".6"/>
+  <rect x="331" y="1040" width="4" height="164" rx="2" fill="#ffffff" opacity=".6"/>
+  <rect x="278" y="1024" width="20" height="12" rx="3" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="302" y="1024" width="20" height="12" rx="3" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="326" y="1024" width="20" height="12" rx="3" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="278" y="1208" width="20" height="12" rx="3" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="302" y="1208" width="20" height="12" rx="3" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="326" y="1208" width="20" height="12" rx="3" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="296,990 299,997 306,1000 299,1003 296,1010 293,1003 286,1000 293,997" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="334,1000 336,1006 342,1008 336,1010 334,1016 332,1010 326,1008 332,1006" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="107" y="970" width="248" height="280" rx="22" fill="none" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Arrows, right to left -->
+  <path d="M 713 1110 L 682 1110" fill="none" stroke="#17457f" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="672,1110 685,1101 685,1119" fill="#17457f"/>
+  <path d="M 405 1110 L 374 1110" fill="none" stroke="#17457f" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="364,1110 377,1101 377,1119" fill="#17457f"/>
+</g>
+
+<!-- Icon: warning (step 4) -->
+<g transform="translate(150 132)">
+  <polygon points="28,4 53,50 3,50" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="25.5" y="18" width="5" height="18" rx="2.5" fill="#22303f"/>
+  <circle cx="28" cy="43" r="3" fill="#22303f"/>
+</g>
+
+<!-- Icon: wrench (step 4) -->
+<g transform="translate(860 216)">
+  <g transform="rotate(45 28 28)">
+    <rect x="22" y="26" width="12" height="30" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M 13 14 Q 13 29 28 29 Q 43 29 43 14 L 43 2 L 34 2 L 34 12 L 22 12 L 22 2 L 13 2 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+</g>
+
+<!-- Face: smile (step 5) -->
+<g transform="translate(178 360)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: check badge (step 5) -->
+<g transform="translate(860 416)">
+  <circle cx="28" cy="28" r="26" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="28" cy="28" r="19" fill="none" stroke="#a9dcbe" stroke-width="2.5"/>
+  <path d="M 18 29 L 25 36 L 39 21" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Face: thinking (step 6) -->
+<g transform="translate(178 560)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: pencil (step 6) -->
+<g transform="translate(860 616)">
+  <g transform="rotate(45 28 28)">
+    <rect x="20" y="0" width="16" height="8" rx="2" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="20" y="8" width="16" height="32" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <polygon points="20,40 36,40 28,54" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="25.5,49 30.5,49 28,54" fill="#22303f"/>
+  </g>
+</g>
+
+<!-- Icon: star (strip) -->
+<g transform="translate(127 732)">
+  <polygon points="22,1 27.3,14.7 42,15.5 30.6,24.8 34.3,39 22,31 9.7,39 13.4,24.8 2,15.5 16.7,14.7" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: light bulb (strip) -->
+<g transform="translate(862 850)">
+  <path d="M 28 0 V 5 M 8 8 L 12 12 M 48 8 L 44 12 M 2 25 H 7 M 49 25 H 54" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="28" cy="25" r="14" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 21 23 Q 22 16 28 15" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="21" y="38" width="14" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 22 44 H 34" fill="none" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Text -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">4 <tspan font-weight="bold" fill="#c0392b">الاستئصال:</tspan> تغيّر الماسورة المكسورة،</tspan>
+  <tspan x="950" dy="40">فهي <tspan font-weight="bold" fill="#17457f">السبب.</tspan></tspan>
+</text>
+<text x="132" y="234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">4 <tspan font-weight="bold" fill="#c0392b">Eradication:</tspan> you replace</tspan>
+  <tspan x="132" dy="40">the broken pipe, because it is the <tspan font-weight="bold" fill="#17457f">cause.</tspan></tspan>
+</text>
+
+<text x="950" y="354" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">5 <tspan font-weight="bold" fill="#c0392b">الاستعادة:</tspan> تجفف الأرض وتفتح المحبس،</tspan>
+  <tspan x="950" dy="40">فيعود البيت <tspan font-weight="bold" fill="#2e7d32">طبيعيًا.</tspan></tspan>
+</text>
+<text x="132" y="434" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">5 <tspan font-weight="bold" fill="#c0392b">Recovery:</tspan> you dry the floor and open</tspan>
+  <tspan x="132" dy="40">the valve; the home is <tspan font-weight="bold" fill="#2e7d32">normal</tspan> again.</tspan>
+</text>
+
+<text x="950" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">6 <tspan font-weight="bold" fill="#c0392b">الدروس المستفادة والتحسين:</tspan></tspan>
+  <tspan x="950" dy="40">تسأل لماذا انكسرت، وتغيّر المواسير القديمة.</tspan>
+</text>
+<text x="132" y="634" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">6 <tspan font-weight="bold" fill="#c0392b">Lessons learned &amp; improvement:</tspan></tspan>
+  <tspan x="132" dy="40">you ask why it broke and replace old pipes.</tspan>
+</text>
+
+<text x="935" y="754" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">أغلق المحبس قبل أن تصلّح الماسورة،</tspan>
+  <tspan x="935" dy="40">وصلّح الماسورة قبل أن تمسح الأرض.</tspan>
+</text>
+<text x="140" y="834" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">Close the valve before you fix</tspan>
+  <tspan x="140" dy="40">the pipe, and fix the pipe</tspan>
+  <tspan x="140" dy="40">before you mop the floor.</tspan>
+</text>
+</svg>

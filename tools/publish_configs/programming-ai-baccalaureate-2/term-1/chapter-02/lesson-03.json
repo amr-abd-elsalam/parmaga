@@ -1,0 +1,2172 @@
+{
+  "schemaVersion": 1,
+  "course": "programming-ai-baccalaureate-2",
+  "term": "term-1",
+  "chapter": "chapter-02",
+  "lesson": "lesson-03",
+  "displayNumber": "2-3",
+  "displayTitleAr": "الاستجابة للحوادث وإدارة المخاطر",
+  "displayTitleEn": "Incident Response and Risk Management",
+  "courseLabelAr": "البرمجة والذكاء الاصطناعي، ثانية بكالوريا",
+  "termLabelAr": "ترم أول",
+  "pivotQuestionAr": "عندما يقع حادث أمني، كيف ينبغي للمؤسسة أن تنظّم استجابتها عبر مراحلها العامة — وكيف تقرر أي المخاطر تعالجها أولًا؟",
+  "custodyRepository": "parmaga-content",
+  "custodySnapshot": "8629cd7f2cb108b926b15850315948d35ea77064",
+  "declaredPageCount": 34,
+  "inventoryDate": "2026-11-01",
+  "status": "published",
+  "extraNotes": [
+    "السؤال المحوري للدرس: عندما يقع حادث أمني، كيف ينبغي للمؤسسة أن تنظّم استجابتها عبر مراحلها العامة — وكيف تقرر أي المخاطر تعالجها أولًا؟",
+    "حزمة أصول الدرس مدرجة للنشر في المسار القانوني داخل المستودع العام، وتتحقق tools/verify_lesson.py من مطابقة بايتاتها لهذا الـManifest.",
+    "أسماء الملفات الواردة مطابقة أصلًا للنمط page-<NNN>.svg، لذلك sourceFileName يساوي file في المداخل الـ34 كلها، ولم تجرِ إعادة تسمية.",
+    "viewBox «0 0 1080 1350» مقيس في الصفحات الـ34 كلها، أي مقاس 1080×1350 بنسبة 4:5 رأسية.",
+    "منطقة الـ12% المحجوزة: الحد y = 1188. أعلى سمة y مرصودة في عناصر النص هي 1234 في page-010، و18 عنصر نص عند الحد أو دونه في 5 صفحات: page-010، page-016، page-018، page-022، page-023. سُجّل ولم يوقف النشر، وتراجعه عين المالك في المتصفح. القياس يعتمد سمات y وحدها ولا يحسب transform ولا إحداثيات path d، فهو مؤشر قوي لا إثبات هندسي كامل.",
+    "الفحص الأمني نظيف في الصفحات الـ34 كلها: صفر script، صفر foreignObject، صفر سمات on*، صفر javascript:، صفر مرجع http(s) خارجي، صفر data:، صفر image مضمَّن، صفر use خارجي، صفر iframe أو embed أو object، صفر @import. لا يوجد اكتشاف يحتاج قرارًا مكتوبًا.",
+    "قيمة encoding مستنتجة لا مقروءة: لا يحتوي أي ملف إعلان XML ولا BOM، ونجاح تحليل XML على البايتات دون إعلان يعني أن البايتات UTF-8 صالحة.",
+    "نهايات الأسطر داخل الأصول الـ34 كلها CRLF. لم تُغيَّر ولا يجوز تغييرها، وقاعدة *.svg -text في .gitattributes تغطيها وفق ADR-0005 البند 11.",
+    "الحجم المقيس: المجموع 581337 بايت، والمتوسط 17098 بايت بالتقريب إلى الأدنى، وأصغر ملف 10968 بايت في page-020، وأكبر ملف 20799 بايت في page-019.",
+    "الخطوط المستدعاة في الصفحات الـ34 كلها: Arial وComic Sans MS وSegoe Print وSegoe UI وTahoma وsans-serif، ولا تزيد أي صفحة خطًّا آخر. قيد معروف مسجَّل في ADR-0004 §23 ولا يُعالَج بتعديل الأصول.",
+    "عنوان الدرس في الصفحة الرئيسة «الاستجابة للحوادث وإدارة المخاطر» يرد حرفيًّا في page-001، ومنها displayTitleEn «Incident Response and Risk Management». وpivotQuestionAr بنص المالك المكتوب حرفيًّا، إذ لا تسمية «السؤال الرئيسي» في الأصول. ووصف كل صفحة (descriptionAr، وهو نص alt) بقاعدة المالك المكتوبة: الصفحة التي أول بند فيها عنوان رئيسي بخط 44 غامق وصفها ذلك العنوان، وهي 8 صفحات (page-002، page-004، page-008، page-012، page-018، page-021، page-029، page-034)، والافتتاحية page-001 وصفها أول بند فيها، وكل صفحة سواهما وصفها «تابع: » ثم آخر عنوان رئيسي قبلها حرفيًّا، وهي 25 صفحة.",
+    "تحتوي 3 بنود في 3 صفحات على العلامة &: «PAUSE & THINK» في page-004 وpage-016، وبند في page-006 فيه «Lessons learned & improvement». ولا يحتوي أي بند على < أو >. وتُهرَّب & في HTML وفق ADR-0024 K2.",
+    "نصوص الصفحات مستخرجة آليًّا من عناصر <text> بترتيب المستند، ثم طُبّقت عليها قاعدة حذف علامات الترقيم البصرية وحدها المسجلة في ADR-0024 D7 وREADME. وطوبق مجموع عناصر النص في الأصول وهو 371 مع عدد البنود المنشورة وهو 371، ولا فرق بينهما: لا تحتوي الأصول بند ترقيم منفردًا ولا عنصر نص فارغًا."
+  ],
+  "contextSections": {
+    "structureSummaryAr": "افتتاحية 001. قبل أن نبدأ 002–003. قصة الماسورة 004–007. ما الحادث الأمني بالضبط؟ 008–011. المراحل الست للاستجابة 012–017. الاحتواء أم الاستئصال؟ 018–020. الخطر: ماذا نعالج أولًا؟ 021–028. تذكّر في الامتحان 029–033. الخلاصة 034.",
+    "statusAr": "الـManifest بحالة `published` وأصوله الـ34 في مسارها القانوني. ونصوص الصفحات بلغتيها في HTML فهي مقروءة دون JavaScript، والعارض تحسين تدريجي فوقها. والحالة الجارية في `docs/ai/ARCHITECT_EVIDENCE_LEDGER.md`.",
+    "pagesNarrativeAr": "34 صفحة: افتتاحية واحدة (`page-001`) و33 صفحة محتوى (`page-002` … `page-034`) بترقيم متصل بلا فجوة. و`viewBox` «0 0 1080 1350» وفحص أمني نظيف في كلها. والمراسي حتمية: `#page-1` ⇄ `page-001.svg` حتى `#page-34` ⇄ `page-034.svg`. والوصف «تابع: » يعني أن الصفحة تكمل آخر عنوان رئيسي قبلها.",
+    "constraintsAr": "**الخطوط.** Tahoma وSegoe Print وComic Sans MS وSegoe UI وArial قد تغيب على أندرويد، وعلاجها خارج الأصول وفق `ADR-0004 §23`. **الألوان.** العرض عبر `<img>` يعزل الأصل عن الوضع الليلي. **المنطقة السفلى.** 18 عنصر نص عند `y = 1188` أو دونه في 5 صفحات، أعلاها 1234 في `page-010`، وقائمتها في الـManifest، سُجّلت ولم توقف النشر. **البايتات ثابتة.** CRLF بلا إعلان XML ولا BOM، وأي تعديل يُبطل البصمات.",
+    "decidedAr": "المسار والمعرّفات وفق `ADR-0004`، والصفحات الـ34 وترتيبها وأدوارها، والسؤال المحوري بنص المالك، ووصف «تابع: » بقاعدته المكتوبة. صفر Dependencies وصفر Build Step.",
+    "undecidedAr": "روابط Previous/Next بين الدروس. فهرس `/courses/` وفهارس Course وTerm وChapter. Structured Data. الخطوط على أندرويد. مراسي `#concept-*`.",
+    "howToUseAr": "مصدرك لجرد بنية الدرس وقيوده. **لا تطلب ملف SVG** وفق `ADR-0005` §10. النص في HTML صفحة الدرس، والجرد والبصمات في الـManifest. ولا تحرّر مخرَجًا منشورًا: غيّر الـconfig وأعد التوليد وفق `ADR-0024`، ولا تخترع رقمًا ولا بصمة."
+  },
+  "svgSourceDir": "assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-02/lesson-03",
+  "pages": [
+    {
+      "id": "page-001",
+      "htmlId": "page-1",
+      "role": "opening",
+      "descriptionAr": "الدرس 2-3",
+      "transcript": [
+        {
+          "text": "الدرس 2-3",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "الاستجابة للحوادث وإدارة المخاطر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Lesson 2-3",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "Incident Response and Risk Management",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-002",
+      "htmlId": "page-2",
+      "role": "content",
+      "descriptionAr": "قبل أن نبدأ",
+      "transcript": [
+        {
+          "text": "قبل أن نبدأ",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Before We Begin",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تخيّل أنك بنيت أقوى سور حول بيتك. هل يعني ذلك أن اللص لن يحاول أبدًا؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Imagine you built the strongest wall around your house. Does that mean a thief will never try?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لا توجد حماية تمنع كل الهجمات؛ لذلك تحتاج كل مؤسسة إلى خطة لما بعد وقوع الحادث.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "No protection can stop every attack, so every organization needs a plan for when an incident happens.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في هذا الدرس فكرتان فقط: رتّب تصرفك، وابدأ بالأخطر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "This lesson has only two ideas: act in order, and start with the most dangerous.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-003",
+      "htmlId": "page-3",
+      "role": "content",
+      "descriptionAr": "تابع: قبل أن نبدأ",
+      "transcript": [
+        {
+          "text": "ماذا ستتعلم في هذا الدرس؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "What will you learn in this lesson?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أن تعرف بدقة متى نسمّي ما حدث «حادثًا أمنيًا».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "To know exactly when we call something a \"security incident\".",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أن ترتّب مراحل الاستجابة الست وتعرف سبب كل خطوة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "To order the six response stages and know the reason for each.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أن تقيس الخطر بالتأثير × الاحتمالية وتقرر ما يُعالج أولًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "To measure risk by impact × likelihood and decide what to fix first.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أن تصمم استجابة لحادث حقيقي وتبرر كل قرار فيها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "To design a response to a real incident and justify every decision in it.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-004",
+      "htmlId": "page-4",
+      "role": "content",
+      "descriptionAr": "قصة الماسورة",
+      "transcript": [
+        {
+          "text": "قصة الماسورة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Burst Pipe Story",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "رجعت البيت فوجدت الماء يغرق الصالة، والماسورة ما زالت تنقّط.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "You come home and find water flooding the living room, and the pipe is still dripping.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "توقّف وفكّر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "PAUSE & THINK",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ماذا ستفعل أولًا: تمسح الأرض، أم تغلق المحبس، أم تصلّح الماسورة؟ ولماذا؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "What will you do first: mop the floor, close the main valve, or fix the pipe? Why?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-005",
+      "htmlId": "page-5",
+      "role": "content",
+      "descriptionAr": "تابع: قصة الماسورة",
+      "transcript": [
+        {
+          "text": "الإجابة الذكية: أغلق المحبس أولًا. والآن لاحظ كيف تتحول القصة إلى ست خطوات:",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The smart answer: close the valve first. Now see how the story becomes six steps:",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "1 التحضير: تعرف مكان المحبس قبل أي مشكلة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 Preparation: you know where the valve is before any problem.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 الاكتشاف: تتأكد أنه تسريب، لا كوب ماء انسكب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 Detection: you make sure it is a leak, not a spilled glass of water.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "3 الاحتواء: تغلق المحبس حتى لا يصل الماء إلى باقي الشقة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 Containment: you close the valve so the water cannot reach the rest of the flat.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-006",
+      "htmlId": "page-6",
+      "role": "content",
+      "descriptionAr": "تابع: قصة الماسورة",
+      "transcript": [
+        {
+          "text": "4 الاستئصال: تغيّر الماسورة المكسورة، فهي السبب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "4 Eradication: you replace the broken pipe, because it is the cause.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "5 الاستعادة: تجفف الأرض وتفتح المحبس، فيعود البيت طبيعيًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "5 Recovery: you dry the floor and open the valve; the home is normal again.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "6 الدروس المستفادة والتحسين: تسأل لماذا انكسرت، وتغيّر المواسير القديمة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "6 Lessons learned & improvement: you ask why it broke and replace old pipes.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أغلق المحبس قبل أن تصلّح الماسورة، وصلّح الماسورة قبل أن تمسح الأرض.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Close the valve before you fix the pipe, and fix the pipe before you mop the floor.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-007",
+      "htmlId": "page-7",
+      "role": "content",
+      "descriptionAr": "تابع: قصة الماسورة",
+      "transcript": [
+        {
+          "text": "الماء المتسرب = البرمجية الخبيثة التي تنتشر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The leaking water = the malware that spreads.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "إغلاق المحبس = فصل الجهاز المصاب عن الشبكة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Closing the valve = disconnecting the infected device from the network.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الماسورة المكسورة = الثغرة التي دخل منها المهاجم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The broken pipe = the vulnerability the attacker came in through.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تجفيف الأرض = استرجاع الملفات من نسخة احتياطية سليمة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Drying the floor = restoring files from a clean backup.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-008",
+      "htmlId": "page-8",
+      "role": "content",
+      "descriptionAr": "ما الحادث الأمني بالضبط؟",
+      "transcript": [
+        {
+          "text": "ما الحادث الأمني بالضبط؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "What Exactly Is a Security Incident?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تعريف دقيق",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "PRECISE DEFINITION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الحادث الأمني: حدث يهدد فعلًا أو بشكل وشيك سرية المعلومات أو سلامتها أو توافرها، أو يخالف سياسة أمنية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Security incident: an event that actually or imminently threatens the confidentiality, integrity, or availability of information, or violates a security policy.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يعني: لا يشترط أن يقع ضرر. محاولة اختراق اكتُشفت قبل أن تسرق شيئًا هي حادث أيضًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "So harm is not required. A break-in attempt caught before it steals anything is also an incident.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-009",
+      "htmlId": "page-9",
+      "role": "content",
+      "descriptionAr": "تابع: ما الحادث الأمني بالضبط؟",
+      "transcript": [
+        {
+          "text": "معلومة تميّزك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "BEYOND THE BOOK",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الحدث Event هو أي شيء يقع في النظام، مثل تسجيل دخول أو تحديث. ولا يصير حادثًا Incident إلا إذا هدد الأمن.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "An event is anything that happens in a system, like a login or an update. It becomes an incident only if it threatens security.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثال: كتابة كلمة مرور خطأ مرة واحدة حدث عادي، أما مئات المحاولات الخاطئة في دقيقة فهي حادث.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example: typing a wrong password once is a normal event, but hundreds of wrong tries in one minute is an incident.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "حدث",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Event",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "حادث",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Incident",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-010",
+      "htmlId": "page-10",
+      "role": "content",
+      "descriptionAr": "تابع: ما الحادث الأمني بالضبط؟",
+      "transcript": [
+        {
+          "text": "ثلاثي الأمن CIA",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The CIA Triad",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "السرية Confidentiality: لا يراها إلا المصرح له — «مين يشوف؟»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Confidentiality: only authorized people see it — \"Who can see it?\"",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "السلامة Integrity: صحيحة ولا تُعدَّل دون تصريح — «محدش يغيّر»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Integrity: correct, never changed without permission — \"No one changes it.\"",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التوافر Availability: متاحة وقت الحاجة — «موجودة لما أحتاجها»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Availability: there whenever it is needed — \"There when I need it.\"",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "السرية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Confidentiality",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "السلامة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Integrity",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التوافر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Availability",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-011",
+      "htmlId": "page-11",
+      "role": "content",
+      "descriptionAr": "تابع: ما الحادث الأمني بالضبط؟",
+      "transcript": [
+        {
+          "text": "لاحظ: أنواع الحوادث الثلاثة تقابل الثلاثي نفسه بالترتيب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Notice: the three incident types match the same triad, in order.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تسرب المعلومات ← يضرب السرية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Information leak → hits confidentiality.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التلاعب بالبيانات ← يضرب السلامة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Data tampering → hits integrity.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "انقطاع الخدمة ← يضرب التوافر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Service outage → hits availability.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في الامتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "FOR THE EXAM",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "صياغة مبسطة قد تقابلك: «موقف يقع فيه ضرر فعلي». احفظها، وافهم المعنى الأوسع.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A simple wording you may meet: \"a situation where actual damage occurs\". Know it; grasp the wider idea.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-012",
+      "htmlId": "page-12",
+      "role": "content",
+      "descriptionAr": "المراحل الست للاستجابة",
+      "transcript": [
+        {
+          "text": "المراحل الست للاستجابة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Six Stages of Response",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تابع معنا حادثًا حقيقيًا: برنامج فدية شفّر سجلات الطلاب في مدرسة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Follow a real incident with us: ransomware encrypted a school's student records.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مصطلحات أساسية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "KEY TERMS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "البرمجية الخبيثة Malware: برنامج صُمم ليضر أو يتجسس أو يتحكم دون إذن.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Malware: software built to harm, spy, or take control without consent.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "برنامج الفدية Ransomware: برمجية خبيثة تشفّر الملفات، ثم تطلب فدية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Ransomware: malware that encrypts files, then demands a ransom.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-013",
+      "htmlId": "page-13",
+      "role": "content",
+      "descriptionAr": "تابع: المراحل الست للاستجابة",
+      "transcript": [
+        {
+          "text": "1 التحضير",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 Preparation",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نجهّز الخطة والفريق والأدوات والنسخ الاحتياطية قبل أي حادث.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "We prepare the plan, the team, the tools, and backups before any incident.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في المدرسة: نسخ احتياطية أسبوعية، وقائمة بمن نتصل به.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "At school: weekly backups and a list of who to call.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 الاكتشاف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 Detection",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نلاحظ العلامات، ثم نتأكد أنها حادث حقيقي ونحدد نوعه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "We notice the signs, then confirm it is a real incident and identify its type.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في المدرسة: الملفات لا تُفتح، والموظفون لا يستطيعون الدخول.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "At school: files will not open and staff cannot log in.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-014",
+      "htmlId": "page-14",
+      "role": "content",
+      "descriptionAr": "تابع: المراحل الست للاستجابة",
+      "transcript": [
+        {
+          "text": "3 الاحتواء",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 Containment",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نمنع الضرر من الانتشار، حتى قبل أن نزيل سببه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "We stop the damage from spreading, even before we remove its cause.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في المدرسة: نفصل الأجهزة المصابة عن الشبكة فورًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "At school: we disconnect the infected devices from the network at once.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "4 الاستئصال",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "4 Eradication",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نزيل السبب الجذري: نحذف البرمجية الخبيثة ونسد الثغرة التي دخلت منها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "We remove the root cause: delete the malware and close the gap it used.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في المدرسة: نحذف برنامج الفدية ونحدّث النظام الضعيف.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "At school: we delete the ransomware and update the weak system.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-015",
+      "htmlId": "page-15",
+      "role": "content",
+      "descriptionAr": "تابع: المراحل الست للاستجابة",
+      "transcript": [
+        {
+          "text": "5 الاستعادة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "5 Recovery",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نعيد الأنظمة إلى تشغيل آمن وطبيعي، ونراقبها حتى نتأكد أنها سليمة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "We return systems to safe, normal operation and watch them to be sure they are clean.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في المدرسة: نسترجع السجلات من نسخة احتياطية سليمة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "At school: we restore the records from a clean backup.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "6 الدروس المستفادة والتحسين",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "6 Lessons Learned and Improvement",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نحلل ما حدث ونوثقه، ونقوّي الضوابط لنقلل احتمال التكرار وأثره.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "We analyze and record what happened, and strengthen controls to reduce repeats.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "إن دخل الهجوم عبر رسالة احتيال، ندرّب الموظفين على كشفها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "If the attack came through a phishing email, we train staff to spot such emails.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-016",
+      "htmlId": "page-16",
+      "role": "content",
+      "descriptionAr": "تابع: المراحل الست للاستجابة",
+      "transcript": [
+        {
+          "text": "توقّف وفكّر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "PAUSE & THINK",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "عندنا نسخة احتياطية سليمة. لماذا لا نبدأ بالاستعادة فورًا ونوفّر الوقت؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "We have a clean backup. Why not recover right away and save time?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الإجابة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "ANSWER",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لأن الثغرة ما زالت مفتوحة، والبرمجية قد تكون باقية في أجهزة أخرى. ستعود الملفات، ثم يعود الهجوم معها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Because the gap is still open and the malware may remain on other devices. The files come back, and so does the attack.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الملفات المستعادة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Restored files",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الثغرة المفتوحة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Open vulnerability",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الهجوم يعود",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Attack returns",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-017",
+      "htmlId": "page-17",
+      "role": "content",
+      "descriptionAr": "تابع: المراحل الست للاستجابة",
+      "transcript": [
+        {
+          "text": "معلومة تميّزك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "BEYOND THE BOOK",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المراحل الست خريطة للاتجاه، لكن الاستجابة الحقيقية قد ترجع خطوة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The six stages map the direction, but a real response may step back.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثال: أثناء الاستعادة تكتشف أن الفيروس ما زال موجودًا، فتعود إلى الاحتواء والاستئصال.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example: during recovery you find the virus is still there, so you go back to containment and eradication.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ولهذا يجمع دليل NIST الشهير الاحتواء والاستئصال والاستعادة في مرحلة واحدة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "That is why the well-known NIST guide groups containment, eradication, and recovery into one phase.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-018",
+      "htmlId": "page-18",
+      "role": "content",
+      "descriptionAr": "الاحتواء أم الاستئصال؟",
+      "transcript": [
+        {
+          "text": "الاحتواء أم الاستئصال؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Containment or Eradication?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أشهر خلط: فصل الجهاز عن الشبكة، احتواء أم استئصال؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Common mix-up: is unplugging a device containment or eradication?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الاحتواء = اعزل المريض: الفيروس ما زال موجودًا، لكنه محبوس.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Containment = isolate the patient: the virus is still there, but locked in.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الاستئصال = عالج المرض: نحذف الفيروس ونسد الثغرة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Eradication = cure the disease: delete the virus and close the gap.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الاحتواء",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Containment",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الاستئصال",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Eradication",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-019",
+      "htmlId": "page-19",
+      "role": "content",
+      "descriptionAr": "تابع: الاحتواء أم الاستئصال؟",
+      "transcript": [
+        {
+          "text": "حذف البرمجية دون سد الثغرة = طرد اللص وترك الباب مفتوحًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Deleting malware without closing the gap = throwing out the thief but leaving the door open.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مصطلحات أساسية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "KEY TERMS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "السبب الجذري Root Cause: السبب الأصلي الذي سمح بوقوع الحادث، لا العَرَض الظاهر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Root cause: the original reason the incident happened, not the visible symptom.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الثغرة المستغلة Exploited Vulnerability: نقطة ضعف استخدمها المهاجم فعلًا ليدخل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Exploited vulnerability: a weakness the attacker actually used to get in.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-020",
+      "htmlId": "page-20",
+      "role": "content",
+      "descriptionAr": "تابع: الاحتواء أم الاستئصال؟",
+      "transcript": [
+        {
+          "text": "مصطلحات أساسية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "KEY TERMS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "النسخة الاحتياطية السليمة Clean Backup: نسخة أُخذت قبل الإصابة، ونتأكد أنها خالية منها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Clean backup: a copy taken before the infection and checked to be free of it.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الضوابط الوقائية Preventive Controls: إجراءات تمنع الحادث قبل وقوعه، مثل التحديثات وكلمات المرور القوية. وكل حادث ينبغي أن ينتهي بضابط أقوى.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Preventive controls: measures that stop an incident before it happens, like updates and strong passwords. Every incident should end with a stronger control.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-021",
+      "htmlId": "page-21",
+      "role": "content",
+      "descriptionAr": "الخطر: ماذا نعالج أولًا؟",
+      "transcript": [
+        {
+          "text": "الخطر: ماذا نعالج أولًا؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Risk: What Do We Fix First?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الحادث شيء وقع بالفعل، أما الخطر فشيء قد يقع.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "An incident is something that has happened; a risk is something that might happen.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تعريف دقيق",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "PRECISE DEFINITION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الخطر Risk: مقياس لمدى تهديد حدث محتمل، يُحسب من حجم ضرره إذا وقع واحتمال وقوعه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Risk: a measure of how much a possible event threatens us, from its harm and its likelihood.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الحادث",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Incident",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الخطر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Risk",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-022",
+      "htmlId": "page-22",
+      "role": "content",
+      "descriptionAr": "تابع: الخطر: ماذا نعالج أولًا؟",
+      "transcript": [
+        {
+          "text": "التأثير Impact: حجم الضرر إذا وقع الحدث: مال أو بيانات أو وقت أو سمعة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Impact: how much harm if the event happens: money, data, time, or reputation.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الاحتمالية Likelihood: فرصة وقوع الحدث.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Likelihood: the chance that the event will happen.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الخطر = التأثير × الاحتمالية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Risk = Impact × Likelihood",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "بلغتك: الخطر = قدّ إيه هيوجع × قدّ إيه هيحصل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In your words: risk = how much it will hurt × how likely it is to happen.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التأثير",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Impact",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الاحتمالية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Likelihood",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الخطر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Risk",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-023",
+      "htmlId": "page-23",
+      "role": "content",
+      "descriptionAr": "تابع: الخطر: ماذا نعالج أولًا؟",
+      "transcript": [
+        {
+          "text": "مصطلحات أساسية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "KEY TERMS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تقييم المخاطر Risk Assessment: تحديد المخاطر، وتقدير تأثير كل منها واحتماليته، ثم ترتيبها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Risk assessment: identifying risks, estimating each one's impact and likelihood, then ranking them.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "إدارة المخاطر Risk Management: الدورة الكاملة: نقيّم، ثم نقرر ماذا نفعل، ثم نتابع.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Risk management: the full cycle: assess, decide what to do, then follow up.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قيّم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Assess",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قرّر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Decide",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تابع",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Follow up",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-024",
+      "htmlId": "page-24",
+      "role": "content",
+      "descriptionAr": "تابع: الخطر: ماذا نعالج أولًا؟",
+      "transcript": [
+        {
+          "text": "جرّب بنفسك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "TRY IT",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "رتّب هذه المخاطر الثلاث من الأخطر إلى الأقل خطرًا قبل أن تكمل:",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Rank these three risks from most to least dangerous before you read on:",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نيزك يسقط على معمل الحاسب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A meteor hits the computer lab.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "طالب ينسى كلمة مروره.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A student forgets their password.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "برنامج فدية يشفّر سجلات الطلاب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Ransomware encrypts the student records.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-025",
+      "htmlId": "page-25",
+      "role": "content",
+      "descriptionAr": "تابع: الخطر: ماذا نعالج أولًا؟",
+      "transcript": [
+        {
+          "text": "لنحسب: أعطِ كل عامل درجة من 1 إلى 3.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Let's calculate: give each factor a score from 1 to 3.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "النيزك: 3 × 1 = 3",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Meteor: 3 × 1 = 3",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كلمة المرور المنسية: 1 × 3 = 3",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Forgotten password: 1 × 3 = 3",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "برنامج الفدية: 3 × 3 = 9 — الأولوية الأولى",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Ransomware: 3 × 3 = 9 — top priority",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الأخطر ليس الأفظع ولا الأكثر حدوثًا؛ الأخطر هو ما يجمع الاثنين.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The most dangerous is not the scariest or the most frequent; it is the one that combines both.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "برنامج الفدية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Ransomware",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "النيزك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Meteor",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كلمة المرور المنسية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Forgotten password",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-026",
+      "htmlId": "page-26",
+      "role": "content",
+      "descriptionAr": "تابع: الخطر: ماذا نعالج أولًا؟",
+      "transcript": [
+        {
+          "text": "معلومة تميّزك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "BEYOND THE BOOK",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لماذا نضرب ولا نجمع؟ إذا كانت الاحتمالية صفرًا، أي أن الحدث مستحيل، فالضرب يعطي خطرًا = صفر، وهذا منطقي.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Why multiply, not add? If the likelihood is zero, the event is impossible, so multiplying gives a risk of zero, which makes sense.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أما الجمع فكان سيعطي رقمًا كبيرًا لشيء لن يحدث أبدًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Adding would give a big number to something that will never happen.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "احتمالية صفر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Zero likelihood",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خطر صفر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Zero risk",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-027",
+      "htmlId": "page-27",
+      "role": "content",
+      "descriptionAr": "تابع: الخطر: ماذا نعالج أولًا؟",
+      "transcript": [
+        {
+          "text": "المصفوفة هي المعادلة نفسها مرسومة: التأثير على محور، والاحتمالية على محور.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The matrix is the same formula drawn: impact on one axis, likelihood on the other.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الخطر = التأثير × الاحتمالية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Risk = Impact × Likelihood",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التأثير",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Impact",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مرتفع",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "High",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "متوسط",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Medium",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "منخفض",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Low",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "متوسط",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Medium",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مرتفع",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "High",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "حرج",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Critical",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "منخفض",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Low",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "متوسط",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Medium",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مرتفع",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "High",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "منخفض جدًا",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Very Low",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "منخفض",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Low",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "متوسط",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Medium",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "منخفض",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Low",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "متوسط",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Medium",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مرتفع",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "High",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الاحتمالية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Likelihood",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مصفوفة تقييم المخاطر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Risk Evaluation Matrix",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اقرأها: الخانة الحمراء «حرج» حيث يلتقي التأثير العالي بالاحتمالية العالية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Read it: the red \"Critical\" cell is where high impact meets high likelihood.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-028",
+      "htmlId": "page-28",
+      "role": "content",
+      "descriptionAr": "تابع: الخطر: ماذا نعالج أولًا؟",
+      "transcript": [
+        {
+          "text": "معلومة تميّزك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "BEYOND THE BOOK",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "درجتان متساويتان لا تعنيان قرارًا واحدًا: النيزك (3 × 1) وكلمة المرور المنسية (1 × 3) درجتهما 3.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Equal scores do not mean the same decision: the meteor (3 × 1) and the forgotten password (1 × 3) both score 3.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لكن ضرر الأول كارثي إن وقع، فالسياق والضوابط المتاحة هي التي تحسم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "But the first is a disaster if it happens, so the context and available controls decide.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-029",
+      "htmlId": "page-29",
+      "role": "content",
+      "descriptionAr": "تذكّر في الامتحان",
+      "transcript": [
+        {
+          "text": "تذكّر في الامتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Remember in the Exam",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المراحل الست بالإنجليزية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The six stages in English",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "People Don't Click Every Random Link",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كل حرف أول مرحلة: P التحضير، D الاكتشاف، C الاحتواء، E الاستئصال، R الاستعادة، L الدروس المستفادة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Each first letter is a stage: P Preparation, D Detection, C Containment, E Eradication, R Recovery, L Lessons learned.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "والجملة نفسها نصيحة أمنية: الناس العاقلة لا تضغط على أي رابط عشوائي.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The sentence is also security advice: wise people don't click random links.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-030",
+      "htmlId": "page-30",
+      "role": "content",
+      "descriptionAr": "تابع: تذكّر في الامتحان",
+      "transcript": [
+        {
+          "text": "بالعامية، كهتاف:",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "As a chant:",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جهّز ← شوف ← اقفل ← شيل ← رجّع ← اتعلّم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Prepare → See → Close → Remove → Restore → Learn",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ثلاثي CIA في جملة:",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The CIA triad in one line:",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مين يشوف؟ محدش يغيّر. موجودة لما أحتاجها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Who can see it? No one changes it. It's there when I need it.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "والخطر:",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "And risk:",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قدّ إيه هيوجع × قدّ إيه هيحصل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "How much it hurts × how likely it is",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-031",
+      "htmlId": "page-31",
+      "role": "content",
+      "descriptionAr": "تابع: تذكّر في الامتحان",
+      "transcript": [
+        {
+          "text": "فخاخ الامتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "EXAM TRAPS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«تحديث البرنامج لإضافة ميزات» حادث أمني؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "\"A software update to add features\" is a security incident?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الحقيقة: حدث عادي مخطط له، لا يهدد أي ركن من ثلاثي CIA.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The truth: a normal, planned event that threatens no part of CIA.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«الاستعادة من النسخة الاحتياطية فورًا» تبدو سريعة وذكية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "\"Restore from backup immediately\" sounds fast and smart.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الحقيقة: الثغرة ما زالت مفتوحة، فيعود الحادث.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The truth: the vulnerability is still open, so the incident returns.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-032",
+      "htmlId": "page-32",
+      "role": "content",
+      "descriptionAr": "تابع: تذكّر في الامتحان",
+      "transcript": [
+        {
+          "text": "فخاخ الامتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "EXAM TRAPS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«فصل الجهاز عن الشبكة = استئصال.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "\"Disconnecting the device = eradication.\"",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الحقيقة: هذا احتواء؛ الفيروس ما زال على الجهاز، لكنه معزول.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The truth: that is containment; the virus is still on the device, only isolated.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«حجم الخطر يُحدد بالتأثير وحده.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "\"Risk size is set by impact alone.\"",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الحقيقة: تذكّر النيزك؛ تأثيره كارثي، ومع ذلك ليس الأولوية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The truth: remember the meteor; its impact is a disaster, yet it is not the priority.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-033",
+      "htmlId": "page-33",
+      "role": "content",
+      "descriptionAr": "تابع: تذكّر في الامتحان",
+      "transcript": [
+        {
+          "text": "فخ الامتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "EXAM TRAP",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«يجب معالجة كل المخاطر في وقت واحد.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "\"All risks must be fixed at the same time.\"",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الحقيقة: الموارد محدودة، ومن يعالج كل شيء معًا لا ينهي شيئًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The truth: resources are limited; whoever fixes everything at once finishes nothing.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في الامتحان رتّب، وفي الواقع افهم لماذا رتّبت.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In the exam, put them in order; in real life, understand why you did.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-034",
+      "htmlId": "page-34",
+      "role": "content",
+      "descriptionAr": "الخلاصة",
+      "transcript": [
+        {
+          "text": "الخلاصة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Summary",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الحادث: تهديد لسرية المعلومات أو سلامتها أو توافرها، وقع أو كاد يقع.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Incident: a threat to confidentiality, integrity, or availability, done or imminent.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الاستجابة: جهّز ← شوف ← اقفل ← شيل ← رجّع ← اتعلّم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Response: prepare → detect → contain → eradicate → recover → learn.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الخطر = التأثير × الاحتمالية، ونبدأ بالأعلى.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Risk = impact × likelihood, and we start with the highest.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    }
+  ]
+}
