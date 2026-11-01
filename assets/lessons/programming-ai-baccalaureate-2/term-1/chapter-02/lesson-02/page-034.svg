@@ -1,0 +1,265 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+  <linearGradient id="ilWindow" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#8fc9f2"/>
+  </linearGradient>
+  <linearGradient id="ilScreen" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#4fc3e8"/>
+    <stop offset="1" stop-color="#2f7fb5"/>
+  </linearGradient>
+  <linearGradient id="ilBlueV" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+  <linearGradient id="ilBlueH" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+  <linearGradient id="ilWood" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <linearGradient id="ilGreen" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#a9dcbe"/>
+    <stop offset="1" stop-color="#2e7d32"/>
+  </linearGradient>
+  <linearGradient id="ilWarm" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#f0c48c"/>
+    <stop offset="1" stop-color="#c96a1b"/>
+  </linearGradient>
+</defs>
+
+<!-- Instruction strip: one group (shadow, fill, accent) -->
+<g>
+  <rect x="109" y="248" width="870" height="128" rx="16" fill="#22303f" opacity=".12"/>
+  <rect x="105" y="242" width="870" height="128" rx="16" fill="#fdf6d8" stroke="#e0c46a" stroke-width="2"/>
+  <rect x="961" y="258" width="6" height="96" rx="3" fill="#e0a55e"/>
+</g>
+
+<!-- Illustration: four situation cards (one group, shadows first) -->
+<g>
+  <rect x="554" y="956" width="420" height="145" rx="14" fill="#22303f" opacity=".18"/>
+  <rect x="112" y="956" width="420" height="145" rx="14" fill="#22303f" opacity=".18"/>
+  <rect x="554" y="1115" width="420" height="145" rx="14" fill="#22303f" opacity=".18"/>
+  <rect x="112" y="1115" width="420" height="145" rx="14" fill="#22303f" opacity=".18"/>
+
+  <!-- Card 1: café employee with laptop -->
+  <g transform="translate(550 950)">
+    <rect x="0" y="0" width="420" height="145" rx="14" fill="url(#ilSky)"/>
+    <path d="M2 118 H418 V131 Q418 143 406 143 H14 Q2 143 2 131 Z" fill="#e8dfd1"/>
+    <rect x="24" y="22" width="84" height="64" rx="8" fill="url(#ilWindow)" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M66 22 V86 M24 54 H108" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M34 32 L50 32 M34 40 L42 40" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+    <path d="M300 2 V20" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M282 36 Q284 20 300 20 Q316 20 318 36 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="300" cy="40" r="4" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="116" y="60" width="68" height="58" rx="8" fill="url(#ilWood)" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M126 118 V136 M174 118 V136" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <rect x="145" y="66" width="10" height="12" fill="#d59f6f"/>
+    <path d="M126 120 L126 98 Q126 76 150 76 Q174 76 174 98 L174 120 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M142 77 L150 88 L158 77 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="150" cy="54" r="17" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M133 52 Q133 34 150 34 Q167 34 167 52 Q160 44 150 44 Q140 44 133 52 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="144" cy="56" r="2" fill="#22303f"/>
+    <circle cx="156" cy="56" r="2" fill="#22303f"/>
+    <path d="M145 62 Q150 66 155 62" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M168 88 Q192 92 214 90 L214 98 Q190 102 168 100 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="186" y="100" width="190" height="10" rx="4" fill="url(#ilWood)" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="274" y="110" width="12" height="20" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="258" y="130" width="44" height="6" rx="3" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="222" y="46" width="84" height="50" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="228" y="52" width="72" height="38" rx="2" fill="url(#ilScreen)"/>
+    <path d="M236 62 H246 L249 65 H260 V80 H236 Z" fill="#ffd24a"/>
+    <path d="M268 62 H278 L281 65 H292 V80 H268 Z" fill="#f0c48c"/>
+    <rect x="212" y="94" width="104" height="6" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="216" cy="94" r="5" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="332" y="80" width="22" height="20" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M354 85 Q363 88 354 96" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M338 74 Q334 68 338 62 M348 74 Q344 68 348 62" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M397 112 Q382 94 388 80 Q402 94 397 112 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M397 112 Q412 96 410 84 Q396 92 397 112 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M384 112 H410 L406 138 H388 Z" fill="url(#ilWarm)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="0" y="0" width="420" height="145" rx="14" fill="none" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="374" y="12" width="32" height="32" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+
+  <!-- Card 2: cracked server beside a safe locked database -->
+  <g transform="translate(108 950)">
+    <rect x="0" y="0" width="420" height="145" rx="14" fill="url(#ilSky)"/>
+    <path d="M2 118 H418 V131 Q418 143 406 143 H14 Q2 143 2 131 Z" fill="#e8dfd1"/>
+    <path d="M156 104 Q204 128 252 104" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+    <rect x="60" y="18" width="96" height="112" rx="8" fill="url(#ilBlueV)" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="72" y="30" width="72" height="22" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="80" y="38" width="34" height="6" rx="3" fill="#8fc9f2"/>
+    <circle cx="132" cy="41" r="4" fill="#a9dcbe"/>
+    <rect x="72" y="60" width="72" height="22" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="80" y="68" width="34" height="6" rx="3" fill="#8fc9f2"/>
+    <circle cx="132" cy="71" r="4" fill="#ffd24a"/>
+    <rect x="72" y="90" width="72" height="22" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="80" y="98" width="34" height="6" rx="3" fill="#8fc9f2"/>
+    <circle cx="132" cy="101" r="4" fill="#c0392b"/>
+    <polyline points="120,18 106,44 124,60 108,88 118,108 110,130" fill="none" stroke="#c0392b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M162 26 L172 18 M164 40 L176 40" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+    <polygon points="164,124 176,118 174,132" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="290" cy="78" r="52" fill="#a9dcbe" opacity=".35"/>
+    <path d="M250 46 L250 108 A40 12 0 0 0 330 108 L330 46 Z" fill="url(#ilBlueH)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M250 67 A40 12 0 0 0 330 67 M250 88 A40 12 0 0 0 330 88" fill="none" stroke="#22303f" stroke-width="2.5"/>
+    <ellipse cx="290" cy="46" rx="40" ry="12" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M279 88 L279 80 Q279 68 290 68 Q301 68 301 80 L301 88" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <rect x="272" y="86" width="36" height="28" rx="6" fill="url(#ilGreen)" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="290" cy="97" r="4" fill="#22303f"/>
+    <rect x="288.5" y="99" width="3" height="8" fill="#22303f"/>
+    <circle cx="340" cy="36" r="12" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M334 36 L338.5 40.5 L346 31" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="0" y="0" width="420" height="145" rx="14" fill="none" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="374" y="12" width="32" height="32" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+
+  <!-- Card 3: infected USB stick plugged into a computer -->
+  <g transform="translate(550 1109)">
+    <rect x="0" y="0" width="420" height="145" rx="14" fill="url(#ilSky)"/>
+    <path d="M2 118 H418 V131 Q418 143 406 143 H14 Q2 143 2 131 Z" fill="url(#ilWood)"/>
+    <path d="M270 104 Q252 104 240 92" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <rect x="70" y="14" width="170" height="84" rx="8" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="80" y="24" width="150" height="64" rx="3" fill="url(#ilScreen)"/>
+    <rect x="92" y="36" width="26" height="4" fill="#c0392b" opacity=".6"/>
+    <rect x="96" y="72" width="14" height="4" fill="#c0392b" opacity=".6"/>
+    <rect x="192" y="74" width="26" height="4" fill="#c0392b" opacity=".6"/>
+    <polygon points="155,32 179,78 131,78" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="152" y="44" width="6" height="20" rx="2" fill="#ffffff"/>
+    <circle cx="155" cy="71" r="3.5" fill="#ffffff"/>
+    <rect x="145" y="98" width="20" height="12" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="120" y="110" width="70" height="8" rx="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="270" y="30" width="56" height="88" rx="6" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="280" y="44" width="36" height="6" rx="2" fill="#7f95ab"/>
+    <rect x="280" y="56" width="36" height="6" rx="2" fill="#7f95ab"/>
+    <circle cx="298" cy="100" r="5" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="326" y="62" width="12" height="12" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="338" y="56" width="44" height="24" rx="6" fill="url(#ilWarm)" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="372" cy="68" r="4" fill="#c0392b"/>
+    <path d="M344 17 V23 M344 41 V47 M329 32 H335 M353 32 H359 M333 21 L337 25 M355 21 L351 25 M333 43 L337 39 M355 43 L351 39" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="344" cy="32" r="9" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="341" cy="30" r="2" fill="#ffffff"/>
+    <circle cx="347" cy="30" r="2" fill="#ffffff"/>
+    <circle cx="350" cy="51" r="2.5" fill="#c0392b"/>
+    <rect x="0" y="0" width="420" height="145" rx="14" fill="none" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="374" y="12" width="32" height="32" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+
+  <!-- Card 4: arrow from a cloud stopped at a brick wall before a database -->
+  <g transform="translate(108 1109)">
+    <rect x="0" y="0" width="420" height="145" rx="14" fill="url(#ilSky)"/>
+    <path d="M2 118 H418 V131 Q418 143 406 143 H14 Q2 143 2 131 Z" fill="#e8dfd1"/>
+    <path d="M50 92 Q28 92 30 74 Q32 58 50 60 Q56 40 78 42 Q98 42 104 60 Q126 58 128 76 Q128 92 108 92 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M134 80 L196 80" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+    <polygon points="196,72 212,80 196,88" fill="#c0392b"/>
+    <path d="M216 62 L223 69 M216 98 L223 91" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+    <rect x="230" y="24" width="56" height="108" fill="url(#ilWarm)" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M230 42 H286 M230 60 H286 M230 78 H286 M230 96 H286 M230 114 H286 M258 24 V42 M244 42 V60 M272 42 V60 M258 60 V78 M244 78 V96 M272 78 V96 M258 96 V114 M244 114 V132 M272 114 V132" fill="none" stroke="#e8dfd1" stroke-width="2"/>
+    <circle cx="336" cy="80" r="42" fill="#a9dcbe" opacity=".35"/>
+    <path d="M302 52 L302 106 A34 10 0 0 0 370 106 L370 52 Z" fill="url(#ilBlueH)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M302 70 A34 10 0 0 0 370 70 M302 88 A34 10 0 0 0 370 88" fill="none" stroke="#22303f" stroke-width="2.5"/>
+    <ellipse cx="336" cy="52" rx="34" ry="10" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="0" y="0" width="420" height="145" rx="14" fill="none" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="374" y="12" width="32" height="32" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+</g>
+
+<!-- Icon: pencil -->
+<g transform="translate(760 182)">
+  <polygon points="8,30 30,8 38,16 16,38" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="30,8 35,3 43,11 38,16" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="8,30 16,38 3,43" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Face: thinking -->
+<g transform="translate(870 204)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: star inside instruction strip -->
+<g transform="translate(880 304)">
+  <polygon points="22,0 27.3,14.7 42.9,15.2 30.6,24.8 34.9,39.8 22,31 9.1,39.8 13.4,24.8 1.1,15.2 16.7,14.7" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: stacked layers -->
+<g transform="translate(884 864)">
+  <polygon points="28,31 52,41 28,51 4,41" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="28,22 52,32 28,42 4,32" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="28,13 52,23 28,33 4,23" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="28,4 52,14 28,24 4,14" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Header -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">لعبة: حدّد الطبقة</text>
+<text x="120" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">Game: Name the Layer</text>
+
+<!-- Instruction strip text -->
+<text x="935" y="274" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">اكتب <tspan font-weight="bold" fill="#17457f">رقم الطبقة</tspan><tspan> (1 – 4) أمام كل موقف.</tspan></text>
+<text x="140" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">Write the <tspan font-weight="bold" fill="#17457f">layer number</tspan> (1–4)</tspan>
+  <tspan x="140" dy="40">next to each situation.</tspan>
+</text>
+
+<!-- Question A -->
+<text x="950" y="434" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c"><tspan font-weight="bold" fill="#c0392b">أ</tspan><tspan> موظف في مقهى يفتح ملفات الشركة.</tspan></text>
+<text x="120" y="474" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">A</tspan> An employee in a café</tspan>
+  <tspan x="120" dy="40">opens company files.</tspan>
+</text>
+
+<!-- Question B -->
+<text x="950" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c"><tspan font-weight="bold" fill="#c0392b">ب</tspan><tspan> الموقع اختُرق، لكن بيانات العملاء سليمة.</tspan></text>
+<text x="120" y="594" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">B</tspan> The website was hacked,</tspan>
+  <tspan x="120" dy="40">but customer data is safe.</tspan>
+</text>
+
+<!-- Question C -->
+<text x="950" y="674" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c"><tspan font-weight="bold" fill="#c0392b">جـ</tspan><tspan> فلاشة مصابة وُضعت في جهاز.</tspan></text>
+<text x="120" y="714" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">C</tspan> An infected USB stick</tspan>
+  <tspan x="120" dy="40">was plugged into a device.</tspan>
+</text>
+
+<!-- Question D -->
+<text x="950" y="794" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">د</tspan> شخص من الخارج حاول الوصول</tspan>
+  <tspan x="950" dy="40">إلى قاعدة البيانات مباشرة فرُفض.</tspan>
+</text>
+<text x="120" y="874" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">D</tspan> Someone outside tried to reach</tspan>
+  <tspan x="120" dy="40">the database directly and was refused.</tspan>
+</text>
+</svg>

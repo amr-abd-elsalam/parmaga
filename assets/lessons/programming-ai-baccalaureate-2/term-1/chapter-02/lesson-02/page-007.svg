@@ -21,102 +21,253 @@
 <rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
 <rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-<!-- Card shadow and fill -->
-<rect x="109" y="848" width="870" height="328" rx="16" fill="#22303f" opacity=".12"/>
-<rect x="105" y="842" width="870" height="328" rx="16" fill="#fdf6d8" stroke="#e0c46a" stroke-width="2"/>
-<rect x="961" y="858" width="6" height="296" rx="3" fill="#e0a55e"/>
+<!-- Illustration: two checks at two doors -->
+<g>
+  <defs>
+    <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fc9f2"/>
+      <stop offset="1" stop-color="#dff1f7"/>
+    </linearGradient>
+    <linearGradient id="ilWall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="ilGlass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4fc3e8"/>
+      <stop offset="1" stop-color="#dff1f7"/>
+    </linearGradient>
+  </defs>
 
-<!-- Thin navy lines on the left edge of English blocks -->
-<line x1="114" y1="328" x2="114" y2="362" stroke="#17457f" stroke-width="2" stroke-linecap="round"/>
-<line x1="114" y1="488" x2="114" y2="602" stroke="#17457f" stroke-width="2" stroke-linecap="round"/>
-<line x1="114" y1="728" x2="114" y2="802" stroke="#17457f" stroke-width="2" stroke-linecap="round"/>
-<line x1="134" y1="1008" x2="134" y2="1162" stroke="#17457f" stroke-width="2" stroke-linecap="round"/>
+  <!-- Panel shadow -->
+  <rect x="119" y="952" width="850" height="304" rx="20" fill="#22303f" opacity=".18"/>
 
-<!-- Icon: shield (security) beside section header -->
-<g transform="translate(118 252)">
-  <path d="M28 4 L50 12 L50 28 C50 42 40 50 28 54 C16 50 6 42 6 28 L6 12 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M18 29 L25 36 L39 21" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Backgrounds: interior (left) and exterior (right) -->
+  <path d="M135 946 H632 V1250 H135 Q115 1250 115 1230 V966 Q115 946 135 946 Z" fill="url(#ilWall)"/>
+  <path d="M648 946 H945 Q965 946 965 966 V1230 Q965 1250 945 1250 H648 Z" fill="url(#ilSky)"/>
+
+  <!-- Exterior: sun and cloud -->
+  <circle cx="700" cy="970" r="13" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M872 982 Q866 966 884 966 Q890 954 904 960 Q920 955 922 971 Q934 973 929 982 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Exterior: building facade -->
+  <rect x="662" y="1006" width="288" height="186" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="656" y="990" width="300" height="16" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="670" y="1020" width="36" height="44" rx="4" fill="url(#ilGlass)" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="688" y1="1020" x2="688" y2="1064" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Exterior: ground and walkway -->
+  <path d="M648 1192 H965 V1230 Q965 1250 945 1250 H648 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="836,1192 942,1192 958,1238 820,1238" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="668" cy="1180" rx="16" ry="14" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="692" cy="1184" rx="13" ry="10" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Exterior: entrance with canopy and glass doors -->
+  <polygon points="826,1032 952,1032 942,1016 836,1016" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="836" y="1032" width="106" height="160" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="845" y="1042" width="41" height="150" fill="url(#ilGlass)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="892" y="1042" width="41" height="150" fill="url(#ilGlass)" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M851 1092 L879 1062 M851 1112 L871 1090 M898 1092 L926 1062 M898 1112 L918 1090" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity=".6"/>
+  <rect x="878" y="1100" width="5" height="26" rx="2.5" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="895" y="1100" width="5" height="26" rx="2.5" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Exterior: card reader and green check -->
+  <rect x="796" y="1082" width="22" height="42" rx="5" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="800" y="1088" width="14" height="9" rx="2" fill="#4fc3e8"/>
+  <circle cx="807" cy="1112" r="4" fill="#2e7d32"/>
+  <circle cx="800" cy="1050" r="23" fill="#a9dcbe" opacity=".6"/>
+  <circle cx="800" cy="1050" r="16" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M792 1050 L798 1056 L809 1043" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Divider pillar -->
+  <rect x="632" y="946" width="16" height="304" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Interior: wainscot and floor -->
+  <rect x="115" y="1140" width="517" height="52" fill="#8fc9f2"/>
+  <path d="M115 1140 H632" fill="none" stroke="#2f7fb5" stroke-width="3" stroke-linecap="round"/>
+  <path d="M115 1192 H632 V1250 H135 Q115 1250 115 1230 Z" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M175 1192 L165 1250 M255 1192 L250 1250 M335 1192 L335 1250 M415 1192 L420 1250 M495 1192 L505 1250 M575 1192 L590 1250" fill="none" stroke="#7f95ab" stroke-width="1.4" stroke-linecap="round" opacity=".6"/>
+
+  <!-- Interior: ceiling lamp -->
+  <line x1="410" y1="946" x2="410" y2="970" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M402 990 Q410 1000 418 990 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M388 990 L432 990 L422 970 L398 970 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Interior: window -->
+  <rect x="470" y="984" width="120" height="84" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="478" y="992" width="104" height="68" rx="3" fill="url(#ilSky)"/>
+  <path d="M478 1060 Q505 1040 530 1052 Q556 1040 582 1056 V1060 Z" fill="#a9dcbe"/>
+  <path d="M530 992 V1060 M478 1026 H582" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <rect x="478" y="992" width="104" height="68" rx="3" fill="none" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Interior: potted plant -->
+  <path d="M588 1150 Q570 1120 584 1096 Q596 1120 588 1150 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M588 1150 Q560 1136 556 1112 Q580 1118 588 1150 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M588 1150 Q616 1136 620 1110 Q596 1118 588 1150 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="566,1152 610,1152 604,1192 572,1192" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="562" y="1144" width="52" height="10" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Interior: inner door with stop hand sign -->
+  <rect x="180" y="1027" width="136" height="165" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="190" y="1037" width="116" height="155" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="202" y="1130" width="92" height="48" rx="4" fill="none" stroke="#2f7fb5" stroke-width="2.5"/>
+  <circle cx="248" cy="1080" r="28" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="240" y="1064" width="5" height="18" rx="2.5" fill="#ffffff"/>
+  <rect x="246" y="1059" width="5" height="23" rx="2.5" fill="#ffffff"/>
+  <rect x="252" y="1060" width="5" height="22" rx="2.5" fill="#ffffff"/>
+  <rect x="258" y="1064" width="5" height="18" rx="2.5" fill="#ffffff"/>
+  <rect x="240" y="1076" width="23" height="20" rx="7" fill="#ffffff"/>
+  <rect x="232" y="1080" width="12" height="6" rx="3" fill="#ffffff"/>
+  <circle cx="294" cy="1118" r="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="340" cy="1118" r="15" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M334 1112 L346 1124 M346 1112 L334 1124" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Dotted path from the entrance to the inner door -->
+  <circle cx="705" cy="1222" r="4" fill="#17457f"/>
+  <circle cx="684" cy="1222" r="4" fill="#17457f"/>
+  <circle cx="663" cy="1222" r="4" fill="#17457f"/>
+  <circle cx="642" cy="1222" r="4" fill="#17457f"/>
+  <circle cx="621" cy="1222" r="4" fill="#17457f"/>
+  <circle cx="600" cy="1222" r="4" fill="#17457f"/>
+  <circle cx="579" cy="1222" r="4" fill="#17457f"/>
+  <circle cx="558" cy="1222" r="4" fill="#17457f"/>
+  <circle cx="537" cy="1222" r="4" fill="#17457f"/>
+  <circle cx="516" cy="1222" r="4" fill="#17457f"/>
+  <circle cx="495" cy="1222" r="4" fill="#17457f"/>
+  <circle cx="474" cy="1222" r="4" fill="#17457f"/>
+  <polygon points="446,1222 460,1214 460,1230" fill="#17457f" stroke="#17457f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Student at the entrance, holding ID card to the reader -->
+  <g transform="translate(740 1065)">
+    <rect x="-17" y="80" width="15" height="44" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="2" y="80" width="15" height="44" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <ellipse cx="-10" cy="126" rx="11" ry="5" fill="#22303f"/>
+    <ellipse cx="11" cy="126" rx="11" ry="5" fill="#22303f"/>
+    <rect x="-5" y="13" width="10" height="9" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-21 22 Q0 15 21 22 L24 82 H-24 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M-8 20 L0 32 L8 20 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M0 31 L-3 41 L0 47 L3 41 Z" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M-18 30 L-24 72 L-16 73 L-10 34 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="-20" cy="76" r="5.5" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M16 28 L52 21 L54 30 L19 40 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="50" y="12" width="14" height="19" rx="2" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="52" y="15" width="10" height="4" fill="#2f7fb5"/>
+    <circle cx="56" cy="29" r="6" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="-18" cy="2" r="4" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="18" cy="2" r="4" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="18" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-18 -2 Q-16 -22 0 -22 Q17 -22 18 -2 Q10 -12 0 -11 Q-10 -12 -18 -2 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M-10 -6 L-3 -7 M3 -7 L10 -6" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="-6" cy="2" r="2.5" fill="#22303f"/>
+    <circle cx="6" cy="2" r="2.5" fill="#22303f"/>
+    <path d="M-6 9 Q0 14 6 9" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Same student in front of the inner door -->
+  <g transform="translate(420 1065)">
+    <rect x="-17" y="80" width="15" height="44" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="2" y="80" width="15" height="44" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <ellipse cx="-10" cy="126" rx="11" ry="5" fill="#22303f"/>
+    <ellipse cx="11" cy="126" rx="11" ry="5" fill="#22303f"/>
+    <rect x="-5" y="13" width="10" height="9" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-21 22 Q0 15 21 22 L24 82 H-24 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M-8 20 L0 32 L8 20 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M0 31 L-3 41 L0 47 L3 41 Z" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M-18 30 L-24 72 L-16 73 L-10 34 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="-20" cy="76" r="5.5" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M18 30 L24 72 L16 73 L10 34 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="20" cy="76" r="5.5" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="-18" cy="2" r="4" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="18" cy="2" r="4" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="18" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-18 -2 Q-16 -22 0 -22 Q17 -22 18 -2 Q10 -12 0 -11 Q-10 -12 -18 -2 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M-10 -9 L-3 -7 M3 -7 L10 -9" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="-6" cy="2" r="2.5" fill="#22303f"/>
+    <circle cx="6" cy="2" r="2.5" fill="#22303f"/>
+    <path d="M-5 10 L5 10" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Panel outline -->
+  <rect x="115" y="946" width="850" height="304" rx="20" fill="none" stroke="#22303f" stroke-width="2.5"/>
 </g>
 
-<!-- Icon: house (remote work) -->
-<g transform="translate(900 500)">
-  <rect x="10" y="24" width="36" height="28" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
-  <path d="M4 28 L28 6 L52 28 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="23" y="36" width="10" height="16" fill="#7d4f28" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+<!-- Icons -->
+<g transform="translate(128 128)">
+  <polygon points="26,4 50,46 2,46" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="23.5" y="16" width="5" height="17" rx="2.5" fill="#22303f"/>
+  <circle cx="26" cy="39" r="3" fill="#22303f"/>
+</g>
+<g transform="translate(128 328)">
+  <path d="M26 3 L48 11 L48 26 C48 39 38 47 26 51 C14 47 4 39 4 26 L4 11 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M16 27 L23 34 L36 20" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(128 528)">
+  <rect x="25" y="22" width="24" height="8" rx="3" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="40" y="29" width="6" height="10" rx="2" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="31" y="29" width="5" height="7" rx="2" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="16" cy="26" r="12" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="16" cy="26" r="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+</g>
+<g transform="translate(128 728)">
+  <path d="M15 24 V15 C15 8 20 4 26 4 C32 4 37 8 37 15 V24" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <rect x="8" y="22" width="36" height="27" rx="6" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="26" cy="33" r="4" fill="#22303f"/>
+  <rect x="24.5" y="34" width="3" height="8" rx="1.5" fill="#22303f"/>
 </g>
 
-<!-- Icon: connected nodes (branches) -->
-<g transform="translate(900 744)">
-  <line x1="10" y1="44" x2="28" y2="10" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
-  <line x1="28" y1="10" x2="46" y2="44" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
-  <line x1="10" y1="44" x2="46" y2="44" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
-  <circle cx="28" cy="10" r="8" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
-  <circle cx="10" cy="44" r="8" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
-  <circle cx="46" cy="44" r="8" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
-</g>
-
-<!-- Icon: lock inside card -->
-<g transform="translate(127 852)">
-  <path d="M16 26 L16 18 C16 6 40 6 40 18 L40 26" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="8" y="24" width="40" height="30" rx="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
-  <circle cx="28" cy="37" r="4" fill="#22303f"/>
-  <rect x="26.5" y="38" width="3" height="9" fill="#22303f"/>
-</g>
-
-<!-- Face: surprise (important fact) -->
-<g transform="translate(910 1104)">
+<!-- Thinking faces beside the two questions -->
+<g transform="translate(880 652)">
   <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
   <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
   <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
-  <circle cx="0" cy="10" r="5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+<g transform="translate(880 862)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
 </g>
 
-<!-- Titles -->
-<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">
-  <tspan x="540" dy="0">استخدامات الشبكة</tspan>
-  <tspan x="540" dy="52">الافتراضية الخاصة</tspan>
+<!-- Paragraph 1 -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">الاختراق Breach:</tspan> تجاوز المهاجم وسيلة حماية</tspan>
+  <tspan x="950" dy="40">ووصوله إلى ما لا يحق له.</tspan>
 </text>
-<text x="540" y="208" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" fill="#152b42">Uses of a VPN</text>
-
-<!-- Section header -->
-<text x="950" y="274" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
-  <tspan x="950" dy="0">(2) الاستخدامات الرئيسية</tspan>
-  <tspan x="950" dy="40">للشبكة الافتراضية الخاصة:</tspan>
-</text>
-<text x="132" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">(2) Main uses of a VPN:</text>
-
-<!-- Item 1 -->
-<text x="950" y="434" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
-  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">①</tspan> <tspan font-weight="bold" fill="#17457f">العمل عن بُعد:</tspan> الاتصال بأمان بشبكة المؤسسة</tspan>
-  <tspan x="950" dy="40">من المنزل أو أثناء التنقل.</tspan>
-</text>
-<text x="132" y="514" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
-  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#c0392b">①</tspan> <tspan font-weight="bold" fill="#17457f">Remote work:</tspan> connecting securely to</tspan>
-  <tspan x="132" dy="40">the organization's network from home</tspan>
-  <tspan x="132" dy="40">or while traveling.</tspan>
+<text x="120" y="234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">Breach:</tspan> an attacker getting past a</tspan>
+  <tspan x="120" dy="40">protection to reach what is not allowed.</tspan>
 </text>
 
-<!-- Item 2 -->
-<text x="950" y="674" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
-  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">②</tspan> <tspan font-weight="bold" fill="#17457f">ربط الفروع:</tspan> ربط المكاتب</tspan>
-  <tspan x="950" dy="40">في مواقع مختلفة بأمان.</tspan>
+<!-- Paragraph 2 -->
+<text x="950" y="354" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">الضابط الأمني Security Control:</tspan> أي إجراء</tspan>
+  <tspan x="950" dy="40">يقلل الخطر، <tspan fill="#c96a1b">كجدار الحماية.</tspan></tspan>
 </text>
-<text x="132" y="754" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
-  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#c0392b">②</tspan> <tspan font-weight="bold" fill="#17457f">Connecting branches:</tspan> securely linking</tspan>
-  <tspan x="132" dy="40">offices in different locations.</tspan>
+<text x="120" y="434" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">Security control:</tspan> any measure that</tspan>
+  <tspan x="120" dy="40">reduces risk, like <tspan fill="#c96a1b">a firewall.</tspan></tspan>
 </text>
 
-<!-- Soft yellow box -->
-<text x="935" y="874" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
-  <tspan x="935" dy="0">(3) نظرًا لأن محتوى الاتصال <tspan font-weight="bold" fill="#17457f">يُشفَّر</tspan> عند</tspan>
-  <tspan x="935" dy="40">استخدام الشبكة الافتراضية الخاصة،</tspan>
-  <tspan x="935" dy="40"><tspan font-weight="bold" fill="#2e7d32">تقل مخاطر التنصت</tspan> حتى عند</tspan>
-  <tspan x="935" dy="40">استخدام شبكة Wi-Fi عامة.</tspan>
+<!-- Paragraph 3 -->
+<text x="950" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">المصادقة Authentication:</tspan> التأكد من أنك</tspan>
+  <tspan x="950" dy="40">من تدّعيه؛ وسؤالها: <tspan font-weight="bold" fill="#17457f">«أنت مين؟»</tspan></tspan>
 </text>
-<text x="150" y="1034" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
-  <tspan x="150" dy="0">(3) Because communication content is</tspan>
-  <tspan x="150" dy="40"><tspan font-weight="bold" fill="#17457f">encrypted</tspan> when using a VPN, the risk</tspan>
-  <tspan x="150" dy="40">of eavesdropping is <tspan font-weight="bold" fill="#2e7d32">reduced</tspan> even on</tspan>
-  <tspan x="150" dy="40">public Wi-Fi.</tspan>
+<text x="120" y="634" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">Authentication:</tspan> proving you are who</tspan>
+  <tspan x="120" dy="40">you claim to be. It asks: <tspan font-weight="bold" fill="#17457f">"Who are you?"</tspan></tspan>
+</text>
+
+<!-- Paragraph 4 -->
+<text x="950" y="754" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">الصلاحيات Authorization:</tspan> ما يُسمح لك بفعله</tspan>
+  <tspan x="950" dy="40">بعد معرفة هويتك؛ وسؤالها: <tspan font-weight="bold" fill="#17457f">«مسموح لك بإيه؟»</tspan></tspan>
+</text>
+<text x="120" y="834" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">Authorization:</tspan> what you may do</tspan>
+  <tspan x="120" dy="40">once you are known. It asks:</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#17457f">"What are you allowed to do?"</tspan></tspan>
 </text>
 </svg>
