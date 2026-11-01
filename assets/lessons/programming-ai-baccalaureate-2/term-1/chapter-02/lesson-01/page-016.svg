@@ -9,8 +9,8 @@
     <stop offset="0" stop-color="#b07a45"/>
     <stop offset="1" stop-color="#7d4f28"/>
   </linearGradient>
-  <pattern id="pmRules" x="0" y="120" width="1080" height="32" patternUnits="userSpaceOnUse">
-    <line x1="0" y1="31.5" x2="1080" y2="31.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
   </pattern>
 </defs>
 <rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
@@ -21,60 +21,257 @@
 <rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
 <rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-<!-- Info card shadow and fill (English twin band) -->
-<rect x="109" y="640" width="870" height="520" rx="16" fill="#22303f" opacity=".12"/>
-<rect x="105" y="634" width="870" height="520" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
-<rect x="961" y="650" width="6" height="488" rx="3" fill="#2f7fb5"/>
+<!-- Bullets -->
+<circle cx="966" cy="224" r="6" fill="#c0392b"/>
+<circle cx="114" cy="304" r="6" fill="#c0392b"/>
+<circle cx="966" cy="424" r="6" fill="#c0392b"/>
+<circle cx="114" cy="504" r="6" fill="#c0392b"/>
+<circle cx="966" cy="624" r="6" fill="#c0392b"/>
+<circle cx="114" cy="744" r="6" fill="#c0392b"/>
 
-<!-- Red question mark beside the title -->
-<g transform="translate(250 100) scale(1.5)">
-  <path d="M -10 -8 C -10 -24, 12 -24, 12 -8 C 12 0, 3 2, 3 8 L 3 10 L -3 10 L -3 7 C -3 -2, 6 -3, 6 -8 C 6 -16, -4 -16, -4 -8 Z" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="0" cy="18" r="4" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+<!-- Illustration -->
+<g>
+  <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+  <linearGradient id="ilWood" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <radialGradient id="ilGlow" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#ffd24a"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </radialGradient>
+
+  <!-- Shadows -->
+  <g transform="translate(4 6)" fill="#22303f" opacity=".18">
+    <rect x="113" y="864" width="854" height="236" rx="24"/>
+    <g transform="translate(170 1240)"><path d="M0 -18 C6 -8 11 -1 11 6 C11 13 6 17 0 17 C-6 17 -11 13 -11 6 C-11 -1 -6 -8 0 -18 Z"/></g>
+    <g transform="translate(210 1240)"><path d="M0 -18 C6 -8 11 -1 11 6 C11 13 6 17 0 17 C-6 17 -11 13 -11 6 C-11 -1 -6 -8 0 -18 Z"/></g>
+    <g transform="translate(250 1240)"><path d="M0 -18 C6 -8 11 -1 11 6 C11 13 6 17 0 17 C-6 17 -11 13 -11 6 C-11 -1 -6 -8 0 -18 Z"/></g>
+    <g transform="translate(830 1240)"><path d="M0 -18 C6 -8 11 -1 11 6 C11 13 6 17 0 17 C-6 17 -11 13 -11 6 C-11 -1 -6 -8 0 -18 Z"/></g>
+    <g transform="translate(870 1240)"><path d="M0 -18 C6 -8 11 -1 11 6 C11 13 6 17 0 17 C-6 17 -11 13 -11 6 C-11 -1 -6 -8 0 -18 Z"/></g>
+    <g transform="translate(910 1240)"><path d="M0 -18 C6 -8 11 -1 11 6 C11 13 6 17 0 17 C-6 17 -11 13 -11 6 C-11 -1 -6 -8 0 -18 Z"/></g>
+    <rect x="470" y="1235" width="190" height="12" rx="6"/>
+  </g>
+
+  <!-- Stage panel -->
+  <rect x="113" y="864" width="854" height="236" rx="24" fill="url(#ilSky)" stroke="#8fc9f2" stroke-width="2.5"/>
+
+  <!-- Shelves with paint jars -->
+  <rect x="250" y="904" width="96" height="6" rx="3" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="258" y="884" width="18" height="20" rx="3" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="256" y="879" width="22" height="6" rx="2" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="289" y="884" width="18" height="20" rx="3" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="287" y="879" width="22" height="6" rx="2" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="320" y="884" width="18" height="20" rx="3" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="318" y="879" width="22" height="6" rx="2" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+
+  <rect x="734" y="904" width="96" height="6" rx="3" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="742" y="884" width="18" height="20" rx="3" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="740" y="879" width="22" height="6" rx="2" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="773" y="884" width="18" height="20" rx="3" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="771" y="879" width="22" height="6" rx="2" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="804" y="884" width="18" height="20" rx="3" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="802" y="879" width="22" height="6" rx="2" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Shared public cup with glow -->
+  <circle cx="540" cy="905" r="34" fill="url(#ilGlow)" opacity=".85"/>
+  <ellipse cx="540" cy="928" rx="34" ry="5" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M514 886 L566 886 L560 926 L520 926 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M522 894 L527 894 L525 918 L521 918 Z" fill="#ffffff" opacity=".6"/>
+  <ellipse cx="540" cy="886" rx="26" ry="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="540" cy="887" rx="20" ry="3.5" fill="#ffd24a"/>
+  <path d="M560 889 C562 897 564 901 561 906 C558 901 558 895 560 889 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M600 884 L604 892 L612 896 L604 900 L600 908 L596 900 L588 896 L596 892 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M622 920 L625 926 L631 929 L625 932 L622 938 L619 932 L613 929 L619 926 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Mona (left) -->
+  <path d="M117 1062 C117 1004 138 980 165 980 C192 980 213 1004 213 1062 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M131 942 C131 902 199 902 199 942 L205 990 C190 1002 140 1002 125 990 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="165" cy="940" rx="17" ry="20" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="159" cy="937" r="2.5" fill="#22303f"/>
+  <circle cx="171" cy="937" r="2.5" fill="#22303f"/>
+  <path d="M158 948 Q165 954 172 948" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Ahmed (right) -->
+  <path d="M963 1062 C963 1004 942 980 915 980 C888 980 867 1004 867 1062 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="906" y="950" width="18" height="32" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="915" cy="934" r="22" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M893 930 C893 904 937 904 937 930 C930 916 900 916 893 930 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="909" cy="935" r="2.5" fill="#22303f"/>
+  <circle cx="921" cy="935" r="2.5" fill="#22303f"/>
+  <path d="M908 945 Q915 951 922 945" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Samir (watching, center) -->
+  <path d="M494 1066 C494 1050 514 1044 540 1044 C566 1044 586 1050 586 1066 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="540" cy="1032" r="20" fill="#b57e50" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M520 1028 C520 1006 560 1006 560 1028 C553 1016 527 1016 520 1028 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="533" cy="1027" r="2.5" fill="#22303f"/>
+  <circle cx="547" cy="1027" r="2.5" fill="#22303f"/>
+  <circle cx="540" cy="1041" r="3" fill="#22303f"/>
+
+  <!-- Table -->
+  <rect x="129" y="1060" width="822" height="12" rx="6" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="141" y="1072" width="798" height="24" fill="url(#ilWood)" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Mona's copy of the shared cup and her secret blue -->
+  <path d="M228 1016 L272 1016 L268 1062 L232 1062 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="250" cy="1016" rx="22" ry="5" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M252 974 L258 974 L257 1016 L253 1016 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M194 1008 L214 960 L230 966 L210 1014 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <g transform="translate(240 964) rotate(115)">
+    <path d="M-13 -17 L13 -17 L10 17 L-10 17 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <ellipse cx="0" cy="-17" rx="13" ry="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <circle cx="224" cy="958" r="9" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Ahmed's copy of the shared cup and his secret red -->
+  <path d="M808 1016 L852 1016 L848 1062 L812 1062 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="830" cy="1016" rx="22" ry="5" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M822 974 L828 974 L827 1016 L823 1016 Z" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M886 1008 L866 960 L850 966 L870 1014 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <g transform="translate(840 964) rotate(-115)">
+    <path d="M-13 -17 L13 -17 L10 17 L-10 17 Z" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <ellipse cx="0" cy="-17" rx="13" ry="4" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <circle cx="856" cy="958" r="9" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Open lanes with the mixes -->
+  <path d="M752 952 L366 952" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="352,952 366,945 366,959" fill="#c0392b"/>
+  <path d="M352 992 L738 992" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="752,992 738,985 738,999" fill="#c0392b"/>
+  <path d="M452 926 L488 926 L484 952 L456 952 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="470" cy="926" rx="18" ry="4" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M618 966 L654 966 L650 992 L622 992 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="636" cy="966" rx="18" ry="4" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Paint drops and brush -->
+  <g transform="translate(170 1240)"><path d="M0 -18 C6 -8 11 -1 11 6 C11 13 6 17 0 17 C-6 17 -11 13 -11 6 C-11 -1 -6 -8 0 -18 Z" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/></g>
+  <g transform="translate(210 1240)"><path d="M0 -18 C6 -8 11 -1 11 6 C11 13 6 17 0 17 C-6 17 -11 13 -11 6 C-11 -1 -6 -8 0 -18 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/></g>
+  <g transform="translate(250 1240)"><path d="M0 -18 C6 -8 11 -1 11 6 C11 13 6 17 0 17 C-6 17 -11 13 -11 6 C-11 -1 -6 -8 0 -18 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/></g>
+  <g transform="translate(830 1240)"><path d="M0 -18 C6 -8 11 -1 11 6 C11 13 6 17 0 17 C-6 17 -11 13 -11 6 C-11 -1 -6 -8 0 -18 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/></g>
+  <g transform="translate(870 1240)"><path d="M0 -18 C6 -8 11 -1 11 6 C11 13 6 17 0 17 C-6 17 -11 13 -11 6 C-11 -1 -6 -8 0 -18 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/></g>
+  <g transform="translate(910 1240)"><path d="M0 -18 C6 -8 11 -1 11 6 C11 13 6 17 0 17 C-6 17 -11 13 -11 6 C-11 -1 -6 -8 0 -18 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/></g>
+  <rect x="470" y="1235" width="130" height="10" rx="5" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="600" y="1233" width="20" height="14" rx="2" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M620 1233 C640 1233 652 1240 660 1240 C652 1240 640 1247 620 1247 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Label connectors -->
+  <path d="M300 1110 L300 988 Q300 972 286 972" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="274,972 288,965 288,979" fill="#c0392b"/>
+  <path d="M427 1110 L427 920 Q427 904 443 904 L498 904" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="510,904 496,897 496,911" fill="#c0392b"/>
+  <path d="M636 1110 L636 1014" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="636,1000 629,1014 643,1014" fill="#c0392b"/>
+  <path d="M780 1110 L780 988 Q780 972 794 972" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="806,972 792,965 792,979" fill="#c0392b"/>
 </g>
 
-<!-- Security shield icon -->
-<g transform="translate(830 98)">
-  <path d="M 0 -26 L 22 -18 L 22 0 C 22 14, 12 22, 0 28 C -12 22, -22 14, -22 0 L -22 -18 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M -9 1 L -2 8 L 10 -6" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- Icon: paint palette -->
+<g transform="translate(120 92)">
+  <path d="M24 2 C10 2 0 12 0 24 C0 38 12 46 24 46 C30 46 32 42 30 38 C28 34 30 30 35 30 L40 30 C45 30 48 26 48 22 C48 10 38 2 24 2 Z" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="14" cy="18" r="4" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="24" cy="11" r="4" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="35" cy="15" r="4" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="13" cy="31" r="4" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
 </g>
 
-<!-- Titles -->
-<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">إجابة السؤال الرئيسي</text>
-<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="normal" fill="#152b42">Lesson Question — Answered</text>
+<!-- Icon: two people agreeing on yellow -->
+<g transform="translate(872 302)">
+  <circle cx="29" cy="5" r="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M2 52 C2 34 8 26 16 26 C24 26 30 34 30 52 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="16" cy="18" r="9" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M28 52 C28 34 34 26 42 26 C50 26 56 34 56 52 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="42" cy="18" r="9" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+</g>
 
-<!-- Arabic paragraph -->
-<text x="950" y="242" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" font-weight="normal" fill="#225f9c">
-  <tspan x="950" dy="0">تناول الدرس كيف تحافظ تقنيات التشفير والمصادقة على</tspan>
-  <tspan x="950" dy="32">أمان الاتصال والخدمات. يجمع <tspan font-weight="bold" fill="#17457f">HTTPS</tspan> بين التشفير</tspan>
-  <tspan x="950" dy="32">بالمفتاح العام، المستخدم لمشاركة مفتاح بأمان، والتشفير</tspan>
-  <tspan x="950" dy="32">بالمفتاح المشترك، المستخدم لتبادل البيانات بسرعة،</tspan>
-  <tspan x="950" dy="32">فيكون الاتصال آمنًا وسريعًا معًا. وبعيدًا عن الاتصال،</tspan>
-  <tspan x="950" dy="32">تظل الخدمات آمنة بالجمع بين عدة تقنيات: التشفير</tspan>
-  <tspan x="950" dy="32">يُخفي المحتوى، والشهادات الرقمية تُثبت أن الموقع</tspan>
-  <tspan x="950" dy="32">حقيقي، والتوقيعات الرقمية تكتشف التلاعب،</tspan>
-  <tspan x="950" dy="32"><tspan font-weight="bold" fill="#17457f">والمصادقة متعددة العوامل</tspan> تمنع تسجيل الدخول غير</tspan>
-  <tspan x="950" dy="32">المصرح به. لذلك يأتي الأمان عبر الإنترنت من تكديس</tspan>
-  <tspan x="950" dy="32">هذه التقنيات في <tspan font-weight="bold" fill="#17457f">طبقات،</tspan> بحيث تُعالَج تهديدات كثيرة</tspan>
-  <tspan x="950" dy="32">في الوقت نفسه.</tspan>
+<!-- Icon: lock (secret color) -->
+<g transform="translate(880 500)">
+  <path d="M12 20 L12 13 C12 3 32 3 32 13 L32 20" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="4" y="20" width="36" height="24" rx="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="22" cy="30" r="3.5" fill="#22303f"/>
+  <rect x="20.5" y="31" width="3" height="7" fill="#22303f"/>
+</g>
+
+<!-- Face: surprise -->
+<g transform="translate(838 790)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="0" cy="10" r="5" fill="#22303f"/>
+</g>
+
+<!-- Icon: connected nodes (sent openly) -->
+<g transform="translate(888 764)">
+  <path d="M8 36 L24 8 L40 36 L8 36" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="8" cy="36" r="7" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="24" cy="8" r="7" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="40" cy="36" r="7" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Text -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="950" dy="0">الحل الثاني: خلط الألوان</tspan>
+</text>
+<text x="120" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="120" dy="0">Solution 2: Mixing Colors</tspan>
 </text>
 
-<!-- English twin inside the band -->
-<text x="140" y="658" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="25" font-weight="normal" fill="#152b42">
-  <tspan x="140" dy="0">The lesson asked how cryptographic technologies</tspan>
-  <tspan x="140" dy="32">and authentication keep communication and</tspan>
-  <tspan x="140" dy="32">services secure. <tspan font-weight="bold" fill="#17457f">HTTPS</tspan> combines public-key</tspan>
-  <tspan x="140" dy="32">cryptography — used to share a key safely —</tspan>
-  <tspan x="140" dy="32">with common-key cryptography — used to</tspan>
-  <tspan x="140" dy="32">exchange data quickly — so communication is</tspan>
-  <tspan x="140" dy="32">both secure and fast. Beyond communication,</tspan>
-  <tspan x="140" dy="32">services stay safe by combining several</tspan>
-  <tspan x="140" dy="32">technologies: encryption hides content,</tspan>
-  <tspan x="140" dy="32">digital certificates prove a site is genuine,</tspan>
-  <tspan x="140" dy="32">digital signatures detect tampering, and</tspan>
-  <tspan x="140" dy="32"><tspan font-weight="bold" fill="#17457f">multi-factor authentication</tspan> blocks</tspan>
-  <tspan x="140" dy="32">unauthorized logins. Security online</tspan>
-  <tspan x="140" dy="32">therefore comes from <tspan font-weight="bold" fill="#17457f">layering</tspan> these</tspan>
-  <tspan x="140" dy="32">technologies so that many threats are</tspan>
-  <tspan x="140" dy="32">addressed at the same time.</tspan>
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">1 يتفق أحمد ومنى <tspan font-weight="bold" fill="#17457f">علنًا</tspan> على اللون <tspan fill="#c96a1b">الأصفر،</tspan></tspan>
+  <tspan x="950" dy="40">وسمير يسمع.</tspan>
+</text>
+<text x="132" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">1 Ahmed and Mona <tspan font-weight="bold" fill="#17457f">openly</tspan> agree on</tspan>
+  <tspan x="132" dy="40"><tspan fill="#c96a1b">yellow,</tspan> and Samir hears.</tspan>
+</text>
+
+<text x="950" y="434" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">2 يختار أحمد لونًا <tspan font-weight="bold" fill="#17457f">سريًا</tspan> <tspan fill="#c96a1b">أحمر،</tspan></tspan>
+  <tspan x="950" dy="40">وتختار منى لونًا سريًا <tspan fill="#c96a1b">أزرق.</tspan></tspan>
+</text>
+<text x="132" y="514" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">2 Ahmed picks a <tspan font-weight="bold" fill="#17457f">secret</tspan> <tspan fill="#c96a1b">red,</tspan></tspan>
+  <tspan x="132" dy="40">and Mona picks a secret <tspan fill="#c96a1b">blue.</tspan></tspan>
+</text>
+
+<text x="950" y="634" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">3 كلٌّ منهما يخلط لونه السري بالأصفر،</tspan>
+  <tspan x="950" dy="40">ويرسل الخليط <tspan font-weight="bold" fill="#17457f">علنًا:</tspan></tspan>
+  <tspan x="950" dy="40"><tspan fill="#c96a1b">برتقالي</tspan> من أحمد، <tspan fill="#c96a1b">وأخضر</tspan> من منى.</tspan>
+</text>
+<text x="132" y="754" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">3 Each one mixes their secret color</tspan>
+  <tspan x="132" dy="40">with yellow and sends the mix <tspan font-weight="bold" fill="#17457f">openly:</tspan></tspan>
+  <tspan x="132" dy="40"><tspan fill="#c96a1b">orange</tspan> from Ahmed, <tspan fill="#c96a1b">green</tspan> from Mona.</tspan>
+</text>
+
+<!-- Illustration labels -->
+<text x="483" y="1154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#3d5a76">
+  <tspan x="483" dy="0">اللون العام</tspan>
+</text>
+<text x="351" y="1194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#3d5a76">
+  <tspan x="351" dy="0">Public color</tspan>
+</text>
+<text x="858" y="1154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#3d5a76">
+  <tspan x="898" dy="0">سر أحمد</tspan>
+</text>
+<text x="760" y="1194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#3d5a76">
+  <tspan x="760" dy="0">Ahmed's secret</tspan>
+</text>
+<text x="320" y="1154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#3d5a76">
+  <tspan x="280" dy="0">سر منى</tspan>
+</text>
+<text x="142" y="1194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#3d5a76">
+  <tspan x="142" dy="0">Mona's secret</tspan>
+</text>
+<text x="723" y="1154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#3d5a76">
+  <tspan x="723" dy="0">خليط يُرسَل علنًا</tspan>
+</text>
+<text x="533" y="1194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#3d5a76">
+  <tspan x="533" dy="0">Mix sent openly</tspan>
 </text>
 </svg>

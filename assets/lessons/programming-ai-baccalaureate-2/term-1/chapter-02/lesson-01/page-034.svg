@@ -1,0 +1,236 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Info card: shadow, fill, accent in one group -->
+<g>
+  <rect x="109" y="128" width="870" height="448" rx="16" fill="#22303f" opacity=".12"/>
+  <rect x="105" y="122" width="870" height="448" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+  <rect x="961" y="138" width="6" height="416" rx="3" fill="#2f7fb5"/>
+</g>
+
+<!-- Illustration: three-step staircase of second factors -->
+<g>
+  <defs>
+    <linearGradient id="ilStepO" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0c48c"/>
+      <stop offset="1" stop-color="#c96a1b"/>
+    </linearGradient>
+    <linearGradient id="ilStepB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fc9f2"/>
+      <stop offset="1" stop-color="#2f7fb5"/>
+    </linearGradient>
+    <linearGradient id="ilStepG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a9dcbe"/>
+      <stop offset="1" stop-color="#2e7d32"/>
+    </linearGradient>
+  </defs>
+  <!-- shadows -->
+  <path d="M134 676 L404 676 L404 746 L684 746 L684 816 L972 816 L972 866 L134 866 Z" fill="#22303f" opacity=".18"/>
+  <rect x="199" y="618" width="110" height="44" rx="12" fill="#22303f" opacity=".18"/>
+  <circle cx="304" cy="610" r="18" fill="#22303f" opacity=".18"/>
+  <rect x="509" y="606" width="80" height="132" rx="14" fill="#22303f" opacity=".18"/>
+  <rect x="796" y="690" width="66" height="118" rx="12" fill="#22303f" opacity=".18"/>
+  <rect x="866" y="634" width="96" height="56" rx="16" fill="#22303f" opacity=".18"/>
+  <!-- top step (green, strongest) -->
+  <polygon points="400,670 418,652 418,842 400,860" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="130,670 400,670 418,652 148,652" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="130" y="670" width="270" height="190" fill="url(#ilStepG)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- middle step (blue) -->
+  <polygon points="680,740 698,722 698,842 680,860" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="400,740 680,740 698,722 418,722" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="400" y="740" width="280" height="120" fill="url(#ilStepB)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- lowest step (orange, weakest) -->
+  <polygon points="950,810 968,792 968,842 950,860" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="680,810 950,810 968,792 698,792" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="680" y="810" width="270" height="50" fill="url(#ilStepO)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- strength bars on step fronts -->
+  <rect x="785" y="840" width="14" height="12" rx="3" fill="#ffffff" opacity=".85"/>
+  <rect x="807" y="830" width="14" height="22" rx="3" fill="#ffffff" opacity=".35"/>
+  <rect x="829" y="820" width="14" height="32" rx="3" fill="#ffffff" opacity=".35"/>
+  <rect x="510" y="804" width="14" height="12" rx="3" fill="#ffffff" opacity=".85"/>
+  <rect x="532" y="794" width="14" height="22" rx="3" fill="#ffffff" opacity=".85"/>
+  <rect x="554" y="784" width="14" height="32" rx="3" fill="#ffffff" opacity=".35"/>
+  <rect x="235" y="769" width="14" height="12" rx="3" fill="#ffffff" opacity=".85"/>
+  <rect x="257" y="759" width="14" height="22" rx="3" fill="#ffffff" opacity=".85"/>
+  <rect x="279" y="749" width="14" height="32" rx="3" fill="#ffffff" opacity=".85"/>
+  <!-- lowest step: phone with message bubble -->
+  <rect x="792" y="684" width="66" height="118" rx="12" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="799" y="696" width="52" height="86" rx="5" fill="#dff1f7"/>
+  <rect x="806" y="708" width="38" height="8" rx="4" fill="#f0c48c"/>
+  <rect x="806" y="724" width="26" height="8" rx="4" fill="#f0c48c"/>
+  <rect x="806" y="740" width="32" height="8" rx="4" fill="#f0c48c"/>
+  <circle cx="825" cy="792" r="3.5" fill="#dff1f7"/>
+  <polygon points="880,682 864,702 902,684" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="862" y="628" width="96" height="56" rx="16" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="888" cy="656" r="6" fill="#c96a1b"/>
+  <circle cx="910" cy="656" r="6" fill="#c96a1b"/>
+  <circle cx="932" cy="656" r="6" fill="#c96a1b"/>
+  <!-- middle step: phone with authenticator code -->
+  <rect x="505" y="600" width="80" height="132" rx="14" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="513" y="612" width="64" height="102" rx="6" fill="#dff1f7"/>
+  <circle cx="545" cy="634" r="10" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="519" y="656" width="10" height="18" rx="3" fill="#2f7fb5"/>
+  <rect x="533" y="656" width="10" height="18" rx="3" fill="#2f7fb5"/>
+  <rect x="547" y="656" width="10" height="18" rx="3" fill="#2f7fb5"/>
+  <rect x="561" y="656" width="10" height="18" rx="3" fill="#2f7fb5"/>
+  <rect x="519" y="688" width="52" height="8" rx="4" fill="#4fc3e8"/>
+  <circle cx="545" cy="723" r="3.5" fill="#dff1f7"/>
+  <!-- top step: security key with check badge -->
+  <rect x="195" y="612" width="110" height="44" rx="12" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="305" y="622" width="34" height="24" rx="3" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="315" y="628" width="6" height="5" fill="#7f95ab"/>
+  <rect x="326" y="628" width="6" height="5" fill="#7f95ab"/>
+  <circle cx="213" cy="634" r="7" fill="#fffdf7" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="258" cy="634" r="11" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="300" cy="604" r="18" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M291 604 L297 610 L309 597" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- connectors: step to stronger step -->
+  <path d="M784 730 Q 700 690 622 690" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="606,690 622,682 622,698" fill="#c0392b"/>
+  <path d="M498 662 Q 440 634 374 634" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="358,634 374,626 374,642" fill="#c0392b"/>
+  <!-- direction arrow: weaker to stronger -->
+  <path d="M940 1030 L166 1030" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="150,1030 168,1020 168,1040" fill="#c0392b"/>
+</g>
+
+<!-- Memory illustration: laptop login with plugged security key -->
+<g>
+  <rect x="424" y="1072" width="240" height="152" rx="12" fill="#22303f" opacity=".18"/>
+  <path d="M400 1224 L688 1224 L706 1246 Q708 1252 700 1252 L388 1252 Q380 1252 382 1246 Z" fill="#22303f" opacity=".18"/>
+  <rect x="724" y="1224" width="76" height="26" rx="10" fill="#22303f" opacity=".18"/>
+  <rect x="420" y="1066" width="240" height="152" rx="12" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="432" y="1078" width="216" height="128" rx="6" fill="#dff1f7"/>
+  <circle cx="540" cy="1072" r="3" fill="#7f95ab"/>
+  <circle cx="540" cy="1104" r="16" fill="#ffffff"/>
+  <circle cx="540" cy="1099" r="7" fill="#2f7fb5"/>
+  <path d="M527 1116 Q 540 1103 553 1116 Z" fill="#2f7fb5"/>
+  <rect x="470" y="1128" width="140" height="14" rx="7" fill="#ffffff"/>
+  <rect x="470" y="1150" width="140" height="14" rx="7" fill="#ffffff"/>
+  <circle cx="486" cy="1157" r="3" fill="#22303f"/>
+  <circle cx="500" cy="1157" r="3" fill="#22303f"/>
+  <circle cx="514" cy="1157" r="3" fill="#22303f"/>
+  <circle cx="528" cy="1157" r="3" fill="#22303f"/>
+  <circle cx="542" cy="1157" r="3" fill="#22303f"/>
+  <rect x="500" y="1174" width="80" height="20" rx="10" fill="#2e7d32"/>
+  <path d="M530 1184 L537 1190 L550 1178" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M396 1218 L684 1218 L702 1240 Q704 1246 696 1246 L384 1246 Q376 1246 378 1240 Z" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="510" y="1218" width="60" height="6" rx="3" fill="#7f95ab"/>
+  <rect x="704" y="1226" width="16" height="10" rx="2" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="720" y="1218" width="76" height="26" rx="10" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="748" cy="1231" r="8" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="780" cy="1231" r="4" fill="#4fc3e8"/>
+</g>
+
+<!-- Memory illustration: shield with check -->
+<g>
+  <defs>
+    <linearGradient id="ilShield" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a9dcbe"/>
+      <stop offset="1" stop-color="#2e7d32"/>
+    </linearGradient>
+  </defs>
+  <path d="M294 1086 L344 1104 L344 1156 Q344 1212 294 1242 Q244 1212 244 1156 L244 1104 Z" fill="#22303f" opacity=".18"/>
+  <path d="M290 1080 L340 1098 L340 1150 Q340 1206 290 1236 Q240 1206 240 1150 L240 1098 Z" fill="url(#ilShield)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M290 1094 L326 1107 L326 1150 Q326 1194 290 1218 Z" fill="#ffffff" opacity=".35"/>
+  <path d="M268 1156 L284 1172 L314 1138" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: light bulb (insight) inside the card -->
+<g transform="translate(770 420)">
+  <path d="M32 2 L32 7 M8 12 L13 16 M56 12 L51 16 M4 30 L10 30 M60 30 L54 30" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="32" cy="28" r="17" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M26 30 L29 36 L32 30 L35 36 L38 30" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="24" y="44" width="16" height="10" rx="2" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="27" y="54" width="10" height="6" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Face: surprise (important fact) inside the card -->
+<g transform="translate(895 472)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="0" cy="9" r="5" fill="#22303f"/>
+</g>
+
+<!-- Icon: star -->
+<g transform="translate(170 1110)">
+  <polygon points="0,-22 5.3,-7.3 20.9,-6.8 8.6,2.8 12.9,17.8 0,9 -12.9,17.8 -8.6,2.8 -20.9,-6.8 -5.3,-7.3" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: lock -->
+<g transform="translate(145 1170)">
+  <path d="M14 22 L14 14 Q14 2 25 2 Q36 2 36 14 L36 22" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="6" y="22" width="38" height="28" rx="6" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="25" cy="33" r="4" fill="#22303f"/>
+  <rect x="23" y="35" width="4" height="9" rx="2" fill="#22303f"/>
+</g>
+
+<!-- Icon: star -->
+<g transform="translate(830 1100)">
+  <polygon points="0,-22 5.3,-7.3 20.9,-6.8 8.6,2.8 12.9,17.8 0,9 -12.9,17.8 -8.6,2.8 -20.9,-6.8 -5.3,-7.3" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Face: smile -->
+<g transform="translate(900 1190)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Texts -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">معلومة تميّزك</text>
+
+<text x="140" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">BEYOND THE BOOK</text>
+
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">رمز الرسائل القصيرة SMS <tspan font-weight="bold" fill="#c0392b">عامل حيازة،</tspan></tspan>
+  <tspan x="935" dy="40">لكنه من أضعف الخيارات؛ لذلك تصنّفه هيئة</tspan>
+  <tspan x="935" dy="40">المعايير الأمريكية NIST <tspan font-weight="bold" fill="#17457f">«مقيّدًا»،</tspan> وتطبيقات</tspan>
+  <tspan x="935" dy="40">المصادقة ومفاتيح الأمان <tspan font-weight="bold" fill="#2e7d32">أقوى منه.</tspan></tspan>
+</text>
+
+<text x="140" y="394" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">An SMS code is a <tspan font-weight="bold" fill="#c0392b">possession factor,</tspan></tspan>
+  <tspan x="140" dy="40">but one of the weakest options; so the</tspan>
+  <tspan x="140" dy="40">US standards body NIST classifies it</tspan>
+  <tspan x="140" dy="40">as <tspan font-weight="bold" fill="#17457f">"restricted,"</tspan> and authenticator</tspan>
+  <tspan x="140" dy="40">apps and security keys are <tspan font-weight="bold" fill="#2e7d32">stronger.</tspan></tspan>
+</text>
+
+<text x="895" y="914" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">SMS: أضعف</text>
+
+<text x="720" y="954" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">SMS: weaker</text>
+
+<text x="635" y="914" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">تطبيق مصادقة</text>
+
+<text x="409" y="954" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Authenticator app</text>
+
+<text x="385" y="914" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">مفتاح أمان: <tspan font-weight="bold" fill="#2e7d32">أقوى</tspan></text>
+
+<text x="155" y="954" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="155" dy="0">Security key:</tspan>
+  <tspan x="155" dy="40"><tspan font-weight="bold" fill="#2e7d32">stronger</tspan></tspan>
+</text>
+</svg>

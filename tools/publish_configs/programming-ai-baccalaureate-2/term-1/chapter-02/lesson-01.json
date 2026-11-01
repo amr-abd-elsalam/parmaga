@@ -11,33 +11,34 @@
   "termLabelAr": "ترم أول",
   "pivotQuestionAr": "كيف تعمل تقنيات التشفير والمصادقة معًا للحفاظ على أمان الاتصال والخدمات عبر الإنترنت؟",
   "custodyRepository": "parmaga-content",
-  "custodySnapshot": "1d9a5f2c54c1e9f53db8820228053ac6271db035",
-  "declaredPageCount": 17,
-  "inventoryDate": "2026-09-26",
+  "custodySnapshot": "376ba3037295a7d136a54abcac021abd9df5e239",
+  "declaredPageCount": 48,
+  "inventoryDate": "2026-11-01",
   "status": "published",
   "extraNotes": [
     "السؤال المحوري للدرس: كيف تعمل تقنيات التشفير والمصادقة معًا للحفاظ على أمان الاتصال والخدمات عبر الإنترنت؟",
     "حزمة أصول الدرس مدرجة للنشر في المسار القانوني داخل المستودع العام، وتتحقق tools/verify_lesson.py من مطابقة بايتاتها لهذا الـManifest.",
-    "أسماء الملفات الواردة من التوليد مطابقة أصلًا للنمط page-<NNN>.svg، لذلك sourceFileName يساوي file في المداخل السبعة عشر كلها، ولم تجرِ إعادة تسمية.",
-    "المقاس 1080×1350 وviewBox «0 0 1080 1350» مقيسان ومؤكدان في الصفحات السبع عشرة كلها، أي نسبة 4:5 رأسية.",
-    "منطقة الـ12% المحجوزة: الحد y = 1188. أعلى إحداثي y مرصود هو 1171 في page-013، وعدد الإحداثيات دون الحد صفر في كل الصفحات. القياس بحدود معلنة: يعتمد سمات y وحدها ولا يحسب transform ولا إحداثيات path d ولا y+height ولا cy+r، فهو مؤشر قوي لا إثبات هندسي كامل.",
-    "الفحص الأمني نظيف في الصفحات السبع عشرة كلها: صفر script، صفر foreignObject، صفر سمات on*، صفر javascript:، صفر مرجع http(s) خارجي، صفر data:، صفر image مضمَّن، صفر use خارجي، صفر iframe أو embed أو object، صفر @import. لا يوجد اكتشاف يحتاج قرارًا مكتوبًا.",
+    "أسماء الملفات الواردة مطابقة أصلًا للنمط page-<NNN>.svg، لذلك sourceFileName يساوي file في المداخل الـ48 كلها، ولم تجرِ إعادة تسمية.",
+    "viewBox «0 0 1080 1350» مقيس في الصفحات الـ48 كلها، أي مقاس 1080×1350 بنسبة 4:5 رأسية.",
+    "منطقة الـ12% المحجوزة: الحد y = 1188. أعلى سمة y مرصودة في عناصر النص هي 1236 في page-015، و52 عنصر نص عند الحد أو دونه في 15 صفحة: page-002، page-005، page-008، page-010، page-011، page-013، page-014، page-015، page-016، page-017، page-019، page-021، page-023، page-038، page-041. سُجّل ولم يوقف النشر، وتراجعه عين المالك في المتصفح. القياس يعتمد سمات y وحدها ولا يحسب transform ولا إحداثيات path d، فهو مؤشر قوي لا إثبات هندسي كامل.",
+    "الفحص الأمني نظيف في الصفحات الـ48 كلها: صفر script، صفر foreignObject، صفر سمات on*، صفر javascript:، صفر مرجع http(s) خارجي، صفر data:، صفر image مضمَّن، صفر use خارجي، صفر iframe أو embed أو object، صفر @import. لا يوجد اكتشاف يحتاج قرارًا مكتوبًا.",
     "قيمة encoding مستنتجة لا مقروءة: لا يحتوي أي ملف إعلان XML ولا BOM، ونجاح تحليل XML على البايتات دون إعلان يعني أن البايتات UTF-8 صالحة.",
-    "نهايات الأسطر داخل الأصول السبعة عشر كلها CRLF. لم تُغيَّر ولا يجوز تغييرها، وقاعدة *.svg -text في .gitattributes تغطيها وفق ADR-0005 البند 11.",
-    "الحجم المقيس: المجموع 152407 بايت، والمتوسط 8965 بايت، وأصغر ملف 6229 بايت في page-016، وأكبر ملف 11991 بايت في page-001.",
-    "الخطوط المستدعاة في الصفحات السبع عشرة كلها: Arial وComic Sans MS وSegoe Print وSegoe UI وTahoma وsans-serif، ولا تزيد أي صفحة خطًّا آخر. قيد معروف مسجَّل في ADR-0004 §23 ولا يُعالَج بتعديل الأصول.",
-    "عنوان الدرس في الصفحة الرئيسة «تقنيات التشفير والمصادقة» يرد حرفيًّا في page-001، ومنها displayTitleEn «Cryptographic Technologies and Authentication». ولا تحتوي page-002 سؤالًا، فأُخذ pivotQuestionAr من page-003 بحذف التسمية «السؤال الرئيسي: » وبقي السؤال حرفيًّا، وتجيب عنه page-016. وأوصاف تسع صفحات (descriptionAr، وهي نص alt) مؤلَّفة قصيرة لأن أول بند فيها أطول من 60 حرفًا، والنص الكامل باقٍ في بنودها. والأمران باقتراح المنفّذ وموافقة المالك المكتوبة.",
-    "يحتوي بند واحد فقط على العلامة &، في page-008، ويهرّبها القالب في HTML وفق ADR-0024 K2، ولا يحتوي أي بند آخر على < أو > أو &.",
-    "نصوص الصفحات مستخرجة آليًّا من عناصر <text> بترتيب المستند، ثم طُبّقت عليها قاعدة حذف علامات الترقيم البصرية وحدها المسجلة في ADR-0024 D7 وREADME. وطوبق مجموع عناصر النص في الأصول وهو 177 مع عدد البنود المنشورة وهو 177 صفحةً صفحة في السبع عشرة كلها، ولا فرق بينهما: لا تحتوي الأصول بند ترقيم منفردًا ولا عنصر نص فارغًا."
+    "نهايات الأسطر داخل الأصول الـ48 كلها CRLF. لم تُغيَّر ولا يجوز تغييرها، وقاعدة *.svg -text في .gitattributes تغطيها وفق ADR-0005 البند 11.",
+    "الحجم المقيس: المجموع 835412 بايت، والمتوسط 17404 بايت بالتقريب إلى الأدنى، وأصغر ملف 10369 بايت في page-043، وأكبر ملف 22734 بايت في page-004.",
+    "الخطوط المستدعاة في الصفحات الـ48 كلها: Arial وComic Sans MS وSegoe Print وSegoe UI وTahoma وsans-serif، ولا تزيد أي صفحة خطًّا آخر. قيد معروف مسجَّل في ADR-0004 §23 ولا يُعالَج بتعديل الأصول.",
+    "أُعيد نشر الدرس بـ48 صفحة بدل 17 بطلب المالك، من عهدة 376ba3037295a7d136a54abcac021abd9df5e239 التي حلّت محل عهدة 1d9a5f2. وما نُشر سابقًا بسبع عشرة صفحة سجل تاريخي لا يُحرَّر.",
+    "عنوان الدرس في الصفحة الرئيسة «تقنيات التشفير والمصادقة» يرد حرفيًّا في page-001، ومنها displayTitleEn «Cryptographic Technologies and Authentication». وpivotQuestionAr بنص المالك المكتوب حرفيًّا، إذ لا تسمية «السؤال الرئيسي» في الأصول الجديدة. ووصف كل صفحة (descriptionAr، وهو نص alt) بقاعدة المالك المكتوبة: الصفحة التي أول بند فيها عنوان رئيسي بخط 44 غامق وصفها ذلك العنوان، وهي 11 صفحة (page-002، page-005، page-009، page-014، page-021، page-025، page-029، page-035، page-039، page-044، page-046)، والافتتاحية page-001 وصفها أول بند فيها، وكل صفحة سواهما وصفها «تابع: » ثم آخر عنوان رئيسي قبلها حرفيًّا، وهي 36 صفحة.",
+    "لا يحتوي أي بند على العلامات < أو > أو &.",
+    "نصوص الصفحات مستخرجة آليًّا من عناصر <text> بترتيب المستند، ثم طُبّقت عليها قاعدة حذف علامات الترقيم البصرية وحدها المسجلة في ADR-0024 D7 وREADME. وطوبق مجموع عناصر النص في الأصول وهو 493 مع عدد البنود المنشورة وهو 493، ولا فرق بينهما: لا تحتوي الأصول بند ترقيم منفردًا ولا عنصر نص فارغًا."
   ],
   "contextSections": {
-    "structureSummaryAr": "أهداف التعلم 002. مقدمة الدرس والسؤال الرئيسي 003. حقيقة أساسية 004. كيف يعمل اتصال HTTPS 005-009. استخدام المصادقة في الخدمات الفعلية 010-012. الجمع بين تقنيات الأمان 013-015. إجابة السؤال الرئيسي 016. الخلاصة 017.",
-    "statusAr": "الـManifest بحالة `published`، وأصوله السبعة عشر منشورة في مسارها القانوني. وصفحة الدرس منشورة بصفحاتها السبع عشرة ونصوصها العربية والإنجليزية داخل HTML، فهي مقروءة دون JavaScript، والعارض `assets/js/lesson-viewer.js` تحسين تدريجي فوقها.\n\nللدرس رابط في الصفحة الرئيسة ومدخل في `sitemap.xml`، ولا يوجد بعد فهرس `/courses/` ولا فهارس Course وTerm وChapter ولا روابط Previous/Next بين الدروس. والحالة الجارية للمشروع في `docs/ai/ARCHITECT_EVIDENCE_LEDGER.md`.",
-    "pagesNarrativeAr": "17 صفحة: صفحة افتتاحية واحدة (`page-001`) + 16 صفحة محتوى (`page-002` … `page-017`). ترقيم متصل بلا فجوة ولا تكرار.\n\nخصائص مشتركة في السبع عشرة كلها: المقاس `1080×1350` بنسبة 4:5 رأسية، و`viewBox \"0 0 1080 1350\"`، وXML سليم البناء، وترميز utf-8، ونتيجة فحص أمني نظيفة. لذلك لا تتكرر في الجدول.\n\nالمطابقة مع المراسي حتمية: `#page-1` ⇄ `page-001.svg` و`#page-17` ⇄ `page-017.svg`.",
-    "constraintsAr": "**الخطوط.** تستدعي الأصول خطوط Windows: Tahoma وSegoe Print وComic Sans MS وSegoe UI وArial و`sans-serif` العام في الصفحات كلها. قد تغيب على أندرويد فيخرج النص عن إطاره، وعلاجه في قالب التوليد القادم لا في الأصول وفق `ADR-0004 §23`.\n\n**الألوان خارج نطاق Design Tokens.** العرض عبر `<img>` يعزل كل أصل عن متغيرات CSS في `assets/css/parmaga.css`، فلا يعيد الوضع الليلي تلوينه.\n\n**منطقة الـ12% المحجوزة.** ما دون `y = 1188` فارغ، وأعلى `y` مرصود 1171 في `page-013`، بقياس سمات `y` وحدها فهو مؤشر لا إثبات. ورقم الصفحة والتنقل وهوية الموقع من طبقة HTML حصرًا وفق `ADR-0004 §19`.\n\n**بايتات الأصول ثابتة.** نهاياتها CRLF بلا إعلان XML ولا BOM، وأي تعديل أو ضغط أو إعادة تصدير يُبطل البصمات.",
-    "decidedAr": "المسار الدائم والمعرّفات وفق `ADR-0004`. عدد الصفحات 17 وترتيبها وأدوارها: `opening` للأولى و`content` للبقية. أسماء الأصول `page-<NNN>.svg`، والمقاس والنسبة، ونمط المراسي `#page-<n>` بلا تصفير.\n\nالنشر التزام واحد يضم الأصول والـManifest وملف السياق وصفحة الدرس والرئيسة و`sitemap.xml`، والـManifest بحالة `published` مباشرةً.\n\nوحدة نص الصفحة عنصر `<text>` كامل بترتيب المستند بلا دمج ولا تقسيم، وتُحذف علامات الترقيم البصرية القصيرة المخزَّنة معكوسة مثل `(1`. والنص يُهرَّب في HTML وفق `ADR-0024` K2.\n\n`displayTitleAr` مطابق لسطر الدرس المحجوز في الرئيسة ولنص `page-001`، و`pivotQuestionAr` من `page-003` بحذف التسمية «السؤال الرئيسي: »، وأوصاف تسع صفحات قصيرة مؤلَّفة، بموافقة المالك.\n\nأداة استخراج النصوص لا تدخل `tools/` ولا خط النشر، وفق `ADR-0024`: بنود الدرس تُكتب وتُراجَع في الـconfig وحده، وهو مصدر النشر الوحيد.",
-    "undecidedAr": "روابط Previous/Next بين الدروس. فهرس `/courses/` وفهارس Course وTerm وChapter. Structured Data. حل مشكلة الخطوط على أندرويد. مراسي `#concept-*`. نظام البحث وتقدم الطالب. مسارات اللغات.",
-    "howToUseAr": "هذا مصدرك لجرد بنية الدرس وقيوده، لا مصدر حالته الوحيد. **لا تطلب ملف SVG**: تمريره إلى النماذج ممنوع وفق `ADR-0005` §10 إلا صفحة واحدة لمشكلة موصوفة مسبقًا، ويُوثَّق.\n\nنص الدرس بلغتيه في HTML صفحته، والـManifest لجرد الأصول وبصماتها وأبعادها وعهدتها. ولا تحرّر مخرَجًا منشورًا بيدك: غيّر config الدرس في `tools/publish_configs/` وأعد التوليد وفق `ADR-0024`.\n\nاقرأ معه: `PROJECT_VISION.md`، ثم `ADR-0003` و`ADR-0004` و`ADR-0005`، ثم `ADR-0007` وما بعده.\n\nلا تعدّل أصلًا ولا مسارًا منشورًا ولا معرّفًا تقنيًا، ولا تخترع رقم صفحة أو بصمة أو بُعدًا، وما نقصك فاطلبه من الـManifest أو من مالك المشروع. وإن لم يكفك هذا الملف فذلك عيب فيه، فأبلغ عنه ليُصلَح."
+    "structureSummaryAr": "افتتاحية 001. الأمان طبقات 002–004. لماذا نشفّر؟ 005–008. مفتاح واحد أم مفتاحان؟ 009–013. كيف يتفق غريبان على سر؟ 014–020. إنت مين يا موقع؟ 021–024. مين غيّر الرسالة؟ 025–028. إثبت إنك إنت 029–034. القصة كاملة: منى تشتري سماعة 035–038. ركن الامتحان 039–043. بطاقة المراجعة الأخيرة 044–045. حلول جرّب وتوقّع 046–048.",
+    "statusAr": "الـManifest بحالة `published` وأصوله الـ48 في مسارها القانوني، وأُعيد نشر الدرس بها بدل 17 بطلب المالك. ونصوص الصفحات بلغتيها في HTML فهي مقروءة دون JavaScript، والعارض تحسين تدريجي فوقها. والحالة الجارية في `docs/ai/ARCHITECT_EVIDENCE_LEDGER.md`.",
+    "pagesNarrativeAr": "48 صفحة: افتتاحية واحدة (`page-001`) و47 صفحة محتوى (`page-002` … `page-048`) بترقيم متصل بلا فجوة. و`viewBox` «0 0 1080 1350» وفحص أمني نظيف في كلها. والمراسي حتمية: `#page-1` ⇄ `page-001.svg` حتى `#page-48` ⇄ `page-048.svg`. والوصف «تابع: » يعني أن الصفحة تكمل آخر عنوان رئيسي قبلها.",
+    "constraintsAr": "**الخطوط.** Tahoma وSegoe Print وComic Sans MS وSegoe UI وArial قد تغيب على أندرويد، وعلاجها خارج الأصول وفق `ADR-0004 §23`. **الألوان.** العرض عبر `<img>` يعزل الأصل عن الوضع الليلي. **المنطقة السفلى.** 52 عنصر نص عند `y = 1188` أو دونه في 15 صفحة، أعلاها 1236 في `page-015`، وقائمتها في الـManifest، سُجّلت ولم توقف النشر. **البايتات ثابتة.** CRLF بلا إعلان XML ولا BOM، وأي تعديل يُبطل البصمات.",
+    "decidedAr": "المسار والمعرّفات وفق `ADR-0004`، والصفحات الـ48 وترتيبها وأدوارها، والسؤال المحوري بنص المالك، ووصف «تابع: » بقاعدته المكتوبة. صفر Dependencies وصفر Build Step.",
+    "undecidedAr": "روابط Previous/Next بين الدروس. فهرس `/courses/` وفهارس Course وTerm وChapter. Structured Data. الخطوط على أندرويد. مراسي `#concept-*`.",
+    "howToUseAr": "مصدرك لجرد بنية الدرس وقيوده. **لا تطلب ملف SVG** وفق `ADR-0005` §10. النص في HTML صفحة الدرس، والجرد والبصمات في الـManifest. ولا تحرّر مخرَجًا منشورًا: غيّر الـconfig وأعد التوليد وفق `ADR-0024`، ولا تخترع رقمًا ولا بصمة."
   },
   "svgSourceDir": "assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-02/lesson-01",
   "pages": [
@@ -73,743 +74,55 @@
       "id": "page-002",
       "htmlId": "page-2",
       "role": "content",
-      "descriptionAr": "أهداف التعلم",
+      "descriptionAr": "الأمان طبقات",
       "transcript": [
         {
-          "text": "أهداف التعلم",
+          "text": "الأمان طبقات",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Learning Objectives",
+          "text": "Security Comes in Layers",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "اشرح كيف يؤمّن HTTPS الاتصال: كيف تستخدم مصافحة TLS التشفير بالمفتاح العام لمشاركة مفتاح بأمان، وكيف يحمي التشفير بالمفتاح المشترك البيانات التي تليها.",
+          "text": "هل تساءلت يومًا ماذا يحدث في الثانية التي تلي ضغطك على زر «تسجيل الدخول»؟",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Explain how HTTPS secures communication: how the TLS handshake uses public-key cryptography to share a key safely, and how common-key cryptography then protects the data that follows.",
+          "text": "Have you ever wondered what happens in the second after you press the \"Log in\" button?",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "صِف كيف تُستخدم المصادقة، ومنها المصادقة متعددة العوامل، في الخدمات الفعلية، واشرح لماذا تُجمع تقنيات الأمان معًا.",
+          "text": "في هذه الثانية تعمل أربع تقنيات معًا.",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Describe how authentication, including multi-factor authentication, is used in real services, and explain why security technologies are combined.",
+          "text": "In that second, four technologies work together.",
           "lang": "en",
           "dir": "ltr"
-        }
-      ]
-    },
-    {
-      "id": "page-003",
-      "htmlId": "page-3",
-      "role": "content",
-      "descriptionAr": "مقدمة الدرس والسؤال الرئيسي",
-      "transcript": [
-        {
-          "text": "في كل مرة تسجل فيها الدخول إلى تطبيق مصرفي، أو تشتري شيئًا عبر الإنترنت، أو تفتح موقعًا يظهر في شريط عنوانه قفل صغير، تعمل تقنيات خفية للحفاظ على أمان معلوماتك. تُشفَّر الرسائل فلا يستطيع غيرك قراءتها، ويُثبت الموقع أنه حقيقي، ويُتحقق من هويتك قبل منحك حق الوصول. ومن دون هذه الحمايات قد تُسرق كلمات المرور، وقد يقرأ أشخاص غير مصرح لهم البيانات الخاصة.",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "Every time you log in to a bank app, buy something online, or open a website with a small padlock in the address bar, hidden technologies are working to keep your information safe. Messages are scrambled so no one else can read them, the website proves that it is genuine, and your identity is checked before you are granted access. Without these protections, passwords could be stolen and private data could be read by unauthorized people.",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "السؤال الرئيسي: كيف تعمل تقنيات التشفير والمصادقة معًا للحفاظ على أمان الاتصال والخدمات عبر الإنترنت؟",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "Guiding question: How do cryptographic technologies and authentication work together to keep online communication and services secure?",
-          "lang": "en",
-          "dir": "ltr"
-        }
-      ]
-    },
-    {
-      "id": "page-004",
-      "htmlId": "page-4",
-      "role": "content",
-      "descriptionAr": "حقيقة أساسية",
-      "transcript": [
-        {
-          "text": "حقيقة أساسية: يعتمد أمان الاتصال والخدمات عبر الإنترنت على الجمع بين التشفير والمصادقة، وليس على تقنية واحدة.",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "Key Fact: Secure online communication and services depend on combining cryptography and authentication — not on any single technology.",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "المفاهيم الأساسية",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "Key Concepts",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "HTTPS",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "HTTPS",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "التشفير بالمفتاح المشترك",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "common-key cryptography",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "التشفير بالمفتاح العام",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "public-key cryptography",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "مصافحة TLS",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "TLS handshake",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "المصادقة متعددة العوامل",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "multi-factor authentication",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "التوقيع الرقمي",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "digital signature",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "الشهادة الرقمية",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "digital certificate",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "عدم التنصل",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "non-repudiation",
-          "lang": "en",
-          "dir": "ltr"
-        }
-      ]
-    },
-    {
-      "id": "page-005",
-      "htmlId": "page-5",
-      "role": "content",
-      "descriptionAr": "1. كيف يعمل اتصال HTTPS",
-      "transcript": [
-        {
-          "text": "1. كيف يعمل اتصال HTTPS",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "1. How HTTPS Communication Works",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "‏(1) HTTPS (HTTP الآمن): بروتوكول اتصال يضيف تشفير TLS إلى HTTP. وهو يحمي المستخدمين من تهديدات مثل التنصت والتلاعب وانتحال الهوية، وذلك من خلال التشفير، واكتشاف التلاعب، والتحقق من الطرف المقابل. وتُسمى خطوات إنشاء الاتصال الآمن مصافحة TLS.",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "(1) HTTPS (HTTP Secure)…a communication protocol that adds TLS encryption to HTTP. By providing encryption, detection of tampering, and verification of the communication partner, it protects users from threats such as eavesdropping, tampering, and impersonation. The procedure for establishing a secure communication is called the TLS handshake.",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "مصطلحات أساسية: HTTPS: بروتوكول HTTP مضافًا إليه تشفير TLS (التشفير، واكتشاف التلاعب، والتحقق من الطرف المقابل).",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "KEY TERMS: HTTPS — HTTP with TLS encryption added (encryption, tamper detection, and partner verification).",
-          "lang": "en",
-          "dir": "ltr"
-        }
-      ]
-    },
-    {
-      "id": "page-006",
-      "htmlId": "page-6",
-      "role": "content",
-      "descriptionAr": "كيف يجمع HTTPS بين نوعي التشفير",
-      "transcript": [
-        {
-          "text": "(2) يجمع HTTPS بين التشفير بالمفتاح المشترك (المتماثل) والتشفير بالمفتاح العام على النحو التالي، مستفيدًا من مزايا الطريقتين.",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "(2) HTTPS combines common-key (symmetric-key) cryptography and public-key cryptography as follows, taking advantage of the strengths of both methods.",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "① الاتصال",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "① Connection",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "يرسل خادم الويب شهادة رقمية ومفتاحًا عامًا إلى المتصفح، ويتحقق المتصفح من أصالة الخادم عن طريق جهة إصدار الشهادات (CA).",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "The web server sends a digital certificate and a public key to the browser. The browser verifies the server's authenticity through a certificate authority (CA).",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "التشفير بالمفتاح العام",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "Public-key cryptography",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "② تبادل المفتاح",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "② Key exchange",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "ينشئ المتصفح مفتاحًا مشتركًا للاتصال، ويشفّره بالمفتاح العام للخادم ثم يرسله. ويفك الخادم تشفيره بمفتاحه الخاص ليحصل على المفتاح المشترك.",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "The browser creates a common key for communication, encrypts it with the server's public key, and sends it. The server decrypts it with its private key to obtain the common key.",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "التشفير بالمفتاح العام",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "Public-key cryptography",
-          "lang": "en",
-          "dir": "ltr"
-        }
-      ]
-    },
-    {
-      "id": "page-007",
-      "htmlId": "page-7",
-      "role": "content",
-      "descriptionAr": "③ نقل البيانات",
-      "transcript": [
-        {
-          "text": "③ نقل البيانات",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "③ Data communication",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "تُشفَّر البيانات وتُتبادل باستخدام المفتاح المشترك.",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "Data is encrypted and exchanged using the shared common key.",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "التشفير بالمفتاح المشترك",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "Common-key cryptography",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "ملاحظة: يوضح التبادل السابق إحدى الطرق التي يمكن بها مشاركة مفتاح مشترك. أما الإصدارات الحالية من TLS فتستخدم بدلًا منها الاتفاق على المفتاح بطريقة ديفي-هيلمان.",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "Note: the exchange above shows one way a common key can be shared. Current versions of TLS use Diffie-Hellman key agreement instead.",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "توضيح: في طريقة ديفي-هيلمان لا يُرسل المفتاح المشترك نفسه عبر الشبكة، بل يتبادل الطرفان قيمًا عامة، ويحسب كل طرف المفتاح نفسه لديه.",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "Clarification: With Diffie-Hellman, the common key itself is never sent over the network; both sides exchange public values, and each side computes the same key on its own.",
-          "lang": "en",
-          "dir": "ltr"
-        }
-      ]
-    },
-    {
-      "id": "page-008",
-      "htmlId": "page-8",
-      "role": "content",
-      "descriptionAr": "تدفق اتصال HTTPS",
-      "transcript": [
-        {
-          "text": "تدفق اتصال HTTPS",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "HTTPS Communication Flow",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "المتصفح (العميل)",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "Browser (Client)",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "خادم الويب (مع المفتاح الخاص)",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "Web Server (with private key)",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "① الاتصال — يرسل الخادم الشهادة والمفتاح العام، ويتحقق المتصفح عن طريق CA",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "① Connection — Server sends certificate & public key; browser verifies via CA",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "② تبادل المفتاح — ينشئ المتصفح مفتاحًا مشتركًا، ويشفّره بالمفتاح العام، ثم يرسله",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "② Key Exchange — Browser creates a common key, encrypts with public key, sends",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "③ نقل البيانات — نقل بيانات مشفرة باستخدام المفتاح المشترك",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "③ Data Transfer — Encrypted data transfer using the shared common key",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "التشفير بالمفتاح العام لتبادل المفتاح بأمان؛ والتشفير بالمفتاح المشترك للاتصال السريع.",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "Public-key cryptography for safe key exchange; common-key cryptography for fast communication.",
-          "lang": "en",
-          "dir": "ltr"
-        }
-      ]
-    },
-    {
-      "id": "page-009",
-      "htmlId": "page-9",
-      "role": "content",
-      "descriptionAr": "دور كل نوع من التشفير في HTTPS",
-      "transcript": [
-        {
-          "text": "(3) يُستخدم التشفير بالمفتاح العام «لمشاركة المفاتيح بأمان»، ويُستخدم التشفير بالمفتاح المشترك «لتبادل كميات كبيرة من البيانات بسرعة». ويتيح هذا التقسيم في الأدوار تحقيق الأمان وسرعة الاتصال معًا.",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "(3) Public-key cryptography is used to “share keys safely,” and common-key cryptography is used to “exchange large amounts of data quickly.” This division of roles makes it possible to achieve both security and communication speed.",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "المفتاح العام يُقفل، ومفتاح خاص مختلف يفتح. وفي التوقيع الرقمي ينعكس الاتجاه: المفتاح الخاص يوقّع، والمفتاح العام يتحقق.",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "A public key locks; a different private key unlocks. In a digital signature the direction reverses: the private key signs and the public key verifies.",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "مصطلحات أساسية:",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "التشفير بالمفتاح العام: يشارك المفتاح بأمان. التشفير بالمفتاح المشترك: يتبادل البيانات بسرعة.",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "KEY TERMS:",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "public-key cryptography — shares a key safely. common-key cryptography — exchanges data quickly.",
-          "lang": "en",
-          "dir": "ltr"
-        }
-      ]
-    },
-    {
-      "id": "page-010",
-      "htmlId": "page-10",
-      "role": "content",
-      "descriptionAr": "2. استخدام المصادقة في الخدمات الفعلية",
-      "transcript": [
-        {
-          "text": "2. استخدام المصادقة في الخدمات الفعلية",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "2. Use of Authentication in Real Services",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "(1) تعتمد خدمات كثيرة المصادقة متعددة العوامل، وفيها يُجمع بين اثنين أو أكثر من عوامل المصادقة الثلاثة (المعرفة، والحيازة، والسمات الحيوية).",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "(1) Many services adopt multi-factor authentication, in which two or more of the three factors of authentication (knowledge, possession, biometric) are combined.",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "(2) عند استخدام عامل واحد فقط، يستطيع طرف غير مصرح له الوصول إذا اختُرق هذا العامل. أما بالجمع بين عدة عوامل، فحتى إذا اختُرق أحدها، يظل عامل آخر قادرًا على منع الوصول.",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "(2) When only one factor is used, an unauthorized party can gain access if that factor is broken. By combining multiple factors, even if one is broken, another can still prevent access.",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "مصطلحات أساسية:",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "المصادقة متعددة العوامل: الجمع بين اثنين أو أكثر من العوامل الثلاثة: المعرفة، والحيازة، والسمات الحيوية.",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "KEY TERMS:",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "multi-factor authentication — combining two or more of the three factors: knowledge, possession, biometric.",
-          "lang": "en",
-          "dir": "ltr"
-        }
-      ]
-    },
-    {
-      "id": "page-011",
-      "htmlId": "page-11",
-      "role": "content",
-      "descriptionAr": "مثال: كلمة المرور وحدها مقابل المصادقة متعددة العوامل",
-      "transcript": [
-        {
-          "text": "مثال: إذا استُخدمت كلمة المرور (المعرفة) وحدها، يصبح تسجيل الدخول غير المصرح به ممكنًا بمجرد تسرب كلمة المرور. أما إذا اشتُرط أيضًا إشعار على الهاتف الذكي (الحيازة)، فلن يستطيع المهاجم تسجيل الدخول من دون الجهاز، حتى لو تسربت كلمة المرور.",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "e.g., If only a password (knowledge) is used, an unauthorized login is possible once the password is leaked. However, if a notification to a smartphone (possession) is also required, an attacker cannot log in without the device, even if the password is leaked.",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "تسجيل الدخول القوي يجمع بين عاملين مختلفين أو أكثر.",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "Strong login combines two or more different factors.",
-          "lang": "en",
-          "dir": "ltr"
-        }
-      ]
-    },
-    {
-      "id": "page-012",
-      "htmlId": "page-12",
-      "role": "content",
-      "descriptionAr": "أمثلة للمصادقة متعددة العوامل في الخدمات",
-      "transcript": [
-        {
-          "text": "(3) الأمثلة التالية للمصادقة متعددة العوامل مستخدمة في خدمات متنوعة.",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "(3) The following examples of multi-factor authentication are used in various services.",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "الخدمة",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "Service",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "أمثلة على المصادقة المستخدمة",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "Examples of authentication used",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "الخدمات المصرفية عبر الإنترنت",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "Online banking",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "كلمة مرور (المعرفة) + كلمة مرور لمرة واحدة (الحيازة)",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "Password (knowledge) + one-time password (possession)",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "تسجيل الدخول إلى وسائل التواصل الاجتماعي",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "SNS login",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "كلمة مرور (المعرفة) + المصادقة عبر الرسائل القصيرة SMS (الحيازة)",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "Password (knowledge) + SMS authentication (possession)",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "تسجيل الدخول إلى حاسوب الشركة المحمول",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "Company laptop login",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "بطاقة ذكية (الحيازة) + مصادقة ببصمة الإصبع (السمات الحيوية)",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "Smart card (possession) + fingerprint authentication (biometric)",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "التسوق الإلكتروني",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "Online shopping",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "كلمة مرور (المعرفة) + رمز لمرة واحدة من 3-D Secure (الحيازة)",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "Password (knowledge) + one-time code from 3-D Secure (possession)",
-          "lang": "en",
-          "dir": "ltr"
-        }
-      ]
-    },
-    {
-      "id": "page-013",
-      "htmlId": "page-13",
-      "role": "content",
-      "descriptionAr": "3. الجمع بين تقنيات الأمان",
-      "transcript": [
-        {
-          "text": "3. الجمع بين تقنيات الأمان",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "3. Combinations of Security Technologies",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "(1) لا يتحقق أمان الاتصال والخدمات بتقنية واحدة، بل بالجمع بين عدة تقنيات أمان.",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "(1) Safe communication and services are achieved not by a single technology, but by combining multiple security technologies.",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "التقنية",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "Technology",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "التأثير",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "Effect",
-          "lang": "en",
-          "dir": "ltr"
         },
         {
-          "text": "التشفير (بالمفتاح المشترك، بالمفتاح العام)",
+          "text": "لا توجد تقنية واحدة تحمينا؛ الأمان طبقات، وكل طبقة تجيب عن سؤال مختلف.",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Encryption (common-key, public-key)",
+          "text": "No single technology protects us; security comes in layers, and each layer answers a different question.",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "يمنع أطرافًا ثالثة من قراءة محتوى الاتصال",
+          "text": "التشفير",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Prevents communication content from being read by third parties",
+          "text": "Encryption",
           "lang": "en",
           "dir": "ltr"
         },
@@ -824,32 +137,12 @@
           "dir": "ltr"
         },
         {
-          "text": "يكتشف التلاعب بالبيانات أو انتحال هوية المرسل، ويجعل المرسل غير قادر على إنكار إرساله البيانات لاحقًا (عدم التنصل)",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "Detects data tampering or impersonation of the sender, and makes it impossible for the sender to deny having sent the data afterward (non-repudiation)",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
           "text": "الشهادة الرقمية",
           "lang": "ar",
           "dir": "rtl"
         },
         {
           "text": "Digital certificate",
-          "lang": "en",
-          "dir": "ltr"
-        },
-        {
-          "text": "تتحقق من أن الطرف المقابل في الاتصال حقيقي",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "Verifies that the communication partner is authentic",
           "lang": "en",
           "dir": "ltr"
         },
@@ -862,14 +155,797 @@
           "text": "Multi-factor authentication",
           "lang": "en",
           "dir": "ltr"
-        },
+        }
+      ]
+    },
+    {
+      "id": "page-003",
+      "htmlId": "page-3",
+      "role": "content",
+      "descriptionAr": "تابع: الأمان طبقات",
+      "transcript": [
         {
-          "text": "تمنع تسجيل الدخول غير المصرح به",
+          "text": "الأسئلة الأربعة",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Prevents unauthorized logins",
+          "text": "The Four Questions",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لكل تهديد سؤال، ولكل سؤال تقنية تجيب عنه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Each threat has a question, and each question has a technology that answers it.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مين يقرأ كلامي؟ ← التشفير",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Who can read my messages? → Encryption",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مين غيّر الرسالة؟ ومين بعتها؟ ← التوقيع الرقمي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Who changed the message, and who sent it? → Digital signature",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "إنت مين يا موقع؟ ← الشهادة الرقمية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Who are you, website? → Digital certificate",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "إنت مين يا مستخدم؟ ← المصادقة متعددة العوامل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Who are you, user? → Multi-factor authentication",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جرّب بنفسك 1",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "TRY IT 1",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "رسالة من «البنك» تطلب كلمة مرورك، ورابطها يختلف عن اسم البنك بحرف واحد. أي سؤال من الأربعة تسأله؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A message from \"the bank\" asks for your password, and its link differs from the bank's name by one letter. Which of the four questions do you ask?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-004",
+      "htmlId": "page-4",
+      "role": "content",
+      "descriptionAr": "تابع: الأمان طبقات",
+      "transcript": [
+        {
+          "text": "التنصت Eavesdropping: قراءة البيانات أثناء انتقالها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Eavesdropping: reading data while it travels.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التلاعب Tampering: تعديل البيانات أثناء انتقالها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Tampering: changing data while it travels.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "انتحال الهوية Impersonation: التظاهر بأنك شخص آخر أو موقع آخر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Impersonation: pretending to be another person or another site.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الدخول غير المصرح به Unauthorized login: دخول حساب ببيانات مسروقة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Unauthorized login: entering an account with stolen details.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مقهى وشبكة Wi-Fi مشتركة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Café with shared Wi-Fi",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "1 كيلو صار 10",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 kilo became 10",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اسم يختلف بحرف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Name off by one letter",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كلمة مرور مسروقة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Stolen password",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-005",
+      "htmlId": "page-5",
+      "role": "content",
+      "descriptionAr": "لماذا نشفّر؟",
+      "transcript": [
+        {
+          "text": "لماذا نشفّر؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Why Do We Encrypt?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "حكاية سمير الفضولي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Story of Nosy Samir",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أحمد (المتصفح) يرسل ورقة إلى منى (الخادم)، والورقة تمر بيد سمير الفضولي (المتنصت).",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Ahmed (the browser) sends a note to Mona (the server), and the note passes through the hands of Nosy Samir (the eavesdropper).",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يكتب أحمد: «كلمة المرور 1234»، فيقرؤها سمير بصوت عالٍ. هذا هو HTTP.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Ahmed writes: \"The password is 1234,\" and Samir reads it out loud. This is HTTP.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أحمد: المتصفح",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Ahmed: Browser",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "سمير: المتنصت",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Samir: Eavesdropper",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "منى: الخادم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Mona: Server",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-006",
+      "htmlId": "page-6",
+      "role": "content",
+      "descriptionAr": "تابع: لماذا نشفّر؟",
+      "transcript": [
+        {
+          "text": "البروتوكول Protocol: مجموعة قواعد متفق عليها تحدد طريقة تواصل جهازين.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Protocol: a set of agreed rules that defines how two devices communicate.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏HTTP: بروتوكول نقل صفحات الويب، وبياناته تنتقل دون تشفير.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "HTTP: the protocol that carries web pages; its data travels without encryption.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏HTTPS: هو HTTP منقولًا عبر اتصال TLS مؤمَّن.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "HTTPS: HTTP carried over a secured TLS connection.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏HTTP: كارت بوستال مكشوف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "HTTP: an open postcard",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏HTTPS: ظرف مقفول ومختوم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "HTTPS: a sealed, stamped envelope",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-007",
+      "htmlId": "page-7",
+      "role": "content",
+      "descriptionAr": "تابع: لماذا نشفّر؟",
+      "transcript": [
+        {
+          "text": "بروتوكول TLS (Transport Layer Security)‎: بروتوكول أمان يعمل تحت HTTP، ويوفر السرية والسلامة والتحقق من هوية الخادم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "TLS (Transport Layer Security): a security protocol that works beneath HTTP and provides confidentiality, integrity, and verification of the server's identity.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "السرية Confidentiality: ألا يطّلع على البيانات إلا المصرح لهم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Confidentiality: only authorized people can see the data.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "السلامة Integrity: أن تصل البيانات كما أُرسلت، وأن يُكتشف أي تعديل عليها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Integrity: the data arrives as it was sent, and any change to it is detected.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "السرية: محدش يقرأ غيرنا",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Confidentiality: no one else reads it",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "السلامة: الرسالة توصل زي ما هي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Integrity: the message arrives unchanged",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "TLS",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-008",
+      "htmlId": "page-8",
+      "role": "content",
+      "descriptionAr": "تابع: لماذا نشفّر؟",
+      "transcript": [
+        {
+          "text": "التشفير Encryption: تحويل البيانات المقروءة إلى صورة غير مفهومة باستخدام مفتاح.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Encryption: turning readable data into an unreadable form using a key.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "فك التشفير Decryption: إعادة البيانات المشفرة إلى صورتها الأصلية بالمفتاح المناسب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Decryption: returning encrypted data to its original form with the right key.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المفتاح Key: قيمة تستخدمها خوارزمية التشفير؛ فطريقة التشفير قد تكون معروفة للجميع، والسر كله في المفتاح.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Key: a value used by the encryption algorithm; the method can be known to everyone, and the whole secret is in the key.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "النص الأصلي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Plaintext",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تشفير بالمفتاح",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Encrypt with the key",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "النص المشفر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Ciphertext",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "فك التشفير بالمفتاح",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Decrypt with the key",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-009",
+      "htmlId": "page-9",
+      "role": "content",
+      "descriptionAr": "مفتاح واحد أم مفتاحان؟",
+      "transcript": [
+        {
+          "text": "مفتاح واحد أم مفتاحان؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "One Key or Two?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يتفق أحمد ومنى على شفرة: كل حرف يتحرك 3 خطوات، فلا يفهم سمير الرسالة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Ahmed and Mona agree on a code: every letter moves 3 steps, so Samir cannot understand the message.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كل حرف يتحرك 3 خطوات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Each letter moves 3 steps",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "HELLO",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "KHOOR",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "شفرة بسيطة للتوضيح فقط",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A simple code for illustration only",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "توقّع 1",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "PREDICT 1",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أحمد ومنى لا يعرفان بعضهما أصلًا. كيف يتفقان على الشفرة دون أن يسمع سمير؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Ahmed and Mona have never met. How can they agree on the code without Samir hearing?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-010",
+      "htmlId": "page-10",
+      "role": "content",
+      "descriptionAr": "تابع: مفتاح واحد أم مفتاحان؟",
+      "transcript": [
+        {
+          "text": "التشفير المتماثل Common-key (Symmetric): المفتاح نفسه يشفّر ويفك التشفير، فلا بد أن يكون عند الطرفين.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Common-key (symmetric) cryptography: the same key encrypts and decrypts, so both sides must have it.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ميزته: سريع جدًا مع البيانات الكثيرة. ومشكلته: كيف يصل المفتاح إلى الطرف الآخر بأمان أول مرة؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Its strength: very fast with large amounts of data. Its problem: how does the key reach the other side safely the first time?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "زي مفتاح الشقة: نفس المفتاح يقفل ويفتح.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Like a flat key: the same key locks and unlocks.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نفس المفتاح",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Same key",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يقفل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Locks",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يفتح",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Unlocks",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-011",
+      "htmlId": "page-11",
+      "role": "content",
+      "descriptionAr": "تابع: مفتاح واحد أم مفتاحان؟",
+      "transcript": [
+        {
+          "text": "التشفير بالمفتاح العام Public-key (Asymmetric): يستخدم زوجًا من المفاتيح المرتبطة رياضيًا: مفتاحًا عامًا يُنشر للجميع، ومفتاحًا خاصًا لا يغادر صاحبه أبدًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Public-key (asymmetric) cryptography: it uses a pair of mathematically linked keys: a public key shared with everyone, and a private key that never leaves its owner.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ما يُشفَّر بالمفتاح العام لا يفكه إلا المفتاح الخاص المقابل له.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "What is encrypted with the public key can only be decrypted by its matching private key.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ميزته: لا يحتاج إلى سر مشترك مسبقًا. وعيبه: أبطأ بكثير من التشفير المتماثل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Its strength: it needs no shared secret in advance. Its drawback: it is much slower than common-key cryptography.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المفتاح العام: يُنشر للجميع",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Public key: shared with everyone",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المفتاح الخاص: لا يغادر صاحبه",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Private key: never leaves its owner",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-012",
+      "htmlId": "page-12",
+      "role": "content",
+      "descriptionAr": "تابع: مفتاح واحد أم مفتاحان؟",
+      "transcript": [
+        {
+          "text": "زي قفل مفتوح «تِك» توزّع نسخه على الناس كلها: أي حد يقفل بيه، لكن المفتاح اللي يفتحه في جيبك إنت بس.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Like an open snap padlock you hand out to everyone: anyone can lock with it, but only you hold the key that opens it.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المفتاح العام: القفل اللي مع الكل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Public key: the padlock everyone has",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المفتاح الخاص: في جيبك وحدك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Private key: only in your pocket",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جرّب بنفسك 2",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "TRY IT 2",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لو نشرت منى قفلها للجميع، هل يستطيع سمير أن يفتح صندوقًا قفله أحمد بهذا القفل؟ لماذا؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "If Mona gives her padlock to everyone, can Samir open a box that Ahmed locked with it? Why?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-013",
+      "htmlId": "page-13",
+      "role": "content",
+      "descriptionAr": "تابع: مفتاح واحد أم مفتاحان؟",
+      "transcript": [
+        {
+          "text": "في التشفير: المرسل يقفل بالمفتاح العام للمستقبل، والمستقبل يفتح بمفتاحه الخاص.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In encryption: the sender locks with the receiver's public key, and the receiver opens with their private key.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في التوقيع: صاحب التوقيع يوقّع بمفتاحه الخاص، وأي شخص يتحقق بمفتاحه العام.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In signing: the signer signs with their private key, and anyone verifies with the signer's public key.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الخاص دايمًا عند صاحبه: يفتح رسايله، ويمضي باسمه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The private key always stays with its owner: it opens their messages and signs in their name.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يقفل بالعام",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Locks with public",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يفتح بالخاص",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Opens with private",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يوقّع بالخاص",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Signs with private",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يتحقق بالعام",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Verifies with public",
           "lang": "en",
           "dir": "ltr"
         }
@@ -879,45 +955,55 @@
       "id": "page-014",
       "htmlId": "page-14",
       "role": "content",
-      "descriptionAr": "مثال: تقنيات الأمان عند الشراء عبر الإنترنت",
+      "descriptionAr": "كيف يتفق غريبان على سر؟",
       "transcript": [
         {
-          "text": "(2) مثلًا، عند شراء منتج عبر التسوق الإلكتروني، تُجمع هذه التقنيات وتُستخدم على النحو التالي:",
+          "text": "كيف يتفق غريبان على سر؟",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "(2) For example, when purchasing a product through online shopping, these technologies are combined and used as follows.",
+          "text": "How Do Two Strangers Agree on a Secret?",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "① عندما تدخل إلى الموقع، يبدأ اتصال HTTPS، ويمنع التشفير أطرافًا ثالثة من قراءة محتوى الاتصال.",
+          "text": "مصافحة TLS (TLS handshake): الخطوات الأولى قبل إرسال أي بيانات؛ يقدّم فيها الخادم شهادته، ويتحقق المتصفح منها، ويتفق الطرفان على مفاتيح الجلسة.",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "① When you access the site, HTTPS communication begins, and encryption prevents communication content from being read by third parties.",
+          "text": "TLS handshake: the first steps before any data is sent; the server presents its certificate, the browser checks it, and both sides agree on session keys.",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "② يفحص المتصفح الشهادة الرقمية للتأكد من أن الوجهة هي موقع التسوق الحقيقي.",
+          "text": "مفتاح الجلسة Session key: مفتاح متماثل مؤقت يُنشأ لاتصال واحد، ثم يُهمَل بعد انتهائه.",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "② The browser checks the digital certificate to confirm that the destination is the genuine shopping site.",
+          "text": "Session key: a temporary common key created for one connection and discarded when it ends.",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "③ عند تسجيل الدخول إلى الحساب، تمنع المصادقة متعددة العوامل، التي تجمع مثلًا بين كلمة المرور والمصادقة عبر الرسائل القصيرة SMS، تسجيل الدخول غير المصرح به.",
+          "text": "مصافحة",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "③ For account login, multi-factor authentication combining a password and SMS authentication, etc., prevents unauthorized logins.",
+          "text": "Handshake",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مفتاح الجلسة: صالح لاتصال واحد",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Session key: valid for one connection",
           "lang": "en",
           "dir": "ltr"
         }
@@ -927,45 +1013,65 @@
       "id": "page-015",
       "htmlId": "page-15",
       "role": "content",
-      "descriptionAr": "التوقيع الرقمي عند إرسال الطلب",
+      "descriptionAr": "تابع: كيف يتفق غريبان على سر؟",
       "transcript": [
         {
-          "text": "④ عند إرسال تفاصيل الطلب، يمكن أيضًا استخدام التوقيع الرقمي حتى يمكن اكتشاف أي تلاعب أثناء الاتصال.",
+          "text": "الحل الأول: القفل المفتوح",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "④ When sending order details, a digital signature can also be used so that tampering during communication can be detected.",
+          "text": "Solution 1: The Open Padlock",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "توضيح: يكتشف TLS نفسه التلاعب أثناء النقل، أما التوقيع الرقمي فيُستخدم عندما يلزم إثبات مصدر بيانات أو رسالة محددة.",
+          "text": "منى تعطي أحمد قفلًا مفتوحًا، وتحتفظ بمفتاحه. يضع أحمد مفتاح الشفرة في صندوق، ويقفله بقفل منى، ويرسله.",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Clarification: TLS itself already detects tampering in transit; a digital signature is used when the origin of specific data or a message must be proven.",
+          "text": "Mona gives Ahmed an open padlock and keeps its key. Ahmed puts the code key in a box, locks it with Mona's padlock, and sends it.",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "(3) بالجمع بين عدة تقنيات بهذه الطريقة، يمكن التصدي في آن واحد لتهديدات متنوعة، مثل «التنصت» و«التلاعب» و«انتحال الهوية» و«تسجيل الدخول غير المصرح به».",
+          "text": "يرى سمير الصندوق ولا يستطيع فتحه، ومنى وحدها تفتحه. هذه هي الطريقة التي يشرحها الكتاب.",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "(3) By combining multiple technologies in this way, various threats such as “eavesdropping,” “tampering,” “impersonation,” and “unauthorized login” can be addressed simultaneously.",
+          "text": "Samir sees the box but cannot open it; only Mona can. This is the method the book explains.",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "جهة إصدار الشهادات تضمن أن الموقع حقيقي.",
+          "text": "قفل منى (المفتاح العام)",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "A certificate authority vouches that a site is genuine.",
+          "text": "Mona's padlock (public key)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مفتاح منى (المفتاح الخاص)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Mona's key (private key)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مفتاح الشفرة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Code key",
           "lang": "en",
           "dir": "ltr"
         }
@@ -975,25 +1081,85 @@
       "id": "page-016",
       "htmlId": "page-16",
       "role": "content",
-      "descriptionAr": "إجابة السؤال الرئيسي",
+      "descriptionAr": "تابع: كيف يتفق غريبان على سر؟",
       "transcript": [
         {
-          "text": "إجابة السؤال الرئيسي",
+          "text": "الحل الثاني: خلط الألوان",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Lesson Question — Answered",
+          "text": "Solution 2: Mixing Colors",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "تناول الدرس كيف تحافظ تقنيات التشفير والمصادقة على أمان الاتصال والخدمات. يجمع HTTPS بين التشفير بالمفتاح العام، المستخدم لمشاركة مفتاح بأمان، والتشفير بالمفتاح المشترك، المستخدم لتبادل البيانات بسرعة، فيكون الاتصال آمنًا وسريعًا معًا. وبعيدًا عن الاتصال، تظل الخدمات آمنة بالجمع بين عدة تقنيات: التشفير يُخفي المحتوى، والشهادات الرقمية تُثبت أن الموقع حقيقي، والتوقيعات الرقمية تكتشف التلاعب، والمصادقة متعددة العوامل تمنع تسجيل الدخول غير المصرح به. لذلك يأتي الأمان عبر الإنترنت من تكديس هذه التقنيات في طبقات، بحيث تُعالَج تهديدات كثيرة في الوقت نفسه.",
+          "text": "1 يتفق أحمد ومنى علنًا على اللون الأصفر، وسمير يسمع.",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "The lesson asked how cryptographic technologies and authentication keep communication and services secure. HTTPS combines public-key cryptography — used to share a key safely — with common-key cryptography — used to exchange data quickly — so communication is both secure and fast. Beyond communication, services stay safe by combining several technologies: encryption hides content, digital certificates prove a site is genuine, digital signatures detect tampering, and multi-factor authentication blocks unauthorized logins. Security online therefore comes from layering these technologies so that many threats are addressed at the same time.",
+          "text": "1 Ahmed and Mona openly agree on yellow, and Samir hears.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 يختار أحمد لونًا سريًا أحمر، وتختار منى لونًا سريًا أزرق.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 Ahmed picks a secret red, and Mona picks a secret blue.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "3 كلٌّ منهما يخلط لونه السري بالأصفر، ويرسل الخليط علنًا: برتقالي من أحمد، وأخضر من منى.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 Each one mixes their secret color with yellow and sends the mix openly: orange from Ahmed, green from Mona.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اللون العام",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Public color",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "سر أحمد",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Ahmed's secret",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "سر منى",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Mona's secret",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خليط يُرسَل علنًا",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Mix sent openly",
           "lang": "en",
           "dir": "ltr"
         }
@@ -1003,60 +1169,1723 @@
       "id": "page-017",
       "htmlId": "page-17",
       "role": "content",
-      "descriptionAr": "الخلاصة",
+      "descriptionAr": "تابع: كيف يتفق غريبان على سر؟",
       "transcript": [
         {
-          "text": "الخلاصة: تذكّر: يستخدم HTTPS التشفير بالمفتاح العام لمشاركة مفتاح بأمان، والتشفير بالمفتاح المشترك لنقل البيانات بسرعة. وتظل الخدمات آمنة بتكديس التشفير والشهادات والتوقيعات والمصادقة متعددة العوامل في طبقات.",
+          "text": "4 يضيف أحمد لونه السري إلى خليط منى، وتضيف منى لونها السري إلى خليط أحمد، فيصل الاثنان إلى لون نهائي واحد.",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "Key takeaway — Remember: HTTPS uses public-key cryptography to share a key safely and common-key cryptography to move data quickly. Services stay safe by layering encryption, certificates, signatures, and multi-factor authentication.",
+          "text": "4 Ahmed adds his secret color to Mona's mix, and Mona adds hers to Ahmed's mix, so both reach the same final color.",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "مصطلحات أساسية | KEY TERMS",
+          "text": "5 مع سمير الأصفر والخليطان، لكنه لا يستطيع فصل الألوان ليصل إلى اللون النهائي.",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "الشهادة الرقمية: تُثبت أن الموقع حقيقي.",
-          "lang": "ar",
-          "dir": "rtl"
-        },
-        {
-          "text": "digital certificate — proves a site is genuine.",
+          "text": "5 Samir has the yellow and both mixes, but he cannot separate the colors to reach the final color.",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "المصادقة متعددة العوامل: تمنع تسجيل الدخول غير المصرح به.",
+          "text": "المفتاح ما اتبعتش أصلًا… اتحسب عند كل واحد.",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "multi-factor authentication — blocks unauthorized logins.",
+          "text": "The key was never sent… each side calculated it.",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "التشفير: يحافظ على خصوصية المحتوى.",
+          "text": "اللون النهائي نفسه",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "encryption — keeps content private.",
+          "text": "The same final color",
           "lang": "en",
           "dir": "ltr"
         },
         {
-          "text": "التوقيع الرقمي: يكتشف التلاعب، ويوفر عدم التنصل.",
+          "text": "سمير لا يستطيع",
           "lang": "ar",
           "dir": "rtl"
         },
         {
-          "text": "digital signature — detects tampering; gives non-repudiation.",
+          "text": "Samir cannot",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-018",
+      "htmlId": "page-18",
+      "role": "content",
+      "descriptionAr": "تابع: كيف يتفق غريبان على سر؟",
+      "transcript": [
+        {
+          "text": "معلومة تميّزك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "BEYOND THE BOOK",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هذه فكرة اتفاق المفاتيح Diffie-Hellman. والإصدار TLS 1.3 ألغى طريقة إرسال المفتاح داخل صندوق، ويستخدم هذه الطريقة في كل اتصال.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "This is the idea of Diffie-Hellman key agreement. TLS 1.3 removed the key-in-a-box method and uses this method in every connection.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ولأن مفاتيح الجلسة تُحسب من جديد في كل اتصال ثم تُهمل، فإن سرقة مفتاح الخادم لاحقًا لا تكشف الاتصالات القديمة. وهذا اسمه السرية الأمامية Forward Secrecy.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Because session keys are calculated fresh for each connection and then discarded, stealing the server's key later does not expose old connections. This is called Forward Secrecy.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-019",
+      "htmlId": "page-19",
+      "role": "content",
+      "descriptionAr": "تابع: كيف يتفق غريبان على سر؟",
+      "transcript": [
+        {
+          "text": "الشاحنة المصفحة والموتوسيكل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Armored Truck and the Motorbike",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التشفير بالمفتاح العام شاحنة مصفحة: آمنة جدًا، لكنها بطيئة. والتشفير المتماثل موتوسيكل دليفري: سريع جدًا، لكنه يحتاج إلى مفتاح مشترك.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Public-key cryptography is an armored truck: very safe, but slow. Common-key cryptography is a delivery motorbike: very fast, but it needs a shared key.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الحل: أرسل مفتاح الموتوسيكل مرة واحدة في الشاحنة، ثم وزّع كل الطلبات بالموتوسيكل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The solution: send the motorbike's key once in the truck, then deliver all the orders by motorbike.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "شاحنة مصفحة: المفتاح العام",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Armored truck: public-key",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "موتوسيكل: التشفير المتماثل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Motorbike: common-key",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-020",
+      "htmlId": "page-20",
+      "role": "content",
+      "descriptionAr": "تابع: كيف يتفق غريبان على سر؟",
+      "transcript": [
+        {
+          "text": "العام يوصّل المفتاح… والمتماثل يشيل البيانات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Public-key delivers the key… common-key carries the data.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جرّب بنفسك 3",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "TRY IT 3",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لو استخدم HTTPS الشاحنة المصفحة لكل البيانات، ماذا سيحدث لسرعة تحميل صفحة فيها فيديو؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "If HTTPS used the armored truck for all the data, what would happen to the loading speed of a page with a video?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "سريع",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Fast",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "بطيء",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Slow",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-021",
+      "htmlId": "page-21",
+      "role": "content",
+      "descriptionAr": "إنت مين يا موقع؟",
+      "transcript": [
+        {
+          "text": "إنت مين يا موقع؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Who Are You, Website?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الشهادة الرقمية Digital certificate: وثيقة إلكترونية تربط اسم نطاق بمفتاح عام، وتوقّعها جهة موثوقة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Digital certificate: an electronic document that links a domain name to a public key, signed by a trusted authority.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جهة إصدار الشهادات CA (Certificate Authority): جهة يثق بها المتصفح، تتحقق من صاحب النطاق ثم توقّع شهادته.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Certificate authority (CA): an organization the browser trusts; it checks the domain owner and then signs their certificate.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جهة إصدار الشهادات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Certificate authority",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الشهادة: بطاقة هوية الموقع",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Certificate: the site's ID card",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اسم النطاق + المفتاح العام",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Domain name + public key",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-022",
+      "htmlId": "page-22",
+      "role": "content",
+      "descriptionAr": "تابع: إنت مين يا موقع؟",
+      "transcript": [
+        {
+          "text": "اسم النطاق Domain name: الاسم المكتوب في شريط العنوان، مثل example.com.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Domain name: the name written in the address bar, like example.com.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الشهادة هي بطاقة الرقم القومي بتاعة الموقع، وجهة الإصدار هي السجل المدني اللي طلّعها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The certificate is the site's national ID card, and the authority is the civil registry that issued it.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جرّب بنفسك 4",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "TRY IT 4",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "افتح أي موقع واضغط على القفل بجوار العنوان. ما اسم الجهة التي أصدرت شهادته؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Open any site and click the padlock next to the address. What is the name of the authority that issued its certificate?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-023",
+      "htmlId": "page-23",
+      "role": "content",
+      "descriptionAr": "تابع: إنت مين يا موقع؟",
+      "transcript": [
+        {
+          "text": "سلسلة الثقة Chain of trust: الشهادة موقّعة من جهة، وهذه الجهة موقّعة من جهة أعلى، حتى نصل إلى جهة جذرية مخزنة مسبقًا في المتصفح أو نظام التشغيل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Chain of trust: the certificate is signed by an authority, which is signed by a higher authority, up to a root authority already stored in the browser or the operating system.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "القفل في شريط العنوان يعني أن الاتصال مشفر، وأن الشهادة صالحة لاسم الموقع.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The padlock in the address bar means the connection is encrypted and the certificate is valid for the site's name.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "شهادة الموقع",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Site certificate",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جهة وسيطة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Intermediate authority",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الجهة الجذرية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Root authority",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-024",
+      "htmlId": "page-24",
+      "role": "content",
+      "descriptionAr": "تابع: إنت مين يا موقع؟",
+      "transcript": [
+        {
+          "text": "انتبه",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "WATCH OUT",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "القفل لا يعني أن الموقع أمين؛ فموقع محتال قد يملك قفلًا وشهادة صحيحة لاسمه هو. راجع اسم النطاق حرفًا حرفًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The padlock does not mean the site is honest; a scam site can have a padlock and a valid certificate for its own name. Check the domain name letter by letter.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الاسم الحقيقي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Real name",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اسم يختلف بحرف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Name off by one letter",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-025",
+      "htmlId": "page-25",
+      "role": "content",
+      "descriptionAr": "مين غيّر الرسالة؟",
+      "transcript": [
+        {
+          "text": "مين غيّر الرسالة؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Who Changed the Message?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "البصمة (دالة التجزئة) Hash: دالة تحوّل أي بيانات، مهما طالت، إلى بصمة قصيرة ثابتة الطول.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Hash: a function that turns any data, however long, into a short fingerprint of fixed length.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "بيانات بأي طول",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Data of any length",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "بصمة قصيرة ثابتة الطول",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Short fixed-length fingerprint",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "توقّع 2",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "PREDICT 2",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لو غيّر سمير الرقم 1 إلى 10 في الطلب، هل تبقى البصمة كما هي؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "If Samir changes 1 to 10 in the order, will the fingerprint stay the same?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-026",
+      "htmlId": "page-26",
+      "role": "content",
+      "descriptionAr": "تابع: مين غيّر الرسالة؟",
+      "transcript": [
+        {
+          "text": "التوقيع الرقمي Digital signature: يحسب المرسل بصمة الرسالة ويوقّعها بمفتاحه الخاص، ويتحقق المستقبل منها بالمفتاح العام للمرسل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Digital signature: the sender calculates the message's hash and signs it with their private key, and the receiver checks it with the sender's public key.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "إذا فشل التحقق، فالرسالة عُدّلت أو لم تصدر عن صاحب المفتاح.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "If the check fails, the message was changed or did not come from the key's owner.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "البصمة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Hash",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يوقّع بالمفتاح الخاص",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Signs with private key",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يتحقق بالمفتاح العام",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Verifies with public key",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-027",
+      "htmlId": "page-27",
+      "role": "content",
+      "descriptionAr": "تابع: مين غيّر الرسالة؟",
+      "transcript": [
+        {
+          "text": "عدم التنصل Non-repudiation: ألا يستطيع الموقّع أن ينكر توقيعه لاحقًا، لأن مفتاحه الخاص وحده ينتج هذا التوقيع، ما دام قد حافظ على سريته.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Non-repudiation: the signer cannot later deny signing, because only their private key produces this signature, as long as they kept it secret.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الشهادة تسأل: مين ده؟ والتوقيع يسأل: الكلام اتغيّر؟ ومين قاله؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The certificate asks: Who is this? The signature asks: Was it changed? Who said it?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«مش أنا!» ← مرفوض",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "\"Not me!\" → rejected",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التوقيع يثبت المرسل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The signature proves the sender",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-028",
+      "htmlId": "page-28",
+      "role": "content",
+      "descriptionAr": "تابع: مين غيّر الرسالة؟",
+      "transcript": [
+        {
+          "text": "معلومة تميّزك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "BEYOND THE BOOK",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الشهادة نفسها تحمل توقيعًا رقميًا من جهة الإصدار؛ فهي توقيع يضمن هوية الموقع.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The certificate itself carries a digital signature from the authority; it is a signature that guarantees the site's identity.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "وفي HTTPS يحمي TLS سلامة البيانات أثناء النقل، أما التوقيع الرقمي فيحمي رسالة أو وثيقة بعينها حتى بعد وصولها وحفظها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In HTTPS, TLS protects data integrity in transit, while a digital signature protects a specific message or document even after it arrives and is stored.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "TLS: أثناء النقل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "TLS: in transit",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التوقيع: حتى بعد الحفظ",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Signature: even after storage",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-029",
+      "htmlId": "page-29",
+      "role": "content",
+      "descriptionAr": "إثبت إنك إنت",
+      "transcript": [
+        {
+          "text": "إثبت إنك إنت",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Prove It's You",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المصادقة Authentication: التحقق من أن من يطلب الدخول هو فعلًا من يدّعي أنه هو.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Authentication: checking that the person asking to log in really is who they claim to be.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اللي في دماغك: المعرفة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "What's in your head: Knowledge",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اللي في جيبك: الحيازة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "What's in your pocket: Possession",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اللي هو إنت: السمات الحيوية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "What you are: Biometric",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "العوامل الثلاثة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Three Factors",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المعرفة Knowledge: شيء تعرفه، مثل كلمة المرور أو الرقم السري PIN أو إجابة سؤال سري.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Knowledge: something you know, like a password, a PIN, or the answer to a secret question.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-030",
+      "htmlId": "page-30",
+      "role": "content",
+      "descriptionAr": "تابع: إثبت إنك إنت",
+      "transcript": [
+        {
+          "text": "الحيازة Possession: شيء تملكه، مثل الهاتف أو البطاقة الذكية أو مفتاح الأمان.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Possession: something you have, like a phone, a smart card, or a security key.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "السمات الحيوية Biometric: صفة في جسمك، مثل بصمة الإصبع أو الوجه أو قزحية العين.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Biometric: something you are, like a fingerprint, your face, or the iris of your eye.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المصادقة الثنائية 2FA: عاملان من فئتين مختلفتين. والمصادقة متعددة العوامل MFA: عاملان أو أكثر من فئات مختلفة؛ فالثنائية حالة خاصة منها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Two-factor authentication (2FA): two factors from two different categories. Multi-factor authentication (MFA): two or more factors from different categories; so 2FA is a special case of it.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-031",
+      "htmlId": "page-31",
+      "role": "content",
+      "descriptionAr": "تابع: إثبت إنك إنت",
+      "transcript": [
+        {
+          "text": "مثال تعرفه: ماكينة الصراف الآلي ATM تطلب البطاقة (حيازة) والرقم السري (معرفة).",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "An example you know: the ATM asks for the card (possession) and the PIN (knowledge).",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أما خطوتان من العامل نفسه، مثل كلمتي مرور، فليستا مصادقة متعددة العوامل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "But two steps from the same factor, like two passwords, are not multi-factor authentication.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "عِدّ الفئات… مش الخطوات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Count the categories… not the steps.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "البطاقة: حيازة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Card: possession",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الرقم السري: معرفة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "PIN: knowledge",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-032",
+      "htmlId": "page-32",
+      "role": "content",
+      "descriptionAr": "تابع: إثبت إنك إنت",
+      "transcript": [
+        {
+          "text": "لعبة: فئة ولا خطوة؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Game: Category or Step?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ضع ○ إذا كانت التركيبة مصادقة متعددة العوامل، و× إذا لم تكن.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Put ○ if the combination is multi-factor authentication, and × if it is not.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أ كلمة مرور + كلمة مرور ثانية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "a Password + a second password",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ب كلمة مرور + سؤال سري",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "b Password + secret question",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جـ كلمة مرور + رمز على الهاتف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "c Password + a code on the phone",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "د بصمة الإصبع + بطاقة ذكية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "d Fingerprint + smart card",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هـ بصمة الإصبع + الوجه",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "e Fingerprint + face",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-033",
+      "htmlId": "page-33",
+      "role": "content",
+      "descriptionAr": "تابع: إثبت إنك إنت",
+      "transcript": [
+        {
+          "text": "كلمة المرور لمرة واحدة OTP: رمز مؤقت يصلح مرة واحدة، ويثبت أنك تملك الجهاز؛ لذلك هو عامل حيازة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "One-time password (OTP): a temporary code that works only once and proves you own the device; so it is a possession factor.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الأمان ثلاثي النطاقات ‎3-D Secure: طبقة تحقق إضافية عند الدفع بالبطاقة عبر الإنترنت، يطلب فيها البنك رمزًا أو تأكيدًا منك.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3-D Secure: an extra check when paying by card online, where the bank asks you for a code or a confirmation.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "رمز لمرة واحدة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "One-time code",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يحترق بعد الاستخدام",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Burns after use",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-034",
+      "htmlId": "page-34",
+      "role": "content",
+      "descriptionAr": "تابع: إثبت إنك إنت",
+      "transcript": [
+        {
+          "text": "معلومة تميّزك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "BEYOND THE BOOK",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "رمز الرسائل القصيرة SMS عامل حيازة، لكنه من أضعف الخيارات؛ لذلك تصنّفه هيئة المعايير الأمريكية NIST «مقيّدًا»، وتطبيقات المصادقة ومفاتيح الأمان أقوى منه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "An SMS code is a possession factor, but one of the weakest options; so the US standards body NIST classifies it as \"restricted,\" and authenticator apps and security keys are stronger.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "SMS: أضعف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "SMS: weaker",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تطبيق مصادقة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Authenticator app",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مفتاح أمان: أقوى",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Security key: stronger",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-035",
+      "htmlId": "page-35",
+      "role": "content",
+      "descriptionAr": "القصة كاملة: منى تشتري سماعة",
+      "transcript": [
+        {
+          "text": "القصة كاملة: منى تشتري سماعة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Whole Story: Mona Buys Headphones",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "1 تكتب منى اسم المتجر فيظهر القفل، وتبدأ مصافحة TLS.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 Mona types the shop's name, the padlock appears, and the TLS handshake begins.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 يقدّم المتجر شهادته، ويسأل المتصفح: هل وقّعتها جهة أثق بها؟ وهل الاسم مطابق للعنوان؟ ← الشهادة الرقمية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 The shop presents its certificate, and the browser asks: Did an authority I trust sign it? Does the name match the address? → Digital certificate.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "منى",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Mona",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "فحص الشهادة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Certificate check",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-036",
+      "htmlId": "page-36",
+      "role": "content",
+      "descriptionAr": "تابع: القصة كاملة: منى تشتري سماعة",
+      "transcript": [
+        {
+          "text": "3 يحسب الطرفان مفتاح جلسة مشتركًا، ثم تنتقل البيانات مشفرة بسرعة ← التشفير.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 Both sides calculate a shared session key, then the data travels encrypted and fast → Encryption.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "4 تكتب منى كلمة المرور، فيصلها رمز على هاتفها ← المصادقة متعددة العوامل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "4 Mona types her password, and a code reaches her phone → Multi-factor authentication.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "5 عند الدفع، يطلب البنك تأكيدًا عبر ‎3-D Secure ← طبقة إضافية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "5 At payment, the bank asks for confirmation through 3-D Secure → an extra layer.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نفق مشفر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Encrypted tunnel",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "رمز على الهاتف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Code on the phone",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تأكيد البنك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Bank confirmation",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-037",
+      "htmlId": "page-37",
+      "role": "content",
+      "descriptionAr": "تابع: القصة كاملة: منى تشتري سماعة",
+      "transcript": [
+        {
+          "text": "6 في بعض الأنظمة يُوقَّع الطلب رقميًا، فيُكتشف أي تعديل عليه، ولا يستطيع أحد إنكاره ← التوقيع الرقمي.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "6 In some systems the order is digitally signed, so any change to it is detected and no one can deny it → Digital signature.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جرّب بنفسك 5",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "TRY IT 5",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "شيل طبقة واحدة: لو اختفت الشهادة الرقمية، ماذا يمكن أن يحدث لمنى حتى لو كان الاتصال مشفرًا؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Remove one layer: if the digital certificate disappeared, what could happen to Mona even if the connection were encrypted?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-038",
+      "htmlId": "page-38",
+      "role": "content",
+      "descriptionAr": "تابع: القصة كاملة: منى تشتري سماعة",
+      "transcript": [
+        {
+          "text": "هل منى في أمان 100%؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Is Mona 100% Safe?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لا. لو اتصل بها شخص يدّعي أنه من البنك، وأعطته الرمز، فلن تحميها أي تقنية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "No. If someone calls her pretending to be from the bank and she gives him the code, no technology will protect her.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الهندسة الاجتماعية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "SOCIAL ENGINEERING",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الهندسة الاجتماعية Social engineering: خداع الإنسان نفسه ليكشف كلمة مروره أو رمزه. البنك لا يطلب منك الرمز أبدًا في مكالمة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Social engineering: tricking the person into revealing their password or code. Your bank never asks you for the code in a call.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«اديني الكود»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "\"Give me the code\"",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لا تعطِ الرمز لأحد",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Never share the code",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-039",
+      "htmlId": "page-39",
+      "role": "content",
+      "descriptionAr": "ركن الامتحان",
+      "transcript": [
+        {
+          "text": "ركن الامتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Exam Corner",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "فخاخ تتكرر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Common Traps",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الفخ 1",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "TRAP 1",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏«HTTPS يشفّر كل البيانات بالمفتاح العام» ← خطأ؛ لأنه بطيء، والبيانات تُشفَّر بالتشفير المتماثل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "\"HTTPS encrypts all data with public-key cryptography\" → false; it is slow, and the data is encrypted with common-key cryptography.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الفخ 2",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "TRAP 2",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«كلمة مرور + سؤال سري = مصادقة متعددة العوامل» ← خطأ؛ لأن الاثنين معرفة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "\"Password + secret question = multi-factor authentication\" → false; both are knowledge.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-040",
+      "htmlId": "page-40",
+      "role": "content",
+      "descriptionAr": "تابع: ركن الامتحان",
+      "transcript": [
+        {
+          "text": "الفخ 3",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "TRAP 3",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«التوقيع الرقمي يحسّن سرعة الاتصال» ← خطأ؛ فالتوقيع للسلامة والهوية لا للسرعة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "\"A digital signature improves communication speed\" → false; the signature is for integrity and identity, not speed.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الفخ 4",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "TRAP 4",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«القفل يعني أن الموقع أمين» ← خطأ؛ فالقفل يعني أن الاتصال مشفر وأن الشهادة مطابقة للاسم فقط.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "\"The padlock means the site is honest\" → false; it only means the connection is encrypted and the certificate matches the name.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نصيحة الامتحان: في أي سؤال «طابِق التهديد بالتقنية»، اسأل نفسك: أي سؤال من الأسئلة الأربعة؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Exam tip: in any \"match the threat to the technology\" question, ask yourself: which of the four questions is it?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-041",
+      "htmlId": "page-41",
+      "role": "content",
+      "descriptionAr": "تابع: ركن الامتحان",
+      "transcript": [
+        {
+          "text": "سؤال الدرجات الست",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "THE 6-MARK QUESTION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اشرح لماذا يستخدم HTTPS التشفير بالمفتاح العام لمشاركة المفتاح، لكنه يستخدم التشفير المتماثل لتبادل البيانات. [6 درجات] استعن بـ: الأمان والسرعة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Explain why HTTPS uses public-key cryptography to share the key but common-key cryptography to exchange the data. [6] Refer to: security and speed.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الإجابة الكاملة ثلاث نقاط، لكل نقطة درجتان: الأمان، ثم السرعة، ثم الربط.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The full answer has three points, two marks each: security, then speed, then the link.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الأمان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Security",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "السرعة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Speed",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الربط",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Link",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-042",
+      "htmlId": "page-42",
+      "role": "content",
+      "descriptionAr": "تابع: ركن الامتحان",
+      "transcript": [
+        {
+          "text": "نموذج الإجابة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Model Answer",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "1 الأمان: التشفير بالمفتاح العام يسمح بمشاركة المفتاح دون سر مشترك مسبق، والمفتاح الخاص لا يغادر الخادم، فلا يحصل المتنصت على المفتاح المشترك.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 Security: public-key cryptography lets the key be shared without a prior shared secret, and the private key never leaves the server, so the eavesdropper cannot get the shared key.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 السرعة: التشفير بالمفتاح العام بطيء ويحتاج إلى حسابات كثيرة، أما التشفير المتماثل فسريع ومناسب للكميات الكبيرة من البيانات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 Speed: public-key cryptography is slow and needs heavy calculation, while common-key cryptography is fast and suits large amounts of data.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-043",
+      "htmlId": "page-43",
+      "role": "content",
+      "descriptionAr": "تابع: ركن الامتحان",
+      "transcript": [
+        {
+          "text": "3 الربط: يُستخدم كلٌّ في موضع قوته؛ العام مرة واحدة لمشاركة المفتاح، والمتماثل لبقية الاتصال، فيتحقق الأمان والسرعة معًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 The link: each is used where it is strongest; public-key once to share the key, and common-key for the rest of the connection, so security and speed are achieved together.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الربط هو الذي يأخذ الدرجة الأخيرة؛ أغلب الطلاب يشرحون كل نوع وحده وينسون أن يقولوا لماذا نجمعهما.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The link is what earns the last marks; most students explain each type alone and forget to say why we combine them.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-044",
+      "htmlId": "page-44",
+      "role": "content",
+      "descriptionAr": "بطاقة المراجعة الأخيرة",
+      "transcript": [
+        {
+          "text": "بطاقة المراجعة الأخيرة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Final Review Card",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "1 الأمان طبقات، ولا توجد تقنية واحدة تكفي.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 Security comes in layers; no single technology is enough.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 مين يقرأ؟ ← التشفير. مين غيّر؟ ← التوقيع. مين الموقع؟ ← الشهادة. مين المستخدم؟ ← المصادقة متعددة العوامل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 Who reads? → Encryption. Who changed it? → Signature. Who is the site? → Certificate. Who is the user? → Multi-factor authentication.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "3 العام يوصّل المفتاح، والمتماثل يشيل البيانات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 Public-key delivers the key; common-key carries the data.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-045",
+      "htmlId": "page-45",
+      "role": "content",
+      "descriptionAr": "تابع: بطاقة المراجعة الأخيرة",
+      "transcript": [
+        {
+          "text": "4 الخاص دايمًا عند صاحبه: يفتح رسايله، ويمضي باسمه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "4 The private key always stays with its owner: it opens their messages and signs in their name.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "5 العوامل الثلاثة: اللي تعرفه، واللي معاك، واللي هو إنت.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "5 The three factors: what you know, what you have, and what you are.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "6 عِدّ الفئات مش الخطوات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "6 Count the categories, not the steps.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "7 القفل مش معناه إن الموقع أمين.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "7 The padlock does not mean the site is honest.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-046",
+      "htmlId": "page-46",
+      "role": "content",
+      "descriptionAr": "حلول جرّب وتوقّع",
+      "transcript": [
+        {
+          "text": "حلول جرّب وتوقّع",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Answers to Try It and Predict",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جرّب 1: «إنت مين يا موقع؟»؛ الاسم المختلف بحرف علامة موقع مزيف، والبنك لا يطلب كلمة المرور في رسالة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Try It 1: \"Who are you, website?\"; a name off by one letter is a sign of a fake site, and the bank does not ask for your password in a message.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "توقّع 1: بالتشفير بالمفتاح العام؛ صندوق يُقفل بقفل منى، أو حساب المفتاح عند الطرفين دون إرساله.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Predict 1: with public-key cryptography; a box locked with Mona's padlock, or both sides calculating the key without sending it.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جرّب 2: لا؛ لأن القفل يُغلق بالمفتاح العام، ولا يفتحه إلا المفتاح الخاص الذي مع منى وحدها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Try It 2: No; the padlock closes with the public key, and only the private key, which Mona alone holds, opens it.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-047",
+      "htmlId": "page-47",
+      "role": "content",
+      "descriptionAr": "تابع: حلول جرّب وتوقّع",
+      "transcript": [
+        {
+          "text": "جرّب 3: يصبح التحميل بطيئًا جدًا؛ لأن التشفير بالمفتاح العام يحتاج إلى حسابات كثيرة، والفيديو بيانات كبيرة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Try It 3: loading becomes very slow; public-key cryptography needs heavy calculation, and a video is a large amount of data.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جرّب 4: تختلف الإجابة من موقع إلى آخر؛ المهم أن تجد اسم الجهة في بيانات الشهادة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Try It 4: the answer differs from site to site; what matters is finding the authority's name in the certificate details.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "توقّع 2: لا؛ تغيير حرف أو رقم واحد يغيّر البصمة تمامًا، فيُكتشف التعديل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Predict 2: No; changing one letter or number changes the hash completely, so the change is detected.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-048",
+      "htmlId": "page-48",
+      "role": "content",
+      "descriptionAr": "تابع: حلول جرّب وتوقّع",
+      "transcript": [
+        {
+          "text": "لعبة «فئة ولا خطوة؟»: أ × (معرفة + معرفة)، ب × (معرفة + معرفة)، جـ ○ (معرفة + حيازة)، د ○ (سمات حيوية + حيازة)، هـ × (سمات حيوية + سمات حيوية).",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "\"Category or Step?\" game: a × (knowledge + knowledge), b × (knowledge + knowledge), c ○ (knowledge + possession), d ○ (biometric + possession), e × (biometric + biometric).",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جرّب 5: قد تتصل منى بموقع مزيف اتصالًا مشفرًا تمامًا، فتعطي بياناتها للمحتال نفسه؛ التشفير وحده لا يكفي.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Try It 5: Mona could connect to a fake site over a fully encrypted connection and give her details to the scammer himself; encryption alone is not enough.",
           "lang": "en",
           "dir": "ltr"
         }

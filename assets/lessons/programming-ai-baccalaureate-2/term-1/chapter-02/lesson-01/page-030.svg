@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Bullet markers -->
+<circle cx="966" cy="144" r="6" fill="#c0392b"/>
+<circle cx="966" cy="344" r="6" fill="#c0392b"/>
+
+<!-- Possession icons: phone -->
+<g transform="translate(740 228)">
+  <rect x="12" y="0" width="32" height="56" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="17" y="6" width="22" height="40" rx="2" fill="#4fc3e8"/>
+  <circle cx="28" cy="51" r="2.5" fill="#8fc9f2"/>
+</g>
+<!-- Possession icons: smart card -->
+<g transform="translate(814 232)">
+  <rect x="0" y="4" width="60" height="40" rx="6" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="8" y="13" width="14" height="11" rx="2" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="8" y="32" width="40" height="4" rx="2" fill="#c96a1b"/>
+</g>
+<!-- Possession icons: security key -->
+<g transform="translate(900 228)">
+  <rect x="4" y="18" width="36" height="22" rx="8" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="40" y="22" width="14" height="14" rx="2" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="11" cy="29" r="3.5" fill="#ffffff"/>
+  <circle cx="27" cy="29" r="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Biometric icons: fingerprint -->
+<g transform="translate(740 430)">
+  <circle cx="28" cy="28" r="26" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M14 36 Q13 14 28 12 Q43 14 42 36" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M20 40 Q19 20 28 19 Q37 20 36 40" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M26 42 Q25 27 28 26 Q31 27 30 42" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+<!-- Biometric icons: face recognition -->
+<g transform="translate(822 430)">
+  <path d="M2 14 L2 2 L14 2" fill="none" stroke="#2f7fb5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M42 2 L54 2 L54 14" fill="none" stroke="#2f7fb5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M54 42 L54 54 L42 54" fill="none" stroke="#2f7fb5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M14 54 L2 54 L2 42" fill="none" stroke="#2f7fb5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M13 50 Q14 41 28 41 Q42 41 43 50 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="28" cy="25" r="11" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="24" cy="24" r="2" fill="#22303f"/>
+  <circle cx="32" cy="24" r="2" fill="#22303f"/>
+</g>
+<!-- Biometric icons: eye / iris -->
+<g transform="translate(904 430)">
+  <path d="M2 28 Q28 4 54 28 Q28 52 2 28 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="28" cy="28" r="10" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="28" cy="28" r="4" fill="#22303f"/>
+</g>
+
+<!-- MFA icon: shield with check -->
+<g transform="translate(862 742)">
+  <path d="M30 2 L56 12 L56 30 Q56 50 30 60 Q4 50 4 30 L4 12 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M18 31 L27 40 L43 22" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<!-- Emotion face: smile -->
+<g transform="translate(892 864)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Illustration: one door, two different open locks, phone and fingerprint -->
+<g>
+  <defs>
+    <linearGradient id="ilWall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="ilLight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd24a"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="ilDoor" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f7fb5"/>
+      <stop offset="1" stop-color="#17457f"/>
+    </linearGradient>
+    <linearGradient id="ilScreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4fc3e8"/>
+      <stop offset="1" stop-color="#dff1f7"/>
+    </linearGradient>
+  </defs>
+  <!-- shadows -->
+  <rect x="444" y="964" width="200" height="294" rx="10" fill="#22303f" opacity=".18"/>
+  <rect x="240" y="996" width="74" height="128" rx="14" fill="#22303f" opacity=".18"/>
+  <circle cx="840" cy="1178" r="50" fill="#22303f" opacity=".18"/>
+  <polygon points="164,1212 208,1212 202,1256 170,1256" fill="#22303f" opacity=".18"/>
+  <!-- wall backdrop and floor -->
+  <ellipse cx="540" cy="1112" rx="410" ry="146" fill="url(#ilWall)"/>
+  <ellipse cx="540" cy="1252" rx="330" ry="8" fill="#8fc9f2" opacity=".35"/>
+  <!-- door frame and lit opening -->
+  <rect x="440" y="958" width="200" height="294" rx="10" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="456" y="974" width="168" height="278" fill="url(#ilLight)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="604,1252 624,1252 712,1262 596,1262" fill="#ffd24a" opacity=".35"/>
+  <!-- door panel, slightly open -->
+  <polygon points="456,974 604,990 604,1236 456,1252" fill="url(#ilDoor)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="476,1000 586,1010 586,1098 476,1098" fill="#8fc9f2" opacity=".35"/>
+  <polygon points="476,1122 586,1122 586,1214 476,1224" fill="#8fc9f2" opacity=".35"/>
+  <circle cx="590" cy="1112" r="7" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <!-- doormat -->
+  <rect x="470" y="1252" width="140" height="8" rx="4" fill="#f0c48c" stroke="#22303f" stroke-width="2"/>
+  <!-- lock 1: round green padlock, open -->
+  <path d="M513 1044 L513 1022 Q513 1004 528 1004 Q543 1004 543 1022 L543 1028 L537 1028 L537 1023 Q537 1011 528 1011 Q519 1011 519 1023 L519 1044 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="527" cy="1062" r="24" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="527" cy="1058" r="4.5" fill="#22303f"/>
+  <rect x="525.5" y="1060" width="3" height="11" rx="1.5" fill="#22303f"/>
+  <circle cx="566" cy="1024" r="11" fill="#2e7d32" stroke="#22303f" stroke-width="2"/>
+  <path d="M561 1024 L565 1028 L572 1020" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- lock 2: shield-shaped orange lock, open -->
+  <path d="M513 1150 L513 1130 Q513 1114 528 1114 Q543 1114 543 1130 L543 1136 L537 1136 L537 1131 Q537 1121 528 1121 Q519 1121 519 1131 L519 1150 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="503,1148 553,1148 553,1176 528,1196 503,1176" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="528" cy="1166" r="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="568" cy="1132" r="11" fill="#2e7d32" stroke="#22303f" stroke-width="2"/>
+  <path d="M563 1132 L567 1136 L574 1128" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- sparkles near the opened locks -->
+  <path d="M484 1010 L486.5 1016.5 L493 1019 L486.5 1021.5 L484 1028 L481.5 1021.5 L475 1019 L481.5 1016.5 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M484 1130 L486 1135 L491 1137 L486 1139 L484 1144 L482 1139 L477 1137 L482 1135 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <!-- smartphone -->
+  <rect x="236" y="990" width="74" height="128" rx="14" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="244" y="1004" width="58" height="98" rx="5" fill="url(#ilScreen)"/>
+  <circle cx="273" cy="1044" r="15" fill="#2e7d32"/>
+  <path d="M266 1044 L271 1050 L281 1038" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="254" y="1070" width="38" height="5" rx="2.5" fill="#ffffff"/>
+  <rect x="260" y="1082" width="26" height="5" rx="2.5" fill="#ffffff"/>
+  <circle cx="273" cy="1110" r="3.5" fill="#8fc9f2"/>
+  <path d="M322 1040 Q330 1050 322 1060" fill="none" stroke="#4fc3e8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M332 1032 Q344 1050 332 1068" fill="none" stroke="#4fc3e8" stroke-width="3" stroke-linecap="round"/>
+  <!-- fingerprint with scan ring -->
+  <circle cx="836" cy="1172" r="62" fill="none" stroke="#a9dcbe" stroke-width="3"/>
+  <circle cx="836" cy="1172" r="50" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M800 1166 Q806 1128 836 1126 Q866 1128 872 1166" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M806 1190 Q804 1140 836 1136 Q868 1140 866 1190" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M814 1196 Q812 1150 836 1146 Q860 1150 858 1196" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M822 1200 Q820 1160 836 1157 Q852 1160 850 1200" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M830 1202 Q829 1170 836 1168 Q844 1170 842 1202" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="796" y1="1172" x2="876" y2="1172" stroke="#2e7d32" stroke-width="2" stroke-linecap="round" opacity=".6"/>
+  <!-- potted plant -->
+  <path d="M184 1210 Q160 1176 168 1146 Q192 1172 184 1210 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M184 1210 Q208 1180 206 1150 Q180 1174 184 1210 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M184 1210 Q176 1168 186 1132 Q198 1170 184 1210 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="160,1206 204,1206 198,1250 166,1250" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- connector arrows -->
+  <line x1="352" y1="1061" x2="486" y2="1061" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="498,1061 485,1054 485,1068" fill="#c0392b"/>
+  <line x1="768" y1="1172" x2="566" y2="1172" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="554,1172 567,1165 567,1179" fill="#c0392b"/>
+</g>
+
+<!-- Bullet 1: Possession -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">الحيازة</tspan> Possession: <tspan font-weight="bold" fill="#17457f">شيء تملكه،</tspan> مثل الهاتف</tspan>
+  <tspan x="950" dy="40">أو البطاقة الذكية أو مفتاح الأمان.</tspan>
+</text>
+<text x="120" y="234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">Possession:</tspan> <tspan font-weight="bold" fill="#17457f">something you have,</tspan> like a</tspan>
+  <tspan x="120" dy="40">phone, a smart card, or a security key.</tspan>
+</text>
+
+<!-- Bullet 2: Biometric -->
+<text x="950" y="354" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">السمات الحيوية</tspan> Biometric: <tspan font-weight="bold" fill="#17457f">صفة في جسمك،</tspan> مثل</tspan>
+  <tspan x="950" dy="40">بصمة الإصبع أو الوجه أو قزحية العين.</tspan>
+</text>
+<text x="120" y="434" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">Biometric:</tspan> <tspan font-weight="bold" fill="#17457f">something you are,</tspan> like</tspan>
+  <tspan x="120" dy="40">a fingerprint, your face, or the iris</tspan>
+  <tspan x="120" dy="40">of your eye.</tspan>
+</text>
+
+<!-- Paragraph: 2FA and MFA -->
+<text x="950" y="594" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">المصادقة الثنائية</tspan> 2FA: عاملان من فئتين</tspan>
+  <tspan x="950" dy="40">مختلفتين. <tspan font-weight="bold" fill="#c0392b">والمصادقة متعددة العوامل</tspan> MFA:</tspan>
+  <tspan x="950" dy="40">عاملان أو أكثر من فئات مختلفة؛ فالثنائية</tspan>
+  <tspan x="950" dy="40"><tspan font-weight="bold" fill="#17457f">حالة خاصة</tspan> منها.</tspan>
+</text>
+<text x="120" y="754" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">Two-factor authentication</tspan> (2FA): two</tspan>
+  <tspan x="120" dy="40">factors from two different categories.</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#c0392b">Multi-factor authentication</tspan> (MFA): two</tspan>
+  <tspan x="120" dy="40">or more factors from different categories;</tspan>
+  <tspan x="120" dy="40">so 2FA is a <tspan font-weight="bold" fill="#17457f">special case</tspan> of it.</tspan>
+</text>
+</svg>

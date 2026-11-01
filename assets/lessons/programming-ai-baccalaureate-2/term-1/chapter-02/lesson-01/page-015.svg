@@ -9,8 +9,8 @@
     <stop offset="0" stop-color="#b07a45"/>
     <stop offset="1" stop-color="#7d4f28"/>
   </linearGradient>
-  <pattern id="pmRules" x="0" y="120" width="1080" height="36" patternUnits="userSpaceOnUse">
-    <line x1="0" y1="35.5" x2="1080" y2="35.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
   </pattern>
 </defs>
 <rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
@@ -21,117 +21,267 @@
 <rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
 <rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
 
-<!-- Shadows -->
-<rect x="109" y="236" width="870" height="152" rx="16" fill="#22303f" opacity=".12"/>
-<rect x="109" y="416" width="870" height="268" rx="16" fill="#22303f" opacity=".12"/>
-<rect x="109" y="848" width="870" height="188" rx="16" fill="#22303f" opacity=".12"/>
-<rect x="109" y="1136" width="870" height="80" rx="16" fill="#22303f" opacity=".12"/>
+<!-- Illustration: the open padlock scene -->
+<g>
+  <defs>
+    <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="ilBox" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fc9f2"/>
+      <stop offset="1" stop-color="#2f7fb5"/>
+    </linearGradient>
+  </defs>
+  <!-- shadows -->
+  <rect x="128" y="1060" width="832" height="20" fill="#22303f" opacity=".18"/>
+  <rect x="136" y="1080" width="16" height="178" fill="#22303f" opacity=".18"/>
+  <rect x="936" y="1080" width="16" height="178" fill="#22303f" opacity=".18"/>
 
-<!-- English band 1 -->
-<rect x="105" y="230" width="870" height="152" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
-<rect x="961" y="246" width="6" height="120" rx="3" fill="#2f7fb5"/>
+  <!-- backdrop wall -->
+  <rect x="105" y="790" width="870" height="260" rx="28" fill="url(#ilSky)"/>
+  <circle cx="150" cy="832" r="8" fill="#8fc9f2" opacity=".35"/>
+  <circle cx="140" cy="900" r="5" fill="#8fc9f2" opacity=".35"/>
+  <circle cx="948" cy="842" r="6" fill="#8fc9f2" opacity=".35"/>
+  <circle cx="624" cy="810" r="5" fill="#8fc9f2" opacity=".35"/>
 
-<!-- Clarification box (dashed red) -->
-<rect x="105" y="410" width="870" height="268" rx="16" fill="#fffdf7" stroke="#c0392b" stroke-width="2" stroke-dasharray="12 8"/>
-<rect x="961" y="426" width="6" height="236" rx="3" fill="#2f7fb5"/>
-<rect x="121" y="518" width="830" height="152" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+  <!-- left window -->
+  <rect x="350" y="820" width="70" height="92" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="358" y="828" width="54" height="76" rx="3" fill="#8fc9f2"/>
+  <rect x="383" y="828" width="4" height="76" fill="#ffffff"/>
+  <rect x="358" y="864" width="54" height="4" fill="#ffffff"/>
+  <path d="M 364 856 L 378 834" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" opacity=".6"/>
+  <rect x="344" y="910" width="82" height="8" rx="3" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
 
-<!-- English band 3 -->
-<rect x="105" y="842" width="870" height="188" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
-<rect x="961" y="858" width="6" height="156" rx="3" fill="#2f7fb5"/>
+  <!-- right window -->
+  <rect x="660" y="820" width="70" height="92" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="668" y="828" width="54" height="76" rx="3" fill="#8fc9f2"/>
+  <rect x="693" y="828" width="4" height="76" fill="#ffffff"/>
+  <rect x="668" y="864" width="54" height="4" fill="#ffffff"/>
+  <path d="M 674 856 L 688 834" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" opacity=".6"/>
+  <rect x="654" y="910" width="82" height="8" rx="3" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
 
-<!-- Caption English band -->
-<rect x="105" y="1130" width="870" height="80" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
-<rect x="961" y="1146" width="6" height="48" rx="3" fill="#2f7fb5"/>
+  <!-- Mona (left, receiver) -->
+  <path d="M 175 1044 V 978 Q 175 936 215 931 H 285 Q 325 936 325 978 V 1044 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 204 898 Q 196 822 250 818 Q 304 822 296 898 Q 300 936 272 952 H 228 Q 200 936 204 898 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="250" cy="882" rx="24" ry="28" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="241" cy="880" r="3.5" fill="#22303f"/>
+  <circle cx="259" cy="880" r="3.5" fill="#22303f"/>
+  <path d="M 241 892 Q 250 900 259 892" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
 
-<!-- Icon: shield (security) -->
-<g transform="translate(125 128)">
-  <path d="M28 4 L50 12 V28 C50 42 40 50 28 54 C16 50 6 42 6 28 V12 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M18 29 L25 36 L39 22" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Samir (middle, puzzled watcher) -->
+  <rect x="528" y="902" width="24" height="32" fill="#b57e50" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 465 1044 V 978 Q 465 936 505 931 H 575 Q 615 936 615 978 V 1044 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 522 931 L 540 952 L 558 931 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="540" cy="878" r="32" fill="#b57e50" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 508 874 Q 506 842 540 844 Q 574 842 572 874 Q 560 858 540 860 Q 520 858 508 874 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="531" cy="886" r="3.5" fill="#22303f"/>
+  <circle cx="549" cy="886" r="3.5" fill="#22303f"/>
+  <path d="M 522 872 L 534 873" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 546 870 L 558 864" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 532 900 L 548 897" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 604 950 Q 636 914 598 870 L 586 880 Q 616 912 592 944 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="584" cy="866" r="10" fill="#b57e50" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="506" cy="852" r="3.5" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="494" cy="840" r="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="474" cy="814" r="22" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 467 808 Q 467 800 474 800 Q 482 800 482 807 Q 482 813 474 815 V 820" fill="none" stroke="#17457f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="474" cy="827" r="2.5" fill="#17457f"/>
+
+  <!-- Ahmed (right, sender) -->
+  <rect x="818" y="902" width="24" height="32" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 755 1044 V 978 Q 755 936 795 931 H 865 Q 905 936 905 978 V 1044 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 812 931 L 830 952 L 848 931 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="830" cy="878" r="32" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 798 874 Q 796 842 830 844 Q 864 842 862 874 Q 850 858 830 860 Q 810 858 798 874 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="821" cy="884" r="3.5" fill="#22303f"/>
+  <circle cx="839" cy="884" r="3.5" fill="#22303f"/>
+  <path d="M 820 894 Q 830 903 840 894" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Ahmed's open box, code key going in -->
+  <polygon points="774,984 792,946 884,946 866,984" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="772,990 778,980 862,980 868,990" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <g transform="translate(850 936) rotate(90)">
+    <circle cx="0" cy="0" r="9" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="3.5" fill="#ffffff"/>
+    <rect x="8" y="-3" width="44" height="6" rx="2" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="30" y="3" width="5" height="6" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="38" y="3" width="5" height="4" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <path d="M 898 950 Q 892 922 860 920 L 858 936 Q 882 936 884 958 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="852" cy="928" r="10" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="770" y="988" width="100" height="52" rx="6" fill="url(#ilBox)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="799" y="990" width="12" height="12" rx="2" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <g transform="translate(805 1000)">
+    <path d="M -11 1 V -20 A 11 11 0 0 1 11 -20 V -12 H 6 V -20 A 6 6 0 0 0 -6 -20 V 1 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="-16" y="0" width="32" height="26" rx="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="11" r="3.5" fill="#22303f"/>
+    <rect x="-1.5" y="12" width="3" height="7" fill="#22303f"/>
+  </g>
+  <path d="M 822 968 L 828 962" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 825 977 L 833 975" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Samir's travelling box, locked -->
+  <rect x="495" y="988" width="90" height="52" rx="6" fill="url(#ilBox)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="491" y="980" width="98" height="14" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="534" y="990" width="12" height="12" rx="2" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <g transform="translate(540 1002)">
+    <path d="M -11 1 V -10 A 11 11 0 0 1 11 -10 V 1 H 6 V -10 A 6 6 0 0 0 -6 -10 V 1 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="-16" y="0" width="32" height="26" rx="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="11" r="3.5" fill="#22303f"/>
+    <rect x="-1.5" y="12" width="3" height="7" fill="#22303f"/>
+  </g>
+
+  <!-- Mona's box, opened with her private key -->
+  <rect x="200" y="988" width="110" height="52" rx="6" fill="url(#ilBox)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="196" y="980" width="118" height="14" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="249" y="990" width="12" height="12" rx="2" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <g transform="translate(255 1000)">
+    <path d="M -11 1 V -20 A 11 11 0 0 1 11 -20 V -12 H 6 V -20 A 6 6 0 0 0 -6 -20 V 1 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="-16" y="0" width="32" height="26" rx="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="11" r="3.5" fill="#22303f"/>
+    <rect x="-1.5" y="12" width="3" height="7" fill="#22303f"/>
+  </g>
+  <g transform="translate(220 1013)">
+    <circle cx="0" cy="0" r="9" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="3.5" fill="#ffffff"/>
+    <rect x="8" y="-3" width="27" height="6" rx="2" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="20" y="3" width="5" height="6" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="27" y="3" width="5" height="4" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <path d="M 182 960 Q 172 1002 208 1022 L 222 1006 Q 194 994 198 964 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="208" cy="1016" r="10" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- desk items -->
+  <rect x="116" y="1018" width="58" height="18" rx="3" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="122" y="1002" width="48" height="16" rx="3" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 928 998 Q 906 976 916 952 Q 934 972 928 998 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 928 998 Q 950 970 946 948 Q 924 966 928 998 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 928 998 Q 918 966 930 936 Q 942 966 928 998 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="908,1004 948,1004 942,1036 914,1036" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="904" y="998" width="48" height="10" rx="3" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- table -->
+  <rect x="110" y="1036" width="860" height="18" rx="6" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 128 1043 H 952" fill="none" stroke="#e8dfd1" stroke-width="2.5" stroke-linecap="round" opacity=".6"/>
+  <rect x="124" y="1054" width="832" height="20" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="132" y="1074" width="16" height="178" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="932" y="1074" width="16" height="178" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- travel arrows: Ahmed to Samir to Mona -->
+  <path d="M 752 1012 H 614" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="600,1012 614,1005 614,1019" fill="#c0392b" stroke="#c0392b" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M 484 1012 H 336" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="322,1012 336,1005 336,1019" fill="#c0392b" stroke="#c0392b" stroke-width="2.4" stroke-linejoin="round"/>
+
+  <!-- label connectors -->
+  <path d="M 540 1078 V 1044" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="540,1032 533,1044 547,1044" fill="#c0392b" stroke="#c0392b" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M 232 1162 V 1036" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="232,1024 225,1036 239,1036" fill="#c0392b" stroke="#c0392b" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M 850 1162 V 1002" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="850,990 843,1002 857,1002" fill="#c0392b" stroke="#c0392b" stroke-width="2.4" stroke-linejoin="round"/>
 </g>
 
-<!-- Icon: warning triangle (threats) -->
-<g transform="translate(125 784)">
-  <polygon points="22,2 42,40 2,40" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="22" y1="14" x2="22" y2="27" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
-  <circle cx="22" cy="33" r="2.5" fill="#22303f"/>
+<!-- Icon: lock beside the header -->
+<g transform="translate(128 94)">
+  <path d="M 12 22 V 14 A 10 10 0 0 1 32 14 V 22 H 27 V 14 A 5 5 0 0 0 17 14 V 22 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="6" y="20" width="32" height="24" rx="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="22" cy="30" r="3.5" fill="#22303f"/>
+  <rect x="20.5" y="31" width="3" height="7" fill="#22303f"/>
 </g>
 
-<!-- Sketch: certificate with seal -->
-<g transform="translate(210 1048)">
-  <rect x="4" y="6" width="110" height="58" rx="6" fill="#22303f" opacity=".18"/>
-  <rect x="0" y="0" width="110" height="58" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
-  <line x1="14" y1="14" x2="80" y2="14" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
-  <line x1="14" y1="26" x2="68" y2="26" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
-  <line x1="14" y1="38" x2="56" y2="38" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
-  <polygon points="80,46 76,62 83,58 87,64 88,48" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
-  <polygon points="96,46 100,62 93,58 89,64 88,48" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
-  <circle cx="88" cy="40" r="12" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
-  <circle cx="88" cy="40" r="5" fill="#f0c48c"/>
+<!-- Icon: two students beside paragraph 1 -->
+<g transform="translate(200 236)">
+  <path d="M 4 56 V 44 Q 4 30 18 30 H 22 Q 36 30 36 44 V 56 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="20" cy="16" r="13" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="20" cy="17" r="8" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 28 56 V 44 Q 28 30 42 30 H 46 Q 60 30 60 44 V 56 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="44" cy="17" r="11" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 33 15 Q 34 4 44 5 Q 54 4 55 15 Q 49 10 44 11 Q 39 10 33 15 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
 </g>
 
-<!-- Sketch: browser window with padlock -->
-<g transform="translate(360 1048)">
-  <rect x="4" y="6" width="130" height="62" rx="8" fill="#22303f" opacity=".18"/>
-  <rect x="0" y="0" width="130" height="62" rx="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
-  <path d="M8 0 H122 A8 8 0 0 1 130 8 V16 H0 V8 A8 8 0 0 1 8 0 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
-  <circle cx="10" cy="8" r="3" fill="#ffffff"/>
-  <circle cx="20" cy="8" r="3" fill="#ffffff"/>
-  <circle cx="30" cy="8" r="3" fill="#ffffff"/>
-  <rect x="42" y="4" width="80" height="8" rx="4" fill="#ffffff"/>
-  <path d="M57 36 V31 A8 8 0 0 1 73 31 V36" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
-  <rect x="53" y="35" width="24" height="18" rx="3" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
-  <circle cx="65" cy="43" r="2.5" fill="#ffd24a"/>
+<!-- Icon: open padlock with its key beside the English paragraph 1 -->
+<g transform="translate(790 372)">
+  <path d="M 14 32 V 14 A 14 14 0 0 1 42 14 V 20 H 36 V 14 A 8 8 0 0 0 20 14 V 32 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="6" y="30" width="44" height="32" rx="7" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="28" cy="43" r="4" fill="#22303f"/>
+  <rect x="26" y="44" width="4" height="9" fill="#22303f"/>
+  <rect x="53.5" y="18" width="5" height="30" rx="2" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="58" y="38" width="5" height="4" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="58" y="44" width="5" height="4" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="56" cy="12" r="7" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="56" cy="12" r="2.5" fill="#ffffff"/>
 </g>
 
-<!-- Text: step 4 -->
-<text x="950" y="150" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
-  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">④</tspan> عند إرسال تفاصيل الطلب، يمكن أيضًا</tspan>
-  <tspan x="950" dy="36">استخدام <tspan font-weight="bold" fill="#c0392b">التوقيع الرقمي</tspan> حتى يمكن اكتشاف</tspan>
-  <tspan x="950" dy="36">أي تلاعب أثناء الاتصال.</tspan>
+<!-- Icon: locked box beside paragraph 2 -->
+<g transform="translate(200 544)">
+  <rect x="2" y="22" width="60" height="36" rx="5" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="0" y="16" width="64" height="10" rx="3" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 24 30 V 18 A 8 8 0 0 1 40 18 V 30 H 36 V 18 A 4 4 0 0 0 28 18 V 30 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="22" y="30" width="20" height="18" rx="3" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="32" cy="38" r="2.5" fill="#22303f"/>
+</g>
+
+<!-- Face: thinking, beside the English paragraph 2 -->
+<g transform="translate(860 700)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Header -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="950" dy="0">الحل الأول: القفل المفتوح</tspan>
 </text>
-<text x="140" y="258" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
-  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">④</tspan> When sending order details,</tspan>
-  <tspan x="140" dy="36">a <tspan font-weight="bold" fill="#c0392b">digital signature</tspan> can also be used</tspan>
-  <tspan x="140" dy="36">so that tampering during communication</tspan>
-  <tspan x="140" dy="36">can be detected.</tspan>
+<text x="120" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="120" dy="0">Solution 1: The Open Padlock</tspan>
 </text>
 
-<!-- Text: clarification box -->
-<text x="935" y="438" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
-  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#17457f">توضيح:</tspan> يكتشف TLS نفسه التلاعب أثناء النقل،</tspan>
-  <tspan x="935" dy="36">أما <tspan font-weight="bold" fill="#c0392b">التوقيع الرقمي</tspan> فيُستخدم عندما يلزم إثبات</tspan>
-  <tspan x="935" dy="36">مصدر بيانات أو رسالة محددة.</tspan>
+<!-- Paragraph 1 -->
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">منى تعطي أحمد <tspan font-weight="bold" fill="#c0392b">قفلًا مفتوحًا،</tspan> وتحتفظ بمفتاحه.</tspan>
+  <tspan x="950" dy="40">يضع أحمد <tspan font-weight="bold" fill="#17457f">مفتاح الشفرة</tspan> في صندوق،</tspan>
+  <tspan x="950" dy="40">ويقفله بقفل منى، ويرسله.</tspan>
 </text>
-<text x="140" y="546" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
-  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#17457f">Clarification:</tspan> TLS itself already detects</tspan>
-  <tspan x="140" dy="36">tampering in transit; a <tspan font-weight="bold" fill="#c0392b">digital signature</tspan></tspan>
-  <tspan x="140" dy="36">is used when the origin of specific data</tspan>
-  <tspan x="140" dy="36">or a message must be proven.</tspan>
-</text>
-
-<!-- Text: pair (3) -->
-<text x="950" y="726" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
-  <tspan x="950" dy="0">(3) بالجمع بين <tspan font-weight="bold" fill="#17457f">عدة تقنيات</tspan> بهذه الطريقة، يمكن</tspan>
-  <tspan x="950" dy="36">التصدي في آن واحد <tspan font-weight="bold" fill="#c0392b">لتهديدات متنوعة،</tspan> مثل «التنصت»</tspan>
-  <tspan x="950" dy="36">و«التلاعب» و«انتحال الهوية»</tspan>
-  <tspan x="950" dy="36">و«تسجيل الدخول غير المصرح به».</tspan>
-</text>
-<text x="140" y="870" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
-  <tspan x="140" dy="0">(3) By combining <tspan font-weight="bold" fill="#17457f">multiple technologies</tspan></tspan>
-  <tspan x="140" dy="36">in this way, <tspan font-weight="bold" fill="#c0392b">various threats</tspan> such as</tspan>
-  <tspan x="140" dy="36">“eavesdropping,” “tampering,”</tspan>
-  <tspan x="140" dy="36">“impersonation,” and “unauthorized login”</tspan>
-  <tspan x="140" dy="36">can be addressed simultaneously.</tspan>
+<text x="120" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Mona gives Ahmed an <tspan font-weight="bold" fill="#c0392b">open padlock</tspan></tspan>
+  <tspan x="120" dy="40">and keeps its key. Ahmed puts the</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#17457f">code key</tspan> in a box, locks it with</tspan>
+  <tspan x="120" dy="40">Mona's padlock, and sends it.</tspan>
 </text>
 
-<!-- Text: sketch caption -->
-<text x="950" y="1086" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
-  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">جهة إصدار الشهادات</tspan> تضمن</tspan>
-  <tspan x="950" dy="36">أن الموقع حقيقي.</tspan>
+<!-- Paragraph 2 -->
+<text x="950" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">يرى سمير الصندوق ولا يستطيع فتحه،</tspan>
+  <tspan x="950" dy="40"><tspan font-weight="bold" fill="#2e7d32">ومنى وحدها تفتحه.</tspan></tspan>
+  <tspan x="950" dy="40">هذه هي الطريقة التي يشرحها الكتاب.</tspan>
 </text>
-<text x="140" y="1158" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
-  <tspan x="140" dy="0">A <tspan font-weight="bold" fill="#c0392b">certificate authority</tspan> vouches that</tspan>
-  <tspan x="140" dy="36">a site is genuine.</tspan>
+<text x="120" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Samir sees the box but cannot open it;</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#2e7d32">only Mona can.</tspan></tspan>
+  <tspan x="120" dy="40">This is the method the book explains.</tspan>
+</text>
+
+<!-- Illustration labels -->
+<text x="670" y="1120" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#3d5a76">
+  <tspan x="670" dy="0">قفل منى (المفتاح العام)</tspan>
+</text>
+<text x="360" y="1152" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#3d5a76">
+  <tspan x="360" dy="0">Mona's padlock (public key)</tspan>
+</text>
+<text x="470" y="1204" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#3d5a76">
+  <tspan x="470" dy="0">مفتاح منى (المفتاح الخاص)</tspan>
+</text>
+<text x="170" y="1236" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#3d5a76">
+  <tspan x="170" dy="0">Mona's key (private key)</tspan>
+</text>
+<text x="912" y="1204" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="26" fill="#3d5a76">
+  <tspan x="912" dy="0">مفتاح الشفرة</tspan>
+</text>
+<text x="791" y="1236" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="26" fill="#3d5a76">
+  <tspan x="791" dy="0">Code key</tspan>
 </text>
 </svg>

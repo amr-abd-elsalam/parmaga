@@ -1,0 +1,238 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Outlined card: one group (shadow, fill, accent) -->
+<g>
+  <rect x="109" y="448" width="870" height="368" rx="16" fill="#22303f" opacity=".12"/>
+  <rect x="105" y="442" width="870" height="368" rx="16" fill="#fffdf7" stroke="#9db9d6" stroke-width="2"/>
+  <rect x="961" y="458" width="6" height="336" rx="3" fill="#2f7fb5"/>
+</g>
+
+<!-- Bullets -->
+<circle cx="966" cy="144" r="6" fill="#c0392b"/>
+<circle cx="114" cy="264" r="6" fill="#c0392b"/>
+
+<!-- Main illustration: tower of four protection blocks, certificate block pulled out -->
+<g>
+  <defs>
+    <radialGradient id="ilGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#fffdf7"/>
+    </radialGradient>
+    <linearGradient id="ilLock" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f7fb5"/>
+      <stop offset="1" stop-color="#17457f"/>
+    </linearGradient>
+    <linearGradient id="ilStamp" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0c48c"/>
+      <stop offset="1" stop-color="#c96a1b"/>
+    </linearGradient>
+    <linearGradient id="ilCert" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a9dcbe"/>
+      <stop offset="1" stop-color="#2e7d32"/>
+    </linearGradient>
+    <linearGradient id="ilPrint" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dff1f7"/>
+    </linearGradient>
+    <linearGradient id="ilSleeve" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f7fb5"/>
+      <stop offset="1" stop-color="#17457f"/>
+    </linearGradient>
+  </defs>
+  <circle cx="540" cy="1050" r="200" fill="url(#ilGlow)"/>
+  <!-- shadows -->
+  <rect x="364" y="1216" width="380" height="14" rx="7" fill="#22303f" opacity=".18"/>
+  <rect x="434" y="1146" width="220" height="70" rx="8" fill="#22303f" opacity=".18"/>
+  <rect x="434" y="1076" width="220" height="70" rx="8" fill="#22303f" opacity=".18"/>
+  <rect x="294" y="1006" width="220" height="70" rx="8" fill="#22303f" opacity=".18"/>
+  <g transform="rotate(10 512 1000)">
+    <rect x="434" y="936" width="220" height="70" rx="8" fill="#22303f" opacity=".18"/>
+  </g>
+  <rect x="122" y="1020" width="140" height="42" rx="14" fill="#22303f" opacity=".18"/>
+  <!-- base plate -->
+  <rect x="360" y="1210" width="380" height="14" rx="7" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <!-- block 1: padlock -->
+  <polygon points="650,1140 668,1122 668,1192 650,1210" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="430" y="1140" width="220" height="70" rx="8" fill="url(#ilLock)" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="446" y1="1150" x2="634" y2="1150" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity=".35"/>
+  <path d="M524 1166 V1160 A16 16 0 0 1 556 1160 V1166" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <rect x="512" y="1164" width="56" height="38" rx="8" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="540" cy="1180" r="5" fill="#22303f"/>
+  <rect x="538" y="1182" width="4" height="12" rx="2" fill="#22303f"/>
+  <!-- block 2: stamp -->
+  <polygon points="650,1070 668,1052 668,1122 650,1140" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="430,1070 448,1052 668,1052 650,1070" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="430" y="1070" width="220" height="70" rx="8" fill="url(#ilStamp)" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="446" y1="1080" x2="634" y2="1080" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity=".6"/>
+  <circle cx="540" cy="1086" r="8" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="535" y="1093" width="10" height="11" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="512" y="1104" width="56" height="14" rx="4" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="506" y="1124" width="68" height="6" rx="3" fill="#c0392b"/>
+  <!-- dust where the block left -->
+  <circle cx="566" cy="1062" r="5" fill="#e8dfd1" stroke="#22303f" stroke-width="2"/>
+  <circle cx="592" cy="1058" r="4" fill="#e8dfd1" stroke="#22303f" stroke-width="2"/>
+  <circle cx="620" cy="1062" r="6" fill="#e8dfd1" stroke="#22303f" stroke-width="2"/>
+  <!-- block 3: certificate, pulled out -->
+  <polygon points="510,1000 528,982 528,1052 510,1070" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="290,1000 308,982 528,982 510,1000" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="290" y="1000" width="220" height="70" rx="8" fill="url(#ilCert)" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="306" y1="1010" x2="494" y2="1010" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity=".6"/>
+  <rect x="372" y="1010" width="66" height="46" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="382" y1="1022" x2="428" y2="1022" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+  <line x1="382" y1="1031" x2="428" y2="1031" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+  <line x1="382" y1="1040" x2="408" y2="1040" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="424,1054 420,1068 426,1064 431,1068 430,1054" fill="#c0392b" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="427" cy="1048" r="9" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <!-- arm and hand -->
+  <rect x="118" y="1014" width="140" height="42" rx="14" fill="url(#ilSleeve)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="242" y="1009" width="22" height="52" rx="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="282" cy="1035" rx="28" ry="25" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="302" cy="993" rx="16" ry="7" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="294" y="1012" width="32" height="12" rx="6" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="294" y="1028" width="34" height="12" rx="6" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="294" y="1044" width="30" height="12" rx="6" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <!-- block 4: fingerprint, tilting into the gap -->
+  <g transform="rotate(10 512 1000)">
+    <polygon points="650,930 668,912 668,982 650,1000" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="430,930 448,912 668,912 650,930" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="430" y="930" width="220" height="70" rx="8" fill="url(#ilPrint)" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M514 986 Q512 944 540 944 Q568 944 566 986" fill="none" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+    <path d="M522 988 Q520 952 540 952 Q560 952 558 988" fill="none" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+    <path d="M530 988 Q529 960 540 960 Q551 960 550 988" fill="none" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+    <path d="M540 970 V988" fill="none" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <!-- wobble lines and tipping arrow -->
+  <path d="M700 930 Q712 942 704 958" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M718 918 Q736 940 722 966" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M640 892 Q690 884 706 906" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="712,918 698,908 714,900" fill="#c0392b"/>
+  <!-- pull arrow -->
+  <line x1="410" y1="1095" x2="264" y2="1095" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="248,1095 266,1086 266,1104" fill="#c0392b"/>
+  <!-- warning triangle -->
+  <polygon points="790,866 822,922 758,922" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="787" y="884" width="6" height="22" rx="3" fill="#c0392b"/>
+  <circle cx="790" cy="914" r="3.5" fill="#c0392b"/>
+  <!-- sparkles -->
+  <path d="M190 900 L196 914 L210 920 L196 926 L190 940 L184 926 L170 920 L184 914 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M880 1150 L885 1162 L897 1167 L885 1172 L880 1184 L875 1172 L863 1167 L875 1162 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="230" cy="1170" r="6" fill="#8fc9f2" stroke="#22303f" stroke-width="2"/>
+  <circle cx="850" cy="1040" r="6" fill="#a9dcbe" stroke="#22303f" stroke-width="2"/>
+</g>
+
+<!-- Memory drawing: signed document with seal, pen and check badge -->
+<g>
+  <g transform="rotate(-5 850 326)">
+    <rect x="804" y="272" width="100" height="120" rx="8" fill="#22303f" opacity=".18"/>
+    <rect x="800" y="266" width="100" height="120" rx="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <line x1="814" y1="290" x2="886" y2="290" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+    <line x1="814" y1="304" x2="886" y2="304" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+    <line x1="814" y1="318" x2="864" y2="318" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+    <path d="M814 352 C 824 334, 834 366, 844 346 S 862 340, 870 354" fill="none" stroke="#17457f" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="880" cy="366" r="9" fill="#c0392b" stroke="#22303f" stroke-width="2"/>
+  </g>
+  <g transform="rotate(-40 790 360)">
+    <rect x="760" y="354" width="60" height="10" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2"/>
+    <polygon points="820,354 832,359 820,364" fill="#e8dfd1" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  </g>
+  <circle cx="912" cy="376" r="18" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M903 376 L910 383 L922 369" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: key -->
+<g transform="translate(330 140)">
+  <circle cx="16" cy="28" r="12" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="16" cy="28" r="4" fill="#fffdf7" stroke="#22303f" stroke-width="2"/>
+  <rect x="27" y="24" width="27" height="8" rx="3" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="44" y="31" width="6" height="9" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+  <rect x="35" y="31" width="5" height="6" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+</g>
+
+<!-- Icon: pencil beside TRY IT 5 -->
+<g transform="translate(305 474)">
+  <g transform="rotate(-35 22 22)">
+    <rect x="0" y="16" width="8" height="12" rx="3" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="8" y="16" width="28" height="12" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <polygon points="36,16 46,22 36,28" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="42,20 46,22 42,24" fill="#22303f"/>
+  </g>
+</g>
+
+<!-- Icon: layers with the middle one pulled out -->
+<g transform="translate(180 552)">
+  <polygon points="28,32 52,42 28,52 4,42" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="16,18 40,28 16,38 -8,28" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="28,4 52,14 28,24 4,14" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Thought cloud with a mini tower missing a block -->
+<g>
+  <circle cx="822" cy="730" r="5" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <circle cx="838" cy="716" r="7" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <ellipse cx="894" cy="682" rx="48" ry="32" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="880" y="696" width="28" height="9" rx="2" fill="#2f7fb5" stroke="#22303f" stroke-width="2"/>
+  <rect x="880" y="686" width="28" height="9" rx="2" fill="#f0c48c" stroke="#22303f" stroke-width="2"/>
+  <rect x="862" y="676" width="28" height="9" rx="2" fill="#a9dcbe" stroke="#22303f" stroke-width="2"/>
+  <rect x="882" y="664" width="28" height="9" rx="2" fill="#c0392b" stroke="#22303f" stroke-width="2" transform="rotate(12 896 668)"/>
+</g>
+
+<!-- Thinking face -->
+<g transform="translate(790 760)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Text -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">6 في بعض الأنظمة يُوقَّع الطلب رقميًا،</tspan>
+  <tspan x="950" dy="40">فيُكتشف <tspan font-weight="bold" fill="#17457f">أي تعديل</tspan> عليه، ولا يستطيع أحد</tspan>
+  <tspan x="950" dy="40">إنكاره ← <tspan font-weight="bold" fill="#c0392b">التوقيع الرقمي.</tspan></tspan>
+</text>
+<text x="132" y="274" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">6 In some systems the order is digitally</tspan>
+  <tspan x="132" dy="40">signed, so <tspan font-weight="bold" fill="#17457f">any change</tspan> to it is detected</tspan>
+  <tspan x="132" dy="40">and no one can deny it</tspan>
+  <tspan x="132" dy="40">→ <tspan font-weight="bold" fill="#c0392b">Digital signature.</tspan></tspan>
+</text>
+<text x="935" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="935" dy="0">جرّب بنفسك 5</tspan>
+</text>
+<text x="140" y="514" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="140" dy="0">TRY IT 5</tspan>
+</text>
+<text x="935" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">شيل طبقة واحدة: لو اختفت <tspan font-weight="bold" fill="#c0392b">الشهادة</tspan></tspan>
+  <tspan x="935" dy="40"><tspan font-weight="bold" fill="#c0392b">الرقمية،</tspan> ماذا يمكن أن يحدث لمنى</tspan>
+  <tspan x="935" dy="40">حتى لو كان الاتصال <tspan font-weight="bold" fill="#17457f">مشفرًا؟</tspan></tspan>
+</text>
+<text x="140" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">Remove one layer: if the <tspan font-weight="bold" fill="#c0392b">digital</tspan></tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#c0392b">certificate</tspan> disappeared, what could</tspan>
+  <tspan x="140" dy="40">happen to Mona even if the connection</tspan>
+  <tspan x="140" dy="40">were <tspan font-weight="bold" fill="#17457f">encrypted?</tspan></tspan>
+</text>
+</svg>

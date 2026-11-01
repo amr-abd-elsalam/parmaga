@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilPieceL" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#f0c48c"/>
+  </linearGradient>
+  <linearGradient id="ilPieceR" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#8fc9f2"/>
+  </linearGradient>
+  <linearGradient id="ilShield" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<rect x="109" y="528" width="870" height="248" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="522" width="870" height="248" rx="16" fill="#e9f7ee" stroke="#a9dcbe" stroke-width="2"/>
+<rect x="961" y="538" width="6" height="216" rx="3" fill="#2e7d32"/>
+
+<circle cx="966" cy="144" r="6" fill="#c0392b"/>
+<circle cx="114" cy="304" r="6" fill="#c0392b"/>
+
+<g stroke-linecap="round" stroke-linejoin="round">
+  <path d="M318 926 L398 926 C393 898 413 886 428 886 C443 886 463 898 458 926 L538 926 L538 1011 C566 1006 584 1018 584 1036 C584 1054 566 1066 538 1061 L538 1146 L318 1146 Z" fill="#22303f" opacity=".18"/>
+  <path d="M550 926 L770 926 L770 1011 C798 1006 816 1018 816 1036 C816 1054 798 1066 770 1061 L770 1146 L710 1146 C715 1174 695 1186 680 1186 C665 1186 645 1174 650 1146 L550 1146 L550 1061 C578 1066 596 1054 596 1036 C596 1018 578 1006 550 1011 Z" fill="#22303f" opacity=".18"/>
+  <ellipse cx="540" cy="1208" rx="330" ry="14" fill="#a9dcbe" opacity=".6"/>
+  <path d="M270 990 L292 990 M262 1020 L288 1020 M272 1050 L292 1050" fill="none" stroke="#8fc9f2" stroke-width="3"/>
+  <path d="M832 990 L854 990 M836 1060 L862 1060 M832 1090 L852 1090" fill="none" stroke="#8fc9f2" stroke-width="3"/>
+  <polygon points="250,900 254,910 264,914 254,918 250,928 246,918 236,914 246,910" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="850,890 853,897 860,900 853,903 850,910 847,903 840,900 847,897" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="268" cy="1150" r="7" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="842" cy="1160" r="6" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M314 920 L394 920 C389 892 409 880 424 880 C439 880 459 892 454 920 L534 920 L534 1005 C562 1000 580 1012 580 1030 C580 1048 562 1060 534 1055 L534 1140 L314 1140 Z" fill="url(#ilPieceL)" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M546 920 L766 920 L766 1005 C794 1000 812 1012 812 1030 C812 1048 794 1060 766 1055 L766 1140 L706 1140 C711 1168 691 1180 676 1180 C661 1180 641 1168 646 1140 L546 1140 L546 1055 C574 1060 592 1048 592 1030 C592 1012 574 1000 546 1005 Z" fill="url(#ilPieceR)" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M330 940 L330 1000 M780 940 L780 980" fill="none" stroke="#ffffff" stroke-width="3" opacity=".85"/>
+  <path d="M360 1080 A80 80 0 0 1 520 1080 L520 1092 Q520 1102 510 1102 L370 1102 Q360 1102 360 1092 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M370 1080 A70 70 0 0 1 405 1019.38 L411 1029.77 A58 58 0 0 0 382 1080 Z" fill="#2e7d32"/>
+  <path d="M405 1019.38 A70 70 0 0 1 475 1019.38 L469 1029.77 A58 58 0 0 0 411 1029.77 Z" fill="#c96a1b"/>
+  <path d="M475 1019.38 A70 70 0 0 1 510 1080 L498 1080 A58 58 0 0 0 469 1029.77 Z" fill="#2f7fb5"/>
+  <path d="M396.7 1055 L403.63 1059 M415 1036.7 L419 1043.63 M440 1030 L440 1038 M465 1036.7 L461 1043.63 M483.3 1055 L476.37 1059" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="450.77,1018.94 445.91,1081.04 434.09,1078.96" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="440" cy="1080" r="10" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="440" cy="1080" r="3.5" fill="#ffffff"/>
+  <rect x="420" y="1102" width="40" height="20" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="400" y="1120" width="80" height="12" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M680 958 C656 974 636 978 620 978 L620 1034 C620 1078 650 1104 680 1118 C710 1104 740 1078 740 1034 L740 978 C724 978 704 974 680 958 Z" fill="url(#ilShield)" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M680 976 C662 987 646 990 634 990 L634 1034 C634 1068 656 1090 680 1102 C704 1090 726 1068 726 1034 L726 990 C714 990 698 987 680 976 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M644 1002 L644 1036 C644 1060 654 1076 668 1088" fill="none" stroke="#8fc9f2" stroke-width="3"/>
+  <circle cx="680" cy="1028" r="12" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="673,1036 687,1036 691,1068 669,1068" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M528 1156 L522 1170 M540 1158 L540 1174 M552 1156 L558 1170" fill="none" stroke="#2f7fb5" stroke-width="3"/>
+  <path d="M540 822 L540 810 M578 842 L589 836 M502 842 L491 836" fill="none" stroke="#c96a1b" stroke-width="3"/>
+  <polygon points="540,836 546.47,853.1 564.73,853.97 550.46,865.4 555.28,883.03 540,873 524.72,883.03 529.54,865.4 515.27,853.97 533.53,853.1" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="535" cy="858" r="3" fill="#ffffff"/>
+</g>
+
+<g transform="translate(220 224)" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3"/>
+</g>
+
+<g transform="translate(290 176)" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M10 44 L30 10 L50 44 L10 44" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="30" cy="10" r="8" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="10" cy="44" r="8" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="50" cy="44" r="8" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<g transform="translate(850 330)" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="4" y="18" width="30" height="20" rx="10" fill="none" stroke="#2f7fb5" stroke-width="5"/>
+  <rect x="24" y="18" width="30" height="20" rx="10" fill="none" stroke="#c96a1b" stroke-width="5"/>
+</g>
+
+<g transform="translate(132 532)" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="24,2 29.29,16.72 44.92,17.2 32.56,26.78 36.93,41.8 24,33 11.07,41.8 15.44,26.78 3.08,17.2 18.71,16.72" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<g transform="translate(870 666)" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M2 8 L7 12 M46 8 L41 12 M24 -2 L24 2" fill="none" stroke="#c96a1b" stroke-width="2.5"/>
+  <circle cx="24" cy="22" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="16" y="36" width="16" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M18 18 Q24 12 30 18" fill="none" stroke="#ffffff" stroke-width="2.5"/>
+</g>
+
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">3 الربط: يُستخدم كلٌّ في موضع قوته؛</tspan>
+  <tspan x="950" dy="40">العام مرة واحدة لمشاركة المفتاح،</tspan>
+  <tspan x="950" dy="40">والمتماثل لبقية الاتصال،</tspan>
+  <tspan x="950" dy="40">فيتحقق الأمان والسرعة معًا.</tspan>
+</text>
+<text x="132" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">3 The link: each is used where</tspan>
+  <tspan x="132" dy="40">it is strongest; public-key once to</tspan>
+  <tspan x="132" dy="40">share the key, and common-key for the</tspan>
+  <tspan x="132" dy="40">rest of the connection, so security</tspan>
+  <tspan x="132" dy="40">and speed are achieved together.</tspan>
+</text>
+
+<text x="935" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">الربط</tspan> هو الذي يأخذ الدرجة الأخيرة؛</tspan>
+  <tspan x="935" dy="40">أغلب الطلاب يشرحون كل نوع وحده</tspan>
+  <tspan x="935" dy="40">وينسون أن يقولوا <tspan font-weight="bold" fill="#17457f">لماذا نجمعهما.</tspan></tspan>
+</text>
+<text x="140" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">The link</tspan> is what earns the last marks;</tspan>
+  <tspan x="140" dy="40">most students explain each type alone</tspan>
+  <tspan x="140" dy="40">and forget to say <tspan font-weight="bold" fill="#17457f">why we combine them.</tspan></tspan>
+</text>
+</svg>
