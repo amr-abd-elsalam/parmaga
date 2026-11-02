@@ -1,0 +1,239 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Success card: shadow, fill, accent in one group -->
+<g>
+  <rect x="109" y="128" width="870" height="528" rx="16" fill="#22303f" opacity=".12"/>
+  <rect x="105" y="122" width="870" height="528" rx="16" fill="#e9f7ee" stroke="#a9dcbe" stroke-width="2"/>
+  <rect x="961" y="138" width="6" height="496" rx="3" fill="#2e7d32"/>
+</g>
+
+<!-- Icon: stopwatch, half dial for 30 seconds -->
+<g>
+  <rect x="173" y="274" width="18" height="6" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="177" y="280" width="10" height="8" rx="2" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="182" cy="310" r="24" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M182 310 V292 A18 18 0 0 1 182 328 Z" fill="#a9dcbe"/>
+  <path d="M182 310 V326" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="182" cy="310" r="3" fill="#22303f"/>
+</g>
+
+<!-- Face: smile for encouragement -->
+<g>
+  <circle cx="292" cy="308" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="283" cy="302" r="3.5" fill="#22303f"/>
+  <circle cx="301" cy="302" r="3.5" fill="#22303f"/>
+  <path d="M 281 315 Q 292 325 303 315" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Illustration: the full loop of a web application, one group -->
+<g>
+  <defs>
+    <linearGradient id="ilDisc" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dff1f7"/>
+    </linearGradient>
+    <linearGradient id="ilSrv" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f7fb5"/>
+      <stop offset="1" stop-color="#17457f"/>
+    </linearGradient>
+    <linearGradient id="ilDb" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f0c48c"/>
+      <stop offset="1" stop-color="#c96a1b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- shadows -->
+  <ellipse cx="544" cy="758" rx="268" ry="66" fill="#22303f" opacity=".18"/>
+  <rect x="459" y="674" width="170" height="104" rx="10" fill="#22303f" opacity=".18"/>
+  <rect x="758" y="726" width="76" height="100" rx="8" fill="#22303f" opacity=".18"/>
+  <path d="M250 734 A42 12 0 0 1 334 734 V812 A42 12 0 0 1 250 812 Z" fill="#22303f" opacity=".18"/>
+
+  <!-- base line and loop platform -->
+  <rect x="120" y="978" width="840" height="8" rx="4" fill="#dff1f7"/>
+  <ellipse cx="540" cy="752" rx="268" ry="66" fill="url(#ilDisc)" stroke="#8fc9f2" stroke-width="2"/>
+
+  <!-- browser window (top) -->
+  <rect x="455" y="668" width="170" height="104" rx="10" fill="#ffffff"/>
+  <path d="M455 692 V678 Q455 668 465 668 H615 Q625 668 625 678 V692 Z" fill="#17457f"/>
+  <circle cx="468" cy="680" r="3.5" fill="#c0392b"/>
+  <circle cx="480" cy="680" r="3.5" fill="#ffd24a"/>
+  <circle cx="492" cy="680" r="3.5" fill="#a9dcbe"/>
+  <rect x="502" y="674" width="112" height="12" rx="6" fill="#dff1f7"/>
+  <rect x="467" y="702" width="58" height="44" rx="5" fill="#8fc9f2"/>
+  <circle cx="513" cy="712" r="5" fill="#ffd24a"/>
+  <polygon points="469,744 486,722 503,744" fill="#2f7fb5"/>
+  <polygon points="493,744 507,730 523,744" fill="#17457f"/>
+  <rect x="535" y="704" width="78" height="7" rx="3.5" fill="#7f95ab"/>
+  <rect x="535" y="716" width="58" height="7" rx="3.5" fill="#7f95ab"/>
+  <rect x="535" y="729" width="78" height="16" rx="4" fill="#ffffff" stroke="#2f7fb5" stroke-width="2"/>
+  <path d="M541 733 V741" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="467" y="751" width="80" height="13" rx="6.5" fill="#ffd24a"/>
+  <rect x="559" y="751" width="54" height="13" rx="6.5" fill="#2e7d32"/>
+  <rect x="455" y="668" width="170" height="104" rx="10" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- student with a laptop beside the browser -->
+  <rect x="401" y="778" width="9" height="22" rx="3" fill="#17457f"/>
+  <rect x="414" y="778" width="9" height="22" rx="3" fill="#17457f"/>
+  <ellipse cx="405" cy="801" rx="7" ry="3.5" fill="#22303f"/>
+  <ellipse cx="419" cy="801" rx="7" ry="3.5" fill="#22303f"/>
+  <rect x="397" y="742" width="30" height="38" rx="10" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="408" y="737" width="8" height="7" fill="#e8b98d"/>
+  <circle cx="412" cy="728" r="12" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M400 727 Q400 714 412 714 Q424 714 424 727 Q418 720 412 721 Q405 721 400 727 Z" fill="#2b211c"/>
+  <circle cx="408" cy="728" r="1.8" fill="#22303f"/>
+  <circle cx="416" cy="728" r="1.8" fill="#22303f"/>
+  <path d="M407 733 Q412 737 417 733" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="404" y="748" width="38" height="24" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="408" y="752" width="30" height="16" rx="2" fill="#4fc3e8"/>
+  <rect x="412" y="756" width="14" height="5" rx="2.5" fill="#ffffff"/>
+  <polygon points="400,772 446,772 442,778 404,778" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="402" cy="775" r="4" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="444" cy="775" r="4" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- server with gears (lower right) -->
+  <rect x="754" y="720" width="76" height="100" rx="8" fill="url(#ilSrv)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="762" y="730" width="60" height="22" rx="4" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="762" y="759" width="60" height="22" rx="4" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="762" y="788" width="60" height="22" rx="4" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="769" y="739" width="24" height="4" rx="2" fill="#dff1f7"/>
+  <rect x="769" y="768" width="24" height="4" rx="2" fill="#dff1f7"/>
+  <rect x="769" y="797" width="24" height="4" rx="2" fill="#dff1f7"/>
+  <circle cx="802" cy="741" r="3.5" fill="#ffd24a"/>
+  <circle cx="802" cy="770" r="3.5" fill="#a9dcbe"/>
+  <circle cx="802" cy="799" r="3.5" fill="#a9dcbe"/>
+  <polygon points="857.6,730.3 863.7,730.6 863.7,737.4 857.6,737.7 855.6,742.4 859.8,746.9 854.9,751.8 850.4,747.6 845.7,749.6 845.4,755.7 838.6,755.7 838.3,749.6 833.6,747.6 829.1,751.8 824.2,746.9 828.4,742.4 826.4,737.7 820.3,737.4 820.3,730.6 826.4,730.3 828.4,725.6 824.2,721.1 829.1,716.2 833.6,720.4 838.3,718.4 838.6,712.3 845.4,712.3 845.7,718.4 850.4,720.4 854.9,716.2 859.8,721.1 855.6,725.6" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="842" cy="734" r="6" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="868.4,773.5 871.6,775.0 870.1,778.8 866.7,777.6 864.6,779.7 865.8,783.1 862.0,784.6 860.5,781.4 857.5,781.4 856.0,784.6 852.2,783.1 853.4,779.7 851.3,777.6 847.9,778.8 846.4,775.0 849.6,773.5 849.6,770.5 846.4,769.0 847.9,765.2 851.3,766.4 853.4,764.3 852.2,760.9 856.0,759.4 857.5,762.6 860.5,762.6 862.0,759.4 865.8,760.9 864.6,764.3 866.7,766.4 870.1,765.2 871.6,769.0 868.4,770.5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="859" cy="772" r="4" fill="#22303f"/>
+
+  <!-- database with order record (lower left) -->
+  <rect x="204" y="762" width="30" height="38" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M210 772 H228 M210 780 H228 M210 788 H222" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M246 728 V806 A42 12 0 0 0 330 806 V728 Z" fill="url(#ilDb)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M246 754 A42 12 0 0 0 330 754" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M246 780 A42 12 0 0 0 330 780" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <ellipse cx="288" cy="728" rx="42" ry="12" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- clockwise loop arrows -->
+  <path d="M653.3 692.2 A268 66 0 0 1 739 708" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="750.6,711.2 737.2,714.8 740.8,701.2" fill="#c0392b"/>
+  <path d="M729.5 798.7 A268 66 0 0 1 350.5 798.7" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="338.8,795.8 352.2,791.9 348.8,805.5" fill="#c0392b"/>
+  <path d="M334.7 709.6 A268 66 0 0 1 431 691.7" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="442.9,690.4 431.8,698.7 430.2,684.7" fill="#c0392b"/>
+
+  <!-- travellers on the loop -->
+  <rect x="684" y="684" width="22" height="16" rx="3" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M689 692 H701" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="598" y="806" width="24" height="16" rx="2" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M598 806 L610 815 L622 806" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="372" cy="701" r="9" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M367 701 L371 705 L377 697" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- connector from the browser label up to the browser -->
+  <line x1="540" y1="828" x2="540" y2="790" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="540,778 533,790 547,790" fill="#c0392b"/>
+</g>
+
+<!-- Key sentence strip: shadow, fill, accent in one group -->
+<g>
+  <rect x="109" y="1008" width="870" height="248" rx="10" fill="#22303f" opacity=".12"/>
+  <rect x="105" y="1002" width="870" height="248" rx="10" fill="#fdf6d8"/>
+  <rect x="961" y="1018" width="6" height="216" rx="3" fill="#e0a55e"/>
+</g>
+
+<!-- Icon: light bulb in the strip -->
+<g>
+  <path d="M152 1046 H143 M208 1046 H217 M160 1026 L154 1020 M200 1026 L206 1020" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="180" cy="1046" r="20" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M174 1052 L177 1044 L180 1050 L183 1044 L186 1052" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="171" y="1064" width="18" height="8" rx="2" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="173" y="1072" width="14" height="7" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: remember star in the strip -->
+<g>
+  <polygon points="880,1174 885.29,1188.72 900.92,1189.2 888.56,1198.78 892.93,1213.8 880,1205 867.07,1213.8 871.44,1198.78 859.08,1189.2 874.71,1188.72" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Card header -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#2e7d32">
+  <tspan x="935" dy="0">الخلاصة في 30 ثانية</tspan>
+</text>
+<text x="140" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#2e7d32">
+  <tspan x="140" dy="0">THE 30-SECOND SUMMARY</tspan>
+</text>
+
+<!-- Card paragraph -->
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">ما تراه هو <tspan font-weight="bold" fill="#c0392b">الواجهة الأمامية:</tspan> تعرض وتجمع،</tspan>
+  <tspan x="935" dy="40">ثم ترسل طلبك إلى <tspan font-weight="bold" fill="#c0392b">الواجهة الخلفية</tspan></tspan>
+  <tspan x="935" dy="40">على الخادم: تقرر وتعالج، فتسأل</tspan>
+  <tspan x="935" dy="40"><tspan font-weight="bold" fill="#c0392b">قاعدة البيانات:</tspan> تخزن وتسترجع،</tspan>
+  <tspan x="935" dy="40">ثم تعود النتيجة في <tspan font-weight="bold" fill="#17457f">الطريق نفسه</tspan> إلى شاشتك.</tspan>
+</text>
+<text x="140" y="434" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">What you see is the <tspan font-weight="bold" fill="#c0392b">frontend:</tspan> it shows</tspan>
+  <tspan x="140" dy="40">and collects, then sends your request to</tspan>
+  <tspan x="140" dy="40">the <tspan font-weight="bold" fill="#c0392b">backend</tspan> on the server: it decides</tspan>
+  <tspan x="140" dy="40">and processes, which asks the <tspan font-weight="bold" fill="#c0392b">database:</tspan></tspan>
+  <tspan x="140" dy="40">it stores and retrieves; then the result</tspan>
+  <tspan x="140" dy="40">returns <tspan font-weight="bold" fill="#17457f">the same way</tspan> to your screen.</tspan>
+</text>
+
+<!-- Illustration labels -->
+<text x="615" y="874" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="615" dy="0">تعرض وتجمع</tspan>
+</text>
+<text x="461" y="914" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="461" dy="0">Shows and</tspan>
+  <tspan x="461" dy="40">collects</tspan>
+</text>
+<text x="890" y="874" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="890" dy="0">تقرر وتعالج</tspan>
+</text>
+<text x="710" y="914" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="710" dy="0">Decides and</tspan>
+  <tspan x="710" dy="40">processes</tspan>
+</text>
+<text x="360" y="874" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="360" dy="0">تخزن وتسترجع</tspan>
+</text>
+<text x="183" y="914" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="183" dy="0">Stores and</tspan>
+  <tspan x="183" dy="40">retrieves</tspan>
+</text>
+
+<!-- Key sentence strip text -->
+<text x="935" y="1034" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">الأمامية</tspan> بتعرض وتسمع،</tspan>
+  <tspan x="935" dy="40">و<tspan font-weight="bold" fill="#c0392b">الخلفية</tspan> بتفكّر وتقرر،</tspan>
+  <tspan x="935" dy="40">و<tspan font-weight="bold" fill="#c0392b">البيانات</tspan> بتحفظ وتفتكر.</tspan>
+</text>
+<text x="140" y="1154" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Frontend</tspan> shows and listens,</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#c0392b">backend</tspan> thinks and decides,</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#c0392b">data</tspan> stores and remembers.</tspan>
+</text>
+</svg>

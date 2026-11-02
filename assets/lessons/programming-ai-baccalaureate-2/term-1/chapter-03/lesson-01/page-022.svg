@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Card and strip shadows -->
+<rect x="109" y="128" width="870" height="328" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="109" y="488" width="870" height="328" rx="10" fill="#22303f" opacity=".12"/>
+
+<!-- Main idea card -->
+<rect x="105" y="122" width="870" height="328" rx="16" fill="#fdf6d8" stroke="#e0c46a" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="296" rx="3" fill="#e0a55e"/>
+
+<!-- Key sentence strip -->
+<rect x="105" y="482" width="870" height="328" rx="10" fill="#fdf6d8"/>
+<rect x="961" y="498" width="6" height="296" rx="3" fill="#e0a55e"/>
+
+<!-- Illustration: the user reaches the database only through the backend -->
+<g>
+  <defs>
+    <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="ilDb" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2f7fb5"/>
+      <stop offset="1" stop-color="#17457f"/>
+    </linearGradient>
+    <linearGradient id="ilSrv" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#17457f"/>
+      <stop offset="1" stop-color="#22303f"/>
+    </linearGradient>
+  </defs>
+  <rect x="129" y="846" width="830" height="396" rx="28" fill="#22303f" opacity=".18"/>
+  <rect x="125" y="840" width="830" height="396" rx="28" fill="url(#ilSky)"/>
+  <path d="M125 1180 H955 V1208 A28 28 0 0 1 927 1236 H153 A28 28 0 0 1 125 1208 Z" fill="#e8dfd1"/>
+  <ellipse cx="250" cy="1182" rx="96" ry="8" fill="#22303f" opacity=".18"/>
+  <ellipse cx="832" cy="1166" rx="76" ry="10" fill="#22303f" opacity=".18"/>
+  <circle cx="196" cy="884" r="16" fill="#ffffff"/>
+  <circle cx="220" cy="878" r="21" fill="#ffffff"/>
+  <ellipse cx="212" cy="894" rx="42" ry="14" fill="#ffffff"/>
+  <circle cx="866" cy="888" r="15" fill="#ffffff"/>
+  <circle cx="890" cy="882" r="20" fill="#ffffff"/>
+  <ellipse cx="882" cy="898" rx="40" ry="13" fill="#ffffff"/>
+  <polygon points="440,866 444,878 456,882 444,886 440,898 436,886 424,882 436,878" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="904,948 907,956 915,959 907,962 904,970 901,962 893,959 901,956" fill="#ffd24a"/>
+  <circle cx="540" cy="926" r="80" fill="#ffffff" opacity=".6"/>
+  <circle cx="210" cy="1003" r="7" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="274" cy="1003" r="7" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="233" y="1024" width="18" height="20" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M188 1112 Q188 1046 242 1040 Q296 1046 296 1112 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M228 1042 L242 1060 L256 1042" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="242" cy="1000" r="32" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M210 996 Q206 960 242 958 Q278 960 274 996 Q266 978 242 976 Q218 978 210 996 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="231" cy="1004" r="3.5" fill="#22303f"/>
+  <circle cx="253" cy="1004" r="3.5" fill="#22303f"/>
+  <path d="M232 1015 Q242 1023 252 1015" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <rect x="172" y="1122" width="10" height="56" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="310" y="1122" width="10" height="56" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="158" y="1108" width="176" height="14" rx="4" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="196" y="1052" width="92" height="58" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="242" cy="1081" r="7" fill="#4fc3e8"/>
+  <rect x="186" y="1104" width="112" height="7" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M764 1000 V1140 A66 18 0 0 0 896 1140 V1000 Z" fill="url(#ilDb)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M764 1047 A66 18 0 0 0 896 1047" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M764 1094 A66 18 0 0 0 896 1094" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="786" y="1032" width="50" height="8" rx="4" fill="#8fc9f2"/>
+  <rect x="786" y="1079" width="50" height="8" rx="4" fill="#8fc9f2"/>
+  <rect x="786" y="1126" width="50" height="8" rx="4" fill="#8fc9f2"/>
+  <circle cx="870" cy="1038" r="5" fill="#f0c48c"/>
+  <circle cx="870" cy="1085" r="5" fill="#c96a1b"/>
+  <circle cx="870" cy="1131" r="5" fill="#f0c48c"/>
+  <ellipse cx="830" cy="1000" rx="66" ry="18" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="488" y="866" width="104" height="124" rx="12" fill="url(#ilSrv)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="500" y="880" width="80" height="28" rx="6" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="500" y="914" width="80" height="28" rx="6" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="500" y="948" width="80" height="28" rx="6" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="514" cy="894" r="4" fill="#4fc3e8"/>
+  <circle cx="528" cy="894" r="4" fill="#a9dcbe"/>
+  <rect x="544" y="891" width="28" height="6" rx="3" fill="#17457f"/>
+  <circle cx="514" cy="928" r="4" fill="#4fc3e8"/>
+  <circle cx="528" cy="928" r="4" fill="#a9dcbe"/>
+  <rect x="544" y="925" width="28" height="6" rx="3" fill="#17457f"/>
+  <circle cx="514" cy="962" r="4" fill="#4fc3e8"/>
+  <circle cx="528" cy="962" r="4" fill="#a9dcbe"/>
+  <rect x="544" y="959" width="28" height="6" rx="3" fill="#17457f"/>
+  <path d="M296 1050 Q310 918 488 916 L488 936 Q332 940 318 1052 Z" fill="#a9dcbe" stroke="#2e7d32" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="464,908 488,926 464,944" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M592 916 Q800 918 838 978 L822 986 Q786 940 592 936 Z" fill="#a9dcbe" stroke="#2e7d32" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="816,991 844,973 843,1002" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="358" y="928" width="28" height="20" rx="4" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M364 935 H380 M364 941 H376" fill="none" stroke="#c96a1b" stroke-width="2" stroke-linecap="round"/>
+  <rect x="731" y="922" width="28" height="20" rx="4" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M737 929 H753 M737 935 H749" fill="none" stroke="#c96a1b" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="660" cy="870" r="24" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M648 870 L657 879 L673 861" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="300" y1="1085" x2="760" y2="1085" stroke="#7f95ab" stroke-width="2.5" stroke-dasharray="12 10" stroke-linecap="round"/>
+  <g transform="translate(532 1085)">
+    <circle cx="0" cy="0" r="34" fill="#ffffff" opacity=".85"/>
+    <g transform="rotate(45)">
+      <rect x="-42" y="-9" width="84" height="18" rx="9" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+    </g>
+    <g transform="rotate(-45)">
+      <rect x="-42" y="-9" width="84" height="18" rx="9" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+    </g>
+  </g>
+</g>
+
+<!-- Icon: down arrow badge -->
+<g>
+  <circle cx="498" cy="164" r="26" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="492,146 504,146 504,164 513,164 498,181 483,164 492,164" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: up arrow badge -->
+<g>
+  <circle cx="576" cy="164" r="26" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="570,182 582,182 582,164 591,164 576,147 561,164 570,164" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: light bulb -->
+<g>
+  <path d="M654 133 V127 M633 146 L628 142 M675 146 L680 142" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="654" cy="158" r="17" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="646" y="173" width="16" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: shield -->
+<g>
+  <path d="M908 688 L934 698 V716 Q934 736 908 746 Q882 736 882 716 V698 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M896 716 L905 725 L921 707" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Text: Main idea card -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="935" dy="0">نازل وطالع</tspan>
+</text>
+<text x="140" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="140" dy="0">DOWN AND UP</tspan>
+</text>
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">الطلب <tspan font-weight="bold" fill="#17457f">ينزل:</tspan> يكتب ← يرسل ← يسأل،</tspan>
+</text>
+<text x="140" y="274" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">The request goes <tspan font-weight="bold" fill="#17457f">down:</tspan></tspan>
+  <tspan x="140" dy="40">types → sends → asks;</tspan>
+</text>
+<text x="935" y="354" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">والنتيجة <tspan font-weight="bold" fill="#2e7d32">تطلع:</tspan> يرد ← يرتّب ← يعرض.</tspan>
+</text>
+<text x="140" y="394" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">the result comes <tspan font-weight="bold" fill="#2e7d32">up:</tspan></tspan>
+  <tspan x="140" dy="40">answers → organizes → displays.</tspan>
+</text>
+
+<!-- Text: Key sentence strip -->
+<text x="935" y="514" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">قاعدة مهمة في هذا النموذج:</tspan>
+  <tspan x="935" dy="40">المستخدم لا يكلم المخزن مباشرة؛</tspan>
+  <tspan x="935" dy="40">فالطريق إلى قاعدة البيانات</tspan>
+  <tspan x="935" dy="40">يمر بالواجهة الخلفية.</tspan>
+</text>
+<text x="140" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">Key rule in this model:</tspan>
+  <tspan x="140" dy="40">the user never talks to the storeroom</tspan>
+  <tspan x="140" dy="40">directly; the way to the database</tspan>
+  <tspan x="140" dy="40">passes through the backend.</tspan>
+</text>
+</svg>
