@@ -1,0 +1,236 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="ilDome" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#e8dfd1"/>
+  </linearGradient>
+  <linearGradient id="ilRack" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+</defs>
+
+<!-- Table -->
+<g>
+  <rect x="99" y="106" width="890" height="960" rx="12" fill="#22303f" opacity=".12"/>
+  <rect x="95" y="100" width="890" height="960" rx="12" fill="#fffdf7"/>
+  <path d="M95 220 V112 A12 12 0 0 1 107 100 H973 A12 12 0 0 1 985 112 V220 Z" fill="#fdf6d8"/>
+  <path d="M95 340 H985 V460 H95 Z M95 580 H985 V700 H95 Z M95 820 H985 V940 H95 Z" fill="#fbf6e9"/>
+  <path d="M95 220 H985 M95 340 H985 M95 460 H985 M95 580 H985 M95 700 H985 M95 820 H985 M95 940 H985 M655 100 V1060" fill="none" stroke="#c0392b" stroke-width="1.4"/>
+  <rect x="95" y="100" width="890" height="960" rx="12" fill="none" stroke="#c0392b" stroke-width="2"/>
+</g>
+
+<!-- Face in header cell -->
+<g transform="translate(195 160)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: customer -->
+<g transform="translate(160 252)">
+  <path d="M8 54 Q8 34 28 34 Q48 34 48 54 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="28" cy="19" r="11" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M17 18 Q18 7 28 7 Q38 7 39 18 Q33 12 28 13 Q22 12 17 18 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: kitchen (chef hat) -->
+<g transform="translate(160 372)">
+  <circle cx="18" cy="22" r="10" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="38" cy="22" r="10" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="28" cy="16" r="12" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="17" y="22" width="22" height="10" fill="#ffffff"/>
+  <rect x="16" y="30" width="24" height="20" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="16" y="42" width="24" height="8" rx="3" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: order slip -->
+<g transform="translate(160 492)">
+  <path d="M12 4 H38 L46 12 V52 H12 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M38 4 V12 H46 Z" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M18 22 H40 M18 30 H40 M18 38 H32" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="38" cy="44" r="4" fill="#c96a1b"/>
+</g>
+
+<!-- Icon: dish -->
+<g transform="translate(160 612)">
+  <ellipse cx="28" cy="46" rx="24" ry="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M8 44 Q8 18 28 18 Q48 18 48 44 Z" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="28" cy="15" r="4" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M16 36 Q17 28 24 24" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: rules clipboard -->
+<g transform="translate(160 732)">
+  <rect x="10" y="8" width="36" height="46" rx="5" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="15" y="15" width="26" height="34" rx="2" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="20" y="4" width="16" height="9" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M19 25 L22 28 L27 22 M19 37 L22 40 L27 34" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M30 25 H37 M30 37 H37" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: sealed envelope -->
+<g transform="translate(160 852)">
+  <rect x="6" y="14" width="44" height="30" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M6 16 L28 32 L50 16" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="28" cy="32" r="7" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="28" cy="32" r="3" fill="#ffd24a"/>
+</g>
+
+<!-- Icon: menu -->
+<g transform="translate(160 972)">
+  <rect x="8" y="6" width="40" height="46" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="13" y="11" width="30" height="36" rx="2" fill="none" stroke="#ffd24a" stroke-width="2"/>
+  <path d="M19 19 V25 Q19 28 22 28 Q25 28 25 25 V19 M22 28 V40" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M33 19 Q38 25 34 31 V40" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Memory illustration: the web restaurant -->
+<g>
+  <rect x="109" y="1090" width="870" height="172" rx="24" fill="#22303f" opacity=".18"/>
+  <rect x="105" y="1084" width="870" height="172" rx="24" fill="url(#ilSky)" stroke="#8fc9f2" stroke-width="2"/>
+  <path d="M105 1222 H975 V1232 Q975 1256 951 1256 H129 Q105 1256 105 1232 Z" fill="#e8dfd1"/>
+
+  <!-- Customer -->
+  <rect x="150" y="1146" width="14" height="76" rx="5" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="150" y="1194" width="62" height="10" rx="4" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M168 1192 Q166 1150 192 1148 Q214 1150 214 1180 L214 1192 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="168" y="1184" width="62" height="12" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="220" y="1186" width="12" height="34" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="228" y="1186" width="112" height="10" rx="4" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="278" y="1196" width="10" height="28" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="262" y="1144" width="58" height="38" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="267" y="1149" width="48" height="28" rx="2" fill="#4fc3e8"/>
+  <rect x="271" y="1153" width="40" height="5" rx="2" fill="#ffffff"/>
+  <rect x="271" y="1162" width="24" height="4" rx="2" fill="#dff1f7"/>
+  <rect x="271" y="1169" width="32" height="4" rx="2" fill="#dff1f7"/>
+  <rect x="252" y="1181" width="80" height="6" rx="2" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M198 1160 Q224 1170 244 1172 L244 1182 Q220 1182 196 1172 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="247" cy="1177" r="5" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="194" cy="1128" r="17" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M177 1126 Q178 1108 195 1108 Q211 1108 211 1124 Q203 1117 194 1118 Q185 1118 177 1126 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="203" cy="1129" r="2.5" fill="#22303f"/>
+  <path d="M199 1137 Q204 1141 208 1136" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Request arrow with sealed order -->
+  <path d="M362 1128 H720" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="732,1128 718,1120 718,1136" fill="#c0392b"/>
+  <rect x="521" y="1114" width="56" height="38" rx="4" fill="#22303f" opacity=".18"/>
+  <rect x="517" y="1108" width="56" height="38" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M517 1110 L545 1130 L573 1110" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="545" cy="1130" r="8" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="545" cy="1130" r="3" fill="#ffd24a"/>
+  <path d="M600 1102 L603 1110 L611 1113 L603 1116 L600 1124 L597 1116 L589 1113 L597 1110 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+
+  <!-- Response arrow with dish -->
+  <path d="M730 1200 H372" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="360,1200 374,1192 374,1208" fill="#c0392b"/>
+  <ellipse cx="545" cy="1210" rx="34" ry="7" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M515 1207 Q515 1172 545 1172 Q575 1172 575 1207 Z" fill="url(#ilDome)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="545" cy="1168" r="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M526 1198 Q527 1186 536 1180" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <path d="M490 1168 L492 1174 L498 1176 L492 1178 L490 1184 L488 1178 L482 1176 L488 1174 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+
+  <!-- Server as kitchen -->
+  <rect x="784" y="1138" width="90" height="84" rx="8" fill="#22303f" opacity=".18"/>
+  <rect x="780" y="1132" width="90" height="90" rx="8" fill="url(#ilRack)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="790" y="1144" width="70" height="18" rx="4" fill="#17457f" stroke="#8fc9f2" stroke-width="2"/>
+  <rect x="790" y="1170" width="70" height="18" rx="4" fill="#17457f" stroke="#8fc9f2" stroke-width="2"/>
+  <rect x="790" y="1196" width="70" height="18" rx="4" fill="#17457f" stroke="#8fc9f2" stroke-width="2"/>
+  <circle cx="800" cy="1153" r="3.5" fill="#a9dcbe"/>
+  <circle cx="811" cy="1153" r="3.5" fill="#4fc3e8"/>
+  <circle cx="800" cy="1179" r="3.5" fill="#a9dcbe"/>
+  <circle cx="811" cy="1179" r="3.5" fill="#4fc3e8"/>
+  <circle cx="800" cy="1205" r="3.5" fill="#a9dcbe"/>
+  <circle cx="811" cy="1205" r="3.5" fill="#ffd24a"/>
+  <path d="M826 1153 H850 M826 1179 H850 M826 1205 H850" fill="none" stroke="#8fc9f2" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="805" cy="1108" r="12" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="845" cy="1108" r="12" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="825" cy="1103" r="14" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="803" y="1106" width="44" height="10" fill="#ffffff"/>
+  <rect x="799" y="1114" width="52" height="18" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Stove and pot -->
+  <rect x="884" y="1176" width="76" height="46" rx="6" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="902" cy="1204" r="4" fill="#7f95ab"/>
+  <circle cx="922" cy="1204" r="4" fill="#7f95ab"/>
+  <circle cx="942" cy="1204" r="4" fill="#c0392b"/>
+  <path d="M892 1150 H952 V1168 Q952 1176 944 1176 H900 Q892 1176 892 1168 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="888" y="1144" width="68" height="8" rx="4" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="922" cy="1140" r="4" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M906 1130 Q900 1120 906 1110 Q912 1100 906 1094" fill="none" stroke="#8fc9f2" stroke-width="3" stroke-linecap="round"/>
+  <path d="M938 1130 Q932 1120 938 1110 Q944 1100 938 1094" fill="none" stroke="#8fc9f2" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Header row -->
+<text x="960" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">في الدرس</text>
+<text x="960" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="end" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#152b42">In the lesson</text>
+<text x="635" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">في المطعم</text>
+<text x="635" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="end" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#152b42">In the restaurant</text>
+
+<!-- Row 1 -->
+<text x="960" y="274" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#2e7d32">العميل</text>
+<text x="960" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="end" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Client</text>
+<text x="635" y="274" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">الزبون</text>
+<text x="635" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="end" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">The customer</text>
+
+<!-- Row 2 -->
+<text x="960" y="394" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#2e7d32">الخادم</text>
+<text x="960" y="434" direction="ltr" unicode-bidi="plaintext" text-anchor="end" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Server</text>
+<text x="635" y="394" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">المطبخ</text>
+<text x="635" y="434" direction="ltr" unicode-bidi="plaintext" text-anchor="end" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">The kitchen</text>
+
+<!-- Row 3 -->
+<text x="960" y="514" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#2e7d32">الطلب</text>
+<text x="960" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="end" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Request</text>
+<text x="635" y="514" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">ورقة الأوردر</text>
+<text x="635" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="end" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">The order slip</text>
+
+<!-- Row 4 -->
+<text x="960" y="634" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#2e7d32">الاستجابة</text>
+<text x="960" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="end" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Response</text>
+<text x="635" y="634" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">الطبق الذي يصلك</text>
+<text x="635" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="end" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">The dish you get</text>
+
+<!-- Row 5 -->
+<text x="945" y="765" direction="ltr" unicode-bidi="plaintext" text-anchor="end" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#2e7d32">HTTP</text>
+<text x="635" y="754" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">قواعد كتابة الأوردر</text>
+<text x="635" y="794" direction="ltr" unicode-bidi="plaintext" text-anchor="end" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Rules for orders</text>
+
+<!-- Row 6 -->
+<text x="945" y="885" direction="ltr" unicode-bidi="plaintext" text-anchor="end" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#2e7d32">HTTPS</text>
+<text x="635" y="874" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">أوردر في ظرف مختوم</text>
+<text x="635" y="914" direction="ltr" unicode-bidi="plaintext" text-anchor="end" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">A sealed order</text>
+
+<!-- Row 7 -->
+<text x="945" y="1004" direction="ltr" unicode-bidi="plaintext" text-anchor="end" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#2e7d32">GET</text>
+<text x="635" y="994" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#c96a1b">«هات لي المنيو»</text>
+<text x="635" y="1034" direction="ltr" unicode-bidi="plaintext" text-anchor="end" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">“Bring the menu”</text>
+</svg>

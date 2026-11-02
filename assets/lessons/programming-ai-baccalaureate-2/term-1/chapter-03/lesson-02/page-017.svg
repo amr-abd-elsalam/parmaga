@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Bullets (positive items) -->
+<circle cx="966" cy="424" r="6" fill="#2e7d32"/>
+<circle cx="114" cy="504" r="6" fill="#2e7d32"/>
+<circle cx="966" cy="584" r="6" fill="#2e7d32"/>
+<circle cx="114" cy="664" r="6" fill="#2e7d32"/>
+<circle cx="966" cy="744" r="6" fill="#2e7d32"/>
+<circle cx="114" cy="864" r="6" fill="#2e7d32"/>
+
+<!-- Illustration: three shields for the three protections of TLS (right to left) -->
+<g stroke-linecap="round" stroke-linejoin="round">
+  <linearGradient id="ilPanel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="ilShieldGreen" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#a9dcbe"/>
+    <stop offset="1" stop-color="#2e7d32"/>
+  </linearGradient>
+  <linearGradient id="ilShieldBlue" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8fc9f2"/>
+    <stop offset="1" stop-color="#2f7fb5"/>
+  </linearGradient>
+  <linearGradient id="ilShieldNavy" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+
+  <!-- Panel -->
+  <rect x="109" y="992" width="866" height="258" rx="22" fill="#22303f" opacity=".18"/>
+  <rect x="105" y="986" width="866" height="258" rx="22" fill="url(#ilPanel)" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Clouds -->
+  <ellipse cx="160" cy="1046" rx="28" ry="10" fill="#ffffff"/>
+  <circle cx="150" cy="1040" r="11" fill="#ffffff"/>
+  <circle cx="168" cy="1035" r="14" fill="#ffffff"/>
+  <ellipse cx="925" cy="1046" rx="28" ry="10" fill="#ffffff"/>
+  <circle cx="915" cy="1040" r="11" fill="#ffffff"/>
+  <circle cx="933" cy="1035" r="14" fill="#ffffff"/>
+
+  <!-- Glows and ground shadows -->
+  <circle cx="790" cy="1106" r="100" fill="#ffffff" opacity=".6"/>
+  <circle cx="540" cy="1106" r="100" fill="#ffffff" opacity=".6"/>
+  <circle cx="290" cy="1106" r="100" fill="#ffffff" opacity=".6"/>
+  <ellipse cx="790" cy="1224" rx="84" ry="9" fill="#8fc9f2" opacity=".35"/>
+  <ellipse cx="540" cy="1224" rx="84" ry="9" fill="#8fc9f2" opacity=".35"/>
+  <ellipse cx="290" cy="1224" rx="84" ry="9" fill="#8fc9f2" opacity=".35"/>
+
+  <!-- Right shield: Confidentiality, closed padlock -->
+  <g transform="translate(790 1106)">
+    <path d="M4 -94 L84 -66 V-4 Q84 66 4 106 Q-76 66 -76 -4 V-66 Z" fill="#22303f" opacity=".18"/>
+    <path d="M0 -100 L80 -72 V-10 Q80 60 0 100 Q-80 60 -80 -10 V-72 Z" fill="url(#ilShieldGreen)" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M0 -84 L64 -62 V-10 Q64 48 0 82 Q-64 48 -64 -10 V-62 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-52 -60 L-8 -76" fill="none" stroke="#ffffff" stroke-width="2.5" opacity=".6"/>
+    <path d="M-22 -10 V-30 A22 22 0 0 1 22 -30 V-10 H11 V-30 A11 11 0 0 0 -11 -30 V-10 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="-30" y="-14" width="60" height="50" rx="10" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="-24" y="-8" width="7" height="24" rx="3.5" fill="#a9dcbe" opacity=".6"/>
+    <circle cx="0" cy="6" r="7" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-4 10 L-6 24 H6 L4 10 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+
+  <!-- Middle shield: Integrity, envelope with unbroken wax seal -->
+  <g transform="translate(540 1106)">
+    <path d="M4 -94 L84 -66 V-4 Q84 66 4 106 Q-76 66 -76 -4 V-66 Z" fill="#22303f" opacity=".18"/>
+    <path d="M0 -100 L80 -72 V-10 Q80 60 0 100 Q-80 60 -80 -10 V-72 Z" fill="url(#ilShieldBlue)" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M0 -84 L64 -62 V-10 Q64 48 0 82 Q-64 48 -64 -10 V-62 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-52 -60 L-8 -76" fill="none" stroke="#ffffff" stroke-width="2.5" opacity=".6"/>
+    <rect x="-48" y="-38" width="96" height="64" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-48 24 L-14 -6 M48 24 L14 -6" fill="none" stroke="#7f95ab" stroke-width="2.5"/>
+    <path d="M-47 -36 L0 -2 L47 -36" fill="none" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-8 6 L-16 30 L-7 25 L-3 33 L2 9 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M8 6 L16 30 L7 25 L3 33 L-2 9 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="-2" r="17" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="-2" r="10" fill="none" stroke="#c96a1b" stroke-width="2.5"/>
+    <circle cx="0" cy="-2" r="3.5" fill="#c96a1b"/>
+  </g>
+
+  <!-- Left shield: Authentication, identity card with ribbon badge -->
+  <g transform="translate(290 1106)">
+    <path d="M4 -94 L84 -66 V-4 Q84 66 4 106 Q-76 66 -76 -4 V-66 Z" fill="#22303f" opacity=".18"/>
+    <path d="M0 -100 L80 -72 V-10 Q80 60 0 100 Q-80 60 -80 -10 V-72 Z" fill="url(#ilShieldNavy)" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M0 -84 L64 -62 V-10 Q64 48 0 82 Q-64 48 -64 -10 V-62 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-52 -60 L-8 -76" fill="none" stroke="#ffffff" stroke-width="2.5" opacity=".6"/>
+    <rect x="-50" y="-36" width="100" height="64" rx="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="-40" y="-26" width="30" height="38" rx="4" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-37 12 Q-37 0 -25 0 Q-13 0 -13 12 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="-25" cy="-12" r="7" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="-2" y="-24" width="40" height="7" rx="3.5" fill="#8fc9f2"/>
+    <rect x="-2" y="-11" width="30" height="7" rx="3.5" fill="#8fc9f2"/>
+    <rect x="-2" y="2" width="20" height="7" rx="3.5" fill="#a9dcbe"/>
+    <path d="M26 26 L21 48 L28 44 L32 52 L35 30 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M38 26 L43 48 L36 44 L32 52 L29 30 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="32" cy="22" r="13" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="32" cy="22" r="6" fill="none" stroke="#c96a1b" stroke-width="2.5"/>
+  </g>
+
+  <!-- Sparkles between the shields -->
+  <path d="M415 1031 L417.5 1037.5 L424 1040 L417.5 1042.5 L415 1049 L412.5 1042.5 L406 1040 L412.5 1037.5 Z" fill="#ffd24a"/>
+  <path d="M665 1031 L667.5 1037.5 L674 1040 L667.5 1042.5 L665 1049 L662.5 1042.5 L656 1040 L662.5 1037.5 Z" fill="#ffd24a"/>
+  <path d="M415 1171 L417.5 1177.5 L424 1180 L417.5 1182.5 L415 1189 L412.5 1182.5 L406 1180 L412.5 1177.5 Z" fill="#8fc9f2"/>
+  <path d="M665 1171 L667.5 1177.5 L674 1180 L667.5 1182.5 L665 1189 L662.5 1182.5 L656 1180 L662.5 1177.5 Z" fill="#8fc9f2"/>
+</g>
+
+<!-- Icon: shield with padlock in free space beside the opening paragraph -->
+<g transform="translate(740 278)" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M34 6 L64 16 V36 Q64 58 34 70 Q4 58 4 36 V16 Z" fill="#22303f" opacity=".18"/>
+  <path d="M30 0 L60 10 V30 Q60 52 30 64 Q0 52 0 30 V10 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M23 30 V24 A7 7 0 0 1 37 24 V30" fill="none" stroke="#ffffff" stroke-width="2.5"/>
+  <rect x="19" y="29" width="22" height="17" rx="3" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Face: smile -->
+<g transform="translate(880 318)" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3"/>
+</g>
+
+<!-- Icon: check badge beside the authentication item -->
+<g transform="translate(862 866)" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="28" cy="28" r="26" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="28" cy="28" r="18" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M19 28 L25 34 L37 21" fill="none" stroke="#ffffff" stroke-width="3"/>
+</g>
+
+<!-- Paragraph: TLS definition -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">&#x200F;<tspan font-weight="bold" fill="#c0392b">TLS</tspan> (Transport Layer Security)&#x200E;</tspan>
+  <tspan x="950" dy="40">أمان طبقة النقل: بروتوكول أمان يقدم</tspan>
+  <tspan x="950" dy="40"><tspan font-weight="bold" fill="#17457f">ثلاث حمايات:</tspan></tspan>
+</text>
+<text x="120" y="274" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">TLS</tspan> (Transport Layer Security): a</tspan>
+  <tspan x="120" dy="40">security protocol that gives</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#17457f">three protections:</tspan></tspan>
+</text>
+
+<!-- Bullet 1: Confidentiality -->
+<text x="950" y="434" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">السرية</tspan> Confidentiality: <tspan font-weight="bold" fill="#17457f">تُشفَّر</tspan> البيانات،</tspan>
+  <tspan x="950" dy="40">فلا يقرؤها المتجسس.</tspan>
+</text>
+<text x="132" y="514" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#c0392b">Confidentiality:</tspan> the data is <tspan font-weight="bold" fill="#17457f">encrypted,</tspan></tspan>
+  <tspan x="132" dy="40">so an eavesdropper cannot read it.</tspan>
+</text>
+
+<!-- Bullet 2: Integrity -->
+<text x="950" y="594" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">السلامة</tspan> Integrity: إذا عدّل أحد البيانات</tspan>
+  <tspan x="950" dy="40">في الطريق، <tspan font-weight="bold" fill="#2e7d32">يُكتشف التعديل.</tspan></tspan>
+</text>
+<text x="132" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#c0392b">Integrity:</tspan> if someone changes the data</tspan>
+  <tspan x="132" dy="40">on the way, <tspan font-weight="bold" fill="#2e7d32">the change is detected.</tspan></tspan>
+</text>
+
+<!-- Bullet 3: Authentication -->
+<text x="950" y="754" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">المصادقة</tspan> Authentication: تتأكد أنك تتصل</tspan>
+  <tspan x="950" dy="40">بالخادم الحقيقي، عن طريق <tspan font-weight="bold" fill="#17457f">الشهادة الرقمية</tspan></tspan>
+  <tspan x="950" dy="40">التي يقدمها.</tspan>
+</text>
+<text x="132" y="874" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#c0392b">Authentication:</tspan> you make sure you are</tspan>
+  <tspan x="132" dy="40">talking to the real server, through the</tspan>
+  <tspan x="132" dy="40"><tspan font-weight="bold" fill="#17457f">digital certificate</tspan> it presents.</tspan>
+</text>
+</svg>

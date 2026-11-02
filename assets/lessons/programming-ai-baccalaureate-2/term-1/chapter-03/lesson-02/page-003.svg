@@ -1,0 +1,308 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<g id="ilJourney">
+  <defs>
+    <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="ilRiver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#8fc9f2"/>
+    </linearGradient>
+    <linearGradient id="ilServer" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f7fb5"/>
+      <stop offset="1" stop-color="#17457f"/>
+    </linearGradient>
+    <radialGradient id="ilSun" cx=".4" cy=".4" r=".6">
+      <stop offset="0" stop-color="#ffd24a"/>
+      <stop offset="1" stop-color="#f0c48c"/>
+    </radialGradient>
+  </defs>
+  <rect x="113" y="846" width="858" height="408" rx="28" fill="#22303f" opacity=".18"/>
+  <rect x="109" y="840" width="858" height="408" rx="28" fill="url(#ilSky)"/>
+  <g stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round">
+    <line x1="548" y1="860" x2="548" y2="848"/>
+    <line x1="548" y1="940" x2="548" y2="952"/>
+    <line x1="508" y1="900" x2="496" y2="900"/>
+    <line x1="588" y1="900" x2="600" y2="900"/>
+    <line x1="576.3" y1="871.7" x2="584.8" y2="863.2"/>
+    <line x1="519.7" y1="871.7" x2="511.2" y2="863.2"/>
+    <line x1="576.3" y1="928.3" x2="584.8" y2="936.8"/>
+    <line x1="519.7" y1="928.3" x2="511.2" y2="936.8"/>
+  </g>
+  <circle cx="548" cy="900" r="30" fill="url(#ilSun)" stroke="#22303f" stroke-width="2.5"/>
+  <g fill="#ffffff">
+    <ellipse cx="330" cy="906" rx="46" ry="14"/>
+    <circle cx="312" cy="896" r="16"/>
+    <circle cx="340" cy="890" r="20"/>
+    <ellipse cx="730" cy="890" rx="40" ry="12"/>
+    <circle cx="714" cy="882" r="13"/>
+    <circle cx="738" cy="876" r="17"/>
+  </g>
+  <path d="M109 1000 C 180 960, 260 955, 340 990 C 420 950, 520 948, 600 985 C 680 950, 800 945, 967 990 L967 1050 L109 1050 Z" fill="#8fc9f2" opacity=".6"/>
+  <path d="M109 1030 C 220 1000, 330 1005, 430 1030 C 560 1005, 700 1000, 967 1025 L967 1060 L109 1060 Z" fill="#a9dcbe" opacity=".6"/>
+  <path d="M109 1046 C 260 1036, 420 1050, 550 1044 C 700 1038, 840 1052, 967 1042 L967 1220 Q967 1248 939 1248 L137 1248 Q109 1248 109 1220 Z" fill="#a9dcbe"/>
+  <path d="M109 1200 C 300 1185, 800 1195, 967 1185 L967 1220 Q967 1248 939 1248 L137 1248 Q109 1248 109 1220 Z" fill="#2e7d32" opacity=".35"/>
+  <path d="M470 1046 C 430 1110, 270 1160, 170 1248 L930 1248 C 830 1160, 670 1110, 630 1046 Z" fill="url(#ilRiver)"/>
+  <g fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity=".85">
+    <path d="M470 1046 C 430 1110, 270 1160, 170 1248"/>
+    <path d="M630 1046 C 670 1110, 830 1160, 930 1248"/>
+  </g>
+  <g fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round">
+    <path d="M528 1070 Q542 1065 556 1070"/>
+    <path d="M560 1094 Q578 1088 596 1094"/>
+    <path d="M500 1118 Q518 1112 536 1118"/>
+    <path d="M620 1130 Q640 1124 660 1130"/>
+    <path d="M430 1146 Q448 1140 466 1146"/>
+  </g>
+  <g fill="#4fc3e8">
+    <circle cx="206" cy="934" r="4"/>
+    <circle cx="875" cy="936" r="4"/>
+  </g>
+  <g fill="none" stroke="#4fc3e8" stroke-width="3" stroke-linecap="round">
+    <path d="M192 922 Q206 912 220 922"/>
+    <path d="M182 910 Q206 892 230 910"/>
+    <path d="M861 924 Q875 914 889 924"/>
+    <path d="M851 912 Q875 894 899 912"/>
+  </g>
+  <ellipse cx="210" cy="1152" rx="72" ry="10" fill="#22303f" opacity=".18"/>
+  <polygon points="262,958 282,970 282,1144 262,1150" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="150" y="948" width="112" height="202" rx="12" fill="url(#ilServer)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="164" y="964" width="84" height="34" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="164" y="1006" width="84" height="34" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="164" y="1048" width="84" height="34" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="178" cy="981" r="4" fill="#4fc3e8"/>
+  <circle cx="191" cy="981" r="4" fill="#2e7d32"/>
+  <circle cx="178" cy="1023" r="4" fill="#4fc3e8"/>
+  <circle cx="191" cy="1023" r="4" fill="#ffd24a"/>
+  <circle cx="178" cy="1065" r="4" fill="#4fc3e8"/>
+  <circle cx="191" cy="1065" r="4" fill="#2e7d32"/>
+  <g fill="#8fc9f2">
+    <rect x="204" y="974" width="32" height="4" rx="2"/>
+    <rect x="204" y="984" width="24" height="4" rx="2"/>
+    <rect x="204" y="1016" width="32" height="4" rx="2"/>
+    <rect x="204" y="1026" width="24" height="4" rx="2"/>
+    <rect x="204" y="1058" width="32" height="4" rx="2"/>
+    <rect x="204" y="1068" width="24" height="4" rx="2"/>
+  </g>
+  <rect x="164" y="1094" width="84" height="40" rx="6" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <g fill="#8fc9f2">
+    <rect x="176" y="1104" width="60" height="4" rx="2"/>
+    <rect x="176" y="1113" width="60" height="4" rx="2"/>
+    <rect x="176" y="1122" width="60" height="4" rx="2"/>
+  </g>
+  <ellipse cx="875" cy="1082" rx="88" ry="9" fill="#22303f" opacity=".18"/>
+  <rect x="806" y="954" width="138" height="104" rx="10" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="816" y="964" width="118" height="86" rx="4" fill="#ffffff"/>
+  <rect x="816" y="964" width="118" height="18" rx="4" fill="#dff1f7"/>
+  <circle cx="826" cy="973" r="3" fill="#c0392b"/>
+  <circle cx="836" cy="973" r="3" fill="#ffd24a"/>
+  <circle cx="846" cy="973" r="3" fill="#2e7d32"/>
+  <rect x="856" y="968" width="70" height="10" rx="5" fill="#ffffff"/>
+  <polygon points="796,1058 954,1058 964,1078 786,1078" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="818" y="1062" width="114" height="6" rx="3" fill="#7f95ab"/>
+  <rect x="858" y="1071" width="34" height="4" rx="2" fill="#7f95ab"/>
+  <g fill="#22303f" opacity=".35">
+    <ellipse cx="858" cy="1098" rx="6" ry="3"/>
+    <ellipse cx="849" cy="1098" rx="2.6" ry="2.2"/>
+    <ellipse cx="836" cy="1112" rx="6" ry="3"/>
+    <ellipse cx="827" cy="1112" rx="2.6" ry="2.2"/>
+    <ellipse cx="820" cy="1128" rx="6" ry="3"/>
+    <ellipse cx="811" cy="1128" rx="2.6" ry="2.2"/>
+    <ellipse cx="802" cy="1142" rx="6" ry="3"/>
+    <ellipse cx="793" cy="1142" rx="2.6" ry="2.2"/>
+    <ellipse cx="276" cy="1160" rx="6" ry="3"/>
+    <ellipse cx="267" cy="1160" rx="2.6" ry="2.2"/>
+    <ellipse cx="254" cy="1172" rx="6" ry="3"/>
+    <ellipse cx="245" cy="1172" rx="2.6" ry="2.2"/>
+  </g>
+  <g fill="none" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round">
+    <path d="M136 1198 L132 1186 M142 1198 L142 1182 M148 1198 L152 1187"/>
+    <path d="M212 1222 L208 1210 M218 1222 L218 1206 M224 1222 L228 1211"/>
+    <path d="M896 1224 L892 1212 M902 1224 L902 1208 M908 1224 L912 1213"/>
+    <path d="M938 1164 L934 1152 M944 1164 L944 1148 M950 1164 L954 1153"/>
+    <path d="M916 1112 L912 1100 M922 1112 L922 1096 M928 1112 L932 1101"/>
+  </g>
+  <circle cx="180" cy="1190" r="5" fill="#ffd24a"/>
+  <circle cx="180" cy="1190" r="2" fill="#c96a1b"/>
+  <circle cx="918" cy="1142" r="5" fill="#ffd24a"/>
+  <circle cx="918" cy="1142" r="2" fill="#c96a1b"/>
+  <circle cx="150" cy="1230" r="5" fill="#ffd24a"/>
+  <circle cx="150" cy="1230" r="2" fill="#c96a1b"/>
+  <g fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" opacity=".85">
+    <path d="M745 1176 Q780 1209 815 1176"/>
+    <path d="M664 1198 Q702 1233 740 1198"/>
+    <path d="M585 1214 Q626 1253 667 1214"/>
+    <path d="M505 1220 Q548 1257 591 1220"/>
+    <path d="M429 1214 Q470 1253 511 1214"/>
+    <path d="M356 1198 Q394 1233 432 1198"/>
+    <path d="M282 1176 Q316 1209 350 1176"/>
+  </g>
+  <g fill="#22303f" opacity=".18">
+    <ellipse cx="784" cy="1180" rx="27" ry="15"/>
+    <ellipse cx="320" cy="1180" rx="26" ry="14"/>
+    <ellipse cx="706" cy="1202" rx="30" ry="16"/>
+    <ellipse cx="398" cy="1202" rx="30" ry="16"/>
+    <ellipse cx="630" cy="1218" rx="33" ry="17"/>
+    <ellipse cx="474" cy="1218" rx="33" ry="17"/>
+    <ellipse cx="552" cy="1224" rx="35" ry="18"/>
+  </g>
+  <g stroke="#22303f" stroke-width="2.5">
+    <ellipse cx="780" cy="1174" rx="27" ry="15" fill="#7f95ab"/>
+    <ellipse cx="780" cy="1168" rx="27" ry="12" fill="#4fc3e8"/>
+    <ellipse cx="316" cy="1174" rx="26" ry="14" fill="#7f95ab"/>
+    <ellipse cx="316" cy="1168" rx="26" ry="11" fill="#17457f"/>
+    <ellipse cx="702" cy="1196" rx="30" ry="16" fill="#7f95ab"/>
+    <ellipse cx="702" cy="1190" rx="30" ry="13" fill="#ffd24a"/>
+    <ellipse cx="394" cy="1196" rx="30" ry="16" fill="#7f95ab"/>
+    <ellipse cx="394" cy="1190" rx="30" ry="13" fill="#2f7fb5"/>
+    <ellipse cx="626" cy="1212" rx="33" ry="17" fill="#7f95ab"/>
+    <ellipse cx="626" cy="1206" rx="33" ry="14" fill="#c96a1b"/>
+    <ellipse cx="470" cy="1212" rx="33" ry="17" fill="#7f95ab"/>
+    <ellipse cx="470" cy="1206" rx="33" ry="14" fill="#2e7d32"/>
+    <ellipse cx="548" cy="1218" rx="35" ry="18" fill="#7f95ab"/>
+    <ellipse cx="548" cy="1212" rx="35" ry="15" fill="#dff1f7"/>
+  </g>
+  <g fill="#ffffff" opacity=".35">
+    <ellipse cx="771" cy="1164" rx="8" ry="3.6"/>
+    <ellipse cx="307" cy="1165" rx="8" ry="3.3"/>
+    <ellipse cx="692" cy="1186" rx="9" ry="3.9"/>
+    <ellipse cx="384" cy="1186" rx="9" ry="3.9"/>
+    <ellipse cx="614" cy="1202" rx="10" ry="4.2"/>
+    <ellipse cx="458" cy="1202" rx="10" ry="4.2"/>
+  </g>
+  <g fill="#22303f" opacity=".35">
+    <ellipse cx="784" cy="1167" rx="6" ry="3"/>
+    <ellipse cx="775" cy="1167" rx="2.6" ry="2.2"/>
+    <ellipse cx="706" cy="1192" rx="6" ry="3"/>
+    <ellipse cx="697" cy="1192" rx="2.6" ry="2.2"/>
+    <ellipse cx="552" cy="1214" rx="6" ry="3"/>
+    <ellipse cx="543" cy="1214" rx="2.6" ry="2.2"/>
+  </g>
+  <g fill="#ffffff" opacity=".6">
+    <ellipse cx="630" cy="1208" rx="6" ry="3"/>
+    <ellipse cx="621" cy="1208" rx="2.6" ry="2.2"/>
+    <ellipse cx="474" cy="1208" rx="6" ry="3"/>
+    <ellipse cx="465" cy="1208" rx="2.6" ry="2.2"/>
+    <ellipse cx="398" cy="1192" rx="6" ry="3"/>
+    <ellipse cx="389" cy="1192" rx="2.6" ry="2.2"/>
+    <ellipse cx="320" cy="1169" rx="6" ry="3"/>
+    <ellipse cx="311" cy="1169" rx="2.6" ry="2.2"/>
+  </g>
+  <rect x="109" y="840" width="858" height="408" rx="28" fill="none" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<g transform="translate(152 102)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<g transform="translate(222 102) rotate(40)">
+  <rect x="-8" y="-32" width="16" height="9" rx="2" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-8" y="-23" width="16" height="35" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="-8,12 8,12 0,27" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="-3,21 3,21 0,27" fill="#22303f"/>
+</g>
+
+<g transform="translate(920 206)">
+  <path d="M0 -14 L-15 12 M0 -14 L15 12 M-15 12 L15 12" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="0" cy="-14" r="7" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-15" cy="12" r="7" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="15" cy="12" r="7" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="950" dy="0">الدرس كله سبعة أسئلة</tspan>
+</text>
+<text x="120" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="120" dy="0">The whole lesson is seven questions</tspan>
+</text>
+
+<circle cx="966" cy="264" r="6" fill="#c0392b"/>
+<text x="950" y="274" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">مَن يتكلم؟ <tspan font-weight="bold" fill="#c0392b">العميل والخادم</tspan></tspan>
+</text>
+<circle cx="114" cy="304" r="6" fill="#c0392b"/>
+<text x="132" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">Who is talking? The <tspan font-weight="bold" fill="#c0392b">client</tspan> and the <tspan font-weight="bold" fill="#c0392b">server</tspan></tspan>
+</text>
+
+<circle cx="966" cy="344" r="6" fill="#c0392b"/>
+<text x="950" y="354" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">بأي لغة؟ <tspan font-weight="bold" fill="#c0392b">HTTP</tspan></tspan>
+</text>
+<circle cx="114" cy="384" r="6" fill="#c0392b"/>
+<text x="132" y="394" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">In what language? <tspan font-weight="bold" fill="#c0392b">HTTP</tspan></tspan>
+</text>
+
+<circle cx="966" cy="424" r="6" fill="#c0392b"/>
+<text x="950" y="434" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">هل الكلام سري؟ <tspan font-weight="bold" fill="#c0392b">HTTPS</tspan></tspan>
+</text>
+<circle cx="114" cy="464" r="6" fill="#c0392b"/>
+<text x="132" y="474" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">Is the talk private? <tspan font-weight="bold" fill="#c0392b">HTTPS</tspan></tspan>
+</text>
+
+<circle cx="966" cy="504" r="6" fill="#c0392b"/>
+<text x="950" y="514" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">ماذا يريد العميل؟ <tspan font-weight="bold" fill="#c0392b">GET</tspan> أو <tspan font-weight="bold" fill="#c0392b">POST</tspan></tspan>
+</text>
+<circle cx="114" cy="544" r="6" fill="#c0392b"/>
+<text x="132" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">What does the client want? <tspan font-weight="bold" fill="#c0392b">GET</tspan> or <tspan font-weight="bold" fill="#c0392b">POST</tspan></tspan>
+</text>
+
+<circle cx="966" cy="584" r="6" fill="#c0392b"/>
+<text x="950" y="594" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">ماذا حدث؟ <tspan font-weight="bold" fill="#c0392b">رمز الحالة</tspan></tspan>
+</text>
+<circle cx="114" cy="624" r="6" fill="#c0392b"/>
+<text x="132" y="634" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">What happened? The <tspan font-weight="bold" fill="#c0392b">status code</tspan></tspan>
+</text>
+
+<circle cx="966" cy="664" r="6" fill="#c0392b"/>
+<text x="950" y="674" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">من أي نافذة؟ <tspan font-weight="bold" fill="#c0392b">API</tspan></tspan>
+</text>
+<circle cx="114" cy="704" r="6" fill="#c0392b"/>
+<text x="132" y="714" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">Through which window? An <tspan font-weight="bold" fill="#c0392b">API</tspan></tspan>
+</text>
+
+<circle cx="966" cy="744" r="6" fill="#c0392b"/>
+<text x="950" y="754" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">بأي شكل تأتي البيانات؟ <tspan font-weight="bold" fill="#c0392b">JSON</tspan></tspan>
+</text>
+<circle cx="114" cy="784" r="6" fill="#c0392b"/>
+<text x="132" y="794" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">In what shape does the data come? <tspan font-weight="bold" fill="#c0392b">JSON</tspan></tspan>
+</text>
+</svg>

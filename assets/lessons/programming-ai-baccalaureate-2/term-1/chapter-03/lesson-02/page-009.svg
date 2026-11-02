@@ -1,0 +1,260 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Main illustration: browser, web server, app server -->
+<g transform="translate(0 24)">
+  <linearGradient id="ilWebC" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+  <linearGradient id="ilAppC" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#17457f"/>
+    <stop offset="1" stop-color="#22303f"/>
+  </linearGradient>
+
+  <!-- shadows -->
+  <path d="M154 986 L172 974 H292 V1194 L274 1206 H154 Z" fill="#22303f" opacity=".18"/>
+  <path d="M404 956 L424 942 H564 V1192 L544 1206 H404 Z" fill="#22303f" opacity=".18"/>
+  <rect x="704" y="966" width="244" height="190" rx="12" fill="#22303f" opacity=".18"/>
+
+  <!-- clouds -->
+  <ellipse cx="620" cy="936" rx="30" ry="10" fill="#dff1f7"/>
+  <ellipse cx="644" cy="929" rx="20" ry="11" fill="#dff1f7"/>
+  <ellipse cx="330" cy="944" rx="26" ry="9" fill="#dff1f7"/>
+  <ellipse cx="350" cy="938" rx="16" ry="9" fill="#dff1f7"/>
+
+  <!-- pedestals -->
+  <ellipse cx="219" cy="1206" rx="92" ry="13" fill="#dff1f7" stroke="#8fc9f2" stroke-width="2.5"/>
+  <ellipse cx="219" cy="1206" rx="66" ry="7" fill="#8fc9f2" opacity=".35"/>
+  <ellipse cx="480" cy="1206" rx="110" ry="14" fill="#dff1f7" stroke="#8fc9f2" stroke-width="2.5"/>
+  <ellipse cx="480" cy="1206" rx="82" ry="8" fill="#8fc9f2" opacity=".35"/>
+  <ellipse cx="822" cy="1206" rx="120" ry="13" fill="#dff1f7" stroke="#8fc9f2" stroke-width="2.5"/>
+  <ellipse cx="822" cy="1206" rx="88" ry="7" fill="#8fc9f2" opacity=".35"/>
+
+  <!-- app server tower (left) -->
+  <polygon points="150,980 168,968 288,968 270,980" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="270,980 288,968 288,1188 270,1200" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="150" y="980" width="120" height="220" rx="6" fill="url(#ilAppC)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="164" y="994" width="92" height="14" rx="4" fill="#2f7fb5" stroke="#22303f" stroke-width="2"/>
+  <line x1="172" y1="1001" x2="212" y2="1001" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="234" cy="1001" r="3.5" fill="#4fc3e8"/>
+  <circle cx="245" cy="1001" r="3.5" fill="#f0c48c"/>
+  <rect x="164" y="1014" width="92" height="14" rx="4" fill="#2f7fb5" stroke="#22303f" stroke-width="2"/>
+  <line x1="172" y1="1021" x2="212" y2="1021" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="234" cy="1021" r="3.5" fill="#4fc3e8"/>
+  <circle cx="245" cy="1021" r="3.5" fill="#4fc3e8"/>
+  <!-- gear -->
+  <g>
+    <rect x="204" y="1050" width="12" height="14" rx="2" fill="#f0c48c" stroke="#22303f" stroke-width="2"/>
+    <rect x="204" y="1096" width="12" height="14" rx="2" fill="#f0c48c" stroke="#22303f" stroke-width="2"/>
+  </g>
+  <g transform="rotate(45 210 1080)">
+    <rect x="204" y="1050" width="12" height="14" rx="2" fill="#f0c48c" stroke="#22303f" stroke-width="2"/>
+    <rect x="204" y="1096" width="12" height="14" rx="2" fill="#f0c48c" stroke="#22303f" stroke-width="2"/>
+  </g>
+  <g transform="rotate(90 210 1080)">
+    <rect x="204" y="1050" width="12" height="14" rx="2" fill="#f0c48c" stroke="#22303f" stroke-width="2"/>
+    <rect x="204" y="1096" width="12" height="14" rx="2" fill="#f0c48c" stroke="#22303f" stroke-width="2"/>
+  </g>
+  <g transform="rotate(135 210 1080)">
+    <rect x="204" y="1050" width="12" height="14" rx="2" fill="#f0c48c" stroke="#22303f" stroke-width="2"/>
+    <rect x="204" y="1096" width="12" height="14" rx="2" fill="#f0c48c" stroke="#22303f" stroke-width="2"/>
+  </g>
+  <circle cx="210" cy="1080" r="22" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="210" cy="1080" r="8" fill="#c96a1b" stroke="#22303f" stroke-width="2"/>
+  <!-- key -->
+  <path d="M190 1144 H246 V1152 H243 V1162 H236 V1152 H232 V1160 H226 V1152 H190 Z" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="180" cy="1148" r="12" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="180" cy="1148" r="4" fill="#17457f"/>
+  <circle cx="210" cy="1182" r="6" fill="#4fc3e8" stroke="#22303f" stroke-width="2"/>
+  <rect x="158" y="1200" width="24" height="6" rx="2" fill="#22303f"/>
+  <rect x="238" y="1200" width="24" height="6" rx="2" fill="#22303f"/>
+
+  <!-- web server tower (center) -->
+  <polygon points="400,950 420,936 560,936 540,950" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="540,950 560,936 560,1186 540,1200" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="400" y="950" width="140" height="250" rx="6" fill="url(#ilWebC)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="414" y="966" width="112" height="110" rx="6" fill="#dff1f7" stroke="#22303f" stroke-width="2"/>
+  <!-- stack of page sheets -->
+  <rect x="436" y="984" width="46" height="62" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <rect x="430" y="990" width="46" height="62" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <path d="M424 996 H460 L470 1006 V1058 H424 Z" fill="#ffffff" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M460 996 V1006 H470 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <line x1="432" y1="1014" x2="454" y2="1014" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="432" y1="1026" x2="462" y2="1026" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="432" y1="1038" x2="460" y2="1038" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="432" y1="1050" x2="452" y2="1050" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- small picture files -->
+  <rect x="490" y="990" width="28" height="30" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <rect x="494" y="994" width="20" height="22" fill="#dff1f7"/>
+  <polygon points="494,1016 502,1004 508,1011 511,1007 514,1016" fill="#2f7fb5"/>
+  <circle cx="509" cy="999" r="3" fill="#ffd24a"/>
+  <rect x="490" y="1030" width="28" height="30" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <rect x="494" y="1034" width="20" height="22" fill="#f0c48c"/>
+  <polygon points="494,1056 502,1044 508,1051 511,1047 514,1056" fill="#17457f"/>
+  <circle cx="509" cy="1039" r="3" fill="#ffffff"/>
+  <!-- drive slots -->
+  <rect x="414" y="1090" width="112" height="14" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2"/>
+  <line x1="422" y1="1097" x2="470" y2="1097" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="500" cy="1097" r="3.5" fill="#4fc3e8"/>
+  <circle cx="512" cy="1097" r="3.5" fill="#f0c48c"/>
+  <rect x="414" y="1112" width="112" height="14" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2"/>
+  <line x1="422" y1="1119" x2="470" y2="1119" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="500" cy="1119" r="3.5" fill="#4fc3e8"/>
+  <circle cx="512" cy="1119" r="3.5" fill="#4fc3e8"/>
+  <rect x="414" y="1134" width="112" height="14" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2"/>
+  <line x1="422" y1="1141" x2="470" y2="1141" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="500" cy="1141" r="3.5" fill="#f0c48c"/>
+  <circle cx="512" cy="1141" r="3.5" fill="#4fc3e8"/>
+  <circle cx="470" cy="1176" r="7" fill="#4fc3e8" stroke="#22303f" stroke-width="2"/>
+  <rect x="408" y="1200" width="26" height="6" rx="2" fill="#22303f"/>
+  <rect x="506" y="1200" width="26" height="6" rx="2" fill="#22303f"/>
+
+  <!-- browser window (right) -->
+  <rect x="807" y="1150" width="30" height="38" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="772" y="1186" width="100" height="14" rx="7" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="700" y="960" width="244" height="190" rx="12" fill="#ffffff"/>
+  <path d="M712 960 H932 Q944 960 944 972 V990 H700 V972 Q700 960 712 960 Z" fill="#17457f"/>
+  <circle cx="716" cy="975" r="4" fill="#c0392b"/>
+  <circle cx="728" cy="975" r="4" fill="#ffd24a"/>
+  <circle cx="740" cy="975" r="4" fill="#4fc3e8"/>
+  <rect x="754" y="968" width="178" height="14" rx="7" fill="#ffffff"/>
+  <rect x="714" y="1002" width="216" height="20" rx="4" fill="#dff1f7"/>
+  <rect x="714" y="1034" width="92" height="70" rx="4" fill="#dff1f7" stroke="#8fc9f2" stroke-width="2"/>
+  <polygon points="722,1096 750,1064 770,1084 780,1074 798,1096" fill="#8fc9f2"/>
+  <circle cx="786" cy="1050" r="6" fill="#ffd24a"/>
+  <rect x="818" y="1036" width="112" height="8" rx="4" fill="#8fc9f2"/>
+  <rect x="818" y="1052" width="94" height="8" rx="4" fill="#8fc9f2"/>
+  <rect x="818" y="1068" width="106" height="8" rx="4" fill="#8fc9f2"/>
+  <rect x="818" y="1084" width="78" height="8" rx="4" fill="#8fc9f2"/>
+  <rect x="714" y="1116" width="72" height="20" rx="10" fill="#c96a1b"/>
+  <rect x="798" y="1122" width="132" height="8" rx="4" fill="#dff1f7"/>
+  <rect x="700" y="960" width="244" height="190" rx="12" fill="none" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- connector arrows -->
+  <path d="M686 1056 Q630 1030 578 1046" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="565,1050 580,1053 576,1039" fill="#c0392b"/>
+  <line x1="306" y1="1060" x2="382" y2="1060" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="296,1060 308,1052 308,1068" fill="#c0392b"/>
+  <polygon points="392,1060 380,1052 380,1068" fill="#c0392b"/>
+</g>
+
+<!-- Icon: two figures beside the section header -->
+<g transform="translate(132 298)">
+  <path d="M6 54 Q6 32 20 32 Q34 32 34 54 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="20" cy="18" r="10" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M10 17 Q10 6 20 6 Q30 6 30 17 Q25 11 10 17 Z" fill="#2b211c"/>
+  <circle cx="16.5" cy="19.5" r="1.6" fill="#22303f"/>
+  <circle cx="23.5" cy="19.5" r="1.6" fill="#22303f"/>
+  <path d="M34 26 Q34 10 46 10 Q58 10 58 26 L60 38 H32 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M32 56 Q32 38 46 38 Q60 38 60 56 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="46" cy="23" r="7.5" fill="#d59f6f" stroke="#22303f" stroke-width="2"/>
+  <circle cx="43.5" cy="23" r="1.4" fill="#22303f"/>
+  <circle cx="48.5" cy="23" r="1.4" fill="#22303f"/>
+</g>
+
+<!-- Face: surprise beside the first paragraph -->
+<g transform="translate(880 254)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="0" cy="9" r="5" fill="#22303f"/>
+</g>
+
+<!-- Icon: browser window (bullet 1) -->
+<g transform="translate(144 420)">
+  <rect x="0" y="2" width="48" height="40" rx="6" fill="#ffffff"/>
+  <path d="M6 2 H42 Q48 2 48 8 V13 H0 V8 Q0 2 6 2 Z" fill="#2f7fb5"/>
+  <circle cx="7" cy="7.5" r="2" fill="#ffd24a"/>
+  <circle cx="14" cy="7.5" r="2" fill="#4fc3e8"/>
+  <rect x="6" y="19" width="16" height="16" rx="2" fill="#8fc9f2"/>
+  <rect x="26" y="20" width="16" height="4" rx="2" fill="#c96a1b"/>
+  <rect x="26" y="28" width="12" height="4" rx="2" fill="#8fc9f2"/>
+  <rect x="0" y="2" width="48" height="40" rx="6" fill="none" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: document stack (bullet 2) -->
+<g transform="translate(146 580)">
+  <rect x="8" y="0" width="36" height="46" rx="3" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="0" y="8" width="36" height="46" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="7" y1="20" x2="24" y2="20" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="7" y1="30" x2="29" y2="30" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="7" y1="40" x2="26" y2="40" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: lock (bullet 3) -->
+<g transform="translate(146 740)">
+  <path d="M12 24 V15 Q12 3 24 3 Q36 3 36 15 V24 H30 V15 Q30 9 24 9 Q18 9 18 15 V24 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="6" y="22" width="36" height="26" rx="5" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="24" cy="33" r="4" fill="#22303f"/>
+  <rect x="22.5" y="34" width="3" height="8" rx="1.5" fill="#22303f"/>
+</g>
+
+<!-- Bullets -->
+<circle cx="966" cy="424" r="6" fill="#c0392b"/>
+<circle cx="114" cy="504" r="6" fill="#c0392b"/>
+<circle cx="966" cy="584" r="6" fill="#c0392b"/>
+<circle cx="114" cy="664" r="6" fill="#c0392b"/>
+<circle cx="966" cy="744" r="6" fill="#c0392b"/>
+<circle cx="114" cy="824" r="6" fill="#c0392b"/>
+
+<!-- Texts -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">والعميل هو <tspan font-weight="bold" fill="#17457f">البرنامج</tspan> (المتصفح أو التطبيق)،</tspan>
+  <tspan x="950" dy="40">لا الإنسان الذي يستخدمه.</tspan>
+</text>
+<text x="120" y="234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">The client is the <tspan font-weight="bold" fill="#17457f">program</tspan> (the browser</tspan>
+  <tspan x="120" dy="40">or app), not the person using it.</tspan>
+</text>
+
+<text x="950" y="354" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">شخصيات أخرى في القصة</text>
+<text x="120" y="394" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">Other characters in the story</text>
+
+<text x="950" y="434" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">المتصفح Browser:</tspan> برنامج عميل يطلب صفحات</tspan>
+  <tspan x="950" dy="40">الويب ويعرضها لك.</tspan>
+</text>
+<text x="132" y="514" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#c0392b">Browser:</tspan> a client program that requests</tspan>
+  <tspan x="132" dy="40">web pages and displays them for you.</tspan>
+</text>
+
+<text x="950" y="594" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">خادم الويب Web server:</tspan> يستقبل طلبات <tspan fill="#c96a1b">HTTP</tspan></tspan>
+  <tspan x="950" dy="40">ويرسل الصفحات والملفات.</tspan>
+</text>
+<text x="132" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#c0392b">Web server:</tspan> receives <tspan fill="#c96a1b">HTTP</tspan> requests and</tspan>
+  <tspan x="132" dy="40">sends pages and files.</tspan>
+</text>
+
+<text x="950" y="754" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">خادم التطبيقات App server:</tspan> يشغّل منطق</tspan>
+  <tspan x="950" dy="40">التطبيق، مثل التحقق من <tspan fill="#c96a1b">كلمة المرور.</tspan></tspan>
+</text>
+<text x="132" y="834" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#c0392b">App server:</tspan> runs the application's</tspan>
+  <tspan x="132" dy="40">logic, such as checking a <tspan fill="#c96a1b">password.</tspan></tspan>
+</text>
+</svg>

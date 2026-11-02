@@ -1,0 +1,229 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Code box -->
+<rect x="109" y="568" width="870" height="88" rx="12" fill="#22303f" opacity=".12"/>
+<rect x="105" y="562" width="870" height="88" rx="12" fill="#f4f6f8" stroke="#7f95ab" stroke-width="2"/>
+
+<!-- Bullets -->
+  <circle cx="966" cy="704" r="6" fill="#c0392b"/>
+  <circle cx="114" cy="744" r="6" fill="#c0392b"/>
+  <circle cx="966" cy="784" r="6" fill="#c0392b"/>
+  <circle cx="114" cy="824" r="6" fill="#c0392b"/>
+  <circle cx="966" cy="904" r="6" fill="#c0392b"/>
+  <circle cx="114" cy="944" r="6" fill="#c0392b"/>
+  <circle cx="966" cy="1024" r="6" fill="#c0392b"/>
+  <circle cx="114" cy="1064" r="6" fill="#c0392b"/>
+
+<!-- Memory illustration: laptop, URL split into four parts, house address -->
+<g>
+  <defs>
+    <linearGradient id="ilScreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#8fc9f2"/>
+    </linearGradient>
+    <linearGradient id="ilBar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dff1f7"/>
+    </linearGradient>
+    <linearGradient id="ilWall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e8dfd1"/>
+    </linearGradient>
+    <linearGradient id="ilRoof" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f7fb5"/>
+      <stop offset="1" stop-color="#17457f"/>
+    </linearGradient>
+  </defs>
+  <rect x="130" y="1154" width="148" height="90" rx="8" fill="#22303f" opacity=".18"/>
+  <path d="M 120 1244 L 288 1244 L 296 1256 Q 296 1262 290 1262 L 118 1262 Q 112 1262 112 1256 Z" fill="#22303f" opacity=".18"/>
+  <rect x="322" y="1178" width="444" height="54" rx="27" fill="#22303f" opacity=".18"/>
+  <rect x="842" y="1202" width="104" height="60" fill="#22303f" opacity=".18"/>
+  <polygon points="830,1204 894,1156 958,1204" fill="#22303f" opacity=".18"/>
+  <path d="M 298 1156 Q 300 1164 308 1166 Q 300 1168 298 1176 Q 296 1168 288 1166 Q 296 1164 298 1156 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 540 1148 Q 541.5 1154.5 548 1156 Q 541.5 1157.5 540 1164 Q 538.5 1157.5 532 1156 Q 538.5 1154.5 540 1148 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 800 1156 Q 802 1164 810 1166 Q 802 1168 800 1176 Q 798 1168 790 1166 Q 798 1164 800 1156 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="126" y="1148" width="148" height="90" rx="8" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="134" y="1156" width="132" height="74" rx="4" fill="url(#ilScreen)"/>
+  <rect x="142" y="1164" width="116" height="12" rx="6" fill="#ffffff"/>
+  <rect x="146" y="1167" width="18" height="6" rx="3" fill="#2e7d32"/>
+  <rect x="168" y="1167" width="30" height="6" rx="3" fill="#2f7fb5"/>
+  <rect x="202" y="1167" width="24" height="6" rx="3" fill="#c96a1b"/>
+  <rect x="230" y="1167" width="16" height="6" rx="3" fill="#ffd24a"/>
+  <rect x="142" y="1186" width="70" height="8" rx="4" fill="#17457f" opacity=".6"/>
+  <rect x="142" y="1200" width="70" height="6" rx="3" fill="#ffffff"/>
+  <rect x="142" y="1212" width="56" height="6" rx="3" fill="#ffffff"/>
+  <rect x="222" y="1186" width="36" height="32" rx="4" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 116 1238 L 284 1238 L 292 1250 Q 292 1256 286 1256 L 114 1256 Q 108 1256 108 1250 Z" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="182" y="1244" width="36" height="6" rx="3" fill="#7f95ab"/>
+  <rect x="318" y="1172" width="444" height="54" rx="27" fill="url(#ilBar)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="330" y="1180" width="88" height="38" rx="19" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="426" y="1180" width="134" height="38" rx="19" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="568" y="1180" width="104" height="38" rx="19" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="680" y="1180" width="70" height="38" rx="19" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 368 1196 L 368 1192 Q 374 1183 380 1192 L 380 1196" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="364" y="1196" width="20" height="15" rx="3" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="374" cy="1203" r="2.5" fill="#ffffff"/>
+  <rect x="438" y="1196" width="32" height="6" rx="3" fill="#17457f" opacity=".6"/>
+  <rect x="478" y="1187" width="30" height="11" rx="3" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="478" y="1200" width="30" height="11" rx="3" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="501" cy="1192.5" r="2" fill="#ffd24a"/>
+  <circle cx="501" cy="1205.5" r="2" fill="#ffd24a"/>
+  <rect x="516" y="1196" width="32" height="6" rx="3" fill="#17457f" opacity=".6"/>
+  <path d="M 582 1190 L 594 1190 L 598 1194 L 622 1194 L 622 1210 L 582 1210 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="632" y="1196" width="30" height="6" rx="3" fill="#c96a1b" opacity=".6"/>
+  <path d="M 696 1191 L 722 1191 L 734 1199 L 722 1207 L 696 1207 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="723" cy="1199" r="2.5" fill="#22303f"/>
+  <rect x="918" y="1160" width="14" height="26" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="838" y="1196" width="104" height="60" fill="url(#ilWall)" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="826,1198 890,1150 954,1198" fill="url(#ilRoof)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="850" y="1210" width="20" height="18" rx="3" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="910" y="1210" width="20" height="18" rx="3" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="890" cy="1211" r="7" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="878" y="1224" width="24" height="32" rx="4" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="896" cy="1242" r="2.5" fill="#ffd24a"/>
+  <path d="M 280 1199 L 300 1199 M 768 1199 L 806 1199" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="312,1199 300,1192 300,1206" fill="#c0392b"/>
+  <polygon points="818,1199 806,1192 806,1206" fill="#c0392b"/>
+</g>
+
+<!-- Icon: document stack (resource) -->
+<g transform="translate(124 92)">
+  <rect x="14" y="2" width="36" height="44" rx="5" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="4" y="10" width="36" height="44" rx="5" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="11" y="20" width="22" height="4" rx="2" fill="#c96a1b"/>
+  <rect x="11" y="30" width="18" height="4" rx="2" fill="#8fc9f2"/>
+  <rect x="11" y="40" width="20" height="4" rx="2" fill="#8fc9f2"/>
+</g>
+
+<!-- Icon: globe (web) -->
+<g transform="translate(128 314)">
+  <circle cx="28" cy="28" r="24" fill="#8fc9f2"/>
+  <path d="M 14 16 Q 22 12 26 20 Q 22 28 14 26 Z" fill="#a9dcbe"/>
+  <path d="M 32 32 Q 42 30 44 38 Q 38 46 32 42 Z" fill="#a9dcbe"/>
+  <ellipse cx="28" cy="28" rx="10" ry="24" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 4 28 L 52 28" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="28" cy="28" r="24" fill="none" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: location pin (address) -->
+<g transform="translate(892 436)">
+  <path d="M 24 50 C 14 38 6 30 6 20 C 6 10 14 2 24 2 C 34 2 42 10 42 20 C 42 30 34 38 24 50 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="24" cy="20" r="7" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: lock (https) -->
+<g transform="translate(560 678)">
+  <path d="M 12 22 L 12 15 Q 12 4 22 4 Q 32 4 32 15 L 32 22" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="4" y="20" width="36" height="24" rx="6" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="22" cy="30" r="4" fill="#2e7d32"/>
+  <rect x="20.5" y="32" width="3" height="7" rx="1.5" fill="#2e7d32"/>
+</g>
+
+<!-- Icon: server (domain) -->
+<g transform="translate(886 822)">
+  <rect x="4" y="2" width="38" height="18" rx="4" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="4" y="24" width="38" height="18" rx="4" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="10" y="9" width="14" height="4" rx="2" fill="#ffffff"/>
+  <rect x="10" y="31" width="14" height="4" rx="2" fill="#17457f"/>
+  <circle cx="34" cy="11" r="2.5" fill="#ffd24a"/>
+  <circle cx="34" cy="33" r="2.5" fill="#2e7d32"/>
+</g>
+
+<!-- Icon: folder (path) -->
+<g transform="translate(886 940)">
+  <path d="M 4 8 L 16 8 L 21 13 L 40 13 L 40 38 L 4 38 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 4 38 L 8 18 L 44 18 L 40 38 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: tag (extra information) -->
+<g transform="translate(780 1068)">
+  <path d="M 2 10 L 28 10 L 42 22 L 28 34 L 2 34 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="29" cy="22" r="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="8" y="20" width="12" height="4" rx="2" fill="#22303f" opacity=".35"/>
+</g>
+
+<!-- Face: smile -->
+<g transform="translate(904 1092)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Texts -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">المورد</tspan> Resource: أي شيء تطلبه من الخادم:</tspan>
+  <tspan x="950" dy="40">صفحة، أو صورة، أو ملف، أو بيانات.</tspan>
+</text>
+<text x="120" y="234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">Resource:</tspan> anything you request from the</tspan>
+  <tspan x="120" dy="40">server: a page, an image, a file, or data.</tspan>
+</text>
+
+<text x="950" y="354" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">العنوان</tspan> URL: العنوان الكامل للمورد</tspan>
+  <tspan x="950" dy="40">على الويب، مثل <tspan font-weight="bold" fill="#17457f">عنوان البيت</tspan> بالضبط.</tspan>
+</text>
+<text x="120" y="434" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">URL</tspan> (Uniform Resource Locator):</tspan>
+  <tspan x="120" dy="40">the full address of a resource on</tspan>
+  <tspan x="120" dy="40">the web, just like a <tspan font-weight="bold" fill="#17457f">home address.</tspan></tspan>
+</text>
+
+<text x="140" y="594" direction="ltr" unicode-bidi="plaintext" text-anchor="start" xml:space="preserve" font-family="Consolas, Menlo, Courier New, monospace" font-size="29" font-weight="normal" fill="#152b42">
+  <tspan x="140" dy="0" font-size="26" fill="#3d5a76">URL</tspan>
+  <tspan x="140" dy="40">https://www.example.com/lessons/3-2?lang=ar</tspan>
+</text>
+
+<text x="950" y="714" direction="rtl" unicode-bidi="embed" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="735" dy="0"><tspan direction="ltr" unicode-bidi="embed" fill="#c96a1b">https</tspan>: البروتوكول.</tspan>
+</text>
+<text x="132" y="754" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan fill="#c96a1b">https</tspan>: the protocol.</tspan>
+</text>
+
+<text x="950" y="794" direction="rtl" unicode-bidi="embed" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="415" dy="0"><tspan direction="ltr" unicode-bidi="embed" fill="#c96a1b">www.example.com</tspan>: اسم الخادم (النطاق).</tspan>
+</text>
+<text x="132" y="834" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan fill="#c96a1b">www.example.com</tspan>: the server</tspan>
+  <tspan x="132" dy="40">name (domain).</tspan>
+</text>
+
+<text x="950" y="914" direction="rtl" unicode-bidi="embed" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="455" dy="0"><tspan direction="ltr" unicode-bidi="embed" fill="#c96a1b">/lessons/3-2</tspan>: مسار المورد داخل الخادم.</tspan>
+</text>
+<text x="132" y="954" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan fill="#c96a1b">/lessons/3-2</tspan>: the path to the</tspan>
+  <tspan x="132" dy="40">resource on the server.</tspan>
+</text>
+
+<text x="950" y="1034" direction="rtl" unicode-bidi="embed" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="485" dy="0"><tspan direction="ltr" unicode-bidi="embed" fill="#c96a1b">?lang=ar</tspan>: معلومات إضافية مع الطلب.</tspan>
+</text>
+<text x="132" y="1074" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan fill="#c96a1b">?lang=ar</tspan>: extra information</tspan>
+  <tspan x="132" dy="40">sent with the request.</tspan>
+</text>
+</svg>

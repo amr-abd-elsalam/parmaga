@@ -1,0 +1,228 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Warning card: shadow, fill, accent -->
+<g>
+  <rect x="109" y="848" width="870" height="288" rx="16" fill="#22303f" opacity=".12"/>
+  <rect x="105" y="842" width="870" height="288" rx="16" fill="#fdf1e2" stroke="#f0c48c" stroke-width="2"/>
+  <rect x="961" y="858" width="6" height="256" rx="3" fill="#c96a1b"/>
+</g>
+
+<!-- Main illustration: student calmly stepping around a hidden trap -->
+<g>
+  <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8fc9f2"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+  <linearGradient id="ilGround" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#a9dcbe"/>
+    <stop offset="1" stop-color="#2e7d32"/>
+  </linearGradient>
+  <linearGradient id="ilTree" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#a9dcbe"/>
+    <stop offset="1" stop-color="#2e7d32"/>
+  </linearGradient>
+  <rect x="109" y="426" width="866" height="394" rx="24" fill="#22303f" opacity=".18"/>
+  <rect x="105" y="420" width="866" height="394" rx="24" fill="url(#ilSky)"/>
+  <g>
+    <line x1="775" y1="488" x2="787" y2="488" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="763.3" y1="459.7" x2="771.8" y2="451.2" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="735" y1="448" x2="735" y2="436" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="706.7" y1="459.7" x2="698.2" y2="451.2" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="695" y1="488" x2="683" y2="488" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="706.7" y1="516.3" x2="698.2" y2="524.8" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="735" y1="528" x2="735" y2="540" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="763.3" y1="516.3" x2="771.8" y2="524.8" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="735" cy="488" r="32" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <g fill="#ffffff">
+    <ellipse cx="215" cy="484" rx="30" ry="16"/>
+    <ellipse cx="245" cy="472" rx="28" ry="22"/>
+    <ellipse cx="275" cy="486" rx="26" ry="14"/>
+    <ellipse cx="540" cy="470" rx="26" ry="14"/>
+    <ellipse cx="566" cy="460" rx="24" ry="18"/>
+    <ellipse cx="592" cy="472" rx="22" ry="12"/>
+  </g>
+  <path d="M105 640 L105 600 Q160 570 215 590 Q300 530 390 585 Q470 545 540 590 Q640 535 740 590 Q830 550 900 585 Q940 570 971 590 L971 660 L105 660 Z" fill="#2f7fb5" opacity=".35"/>
+  <path d="M105 650 C 300 622, 650 672, 971 640 L971 790 Q971 814 947 814 L129 814 Q105 814 105 790 Z" fill="url(#ilGround)"/>
+  <g>
+    <rect x="162" y="610" width="16" height="78" rx="4" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="145" cy="612" r="28" fill="url(#ilTree)" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="196" cy="612" r="28" fill="url(#ilTree)" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="170" cy="590" r="40" fill="url(#ilTree)" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <g>
+    <rect x="862" y="600" width="16" height="86" rx="4" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="840" cy="605" r="32" fill="url(#ilTree)" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="902" cy="605" r="32" fill="url(#ilTree)" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="870" cy="580" r="44" fill="url(#ilTree)" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <path d="M105 700 C 350 670, 600 735, 971 690 L971 760 C 600 805, 350 740, 105 772 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <g fill="#c96a1b" opacity=".35">
+    <ellipse cx="940" cy="722" rx="9" ry="5"/>
+    <ellipse cx="915" cy="736" rx="9" ry="5"/>
+    <ellipse cx="885" cy="724" rx="9" ry="5"/>
+    <ellipse cx="858" cy="738" rx="9" ry="5"/>
+    <ellipse cx="828" cy="728" rx="9" ry="5"/>
+    <ellipse cx="800" cy="743" rx="9" ry="5"/>
+    <ellipse cx="770" cy="734" rx="9" ry="5"/>
+    <ellipse cx="742" cy="750" rx="9" ry="5"/>
+    <ellipse cx="712" cy="742" rx="9" ry="5"/>
+    <ellipse cx="684" cy="758" rx="9" ry="5"/>
+  </g>
+  <g fill="none" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round">
+    <path d="M170 800 l5 -10 l5 10 l5 -10 l5 10"/>
+    <path d="M380 805 l5 -10 l5 10 l5 -10 l5 10"/>
+    <path d="M760 802 l5 -10 l5 10 l5 -10 l5 10"/>
+    <path d="M880 798 l5 -10 l5 10 l5 -10 l5 10"/>
+  </g>
+  <g fill="#ffd24a" stroke="#22303f" stroke-width="2.5">
+    <circle cx="232" cy="795" r="5"/>
+    <circle cx="300" cy="803" r="4"/>
+    <circle cx="722" cy="798" r="5"/>
+    <circle cx="930" cy="785" r="5"/>
+  </g>
+  <g>
+    <rect x="285" y="636" width="10" height="52" rx="3" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+    <polygon points="290,560 338,640 242,640" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="286" y="584" width="8" height="30" rx="4" fill="#22303f"/>
+    <circle cx="290" cy="626" r="4.5" fill="#22303f"/>
+  </g>
+  <g>
+    <path d="M452 728 Q448 700 464 690 Q468 712 462 728 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M455 728 Q425 722 410 738 Q432 742 455 734 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M458 728 Q488 720 502 736 Q480 742 458 734 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <ellipse cx="456" cy="731" rx="12" ry="7" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="464" cy="690" r="3" fill="#7d4f28"/>
+    <circle cx="428" cy="733" r="2.5" fill="#c96a1b"/>
+    <circle cx="486" cy="731" r="2.5" fill="#c96a1b"/>
+    <circle cx="458" cy="708" r="2.5" fill="#c96a1b"/>
+  </g>
+  <path d="M540 770 Q465 806 396 774" fill="none" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="8 8"/>
+  <polygon points="385,769 393,780.3 399,767.7" fill="#2e7d32"/>
+  <g transform="translate(600 532)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+    <polygon points="14,66 28,68 44,122 32,128" fill="#2f7fb5"/>
+    <circle cx="39" cy="128" r="7" fill="#e8b98d"/>
+    <rect x="16" y="66" width="24" height="54" rx="9" fill="#c96a1b"/>
+    <polygon points="0,130 20,130 34,230 16,232" fill="#17457f"/>
+    <path d="M12 228 L38 228 Q46 232 44 240 L10 240 Z" fill="#22303f"/>
+    <polygon points="-20,130 2,132 -20,184 -34,212 -50,206 -38,180" fill="#17457f"/>
+    <path d="M-62 204 L-38 206 L-34 218 L-64 218 Q-68 210 -62 204 Z" fill="#22303f"/>
+    <rect x="-7" y="44" width="14" height="18" fill="#e8b98d"/>
+    <path d="M-26 64 Q0 54 26 64 L30 136 L-28 136 Z" fill="#8fc9f2"/>
+    <path d="M-10 58 L0 72 L10 58" fill="#ffffff"/>
+    <rect x="-38" y="80" width="34" height="46" rx="4" fill="#ffd24a"/>
+    <rect x="-38" y="80" width="7" height="46" fill="#c96a1b"/>
+    <line x1="-26" y1="96" x2="-10" y2="96" stroke="#c96a1b"/>
+    <line x1="-26" y1="106" x2="-10" y2="106" stroke="#c96a1b"/>
+    <path d="M-30 64 L-16 66 L-18 102 L-2 102 L-2 116 L-30 116 Z" fill="#8fc9f2"/>
+    <circle cx="0" cy="109" r="7.5" fill="#e8b98d"/>
+    <circle cx="0" cy="28" r="26" fill="#e8b98d"/>
+    <path d="M-26 26 Q-26 0 0 0 Q27 0 26 28 Q18 16 4 14 Q-12 12 -26 26 Z" fill="#2b211c"/>
+    <ellipse cx="22" cy="30" rx="4.5" ry="6.5" fill="#e8b98d"/>
+    <circle cx="-17" cy="38" r="4" fill="#f0c48c" stroke="none" opacity=".6"/>
+    <circle cx="-13" cy="30" r="3" fill="#22303f" stroke="none"/>
+    <circle cx="1" cy="30" r="3" fill="#22303f" stroke="none"/>
+    <path d="M-17 22 L-9 21" fill="none"/>
+    <path d="M-3 21 L5 22" fill="none"/>
+    <path d="M-16 40 Q-8 47 0 41" fill="none"/>
+  </g>
+  <rect x="105" y="420" width="866" height="394" rx="24" fill="none" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: pencil beside title -->
+<g transform="translate(150 82)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M8 44 L36 16 L44 24 L16 52 Z" fill="#ffd24a"/>
+  <path d="M8 44 L16 52 L4 56 Z" fill="#f0c48c"/>
+  <path d="M36 16 L42 10 Q46 7 49 11 L50 15 Q51 19 48 21 L44 24 Z" fill="#c0392b"/>
+</g>
+
+<!-- Face: surprise beside title -->
+<g transform="translate(905 118)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="0" cy="10" r="5" fill="#22303f"/>
+</g>
+
+<!-- Icon: light bulb beside paragraph -->
+<g transform="translate(150 206)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="28" y1="6" x2="28" y2="0" stroke="#c96a1b"/>
+  <line x1="10" y1="14" x2="5" y2="10" stroke="#c96a1b"/>
+  <line x1="46" y1="14" x2="51" y2="10" stroke="#c96a1b"/>
+  <line x1="6" y1="30" x2="0" y2="30" stroke="#c96a1b"/>
+  <line x1="50" y1="30" x2="56" y2="30" stroke="#c96a1b"/>
+  <circle cx="28" cy="28" r="16" fill="#ffd24a" stroke="#22303f"/>
+  <path d="M20 42 L36 42 L34 48 L22 48 Z" fill="#ffd24a" stroke="#22303f"/>
+  <rect x="20" y="48" width="16" height="10" rx="3" fill="#7f95ab" stroke="#22303f"/>
+</g>
+
+<!-- Icon: warning triangle in card header -->
+<g transform="translate(690 846)">
+  <polygon points="24,2 46,42 2,42" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="21.5" y="14" width="5" height="16" rx="2.5" fill="#22303f"/>
+  <circle cx="24" cy="36" r="3" fill="#22303f"/>
+</g>
+
+<!-- Lower band icons: shield, lock, star -->
+<g transform="translate(382 1170)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M28 2 L52 10 L52 28 Q52 46 28 56 Q4 46 4 28 L4 10 Z" fill="#8fc9f2"/>
+  <path d="M17 29 L25 37 L39 21" fill="none" stroke="#2e7d32"/>
+</g>
+<g transform="translate(512 1170)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M16 26 L16 18 Q16 6 28 6 Q40 6 40 18 L40 26" fill="none"/>
+  <rect x="8" y="26" width="40" height="28" rx="6" fill="#ffd24a"/>
+  <circle cx="28" cy="37" r="4" fill="#22303f"/>
+  <rect x="26.5" y="38" width="3" height="9" fill="#22303f" stroke="none"/>
+</g>
+<g transform="translate(642 1169)">
+  <polygon points="28,3 34.47,20.1 52.73,20.97 38.46,32.4 43.28,50.03 28,40 12.72,50.03 17.54,32.4 3.27,20.97 21.53,20.1" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Text -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">فخاخ الامتحان</text>
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="normal" fill="#152b42">Exam Traps</text>
+
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">هذه أشهر <tspan font-weight="bold" fill="#17457f">سبعة أخطاء</tspan> يقع فيها الطلاب.</tspan>
+  <tspan x="950" dy="40">اعرفها مرة، ولن تقع فيها <tspan font-weight="bold" fill="#2e7d32">أبدًا.</tspan></tspan>
+</text>
+<text x="120" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">These are the <tspan font-weight="bold" fill="#17457f">seven</tspan> most common</tspan>
+  <tspan x="120" dy="40">student <tspan font-weight="bold" fill="#17457f">mistakes.</tspan> Know them once,</tspan>
+  <tspan x="120" dy="40">and you will <tspan font-weight="bold" fill="#2e7d32">never</tspan> fall for them.</tspan>
+</text>
+
+<text x="935" y="874" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">فخ امتحان</text>
+<text x="140" y="914" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">EXAM TRAP</text>
+
+<text x="935" y="954" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">&#x200F;1 «POST آمن لأنه لا يظهر في العنوان»</tspan>
+  <tspan x="935" dy="40"><tspan font-weight="bold" fill="#c0392b">خطأ؛</tspan> الحماية تأتي من <tspan font-weight="bold" fill="#2e7d32">HTTPS،</tspan> لا من الطريقة.</tspan>
+</text>
+<text x="140" y="1034" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">1 “POST is safe because it is not</tspan>
+  <tspan x="140" dy="40">in the URL” is <tspan font-weight="bold" fill="#c0392b">wrong;</tspan> protection</tspan>
+  <tspan x="140" dy="40">comes from <tspan font-weight="bold" fill="#2e7d32">HTTPS,</tspan> not the method.</tspan>
+</text>
+</svg>
