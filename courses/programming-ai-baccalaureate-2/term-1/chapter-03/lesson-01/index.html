@@ -1,0 +1,853 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>البنية العامة لتطبيقات الوب | Parmaga</title>
+<meta name="description" content="الدرس 3-1 من مادة البرمجة والذكاء الاصطناعي للبكالوريا: البنية العامة لتطبيقات الوب، في 36 صفحة مع النص الكامل بالعربية والإنجليزية.">
+<link rel="canonical" href="https://parmaga.com/courses/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/">
+<meta name="theme-color" content="#7A4E28">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/assets/images/fav180.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/fav32.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/fav32D.png" media="(prefers-color-scheme: dark)">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/fav16.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/fav16D.png" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta property="og:type" content="article">
+<meta property="og:title" content="البنية العامة لتطبيقات الوب">
+<meta property="og:description" content="الدرس 3-1 من مادة البرمجة والذكاء الاصطناعي للبكالوريا: البنية العامة لتطبيقات الوب، في 36 صفحة مع النص الكامل بالعربية والإنجليزية.">
+<meta property="og:url" content="https://parmaga.com/courses/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/">
+<meta property="og:image" content="https://parmaga.com/assets/images/og-cover.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<link rel="stylesheet" href="/assets/css/parmaga.css">
+<script src="/assets/js/lesson-viewer.js" defer></script>
+<script src="/assets/js/pwa-install.js" defer></script>
+<script src="/assets/js/lesson-board.js" defer></script>
+</head>
+<body class="page-lesson">
+<main>
+<header class="lesson-head">
+<p class="lesson-eyebrow">الدرس 3-1 — البرمجة والذكاء الاصطناعي — البكالوريا 2</p>
+<h1>البنية العامة لتطبيقات الوب</h1>
+<p class="lesson-lede">درس من 36 صفحة. الصفحات معروضة كاملة أدناه بالترتيب، ولكل صفحة نصها الكامل بالعربية والإنجليزية.</p>
+</header>
+
+<div class="lesson-viewer-controls" data-viewer-controls hidden>
+<p class="viewer-status" data-viewer-status role="status">جارٍ التحضير…</p>
+<div class="viewer-panel" id="viewer-panel-nav" data-viewer-panel="nav" hidden>
+<button type="button" class="viewer-btn" data-viewer-prev>الصفحة السابقة</button>
+<span class="viewer-jump">
+<label class="viewer-jump-label" for="viewer-page-select">الصفحة</label>
+<select id="viewer-page-select" class="viewer-select" data-viewer-jump></select>
+</span>
+<button type="button" class="viewer-btn" data-viewer-next>الصفحة التالية</button>
+<button type="button" class="viewer-btn" data-viewer-mode>العرض التفاعلي لهذه الصفحة</button>
+</div>
+<div class="viewer-panel" id="viewer-panel-motion" data-viewer-panel="motion" hidden>
+<button type="button" class="viewer-btn" data-viewer-play>تشغيل العرض</button>
+<button type="button" class="viewer-btn" data-viewer-replay>إعادة التشغيل</button>
+<button type="button" class="viewer-btn" data-viewer-skip>إظهار الصفحة كاملة</button>
+<button type="button" class="viewer-btn" data-viewer-slower>إبطاء</button>
+<span class="viewer-speed">السرعة <span data-viewer-speed>1×</span></span>
+<button type="button" class="viewer-btn" data-viewer-faster>تسريع</button>
+<button type="button" class="viewer-btn" data-viewer-pen>إخفاء القلم</button>
+</div>
+<div class="viewer-bar">
+<button type="button" class="viewer-fab" data-viewer-disclosure="nav" aria-expanded="false" aria-controls="viewer-panel-nav" aria-label="التنقل بين الصفحات"><span class="viewer-fab-text">صفحات</span></button>
+<button type="button" class="viewer-fab" data-viewer-disclosure="motion" aria-expanded="false" aria-controls="viewer-panel-motion" aria-label="أدوات محاكاة الكتابة" hidden><span class="viewer-fab-text">كتابة</span></button>
+</div>
+</div>
+
+<ol class="lesson-pages" data-lesson-pages>
+
+<li class="lesson-page" id="page-1" data-page-index="1">
+<h2>الصفحة 1 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-001.svg" width="1080" height="1350" alt="الدرس 3-1">
+<details class="lesson-transcript">
+<summary>نص الصفحة 1</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">الدرس 3-1</p>
+<p lang="ar" dir="rtl">البنية العامة لتطبيقات الويب</p>
+<p lang="en" dir="ltr">Lesson 3-1</p>
+<p lang="en" dir="ltr">The Overall Structure of Web Applications</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-2" data-page-index="2">
+<h2>الصفحة 2 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-002.svg" width="1080" height="1350" loading="lazy" alt="ماذا يحدث في ثانية واحدة؟">
+<details class="lesson-transcript">
+<summary>نص الصفحة 2</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">ماذا يحدث في ثانية واحدة؟</p>
+<p lang="en" dir="ltr">What Happens in One Second?</p>
+<p lang="ar" dir="rtl">تخيّل أنك كتبت في YouTube: «ملخص ماتش امبارح» وضغطت Enter، فظهرت أمامك قائمة فيديوهات خلال ثانية تقريبًا.</p>
+<p lang="en" dir="ltr">Imagine you typed &quot;yesterday&#x27;s match highlights&quot; in YouTube and pressed Enter, and a list of videos appeared in about a second.</p>
+<p lang="ar" dir="rtl">خمّن قبل أن تكمل</p>
+<p lang="en" dir="ltr">GUESS BEFORE YOU READ ON</p>
+<p lang="ar" dir="rtl">ماذا حدث خلف الشاشة في هذه الثانية؟ وكم جزءًا اشترك في تجهيز النتيجة؟</p>
+<p lang="en" dir="ltr">What happened behind the screen in that second? How many parts worked together to prepare the result?</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-3" data-page-index="3">
+<h2>الصفحة 3 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-003.svg" width="1080" height="1350" loading="lazy" alt="ما تطبيق الويب؟">
+<details class="lesson-transcript">
+<summary>نص الصفحة 3</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">ما تطبيق الويب؟</p>
+<p lang="en" dir="ltr">What Is a Web Application?</p>
+<p lang="ar" dir="rtl">‏YouTube وGmail والمتاجر الإلكترونية والخرائط على الويب كلها تطبيقات ويب.</p>
+<p lang="en" dir="ltr">YouTube, Gmail, online stores, and web maps are all web applications.</p>
+<p lang="ar" dir="rtl">تعريف</p>
+<p lang="en" dir="ltr">DEFINITION</p>
+<p lang="ar" dir="rtl">تطبيق الويب Web Application: برنامج تستخدمه غالبًا من خلال المتصفح، دون أن تثبّت برنامجًا خاصًا. وبعض تطبيقات الويب يمكن تثبيتها على الجهاز أيضًا.</p>
+<p lang="en" dir="ltr">Web application: a program you usually use through the browser, without installing special software. Some web applications can also be installed on the device.</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-4" data-page-index="4">
+<h2>الصفحة 4 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-004.svg" width="1080" height="1350" loading="lazy" alt="تابع: ما تطبيق الويب؟">
+<details class="lesson-transcript">
+<summary>نص الصفحة 4</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">ما الفرق بين تطبيق الويب والموقع التعريفي البسيط؟ الموقع التعريفي تقرؤه فقط، أما تطبيق الويب فيتفاعل معك: تبحث فيه وتشتري وتنشر وترسل.</p>
+<p lang="en" dir="ltr">How is a web application different from a simple information website? You only read an information website, but a web application interacts with you: you search, buy, post, and send in it.</p>
+<p lang="ar" dir="rtl">موقع تعريفي</p>
+<p lang="en" dir="ltr">Information website</p>
+<p lang="ar" dir="rtl">تطبيق ويب</p>
+<p lang="en" dir="ltr">Web application</p>
+<p lang="ar" dir="rtl">الموقع التعريفي تقرؤه، وتطبيق الويب تتفاعل معه.</p>
+<p lang="en" dir="ltr">You read an information website; you interact with a web application.</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-5" data-page-index="5">
+<h2>الصفحة 5 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-005.svg" width="1080" height="1350" loading="lazy" alt="تابع: ما تطبيق الويب؟">
+<details class="lesson-transcript">
+<summary>نص الصفحة 5</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">تعريفات</p>
+<p lang="en" dir="ltr">DEFINITIONS</p>
+<p lang="ar" dir="rtl">المتصفح Browser: البرنامج الذي تفتح به صفحات الويب، مثل Chrome وEdge وSafari، وفيه تعمل الواجهة الأمامية.</p>
+<p lang="en" dir="ltr">Browser: the program you use to open web pages, such as Chrome, Edge, and Safari; the frontend runs inside it.</p>
+<p lang="ar" dir="rtl">المستخدم User: الشخص الذي يتعامل مع التطبيق؛ يكتب ويضغط ويختار، ثم ينتظر النتيجة.</p>
+<p lang="en" dir="ltr">User: the person who works with the app; they type, click, and choose, then wait for the result.</p>
+<p lang="ar" dir="rtl">جرّب بنفسك</p>
+<p lang="en" dir="ltr">TRY IT YOURSELF</p>
+<p lang="ar" dir="rtl">افتح تطبيق ويب تستخدمه، واذكر ثلاثة أشياء تفعلها فيه ولا يتيحها موقع تعريفي.</p>
+<p lang="en" dir="ltr">Open a web app you use and name three things you do in it that an information website does not allow.</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-6" data-page-index="6">
+<h2>الصفحة 6 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-006.svg" width="1080" height="1350" loading="lazy" alt="قصة محل الكشري">
+<details class="lesson-transcript">
+<summary>نص الصفحة 6</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">قصة محل الكشري</p>
+<p lang="en" dir="ltr">The Koshary Shop Story</p>
+<p lang="ar" dir="rtl">قبل المصطلحات، ادخل معي محل كشري واطلب «طبق كبير بالصلصة الزيادة». لاحظ: مَن يفعل ماذا؟</p>
+<p lang="en" dir="ltr">Before the terms, come with me into a koshary shop and order &quot;a large plate with extra sauce&quot;. Notice: who does what?</p>
+<p lang="ar" dir="rtl">الزبون</p>
+<p lang="en" dir="ltr">Customer</p>
+<p lang="ar" dir="rtl">الكاشير</p>
+<p lang="en" dir="ltr">Cashier</p>
+<p lang="ar" dir="rtl">البون</p>
+<p lang="en" dir="ltr">Order ticket</p>
+<p lang="ar" dir="rtl">المطبخ</p>
+<p lang="en" dir="ltr">Kitchen</p>
+<p lang="ar" dir="rtl">المخزن</p>
+<p lang="en" dir="ltr">Storeroom</p>
+<p lang="ar" dir="rtl">الطبق</p>
+<p lang="en" dir="ltr">Plate</p>
+<p lang="ar" dir="rtl">كل شخص في المحل له دور واحد واضح.</p>
+<p lang="en" dir="ltr">Everyone in the shop has one clear role.</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-7" data-page-index="7">
+<h2>الصفحة 7 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-007.svg" width="1080" height="1350" loading="lazy" alt="تابع: قصة محل الكشري">
+<details class="lesson-transcript">
+<summary>نص الصفحة 7</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">في محل الكشري</p>
+<p lang="en" dir="ltr">In the koshary shop</p>
+<p lang="ar" dir="rtl">في تطبيق الويب</p>
+<p lang="en" dir="ltr">In a web application</p>
+<p lang="ar" dir="rtl">الزبون</p>
+<p lang="en" dir="ltr">Customer</p>
+<p lang="ar" dir="rtl">المستخدم</p>
+<p lang="en" dir="ltr">User</p>
+<p lang="ar" dir="rtl">الكاشير والشباك</p>
+<p lang="en" dir="ltr">Cashier and counter</p>
+<p lang="ar" dir="rtl">الواجهة الأمامية</p>
+<p lang="en" dir="ltr">Frontend</p>
+<p lang="ar" dir="rtl">المطبخ والطباخ</p>
+<p lang="en" dir="ltr">Kitchen and cook</p>
+<p lang="ar" dir="rtl">الواجهة الخلفية</p>
+<p lang="en" dir="ltr">Backend</p>
+<p lang="ar" dir="rtl">المخزن والثلاجة</p>
+<p lang="en" dir="ltr">Storeroom and fridge</p>
+<p lang="ar" dir="rtl">قاعدة البيانات</p>
+<p lang="en" dir="ltr">Database</p>
+<p lang="ar" dir="rtl">الأمامية بتعرض وتسمع، والخلفية بتفكّر وتقرر، والبيانات بتحفظ وتفتكر.</p>
+<p lang="en" dir="ltr">Frontend shows and listens, backend thinks and decides, data stores and remembers.</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-8" data-page-index="8">
+<h2>الصفحة 8 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-008.svg" width="1080" height="1350" loading="lazy" alt="تابع: قصة محل الكشري">
+<details class="lesson-transcript">
+<summary>نص الصفحة 8</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">هل يدخل الزبون المطبخ؟</p>
+<p lang="en" dir="ltr">Does the customer enter the kitchen?</p>
+<p lang="ar" dir="rtl">لا، فالخلفية مخفية عن المستخدم.</p>
+<p lang="en" dir="ltr">No, the backend is hidden from users.</p>
+<p lang="ar" dir="rtl">هل يطبخ الكاشير؟</p>
+<p lang="en" dir="ltr">Does the cashier cook?</p>
+<p lang="ar" dir="rtl">لا. والواجهة الأمامية لا تتخذ قرارات التطبيق المهمة.</p>
+<p lang="en" dir="ltr">No. The frontend does not make the app&#x27;s key decisions.</p>
+<p lang="ar" dir="rtl">هل يقرر المخزن ما يُطبخ؟</p>
+<p lang="en" dir="ltr">Does the storeroom decide the dish?</p>
+<p lang="ar" dir="rtl">لا. قاعدة البيانات تحفظ وتعطي ما يُطلب منها فقط.</p>
+<p lang="en" dir="ltr">No. The database only stores and gives what is asked.</p>
+<p lang="ar" dir="rtl">ماذا لو نفد العدس من المخزن؟</p>
+<p lang="en" dir="ltr">What if the storeroom runs out of lentils?</p>
+<p lang="ar" dir="rtl">الكاشير والمطبخ يعملان، لكن الطبق لا يصل: عطل طبقة واحدة قد يوقف النتيجة كلها.</p>
+<p lang="en" dir="ltr">The cashier and kitchen work, but no plate arrives: one failed tier can stop the whole result.</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-9" data-page-index="9">
+<h2>الصفحة 9 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-009.svg" width="1080" height="1350" loading="lazy" alt="الطبقات الثلاث">
+<details class="lesson-transcript">
+<summary>نص الصفحة 9</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">الطبقات الثلاث</p>
+<p lang="en" dir="ltr">The Three Tiers</p>
+<p lang="ar" dir="rtl">تذكر سؤال «الثانية الواحدة»؟ الإجابة: ثلاث طبقات Tiers تعاونت معًا.</p>
+<p lang="en" dir="ltr">Remember the &quot;one second&quot; question? Answer: three tiers worked together.</p>
+<p lang="ar" dir="rtl">الواجهة الأمامية</p>
+<p lang="en" dir="ltr">Frontend</p>
+<p lang="ar" dir="rtl">تعرض وتجمع</p>
+<p lang="en" dir="ltr">Shows and collects</p>
+<p lang="ar" dir="rtl">الواجهة الخلفية</p>
+<p lang="en" dir="ltr">Backend</p>
+<p lang="ar" dir="rtl">تقرر وتعالج</p>
+<p lang="en" dir="ltr">Decides and processes</p>
+<p lang="ar" dir="rtl">قاعدة البيانات</p>
+<p lang="en" dir="ltr">Database</p>
+<p lang="ar" dir="rtl">تخزن وتسترجع</p>
+<p lang="en" dir="ltr">Stores and retrieves</p>
+<p lang="ar" dir="rtl">تعريف</p>
+<p lang="en" dir="ltr">DEFINITION</p>
+<p lang="ar" dir="rtl">الطبقة Tier: جزء من التطبيق له مسؤولية محددة، وقد يعمل في مكان مستقل، كالمتصفح أو الخادم.</p>
+<p lang="en" dir="ltr">Tier: a part of the app with one clear responsibility; it may run in its own place, such as the browser or the server.</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-10" data-page-index="10">
+<h2>الصفحة 10 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-010.svg" width="1080" height="1350" loading="lazy" alt="تابع: الطبقات الثلاث">
+<details class="lesson-transcript">
+<summary>نص الصفحة 10</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">قاعدة الأفعال الستة: الواجهة الأمامية تعرض وتجمع، والواجهة الخلفية تقرر وتعالج، وقاعدة البيانات تخزن وتسترجع.</p>
+<p lang="en" dir="ltr">The six-verb rule: the frontend shows and collects, the backend decides and processes, and the database stores and retrieves.</p>
+<p lang="ar" dir="rtl">تعريف</p>
+<p lang="en" dir="ltr">DEFINITION</p>
+<p lang="ar" dir="rtl">بنية الطبقات الثلاث Three-Tier Architecture: تقسيم التطبيق إلى طبقة عرض Presentation، وطبقة معالجة Logic، وطبقة بيانات Data، لكل منها مسؤولية واضحة.</p>
+<p lang="en" dir="ltr">Three-tier architecture: dividing an app into a presentation tier, a logic tier, and a data tier, each with a clear responsibility.</p>
+<p lang="ar" dir="rtl">وهي نموذج شائع، لا قانون: فبعض التطبيقات فيها طبقات أكثر، وبعضها بلا قاعدة بيانات تقليدية.</p>
+<p lang="en" dir="ltr">It is a common model, not a law: some apps have more tiers, and some have no traditional database.</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-11" data-page-index="11">
+<h2>الصفحة 11 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-011.svg" width="1080" height="1350" loading="lazy" alt="الواجهة الأمامية">
+<details class="lesson-transcript">
+<summary>نص الصفحة 11</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">الواجهة الأمامية</p>
+<p lang="en" dir="ltr">The Frontend</p>
+<p lang="ar" dir="rtl">تعريف</p>
+<p lang="en" dir="ltr">DEFINITION</p>
+<p lang="ar" dir="rtl">الواجهة الأمامية Frontend: الجزء من التطبيق الذي يعمل داخل المتصفح على جهازك؛ يعرض المحتوى، ويستقبل ما تكتبه أو تختاره ثم يرسله.</p>
+<p lang="en" dir="ltr">Frontend: the part of the app that runs inside the browser on your device; it displays content and receives what you type or choose, then sends it on.</p>
+<p lang="ar" dir="rtl">محتوى معروض</p>
+<p lang="en" dir="ltr">Displayed content</p>
+<p lang="ar" dir="rtl">مربع إدخال</p>
+<p lang="en" dir="ltr">Input box</p>
+<p lang="ar" dir="rtl">زر</p>
+<p lang="en" dir="ltr">Button</p>
+<p lang="ar" dir="rtl">مثل: شاشة البحث، ونموذج الإدخال.</p>
+<p lang="en" dir="ltr">e.g., a search screen, an input form.</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-12" data-page-index="12">
+<h2>الصفحة 12 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-012.svg" width="1080" height="1350" loading="lazy" alt="تابع: الواجهة الأمامية">
+<details class="lesson-transcript">
+<summary>نص الصفحة 12</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">معلومة تميزك</p>
+<p lang="en" dir="ltr">GO BEYOND</p>
+<p lang="ar" dir="rtl">تُبنى الواجهة الأمامية عادة بثلاث لغات: HTML للهيكل، وCSS للشكل، وJavaScript للتفاعل.</p>
+<p lang="en" dir="ltr">The frontend is usually built with three languages: HTML for structure, CSS for style, and JavaScript for interaction.</p>
+<p lang="ar" dir="rtl">تعريف</p>
+<p lang="en" dir="ltr">DEFINITION</p>
+<p lang="ar" dir="rtl">المدخلات Input: كل ما تعطيه للتطبيق: كتابة، أو ضغطة، أو اختيار، أو رفع صورة.</p>
+<p lang="en" dir="ltr">Input: anything you give the app: typing, a click, a choice, or an uploaded photo.</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-13" data-page-index="13">
+<h2>الصفحة 13 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-013.svg" width="1080" height="1350" loading="lazy" alt="الواجهة الخلفية">
+<details class="lesson-transcript">
+<summary>نص الصفحة 13</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">الواجهة الخلفية</p>
+<p lang="en" dir="ltr">The Backend</p>
+<p lang="ar" dir="rtl">تعريف</p>
+<p lang="en" dir="ltr">DEFINITION</p>
+<p lang="ar" dir="rtl">الواجهة الخلفية Backend: الجزء الذي يعمل على الخادم ولا تراه؛ يعالج الطلبات، ويطبق قواعد التطبيق، ويتخذ القرارات.</p>
+<p lang="en" dir="ltr">Backend: the part that runs on the server, unseen by you; it processes requests, applies the app&#x27;s rules, and makes decisions.</p>
+<p lang="ar" dir="rtl">الخادم</p>
+<p lang="en" dir="ltr">Server</p>
+<p lang="ar" dir="rtl">طلب</p>
+<p lang="en" dir="ltr">Request</p>
+<p lang="ar" dir="rtl">قرار</p>
+<p lang="en" dir="ltr">Decision</p>
+<p lang="ar" dir="rtl">وتُكتب بلغات مثل Python وJava وPHP.</p>
+<p lang="en" dir="ltr">It is written in languages such as Python, Java, and PHP.</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-14" data-page-index="14">
+<h2>الصفحة 14 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-014.svg" width="1080" height="1350" loading="lazy" alt="تابع: الواجهة الخلفية">
+<details class="lesson-transcript">
+<summary>نص الصفحة 14</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">تعريفات</p>
+<p lang="en" dir="ltr">DEFINITIONS</p>
+<p lang="ar" dir="rtl">الخادم Server: جهاز قوي، أو برنامج يعمل عليه، يبقى متصلًا بالإنترنت ليستقبل طلبات آلاف المستخدمين ويرد عليها.</p>
+<p lang="en" dir="ltr">Server: a powerful computer, or a program running on it, that stays online to receive and answer requests from thousands of users.</p>
+<p lang="ar" dir="rtl">المعالجة Processing: العمل الذي يحوّل المدخلات إلى نتيجة، مثل البحث والحساب والتحقق والترتيب.</p>
+<p lang="en" dir="ltr">Processing: the work that turns input into a result, such as searching, calculating, checking, and sorting.</p>
+<p lang="ar" dir="rtl">قواعد التطبيق Business Rules: شروط يعمل بها التطبيق، مثل «لا يُقبل الطلب إذا نفد المخزون»، ومكانها الواجهة الخلفية.</p>
+<p lang="en" dir="ltr">Business rules: conditions the app follows, such as &quot;no order if the item is out of stock&quot;; they live in the backend.</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-15" data-page-index="15">
+<h2>الصفحة 15 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-015.svg" width="1080" height="1350" loading="lazy" alt="تابع: الواجهة الخلفية">
+<details class="lesson-transcript">
+<summary>نص الصفحة 15</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">معلومة تميزك</p>
+<p lang="en" dir="ltr">GO BEYOND</p>
+<p lang="ar" dir="rtl">التحقق من تسجيل الدخول Authentication: التأكد من أنك صاحب الحساب فعلًا، بمقارنة ما أدخلته بما هو محفوظ.</p>
+<p lang="en" dir="ltr">Authentication: confirming that you really own the account by comparing what you entered with what is stored.</p>
+<p lang="ar" dir="rtl">لماذا لا يحدث ذلك في المتصفح؟ لأن ما يعمل على جهازك يستطيع أي شخص أن يغيّره، أما الخادم فتحت سيطرة التطبيق.</p>
+<p lang="en" dir="ltr">Why doesn&#x27;t this happen in the browser? Because anyone can change what runs on their own device, while the server is under the app&#x27;s control.</p>
+<p lang="ar" dir="rtl">كلمة المرور</p>
+<p lang="en" dir="ltr">Password</p>
+<p lang="ar" dir="rtl">تحقق</p>
+<p lang="en" dir="ltr">Check</p>
+<p lang="ar" dir="rtl">الحساب المحفوظ</p>
+<p lang="en" dir="ltr">Stored account</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-16" data-page-index="16">
+<h2>الصفحة 16 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-016.svg" width="1080" height="1350" loading="lazy" alt="قاعدة البيانات">
+<details class="lesson-transcript">
+<summary>نص الصفحة 16</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">قاعدة البيانات</p>
+<p lang="en" dir="ltr">The Database</p>
+<p lang="ar" dir="rtl">تعريف</p>
+<p lang="en" dir="ltr">DEFINITION</p>
+<p lang="ar" dir="rtl">قاعدة البيانات Database: نظام ينظم البيانات ويحفظها ويديرها، ويسترجعها عند الطلب، ويسجل الجديد منها. وتبقى البيانات فيها حتى بعد إغلاق التطبيق.</p>
+<p lang="en" dir="ltr">Database: a system that organizes, stores, and manages data, retrieves it when requested, and records new data. The data stays even after the app is closed.</p>
+<p lang="ar" dir="rtl">جدول</p>
+<p lang="en" dir="ltr">Table</p>
+<p lang="ar" dir="rtl">سجل</p>
+<p lang="en" dir="ltr">Record</p>
+<p lang="ar" dir="rtl">مثل: المنتجات، والمستخدمون، والطلبات.</p>
+<p lang="en" dir="ltr">e.g., products, users, orders.</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-17" data-page-index="17">
+<h2>الصفحة 17 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-017.svg" width="1080" height="1350" loading="lazy" alt="تابع: قاعدة البيانات">
+<details class="lesson-transcript">
+<summary>نص الصفحة 17</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">تعريفات</p>
+<p lang="en" dir="ltr">DEFINITIONS</p>
+<p lang="ar" dir="rtl">البيانات Data: المعلومات التي يتعامل معها التطبيق، مثل أسماء المنتجات وأسعارها والحسابات والمنشورات.</p>
+<p lang="en" dir="ltr">Data: the information the app works with, such as product names and prices, accounts, and posts.</p>
+<p lang="ar" dir="rtl">السجل Record: وحدة واحدة من البيانات المحفوظة، مثل بيانات منتج واحد أو طلب شراء واحد.</p>
+<p lang="en" dir="ltr">Record: one saved unit of data, such as the details of one product or one order.</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-18" data-page-index="18">
+<h2>الصفحة 18 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-018.svg" width="1080" height="1350" loading="lazy" alt="تابع: قاعدة البيانات">
+<details class="lesson-transcript">
+<summary>نص الصفحة 18</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">معلومة تميزك</p>
+<p lang="en" dir="ltr">GO BEYOND</p>
+<p lang="ar" dir="rtl">طبقة البيانات Data Tier أشمل من قاعدة البيانات: قد تضم قاعدة بيانات، أو تخزين ملفات وصور، أو ذاكرة مخبأة Cache تحفظ البيانات المطلوبة كثيرًا لتصل بسرعة، أو خدمة بيانات خارجية، ويكفيك في الامتحان أن تقول «قاعدة البيانات».</p>
+<p lang="en" dir="ltr">The data tier is broader than a database: it may include a database, file and image storage, a cache that keeps frequently requested data so it arrives quickly, or an external data service; in the exam, saying &quot;database&quot; is enough.</p>
+<p lang="ar" dir="rtl">قاعدة بيانات</p>
+<p lang="en" dir="ltr">Database</p>
+<p lang="ar" dir="rtl">تخزين ملفات</p>
+<p lang="en" dir="ltr">File storage</p>
+<p lang="ar" dir="rtl">ذاكرة مخبأة</p>
+<p lang="en" dir="ltr">Cache</p>
+<p lang="ar" dir="rtl">خدمة خارجية</p>
+<p lang="en" dir="ltr">External service</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-19" data-page-index="19">
+<h2>الصفحة 19 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-019.svg" width="1080" height="1350" loading="lazy" alt="رحلة الطلب">
+<details class="lesson-transcript">
+<summary>نص الصفحة 19</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">رحلة الطلب</p>
+<p lang="en" dir="ltr">The Request&#x27;s Journey</p>
+<p lang="ar" dir="rtl">تابع كلمة «سماعة» من لحظة كتابتها حتى تظهر النتيجة على شاشتك.</p>
+<p lang="en" dir="ltr">Follow the word &quot;headphones&quot; from the moment you type it until the result appears on your screen.</p>
+<p lang="ar" dir="rtl">تعريفات</p>
+<p lang="en" dir="ltr">DEFINITIONS</p>
+<p lang="ar" dir="rtl">الطلب Request: رسالة ترسلها الواجهة الأمامية إلى الواجهة الخلفية بما يريده المستخدم، مثل «ابحث عن سماعة».</p>
+<p lang="en" dir="ltr">Request: a message the frontend sends to the backend with what the user wants, such as &quot;search for headphones&quot;.</p>
+<p lang="ar" dir="rtl">الاستعلام Query: سؤال منظم ترسله الواجهة الخلفية إلى قاعدة البيانات لتطلب بيانات محددة.</p>
+<p lang="en" dir="ltr">Query: a structured question the backend sends to the database to ask for specific data.</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-20" data-page-index="20">
+<h2>الصفحة 20 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-020.svg" width="1080" height="1350" loading="lazy" alt="تابع: رحلة الطلب">
+<details class="lesson-transcript">
+<summary>نص الصفحة 20</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">تعريف</p>
+<p lang="en" dir="ltr">DEFINITION</p>
+<p lang="ar" dir="rtl">الاستجابة Response: الرد الذي تعيده الواجهة الخلفية إلى الواجهة الأمامية وفيه النتيجة.</p>
+<p lang="en" dir="ltr">Response: the reply the backend returns to the frontend, carrying the result.</p>
+<p lang="ar" dir="rtl">المستخدم</p>
+<p lang="en" dir="ltr">User</p>
+<p lang="ar" dir="rtl">الواجهة الأمامية</p>
+<p lang="en" dir="ltr">Frontend</p>
+<p lang="ar" dir="rtl">الواجهة الخلفية</p>
+<p lang="en" dir="ltr">Backend</p>
+<p lang="ar" dir="rtl">قاعدة البيانات</p>
+<p lang="en" dir="ltr">Database</p>
+<p lang="ar" dir="rtl">طلب</p>
+<p lang="en" dir="ltr">Request</p>
+<p lang="ar" dir="rtl">استعلام</p>
+<p lang="en" dir="ltr">Query</p>
+<p lang="ar" dir="rtl">بيانات</p>
+<p lang="en" dir="ltr">Data</p>
+<p lang="ar" dir="rtl">استجابة</p>
+<p lang="en" dir="ltr">Response</p>
+<p lang="ar" dir="rtl">رحلة كلمة «سماعة» عبر الطبقات الثلاث.</p>
+<p lang="en" dir="ltr">The journey of &quot;headphones&quot; through the three tiers.</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-21" data-page-index="21">
+<h2>الصفحة 21 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-021.svg" width="1080" height="1350" loading="lazy" alt="تابع: رحلة الطلب">
+<details class="lesson-transcript">
+<summary>نص الصفحة 21</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">1 تكتب «سماعة» في مربع البحث، فتستقبلها الواجهة الأمامية.</p>
+<p lang="en" dir="ltr">1 You type &quot;headphones&quot; in the search box, and the frontend receives it.</p>
+<p lang="ar" dir="rtl">2 ترسل الواجهة الأمامية الكلمة في طلب إلى الواجهة الخلفية.</p>
+<p lang="en" dir="ltr">2 The frontend sends the word in a request to the backend.</p>
+<p lang="ar" dir="rtl">3 ترسل الواجهة الخلفية استعلامًا إلى قاعدة البيانات عن المنتجات المطابقة.</p>
+<p lang="en" dir="ltr">3 The backend sends a query to the database for matching products.</p>
+<p lang="ar" dir="rtl">4 تعيد قاعدة البيانات بيانات المنتجات المطابقة.</p>
+<p lang="en" dir="ltr">4 The database returns the data of the matching products.</p>
+<p lang="ar" dir="rtl">5 ترتّب الواجهة الخلفية النتائج وترسلها في استجابة إلى الواجهة الأمامية.</p>
+<p lang="en" dir="ltr">5 The backend organizes the results and sends them in a response to the frontend.</p>
+<p lang="ar" dir="rtl">6 تعرض الواجهة الأمامية النتائج على شاشتك.</p>
+<p lang="en" dir="ltr">6 The frontend displays the results on your screen.</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-22" data-page-index="22">
+<h2>الصفحة 22 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-022.svg" width="1080" height="1350" loading="lazy" alt="تابع: رحلة الطلب">
+<details class="lesson-transcript">
+<summary>نص الصفحة 22</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">نازل وطالع</p>
+<p lang="en" dir="ltr">DOWN AND UP</p>
+<p lang="ar" dir="rtl">الطلب ينزل: يكتب ← يرسل ← يسأل،</p>
+<p lang="en" dir="ltr">The request goes down: types → sends → asks;</p>
+<p lang="ar" dir="rtl">والنتيجة تطلع: يرد ← يرتّب ← يعرض.</p>
+<p lang="en" dir="ltr">the result comes up: answers → organizes → displays.</p>
+<p lang="ar" dir="rtl">قاعدة مهمة في هذا النموذج: المستخدم لا يكلم المخزن مباشرة؛ فالطريق إلى قاعدة البيانات يمر بالواجهة الخلفية.</p>
+<p lang="en" dir="ltr">Key rule in this model: the user never talks to the storeroom directly; the way to the database passes through the backend.</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-23" data-page-index="23">
+<h2>الصفحة 23 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-023.svg" width="1080" height="1350" loading="lazy" alt="تابع: رحلة الطلب">
+<details class="lesson-transcript">
+<summary>نص الصفحة 23</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">معلومة تميزك</p>
+<p lang="en" dir="ltr">GO BEYOND</p>
+<p lang="ar" dir="rtl">بروتوكول HTTP: مجموعة القواعد المتفق عليها التي يتبادل بها المتصفح والخادم الطلبات والاستجابات؛ ولذلك تبدأ عناوين المواقع بـ http أو https.</p>
+<p lang="en" dir="ltr">HTTP: the agreed set of rules the browser and server use to exchange requests and responses; that is why web addresses start with http or https.</p>
+<p lang="ar" dir="rtl">واجهة برمجة التطبيقات API: الباب المحدد الذي تطلب منه الواجهة الأمامية خدمات الواجهة الخلفية بطريقة متفق عليها.</p>
+<p lang="en" dir="ltr">API: the defined doorway through which the frontend asks the backend for services in an agreed way.</p>
+<p lang="ar" dir="rtl">‏SQL: لغة تُكتب بها الاستعلامات في كثير من قواعد البيانات.</p>
+<p lang="en" dir="ltr">SQL: a language used to write queries in many databases.</p>
+<p lang="ar" dir="rtl">وكل هذه الرحلة تحدث غالبًا في أقل من ثانية.</p>
+<p lang="en" dir="ltr">This whole journey usually happens in less than a second.</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-24" data-page-index="24">
+<h2>الصفحة 24 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-024.svg" width="1080" height="1350" loading="lazy" alt="أمثلة من حياتك">
+<details class="lesson-transcript">
+<summary>نص الصفحة 24</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">أمثلة من حياتك</p>
+<p lang="en" dir="ltr">Examples from Your Life</p>
+<p lang="ar" dir="rtl">البحث في YouTube</p>
+<p lang="en" dir="ltr">Searching on YouTube</p>
+<p lang="ar" dir="rtl">الواجهة الأمامية: تأخذ الكلمة وتعرض القائمة.</p>
+<p lang="en" dir="ltr">Frontend: takes the word and shows the list.</p>
+<p lang="ar" dir="rtl">الواجهة الخلفية: تقرر أي الفيديوهات تناسب الكلمة وبأي ترتيب.</p>
+<p lang="en" dir="ltr">Backend: decides which videos match and in what order.</p>
+<p lang="ar" dir="rtl">قاعدة البيانات: تحفظ بيانات الفيديوهات.</p>
+<p lang="en" dir="ltr">Database: stores the videos&#x27; data.</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-25" data-page-index="25">
+<h2>الصفحة 25 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-025.svg" width="1080" height="1350" loading="lazy" alt="تابع: أمثلة من حياتك">
+<details class="lesson-transcript">
+<summary>نص الصفحة 25</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">تسجيل الدخول</p>
+<p lang="en" dir="ltr">Logging in</p>
+<p lang="ar" dir="rtl">الواجهة الأمامية: تأخذ اسم المستخدم وكلمة المرور.</p>
+<p lang="en" dir="ltr">Frontend: takes the username and password.</p>
+<p lang="ar" dir="rtl">الواجهة الخلفية: تتحقق منهما وتقرر السماح بالدخول أو رفضه.</p>
+<p lang="en" dir="ltr">Backend: checks them and decides to allow or refuse access.</p>
+<p lang="ar" dir="rtl">قاعدة البيانات: تحفظ بيانات الحساب.</p>
+<p lang="en" dir="ltr">Database: stores the account data.</p>
+<p lang="ar" dir="rtl">عدّاد المشاهدات</p>
+<p lang="en" dir="ltr">The view counter</p>
+<p lang="ar" dir="rtl">الواجهة الخلفية: تجمع المشاهدات وتحسب العدد.</p>
+<p lang="en" dir="ltr">Backend: collects the views and counts them.</p>
+<p lang="ar" dir="rtl">قاعدة البيانات: تحفظ الرقم.</p>
+<p lang="en" dir="ltr">Database: stores the number.</p>
+<p lang="ar" dir="rtl">الواجهة الأمامية: تعرض «1.2 مليون مشاهدة».</p>
+<p lang="en" dir="ltr">Frontend: shows &quot;1.2 million views&quot;.</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-26" data-page-index="26">
+<h2>الصفحة 26 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-026.svg" width="1080" height="1350" loading="lazy" alt="تابع: أمثلة من حياتك">
+<details class="lesson-transcript">
+<summary>نص الصفحة 26</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">سؤال ذكي</p>
+<p lang="en" dir="ltr">SMART QUESTION</p>
+<p lang="ar" dir="rtl">لماذا لا تحفظ الشاشة كل الفيديوهات بنفسها؟</p>
+<p lang="en" dir="ltr">Why doesn&#x27;t the screen store all the videos itself?</p>
+<p lang="ar" dir="rtl">لأن البيانات يجب أن تكون مشتركة بين ملايين المستخدمين، ومحفوظة حتى بعد أن تغلق جهازك، وهذا ما لا تستطيعه الواجهة الأمامية وحدها.</p>
+<p lang="en" dir="ltr">Because the data must be shared among millions of users and kept even after you close your device, which the frontend cannot do alone.</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-27" data-page-index="27">
+<h2>الصفحة 27 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-027.svg" width="1080" height="1350" loading="lazy" alt="تابع: أمثلة من حياتك">
+<details class="lesson-transcript">
+<summary>نص الصفحة 27</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">تعريفات</p>
+<p lang="en" dir="ltr">DEFINITIONS</p>
+<p lang="ar" dir="rtl">شبكة التواصل الاجتماعي SNS: خدمة للنشر والتواصل والمتابعة بين المستخدمين.</p>
+<p lang="en" dir="ltr">SNS (Social Networking Service): a service for posting, communicating, and following between users.</p>
+<p lang="ar" dir="rtl">الخط الزمني Timeline: صفحة تعرض منشورات من تتابعهم؛ عرضها عمل الواجهة الأمامية، واختيار ما فيها عمل الواجهة الخلفية.</p>
+<p lang="en" dir="ltr">Timeline: a page showing posts from people you follow; displaying it is the frontend&#x27;s job, and choosing its content is the backend&#x27;s job.</p>
+<p lang="ar" dir="rtl">الإشعارات الفورية Push Notifications: رسائل تصلك دون أن تطلبها، وتقرر الواجهة الخلفية متى تُرسل ولمن.</p>
+<p lang="en" dir="ltr">Push notifications: messages that reach you without asking; the backend decides when and to whom they are sent.</p>
+<p lang="ar" dir="rtl">التجارة الإلكترونية E-commerce: البيع والشراء عبر الإنترنت.</p>
+<p lang="en" dir="ltr">E-commerce: buying and selling online.</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-28" data-page-index="28">
+<h2>الصفحة 28 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-028.svg" width="1080" height="1350" loading="lazy" alt="مين الغلطان؟">
+<details class="lesson-transcript">
+<summary>نص الصفحة 28</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">مين الغلطان؟</p>
+<p lang="en" dir="ltr">Who&#x27;s to Blame?</p>
+<p lang="ar" dir="rtl">اقرأ الموقف وخمّن الطبقة المشتبه بها، وقل «على الأرجح» لا «أكيد».</p>
+<p lang="en" dir="ltr">Read the situation and guess the suspected tier; say &quot;probably&quot;, not &quot;certainly&quot;.</p>
+<p lang="ar" dir="rtl">الموقف 1: زر «أضف للسلة» لا يستجيب عند الضغط، والصفحة مشوهة.</p>
+<p lang="en" dir="ltr">Situation 1: The &quot;Add to cart&quot; button does not respond, and the page looks broken.</p>
+<p lang="ar" dir="rtl">على الأرجح: الواجهة الأمامية، لأن العطل فيما تراه وتلمسه.</p>
+<p lang="en" dir="ltr">Probably: the frontend, because the fault is in what you see and touch.</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-29" data-page-index="29">
+<h2>الصفحة 29 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-029.svg" width="1080" height="1350" loading="lazy" alt="تابع: مين الغلطان؟">
+<details class="lesson-transcript">
+<summary>نص الصفحة 29</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">الموقف 2: الصفحة تفتح جيدًا، لكن بعد الضغط على «بحث» تظهر رسالة خطأ من الخادم.</p>
+<p lang="en" dir="ltr">Situation 2: The page opens fine, but after pressing &quot;Search&quot; a server error message appears.</p>
+<p lang="ar" dir="rtl">على الأرجح: الواجهة الخلفية، لأن المعالجة لم تتم.</p>
+<p lang="en" dir="ltr">Probably: the backend, because the processing did not happen.</p>
+<p lang="ar" dir="rtl">الموقف 3: نجح تسجيل الدخول، لكن طلباتك القديمة اختفت كلها.</p>
+<p lang="en" dir="ltr">Situation 3: Login worked, but all your past orders have disappeared.</p>
+<p lang="ar" dir="rtl">على الأرجح: طبقة البيانات، لأن المحفوظ هو الذي ضاع.</p>
+<p lang="en" dir="ltr">Probably: the data tier, because the stored data is what was lost.</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-30" data-page-index="30">
+<h2>الصفحة 30 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-030.svg" width="1080" height="1350" loading="lazy" alt="تابع: مين الغلطان؟">
+<details class="lesson-transcript">
+<summary>نص الصفحة 30</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">الموقف 4: صفحة حجز العيادة تفتح، لكن لا تظهر أوقات متاحة.</p>
+<p lang="en" dir="ltr">Situation 4: The clinic booking page opens, but no free time slots appear.</p>
+<p lang="ar" dir="rtl">ليس بالضرورة عطلًا: قد تكون كل المواعيد محجوزة فعلًا، أو يكون الخلل في المعالجة أو في البيانات.</p>
+<p lang="en" dir="ltr">Not necessarily a fault: all slots may really be booked, or the problem may be in the processing or in the data.</p>
+<p lang="ar" dir="rtl">درس المهندس</p>
+<p lang="en" dir="ltr">THE ENGINEER&#x27;S LESSON</p>
+<p lang="ar" dir="rtl">المهندس لا يتسرع في الحكم؛ يجمع المعلومات أولًا ثم يقرر.</p>
+<p lang="en" dir="ltr">An engineer does not rush to judge; they gather information first, then decide.</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-31" data-page-index="31">
+<h2>الصفحة 31 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-031.svg" width="1080" height="1350" loading="lazy" alt="لماذا نفصل الطبقات؟">
+<details class="lesson-transcript">
+<summary>نص الصفحة 31</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">لماذا نفصل الطبقات؟</p>
+<p lang="en" dir="ltr">Why Separate the Tiers?</p>
+<p lang="ar" dir="rtl">تعريف</p>
+<p lang="en" dir="ltr">DEFINITION</p>
+<p lang="ar" dir="rtl">فصل المسؤوليات Separation of Concerns: مبدأ هندسي يجعل لكل جزء من البرنامج مهمة واضحة لا تختلط بغيرها.</p>
+<p lang="en" dir="ltr">Separation of concerns: an engineering principle that gives each part of a program one clear task that does not mix with others.</p>
+<p lang="ar" dir="rtl">يسهل اكتشاف الأعطال وإصلاحها.</p>
+<p lang="en" dir="ltr">Faults are easier to find and fix.</p>
+<p lang="ar" dir="rtl">يمكن تعديل جزء دون أن يتأثر الباقي.</p>
+<p lang="en" dir="ltr">One part can change without affecting the rest.</p>
+<p lang="ar" dir="rtl">تعمل فرق مختلفة في الوقت نفسه.</p>
+<p lang="en" dir="ltr">Different teams can work at the same time.</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-32" data-page-index="32">
+<h2>الصفحة 32 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-032.svg" width="1080" height="1350" loading="lazy" alt="تابع: لماذا نفصل الطبقات؟">
+<details class="lesson-transcript">
+<summary>نص الصفحة 32</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">معلومة تميزك</p>
+<p lang="en" dir="ltr">GO BEYOND</p>
+<p lang="ar" dir="rtl">مطوّر الواجهة الأمامية Frontend Developer: يبني ما يراه المستخدم ويتفاعل معه.</p>
+<p lang="en" dir="ltr">Frontend developer: builds what the user sees and interacts with.</p>
+<p lang="ar" dir="rtl">مطوّر الواجهة الخلفية Backend Developer: يبني المعالجة والقواعد على الخادم.</p>
+<p lang="en" dir="ltr">Backend developer: builds the processing and rules on the server.</p>
+<p lang="ar" dir="rtl">المطوّر الشامل Full-Stack Developer: يعمل في الطبقات كلها.</p>
+<p lang="en" dir="ltr">Full-stack developer: works across all the tiers.</p>
+<p lang="ar" dir="rtl">فكّر</p>
+<p lang="en" dir="ltr">THINK</p>
+<p lang="ar" dir="rtl">أي دور منها تحب أن تجربه، ولماذا؟</p>
+<p lang="en" dir="ltr">Which of these roles would you like to try, and why?</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-33" data-page-index="33">
+<h2>الصفحة 33 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-033.svg" width="1080" height="1350" loading="lazy" alt="جهّز نفسك للامتحان">
+<details class="lesson-transcript">
+<summary>نص الصفحة 33</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">جهّز نفسك للامتحان</p>
+<p lang="en" dir="ltr">Get Ready for the Exam</p>
+<p lang="ar" dir="rtl">في سؤال توزيع المهام، ابحث عن الكلمة المفتاحية:</p>
+<p lang="en" dir="ltr">In a task-assignment question, look for the key word:</p>
+<p lang="ar" dir="rtl">إذا وجدت</p>
+<p lang="en" dir="ltr">If you see</p>
+<p lang="ar" dir="rtl">فالإجابة</p>
+<p lang="en" dir="ltr">The answer is</p>
+<p lang="ar" dir="rtl">شاشة، صفحة، عرض، نموذج إدخال</p>
+<p lang="en" dir="ltr">screen, page, display, input form</p>
+<p lang="ar" dir="rtl">الواجهة الأمامية</p>
+<p lang="en" dir="ltr">Frontend</p>
+<p lang="ar" dir="rtl">معالجة، تحقق، تحديد، اختيار، دفع، إشعارات</p>
+<p lang="en" dir="ltr">processing, checking, determining, selecting, payment, notifications</p>
+<p lang="ar" dir="rtl">الواجهة الخلفية</p>
+<p lang="en" dir="ltr">Backend</p>
+<p lang="ar" dir="rtl">تخزين، سجل، معلومات محفوظة</p>
+<p lang="en" dir="ltr">storage, history, stored information</p>
+<p lang="ar" dir="rtl">قاعدة البيانات</p>
+<p lang="en" dir="ltr">Database</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-34" data-page-index="34">
+<h2>الصفحة 34 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-034.svg" width="1080" height="1350" loading="lazy" alt="تابع: جهّز نفسك للامتحان">
+<details class="lesson-transcript">
+<summary>نص الصفحة 34</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">نموذج إجابة من 6 درجات: إرسال رسالة في تطبيق محادثة على الويب</p>
+<p lang="en" dir="ltr">A 6-mark model answer: sending a message in a web chat app</p>
+<p lang="ar" dir="rtl">1 الواجهة الأمامية تعرض شاشة المحادثة وتستقبل نص الرسالة.</p>
+<p lang="en" dir="ltr">1 The frontend shows the chat screen and receives the message text.</p>
+<p lang="ar" dir="rtl">2 ترسل الرسالة في طلب إلى الواجهة الخلفية.</p>
+<p lang="en" dir="ltr">2 It sends the message in a request to the backend.</p>
+<p lang="ar" dir="rtl">5 الواجهة الخلفية تتحقق من المرسل وتحدد المستقبل.</p>
+<p lang="en" dir="ltr">3 The backend checks the sender and determines the receiver.</p>
+<p lang="ar" dir="rtl">4 ترسل الرسالة إلى قاعدة البيانات لحفظها.</p>
+<p lang="en" dir="ltr">4 It sends the message to the database to be saved.</p>
+<p lang="ar" dir="rtl">5 قاعدة البيانات تخزن الرسالة ووقتها وصاحبها.</p>
+<p lang="en" dir="ltr">5 The database stores the message, its time, and its sender.</p>
+<p lang="ar" dir="rtl">6 الواجهة الأمامية تعرض الرسالة في المحادثة.</p>
+<p lang="en" dir="ltr">6 The frontend displays the message in the chat.</p>
+<p lang="ar" dir="rtl">نصيحة: اكتب بالترتيب، وأعطِ كل طبقة فعلين من أفعالها.</p>
+<p lang="en" dir="ltr">Tip: write in order, and give each tier two of its verbs.</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-35" data-page-index="35">
+<h2>الصفحة 35 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-035.svg" width="1080" height="1350" loading="lazy" alt="تابع: جهّز نفسك للامتحان">
+<details class="lesson-transcript">
+<summary>نص الصفحة 35</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">أخطاء شائعة</p>
+<p lang="en" dir="ltr">COMMON MISTAKES</p>
+<p lang="ar" dir="rtl">«الواجهة الخلفية تعمل على المتصفح» ×، فهي تعمل على الخادم.</p>
+<p lang="en" dir="ltr">&quot;The backend runs on the browser&quot; ×; it runs on the server.</p>
+<p lang="ar" dir="rtl">«قاعدة البيانات هي المسؤولة عن البحث» ×، فالواجهة الخلفية تقود البحث، وقاعدة البيانات تعيد البيانات.</p>
+<p lang="en" dir="ltr">&quot;The database is responsible for searching&quot; ×; the backend leads the search, and the database returns the data.</p>
+<p lang="ar" dir="rtl">«يعمل تطبيق الويب بالواجهة الأمامية وحدها» ×، فالطبقات الثلاث تتعاون.</p>
+<p lang="en" dir="ltr">&quot;A web app works with the frontend alone&quot; ×; the three tiers cooperate.</p>
+<p lang="ar" dir="rtl">«شاشة سلة التسوق» واجهة أمامية، مع أن فيها بيانات، لأن العبرة بالفعل: العرض.</p>
+<p lang="en" dir="ltr">&quot;Cart screen&quot; is frontend, even though it has data, because the verb counts: displaying.</p>
+<p lang="ar" dir="rtl">«معالجة الدفع» واجهة خلفية، و«تخزين سجل الطلبات» قاعدة بيانات.</p>
+<p lang="en" dir="ltr">&quot;Payment processing&quot; is backend; &quot;storage of order history&quot; is database.</p>
+</div>
+</details>
+</li>
+
+<li class="lesson-page" id="page-36" data-page-index="36">
+<h2>الصفحة 36 من 36</h2>
+<img class="lesson-page-image" data-page-image src="/assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01/page-036.svg" width="1080" height="1350" loading="lazy" alt="تابع: جهّز نفسك للامتحان">
+<details class="lesson-transcript">
+<summary>نص الصفحة 36</summary>
+<div class="transcript-body">
+<p lang="ar" dir="rtl">الخلاصة في 30 ثانية</p>
+<p lang="en" dir="ltr">THE 30-SECOND SUMMARY</p>
+<p lang="ar" dir="rtl">ما تراه هو الواجهة الأمامية: تعرض وتجمع، ثم ترسل طلبك إلى الواجهة الخلفية على الخادم: تقرر وتعالج، فتسأل قاعدة البيانات: تخزن وتسترجع، ثم تعود النتيجة في الطريق نفسه إلى شاشتك.</p>
+<p lang="en" dir="ltr">What you see is the frontend: it shows and collects, then sends your request to the backend on the server: it decides and processes, which asks the database: it stores and retrieves; then the result returns the same way to your screen.</p>
+<p lang="ar" dir="rtl">تعرض وتجمع</p>
+<p lang="en" dir="ltr">Shows and collects</p>
+<p lang="ar" dir="rtl">تقرر وتعالج</p>
+<p lang="en" dir="ltr">Decides and processes</p>
+<p lang="ar" dir="rtl">تخزن وتسترجع</p>
+<p lang="en" dir="ltr">Stores and retrieves</p>
+<p lang="ar" dir="rtl">الأمامية بتعرض وتسمع، والخلفية بتفكّر وتقرر، والبيانات بتحفظ وتفتكر.</p>
+<p lang="en" dir="ltr">Frontend shows and listens, backend thinks and decides, data stores and remembers.</p>
+</div>
+</details>
+</li>
+
+</ol>
+
+<footer class="lesson-foot">
+<p><a href="/">العودة إلى الصفحة الرئيسية</a></p>
+</footer>
+</main>
+</body>
+</html>

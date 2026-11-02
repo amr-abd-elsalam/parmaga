@@ -1,0 +1,235 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilPanel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#8fc9f2"/>
+  </linearGradient>
+  <linearGradient id="ilBar" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+</defs>
+
+<!-- Card 1: Info (shadow, card, accent in one group) -->
+<g>
+  <rect x="109" y="128" width="870" height="368" rx="16" fill="#22303f" opacity=".12"/>
+  <rect x="105" y="122" width="870" height="368" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+  <rect x="961" y="138" width="6" height="336" rx="3" fill="#2f7fb5"/>
+</g>
+
+<!-- Card 2: Info (shadow, card, accent in one group) -->
+<g>
+  <rect x="109" y="528" width="870" height="288" rx="16" fill="#22303f" opacity=".12"/>
+  <rect x="105" y="522" width="870" height="288" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+  <rect x="961" y="538" width="6" height="256" rx="3" fill="#2f7fb5"/>
+</g>
+
+<!-- Illustration: the same web page in three stages -->
+<g>
+  <!-- shadows -->
+  <rect x="109" y="852" width="870" height="404" rx="24" fill="#22303f" opacity=".18"/>
+  <rect x="131" y="890" width="230" height="220" rx="14" fill="#22303f" opacity=".18"/>
+  <rect x="429" y="890" width="230" height="220" rx="14" fill="#22303f" opacity=".18"/>
+  <rect x="727" y="890" width="230" height="220" rx="14" fill="#22303f" opacity=".18"/>
+
+  <!-- scene panel -->
+  <rect x="105" y="846" width="870" height="404" rx="24" fill="url(#ilPanel)" stroke="#9db9d6" stroke-width="2"/>
+
+  <!-- soft background details -->
+  <circle cx="392" cy="900" r="4" fill="#ffffff" opacity=".85"/>
+  <circle cx="404" cy="914" r="3" fill="#ffffff" opacity=".85"/>
+  <circle cx="690" cy="1068" r="4" fill="#ffffff" opacity=".85"/>
+  <circle cx="676" cy="1080" r="3" fill="#ffffff" opacity=".85"/>
+  <path d="M690 904 Q692 914 702 916 Q692 918 690 928 Q688 918 678 916 Q688 914 690 904 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M392 1052 Q393.5 1058.5 400 1060 Q393.5 1061.5 392 1068 Q390.5 1061.5 384 1060 Q390.5 1058.5 392 1052 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Stage 1: structure (plain outline, empty boxes) -->
+  <g transform="translate(127 884)">
+    <rect x="0" y="0" width="230" height="220" rx="14" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M0 34 H230" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="18" cy="17" r="5" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="34" cy="17" r="5" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="50" cy="17" r="5" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="70" y="9" width="144" height="16" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="16" y="48" width="198" height="28" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="16" y="88" width="88" height="76" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="116" y="88" width="98" height="14" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="116" y="110" width="98" height="14" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="116" y="136" width="70" height="28" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="16" y="178" width="198" height="26" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+
+  <!-- Stage 2: style (colors and rounded buttons) -->
+  <g transform="translate(425 884)">
+    <rect x="0" y="0" width="230" height="220" rx="14" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M0 34 V14 Q0 0 14 0 H216 Q230 0 230 14 V34 Z" fill="url(#ilBar)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="18" cy="17" r="5" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="34" cy="17" r="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="50" cy="17" r="5" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="70" y="9" width="144" height="16" rx="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="16" y="48" width="198" height="28" rx="14" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="28" y="56" width="30" height="12" rx="6" fill="#ffffff"/>
+    <rect x="66" y="56" width="30" height="12" rx="6" fill="#ffffff"/>
+    <rect x="104" y="56" width="30" height="12" rx="6" fill="#ffffff"/>
+    <circle cx="196" cy="62" r="7" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="16" y="88" width="88" height="76" rx="12" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="82" cy="106" r="9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <polygon points="24,156 48,122 66,142 78,130 96,156" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="116" y="88" width="98" height="14" rx="7" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="116" y="110" width="98" height="14" rx="7" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="116" y="136" width="70" height="28" rx="14" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="132" y="146" width="38" height="8" rx="4" fill="#ffffff"/>
+    <rect x="16" y="178" width="198" height="26" rx="13" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+
+  <!-- Stage 3: interaction (click and popup) -->
+  <g transform="translate(723 884)">
+    <rect x="0" y="0" width="230" height="220" rx="14" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M0 34 V14 Q0 0 14 0 H216 Q230 0 230 14 V34 Z" fill="url(#ilBar)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="18" cy="17" r="5" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="34" cy="17" r="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="50" cy="17" r="5" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="70" y="9" width="144" height="16" rx="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="16" y="48" width="198" height="28" rx="14" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="28" y="56" width="30" height="12" rx="6" fill="#ffffff"/>
+    <rect x="66" y="56" width="30" height="12" rx="6" fill="#ffffff"/>
+    <rect x="16" y="88" width="88" height="76" rx="12" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="82" cy="106" r="9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <polygon points="24,156 48,122 66,142 78,130 96,156" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="116" y="110" width="98" height="14" rx="7" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="116" y="136" width="70" height="28" rx="14" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="16" y="178" width="198" height="26" rx="13" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <!-- popup with offset plate -->
+    <rect x="104" y="46" width="118" height="68" rx="12" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="98" y="40" width="118" height="68" rx="12" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="120" cy="64" r="12" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M114 64 L118.5 68.5 L126 60" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="140" y="56" width="50" height="9" rx="4.5" fill="#ffffff"/>
+    <rect x="140" y="72" width="36" height="9" rx="4.5" fill="#ffffff"/>
+    <rect x="140" y="87" width="44" height="13" rx="6.5" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="204" cy="52" r="5" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <!-- hand cursor clicking the button -->
+    <g transform="translate(151 150)">
+      <path d="M-10 -6 L-16 -12 M0 -10 V-18 M10 -6 L16 -12" fill="none" stroke="#17457f" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M0 0 C3 0 5 3 5 7 V24 C8 21 14 22 15 26 C18 23 23 24 24 28 C27 26 32 28 32 33 V46 C32 56 25 62 16 62 H9 C3 62 -1 58 -4 53 L-14 37 C-16 33 -14 29 -10 29 C-7 29 -6 31 -5 33 V7 C-5 3 -3 0 0 0 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M15 26 V36 M24 28 V37" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- progress track and stage badges -->
+  <rect x="242" y="1175" width="596" height="10" rx="5" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="391" cy="1180" r="5" fill="#2f7fb5"/>
+  <circle cx="689" cy="1180" r="5" fill="#2f7fb5"/>
+  <g transform="translate(242 1180)">
+    <circle cx="0" cy="0" r="30" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="-14" y="-13" width="28" height="26" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-14 -5 H14 M-8 2 H8 M-8 8 H2" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(540 1180)">
+    <circle cx="0" cy="0" r="30" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M0 -16 C7 -7 12 0 12 6 C12 12 7 16 0 16 C-7 16 -12 12 -12 6 C-12 0 -7 -7 0 -16 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M-5 5 Q-5 10 0 11" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(838 1180)">
+    <circle cx="0" cy="0" r="30" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <polygon points="3,-17 -10,3 -1,3 -4,17 10,-4 1,-4" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+
+  <!-- connector arrows -->
+  <path d="M370 994 H404" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="416,994 404,986 404,1002" fill="#c0392b"/>
+  <path d="M668 994 H702" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="714,994 702,986 702,1002" fill="#c0392b"/>
+</g>
+
+<!-- Icon: light bulb (card 1, pocket under GO BEYOND) -->
+<g transform="translate(205 230)">
+  <path d="M32 2 V8 M13 10 L17 14 M51 10 L47 14 M4 28 H10 M54 28 H60" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="32" cy="28" r="14" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M25 24 Q27 19 32 19" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="25" y="42" width="14" height="10" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M27 56 H37" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Face: wink (card 1, beside the English paragraph) -->
+<g transform="translate(850 420)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M 5 -6 L 13 -6" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: open book (card 2, beside the English paragraph) -->
+<g transform="translate(800 718)">
+  <path d="M32 10 C23 3 9 3 2 8 V44 C9 39 23 39 32 46 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M32 10 C41 3 55 3 62 8 V44 C55 39 41 39 32 46 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M9 18 C15 16 21 16 26 18 M9 27 C15 25 21 25 26 27" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M38 18 C43 16 49 16 55 18 M38 27 C43 25 49 25 55 27" fill="none" stroke="#17457f" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Card 1 texts -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">معلومة تميزك</tspan>
+</text>
+<text x="140" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">GO BEYOND</tspan>
+</text>
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">تُبنى <tspan font-weight="bold" fill="#c0392b">الواجهة الأمامية</tspan> عادة <tspan font-weight="bold" fill="#17457f">بثلاث</tspan></tspan>
+  <tspan x="935" dy="40"><tspan font-weight="bold" fill="#17457f">لغات:</tspan> HTML للهيكل، وCSS للشكل،</tspan>
+  <tspan x="935" dy="40">وJavaScript للتفاعل.</tspan>
+</text>
+<text x="140" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">The <tspan font-weight="bold" fill="#c0392b">frontend</tspan> is usually built with</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#17457f">three languages:</tspan> HTML for structure,</tspan>
+  <tspan x="140" dy="40">CSS for style, and JavaScript</tspan>
+  <tspan x="140" dy="40">for interaction.</tspan>
+</text>
+
+<!-- Card 2 texts -->
+<text x="935" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">تعريف</tspan>
+</text>
+<text x="140" y="594" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">DEFINITION</tspan>
+</text>
+<text x="935" y="634" direction="rtl" unicode-bidi="plaintext" text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">المدخلات Input:</tspan> كل ما تعطيه للتطبيق:</tspan>
+  <tspan x="935" dy="40">كتابة، أو ضغطة، أو اختيار، أو رفع صورة.</tspan>
+</text>
+<text x="140" y="714" direction="ltr" unicode-bidi="plaintext" text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Input:</tspan> anything you give the app:</tspan>
+  <tspan x="140" dy="40">typing, a click, a choice,</tspan>
+  <tspan x="140" dy="40">or an uploaded photo.</tspan>
+</text>
+</svg>

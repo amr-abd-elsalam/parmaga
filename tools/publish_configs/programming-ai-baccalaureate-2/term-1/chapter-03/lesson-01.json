@@ -1,0 +1,2433 @@
+{
+  "schemaVersion": 1,
+  "course": "programming-ai-baccalaureate-2",
+  "term": "term-1",
+  "chapter": "chapter-03",
+  "lesson": "lesson-01",
+  "displayNumber": "3-1",
+  "displayTitleAr": "البنية العامة لتطبيقات الوب",
+  "displayTitleEn": "The Overall Structure of Web Applications",
+  "courseLabelAr": "البرمجة والذكاء الاصطناعي، ثانية بكالوريا",
+  "termLabelAr": "ترم أول",
+  "pivotQuestionAr": "كيف يُبنى تطبيق الويب، وكيف تعمل طبقاته الثلاث معًا للاستجابة لما يفعله المستخدم؟",
+  "custodyRepository": "parmaga-content",
+  "custodySnapshot": "f2bf4a32726d47a31c8b4540061b5904f0ff9b73",
+  "declaredPageCount": 36,
+  "inventoryDate": "2026-11-02",
+  "status": "published",
+  "extraNotes": [
+    "السؤال المحوري للدرس: كيف يُبنى تطبيق الويب، وكيف تعمل طبقاته الثلاث معًا للاستجابة لما يفعله المستخدم؟",
+    "حزمة أصول الدرس مدرجة للنشر في المسار القانوني داخل المستودع العام، وتتحقق tools/verify_lesson.py من مطابقة بايتاتها لهذا الـManifest.",
+    "أسماء الملفات الواردة مطابقة أصلًا للنمط page-<NNN>.svg، لذلك sourceFileName يساوي file في المداخل الـ36 كلها، ولم تجرِ إعادة تسمية.",
+    "viewBox «0 0 1080 1350» مقيس في الصفحات الـ36 كلها، أي مقاس 1080×1350 بنسبة 4:5 رأسية.",
+    "منطقة الـ12% المحجوزة: الحد y = 1188. أعلى سمة y مرصودة في عناصر النص هي 1194 في page-006، وعنصر نص واحد عند الحد أو دونه في صفحة واحدة: page-006. سُجّل ولم يوقف النشر، وتراجعه عين المالك في المتصفح. القياس يعتمد سمات y وحدها ولا يحسب transform ولا إحداثيات path d، فهو مؤشر قوي لا إثبات هندسي كامل.",
+    "الفحص الأمني نظيف في الصفحات الـ36 كلها: صفر script، صفر foreignObject، صفر سمات on*، صفر javascript:، صفر مرجع http(s) خارجي، صفر data:، صفر image مضمَّن، صفر use خارجي، صفر iframe أو embed أو object، صفر @import. لا يوجد اكتشاف يحتاج قرارًا مكتوبًا.",
+    "قيمة encoding مستنتجة لا مقروءة: لا يحتوي أي ملف إعلان XML ولا BOM، ونجاح تحليل XML على البايتات دون إعلان يعني أن البايتات UTF-8 صالحة.",
+    "نهايات الأسطر داخل الأصول الـ36 كلها CRLF. لم تُغيَّر ولا يجوز تغييرها، وقاعدة *.svg -text في .gitattributes تغطيها وفق ADR-0005 البند 11.",
+    "الحجم المقيس: المجموع 610693 بايت، والمتوسط 16963 بايت بالتقريب إلى الأدنى، وأصغر ملف 10430 بايت في page-035، وأكبر ملف 23840 بايت في page-006.",
+    "الخطوط المستدعاة في الصفحات الـ36 كلها: Arial وComic Sans MS وSegoe Print وSegoe UI وTahoma وsans-serif، ولا تزيد أي صفحة خطًّا آخر. قيد معروف مسجَّل في ADR-0004 §23 ولا يُعالَج بتعديل الأصول.",
+    "عنوان الدرس في الصفحة الرئيسة «البنية العامة لتطبيقات الوب»، وهو في page-001 «البنية العامة لتطبيقات الويب»، فطابق displayTitleAr سطر الرئيسة حرفًا بحرف وفق README، ومن page-001 displayTitleEn «The Overall Structure of Web Applications». وpivotQuestionAr بنص المالك المكتوب حرفيًّا، إذ لا تسمية «السؤال الرئيسي» في الأصول. ووصف كل صفحة (descriptionAr، وهو نص alt) بقاعدة المالك المكتوبة: الصفحة التي أول بند فيها عنوان رئيسي بخط 44 غامق وصفها ذلك العنوان، وهي 12 صفحة (page-002، page-003، page-006، page-009، page-011، page-013، page-016، page-019، page-024، page-028، page-031، page-033)، والافتتاحية page-001 وصفها أول بند فيها، وكل صفحة سواهما وصفها «تابع: » ثم آخر عنوان رئيسي قبلها حرفيًّا، وهي 23 صفحة.",
+    "لا يحتوي أي بند على العلامات < أو > أو &.",
+    "نصوص الصفحات مستخرجة آليًّا من عناصر <text> بترتيب المستند، ثم طُبّقت عليها قاعدة حذف علامات الترقيم البصرية وحدها المسجلة في ADR-0024 D7 وREADME. وطوبق مجموع عناصر النص في الأصول وهو 420 مع عدد البنود المنشورة وهو 420، ولا فرق بينهما: لا تحتوي الأصول بند ترقيم منفردًا ولا عنصر نص فارغًا."
+  ],
+  "contextSections": {
+    "structureSummaryAr": "افتتاحية 001. ماذا يحدث في ثانية واحدة؟ 002. ما تطبيق الويب؟ 003–005. قصة محل الكشري 006–008. الطبقات الثلاث 009–010. الواجهة الأمامية 011–012. الواجهة الخلفية 013–015. قاعدة البيانات 016–018. رحلة الطلب 019–023. أمثلة من حياتك 024–027. مين الغلطان؟ 028–030. لماذا نفصل الطبقات؟ 031–032. جهّز نفسك للامتحان 033–036.",
+    "statusAr": "الـManifest بحالة `published` وأصوله الـ36 في مسارها القانوني. ونصوص الصفحات بلغتيها في HTML فهي مقروءة دون JavaScript، والعارض تحسين تدريجي فوقها. والحالة الجارية في `docs/ai/ARCHITECT_EVIDENCE_LEDGER.md`.",
+    "pagesNarrativeAr": "36 صفحة: افتتاحية واحدة (`page-001`) و35 صفحة محتوى (`page-002` … `page-036`) بترقيم متصل بلا فجوة. و`viewBox` «0 0 1080 1350» وفحص أمني نظيف في كلها. والمراسي حتمية: `#page-1` ⇄ `page-001.svg` حتى `#page-36` ⇄ `page-036.svg`. والوصف «تابع: » يعني أن الصفحة تكمل آخر عنوان رئيسي قبلها.",
+    "constraintsAr": "**الخطوط.** Tahoma وSegoe Print وComic Sans MS وSegoe UI وArial قد تغيب على أندرويد، وعلاجها خارج الأصول وفق `ADR-0004 §23`. **الألوان.** العرض عبر `<img>` يعزل الأصل عن الوضع الليلي. **المنطقة السفلى.** عنصر نص واحد عند `y = 1188` أو دونه في صفحة واحدة، عند 1194 في `page-006`، وهو مدرج في الـManifest، سُجّل ولم يوقف النشر. **البايتات ثابتة.** CRLF بلا إعلان XML ولا BOM، وأي تعديل يُبطل البصمات.",
+    "decidedAr": "المسار والمعرّفات وفق `ADR-0004`، والصفحات الـ36 وترتيبها وأدوارها، والسؤال المحوري بنص المالك، ووصف «تابع: » بقاعدته المكتوبة. صفر Dependencies وصفر Build Step.",
+    "undecidedAr": "روابط Previous/Next بين الدروس. فهرس `/courses/` وفهارس Course وTerm وChapter. Structured Data. الخطوط على أندرويد. مراسي `#concept-*`.",
+    "howToUseAr": "مصدرك لجرد بنية الدرس وقيوده. **لا تطلب ملف SVG** وفق `ADR-0005` §10. النص في HTML صفحة الدرس، والجرد والبصمات في الـManifest. ولا تحرّر مخرَجًا منشورًا: غيّر الـconfig وأعد التوليد وفق `ADR-0024`، ولا تخترع رقمًا ولا بصمة."
+  },
+  "svgSourceDir": "assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-01",
+  "pages": [
+    {
+      "id": "page-001",
+      "htmlId": "page-1",
+      "role": "opening",
+      "descriptionAr": "الدرس 3-1",
+      "transcript": [
+        {
+          "text": "الدرس 3-1",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "البنية العامة لتطبيقات الويب",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Lesson 3-1",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "The Overall Structure of Web Applications",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-002",
+      "htmlId": "page-2",
+      "role": "content",
+      "descriptionAr": "ماذا يحدث في ثانية واحدة؟",
+      "transcript": [
+        {
+          "text": "ماذا يحدث في ثانية واحدة؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "What Happens in One Second?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تخيّل أنك كتبت في YouTube: «ملخص ماتش امبارح» وضغطت Enter، فظهرت أمامك قائمة فيديوهات خلال ثانية تقريبًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Imagine you typed \"yesterday's match highlights\" in YouTube and pressed Enter, and a list of videos appeared in about a second.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خمّن قبل أن تكمل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "GUESS BEFORE YOU READ ON",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ماذا حدث خلف الشاشة في هذه الثانية؟ وكم جزءًا اشترك في تجهيز النتيجة؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "What happened behind the screen in that second? How many parts worked together to prepare the result?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-003",
+      "htmlId": "page-3",
+      "role": "content",
+      "descriptionAr": "ما تطبيق الويب؟",
+      "transcript": [
+        {
+          "text": "ما تطبيق الويب؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "What Is a Web Application?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏YouTube وGmail والمتاجر الإلكترونية والخرائط على الويب كلها تطبيقات ويب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "YouTube, Gmail, online stores, and web maps are all web applications.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تعريف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تطبيق الويب Web Application: برنامج تستخدمه غالبًا من خلال المتصفح، دون أن تثبّت برنامجًا خاصًا. وبعض تطبيقات الويب يمكن تثبيتها على الجهاز أيضًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Web application: a program you usually use through the browser, without installing special software. Some web applications can also be installed on the device.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-004",
+      "htmlId": "page-4",
+      "role": "content",
+      "descriptionAr": "تابع: ما تطبيق الويب؟",
+      "transcript": [
+        {
+          "text": "ما الفرق بين تطبيق الويب والموقع التعريفي البسيط؟ الموقع التعريفي تقرؤه فقط، أما تطبيق الويب فيتفاعل معك: تبحث فيه وتشتري وتنشر وترسل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "How is a web application different from a simple information website? You only read an information website, but a web application interacts with you: you search, buy, post, and send in it.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "موقع تعريفي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Information website",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تطبيق ويب",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Web application",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الموقع التعريفي تقرؤه، وتطبيق الويب تتفاعل معه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "You read an information website; you interact with a web application.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-005",
+      "htmlId": "page-5",
+      "role": "content",
+      "descriptionAr": "تابع: ما تطبيق الويب؟",
+      "transcript": [
+        {
+          "text": "تعريفات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITIONS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المتصفح Browser: البرنامج الذي تفتح به صفحات الويب، مثل Chrome وEdge وSafari، وفيه تعمل الواجهة الأمامية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Browser: the program you use to open web pages, such as Chrome, Edge, and Safari; the frontend runs inside it.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المستخدم User: الشخص الذي يتعامل مع التطبيق؛ يكتب ويضغط ويختار، ثم ينتظر النتيجة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "User: the person who works with the app; they type, click, and choose, then wait for the result.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جرّب بنفسك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "TRY IT YOURSELF",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "افتح تطبيق ويب تستخدمه، واذكر ثلاثة أشياء تفعلها فيه ولا يتيحها موقع تعريفي.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Open a web app you use and name three things you do in it that an information website does not allow.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-006",
+      "htmlId": "page-6",
+      "role": "content",
+      "descriptionAr": "قصة محل الكشري",
+      "transcript": [
+        {
+          "text": "قصة محل الكشري",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Koshary Shop Story",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قبل المصطلحات، ادخل معي محل كشري واطلب «طبق كبير بالصلصة الزيادة». لاحظ: مَن يفعل ماذا؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Before the terms, come with me into a koshary shop and order \"a large plate with extra sauce\". Notice: who does what?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الزبون",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Customer",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الكاشير",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Cashier",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "البون",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Order ticket",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المطبخ",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Kitchen",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المخزن",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Storeroom",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الطبق",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Plate",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كل شخص في المحل له دور واحد واضح.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Everyone in the shop has one clear role.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-007",
+      "htmlId": "page-7",
+      "role": "content",
+      "descriptionAr": "تابع: قصة محل الكشري",
+      "transcript": [
+        {
+          "text": "في محل الكشري",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In the koshary shop",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في تطبيق الويب",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In a web application",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الزبون",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Customer",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المستخدم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "User",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الكاشير والشباك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Cashier and counter",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الواجهة الأمامية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Frontend",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المطبخ والطباخ",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Kitchen and cook",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الواجهة الخلفية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Backend",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المخزن والثلاجة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Storeroom and fridge",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قاعدة البيانات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Database",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الأمامية بتعرض وتسمع، والخلفية بتفكّر وتقرر، والبيانات بتحفظ وتفتكر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Frontend shows and listens, backend thinks and decides, data stores and remembers.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-008",
+      "htmlId": "page-8",
+      "role": "content",
+      "descriptionAr": "تابع: قصة محل الكشري",
+      "transcript": [
+        {
+          "text": "هل يدخل الزبون المطبخ؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Does the customer enter the kitchen?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لا، فالخلفية مخفية عن المستخدم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "No, the backend is hidden from users.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هل يطبخ الكاشير؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Does the cashier cook?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لا. والواجهة الأمامية لا تتخذ قرارات التطبيق المهمة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "No. The frontend does not make the app's key decisions.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هل يقرر المخزن ما يُطبخ؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Does the storeroom decide the dish?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لا. قاعدة البيانات تحفظ وتعطي ما يُطلب منها فقط.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "No. The database only stores and gives what is asked.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ماذا لو نفد العدس من المخزن؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "What if the storeroom runs out of lentils?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الكاشير والمطبخ يعملان، لكن الطبق لا يصل: عطل طبقة واحدة قد يوقف النتيجة كلها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The cashier and kitchen work, but no plate arrives: one failed tier can stop the whole result.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-009",
+      "htmlId": "page-9",
+      "role": "content",
+      "descriptionAr": "الطبقات الثلاث",
+      "transcript": [
+        {
+          "text": "الطبقات الثلاث",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Three Tiers",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تذكر سؤال «الثانية الواحدة»؟ الإجابة: ثلاث طبقات Tiers تعاونت معًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Remember the \"one second\" question? Answer: three tiers worked together.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الواجهة الأمامية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Frontend",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تعرض وتجمع",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Shows and collects",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الواجهة الخلفية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Backend",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تقرر وتعالج",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Decides and processes",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قاعدة البيانات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Database",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تخزن وتسترجع",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Stores and retrieves",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تعريف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الطبقة Tier: جزء من التطبيق له مسؤولية محددة، وقد يعمل في مكان مستقل، كالمتصفح أو الخادم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Tier: a part of the app with one clear responsibility; it may run in its own place, such as the browser or the server.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-010",
+      "htmlId": "page-10",
+      "role": "content",
+      "descriptionAr": "تابع: الطبقات الثلاث",
+      "transcript": [
+        {
+          "text": "قاعدة الأفعال الستة: الواجهة الأمامية تعرض وتجمع، والواجهة الخلفية تقرر وتعالج، وقاعدة البيانات تخزن وتسترجع.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The six-verb rule: the frontend shows and collects, the backend decides and processes, and the database stores and retrieves.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تعريف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "بنية الطبقات الثلاث Three-Tier Architecture: تقسيم التطبيق إلى طبقة عرض Presentation، وطبقة معالجة Logic، وطبقة بيانات Data، لكل منها مسؤولية واضحة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Three-tier architecture: dividing an app into a presentation tier, a logic tier, and a data tier, each with a clear responsibility.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "وهي نموذج شائع، لا قانون: فبعض التطبيقات فيها طبقات أكثر، وبعضها بلا قاعدة بيانات تقليدية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "It is a common model, not a law: some apps have more tiers, and some have no traditional database.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-011",
+      "htmlId": "page-11",
+      "role": "content",
+      "descriptionAr": "الواجهة الأمامية",
+      "transcript": [
+        {
+          "text": "الواجهة الأمامية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Frontend",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تعريف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الواجهة الأمامية Frontend: الجزء من التطبيق الذي يعمل داخل المتصفح على جهازك؛ يعرض المحتوى، ويستقبل ما تكتبه أو تختاره ثم يرسله.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Frontend: the part of the app that runs inside the browser on your device; it displays content and receives what you type or choose, then sends it on.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "محتوى معروض",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Displayed content",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مربع إدخال",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Input box",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "زر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Button",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثل: شاشة البحث، ونموذج الإدخال.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "e.g., a search screen, an input form.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-012",
+      "htmlId": "page-12",
+      "role": "content",
+      "descriptionAr": "تابع: الواجهة الأمامية",
+      "transcript": [
+        {
+          "text": "معلومة تميزك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "GO BEYOND",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تُبنى الواجهة الأمامية عادة بثلاث لغات: HTML للهيكل، وCSS للشكل، وJavaScript للتفاعل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The frontend is usually built with three languages: HTML for structure, CSS for style, and JavaScript for interaction.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تعريف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المدخلات Input: كل ما تعطيه للتطبيق: كتابة، أو ضغطة، أو اختيار، أو رفع صورة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Input: anything you give the app: typing, a click, a choice, or an uploaded photo.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-013",
+      "htmlId": "page-13",
+      "role": "content",
+      "descriptionAr": "الواجهة الخلفية",
+      "transcript": [
+        {
+          "text": "الواجهة الخلفية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Backend",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تعريف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الواجهة الخلفية Backend: الجزء الذي يعمل على الخادم ولا تراه؛ يعالج الطلبات، ويطبق قواعد التطبيق، ويتخذ القرارات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Backend: the part that runs on the server, unseen by you; it processes requests, applies the app's rules, and makes decisions.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الخادم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Server",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "طلب",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Request",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قرار",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Decision",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "وتُكتب بلغات مثل Python وJava وPHP.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "It is written in languages such as Python, Java, and PHP.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-014",
+      "htmlId": "page-14",
+      "role": "content",
+      "descriptionAr": "تابع: الواجهة الخلفية",
+      "transcript": [
+        {
+          "text": "تعريفات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITIONS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الخادم Server: جهاز قوي، أو برنامج يعمل عليه، يبقى متصلًا بالإنترنت ليستقبل طلبات آلاف المستخدمين ويرد عليها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Server: a powerful computer, or a program running on it, that stays online to receive and answer requests from thousands of users.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المعالجة Processing: العمل الذي يحوّل المدخلات إلى نتيجة، مثل البحث والحساب والتحقق والترتيب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Processing: the work that turns input into a result, such as searching, calculating, checking, and sorting.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قواعد التطبيق Business Rules: شروط يعمل بها التطبيق، مثل «لا يُقبل الطلب إذا نفد المخزون»، ومكانها الواجهة الخلفية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Business rules: conditions the app follows, such as \"no order if the item is out of stock\"; they live in the backend.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-015",
+      "htmlId": "page-15",
+      "role": "content",
+      "descriptionAr": "تابع: الواجهة الخلفية",
+      "transcript": [
+        {
+          "text": "معلومة تميزك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "GO BEYOND",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التحقق من تسجيل الدخول Authentication: التأكد من أنك صاحب الحساب فعلًا، بمقارنة ما أدخلته بما هو محفوظ.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Authentication: confirming that you really own the account by comparing what you entered with what is stored.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لماذا لا يحدث ذلك في المتصفح؟ لأن ما يعمل على جهازك يستطيع أي شخص أن يغيّره، أما الخادم فتحت سيطرة التطبيق.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Why doesn't this happen in the browser? Because anyone can change what runs on their own device, while the server is under the app's control.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كلمة المرور",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Password",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تحقق",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Check",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الحساب المحفوظ",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Stored account",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-016",
+      "htmlId": "page-16",
+      "role": "content",
+      "descriptionAr": "قاعدة البيانات",
+      "transcript": [
+        {
+          "text": "قاعدة البيانات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Database",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تعريف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قاعدة البيانات Database: نظام ينظم البيانات ويحفظها ويديرها، ويسترجعها عند الطلب، ويسجل الجديد منها. وتبقى البيانات فيها حتى بعد إغلاق التطبيق.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Database: a system that organizes, stores, and manages data, retrieves it when requested, and records new data. The data stays even after the app is closed.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جدول",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Table",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "سجل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Record",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثل: المنتجات، والمستخدمون، والطلبات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "e.g., products, users, orders.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-017",
+      "htmlId": "page-17",
+      "role": "content",
+      "descriptionAr": "تابع: قاعدة البيانات",
+      "transcript": [
+        {
+          "text": "تعريفات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITIONS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "البيانات Data: المعلومات التي يتعامل معها التطبيق، مثل أسماء المنتجات وأسعارها والحسابات والمنشورات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Data: the information the app works with, such as product names and prices, accounts, and posts.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "السجل Record: وحدة واحدة من البيانات المحفوظة، مثل بيانات منتج واحد أو طلب شراء واحد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Record: one saved unit of data, such as the details of one product or one order.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-018",
+      "htmlId": "page-18",
+      "role": "content",
+      "descriptionAr": "تابع: قاعدة البيانات",
+      "transcript": [
+        {
+          "text": "معلومة تميزك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "GO BEYOND",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "طبقة البيانات Data Tier أشمل من قاعدة البيانات: قد تضم قاعدة بيانات، أو تخزين ملفات وصور، أو ذاكرة مخبأة Cache تحفظ البيانات المطلوبة كثيرًا لتصل بسرعة، أو خدمة بيانات خارجية، ويكفيك في الامتحان أن تقول «قاعدة البيانات».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The data tier is broader than a database: it may include a database, file and image storage, a cache that keeps frequently requested data so it arrives quickly, or an external data service; in the exam, saying \"database\" is enough.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قاعدة بيانات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Database",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تخزين ملفات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "File storage",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ذاكرة مخبأة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Cache",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خدمة خارجية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "External service",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-019",
+      "htmlId": "page-19",
+      "role": "content",
+      "descriptionAr": "رحلة الطلب",
+      "transcript": [
+        {
+          "text": "رحلة الطلب",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Request's Journey",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تابع كلمة «سماعة» من لحظة كتابتها حتى تظهر النتيجة على شاشتك.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Follow the word \"headphones\" from the moment you type it until the result appears on your screen.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تعريفات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITIONS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الطلب Request: رسالة ترسلها الواجهة الأمامية إلى الواجهة الخلفية بما يريده المستخدم، مثل «ابحث عن سماعة».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Request: a message the frontend sends to the backend with what the user wants, such as \"search for headphones\".",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الاستعلام Query: سؤال منظم ترسله الواجهة الخلفية إلى قاعدة البيانات لتطلب بيانات محددة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Query: a structured question the backend sends to the database to ask for specific data.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-020",
+      "htmlId": "page-20",
+      "role": "content",
+      "descriptionAr": "تابع: رحلة الطلب",
+      "transcript": [
+        {
+          "text": "تعريف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الاستجابة Response: الرد الذي تعيده الواجهة الخلفية إلى الواجهة الأمامية وفيه النتيجة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Response: the reply the backend returns to the frontend, carrying the result.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المستخدم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "User",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الواجهة الأمامية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Frontend",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الواجهة الخلفية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Backend",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قاعدة البيانات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Database",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "طلب",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Request",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "استعلام",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Query",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "بيانات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Data",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "استجابة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Response",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "رحلة كلمة «سماعة» عبر الطبقات الثلاث.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The journey of \"headphones\" through the three tiers.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-021",
+      "htmlId": "page-21",
+      "role": "content",
+      "descriptionAr": "تابع: رحلة الطلب",
+      "transcript": [
+        {
+          "text": "1 تكتب «سماعة» في مربع البحث، فتستقبلها الواجهة الأمامية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 You type \"headphones\" in the search box, and the frontend receives it.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 ترسل الواجهة الأمامية الكلمة في طلب إلى الواجهة الخلفية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 The frontend sends the word in a request to the backend.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "3 ترسل الواجهة الخلفية استعلامًا إلى قاعدة البيانات عن المنتجات المطابقة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 The backend sends a query to the database for matching products.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "4 تعيد قاعدة البيانات بيانات المنتجات المطابقة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "4 The database returns the data of the matching products.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "5 ترتّب الواجهة الخلفية النتائج وترسلها في استجابة إلى الواجهة الأمامية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "5 The backend organizes the results and sends them in a response to the frontend.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "6 تعرض الواجهة الأمامية النتائج على شاشتك.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "6 The frontend displays the results on your screen.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-022",
+      "htmlId": "page-22",
+      "role": "content",
+      "descriptionAr": "تابع: رحلة الطلب",
+      "transcript": [
+        {
+          "text": "نازل وطالع",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DOWN AND UP",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الطلب ينزل: يكتب ← يرسل ← يسأل،",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The request goes down: types → sends → asks;",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "والنتيجة تطلع: يرد ← يرتّب ← يعرض.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "the result comes up: answers → organizes → displays.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قاعدة مهمة في هذا النموذج: المستخدم لا يكلم المخزن مباشرة؛ فالطريق إلى قاعدة البيانات يمر بالواجهة الخلفية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Key rule in this model: the user never talks to the storeroom directly; the way to the database passes through the backend.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-023",
+      "htmlId": "page-23",
+      "role": "content",
+      "descriptionAr": "تابع: رحلة الطلب",
+      "transcript": [
+        {
+          "text": "معلومة تميزك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "GO BEYOND",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "بروتوكول HTTP: مجموعة القواعد المتفق عليها التي يتبادل بها المتصفح والخادم الطلبات والاستجابات؛ ولذلك تبدأ عناوين المواقع بـ http أو https.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "HTTP: the agreed set of rules the browser and server use to exchange requests and responses; that is why web addresses start with http or https.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "واجهة برمجة التطبيقات API: الباب المحدد الذي تطلب منه الواجهة الأمامية خدمات الواجهة الخلفية بطريقة متفق عليها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "API: the defined doorway through which the frontend asks the backend for services in an agreed way.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏SQL: لغة تُكتب بها الاستعلامات في كثير من قواعد البيانات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "SQL: a language used to write queries in many databases.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "وكل هذه الرحلة تحدث غالبًا في أقل من ثانية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "This whole journey usually happens in less than a second.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-024",
+      "htmlId": "page-24",
+      "role": "content",
+      "descriptionAr": "أمثلة من حياتك",
+      "transcript": [
+        {
+          "text": "أمثلة من حياتك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Examples from Your Life",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "البحث في YouTube",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Searching on YouTube",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الواجهة الأمامية: تأخذ الكلمة وتعرض القائمة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Frontend: takes the word and shows the list.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الواجهة الخلفية: تقرر أي الفيديوهات تناسب الكلمة وبأي ترتيب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Backend: decides which videos match and in what order.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قاعدة البيانات: تحفظ بيانات الفيديوهات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Database: stores the videos' data.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-025",
+      "htmlId": "page-25",
+      "role": "content",
+      "descriptionAr": "تابع: أمثلة من حياتك",
+      "transcript": [
+        {
+          "text": "تسجيل الدخول",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Logging in",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الواجهة الأمامية: تأخذ اسم المستخدم وكلمة المرور.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Frontend: takes the username and password.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الواجهة الخلفية: تتحقق منهما وتقرر السماح بالدخول أو رفضه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Backend: checks them and decides to allow or refuse access.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قاعدة البيانات: تحفظ بيانات الحساب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Database: stores the account data.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "عدّاد المشاهدات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The view counter",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الواجهة الخلفية: تجمع المشاهدات وتحسب العدد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Backend: collects the views and counts them.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قاعدة البيانات: تحفظ الرقم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Database: stores the number.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الواجهة الأمامية: تعرض «1.2 مليون مشاهدة».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Frontend: shows \"1.2 million views\".",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-026",
+      "htmlId": "page-26",
+      "role": "content",
+      "descriptionAr": "تابع: أمثلة من حياتك",
+      "transcript": [
+        {
+          "text": "سؤال ذكي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "SMART QUESTION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لماذا لا تحفظ الشاشة كل الفيديوهات بنفسها؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Why doesn't the screen store all the videos itself?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لأن البيانات يجب أن تكون مشتركة بين ملايين المستخدمين، ومحفوظة حتى بعد أن تغلق جهازك، وهذا ما لا تستطيعه الواجهة الأمامية وحدها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Because the data must be shared among millions of users and kept even after you close your device, which the frontend cannot do alone.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-027",
+      "htmlId": "page-27",
+      "role": "content",
+      "descriptionAr": "تابع: أمثلة من حياتك",
+      "transcript": [
+        {
+          "text": "تعريفات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITIONS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "شبكة التواصل الاجتماعي SNS: خدمة للنشر والتواصل والمتابعة بين المستخدمين.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "SNS (Social Networking Service): a service for posting, communicating, and following between users.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الخط الزمني Timeline: صفحة تعرض منشورات من تتابعهم؛ عرضها عمل الواجهة الأمامية، واختيار ما فيها عمل الواجهة الخلفية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Timeline: a page showing posts from people you follow; displaying it is the frontend's job, and choosing its content is the backend's job.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الإشعارات الفورية Push Notifications: رسائل تصلك دون أن تطلبها، وتقرر الواجهة الخلفية متى تُرسل ولمن.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Push notifications: messages that reach you without asking; the backend decides when and to whom they are sent.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التجارة الإلكترونية E-commerce: البيع والشراء عبر الإنترنت.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "E-commerce: buying and selling online.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-028",
+      "htmlId": "page-28",
+      "role": "content",
+      "descriptionAr": "مين الغلطان؟",
+      "transcript": [
+        {
+          "text": "مين الغلطان؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Who's to Blame?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اقرأ الموقف وخمّن الطبقة المشتبه بها، وقل «على الأرجح» لا «أكيد».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Read the situation and guess the suspected tier; say \"probably\", not \"certainly\".",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الموقف 1: زر «أضف للسلة» لا يستجيب عند الضغط، والصفحة مشوهة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Situation 1: The \"Add to cart\" button does not respond, and the page looks broken.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "على الأرجح: الواجهة الأمامية، لأن العطل فيما تراه وتلمسه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Probably: the frontend, because the fault is in what you see and touch.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-029",
+      "htmlId": "page-29",
+      "role": "content",
+      "descriptionAr": "تابع: مين الغلطان؟",
+      "transcript": [
+        {
+          "text": "الموقف 2: الصفحة تفتح جيدًا، لكن بعد الضغط على «بحث» تظهر رسالة خطأ من الخادم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Situation 2: The page opens fine, but after pressing \"Search\" a server error message appears.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "على الأرجح: الواجهة الخلفية، لأن المعالجة لم تتم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Probably: the backend, because the processing did not happen.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الموقف 3: نجح تسجيل الدخول، لكن طلباتك القديمة اختفت كلها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Situation 3: Login worked, but all your past orders have disappeared.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "على الأرجح: طبقة البيانات، لأن المحفوظ هو الذي ضاع.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Probably: the data tier, because the stored data is what was lost.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-030",
+      "htmlId": "page-30",
+      "role": "content",
+      "descriptionAr": "تابع: مين الغلطان؟",
+      "transcript": [
+        {
+          "text": "الموقف 4: صفحة حجز العيادة تفتح، لكن لا تظهر أوقات متاحة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Situation 4: The clinic booking page opens, but no free time slots appear.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ليس بالضرورة عطلًا: قد تكون كل المواعيد محجوزة فعلًا، أو يكون الخلل في المعالجة أو في البيانات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Not necessarily a fault: all slots may really be booked, or the problem may be in the processing or in the data.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "درس المهندس",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "THE ENGINEER'S LESSON",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المهندس لا يتسرع في الحكم؛ يجمع المعلومات أولًا ثم يقرر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "An engineer does not rush to judge; they gather information first, then decide.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-031",
+      "htmlId": "page-31",
+      "role": "content",
+      "descriptionAr": "لماذا نفصل الطبقات؟",
+      "transcript": [
+        {
+          "text": "لماذا نفصل الطبقات؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Why Separate the Tiers?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تعريف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "فصل المسؤوليات Separation of Concerns: مبدأ هندسي يجعل لكل جزء من البرنامج مهمة واضحة لا تختلط بغيرها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Separation of concerns: an engineering principle that gives each part of a program one clear task that does not mix with others.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يسهل اكتشاف الأعطال وإصلاحها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Faults are easier to find and fix.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يمكن تعديل جزء دون أن يتأثر الباقي.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "One part can change without affecting the rest.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تعمل فرق مختلفة في الوقت نفسه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Different teams can work at the same time.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-032",
+      "htmlId": "page-32",
+      "role": "content",
+      "descriptionAr": "تابع: لماذا نفصل الطبقات؟",
+      "transcript": [
+        {
+          "text": "معلومة تميزك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "GO BEYOND",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مطوّر الواجهة الأمامية Frontend Developer: يبني ما يراه المستخدم ويتفاعل معه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Frontend developer: builds what the user sees and interacts with.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مطوّر الواجهة الخلفية Backend Developer: يبني المعالجة والقواعد على الخادم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Backend developer: builds the processing and rules on the server.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المطوّر الشامل Full-Stack Developer: يعمل في الطبقات كلها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Full-stack developer: works across all the tiers.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "فكّر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "THINK",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أي دور منها تحب أن تجربه، ولماذا؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Which of these roles would you like to try, and why?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-033",
+      "htmlId": "page-33",
+      "role": "content",
+      "descriptionAr": "جهّز نفسك للامتحان",
+      "transcript": [
+        {
+          "text": "جهّز نفسك للامتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Get Ready for the Exam",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في سؤال توزيع المهام، ابحث عن الكلمة المفتاحية:",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In a task-assignment question, look for the key word:",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "إذا وجدت",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "If you see",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "فالإجابة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The answer is",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "شاشة، صفحة، عرض، نموذج إدخال",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "screen, page, display, input form",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الواجهة الأمامية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Frontend",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "معالجة، تحقق، تحديد، اختيار، دفع، إشعارات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "processing, checking, determining, selecting, payment, notifications",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الواجهة الخلفية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Backend",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تخزين، سجل، معلومات محفوظة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "storage, history, stored information",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قاعدة البيانات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Database",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-034",
+      "htmlId": "page-34",
+      "role": "content",
+      "descriptionAr": "تابع: جهّز نفسك للامتحان",
+      "transcript": [
+        {
+          "text": "نموذج إجابة من 6 درجات: إرسال رسالة في تطبيق محادثة على الويب",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A 6-mark model answer: sending a message in a web chat app",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "1 الواجهة الأمامية تعرض شاشة المحادثة وتستقبل نص الرسالة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 The frontend shows the chat screen and receives the message text.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 ترسل الرسالة في طلب إلى الواجهة الخلفية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 It sends the message in a request to the backend.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "5 الواجهة الخلفية تتحقق من المرسل وتحدد المستقبل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 The backend checks the sender and determines the receiver.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "4 ترسل الرسالة إلى قاعدة البيانات لحفظها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "4 It sends the message to the database to be saved.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "5 قاعدة البيانات تخزن الرسالة ووقتها وصاحبها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "5 The database stores the message, its time, and its sender.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "6 الواجهة الأمامية تعرض الرسالة في المحادثة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "6 The frontend displays the message in the chat.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نصيحة: اكتب بالترتيب، وأعطِ كل طبقة فعلين من أفعالها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Tip: write in order, and give each tier two of its verbs.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-035",
+      "htmlId": "page-35",
+      "role": "content",
+      "descriptionAr": "تابع: جهّز نفسك للامتحان",
+      "transcript": [
+        {
+          "text": "أخطاء شائعة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "COMMON MISTAKES",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«الواجهة الخلفية تعمل على المتصفح» ×، فهي تعمل على الخادم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "\"The backend runs on the browser\" ×; it runs on the server.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«قاعدة البيانات هي المسؤولة عن البحث» ×، فالواجهة الخلفية تقود البحث، وقاعدة البيانات تعيد البيانات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "\"The database is responsible for searching\" ×; the backend leads the search, and the database returns the data.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«يعمل تطبيق الويب بالواجهة الأمامية وحدها» ×، فالطبقات الثلاث تتعاون.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "\"A web app works with the frontend alone\" ×; the three tiers cooperate.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«شاشة سلة التسوق» واجهة أمامية، مع أن فيها بيانات، لأن العبرة بالفعل: العرض.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "\"Cart screen\" is frontend, even though it has data, because the verb counts: displaying.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«معالجة الدفع» واجهة خلفية، و«تخزين سجل الطلبات» قاعدة بيانات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "\"Payment processing\" is backend; \"storage of order history\" is database.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-036",
+      "htmlId": "page-36",
+      "role": "content",
+      "descriptionAr": "تابع: جهّز نفسك للامتحان",
+      "transcript": [
+        {
+          "text": "الخلاصة في 30 ثانية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "THE 30-SECOND SUMMARY",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ما تراه هو الواجهة الأمامية: تعرض وتجمع، ثم ترسل طلبك إلى الواجهة الخلفية على الخادم: تقرر وتعالج، فتسأل قاعدة البيانات: تخزن وتسترجع، ثم تعود النتيجة في الطريق نفسه إلى شاشتك.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "What you see is the frontend: it shows and collects, then sends your request to the backend on the server: it decides and processes, which asks the database: it stores and retrieves; then the result returns the same way to your screen.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تعرض وتجمع",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Shows and collects",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تقرر وتعالج",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Decides and processes",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تخزن وتسترجع",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Stores and retrieves",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الأمامية بتعرض وتسمع، والخلفية بتفكّر وتقرر، والبيانات بتحفظ وتفتكر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Frontend shows and listens, backend thinks and decides, data stores and remembers.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    }
+  ]
+}

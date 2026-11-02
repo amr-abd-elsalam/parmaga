@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilServer" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+  <linearGradient id="ilScreen" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#4fc3e8"/>
+    <stop offset="1" stop-color="#2f7fb5"/>
+  </linearGradient>
+  <linearGradient id="ilCloud" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+  <linearGradient id="ilBox" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#f0c48c"/>
+    <stop offset="1" stop-color="#c96a1b"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Info card: shadow, fill and accent bar as one frame -->
+<g>
+  <rect x="109" y="128" width="870" height="968" rx="16" fill="#22303f" opacity=".12"/>
+  <rect x="105" y="122" width="870" height="968" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+  <rect x="961" y="138" width="6" height="936" rx="3" fill="#2f7fb5"/>
+</g>
+
+<!-- Icon: open book beside the header -->
+<g transform="translate(410 152)">
+  <path d="M28 8 Q16 2 4 6 L4 40 Q16 36 28 42 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M28 8 Q40 2 52 6 L52 40 Q40 36 28 42 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M10 16 L22 18 M10 24 L22 26 M34 18 L46 16 M34 26 L46 24" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: server (definition 1) -->
+<g transform="translate(852 376)">
+  <rect x="4" y="2" width="48" height="54" rx="7" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="11" y="10" width="34" height="14" rx="3" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="11" y="32" width="34" height="14" rx="3" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="37" cy="17" r="3" fill="#2e7d32"/>
+  <circle cx="37" cy="39" r="3" fill="#2e7d32"/>
+</g>
+
+<!-- Icon: gears (definition 2) -->
+<g transform="translate(872 720)">
+  <path d="M17.4 -4.7 L23.8 -3.3 L23.8 3.3 L17.4 4.7 L15.6 9 L19.2 14.4 L14.4 19.2 L9 15.6 L4.7 17.4 L3.3 23.8 L-3.3 23.8 L-4.7 17.4 L-9 15.6 L-14.4 19.2 L-19.2 14.4 L-15.6 9 L-17.4 4.7 L-23.8 3.3 L-23.8 -3.3 L-17.4 -4.7 L-15.6 -9 L-19.2 -14.4 L-14.4 -19.2 L-9 -15.6 L-4.7 -17.4 L-3.3 -23.8 L3.3 -23.8 L4.7 -17.4 L9 -15.6 L14.4 -19.2 L19.2 -14.4 L15.6 -9 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="0" cy="0" r="7" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <g transform="translate(30 -26) scale(.55)">
+    <path d="M17.4 -4.7 L23.8 -3.3 L23.8 3.3 L17.4 4.7 L15.6 9 L19.2 14.4 L14.4 19.2 L9 15.6 L4.7 17.4 L3.3 23.8 L-3.3 23.8 L-4.7 17.4 L-9 15.6 L-14.4 19.2 L-19.2 14.4 L-15.6 9 L-17.4 4.7 L-23.8 3.3 L-23.8 -3.3 L-17.4 -4.7 L-15.6 -9 L-19.2 -14.4 L-14.4 -19.2 L-9 -15.6 L-4.7 -17.4 L-3.3 -23.8 L3.3 -23.8 L4.7 -17.4 L9 -15.6 L14.4 -19.2 L19.2 -14.4 L15.6 -9 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="0" cy="0" r="7" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+</g>
+
+<!-- Icon: rules checklist (definition 3) -->
+<g transform="translate(850 978)">
+  <rect x="6" y="6" width="48" height="58" rx="6" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="13" y="16" width="34" height="42" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="18" y="0" width="24" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M18 27 L21 30 L26 24 M18 41 L21 44 L26 38" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M31 27 L41 27 M31 41 L41 41" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Memory illustration: requests travel to the server, are processed by rules, and return -->
+<g>
+  <rect x="154" y="1146" width="120" height="76" rx="8" fill="#22303f" opacity=".18"/>
+  <path d="M138 1232 L290 1232 L302 1248 L126 1248 Z" fill="#22303f" opacity=".18"/>
+  <rect x="312" y="1156" width="44" height="80" rx="9" fill="#22303f" opacity=".18"/>
+  <rect x="500" y="1124" width="104" height="128" rx="12" fill="#22303f" opacity=".18"/>
+  <rect x="734" y="1138" width="72" height="96" rx="8" fill="#22303f" opacity=".18"/>
+  <rect x="824" y="1176" width="66" height="58" rx="6" fill="#22303f" opacity=".18"/>
+
+  <path d="M455 1232 C 425 1232 420 1196 448 1190 C 446 1160 482 1146 505 1162 C 520 1132 572 1128 590 1158 C 612 1142 648 1156 642 1184 C 676 1186 680 1232 646 1232 Z" fill="url(#ilCloud)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <rect x="150" y="1140" width="120" height="76" rx="8" fill="url(#ilScreen)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M166 1160 L214 1160 M166 1176 L236 1176 M166 1192 L200 1192" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="146" y="1216" width="128" height="10" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M134 1226 L286 1226 L298 1242 L122 1242 Z" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <rect x="308" y="1150" width="44" height="80" rx="9" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="314" y="1160" width="32" height="56" rx="4" fill="#4fc3e8"/>
+  <circle cx="330" cy="1176" r="6" fill="#ffffff"/>
+  <path d="M320 1194 L340 1194 M322 1204 L338 1204" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="330" cy="1223" r="3" fill="#ffffff"/>
+
+  <path d="M366 1164 L462 1164" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="462,1157 476,1164 462,1171" fill="#c0392b"/>
+  <rect x="396" y="1152" width="34" height="24" rx="4" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M403 1161 L423 1161 M403 1168 L416 1168" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+
+  <path d="M462 1212 L380 1212" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="380,1205 366,1212 380,1219" fill="#c0392b"/>
+  <rect x="402" y="1200" width="34" height="24" rx="4" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M411 1212 L417 1218 L427 1206" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="496" y="1118" width="104" height="128" rx="12" fill="url(#ilServer)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="510" y="1132" width="76" height="24" rx="5" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="510" y="1164" width="76" height="24" rx="5" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="510" y="1196" width="76" height="24" rx="5" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M520 1144 L550 1144 M520 1176 L550 1176 M520 1208 L550 1208" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="572" cy="1144" r="4" fill="#2e7d32"/>
+  <circle cx="572" cy="1176" r="4" fill="#2e7d32"/>
+  <circle cx="572" cy="1208" r="4" fill="#ffd24a"/>
+
+  <g transform="translate(612 1222)">
+    <path d="M17.4 -4.7 L23.8 -3.3 L23.8 3.3 L17.4 4.7 L15.6 9 L19.2 14.4 L14.4 19.2 L9 15.6 L4.7 17.4 L3.3 23.8 L-3.3 23.8 L-4.7 17.4 L-9 15.6 L-14.4 19.2 L-19.2 14.4 L-15.6 9 L-17.4 4.7 L-23.8 3.3 L-23.8 -3.3 L-17.4 -4.7 L-15.6 -9 L-19.2 -14.4 L-14.4 -19.2 L-9 -15.6 L-4.7 -17.4 L-3.3 -23.8 L3.3 -23.8 L4.7 -17.4 L9 -15.6 L14.4 -19.2 L19.2 -14.4 L15.6 -9 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="0" cy="0" r="7" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(646 1196) scale(.6)">
+    <path d="M17.4 -4.7 L23.8 -3.3 L23.8 3.3 L17.4 4.7 L15.6 9 L19.2 14.4 L14.4 19.2 L9 15.6 L4.7 17.4 L3.3 23.8 L-3.3 23.8 L-4.7 17.4 L-9 15.6 L-14.4 19.2 L-19.2 14.4 L-15.6 9 L-17.4 4.7 L-23.8 3.3 L-23.8 -3.3 L-17.4 -4.7 L-15.6 -9 L-19.2 -14.4 L-14.4 -19.2 L-9 -15.6 L-4.7 -17.4 L-3.3 -23.8 L3.3 -23.8 L4.7 -17.4 L9 -15.6 L14.4 -19.2 L19.2 -14.4 L15.6 -9 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="0" cy="0" r="7" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+
+  <path d="M670 1180 L722 1180" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="670" cy="1180" r="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+
+  <rect x="730" y="1132" width="72" height="96" rx="8" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="740" y="1146" width="52" height="74" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="750" y="1124" width="32" height="16" rx="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M746 1162 L750 1166 L757 1158 M746 1182 L750 1186 L757 1178" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M747 1197 L756 1206 M756 1197 L747 1206" fill="none" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+  <path d="M764 1162 L784 1162 M764 1182 L784 1182 M764 1202 L784 1202" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+
+  <rect x="820" y="1170" width="66" height="58" rx="6" fill="url(#ilBox)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M820 1188 L886 1188 M844 1170 L844 1188 M862 1170 L862 1188" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="884" cy="1168" r="14" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M877 1168 L882 1173 L891 1163" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M940 1150 L962 1158 L962 1180 Q962 1204 940 1214 Q918 1204 918 1180 L918 1158 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M934 1176 L934 1170 Q940 1162 946 1170 L946 1176" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="931" y="1176" width="18" height="14" rx="3" fill="#2e7d32"/>
+</g>
+
+<!-- Card header -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">تعريفات</tspan>
+</text>
+<text x="140" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">DEFINITIONS</tspan>
+</text>
+
+<!-- Definition 1 -->
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">الخادم</tspan> Server: جهاز قوي، أو برنامج</tspan>
+  <tspan x="935" dy="40">يعمل عليه، يبقى <tspan font-weight="bold" fill="#17457f">متصلًا بالإنترنت</tspan> ليستقبل</tspan>
+  <tspan x="935" dy="40">طلبات آلاف المستخدمين ويرد عليها.</tspan>
+</text>
+<text x="140" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Server:</tspan> a powerful computer, or a</tspan>
+  <tspan x="140" dy="40">program running on it, that stays</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#17457f">online</tspan> to receive and answer requests</tspan>
+  <tspan x="140" dy="40">from thousands of users.</tspan>
+</text>
+
+<!-- Definition 2 -->
+<text x="935" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">المعالجة</tspan> Processing: العمل الذي يحوّل</tspan>
+  <tspan x="935" dy="40">المدخلات إلى <tspan font-weight="bold" fill="#17457f">نتيجة</tspan>، مثل البحث</tspan>
+  <tspan x="935" dy="40">والحساب والتحقق والترتيب.</tspan>
+</text>
+<text x="140" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Processing:</tspan> the work that turns input</tspan>
+  <tspan x="140" dy="40">into a <tspan font-weight="bold" fill="#17457f">result</tspan>, such as searching,</tspan>
+  <tspan x="140" dy="40">calculating, checking, and sorting.</tspan>
+</text>
+
+<!-- Definition 3 -->
+<text x="935" y="834" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">قواعد التطبيق</tspan> Business Rules: شروط يعمل</tspan>
+  <tspan x="935" dy="40">بها التطبيق، مثل «لا يُقبل الطلب إذا نفد</tspan>
+  <tspan x="935" dy="40">المخزون»، ومكانها <tspan font-weight="bold" fill="#17457f">الواجهة الخلفية</tspan>.</tspan>
+</text>
+<text x="140" y="954" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Business rules:</tspan> conditions the app</tspan>
+  <tspan x="140" dy="40">follows, such as</tspan>
+  <tspan x="140" dy="40">"no order if the item is out of stock";</tspan>
+  <tspan x="140" dy="40">they live in the <tspan font-weight="bold" fill="#17457f">backend</tspan>.</tspan>
+</text>
+</svg>
