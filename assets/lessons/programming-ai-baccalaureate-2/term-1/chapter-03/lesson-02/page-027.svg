@@ -1,0 +1,265 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Success card -->
+<rect x="109" y="368" width="870" height="208" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="362" width="870" height="208" rx="16" fill="#e9f7ee" stroke="#a9dcbe" stroke-width="2"/>
+<rect x="961" y="378" width="6" height="176" rx="3" fill="#2e7d32"/>
+
+<!-- Illustration: phone asks the weather service through its API -->
+<g>
+  <defs>
+    <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="ilGround" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fc9f2"/>
+      <stop offset="1" stop-color="#dff1f7"/>
+    </linearGradient>
+    <linearGradient id="ilServer" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f7fb5"/>
+      <stop offset="1" stop-color="#17457f"/>
+    </linearGradient>
+    <linearGradient id="ilGate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f7fb5"/>
+      <stop offset="1" stop-color="#17457f"/>
+    </linearGradient>
+    <linearGradient id="ilOpen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#8fc9f2"/>
+    </linearGradient>
+    <linearGradient id="ilPhoneSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4fc3e8"/>
+      <stop offset="1" stop-color="#2f7fb5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Panel and shadow -->
+  <rect x="109" y="616" width="862" height="390" rx="26" fill="#22303f" opacity=".18"/>
+  <rect x="105" y="610" width="862" height="390" rx="26" fill="url(#ilSky)"/>
+  <path d="M106 940 H966 V974 Q966 999 941 999 H131 Q106 999 106 974 Z" fill="url(#ilGround)"/>
+  <line x1="106" y1="940" x2="966" y2="940" stroke="#2f7fb5" stroke-width="2.5" opacity=".6"/>
+
+  <!-- Background clouds -->
+  <g transform="translate(130 640)">
+    <path d="M18 40 Q4 40 5 30 Q6 20 18 22 Q22 6 40 8 Q56 10 57 24 Q70 23 70 32 Q70 40 60 40 Z" fill="#ffffff" opacity=".85"/>
+  </g>
+  <g transform="translate(340 646)">
+    <path d="M18 40 Q4 40 5 30 Q6 20 18 22 Q22 6 40 8 Q56 10 57 24 Q70 23 70 32 Q70 40 60 40 Z" fill="#ffffff" opacity=".85"/>
+  </g>
+  <g transform="translate(680 636)">
+    <path d="M18 40 Q4 40 5 30 Q6 20 18 22 Q22 6 40 8 Q56 10 57 24 Q70 23 70 32 Q70 40 60 40 Z" fill="#ffffff" opacity=".85"/>
+  </g>
+
+  <!-- Weather station server -->
+  <ellipse cx="250" cy="944" rx="82" ry="6" fill="#22303f" opacity=".18"/>
+  <rect x="184" y="786" width="140" height="154" rx="12" fill="#22303f" opacity=".18"/>
+  <rect x="180" y="780" width="140" height="160" rx="12" fill="url(#ilServer)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="196" y="798" width="108" height="28" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="206" y="808" width="56" height="8" rx="4" fill="#4fc3e8"/>
+  <circle cx="280" cy="812" r="4" fill="#ffd24a"/>
+  <circle cx="293" cy="812" r="4" fill="#4fc3e8"/>
+  <rect x="196" y="838" width="108" height="28" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="206" y="848" width="56" height="8" rx="4" fill="#4fc3e8"/>
+  <circle cx="280" cy="852" r="4" fill="#4fc3e8"/>
+  <circle cx="293" cy="852" r="4" fill="#ffd24a"/>
+  <rect x="196" y="878" width="108" height="28" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="206" y="888" width="56" height="8" rx="4" fill="#4fc3e8"/>
+  <circle cx="280" cy="892" r="4" fill="#ffd24a"/>
+  <circle cx="293" cy="892" r="4" fill="#4fc3e8"/>
+  <rect x="172" y="770" width="156" height="14" rx="7" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <!-- Thermometer -->
+  <rect x="199" y="692" width="16" height="66" rx="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="204" y="716" width="6" height="40" rx="3" fill="#c0392b"/>
+  <circle cx="207" cy="758" r="11" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M219 704 H225 M219 716 H225 M219 728 H225 M219 740 H225" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Wind vane -->
+  <rect x="277" y="700" width="6" height="70" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M260 734 H300" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="260" cy="734" r="4" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="300" cy="734" r="4" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M250 700 H304" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="304,692 318,700 304,708" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="250,692 258,700 250,708 236,708 244,700 236,692" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="280" cy="700" r="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Gateway: open doorway with joined plug and socket -->
+  <ellipse cx="544" cy="946" rx="96" ry="6" fill="#22303f" opacity=".18"/>
+  <path d="M470 940 V770 Q470 700 540 700 Q610 700 610 770 V940 Z" fill="url(#ilGate)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M494 940 V776 Q494 724 540 724 Q586 724 586 776 V940 Z" fill="url(#ilOpen)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M506 920 V784 Q506 742 528 734" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+  <path d="M610 772 L644 760 L644 952 L610 940 Z" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="634" cy="860" r="4" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="460" y="936" width="160" height="10" rx="5" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="544" cy="672" r="34" fill="#ffd24a" opacity=".35"/>
+  <path d="M496 672 Q474 672 474 712" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M592 672 Q606 672 606 712" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <rect x="530" y="692" width="20" height="10" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="534" y="662" width="18" height="6" rx="2" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="534" y="676" width="18" height="6" rx="2" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="496" y="656" width="40" height="32" rx="8" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M506 664 V680" fill="none" stroke="#f0c48c" stroke-width="3" stroke-linecap="round"/>
+  <rect x="548" y="650" width="44" height="44" rx="10" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="578" cy="672" r="5" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M520 640 L523 647 L530 650 L523 653 L520 660 L517 653 L510 650 L517 647 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Smartphone with weather screen -->
+  <ellipse cx="847" cy="944" rx="62" ry="6" fill="#22303f" opacity=".18"/>
+  <rect x="796" y="696" width="110" height="230" rx="22" fill="#22303f" opacity=".18"/>
+  <rect x="792" y="690" width="110" height="230" rx="22" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="802" y="708" width="90" height="192" rx="10" fill="url(#ilPhoneSky)"/>
+  <rect x="832" y="697" width="30" height="5" rx="2.5" fill="#7f95ab"/>
+  <path d="M834 724 V718 M808 750 H802 M816 732 L812 728 M852 732 L856 728 M816 768 L812 772" fill="none" stroke="#ffd24a" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="834" cy="750" r="18" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M842 786 Q832 786 834 774 Q836 764 848 766 Q852 750 868 752 Q882 754 882 768 Q892 768 890 778 Q889 786 880 786 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="816" y="802" width="62" height="14" rx="7" fill="#ffffff" opacity=".85"/>
+  <rect x="810" y="830" width="22" height="40" rx="5" fill="#dff1f7" opacity=".85"/>
+  <rect x="836" y="830" width="22" height="40" rx="5" fill="#dff1f7" opacity=".85"/>
+  <rect x="862" y="830" width="22" height="40" rx="5" fill="#dff1f7" opacity=".85"/>
+  <circle cx="821" cy="843" r="5" fill="#ffd24a"/>
+  <circle cx="847" cy="843" r="5" fill="#ffd24a"/>
+  <circle cx="873" cy="843" r="5" fill="#ffffff"/>
+  <rect x="815" y="856" width="12" height="5" rx="2.5" fill="#2f7fb5"/>
+  <rect x="841" y="856" width="12" height="5" rx="2.5" fill="#2f7fb5"/>
+  <rect x="867" y="856" width="12" height="5" rx="2.5" fill="#2f7fb5"/>
+  <rect x="816" y="882" width="62" height="8" rx="4" fill="#ffd24a"/>
+  <polygon points="820,920 874,920 888,940 806,940" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Request arrow: phone to server through the gateway -->
+  <path d="M784 790 H338" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="338,780 322,790 338,800" fill="#c0392b"/>
+  <!-- Return arrow with data card -->
+  <path d="M326 890 H770" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="770,880 786,890 770,900" fill="#c0392b"/>
+  <rect x="660" y="872" width="92" height="48" rx="8" fill="#22303f" opacity=".18"/>
+  <rect x="656" y="866" width="92" height="48" rx="8" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M678 874 Q670 874 670 882 Q670 890 664 890 Q670 890 670 898 Q670 906 678 906" fill="none" stroke="#c96a1b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M726 874 Q734 874 734 882 Q734 890 740 890 Q734 890 734 898 Q734 906 726 906" fill="none" stroke="#c96a1b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="686" y="879" width="32" height="6" rx="3" fill="#ffffff"/>
+  <rect x="686" y="895" width="24" height="6" rx="3" fill="#ffffff"/>
+</g>
+
+<!-- Memory illustration: menu, served data, phone -->
+<g>
+  <defs>
+    <linearGradient id="ilDome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#8fc9f2"/>
+    </linearGradient>
+  </defs>
+  <rect x="204" y="1234" width="680" height="14" rx="7" fill="#22303f" opacity=".18"/>
+  <!-- Menu card -->
+  <g transform="rotate(-8 302 1142)">
+    <rect x="254" y="1076" width="104" height="144" rx="10" fill="#22303f" opacity=".18"/>
+    <rect x="250" y="1070" width="104" height="144" rx="10" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M250 1100 V1080 Q250 1070 260 1070 H344 Q354 1070 354 1080 V1100 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="302" cy="1085" r="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="268" y="1120" width="66" height="7" rx="3.5" fill="#8fc9f2"/>
+    <rect x="268" y="1144" width="58" height="7" rx="3.5" fill="#8fc9f2"/>
+    <rect x="268" y="1168" width="70" height="7" rx="3.5" fill="#8fc9f2"/>
+  </g>
+  <path d="M374 1160 H418" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="418,1151 432,1160 418,1169" fill="#c0392b"/>
+  <!-- Cloche serving the weather -->
+  <ellipse cx="544" cy="1220" rx="124" ry="14" fill="#22303f" opacity=".18"/>
+  <ellipse cx="540" cy="1214" rx="124" ry="14" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M444 1208 Q444 1118 540 1118 Q636 1118 636 1208 Z" fill="url(#ilDome)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M472 1186 Q472 1148 510 1134" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+  <rect x="444" y="1196" width="192" height="12" rx="6" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="540" cy="1110" r="10" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M516 1040 V1036 M492 1064 H488 M499 1047 L496 1044 M533 1047 L536 1044 M499 1081 L496 1084" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="516" cy="1064" r="18" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M530 1094 Q520 1094 522 1082 Q524 1072 536 1074 Q540 1058 556 1060 Q570 1062 570 1076 Q580 1076 578 1086 Q577 1094 568 1094 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M620 1078 L624 1088 L634 1092 L624 1096 L620 1106 L616 1096 L606 1092 L616 1088 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M456 1070 L459 1077 L466 1080 L459 1083 L456 1090 L453 1083 L446 1080 L453 1077 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M652 1160 H700" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="700,1151 714,1160 700,1169" fill="#c0392b"/>
+  <!-- Phone receiving -->
+  <rect x="730" y="1082" width="80" height="144" rx="16" fill="#22303f" opacity=".18"/>
+  <rect x="726" y="1076" width="80" height="144" rx="16" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="734" y="1090" width="64" height="116" rx="8" fill="url(#ilPhoneSky)"/>
+  <circle cx="756" cy="1118" r="11" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M766 1140 Q758 1140 759 1132 Q760 1125 768 1126 Q771 1116 781 1117 Q790 1118 790 1128 Q796 1128 795 1134 Q794 1140 788 1140 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="744" y="1156" width="44" height="8" rx="4" fill="#ffffff" opacity=".85"/>
+  <rect x="744" y="1174" width="32" height="8" rx="4" fill="#ffd24a"/>
+  <circle cx="830" cy="1092" r="16" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M822 1092 L828 1098 L839 1086" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Table surface -->
+  <rect x="200" y="1228" width="680" height="14" rx="7" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: weather (beside the example paragraph) -->
+<g transform="translate(130 106)">
+  <path d="M22 3 V0 M3 22 H0 M8 8 L6 6 M36 8 L38 6 M8 36 L6 38" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="22" cy="22" r="13" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M22 58 Q12 58 13 49 Q14 41 23 42 Q26 30 40 31 Q52 33 52 44 Q60 44 60 51 Q60 58 52 58 Z" fill="#22303f" opacity=".18"/>
+  <path d="M18 52 Q8 52 9 43 Q10 35 19 36 Q22 24 36 25 Q48 27 48 38 Q56 38 56 45 Q56 52 48 52 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: network (beside the English paragraph) -->
+<g transform="translate(886 238)">
+  <rect x="4" y="6" width="52" height="52" rx="12" fill="#22303f" opacity=".18"/>
+  <rect x="0" y="0" width="52" height="52" rx="12" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M26 14 L13 38 M26 14 L39 38 M13 38 L39 38" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="26" cy="14" r="7" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="13" cy="38" r="7" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="39" cy="38" r="7" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: star (remember) in card corner -->
+<g transform="translate(146 374)">
+  <polygon points="28,8 33.3,22.7 48.9,23.2 36.6,32.8 40.9,47.8 28,39 15.1,47.8 19.4,32.8 7.1,23.2 22.7,22.7" fill="#22303f" opacity=".18"/>
+  <polygon points="24,2 29.3,16.7 44.9,17.2 32.6,26.8 36.9,41.8 24,33 11.1,41.8 15.4,26.8 3.1,17.2 18.7,16.7" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Face: wink (tip) inside card -->
+<g transform="translate(870 512)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M 5 -6 L 13 -6" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Example paragraph -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">مثال: <tspan fill="#c96a1b">تطبيق الطقس</tspan> على موبايلك لا يقيس</tspan>
+  <tspan x="950" dy="40">الحرارة بنفسه، بل يطلبها من <tspan font-weight="bold" fill="#c0392b">API</tspan> لخدمة طقس.</tspan>
+</text>
+<text x="120" y="234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Example: the <tspan fill="#c96a1b">weather app</tspan> on your phone</tspan>
+  <tspan x="120" dy="40">does not measure the temperature itself;</tspan>
+  <tspan x="120" dy="40">it asks a weather service's <tspan font-weight="bold" fill="#c0392b">API</tspan> for it.</tspan>
+</text>
+
+<!-- Success card text -->
+<text x="935" y="394" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">للتذكر: الـ API هو <tspan font-weight="bold" fill="#c0392b">الجرسون:</tspan></tspan>
+  <tspan x="935" dy="40">إنت مش بتدخل المطبخ، بتطلب من <tspan font-weight="bold" fill="#2e7d32">المنيو.</tspan></tspan>
+</text>
+<text x="140" y="474" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">To remember: the API is the <tspan font-weight="bold" fill="#c0392b">waiter:</tspan></tspan>
+  <tspan x="140" dy="40">you don't enter the kitchen;</tspan>
+  <tspan x="140" dy="40">you order from the <tspan font-weight="bold" fill="#2e7d32">menu.</tspan></tspan>
+</text>
+</svg>

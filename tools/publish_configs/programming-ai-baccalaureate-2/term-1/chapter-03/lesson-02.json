@@ -1,0 +1,2535 @@
+{
+  "schemaVersion": 1,
+  "course": "programming-ai-baccalaureate-2",
+  "term": "term-1",
+  "chapter": "chapter-03",
+  "lesson": "lesson-02",
+  "displayNumber": "3-2",
+  "displayTitleAr": "طرق الاتصال في تطبيقات الوب",
+  "displayTitleEn": "Web Application Communication Methods",
+  "courseLabelAr": "البرمجة والذكاء الاصطناعي، ثانية بكالوريا",
+  "termLabelAr": "ترم أول",
+  "pivotQuestionAr": "كيف يتواصل العميل والخادم لتشغيل تطبيق الويب، وما القواعد والرسائل التي يستخدمانها؟",
+  "custodyRepository": "parmaga-content",
+  "custodySnapshot": "c42f8293653befd13f8275209e62c26b3d4c398e",
+  "declaredPageCount": 40,
+  "inventoryDate": "2026-11-02",
+  "status": "published",
+  "extraNotes": [
+    "السؤال المحوري للدرس: كيف يتواصل العميل والخادم لتشغيل تطبيق الويب، وما القواعد والرسائل التي يستخدمانها؟",
+    "حزمة أصول الدرس مدرجة للنشر في المسار القانوني داخل المستودع العام، وتتحقق tools/verify_lesson.py من مطابقة بايتاتها لهذا الـManifest.",
+    "أسماء الملفات الواردة مطابقة أصلًا للنمط page-<NNN>.svg، لذلك sourceFileName يساوي file في المداخل الـ40 كلها، ولم تجرِ إعادة تسمية.",
+    "viewBox «0 0 1080 1350» مقيس في الصفحات الـ40 كلها، أي مقاس 1080×1350 بنسبة 4:5 رأسية.",
+    "منطقة الـ12% المحجوزة: الحد y = 1188. أعلى سمة y مرصودة في عناصر النص هي 1242 في page-011، و9 عناصر نص عند الحد أو دونه في 3 صفحات: page-010، page-011، page-016. سُجّل ولم يوقف النشر، وتراجعه عين المالك في المتصفح. القياس يعتمد سمات y وحدها ولا يحسب transform ولا إحداثيات path d، فهو مؤشر قوي لا إثبات هندسي كامل.",
+    "الفحص الأمني نظيف في الصفحات الـ40 كلها: صفر script، صفر foreignObject، صفر سمات on*، صفر javascript:، صفر مرجع http(s) خارجي، صفر data:، صفر image مضمَّن، صفر use خارجي، صفر iframe أو embed أو object، صفر @import. لا يوجد اكتشاف يحتاج قرارًا مكتوبًا.",
+    "قيمة encoding مستنتجة لا مقروءة: لا يحتوي أي ملف إعلان XML ولا BOM، ونجاح تحليل XML على البايتات دون إعلان يعني أن البايتات UTF-8 صالحة.",
+    "نهايات الأسطر داخل الأصول الـ40 كلها CRLF. لم تُغيَّر ولا يجوز تغييرها، وقاعدة *.svg -text في .gitattributes تغطيها وفق ADR-0005 البند 11.",
+    "الحجم المقيس: المجموع 721425 بايت، والمتوسط 18035 بايت بالتقريب إلى الأدنى، وأصغر ملف 13256 بايت في page-017، وأكبر ملف 40625 بايت في page-001.",
+    "الخطوط المستدعاة في الصفحات الـ40 كلها: Arial وComic Sans MS وSegoe Print وSegoe UI وTahoma وsans-serif. وتزيد صفحتان، page-013 وpage-030، خطوط الشيفرة Consolas وCourier New وMenlo وmonospace، ولا تزيد أي صفحة خطًّا آخر. قيد معروف مسجَّل في ADR-0004 §23 ولا يُعالَج بتعديل الأصول.",
+    "عنوان الدرس في الصفحة الرئيسة «طرق الاتصال في تطبيقات الوب»، وهو في page-001 «طرق اتصال تطبيقات الويب»، فطابق displayTitleAr سطر الرئيسة حرفًا بحرف وفق README، ومن page-001 displayTitleEn «Web Application Communication Methods». وpivotQuestionAr بنص المالك المكتوب حرفيًّا، إذ لا تسمية «السؤال الرئيسي» في الأصول. ووصف كل صفحة (descriptionAr، وهو نص alt) بقاعدة المالك المكتوبة: الصفحة التي أول بند فيها عنوان رئيسي بخط 44 غامق وصفها ذلك العنوان، وهي 14 صفحة (page-002، page-004، page-007، page-011، page-014، page-016، page-020، page-023، page-026، page-028، page-031، page-033، page-036، page-039)، والافتتاحية page-001 وصفها أول بند فيها، وكل صفحة سواهما وصفها «تابع: » ثم آخر عنوان رئيسي قبلها حرفيًّا، وهي 25 صفحة.",
+    "لا يحتوي أي بند على العلامات < أو > أو &.",
+    "نصوص الصفحات مستخرجة آليًّا من عناصر <text> بترتيب المستند، ثم طُبّقت عليها قاعدة حذف علامات الترقيم البصرية وحدها المسجلة في ADR-0024 D7 وREADME. وطوبق مجموع عناصر النص في الأصول وهو 434 مع عدد البنود المنشورة وهو 434، ولا فرق بينهما: لا تحتوي الأصول بند ترقيم منفردًا ولا عنصر نص فارغًا."
+  ],
+  "contextSections": {
+    "structureSummaryAr": "افتتاحية 001. الفكرة الكبرى 002–003. قصة مطعم الويب 004–006. 1. أطراف المحادثة: العميل والخادم 007–010. 2. الرسائل: الطلب والاستجابة 011–013. 3. لغة المحادثة: HTTP 014–015. 4. هل الكلام سري؟ HTTPS وTLS 016–019. 5. ماذا يريد العميل؟ GET وPOST 020–022. 6. ماذا حدث؟ رموز الحالة 023–025. 7. من أي نافذة؟ واجهة برمجة التطبيقات (API) 026–027. 8. بأي شكل تأتي البيانات؟ JSON 028–030. رحلة نقرة واحدة 031–032. حيل التذكر 033–035. فخاخ الامتحان 036–038. قبل أن تغلق المذكرة 039–040.",
+    "statusAr": "الـManifest بحالة `published` وأصوله الـ40 في مسارها القانوني. ونصوص الصفحات بلغتيها في HTML فهي مقروءة دون JavaScript، والعارض تحسين تدريجي فوقها. والحالة الجارية في `docs/ai/ARCHITECT_EVIDENCE_LEDGER.md`.",
+    "pagesNarrativeAr": "40 صفحة: افتتاحية واحدة (`page-001`) و39 صفحة محتوى (`page-002` … `page-040`) بترقيم متصل بلا فجوة. و`viewBox` «0 0 1080 1350» وفحص أمني نظيف في كلها. والمراسي حتمية: `#page-1` ⇄ `page-001.svg` حتى `#page-40` ⇄ `page-040.svg`. والوصف «تابع: » يعني أن الصفحة تكمل آخر عنوان رئيسي قبلها.",
+    "constraintsAr": "**الخطوط.** Tahoma وSegoe Print وComic Sans MS وSegoe UI وArial، وخطوط الشيفرة Consolas وCourier New وMenlo في `page-013` و`page-030`، قد تغيب على أندرويد، وعلاجها خارج الأصول وفق `ADR-0004 §23`. **الألوان.** العرض عبر `<img>` يعزل الأصل عن الوضع الليلي. **المنطقة السفلى.** 9 عناصر نص عند `y = 1188` أو دونه في 3 صفحات، أعلاها 1242 في `page-011`، وقائمتها في الـManifest، سُجّلت ولم توقف النشر. **البايتات ثابتة.** CRLF بلا إعلان XML ولا BOM، وأي تعديل يُبطل البصمات.",
+    "decidedAr": "المسار والمعرّفات وفق `ADR-0004`، والصفحات الـ40 وترتيبها وأدوارها، والسؤال المحوري بنص المالك، ووصف «تابع: » بقاعدته المكتوبة. صفر Dependencies وصفر Build Step.",
+    "undecidedAr": "روابط Previous/Next بين الدروس. فهرس `/courses/` وفهارس Course وTerm وChapter. Structured Data. الخطوط على أندرويد. مراسي `#concept-*`.",
+    "howToUseAr": "مصدرك لجرد بنية الدرس وقيوده. **لا تطلب ملف SVG** وفق `ADR-0005` §10. النص في HTML صفحة الدرس، والجرد والبصمات في الـManifest. ولا تحرّر مخرَجًا منشورًا: غيّر الـconfig وأعد التوليد وفق `ADR-0024`، ولا تخترع رقمًا ولا بصمة."
+  },
+  "svgSourceDir": "assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-02",
+  "pages": [
+    {
+      "id": "page-001",
+      "htmlId": "page-1",
+      "role": "opening",
+      "descriptionAr": "الدرس 3-2",
+      "transcript": [
+        {
+          "text": "الدرس 3-2",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "طرق اتصال تطبيقات الويب",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Lesson 3-2",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "Web Application Communication Methods",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-002",
+      "htmlId": "page-2",
+      "role": "content",
+      "descriptionAr": "الفكرة الكبرى",
+      "transcript": [
+        {
+          "text": "الفكرة الكبرى",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Big Idea",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "سؤال سريع: بتكتب اسم موقع وتدوس Enter. الصفحة كانت فين؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Quick question: you type a site name and press Enter. Where was the page?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لم تكن على جهازك، بل على جهاز بعيد، وجهازك طلبها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "It was not on your device. It was on a distant computer, and your device asked for it.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الويب محادثة منظمة: طرف يسأل، وطرف يجيب، بلغة متفق عليها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The web is an organized conversation: one side asks, one side answers, in an agreed language.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-003",
+      "htmlId": "page-3",
+      "role": "content",
+      "descriptionAr": "تابع: الفكرة الكبرى",
+      "transcript": [
+        {
+          "text": "الدرس كله سبعة أسئلة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The whole lesson is seven questions",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مَن يتكلم؟ العميل والخادم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Who is talking? The client and the server",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "بأي لغة؟ HTTP",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In what language? HTTP",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هل الكلام سري؟ HTTPS",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Is the talk private? HTTPS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ماذا يريد العميل؟ GET أو POST",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "What does the client want? GET or POST",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ماذا حدث؟ رمز الحالة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "What happened? The status code",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "من أي نافذة؟ API",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Through which window? An API",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "بأي شكل تأتي البيانات؟ JSON",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In what shape does the data come? JSON",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-004",
+      "htmlId": "page-4",
+      "role": "content",
+      "descriptionAr": "قصة مطعم الويب",
+      "transcript": [
+        {
+          "text": "قصة مطعم الويب",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Web Restaurant Story",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هنفهم الدرس كله من خلال قصة واحدة: مطعم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "We will understand the whole lesson through one story: a restaurant.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الزبون",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Customer",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الجرسون",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Waiter",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المطبخ",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Kitchen",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الأوردر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Order",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الطبق",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Dish",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "إنت عمرك ما دخلت مطبخ المطعم، ومع ذلك أكلت. وكذلك لا ترى الخادم أبدًا، ومع ذلك تصلك الصفحة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "You never enter the restaurant kitchen, yet you eat. Likewise, you never see the server, yet the page reaches you.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-005",
+      "htmlId": "page-5",
+      "role": "content",
+      "descriptionAr": "تابع: قصة مطعم الويب",
+      "transcript": [
+        {
+          "text": "في الدرس",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In the lesson",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في المطعم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In the restaurant",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "العميل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Client",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الزبون",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The customer",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الخادم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Server",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المطبخ",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The kitchen",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الطلب",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Request",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ورقة الأوردر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The order slip",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الاستجابة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Response",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الطبق الذي يصلك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The dish you get",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "HTTP",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قواعد كتابة الأوردر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Rules for orders",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "HTTPS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أوردر في ظرف مختوم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A sealed order",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "GET",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«هات لي المنيو»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“Bring the menu”",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-006",
+      "htmlId": "page-6",
+      "role": "content",
+      "descriptionAr": "تابع: قصة مطعم الويب",
+      "transcript": [
+        {
+          "text": "في الدرس",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In the lesson",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في المطعم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In the restaurant",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "POST",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«سجّل حجزي»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“Book my table”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "رمز الحالة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Status code",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "رد الجرسون",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The waiter's word",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "API",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الجرسون والمنيو",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Waiter and menu",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "JSON",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أوردر مكتوب بترتيب",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A neat order slip",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-007",
+      "htmlId": "page-7",
+      "role": "content",
+      "descriptionAr": "1. أطراف المحادثة: العميل والخادم",
+      "transcript": [
+        {
+          "text": "1. أطراف المحادثة: العميل والخادم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1. The Talkers: Client and Server",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "العميل Client: برنامج يبدأ الاتصال بإرسال طلب إلى برنامج آخر ينتظر الطلبات، مثل المتصفح وتطبيق الهاتف، ويُطلق الاسم أحيانًا على الجهاز نفسه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Client: a program that starts the communication by sending a request to another program that waits for requests, such as a browser or a phone app; the name is sometimes used for the device itself.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الخادم Server: برنامج يعمل باستمرار، ينتظر طلبات العملاء، ويعالجها، ويرد عليها. ويُطلق الاسم أيضًا على الحاسوب الذي يشغّله.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Server: a program that runs all the time, waits for clients' requests, processes them, and replies. The name also refers to the computer that runs it.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-008",
+      "htmlId": "page-8",
+      "role": "content",
+      "descriptionAr": "تابع: 1. أطراف المحادثة: العميل والخادم",
+      "transcript": [
+        {
+          "text": "للتذكر: العميل هو اللي بيبدأ الكلام، والخادم عمره ما بيبدأ؛ دايمًا بيستنى ويرد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "To remember: the client starts the talk; the server never starts, it always waits and replies.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "معلومة تميزك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "EXTRA INSIGHT",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«العميل» اسم دور، لا نوع جهاز. فالجهاز نفسه قد يكون عميلًا في موقف، وخادمًا في موقف آخر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“Client” is a role, not a type of device. The same device can be a client in one case and a server in another.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "عميل هنا",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Client here",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خادم هنا",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Server here",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-009",
+      "htmlId": "page-9",
+      "role": "content",
+      "descriptionAr": "تابع: 1. أطراف المحادثة: العميل والخادم",
+      "transcript": [
+        {
+          "text": "والعميل هو البرنامج (المتصفح أو التطبيق)، لا الإنسان الذي يستخدمه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The client is the program (the browser or app), not the person using it.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "شخصيات أخرى في القصة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Other characters in the story",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المتصفح Browser: برنامج عميل يطلب صفحات الويب ويعرضها لك.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Browser: a client program that requests web pages and displays them for you.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خادم الويب Web server: يستقبل طلبات HTTP ويرسل الصفحات والملفات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Web server: receives HTTP requests and sends pages and files.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خادم التطبيقات App server: يشغّل منطق التطبيق، مثل التحقق من كلمة المرور.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "App server: runs the application's logic, such as checking a password.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-010",
+      "htmlId": "page-10",
+      "role": "content",
+      "descriptionAr": "تابع: 1. أطراف المحادثة: العميل والخادم",
+      "transcript": [
+        {
+          "text": "الواجهة الأمامية Frontend: الجزء الذي تراه وتتعامل معه على جهاز العميل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Frontend: the part you see and use on the client's device.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الواجهة الخلفية Backend: الجزء الذي يعمل على الخادم ويعالج الطلبات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Backend: the part that runs on the server and processes requests.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الشبكة Network: أجهزة متصلة تنقل الرسائل بين العميل والخادم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Network: connected devices that carry messages between the client and the server.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الواجهة الأمامية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Frontend",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الشبكة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Network",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الواجهة الخلفية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Backend",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-011",
+      "htmlId": "page-11",
+      "role": "content",
+      "descriptionAr": "2. الرسائل: الطلب والاستجابة",
+      "transcript": [
+        {
+          "text": "2. الرسائل: الطلب والاستجابة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2. The Messages: Request and Response",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الطلب Request: رسالة من العميل إلى الخادم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Request: a message from the client to the server",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "طريقة الطلب: ماذا يريد العميل، مثل GET.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The method: what the client wants, such as GET.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "عنوان المورد المطلوب URL.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The URL of the requested resource.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الرؤوس Headers: معلومات إضافية عن الطلب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Headers: extra information about the request.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الجسم Body أحيانًا: البيانات المرسلة، مثل بيانات نموذج.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Sometimes a body: the data being sent, such as form data.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الطريقة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Method",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "العنوان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "URL",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الرؤوس",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Headers",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الجسم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Body",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-012",
+      "htmlId": "page-12",
+      "role": "content",
+      "descriptionAr": "تابع: 2. الرسائل: الطلب والاستجابة",
+      "transcript": [
+        {
+          "text": "الاستجابة Response: رسالة من الخادم ردًا على الطلب",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Response: the server's message replying to a request",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "رمز الحالة: نتيجة الطلب، مثل 200.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The status code: the result, such as 200.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الرؤوس: معلومات إضافية عن الاستجابة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Headers: extra information about the response.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الجسم غالبًا: المحتوى المطلوب، مثل صفحة HTML أو صورة أو بيانات JSON.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Usually a body: the requested content, such as an HTML page, an image, or JSON data.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "القاعدة الذهبية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Golden Rule",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لكل طلب استجابة واحدة تقابله.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Every request gets one matching response.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-013",
+      "htmlId": "page-13",
+      "role": "content",
+      "descriptionAr": "تابع: 2. الرسائل: الطلب والاستجابة",
+      "transcript": [
+        {
+          "text": "المورد Resource: أي شيء تطلبه من الخادم: صفحة، أو صورة، أو ملف، أو بيانات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Resource: anything you request from the server: a page, an image, a file, or data.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "العنوان URL: العنوان الكامل للمورد على الويب، مثل عنوان البيت بالضبط.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "URL (Uniform Resource Locator): the full address of a resource on the web, just like a home address.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "URL https://www.example.com/lessons/3-2?lang=ar",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "https: البروتوكول.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "https: the protocol.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "www.example.com: اسم الخادم (النطاق).",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "www.example.com: the server name (domain).",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "/lessons/3-2: مسار المورد داخل الخادم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "/lessons/3-2: the path to the resource on the server.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "?lang=ar: معلومات إضافية مع الطلب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "?lang=ar: extra information sent with the request.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-014",
+      "htmlId": "page-14",
+      "role": "content",
+      "descriptionAr": "3. لغة المحادثة: HTTP",
+      "transcript": [
+        {
+          "text": "3. لغة المحادثة: HTTP",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3. The Language: HTTP",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "البروتوكول Protocol: مجموعة قواعد متفق عليها تحدد شكل الرسائل وترتيبها، وكيف يفهمها كل طرف.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Protocol: a set of agreed rules that sets the form and order of messages and how each side understands them.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "من غير بروتوكول مشترك، يبقى الطرفان مثل شخصين يتكلمان لغتين مختلفتين.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Without a shared protocol, the two sides are like two people speaking different languages.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "النص التشعبي Hypertext: نص فيه روابط تنقلك إلى نصوص أخرى، ومنه جاء اسم HTTP.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Hypertext: text with links that take you to other texts; HTTP gets its name from it.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-015",
+      "htmlId": "page-15",
+      "role": "content",
+      "descriptionAr": "تابع: 3. لغة المحادثة: HTTP",
+      "transcript": [
+        {
+          "text": "‏HTTP (HyperText Transfer Protocol)‎ بروتوكول نقل النص التشعبي: يحدد كيف يكتب العميل طلبه والخادم استجابته على الويب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "HTTP (HyperText Transfer Protocol): the protocol that sets how the client writes requests and the server writes responses on the web.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "صفتان مهمتان في HTTP",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Two important features of HTTP",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الرسائل تنتقل مكشوفة؛ فمن يعترضها في الطريق يستطيع قراءتها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Messages travel in plain text, so anyone who intercepts them on the way can read them.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "عديم الحالة Stateless: كل طلب مستقل، والخادم لا يتذكر الطلب السابق بنفسه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Stateless: each request stands alone, and the server does not remember the previous request by itself.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-016",
+      "htmlId": "page-16",
+      "role": "content",
+      "descriptionAr": "4. هل الكلام سري؟ HTTPS وTLS",
+      "transcript": [
+        {
+          "text": "4. هل الكلام سري؟ HTTPS وTLS",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "4. Is the Talk Private? HTTPS and TLS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏HTTPS (HTTP Secure)‎: هو HTTP نفسه، بالطلبات والاستجابات نفسها، لكنها تمر داخل نفق آمن يصنعه TLS.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "HTTPS (HTTP Secure): the same HTTP, with the same requests and responses, but they pass through a secure tunnel made by TLS.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "علامته: يبدأ العنوان بـ https://‎، وتعرض بعض المتصفحات رمز قفل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Its sign: the address begins with https://, and some browsers show a padlock icon.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏HTTP: مكشوف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "HTTP: open",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏HTTPS: نفق آمن",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "HTTPS: secure tunnel",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-017",
+      "htmlId": "page-17",
+      "role": "content",
+      "descriptionAr": "تابع: 4. هل الكلام سري؟ HTTPS وTLS",
+      "transcript": [
+        {
+          "text": "‏TLS (Transport Layer Security)‎ أمان طبقة النقل: بروتوكول أمان يقدم ثلاث حمايات:",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "TLS (Transport Layer Security): a security protocol that gives three protections:",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "السرية Confidentiality: تُشفَّر البيانات، فلا يقرؤها المتجسس.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Confidentiality: the data is encrypted, so an eavesdropper cannot read it.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "السلامة Integrity: إذا عدّل أحد البيانات في الطريق، يُكتشف التعديل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Integrity: if someone changes the data on the way, the change is detected.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المصادقة Authentication: تتأكد أنك تتصل بالخادم الحقيقي، عن طريق الشهادة الرقمية التي يقدمها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Authentication: you make sure you are talking to the real server, through the digital certificate it presents.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-018",
+      "htmlId": "page-18",
+      "role": "content",
+      "descriptionAr": "تابع: 4. هل الكلام سري؟ HTTPS وTLS",
+      "transcript": [
+        {
+          "text": "التشفير Encryption: تحويل البيانات إلى صورة غير مفهومة، لا يعيدها إلى أصلها إلا من يملك المفتاح.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Encryption: turning data into an unreadable form that only someone with the key can turn back.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المتجسس Eavesdropper: أي طرف في الطريق يحاول قراءة الرسائل أو تعديلها، مثل شبكة Wi-Fi عامة غير آمنة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Eavesdropper: any party on the way that tries to read or change the messages, such as an unsafe public Wi-Fi network.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "معلومة تميزك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "EXTRA INSIGHT",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏SSL اسم قديم لبروتوكول سبق TLS وأُلغي لثغراته. الناس ما زالوا يقولون «شهادة SSL»، لكن الصحيح اليوم TLS.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "SSL is an old protocol before TLS, retired for its weaknesses. People still say “SSL certificate,” but today it is TLS.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-019",
+      "htmlId": "page-19",
+      "role": "content",
+      "descriptionAr": "تابع: 4. هل الكلام سري؟ HTTPS وTLS",
+      "transcript": [
+        {
+          "text": "جرّب مع زمايلك: لعبة البوستجي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "TRY WITH CLASSMATES: THE POSTMAN GAME",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ثلاثة منكم: عميل، وخادم، وزميل في المنتصف هو «الشبكة».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Three of you: a client, a server, and a classmate in the middle as “the network.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مرّر ورقة مكشوفة فتقرؤها الشبكة بصوت عالٍ: هذا HTTP. ثم مرّرها في ظرف مغلق فلا تُقرأ: هذا HTTPS.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Pass an open note and the network can read it aloud: that is HTTP. Then pass it in a sealed envelope, and it cannot be read: that is HTTPS.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "العميل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Client",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الشبكة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Network",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الخادم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Server",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-020",
+      "htmlId": "page-20",
+      "role": "content",
+      "descriptionAr": "5. ماذا يريد العميل؟ GET وPOST",
+      "transcript": [
+        {
+          "text": "5. ماذا يريد العميل؟ GET وPOST",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "5. What Does the Client Want? GET and POST",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "طريقة طلب HTTP (HTTP Method): كلمة في أول كل طلب تحدد نوع العملية المطلوبة؛ إنها «الفعل» في جملة الطلب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "HTTP method: a word at the start of every request that sets the kind of operation wanted; it is the “verb” of the request.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏GET: لطلب مورد أو بيانات من الخادم، ولا يُفترض أن يغيّر شيئًا عليه. وأي معلومات إضافية تُكتب في العنوان URL نفسه، فتظهر في شريط العنوان.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "GET: requests a resource or data from the server and is not meant to change anything on it. Any extra information is written in the URL itself, so it shows in the address bar.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-021",
+      "htmlId": "page-21",
+      "role": "content",
+      "descriptionAr": "تابع: 5. ماذا يريد العميل؟ GET وPOST",
+      "transcript": [
+        {
+          "text": "‏POST: لإرسال بيانات إلى الخادم ليعالجها، وغالبًا يتغير بسببها شيء عليه، مثل إنشاء حساب. والبيانات تُرسل في جسم الطلب، لا في العنوان.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "POST: sends data to the server to process, which often changes something on it, such as creating an account. The data goes in the request body, not in the URL.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الطريقة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Method",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الاتجاه",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Direction",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثال",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏GET",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هات حاجة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Bring something",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "عرض نتائج بحث",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Showing search results",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏POST",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ابعت حاجة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Send something",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "إرسال نموذج تسجيل الدخول",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Submitting a login form",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-022",
+      "htmlId": "page-22",
+      "role": "content",
+      "descriptionAr": "تابع: 5. ماذا يريد العميل؟ GET وPOST",
+      "transcript": [
+        {
+          "text": "للمعلومة فقط: توجد طرق أخرى، مثل PUT للتحديث و DELETE للحذف.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Just so you know: there are other methods, such as PUT to update and DELETE to delete.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "فخ امتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "EXAM TRAP",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏«POST آمن لأن بياناته لا تظهر في العنوان» خطأ. بيانات POST تنتقل مكشوفة إذا كان الاتصال HTTP؛ الحماية تأتي من HTTPS، لا من الطريقة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“POST is safe because its data is not in the URL” is wrong. POST data travels in plain text over HTTP; protection comes from HTTPS, not from the method.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-023",
+      "htmlId": "page-23",
+      "role": "content",
+      "descriptionAr": "6. ماذا حدث؟ رموز الحالة",
+      "transcript": [
+        {
+          "text": "6. ماذا حدث؟ رموز الحالة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "6. What Happened? Status Codes",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "رمز حالة HTTP (Status code): رقم من ثلاثة أرقام في أول الاستجابة يبلغ عن نتيجة الطلب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Status code: a three-digit number at the start of the response that reports the result of the request.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الرقم الأول هو المفتاح: هو الذي يحدد العائلة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The first digit is the key: it tells you the family.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-024",
+      "htmlId": "page-24",
+      "role": "content",
+      "descriptionAr": "تابع: 6. ماذا حدث؟ رموز الحالة",
+      "transcript": [
+        {
+          "text": "العائلة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Family",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المعنى",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Meaning",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أين المشكلة؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Where is the problem?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2xx",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نجاح",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Success",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لا توجد",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "None",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "3xx",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "إعادة توجيه",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Redirect",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لا توجد",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "None",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "4xx",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خطأ في الطلب",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Request error",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جهة العميل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Client side",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "5xx",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خطأ في الخادم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Server error",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جهة الخادم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Server side",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-025",
+      "htmlId": "page-25",
+      "role": "content",
+      "descriptionAr": "تابع: 6. ماذا حدث؟ رموز الحالة",
+      "transcript": [
+        {
+          "text": "‏200‎ OK: تمت معالجة الطلب بنجاح.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "200 OK: the request was processed successfully.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏404‎ Not Found: المورد المطلوب غير موجود بهذا العنوان، مثل عنوان مكتوب خطأ أو صفحة محذوفة. والخادم سليم، وهو الذي ردّ عليك.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "404 Not Found: the requested resource is not at this URL, such as a mistyped address or a deleted page. The server is working; it is the one that replied.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏500‎ Internal Server Error: خطأ داخل الخادم منعه من إكمال الطلب. قد يكون طلبك سليمًا، والرمز وحده لا يحدد السبب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "500 Internal Server Error: an error inside the server stopped it from completing the request. Your request may be fine; the code alone does not give the cause.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-026",
+      "htmlId": "page-26",
+      "role": "content",
+      "descriptionAr": "7. من أي نافذة؟ واجهة برمجة التطبيقات (API)",
+      "transcript": [
+        {
+          "text": "7. من أي نافذة؟ واجهة برمجة التطبيقات (API)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "7. Through Which Window? The API",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "واجهة برمجة التطبيقات API (Application Programming Interface): عقد أو مجموعة قواعد محددة تسمح لبرنامج أن يطلب بيانات أو خدمات من برنامج آخر، دون أن يعرف كيف يعمل من الداخل. وهي تحدد:",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "API (Application Programming Interface): a contract or set of defined rules that lets one program request data or services from another, without knowing how it works inside. It defines:",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ما الطلبات المسموحة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Which requests are allowed.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "بأي شكل تُكتب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "How they must be written.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ماذا سيعود في الرد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "What comes back in the reply.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-027",
+      "htmlId": "page-27",
+      "role": "content",
+      "descriptionAr": "تابع: 7. من أي نافذة؟ واجهة برمجة التطبيقات (API)",
+      "transcript": [
+        {
+          "text": "مثال: تطبيق الطقس على موبايلك لا يقيس الحرارة بنفسه، بل يطلبها من API لخدمة طقس.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example: the weather app on your phone does not measure the temperature itself; it asks a weather service's API for it.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "للتذكر: الـ API هو الجرسون: إنت مش بتدخل المطبخ، بتطلب من المنيو.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "To remember: the API is the waiter: you don't enter the kitchen; you order from the menu.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-028",
+      "htmlId": "page-28",
+      "role": "content",
+      "descriptionAr": "8. بأي شكل تأتي البيانات؟ JSON",
+      "transcript": [
+        {
+          "text": "8. بأي شكل تأتي البيانات؟ JSON",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "8. In What Shape Does Data Come? JSON",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏JSON (JavaScript Object Notation): صيغة نصية لكتابة البيانات بشكل منظم، يسهل على الإنسان قراءتها وعلى الحاسوب معالجتها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "JSON (JavaScript Object Notation): a text format for writing data in an organized way that is easy for people to read and for computers to process.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "معلومة تميزك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "EXTRA INSIGHT",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "رغم أن اسمها فيه JavaScript، فـ JSON ليست لغة برمجة، وتستخدمها لغات كثيرة جدًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Even though its name contains JavaScript, JSON is not a programming language, and many languages use it.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-029",
+      "htmlId": "page-29",
+      "role": "content",
+      "descriptionAr": "تابع: 8. بأي شكل تأتي البيانات؟ JSON",
+      "transcript": [
+        {
+          "text": "الكائن Object: بين قوسين متعرجين { }، وفيه أزواج من مفتاح وقيمة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Object: inside curly braces { }, holding key-value pairs.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المفتاح Key: اسم الخانة، ويُكتب دائمًا بين علامتي تنصيص مزدوجتين، مثل \"city\".",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Key: the name of the field, always written in double quotes, such as \"city\".",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "القيمة Value: محتوى الخانة: نص مثل \"Cairo\"، أو رقم مثل 31، أو true/false، أو null، أو كائن آخر، أو مصفوفة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Value: the field's content: text such as \"Cairo\", a number such as 31, true/false, null, another object, or an array.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المصفوفة Array: قائمة قيم بين قوسين مربعين، مثل [\"math\", \"physics\"].",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Array: a list of values inside square brackets, such as [\"math\", \"physics\"].",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "النقطتان : بين المفتاح والقيمة، والفاصلة , بين كل زوج والذي يليه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A colon : goes between a key and its value, and a comma , goes between one pair and the next.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-030",
+      "htmlId": "page-30",
+      "role": "content",
+      "descriptionAr": "تابع: 8. بأي شكل تأتي البيانات؟ JSON",
+      "transcript": [
+        {
+          "text": "JSON { \"name\": \"Mona\", \"grade\": 11, \"subjects\": [\"math\", \"physics\"] }",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جرّب بنفسك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "TRY IT YOURSELF",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كم زوجًا من مفتاح وقيمة هنا؟ وما نوع قيمة كل مفتاح؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "How many key-value pairs are here? And what type is each key's value?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تحقق من إجابتك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "CHECK YOUR ANSWER",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ثلاثة أزواج: \"name\" قيمته نص، و\"grade\" قيمته رقم، و\"subjects\" قيمته مصفوفة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Three pairs: \"name\" has a text value, \"grade\" a number, and \"subjects\" an array.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-031",
+      "htmlId": "page-31",
+      "role": "content",
+      "descriptionAr": "رحلة نقرة واحدة",
+      "transcript": [
+        {
+          "text": "رحلة نقرة واحدة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Journey of One Click",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كل ما تعلمته يحدث في أقل من ثانية. تابع الرحلة؛ فهي نفسها إجابة سؤال «اشرح خطوة بخطوة»، وكل خطوة درجة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "All you learned happens in under a second. Follow the journey; it is your answer to “explain step by step,” and each step is one mark.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "1 المتصفح هو العميل، ويبدأ الاتصال حين تكتب العنوان أو تنقر رابطًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 The browser is the client; it starts the communication when you type an address or click a link.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 يرسل العميل طلب HTTP إلى الخادم عبر الشبكة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 The client sends an HTTP request to the server across the network.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-032",
+      "htmlId": "page-32",
+      "role": "content",
+      "descriptionAr": "تابع: رحلة نقرة واحدة",
+      "transcript": [
+        {
+          "text": "3 يحتوي الطلب على الطريقة GET، لأن المطلوب استرجاع صفحة، ومعها عنوان المورد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 The request carries the GET method, since a page is wanted, plus the resource's URL.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "4 يستقبل الخادم الطلب، ويعالجه، ويبحث عن الصفحة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "4 The server receives the request, processes it, and looks for the page.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "5 يعيد الخادم استجابة تحتوي على محتوى الصفحة، مثل HTML.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "5 The server returns a response containing the page content, such as HTML.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "6 تحمل الاستجابة رمز حالة: 200 إذا نجح الطلب، أو 404 إذا لم يوجد المورد. ثم يعرض المتصفح الصفحة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "6 The response carries a status code: 200 for success or 404 for not found. Then the browser shows the page.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لتميّز إجابتك: لو الاتصال HTTPS، تنتقل الرسائل مشفرة عبر TLS.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "To stand out: if the connection is HTTPS, the messages travel encrypted through TLS.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-033",
+      "htmlId": "page-33",
+      "role": "content",
+      "descriptionAr": "حيل التذكر",
+      "transcript": [
+        {
+          "text": "حيل التذكر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Memory Tricks",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏GET = «جيب»: يعني هات حاجة. POST = «بوسطة»: يعني ابعت حاجة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "GET = “bring”: get me something. POST = “post”: send something, like mail.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "حرف S في HTTPS = Secure = سرّ. «حرف S بيقفل الظرف».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The S in HTTPS = Secure. “The S seals the envelope.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الأرقام: «2 تمام، 4 غلطتك، 5 غلطتي». والمتكلم هنا هو الخادم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The codes: “2 all good, 4 your mistake, 5 my mistake”; the server is the one speaking.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-034",
+      "htmlId": "page-34",
+      "role": "content",
+      "descriptionAr": "تابع: حيل التذكر",
+      "transcript": [
+        {
+          "text": "404: «الشقة رقم 404 مش موجودة في العمارة. العمارة سليمة، بس العنوان اللي طلبته غلط».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "404: “Flat 404 is not in the building. The building is fine; the address you asked for is wrong.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "500: «المطبخ فيه عطل. طلبك سليم، بس المطبخ مش قادر يطبخ».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "500: “The kitchen has broken down. Your order is fine, but the kitchen can't cook.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الـ API هو الجرسون، والـ JSON ورقة الأوردر المرتبة: «خانة: والمكتوب فيها».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The API is the waiter, and JSON is the neat order slip: “field: what's written in it.”",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-035",
+      "htmlId": "page-35",
+      "role": "content",
+      "descriptionAr": "تابع: حيل التذكر",
+      "transcript": [
+        {
+          "text": "نشيد الدرس",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Lesson Chant",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "العميل يطلب، والخادم يجاوب،",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The client asks, the server answers,",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "بالـ HTTP بيتكلموا، والـ S بتقفل الباب،",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "They talk in HTTP, and the S locks the door,",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏GET جيب، وPOST بوسطة،",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "GET brings, POST sends,",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "والرقم يقول اللي حصل،",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The number tells what happened,",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "والـ API جرسون، والـ JSON ورقة مرتبة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The API is the waiter, JSON the neat slip.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-036",
+      "htmlId": "page-36",
+      "role": "content",
+      "descriptionAr": "فخاخ الامتحان",
+      "transcript": [
+        {
+          "text": "فخاخ الامتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Exam Traps",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هذه أشهر سبعة أخطاء يقع فيها الطلاب. اعرفها مرة، ولن تقع فيها أبدًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "These are the seven most common student mistakes. Know them once, and you will never fall for them.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "فخ امتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "EXAM TRAP",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏1 «POST آمن لأنه لا يظهر في العنوان» خطأ؛ الحماية تأتي من HTTPS، لا من الطريقة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 “POST is safe because it is not in the URL” is wrong; protection comes from HTTPS, not the method.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-037",
+      "htmlId": "page-37",
+      "role": "content",
+      "descriptionAr": "تابع: فخاخ الامتحان",
+      "transcript": [
+        {
+          "text": "فخ امتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "EXAM TRAP",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏2 «404 معناها أن الخادم معطل» خطأ؛ الخادم يعمل وهو الذي ردّ عليك، والمشكلة في الطلب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 “404 means the server is down” is wrong; the server is working and replied to you; the problem is in the request.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "فخ امتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "EXAM TRAP",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏3 «HTTPS بروتوكول مختلف تمامًا عن HTTP» خطأ؛ هو HTTP نفسه عبر اتصال TLS آمن.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 “HTTPS is a completely different protocol from HTTP” is wrong; it is the same HTTP over a secure TLS connection.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "فخ امتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "EXAM TRAP",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏4 «JSON لغة برمجة» خطأ؛ هي صيغة بيانات نصية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "4 “JSON is a programming language” is wrong; it is a text data format.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-038",
+      "htmlId": "page-38",
+      "role": "content",
+      "descriptionAr": "تابع: فخاخ الامتحان",
+      "transcript": [
+        {
+          "text": "فخ امتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "EXAM TRAP",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏5 «API برنامج أو لغة» خطأ؛ هي واجهة، أي مجموعة قواعد للتواصل بين البرامج.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "5 “An API is a program or a language” is wrong; it is an interface, a set of rules for programs to communicate.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "فخ امتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "EXAM TRAP",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏6 «العميل هو الإنسان المستخدم» خطأ؛ العميل هو البرنامج، أي المتصفح أو التطبيق.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "6 “The client is the human user” is wrong; the client is the program, the browser or app.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "فخ امتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "EXAM TRAP",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏7 «GET لإرسال البيانات» خطأ؛ GET لطلب البيانات، وPOST لإرسالها لتُعالج.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "7 “GET is for sending data” is wrong; GET requests data, and POST sends data to be processed.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-039",
+      "htmlId": "page-39",
+      "role": "content",
+      "descriptionAr": "قبل أن تغلق المذكرة",
+      "transcript": [
+        {
+          "text": "قبل أن تغلق المذكرة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Before You Close Your Notes",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تذكرة الخروج: ثلاثة أسئلة في دقيقتين. أجب أولًا، ثم اقلب الصفحة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Exit ticket: three questions in two minutes. Answer first, then turn the page.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تذكرة الخروج",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "EXIT TICKET",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "1 تسجيل الدخول: GET أم POST؟ وHTTP أم HTTPS؟ ولماذا؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 Logging in: GET or POST? HTTP or HTTPS? Why?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 ظهر لك رقم 500: هل المشكلة عندك أم عند الخادم؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 You got code 500: is the problem on your side or the server's?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "3 في ‎\"temperature\": 31، ما المفتاح وما القيمة؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 In \"temperature\": 31, what is the key and what is the value?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-040",
+      "htmlId": "page-40",
+      "role": "content",
+      "descriptionAr": "تابع: قبل أن تغلق المذكرة",
+      "transcript": [
+        {
+          "text": "تحقق من إجابتك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "CHECK YOUR ANSWER",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏1 POST، لأنك ترسل بيانات ليعالجها الخادم، وHTTPS لتُشفَّر كلمة المرور فلا تُعترض بسهولة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 POST, because you send data for the server to process, and HTTPS so the password is encrypted and not easily intercepted.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 عند الخادم؛ فعائلة 5xx تعني خطأ في الخادم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 The server's side; the 5xx family means a server error.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "3 المفتاح \"temperature\"، والقيمة 31.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 The key is \"temperature\", and the value is 31.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اتصال الويب محادثة منظمة لها أطراف، ولغة، وحماية، وأفعال، ونتائج، وشكل بيانات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Web communication is an organized conversation with talkers, a language, protection, verbs, results, and a data shape.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    }
+  ]
+}

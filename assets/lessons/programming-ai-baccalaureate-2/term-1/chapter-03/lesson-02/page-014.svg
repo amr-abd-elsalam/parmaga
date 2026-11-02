@@ -1,0 +1,224 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Illustration: from confusion to shared rules -->
+<g stroke-linecap="round" stroke-linejoin="round">
+  <linearGradient id="ilSkyRight" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="ilSkyLeft" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#a9dcbe"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <rect x="109" y="676" width="410" height="300" rx="22" fill="#22303f" opacity=".18"/>
+  <rect x="565" y="676" width="410" height="300" rx="22" fill="#22303f" opacity=".18"/>
+
+  <!-- Right panel: different rules, puzzled -->
+  <g transform="translate(766 0)">
+    <rect x="-205" y="670" width="410" height="300" rx="22" fill="url(#ilSkyRight)" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="-103" cy="830" r="58" fill="#ffffff" opacity=".6"/>
+    <circle cx="103" cy="834" r="58" fill="#ffffff" opacity=".6"/>
+    <polyline points="-26,822 -14,810 -6,832 6,818 16,840 26,826" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+    <path d="M-160 690 H-46 Q-28 690 -28 708 V748 Q-28 766 -46 766 H-96 L-104 780 L-112 766 H-160 Q-178 766 -178 748 V708 Q-178 690 -160 690 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <polyline points="-162,738 -150,714 -138,738 -126,714 -114,738" fill="none" stroke="#c96a1b" stroke-width="2.5"/>
+    <polygon points="-98,742 -82,712 -66,742" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="-58" y="718" width="18" height="18" rx="3" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M46 690 H160 Q178 690 178 708 V748 Q178 766 160 766 H112 L104 780 L96 766 H46 Q28 766 28 748 V708 Q28 690 46 690 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M44 732 q0 -16 16 -16 q16 0 16 16 q0 10 -10 10 q-8 0 -8 -8" fill="none" stroke="#2f7fb5" stroke-width="2.5"/>
+    <path d="M90 728 q8 -16 16 0 q8 16 16 0" fill="none" stroke="#2f7fb5" stroke-width="2.5"/>
+    <circle cx="150" cy="728" r="11" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+    <g transform="translate(-103 0)">
+      <rect x="-11" y="852" width="22" height="24" rx="4" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+      <path d="M-64 970 L-64 908 Q-62 880 -30 872 L30 872 Q62 880 64 908 L64 970 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+      <path d="M-18 872 L0 894 L18 872 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+      <path d="M0 894 L0 966" fill="none" stroke="#17457f" stroke-width="2.5"/>
+      <circle cx="-34" cy="832" r="7" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+      <circle cx="34" cy="832" r="7" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+      <circle cx="0" cy="830" r="34" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+      <path d="M-35 826 Q-36 790 0 789 Q36 790 35 826 Q30 806 10 805 Q-4 812 -18 806 Q-30 810 -35 826 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5"/>
+      <circle cx="-8" cy="834" r="3.5" fill="#22303f"/>
+      <circle cx="14" cy="834" r="3.5" fill="#22303f"/>
+      <path d="M-18 820 L-4 818" fill="none" stroke="#22303f" stroke-width="2.5"/>
+      <path d="M8 812 L20 818" fill="none" stroke="#22303f" stroke-width="2.5"/>
+      <path d="M-8 852 Q-4 848 0 852 Q4 856 8 852" fill="none" stroke="#22303f" stroke-width="2.5"/>
+      <path d="M-48 796 Q-41 808 -48 813 Q-55 808 -48 796 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+    </g>
+    <g transform="translate(103 0)">
+      <path d="M-50 914 Q-56 852 -42 814 Q-30 786 0 786 Q30 786 42 814 Q56 852 50 914 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+      <path d="M-64 970 L-64 916 Q-60 888 -30 882 L30 882 Q60 888 64 916 L64 970 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+      <ellipse cx="0" cy="834" rx="31" ry="35" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+      <path d="M-46 886 Q0 918 46 886 L42 870 Q0 898 -42 870 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+      <ellipse cx="0" cy="834" rx="25" ry="29" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+      <circle cx="-14" cy="834" r="3.5" fill="#22303f"/>
+      <circle cx="8" cy="834" r="3.5" fill="#22303f"/>
+      <path d="M-20 818 L-8 812" fill="none" stroke="#22303f" stroke-width="2.5"/>
+      <path d="M4 818 L16 819" fill="none" stroke="#22303f" stroke-width="2.5"/>
+      <path d="M-11 852 Q-7 848 -3 852 Q1 856 5 852" fill="none" stroke="#22303f" stroke-width="2.5"/>
+      <path d="M58 794 Q65 806 58 811 Q51 806 58 794 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+    </g>
+  </g>
+
+  <!-- Left panel: shared rules, smiling handshake -->
+  <g transform="translate(310 0)">
+    <rect x="-205" y="670" width="410" height="300" rx="22" fill="url(#ilSkyLeft)" stroke="#22303f" stroke-width="2.5"/>
+    <ellipse cx="0" cy="850" rx="185" ry="100" fill="#ffffff" opacity=".6"/>
+    <circle cx="0" cy="840" r="44" fill="#ffd24a" opacity=".35"/>
+    <path d="M0 830 Q-18 820 -40 824 L-40 858 Q-18 854 0 862 Q18 854 40 858 L40 824 Q18 820 0 830 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M0 826 Q-16 816 -34 820 L-34 852 Q-16 848 0 858 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M0 826 Q16 816 34 820 L34 852 Q16 848 0 858 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-26 830 L-8 834 M-26 840 L-8 844 M8 834 L26 830 M8 844 L26 840" fill="none" stroke="#2f7fb5" stroke-width="2.5"/>
+    <path d="M-44 787 L-41.5 793.5 L-35 796 L-41.5 798.5 L-44 805 L-46.5 798.5 L-53 796 L-46.5 793.5 Z" fill="#ffd24a"/>
+    <path d="M44 787 L46.5 793.5 L53 796 L46.5 798.5 L44 805 L41.5 798.5 L35 796 L41.5 793.5 Z" fill="#ffd24a"/>
+    <path d="M-160 690 H-46 Q-28 690 -28 708 V748 Q-28 766 -46 766 H-96 L-104 780 L-112 766 H-160 Q-178 766 -178 748 V708 Q-178 690 -160 690 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="-148" cy="728" r="12" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+    <g transform="translate(-103 729)">
+      <polygon points="0,-15 3.82,-5.26 14.27,-4.64 6.18,2.01 8.82,12.14 0,6.5 -8.82,12.14 -6.18,2.01 -14.27,-4.64 -3.82,-5.26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    </g>
+    <polygon points="-72,740 -58,714 -44,740" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M46 690 H160 Q178 690 178 708 V748 Q178 766 160 766 H112 L104 780 L96 766 H46 Q28 766 28 748 V708 Q28 690 46 690 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="58" cy="728" r="12" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+    <g transform="translate(103 729)">
+      <polygon points="0,-15 3.82,-5.26 14.27,-4.64 6.18,2.01 8.82,12.14 0,6.5 -8.82,12.14 -6.18,2.01 -14.27,-4.64 -3.82,-5.26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    </g>
+    <polygon points="134,740 148,714 162,740" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+    <g transform="translate(-103 0)">
+      <rect x="-11" y="852" width="22" height="24" rx="4" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+      <path d="M-64 970 L-64 908 Q-62 880 -30 872 L30 872 Q62 880 64 908 L64 970 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+      <path d="M-18 872 L0 894 L18 872 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+      <path d="M0 894 L0 966" fill="none" stroke="#17457f" stroke-width="2.5"/>
+      <circle cx="-34" cy="832" r="7" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+      <circle cx="34" cy="832" r="7" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+      <circle cx="0" cy="830" r="34" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+      <path d="M-35 826 Q-36 790 0 789 Q36 790 35 826 Q30 806 10 805 Q-4 812 -18 806 Q-30 810 -35 826 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5"/>
+      <circle cx="-18" cy="846" r="5" fill="#c96a1b" opacity=".35"/>
+      <circle cx="24" cy="846" r="5" fill="#c96a1b" opacity=".35"/>
+      <circle cx="-8" cy="834" r="3.5" fill="#22303f"/>
+      <circle cx="14" cy="834" r="3.5" fill="#22303f"/>
+      <path d="M-16 820 Q-10 815 -4 820 M8 820 Q14 815 20 820" fill="none" stroke="#22303f" stroke-width="2.5"/>
+      <path d="M-10 848 Q2 860 14 848" fill="none" stroke="#22303f" stroke-width="2.5"/>
+    </g>
+    <g transform="translate(103 0)">
+      <path d="M-50 914 Q-56 852 -42 814 Q-30 786 0 786 Q30 786 42 814 Q56 852 50 914 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+      <path d="M-64 970 L-64 916 Q-60 888 -30 882 L30 882 Q60 888 64 916 L64 970 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+      <ellipse cx="0" cy="834" rx="31" ry="35" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+      <path d="M-46 886 Q0 918 46 886 L42 870 Q0 898 -42 870 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+      <ellipse cx="0" cy="834" rx="25" ry="29" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+      <circle cx="-17" cy="847" r="5" fill="#c96a1b" opacity=".35"/>
+      <circle cx="13" cy="847" r="5" fill="#c96a1b" opacity=".35"/>
+      <circle cx="-14" cy="834" r="3.5" fill="#22303f"/>
+      <circle cx="8" cy="834" r="3.5" fill="#22303f"/>
+      <path d="M-20 820 Q-14 815 -8 820 M4 820 Q10 815 16 820" fill="none" stroke="#22303f" stroke-width="2.5"/>
+      <path d="M-14 848 Q-2 860 10 848" fill="none" stroke="#22303f" stroke-width="2.5"/>
+    </g>
+    <path d="M-60 884 Q-30 896 -10 914 L-20 930 Q-40 914 -66 906 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M60 890 Q30 900 10 916 L20 932 Q40 916 66 910 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <ellipse cx="8" cy="924" rx="14" ry="11" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <ellipse cx="-6" cy="922" rx="14" ry="11" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-4 914 L-6 929 M3 914 L2 929" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+
+  <!-- Connector: reading order right to left -->
+  <line x1="552" y1="820" x2="534" y2="820" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="524,820 536,812 536,828" fill="#c0392b"/>
+</g>
+
+<!-- Icon: open book beside the definition -->
+<g transform="translate(848 344)" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M28 10 Q14 2 0 6 L0 42 Q14 38 28 46 Q42 38 56 42 L56 6 Q42 2 28 10 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M28 8 Q16 0 4 3 L4 38 Q16 35 28 42 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M28 8 Q40 0 52 3 L52 38 Q40 35 28 42 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M10 14 L22 17 M10 24 L22 27 M34 17 L46 14 M34 27 L46 24" fill="none" stroke="#2f7fb5" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: two speech bubbles beside the second paragraph -->
+<g transform="translate(132 440)" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M6 4 H34 Q40 4 40 10 V24 Q40 30 34 30 H16 L8 38 L10 30 H6 Q0 30 0 24 V10 Q0 4 6 4 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M24 18 H52 Q58 18 58 24 V38 Q58 44 52 44 H48 L50 52 L42 44 H24 Q18 44 18 38 V24 Q18 18 24 18 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="30" cy="31" r="2.5" fill="#22303f"/>
+  <circle cx="38" cy="31" r="2.5" fill="#22303f"/>
+  <circle cx="46" cy="31" r="2.5" fill="#22303f"/>
+</g>
+
+<!-- Memory band: document, links, document -->
+<g stroke-linecap="round" stroke-linejoin="round">
+  <g transform="translate(376 1194)">
+    <rect x="8" y="0" width="40" height="50" rx="5" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="0" y="6" width="40" height="50" rx="5" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M8 20 H32 M8 30 H32" fill="none" stroke="#2f7fb5" stroke-width="2.5"/>
+    <path d="M8 42 H24" fill="none" stroke="#c96a1b" stroke-width="2.5"/>
+  </g>
+  <line x1="436" y1="1222" x2="494" y2="1222" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="506,1222 494,1215 494,1229" fill="#c0392b"/>
+  <g transform="translate(512 1196)">
+    <path d="M28 10 L10 44 M28 10 L46 44 M10 44 L46 44" fill="none" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="28" cy="10" r="9" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="10" cy="44" r="9" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="46" cy="44" r="9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <line x1="578" y1="1222" x2="634" y2="1222" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="646,1222 634,1215 634,1229" fill="#c0392b"/>
+  <g transform="translate(656 1194)">
+    <rect x="8" y="0" width="40" height="50" rx="5" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="0" y="6" width="40" height="50" rx="5" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M8 20 H32 M8 30 H32" fill="none" stroke="#2f7fb5" stroke-width="2.5"/>
+    <path d="M8 42 H24" fill="none" stroke="#c96a1b" stroke-width="2.5"/>
+  </g>
+</g>
+
+<!-- Titles -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">3. لغة المحادثة: HTTP</text>
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="normal" fill="#152b42">3. The Language: HTTP</text>
+
+<!-- Paragraph 1 -->
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">البروتوكول</tspan> Protocol: مجموعة <tspan font-weight="bold" fill="#17457f">قواعد متفق عليها</tspan></tspan>
+  <tspan x="950" dy="40">تحدد شكل الرسائل وترتيبها، وكيف يفهمها كل طرف.</tspan>
+</text>
+<text x="120" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">Protocol:</tspan> a set of <tspan font-weight="bold" fill="#17457f">agreed rules</tspan> that sets</tspan>
+  <tspan x="120" dy="40">the form and order of messages and how</tspan>
+  <tspan x="120" dy="40">each side understands them.</tspan>
+</text>
+
+<!-- Paragraph 2 -->
+<text x="950" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">من غير <tspan font-weight="bold" fill="#17457f">بروتوكول مشترك،</tspan> يبقى الطرفان</tspan>
+  <tspan x="950" dy="40">مثل شخصين يتكلمان لغتين مختلفتين.</tspan>
+</text>
+<text x="120" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Without a <tspan font-weight="bold" fill="#17457f">shared protocol,</tspan> the two</tspan>
+  <tspan x="120" dy="40">sides are like two people speaking</tspan>
+  <tspan x="120" dy="40">different languages.</tspan>
+</text>
+
+<!-- Paragraph 3 -->
+<text x="950" y="1034" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">النص التشعبي</tspan> Hypertext: نص فيه <tspan font-weight="bold" fill="#17457f">روابط</tspan> تنقلك</tspan>
+  <tspan x="950" dy="40">إلى نصوص أخرى، ومنه جاء اسم HTTP.</tspan>
+</text>
+<text x="120" y="1114" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">Hypertext:</tspan> text with <tspan font-weight="bold" fill="#17457f">links</tspan> that take you</tspan>
+  <tspan x="120" dy="40">to other texts; HTTP gets its name from it.</tspan>
+</text>
+</svg>

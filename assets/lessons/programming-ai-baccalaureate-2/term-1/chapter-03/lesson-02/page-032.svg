@@ -1,0 +1,348 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Success card -->
+<rect x="109" y="1048" width="870" height="208" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="1042" width="870" height="208" rx="16" fill="#e9f7ee" stroke="#a9dcbe" stroke-width="2"/>
+<rect x="961" y="1058" width="6" height="176" rx="3" fill="#2e7d32"/>
+
+<!-- Memory illustration 1: the request travels from the browser to the server -->
+<g>
+  <defs>
+    <linearGradient id="ilScrA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4fc3e8"/>
+      <stop offset="1" stop-color="#8fc9f2"/>
+    </linearGradient>
+    <linearGradient id="ilSrvA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f7fb5"/>
+      <stop offset="1" stop-color="#17457f"/>
+    </linearGradient>
+  </defs>
+  <rect x="570" y="272" width="84" height="56" rx="6" fill="#22303f" opacity=".18"/>
+  <path d="M 556 328 L 662 328 L 668 338 L 556 338 Z" fill="#22303f" opacity=".18"/>
+  <rect x="876" y="234" width="64" height="104" rx="8" fill="#22303f" opacity=".18"/>
+  <path d="M 668 300 Q 750 350 826 300" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="2 10"/>
+  <rect x="566" y="266" width="84" height="56" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="572" y="272" width="72" height="44" rx="3" fill="url(#ilScrA)"/>
+  <rect x="578" y="278" width="60" height="9" rx="4" fill="#ffffff"/>
+  <circle cx="584" cy="282.5" r="2.5" fill="#2f7fb5"/>
+  <rect x="578" y="292" width="26" height="18" rx="2" fill="#dff1f7"/>
+  <path d="M 610 296 L 638 296 M 610 303 L 632 303" stroke="#17457f" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="620,296 620,312 624,308 628,315 631,313 627,306 632,305" fill="#ffffff" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M 558 322 L 658 322 L 664 332 L 552 332 Z" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="594" y="325" width="28" height="4" rx="2" fill="#7f95ab"/>
+  <path d="M 690 304 L 704 304 M 686 316 L 702 316" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <g transform="rotate(-8 752 303)">
+    <rect x="719" y="286" width="74" height="46" rx="5" fill="#22303f" opacity=".18"/>
+    <path d="M 714 271 L 683 262" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="678,262 708,262 716,271 708,280 678,280" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="707" cy="271" r="3" fill="#fffdf7"/>
+    <rect x="684" y="268" width="16" height="6" rx="3" fill="#ffffff"/>
+    <rect x="715" y="280" width="74" height="46" rx="5" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M 715 326 L 740 306 M 789 326 L 764 306" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="717,282 752,305 787,282" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="731" y="315" width="42" height="7" rx="3.5" fill="#ffffff"/>
+    <circle cx="752" cy="305" r="6" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <path d="M 800 250 L 826 236 L 850 254 Z" fill="none" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="800" cy="250" r="6" fill="#8fc9f2" stroke="#22303f" stroke-width="2"/>
+  <circle cx="826" cy="236" r="6" fill="#4fc3e8" stroke="#22303f" stroke-width="2"/>
+  <circle cx="850" cy="254" r="6" fill="#2f7fb5" stroke="#22303f" stroke-width="2"/>
+  <path d="M 828 300 L 852 300" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="850,294 862,300 850,306" fill="#c0392b"/>
+  <rect x="872" y="228" width="64" height="104" rx="8" fill="url(#ilSrvA)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="880" y="238" width="48" height="22" rx="3" fill="#17457f"/>
+  <rect x="880" y="266" width="48" height="22" rx="3" fill="#17457f"/>
+  <rect x="880" y="294" width="48" height="22" rx="3" fill="#17457f"/>
+  <path d="M 887 249 L 905 249 M 887 277 L 905 277 M 887 305 L 905 305" stroke="#dff1f7" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="918" cy="249" r="3.5" fill="#a9dcbe"/>
+  <circle cx="918" cy="277" r="3.5" fill="#ffd24a"/>
+  <circle cx="918" cy="305" r="3.5" fill="#a9dcbe"/>
+  <rect x="864" y="332" width="80" height="8" rx="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Memory illustration 2: the server sends the response with the page -->
+<g>
+  <defs>
+    <linearGradient id="ilSrvB" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f7fb5"/>
+      <stop offset="1" stop-color="#17457f"/>
+    </linearGradient>
+  </defs>
+  <rect x="132" y="758" width="56" height="96" rx="7" fill="#22303f" opacity=".18"/>
+  <path d="M 240 806 L 287 774 L 334 806 L 334 858 L 240 858 Z" fill="#22303f" opacity=".18"/>
+  <rect x="128" y="752" width="56" height="96" rx="7" fill="url(#ilSrvB)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="135" y="762" width="42" height="20" rx="3" fill="#17457f"/>
+  <rect x="135" y="788" width="42" height="20" rx="3" fill="#17457f"/>
+  <rect x="135" y="814" width="42" height="20" rx="3" fill="#17457f"/>
+  <path d="M 141 772 L 157 772 M 141 798 L 157 798 M 141 824 L 157 824" stroke="#dff1f7" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="168" cy="772" r="3.5" fill="#a9dcbe"/>
+  <circle cx="168" cy="798" r="3.5" fill="#a9dcbe"/>
+  <circle cx="168" cy="824" r="3.5" fill="#ffd24a"/>
+  <rect x="120" y="848" width="72" height="8" rx="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 192 772 Q 214 758 232 774" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="236.5,778 225,775.9 233,766.9" fill="#c0392b"/>
+  <polygon points="236,800 283,768 330,800" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="236" y="800" width="94" height="50" fill="#c96a1b"/>
+  <rect x="254" y="756" width="58" height="78" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="262" y="764" width="42" height="8" rx="3" fill="#2f7fb5"/>
+  <path d="M 274 782 L 266 790 L 274 798 M 292 782 L 300 790 L 292 798" fill="none" stroke="#c96a1b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 286 780 L 280 800" stroke="#17457f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 236 800 L 283 826 L 330 800 L 330 852 L 236 852 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 248 770 L 240 764 M 318 770 L 326 764 M 244 784 L 236 784" stroke="#ffd24a" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Memory illustration 3: the browser shows the page; success and not found -->
+<g>
+  <defs>
+    <linearGradient id="ilSkyC" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fc9f2"/>
+      <stop offset="1" stop-color="#dff1f7"/>
+    </linearGradient>
+  </defs>
+  <rect x="760" y="942" width="50" height="64" rx="4" fill="#22303f" opacity=".18"/>
+  <rect x="794" y="912" width="160" height="104" rx="10" fill="#22303f" opacity=".18"/>
+  <circle cx="944" cy="1006" r="18" fill="#22303f" opacity=".18"/>
+  <rect x="756" y="936" width="50" height="64" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 764 948 L 784 948 M 764 958 L 780 958" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="776" cy="982" r="10" fill="#dff1f7" stroke="#c96a1b" stroke-width="3"/>
+  <path d="M 772 978 L 780 986 M 780 978 L 772 986" stroke="#c96a1b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 769 990 L 762 997" stroke="#c96a1b" stroke-width="3" stroke-linecap="round"/>
+  <rect x="790" y="906" width="160" height="104" rx="10" fill="#ffffff"/>
+  <rect x="790" y="906" width="160" height="22" rx="10" fill="#17457f"/>
+  <rect x="790" y="916" width="160" height="12" fill="#17457f"/>
+  <circle cx="802" cy="917" r="3.5" fill="#c0392b"/>
+  <circle cx="814" cy="917" r="3.5" fill="#ffd24a"/>
+  <circle cx="826" cy="917" r="3.5" fill="#a9dcbe"/>
+  <rect x="838" y="911" width="104" height="12" rx="6" fill="#dff1f7"/>
+  <rect x="800" y="936" width="60" height="40" rx="4" fill="url(#ilSkyC)"/>
+  <polygon points="800,976 818,954 832,968 842,958 860,976" fill="#2e7d32"/>
+  <circle cx="848" cy="946" r="5" fill="#ffd24a"/>
+  <path d="M 870 942 L 938 942 M 870 954 L 932 954 M 870 966 L 916 966" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="870" y="978" width="40" height="12" rx="6" fill="#c96a1b"/>
+  <path d="M 800 990 L 856 990" stroke="#8fc9f2" stroke-width="3" stroke-linecap="round"/>
+  <rect x="790" y="906" width="160" height="104" rx="10" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="940" cy="1000" r="18" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="928,1000 933,995 937,999 947,989 952,994 937,1010" fill="#ffffff" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: network nodes -->
+<g transform="translate(132 96)">
+  <path d="M 12 40 L 28 14 L 44 40 Z" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="28" cy="14" r="8" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="12" cy="40" r="8" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="44" cy="40" r="8" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: tag -->
+<g transform="translate(204 100)">
+  <polygon points="6,28 22,8 50,8 50,48 22,48" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="19" cy="28" r="4" fill="#fffdf7" stroke="#22303f" stroke-width="2"/>
+  <rect x="27" y="20" width="18" height="5" rx="2.5" fill="#ffffff"/>
+  <rect x="27" y="31" width="12" height="5" rx="2.5" fill="#8fc9f2"/>
+</g>
+
+<!-- Icon: server -->
+<g transform="translate(160 358)">
+  <rect x="14" y="4" width="28" height="46" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="19" y="10" width="18" height="9" rx="2" fill="#2f7fb5"/>
+  <rect x="19" y="23" width="18" height="9" rx="2" fill="#2f7fb5"/>
+  <rect x="19" y="36" width="18" height="9" rx="2" fill="#2f7fb5"/>
+  <circle cx="33" cy="14.5" r="2" fill="#a9dcbe"/>
+  <circle cx="33" cy="27.5" r="2" fill="#ffd24a"/>
+  <circle cx="33" cy="40.5" r="2" fill="#a9dcbe"/>
+  <rect x="10" y="50" width="36" height="5" rx="2.5" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: gear (processing) -->
+<g transform="translate(262 358)">
+  <polygon points="44.9,21.8 51.6,23.4 51.6,32.6 44.9,34.2 44.3,35.6 47.9,41.4 41.4,47.9 35.6,44.3 34.2,44.9 32.6,51.6 23.4,51.6 21.8,44.9 20.4,44.3 14.6,47.9 8.1,41.4 11.7,35.6 11.1,34.2 4.4,32.6 4.4,23.4 11.1,21.8 11.7,20.4 8.1,14.6 14.6,8.1 20.4,11.7 21.8,11.1 23.4,4.4 32.6,4.4 34.2,11.1 35.6,11.7 41.4,8.1 47.9,14.6 44.3,20.4" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="28" cy="28" r="7" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: page with magnifier (looking for the page) -->
+<g transform="translate(364 358)">
+  <rect x="8" y="6" width="30" height="40" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 14 16 L 32 16 M 14 24 L 30 24 M 14 32 L 22 32" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 42 42 L 50 50" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="34" cy="34" r="11" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Face: thinking -->
+<g transform="translate(800 503)">
+  <circle r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: document stack -->
+<g transform="translate(866 475)">
+  <rect x="16" y="6" width="30" height="38" rx="3" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="10" y="12" width="30" height="38" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 16 21 L 30 21" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 16 29 L 34 29 M 16 36 L 34 36 M 16 43 L 28 43" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: code document (HTML) -->
+<g transform="translate(866 672)">
+  <path d="M 8 8 Q 8 4 12 4 L 38 4 L 48 14 L 48 48 Q 48 52 44 52 L 12 52 Q 8 52 8 48 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 38 4 L 38 14 L 48 14" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 22 22 L 15 30 L 22 38 M 34 22 L 41 30 L 34 38" fill="none" stroke="#17457f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 31 20 L 25 40" stroke="#c96a1b" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: shield with lock (HTTPS / TLS) -->
+<g transform="translate(846 1158)">
+  <path d="M 32 4 L 56 13 L 56 30 Q 56 50 32 60 Q 8 50 8 30 L 8 13 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 25 28 L 25 22 A 7 7 0 0 1 39 22 L 39 28" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="21" y="28" width="22" height="18" rx="3" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="32" cy="35" r="3" fill="#ffffff"/>
+  <rect x="31" y="36" width="2" height="6" fill="#ffffff"/>
+</g>
+
+<text x="950"
+      y="154"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="950" dy="0">3 يحتوي الطلب على الطريقة <tspan font-weight="bold" fill="#17457f">GET،</tspan> لأن المطلوب</tspan>
+  <tspan x="950" dy="40">استرجاع صفحة، ومعها <tspan font-weight="bold" fill="#c0392b">عنوان المورد.</tspan></tspan>
+</text>
+
+<text x="120"
+      y="234"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="120" dy="0">3 The request carries the <tspan font-weight="bold" fill="#17457f">GET</tspan> method,</tspan>
+  <tspan x="120" dy="40">since a page is wanted,</tspan>
+  <tspan x="120" dy="40">plus the <tspan font-weight="bold" fill="#c0392b">resource's URL.</tspan></tspan>
+</text>
+
+<text x="950"
+      y="394"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="950" dy="0">4 يستقبل <tspan font-weight="bold" fill="#c0392b">الخادم</tspan> الطلب، <tspan font-weight="bold" fill="#17457f">ويعالجه،</tspan></tspan>
+  <tspan x="950" dy="40">ويبحث عن الصفحة.</tspan>
+</text>
+
+<text x="120"
+      y="474"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="120" dy="0">4 The <tspan font-weight="bold" fill="#c0392b">server</tspan> receives the request,</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#17457f">processes</tspan> it, and looks for the page.</tspan>
+</text>
+
+<text x="950"
+      y="594"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="950" dy="0">5 يعيد الخادم استجابة تحتوي على محتوى</tspan>
+  <tspan x="950" dy="40">الصفحة، مثل <tspan fill="#c96a1b">HTML.</tspan></tspan>
+</text>
+
+<text x="120"
+      y="674"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="120" dy="0">5 The server returns a response containing</tspan>
+  <tspan x="120" dy="40">the page content, such as <tspan fill="#c96a1b">HTML.</tspan></tspan>
+</text>
+
+<text x="950"
+      y="794"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="950" dy="0">6 تحمل الاستجابة <tspan font-weight="bold" fill="#c0392b">رمز حالة:</tspan> <tspan font-weight="bold" fill="#2e7d32">200</tspan> إذا نجح</tspan>
+  <tspan x="950" dy="40">الطلب، أو <tspan fill="#c96a1b">404</tspan> إذا لم يوجد المورد.</tspan>
+  <tspan x="950" dy="40">ثم يعرض المتصفح الصفحة.</tspan>
+</text>
+
+<text x="120"
+      y="914"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="120" dy="0">6 The response carries a <tspan font-weight="bold" fill="#c0392b">status code:</tspan></tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#2e7d32">200</tspan> for success or <tspan fill="#c96a1b">404</tspan> for not found.</tspan>
+  <tspan x="120" dy="40">Then the browser shows the page.</tspan>
+</text>
+
+<text x="935"
+      y="1074"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="935" dy="0">لتميّز إجابتك: لو الاتصال <tspan font-weight="bold" fill="#c0392b">HTTPS،</tspan></tspan>
+  <tspan x="935" dy="40">تنتقل الرسائل <tspan font-weight="bold" fill="#17457f">مشفرة</tspan> عبر TLS.</tspan>
+</text>
+
+<text x="140"
+      y="1154"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="140" dy="0">To stand out: if the connection</tspan>
+  <tspan x="140" dy="40">is <tspan font-weight="bold" fill="#c0392b">HTTPS,</tspan> the messages travel</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#17457f">encrypted</tspan> through TLS.</tspan>
+</text>
+</svg>

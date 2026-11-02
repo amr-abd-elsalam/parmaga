@@ -1,0 +1,326 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Main illustration: the journey loop of one click -->
+<g>
+  <defs>
+    <linearGradient id="ilInner" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="ilGlobe" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8fc9f2"/>
+      <stop offset="1" stop-color="#2f7fb5"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="540" cy="640" rx="351" ry="116" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="540" cy="640" rx="325" ry="90" fill="url(#ilInner)" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="540" cy="640" rx="338" ry="103" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-dasharray="12 14" stroke-linecap="round"/>
+  <g transform="rotate(-14 540 640)">
+    <ellipse cx="540" cy="640" rx="78" ry="20" fill="none" stroke="#c96a1b" stroke-width="2"/>
+  </g>
+  <circle cx="540" cy="640" r="46" fill="url(#ilGlobe)" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 516 612 Q 528 604 538 612 Q 534 624 522 626 Q 512 622 516 612 Z" fill="#a9dcbe"/>
+  <path d="M 548 650 Q 562 642 572 652 Q 568 668 554 670 Q 544 662 548 650 Z" fill="#a9dcbe"/>
+  <ellipse cx="540" cy="640" rx="18" ry="46" fill="none" stroke="#dff1f7" stroke-width="2"/>
+  <path d="M 540 594 L 540 686 M 494 640 L 586 640 M 501 618 Q 540 628 579 618 M 501 662 Q 540 652 579 662" fill="none" stroke="#dff1f7" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="540" cy="640" r="46" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="616" cy="621" r="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <g transform="translate(412 640)">
+    <path d="M -26 8 Q -30 -4 -18 -6 Q -14 -18 0 -14 Q 10 -22 18 -10 Q 30 -8 26 8 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(668 646)">
+    <path d="M -26 8 Q -30 -4 -18 -6 Q -14 -18 0 -14 Q 10 -22 18 -10 Q 30 -8 26 8 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Station 1 (right): laptop with a hand clicking -->
+  <g transform="translate(878 640)">
+    <circle r="50" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <circle r="45" fill="none" stroke="#2f7fb5" stroke-width="3"/>
+    <rect x="-30" y="-28" width="52" height="34" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="-26" y="-24" width="44" height="26" rx="2" fill="#4fc3e8"/>
+    <circle cx="-6" cy="-15" r="6" fill="none" stroke="#ffd24a" stroke-width="2"/>
+    <polygon points="-6,-15 -6,-3 -3,-6 0,-1 3,-2 0,-7 4,-8" fill="#ffffff" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M -34 6 L 26 6 L 30 13 L -38 13 Z" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M 6 12 Q 6 8 10 8 Q 14 8 14 12 L 14 20 Q 22 19 24 25 L 24 31 Q 24 37 18 37 L 10 37 Q 5 37 5 31 Z" fill="#e8b98d" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M 14 21 L 14 26 M 19 21 L 19 26" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Station 2 (bottom right): sealed envelope moving -->
+  <g transform="translate(709 729)">
+    <circle r="50" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <circle r="45" fill="none" stroke="#c96a1b" stroke-width="3"/>
+    <path d="M 28 -8 L 37 -8 M 30 2 L 39 2 M 28 12 L 35 12" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+    <rect x="-32" y="-18" width="56" height="36" rx="4" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M -32 18 L -12 2 M 24 18 L 4 2" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="-30,-17 -4,4 22,-17" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="-4" cy="4" r="7" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+
+  <!-- Station 3 (bottom left): server tower -->
+  <g transform="translate(371 729)">
+    <circle r="50" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <circle r="45" fill="none" stroke="#17457f" stroke-width="3"/>
+    <rect x="-22" y="29" width="44" height="6" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="-19" y="-33" width="38" height="62" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="-13" y="-27" width="26" height="14" rx="2" fill="#2f7fb5"/>
+    <rect x="-13" y="-9" width="26" height="14" rx="2" fill="#2f7fb5"/>
+    <rect x="-13" y="9" width="26" height="14" rx="2" fill="#2f7fb5"/>
+    <path d="M -9 -20 L 2 -20 M -9 -2 L 2 -2 M -9 16 L 2 16" stroke="#dff1f7" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="7" cy="-20" r="3" fill="#a9dcbe"/>
+    <circle cx="7" cy="-2" r="3" fill="#ffd24a"/>
+    <circle cx="7" cy="16" r="3" fill="#a9dcbe"/>
+  </g>
+
+  <!-- Station 4 (left): open envelope with a page coming out -->
+  <g transform="translate(202 640)">
+    <circle r="50" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <circle r="45" fill="none" stroke="#c96a1b" stroke-width="3"/>
+    <polygon points="-28,-2 0,-22 28,-2" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="-28" y="-2" width="56" height="30" fill="#c96a1b"/>
+    <rect x="-17" y="-32" width="34" height="52" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="-12" y="-27" width="24" height="5" rx="2" fill="#2f7fb5"/>
+    <path d="M -12 -16 L 12 -16 M -12 -9 L 12 -9 M -12 -2 L 6 -2" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+    <path d="M -28 -2 L 0 14 L 28 -2 L 28 28 L -28 28 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M -23 -24 L -29 -28 M 23 -24 L 29 -28" stroke="#ffd24a" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Station 5 (top left): round check-mark badge -->
+  <g transform="translate(371 551)">
+    <circle r="50" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <circle r="45" fill="none" stroke="#2e7d32" stroke-width="3"/>
+    <polygon points="32,0 26.1,7 27.7,16 19.1,19.1 16,27.7 7,26.1 0,32 -7,26.1 -16,27.7 -19.1,19.1 -27.7,16 -26.1,7 -32,0 -26.1,-7 -27.7,-16 -19.1,-19.1 -16,-27.7 -7,-26.1 0,-32 7,-26.1 16,-27.7 19.1,-19.1 27.7,-16 26.1,-7" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle r="23" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+    <polygon points="-12,0 -7,-5 -3,-1 8,-12 13,-7 -3,9" fill="#ffffff" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Station 6 (top right): the same laptop showing a full page -->
+  <g transform="translate(709 551)">
+    <circle r="50" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <circle r="45" fill="none" stroke="#2f7fb5" stroke-width="3"/>
+    <rect x="-30" y="-28" width="60" height="38" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="-26" y="-24" width="52" height="30" rx="2" fill="#ffffff"/>
+    <rect x="-26" y="-24" width="52" height="6" rx="2" fill="#2f7fb5"/>
+    <rect x="-22" y="-15" width="15" height="13" rx="2" fill="#a9dcbe"/>
+    <polygon points="-22,-2 -16,-9 -11,-4 -7,-8 -7,-2" fill="#2e7d32"/>
+    <path d="M -3 -13 L 21 -13 M -3 -8 L 21 -8 M -3 -3 L 14 -3" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+    <rect x="-22" y="1" width="44" height="3" fill="#f0c48c"/>
+    <path d="M -34 10 L 34 10 L 37 16 L -37 16 Z" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Direction arrows along the loop (clockwise) -->
+  <g transform="translate(832.7 691.5) rotate(152.2)">
+    <path d="M -12 0 L 5 0" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+    <polygon points="3,-6 13,0 3,6" fill="#c0392b"/>
+  </g>
+  <g transform="translate(540 743) rotate(180)">
+    <path d="M -12 0 L 5 0" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+    <polygon points="3,-6 13,0 3,6" fill="#c0392b"/>
+  </g>
+  <g transform="translate(247.3 691.5) rotate(207.8)">
+    <path d="M -12 0 L 5 0" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+    <polygon points="3,-6 13,0 3,6" fill="#c0392b"/>
+  </g>
+  <g transform="translate(247.3 588.5) rotate(-27.8)">
+    <path d="M -12 0 L 5 0" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+    <polygon points="3,-6 13,0 3,6" fill="#c0392b"/>
+  </g>
+  <g transform="translate(540 537)">
+    <path d="M -12 0 L 5 0" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+    <polygon points="3,-6 13,0 3,6" fill="#c0392b"/>
+  </g>
+  <g transform="translate(832.7 588.5) rotate(27.8)">
+    <path d="M -12 0 L 5 0" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+    <polygon points="3,-6 13,0 3,6" fill="#c0392b"/>
+  </g>
+</g>
+
+<!-- Icon: network nodes (beside title, left) -->
+<g transform="translate(150 84)">
+  <path d="M 12 40 L 28 14 L 44 40 Z" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="28" cy="14" r="8" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="12" cy="40" r="8" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="44" cy="40" r="8" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: light bulb (beside title, right) -->
+<g transform="translate(874 84)">
+  <path d="M 8 14 L 4 11 M 48 14 L 52 11 M 6 26 L 1 26 M 50 26 L 55 26" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 19 36 Q 13 30 13 23 A 15 15 0 0 1 43 23 Q 43 30 37 36 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 23 30 L 26 24 L 30 30 L 33 24" fill="none" stroke="#c96a1b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="20" y="37" width="16" height="11" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 21 42 L 35 42" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+</g>
+
+<!-- Face: wink (tip) -->
+<g transform="translate(190 266)">
+  <circle r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M 5 -6 L 13 -6" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: pencil -->
+<g transform="translate(860 420)">
+  <path d="M 12 40 L 36 16 L 44 24 L 20 48 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 36 16 L 40 12 L 48 20 L 44 24 Z" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 12 40 L 20 48 L 8 52 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 8 52 L 12 50.5 L 9.5 48 Z" fill="#22303f"/>
+</g>
+
+<!-- Icon: star -->
+<g transform="translate(150 812)">
+  <polygon points="28,5 33.9,20.9 50.8,21.6 37.5,32.1 42.1,48.4 28,39 13.9,48.4 18.5,32.1 5.2,21.6 22.1,20.9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: chip -->
+<g transform="translate(880 918)">
+  <path d="M 20 14 L 20 6 M 28 14 L 28 6 M 36 14 L 36 6 M 20 42 L 20 50 M 28 42 L 28 50 M 36 42 L 36 50 M 14 20 L 6 20 M 14 28 L 6 28 M 14 36 L 6 36 M 42 20 L 50 20 M 42 28 L 50 28 M 42 36 L 50 36" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="14" y="14" width="28" height="28" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="21" y="21" width="14" height="14" rx="2" fill="#4fc3e8"/>
+</g>
+
+<!-- Icon: document stack -->
+<g transform="translate(200 1022) scale(.8)">
+  <rect x="16" y="6" width="30" height="38" rx="3" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="10" y="12" width="30" height="38" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 16 21 L 30 21" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 16 29 L 34 29 M 16 36 L 34 36 M 16 43 L 28 43" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: angle brackets -->
+<g transform="translate(880 1102)">
+  <rect x="2" y="6" width="52" height="44" rx="8" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 20 18 L 10 28 L 20 38 M 36 18 L 46 28 L 36 38" fill="none" stroke="#17457f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 31 16 L 25 40" stroke="#c96a1b" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Face: smile (encouragement) -->
+<g transform="translate(500 1224)">
+  <circle r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: check badge -->
+<g transform="translate(548 1196)">
+  <circle cx="28" cy="28" r="24" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="16,28 21,23 25,27 35,17 40,22 25,38" fill="#ffffff" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+</g>
+
+<text x="540"
+      y="116"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="middle"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="44"
+      font-weight="bold"
+      fill="#1a4f8a">رحلة نقرة واحدة</text>
+
+<text x="540"
+      y="154"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="middle"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="28"
+      font-weight="normal"
+      fill="#152b42">The Journey of One Click</text>
+
+<text x="950"
+      y="234"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="950" dy="0">كل ما تعلمته يحدث في أقل من ثانية.</tspan>
+  <tspan x="950" dy="40">تابع الرحلة؛ فهي نفسها إجابة سؤال</tspan>
+  <tspan x="950" dy="40">«اشرح خطوة بخطوة»، وكل <tspan font-weight="bold" fill="#17457f">خطوة درجة.</tspan></tspan>
+</text>
+
+<text x="120"
+      y="354"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="120" dy="0">All you learned happens in under a second.</tspan>
+  <tspan x="120" dy="40">Follow the journey; it is your answer to</tspan>
+  <tspan x="120" dy="40">“explain step by step,”</tspan>
+  <tspan x="120" dy="40">and <tspan font-weight="bold" fill="#17457f">each step is one mark.</tspan></tspan>
+</text>
+
+<text x="950"
+      y="834"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="950" dy="0">1 <tspan font-weight="bold" fill="#c0392b">المتصفح</tspan> هو <tspan font-weight="bold" fill="#17457f">العميل،</tspan> ويبدأ الاتصال</tspan>
+  <tspan x="950" dy="40">حين تكتب العنوان أو تنقر رابطًا.</tspan>
+</text>
+
+<text x="120"
+      y="914"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="120" dy="0">1 The <tspan font-weight="bold" fill="#c0392b">browser</tspan> is the <tspan font-weight="bold" fill="#17457f">client;</tspan></tspan>
+  <tspan x="120" dy="40">it starts the communication when you</tspan>
+  <tspan x="120" dy="40">type an address or click a link.</tspan>
+</text>
+
+<text x="950"
+      y="1074"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="950" dy="0">2 يرسل العميل <tspan font-weight="bold" fill="#17457f">طلب HTTP</tspan> إلى الخادم عبر الشبكة.</tspan>
+</text>
+
+<text x="120"
+      y="1114"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="120" dy="0">2 The client sends an <tspan font-weight="bold" fill="#17457f">HTTP request</tspan></tspan>
+  <tspan x="120" dy="40">to the server across the network.</tspan>
+</text>
+</svg>

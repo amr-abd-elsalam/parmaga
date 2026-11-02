@@ -1,0 +1,214 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilPanel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+  <linearGradient id="ilMail" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#f0c48c"/>
+    <stop offset="1" stop-color="#c96a1b"/>
+  </linearGradient>
+</defs>
+
+<!-- Bullets -->
+<circle cx="966" cy="224" r="6" fill="#c0392b"/>
+<circle cx="966" cy="464" r="6" fill="#c0392b"/>
+<circle cx="966" cy="664" r="6" fill="#c0392b"/>
+
+<!-- Icon: star (title left) -->
+<g transform="translate(200 125)">
+  <polygon points="0,-26 6.5,-8.9 24.7,-8 10.5,3.4 15.3,21 0,11 -15.3,21 -10.5,3.4 -24.7,-8 -6.5,-8.9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: light bulb (title right) -->
+<g transform="translate(880 125)">
+  <line x1="-27" y1="-16" x2="-21" y2="-12" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="27" y1="-16" x2="21" y2="-12" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="-28" y1="0" x2="-22" y2="0" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="28" y1="0" x2="22" y2="0" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="0" cy="-6" r="18" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M-6 -4 L0 3 L6 -4" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="-9" y="11" width="18" height="13" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: network nodes (bullet 1) -->
+<g transform="translate(900 352)">
+  <path d="M-16 12 L16 12 L0 -16 Z" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="0" cy="-16" r="9" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-16" cy="12" r="9" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="16" cy="12" r="9" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: lock (bullet 2) -->
+<g transform="translate(900 572)">
+  <path d="M-14 -2 V-12 A14 14 0 0 1 14 -12 V-2 H8 V-12 A8 8 0 0 0 -8 -12 V-2 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="-18" y="-4" width="36" height="28" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="0" cy="7" r="4" fill="#ffffff"/>
+  <rect x="-2" y="8" width="4" height="9" rx="2" fill="#ffffff"/>
+</g>
+
+<!-- Face: wink (bullet 3) -->
+<g transform="translate(900 792)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M 5 -6 L 13 -6" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M -11 7 Q 0 17 11 7" stroke="#22303f" stroke-width="3" fill="none" stroke-linecap="round"/>
+</g>
+
+<!-- Illustration: three memory panels -->
+<g>
+  <rect x="109" y="878" width="266" height="290" rx="22" fill="#22303f" opacity=".18"/>
+  <rect x="408" y="878" width="266" height="290" rx="22" fill="#22303f" opacity=".18"/>
+  <rect x="707" y="878" width="266" height="290" rx="22" fill="#22303f" opacity=".18"/>
+
+  <!-- Right panel: pulling a box -->
+  <g transform="translate(703 872)">
+    <rect x="0" y="0" width="266" height="290" rx="22" fill="url(#ilPanel)"/>
+    <circle cx="110" cy="172" r="80" fill="#8fc9f2" opacity=".35"/>
+    <path d="M0 248 H266 V268 A22 22 0 0 1 244 290 H22 A22 22 0 0 1 0 268 Z" fill="#8fc9f2"/>
+    <path d="M50 100 H180" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+    <polygon points="180,92 196,100 180,108" fill="#c0392b"/>
+    <line x1="14" y1="172" x2="32" y2="172" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="8" y1="196" x2="32" y2="196" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="14" y1="220" x2="32" y2="220" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+    <polygon points="40,150 62,128 162,128 140,150" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="140,150 162,128 162,224 140,246" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="40" y="150" width="100" height="96" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="82" y="150" width="16" height="96" fill="#c96a1b" opacity=".6"/>
+    <polygon points="82,150 104,128 120,128 98,150" fill="#c96a1b" opacity=".6"/>
+    <rect x="104" y="208" width="28" height="20" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="208" y="160" width="46" height="50" rx="12" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="198" y="156" width="14" height="58" rx="5" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="156" y="160" width="46" height="50" rx="20" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="138" y="164" width="32" height="13" rx="6.5" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="136" y="180" width="34" height="13" rx="6.5" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="138" y="196" width="32" height="13" rx="6.5" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <ellipse cx="162" cy="154" rx="14" ry="7" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="0" y="0" width="266" height="290" rx="22" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+
+  <!-- Middle panel: dropping a letter into a mailbox -->
+  <g transform="translate(404 872)">
+    <rect x="0" y="0" width="266" height="290" rx="22" fill="url(#ilPanel)"/>
+    <circle cx="133" cy="150" r="85" fill="#f0c48c" opacity=".35"/>
+    <path d="M0 248 H266 V268 A22 22 0 0 1 244 290 H22 A22 22 0 0 1 0 268 Z" fill="#f0c48c"/>
+    <path d="M40 66 V138" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+    <polygon points="32,138 40,154 48,138" fill="#c0392b"/>
+    <rect x="124" y="198" width="18" height="52" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="200" y="128" width="6" height="44" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="200" y="128" width="26" height="15" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="68" y="112" width="130" height="92" rx="22" fill="url(#ilMail)" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="86" y="152" width="94" height="38" rx="8" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="133" cy="171" r="4" fill="#22303f"/>
+    <rect x="116" y="66" width="34" height="66" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <polyline points="116,68 133,86 150,68" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="98" y="126" width="70" height="10" rx="5" fill="#22303f"/>
+    <line x1="104" y1="76" x2="104" y2="100" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="166" y1="86" x2="166" y2="108" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+    <rect x="196" y="30" width="54" height="40" rx="12" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="186" y="26" width="14" height="48" rx="5" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+    <ellipse cx="166" cy="50" rx="24" ry="19" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="127" y="46" width="15" height="32" rx="7.5" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="146" y="52" width="13" height="27" rx="6.5" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="0" y="0" width="266" height="290" rx="22" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+
+  <!-- Left panel: sealed envelope with padlock -->
+  <g transform="translate(105 872)">
+    <rect x="0" y="0" width="266" height="290" rx="22" fill="url(#ilPanel)"/>
+    <circle cx="133" cy="150" r="88" fill="#a9dcbe" opacity=".35"/>
+    <path d="M0 248 H266 V268 A22 22 0 0 1 244 290 H22 A22 22 0 0 1 0 268 Z" fill="#a9dcbe"/>
+    <polygon points="58,34 62,44 72,48 62,52 58,62 54,52 44,48 54,44" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="210,30 214,40 224,44 214,48 210,58 206,48 196,44 206,40" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="36" y="72" width="194" height="124" rx="10" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M40 192 L112 140 M226 192 L154 140" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M40 74 L133 146 L226 74 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="110" cy="162" r="8" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="157" cy="128" r="8" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="133" cy="146" r="26" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="133" cy="146" r="16" fill="none" stroke="#a9dcbe" stroke-width="2.5"/>
+    <path d="M125 146 L131 152 L142 139" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <ellipse cx="133" cy="181" rx="5" ry="9" fill="none" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M119 218 V204 A14 14 0 0 1 147 204 V218 H139 V204 A6 6 0 0 0 127 204 V218 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="108" y="212" width="50" height="34" rx="8" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="133" cy="225" r="5" fill="#22303f"/>
+    <rect x="131" y="227" width="4" height="10" rx="2" fill="#22303f"/>
+    <rect x="0" y="0" width="266" height="290" rx="22" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+</g>
+
+<!-- Bottom icon row -->
+<g transform="translate(430 1220)">
+  <path d="M0 -14 Q-14 -22 -28 -18 L-28 16 Q-14 12 0 20 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M0 -14 Q14 -22 28 -18 L28 16 Q14 12 0 20 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M-22 -8 Q-13 -12 -6 -8 M-22 2 Q-13 -2 -6 2 M6 -8 Q13 -12 22 -8 M6 2 Q13 -2 22 2" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+<g transform="translate(540 1220)">
+  <circle cx="0" cy="0" r="24" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M-10 0 L-3 8 L11 -8" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(650 1220) rotate(-35)">
+  <rect x="-6" y="-30" width="12" height="8" rx="2" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-6" y="-22" width="12" height="34" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="-6,12 6,12 0,26" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Text -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">حيل التذكر</text>
+
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" fill="#152b42">Memory Tricks</text>
+
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">&#x200F;<tspan font-weight="bold" fill="#c0392b">GET</tspan> = «جيب»: يعني هات حاجة. <tspan font-weight="bold" fill="#c0392b">POST</tspan> = «بوسطة»:</tspan>
+  <tspan x="950" dy="40">يعني ابعت حاجة.</tspan>
+</text>
+
+<text x="120" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">GET</tspan> = “bring”: get me something.</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#c0392b">POST</tspan> = “post”: send something,</tspan>
+  <tspan x="120" dy="40">like mail.</tspan>
+</text>
+
+<text x="950" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">حرف S في <tspan font-weight="bold" fill="#c0392b">HTTPS</tspan> = <tspan font-weight="bold" fill="#17457f">Secure</tspan> = سرّ.</tspan>
+  <tspan x="950" dy="40">«حرف S بيقفل الظرف».</tspan>
+</text>
+
+<text x="120" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">The S in <tspan font-weight="bold" fill="#c0392b">HTTPS</tspan> = <tspan font-weight="bold" fill="#17457f">Secure.</tspan></tspan>
+  <tspan x="120" dy="40">“The S seals the envelope.”</tspan>
+</text>
+
+<text x="950" y="674" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">الأرقام:</tspan> «2 تمام، 4 غلطتك، 5 غلطتي».</tspan>
+  <tspan x="950" dy="40">والمتكلم هنا هو <tspan font-weight="bold" fill="#17457f">الخادم.</tspan></tspan>
+</text>
+
+<text x="120" y="754" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">The <tspan font-weight="bold" fill="#c0392b">codes:</tspan> “2 all good,</tspan>
+  <tspan x="120" dy="40">4 your mistake, 5 my mistake”;</tspan>
+  <tspan x="120" dy="40">the <tspan font-weight="bold" fill="#17457f">server</tspan> is the one speaking.</tspan>
+</text>
+</svg>
