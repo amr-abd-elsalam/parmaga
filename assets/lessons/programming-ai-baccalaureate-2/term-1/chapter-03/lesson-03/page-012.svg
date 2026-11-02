@@ -1,0 +1,218 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="ilDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <linearGradient id="ilCap" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8fc9f2"/>
+    <stop offset="1" stop-color="#2f7fb5"/>
+  </linearGradient>
+  <linearGradient id="ilTag" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#f0c48c"/>
+    <stop offset="1" stop-color="#c96a1b"/>
+  </linearGradient>
+</defs>
+
+<!-- Info card: shadow, fill, accent -->
+<rect x="109" y="128" width="870" height="968" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="122" width="870" height="968" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="936" rx="3" fill="#2f7fb5"/>
+
+<!-- Memory illustration: a glossary desk with the four terms as objects -->
+<g>
+  <rect x="109" y="1114" width="870" height="142" rx="24" fill="#22303f" opacity=".18"/>
+  <polygon points="128,1182 168,1182 162,1220 134,1220" fill="#22303f" opacity=".18"/>
+  <ellipse cx="269" cy="1188" rx="64" ry="30" fill="#22303f" opacity=".18"/>
+  <polygon points="340,1182 376,1182 372,1220 344,1220" fill="#22303f" opacity=".18"/>
+  <rect x="414" y="1164" width="180" height="56" rx="18" fill="#22303f" opacity=".18"/>
+  <path d="M644 1182 L668 1154 H752 V1210 H668 Z" fill="#22303f" opacity=".18"/>
+
+  <rect x="105" y="1108" width="870" height="142" rx="24" fill="url(#ilSky)"/>
+  <path d="M105 1214 H975 V1226 A24 24 0 0 1 951 1250 H129 A24 24 0 0 1 105 1226 Z" fill="url(#ilDesk)"/>
+  <rect x="105" y="1214" width="870" height="5" fill="#e8dfd1" opacity=".35"/>
+  <rect x="105" y="1108" width="870" height="142" rx="24" fill="none" stroke="#8fc9f2" stroke-width="2.5"/>
+
+  <path d="M144 1176 Q 120 1158 124 1136 Q 142 1152 144 1176 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M144 1176 Q 168 1158 164 1136 Q 146 1152 144 1176 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M144 1176 Q 138 1146 145 1124 Q 154 1146 144 1176 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="124,1176 164,1176 158,1214 130,1214" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <path d="M265 1152 C 225 1150 198 1172 202 1192 C 206 1210 232 1214 250 1206 C 262 1200 266 1210 280 1212 C 312 1214 332 1196 328 1178 C 324 1160 300 1153 265 1152 Z" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="252" cy="1196" rx="9" ry="6" fill="#dff1f7" stroke="#22303f" stroke-width="2"/>
+  <circle cx="228" cy="1178" r="8" fill="#c0392b" stroke="#22303f" stroke-width="2"/>
+  <circle cx="254" cy="1166" r="8" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+  <circle cx="284" cy="1166" r="8" fill="#2f7fb5" stroke="#22303f" stroke-width="2"/>
+  <circle cx="308" cy="1182" r="8" fill="#2e7d32" stroke="#22303f" stroke-width="2"/>
+  <circle cx="294" cy="1200" r="7" fill="#c96a1b" stroke="#22303f" stroke-width="2"/>
+
+  <polygon points="348,1186 354,1186 360,1140 354,1140" fill="#b07a45" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="354,1140 360,1140 361,1132 355,1132" fill="#7f95ab" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M355 1132 Q 354 1120 360 1114 Q 366 1122 361 1132 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="336,1176 372,1176 368,1214 340,1214" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="354" cy="1176" rx="18" ry="4" fill="#c96a1b" stroke="#22303f" stroke-width="2"/>
+
+  <rect x="410" y="1158" width="180" height="56" rx="18" fill="#ffffff"/>
+  <path d="M428 1158 H460 V1214 H428 A18 18 0 0 1 410 1196 V1176 A18 18 0 0 1 428 1158 Z" fill="url(#ilCap)"/>
+  <path d="M572 1158 H540 V1214 H572 A18 18 0 0 0 590 1196 V1176 A18 18 0 0 0 572 1158 Z" fill="url(#ilCap)"/>
+  <path d="M442 1172 L426 1186 L442 1200 M560 1172 L576 1186 L560 1200" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M554 1170 L546 1202" fill="none" stroke="#ffd24a" stroke-width="3" stroke-linecap="round"/>
+  <rect x="470" y="1172" width="60" height="10" rx="5" fill="#c96a1b"/>
+  <rect x="470" y="1190" width="44" height="8" rx="4" fill="#f0c48c"/>
+  <path d="M460 1158 V1214 M540 1158 V1214" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="410" y="1158" width="180" height="56" rx="18" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M500 1148 V1138 M470 1152 L463 1145 M530 1152 L537 1145" fill="none" stroke="#ffd24a" stroke-width="2.5" stroke-linecap="round"/>
+
+  <path d="M700 1124 Q 676 1140 662 1170" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="700" cy="1121" r="5" fill="#c0392b" stroke="#22303f" stroke-width="2"/>
+  <path d="M640 1176 L664 1148 H748 V1204 H664 Z" fill="url(#ilTag)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="662" cy="1176" r="6" fill="#fffdf7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M690 1164 L678 1176 L690 1188 M722 1164 L734 1176 L722 1188" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="706" cy="1176" r="5" fill="#ffffff"/>
+
+  <rect x="810" y="1214" width="128" height="6" rx="2" fill="#22303f" opacity=".18"/>
+  <polygon points="802,1170 866,1118 872,1126 808,1176" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="938,1170 874,1118 868,1126 932,1176" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="806" y="1166" width="128" height="8" rx="2" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="814" y="1174" width="8" height="36" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="866" y="1174" width="8" height="36" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="918" y="1174" width="8" height="36" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="822" y="1190" width="96" height="6" fill="#17457f" stroke="#22303f" stroke-width="2"/>
+  <polygon points="822,1208 828,1208 866,1178 860,1178" fill="#2f7fb5" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="806" y="1208" width="128" height="8" rx="2" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Header icons: open book and star -->
+<g transform="translate(440 134)">
+  <path d="M30 10 Q18 2 4 6 V44 Q18 40 30 48 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M30 10 Q42 2 56 6 V44 Q42 40 30 48 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M10 17 Q18 15 24 18 M10 25 Q18 23 24 26 M10 33 Q18 31 24 34 M36 26 Q42 23 50 25 M36 34 Q42 31 50 33" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M42 5 V20 L46 16 L50 20 V4 Z" fill="#c0392b" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(530 134)">
+  <polygon points="28,4 33.88,19.91 50.83,20.58 37.51,31.09 42.11,47.42 28,38 13.89,47.42 18.49,31.09 5.17,20.58 22.12,19.91" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Term icon 1: HTML house frame -->
+<g transform="translate(850 356)">
+  <rect x="0" y="0" width="56" height="56" rx="12" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M10 26 L28 11 L46 26 M15 24 V46 M41 24 V46 M28 11 V46 M15 34 H41 M10 46 H46" fill="none" stroke="#17457f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Term icon 2: tag with angle brackets -->
+<g transform="translate(846 552)">
+  <path d="M2 14 Q 10 20 17 27" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M6 30 L24 8 H58 V52 H24 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="22" cy="30" r="5" fill="#fffdf7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M38 22 L32 30 L38 38 M48 22 L54 30 L48 38" fill="none" stroke="#17457f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Term icon 3: element = opening tag + content + closing tag -->
+<g transform="translate(830 760)">
+  <rect x="0" y="6" width="80" height="44" rx="12" fill="#fffdf7"/>
+  <path d="M12 6 H24 V50 H12 A12 12 0 0 1 0 38 V18 A12 12 0 0 1 12 6 Z" fill="#8fc9f2"/>
+  <path d="M68 6 H56 V50 H68 A12 12 0 0 0 80 38 V18 A12 12 0 0 0 68 6 Z" fill="#8fc9f2"/>
+  <path d="M15 20 L8 28 L15 36 M66 20 L73 28 L66 36" fill="none" stroke="#17457f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M63 19 L59 37" fill="none" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="30" y="20" width="20" height="8" rx="4" fill="#c96a1b"/>
+  <rect x="30" y="32" width="14" height="6" rx="3" fill="#f0c48c"/>
+  <path d="M24 6 V50 M56 6 V50" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="0" y="6" width="80" height="44" rx="12" fill="none" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Term icon 4: CSS paint roller -->
+<g transform="translate(850 998)">
+  <rect x="0" y="0" width="56" height="56" rx="12" fill="#fdf6d8" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="9" y="10" width="32" height="14" rx="5" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M41 17 H47 V31 H28 V37" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="24" y="37" width="8" height="12" rx="2" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Face: smile -->
+<g transform="translate(770 1050)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Text: card header -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">مصطلحات أساسية</tspan>
+</text>
+<text x="140" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">KEY TERMS</tspan>
+</text>
+
+<!-- Text: term 1 -->
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">&#x200F;<tspan font-weight="bold" fill="#c0392b">HTML:</tspan> اختصار HyperText Markup Language،</tspan>
+  <tspan x="935" dy="40">أي لغة ترميز النص التشعبي؛</tspan>
+  <tspan x="935" dy="40">تصف <tspan font-weight="bold" fill="#17457f">بنية الصفحة</tspan> بالوسوم.</tspan>
+</text>
+<text x="140" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">HTML:</tspan> short for HyperText Markup</tspan>
+  <tspan x="140" dy="40">Language; it describes the page's</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#17457f">structure</tspan> using tags.</tspan>
+</text>
+
+<!-- Text: term 2 -->
+<text x="935" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">الوسم Tag:</tspan> كلمة بين قوسين زاويين</tspan>
+  <tspan x="935" dy="40">تحدد نوع المحتوى، مثل <tspan fill="#c96a1b">&lt;p&gt;</tspan> للفقرة.</tspan>
+</text>
+<text x="140" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Tag:</tspan> a word between angle brackets</tspan>
+  <tspan x="140" dy="40">that sets the type of content,</tspan>
+  <tspan x="140" dy="40">such as <tspan fill="#c96a1b">&lt;p&gt;</tspan> for a paragraph.</tspan>
+</text>
+
+<!-- Text: term 3 -->
+<text x="935" y="674" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">العنصر Element:</tspan> الوسم الافتتاحي ومحتواه</tspan>
+  <tspan x="935" dy="40">والوسم الختامي معًا، مثل <tspan fill="#c96a1b">&lt;p&gt;Hello&lt;/p&gt;.</tspan></tspan>
+</text>
+<text x="140" y="754" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Element:</tspan> the opening tag,</tspan>
+  <tspan x="140" dy="40">its content, and the closing tag</tspan>
+  <tspan x="140" dy="40">together, such as <tspan fill="#c96a1b">&lt;p&gt;Hello&lt;/p&gt;.</tspan></tspan>
+</text>
+
+<!-- Text: term 4 -->
+<text x="935" y="874" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">&#x200F;<tspan font-weight="bold" fill="#c0392b">CSS:</tspan> اختصار Cascading Style Sheets،</tspan>
+  <tspan x="935" dy="40">أي أوراق الأنماط المتتالية؛</tspan>
+  <tspan x="935" dy="40">تحدد <tspan font-weight="bold" fill="#17457f">الألوان</tspan> والخطوط والأحجام والتخطيط.</tspan>
+</text>
+<text x="140" y="994" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">CSS:</tspan> short for Cascading Style</tspan>
+  <tspan x="140" dy="40">Sheets; it sets <tspan font-weight="bold" fill="#17457f">colors,</tspan> fonts,</tspan>
+  <tspan x="140" dy="40">sizes, and layout.</tspan>
+</text>
+</svg>

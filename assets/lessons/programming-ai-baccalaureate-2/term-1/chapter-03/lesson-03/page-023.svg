@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilScreen" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#4fc3e8"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+  <linearGradient id="ilBody" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+  <linearGradient id="ilDrop" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8fc9f2"/>
+    <stop offset="1" stop-color="#2f7fb5"/>
+  </linearGradient>
+</defs>
+
+<!-- Card and box shadows -->
+<rect x="109" y="528" width="870" height="208" rx="12" fill="#22303f" opacity=".12"/>
+<rect x="109" y="768" width="870" height="328" rx="16" fill="#22303f" opacity=".12"/>
+
+<!-- Code box -->
+<rect x="105" y="522" width="870" height="208" rx="12" fill="#f4f6f8" stroke="#7f95ab" stroke-width="2"/>
+
+<!-- Success card -->
+<rect x="105" y="762" width="870" height="328" rx="16" fill="#e9f7ee" stroke="#a9dcbe" stroke-width="2"/>
+<rect x="961" y="778" width="6" height="296" rx="3" fill="#2e7d32"/>
+
+<!-- Thinking face beside the section header -->
+<g transform="translate(150 152)">
+  <circle cx="4" cy="6" r="26" fill="#22303f" opacity=".18"/>
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Check badge beside the card header -->
+<g transform="translate(500 812)">
+  <circle cx="4" cy="6" r="24" fill="#22303f" opacity=".18"/>
+  <circle cx="0" cy="0" r="24" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="0" cy="0" r="17" fill="none" stroke="#a9dcbe" stroke-width="2"/>
+  <path d="M -10 0 L -3 7 L 11 -8" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Phone with stacked cards icon -->
+<g transform="translate(886 988)">
+  <rect x="4" y="6" width="40" height="62" rx="8" fill="#22303f" opacity=".18"/>
+  <rect x="0" y="0" width="40" height="62" rx="8" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="5" y="7" width="30" height="45" rx="3" fill="#dff1f7"/>
+  <rect x="9" y="11" width="22" height="10" rx="2" fill="#a9dcbe"/>
+  <rect x="9" y="24" width="22" height="10" rx="2" fill="#f0c48c"/>
+  <rect x="9" y="37" width="22" height="10" rx="2" fill="#8fc9f2"/>
+  <circle cx="20" cy="57" r="2.5" fill="#8fc9f2"/>
+</g>
+
+<!-- Memory illustration: a page that flows like water from wide to narrow screens -->
+<g>
+  <rect x="174" y="1118" width="250" height="112" rx="10" fill="#22303f" opacity=".18"/>
+  <rect x="254" y="1242" width="90" height="10" rx="5" fill="#22303f" opacity=".18"/>
+  <rect x="494" y="1126" width="120" height="124" rx="14" fill="#22303f" opacity=".18"/>
+  <rect x="704" y="1116" width="74" height="134" rx="14" fill="#22303f" opacity=".18"/>
+  <path d="M884 1126 C 900 1152, 924 1176, 924 1206 C 924 1230, 906 1248, 884 1248 C 862 1248, 844 1230, 844 1206 C 844 1176, 868 1152, 884 1126 Z" fill="#22303f" opacity=".18"/>
+
+  <rect x="170" y="1112" width="250" height="112" rx="10" fill="url(#ilBody)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="181" y="1123" width="228" height="88" rx="4" fill="url(#ilScreen)"/>
+  <rect x="280" y="1224" width="30" height="12" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="250" y="1236" width="90" height="10" rx="5" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="192" y="1134" width="64" height="66" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="199" y="1141" width="50" height="10" rx="3" fill="#f0c48c"/>
+  <rect x="199" y="1158" width="50" height="6" rx="3" fill="#8fc9f2"/>
+  <rect x="199" y="1170" width="36" height="6" rx="3" fill="#8fc9f2"/>
+  <rect x="199" y="1182" width="44" height="6" rx="3" fill="#a9dcbe"/>
+  <rect x="263" y="1134" width="64" height="66" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="270" y="1141" width="50" height="10" rx="3" fill="#a9dcbe"/>
+  <rect x="270" y="1158" width="50" height="6" rx="3" fill="#8fc9f2"/>
+  <rect x="270" y="1170" width="36" height="6" rx="3" fill="#8fc9f2"/>
+  <rect x="270" y="1182" width="44" height="6" rx="3" fill="#f0c48c"/>
+  <rect x="334" y="1134" width="64" height="66" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="341" y="1141" width="50" height="10" rx="3" fill="#8fc9f2"/>
+  <rect x="341" y="1158" width="50" height="6" rx="3" fill="#8fc9f2"/>
+  <rect x="341" y="1170" width="36" height="6" rx="3" fill="#8fc9f2"/>
+  <rect x="341" y="1182" width="44" height="6" rx="3" fill="#a9dcbe"/>
+
+  <path d="M432 1170 C 446 1156, 460 1184, 474 1170" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="472,1162 486,1170 472,1178" fill="#2f7fb5"/>
+  <path d="M432 1192 C 446 1178, 460 1206, 474 1192" fill="none" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+
+  <rect x="490" y="1120" width="120" height="124" rx="14" fill="url(#ilBody)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="500" y="1130" width="100" height="100" rx="4" fill="url(#ilScreen)"/>
+  <rect x="507" y="1137" width="41" height="42" rx="5" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="513" y="1144" width="29" height="8" rx="3" fill="#f0c48c"/>
+  <rect x="513" y="1159" width="29" height="6" rx="3" fill="#8fc9f2"/>
+  <rect x="552" y="1137" width="41" height="42" rx="5" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="558" y="1144" width="29" height="8" rx="3" fill="#a9dcbe"/>
+  <rect x="558" y="1159" width="29" height="6" rx="3" fill="#8fc9f2"/>
+  <rect x="507" y="1185" width="86" height="38" rx="5" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="514" y="1192" width="50" height="8" rx="3" fill="#8fc9f2"/>
+  <rect x="514" y="1207" width="70" height="6" rx="3" fill="#a9dcbe"/>
+  <circle cx="550" cy="1237" r="3" fill="#8fc9f2"/>
+
+  <path d="M622 1170 C 636 1156, 650 1184, 664 1170" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="662,1162 676,1170 662,1178" fill="#2f7fb5"/>
+  <path d="M622 1192 C 636 1178, 650 1206, 664 1192" fill="none" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+
+  <rect x="700" y="1110" width="74" height="134" rx="14" fill="url(#ilBody)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="708" y="1122" width="58" height="108" rx="4" fill="url(#ilScreen)"/>
+  <rect x="714" y="1128" width="46" height="29" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="719" y="1134" width="36" height="6" rx="3" fill="#f0c48c"/>
+  <rect x="719" y="1145" width="26" height="5" rx="2" fill="#8fc9f2"/>
+  <rect x="714" y="1162" width="46" height="29" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="719" y="1168" width="36" height="6" rx="3" fill="#a9dcbe"/>
+  <rect x="719" y="1179" width="26" height="5" rx="2" fill="#8fc9f2"/>
+  <rect x="714" y="1196" width="46" height="29" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="719" y="1202" width="36" height="6" rx="3" fill="#8fc9f2"/>
+  <rect x="719" y="1213" width="26" height="5" rx="2" fill="#a9dcbe"/>
+  <circle cx="737" cy="1237" r="3" fill="#8fc9f2"/>
+
+  <path d="M880 1120 C 896 1146, 920 1170, 920 1200 C 920 1224, 902 1242, 880 1242 C 858 1242, 840 1224, 840 1200 C 840 1170, 864 1146, 880 1120 Z" fill="url(#ilDrop)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="862" cy="1198" rx="6" ry="16" fill="#ffffff" opacity=".6"/>
+  <path d="M948 1176 C 956 1188, 962 1196, 962 1204 C 962 1213, 956 1219, 948 1219 C 940 1219, 934 1213, 934 1204 C 934 1196, 940 1188, 948 1176 Z" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M135 1150 C 145 1164, 152 1174, 152 1184 C 152 1194, 144 1201, 135 1201 C 126 1201, 118 1194, 118 1184 C 118 1174, 125 1164, 135 1150 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M150 1210 C 155 1218, 159 1224, 159 1230 C 159 1236, 155 1240, 150 1240 C 145 1240, 141 1236, 141 1230 C 141 1224, 145 1218, 150 1210 Z" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Section header -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="950" dy="0">كيف يحدث ذلك؟</tspan>
+  <tspan x="950" dy="40">الاستعلام الإعلامي Media Query</tspan>
+</text>
+<text x="120" y="234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="120" dy="0">How Does It Happen? The Media Query</tspan>
+</text>
+
+<!-- Paragraph -->
+<text x="950" y="274" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">قاعدة في CSS تطبق تنسيقًا <tspan font-weight="bold" fill="#17457f">مختلفًا</tspan></tspan>
+  <tspan x="950" dy="40">حسب <tspan font-weight="bold" fill="#c0392b">عرض الشاشة،</tspan> ومعناها:</tspan>
+  <tspan x="950" dy="40">«لو الشاشة صغيرة، اعمل كذا».</tspan>
+</text>
+<text x="120" y="394" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">A CSS rule that applies <tspan font-weight="bold" fill="#17457f">different</tspan></tspan>
+  <tspan x="120" dy="40">styling based on <tspan font-weight="bold" fill="#c0392b">screen width;</tspan> it means:</tspan>
+  <tspan x="120" dy="40">“if the screen is small, do this.”</tspan>
+</text>
+
+<!-- Code box text -->
+<text x="140" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" xml:space="preserve" font-family="Consolas, Menlo, Courier New, monospace" font-size="29" font-weight="normal" fill="#152b42"><tspan x="140" dy="0" font-size="26" fill="#3d5a76">CSS</tspan>
+<tspan x="140" dy="40">.cards { display: flex; }</tspan>
+<tspan x="140" dy="40">@media (max-width: <tspan fill="#c96a1b">600px</tspan>) {</tspan>
+<tspan x="140" dy="40">  .cards { flex-direction: column; }</tspan>
+<tspan x="140" dy="40">}</tspan></text>
+
+<!-- Success card text -->
+<text x="935" y="794" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#2e7d32">
+  <tspan x="935" dy="0">ترجمتها</tspan>
+</text>
+<text x="140" y="834" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#2e7d32">
+  <tspan x="140" dy="0">IN PLAIN WORDS</tspan>
+</text>
+<text x="935" y="874" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">البطاقات <tspan font-weight="bold" fill="#17457f">بجانب بعضها،</tspan></tspan>
+  <tspan x="935" dy="40">إلا إذا كان عرض الشاشة 600 بكسل أو أقل،</tspan>
+  <tspan x="935" dy="40">فتنزل <tspan font-weight="bold" fill="#2e7d32">تحت بعضها.</tspan></tspan>
+</text>
+<text x="140" y="994" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">The cards sit <tspan font-weight="bold" fill="#17457f">side by side,</tspan></tspan>
+  <tspan x="140" dy="40">unless the screen is 600 pixels wide</tspan>
+  <tspan x="140" dy="40">or less; then they <tspan font-weight="bold" fill="#2e7d32">stack.</tspan></tspan>
+</text>
+</svg>

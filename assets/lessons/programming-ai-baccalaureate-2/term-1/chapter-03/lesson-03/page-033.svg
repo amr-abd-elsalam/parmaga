@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Answer boxes (empty) -->
+<rect x="892" y="220" width="58" height="58" rx="8" fill="#fffdf7" stroke="#225f9c" stroke-width="2"/>
+<rect x="892" y="420" width="58" height="58" rx="8" fill="#fffdf7" stroke="#225f9c" stroke-width="2"/>
+<rect x="892" y="580" width="58" height="58" rx="8" fill="#fffdf7" stroke="#225f9c" stroke-width="2"/>
+<rect x="892" y="740" width="58" height="58" rx="8" fill="#fffdf7" stroke="#225f9c" stroke-width="2"/>
+<rect x="892" y="940" width="58" height="58" rx="8" fill="#fffdf7" stroke="#225f9c" stroke-width="2"/>
+
+<!-- Icon: plain box (question 4) -->
+<g transform="translate(230 158)">
+  <polygon points="-18,-2 -6,-10 28,-10 28,20 16,28 -18,28" fill="#22303f" opacity=".18"/>
+  <rect x="-22" y="-8" width="34" height="30" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="12,-8 24,-16 24,14 12,22" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="-22,-8 -10,-16 24,-16 12,-8" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M -10 -8 L 2 -16" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: star (question 5) -->
+<g transform="translate(230 358)">
+  <polygon points="4,-20 10.5,-2.9 28.7,-2 14.5,9.4 19.3,27 4,17 -11.3,27 -6.5,9.4 -20.7,-2 -2.5,-2.9" fill="#22303f" opacity=".18"/>
+  <polygon points="0,-26 6.5,-8.9 24.7,-8 10.5,3.4 15.3,21 0,11 -15.3,21 -10.5,3.4 -24.7,-8 -6.5,-8.9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M -4 -6 L 0 -14" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: light bulb (question 8) -->
+<g transform="translate(230 880)">
+  <circle cx="4" cy="0" r="17" fill="#22303f" opacity=".18"/>
+  <path d="M -24 -18 L -20 -15 M 24 -18 L 20 -15 M 0 -31 L 0 -27" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="0" cy="-6" r="17" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M -5 -4 L 0 2 L 5 -4" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="-8" y="10" width="16" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M -8 16 L 8 16" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Memory illustration: study desk scene -->
+<g>
+  <linearGradient id="ilDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <linearGradient id="ilScreen" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#8fc9f2"/>
+  </linearGradient>
+  <!-- shadows -->
+  <rect x="294" y="1224" width="500" height="18" rx="6" fill="#22303f" opacity=".18"/>
+  <rect x="454" y="1086" width="180" height="122" rx="10" fill="#22303f" opacity=".18"/>
+  <rect x="684" y="1158" width="90" height="66" rx="3" fill="#22303f" opacity=".18"/>
+  <rect x="350" y="1168" width="44" height="56" rx="6" fill="#22303f" opacity=".18"/>
+  <polygon points="302,1188 340,1188 335,1224 307,1224" fill="#22303f" opacity=".18"/>
+  <g transform="translate(4 6)">
+    <path d="M 696 1110 Q 676 1110 680 1092 Q 676 1070 700 1068 Q 708 1048 732 1052 Q 754 1044 766 1064 Q 788 1066 784 1088 Q 790 1110 766 1110 Z" fill="#22303f" opacity=".18"/>
+  </g>
+  <!-- desk -->
+  <rect x="290" y="1218" width="500" height="18" rx="6" fill="url(#ilDesk)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- plant -->
+  <path d="M 317 1182 Q 296 1168 302 1142 Q 318 1158 317 1182 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 317 1182 Q 340 1166 336 1140 Q 318 1156 317 1182 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 317 1182 Q 312 1150 318 1128 Q 326 1152 317 1182 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="298,1182 336,1182 331,1218 303,1218" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- pencils and cup -->
+  <rect x="352" y="1124" width="9" height="44" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="352,1124 361,1124 356.5,1112" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="364" y="1116" width="9" height="50" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="364,1116 373,1116 368.5,1104" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="376" y="1130" width="9" height="36" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="376,1130 385,1130 380.5,1118" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="346" y="1162" width="44" height="56" rx="6" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 350 1184 L 386 1184" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- sparkle -->
+  <path d="M 420 1062 L 425 1075 L 438 1080 L 425 1085 L 420 1098 L 415 1085 L 402 1080 L 415 1075 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- laptop -->
+  <rect x="450" y="1080" width="180" height="122" rx="10" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="460" y="1090" width="160" height="102" rx="4" fill="url(#ilScreen)"/>
+  <rect x="470" y="1098" width="140" height="12" rx="3" fill="#2f7fb5"/>
+  <rect x="470" y="1118" width="56" height="40" rx="4" fill="#f0c48c"/>
+  <path d="M 474 1154 L 490 1134 L 502 1146 L 510 1138 L 522 1154 Z" fill="#2e7d32"/>
+  <circle cx="514" cy="1127" r="4" fill="#ffd24a"/>
+  <rect x="536" y="1120" width="74" height="6" rx="3" fill="#ffffff"/>
+  <rect x="536" y="1132" width="60" height="6" rx="3" fill="#ffffff"/>
+  <rect x="536" y="1144" width="70" height="6" rx="3" fill="#ffffff"/>
+  <rect x="470" y="1166" width="48" height="16" rx="6" fill="#2e7d32"/>
+  <rect x="528" y="1166" width="82" height="16" rx="6" fill="#ffffff"/>
+  <polygon points="430,1202 650,1202 672,1218 408,1218" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 520 1211 L 560 1211" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- books -->
+  <rect x="680" y="1196" width="92" height="22" rx="3" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="688" y="1174" width="78" height="22" rx="3" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="684" y="1152" width="84" height="22" rx="3" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 694 1200 L 694 1214 M 702 1178 L 702 1192 M 698 1156 L 698 1170" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- thought bubbles and cloud -->
+  <circle cx="648" cy="1132" r="5" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="666" cy="1116" r="7" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 696 1110 Q 676 1110 680 1092 Q 676 1070 700 1068 Q 708 1048 732 1052 Q 754 1044 766 1064 Q 788 1066 784 1088 Q 790 1110 766 1110 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 722 1074 Q 722 1062 733 1062 Q 745 1062 745 1073 Q 745 1081 734 1085 L 734 1092" fill="none" stroke="#17457f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="734" cy="1101" r="3.5" fill="#17457f"/>
+</g>
+
+<!-- Face: thinking -->
+<g transform="translate(190 1150)">
+  <circle cx="4" cy="6" r="26" fill="#22303f" opacity=".18"/>
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Face: smile -->
+<g transform="translate(890 1150)">
+  <circle cx="4" cy="6" r="26" fill="#22303f" opacity=".18"/>
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Texts -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">4</tspan> «شكلي زي الصندوق العادي بالظبط،</tspan>
+  <tspan x="950" dy="40">بس اسمي بيقول أنا مين.»</tspan>
+</text>
+
+<text x="120" y="234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">4</tspan> “I look exactly like a plain box,</tspan>
+  <tspan x="120" dy="40">but my name says what I am.”</tspan>
+</text>
+
+<text x="950" y="354" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">5</tspan> «فتحت الموقع على الموبايل</tspan>
+  <tspan x="950" dy="40">فالأعمدة نزلت تحت بعض.»</tspan>
+</text>
+
+<text x="120" y="434" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">5</tspan> “You opened the site on a phone</tspan>
+  <tspan x="120" dy="40">and the columns stacked.”</tspan>
+</text>
+
+<text x="950" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">6</tspan> «عملت بطاقة واحدة واستخدمتها مية مرة.»</tspan>
+</text>
+
+<text x="120" y="594" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">6</tspan> “You made one card and used it</tspan>
+  <tspan x="120" dy="40">a hundred times.”</tspan>
+</text>
+
+<text x="950" y="714" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">7</tspan> «المطوّر مكتبش كل حاجة من الصفر بسببي.»</tspan>
+</text>
+
+<text x="120" y="754" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">7</tspan> “Because of me, the developer</tspan>
+  <tspan x="120" dy="40">didn't write everything from scratch.”</tspan>
+</text>
+
+<text x="950" y="874" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">8</tspan> «بقرأ الصفحة بصوت عالي</tspan>
+  <tspan x="950" dy="40">لصاحب الإعاقة البصرية.»</tspan>
+</text>
+
+<text x="120" y="954" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">8</tspan> “I read the page aloud</tspan>
+  <tspan x="120" dy="40">for a visually impaired user.”</tspan>
+</text>
+</svg>

@@ -1,0 +1,248 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="ilWater" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8fc9f2"/>
+    <stop offset="1" stop-color="#2f7fb5"/>
+  </linearGradient>
+  <linearGradient id="ilStream" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#4fc3e8"/>
+    <stop offset="1" stop-color="#2f7fb5"/>
+  </linearGradient>
+  <linearGradient id="ilJug" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#f0c48c"/>
+    <stop offset="1" stop-color="#c96a1b"/>
+  </linearGradient>
+  <linearGradient id="ilWave" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8fc9f2"/>
+    <stop offset="1" stop-color="#2f7fb5"/>
+  </linearGradient>
+</defs>
+
+<!-- Main idea card -->
+<rect x="109" y="888" width="870" height="248" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="882" width="870" height="248" rx="16" fill="#fdf6d8" stroke="#e0c46a" stroke-width="2"/>
+<rect x="961" y="898" width="6" height="216" rx="3" fill="#e0a55e"/>
+
+<!-- Main illustration: water and screens -->
+<g>
+  <rect x="109" y="232" width="862" height="308" rx="24" fill="#22303f" opacity=".18"/>
+  <rect x="105" y="226" width="862" height="308" rx="24" fill="url(#ilSky)"/>
+  <circle cx="920" cy="300" r="7" fill="#ffffff" opacity=".85"/>
+  <circle cx="900" cy="338" r="5" fill="#ffffff" opacity=".85"/>
+  <circle cx="942" cy="360" r="4" fill="#ffffff" opacity=".85"/>
+  <circle cx="150" cy="452" r="8" fill="#ffffff" opacity=".85"/>
+  <circle cx="182" cy="480" r="5" fill="#ffffff" opacity=".85"/>
+  <circle cx="132" cy="500" r="4" fill="#ffffff" opacity=".85"/>
+  <circle cx="912" cy="462" r="6" fill="#8fc9f2" opacity=".6"/>
+  <circle cx="480" cy="460" r="5" fill="#8fc9f2" opacity=".6"/>
+  <circle cx="712" cy="476" r="6" fill="#8fc9f2" opacity=".6"/>
+
+  <g transform="translate(165 245) rotate(25)">
+    <path d="M2 18 C -30 20, -30 70, -2 74 L -2 64 C -18 60, -18 32, 2 30 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M0 0 L60 0 Q70 40 66 80 Q62 100 30 100 Q-2 100 -6 80 Q-10 40 0 0 Z" fill="url(#ilJug)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M58 2 L82 -8 L64 16 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="-4" y="-6" width="68" height="10" rx="5" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-3 50 Q 30 58 63 50" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+    <path d="M8 16 Q 6 40 10 70" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity=".6"/>
+  </g>
+
+  <rect x="236" y="376" width="660" height="10" rx="5" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+
+  <path d="M250 318 Q 254 372 322 376 L358 376 Q 426 372 430 318 Z" fill="#dff1f7"/>
+  <path d="M257 330 Q 263 368 324 371 L356 371 Q 417 368 423 330 Z" fill="url(#ilWater)"/>
+  <ellipse cx="340" cy="330" rx="83" ry="6" fill="#4fc3e8"/>
+  <path d="M566 286 L634 286 L626 376 L574 376 Z" fill="#dff1f7"/>
+  <path d="M568 304 L632 304 L626 373 L574 373 Z" fill="url(#ilWater)"/>
+  <ellipse cx="600" cy="304" rx="32" ry="4" fill="#4fc3e8"/>
+  <path d="M820 282 L840 282 L840 312 Q 860 318 860 336 L860 370 Q 860 376 854 376 L806 376 Q 800 376 800 370 L800 336 Q 800 318 820 312 Z" fill="#dff1f7"/>
+  <path d="M822 300 L838 300 L838 314 Q 857 320 857 337 L857 368 Q 857 373 852 373 L808 373 Q 803 373 803 368 L803 337 Q 803 320 822 314 Z" fill="url(#ilWater)"/>
+  <ellipse cx="830" cy="300" rx="8" ry="2" fill="#4fc3e8"/>
+
+  <path d="M334 249 Q 336 290 336 330 L344 330 Q 344 290 346 250 Z" fill="#2f7fb5"/>
+  <path d="M595 253 Q 596 280 596 304 L604 304 Q 604 280 605 253 Z" fill="#2f7fb5"/>
+  <path d="M826 249 Q 827 275 827 300 L833 300 Q 833 275 834 249 Z" fill="#2f7fb5"/>
+  <circle cx="326" cy="323" r="3" fill="#4fc3e8"/>
+  <circle cx="355" cy="321" r="3" fill="#4fc3e8"/>
+  <circle cx="589" cy="298" r="3" fill="#4fc3e8"/>
+  <circle cx="612" cy="297" r="3" fill="#4fc3e8"/>
+
+  <path d="M242 266 Q 290 232 340 238 Q 470 250 600 242 Q 715 234 830 238 Q 862 240 874 252 L 868 258 Q 856 250 830 250 Q 715 246 600 254 Q 470 262 340 250 Q 292 246 246 278 Z" fill="url(#ilStream)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M300 244 Q 330 238 362 242 M520 249 Q 560 247 590 246 M720 241 Q 760 238 800 240" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+
+  <path d="M250 318 Q 254 372 322 376 L358 376 Q 426 372 430 318" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="340" cy="318" rx="90" ry="8" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M268 340 Q 276 360 296 368" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+  <path d="M566 286 L634 286 L626 376 L574 376 Z" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="600" cy="286" rx="34" ry="5" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M578 296 L584 364" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+  <path d="M820 282 L840 282 L840 312 Q 860 318 860 336 L860 370 Q 860 376 854 376 L806 376 Q 800 376 800 370 L800 336 Q 800 318 820 312 Z" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="816" y="276" width="28" height="8" rx="3" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M808 340 L808 364" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+
+  <rect x="200" y="524" width="740" height="8" rx="4" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+
+  <rect x="236" y="428" width="208" height="70" rx="8" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="244" y="436" width="192" height="54" rx="3" fill="#ffffff"/>
+  <rect x="252" y="442" width="176" height="7" rx="3" fill="#4fc3e8"/>
+  <rect x="252" y="454" width="56" height="30" rx="3" fill="#8fc9f2"/>
+  <rect x="312" y="454" width="56" height="30" rx="3" fill="#8fc9f2"/>
+  <rect x="372" y="454" width="56" height="30" rx="3" fill="#8fc9f2"/>
+  <rect x="258" y="459" width="24" height="5" rx="2" fill="#c96a1b"/>
+  <rect x="318" y="459" width="24" height="5" rx="2" fill="#c96a1b"/>
+  <rect x="378" y="459" width="24" height="5" rx="2" fill="#c96a1b"/>
+  <rect x="258" y="470" width="40" height="4" rx="2" fill="#ffffff"/>
+  <rect x="318" y="470" width="40" height="4" rx="2" fill="#ffffff"/>
+  <rect x="378" y="470" width="40" height="4" rx="2" fill="#ffffff"/>
+  <rect x="330" y="498" width="20" height="16" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="300" y="514" width="80" height="10" rx="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+
+  <rect x="552" y="422" width="96" height="102" rx="12" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="560" y="432" width="80" height="78" rx="3" fill="#ffffff"/>
+  <circle cx="600" cy="517" r="3.5" fill="#8fc9f2"/>
+  <rect x="566" y="438" width="68" height="6" rx="3" fill="#4fc3e8"/>
+  <rect x="566" y="450" width="32" height="54" rx="3" fill="#8fc9f2"/>
+  <rect x="602" y="450" width="32" height="54" rx="3" fill="#8fc9f2"/>
+  <rect x="571" y="455" width="16" height="5" rx="2" fill="#c96a1b"/>
+  <rect x="607" y="455" width="16" height="5" rx="2" fill="#c96a1b"/>
+  <rect x="571" y="465" width="22" height="4" rx="2" fill="#ffffff"/>
+  <rect x="607" y="465" width="22" height="4" rx="2" fill="#ffffff"/>
+
+  <rect x="803" y="432" width="54" height="92" rx="10" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="809" y="442" width="42" height="70" rx="3" fill="#ffffff"/>
+  <rect x="822" y="436" width="16" height="3" rx="1.5" fill="#8fc9f2"/>
+  <circle cx="830" cy="518" r="3" fill="#8fc9f2"/>
+  <rect x="813" y="446" width="34" height="5" rx="2" fill="#4fc3e8"/>
+  <rect x="813" y="455" width="34" height="14" rx="3" fill="#8fc9f2"/>
+  <rect x="813" y="474" width="34" height="14" rx="3" fill="#8fc9f2"/>
+  <rect x="813" y="493" width="34" height="14" rx="3" fill="#8fc9f2"/>
+  <rect x="817" y="459" width="14" height="4" rx="2" fill="#c96a1b"/>
+  <rect x="817" y="478" width="14" height="4" rx="2" fill="#c96a1b"/>
+  <rect x="817" y="497" width="14" height="4" rx="2" fill="#c96a1b"/>
+
+  <path d="M340 392 L340 396 M340 402 L340 406 M340 412 L340 416 M600 392 L600 396 M600 402 L600 406 M600 412 L600 416 M830 392 L830 396 M830 402 L830 406 M830 412 L830 416" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+</g>
+
+<!-- Face beside the paragraph -->
+<g transform="translate(160 622)">
+  <circle cx="4" cy="6" r="26" fill="#22303f" opacity=".18"/>
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Water drop icon -->
+<g transform="translate(884 778)">
+  <path d="M28 4 C 20 18, 10 28, 10 38 C 10 48, 18 54, 28 54 C 38 54, 46 48, 46 38 C 46 28, 36 18, 28 4 Z" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M20 36 Q 20 44 26 47" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+</g>
+
+<!-- Light bulb icon inside the card -->
+<g transform="translate(127 894)">
+  <path d="M4 8 L-1 4 M48 8 L53 4 M26 0 L26 -5" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="26" cy="20" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M20 16 Q 22 10 28 9" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+  <rect x="18" y="34" width="16" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M18 40 L34 40" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Lower memory illustration -->
+<g>
+  <g transform="translate(4 6)" fill="#22303f" opacity=".18">
+    <path d="M125 1230 Q177 1216 229 1230 T333 1230 T437 1230 T541 1230 T645 1230 T749 1230 T853 1230 T957 1230 L957 1250 Q957 1256 951 1256 L131 1256 Q125 1256 125 1250 Z"/>
+    <path d="M190 1154 C 181 1170, 170 1180, 170 1191 C 170 1202, 179 1210, 190 1210 C 201 1210, 210 1202, 210 1191 C 210 1180, 199 1170, 190 1154 Z"/>
+    <rect x="500" y="1162" width="80" height="42" rx="8"/>
+    <rect x="772" y="1168" width="26" height="44" rx="6"/>
+    <rect x="814" y="1160" width="50" height="52" rx="8"/>
+    <rect x="880" y="1158" width="72" height="44" rx="6"/>
+  </g>
+  <path d="M125 1230 Q177 1216 229 1230 T333 1230 T437 1230 T541 1230 T645 1230 T749 1230 T853 1230 T957 1230 L957 1250 Q957 1256 951 1256 L131 1256 Q125 1256 125 1250 Z" fill="url(#ilWave)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M150 1240 Q 200 1232 250 1240 M560 1240 Q 610 1232 660 1240 M360 1242 Q 400 1236 440 1242" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+  <path d="M190 1154 C 181 1170, 170 1180, 170 1191 C 170 1202, 179 1210, 190 1210 C 201 1210, 210 1202, 210 1191 C 210 1180, 199 1170, 190 1154 Z" fill="url(#ilWater)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M181 1190 Q 181 1199 187 1203" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+  <circle cx="260" cy="1180" r="5" fill="#8fc9f2" opacity=".85"/>
+  <circle cx="300" cy="1196" r="4" fill="#8fc9f2" opacity=".85"/>
+  <circle cx="380" cy="1172" r="6" fill="#8fc9f2" opacity=".85"/>
+  <circle cx="690" cy="1186" r="5" fill="#8fc9f2" opacity=".85"/>
+  <circle cx="722" cy="1166" r="4" fill="#8fc9f2" opacity=".85"/>
+  <polygon points="492,1183 470,1170 470,1178 446,1178 446,1188 470,1188 470,1196" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="588,1183 610,1170 610,1178 634,1178 634,1188 610,1188 610,1196" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="500" y="1162" width="80" height="42" rx="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="508" y="1170" width="64" height="6" rx="3" fill="#4fc3e8"/>
+  <rect x="508" y="1182" width="18" height="16" rx="2" fill="#8fc9f2"/>
+  <rect x="531" y="1182" width="18" height="16" rx="2" fill="#8fc9f2"/>
+  <rect x="554" y="1182" width="18" height="16" rx="2" fill="#8fc9f2"/>
+  <rect x="772" y="1168" width="26" height="44" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="776" y="1174" width="18" height="32" rx="2" fill="#ffffff"/>
+  <rect x="779" y="1178" width="12" height="6" rx="2" fill="#8fc9f2"/>
+  <rect x="779" y="1188" width="12" height="6" rx="2" fill="#8fc9f2"/>
+  <rect x="779" y="1198" width="12" height="6" rx="2" fill="#8fc9f2"/>
+  <rect x="814" y="1160" width="50" height="52" rx="8" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="820" y="1166" width="38" height="38" rx="2" fill="#ffffff"/>
+  <rect x="823" y="1170" width="14" height="30" rx="2" fill="#8fc9f2"/>
+  <rect x="841" y="1170" width="14" height="30" rx="2" fill="#8fc9f2"/>
+  <rect x="880" y="1158" width="72" height="44" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="886" y="1164" width="60" height="32" rx="2" fill="#ffffff"/>
+  <rect x="889" y="1168" width="16" height="24" rx="2" fill="#8fc9f2"/>
+  <rect x="908" y="1168" width="16" height="24" rx="2" fill="#8fc9f2"/>
+  <rect x="927" y="1168" width="16" height="24" rx="2" fill="#8fc9f2"/>
+  <rect x="910" y="1202" width="12" height="7" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="898" y="1208" width="36" height="6" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Text -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">
+  <tspan x="540" dy="0">التصميم المتجاوب:</tspan>
+  <tspan x="540" dy="48">صفحة مثل الماء</tspan>
+</text>
+<text x="540" y="202" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="normal" fill="#152b42">Responsive Design: A Page Like Water</text>
+
+<text x="950" y="594" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">صُبّ الماء في <tspan fill="#c96a1b">كوب</tspan> فيأخذ شكل الكوب،</tspan>
+  <tspan x="950" dy="40">وفي <tspan fill="#c96a1b">زجاجة</tspan> فيأخذ شكلها. الماء واحد،</tspan>
+  <tspan x="950" dy="40">لكنه <tspan font-weight="bold" fill="#17457f">يتكيف</tspan> مع الوعاء.</tspan>
+</text>
+<text x="120" y="714" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Pour water into a <tspan fill="#c96a1b">cup</tspan> and it takes the</tspan>
+  <tspan x="120" dy="40">cup's shape; into a <tspan fill="#c96a1b">bottle,</tspan> the bottle's.</tspan>
+  <tspan x="120" dy="40">The water is the same,</tspan>
+  <tspan x="120" dy="40">but it <tspan font-weight="bold" fill="#17457f">adapts</tspan> to the container.</tspan>
+</text>
+
+<text x="935" y="914" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">التصميم المتجاوب:</tspan> صفحة واحدة <tspan font-weight="bold" fill="#17457f">يتكيف</tspan></tspan>
+  <tspan x="935" dy="40">تخطيطها تلقائيًا مع أي شاشة: كمبيوتر</tspan>
+  <tspan x="935" dy="40">أو جهاز لوحي أو هاتف.</tspan>
+</text>
+<text x="140" y="1034" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Responsive design:</tspan> one page whose</tspan>
+  <tspan x="140" dy="40">layout <tspan font-weight="bold" fill="#17457f">adapts</tspan> automatically to any</tspan>
+  <tspan x="140" dy="40">screen: computer, tablet, or phone.</tspan>
+</text>
+</svg>

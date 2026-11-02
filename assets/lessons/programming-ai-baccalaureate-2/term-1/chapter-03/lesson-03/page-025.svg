@@ -1,0 +1,218 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Card shadows -->
+<rect x="109" y="128" width="870" height="328" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="109" y="488" width="870" height="408" rx="16" fill="#22303f" opacity=".12"/>
+
+<!-- Warning card -->
+<rect x="105" y="122" width="870" height="328" rx="16" fill="#fdf1e2" stroke="#f0c48c" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="296" rx="3" fill="#c96a1b"/>
+
+<!-- Info card -->
+<rect x="105" y="482" width="870" height="408" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="498" width="6" height="376" rx="3" fill="#2f7fb5"/>
+
+<!-- Icon: warning triangle -->
+<g transform="translate(172 222)">
+  <path d="M32 4 L60 54 Q62 60 56 60 L8 60 Q2 60 4 54 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="29" y="20" width="6" height="22" rx="3" fill="#22303f"/>
+  <circle cx="32" cy="50" r="3.5" fill="#22303f"/>
+</g>
+
+<!-- Face: surprise -->
+<g transform="translate(290 258)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="0" cy="11" r="5" fill="#22303f"/>
+</g>
+
+<!-- Icon: open book -->
+<g transform="translate(160 576)">
+  <path d="M26 12 C18 6, 8 6, 2 9 L2 44 C8 41, 18 41, 26 47 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M26 12 C34 6, 44 6, 50 9 L50 44 C44 41, 34 41, 26 47 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M8 18 L20 20 M8 26 L20 28 M8 34 L18 35 M32 20 L44 18 M32 28 L44 26 M34 35 L44 34" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Face: wink -->
+<g transform="translate(186 764)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M5 -6 L13 -6" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: star -->
+<g transform="translate(236 742)">
+  <polygon points="22,2 27.9,15.6 42,16.4 31.1,25.4 34.8,39.6 22,31.6 9.2,39.6 12.9,25.4 2,16.4 16.1,15.6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Memory illustration: a page like water across devices -->
+<g>
+  <defs>
+    <linearGradient id="ilWater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fc9f2"/>
+      <stop offset="1" stop-color="#dff1f7"/>
+    </linearGradient>
+    <linearGradient id="ilScreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4fc3e8"/>
+      <stop offset="1" stop-color="#dff1f7"/>
+    </linearGradient>
+    <linearGradient id="ilDrop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4fc3e8"/>
+      <stop offset="1" stop-color="#2f7fb5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- shadows -->
+  <rect x="174" y="956" width="300" height="190" rx="14" fill="#22303f" opacity=".18"/>
+  <rect x="254" y="1180" width="140" height="14" rx="7" fill="#22303f" opacity=".18"/>
+  <rect x="514" y="1016" width="210" height="140" rx="10" fill="#22303f" opacity=".18"/>
+  <g transform="translate(4 6)">
+    <path d="M490 1150 L740 1150 L760 1172 Q760 1178 752 1178 L478 1178 Q470 1178 470 1172 Z" fill="#22303f" opacity=".18"/>
+  </g>
+  <rect x="774" y="1006" width="110" height="170" rx="14" fill="#22303f" opacity=".18"/>
+  <rect x="904" y="1066" width="60" height="112" rx="12" fill="#22303f" opacity=".18"/>
+
+  <!-- water -->
+  <path d="M120 1196 C 220 1176, 320 1216, 420 1196 S 620 1176, 720 1198 S 900 1216, 960 1196 L960 1240 Q 540 1258 120 1240 Z" fill="url(#ilWater)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M150 1224 C 260 1208, 380 1238, 520 1222 S 780 1208, 930 1224" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M220 1240 C 300 1232, 360 1244, 440 1238 M640 1238 C 720 1232, 790 1244, 860 1238" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" opacity=".85"/>
+
+  <!-- desktop monitor -->
+  <rect x="300" y="1140" width="40" height="36" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="250" y="1174" width="140" height="14" rx="7" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="170" y="950" width="300" height="190" rx="14" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="184" y="964" width="272" height="152" rx="6" fill="url(#ilScreen)"/>
+  <rect x="196" y="976" width="248" height="18" rx="5" fill="#17457f"/>
+  <rect x="196" y="1004" width="76" height="62" rx="6" fill="#ffffff"/>
+  <rect x="282" y="1004" width="76" height="62" rx="6" fill="#ffffff"/>
+  <rect x="368" y="1004" width="76" height="62" rx="6" fill="#ffffff"/>
+  <rect x="204" y="1012" width="60" height="24" rx="4" fill="#f0c48c"/>
+  <rect x="290" y="1012" width="60" height="24" rx="4" fill="#a9dcbe"/>
+  <rect x="376" y="1012" width="60" height="24" rx="4" fill="#8fc9f2"/>
+  <rect x="204" y="1042" width="52" height="5" rx="2.5" fill="#7f95ab"/>
+  <rect x="204" y="1052" width="40" height="5" rx="2.5" fill="#7f95ab"/>
+  <rect x="290" y="1042" width="52" height="5" rx="2.5" fill="#7f95ab"/>
+  <rect x="290" y="1052" width="40" height="5" rx="2.5" fill="#7f95ab"/>
+  <rect x="376" y="1042" width="52" height="5" rx="2.5" fill="#7f95ab"/>
+  <rect x="376" y="1052" width="40" height="5" rx="2.5" fill="#7f95ab"/>
+  <rect x="196" y="1076" width="248" height="10" rx="5" fill="#2f7fb5"/>
+  <rect x="196" y="1094" width="180" height="10" rx="5" fill="#ffffff" opacity=".85"/>
+
+  <!-- laptop -->
+  <rect x="510" y="1010" width="210" height="140" rx="10" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="522" y="1022" width="186" height="116" rx="5" fill="url(#ilScreen)"/>
+  <rect x="532" y="1032" width="166" height="14" rx="4" fill="#17457f"/>
+  <rect x="532" y="1054" width="78" height="52" rx="5" fill="#ffffff"/>
+  <rect x="620" y="1054" width="78" height="52" rx="5" fill="#ffffff"/>
+  <rect x="538" y="1060" width="66" height="20" rx="4" fill="#f0c48c"/>
+  <rect x="626" y="1060" width="66" height="20" rx="4" fill="#a9dcbe"/>
+  <rect x="538" y="1086" width="54" height="5" rx="2.5" fill="#7f95ab"/>
+  <rect x="538" y="1095" width="40" height="5" rx="2.5" fill="#7f95ab"/>
+  <rect x="626" y="1086" width="54" height="5" rx="2.5" fill="#7f95ab"/>
+  <rect x="626" y="1095" width="40" height="5" rx="2.5" fill="#7f95ab"/>
+  <rect x="532" y="1114" width="166" height="12" rx="6" fill="#2f7fb5"/>
+  <path d="M490 1150 L740 1150 L760 1172 Q760 1178 752 1178 L478 1178 Q470 1178 470 1172 Z" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="590" y="1156" width="50" height="6" rx="3" fill="#7f95ab"/>
+
+  <!-- tablet -->
+  <rect x="770" y="1000" width="110" height="170" rx="14" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="780" y="1012" width="90" height="140" rx="6" fill="url(#ilScreen)"/>
+  <rect x="788" y="1020" width="74" height="12" rx="4" fill="#17457f"/>
+  <rect x="788" y="1040" width="34" height="44" rx="4" fill="#ffffff"/>
+  <rect x="828" y="1040" width="34" height="44" rx="4" fill="#ffffff"/>
+  <rect x="792" y="1044" width="26" height="16" rx="3" fill="#f0c48c"/>
+  <rect x="832" y="1044" width="26" height="16" rx="3" fill="#a9dcbe"/>
+  <rect x="792" y="1066" width="22" height="4" rx="2" fill="#7f95ab"/>
+  <rect x="832" y="1066" width="22" height="4" rx="2" fill="#7f95ab"/>
+  <rect x="788" y="1092" width="74" height="28" rx="4" fill="#ffffff"/>
+  <rect x="792" y="1096" width="26" height="20" rx="3" fill="#8fc9f2"/>
+  <rect x="824" y="1100" width="32" height="4" rx="2" fill="#7f95ab"/>
+  <rect x="824" y="1108" width="24" height="4" rx="2" fill="#7f95ab"/>
+  <rect x="788" y="1128" width="74" height="10" rx="5" fill="#2f7fb5"/>
+  <circle cx="825" cy="1161" r="4" fill="#8fc9f2"/>
+
+  <!-- phone -->
+  <rect x="900" y="1060" width="60" height="112" rx="12" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="907" y="1072" width="46" height="88" rx="5" fill="url(#ilScreen)"/>
+  <rect x="912" y="1078" width="36" height="8" rx="3" fill="#17457f"/>
+  <rect x="912" y="1092" width="36" height="26" rx="3" fill="#ffffff"/>
+  <rect x="916" y="1096" width="28" height="12" rx="2" fill="#f0c48c"/>
+  <rect x="916" y="1111" width="20" height="3" rx="1.5" fill="#7f95ab"/>
+  <rect x="912" y="1123" width="36" height="26" rx="3" fill="#ffffff"/>
+  <rect x="916" y="1127" width="28" height="12" rx="2" fill="#a9dcbe"/>
+  <rect x="916" y="1142" width="20" height="3" rx="1.5" fill="#7f95ab"/>
+  <rect x="912" y="1153" width="36" height="4" rx="2" fill="#2f7fb5"/>
+
+  <!-- droplets -->
+  <path d="M615 920 C 603 940, 593 954, 593 970 A 22 22 0 0 0 637 970 C 637 954, 627 940, 615 920 Z" fill="url(#ilDrop)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="606" cy="968" rx="5" ry="9" fill="#ffffff" opacity=".6"/>
+  <path d="M490 958 C 484 967, 479 973, 479 980 A 11 11 0 0 0 501 980 C 501 973, 496 967, 490 958 Z" fill="url(#ilDrop)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M930 1000 C 922 1012, 916 1020, 916 1028 A 14 14 0 0 0 944 1028 C 944 1020, 938 1012, 930 1000 Z" fill="url(#ilDrop)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="925" cy="1027" rx="3" ry="5" fill="#ffffff" opacity=".6"/>
+</g>
+
+<!-- Warning card text -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="935" dy="0">فخ الامتحان</tspan>
+</text>
+<text x="140" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="140" dy="0">EXAM TRAP</tspan>
+</text>
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">سبب الحاجة إلى <tspan font-weight="bold" fill="#c0392b">التصميم المتجاوب</tspan></tspan>
+  <tspan x="935" dy="40">هو <tspan font-weight="bold" fill="#2e7d32">تنوع الأجهزة،</tspan> لا سرعة العرض</tspan>
+  <tspan x="935" dy="40">ولا الترتيب في البحث.</tspan>
+</text>
+<text x="140" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Responsive design</tspan> is needed because</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#2e7d32">devices vary,</tspan> not for display speed</tspan>
+  <tspan x="140" dy="40">or search ranking.</tspan>
+</text>
+
+<!-- Info card text -->
+<text x="935" y="514" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">مصطلحات تميّزك</tspan>
+</text>
+<text x="140" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">STAND-OUT TERMS</tspan>
+</text>
+<text x="935" y="594" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">منفذ العرض</tspan> Viewport: المساحة المرئية</tspan>
+  <tspan x="935" dy="40">من الصفحة على شاشة الجهاز.</tspan>
+</text>
+<text x="140" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Viewport:</tspan> the visible area</tspan>
+  <tspan x="140" dy="40">of the page on the device screen.</tspan>
+</text>
+<text x="935" y="754" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">سهولة الاستخدام</tspan> Usability: مدى سهولة</tspan>
+  <tspan x="935" dy="40">استخدام الصفحة وراحة المستخدم فيها.</tspan>
+</text>
+<text x="140" y="834" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Usability:</tspan> how easy and comfortable</tspan>
+  <tspan x="140" dy="40">the page is to use.</tspan>
+</text>
+</svg>

@@ -1,0 +1,289 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilWallBg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="ilBtn" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#f0c48c"/>
+    <stop offset="1" stop-color="#c96a1b"/>
+  </linearGradient>
+  <linearGradient id="ilGlass" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8fc9f2"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+</defs>
+
+<!-- Illustration: three friends build a like button -->
+<g>
+  <!-- shadows -->
+  <rect x="109" y="756" width="870" height="400" rx="24" fill="#22303f" opacity=".18"/>
+  <rect x="494" y="1230" width="110" height="22" rx="4" fill="#22303f" opacity=".18"/>
+  <rect x="504" y="1210" width="94" height="20" rx="4" fill="#22303f" opacity=".18"/>
+  <rect x="498" y="1192" width="86" height="18" rx="4" fill="#22303f" opacity=".18"/>
+  <rect x="756" y="1202" width="50" height="52" rx="12" fill="#22303f" opacity=".18"/>
+
+  <!-- room -->
+  <rect x="105" y="750" width="870" height="400" rx="24" fill="url(#ilWallBg)"/>
+  <path d="M105 1072 H975 V1126 A24 24 0 0 1 951 1150 H129 A24 24 0 0 1 105 1126 Z" fill="#e8dfd1"/>
+  <rect x="105" y="1066" width="870" height="6" fill="#b07a45"/>
+  <rect x="105" y="750" width="870" height="400" rx="24" fill="none" stroke="#8fc9f2" stroke-width="2.5"/>
+
+  <!-- window -->
+  <rect x="125" y="780" width="130" height="96" rx="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="133" y="788" width="114" height="80" rx="4" fill="url(#ilGlass)"/>
+  <circle cx="220" cy="810" r="12" fill="#ffd24a"/>
+  <ellipse cx="160" cy="850" rx="16" ry="6" fill="#ffffff"/>
+  <rect x="187" y="788" width="6" height="80" fill="#ffffff"/>
+  <rect x="133" y="825" width="114" height="6" fill="#ffffff"/>
+  <rect x="125" y="780" width="130" height="96" rx="8" fill="none" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- clock -->
+  <circle cx="905" cy="806" r="24" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M905 806 V792 M905 806 L915 812" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="905" cy="806" r="3" fill="#c0392b"/>
+
+  <!-- plants on the floor -->
+  <path d="M173 1040 Q 146 1020 150 996 Q 172 1012 173 1040 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M173 1040 Q 200 1020 196 996 Q 174 1012 173 1040 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="152,1038 194,1038 188,1072 158,1072" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M950 1042 Q 930 1024 934 1002 Q 950 1018 950 1042 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M950 1042 Q 970 1024 966 1002 Q 950 1018 950 1042 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="934,1040 966,1040 962,1072 938,1072" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- whiteboard -->
+  <rect x="290" y="772" width="500" height="210" rx="12" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="302" y="784" width="476" height="186" rx="6" fill="#ffffff"/>
+  <rect x="320" y="982" width="440" height="10" rx="4" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="560" y="972" width="26" height="9" rx="3" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="592" y="972" width="26" height="9" rx="3" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- the big button -->
+  <rect x="440" y="801" width="200" height="60" rx="30" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="440" y="795" width="200" height="60" rx="30" fill="url(#ilBtn)" stroke="#17457f" stroke-width="3"/>
+  <rect x="462" y="803" width="110" height="9" rx="4.5" fill="#ffffff" opacity=".6"/>
+  <path d="M540 842 C 512 824, 520 804, 540 815 C 560 804, 568 824, 540 842 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- ripples where the finger presses -->
+  <circle cx="469" cy="836" r="32" fill="none" stroke="#ffd24a" stroke-width="2.5" opacity=".6"/>
+  <circle cx="469" cy="836" r="22" fill="none" stroke="#ffd24a" stroke-width="2.5" opacity=".85"/>
+  <circle cx="469" cy="836" r="12" fill="none" stroke="#ffffff" stroke-width="2.5"/>
+
+  <!-- counter and rising plus bubble -->
+  <rect x="505" y="870" width="70" height="36" rx="8" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="516" y="880" width="48" height="16" rx="4" fill="#17457f"/>
+  <circle cx="540" cy="888" r="3" fill="#ffd24a"/>
+  <circle cx="581" cy="893" r="3" fill="#ffd24a"/>
+  <circle cx="602" cy="876" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M594 876 H610 M602 868 V884" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- sparkles at the marker tip -->
+  <path d="M752 852 L746 846 M762 848 V840 M772 852 L778 846" fill="none" stroke="#ffd24a" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- left student: JavaScript, presses the button -->
+  <g transform="translate(330 1125)">
+    <rect x="-26" y="-104" width="22" height="96" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="4" y="-104" width="22" height="96" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <ellipse cx="-15" cy="-6" rx="16" ry="7" fill="#3a2411" stroke="#22303f" stroke-width="2.5"/>
+    <ellipse cx="15" cy="-6" rx="16" ry="7" fill="#3a2411" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-38 -100 L-40 -168 Q-40 -190 -20 -192 L20 -192 Q40 -190 40 -168 L38 -100 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="-38" y="-108" width="76" height="8" rx="3" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="-8" y="-204" width="16" height="14" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-12 -192 L0 -178 L12 -192 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="0" cy="-224" r="26" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-27 -226 Q-30 -256 -4 -254 Q26 -258 27 -226 Q20 -236 6 -238 Q-12 -244 -27 -226 Z" fill="#2b211c"/>
+    <circle cx="-9" cy="-224" r="3" fill="#22303f"/>
+    <circle cx="9" cy="-224" r="3" fill="#22303f"/>
+    <path d="M-9 -213 Q0 -206 9 -213" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M-14 -190 L-8 -168 M14 -190 L8 -168" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <rect x="-18" y="-168" width="36" height="26" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="-14" y="-164" width="28" height="6" rx="3" fill="#ffd24a"/>
+    <polygon points="-34,-186 -48,-178 -52,-112 -38,-110" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="-45" cy="-104" r="8" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <polygon points="41,-174 82,-221 134,-269 122,-283 68,-233 27,-186" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="133,-277 142,-287 136,-291 127,-281" fill="#d59f6f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="130" cy="-279" r="8" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+
+  <!-- middle student: CSS, paints with brush and cup -->
+  <g transform="translate(690 1125)">
+    <ellipse cx="-14" cy="-6" rx="14" ry="6" fill="#3a2411" stroke="#22303f" stroke-width="2.5"/>
+    <ellipse cx="14" cy="-6" rx="14" ry="6" fill="#3a2411" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-40 -12 L-36 -170 Q-36 -190 -18 -192 L18 -192 Q36 -190 36 -170 L40 -12 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M0 -134 V-22" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+    <polygon points="34,-184 48,-176 56,-118 42,-114" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="44,-120 48,-86 70,-86 74,-120" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <ellipse cx="59" cy="-120" rx="15" ry="4" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M62 -117 Q63 -104 67 -116 Z" fill="#c96a1b"/>
+    <circle cx="46" cy="-110" r="8" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-30 -220 Q-30 -258 0 -258 Q30 -258 30 -220 Q34 -196 38 -186 Q0 -172 -38 -186 Q-34 -196 -30 -220 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <ellipse cx="0" cy="-221" rx="18" ry="21" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-18 -233 Q0 -246 18 -233" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="-7" cy="-222" r="3" fill="#22303f"/>
+    <circle cx="7" cy="-222" r="3" fill="#22303f"/>
+    <path d="M-7 -212 Q0 -206 7 -212" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <rect x="-18" y="-162" width="36" height="26" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="-14" y="-158" width="28" height="6" rx="3" fill="#c96a1b"/>
+    <polygon points="-26,-187 -41,-226 -39,-256 -57,-258 -59,-224 -42,-181" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="-44,-264 -56,-278 -60,-274 -48,-260" fill="#b07a45" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="-53,-279 -59,-274 -68,-286 -63,-291" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="-48" cy="-260" r="8" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+
+  <!-- right student: HTML, holds the marker -->
+  <g transform="translate(870 1125)">
+    <rect x="-26" y="-104" width="22" height="96" rx="6" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="4" y="-104" width="22" height="96" rx="6" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <ellipse cx="-15" cy="-6" rx="16" ry="7" fill="#3a2411" stroke="#22303f" stroke-width="2.5"/>
+    <ellipse cx="15" cy="-6" rx="16" ry="7" fill="#3a2411" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-38 -100 L-40 -168 Q-40 -190 -20 -192 L20 -192 Q40 -190 40 -168 L38 -100 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="-8" y="-204" width="16" height="14" fill="#b57e50" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-12 -192 L0 -178 L12 -192 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="0" cy="-224" r="26" fill="#b57e50" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-26 -228 Q-28 -256 0 -255 Q28 -256 26 -228 Q20 -240 2 -240 Q-16 -241 -26 -228 Z" fill="#2b211c"/>
+    <circle cx="-9" cy="-224" r="3" fill="#22303f"/>
+    <circle cx="9" cy="-224" r="3" fill="#22303f"/>
+    <path d="M-9 -213 Q0 -206 9 -213" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M-14 -190 L-8 -168 M14 -190 L8 -168" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <rect x="-18" y="-168" width="36" height="26" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="-14" y="-164" width="28" height="6" rx="3" fill="#17457f"/>
+    <polygon points="34,-186 48,-178 52,-112 38,-110" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="45" cy="-104" r="8" fill="#b57e50" stroke="#22303f" stroke-width="2.5"/>
+    <polygon points="-27,-190 -58,-225 -72,-250 -88,-240 -72,-215 -41,-178" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="-76,-247 -96,-262 -100,-256 -80,-241" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="-96,-262 -104,-264 -100,-256" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="-81" cy="-248" r="8" fill="#b57e50" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+
+  <!-- bottom row on paper: plant, books, backpack, pencil cup -->
+  <path d="M160 1214 Q 136 1196 140 1176 Q 158 1190 160 1214 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M160 1214 Q 184 1196 180 1176 Q 162 1190 160 1214 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="140,1214 180,1214 174,1248 146,1248" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="490" y="1224" width="110" height="22" rx="4" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="500" y="1204" width="94" height="20" rx="4" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="494" y="1186" width="86" height="18" rx="4" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M582 1230 V1240 M576 1209 V1219 M564 1190 V1200" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M767 1197 Q777 1182 787 1197" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="752" y="1196" width="50" height="52" rx="12" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="760" y="1222" width="34" height="18" rx="6" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="948" y="1196" width="6" height="24" rx="2" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="958" y="1190" width="6" height="30" rx="2" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="944" y="1214" width="26" height="34" rx="5" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Header icons: like button and teamwork -->
+<g transform="translate(845 182)">
+  <rect x="0" y="9" width="44" height="26" rx="13" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M22 30 C 12 24, 14 15, 22 19 C 30 15, 32 24, 22 30 Z" fill="#c0392b"/>
+</g>
+<g transform="translate(905 182)">
+  <circle cx="30" cy="12" r="6" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M20 42 Q20 24 30 24 Q40 24 40 42 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="15" cy="11" r="6" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M4 42 Q4 22 15 22 Q26 22 26 42 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Brush icon beside the CSS bullet -->
+<g transform="translate(900 460)">
+  <rect x="0" y="0" width="44" height="44" rx="10" fill="#fdf6d8" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="8,36 12,40 28,24 24,20" fill="#b07a45" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="24,20 28,24 32,20 28,16" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M28 16 L32 20 Q40 15 38 6 Q29 7 28 16 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="12" cy="12" r="4" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Smile face and code icon beside the JavaScript bullet -->
+<g transform="translate(820 668)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+<g transform="translate(895 640)">
+  <rect x="0" y="0" width="56" height="56" rx="12" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M20 18 L10 28 L20 38 M36 18 L46 28 L36 38" fill="none" stroke="#17457f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M31 16 L25 40" fill="none" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Bullets -->
+<g>
+  <circle cx="966" cy="264" r="6" fill="#c0392b"/>
+  <circle cx="114" cy="344" r="6" fill="#c0392b"/>
+  <circle cx="966" cy="424" r="6" fill="#c0392b"/>
+  <circle cx="114" cy="464" r="6" fill="#c0392b"/>
+  <circle cx="966" cy="544" r="6" fill="#c0392b"/>
+  <circle cx="114" cy="624" r="6" fill="#c0392b"/>
+</g>
+
+<!-- Text: header -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="950" dy="0">تخيّل: ثلاثة أصدقاء يبنون زر إعجاب</tspan>
+</text>
+<text x="120" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="120" dy="0">Imagine: Three Friends</tspan>
+  <tspan x="120" dy="40">Build a Like Button</tspan>
+</text>
+
+<!-- Text: bullet 1 -->
+<text x="950" y="274" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">صديق <tspan font-weight="bold" fill="#c0392b">HTML</tspan> <tspan font-weight="bold" fill="#17457f">يرسم</tspan> مستطيلًا مكتوبًا فيه</tspan>
+  <tspan x="950" dy="40">«أعجبني»، وتحته «الإعجابات: 0».</tspan>
+</text>
+<text x="132" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">The <tspan font-weight="bold" fill="#c0392b">HTML</tspan> friend <tspan font-weight="bold" fill="#17457f">draws</tspan> a box that says</tspan>
+  <tspan x="132" dy="40">“Like”, with “Likes: 0” under it.</tspan>
+</text>
+
+<!-- Text: bullet 2 -->
+<text x="950" y="434" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">صديق <tspan font-weight="bold" fill="#c0392b">CSS</tspan> <tspan font-weight="bold" fill="#17457f">يلوّنه</tspan> بالبرتقالي ويدوّر حوافه.</tspan>
+</text>
+<text x="132" y="474" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">The <tspan font-weight="bold" fill="#c0392b">CSS</tspan> friend <tspan font-weight="bold" fill="#17457f">colors</tspan> it orange</tspan>
+  <tspan x="132" dy="40">and rounds its corners.</tspan>
+</text>
+
+<!-- Text: bullet 3 -->
+<text x="950" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">صديق <tspan font-weight="bold" fill="#c0392b">JavaScript</tspan> <tspan font-weight="bold" fill="#17457f">يزيد</tspan> الرقم واحدًا</tspan>
+  <tspan x="950" dy="40">كلما ضغطت على الزر.</tspan>
+</text>
+<text x="132" y="634" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">The <tspan font-weight="bold" fill="#c0392b">JavaScript</tspan> friend <tspan font-weight="bold" fill="#17457f">adds</tspan> one</tspan>
+  <tspan x="132" dy="40">to the number each time</tspan>
+  <tspan x="132" dy="40">you press the button.</tspan>
+</text>
+
+<!-- Text: illustration labels -->
+<text x="824" y="1206" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="824" dy="0">HTML</tspan>
+</text>
+<text x="657" y="1206" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="657" dy="0">CSS</tspan>
+</text>
+<text x="235" y="1206" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="235" dy="0">JavaScript</tspan>
+</text>
+</svg>
