@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Instruction strip: shadow, card, accent -->
+<rect x="109" y="208" width="870" height="128" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="202" width="870" height="128" rx="16" fill="#fdf6d8" stroke="#e0c46a" stroke-width="2"/>
+<rect x="961" y="218" width="6" height="96" rx="3" fill="#e0a55e"/>
+
+<!-- Answer boxes -->
+<rect x="892" y="532" width="58" height="58" rx="8" fill="#fffdf7" stroke="#225f9c" stroke-width="2"/>
+<rect x="892" y="772" width="58" height="58" rx="8" fill="#fffdf7" stroke="#225f9c" stroke-width="2"/>
+<rect x="892" y="1092" width="58" height="58" rx="8" fill="#fffdf7" stroke="#225f9c" stroke-width="2"/>
+
+<!-- Icon: star (title, left) -->
+<g transform="translate(190 110)">
+  <polygon points="4,-20 10.5,-2.9 28.7,-2 14.5,9.4 19.3,27 4,17 -11.3,27 -6.5,9.4 -20.7,-2 -2.5,-2.9" fill="#22303f" opacity=".18"/>
+  <polygon points="0,-26 6.5,-8.9 24.7,-8 10.5,3.4 15.3,21 0,11 -15.3,21 -10.5,3.4 -24.7,-8 -6.5,-8.9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M -4 -6 L 0 -14" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: open book (title, right) -->
+<g transform="translate(890 112)">
+  <path d="M -24 -10 Q -10 -16 4 -8 L 4 26 Q -10 18 -24 24 Z" fill="#22303f" opacity=".18"/>
+  <path d="M 32 -10 Q 18 -16 4 -8 L 4 26 Q 18 18 32 24 Z" fill="#22303f" opacity=".18"/>
+  <path d="M -28 -16 Q -14 -22 0 -14 L 0 20 Q -14 12 -28 18 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 28 -16 Q 14 -22 0 -14 L 0 20 Q 14 12 28 18 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M -22 -6 Q -13 -10 -6 -5 M -22 3 Q -13 -1 -6 4 M 6 -5 Q 13 -10 22 -6 M 6 4 Q 13 -1 22 3" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Face: thinking (instruction strip) -->
+<g transform="translate(890 292)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: pencil toward answer box 1 -->
+<g transform="translate(840 561) rotate(15)">
+  <path d="M -28 0 L -28 12 L 14 12 L 28 6 L 14 0 Z" fill="#22303f" opacity=".18"/>
+  <rect x="-32" y="-6" width="6" height="12" rx="2" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="-26" y="-6" width="36" height="12" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="10,-6 24,0 10,6" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="19,-2.4 24,0 19,2.4" fill="#22303f"/>
+</g>
+
+<!-- Icon: network nodes (beside question 2) -->
+<g transform="translate(790 732)">
+  <circle cx="-14" cy="20" r="10" fill="#22303f" opacity=".18"/>
+  <circle cx="22" cy="20" r="10" fill="#22303f" opacity=".18"/>
+  <circle cx="4" cy="-10" r="10" fill="#22303f" opacity=".18"/>
+  <path d="M -18 14 L 0 -16 L 18 14 L -18 14" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="0" cy="-16" r="10" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-18" cy="14" r="10" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="18" cy="14" r="10" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: pencil toward answer box 2 -->
+<g transform="translate(840 801) rotate(15)">
+  <path d="M -28 0 L -28 12 L 14 12 L 28 6 L 14 0 Z" fill="#22303f" opacity=".18"/>
+  <rect x="-32" y="-6" width="6" height="12" rx="2" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="-26" y="-6" width="36" height="12" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="10,-6 24,0 10,6" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="19,-2.4 24,0 19,2.4" fill="#22303f"/>
+</g>
+
+<!-- Icon: code brackets (beside question 3) -->
+<g transform="translate(800 1020)">
+  <rect x="-26" y="-18" width="60" height="48" rx="10" fill="#22303f" opacity=".18"/>
+  <rect x="-30" y="-24" width="60" height="48" rx="10" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M -8 -12 L -20 0 L -8 12 M 8 -12 L 20 0 L 8 12" fill="none" stroke="#17457f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 4 -15 L -4 15" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: pencil toward answer box 3 -->
+<g transform="translate(840 1121) rotate(15)">
+  <path d="M -28 0 L -28 12 L 14 12 L 28 6 L 14 0 Z" fill="#22303f" opacity=".18"/>
+  <rect x="-32" y="-6" width="6" height="12" rx="2" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="-26" y="-6" width="36" height="12" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="10,-6 24,0 10,6" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="19,-2.4 24,0 19,2.4" fill="#22303f"/>
+</g>
+
+<!-- Lower band: smile face -->
+<g transform="translate(504 1214)">
+  <circle cx="4" cy="6" r="26" fill="#22303f" opacity=".18"/>
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Lower band: light bulb -->
+<g transform="translate(578 1216)">
+  <circle cx="4" cy="0" r="17" fill="#22303f" opacity=".18"/>
+  <path d="M -24 -18 L -20 -15 M 24 -18 L 20 -15 M 0 -31 L 0 -27" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="0" cy="-6" r="17" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M -5 -4 L 0 2 L 5 -4" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="-8" y="10" width="16" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M -8 16 L 8 16" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Texts -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">راجع بذكاء</text>
+
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="normal" fill="#152b42">Smart Review</text>
+
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">خمّن: مين أنا؟ اكتب اسم التقنية أو المصطلح.</tspan>
+</text>
+
+<text x="140" y="274" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">Guess: who am I? Write the name</tspan>
+  <tspan x="140" dy="40">of the technology or term.</tspan>
+</text>
+
+<text x="950" y="394" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">1</tspan> «أنا اللي حطيت العنوان والصورة في الصفحة،</tspan>
+  <tspan x="950" dy="40">ومن غيري مفيش صفحة.»</tspan>
+</text>
+
+<text x="120" y="474" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">1</tspan> “I put the heading and the image</tspan>
+  <tspan x="120" dy="40">on the page; without me, there's no page.”</tspan>
+</text>
+
+<text x="950" y="674" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">2</tspan> «أنا اللي خليت الزرار أخضر والخط كبير.»</tspan>
+</text>
+
+<text x="120" y="714" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">2</tspan> “I made the button green</tspan>
+  <tspan x="120" dy="40">and the text big.”</tspan>
+</text>
+
+<text x="950" y="914" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">3</tspan> «كتبت في خانة البحث فالنتائج اتغيرت قدامك</tspan>
+  <tspan x="950" dy="40">من غير ما الصفحة تتحمّل تاني.»</tspan>
+</text>
+
+<text x="120" y="994" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">3</tspan> “You typed in the search box</tspan>
+  <tspan x="120" dy="40">and the results changed</tspan>
+  <tspan x="120" dy="40">without reloading the page.”</tspan>
+</text>
+</svg>

@@ -1,0 +1,2417 @@
+{
+  "schemaVersion": 1,
+  "course": "programming-ai-baccalaureate-2",
+  "term": "term-1",
+  "chapter": "chapter-03",
+  "lesson": "lesson-03",
+  "displayNumber": "3-3",
+  "displayTitleAr": "أساسيات تكنولوجيا الواجهة الأمامية",
+  "displayTitleEn": "Fundamentals of Frontend Technology",
+  "courseLabelAr": "البرمجة والذكاء الاصطناعي، ثانية بكالوريا",
+  "termLabelAr": "ترم أول",
+  "pivotQuestionAr": "كيف تعمل HTML وCSS وJavaScript معًا لبناء صفحة ويب، وما الذي يجعل الواجهة الأمامية الحديثة ذات معنى وقابلة للتكيف وفعّالة في البناء؟",
+  "custodyRepository": "parmaga-content",
+  "custodySnapshot": "9ad7437c7d5d175beac78f147c2949b0a3ede5bb",
+  "declaredPageCount": 39,
+  "inventoryDate": "2026-11-02",
+  "status": "published",
+  "extraNotes": [
+    "السؤال المحوري للدرس: كيف تعمل HTML وCSS وJavaScript معًا لبناء صفحة ويب، وما الذي يجعل الواجهة الأمامية الحديثة ذات معنى وقابلة للتكيف وفعّالة في البناء؟",
+    "حزمة أصول الدرس مدرجة للنشر في المسار القانوني داخل المستودع العام، وتتحقق tools/verify_lesson.py من مطابقة بايتاتها لهذا الـManifest.",
+    "أسماء الملفات الواردة مطابقة أصلًا للنمط page-<NNN>.svg، لذلك sourceFileName يساوي file في المداخل الـ39 كلها، ولم تجرِ إعادة تسمية.",
+    "viewBox «0 0 1080 1350» مقيس في الصفحات الـ39 كلها، أي مقاس 1080×1350 بنسبة 4:5 رأسية.",
+    "منطقة الـ12% المحجوزة: الحد y = 1188. أعلى سمة y مرصودة في عناصر النص هي 1234 في page-004، و13 عنصر نص عند الحد أو دونه في 3 صفحات: page-004، page-008، page-039. سُجّل ولم يوقف النشر، وتراجعه عين المالك في المتصفح. القياس يعتمد سمات y وحدها ولا يحسب transform ولا إحداثيات path d، فهو مؤشر قوي لا إثبات هندسي كامل.",
+    "الفحص الأمني نظيف في الصفحات الـ39 كلها: صفر script، صفر foreignObject، صفر سمات on*، صفر javascript:، صفر مرجع http(s) خارجي، صفر data:، صفر image مضمَّن، صفر use خارجي، صفر iframe أو embed أو object، صفر @import. لا يوجد اكتشاف يحتاج قرارًا مكتوبًا.",
+    "قيمة encoding مستنتجة لا مقروءة: لا يحتوي أي ملف إعلان XML ولا BOM، ونجاح تحليل XML على البايتات دون إعلان يعني أن البايتات UTF-8 صالحة.",
+    "نهايات الأسطر داخل الأصول الـ39 كلها CRLF. لم تُغيَّر ولا يجوز تغييرها، وقاعدة *.svg -text في .gitattributes تغطيها وفق ADR-0005 البند 11.",
+    "الحجم المقيس: المجموع 647957 بايت، والمتوسط 16614 بايت بالتقريب إلى الأدنى، وأصغر ملف 10335 بايت في page-038، وأكبر ملف 28892 بايت في page-016.",
+    "الخطوط المستدعاة في الصفحات الـ39 كلها: Arial وComic Sans MS وSegoe Print وSegoe UI وTahoma وsans-serif. وتزيد 5 صفحات، page-010 وpage-011 وpage-017 وpage-018 وpage-023، خطوط الشيفرة Consolas وCourier New وMenlo وmonospace، ولا تزيد أي صفحة خطًّا آخر. قيد معروف مسجَّل في ADR-0004 §23 ولا يُعالَج بتعديل الأصول.",
+    "عنوان الدرس في الصفحة الرئيسة «أساسيات تكنولوجيا الواجهة الأمامية»، وهو في page-001 «أساسيات تقنية الواجهة الأمامية»، فطابق displayTitleAr سطر الرئيسة حرفًا بحرف وفق README، ومن page-001 displayTitleEn «Fundamentals of Frontend Technology». وpivotQuestionAr بنص المالك المكتوب حرفيًّا، إذ لا تسمية «السؤال الرئيسي» في الأصول. ووصف كل صفحة (descriptionAr، وهو نص alt) بقاعدة المالك المكتوبة: الصفحة التي أول بند فيها عنوان رئيسي بخط 44 غامق وصفها ذلك العنوان، وهي 9 صفحات (page-002، page-004، page-006، page-015، page-021، page-026، page-032، page-037، page-039)، والافتتاحية page-001 وصفها أول بند فيها، وكل صفحة سواهما وصفها «تابع: » ثم آخر عنوان رئيسي قبلها حرفيًّا، وهي 29 صفحة.",
+    "تحتوي 16 بندًا في 7 صفحات على العلامتين < أو >، وهي أمثلة شيفرة وأسماء وسوم: page-010، page-011، page-012، page-016، page-017، page-018، page-019. ويحتوي بندان في page-003 وpage-009 على العلامة & في «PAUSE & THINK». وتُهرَّب في HTML.",
+    "نصوص الصفحات مستخرجة آليًّا من عناصر <text> بترتيب المستند، ثم طُبّقت عليها قاعدة حذف علامات الترقيم البصرية وحدها المسجلة في ADR-0024 D7 وREADME. وطوبق مجموع عناصر النص في الأصول وهو 412 مع عدد البنود المنشورة وهو 412، ولا فرق بينهما: لا تحتوي الأصول بند ترقيم منفردًا ولا عنصر نص فارغًا."
+  ],
+  "contextSections": {
+    "structureSummaryAr": "افتتاحية 001. ماذا يحدث داخل صفحة الويب؟ 002–003. قبل أن نبدأ: أين تعيش صفحة الويب؟ 004–005. فريق الصفحة: HTML وCSS وJavaScript 006–014. ‏HTML الدلالية: لافتات على الرفوف 015–020. التصميم المتجاوب: صفحة مثل الماء 021–025. المكتبات وأطر العمل: لا تُعِد اختراع العجلة 026–031. راجع بذكاء 032–036. كيف تأخذ الدرجة كاملة؟ 037–038. السطر الذهبي 039.",
+    "statusAr": "الـManifest بحالة `published` وأصوله الـ39 في مسارها القانوني. ونصوص الصفحات بلغتيها في HTML فهي مقروءة دون JavaScript، والعارض تحسين تدريجي فوقها. والحالة الجارية في `docs/ai/ARCHITECT_EVIDENCE_LEDGER.md`.",
+    "pagesNarrativeAr": "39 صفحة: افتتاحية واحدة (`page-001`) و38 صفحة محتوى (`page-002` … `page-039`) بترقيم متصل بلا فجوة. و`viewBox` «0 0 1080 1350» وفحص أمني نظيف في كلها. والمراسي حتمية: `#page-1` ⇄ `page-001.svg` حتى `#page-39` ⇄ `page-039.svg`. والوصف «تابع: » يعني أن الصفحة تكمل آخر عنوان رئيسي قبلها.",
+    "constraintsAr": "**الخطوط.** Tahoma وSegoe Print وComic Sans MS وSegoe UI وArial، وخطوط الشيفرة Consolas وCourier New وMenlo في `page-010` و`page-011` و`page-017` و`page-018` و`page-023`، قد تغيب على أندرويد، وعلاجها خارج الأصول وفق `ADR-0004 §23`. **الألوان.** العرض عبر `<img>` يعزل الأصل عن الوضع الليلي. **المنطقة السفلى.** 13 عنصر نص عند `y = 1188` أو دونه في 3 صفحات، أعلاها 1234 في `page-004`، وقائمتها في الـManifest، سُجّلت ولم توقف النشر. **البايتات ثابتة.** CRLF بلا إعلان XML ولا BOM، وأي تعديل يُبطل البصمات.",
+    "decidedAr": "المسار والمعرّفات وفق `ADR-0004`، والصفحات الـ39 وترتيبها وأدوارها، والسؤال المحوري بنص المالك، ووصف «تابع: » بقاعدته المكتوبة. صفر Dependencies وصفر Build Step.",
+    "undecidedAr": "روابط Previous/Next بين الدروس. فهرس `/courses/` وفهارس Course وTerm وChapter. Structured Data. الخطوط على أندرويد. مراسي `#concept-*`.",
+    "howToUseAr": "مصدرك لجرد بنية الدرس وقيوده. **لا تطلب ملف SVG** وفق `ADR-0005` §10. النص في HTML صفحة الدرس، والجرد والبصمات في الـManifest. ولا تحرّر مخرَجًا منشورًا: غيّر الـconfig وأعد التوليد وفق `ADR-0024`، ولا تخترع رقمًا ولا بصمة."
+  },
+  "svgSourceDir": "assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-03/lesson-03",
+  "pages": [
+    {
+      "id": "page-001",
+      "htmlId": "page-1",
+      "role": "opening",
+      "descriptionAr": "الدرس 3-3",
+      "transcript": [
+        {
+          "text": "الدرس 3-3",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "أساسيات تقنية الواجهة الأمامية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Lesson 3-3",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "Fundamentals of Frontend Technology",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-002",
+      "htmlId": "page-2",
+      "role": "content",
+      "descriptionAr": "ماذا يحدث داخل صفحة الويب؟",
+      "transcript": [
+        {
+          "text": "ماذا يحدث داخل صفحة الويب؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "What Happens Inside a Web Page?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كل يوم تفتح عشرات صفحات الويب. هل سألت نفسك: مما تتكون الصفحة التي تراها؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Every day you open dozens of web pages. Have you ever asked: what is the page you see made of?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جرّب بنفسك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Try It Yourself",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "افتح أي موقع في متصفح Firefox.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Open any website in the Firefox browser.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اضغط Alt لإظهار القائمة، ثم اختر: View → Page Style → No Style",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Press Alt to show the menu, then choose: View → Page Style → No Style.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قبل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Before",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "بعد",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "After",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-003",
+      "htmlId": "page-3",
+      "role": "content",
+      "descriptionAr": "تابع: ماذا يحدث داخل صفحة الويب؟",
+      "transcript": [
+        {
+          "text": "توقّف وفكّر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "PAUSE & THINK",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ظهرت الصفحة نصوصًا سوداء وروابط زرقاء فوق بعضها. هل تعطّل الموقع؟ ما الذي اختفى؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The page now shows black text and blue links stacked on top of each other. Is the site broken? What disappeared?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المحتوى كله ما زال موجودًا؛ هذا هو HTML. أما الذي اختفى فهو التنسيق؛ وهذا هو CSS.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "All the content is still there; that is HTML. What disappeared is the styling; that is CSS.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يمكن أن تعمل الصفحة بـ HTML وحده، ويُضاف CSS وJavaScript حسب الحاجة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A page can work with HTML alone; CSS and JavaScript are added as needed.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-004",
+      "htmlId": "page-4",
+      "role": "content",
+      "descriptionAr": "قبل أن نبدأ: أين تعيش صفحة الويب؟",
+      "transcript": [
+        {
+          "text": "قبل أن نبدأ: أين تعيش صفحة الويب؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Before We Start: Where Does a Web Page Live?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الواجهة الأمامية Frontend: كل ما تراه وتتعامل معه مباشرة في المتصفح، مثل فاترينة المحل والكاشير.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Frontend: everything you see and use directly in the browser, like a shop's window and cashier.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الواجهة الخلفية Backend: الجزء الذي يعمل على الخادم ويخزّن البيانات ويعالجها، مثل المخزن خلف المحل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Backend: the part that runs on the server and stores and processes data, like the storeroom behind the shop.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هذا الدرس كله عن الواجهة الأمامية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "This lesson is all about the frontend.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الواجهة الأمامية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Frontend",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الواجهة الخلفية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Backend",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-005",
+      "htmlId": "page-5",
+      "role": "content",
+      "descriptionAr": "تابع: قبل أن نبدأ: أين تعيش صفحة الويب؟",
+      "transcript": [
+        {
+          "text": "مصطلحات أساسية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "KEY TERMS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "صفحة الويب Web Page: مستند يُعرض في المتصفح، يُكتب أساسًا بلغة HTML.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Web page: a document shown in a browser, written mainly in HTML.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الموقع الإلكتروني Website: مجموعة صفحات مترابطة؛ الموقع كتاب والصفحة ورقة منه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Website: a group of linked pages; the site is a book and a page is one sheet.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المتصفح Browser: برنامج يقرأ HTML وCSS وJavaScript ويحوّلها إلى صفحة تراها وتتفاعل معها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Browser: a program that reads HTML, CSS, and JavaScript and turns them into a page you can see and use.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "العميل Client والخادم Server: العميل جهازك ومتصفحك يطلب الصفحة، والخادم حاسوب يرسلها إليه، كالزبون والنادل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Client and server: the client, your device and browser, requests the page; the server, a computer, sends it, like a customer and a waiter.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-006",
+      "htmlId": "page-6",
+      "role": "content",
+      "descriptionAr": "فريق الصفحة: HTML وCSS وJavaScript",
+      "transcript": [
+        {
+          "text": "فريق الصفحة: HTML وCSS وJavaScript",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Page Team: HTML, CSS, and JavaScript",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "HTML",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "CSS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "JavaScript",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "البيت يتبني ← يتدهن ← يتكهرب",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Build it → paint it → wire it",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏HTML يبني، وCSS يدهن، وJavaScript يكهرب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "HTML builds, CSS paints, JavaScript wires.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "وبتشبيه الجسم: HTML هو الهيكل العظمي، وCSS هو الملابس والشكل، وJavaScript هو العضلات التي تحرّكه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Like a body: HTML is the skeleton, CSS is the clothes and look, and JavaScript is the muscles that move it.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-007",
+      "htmlId": "page-7",
+      "role": "content",
+      "descriptionAr": "تابع: فريق الصفحة: HTML وCSS وJavaScript",
+      "transcript": [
+        {
+          "text": "التقنية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Technology",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تقول عن نفسها",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Says about itself",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كلمة الامتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Exam keyword",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "HTML",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«أنا موجود»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“I exist”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "البنية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Structure",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "CSS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«أنا شيك»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“I look sharp”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المظهر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Appearance",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "JavaScript",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«أنا بتحرك وبرد عليك»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“I move and respond to you”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "السلوك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Behavior",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "حيلة الحروف: HTML أربعة حروف وCSS ثلاثة؛ الهيكل هو الأساس فأخذ حروفًا أكثر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Letter trick: HTML has four letters and CSS three; the frame is the base, so it got more letters.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-008",
+      "htmlId": "page-8",
+      "role": "content",
+      "descriptionAr": "تابع: فريق الصفحة: HTML وCSS وJavaScript",
+      "transcript": [
+        {
+          "text": "تخيّل: ثلاثة أصدقاء يبنون زر إعجاب",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Imagine: Three Friends Build a Like Button",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "صديق HTML يرسم مستطيلًا مكتوبًا فيه «أعجبني»، وتحته «الإعجابات: 0».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The HTML friend draws a box that says “Like”, with “Likes: 0” under it.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "صديق CSS يلوّنه بالبرتقالي ويدوّر حوافه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The CSS friend colors it orange and rounds its corners.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "صديق JavaScript يزيد الرقم واحدًا كلما ضغطت على الزر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The JavaScript friend adds one to the number each time you press the button.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "HTML",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "CSS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "JavaScript",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-009",
+      "htmlId": "page-9",
+      "role": "content",
+      "descriptionAr": "تابع: فريق الصفحة: HTML وCSS وJavaScript",
+      "transcript": [
+        {
+          "text": "توقّف وفكّر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "PAUSE & THINK",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ماذا يحدث لو غاب صديق CSS؟ ولو غاب صديق JavaScript؟ ولو غاب صديق HTML؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "What happens if the CSS friend is absent? The JavaScript friend? The HTML friend?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "من غاب؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Who is missing?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ماذا يحدث؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "What happens?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "CSS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "زر يعمل لكن شكله عادي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A working button with a plain look",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "JavaScript",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "زر جميل لكن الضغط عليه لا يفعل شيئًا",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A nice button that does nothing when pressed",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "HTML",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لا يوجد زر أصلًا!",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "There is no button at all!",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-010",
+      "htmlId": "page-10",
+      "role": "content",
+      "descriptionAr": "تابع: فريق الصفحة: HTML وCSS وJavaScript",
+      "transcript": [
+        {
+          "text": "الشيء نفسه بالكود",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Same Thing in Code",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ما تخيّلته حقيقي؛ هذا هو زر الإعجاب بالكود:",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "What you imagined is real; here is the Like button in code:",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "HTML <button id=\"likeBtn\">Like</button> <p>Likes: <span id=\"count\">0</span></p>",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "CSS #likeBtn { background: orange; color: white; border-radius: 12px; }",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏HTML هو الأساس: من غيره لا توجد صفحة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "HTML is the base: without it, there is no page.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-011",
+      "htmlId": "page-11",
+      "role": "content",
+      "descriptionAr": "تابع: فريق الصفحة: HTML وCSS وJavaScript",
+      "transcript": [
+        {
+          "text": "JavaScript let count = 0; const btn = document.getElementById(\"likeBtn\"); const out = document.getElementById(\"count\"); btn.addEventListener(\"click\", () => { count++; out.textContent = count; });",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "السطر addEventListener معناه: «انتظر حدث النقر click، وعندما يحدث نفّذ ما بين القوسين».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The addEventListener line means: “wait for the click event, and when it happens, run what is inside the braces.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لاحظ",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "NOTICE",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏JavaScript غيّر الرقم وحده ولم يُعِد تحميل الصفحة كلها؛ هذا معنى «تحديث جزء فقط من الشاشة».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "JavaScript changed only the number without reloading the whole page; this is what “updating only part of the screen” means.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-012",
+      "htmlId": "page-12",
+      "role": "content",
+      "descriptionAr": "تابع: فريق الصفحة: HTML وCSS وJavaScript",
+      "transcript": [
+        {
+          "text": "مصطلحات أساسية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "KEY TERMS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏HTML: اختصار HyperText Markup Language، أي لغة ترميز النص التشعبي؛ تصف بنية الصفحة بالوسوم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "HTML: short for HyperText Markup Language; it describes the page's structure using tags.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الوسم Tag: كلمة بين قوسين زاويين تحدد نوع المحتوى، مثل <p> للفقرة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Tag: a word between angle brackets that sets the type of content, such as <p> for a paragraph.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "العنصر Element: الوسم الافتتاحي ومحتواه والوسم الختامي معًا، مثل <p>Hello</p>.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Element: the opening tag, its content, and the closing tag together, such as <p>Hello</p>.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏CSS: اختصار Cascading Style Sheets، أي أوراق الأنماط المتتالية؛ تحدد الألوان والخطوط والأحجام والتخطيط.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "CSS: short for Cascading Style Sheets; it sets colors, fonts, sizes, and layout.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-013",
+      "htmlId": "page-13",
+      "role": "content",
+      "descriptionAr": "تابع: فريق الصفحة: HTML وCSS وJavaScript",
+      "transcript": [
+        {
+          "text": "وسم افتتاحي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Opening tag",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المحتوى",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Content",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "وسم ختامي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Closing tag",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "العنصر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Element",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مصطلحات أساسية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "KEY TERMS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التخطيط Layout: ترتيب العناصر وأماكنها على الصفحة، مثل توزيع الأثاث في الغرفة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Layout: the arrangement and position of elements on the page, like furniture in a room.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الحدث Event: فعل يحدث في الصفحة، كالنقر، فيستجيب له JavaScript، مثل جرس الباب حين يرن.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Event: an action on the page, such as a click, that JavaScript responds to, like a doorbell ringing.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-014",
+      "htmlId": "page-14",
+      "role": "content",
+      "descriptionAr": "تابع: فريق الصفحة: HTML وCSS وJavaScript",
+      "transcript": [
+        {
+          "text": "معلومة تميّزك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "STAND-OUT FACT",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏HTML وCSS ليستا لغتي برمجة: HTML لغة ترميز تصف المحتوى، وCSS لغة تنسيق. أما JavaScript فلغة برمجة فيها شروط وتكرار وحسابات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "HTML and CSS are not programming languages: HTML is a markup language that describes content, and CSS is a style language. JavaScript is a programming language with conditions, loops, and calculations.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التفاعلية Interactivity: قدرة الصفحة على الاستجابة لأفعالك، كالنقر والكتابة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Interactivity: the page's ability to respond to your actions, like clicking and typing.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التحقق من المدخلات Validation: فحص ما تكتبه في النموذج قبل إرساله؛ وتقدر HTML على تحقق بسيط مثل required، والمخصص بـ JavaScript.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Validation: checking what you type in a form before sending it; HTML can do simple checks like required, and custom checks use JavaScript.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-015",
+      "htmlId": "page-15",
+      "role": "content",
+      "descriptionAr": "‏HTML الدلالية: لافتات على الرفوف",
+      "transcript": [
+        {
+          "text": "‏HTML الدلالية: لافتات على الرفوف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Semantic HTML: Signs on the Shelves",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جرّب: أغمض عينيك وحاول أن تصل إلى قائمة التنقل في موقع. صعب، أليس كذلك؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Try it: close your eyes and try to reach the menu of a website. Hard, isn't it?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هذا ما يعيشه الكفيف كل يوم؛ لذلك يستخدم قارئ الشاشة Screen Reader، وهو برنامج يقرأ الصفحة بصوت مسموع.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A blind user lives this every day, so they use a screen reader, a program that reads the page aloud.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قارئ الشاشة لا يرى الألوان؛ إنه يقرأ أسماء العناصر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A screen reader does not see colors; it reads the names of the elements.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-016",
+      "htmlId": "page-16",
+      "role": "content",
+      "descriptionAr": "تابع: ‏HTML الدلالية: لافتات على الرفوف",
+      "transcript": [
+        {
+          "text": "ألبان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Dairy",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مخبوزات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Bakery",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "منظفات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Cleaning",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "سوبر ماركت رفوفه صناديق مغلقة بلا لافتات، ستفتح كل صندوق لتعرف ما فيه. والمنظم على كل ممر لافتة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In a store whose shelves are closed boxes with no signs, you must open each box to know what's inside. An organized store has a sign on every aisle.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الصفحة المبنية بصناديق <div> عامة هي المتجر الأول، والصفحة الدلالية هي الثاني.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A page built from generic <div> boxes is the first store; a semantic page is the second.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-017",
+      "htmlId": "page-17",
+      "role": "content",
+      "descriptionAr": "تابع: ‏HTML الدلالية: لافتات على الرفوف",
+      "transcript": [
+        {
+          "text": "بدون دلالة: صناديق بلا لافتات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Without Meaning: Boxes with No Signs",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "HTML <div class=\"top\">...</div> <div class=\"menu\">...</div> <div class=\"content\">...</div> <div class=\"bottom\">...</div>",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "بدلالة: كل صندوق عليه لافتة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "With Meaning: Every Box Has a Sign",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "HTML <header>...</header> <nav>...</nav> <main>...</main> <footer>...</footer>",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قد تبدو الصفحتان متطابقتين؛ الفرق في المعنى لا في الشكل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The two pages may look identical; the difference is in meaning, not looks.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-018",
+      "htmlId": "page-18",
+      "role": "content",
+      "descriptionAr": "تابع: ‏HTML الدلالية: لافتات على الرفوف",
+      "transcript": [
+        {
+          "text": "العنصر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Element",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "وظيفته",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Its job",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "<header>",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "رأس الصفحة: الشعار والعنوان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The page top: logo and title",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "<nav>",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "روابط التنقل الرئيسية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The main navigation links",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "<main>",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المحتوى الرئيسي، مرة واحدة فقط",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The main content, only once",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "<footer>",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ذيل الصفحة: الحقوق والتواصل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The page bottom: copyright, contact",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-019",
+      "htmlId": "page-19",
+      "role": "content",
+      "descriptionAr": "تابع: ‏HTML الدلالية: لافتات على الرفوف",
+      "transcript": [
+        {
+          "text": "إمكانية الوصول",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Accessibility",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "SEO",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "SEO",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قارئ الشاشة: يقول له المستخدم «انتقل إلى المحتوى الرئيسي» فيقفز إلى <main>. هذه إمكانية الوصول Accessibility.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Screen reader: the user says “go to main content” and it jumps to <main>. This is accessibility.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "محرك البحث: أمين مكتبة آلي يقرأ الصفحات ويرتبها في فهرسه، واللافتات تساعده على فهمها. هذا هو SEO.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Search engine: an automatic librarian that reads pages and sorts them in its index; the signs help it understand them. This is SEO.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-020",
+      "htmlId": "page-20",
+      "role": "content",
+      "descriptionAr": "تابع: ‏HTML الدلالية: لافتات على الرفوف",
+      "transcript": [
+        {
+          "text": "فخ الامتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "EXAM TRAP",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏HTML الدلالية تساعد محرك البحث لكنها لا تضمن المركز الأول، ولا تجعل الصفحة أجمل أو أسرع بالضرورة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Semantic HTML helps search engines but does not guarantee first place, and does not necessarily make the page prettier or faster.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مصطلحات تميّزك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "STAND-OUT TERMS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الفهرسة Indexing: قراءة محرك البحث للصفحة وتخزين معلوماتها في فهرسه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Indexing: a search engine reading a page and storing its information in its index.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التقنيات المساعدة Assistive Technologies: أدوات تساعد ذوي الإعاقة على استخدام الحاسوب، ومنها قارئ الشاشة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Assistive technologies: tools that help people with disabilities use computers, such as screen readers.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-021",
+      "htmlId": "page-21",
+      "role": "content",
+      "descriptionAr": "التصميم المتجاوب: صفحة مثل الماء",
+      "transcript": [
+        {
+          "text": "التصميم المتجاوب: صفحة مثل الماء",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Responsive Design: A Page Like Water",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "صُبّ الماء في كوب فيأخذ شكل الكوب، وفي زجاجة فيأخذ شكلها. الماء واحد، لكنه يتكيف مع الوعاء.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Pour water into a cup and it takes the cup's shape; into a bottle, the bottle's. The water is the same, but it adapts to the container.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التصميم المتجاوب: صفحة واحدة يتكيف تخطيطها تلقائيًا مع أي شاشة: كمبيوتر أو جهاز لوحي أو هاتف.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Responsive design: one page whose layout adapts automatically to any screen: computer, tablet, or phone.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-022",
+      "htmlId": "page-22",
+      "role": "content",
+      "descriptionAr": "تابع: التصميم المتجاوب: صفحة مثل الماء",
+      "transcript": [
+        {
+          "text": "جرّب بنفسك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Try It Yourself",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "افتح أي موقع على الكمبيوتر، ثم صغّر عرض النافذة تدريجيًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Open any website on a computer, then slowly make the window narrower.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أو اضغط F12 لفتح أدوات المطور، ثم Ctrl+Shift+M لتجربة مقاسات الهواتف.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Or press F12 to open developer tools, then Ctrl+Shift+M to try phone sizes.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "راقب: تتحول الأعمدة الثلاثة إلى عمودين ثم عمود واحد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Watch: three columns turn into two, then one.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هل تغيّر الموقع؟ لا، الصفحة نفسها، لكن التخطيط Layout هو الذي تكيّف.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Did the site change? No, it is the same page, but the layout adapted.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-023",
+      "htmlId": "page-23",
+      "role": "content",
+      "descriptionAr": "تابع: التصميم المتجاوب: صفحة مثل الماء",
+      "transcript": [
+        {
+          "text": "كيف يحدث ذلك؟ الاستعلام الإعلامي Media Query",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "How Does It Happen? The Media Query",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قاعدة في CSS تطبق تنسيقًا مختلفًا حسب عرض الشاشة، ومعناها: «لو الشاشة صغيرة، اعمل كذا».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A CSS rule that applies different styling based on screen width; it means: “if the screen is small, do this.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "CSS .cards { display: flex; } @media (max-width: 600px) { .cards { flex-direction: column; } }",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ترجمتها",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "IN PLAIN WORDS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "البطاقات بجانب بعضها، إلا إذا كان عرض الشاشة 600 بكسل أو أقل، فتنزل تحت بعضها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The cards sit side by side, unless the screen is 600 pixels wide or less; then they stack.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-024",
+      "htmlId": "page-24",
+      "role": "content",
+      "descriptionAr": "تابع: التصميم المتجاوب: صفحة مثل الماء",
+      "transcript": [
+        {
+          "text": "لو بدأت بحقيبة صغيرة ستضع الأساسيات فقط، ثم تضيف الكماليات حين تكبر الحقيبة. والعكس صعب جدًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Start with a small suitcase and you pack only the essentials, then add extras as the bag grows. The reverse is very hard.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الأولوية للجوال Mobile-first: نصمم للهاتف أولًا، ثم نضيف للشاشات الأكبر، لأن كثيرًا من الناس يتصفحون من الهاتف.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Mobile-first: design for the phone first, then add for bigger screens, because many people browse on phones.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-025",
+      "htmlId": "page-25",
+      "role": "content",
+      "descriptionAr": "تابع: التصميم المتجاوب: صفحة مثل الماء",
+      "transcript": [
+        {
+          "text": "فخ الامتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "EXAM TRAP",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "سبب الحاجة إلى التصميم المتجاوب هو تنوع الأجهزة، لا سرعة العرض ولا الترتيب في البحث.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Responsive design is needed because devices vary, not for display speed or search ranking.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مصطلحات تميّزك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "STAND-OUT TERMS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "منفذ العرض Viewport: المساحة المرئية من الصفحة على شاشة الجهاز.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Viewport: the visible area of the page on the device screen.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "سهولة الاستخدام Usability: مدى سهولة استخدام الصفحة وراحة المستخدم فيها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Usability: how easy and comfortable the page is to use.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-026",
+      "htmlId": "page-26",
+      "role": "content",
+      "descriptionAr": "المكتبات وأطر العمل: لا تُعِد اختراع العجلة",
+      "transcript": [
+        {
+          "text": "المكتبات وأطر العمل: لا تُعِد اختراع العجلة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Libraries and Frameworks: Don't Reinvent the Wheel",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "شخصان يجهّزان مطبخًا: الأول يصنع كل دولاب بيده فيستغرق شهورًا، والثاني يركّب وحدات جاهزة فينتهي في أيام.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Two people set up a kitchen: one builds every cabinet by hand and takes months; the other installs ready-made units and finishes in days.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "إطار العمل: لا تكتب كل الكود من الصفر، بل ابنِ على أجزاء جاهزة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Framework: don't write all the code from scratch; build on ready-made parts.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-027",
+      "htmlId": "page-27",
+      "role": "content",
+      "descriptionAr": "تابع: المكتبات وأطر العمل: لا تُعِد اختراع العجلة",
+      "transcript": [
+        {
+          "text": "المكوّن Component: جزء مستقل من الواجهة يمكن إعادة استخدامه، مثل زر أو بطاقة أو قائمة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Component: an independent part of the interface that can be reused, such as a button, a card, or a menu.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثل قالب الكحك: تصمم «بطاقة منتج» مرة واحدة، ثم تستخدمها مئة مرة ببيانات مختلفة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Like a cookie mold: design a “product card” once, then use it a hundred times with different data.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "السحر هنا",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "HERE'S THE MAGIC",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "عدّل البطاقة مرة واحدة، فتتغير المئة كلها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Edit the card once, and all hundred change.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-028",
+      "htmlId": "page-28",
+      "role": "content",
+      "descriptionAr": "تابع: المكتبات وأطر العمل: لا تُعِد اختراع العجلة",
+      "transcript": [
+        {
+          "text": "معلومة تميّزك: المكتبة أم إطار العمل؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Stand-Out Fact: Library or Framework?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المكتبة Library مثل صندوق العدة: أنت تختار الأداة وتستدعيها وقتما تحتاج.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A library is like a toolbox: you pick the tool and call it when you need it.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "إطار العمل Framework مثل قالب البيت الجاهز: هو يحدد الهيكل والقواعد، وأنت تملأ الأماكن التي حددها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A framework is like a ready house frame: it sets the structure and rules, and you fill the places it defines.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مع المكتبة: أنت تستدعي الكود. مع الإطار: الإطار يستدعي كودك.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "With a library, you call the code. With a framework, the framework calls your code.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-029",
+      "htmlId": "page-29",
+      "role": "content",
+      "descriptionAr": "تابع: المكتبات وأطر العمل: لا تُعِد اختراع العجلة",
+      "transcript": [
+        {
+          "text": "ثلاثة أسماء ستسمعها كثيرًا",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Three Names You Will Hear a Lot",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الاسم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Name",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "النوع",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Type",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "React",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مكتبة JavaScript من Meta",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A JavaScript library by Meta",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "Vue",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "إطار عمل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A framework",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "Next.js",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "إطار عمل مبني على React",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A framework built on React",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏React «ملكة المكونات»: تبني الواجهة من قطع، وتحدّث الجزء الذي تغيّر فقط.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "React, “queen of components”: builds the interface from parts and updates only what changed.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-030",
+      "htmlId": "page-30",
+      "role": "content",
+      "descriptionAr": "تابع: المكتبات وأطر العمل: لا تُعِد اختراع العجلة",
+      "transcript": [
+        {
+          "text": "‏Vue «السهل التدريجي»: تبدأ به صغيرًا وتكبر خطوة خطوة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Vue, “the easy step-by-step one”: start small and grow step by step.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏Next.js «‏React ومعه عدة كاملة»: يضيف التوجيه Routing بين الصفحات وطرقًا لتسريع عرضها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Next.js, “React with a full toolkit”: adds routing between pages and ways to speed up their display.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "React",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "Next.js",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "Vue",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-031",
+      "htmlId": "page-31",
+      "role": "content",
+      "descriptionAr": "تابع: المكتبات وأطر العمل: لا تُعِد اختراع العجلة",
+      "transcript": [
+        {
+          "text": "مصطلحات أساسية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "KEY TERMS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المكتبة Library: كود جاهز يستدعيه المطوّر عند الحاجة لأداء مهام محددة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Library: ready-made code that a developer calls when needed for specific tasks.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "إطار العمل Framework: بنية توفر مسبقًا وظائف ومكونات شائعة، وتحدد طريقة تنظيم التطبيق.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Framework: a structure that provides common functions and components in advance and sets how the app is organized.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التوجيه Routing: الانتقال بين صفحات التطبيق حسب الرابط.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Routing: moving between the app's pages based on the link.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "العرض Rendering: تحويل الكود والبيانات إلى صفحة مرئية، على الخادم أو في المتصفح.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Rendering: turning code and data into a visible page, on the server or in the browser.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-032",
+      "htmlId": "page-32",
+      "role": "content",
+      "descriptionAr": "راجع بذكاء",
+      "transcript": [
+        {
+          "text": "راجع بذكاء",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Smart Review",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خمّن: مين أنا؟ اكتب اسم التقنية أو المصطلح.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Guess: who am I? Write the name of the technology or term.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "1 «أنا اللي حطيت العنوان والصورة في الصفحة، ومن غيري مفيش صفحة.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 “I put the heading and the image on the page; without me, there's no page.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 «أنا اللي خليت الزرار أخضر والخط كبير.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 “I made the button green and the text big.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "3 «كتبت في خانة البحث فالنتائج اتغيرت قدامك من غير ما الصفحة تتحمّل تاني.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 “You typed in the search box and the results changed without reloading the page.”",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-033",
+      "htmlId": "page-33",
+      "role": "content",
+      "descriptionAr": "تابع: راجع بذكاء",
+      "transcript": [
+        {
+          "text": "4 «شكلي زي الصندوق العادي بالظبط، بس اسمي بيقول أنا مين.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "4 “I look exactly like a plain box, but my name says what I am.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "5 «فتحت الموقع على الموبايل فالأعمدة نزلت تحت بعض.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "5 “You opened the site on a phone and the columns stacked.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "6 «عملت بطاقة واحدة واستخدمتها مية مرة.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "6 “You made one card and used it a hundred times.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "7 «المطوّر مكتبش كل حاجة من الصفر بسببي.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "7 “Because of me, the developer didn't write everything from scratch.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "8 «بقرأ الصفحة بصوت عالي لصاحب الإعاقة البصرية.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "8 “I read the page aloud for a visually impaired user.”",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-034",
+      "htmlId": "page-34",
+      "role": "content",
+      "descriptionAr": "تابع: راجع بذكاء",
+      "transcript": [
+        {
+          "text": "إجابات «مين أنا؟»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“Who Am I?” Answers",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏1 ← HTML",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "1 → HTML",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏2 ← CSS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 → CSS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏3 ← JavaScript",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "3 → JavaScript",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏4 ← HTML الدلالية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "4 → semantic HTML",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏5 ← التصميم المتجاوب",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "5 → responsive design",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏6 ← المكوّن",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "6 → component",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏7 ← إطار العمل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "7 → framework",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏8 ← قارئ الشاشة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "8 → screen reader",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أجبت 8 من 8؟ أنت جاهز للامتحان!",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "8 out of 8? You're ready for the exam!",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-035",
+      "htmlId": "page-35",
+      "role": "content",
+      "descriptionAr": "تابع: راجع بذكاء",
+      "transcript": [
+        {
+          "text": "أفخاخ الامتحان: ○ أم ×؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Exam Traps: ○ or ×?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏× CSS تضيف سلوكًا إلى الصفحة. ‏← CSS للمظهر، والسلوك لـ JavaScript.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "× CSS adds behavior to the page. → CSS is for appearance; behavior is JavaScript.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏× HTML الدلالية تجعل الصفحة أسرع بالضرورة. ← فائدتها الفهم: إمكانية الوصول وSEO.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "× Semantic HTML necessarily makes the page faster. → Its benefit is understanding: accessibility and SEO.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏× HTML الدلالية تضمن المركز الأول في البحث. ← تساعد ولا تضمن.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "× Semantic HTML guarantees first place in search. → It helps but does not guarantee.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "× التصميم المتجاوب لرفع الترتيب في البحث. ← سببه تنوع الأجهزة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "× Responsive design is for raising search ranking. → Its reason is the variety of devices.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-036",
+      "htmlId": "page-36",
+      "role": "content",
+      "descriptionAr": "تابع: راجع بذكاء",
+      "transcript": [
+        {
+          "text": "× إطار العمل لغة لتحديد بنية الصفحة. ← هذه HTML؛ الإطار بنية جاهزة للتطوير.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "× A framework is a language for defining page structure. → That is HTML; a framework is a ready structure for development.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "× لا بد أن تستخدم كل صفحة التقنيات الثلاث. ‏← HTML وحده يكفي لصفحة بسيطة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "× Every page must use all three technologies. → HTML alone is enough for a simple page.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏× HTML لغة برمجة. ‏← HTML لغة ترميز.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "× HTML is a programming language. → HTML is a markup language.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏○ Next.js مبني على React. ← إطار عمل فوق مكتبة React.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "○ Next.js is built on React. → A framework on top of the React library.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "○ قد تبدو الصفحة الدلالية وغير الدلالية متطابقتين. ← الفرق في المعنى لا في الشكل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "○ A semantic page and a non-semantic page may look identical. → The difference is in meaning, not looks.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-037",
+      "htmlId": "page-37",
+      "role": "content",
+      "descriptionAr": "كيف تأخذ الدرجة كاملة؟",
+      "transcript": [
+        {
+          "text": "كيف تأخذ الدرجة كاملة؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "How to Get Full Marks",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "سؤال على نمط الامتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "EXAM-STYLE QUESTION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اشرح كيف تساهم كل من HTML و CSS و JavaScript في صفحة مكتبة تعرض قائمة كتب، وتكون منسّقة، وتُصفّي النتائج أثناء كتابة المستخدم. [6 درجات]",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Explain how HTML, CSS, and JavaScript each contribute to a library page that lists books, is styled, and filters the results as the user types. [6 marks]",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "القاعدة الذهبية: مصطلح الكتاب + مثال من السؤال = الدرجة كاملة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Golden rule: textbook term + example from the question = full marks.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "درجتان لكل تقنية: دورها، ثم مثال عليه من السؤال.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Two marks per technology: its role, then an example from the question.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-038",
+      "htmlId": "page-38",
+      "role": "content",
+      "descriptionAr": "تابع: كيف تأخذ الدرجة كاملة؟",
+      "transcript": [
+        {
+          "text": "نموذج الإجابة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Model Answer",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏HTML (درجتان): تبني بنية الصفحة، فتضع العنوان وقائمة الكتب وخانة البحث.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "HTML (2 marks): builds the page's structure, placing the heading, the book list, and the search box.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏CSS (درجتان): تحدد مظهر الصفحة، مثل ألوان المكتبة والخطوط وعرض الكتب في بطاقات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "CSS (2 marks): sets the page's appearance, such as the library's colors, the fonts, and showing books as cards.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏JavaScript (درجتان): تضيف السلوك، فتستجيب لكتابة المستخدم في خانة البحث وتعرض الكتب المطابقة فقط دون إعادة تحميل الصفحة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "JavaScript (2 marks): adds behavior, responding to what the user types in the search box and showing only matching books without reloading the page.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "انتبه",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "WATCH OUT",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "إجابة «HTML للبنية» وحدها قد تأخذ نصف الدرجة فقط.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Writing only “HTML is for structure” may earn just half the marks.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-039",
+      "htmlId": "page-39",
+      "role": "content",
+      "descriptionAr": "السطر الذهبي",
+      "transcript": [
+        {
+          "text": "السطر الذهبي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Golden Line",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏HTML يبني، CSS يدهن، JavaScript يكهرب؛ والدلالية تفهّم، والمتجاوب يكيّف، والإطار يوفّر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "HTML builds, CSS paints, JavaScript wires; semantic HTML explains, responsive design adapts, and frameworks save effort.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "النصف الأول هو الصفحة، والثاني ما يجعلها حديثة؛ احفظه تصل منه إلى كل الدرس.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The first half is the page; the second, what makes it modern. Memorize it to recall the whole lesson.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يبني",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "builds",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يدهن",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "paints",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يكهرب",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "wires",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تفهّم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "explains",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يكيّف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "adapts",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يوفّر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "saves effort",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    }
+  ]
+}

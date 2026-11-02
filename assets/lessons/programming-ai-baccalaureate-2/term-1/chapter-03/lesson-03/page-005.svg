@@ -1,0 +1,215 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Info card: shadow, fill, accent -->
+<rect x="109" y="128" width="870" height="968" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="122" width="870" height="968" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="936" rx="3" fill="#2f7fb5"/>
+
+<!-- Bullets (Arabic term lines) -->
+<circle cx="946" cy="224" r="6" fill="#c0392b"/>
+<circle cx="946" cy="384" r="6" fill="#c0392b"/>
+<circle cx="946" cy="584" r="6" fill="#c0392b"/>
+<circle cx="946" cy="824" r="6" fill="#c0392b"/>
+
+<!-- Icon: open book (key terms) -->
+<g transform="translate(384 130)">
+  <path d="M 28 12 Q 16 6 4 10 L 4 46 Q 16 42 28 48 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 28 12 Q 40 6 52 10 L 52 46 Q 40 42 28 48 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 10 20 Q 16 18 22 21 M 10 28 Q 16 26 22 29 M 10 36 Q 16 34 22 37" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 34 21 Q 40 18 46 20 M 34 29 Q 40 26 46 28" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 40 9 L 40 26 L 44 22 L 48 26 L 48 8" fill="#c0392b" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: browser window (web page) -->
+<g transform="translate(476 130)">
+  <rect x="0" y="4" width="56" height="46" rx="6" fill="#ffffff"/>
+  <path d="M 6 4 H 50 Q 56 4 56 10 V 16 H 0 V 10 Q 0 4 6 4 Z" fill="#2f7fb5"/>
+  <circle cx="8" cy="10" r="2.5" fill="#ffd24a"/>
+  <circle cx="15" cy="10" r="2.5" fill="#ffffff"/>
+  <circle cx="22" cy="10" r="2.5" fill="#8fc9f2"/>
+  <rect x="8" y="22" width="20" height="20" rx="3" fill="#4fc3e8"/>
+  <rect x="32" y="23" width="16" height="4" rx="2" fill="#7f95ab"/>
+  <rect x="32" y="31" width="16" height="4" rx="2" fill="#7f95ab"/>
+  <rect x="32" y="39" width="12" height="4" rx="2" fill="#f0c48c"/>
+  <rect x="0" y="4" width="56" height="46" rx="6" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: server stack -->
+<g transform="translate(568 130)">
+  <rect x="4" y="2" width="48" height="16" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="4" y="20" width="48" height="16" rx="4" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="4" y="38" width="48" height="16" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="13" cy="10" r="3" fill="#a9dcbe"/>
+  <circle cx="13" cy="28" r="3" fill="#ffd24a"/>
+  <circle cx="13" cy="46" r="3" fill="#a9dcbe"/>
+  <rect x="24" y="8" width="20" height="4" rx="2" fill="#8fc9f2"/>
+  <rect x="24" y="26" width="20" height="4" rx="2" fill="#dff1f7"/>
+  <rect x="24" y="44" width="20" height="4" rx="2" fill="#8fc9f2"/>
+</g>
+
+<!-- Memory illustration: website book, server, request/response, client laptop -->
+<g>
+  <defs>
+    <linearGradient id="ilRack" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f7fb5"/>
+      <stop offset="1" stop-color="#17457f"/>
+    </linearGradient>
+    <linearGradient id="ilScreen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#4fc3e8"/>
+    </linearGradient>
+    <linearGradient id="ilCover" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0c48c"/>
+      <stop offset="1" stop-color="#c96a1b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- shadows -->
+  <path d="M 194 1172 Q 162 1158 130 1168 L 130 1240 Q 162 1232 194 1246 Q 226 1232 258 1240 L 258 1168 Q 226 1158 194 1172 Z" fill="#22303f" opacity=".18"/>
+  <rect x="294" y="1126" width="110" height="118" rx="10" fill="#22303f" opacity=".18"/>
+  <rect x="794" y="1130" width="150" height="96" rx="8" fill="#22303f" opacity=".18"/>
+  <polygon points="778,1226 960,1226 972,1242 766,1242" fill="#22303f" opacity=".18"/>
+
+  <!-- open book (website) -->
+  <path d="M 190 1166 Q 158 1152 126 1162 L 126 1234 Q 158 1226 190 1240 Q 222 1226 254 1234 L 254 1162 Q 222 1152 190 1166 Z" fill="url(#ilCover)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 190 1170 Q 162 1158 134 1166 L 134 1226 Q 162 1218 190 1232 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 190 1170 Q 218 1158 246 1166 L 246 1226 Q 218 1218 190 1232 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 146 1184 Q 162 1180 178 1186 M 146 1198 Q 162 1194 178 1200 M 146 1212 Q 162 1208 178 1214" fill="none" stroke="#8fc9f2" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 202 1186 Q 218 1180 234 1184 M 202 1200 Q 218 1194 234 1198 M 202 1214 Q 218 1208 234 1212" fill="none" stroke="#8fc9f2" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- flying sheet (one page) -->
+  <path d="M 226 1158 Q 232 1146 240 1140" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <g transform="translate(246 1120) rotate(14)">
+    <path d="M 0 0 H 22 L 30 8 V 38 H 0 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M 22 0 V 8 H 30" fill="none" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M 6 17 H 24 M 6 24 H 24 M 6 31 H 18" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- server rack -->
+  <rect x="290" y="1120" width="110" height="118" rx="10" fill="url(#ilRack)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="302" y="1132" width="86" height="26" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="302" y="1166" width="86" height="26" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="302" y="1200" width="86" height="26" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="314" cy="1145" r="4" fill="#a9dcbe"/>
+  <circle cx="314" cy="1179" r="4" fill="#ffd24a"/>
+  <circle cx="314" cy="1213" r="4" fill="#a9dcbe"/>
+  <rect x="328" y="1140" width="48" height="4" rx="2" fill="#8fc9f2"/>
+  <rect x="328" y="1147" width="36" height="4" rx="2" fill="#dff1f7"/>
+  <rect x="328" y="1174" width="48" height="4" rx="2" fill="#8fc9f2"/>
+  <rect x="328" y="1181" width="36" height="4" rx="2" fill="#dff1f7"/>
+  <rect x="328" y="1208" width="48" height="4" rx="2" fill="#8fc9f2"/>
+  <rect x="328" y="1215" width="36" height="4" rx="2" fill="#dff1f7"/>
+  <rect x="300" y="1238" width="14" height="6" rx="2" fill="#22303f"/>
+  <rect x="376" y="1238" width="14" height="6" rx="2" fill="#22303f"/>
+
+  <!-- request arrow (client to server) with envelope -->
+  <line x1="424" y1="1150" x2="772" y2="1150" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="410,1150 426,1141 426,1159" fill="#c0392b"/>
+  <rect x="568" y="1136" width="46" height="30" rx="4" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 570 1138 L 591 1153 L 612 1138" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- response arrow (server to client) with HTML page -->
+  <line x1="412" y1="1212" x2="762" y2="1212" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="776,1212 760,1203 760,1221" fill="#c0392b"/>
+  <path d="M 572 1188 H 600 L 612 1200 V 1236 H 572 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 600 1188 V 1200 H 612" fill="none" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M 584 1208 L 578 1214 L 584 1220 M 600 1208 L 606 1214 L 600 1220 M 594 1206 L 590 1222" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- client laptop with browser -->
+  <rect x="790" y="1124" width="150" height="96" rx="8" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="800" y="1134" width="130" height="76" rx="3" fill="url(#ilScreen)"/>
+  <rect x="800" y="1134" width="130" height="14" rx="3" fill="#2f7fb5"/>
+  <circle cx="808" cy="1141" r="2.5" fill="#ffd24a"/>
+  <circle cx="815" cy="1141" r="2.5" fill="#ffffff"/>
+  <circle cx="822" cy="1141" r="2.5" fill="#8fc9f2"/>
+  <rect x="810" y="1156" width="40" height="40" rx="4" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+  <circle cx="822" cy="1168" r="5" fill="#ffffff"/>
+  <path d="M 812 1194 L 826 1178 L 836 1188 L 842 1182 L 848 1194 Z" fill="#2e7d32"/>
+  <rect x="858" y="1158" width="62" height="6" rx="3" fill="#17457f"/>
+  <rect x="858" y="1172" width="52" height="5" rx="2" fill="#7f95ab"/>
+  <rect x="858" y="1184" width="58" height="5" rx="2" fill="#7f95ab"/>
+  <rect x="858" y="1196" width="34" height="9" rx="4" fill="#c96a1b"/>
+  <polygon points="774,1220 956,1220 968,1236 762,1236" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="845" y="1223" width="40" height="5" rx="2" fill="#e8dfd1"/>
+
+  <!-- sparkles -->
+  <polygon points="768,1116 771,1123 778,1126 771,1129 768,1136 765,1129 758,1126 765,1123" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <polygon points="956,1112 958,1117 963,1119 958,1121 956,1126 954,1121 949,1119 954,1117" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+</g>
+
+<!-- ===== TEXT ===== -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">مصطلحات أساسية</tspan>
+</text>
+
+<text x="140" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">KEY TERMS</tspan>
+</text>
+
+<text x="930" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="930" dy="0"><tspan font-weight="bold" fill="#c0392b">صفحة الويب Web Page:</tspan> مستند يُعرض</tspan>
+  <tspan x="930" dy="40">في المتصفح، يُكتب أساسًا بلغة <tspan font-weight="bold" fill="#17457f">HTML.</tspan></tspan>
+</text>
+
+<text x="140" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Web page:</tspan> a document shown in</tspan>
+  <tspan x="140" dy="40">a browser, written mainly in <tspan font-weight="bold" fill="#17457f">HTML.</tspan></tspan>
+</text>
+
+<text x="930" y="394" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="930" dy="0"><tspan font-weight="bold" fill="#c0392b">الموقع الإلكتروني Website:</tspan> مجموعة صفحات</tspan>
+  <tspan x="930" dy="40">مترابطة؛ الموقع <tspan fill="#c96a1b">كتاب</tspan> والصفحة <tspan fill="#c96a1b">ورقة</tspan> منه.</tspan>
+</text>
+
+<text x="140" y="474" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Website:</tspan> a group of linked pages;</tspan>
+  <tspan x="140" dy="40">the site is a <tspan fill="#c96a1b">book</tspan></tspan>
+  <tspan x="140" dy="40">and a page is one <tspan fill="#c96a1b">sheet.</tspan></tspan>
+</text>
+
+<text x="930" y="594" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="930" dy="0"><tspan font-weight="bold" fill="#c0392b">المتصفح Browser:</tspan> برنامج يقرأ HTML وCSS</tspan>
+  <tspan x="930" dy="40">وJavaScript ويحوّلها إلى صفحة تراها</tspan>
+  <tspan x="930" dy="40">وتتفاعل معها.</tspan>
+</text>
+
+<text x="140" y="714" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Browser:</tspan> a program that reads HTML,</tspan>
+  <tspan x="140" dy="40">CSS, and JavaScript and turns them</tspan>
+  <tspan x="140" dy="40">into a page you can see and use.</tspan>
+</text>
+
+<text x="930" y="834" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="930" dy="0"><tspan font-weight="bold" fill="#c0392b">العميل Client والخادم Server:</tspan> العميل</tspan>
+  <tspan x="930" dy="40">جهازك ومتصفحك يطلب الصفحة، والخادم</tspan>
+  <tspan x="930" dy="40">حاسوب يرسلها إليه، <tspan fill="#c96a1b">كالزبون والنادل.</tspan></tspan>
+</text>
+
+<text x="140" y="954" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Client and server:</tspan> the client, your</tspan>
+  <tspan x="140" dy="40">device and browser, requests the page;</tspan>
+  <tspan x="140" dy="40">the server, a computer, sends it,</tspan>
+  <tspan x="140" dy="40">like <tspan fill="#c96a1b">a customer and a waiter.</tspan></tspan>
+</text>
+</svg>

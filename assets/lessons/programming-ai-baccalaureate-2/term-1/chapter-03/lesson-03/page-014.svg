@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Info card: shadow, fill, accent -->
+<rect x="109" y="128" width="870" height="488" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="122" width="870" height="488" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="456" rx="3" fill="#2f7fb5"/>
+
+<!-- Icon 1: light bulb (stand-out insight) beside the card header -->
+<g transform="translate(512 126)">
+  <path d="M0 24 H-8 M56 24 H64 M8 10 L2 4 M48 10 L54 4" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M28 4 C14 4 8 14 8 22 C8 30 14 34 19 40 H37 C42 34 48 30 48 22 C48 14 42 4 28 4 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M22 24 L28 32 L34 24" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="19" y="40" width="18" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon 2: HTML house frame -->
+<g transform="translate(150 262)">
+  <rect x="0" y="0" width="56" height="56" rx="12" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M10 26 L28 11 L46 26 M15 24 V46 M41 24 V46 M28 11 V46 M15 34 H41 M10 46 H46" fill="none" stroke="#17457f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon 3: CSS paint roller -->
+<g transform="translate(222 262)">
+  <rect x="0" y="0" width="56" height="56" rx="12" fill="#fdf6d8" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="9" y="10" width="32" height="14" rx="5" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M41 17 H47 V31 H28 V37" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="24" y="37" width="8" height="12" rx="2" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Face 1: surprise (important fact) -->
+<g transform="translate(897 420)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="0" cy="10" r="5" fill="#22303f"/>
+</g>
+
+<!-- Icon 4: JavaScript lightning tile -->
+<g transform="translate(871 470)">
+  <rect x="0" y="0" width="56" height="56" rx="12" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="32,8 14,32 27,32 23,48 42,24 29,24 34,8" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon 5: pointer clicking (interactivity) -->
+<g transform="translate(790 748)">
+  <rect x="0" y="0" width="56" height="56" rx="12" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="20" cy="14" r="8" fill="none" stroke="#ffd24a" stroke-width="2.5" opacity=".85"/>
+  <path d="M12 8 L8 4 M20 4 V0 M10 16 H5" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="20,14 20,44 27,37 33,48 39,45 33,34 43,34" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon 6: keyboard (typing) -->
+<g transform="translate(862 792)">
+  <rect x="0" y="0" width="72" height="42" rx="8" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="8" y="8" width="10" height="8" rx="2" fill="#ffffff"/>
+  <rect x="22" y="8" width="10" height="8" rx="2" fill="#ffffff"/>
+  <rect x="36" y="8" width="10" height="8" rx="2" fill="#ffd24a"/>
+  <rect x="50" y="8" width="14" height="8" rx="2" fill="#ffffff"/>
+  <rect x="8" y="20" width="14" height="8" rx="2" fill="#ffffff"/>
+  <rect x="26" y="20" width="10" height="8" rx="2" fill="#ffffff"/>
+  <rect x="40" y="20" width="10" height="8" rx="2" fill="#ffffff"/>
+  <rect x="54" y="20" width="10" height="8" rx="2" fill="#ffffff"/>
+  <rect x="18" y="31" width="36" height="6" rx="3" fill="#8fc9f2"/>
+</g>
+
+<!-- Icon 7: form with required mark and approval (validation) -->
+<g transform="translate(866 1028)">
+  <rect x="0" y="0" width="64" height="80" rx="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="8" y="9" width="40" height="6" rx="3" fill="#8fc9f2"/>
+  <rect x="8" y="22" width="48" height="14" rx="4" fill="#dff1f7" stroke="#22303f" stroke-width="2"/>
+  <circle cx="56" cy="22" r="4" fill="#c0392b"/>
+  <rect x="8" y="42" width="48" height="14" rx="4" fill="#dff1f7" stroke="#22303f" stroke-width="2"/>
+  <rect x="8" y="64" width="28" height="10" rx="5" fill="#2f7fb5"/>
+  <circle cx="54" cy="70" r="10" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M49 70 L53 74 L59 66" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Face 2: smile (bottom band) -->
+<g transform="translate(506 1222)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon 8: check badge (bottom band) -->
+<g transform="translate(552 1194)">
+  <circle cx="28" cy="28" r="26" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="28" cy="28" r="18" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M19 28 L26 35 L38 21" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Text: card header -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">معلومة تميّزك</tspan>
+</text>
+<text x="140" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">STAND-OUT FACT</tspan>
+</text>
+
+<!-- Text: card paragraph -->
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">&#x200F;HTML وCSS <tspan font-weight="bold" fill="#c0392b">ليستا لغتي برمجة:</tspan> HTML لغة</tspan>
+  <tspan x="935" dy="40">ترميز تصف المحتوى، وCSS لغة تنسيق.</tspan>
+  <tspan x="935" dy="40">أما JavaScript <tspan font-weight="bold" fill="#17457f">فلغة برمجة</tspan> فيها</tspan>
+  <tspan x="935" dy="40">شروط وتكرار وحسابات.</tspan>
+</text>
+<text x="140" y="394" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">HTML and CSS are <tspan font-weight="bold" fill="#c0392b">not programming</tspan></tspan>
+  <tspan x="140" dy="40">languages: HTML is a markup language</tspan>
+  <tspan x="140" dy="40">that describes content, and CSS is a</tspan>
+  <tspan x="140" dy="40">style language. JavaScript is a</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#17457f">programming language</tspan> with</tspan>
+  <tspan x="140" dy="40">conditions, loops, and calculations.</tspan>
+</text>
+
+<!-- Text: Interactivity -->
+<text x="950" y="674" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">التفاعلية Interactivity:</tspan> قدرة الصفحة على</tspan>
+  <tspan x="950" dy="40"><tspan font-weight="bold" fill="#17457f">الاستجابة</tspan> لأفعالك، كالنقر والكتابة.</tspan>
+</text>
+<text x="120" y="754" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">Interactivity:</tspan> the page's ability</tspan>
+  <tspan x="120" dy="40">to <tspan font-weight="bold" fill="#17457f">respond</tspan> to your actions, like</tspan>
+  <tspan x="120" dy="40">clicking and typing.</tspan>
+</text>
+
+<!-- Text: Validation -->
+<text x="950" y="914" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">التحقق من المدخلات Validation:</tspan> فحص ما تكتبه</tspan>
+  <tspan x="950" dy="40">في النموذج قبل إرساله؛ وتقدر HTML على تحقق</tspan>
+  <tspan x="950" dy="40">بسيط مثل <tspan fill="#c96a1b">required،</tspan> والمخصص بـ JavaScript.</tspan>
+</text>
+<text x="120" y="1034" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">Validation:</tspan> checking what you type</tspan>
+  <tspan x="120" dy="40">in a form before sending it; HTML can</tspan>
+  <tspan x="120" dy="40">do simple checks like <tspan fill="#c96a1b">required,</tspan> and</tspan>
+  <tspan x="120" dy="40">custom checks use JavaScript.</tspan>
+</text>
+</svg>
