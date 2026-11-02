@@ -1,0 +1,255 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Card shadows -->
+<rect x="109" y="288" width="870" height="448" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="109" y="768" width="870" height="208" rx="16" fill="#22303f" opacity=".12"/>
+
+<!-- Info card -->
+<rect x="105" y="282" width="870" height="448" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="298" width="6" height="416" rx="3" fill="#2f7fb5"/>
+
+<!-- Warning card -->
+<rect x="105" y="762" width="870" height="208" rx="16" fill="#fdf1e2" stroke="#f0c48c" stroke-width="2"/>
+<rect x="961" y="778" width="6" height="176" rx="3" fill="#c96a1b"/>
+
+<!-- Illustration: traditional media team vs digital media team -->
+<g>
+  <defs>
+    <linearGradient id="ilTv" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f7fb5"/>
+      <stop offset="1" stop-color="#17457f"/>
+    </linearGradient>
+    <linearGradient id="ilTvScreen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#8fc9f2"/>
+    </linearGradient>
+    <linearGradient id="ilRadio" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0c48c"/>
+      <stop offset="1" stop-color="#c96a1b"/>
+    </linearGradient>
+    <linearGradient id="ilLid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f7fb5"/>
+      <stop offset="1" stop-color="#17457f"/>
+    </linearGradient>
+    <linearGradient id="ilPhoneScreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dff1f7"/>
+    </linearGradient>
+  </defs>
+  <!-- shadows -->
+  <rect x="174" y="1056" width="210" height="136" rx="12" fill="#22303f" opacity=".18"/>
+  <polygon points="150,1192 408,1192 396,1212 162,1212" fill="#22303f" opacity=".18"/>
+  <rect x="424" y="1072" width="86" height="146" rx="14" fill="#22303f" opacity=".18"/>
+  <rect x="604" y="1110" width="92" height="92" rx="6" fill="#22303f" opacity=".18"/>
+  <rect x="694" y="1068" width="150" height="112" rx="18" fill="#22303f" opacity=".18"/>
+  <rect x="862" y="1136" width="100" height="72" rx="14" fill="#22303f" opacity=".18"/>
+  <!-- ground -->
+  <ellipse cx="325" cy="1216" rx="195" ry="13" fill="#dff1f7"/>
+  <ellipse cx="775" cy="1214" rx="190" ry="13" fill="#dff1f7"/>
+  <!-- sparkles -->
+  <path d="M140 1030 Q142 1038 150 1040 Q142 1042 140 1050 Q138 1042 130 1040 Q138 1038 140 1030 Z" fill="#ffd24a"/>
+  <path d="M640 1050 Q642 1058 650 1060 Q642 1062 640 1070 Q638 1062 630 1060 Q638 1058 640 1050 Z" fill="#ffd24a"/>
+  <path d="M905 1062 Q907 1070 915 1072 Q907 1074 905 1082 Q903 1074 895 1072 Q903 1070 905 1062 Z" fill="#ffd24a"/>
+  <!-- dashed separator -->
+  <path d="M540 1012 L540 1026 M540 1036 L540 1050 M540 1060 L540 1074 M540 1084 L540 1098 M540 1108 L540 1122 M540 1132 L540 1146 M540 1156 L540 1170 M540 1180 L540 1194 M540 1204 L540 1218" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- LEFT TEAM: laptop -->
+  <rect x="170" y="1050" width="210" height="136" rx="12" fill="url(#ilLid)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="182" y="1062" width="186" height="112" rx="6" fill="#ffffff"/>
+  <rect x="182" y="1062" width="186" height="18" rx="6" fill="#2f7fb5"/>
+  <rect x="182" y="1072" width="186" height="8" fill="#2f7fb5"/>
+  <circle cx="194" cy="1071" r="3" fill="#ffd24a"/>
+  <circle cx="206" cy="1071" r="3" fill="#ffffff"/>
+  <circle cx="218" cy="1071" r="3" fill="#8fc9f2"/>
+  <rect x="192" y="1090" width="64" height="48" rx="4" fill="#8fc9f2"/>
+  <polygon points="196,1134 214,1110 230,1126 240,1116 252,1134" fill="#2f7fb5"/>
+  <circle cx="242" cy="1100" r="5" fill="#ffd24a"/>
+  <rect x="266" y="1092" width="90" height="8" rx="4" fill="#17457f"/>
+  <rect x="266" y="1108" width="78" height="6" rx="3" fill="#8fc9f2"/>
+  <rect x="266" y="1120" width="86" height="6" rx="3" fill="#8fc9f2"/>
+  <rect x="266" y="1132" width="60" height="6" rx="3" fill="#f0c48c"/>
+  <rect x="192" y="1150" width="164" height="6" rx="3" fill="#dff1f7"/>
+  <rect x="192" y="1162" width="120" height="6" rx="3" fill="#dff1f7"/>
+  <polygon points="146,1186 404,1186 392,1206 158,1206" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="250" y="1192" width="50" height="7" rx="3.5" fill="#dff1f7"/>
+
+  <!-- LEFT TEAM: smartphone -->
+  <rect x="420" y="1066" width="86" height="146" rx="14" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="428" y="1082" width="70" height="116" rx="6" fill="url(#ilPhoneScreen)"/>
+  <rect x="452" y="1072" width="22" height="4" rx="2" fill="#8fc9f2"/>
+  <rect x="434" y="1088" width="58" height="30" rx="5" fill="#ffffff"/>
+  <circle cx="443" cy="1098" r="5" fill="#f0c48c"/>
+  <rect x="452" y="1095" width="34" height="5" rx="2.5" fill="#2f7fb5"/>
+  <path d="M443 1114 C437 1110, 441 1105, 443 1109 C445 1105, 449 1110, 443 1114 Z" fill="#c96a1b"/>
+  <path d="M454 1114 Q456 1107 464 1107" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="463,1103 469,1107 463,1111" fill="#2f7fb5"/>
+  <rect x="474" y="1108" width="13" height="5" rx="2.5" fill="#8fc9f2"/>
+  <rect x="434" y="1124" width="58" height="30" rx="5" fill="#ffffff"/>
+  <circle cx="443" cy="1134" r="5" fill="#ffd24a"/>
+  <rect x="452" y="1131" width="34" height="5" rx="2.5" fill="#2f7fb5"/>
+  <path d="M443 1150 C437 1146, 441 1141, 443 1145 C445 1141, 449 1146, 443 1150 Z" fill="#c96a1b"/>
+  <path d="M454 1150 Q456 1143 464 1143" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="463,1139 469,1143 463,1147" fill="#2f7fb5"/>
+  <rect x="474" y="1144" width="13" height="5" rx="2.5" fill="#8fc9f2"/>
+  <rect x="434" y="1160" width="58" height="30" rx="5" fill="#ffffff"/>
+  <circle cx="443" cy="1170" r="5" fill="#8fc9f2"/>
+  <rect x="452" y="1167" width="34" height="5" rx="2.5" fill="#2f7fb5"/>
+  <path d="M443 1186 C437 1182, 441 1177, 443 1181 C445 1177, 449 1182, 443 1186 Z" fill="#c96a1b"/>
+  <path d="M454 1186 Q456 1179 464 1179" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="463,1175 469,1179 463,1183" fill="#2f7fb5"/>
+  <rect x="474" y="1180" width="13" height="5" rx="2.5" fill="#8fc9f2"/>
+  <!-- floating share arrow and hearts -->
+  <path d="M416 1050 Q418 1022 446 1020" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="444,1012 456,1020 444,1028" fill="#2f7fb5"/>
+  <path d="M478 1042 C464 1032, 473 1022, 478 1031 C483 1022, 492 1032, 478 1042 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M510 1023 C500 1017, 506 1010, 510 1016 C514 1010, 520 1017, 510 1023 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- RIGHT TEAM: TV -->
+  <path d="M745 1062 L722 1030 M785 1062 L808 1028" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="722" cy="1030" r="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="808" cy="1028" r="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="704" y="1172" width="10" height="32" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="816" y="1172" width="10" height="32" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="690" y="1062" width="150" height="112" rx="18" fill="url(#ilTv)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="704" y="1076" width="100" height="84" rx="10" fill="url(#ilTvScreen)" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M714 1088 L730 1088" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" opacity=".85"/>
+  <circle cx="738" cy="1108" r="3.5" fill="#22303f"/>
+  <circle cx="770" cy="1108" r="3.5" fill="#22303f"/>
+  <path d="M741 1124 Q754 1135 767 1124" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="822" cy="1094" r="7" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="822" cy="1118" r="7" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M813 1140 L831 1140 M813 1150 L831 1150" fill="none" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- RIGHT TEAM: folded newspaper -->
+  <rect x="600" y="1104" width="92" height="92" rx="6" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="590" y="1112" width="92" height="92" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="664,1112 682,1112 682,1130" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="600" y="1122" width="60" height="10" rx="3" fill="#17457f"/>
+  <rect x="600" y="1141" width="34" height="6" rx="3" fill="#8fc9f2"/>
+  <rect x="600" y="1153" width="34" height="6" rx="3" fill="#8fc9f2"/>
+  <rect x="642" y="1140" width="30" height="22" rx="3" fill="#f0c48c"/>
+  <circle cx="612" cy="1178" r="3.5" fill="#22303f"/>
+  <circle cx="630" cy="1178" r="3.5" fill="#22303f"/>
+  <path d="M610 1188 Q621 1197 632 1188" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- RIGHT TEAM: radio -->
+  <path d="M878 1130 Q908 1104 938 1130" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M948 1130 L962 1098" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="962" cy="1098" r="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="858" y="1130" width="100" height="72" rx="14" fill="url(#ilRadio)" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="886" cy="1166" r="20" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="886" cy="1166" r="11" fill="#f0c48c"/>
+  <circle cx="886" cy="1166" r="5" fill="#c96a1b"/>
+  <rect x="912" y="1142" width="36" height="9" rx="4.5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="922" cy="1164" r="3.5" fill="#22303f"/>
+  <circle cx="942" cy="1164" r="3.5" fill="#22303f"/>
+  <path d="M921 1177 Q932 1186 943 1177" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Title-side icon: like badge -->
+<g>
+  <circle cx="145" cy="150" r="28" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M145 161 C126 148, 138 134, 145 146 C152 134, 164 148, 145 161 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Title-side icon: chat bubble -->
+<g>
+  <path d="M919 126 H951 Q963 126 963 138 V154 Q963 166 951 166 H934 L918 180 L921 166 H919 Q907 166 907 154 V138 Q907 126 919 126 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="922" cy="146" r="4" fill="#ffffff"/>
+  <circle cx="935" cy="146" r="4" fill="#ffffff"/>
+  <circle cx="948" cy="146" r="4" fill="#ffffff"/>
+</g>
+
+<!-- Info card icon: network nodes -->
+<g transform="translate(132 294)">
+  <path d="M26 10 L10 40 M26 10 L42 40 M10 40 L42 40" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="26" cy="10" r="9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="10" cy="40" r="9" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="42" cy="40" r="9" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Warning card icon: warning triangle -->
+<g transform="translate(132 772)">
+  <path d="M27 3 L52 48 L2 48 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="24.5" y="16" width="5" height="18" rx="2.5" fill="#22303f"/>
+  <circle cx="27" cy="41" r="3" fill="#22303f"/>
+</g>
+
+<!-- Smile face in info card -->
+<g transform="translate(885 650)">
+  <circle r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Surprise face in warning card -->
+<g transform="translate(885 905)">
+  <circle r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="0" cy="10" r="5" fill="#22303f"/>
+</g>
+
+<!-- Titles -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">
+  <tspan x="540" dy="0">شخصيات الوسائط 3:</tspan>
+  <tspan x="540" dy="48">وسائل التواصل الاجتماعي</tspan>
+</text>
+<text x="540" y="202" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="normal" fill="#152b42">Media Characters 3: SNS</text>
+
+<!-- Info card: header -->
+<text x="935" y="314" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">وسائل التواصل SNS: الجار اللي</tspan>
+  <tspan x="935" dy="40">الخبر عنده بيلف الشارع</tspan>
+</text>
+<text x="140" y="394" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">SNS: The Neighbor Who Spreads</tspan>
+  <tspan x="140" dy="40">News Down the Street</tspan>
+</text>
+
+<!-- Info card: paragraph -->
+<text x="935" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="normal" fill="#225f9c">
+  <tspan x="935" dy="0">&#x200F;<tspan font-weight="bold" fill="#c0392b">SNS</tspan> (Social Networking Services)&#x200E;:</tspan>
+  <tspan x="935" dy="40"><tspan font-weight="bold" fill="#17457f">أسرع وسيلة</tspan> في نشر المعلومة، والكل فيها</tspan>
+  <tspan x="935" dy="40">ينشر ويشارك ويرد: <tspan font-weight="bold" fill="#17457f">اتجاهين.</tspan></tspan>
+</text>
+<text x="140" y="594" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="normal" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">SNS</tspan> (Social Networking Services):</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#17457f">the fastest</tspan> at spreading</tspan>
+  <tspan x="140" dy="40">information; everyone posts, shares,</tspan>
+  <tspan x="140" dy="40">and replies: <tspan font-weight="bold" fill="#17457f">two-way.</tspan></tspan>
+</text>
+
+<!-- Warning card: paragraph -->
+<text x="935" y="794" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="normal" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">انتبه:</tspan> الأسرع ليس دائمًا الأدق.</tspan>
+  <tspan x="935" dy="40">تأكّد من <tspan font-weight="bold" fill="#2e7d32">مصدر الخبر</tspan> قبل أن تشاركه.</tspan>
+</text>
+<text x="140" y="874" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="normal" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Careful:</tspan> the fastest is not always</tspan>
+  <tspan x="140" dy="40">the most accurate. Check <tspan font-weight="bold" fill="#2e7d32">the source</tspan></tspan>
+  <tspan x="140" dy="40">before you share.</tspan>
+</text>
+</svg>

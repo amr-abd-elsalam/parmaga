@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilStage" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="ilTube" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#8fc9f2"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Info card: shadow, fill, accent -->
+<rect x="109" y="648" width="870" height="528" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="642" width="870" height="528" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="658" width="6" height="496" rx="3" fill="#2f7fb5"/>
+
+<!-- Illustration: sender, message, medium, receiver -->
+<g>
+  <rect x="115" y="196" width="850" height="310" rx="28" fill="url(#ilStage)"/>
+  <path d="M 115 478 H 965 Q 965 506 937 506 H 143 Q 115 506 115 478 Z" fill="#e8dfd1"/>
+  <path d="M 440 262 Q 440 240 462 242 Q 470 222 494 230 Q 514 226 518 246 Q 536 248 532 262 Z" fill="#ffffff" opacity=".85"/>
+  <path d="M 612 300 Q 612 282 630 284 Q 638 268 658 274 Q 676 272 678 288 Q 692 290 690 300 Z" fill="#ffffff" opacity=".85"/>
+  <circle cx="560" cy="340" r="5" fill="#4fc3e8"/>
+  <circle cx="520" cy="326" r="4" fill="#8fc9f2"/>
+  <circle cx="470" cy="344" r="5" fill="#4fc3e8"/>
+  <circle cx="352" cy="252" r="5" fill="#ffd24a"/>
+  <circle cx="728" cy="244" r="5" fill="#ffd24a"/>
+
+  <!-- floor shadows -->
+  <ellipse cx="874" cy="494" rx="60" ry="9" fill="#22303f" opacity=".18"/>
+  <ellipse cx="214" cy="494" rx="60" ry="9" fill="#22303f" opacity=".18"/>
+
+  <!-- tube (medium) -->
+  <rect x="304" y="406" width="485" height="80" rx="40" fill="#22303f" opacity=".18"/>
+  <rect x="300" y="400" width="485" height="80" rx="40" fill="url(#ilTube)" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="318" cy="440" rx="14" ry="36" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="767" cy="440" rx="14" ry="36" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 345 414 L 745 414" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+  <path d="M 350 468 L 378 468 M 404 468 L 432 468 M 458 468 L 486 468 M 512 468 L 540 468 M 566 468 L 594 468 M 620 468 L 648 468 M 674 468 L 702 468 M 728 468 L 744 468" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- message envelope -->
+  <ellipse cx="610" cy="436" rx="70" ry="30" fill="#ffd24a" opacity=".35"/>
+  <path d="M 672 424 L 712 424 M 680 438 L 732 438 M 672 452 L 704 452" fill="none" stroke="#c96a1b" stroke-width="3" stroke-linecap="round"/>
+  <rect x="574" y="418" width="76" height="46" rx="5" fill="#22303f" opacity=".18"/>
+  <rect x="570" y="412" width="76" height="46" rx="5" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 570 414 L 608 440 L 646 414" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 572 456 L 596 436 M 644 456 L 620 436" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="608" cy="440" r="6" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- direction arrow -->
+  <path d="M 700 378 L 394 378" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="376,378 396,368 396,388" fill="#c0392b"/>
+
+  <!-- sender (right) -->
+  <rect x="846" y="400" width="22" height="86" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="872" y="400" width="22" height="86" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="853" cy="488" rx="16" ry="7" fill="#22303f"/>
+  <ellipse cx="889" cy="488" rx="16" ry="7" fill="#22303f"/>
+  <path d="M 818 418 L 826 322 Q 830 298 856 296 L 884 296 Q 910 298 914 322 L 922 418 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 910 306 Q 932 330 934 380 L 932 404 L 916 404 L 914 370 Q 912 344 902 330 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="924" cy="410" r="9" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 832 304 Q 806 318 792 372 L 784 410 L 800 416 L 818 372 Q 826 342 840 330 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="792" cy="420" r="10" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 858 296 L 870 314 L 882 296 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="862" y="278" width="16" height="20" fill="#e8b98d"/>
+  <ellipse cx="838" cy="256" rx="5" ry="8" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="902" cy="256" rx="5" ry="8" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="870" cy="252" r="32" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 838 250 Q 836 214 870 214 Q 906 214 902 250 Q 896 232 870 232 Q 846 232 838 250 Z" fill="#2b211c"/>
+  <circle cx="859" cy="250" r="3.5" fill="#22303f"/>
+  <circle cx="881" cy="250" r="3.5" fill="#22303f"/>
+  <ellipse cx="870" cy="268" rx="7" ry="5" fill="#22303f"/>
+  <path d="M 826 240 Q 816 256 826 272 M 810 232 Q 796 256 810 280" fill="none" stroke="#c96a1b" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- receiver (left) -->
+  <ellipse cx="192" cy="490" rx="15" ry="6" fill="#22303f"/>
+  <ellipse cx="228" cy="490" rx="15" ry="6" fill="#22303f"/>
+  <path d="M 160 488 L 174 322 Q 180 298 210 296 Q 240 298 246 322 L 260 488 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 176 330 Q 156 356 154 400 L 168 402 Q 172 368 186 348 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="160" cy="406" r="9" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 244 330 Q 268 344 276 392 L 280 414 L 266 418 L 260 396 Q 254 366 238 352 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="277" cy="422" r="10" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 168 330 Q 160 230 210 222 Q 260 230 252 330 Q 232 342 210 342 Q 188 342 168 330 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="210" cy="264" rx="25" ry="29" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="201" cy="260" r="3.5" fill="#22303f"/>
+  <circle cx="219" cy="260" r="3.5" fill="#22303f"/>
+  <path d="M 200 274 Q 210 282 220 274" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- connectors to labeled tube parts -->
+  <path d="M 608 508 L 608 494" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="608,486 601,498 615,498" fill="#c0392b"/>
+  <path d="M 430 508 L 430 494" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="430,486 423,498 437,498" fill="#c0392b"/>
+
+  <!-- stage baseline -->
+  <rect x="115" y="620" width="850" height="6" rx="3" fill="#8fc9f2"/>
+</g>
+
+<!-- Title icons -->
+<g transform="translate(140 84)">
+  <path d="M 28 2 L 28 6 M 6 12 L 10 15 M 50 12 L 46 15" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="28" cy="26" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="20" y="40" width="16" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+<g transform="translate(900 114)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Card icons -->
+<g transform="translate(856 878)">
+  <path d="M 28 14 Q 16 6 4 10 L 4 46 Q 16 42 28 50 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 28 14 Q 40 6 52 10 L 52 46 Q 40 42 28 50 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 10 22 L 22 24 M 10 32 L 22 34 M 34 24 L 46 22 M 34 34 L 46 32" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+<g transform="translate(890 1130)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Bottom icon row -->
+<g transform="translate(372 1192)">
+  <rect x="4" y="10" width="48" height="36" rx="5" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 4 12 L 28 30 L 52 12" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="28" cy="30" r="5" fill="#c96a1b"/>
+</g>
+<g transform="translate(512 1192)">
+  <path d="M 10 44 L 28 12 L 46 44 Z" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="28" cy="12" r="9" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="10" cy="44" r="9" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="46" cy="44" r="9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+</g>
+<g transform="translate(652 1192)">
+  <polygon points="28,4 35,20 52,21 39,32 43,50 28,40 13,50 17,32 4,21 21,20" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Texts -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">يعني إيه «وسيلة»؟</text>
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" fill="#152b42">What Is a "Medium"?</text>
+
+<text x="918" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">المرسل</text>
+<text x="822" y="594" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Sender</text>
+<text x="660" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">الرسالة</text>
+<text x="552" y="594" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Message</text>
+<text x="480" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">الوسيلة</text>
+<text x="378" y="594" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Medium</text>
+<text x="262" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">المتلقي</text>
+<text x="146" y="594" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Receiver</text>
+
+<text x="935" y="674" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">مصطلحات أساسية</text>
+<text x="140" y="714" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">KEY TERMS</text>
+
+<text x="935" y="754" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">الوسيلة Medium:</tspan> الطريق الذي تمشي فيه</tspan>
+  <tspan x="935" dy="40">المعلومة من المرسل إلى المتلقي،</tspan>
+  <tspan x="935" dy="40">وجمعها <tspan font-weight="bold" fill="#17457f">الوسائط</tspan> Media.</tspan>
+</text>
+<text x="140" y="874" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Medium:</tspan> the path information</tspan>
+  <tspan x="140" dy="40">travels from sender to receiver;</tspan>
+  <tspan x="140" dy="40">its plural is <tspan font-weight="bold" fill="#17457f">media.</tspan></tspan>
+</text>
+
+<text x="935" y="1034" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#17457f">المرسل</tspan> Sender يُنتج الرسالة Message،</tspan>
+  <tspan x="935" dy="40"><tspan font-weight="bold" fill="#17457f">والمتلقي</tspan> Receiver تصل إليه.</tspan>
+</text>
+<text x="140" y="1114" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">The <tspan font-weight="bold" fill="#17457f">sender</tspan> creates the message,</tspan>
+  <tspan x="140" dy="40">and the <tspan font-weight="bold" fill="#17457f">receiver</tspan> gets it.</tspan>
+</text>
+</svg>

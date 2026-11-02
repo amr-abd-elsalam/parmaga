@@ -1,0 +1,240 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Instruction strip: shadow, fill, accent -->
+<rect x="109" y="208" width="870" height="128" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="202" width="870" height="128" rx="16" fill="#fdf6d8" stroke="#e0c46a" stroke-width="2"/>
+<rect x="961" y="218" width="6" height="96" rx="3" fill="#e0a55e"/>
+
+<!-- Icon: medal (title left) -->
+<g transform="translate(115 76)">
+  <polygon points="12,0 24,0 32,24 20,24" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="44,0 32,0 24,24 36,24" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="32" cy="44" r="18" fill="#22303f" opacity=".18"/>
+  <circle cx="28" cy="38" r="18" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="28,29 30.35,34.76 36.56,35.22 31.8,39.24 33.29,45.28 28,42 22.71,45.28 24.2,39.24 19.44,35.22 25.65,34.76" fill="#c96a1b"/>
+</g>
+
+<!-- Icon: olympic torch (title right) -->
+<g transform="translate(905 74)">
+  <polygon points="24,38 44,38 38,68 30,68" fill="#22303f" opacity=".18"/>
+  <polygon points="20,32 40,32 34,62 26,62" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="15" y="24" width="30" height="9" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M30 2 C 41 12, 43 20, 30 24 C 17 20, 19 12, 30 2 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M30 10 C 35 15, 35 20, 30 22 C 25 20, 25 15, 30 10 Z" fill="#ffd24a"/>
+</g>
+
+<!-- Icon: light bulb (inside strip) -->
+<g transform="translate(866 262)">
+  <circle cx="28" cy="26" r="18" fill="#22303f" opacity=".18"/>
+  <circle cx="24" cy="20" r="18" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="15" y="36" width="18" height="14" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <line x1="15" y1="43" x2="33" y2="43" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M-4 8 L-10 2 M-6 20 L-13 20 M52 8 L58 2 M54 20 L61 20" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Face: thinking (beside question 1) -->
+<g transform="translate(880 500)">
+  <circle cx="4" cy="6" r="26" fill="#22303f" opacity=".18"/>
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: stopwatch (beside question 2) -->
+<g transform="translate(852 628)">
+  <circle cx="32" cy="42" r="24" fill="#22303f" opacity=".18"/>
+  <rect x="22" y="2" width="12" height="7" rx="2" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="25" y="8" width="6" height="6" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="28" cy="36" r="24" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="28" cy="36" r="17" fill="#dff1f7"/>
+  <path d="M28 36 L28 22 M28 36 L37 40" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="28" cy="36" r="3" fill="#c0392b"/>
+</g>
+
+<!-- Icon: pencil (beside question 4) -->
+<g transform="translate(878 944) rotate(-35)">
+  <rect x="-36" y="-3" width="74" height="18" fill="#22303f" opacity=".18"/>
+  <rect x="-40" y="-9" width="56" height="18" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="16" y="-9" width="8" height="18" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="24" y="-9" width="12" height="18" rx="3" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="-40,-9 -58,0 -40,9" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="-52,-3 -58,0 -52,3" fill="#22303f"/>
+</g>
+
+<!-- Face: smile (beside question 5) -->
+<g transform="translate(880 1090)">
+  <circle cx="4" cy="6" r="26" fill="#22303f" opacity=".18"/>
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Memory illustration: the Media Olympics podium -->
+<g>
+  <defs>
+    <linearGradient id="ilPod1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f7fb5"/>
+      <stop offset="1" stop-color="#17457f"/>
+    </linearGradient>
+    <linearGradient id="ilPod2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fc9f2"/>
+      <stop offset="1" stop-color="#2f7fb5"/>
+    </linearGradient>
+    <linearGradient id="ilPod3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#8fc9f2"/>
+    </linearGradient>
+    <linearGradient id="ilScreen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4fc3e8"/>
+      <stop offset="1" stop-color="#8fc9f2"/>
+    </linearGradient>
+  </defs>
+  <!-- shadows -->
+  <rect x="154" y="1202" width="48" height="58" rx="3" fill="#22303f" opacity=".18"/>
+  <rect x="218" y="1212" width="76" height="48" rx="8" fill="#22303f" opacity=".18"/>
+  <rect x="312" y="1226" width="52" height="34" rx="3" fill="#22303f" opacity=".18"/>
+  <rect x="384" y="1206" width="100" height="54" fill="#22303f" opacity=".18"/>
+  <rect x="484" y="1182" width="120" height="78" fill="#22303f" opacity=".18"/>
+  <rect x="604" y="1224" width="100" height="36" fill="#22303f" opacity=".18"/>
+  <rect x="726" y="1192" width="84" height="58" rx="8" fill="#22303f" opacity=".18"/>
+  <rect x="830" y="1192" width="38" height="68" rx="7" fill="#22303f" opacity=".18"/>
+  <rect x="886" y="1182" width="68" height="42" rx="4" fill="#22303f" opacity=".18"/>
+  <!-- ground -->
+  <path d="M130 1256 L950 1256" fill="none" stroke="#7f95ab" stroke-width="2" stroke-linecap="round" opacity=".6"/>
+  <!-- newspaper -->
+  <rect x="150" y="1196" width="48" height="58" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="158" y="1204" width="32" height="7" fill="#17457f"/>
+  <path d="M158 1220 L190 1220 M158 1230 L190 1230 M158 1240 L180 1240" fill="none" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+  <!-- radio -->
+  <path d="M280 1206 L300 1172" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="300" cy="1172" r="3.5" fill="#c0392b"/>
+  <rect x="214" y="1206" width="76" height="48" rx="8" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="236" cy="1230" r="13" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="236" cy="1230" r="4" fill="#22303f"/>
+  <rect x="256" y="1216" width="26" height="11" rx="2" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="263" cy="1242" r="4" fill="#22303f"/>
+  <circle cx="277" cy="1242" r="4" fill="#22303f"/>
+  <!-- envelope -->
+  <rect x="308" y="1220" width="52" height="34" rx="3" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M308 1222 L334 1240 L360 1222" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- podium -->
+  <rect x="380" y="1200" width="100" height="54" fill="url(#ilPod2)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="600" y="1218" width="100" height="36" fill="url(#ilPod3)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="480" y="1176" width="120" height="78" fill="url(#ilPod1)" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="540" cy="1214" r="14" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="430" cy="1228" r="12" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="650" cy="1237" r="10" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <!-- trophy -->
+  <path d="M522 1146 C 508 1146, 508 1160, 524 1160 M558 1146 C 572 1146, 572 1160, 556 1160" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M520 1142 L560 1142 L556 1158 C 552 1166, 528 1166, 524 1158 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="535" y="1163" width="10" height="6" fill="#c96a1b"/>
+  <rect x="526" y="1168" width="28" height="8" rx="2" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <!-- confetti -->
+  <circle cx="470" cy="1152" r="4" fill="#c0392b"/>
+  <circle cx="612" cy="1148" r="4" fill="#4fc3e8"/>
+  <circle cx="452" cy="1180" r="3.5" fill="#ffd24a"/>
+  <circle cx="630" cy="1184" r="3.5" fill="#2e7d32"/>
+  <polygon points="490,1144 498,1140 500,1146 492,1150" fill="#2e7d32"/>
+  <polygon points="584,1158 592,1156 592,1163 584,1165" fill="#c96a1b"/>
+  <polygon points="430,1162 437,1166 434,1172 427,1168" fill="#2f7fb5"/>
+  <polygon points="650,1162 657,1158 660,1164 653,1168" fill="#c0392b"/>
+  <!-- TV -->
+  <path d="M754 1186 L742 1168 M774 1186 L786 1168 M740 1244 L734 1254 M788 1244 L794 1254" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="722" y="1186" width="84" height="58" rx="8" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="730" y="1194" width="68" height="42" rx="4" fill="url(#ilScreen)"/>
+  <polygon points="757,1205 757,1225 774,1215" fill="#ffffff"/>
+  <!-- smartphone -->
+  <rect x="826" y="1186" width="38" height="68" rx="7" fill="#22303f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="831" y="1194" width="28" height="50" rx="3" fill="#4fc3e8"/>
+  <rect x="835" y="1200" width="18" height="8" rx="3" fill="#ffffff"/>
+  <rect x="839" y="1214" width="16" height="8" rx="3" fill="#a9dcbe"/>
+  <rect x="835" y="1228" width="14" height="8" rx="3" fill="#ffffff"/>
+  <!-- billboard -->
+  <path d="M916 1218 L916 1254" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="882" y="1176" width="68" height="42" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="889" y="1183" width="22" height="28" rx="2" fill="#f0c48c"/>
+  <path d="M918 1188 L942 1188 M918 1198 L942 1198 M918 1208 L936 1208" fill="none" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+</g>
+
+<!-- Titles -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">أوليمبياد الوسائط: مين يقف؟</text>
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="normal" fill="#152b42">Media Olympics: Who Stands Up?</text>
+
+<!-- Instruction strip text -->
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">اختر <tspan font-weight="bold" fill="#17457f">الوسيلة الأنسب</tspan> لكل مهمة، وبرّر.</tspan>
+</text>
+<text x="140" y="274" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">Choose the <tspan font-weight="bold" fill="#17457f">best medium</tspan> for each task,</tspan>
+  <tspan x="140" dy="40">and justify.</tspan>
+</text>
+
+<!-- Question 1 -->
+<text x="950" y="394" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">1</tspan> عرض جدول الامتحانات بالتفصيل،</tspan>
+  <tspan x="950" dy="40">متاحًا طوال الشهر.</tspan>
+</text>
+<text x="120" y="474" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">1</tspan> Show the full exam timetable,</tspan>
+  <tspan x="120" dy="40">available all month.</tspan>
+</text>
+
+<!-- Question 2 -->
+<text x="950" y="594" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">2</tspan> إبلاغ جدتك في قرية لا يصلها الإنترنت.</tspan>
+</text>
+<text x="120" y="634" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">2</tspan> Tell your grandmother in a village</tspan>
+  <tspan x="120" dy="40">with no Internet.</tspan>
+</text>
+
+<!-- Question 3 -->
+<text x="950" y="754" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">3</tspan> إعلان فيديو لملايين الناس في ليلة واحدة.</tspan>
+</text>
+<text x="120" y="794" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">3</tspan> A video ad for millions in one night.</tspan>
+</text>
+
+<!-- Question 4 -->
+<text x="950" y="874" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">4</tspan> سائق تاكسي يريد أخبار الطريق وهو يقود.</tspan>
+</text>
+<text x="120" y="914" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">4</tspan> A taxi driver wants traffic news</tspan>
+  <tspan x="120" dy="40">while driving.</tspan>
+</text>
+
+<!-- Question 5 -->
+<text x="950" y="1034" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">5</tspan> أن ينشر الطلاب مسابقة المدرسة بأنفسهم.</tspan>
+</text>
+<text x="120" y="1074" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">5</tspan> Students spread the school contest</tspan>
+  <tspan x="120" dy="40">themselves.</tspan>
+</text>
+</svg>
