@@ -1,0 +1,1685 @@
+{
+  "schemaVersion": 1,
+  "course": "programming-ai-baccalaureate-2",
+  "term": "term-1",
+  "chapter": "chapter-04",
+  "lesson": "lesson-01",
+  "displayNumber": "4-1",
+  "displayTitleAr": "أنواع الوسائط وخصائصها",
+  "displayTitleEn": "Types and Characteristics of Media",
+  "courseLabelAr": "البرمجة والذكاء الاصطناعي، ثانية بكالوريا",
+  "termLabelAr": "ترم أول",
+  "pivotQuestionAr": "ما هي نقاط القوة والقيود في الوسائط المختلفة، وكيف تختار الوسيلة المناسبة لغرض وجمهور معينين؟",
+  "custodyRepository": "parmaga-content",
+  "custodySnapshot": "a89cfe179266ea61b8b2df9ab70e3160c9791f85",
+  "declaredPageCount": 25,
+  "inventoryDate": "2026-11-02",
+  "status": "published",
+  "extraNotes": [
+    "السؤال المحوري للدرس: ما هي نقاط القوة والقيود في الوسائط المختلفة، وكيف تختار الوسيلة المناسبة لغرض وجمهور معينين؟",
+    "حزمة أصول الدرس مدرجة للنشر في المسار القانوني داخل المستودع العام، وتتحقق tools/verify_lesson.py من مطابقة بايتاتها لهذا الـManifest.",
+    "أسماء الملفات الواردة مطابقة أصلًا للنمط page-<NNN>.svg، لذلك sourceFileName يساوي file في المداخل الـ25 كلها، ولم تجرِ إعادة تسمية.",
+    "viewBox «0 0 1080 1350» مقيس في الصفحات الـ25 كلها، أي مقاس 1080×1350 بنسبة 4:5 رأسية.",
+    "منطقة الـ12% المحجوزة: الحد y = 1188. أعلى سمة y مرصودة في عناصر النص هي 1194 في page-022، وعنصر نص واحد عند الحد أو دونه في صفحة واحدة: page-022. سُجّل ولم يوقف النشر، وتراجعه عين المالك في المتصفح. القياس يعتمد سمات y وحدها ولا يحسب transform ولا إحداثيات path d، فهو مؤشر قوي لا إثبات هندسي كامل.",
+    "الفحص الأمني نظيف في الصفحات الـ25 كلها: صفر script، صفر foreignObject، صفر سمات on*، صفر javascript:، صفر مرجع http(s) خارجي، صفر data:، صفر image مضمَّن، صفر use خارجي، صفر iframe أو embed أو object، صفر @import. لا يوجد اكتشاف يحتاج قرارًا مكتوبًا.",
+    "قيمة encoding مستنتجة لا مقروءة: لا يحتوي أي ملف إعلان XML ولا BOM، ونجاح تحليل XML على البايتات دون إعلان يعني أن البايتات UTF-8 صالحة.",
+    "نهايات الأسطر داخل الأصول الـ25 كلها CRLF. لم تُغيَّر ولا يجوز تغييرها، وقاعدة *.svg -text في .gitattributes تغطيها وفق ADR-0005 البند 11.",
+    "الحجم المقيس: المجموع 426754 بايت، والمتوسط 17070 بايت بالتقريب إلى الأدنى، وأصغر ملف 11166 بايت في page-019، وأكبر ملف 29668 بايت في page-001.",
+    "الخطوط المستدعاة في الصفحات الـ25 كلها: Arial وComic Sans MS وSegoe Print وSegoe UI وTahoma وsans-serif، ولا تزيد أي صفحة خطًّا آخر. قيد معروف مسجَّل في ADR-0004 §23 ولا يُعالَج بتعديل الأصول.",
+    "عنوان الدرس في الصفحة الرئيسة «أنواع الوسائط وخصائصها» يرد حرفيًّا في page-001، ومنها displayTitleEn «Types and Characteristics of Media». وpivotQuestionAr بنص المالك المكتوب حرفيًّا، إذ لا تسمية «السؤال الرئيسي» في الأصول. ووصف كل صفحة (descriptionAr، وهو نص alt) بقاعدة المالك المكتوبة: الصفحة التي أول بند فيها عنوان رئيسي بخط 44 غامق وصفها ذلك العنوان، وهي 20 صفحة (page-002، page-003، page-004، page-005، page-006، page-007، page-008، page-009، page-010، page-011، page-012، page-013، page-014، page-015، page-016، page-017، page-018، page-019، page-024، page-025)، والافتتاحية page-001 وصفها أول بند فيها، وكل صفحة سواهما وصفها «تابع: » ثم آخر عنوان رئيسي قبلها حرفيًّا، وهي 4 صفحات.",
+    "لا يحتوي أي بند على العلامتين < أو >. ويحتوي بند واحد في page-002 على العلامة & في «PAUSE & THINK». وتُهرَّب في HTML.",
+    "نصوص الصفحات مستخرجة آليًّا من عناصر <text> بترتيب المستند، ثم طُبّقت عليها قاعدة حذف علامات الترقيم البصرية وحدها المسجلة في ADR-0024 D7 وREADME. وطوبق مجموع عناصر النص في الأصول وهو 288 مع عدد البنود المنشورة وهو 288، ولا فرق بينهما: لا تحتوي الأصول بند ترقيم منفردًا ولا عنصر نص فارغًا."
+  ],
+  "contextSections": {
+    "structureSummaryAr": "افتتاحية 001. مهمة عاجلة: بلّغ المدرسة كلها! 002. يعني إيه «وسيلة»؟ 003. رايح بس ولا رايح جاي؟ 004. شخصيات الوسائط 1: التلفزيون والراديو 005. شخصيات الوسائط 2: الصحيفة والموقع 006. شخصيات الوسائط 3: وسائل التواصل الاجتماعي 007. اسأل أي وسيلة 5 أسئلة 008. الموقع أبو 4 ميمات 009. الموقع زي المحل 010. الدفع والسحب 011. قبل ما تختار: اسأل 4 أسئلة 012. لحن الاختيار 013. فرح أخوك: هتعزم الناس إزاي؟ 014. الشركات تفعل الشيء نفسه 015. أوليمبياد الوسائط: مين يقف؟ 016. فخاخ الامتحان 017. نقطة + سبب = درجتين 018. قاموس الدرس 019–023. ملخص الجيب 024. تذكرة الخروج: 3-2-1 025.",
+    "statusAr": "الـManifest بحالة `published` وأصوله الـ25 في مسارها القانوني. ونصوص الصفحات بلغتيها في HTML فهي مقروءة دون JavaScript، والعارض تحسين تدريجي فوقها. والحالة الجارية في `docs/ai/ARCHITECT_EVIDENCE_LEDGER.md`.",
+    "pagesNarrativeAr": "25 صفحة: افتتاحية واحدة (`page-001`) و24 صفحة محتوى (`page-002` … `page-025`) بترقيم متصل بلا فجوة. و`viewBox` «0 0 1080 1350» وفحص أمني نظيف في كلها. والمراسي حتمية: `#page-1` ⇄ `page-001.svg` حتى `#page-25` ⇄ `page-025.svg`. والوصف «تابع: » يعني أن الصفحة تكمل آخر عنوان رئيسي قبلها.",
+    "constraintsAr": "**الخطوط.** Tahoma وSegoe Print وComic Sans MS وSegoe UI وArial قد تغيب على أندرويد، وعلاجها خارج الأصول وفق `ADR-0004 §23`. **الألوان.** العرض عبر `<img>` يعزل الأصل عن الوضع الليلي. **المنطقة السفلى.** عنصر نص واحد عند `y = 1188` أو دونه في صفحة واحدة، عند 1194 في `page-022`، وهو مدرج في الـManifest، سُجّل ولم يوقف النشر. **البايتات ثابتة.** CRLF بلا إعلان XML ولا BOM، وأي تعديل يُبطل البصمات.",
+    "decidedAr": "المسار والمعرّفات وفق `ADR-0004`، والصفحات الـ25 وترتيبها وأدوارها، والسؤال المحوري بنص المالك، ووصف «تابع: » بقاعدته المكتوبة. صفر Dependencies وصفر Build Step.",
+    "undecidedAr": "روابط Previous/Next بين الدروس. فهرس `/courses/` وفهارس Course وTerm وChapter. Structured Data. الخطوط على أندرويد. مراسي `#concept-*`.",
+    "howToUseAr": "مصدرك لجرد بنية الدرس وقيوده. **لا تطلب ملف SVG** وفق `ADR-0005` §10. النص في HTML صفحة الدرس، والجرد والبصمات في الـManifest. ولا تحرّر مخرَجًا منشورًا: غيّر الـconfig وأعد التوليد وفق `ADR-0024`، ولا تخترع رقمًا ولا بصمة."
+  },
+  "svgSourceDir": "assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-04/lesson-01",
+  "pages": [
+    {
+      "id": "page-001",
+      "htmlId": "page-1",
+      "role": "opening",
+      "descriptionAr": "الدرس 4-1",
+      "transcript": [
+        {
+          "text": "الدرس 4-1",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "أنواع الوسائط وخصائصها",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Lesson 4-1",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "Types and Characteristics of Media",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-002",
+      "htmlId": "page-2",
+      "role": "content",
+      "descriptionAr": "مهمة عاجلة: بلّغ المدرسة كلها!",
+      "transcript": [
+        {
+          "text": "مهمة عاجلة: بلّغ المدرسة كلها!",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Urgent Mission: Tell the Whole School!",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تخيّل أن الامتحان تأجّل أسبوعًا، ويجب أن تعرف المدرسة كلها اليوم. ماذا ستستخدم؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Imagine the exam is postponed by a week, and the whole school must know today. What would you use?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "توقّف وفكّر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "PAUSE & THINK",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هل سيعرف الطالب الغائب اليوم بالخبر من الإذاعة المدرسية؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Will a student who is absent today hear the news from the school radio?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-003",
+      "htmlId": "page-3",
+      "role": "content",
+      "descriptionAr": "يعني إيه «وسيلة»؟",
+      "transcript": [
+        {
+          "text": "يعني إيه «وسيلة»؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "What Is a \"Medium\"?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المرسل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Sender",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الرسالة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Message",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الوسيلة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Medium",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المتلقي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Receiver",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مصطلحات أساسية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "KEY TERMS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الوسيلة Medium: الطريق الذي تمشي فيه المعلومة من المرسل إلى المتلقي، وجمعها الوسائط Media.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Medium: the path information travels from sender to receiver; its plural is media.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المرسل Sender يُنتج الرسالة Message، والمتلقي Receiver تصل إليه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The sender creates the message, and the receiver gets it.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-004",
+      "htmlId": "page-4",
+      "role": "content",
+      "descriptionAr": "رايح بس ولا رايح جاي؟",
+      "transcript": [
+        {
+          "text": "رايح بس ولا رايح جاي؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "One Way or Both Ways?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جرّب مع زميلك: كلام بلا رد، ثم كلام مع أسئلة. لاحظ الفرق!",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Try it: talk with no replies, then with questions. Notice the difference!",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مصطلحات أساسية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "KEY TERMS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اتجاه واحد One-way: المعلومة تذهب من المرسل إلى المتلقي فقط.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "One-way: information goes from sender to receiver only.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اتجاهين Two-way: المتلقي يرد ويشارك ويتفاعل Interaction، فيصبح مرسلًا أيضًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Two-way: the receiver responds, shares, and interacts, becoming a sender too.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-005",
+      "htmlId": "page-5",
+      "role": "content",
+      "descriptionAr": "شخصيات الوسائط 1: التلفزيون والراديو",
+      "transcript": [
+        {
+          "text": "شخصيات الوسائط 1: التلفزيون والراديو",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Media Characters 1: TV and Radio",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التلفزيون TV: الميكروفون الكبير",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "TV: The Big Microphone",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "صورة وصوت لجمهور ضخم في اللحظة نفسها، لكنه عادةً لا يسمعك: اتجاه واحد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Picture and sound for a huge audience at once, but it usually cannot hear you: one-way.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الراديو Radio: رفيق المشاوير",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Radio: The Travel Buddy",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "صوت فقط، يرافقك وأنت تتحرك أو تعمل، بحسب التغطية Coverage وجهاز الاستقبال. اتجاه واحد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Sound only; it joins you while you move or work, depending on coverage and the receiving device. One-way.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "صِف زميلك لزميل مغمض العينين. هذا هو الراديو!",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Describe a classmate to someone with eyes closed. That is radio!",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-006",
+      "htmlId": "page-6",
+      "role": "content",
+      "descriptionAr": "شخصيات الوسائط 2: الصحيفة والموقع",
+      "transcript": [
+        {
+          "text": "شخصيات الوسائط 2: الصحيفة والموقع",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Media Characters 2: Newspaper and Website",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الصحيفة Newspaper: الجد الحكيم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Newspaper: The Wise Grandpa",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ورق مطبوع تقرؤه دون إنترنت، لكنه لا يتغير بعد الطباعة. اتجاه واحد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Printed paper you read without Internet, but it cannot change after printing. One-way.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الموقع الإلكتروني Website: المكتبة المفتوحة 24 ساعة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Website: The Library Open 24 Hours",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "صفحات ويب مترابطة فيها نص وصور وصوت وفيديو، تُحدَّث في أي وقت، وتسمح بالتفاعل. لكنها تحتاج غالبًا إلى اتصال.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Linked web pages with text, images, audio, and video; updated any time and interactive, but usually needs a connection.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-007",
+      "htmlId": "page-7",
+      "role": "content",
+      "descriptionAr": "شخصيات الوسائط 3: وسائل التواصل الاجتماعي",
+      "transcript": [
+        {
+          "text": "شخصيات الوسائط 3: وسائل التواصل الاجتماعي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Media Characters 3: SNS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "وسائل التواصل SNS: الجار اللي الخبر عنده بيلف الشارع",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "SNS: The Neighbor Who Spreads News Down the Street",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏SNS (Social Networking Services)‎: أسرع وسيلة في نشر المعلومة، والكل فيها ينشر ويشارك ويرد: اتجاهين.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "SNS (Social Networking Services): the fastest at spreading information; everyone posts, shares, and replies: two-way.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "انتبه: الأسرع ليس دائمًا الأدق. تأكّد من مصدر الخبر قبل أن تشاركه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Careful: the fastest is not always the most accurate. Check the source before you share.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-008",
+      "htmlId": "page-8",
+      "role": "content",
+      "descriptionAr": "اسأل أي وسيلة 5 أسئلة",
+      "transcript": [
+        {
+          "text": "اسأل أي وسيلة 5 أسئلة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Ask Any Medium 5 Questions",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اسأل أي وسيلة هذه الأسئلة الخمسة، وستفهمها دون حفظ:",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Ask any medium these five questions, and you will understand it without memorizing:",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "1 تنقل ماذا؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 What does it carry?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 اتجاه واحد أم اتجاهين؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 One-way or two-way?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "3 تصل إلى كم شخص، وبأي سرعة؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 How many does it reach, how fast?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "4 متى تتحدّث؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "4 When can it be updated?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "5 هل تحتاج إلى إنترنت؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "5 Does it need the Internet?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جرّب الآن",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "TRY NOW",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "طبّق الأسئلة الخمسة على البودكاست Podcast، وهو وسيلة لم يذكرها الكتاب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Try the five questions on a podcast, a medium not in the book.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-009",
+      "htmlId": "page-9",
+      "role": "content",
+      "descriptionAr": "الموقع أبو 4 ميمات",
+      "transcript": [
+        {
+          "text": "الموقع أبو 4 ميمات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Website Strengths in Four Words",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نقاط قوة الموقع تبدأ كلها بحرف الميم:",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "All four strengths start with the Arabic letter م:",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 منوّع: نص وصور وصوت وفيديو معًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 Diverse: text, images, audio, and video together.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 محدَّث: تغيّر المعلومة في أي وقت.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 Updatable: change information at any time.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "3 مفتوح للعالم: من أي مكان فيه اتصال مناسب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 Open to the world, with a suitable connection.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "4 متفاعل: يرد عليك بالنماذج Forms والتعليقات Comments.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "4 Interactive: responds through forms and comments.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المتصفح Browser: البرنامج الذي تفتح به المواقع، دون تثبيت تطبيق خاص.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Browser: the program that opens websites, with no special app needed.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-010",
+      "htmlId": "page-10",
+      "role": "content",
+      "descriptionAr": "الموقع زي المحل",
+      "transcript": [
+        {
+          "text": "الموقع زي المحل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A Website Is Like a Shop",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الموقع مثل المحل: الزبون هو الذي يذهب إليه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A website is like a shop: the customer must go to it.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "1 يحتاج إلى طريق: معظم وظائفه تحتاج إلى اتصال بالشبكة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 It needs a road: most functions need a network connection.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 يجب أن يأتي الزبون: لن تصلك المعلومة ما لم تفتح الموقع.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 The customer must come: you get nothing unless you open the site.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "3 الطريق قد يكون مزدحمًا: سرعة التحميل تختلف حسب جهازك وشبكتك.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 The road may be busy: loading speed depends on your device and network.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-011",
+      "htmlId": "page-11",
+      "role": "content",
+      "descriptionAr": "الدفع والسحب",
+      "transcript": [
+        {
+          "text": "الدفع والسحب",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Push and Pull",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المعلومة تصلك بطريقتين:",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Information reaches you in two ways:",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مصطلحات أساسية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "KEY TERMS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الدفع Push: المعلومة تأتي إليك دون أن تطلبها، مثل التلفزيون والإشعارات Notifications.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Push: information comes to you without asking, like TV and notifications.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "السحب Pull: أنت الذي تذهب إلى المعلومة، مثل فتح موقع.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Pull: you go to the information, like opening a website.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "معلومة تميّزك: الموقع يستطيع أن يقترب من الدفع بالإشعارات، ويعمل جزئيًا دون اتصال بالتخزين المؤقت Cache.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Bonus fact: a website can act like push with notifications, and work partly offline with caching.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-012",
+      "htmlId": "page-12",
+      "role": "content",
+      "descriptionAr": "قبل ما تختار: اسأل 4 أسئلة",
+      "transcript": [
+        {
+          "text": "قبل ما تختار: اسأل 4 أسئلة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Before You Choose: Ask 4 Questions",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "1 الغرض Purpose: ماذا أريد؟ أُعلن، أم أشرح، أم أبلّغ شخصًا، أم أنشر؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 Purpose: What do I want? Announce, explain, tell one person, or spread?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 الجمهور المستهدف Target audience: من هم؟ وأين يقضون وقتهم؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 Target audience: Who are they? Where do they spend their time?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "3 الرسالة Message: قصيرة أم مليئة بالتفاصيل؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 Message: Short, or full of details?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "4 الموارد Resources: كم معي من المال والوقت؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "4 Resources: How much money and time do I have?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-013",
+      "htmlId": "page-13",
+      "role": "content",
+      "descriptionAr": "لحن الاختيار",
+      "transcript": [
+        {
+          "text": "لحن الاختيار",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Choosing Rhyme",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التلفزيون للجمهور الكبير،",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "TV is for the big crowd,",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "والموقع للتفاصيل الكتير،",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The website is for lots of detail,",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "والإيميل للشخص بالتحديد،",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Email is for one person by name,",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "والسوشيال يخلّي الكلام يزيد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "And SNS makes the word spread.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "وفي الامتحان تذكّر الكلمات الأربع: انتشار واسع، عمق، توصيل مباشر، تناقل شفهي.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In the exam, remember four keywords: wide reach, depth, direct delivery, word of mouth.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لا توجد وسيلة أحسن من غيرها؛ توجد وسيلة أنسب للمهمة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "No medium is better than another; one is just a better fit for the task.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-014",
+      "htmlId": "page-14",
+      "role": "content",
+      "descriptionAr": "فرح أخوك: هتعزم الناس إزاي؟",
+      "transcript": [
+        {
+          "text": "فرح أخوك: هتعزم الناس إزاي؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Your Brother's Wedding: How Will You Invite People?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أخوك سيتزوج. كيف ستدعو الناس؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Your brother is getting married. How will you invite people?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كارت مطبوع للأقارب الكبار: مثل الصحيفة، ورق بلا إنترنت.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A printed card for older relatives: like a newspaper, paper with no Internet.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مجموعة العائلة: وسائل تواصل، والخبر ينتشر بالمشاركة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The family group chat: SNS, and news spreads by sharing.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "صفحة فيها الموعد والخريطة والصور: موقع، وتفاصيل متاحة في أي وقت.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A page with the time, map, and photos: a website, with details any time.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "رسالة خاصة لمدير والدك: رسالة مباشرة، وتوصيل فردي.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A private message to your father's manager: a direct message, individual delivery.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-015",
+      "htmlId": "page-15",
+      "role": "content",
+      "descriptionAr": "الشركات تفعل الشيء نفسه",
+      "transcript": [
+        {
+          "text": "الشركات تفعل الشيء نفسه",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Companies Do the Same",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لاحظت؟ لم تستخدم وسيلة واحدة. هذا هو الجمع بين الوسائط Combining media.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Notice? You did not use only one medium. This is combining media.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثال: إعلان تلفزيوني يوجّهك إلى موقع، والموقع يشجّعك على المشاركة في وسائل التواصل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example: a TV ad sends you to a website, and the website encourages you to share on SNS.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "انتشار",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Reach",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "عمق",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Depth",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مشاركة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Sharing",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كل وسيلة تقوم بما تُجيده، والكل يكمّل بعضه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Each medium does what it does best, and together they complete each other.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-016",
+      "htmlId": "page-16",
+      "role": "content",
+      "descriptionAr": "أوليمبياد الوسائط: مين يقف؟",
+      "transcript": [
+        {
+          "text": "أوليمبياد الوسائط: مين يقف؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Media Olympics: Who Stands Up?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اختر الوسيلة الأنسب لكل مهمة، وبرّر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Choose the best medium for each task, and justify.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "1 عرض جدول الامتحانات بالتفصيل، متاحًا طوال الشهر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 Show the full exam timetable, available all month.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 إبلاغ جدتك في قرية لا يصلها الإنترنت.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 Tell your grandmother in a village with no Internet.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "3 إعلان فيديو لملايين الناس في ليلة واحدة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 A video ad for millions in one night.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "4 سائق تاكسي يريد أخبار الطريق وهو يقود.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "4 A taxi driver wants traffic news while driving.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "5 أن ينشر الطلاب مسابقة المدرسة بأنفسهم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "5 Students spread the school contest themselves.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-017",
+      "htmlId": "page-17",
+      "role": "content",
+      "descriptionAr": "فخاخ الامتحان",
+      "transcript": [
+        {
+          "text": "فخاخ الامتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Exam Traps",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كلمات الإعدام",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "KILLER WORDS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«دائمًا»، «فقط»، «بغض النظر»، «تلقائيًا»: كلمات تجعل الاختيار غالبًا خطأ.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "\"Always,\" \"only,\" \"regardless,\" \"automatically\": words that usually make an option wrong.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«الراديو ينقل فيديو» أو «التلفزيون اتجاهين»: خطأ.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "\"Radio carries video\" or \"TV is two-way\": wrong.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«الصحف الأسرع انتشارًا» خطأ: الأسرع وسائل التواصل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "\"Newspapers spread fastest\" is wrong: SNS is fastest.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«الموقع يصل تلقائيًا» أو «يعمل عادةً دون إنترنت»: خطأ.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "\"A website reaches users automatically\" or \"normally works offline\": wrong.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-018",
+      "htmlId": "page-18",
+      "role": "content",
+      "descriptionAr": "نقطة + سبب = درجتين",
+      "transcript": [
+        {
+          "text": "نقطة + سبب = درجتين",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Point + Reason = 2 Marks",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لماذا تستخدم مؤسسة موقعًا وتلفزيونًا ووسائل تواصل معًا؟ [6 درجات]",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Why use a website, TV, and SNS together? [6 marks]",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التلفزيون للانتشار الواسع، لأنه يصل إلى عدد كبير جدًا في وقت واحد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "TV for wide reach, because it reaches very many people at once.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الموقع للعمق، لأنه يعرض التفاصيل الكاملة في أي وقت ويمكن تحديثه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A website for depth, because it shows full, updatable details any time.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "وسائل التواصل للتناقل الشفهي، لأن المستخدمين يشاركون المعلومة ويتفاعلون.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "SNS for word of mouth, because users share the information and interact.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "والخاتمة: لا توجد وسيلة هي الأفضل لكل غرض، فالجمع يجعل كل وسيلة تقوم بما تُجيده.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Conclusion: no medium is best for everything, so combine them.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-019",
+      "htmlId": "page-19",
+      "role": "content",
+      "descriptionAr": "قاموس الدرس",
+      "transcript": [
+        {
+          "text": "قاموس الدرس",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Lesson Dictionary",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المعلومات Information: المحتوى الذي يُنقل، مثل النص والصورة والصوت والفيديو.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Information: the content being carried, such as text, images, audio, and video.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الخصائص Characteristics: الصفات التي تميّز الوسيلة: ما تنقله، واتجاهها، وانتشارها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Characteristics: the features of a medium: what it carries, its direction, and its reach.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نقاط القوة Strengths: ما تتفوق فيه الوسيلة على غيرها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Strengths: what a medium does better than others.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "القيود Constraints: حدود ما تستطيع الوسيلة فعله، أو ما تحتاج إليه لتعمل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Constraints: the limits of a medium, or what it needs in order to work.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الوسائط المتعددة Multimedia: نص وصورة وصوت وفيديو في محتوى واحد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Multimedia: text, images, audio, and video in one piece of content.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-020",
+      "htmlId": "page-20",
+      "role": "content",
+      "descriptionAr": "تابع: قاموس الدرس",
+      "transcript": [
+        {
+          "text": "التحديث Update: تعديل المعلومة أو إضافة جديد إليها بعد نشرها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Update: changing information or adding something new after publishing.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التغطية Coverage: المنطقة التي تصل إليها إشارة البث، ويلتقطها جهاز الاستقبال Receiving device.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Coverage: the area a broadcast signal reaches, picked up by a receiving device.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الوسيلة المطبوعة Printed medium: وسيلة موجودة على الورق تمسكها بيدك.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Printed medium: a medium on paper that you can hold in your hand.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "صفحة الويب Web page: مستند واحد داخل الموقع، والموقع مجموعة صفحات مترابطة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Web page: one document inside a website; a website is a set of linked pages.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تطبيق الويب Web app: موقع يعمل كبرنامج تفاعلي في المتصفح، وبعضه يمكن تثبيته.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Web app: a website that works like an interactive program in the browser; some can be installed.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-021",
+      "htmlId": "page-21",
+      "role": "content",
+      "descriptionAr": "تابع: قاموس الدرس",
+      "transcript": [
+        {
+          "text": "النموذج Form: خانات في صفحة الويب تملؤها وترسلها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Form: fields on a web page that you fill in and send.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التعليقات Comments: ردود يكتبها المستخدمون تحت المحتوى.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Comments: replies users write under the content.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المشاركة Sharing: إعادة نشر محتوى ليراه آخرون.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Sharing: posting content again so others can see it.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "دون اتصال Offline: عمل الجهاز أو المحتوى دون اتصال بالشبكة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Offline: a device or content working without a network connection.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "سرعة التحميل Loading speed: الوقت الذي تستغرقه الصفحة لتظهر، وتتأثر ببيئة الشبكة Network environment، أي قوة الاتصال وسرعته.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Loading speed: the time a page takes to appear; it depends on the network environment, meaning the strength and speed of the connection.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-022",
+      "htmlId": "page-22",
+      "role": "content",
+      "descriptionAr": "تابع: قاموس الدرس",
+      "transcript": [
+        {
+          "text": "البريد الإلكتروني Email: رسائل رقمية تصل إلى عنوان شخص أو جهة بعينها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Email: digital messages sent to the address of a specific person or organization.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الرسائل المباشرة Direct messages: رسائل خاصة بين طرفين داخل منصة أو تطبيق.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Direct messages: private messages between two people inside a platform or app.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التناقل الشفهي Word of mouth: انتشار المعلومة من شخص إلى آخر بتوصية الناس، لا بإعلان رسمي.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Word of mouth: information spreading from person to person through recommendations, not official ads.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الإعلان Advertisement: رسالة ترويجية، مدفوعة غالبًا، تعرّف بمنتج أو خدمة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Advertisement: a promotional message, often paid, that introduces a product or service.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الحملة Campaign: رسائل وأنشطة منظمة لهدف واحد خلال فترة محددة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Campaign: organized messages and activities for one goal over a set period.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-023",
+      "htmlId": "page-23",
+      "role": "content",
+      "descriptionAr": "تابع: قاموس الدرس",
+      "transcript": [
+        {
+          "text": "الوسائط التقليدية Traditional media: وسائط سبقت الإنترنت، مثل التلفزيون والراديو والصحف.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Traditional media: media that came before the Internet, such as TV, radio, and newspapers.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الوسائط الرقمية Digital media: وسائط تعتمد على الأجهزة الرقمية والشبكات، مثل المواقع ووسائل التواصل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Digital media: media that rely on digital devices and networks, such as websites and SNS.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الانتشار الواسع Wide reach: الوصول إلى عدد كبير جدًا من الناس.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Wide reach: reaching a very large number of people.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "العمق Depth: تقديم معلومات تفصيلية ومنظمة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Depth: offering detailed and organized information.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التوصيل الفردي Individual delivery: إرسال المعلومة إلى أشخاص محددين بأسمائهم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Individual delivery: sending information to specific people by name.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-024",
+      "htmlId": "page-24",
+      "role": "content",
+      "descriptionAr": "ملخص الجيب",
+      "transcript": [
+        {
+          "text": "ملخص الجيب",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Pocket Summary",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التلفزيون: جمهور ضخم في وقت واحد، وعادةً اتجاه واحد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "TV: huge audience at once, usually one-way.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الراديو: صوت فقط يرافقك في الطريق، بحسب التغطية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Radio: sound only, on the go, by coverage.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الصحيفة: ورق ثابت يُقرأ دون إنترنت.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Newspaper: paper read with no Internet.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الموقع: منوّع ومحدَّث ومفتوح ومتفاعل، لكنه يحتاج غالبًا إلى اتصال وزائر يأتي بنفسه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Website: diverse, updatable, open, interactive; usually needs a connection and a visitor.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "وسائل التواصل: الأسرع انتشارًا، واتجاهين.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "SNS: fastest to spread, two-way.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اختر حسب الغرض والجمهور والرسالة والموارد، واجمع بين الوسائط.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Choose by purpose, audience, message, resources; combine media.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-025",
+      "htmlId": "page-25",
+      "role": "content",
+      "descriptionAr": "تذكرة الخروج: 3-2-1",
+      "transcript": [
+        {
+          "text": "تذكرة الخروج: 3-2-1",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Exit Ticket: 3-2-1",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قبل أن تغلق المذكرة، اكتب في دفترك:",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Before you close this booklet, write in your notebook:",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "3 وسائط، وقوة كل منها في كلمة واحدة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 media, and the strength of each in one word.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 من قيود الموقع الإلكتروني.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 constraints of a website.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "1 موقف من حياتك، والوسيلة التي تختارها له، ولماذا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 situation from your life, the medium you would choose, and why.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "إذا كتبت اختيارًا مع سبب مقنع في البند الأخير، فقد حققت هدف الدرس.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "If you wrote a choice with a convincing reason in the last item, you have reached the lesson's goal.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    }
+  ]
+}

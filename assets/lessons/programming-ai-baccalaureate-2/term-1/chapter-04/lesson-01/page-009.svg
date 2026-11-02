@@ -1,0 +1,264 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilGlobe" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8fc9f2"/>
+    <stop offset="1" stop-color="#2f7fb5"/>
+  </linearGradient>
+  <linearGradient id="ilScreen" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#4fc3e8"/>
+  </linearGradient>
+</defs>
+
+<!-- Bullets -->
+<circle cx="966" cy="384" r="6" fill="#2e7d32"/>
+<circle cx="114" cy="424" r="6" fill="#2e7d32"/>
+<circle cx="966" cy="504" r="6" fill="#2e7d32"/>
+<circle cx="114" cy="544" r="6" fill="#2e7d32"/>
+<circle cx="966" cy="624" r="6" fill="#2e7d32"/>
+<circle cx="114" cy="704" r="6" fill="#2e7d32"/>
+<circle cx="966" cy="784" r="6" fill="#2e7d32"/>
+<circle cx="114" cy="864" r="6" fill="#2e7d32"/>
+
+<!-- Title face -->
+<g transform="translate(165 108)">
+  <circle cx="4" cy="6" r="26" fill="#22303f" opacity=".18"/>
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Title star -->
+<g transform="translate(912 104)">
+  <polygon points="4,-18 9.9,-2.1 26.8,-1.4 13.5,9.1 18.1,25.4 4,16 -10.1,25.4 -5.5,9.1 -18.8,-1.4 -1.9,-2.1" fill="#22303f" opacity=".18"/>
+  <polygon points="0,-24 5.9,-8.1 22.8,-7.4 9.5,3.1 14.1,19.4 0,10 -14.1,19.4 -9.5,3.1 -22.8,-7.4 -5.9,-8.1" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Bulb icon (intro) -->
+<g transform="translate(888 258)">
+  <g transform="translate(4 6)" fill="#22303f" opacity=".18">
+    <circle cx="25" cy="20" r="15"/>
+    <rect x="18" y="33" width="14" height="12" rx="3"/>
+  </g>
+  <path d="M5 8 L9 11 M45 8 L41 11 M2 22 L7 22 M48 22 L43 22" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="25" cy="20" r="15" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M20 22 Q25 28 30 22" fill="none" stroke="#c96a1b" stroke-width="2" stroke-linecap="round"/>
+  <rect x="18" y="33" width="14" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M18 39 H32" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+</g>
+
+<!-- Media icon (Diverse) -->
+<g transform="translate(888 418)">
+  <g transform="translate(4 6)" fill="#22303f" opacity=".18">
+    <rect x="2" y="6" width="46" height="36" rx="6"/>
+  </g>
+  <rect x="2" y="6" width="46" height="36" rx="6" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="11" cy="15" r="4" fill="#ffd24a"/>
+  <circle cx="27" cy="25" r="11" fill="#c0392b" stroke="#22303f" stroke-width="2"/>
+  <polygon points="24,19 24,31 33,25" fill="#ffffff"/>
+</g>
+
+<!-- Refresh icon (Updatable) -->
+<g transform="translate(888 538)">
+  <g transform="translate(4 6)" fill="#22303f" opacity=".18">
+    <circle cx="25" cy="24" r="20"/>
+  </g>
+  <circle cx="25" cy="24" r="20" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M14.7 20.3 A11 11 0 0 1 33.4 16.9 M35.3 27.7 A11 11 0 0 1 16.6 31.1" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="30,12 39,14 35,22" fill="#2e7d32"/>
+  <polygon points="20,36 11,34 15,26" fill="#2e7d32"/>
+</g>
+
+<!-- Globe icon (Open to the world) -->
+<g transform="translate(888 698)">
+  <g transform="translate(4 6)" fill="#22303f" opacity=".18">
+    <circle cx="25" cy="24" r="20"/>
+  </g>
+  <circle cx="25" cy="24" r="20" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M14 14 Q20 9 26 14 Q27 20 20 20 Q14 20 14 14 Z" fill="#a9dcbe"/>
+  <path d="M28 26 Q36 24 38 31 Q35 38 29 36 Q25 31 28 26 Z" fill="#a9dcbe"/>
+  <ellipse cx="25" cy="24" rx="9" ry="20" fill="none" stroke="#22303f" stroke-width="2"/>
+  <path d="M5 24 H45 M9 14 H41 M9 34 H41" fill="none" stroke="#22303f" stroke-width="2"/>
+  <circle cx="25" cy="24" r="20" fill="none" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Chat icon (Interactive) -->
+<g transform="translate(884 858)">
+  <g transform="translate(4 6)" fill="#22303f" opacity=".18">
+    <path d="M8 2 H30 Q38 2 38 10 V20 Q38 28 30 28 H18 L6 38 L8 28 Q0 28 0 20 V10 Q0 2 8 2 Z"/>
+    <path d="M26 24 H48 Q56 24 56 32 V42 Q56 50 48 50 L52 58 L40 50 H26 Q18 50 18 42 V32 Q18 24 26 24 Z"/>
+  </g>
+  <path d="M8 2 H30 Q38 2 38 10 V20 Q38 28 30 28 H18 L6 38 L8 28 Q0 28 0 20 V10 Q0 2 8 2 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="11" cy="15" r="2.5" fill="#2f7fb5"/>
+  <circle cx="19" cy="15" r="2.5" fill="#2f7fb5"/>
+  <circle cx="27" cy="15" r="2.5" fill="#2f7fb5"/>
+  <path d="M26 24 H48 Q56 24 56 32 V42 Q56 50 48 50 L52 58 L40 50 H26 Q18 50 18 42 V32 Q18 24 26 24 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="26" y="33" width="22" height="3" rx="1.5" fill="#c96a1b"/>
+  <rect x="26" y="40" width="14" height="3" rx="1.5" fill="#c96a1b"/>
+</g>
+
+<!-- Browser icon (Browser) -->
+<g transform="translate(886 1058)">
+  <g transform="translate(4 6)" fill="#22303f" opacity=".18">
+    <rect x="0" y="4" width="56" height="44" rx="6"/>
+  </g>
+  <rect x="0" y="4" width="56" height="44" rx="6" fill="#ffffff"/>
+  <rect x="0" y="4" width="56" height="12" rx="6" fill="#17457f"/>
+  <rect x="0" y="10" width="56" height="6" fill="#17457f"/>
+  <circle cx="8" cy="10" r="2" fill="#c0392b"/>
+  <circle cx="15" cy="10" r="2" fill="#ffd24a"/>
+  <circle cx="22" cy="10" r="2" fill="#2e7d32"/>
+  <rect x="8" y="22" width="18" height="18" rx="3" fill="#a9dcbe"/>
+  <rect x="32" y="23" width="16" height="3" rx="1.5" fill="#7f95ab"/>
+  <rect x="32" y="30" width="10" height="3" rx="1.5" fill="#7f95ab"/>
+  <rect x="0" y="4" width="56" height="44" rx="6" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="38,32 38,48 42,44 46,51 49,49 45,42 50,41" fill="#ffffff" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+</g>
+
+<!-- Memory illustration: the four strengths of a website -->
+<g>
+  <g transform="translate(4 6)" fill="#22303f" opacity=".18">
+    <circle cx="160" cy="1196" r="28"/>
+    <circle cx="300" cy="1194" r="38"/>
+    <circle cx="215" cy="1158" r="9"/>
+    <circle cx="222" cy="1236" r="9"/>
+    <rect x="440" y="1146" width="200" height="80" rx="8"/>
+    <path d="M420 1226 L660 1226 L678 1244 L402 1244 Z"/>
+    <path d="M714 1150 H782 Q796 1150 796 1164 V1172 Q796 1186 782 1186 H734 L712 1200 L718 1186 H714 Q700 1186 700 1172 V1164 Q700 1150 714 1150 Z"/>
+    <path d="M758 1198 H830 Q844 1198 844 1212 V1218 Q844 1232 830 1232 H826 L832 1246 L810 1232 H758 Q744 1232 744 1218 V1212 Q744 1198 758 1198 Z"/>
+    <rect x="866" y="1146" width="96" height="94" rx="10"/>
+  </g>
+  <circle cx="160" cy="1196" r="28" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M145.9 1190.9 A15 15 0 0 1 171.5 1186.4 M174.1 1201.1 A15 15 0 0 1 148.5 1205.6" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="166,1181 178,1184 172,1194" fill="#2e7d32"/>
+  <polygon points="154,1211 142,1208 148,1198" fill="#2e7d32"/>
+  <path d="M264 1182 L223 1162 M266 1212 L230 1232" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="215" cy="1158" r="9" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="222" cy="1236" r="9" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="300" cy="1194" r="38" fill="url(#ilGlobe)" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M280 1168 Q292 1160 302 1168 Q306 1178 294 1180 Q284 1182 280 1168 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2"/>
+  <path d="M308 1198 Q322 1194 326 1206 Q324 1218 312 1216 Q302 1208 308 1198 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2"/>
+  <ellipse cx="300" cy="1194" rx="15" ry="38" fill="none" stroke="#22303f" stroke-width="2"/>
+  <path d="M262 1194 H338 M267 1176 H333 M267 1212 H333" fill="none" stroke="#22303f" stroke-width="2"/>
+  <circle cx="300" cy="1194" r="38" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M356 1166 Q372 1152 388 1166 M362 1173 Q372 1165 382 1173" fill="none" stroke="#2f7fb5" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="372" cy="1180" r="3.5" fill="#2f7fb5"/>
+  <rect x="440" y="1146" width="200" height="80" rx="8" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="450" y="1154" width="180" height="64" rx="4" fill="url(#ilScreen)"/>
+  <rect x="450" y="1154" width="180" height="12" rx="4" fill="#ffffff"/>
+  <circle cx="458" cy="1160" r="2.5" fill="#c0392b"/>
+  <circle cx="466" cy="1160" r="2.5" fill="#ffd24a"/>
+  <circle cx="474" cy="1160" r="2.5" fill="#2e7d32"/>
+  <rect x="484" y="1157" width="138" height="6" rx="3" fill="#dff1f7"/>
+  <rect x="458" y="1172" width="60" height="40" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <circle cx="506" cy="1182" r="5" fill="#ffd24a"/>
+  <polygon points="460,1210 478,1188 490,1200 500,1190 516,1210" fill="#2e7d32"/>
+  <circle cx="548" cy="1186" r="11" fill="#c0392b" stroke="#22303f" stroke-width="2"/>
+  <polygon points="544,1180 544,1192 554,1186" fill="#ffffff"/>
+  <rect x="566" y="1182" width="4" height="8" rx="2" fill="#17457f"/>
+  <rect x="573" y="1178" width="4" height="16" rx="2" fill="#17457f"/>
+  <rect x="580" y="1180" width="4" height="12" rx="2" fill="#17457f"/>
+  <rect x="587" y="1184" width="4" height="4" rx="2" fill="#17457f"/>
+  <rect x="530" y="1202" width="92" height="4" rx="2" fill="#7f95ab"/>
+  <rect x="530" y="1209" width="64" height="4" rx="2" fill="#7f95ab"/>
+  <path d="M420 1226 L660 1226 L678 1244 L402 1244 Z" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="518" y="1226" width="44" height="5" rx="2" fill="#7f95ab"/>
+  <path d="M714 1150 H782 Q796 1150 796 1164 V1172 Q796 1186 782 1186 H734 L712 1200 L718 1186 H714 Q700 1186 700 1172 V1164 Q700 1150 714 1150 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="728" cy="1168" r="4" fill="#2f7fb5"/>
+  <circle cx="748" cy="1168" r="4" fill="#2f7fb5"/>
+  <circle cx="768" cy="1168" r="4" fill="#2f7fb5"/>
+  <path d="M758 1198 H830 Q844 1198 844 1212 V1218 Q844 1232 830 1232 H826 L832 1246 L810 1232 H758 Q744 1232 744 1218 V1212 Q744 1198 758 1198 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="758" y="1209" width="60" height="4" rx="2" fill="#c96a1b"/>
+  <rect x="758" y="1218" width="40" height="4" rx="2" fill="#c96a1b"/>
+  <rect x="866" y="1146" width="96" height="94" rx="10" fill="#ffffff"/>
+  <rect x="866" y="1146" width="96" height="16" rx="10" fill="#2f7fb5"/>
+  <rect x="866" y="1154" width="96" height="8" fill="#2f7fb5"/>
+  <rect x="866" y="1146" width="96" height="94" rx="10" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="878" y="1172" width="14" height="14" rx="3" fill="#fffdf7" stroke="#22303f" stroke-width="2"/>
+  <path d="M881 1179 L884 1183 L890 1175" fill="none" stroke="#2e7d32" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="900" y="1177" width="50" height="4" rx="2" fill="#7f95ab"/>
+  <rect x="878" y="1194" width="14" height="14" rx="3" fill="#fffdf7" stroke="#22303f" stroke-width="2"/>
+  <path d="M881 1201 L884 1205 L890 1197" fill="none" stroke="#2e7d32" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="900" y="1199" width="40" height="4" rx="2" fill="#7f95ab"/>
+  <rect x="878" y="1216" width="72" height="14" rx="7" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+  <path d="M414 1184 L416 1190 L422 1192 L416 1194 L414 1200 L412 1194 L406 1192 L412 1190 Z M668 1158 L670 1164 L676 1166 L670 1168 L668 1174 L666 1168 L660 1166 L666 1164 Z M832 1160 L834 1166 L840 1168 L834 1170 L832 1176 L830 1170 L824 1168 L830 1166 Z M236 1189 L238 1195 L244 1197 L238 1199 L236 1205 L234 1199 L228 1197 L234 1195 Z" fill="#ffd24a"/>
+</g>
+
+<!-- Texts -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">الموقع أبو 4 ميمات</text>
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" fill="#152b42">Website Strengths in Four Words</text>
+
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">نقاط قوة الموقع تبدأ كلها بحرف <tspan font-weight="bold" fill="#c0392b">الميم:</tspan></tspan>
+</text>
+<text x="120" y="274" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">All four strengths start with</tspan>
+  <tspan x="120" dy="40">the Arabic letter <tspan font-weight="bold" fill="#c0392b">م:</tspan></tspan>
+</text>
+
+<text x="950" y="394" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">1 <tspan font-weight="bold" fill="#c0392b">منوّع:</tspan> نص وصور وصوت وفيديو معًا.</tspan>
+</text>
+<text x="132" y="434" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">1 <tspan font-weight="bold" fill="#c0392b">Diverse:</tspan> text, images, audio,</tspan>
+  <tspan x="132" dy="40">and video together.</tspan>
+</text>
+
+<text x="950" y="514" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">2 <tspan font-weight="bold" fill="#c0392b">محدَّث:</tspan> تغيّر المعلومة في أي وقت.</tspan>
+</text>
+<text x="132" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">2 <tspan font-weight="bold" fill="#c0392b">Updatable:</tspan> change information</tspan>
+  <tspan x="132" dy="40">at any time.</tspan>
+</text>
+
+<text x="950" y="634" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">3 <tspan font-weight="bold" fill="#c0392b">مفتوح للعالم:</tspan> من أي مكان</tspan>
+  <tspan x="950" dy="40">فيه اتصال مناسب.</tspan>
+</text>
+<text x="132" y="714" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">3 <tspan font-weight="bold" fill="#c0392b">Open to the world,</tspan></tspan>
+  <tspan x="132" dy="40">with a suitable connection.</tspan>
+</text>
+
+<text x="950" y="794" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">4 <tspan font-weight="bold" fill="#c0392b">متفاعل:</tspan> يرد عليك بالنماذج Forms</tspan>
+  <tspan x="950" dy="40">والتعليقات Comments.</tspan>
+</text>
+<text x="132" y="874" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">4 <tspan font-weight="bold" fill="#c0392b">Interactive:</tspan> responds through</tspan>
+  <tspan x="132" dy="40">forms and comments.</tspan>
+</text>
+
+<text x="950" y="994" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">المتصفح</tspan> <tspan font-weight="bold" fill="#c0392b">Browser:</tspan> البرنامج الذي تفتح به</tspan>
+  <tspan x="950" dy="40">المواقع، دون تثبيت تطبيق خاص.</tspan>
+</text>
+<text x="120" y="1074" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">Browser:</tspan> the program that opens</tspan>
+  <tspan x="120" dy="40">websites, with no special app needed.</tspan>
+</text>
+</svg>

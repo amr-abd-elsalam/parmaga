@@ -1,0 +1,219 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilTicket" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffd24a"/>
+    <stop offset="1" stop-color="#f0c48c"/>
+  </linearGradient>
+  <linearGradient id="ilDoor" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8fc9f2"/>
+    <stop offset="1" stop-color="#2f7fb5"/>
+  </linearGradient>
+  <linearGradient id="ilLight" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffd24a"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+</defs>
+
+<!-- Success card -->
+<rect x="109" y="848" width="870" height="208" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="842" width="870" height="208" rx="16" fill="#e9f7ee" stroke="#a9dcbe" stroke-width="2"/>
+<rect x="961" y="858" width="6" height="176" rx="3" fill="#2e7d32"/>
+
+<!-- Title icon: ticket -->
+<g transform="translate(128 90)">
+  <path d="M4 6 H64 V20 A6 6 0 0 0 64 32 V46 H4 V32 A6 6 0 0 0 4 20 Z" fill="#22303f" opacity=".18"/>
+  <path d="M0 0 H60 V14 A6 6 0 0 0 60 26 V40 H0 V26 A6 6 0 0 0 0 14 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M44 5 V11 M44 17 V23 M44 29 V35" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="14" cy="14" r="4.5" fill="#2f7fb5"/>
+  <circle cx="26" cy="14" r="4.5" fill="#2f7fb5"/>
+  <circle cx="20" cy="26" r="4.5" fill="#2e7d32"/>
+</g>
+
+<!-- Title icon: light bulb -->
+<g transform="translate(892 82)">
+  <circle cx="34" cy="36" r="16" fill="#22303f" opacity=".18"/>
+  <path d="M30 4 V9 M10 12 L14 16 M50 12 L46 16 M4 30 H9 M51 30 H56" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="30" cy="30" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M23 44 H37 V54 H23 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M25 31 L30 37 L35 31" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Paragraph icon: notebook and pencil -->
+<g transform="translate(866 272)">
+  <rect x="10" y="10" width="40" height="50" rx="5" fill="#22303f" opacity=".18"/>
+  <rect x="6" y="4" width="40" height="50" rx="5" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M14 18 H38 M14 28 H38 M14 38 H28" fill="none" stroke="#2f7fb5" stroke-width="1.4" stroke-linecap="round"/>
+  <polygon points="32,46 50,14 57,18 39,50" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="32,46 39,50 31,56" fill="#e8b98d" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Q1 icon: book -->
+<g transform="translate(690 442)">
+  <path d="M32 14 Q20 6 6 10 V46 Q20 42 32 50 Q44 42 58 46 V10 Q44 6 32 14 Z" fill="#22303f" opacity=".18"/>
+  <path d="M28 8 Q16 0 2 4 V40 Q16 36 28 44 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M28 8 Q40 0 54 4 V40 Q40 36 28 44 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M9 14 Q16 12 22 15 M9 24 Q16 22 22 25 M34 15 Q40 12 47 14 M34 25 Q40 22 47 24" fill="none" stroke="#2f7fb5" stroke-width="1.4" stroke-linecap="round"/>
+</g>
+
+<!-- Q1 icon: monitor -->
+<g transform="translate(774 438)">
+  <rect x="4" y="6" width="56" height="38" rx="6" fill="#22303f" opacity=".18"/>
+  <path d="M22 38 L19 50 H37 L34 38 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="0" y="0" width="56" height="38" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="5" y="5" width="46" height="28" rx="3" fill="#4fc3e8"/>
+  <polygon points="23,11 23,27 36,19" fill="#ffffff"/>
+</g>
+
+<!-- Q1 icon: speaker -->
+<g transform="translate(864 442)">
+  <polygon points="8,22 20,22 34,10 34,50 20,38 8,38" fill="#22303f" opacity=".18"/>
+  <polygon points="4,16 16,16 30,4 30,44 16,32 4,32" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M38 14 Q46 24 38 34 M44 8 Q56 24 44 40" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Q2 icon: browser with lock -->
+<g transform="translate(890 582)">
+  <rect x="4" y="6" width="48" height="40" rx="5" fill="#22303f" opacity=".18"/>
+  <rect x="0" y="0" width="48" height="40" rx="5" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M0 12 H48" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="7" cy="6" r="2.2" fill="#c0392b"/>
+  <circle cx="14" cy="6" r="2.2" fill="#ffd24a"/>
+  <path d="M20 23 V19 A4 4 0 0 1 28 19 V23" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="17" y="23" width="14" height="11" rx="2" fill="#c96a1b" stroke="#22303f" stroke-width="2"/>
+</g>
+
+<!-- Q3 face: thinking -->
+<g transform="translate(890 784)">
+  <circle cx="4" cy="6" r="26" fill="#22303f" opacity=".18"/>
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Card icon: check badge -->
+<g transform="translate(128 852)">
+  <circle cx="32" cy="34" r="24" fill="#22303f" opacity=".18"/>
+  <circle cx="28" cy="28" r="24" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M16 29 L25 38 L41 20" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Memory illustration: exit ticket, notebook, exit door -->
+<g>
+  <g transform="translate(154 1111) rotate(-6)">
+    <path d="M0 0 H230 V44 A16 16 0 0 0 230 76 V120 H0 V76 A16 16 0 0 0 0 44 Z" fill="#22303f" opacity=".18"/>
+  </g>
+  <path d="M424 1136 Q484 1124 544 1138 Q604 1124 664 1136 L664 1236 Q604 1226 544 1238 Q484 1226 424 1236 Z" fill="#22303f" opacity=".18"/>
+  <rect x="794" y="1106" width="120" height="136" fill="#22303f" opacity=".18"/>
+  <rect x="826" y="1080" width="56" height="20" rx="4" fill="#22303f" opacity=".18"/>
+
+  <g transform="translate(150 1105) rotate(-6)">
+    <path d="M0 0 H230 V44 A16 16 0 0 0 230 76 V120 H0 V76 A16 16 0 0 0 0 44 Z" fill="url(#ilTicket)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M170 10 V22 M170 34 V46 M170 58 V70 M170 82 V94 M170 106 V112" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="50" cy="32" r="10" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="85" cy="32" r="10" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="120" cy="32" r="10" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="67" cy="62" r="10" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="102" cy="62" r="10" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="85" cy="92" r="10" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+    <polygon points="200,44 204.1,54.3 215.2,55.1 206.7,62.2 209.4,72.9 200,67 190.6,72.9 193.3,62.2 184.8,55.1 195.9,54.3" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+
+  <path d="M420 1130 Q480 1118 540 1132 L540 1232 Q480 1220 420 1230 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M540 1132 Q600 1118 660 1130 L660 1230 Q600 1220 540 1232 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M436 1152 H524 M436 1172 H524 M436 1192 H524 M436 1212 H508 M556 1152 H644 M556 1172 H628" fill="none" stroke="#8fc9f2" stroke-width="2" stroke-linecap="round"/>
+
+  <g transform="translate(615 1205) rotate(-40)">
+    <rect x="0" y="-8" width="100" height="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="100" y="-8" width="18" height="16" rx="3" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+    <polygon points="0,-8 -22,0 0,8" fill="#e8b98d" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="-22,0 -14,-3 -14,3" fill="#22303f"/>
+  </g>
+
+  <rect x="790" y="1100" width="120" height="136" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="802" y="1112" width="96" height="124" fill="url(#ilLight)" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="884" cy="1134" r="8" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+  <path d="M852 1236 Q876 1202 898 1212 V1236 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="802,1112 852,1124 852,1226 802,1236" fill="url(#ilDoor)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="842" cy="1176" r="4.5" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+  <rect x="822" y="1074" width="56" height="20" rx="4" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M834 1084 H864 M857 1078 L864 1084 L857 1090" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M405 1088 Q407 1096 415 1098 Q407 1100 405 1108 Q403 1100 395 1098 Q403 1096 405 1088 Z" fill="#ffd24a" stroke="#22303f" stroke-width="1.4" stroke-linejoin="round"/>
+  <path d="M330 1232 Q332 1240 340 1242 Q332 1244 330 1252 Q328 1244 320 1242 Q328 1240 330 1232 Z" fill="#ffd24a" stroke="#22303f" stroke-width="1.4" stroke-linejoin="round"/>
+  <path d="M720 1214 Q722 1222 730 1224 Q722 1226 720 1234 Q718 1226 710 1224 Q718 1222 720 1214 Z" fill="#ffd24a" stroke="#22303f" stroke-width="1.4" stroke-linejoin="round"/>
+  <path d="M948 1110 Q950 1118 958 1120 Q950 1122 948 1130 Q946 1122 938 1120 Q946 1118 948 1110 Z" fill="#ffd24a" stroke="#22303f" stroke-width="1.4" stroke-linejoin="round"/>
+
+  <path d="M640 1100 Q715 1070 772 1110" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="774,1112 758.5,1109.7 766.5,1098.3" fill="#c0392b"/>
+</g>
+
+<!-- Texts -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">تذكرة الخروج: 3-2-1</text>
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" fill="#152b42">Exit Ticket: 3-2-1</text>
+
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">قبل أن تغلق المذكرة، اكتب <tspan font-weight="bold" fill="#17457f">في دفترك</tspan>:</tspan>
+</text>
+<text x="120" y="274" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Before you close this booklet,</tspan>
+  <tspan x="120" dy="40">write in <tspan font-weight="bold" fill="#17457f">your notebook</tspan>:</tspan>
+</text>
+
+<text x="950" y="394" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">3</tspan> <tspan font-weight="bold" fill="#17457f">وسائط</tspan>، وقوة كل منها في كلمة واحدة.</tspan>
+</text>
+<text x="120" y="434" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">3</tspan> <tspan font-weight="bold" fill="#17457f">media</tspan>, and the strength</tspan>
+  <tspan x="120" dy="40">of each in one word.</tspan>
+</text>
+
+<text x="950" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">2</tspan> من <tspan font-weight="bold" fill="#17457f">قيود</tspan> الموقع الإلكتروني.</tspan>
+</text>
+<text x="120" y="594" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">2</tspan> <tspan font-weight="bold" fill="#17457f">constraints</tspan> of a website.</tspan>
+</text>
+
+<text x="950" y="674" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">1</tspan> <tspan font-weight="bold" fill="#17457f">موقف</tspan> من حياتك، والوسيلة التي</tspan>
+  <tspan x="950" dy="40">تختارها له، ولماذا.</tspan>
+</text>
+<text x="120" y="754" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">1</tspan> <tspan font-weight="bold" fill="#17457f">situation</tspan> from your life,</tspan>
+  <tspan x="120" dy="40">the medium you would choose, and why.</tspan>
+</text>
+
+<text x="935" y="874" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">إذا كتبت اختيارًا مع <tspan font-weight="bold" fill="#17457f">سبب مقنع</tspan></tspan>
+  <tspan x="935" dy="40">في البند الأخير، فقد حققت <tspan font-weight="bold" fill="#2e7d32">هدف الدرس</tspan>.</tspan>
+</text>
+<text x="140" y="954" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">If you wrote a choice with a</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#17457f">convincing reason</tspan> in the last item,</tspan>
+  <tspan x="140" dy="40">you have reached the <tspan font-weight="bold" fill="#2e7d32">lesson's goal</tspan>.</tspan>
+</text>
+</svg>
