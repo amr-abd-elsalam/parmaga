@@ -151,7 +151,7 @@ docs/content/context/<course>/<term>/<chapter>/<lesson>.md
 
 القواعد:
 
-- السقف ثمانية كيلوبايت وفق `ADR-0005` §10، ويُقاس بأقل من 8000 بايت، ويحرسه `tests/test_publish_lesson.py` على كل config في `tools/publish_configs/`، فيفشل CI إن تجاوزه ملف سياق.
+- السقف ستة عشر كيلوبايت وفق `ADR-0025` المعدِّل لـ`ADR-0005` §10، ويُقاس بأقل من 16000 بايت، ويحرسه `tests/test_publish_lesson.py` على كل config في `tools/publish_configs/`، فيفشل CI إن تجاوزه ملف سياق.
 - **بلا أي وسم SVG.**
 - مولَّد آليًّا بالكامل بأمر `render` في `tools/publish_lesson.py` من الـconfig والـManifest، ولا يُحرَّر بيد بعد توليده. والنص البشري فيه يُكتب في `contextSections` داخل الـconfig.
 - جدول بسطر واحد لكل صفحة يجمع المعرّف والحجم بالبايت والوصف العربي.
@@ -207,7 +207,7 @@ docs/content/context/<course>/<term>/<chapter>/<lesson>.md
 [ ] custodyRepository اسم مجرد، وcustodySnapshot أربعون محرفًا سداسيًا صغيرًا، واللقطة مثبتة الحياة محليًا.
 [ ] python3 tools/verify_lesson.py . نُفِّذ من جذر parmaga، وحالة خروجه مسجَّلة.
 [ ] لا قيمة مخترعة، وكل null له سبب مكتوب.
-[ ] الـContext Packet ≤ 8 KB وبلا أي وسم SVG.
+[ ] الـContext Packet أقل من 16000 بايت وبلا أي وسم SVG.
 [ ] اختبار التسليم نجح مع نموذج مستقل بالمسارات وحدها.
 [ ] لم تدخل أصول هذا الدرس main قبل commit النشر.
 [ ] مسارات assets/lessons/ ما زالت تعيد HTTP 404.

@@ -177,10 +177,10 @@ class CommittedLessonTests(unittest.TestCase):
 
 
 class ContextPacketTests(unittest.TestCase):
-    """ADR-0005 section 10: every Context Packet stays under 8000 bytes with no
+    """ADR-0025 (amends ADR-0005 section 10): every Context Packet stays under 16000 bytes with no
     SVG markup, and the committed packets are exactly what the tool renders."""
 
-    CAP = 8000
+    CAP = 16000
 
     def _each(self):
         for root, _dirs, files in os.walk(os.path.join(REPO_ROOT, "tools", "publish_configs")):
