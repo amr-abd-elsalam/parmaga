@@ -1,0 +1,261 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilSkyR" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="ilWallM" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#fdf6d8"/>
+  </linearGradient>
+  <linearGradient id="ilLobbyL" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#e8dfd1"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="ilPole" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+  <linearGradient id="ilSteel" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#8fc9f2"/>
+  </linearGradient>
+  <linearGradient id="ilPlug" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+</defs>
+
+<!-- Bullets -->
+  <circle cx="966" cy="304" r="6" fill="#c0392b"/>
+  <circle cx="114" cy="384" r="6" fill="#c0392b"/>
+  <circle cx="966" cy="464" r="6" fill="#c0392b"/>
+  <circle cx="114" cy="544" r="6" fill="#c0392b"/>
+  <circle cx="966" cy="624" r="6" fill="#c0392b"/>
+  <circle cx="114" cy="704" r="6" fill="#c0392b"/>
+
+<!-- Icon: light bulb at the left end of the header -->
+<g transform="translate(124 128)">
+  <path d="M10 8 L 14 12 M46 8 L 42 12 M2 24 L 8 24 M48 24 L 54 24" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="28" cy="24" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M23 30 L 28 22 L 33 30" fill="none" stroke="#c96a1b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="20" y="40" width="16" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: star beside bullet 1 -->
+<g transform="translate(160 298)">
+  <polygon points="26,2 31.9,17.9 48.8,18.6 35.5,29.1 40.1,45.4 26,36 11.9,45.4 16.5,29.1 3.2,18.6 20.1,17.9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: warning triangle beside bullet 2 -->
+<g transform="translate(160 460)">
+  <polygon points="26,2 50,46 2,46" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="23.5" y="16" width="5" height="16" rx="2.5" fill="#22303f"/>
+  <circle cx="26" cy="39" r="3" fill="#22303f"/>
+</g>
+
+<!-- Icon: chip beside bullet 3 -->
+<g transform="translate(160 620)">
+  <path d="M18 4 L 18 10 M26 4 L 26 10 M34 4 L 34 10 M18 42 L 18 48 M26 42 L 26 48 M34 42 L 34 48 M4 18 L 10 18 M4 26 L 10 26 M4 34 L 10 34 M42 18 L 48 18 M42 26 L 48 26 M42 34 L 48 34" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="10" y="10" width="32" height="32" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="18" y="18" width="16" height="16" rx="2" fill="#4fc3e8"/>
+</g>
+
+<!-- Smile face beside bullet 3 English lines -->
+<g transform="translate(880 752)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Main illustration: three heuristic memory panels -->
+<g>
+  <!-- panel shadows -->
+  <rect x="705" y="828" width="270" height="198" rx="22" fill="#22303f" opacity=".18"/>
+  <rect x="409" y="828" width="270" height="198" rx="22" fill="#22303f" opacity=".18"/>
+  <rect x="113" y="828" width="270" height="198" rx="22" fill="#22303f" opacity=".18"/>
+
+  <!-- RIGHT PANEL: traffic light (Consistency) -->
+  <rect x="701" y="822" width="270" height="198" rx="22" fill="url(#ilSkyR)"/>
+  <ellipse cx="752" cy="856" rx="22" ry="10" fill="#ffffff"/>
+  <ellipse cx="770" cy="850" rx="16" ry="11" fill="#ffffff"/>
+  <ellipse cx="918" cy="868" rx="18" ry="8" fill="#ffffff"/>
+  <ellipse cx="932" cy="863" rx="12" ry="8" fill="#ffffff"/>
+  <rect x="716" y="912" width="44" height="76" fill="#8fc9f2"/>
+  <rect x="724" y="924" width="8" height="10" fill="#ffffff"/>
+  <rect x="742" y="924" width="8" height="10" fill="#ffffff"/>
+  <rect x="724" y="944" width="8" height="10" fill="#ffffff"/>
+  <rect x="742" y="944" width="8" height="10" fill="#ffffff"/>
+  <rect x="724" y="964" width="8" height="10" fill="#ffffff"/>
+  <rect x="742" y="964" width="8" height="10" fill="#ffffff"/>
+  <rect x="908" y="928" width="48" height="60" fill="#8fc9f2"/>
+  <rect x="916" y="940" width="8" height="10" fill="#ffffff"/>
+  <rect x="936" y="940" width="8" height="10" fill="#ffffff"/>
+  <rect x="916" y="960" width="8" height="10" fill="#ffffff"/>
+  <rect x="936" y="960" width="8" height="10" fill="#ffffff"/>
+  <path d="M701 988 H971 V998 A22 22 0 0 1 949 1020 H723 A22 22 0 0 1 701 998 Z" fill="#7f95ab"/>
+  <rect x="702" y="982" width="268" height="8" fill="#e8dfd1"/>
+  <rect x="744" y="996" width="18" height="16" fill="#ffffff"/>
+  <rect x="776" y="996" width="18" height="16" fill="#ffffff"/>
+  <rect x="808" y="996" width="18" height="16" fill="#ffffff"/>
+  <rect x="840" y="996" width="18" height="16" fill="#ffffff"/>
+  <rect x="872" y="996" width="18" height="16" fill="#ffffff"/>
+  <rect x="904" y="996" width="18" height="16" fill="#ffffff"/>
+  <rect x="829" y="950" width="14" height="34" fill="url(#ilPole)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="816" y="978" width="40" height="10" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="796" y="842" width="80" height="100" rx="10" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="808" y="832" width="56" height="122" rx="16" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="836" cy="862" r="13" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="836" cy="893" r="13" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="836" cy="924" r="13" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M822 856 A 15 15 0 0 1 850 856 M822 887 A 15 15 0 0 1 850 887 M822 918 A 15 15 0 0 1 850 918" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="831" cy="858" rx="4" ry="2.5" fill="#ffffff" opacity=".6"/>
+  <ellipse cx="831" cy="889" rx="4" ry="2.5" fill="#ffffff" opacity=".6"/>
+  <ellipse cx="831" cy="920" rx="4" ry="2.5" fill="#ffffff" opacity=".6"/>
+  <rect x="701" y="822" width="270" height="198" rx="22" fill="none" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- MIDDLE PANEL: plug into wall socket (Error prevention) -->
+  <rect x="405" y="822" width="270" height="198" rx="22" fill="url(#ilWallM)"/>
+  <path d="M405 988 H675 V998 A22 22 0 0 1 653 1020 H427 A22 22 0 0 1 405 998 Z" fill="#f0c48c"/>
+  <path d="M450 988 L 446 1018 M520 988 L 518 1020 M590 988 L 592 1020" fill="none" stroke="#c96a1b" stroke-width="2" stroke-linecap="round"/>
+  <rect x="406" y="980" width="268" height="8" fill="#e8dfd1"/>
+  <rect x="434" y="868" width="90" height="90" rx="14" fill="#22303f" opacity=".18"/>
+  <rect x="430" y="862" width="90" height="90" rx="14" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="475" cy="872" r="3" fill="#7f95ab"/>
+  <circle cx="475" cy="942" r="3" fill="#7f95ab"/>
+  <circle cx="475" cy="907" r="28" fill="#e8dfd1" stroke="#22303f" stroke-width="2"/>
+  <circle cx="470" cy="898.5" r="4.5" fill="#22303f"/>
+  <circle cx="470" cy="915.5" r="4.5" fill="#22303f"/>
+  <path d="M598 903 C 626 903 640 926 640 956 L 640 984 L 630 984 L 630 956 C 630 932 620 913 598 913 Z" fill="#22303f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="534" y="884" width="56" height="58" rx="12" fill="#22303f" opacity=".18"/>
+  <rect x="484" y="895" width="38" height="7" rx="3.5" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+  <rect x="484" y="912" width="38" height="7" rx="3.5" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+  <rect x="520" y="884" width="14" height="46" rx="4" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="530" y="878" width="56" height="58" rx="12" fill="url(#ilPlug)" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M552 888 L 552 926 M564 888 L 564 926" fill="none" stroke="#8fc9f2" stroke-width="2" stroke-linecap="round"/>
+  <rect x="584" y="898" width="14" height="18" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M546 950 L 576 950 M556 962 L 580 962" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="620" cy="852" r="18" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M611 852 L 617 858 L 629 845" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M654 876 L 656.5 881.5 L 662 884 L 656.5 886.5 L 654 892 L 651.5 886.5 L 646 884 L 651.5 881.5 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M448 838 L 450.5 843.5 L 456 846 L 450.5 848.5 L 448 854 L 445.5 848.5 L 440 846 L 445.5 843.5 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="405" y="822" width="270" height="198" rx="22" fill="none" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- LEFT PANEL: elevator with up-arrow display (Visibility of system status) -->
+  <rect x="109" y="822" width="270" height="198" rx="22" fill="url(#ilLobbyL)"/>
+  <path d="M109 988 H379 V998 A22 22 0 0 1 357 1020 H131 A22 22 0 0 1 109 998 Z" fill="#e8dfd1"/>
+  <path d="M150 990 L 144 1018 M244 990 L 244 1020 M338 990 L 344 1018" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  <rect x="174" y="990" width="140" height="10" fill="#8fc9f2" opacity=".35"/>
+  <rect x="202" y="828" width="84" height="36" rx="10" fill="#ffd24a" opacity=".35"/>
+  <path d="M196 838 L 188 834 M196 852 L 188 856 M292 838 L 300 834 M292 852 L 300 856" fill="none" stroke="#ffd24a" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="208" y="832" width="72" height="28" rx="6" fill="#22303f" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="244,836 256,848 249,848 249,856 239,856 239,848 232,848" fill="#ffd24a"/>
+  <rect x="162" y="866" width="164" height="122" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="174" y="878" width="69" height="110" fill="url(#ilSteel)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="245" y="878" width="69" height="110" fill="url(#ilSteel)" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M186 892 L 186 976 M257 892 L 257 976" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <rect x="170" y="984" width="148" height="6" fill="#7f95ab" stroke="#22303f" stroke-width="2"/>
+  <rect x="336" y="914" width="20" height="40" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="346" cy="926" r="5" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+  <circle cx="346" cy="942" r="5" fill="#e8dfd1" stroke="#22303f" stroke-width="2"/>
+  <path d="M137 962 C 128 944 130 928 137 918 C 144 928 146 944 137 962 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M137 962 C 124 954 118 942 120 932 C 130 938 136 950 137 962 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M137 962 C 150 954 156 942 154 932 C 144 938 138 950 137 962 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="124,962 150,962 146,988 128,988" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="109" y="822" width="270" height="198" rx="22" fill="none" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- memory rail under the labels -->
+  <rect x="130" y="1182" width="820" height="8" rx="4" fill="#dff1f7"/>
+  <circle cx="836" cy="1186" r="7" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="540" cy="1186" r="7" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="244" cy="1186" r="7" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Bottom icon row -->
+<g transform="translate(434 1206)">
+  <circle cx="26" cy="26" r="22" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M15 26 L 23 34 L 38 18" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(512 1204)">
+  <circle cx="38" cy="14" r="8" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M24 50 C 26 32 52 32 52 50 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="18" cy="12" r="9" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M2 50 C 2 30 34 30 34 50 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+<g transform="translate(598 1204)">
+  <rect x="14" y="0" width="34" height="42" rx="4" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="4" y="8" width="34" height="44" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M10 20 L 32 20 M10 28 L 32 28 M10 36 L 24 36" fill="none" stroke="#c96a1b" stroke-width="2" stroke-linecap="round"/>
+</g>
+
+<!-- Texts -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="950" dy="0">القواعد الإرشادية الثلاث:</tspan>
+  <tspan x="950" dy="40">إشارة، فيشة، أسانسير</tspan>
+</text>
+<text x="120" y="234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="120" dy="0">The Three Heuristics:</tspan>
+  <tspan x="120" dy="40">Traffic Light, Plug, Elevator</tspan>
+</text>
+
+<text x="950" y="314" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">الاتساق</tspan> هو <tspan font-weight="bold" fill="#17457f">إشارة المرور:</tspan></tspan>
+  <tspan x="950" dy="40">ألوانها ثابتة في كل مكان.</tspan>
+</text>
+<text x="132" y="394" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#c0392b">Consistency</tspan> is the <tspan font-weight="bold" fill="#17457f">traffic light:</tspan></tspan>
+  <tspan x="132" dy="40">its colors are the same everywhere.</tspan>
+</text>
+
+<text x="950" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">منع الأخطاء</tspan> هو <tspan font-weight="bold" fill="#17457f">الفيشة:</tspan></tspan>
+  <tspan x="950" dy="40">لا تدخل إلا بطريقة واحدة.</tspan>
+</text>
+<text x="132" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#c0392b">Error prevention</tspan> is the <tspan font-weight="bold" fill="#17457f">plug:</tspan></tspan>
+  <tspan x="132" dy="40">it fits only one way.</tspan>
+</text>
+
+<text x="950" y="634" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">وضوح حالة النظام</tspan> هو <tspan font-weight="bold" fill="#17457f">الأسانسير:</tspan></tspan>
+  <tspan x="950" dy="40">يعرض لك رقم الدور.</tspan>
+</text>
+<text x="132" y="714" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#c0392b">Visibility of system status</tspan></tspan>
+  <tspan x="132" dy="40">is the <tspan font-weight="bold" fill="#17457f">elevator:</tspan></tspan>
+  <tspan x="132" dy="40">it shows you the floor number.</tspan>
+</text>
+
+<text x="888" y="1074" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">الاتساق</text>
+<text x="740" y="1114" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Consistency</text>
+<text x="623" y="1074" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">منع الأخطاء</text>
+<text x="401" y="1114" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Error prevention</text>
+<text x="374" y="1074" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">وضوح حالة النظام</text>
+<text x="131" y="1114" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="131" dy="0">Visibility of</tspan>
+  <tspan x="131" dy="40">system status</tspan>
+</text>
+</svg>

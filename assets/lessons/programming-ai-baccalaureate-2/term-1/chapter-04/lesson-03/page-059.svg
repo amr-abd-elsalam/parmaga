@@ -1,0 +1,220 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Warning card: shadow, fill, accent -->
+<rect x="109" y="448" width="870" height="568" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="442" width="870" height="568" rx="16" fill="#fdf1e2" stroke="#f0c48c" stroke-width="2"/>
+<rect x="961" y="458" width="6" height="536" rx="3" fill="#c96a1b"/>
+
+<!-- Dividers between the three traps -->
+<path d="M140 662 H930 M140 902 H930" fill="none" stroke="#f0c48c" stroke-width="1.4" stroke-linecap="round"/>
+
+<!-- Memory illustration: the careful road to the exam -->
+<g>
+  <defs>
+    <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="ilGround" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a9dcbe"/>
+      <stop offset="1" stop-color="#2e7d32"/>
+    </linearGradient>
+  </defs>
+
+  <!-- panel shadow -->
+  <rect x="129" y="1046" width="826" height="210" rx="22" fill="#22303f" opacity=".18"/>
+
+  <!-- sky panel -->
+  <rect x="125" y="1040" width="830" height="210" rx="22" fill="url(#ilSky)"/>
+
+  <!-- sun -->
+  <path d="M700 1044 V1048 M700 1088 V1092 M676 1068 H680 M720 1068 H724 M683 1051 L686 1054 M714 1082 L717 1085 M717 1051 L714 1054 M686 1082 L683 1085" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="700" cy="1068" r="15" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- clouds -->
+  <g fill="#ffffff">
+    <circle cx="300" cy="1086" r="13"/><circle cx="320" cy="1078" r="18"/><circle cx="342" cy="1088" r="12"/>
+    <circle cx="425" cy="1074" r="11"/><circle cx="442" cy="1067" r="15"/><circle cx="460" cy="1076" r="10"/>
+  </g>
+
+  <!-- ground -->
+  <path d="M125 1170 Q 540 1150 955 1170 V1228 Q955 1250 933 1250 H147 Q125 1250 125 1228 Z" fill="url(#ilGround)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- road -->
+  <path d="M125 1200 C 320 1200, 380 1172, 560 1174 C 740 1176, 800 1194, 955 1192 L955 1222 C 800 1226, 740 1206, 560 1206 C 380 1206, 320 1228, 125 1226 Z" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M170 1213 h22 M240 1210 h22 M310 1204 h22 M450 1192 h22 M590 1190 h22 M730 1198 h22 M800 1205 h22 M870 1207 h22" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- trap 1: open hole with a cone -->
+  <ellipse cx="320" cy="1210" rx="30" ry="7" fill="#22303f" opacity=".85"/>
+  <polygon points="395,1166 409,1200 381,1200" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="391,1176 399,1176 403,1186 387,1186" fill="#ffffff"/>
+  <rect x="376" y="1198" width="38" height="6" rx="2" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- exam paper board -->
+  <path d="M185 1148 L178 1172 M241 1148 L248 1172" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="165" y="1064" width="96" height="84" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M165 1080 V1070 Q165 1064 171 1064 H255 Q261 1064 261 1070 V1080 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="176" y="1088" width="12" height="12" rx="2" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="176" y="1108" width="12" height="12" rx="2" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="176" y="1128" width="12" height="12" rx="2" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M196 1094 H248 M196 1114 H248 M196 1134 H236" fill="none" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- warning sign -->
+  <rect x="767" y="1124" width="6" height="58" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="770,1088 798,1134 742,1134" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="767" y="1103" width="6" height="16" rx="3" fill="#22303f"/>
+  <circle cx="770" cy="1127" r="3.5" fill="#22303f"/>
+
+  <!-- trap 2: hole hidden under leaves -->
+  <ellipse cx="662" cy="1194" rx="28" ry="7" fill="#22303f" opacity=".85"/>
+  <ellipse cx="648" cy="1192" rx="9" ry="4" fill="#2e7d32"/>
+  <ellipse cx="664" cy="1195" rx="9" ry="4" fill="#a9dcbe"/>
+  <ellipse cx="678" cy="1192" rx="8" ry="4" fill="#2e7d32"/>
+  <ellipse cx="660" cy="1189" rx="7" ry="3" fill="#a9dcbe"/>
+
+  <!-- careful student -->
+  <rect x="510" y="1118" width="18" height="36" rx="6" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M528 1166 L524 1196 H538 L542 1166 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M548 1166 L560 1194 L572 1190 L562 1166 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="531" cy="1198" rx="10" ry="4" fill="#22303f"/>
+  <ellipse cx="569" cy="1194" rx="10" ry="4" fill="#22303f"/>
+  <path d="M525 1120 Q545 1112 565 1120 L568 1168 H522 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="539" y="1110" width="12" height="10" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="546" cy="1098" rx="17" ry="19" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M529 1094 C 528 1076, 540 1072, 548 1072 C 560 1072, 566 1082, 563 1094 C 558 1086, 548 1083, 540 1085 C 534 1087, 531 1090, 529 1094 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="555" cy="1099" r="3.5" fill="#22303f"/>
+  <path d="M550 1090 L560 1092" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M552 1109 Q557 1112 561 1108" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M558 1122 L596 1140 L590 1152 L554 1136 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="596" cy="1146" rx="7" ry="6" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- magnifying glass -->
+  <polygon points="596,1150 602,1144 618,1160 612,1166" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="626" cy="1174" r="15" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M617 1170 A10 10 0 0 1 623 1164" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- goal flag -->
+  <rect x="878" y="1098" width="5" height="84" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="883,1100 925,1112 883,1124" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="898,1105 900,1110 905,1110 901,1113 903,1118 898,1115 893,1118 895,1113 891,1110 896,1110" fill="#ffd24a"/>
+
+  <!-- sparkles -->
+  <polygon points="290,1120 293,1126 299,1129 293,1132 290,1138 287,1132 281,1129 287,1126" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="930,1140 933,1146 939,1149 933,1152 930,1158 927,1152 921,1149 927,1146" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="830,1150 832,1155 837,1157 832,1159 830,1164 828,1159 823,1157 828,1155" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- crisp panel frame -->
+  <rect x="125" y="1040" width="830" height="210" rx="22" fill="none" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Pencil icon beside the title -->
+<g transform="translate(140 86)">
+  <polygon points="10,42 36,16 44,24 18,50" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="10,42 18,50 5,55" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="5,55 7,50 10,53" fill="#22303f"/>
+  <polygon points="36,16 44,24 48,20 40,12" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M33 19 L41 27" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Surprise face beside the title -->
+<g transform="translate(905 114)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="0" cy="11" r="5" fill="#22303f"/>
+</g>
+
+<!-- Open book icon beside the intro paragraph -->
+<g transform="translate(860 300)">
+  <path d="M32 14 C 24 8, 12 8, 4 12 V48 C 12 44, 24 44, 32 50 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M32 14 C 40 8, 52 8, 60 12 V48 C 52 44, 40 44, 32 50 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M10 22 H26 M10 30 H26 M10 38 H22 M38 22 H54 M38 30 H54 M38 38 H50" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Warning icon in the card corner -->
+<g transform="translate(130 450)">
+  <polygon points="28,4 54,50 2,50" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="25" y="18" width="6" height="18" rx="3" fill="#22303f"/>
+  <circle cx="28" cy="43" r="3.5" fill="#22303f"/>
+</g>
+
+<!-- Title (Arabic) -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">
+  <tspan x="540" dy="0">فخاخ الامتحان</tspan>
+</text>
+
+<!-- Title (English) -->
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" fill="#152b42">
+  <tspan x="540" dy="0">Exam Traps</tspan>
+</text>
+
+<!-- Intro paragraph (Arabic) -->
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">هذه أشهر <tspan font-weight="bold" fill="#c0392b">الفخاخ</tspan> التي يقع فيها الطلاب؛</tspan>
+  <tspan x="950" dy="40"><tspan font-weight="bold" fill="#17457f">اقرأها جيدًا</tspan> قبل الامتحان.</tspan>
+</text>
+
+<!-- Intro paragraph (English) -->
+<text x="120" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">These are the most common <tspan font-weight="bold" fill="#c0392b">traps</tspan></tspan>
+  <tspan x="120" dy="40">students fall into; <tspan font-weight="bold" fill="#17457f">read them carefully</tspan></tspan>
+  <tspan x="120" dy="40">before the exam.</tspan>
+</text>
+
+<!-- Trap 1 (Arabic) -->
+<text x="935" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">1 <tspan font-weight="bold" fill="#c0392b">اختبار قابلية الاستخدام</tspan> <tspan font-weight="bold" fill="#17457f">نوعي</tspan> رغم كلمة</tspan>
+  <tspan x="935" dy="40">«اختبار»، واختبار A/B <tspan font-weight="bold" fill="#17457f">كمي</tspan>.</tspan>
+</text>
+
+<!-- Trap 1 (English) -->
+<text x="140" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">1 <tspan font-weight="bold" fill="#c0392b">Usability testing</tspan> is <tspan font-weight="bold" fill="#17457f">qualitative</tspan></tspan>
+  <tspan x="140" dy="40">despite the word “testing”, and</tspan>
+  <tspan x="140" dy="40">A/B testing is <tspan font-weight="bold" fill="#17457f">quantitative</tspan>.</tspan>
+</text>
+
+<!-- Trap 2 (Arabic) -->
+<text x="935" y="714" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">2 <tspan font-weight="bold" fill="#c0392b">التقييم الإرشادي</tspan> يجريه <tspan font-weight="bold" fill="#17457f">خبراء</tspan></tspan>
+  <tspan x="935" dy="40">لا مستخدمون، وهو <tspan font-weight="bold" fill="#17457f">نوعي</tspan>.</tspan>
+</text>
+
+<!-- Trap 2 (English) -->
+<text x="140" y="794" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">2 <tspan font-weight="bold" fill="#c0392b">Heuristic evaluation</tspan> is done</tspan>
+  <tspan x="140" dy="40">by <tspan font-weight="bold" fill="#17457f">experts</tspan>, not users,</tspan>
+  <tspan x="140" dy="40">and it is <tspan font-weight="bold" fill="#17457f">qualitative</tspan>.</tspan>
+</text>
+
+<!-- Trap 3 (Arabic) -->
+<text x="935" y="954" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">&#x200F;3 <tspan font-weight="bold" fill="#c0392b">PV</tspan> <tspan font-weight="bold" fill="#17457f">ليس</tspan> عدد الأشخاص.</tspan>
+</text>
+
+<!-- Trap 3 (English) -->
+<text x="140" y="994" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">3 <tspan font-weight="bold" fill="#c0392b">PV</tspan> is <tspan font-weight="bold" fill="#17457f">not</tspan> the number of people.</tspan>
+</text>
+</svg>

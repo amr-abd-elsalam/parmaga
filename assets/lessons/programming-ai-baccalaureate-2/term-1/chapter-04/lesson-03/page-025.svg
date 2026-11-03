@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Info card -->
+<rect x="109" y="208" width="870" height="488" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="202" width="870" height="488" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="218" width="6" height="456" rx="3" fill="#2f7fb5"/>
+
+<!-- Illustration: heuristic evaluation scene -->
+<g>
+  <defs>
+    <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="ilBezel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#17457f"/>
+      <stop offset="1" stop-color="#22303f"/>
+    </linearGradient>
+  </defs>
+  <!-- shadows -->
+  <rect x="109" y="858" width="862" height="400" rx="26" fill="#22303f" opacity=".18"/>
+  <!-- backdrop -->
+  <rect x="105" y="852" width="862" height="400" rx="26" fill="url(#ilSky)" stroke="#8fc9f2" stroke-width="2.5"/>
+  <path d="M105 1196 H967 V1226 Q967 1252 941 1252 H131 Q105 1252 105 1226 Z" fill="#e8dfd1"/>
+  <rect x="294" y="886" width="400" height="310" rx="18" fill="#22303f" opacity=".18"/>
+  <rect x="424" y="1208" width="140" height="14" rx="7" fill="#22303f" opacity=".18"/>
+  <rect x="804" y="874" width="150" height="56" rx="8" fill="#22303f" opacity=".18"/>
+  <circle cx="219" cy="951" r="44" fill="#22303f" opacity=".18"/>
+  <rect x="164" y="1016" width="18" height="108" rx="8" fill="#22303f" opacity=".18"/>
+  <rect x="164" y="1114" width="112" height="18" rx="8" fill="#22303f" opacity=".18"/>
+  <rect x="172" y="1132" width="10" height="78" fill="#22303f" opacity=".18"/>
+  <rect x="260" y="1132" width="10" height="78" fill="#22303f" opacity=".18"/>
+
+  <!-- rules poster on the wall -->
+  <rect x="800" y="868" width="150" height="56" rx="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="816" cy="882" r="4" fill="#2f7fb5"/>
+  <circle cx="816" cy="896" r="4" fill="#2f7fb5"/>
+  <circle cx="816" cy="910" r="4" fill="#2f7fb5"/>
+  <rect x="828" y="879" width="104" height="6" rx="3" fill="#8fc9f2"/>
+  <rect x="828" y="893" width="88" height="6" rx="3" fill="#8fc9f2"/>
+  <rect x="828" y="907" width="96" height="6" rx="3" fill="#8fc9f2"/>
+
+  <!-- no users sign -->
+  <circle cx="215" cy="945" r="44" fill="#ffffff" stroke="#c0392b" stroke-width="3"/>
+  <circle cx="215" cy="926" r="13" fill="none" stroke="#7f95ab" stroke-width="2.5"/>
+  <path d="M193 970 Q193 946 215 946 Q237 946 237 970" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M184 914 L246 976" fill="none" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- empty chair -->
+  <rect x="160" y="1010" width="18" height="108" rx="8" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="168" y="1126" width="10" height="80" fill="#3a2411" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="256" y="1126" width="10" height="80" fill="#3a2411" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="160" y="1108" width="112" height="18" rx="8" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- monitor -->
+  <polygon points="470,1190 510,1190 518,1204 462,1204" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="420" y="1202" width="140" height="14" rx="7" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="290" y="880" width="400" height="310" rx="18" fill="url(#ilBezel)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="304" y="894" width="372" height="282" rx="10" fill="#ffffff"/>
+  <rect x="304" y="894" width="372" height="36" rx="10" fill="#2f7fb5"/>
+  <rect x="304" y="914" width="372" height="16" fill="#2f7fb5"/>
+  <circle cx="322" cy="912" r="5" fill="#c0392b"/>
+  <circle cx="338" cy="912" r="5" fill="#ffd24a"/>
+  <circle cx="354" cy="912" r="5" fill="#a9dcbe"/>
+  <rect x="380" y="902" width="280" height="20" rx="10" fill="#dff1f7"/>
+  <!-- web page top bar -->
+  <rect x="316" y="940" width="348" height="28" rx="6" fill="#4fc3e8"/>
+  <circle cx="334" cy="954" r="8" fill="#ffffff"/>
+  <rect x="560" y="950" width="24" height="8" rx="4" fill="#ffffff"/>
+  <rect x="596" y="950" width="24" height="8" rx="4" fill="#ffffff"/>
+  <rect x="632" y="950" width="24" height="8" rx="4" fill="#ffffff"/>
+  <!-- side menu -->
+  <rect x="316" y="978" width="76" height="186" rx="6" fill="#dff1f7"/>
+  <rect x="326" y="992" width="56" height="10" rx="5" fill="#2f7fb5"/>
+  <rect x="326" y="1016" width="56" height="10" rx="5" fill="#8fc9f2"/>
+  <rect x="326" y="1040" width="56" height="10" rx="5" fill="#8fc9f2"/>
+  <rect x="326" y="1064" width="56" height="10" rx="5" fill="#8fc9f2"/>
+  <rect x="326" y="1088" width="40" height="10" rx="5" fill="#8fc9f2"/>
+  <!-- form -->
+  <rect x="404" y="978" width="260" height="186" rx="8" fill="#ffffff" stroke="#8fc9f2" stroke-width="2.5"/>
+  <rect x="422" y="990" width="110" height="10" rx="5" fill="#17457f"/>
+  <rect x="422" y="1012" width="224" height="30" rx="6" fill="#ffffff" stroke="#7f95ab" stroke-width="2"/>
+  <rect x="432" y="1019" width="3" height="16" fill="#22303f"/>
+  <rect x="422" y="1056" width="224" height="30" rx="6" fill="#ffffff" stroke="#7f95ab" stroke-width="2"/>
+  <rect x="422" y="1104" width="120" height="36" rx="18" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="452" y="1118" width="60" height="8" rx="4" fill="#ffffff"/>
+  <rect x="290" y="880" width="400" height="310" rx="18" fill="none" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- expert 1: woman with magnifying glass -->
+  <path d="M738 1010 Q770 998 802 1010 L816 1205 L724 1205 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="752" cy="1210" rx="14" ry="6" fill="#22303f"/>
+  <ellipse cx="790" cy="1210" rx="14" ry="6" fill="#22303f"/>
+  <path d="M800 1018 L812 1014 L824 1104 L810 1106 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="817" cy="1106" r="8" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M736 968 C736 928 804 928 804 968 L808 1014 Q770 1028 732 1014 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="770" cy="968" rx="20" ry="24" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="763" cy="965" r="2.5" fill="#22303f"/>
+  <circle cx="777" cy="965" r="2.5" fill="#22303f"/>
+  <path d="M763 978 Q770 984 777 978" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- magnifying glass over the form -->
+  <polygon points="648,1060 656,1052 704,1096 696,1104" fill="#3a2411" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="620" cy="1040" r="36" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="620" cy="1040" r="27" fill="#dff1f7" opacity=".6"/>
+  <path d="M600 1030 Q604 1018 616 1015" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <path d="M748 1020 L734 1016 L694 1094 L708 1102 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="700" cy="1100" r="9" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- expert 2: man with clipboard -->
+  <rect x="860" y="1110" width="22" height="96" fill="#22303f"/>
+  <rect x="888" y="1110" width="22" height="96" fill="#22303f"/>
+  <ellipse cx="871" cy="1210" rx="15" ry="6" fill="#3a2411" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="899" cy="1210" rx="15" ry="6" fill="#3a2411" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="878" y="984" width="14" height="18" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M852 1010 Q885 996 918 1010 L914 1120 L856 1120 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="872,1004 885,1022 898,1004" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M856 1012 L846 1016 L842 1078 L854 1080 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M914 1012 L924 1016 L926 1078 L914 1080 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="846" y="1026" width="72" height="92" rx="6" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="853" y="1038" width="58" height="74" rx="3" fill="#ffffff"/>
+  <rect x="871" y="1020" width="22" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2"/>
+  <rect x="860" y="1046" width="12" height="12" rx="2" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <rect x="860" y="1068" width="12" height="12" rx="2" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <rect x="860" y="1090" width="12" height="12" rx="2" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <path d="M862 1052 L866 1056 L874 1045" fill="none" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M862 1074 L866 1078 L874 1067" fill="none" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="880" y="1049" width="24" height="6" rx="3" fill="#8fc9f2"/>
+  <rect x="880" y="1071" width="24" height="6" rx="3" fill="#8fc9f2"/>
+  <rect x="880" y="1093" width="24" height="6" rx="3" fill="#8fc9f2"/>
+  <circle cx="848" cy="1080" r="8" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="918" cy="1080" r="8" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="885" cy="966" r="22" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M863 962 C861 936 909 936 907 962 C898 950 872 950 863 962 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="878" cy="968" r="2.5" fill="#22303f"/>
+  <circle cx="892" cy="968" r="2.5" fill="#22303f"/>
+  <path d="M878 979 Q885 985 892 979" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: open book (card header row) -->
+<g transform="translate(582 212)">
+  <path d="M0 12 V48 C10 44 20 44 28 50 C36 44 46 44 56 48 V12 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M28 10 C20 4 8 4 2 8 V44 C8 40 20 40 28 46 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M28 10 C36 4 48 4 54 8 V44 C48 40 36 40 28 46 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M8 16 Q16 13 23 17 M8 24 Q16 21 23 25 M8 32 Q16 29 23 33 M33 17 Q40 13 48 16 M33 25 Q40 21 48 24 M33 33 Q40 29 48 32" fill="none" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: check badge (inside card) -->
+<g transform="translate(840 572)">
+  <circle cx="30" cy="30" r="28" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="30" cy="30" r="20" fill="#2e7d32"/>
+  <path d="M20 30 L27 37 L40 23" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Emotion face: smile -->
+<g transform="translate(920 806)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Text -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">التقييم الإرشادي</text>
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" fill="#152b42">Heuristic Evaluation</text>
+
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">التقييم الإرشادي</text>
+<text x="140" y="274" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">Heuristic Evaluation</text>
+
+<text x="935" y="314" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">التقييم الإرشادي</tspan> Heuristic Evaluation:</tspan>
+  <tspan x="935" dy="40">يراجع فيه خبراء واجهة المستخدم ويقارنونها</tspan>
+  <tspan x="935" dy="40">بقائمة من <tspan font-weight="bold" fill="#17457f">القواعد العملية</tspan> المعروفة،</tspan>
+  <tspan x="935" dy="40">لاكتشاف مشكلات <tspan font-weight="bold" fill="#17457f">قابلية الاستخدام</tspan></tspan>
+  <tspan x="935" dy="40">دون مشاركة مستخدمين.</tspan>
+</text>
+
+<text x="140" y="514" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Heuristic evaluation:</tspan> experts review</tspan>
+  <tspan x="140" dy="40">the user interface and compare it</tspan>
+  <tspan x="140" dy="40">with a list of well-known</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#17457f">practical rules</tspan> to find <tspan font-weight="bold" fill="#17457f">usability</tspan></tspan>
+  <tspan x="140" dy="40">problems, without involving users.</tspan>
+</text>
+
+<text x="950" y="754" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">هذه هي <tspan font-weight="bold" fill="#17457f">أداة سارة</tspan><tspan> في القصة.</tspan></text>
+<text x="120" y="794" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">This is <tspan font-weight="bold" fill="#17457f">Sara's tool</tspan><tspan> in the story.</tspan></text>
+</svg>

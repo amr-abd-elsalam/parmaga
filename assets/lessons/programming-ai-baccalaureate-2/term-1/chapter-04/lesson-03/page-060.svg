@@ -1,0 +1,291 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Warning card: shadow, fill, accent -->
+<rect x="109" y="128" width="870" height="688" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="122" width="870" height="688" rx="16" fill="#fdf1e2" stroke="#f0c48c" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="656" rx="3" fill="#c96a1b"/>
+
+<!-- Dividers between the three traps -->
+<path d="M140 342 H930 M140 582 H930" fill="none" stroke="#f0c48c" stroke-width="1.4" stroke-linecap="round"/>
+
+<!-- Main illustration: the careful path through hidden traps -->
+<g>
+  <defs>
+    <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0c48c"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="ilGround" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a9dcbe"/>
+      <stop offset="1" stop-color="#2e7d32"/>
+    </linearGradient>
+    <linearGradient id="ilDress" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0c48c"/>
+      <stop offset="1" stop-color="#c96a1b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- panel shadow -->
+  <rect x="129" y="852" width="830" height="400" rx="22" fill="#22303f" opacity=".18"/>
+
+  <!-- evening sky -->
+  <rect x="125" y="846" width="830" height="400" rx="22" fill="url(#ilSky)"/>
+
+  <!-- setting sun -->
+  <circle cx="800" cy="950" r="50" fill="#ffd24a" opacity=".35"/>
+  <circle cx="800" cy="950" r="34" fill="#ffd24a"/>
+
+  <!-- clouds -->
+  <g fill="#ffffff">
+    <circle cx="470" cy="905" r="14"/><circle cx="490" cy="896" r="19"/><circle cx="512" cy="906" r="13"/>
+    <circle cx="650" cy="890" r="11"/><circle cx="666" cy="883" r="15"/><circle cx="683" cy="891" r="10"/>
+  </g>
+
+  <!-- birds -->
+  <path d="M350 905 q7 -6 14 0 q7 -6 14 0 M384 890 q5 -5 10 0 q5 -5 10 0" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- far hills -->
+  <path d="M125 1000 C 220 962, 330 952, 440 986 C 540 1014, 650 958, 770 962 C 860 966, 915 984, 955 976 V1224 Q955 1246 933 1246 H147 Q125 1246 125 1224 Z" fill="#a9dcbe"/>
+
+  <!-- near ground -->
+  <path d="M125 1044 C 300 1024, 480 1052, 660 1036 C 800 1024, 890 1040, 955 1034 V1224 Q955 1246 933 1246 H147 Q125 1246 125 1224 Z" fill="url(#ilGround)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- tree -->
+  <rect x="903" y="1000" width="10" height="40" rx="3" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="890" cy="995" r="18" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="926" cy="995" r="18" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="908" cy="985" r="26" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M896 976 Q902 966 912 964" fill="none" stroke="#a9dcbe" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- grass tufts -->
+  <path d="M148 1130 l4 -10 l4 10 l4 -8 l4 8 M300 1172 l4 -10 l4 10 l4 -8 l4 8 M420 1198 l4 -10 l4 10 l4 -8 l4 8 M620 1212 l4 -10 l4 10 l4 -8 l4 8 M780 1234 l4 -10 l4 10 l4 -8 l4 8 M860 1232 l4 -10 l4 10 l4 -8 l4 8 M700 1092 l4 -10 l4 10 l4 -8 l4 8 M480 1074 l4 -10 l4 10 l4 -8 l4 8 M318 1058 l4 -10 l4 10 l4 -8 l4 8" fill="none" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- flowers -->
+  <circle cx="190" cy="1190" r="5" fill="#ffffff"/><circle cx="190" cy="1190" r="2" fill="#ffd24a"/>
+  <circle cx="260" cy="1215" r="5" fill="#c0392b"/><circle cx="260" cy="1215" r="2" fill="#ffd24a"/>
+  <circle cx="380" cy="1180" r="5" fill="#ffffff"/><circle cx="380" cy="1180" r="2" fill="#ffd24a"/>
+  <circle cx="620" cy="1188" r="5" fill="#c0392b"/><circle cx="620" cy="1188" r="2" fill="#ffd24a"/>
+  <circle cx="840" cy="1228" r="5" fill="#ffffff"/><circle cx="840" cy="1228" r="2" fill="#ffd24a"/>
+  <circle cx="928" cy="1230" r="5" fill="#c0392b"/><circle cx="928" cy="1230" r="2" fill="#ffd24a"/>
+
+  <!-- winding path, right to left -->
+  <path d="M955 1158 C 860 1150, 760 1150, 680 1112 C 600 1076, 520 1104, 440 1110 C 360 1116, 320 1070, 250 1052 L250 1080 C 320 1098, 360 1150, 440 1150 C 520 1150, 600 1124, 680 1158 C 760 1196, 860 1206, 955 1214 Z" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <g fill="#ffffff" opacity=".6">
+    <ellipse cx="925" cy="1196" rx="4" ry="2"/>
+    <ellipse cx="760" cy="1172" rx="4" ry="2"/>
+    <ellipse cx="470" cy="1132" rx="4" ry="2"/>
+    <ellipse cx="300" cy="1086" rx="3" ry="1.5"/>
+  </g>
+
+  <!-- earlier careful steps -->
+  <ellipse cx="716" cy="1144" rx="7" ry="3.5" fill="#c96a1b" opacity=".35"/>
+  <ellipse cx="756" cy="1166" rx="7" ry="3.5" fill="#c96a1b" opacity=".35"/>
+
+  <!-- pit 1: covered with leaves -->
+  <ellipse cx="840" cy="1176" rx="36" ry="10" fill="#a9dcbe"/>
+  <path d="M812 1176 q9 -7 18 0 q-9 7 -18 0 Z M852 1172 q9 -7 18 0 q-9 7 -18 0 Z" fill="#2e7d32"/>
+  <path d="M828 1170 q4 -8 14 -6 q-2 8 -14 6 Z M822 1182 q5 -6 12 -2 q-4 5 -12 2 Z" fill="#c96a1b"/>
+  <path d="M836 1182 q9 -6 18 0 q-9 6 -18 0 Z" fill="#ffd24a"/>
+  <path d="M856 1180 q5 -7 14 -4 q-3 7 -14 4 Z" fill="#f0c48c"/>
+  <path d="M880 1176 L878.6 1179.4 M874.6 1182.5 L868.3 1185.2 M860 1187.3 L850.4 1188.6 M840 1189 L829.6 1188.6 M820 1187.3 L811.7 1185.2 M805.4 1182.5 L801.4 1179.4 M800 1176 L801.4 1172.6 M805.4 1169.5 L811.7 1166.8 M820 1164.7 L829.6 1163.4 M840 1163 L850.4 1163.4 M860 1164.7 L868.3 1166.8 M874.6 1169.5 L878.6 1172.6" fill="none" stroke="#c0392b" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- pit 2: covered with leaves -->
+  <ellipse cx="560" cy="1118" rx="30" ry="8.5" fill="#a9dcbe"/>
+  <path d="M536 1118 q8 -6 16 0 q-8 6 -16 0 Z M570 1114 q8 -6 16 0 q-8 6 -16 0 Z" fill="#2e7d32"/>
+  <path d="M550 1112 q4 -7 13 -5 q-2 7 -13 5 Z" fill="#ffd24a"/>
+  <path d="M556 1122 q8 -6 16 0 q-8 6 -16 0 Z" fill="#c96a1b"/>
+  <path d="M544 1124 q4 -5 11 -2 q-3 5 -11 2 Z" fill="#f0c48c"/>
+  <path d="M594 1118 L592.8 1120.8 M589.4 1123.5 L584 1125.8 M577 1127.5 L568.8 1128.6 M560 1129 L551.2 1128.6 M543 1127.5 L536 1125.8 M530.6 1123.5 L527.2 1120.8 M526 1118 L527.2 1115.2 M530.6 1112.5 L536 1110.2 M543 1108.5 L551.2 1107.4 M560 1107 L568.8 1107.4 M577 1108.5 L584 1110.2 M589.4 1112.5 L592.8 1115.2" fill="none" stroke="#c0392b" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- pit 3: covered with leaves -->
+  <ellipse cx="377" cy="1121" rx="22" ry="6" fill="#a9dcbe"/>
+  <path d="M358 1121 q6 -5 12 0 q-6 5 -12 0 Z M386 1118 q6 -4 12 0 q-6 4 -12 0 Z" fill="#2e7d32"/>
+  <path d="M370 1117 q3 -6 10 -4 q-2 6 -10 4 Z" fill="#c96a1b"/>
+  <path d="M376 1124 q6 -5 12 0 q-6 5 -12 0 Z" fill="#ffd24a"/>
+  <path d="M403 1121 L402.1 1123.1 M399.5 1125 L395.4 1126.7 M390 1127.9 L383.7 1128.7 M377 1129 L370.3 1128.7 M364 1127.9 L358.6 1126.7 M354.5 1125 L351.9 1123.1 M351 1121 L351.9 1118.9 M354.5 1117 L358.6 1115.3 M364 1114.1 L370.3 1113.3 M377 1113 L383.7 1113.3 M390 1114.1 L395.4 1115.3 M399.5 1117 L402.1 1118.9" fill="none" stroke="#c0392b" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- lantern light pool on pit 2 -->
+  <ellipse cx="570" cy="1116" rx="66" ry="16" fill="#ffd24a" opacity=".35"/>
+
+  <!-- warning sign beside pit 1 -->
+  <rect x="902" y="1140" width="6" height="12" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="905,1098 931,1142 879,1142" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="905,1111 920,1137 890,1137" fill="#ffffff"/>
+  <rect x="903" y="1117" width="4" height="11" rx="2" fill="#22303f"/>
+  <circle cx="905" cy="1132" r="2.5" fill="#22303f"/>
+
+  <!-- warning sign beside pit 3 -->
+  <rect x="412" y="1096" width="6" height="10" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="415,1062 437,1098 393,1098" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="415,1073 428,1094 402,1094" fill="#ffffff"/>
+  <rect x="413" y="1078" width="4" height="8" rx="2" fill="#22303f"/>
+  <circle cx="415" cy="1090" r="2.5" fill="#22303f"/>
+
+  <!-- trophy glow and rays -->
+  <circle cx="218" cy="990" r="58" fill="#ffd24a" opacity=".35"/>
+  <path d="M218 912 V926 M166 934 L175 943 M270 934 L261 943 M146 992 H158 M278 992 H290" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- rock -->
+  <path d="M166 1084 C 162 1058, 184 1038, 214 1038 C 248 1036, 272 1054, 274 1084 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M186 1060 Q200 1050 222 1050" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" opacity=".35"/>
+
+  <!-- trophy -->
+  <rect x="200" y="1026" width="36" height="13" rx="3" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="212" y="1010" width="12" height="17" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M197 976 C 181 976, 181 998, 201 998 M239 976 C 255 976, 255 998, 235 998" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M196 968 H240 C 240 992, 232 1008, 218 1010 C 204 1008, 196 992, 196 968 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="218,978 220,983.2 225.6,983.5 221.2,987 222.7,992.5 218,989.4 213.3,992.5 214.8,987 210.4,983.5 216,983.2" fill="#ffffff"/>
+  <path d="M203 974 Q203 990 210 1000" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" opacity=".85"/>
+
+  <!-- lantern halo -->
+  <circle cx="578" cy="1044" r="70" fill="#ffd24a" opacity=".18"/>
+  <circle cx="578" cy="1044" r="40" fill="#ffd24a" opacity=".35"/>
+
+  <!-- STUDENT: feet -->
+  <ellipse cx="682" cy="1138" rx="13" ry="6" fill="#22303f"/>
+  <ellipse cx="602" cy="1103" rx="12" ry="5" fill="#22303f"/>
+
+  <!-- balancing back arm -->
+  <polygon points="676,998 688,992 714,1020 704,1028" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="712" cy="1030" rx="7" ry="6" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- long dress, mid-step -->
+  <path d="M628 1022 C 614 1050, 602 1078, 594 1100 Q 640 1114 694 1136 C 690 1090, 682 1052, 670 1022 Z" fill="url(#ilDress)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M640 1040 L630 1102 M660 1040 L664 1118" fill="none" stroke="#7d4f28" stroke-width="2.5" stroke-linecap="round" opacity=".35"/>
+
+  <!-- hijab -->
+  <path d="M648 938 C 676 938, 686 960, 684 982 C 696 998, 700 1024, 690 1040 L 610 1040 C 602 1022, 606 998, 616 984 C 612 960, 620 938, 648 938 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M624 994 Q646 1006 670 994" fill="none" stroke="#a9dcbe" stroke-width="2.5" stroke-linecap="round" opacity=".6"/>
+
+  <!-- face, careful look -->
+  <ellipse cx="644" cy="968" rx="16" ry="19" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="636" cy="966" r="3.5" fill="#22303f"/>
+  <circle cx="650" cy="966" r="3.5" fill="#22303f"/>
+  <path d="M631 957 Q636 954 641 957 M645 957 Q650 954 655 957" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="632" cy="975" r="3.5" fill="#d59f6f" opacity=".6"/>
+  <circle cx="655" cy="975" r="3.5" fill="#d59f6f" opacity=".6"/>
+  <path d="M639 979 Q644 982 649 979" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- front arm holding the lantern -->
+  <polygon points="626,996 616,1010 580,1016 584,1002" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M568 1028 Q578 1004 588 1028" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <ellipse cx="578" cy="1012" rx="8" ry="7" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- glowing lantern -->
+  <polygon points="566,1030 590,1030 585,1022 571,1022" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="567" y="1030" width="22" height="30" rx="4" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M578 1054 C 571 1047, 575 1040, 578 1035 C 581 1040, 585 1047, 578 1054 Z" fill="#c96a1b"/>
+  <ellipse cx="578" cy="1049" rx="2.5" ry="4" fill="#ffffff"/>
+  <rect x="563" y="1058" width="30" height="7" rx="2" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- warning sign beside pit 2 (in front of the path) -->
+  <rect x="517" y="1200" width="6" height="14" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="520,1158 546,1202 494,1202" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="520,1171 535,1197 505,1197" fill="#ffffff"/>
+  <rect x="518" y="1177" width="4" height="11" rx="2" fill="#22303f"/>
+  <circle cx="520" cy="1192" r="2.5" fill="#22303f"/>
+
+  <!-- sparkles -->
+  <polygon points="160,872 163,877 168,880 163,883 160,888 157,883 152,880 157,877" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="930,864 933,869 938,872 933,875 930,880 927,875 922,872 927,869" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="292,950 295,955 300,958 295,961 292,966 289,961 284,958 289,955" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="600,872 603,877 608,880 603,883 600,888 597,883 592,880 597,877" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="720,912 723,917 728,920 723,923 720,928 717,923 712,920 717,917" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- crisp panel frame -->
+  <rect x="125" y="846" width="830" height="400" rx="22" fill="none" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Warning icon in the card corner -->
+<g transform="translate(128 128)">
+  <polygon points="28,4 54,50 2,50" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="25" y="18" width="6" height="18" rx="3" fill="#22303f"/>
+  <circle cx="28" cy="43" r="3.5" fill="#22303f"/>
+</g>
+
+<!-- Pin icon beside trap 4 -->
+<g transform="translate(872 248)">
+  <path d="M22 29 L22 50" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="22" cy="16" r="13" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="17" cy="11" r="4" fill="#ffffff" opacity=".6"/>
+</g>
+
+<!-- Thinking face beside trap 5 -->
+<g transform="translate(892 500)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- People icon beside trap 6 -->
+<g transform="translate(862 714)">
+  <path d="M26 50 Q26 28 38 28 Q50 28 50 50 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="38" cy="15" r="8" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M30 13 Q38 3 46 13 Q38 9 30 13 Z" fill="#2b211c"/>
+  <path d="M6 52 Q6 30 20 30 Q34 30 34 52 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="20" cy="17" r="8" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M12 15 Q20 5 28 15 Q20 11 12 15 Z" fill="#2b211c"/>
+</g>
+
+<!-- Trap 4 (Arabic) -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">4 <tspan font-weight="bold" fill="#c0392b">الارتداد</tspan> = من خرج، <tspan font-weight="bold" fill="#c0392b">والتحويل</tspan> = من أنجز</tspan>
+  <tspan x="935" dy="40">الإجراء؛ لا تخلط بينهما.</tspan>
+</text>
+
+<!-- Trap 4 (English) -->
+<text x="140" y="234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">4 <tspan font-weight="bold" fill="#c0392b">Bounce</tspan> = who left;</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#c0392b">conversion</tspan> = who completed</tspan>
+  <tspan x="140" dy="40">the action. Don't mix them up.</tspan>
+</text>
+
+<!-- Trap 5 (Arabic) -->
+<text x="935" y="394" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">5 معدل <tspan font-weight="bold" fill="#c0392b">الارتداد المرتفع</tspan> ليس دائمًا سيئًا،</tspan>
+  <tspan x="935" dy="40"><tspan font-weight="bold" fill="#c0392b">والوقت الطويل</tspan> ليس دائمًا جيدًا.</tspan>
+</text>
+
+<!-- Trap 5 (English) -->
+<text x="140" y="474" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">5 A <tspan font-weight="bold" fill="#c0392b">high bounce rate</tspan></tspan>
+  <tspan x="140" dy="40">is not always bad, and a <tspan font-weight="bold" fill="#c0392b">long time</tspan></tspan>
+  <tspan x="140" dy="40">is not always good.</tspan>
+</text>
+
+<!-- Trap 6 (Arabic) -->
+<text x="935" y="634" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">6 <tspan font-weight="bold" fill="#c0392b">الرقم وحده</tspan> لا يفسّر السبب،</tspan>
+  <tspan x="935" dy="40"><tspan font-weight="bold" fill="#c0392b">وخمسة أشخاص</tspan> لا يمثّلون الجميع بالضرورة.</tspan>
+</text>
+
+<!-- Trap 6 (English) -->
+<text x="140" y="714" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">6 <tspan font-weight="bold" fill="#c0392b">A number alone</tspan> does not explain</tspan>
+  <tspan x="140" dy="40">the cause, and <tspan font-weight="bold" fill="#c0392b">five people</tspan> do not</tspan>
+  <tspan x="140" dy="40">necessarily represent everyone.</tspan>
+</text>
+</svg>

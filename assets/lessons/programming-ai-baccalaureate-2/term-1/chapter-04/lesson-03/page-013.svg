@@ -1,0 +1,229 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Success card -->
+<rect x="109" y="128" width="870" height="248" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="122" width="870" height="248" rx="16" fill="#e9f7ee" stroke="#a9dcbe" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="216" rx="3" fill="#2e7d32"/>
+
+<!-- Warning card -->
+<rect x="109" y="408" width="870" height="288" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="402" width="870" height="288" rx="16" fill="#fdf1e2" stroke="#f0c48c" stroke-width="2"/>
+<rect x="961" y="418" width="6" height="256" rx="3" fill="#c96a1b"/>
+
+<!-- Illustration: the crowd seen as numbers -->
+<g>
+  <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <!-- shadows -->
+  <rect x="119" y="834" width="850" height="412" rx="24" fill="#22303f" opacity=".18"/>
+  <!-- scene backdrop -->
+  <rect x="115" y="828" width="850" height="412" rx="24" fill="url(#ilSky)"/>
+  <ellipse cx="560" cy="1110" rx="400" ry="96" fill="#8fc9f2" opacity=".35"/>
+  <rect x="334" y="852" width="420" height="120" rx="14" fill="#22303f" opacity=".18"/>
+  <rect x="796" y="990" width="154" height="206" rx="12" fill="#22303f" opacity=".18"/>
+  <circle cx="229" cy="1101" r="85" fill="#22303f" opacity=".18"/>
+  <!-- sparkles -->
+  <polygon points="170,858 173,867 182,870 173,873 170,882 167,873 158,870 167,867" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="868,862 871,871 880,874 871,877 868,886 865,877 856,874 865,871" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="250" cy="900" r="5" fill="#4fc3e8"/>
+  <circle cx="290" cy="950" r="4" fill="#f0c48c"/>
+  <circle cx="920" cy="930" r="5" fill="#4fc3e8"/>
+  <circle cx="800" cy="950" r="4" fill="#f0c48c"/>
+  <!-- counter panel -->
+  <rect x="330" y="846" width="420" height="120" rx="14" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="346" y="862" width="180" height="88" rx="8" fill="#ffffff"/>
+  <rect x="360" y="920" width="24" height="20" rx="3" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="392" y="908" width="24" height="32" rx="3" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="424" y="896" width="24" height="44" rx="3" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="456" y="884" width="24" height="56" rx="3" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="488" y="870" width="24" height="70" rx="3" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="540" y="862" width="194" height="88" rx="8" fill="#ffffff"/>
+  <path d="M552 884 L722 884 M552 906 L722 906 M552 928 L722 928" fill="none" stroke="#dff1f7" stroke-width="2.5" stroke-linecap="round"/>
+  <polyline points="556,934 588,920 620,926 652,900 684,890 712,874" fill="none" stroke="#4fc3e8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="722,868 706,870 715,882" fill="#c96a1b"/>
+  <circle cx="556" cy="934" r="4" fill="#c96a1b"/>
+  <circle cx="588" cy="920" r="4" fill="#c96a1b"/>
+  <circle cx="620" cy="926" r="4" fill="#c96a1b"/>
+  <circle cx="652" cy="900" r="4" fill="#c96a1b"/>
+  <circle cx="684" cy="890" r="4" fill="#c96a1b"/>
+  <!-- data rising from the crowd -->
+  <circle cx="420" cy="990" r="3" fill="#4fc3e8"/>
+  <circle cx="420" cy="979" r="3" fill="#4fc3e8"/>
+  <circle cx="540" cy="990" r="3" fill="#4fc3e8"/>
+  <circle cx="540" cy="979" r="3" fill="#4fc3e8"/>
+  <circle cx="660" cy="990" r="3" fill="#4fc3e8"/>
+  <circle cx="660" cy="979" r="3" fill="#4fc3e8"/>
+  <!-- webpage -->
+  <rect x="792" y="984" width="154" height="206" rx="12" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M792 1008 L792 996 Q792 984 804 984 L934 984 Q946 984 946 996 L946 1008 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="806" cy="996" r="3.5" fill="#f0c48c"/>
+  <circle cx="818" cy="996" r="3.5" fill="#ffd24a"/>
+  <circle cx="830" cy="996" r="3.5" fill="#ffffff"/>
+  <rect x="806" y="1020" width="126" height="50" rx="6" fill="#8fc9f2"/>
+  <circle cx="828" cy="1036" r="7" fill="#ffd24a"/>
+  <polygon points="812,1064 846,1040 878,1064" fill="#2f7fb5"/>
+  <polygon points="858,1064 892,1034 926,1064" fill="#4fc3e8"/>
+  <rect x="806" y="1082" width="110" height="8" rx="4" fill="#dff1f7"/>
+  <rect x="806" y="1098" width="90" height="8" rx="4" fill="#dff1f7"/>
+  <rect x="806" y="1114" width="100" height="8" rx="4" fill="#dff1f7"/>
+  <rect x="806" y="1140" width="70" height="26" rx="13" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <!-- walking direction -->
+  <polyline points="762,1044 774,1054 762,1064" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="762,1100 774,1110 762,1120" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="762,1156 774,1166 762,1176" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- crowd row 1 -->
+  <g transform="translate(360 1010)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#2f7fb5"/><circle r="6" fill="#e8b98d"/></g>
+  <g transform="translate(400 1010)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#c96a1b"/><circle r="6" fill="#d59f6f"/></g>
+  <g transform="translate(440 1010)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#4fc3e8"/><circle r="6" fill="#b57e50"/></g>
+  <g transform="translate(480 1010)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#17457f"/><circle r="6" fill="#e8b98d"/></g>
+  <g transform="translate(520 1010)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#f0c48c"/><circle r="6" fill="#d59f6f"/></g>
+  <g transform="translate(560 1010)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#2f7fb5"/><circle r="6" fill="#b57e50"/></g>
+  <g transform="translate(600 1010)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#8fc9f2"/><circle r="6" fill="#e8b98d"/></g>
+  <g transform="translate(640 1010)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#c96a1b"/><circle r="6" fill="#d59f6f"/></g>
+  <g transform="translate(680 1010)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#17457f"/><circle r="6" fill="#b57e50"/></g>
+  <g transform="translate(720 1010)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#4fc3e8"/><circle r="6" fill="#e8b98d"/></g>
+  <!-- crowd row 2 -->
+  <g transform="translate(380 1050)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#4fc3e8"/><circle r="6" fill="#d59f6f"/></g>
+  <g transform="translate(420 1050)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#17457f"/><circle r="6" fill="#e8b98d"/></g>
+  <g transform="translate(460 1050)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#c96a1b"/><circle r="6" fill="#b57e50"/></g>
+  <g transform="translate(500 1050)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#8fc9f2"/><circle r="6" fill="#d59f6f"/></g>
+  <g transform="translate(540 1050)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#2f7fb5"/><circle r="6" fill="#e8b98d"/></g>
+  <g transform="translate(580 1050)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#f0c48c"/><circle r="6" fill="#b57e50"/></g>
+  <g transform="translate(620 1050)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#17457f"/><circle r="6" fill="#d59f6f"/></g>
+  <g transform="translate(660 1050)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#4fc3e8"/><circle r="6" fill="#e8b98d"/></g>
+  <g transform="translate(700 1050)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#2f7fb5"/><circle r="6" fill="#b57e50"/></g>
+  <g transform="translate(740 1050)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#c96a1b"/><circle r="6" fill="#d59f6f"/></g>
+  <!-- crowd row 3 -->
+  <g transform="translate(360 1090)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#8fc9f2"/><circle r="6" fill="#b57e50"/></g>
+  <g transform="translate(400 1090)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#2f7fb5"/><circle r="6" fill="#e8b98d"/></g>
+  <g transform="translate(440 1090)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#f0c48c"/><circle r="6" fill="#d59f6f"/></g>
+  <g transform="translate(480 1090)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#4fc3e8"/><circle r="6" fill="#b57e50"/></g>
+  <g transform="translate(520 1090)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#17457f"/><circle r="6" fill="#e8b98d"/></g>
+  <g transform="translate(560 1090)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#c96a1b"/><circle r="6" fill="#d59f6f"/></g>
+  <g transform="translate(600 1090)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#2f7fb5"/><circle r="6" fill="#b57e50"/></g>
+  <g transform="translate(640 1090)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#8fc9f2"/><circle r="6" fill="#e8b98d"/></g>
+  <g transform="translate(680 1090)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#f0c48c"/><circle r="6" fill="#d59f6f"/></g>
+  <g transform="translate(720 1090)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#17457f"/><circle r="6" fill="#b57e50"/></g>
+  <!-- crowd row 4 -->
+  <g transform="translate(380 1130)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#c96a1b"/><circle r="6" fill="#e8b98d"/></g>
+  <g transform="translate(420 1130)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#4fc3e8"/><circle r="6" fill="#b57e50"/></g>
+  <g transform="translate(460 1130)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#2f7fb5"/><circle r="6" fill="#d59f6f"/></g>
+  <g transform="translate(500 1130)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#17457f"/><circle r="6" fill="#e8b98d"/></g>
+  <g transform="translate(540 1130)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#8fc9f2"/><circle r="6" fill="#b57e50"/></g>
+  <g transform="translate(580 1130)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#c96a1b"/><circle r="6" fill="#d59f6f"/></g>
+  <g transform="translate(620 1130)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#f0c48c"/><circle r="6" fill="#e8b98d"/></g>
+  <g transform="translate(660 1130)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#2f7fb5"/><circle r="6" fill="#b57e50"/></g>
+  <g transform="translate(700 1130)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#4fc3e8"/><circle r="6" fill="#d59f6f"/></g>
+  <g transform="translate(740 1130)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#17457f"/><circle r="6" fill="#e8b98d"/></g>
+  <!-- crowd row 5 -->
+  <g transform="translate(360 1170)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#2f7fb5"/><circle r="6" fill="#e8b98d"/></g>
+  <g transform="translate(400 1170)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#f0c48c"/><circle r="6" fill="#b57e50"/></g>
+  <g transform="translate(440 1170)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#17457f"/><circle r="6" fill="#d59f6f"/></g>
+  <g transform="translate(480 1170)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#c96a1b"/><circle r="6" fill="#e8b98d"/></g>
+  <g transform="translate(520 1170)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#4fc3e8"/><circle r="6" fill="#b57e50"/></g>
+  <g transform="translate(560 1170)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#8fc9f2"/><circle r="6" fill="#d59f6f"/></g>
+  <g transform="translate(600 1170)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#2f7fb5"/><circle r="6" fill="#e8b98d"/></g>
+  <g transform="translate(640 1170)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#17457f"/><circle r="6" fill="#b57e50"/></g>
+  <g transform="translate(680 1170)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#c96a1b"/><circle r="6" fill="#d59f6f"/></g>
+  <g transform="translate(720 1170)"><path d="M-8 20 Q-8 7 0 7 Q8 7 8 20 Z" fill="#4fc3e8"/><circle r="6" fill="#e8b98d"/></g>
+  <!-- highlight ring and zoom lines -->
+  <circle cx="360" cy="1177" r="20" fill="none" stroke="#c96a1b" stroke-width="2.5"/>
+  <path d="M343 1166 L300 1055 M348 1194 L300 1135" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- enlarged person in circle -->
+  <circle cx="225" cy="1095" r="85" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="225" cy="1095" r="76" fill="#dff1f7"/>
+  <path d="M190 1160 Q190 1108 225 1108 Q260 1108 260 1160 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="225" cy="1084" r="20" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="218" cy="1086" r="2.5" fill="#22303f"/>
+  <circle cx="232" cy="1086" r="2.5" fill="#22303f"/>
+  <path d="M219 1096 L231 1096" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="205" y="1038" width="40" height="30" rx="4" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="201" y="1030" width="48" height="10" rx="3" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M220 1050 L220 1046 Q225 1039 230 1046 L230 1050" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="217" y="1050" width="16" height="12" rx="2" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="225" cy="1056" r="2" fill="#22303f"/>
+</g>
+
+<!-- Icon: check badge (strength) -->
+<g transform="translate(722 126)">
+  <circle cx="30" cy="32" r="24" fill="#22303f" opacity=".18"/>
+  <circle cx="26" cy="26" r="24" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M15 27 L23 35 L38 17" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: warning triangle (limit) -->
+<g transform="translate(722 404)">
+  <polygon points="32,8 58,54 6,54" fill="#22303f" opacity=".18"/>
+  <polygon points="28,2 54,48 2,48" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="25.5" y="16" width="5" height="18" rx="2.5" fill="#22303f"/>
+  <circle cx="28" cy="41" r="3" fill="#22303f"/>
+</g>
+
+<!-- Success card header -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#2e7d32">
+  <tspan x="935" dy="0">ميزته</tspan>
+</text>
+<text x="140" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#2e7d32">
+  <tspan x="140" dy="0">Its Strength</tspan>
+</text>
+
+<!-- Success card paragraph -->
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#2e7d32">موضوعي،</tspan> ويغطي <tspan font-weight="bold" fill="#17457f">أعدادًا كبيرة</tspan></tspan>
+  <tspan x="935" dy="40">من المستخدمين.</tspan>
+</text>
+<text x="140" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">It is <tspan font-weight="bold" fill="#2e7d32">objective</tspan> and covers</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#17457f">large numbers</tspan> of users.</tspan>
+</text>
+
+<!-- Warning card header -->
+<text x="935" y="434" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="935" dy="0">حدّه</tspan>
+</text>
+<text x="140" y="474" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="140" dy="0">Its Limit</tspan>
+</text>
+
+<!-- Warning card paragraph -->
+<text x="935" y="514" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">يصف <tspan font-weight="bold" fill="#17457f">ما يحدث ومقداره،</tspan></tspan>
+  <tspan x="935" dy="40">لكنه <tspan font-weight="bold" fill="#c0392b">لا يفسّر لماذا</tspan> يحدث.</tspan>
+</text>
+<text x="140" y="594" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">It describes <tspan font-weight="bold" fill="#17457f">what is happening</tspan></tspan>
+  <tspan x="140" dy="40">and <tspan font-weight="bold" fill="#17457f">how much,</tspan></tspan>
+  <tspan x="140" dy="40">but it <tspan font-weight="bold" fill="#c0392b">does not explain why.</tspan></tspan>
+</text>
+
+<!-- Mona paragraph -->
+<text x="950" y="754" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">هذه هي <tspan font-weight="bold" fill="#c0392b">منى</tspan> في القصة.</tspan>
+</text>
+<text x="120" y="794" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">This is <tspan font-weight="bold" fill="#c0392b">Mona</tspan> in the story.</tspan>
+</text>
+</svg>

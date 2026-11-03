@@ -1,0 +1,229 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Table: closed vs open question -->
+<g>
+  <rect x="99" y="112" width="890" height="560" rx="12" fill="#22303f" opacity=".12"/>
+  <rect x="95" y="106" width="890" height="560" rx="12" fill="#fffdf7"/>
+  <path d="M95 226 L95 118 Q95 106 107 106 L973 106 Q985 106 985 118 L985 226 Z" fill="#fdf6d8"/>
+  <path d="M95 466 L985 466 L985 654 Q985 666 973 666 L107 666 Q95 666 95 654 Z" fill="#fbf6e9"/>
+  <path d="M95 226 L985 226 M95 466 L985 466 M585 106 L585 666" fill="none" stroke="#c0392b" stroke-width="1.4"/>
+  <rect x="95" y="106" width="890" height="560" rx="12" fill="none" stroke="#c0392b" stroke-width="2"/>
+</g>
+
+<!-- Outlined box -->
+<rect x="109" y="728" width="870" height="248" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="722" width="870" height="248" rx="16" fill="#fffdf7" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="738" width="6" height="216" rx="3" fill="#2f7fb5"/>
+
+<!-- Memory illustration: short answer vs. a story -->
+<g>
+  <defs>
+    <linearGradient id="ilWall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <rect x="149" y="1014" width="383" height="228" rx="18" fill="#22303f" opacity=".18"/>
+  <rect x="556" y="1014" width="383" height="228" rx="18" fill="#22303f" opacity=".18"/>
+  <rect x="145" y="1008" width="383" height="228" rx="18" fill="url(#ilWall)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="552" y="1008" width="383" height="228" rx="18" fill="url(#ilWall)" stroke="#22303f" stroke-width="2.5"/>
+  <!-- right panel: window -->
+  <rect x="872" y="1022" width="46" height="38" rx="4" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M895 1022 L895 1060 M872 1041 L918 1041" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- left panel: wall picture -->
+  <rect x="464" y="1022" width="48" height="36" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="468,1054 484,1036 496,1048 502,1042 508,1054" fill="#a9dcbe"/>
+  <circle cx="500" cy="1032" r="4" fill="#ffd24a"/>
+  <!-- right panel: customer (short answer) -->
+  <g transform="translate(620 1150)">
+    <path d="M -34 66 L -34 50 Q -34 30 -10 28 L 10 28 Q 34 30 34 50 L 34 66 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="-8" y="16" width="16" height="16" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="26" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M -26 -2 Q -29 -30 0 -32 Q 29 -30 26 -4 Q 21 -16 8 -18 Q -10 -18 -26 -2 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="-9" cy="2" r="3" fill="#22303f"/>
+    <circle cx="9" cy="2" r="3" fill="#22303f"/>
+    <path d="M -6 13 L 6 13" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <!-- right panel: researcher -->
+  <g transform="translate(868 1150)">
+    <path d="M -34 66 L -34 50 Q -34 30 -10 28 L 10 28 Q 34 30 34 50 L 34 66 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M 0 -42 C -36 -42 -38 -4 -32 14 Q -28 38 0 46 Q 28 38 32 14 C 38 -4 36 -42 0 -42 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <ellipse cx="0" cy="-2" rx="19" ry="22" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="-7" cy="-4" r="3" fill="#22303f"/>
+    <circle cx="7" cy="-4" r="3" fill="#22303f"/>
+    <path d="M -6 8 Q 0 13 6 8" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <polygon points="-30,34 -2,30 0,56 -28,58" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M -24 40 L -8 38 M -23 48 L -9 46" fill="none" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="-4" cy="50" r="7" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <!-- left panel: customer (telling a story) -->
+  <g transform="translate(212 1150)">
+    <path d="M -34 66 L -34 50 Q -34 30 -10 28 L 10 28 Q 34 30 34 50 L 34 66 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="-8" y="16" width="16" height="16" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="26" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M -26 -2 Q -29 -30 0 -32 Q 29 -30 26 -4 Q 21 -16 8 -18 Q -10 -18 -26 -2 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="-9" cy="2" r="3" fill="#22303f"/>
+    <circle cx="9" cy="2" r="3" fill="#22303f"/>
+    <ellipse cx="0" cy="13" rx="5" ry="4" fill="#22303f"/>
+  </g>
+  <!-- left panel: researcher -->
+  <g transform="translate(462 1150)">
+    <path d="M -34 66 L -34 50 Q -34 30 -10 28 L 10 28 Q 34 30 34 50 L 34 66 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M 0 -42 C -36 -42 -38 -4 -32 14 Q -28 38 0 46 Q 28 38 32 14 C 38 -4 36 -42 0 -42 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <ellipse cx="0" cy="-2" rx="19" ry="22" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="-7" cy="-4" r="3" fill="#22303f"/>
+    <circle cx="7" cy="-4" r="3" fill="#22303f"/>
+    <path d="M -6 8 Q 0 13 6 8" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <polygon points="-30,34 -2,30 0,56 -28,58" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M -24 40 L -8 38 M -23 48 L -9 46" fill="none" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="-4" cy="50" r="7" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <!-- researcher question bubbles (right, then left copy) -->
+  <path d="M792 1020 L838 1020 Q850 1020 850 1032 L850 1054 Q850 1066 838 1066 L836 1066 L852 1090 L818 1066 L792 1066 Q780 1066 780 1054 L780 1032 Q780 1020 792 1020 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M806 1034 Q806 1027 815 1027 Q824 1027 824 1034 Q824 1040 815 1043 L815 1049" fill="none" stroke="#17457f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="815" cy="1057" r="2.5" fill="#17457f"/>
+  <g transform="translate(-406 0)">
+    <path d="M792 1020 L838 1020 Q850 1020 850 1032 L850 1054 Q850 1066 838 1066 L836 1066 L852 1090 L818 1066 L792 1066 Q780 1066 780 1054 L780 1032 Q780 1020 792 1020 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M806 1034 Q806 1027 815 1027 Q824 1027 824 1034 Q824 1040 815 1043 L815 1049" fill="none" stroke="#17457f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="815" cy="1057" r="2.5" fill="#17457f"/>
+  </g>
+  <!-- right panel: tiny yes / no reply -->
+  <path d="M640 1036 L708 1036 Q720 1036 720 1048 L720 1070 Q720 1082 708 1082 L660 1082 L636 1102 L644 1082 L640 1082 Q628 1082 628 1070 L628 1048 Q628 1036 640 1036 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="657" cy="1059" r="13" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M650 1059 L655 1064 L664 1053" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="691" cy="1059" r="13" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M685 1053 L697 1065 M697 1053 L685 1065" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <!-- left panel: big story reply -->
+  <path d="M180 1018 L352 1018 Q366 1018 366 1032 L366 1084 Q366 1098 352 1098 L238 1098 L214 1110 L218 1098 L180 1098 Q166 1098 166 1084 L166 1032 Q166 1018 180 1018 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="180" y="1028" width="22" height="40" rx="4" fill="#ffffff" stroke="#17457f" stroke-width="2.5"/>
+  <rect x="184" y="1034" width="14" height="26" rx="2" fill="#8fc9f2"/>
+  <circle cx="228" cy="1048" r="16" fill="#ffffff" stroke="#7f95ab" stroke-width="2.5"/>
+  <circle cx="228" cy="1048" r="10" fill="#f0c48c"/>
+  <circle cx="224" cy="1046" r="3" fill="#c96a1b"/>
+  <circle cx="232" cy="1051" r="3" fill="#c96a1b"/>
+  <path d="M256 1036 L350 1036 M256 1068 L350 1068" fill="none" stroke="#17457f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M256 1052 L340 1052 M182 1084 L330 1084" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- desks -->
+  <path d="M147 1204 L526 1204 L526 1216 Q526 1234 508 1234 L165 1234 Q147 1234 147 1216 Z" fill="#b07a45"/>
+  <path d="M147 1204 L526 1204" fill="none" stroke="#7d4f28" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M554 1204 L933 1204 L933 1216 Q933 1234 915 1234 L572 1234 Q554 1234 554 1216 Z" fill="#b07a45"/>
+  <path d="M554 1204 L933 1204" fill="none" stroke="#7d4f28" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- tea cups -->
+  <path d="M331 1172 Q327 1166 333 1160 M343 1172 Q339 1166 345 1160" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <ellipse cx="337" cy="1202" rx="18" ry="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M325 1180 L349 1180 L346 1200 L328 1200 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="337" cy="1180" rx="12" ry="3" fill="#c96a1b"/>
+  <path d="M349 1186 Q359 1188 347 1196" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M738 1172 Q734 1166 740 1160 M750 1172 Q746 1166 752 1160" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <ellipse cx="744" cy="1202" rx="18" ry="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M732 1180 L756 1180 L753 1200 L735 1200 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="744" cy="1180" rx="12" ry="3" fill="#c96a1b"/>
+  <path d="M756 1186 Q766 1188 754 1196" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- closed padlock icon (closed question header) -->
+<g transform="translate(624 108)">
+  <path d="M14 24 L14 16 Q14 6 24 6 Q34 6 34 16 L34 24" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <rect x="8" y="24" width="32" height="22" rx="4" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="24" cy="33" r="3.5" fill="#22303f"/>
+  <rect x="22.5" y="34" width="3" height="7" rx="1.5" fill="#22303f"/>
+</g>
+
+<!-- open padlock icon (open question header) -->
+<g transform="translate(130 108)">
+  <path d="M34 24 L34 14 Q34 4 24 4 Q14 4 14 14 L14 16" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <rect x="8" y="24" width="32" height="22" rx="4" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="24" cy="33" r="3.5" fill="#22303f"/>
+  <rect x="22.5" y="34" width="3" height="7" rx="1.5" fill="#22303f"/>
+</g>
+
+<!-- pencil icon beside the box header -->
+<g transform="translate(610 736)">
+  <polygon points="8,40 36,12 44,20 16,48" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="8,40 16,48 4,52" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="36,12 40,8 48,16 44,20" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- thinking face beside the box header -->
+<g transform="translate(700 762)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- question bubble icon in the box corner -->
+<g transform="translate(866 898)">
+  <path d="M8 4 L48 4 Q54 4 54 10 L54 34 Q54 40 48 40 L24 40 L12 50 L14 40 L8 40 Q2 40 2 34 L2 10 Q2 4 8 4 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M22 16 Q22 10 28 10 Q34 10 34 16 Q34 21 28 23 L28 27" fill="none" stroke="#17457f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="28" cy="33" r="2.5" fill="#17457f"/>
+</g>
+
+<!-- Texts: table header row (right column first) -->
+<text x="963" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#c0392b">سؤال مغلق</text>
+<text x="607" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="bold" fill="#152b42">Closed question</text>
+<text x="563" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#c0392b">سؤال مفتوح</text>
+<text x="117" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="bold" fill="#152b42">Open question</text>
+
+<!-- Texts: row 1 -->
+<text x="963" y="314" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#c96a1b">هل أعجبك الموقع؟</text>
+<text x="607" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#c96a1b">
+  <tspan x="607" dy="0">Did you like</tspan>
+  <tspan x="607" dy="40">the website?</tspan>
+</text>
+<text x="563" y="274" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#c96a1b">
+  <tspan x="563" dy="0">احكِ لي عن آخر مرة طلبت</tspan>
+  <tspan x="563" dy="40">فيها أكلًا أونلاين.</tspan>
+</text>
+<text x="117" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#c96a1b">
+  <tspan x="117" dy="0">Tell me about the last</tspan>
+  <tspan x="117" dy="40">time you ordered food</tspan>
+  <tspan x="117" dy="40">online.</tspan>
+</text>
+
+<!-- Texts: row 2 -->
+<text x="963" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">إجابته: نعم أو لا.</text>
+<text x="607" y="594" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Answer: yes or no.</text>
+<text x="563" y="514" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="563" dy="0">إجابته: قصة وتفاصيل</tspan>
+  <tspan x="563" dy="40">وأسباب.</tspan>
+</text>
+<text x="117" y="594" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="117" dy="0">Answer: a story,</tspan>
+  <tspan x="117" dy="40">details, and reasons.</tspan>
+</text>
+
+<!-- Texts: outlined box -->
+<text x="935" y="754" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">اختبر نفسك</text>
+<text x="140" y="794" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">CHECK YOURSELF</text>
+<text x="935" y="834" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">حوّل هذا <tspan font-weight="bold" fill="#17457f">السؤال المغلق</tspan> إلى <tspan font-weight="bold" fill="#17457f">سؤال مفتوح:</tspan></tspan>
+  <tspan x="935" dy="40"><tspan fill="#c96a1b">«هل كان الدفع سهلًا؟»</tspan></tspan>
+</text>
+<text x="140" y="914" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">Turn this <tspan font-weight="bold" fill="#17457f">closed question</tspan></tspan>
+  <tspan x="140" dy="40">into an <tspan font-weight="bold" fill="#17457f">open one:</tspan> <tspan fill="#c96a1b">“Was paying easy?”</tspan></tspan>
+</text>
+</svg>

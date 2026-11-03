@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Info card -->
+<rect x="109" y="368" width="870" height="408" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="362" width="870" height="408" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="378" width="6" height="376" rx="3" fill="#2f7fb5"/>
+
+<!-- Memory illustration: quantitative = how many -->
+<g>
+  <linearGradient id="ilScreen" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+  <linearGradient id="ilPie" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#8fc9f2"/>
+  </linearGradient>
+  <!-- shadows -->
+  <rect x="184" y="1056" width="150" height="180" rx="12" fill="#22303f" opacity=".18"/>
+  <rect x="414" y="1046" width="260" height="160" rx="12" fill="#22303f" opacity=".18"/>
+  <rect x="500" y="1228" width="88" height="10" rx="5" fill="#22303f" opacity=".18"/>
+  <circle cx="794" cy="1116" r="56" fill="#22303f" opacity=".18"/>
+  <circle cx="904" cy="1196" r="30" fill="#22303f" opacity=".18"/>
+  <!-- ground -->
+  <path d="M130 1252 L950 1252" fill="none" stroke="#e8dfd1" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- sparkles -->
+  <polygon points="372,1046 375,1055 384,1058 375,1061 372,1070 369,1061 360,1058 369,1055" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="706,1176 709,1185 718,1188 709,1191 706,1200 703,1191 694,1188 703,1185" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="356" cy="1110" r="4" fill="#a9dcbe"/>
+  <circle cx="702" cy="1080" r="5" fill="#f0c48c"/>
+  <!-- tally clipboard (how many?) -->
+  <rect x="180" y="1050" width="150" height="180" rx="12" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="192" y="1068" width="126" height="150" rx="4" fill="#ffffff"/>
+  <rect x="230" y="1040" width="50" height="20" rx="6" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M206 1088 L206 1122 M216 1088 L216 1122 M226 1088 L226 1122 M236 1088 L236 1122 M256 1088 L256 1122 M266 1088 L266 1122 M276 1088 L276 1122 M286 1088 L286 1122 M206 1140 L206 1174 M216 1140 L216 1174 M226 1140 L226 1174 M236 1140 L236 1174 M256 1140 L256 1174 M266 1140 L266 1174" fill="none" stroke="#17457f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M200 1116 L242 1094 M250 1116 L292 1094 M200 1168 L242 1146" fill="none" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="206" y="1192" width="80" height="8" rx="4" fill="#8fc9f2"/>
+  <!-- monitor with bar chart -->
+  <rect x="410" y="1040" width="260" height="160" rx="12" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="424" y="1054" width="232" height="132" rx="4" fill="url(#ilScreen)"/>
+  <rect x="444" y="1130" width="26" height="40" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="482" y="1106" width="26" height="64" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="520" y="1118" width="26" height="52" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="558" y="1084" width="26" height="86" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="596" y="1074" width="26" height="96" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M436 1170 L646 1170" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <polyline points="457,1120 495,1096 533,1106 571,1074 609,1064" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="457" cy="1120" r="4" fill="#c96a1b"/>
+  <circle cx="495" cy="1096" r="4" fill="#c96a1b"/>
+  <circle cx="533" cy="1106" r="4" fill="#c96a1b"/>
+  <circle cx="571" cy="1074" r="4" fill="#c96a1b"/>
+  <circle cx="609" cy="1064" r="4" fill="#c96a1b"/>
+  <rect x="526" y="1200" width="28" height="22" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="496" y="1222" width="88" height="10" rx="5" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <!-- pie chart (what percentage?) -->
+  <circle cx="790" cy="1110" r="56" fill="url(#ilPie)" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M790 1110 L790 1054 A56 56 0 0 1 846 1110 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M790 1110 L846 1110 A56 56 0 0 1 818 1158.5 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- stopwatch (how often?) -->
+  <rect x="894" y="1148" width="12" height="14" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="900" cy="1190" r="30" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M900 1164 L900 1170 M926 1190 L920 1190 M900 1216 L900 1210 M874 1190 L880 1190" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M900 1190 L900 1172" fill="none" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M900 1190 L912 1198" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="900" cy="1190" r="3.5" fill="#22303f"/>
+</g>
+
+<!-- Icon: data chart beside title -->
+<g transform="translate(132 76)">
+  <rect x="4" y="6" width="52" height="48" rx="10" fill="#22303f" opacity=".18"/>
+  <rect x="0" y="0" width="52" height="48" rx="10" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="10" y="26" width="8" height="12" fill="#f0c48c"/>
+  <rect x="22" y="18" width="8" height="20" fill="#2f7fb5"/>
+  <rect x="34" y="10" width="8" height="28" fill="#2e7d32"/>
+</g>
+
+<!-- Icon: light bulb beside title -->
+<g transform="translate(894 72)">
+  <circle cx="28" cy="28" r="18" fill="#22303f" opacity=".18"/>
+  <circle cx="24" cy="22" r="18" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M17 24 L21 18 L24 24 L27 18 L31 24" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="16" y="40" width="16" height="8" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="18" y="48" width="12" height="6" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: story characters -->
+<g transform="translate(868 262)">
+  <path d="M12 58 Q12 36 26 36 Q40 36 40 58 Z" fill="#22303f" opacity=".18"/>
+  <path d="M32 54 Q32 34 44 34 Q56 34 56 54 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="44" cy="20" r="8" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M8 52 Q8 30 22 30 Q36 30 36 52 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="22" cy="16" r="9" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M13 14 Q22 3 31 14 Q22 9 13 14 Z" fill="#2b211c"/>
+</g>
+
+<!-- Icon: open book (definition) -->
+<g transform="translate(856 702)">
+  <path d="M36 16 Q22 8 8 12 L8 50 Q22 46 36 54 Q50 46 64 50 L64 12 Q50 8 36 16 Z" fill="#22303f" opacity=".18"/>
+  <path d="M32 10 Q18 2 4 6 L4 44 Q18 40 32 48 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M32 10 Q46 2 60 6 L60 44 Q46 40 32 48 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M10 16 Q19 13 27 17 M10 26 Q19 23 27 27 M10 36 Q19 33 27 37 M37 17 Q45 13 54 16 M37 27 Q45 23 54 26" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Face: wink (tip) -->
+<g transform="translate(880 950)">
+  <circle cx="4" cy="6" r="26" fill="#22303f" opacity=".18"/>
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M 5 -6 L 13 -6" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Titles -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">المفاهيم الكبرى</text>
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" fill="#152b42">The Big Concepts</text>
+
+<!-- Paragraph 1 -->
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">الآن سنعطي كل شخصية في القصة <tspan font-weight="bold" fill="#17457f">اسمها العلمي.</tspan></tspan>
+</text>
+<text x="120" y="274" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Now we will give each character</tspan>
+  <tspan x="120" dy="40">in the story its <tspan font-weight="bold" fill="#17457f">scientific name.</tspan></tspan>
+</text>
+
+<!-- Info card header -->
+<text x="935" y="394" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">التقييم الكمي</tspan>
+</text>
+<text x="140" y="434" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">Quantitative Evaluation</tspan>
+</text>
+
+<!-- Info card paragraph A -->
+<text x="935" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">تقييم يعتمد على <tspan font-weight="bold" fill="#17457f">بيانات عددية</tspan> ومقاييس</tspan>
+  <tspan x="935" dy="40">محددة التعريف لقياس <tspan font-weight="bold" fill="#17457f">السلوك والنتائج.</tspan></tspan>
+</text>
+<text x="140" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">Evaluation that relies on <tspan font-weight="bold" fill="#17457f">numerical</tspan></tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#17457f">data</tspan> and clearly defined metrics</tspan>
+  <tspan x="140" dy="40">to measure <tspan font-weight="bold" fill="#17457f">behavior and results.</tspan></tspan>
+</text>
+
+<!-- Info card paragraph B -->
+<text x="935" y="674" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">يجيب عن أسئلة: <tspan font-weight="bold" fill="#c0392b">كم؟</tspan> كم مرة؟ ما النسبة؟</tspan>
+</text>
+<text x="140" y="714" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">It answers questions like:</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#c0392b">How many?</tspan> How often? What percentage?</tspan>
+</text>
+
+<!-- Notice paragraph -->
+<text x="950" y="834" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#17457f">لاحظ:</tspan> كلمة «كمّي» تبدأ بـ«كم»،</tspan>
+  <tspan x="950" dy="40">إذن <tspan font-weight="bold" fill="#c0392b">الكمي = كم.</tspan></tspan>
+</text>
+<text x="120" y="914" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#17457f">Notice:</tspan> the Arabic word “kammi”</tspan>
+  <tspan x="120" dy="40">starts with “kam” (how many),</tspan>
+  <tspan x="120" dy="40">so <tspan font-weight="bold" fill="#c0392b">quantitative = how many.</tspan></tspan>
+</text>
+</svg>
