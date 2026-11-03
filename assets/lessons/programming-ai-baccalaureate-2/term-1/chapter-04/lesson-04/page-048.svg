@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Warning card -->
+<rect x="109" y="128" width="870" height="368" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="122" width="870" height="368" rx="16" fill="#fdf1e2" stroke="#f0c48c" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="336" rx="3" fill="#c96a1b"/>
+
+<!-- Key sentence strip -->
+<rect x="105" y="922" width="870" height="128" rx="10" fill="#fdf6d8"/>
+<rect x="961" y="938" width="6" height="96" rx="3" fill="#e0a55e"/>
+
+<!-- Bullets -->
+<circle cx="966" cy="544" r="6" fill="#c0392b"/>
+<circle cx="114" cy="584" r="6" fill="#c0392b"/>
+<circle cx="966" cy="664" r="6" fill="#c0392b"/>
+<circle cx="114" cy="704" r="6" fill="#c0392b"/>
+<circle cx="966" cy="784" r="6" fill="#c0392b"/>
+<circle cx="114" cy="824" r="6" fill="#c0392b"/>
+
+<!-- Icon: warning triangle -->
+<g transform="translate(140 128)">
+  <polygon points="28,4 54,52 2,52" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="25" y="18" width="6" height="20" rx="3" fill="#22303f"/>
+  <circle cx="28" cy="45" r="3.5" fill="#22303f"/>
+</g>
+
+<!-- Face: thinking -->
+<g transform="translate(878 412)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: bar chart (web analytics) -->
+<g transform="translate(874 580)">
+  <rect x="0" y="0" width="52" height="52" rx="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="10" y="28" width="8" height="16" rx="2" fill="#2f7fb5"/>
+  <rect x="22" y="18" width="8" height="26" rx="2" fill="#c96a1b"/>
+  <rect x="34" y="10" width="8" height="34" rx="2" fill="#2e7d32"/>
+  <path d="M8 44 H44" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: checklist (heuristic evaluation) -->
+<g transform="translate(874 700)">
+  <rect x="8" y="6" width="36" height="44" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="18" y="2" width="16" height="9" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M14 21 L17 24 L22 18 M14 32 L17 35 L22 29 M14 43 L17 46 L22 40" fill="none" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M27 21 H38 M27 32 H38 M27 43 H38" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: wireframe -->
+<g transform="translate(874 820)">
+  <rect x="2" y="4" width="48" height="44" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M2 15 H50" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="9" cy="9.5" r="2" fill="#c0392b"/>
+  <circle cx="15" cy="9.5" r="2" fill="#ffd24a"/>
+  <circle cx="21" cy="9.5" r="2" fill="#2e7d32"/>
+  <rect x="8" y="21" width="16" height="20" rx="2" fill="#dff1f7" stroke="#2f7fb5" stroke-width="2"/>
+  <path d="M30 24 H44 M30 31 H44 M30 38 H40" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: eye (user's perspective) -->
+<g transform="translate(872 984)">
+  <path d="M3 24 Q24 6 45 24 Q24 42 3 24 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="24" cy="24" r="9" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="24" cy="24" r="4" fill="#22303f"/>
+  <circle cx="27" cy="21" r="1.8" fill="#ffffff"/>
+</g>
+
+<!-- Illustration: choosing the one right door among four -->
+<g>
+  <defs>
+    <linearGradient id="ilWall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="ilDoorBright" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f7fb5"/>
+      <stop offset="1" stop-color="#17457f"/>
+    </linearGradient>
+    <linearGradient id="ilDoorOrange" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0c48c"/>
+      <stop offset="1" stop-color="#c96a1b"/>
+    </linearGradient>
+    <linearGradient id="ilDoorBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fc9f2"/>
+      <stop offset="1" stop-color="#2f7fb5"/>
+    </linearGradient>
+    <linearGradient id="ilDoorSoft" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#8fc9f2"/>
+    </linearGradient>
+  </defs>
+  <rect x="129" y="1082" width="830" height="176" rx="22" fill="#22303f" opacity=".18"/>
+  <rect x="125" y="1076" width="830" height="176" rx="22" fill="url(#ilWall)"/>
+  <path d="M125 1226 H955 V1230 Q955 1252 933 1252 H147 Q125 1252 125 1230 Z" fill="#e8dfd1"/>
+  <path d="M127 1226 H953" fill="none" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+  <rect x="125" y="1076" width="830" height="176" rx="22" fill="none" stroke="#8fc9f2" stroke-width="2"/>
+
+  <ellipse cx="270" cy="1166" rx="96" ry="80" fill="#ffd24a" opacity=".35"/>
+  <ellipse cx="270" cy="1238" rx="78" ry="9" fill="#ffd24a" opacity=".6"/>
+  <path d="M196 1112 L178 1098 M344 1112 L362 1098 M192 1150 L170 1150 M348 1150 L370 1150 M200 1192 L182 1202 M340 1192 L358 1202" fill="none" stroke="#ffd24a" stroke-width="3" stroke-linecap="round"/>
+
+  <g opacity=".6">
+    <rect x="390" y="1104" width="120" height="124" rx="10" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="402" y="1114" width="96" height="114" rx="6" fill="url(#ilDoorSoft)" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="414" y="1184" width="72" height="34" rx="4" fill="#ffffff" opacity=".35"/>
+    <circle cx="484" cy="1176" r="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="422" y="1130" width="56" height="40" rx="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="430" y="1136" width="40" height="28" rx="3" fill="#ffffff" stroke="#2f7fb5" stroke-width="2"/>
+    <path d="M430 1144 H470" fill="none" stroke="#2f7fb5" stroke-width="2"/>
+    <rect x="434" y="1148" width="12" height="12" fill="#dff1f7" stroke="#2f7fb5" stroke-width="1.4"/>
+    <path d="M451 1151 H466 M451 1157 H462" fill="none" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <g opacity=".6">
+    <rect x="570" y="1104" width="120" height="124" rx="10" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="582" y="1114" width="96" height="114" rx="6" fill="url(#ilDoorBlue)" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="594" y="1184" width="72" height="34" rx="4" fill="#ffffff" opacity=".35"/>
+    <circle cx="664" cy="1176" r="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="602" y="1130" width="56" height="40" rx="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M609 1141 L612 1144 L618 1137 M609 1151 L612 1154 L618 1147 M609 1161 L612 1164 L618 1157" fill="none" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M624 1141 H650 M624 1151 H650 M624 1161 H644" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <g opacity=".6">
+    <rect x="750" y="1104" width="120" height="124" rx="10" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="762" y="1114" width="96" height="114" rx="6" fill="url(#ilDoorOrange)" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="774" y="1184" width="72" height="34" rx="4" fill="#ffffff" opacity=".35"/>
+    <circle cx="844" cy="1176" r="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="782" y="1130" width="56" height="40" rx="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="792" y="1152" width="8" height="12" rx="2" fill="#2f7fb5"/>
+    <rect x="805" y="1144" width="8" height="20" rx="2" fill="#c96a1b"/>
+    <rect x="818" y="1138" width="8" height="26" rx="2" fill="#c0392b"/>
+    <path d="M788 1165 H832" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <rect x="210" y="1104" width="120" height="124" rx="10" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="222" y="1114" width="96" height="114" rx="6" fill="url(#ilDoorBright)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="234" y="1184" width="72" height="34" rx="4" fill="#ffffff" opacity=".35"/>
+  <circle cx="304" cy="1176" r="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="242" y="1130" width="56" height="40" rx="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M248 1150 Q270 1134 292 1150 Q270 1166 248 1150 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="270" cy="1150" r="7" fill="#4fc3e8" stroke="#22303f" stroke-width="2"/>
+  <circle cx="270" cy="1150" r="3.5" fill="#22303f"/>
+
+  <path d="M232 1078 L234 1084 L240 1086 L234 1088 L232 1094 L230 1088 L224 1086 L230 1084 Z" fill="#ffd24a" stroke="#c96a1b" stroke-width="1.4" stroke-linejoin="round"/>
+  <path d="M318 1082 L320 1088 L326 1090 L320 1092 L318 1098 L316 1092 L310 1090 L316 1088 Z" fill="#ffd24a" stroke="#c96a1b" stroke-width="1.4" stroke-linejoin="round"/>
+
+  <circle cx="270" cy="1084" r="16" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M262 1084 L268 1090 L279 1078" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Text: warning card -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="935" dy="0">انتبه في الامتحان</tspan>
+</text>
+<text x="214" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="214" dy="0">EXAM ALERT</tspan>
+</text>
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">في سؤال يطلب الوصف الأفضل للتفكير التصميمي،</tspan>
+  <tspan x="935" dy="40">قد تجد بين <tspan font-weight="bold" fill="#c0392b">الخيارات الخاطئة</tspan></tspan>
+  <tspan x="935" dy="40">وصفًا لهذه <tspan font-weight="bold" fill="#17457f">الطرق الثلاث:</tspan></tspan>
+</text>
+<text x="140" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">In a question asking for the best</tspan>
+  <tspan x="140" dy="40">description of design thinking,</tspan>
+  <tspan x="140" dy="40">you may find these <tspan font-weight="bold" fill="#17457f">three methods</tspan></tspan>
+  <tspan x="140" dy="40">among the <tspan font-weight="bold" fill="#c0392b">wrong options:</tspan></tspan>
+</text>
+
+<!-- Text: bullets -->
+<text x="950" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#17457f">تحليل الاستخدام</tspan> = أرقام عن سلوك الزوار.</tspan>
+</text>
+<text x="132" y="594" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#17457f">Web analytics</tspan> =</tspan>
+  <tspan x="132" dy="40">numbers about visitor behavior.</tspan>
+</text>
+<text x="950" y="674" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#17457f">التقييم الاستدلالي</tspan> = خبراء وقواعد عملية.</tspan>
+</text>
+<text x="132" y="714" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#17457f">Heuristic evaluation</tspan> =</tspan>
+  <tspan x="132" dy="40">experts and rules of thumb.</tspan>
+</text>
+<text x="950" y="794" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#17457f">المخطط الهيكلي</tspan> = رسم لأماكن العناصر.</tspan>
+</text>
+<text x="132" y="834" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#17457f">Wireframe</tspan> =</tspan>
+  <tspan x="132" dy="40">a sketch of where elements go.</tspan>
+</text>
+
+<!-- Text: key sentence strip -->
+<text x="935" y="954" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">التفكير التصميمي = منظور المستخدم.</tspan>
+</text>
+<text x="140" y="994" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">Design thinking =</tspan>
+  <tspan x="140" dy="40">the user's perspective.</tspan>
+</text>
+</svg>

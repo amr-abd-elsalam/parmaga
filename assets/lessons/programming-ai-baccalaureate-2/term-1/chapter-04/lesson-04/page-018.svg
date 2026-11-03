@@ -1,0 +1,223 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Info card: shadow, fill, accent -->
+<rect x="109" y="128" width="870" height="448" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="122" width="870" height="448" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="416" rx="3" fill="#2f7fb5"/>
+
+<!-- Icon: open book (definition) -->
+<g transform="translate(640 134)">
+  <path d="M28 10 C 20 4, 8 4, 2 8 L 2 44 C 8 40, 20 40, 28 46 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M28 10 C 36 4, 48 4, 54 8 L 54 44 C 48 40, 36 40, 28 46 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M8 17 L 22 19 M8 25 L 22 27 M8 33 L 22 35 M34 19 L 48 17 M34 27 L 48 25 M34 35 L 48 33" fill="none" stroke="#2f7fb5" stroke-width="2" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: document stack (data) -->
+<g transform="translate(166 421)">
+  <rect x="8" y="0" width="34" height="38" rx="4" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="0" y="6" width="34" height="38" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M7 18 L 27 18 M7 26 L 27 26 M7 34 L 20 34" fill="none" stroke="#c96a1b" stroke-width="2" stroke-linecap="round"/>
+</g>
+
+<!-- Requested illustration: many see, few click -->
+<g>
+  <defs>
+    <linearGradient id="ilCloud" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#8fc9f2"/>
+    </linearGradient>
+  </defs>
+  <!-- shadows -->
+  <rect x="374" y="618" width="340" height="152" rx="14" fill="#22303f" opacity=".18"/>
+  <circle cx="219" cy="876" r="46" fill="#22303f" opacity=".18"/>
+  <g transform="translate(4 6)">
+    <path d="M760 950 C 728 950, 722 906, 752 896 C 738 862, 770 838, 798 850 C 804 812, 852 796, 880 818 C 900 796, 948 806, 944 846 C 966 856, 962 900, 940 910 C 950 940, 920 954, 900 950 Z" fill="#22303f" opacity=".18"/>
+  </g>
+  <!-- webpage window -->
+  <rect x="370" y="612" width="340" height="152" rx="14" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M370 640 L 370 626 Q 370 612 384 612 L 696 612 Q 710 612 710 626 L 710 640 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="390" cy="626" r="4.5" fill="#ffffff"/>
+  <circle cx="406" cy="626" r="4.5" fill="#ffffff"/>
+  <circle cx="422" cy="626" r="4.5" fill="#ffffff"/>
+  <rect x="450" y="619" width="220" height="14" rx="7" fill="#dff1f7"/>
+  <rect x="388" y="654" width="118" height="70" rx="8" fill="#dff1f7"/>
+  <polygon points="394,718 430,680 456,704 474,690 500,718" fill="#8fc9f2"/>
+  <circle cx="480" cy="672" r="9" fill="#ffd24a"/>
+  <rect x="522" y="658" width="170" height="10" rx="5" fill="#8fc9f2"/>
+  <rect x="522" y="678" width="140" height="10" rx="5" fill="#dff1f7"/>
+  <rect x="522" y="698" width="160" height="10" rx="5" fill="#dff1f7"/>
+  <!-- the button -->
+  <rect x="522" y="722" width="128" height="30" rx="15" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="556" y="734" width="60" height="6" rx="3" fill="#ffffff"/>
+  <!-- clicked dots passing through the button -->
+  <circle cx="505" cy="738" r="6" fill="#2e7d32"/>
+  <circle cx="478" cy="742" r="6" fill="#2e7d32"/>
+  <circle cx="451" cy="746" r="6" fill="#2e7d32"/>
+  <circle cx="424" cy="750" r="6" fill="#2e7d32"/>
+  <circle cx="397" cy="754" r="6" fill="#2e7d32"/>
+  <!-- mouse cursor and click burst -->
+  <polygon points="660,740 660,768 667,761 672,772 678,769 673,759 683,759" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M672 734 L 680 728 M664 728 L 666 718 M676 744 L 686 744" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- small cluster of clickers -->
+  <circle cx="215" cy="870" r="46" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="200" cy="852" r="8" fill="#2e7d32"/>
+  <circle cx="230" cy="852" r="8" fill="#2e7d32"/>
+  <circle cx="186" cy="878" r="8" fill="#2e7d32"/>
+  <circle cx="215" cy="884" r="8" fill="#2e7d32"/>
+  <circle cx="244" cy="878" r="8" fill="#2e7d32"/>
+  <!-- large crowd of viewers -->
+  <path d="M760 950 C 728 950, 722 906, 752 896 C 738 862, 770 838, 798 850 C 804 812, 852 796, 880 818 C 900 796, 948 806, 944 846 C 966 856, 962 900, 940 910 C 950 940, 920 954, 900 950 Z" fill="url(#ilCloud)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="830" cy="845" r="6" fill="#2f7fb5"/>
+  <circle cx="858" cy="845" r="6" fill="#17457f"/>
+  <circle cx="886" cy="845" r="6" fill="#2f7fb5"/>
+  <circle cx="914" cy="845" r="6" fill="#17457f"/>
+  <circle cx="790" cy="868" r="6" fill="#17457f"/>
+  <circle cx="816" cy="868" r="6" fill="#2f7fb5"/>
+  <circle cx="842" cy="868" r="6" fill="#17457f"/>
+  <circle cx="868" cy="868" r="6" fill="#2f7fb5"/>
+  <circle cx="894" cy="868" r="6" fill="#17457f"/>
+  <circle cx="920" cy="868" r="6" fill="#2f7fb5"/>
+  <circle cx="772" cy="892" r="6" fill="#2f7fb5"/>
+  <circle cx="798" cy="892" r="6" fill="#17457f"/>
+  <circle cx="824" cy="892" r="6" fill="#2f7fb5"/>
+  <circle cx="850" cy="892" r="6" fill="#17457f"/>
+  <circle cx="876" cy="892" r="6" fill="#2f7fb5"/>
+  <circle cx="902" cy="892" r="6" fill="#17457f"/>
+  <circle cx="928" cy="892" r="6" fill="#2f7fb5"/>
+  <circle cx="778" cy="916" r="6" fill="#17457f"/>
+  <circle cx="804" cy="916" r="6" fill="#2f7fb5"/>
+  <circle cx="830" cy="916" r="6" fill="#17457f"/>
+  <circle cx="856" cy="916" r="6" fill="#2f7fb5"/>
+  <circle cx="882" cy="916" r="6" fill="#17457f"/>
+  <circle cx="908" cy="916" r="6" fill="#2f7fb5"/>
+  <circle cx="790" cy="938" r="6" fill="#2f7fb5"/>
+  <circle cx="818" cy="938" r="6" fill="#17457f"/>
+  <circle cx="846" cy="938" r="6" fill="#2f7fb5"/>
+  <circle cx="874" cy="938" r="6" fill="#17457f"/>
+  <circle cx="902" cy="938" r="6" fill="#2f7fb5"/>
+  <!-- connectors -->
+  <path d="M826 800 C 820 730, 785 690, 734 690" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="718,690 734,681 734,699" fill="#c0392b"/>
+  <path d="M362 752 C 318 760, 262 776, 248 808" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="242.4,820.9 254.4,810.8 241.6,805.2" fill="#c0392b"/>
+</g>
+
+<!-- Memory illustration: measuring improvement -->
+<g>
+  <defs>
+    <linearGradient id="ilScreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4fc3e8"/>
+      <stop offset="1" stop-color="#2f7fb5"/>
+    </linearGradient>
+  </defs>
+  <!-- shadows -->
+  <rect x="164" y="1046" width="170" height="168" rx="14" fill="#22303f" opacity=".18"/>
+  <rect x="404" y="1018" width="280" height="186" rx="12" fill="#22303f" opacity=".18"/>
+  <path d="M360 1230 L 728 1230 L 700 1204 L 388 1204 Z" fill="#22303f" opacity=".18"/>
+  <polygon points="790,1230 854,1230 866,1176 778,1176" fill="#22303f" opacity=".18"/>
+  <!-- ground -->
+  <ellipse cx="540" cy="1234" rx="370" ry="12" fill="#e8dfd1"/>
+  <!-- pie chart card -->
+  <rect x="160" y="1040" width="170" height="168" rx="14" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="245" cy="1108" r="44" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M245 1108 L 245 1064 A 44 44 0 0 1 283.1 1086 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="190" y="1170" width="110" height="10" rx="5" fill="#dff1f7"/>
+  <rect x="190" y="1188" width="70" height="10" rx="5" fill="#dff1f7"/>
+  <!-- magnifying glass -->
+  <polygon points="322,1098 331,1089 362,1120 353,1129" fill="#7d4f28" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="305" cy="1072" r="30" fill="#dff1f7" fill-opacity=".6" stroke="#22303f" stroke-width="2.5"/>
+  <!-- laptop -->
+  <rect x="400" y="1012" width="280" height="186" rx="12" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="414" y="1026" width="252" height="158" rx="6" fill="url(#ilScreen)"/>
+  <circle cx="540" cy="1019" r="3" fill="#8fc9f2"/>
+  <rect x="438" y="1134" width="30" height="36" rx="4" fill="#dff1f7"/>
+  <rect x="484" y="1112" width="30" height="58" rx="4" fill="#ffffff"/>
+  <rect x="530" y="1086" width="30" height="84" rx="4" fill="#f0c48c"/>
+  <rect x="576" y="1054" width="30" height="116" rx="4" fill="#ffd24a"/>
+  <path d="M428 1172 L 650 1172" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  <polyline points="453,1120 499,1096 545,1070 600,1036" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="611.9,1028.6 603.7,1042 596.3,1030" fill="#ffffff"/>
+  <path d="M356 1224 L 724 1224 L 696 1198 L 384 1198 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="510" y="1208" width="60" height="8" rx="4" fill="#e8dfd1"/>
+  <!-- growing plant -->
+  <polygon points="786,1224 850,1224 862,1170 774,1170" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="768" y="1160" width="100" height="14" rx="6" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M818 1160 L 818 1070" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round"/>
+  <path d="M818 1140 C 790 1132, 772 1110, 776 1088 C 800 1092, 816 1112, 818 1140 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M818 1120 C 846 1112, 866 1090, 864 1066 C 838 1072, 820 1092, 818 1120 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M818 1074 C 800 1060, 798 1036, 816 1020 C 834 1034, 836 1058, 818 1074 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- sparkles -->
+  <g transform="translate(360 1008)">
+    <polygon points="0,-12 2.9,-4 11.4,-3.7 4.8,1.5 7.1,9.7 0,5 -7.1,9.7 -4.8,1.5 -11.4,-3.7 -2.9,-4" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(726 1006)">
+    <polygon points="0,-12 2.9,-4 11.4,-3.7 4.8,1.5 7.1,9.7 0,5 -7.1,9.7 -4.8,1.5 -11.4,-3.7 -2.9,-4" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+</g>
+
+<!-- Emotion face: smile -->
+<g transform="translate(912 1060)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Text -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">نسبة النقر</tspan>
+</text>
+<text x="140" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">CLICK-THROUGH RATE</tspan>
+</text>
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">نسبة النقر</tspan> (Click-Through Rate - CTR):</tspan>
+  <tspan x="935" dy="40">عدد من نقروا على عنصر ÷ عدد من رأوه × 100%.</tspan>
+</text>
+<text x="140" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Click-Through Rate</tspan> (CTR): the number</tspan>
+  <tspan x="140" dy="40">of people who clicked an element ÷</tspan>
+  <tspan x="140" dy="40">the number who saw it × 100%.</tspan>
+</text>
+<text x="935" y="434" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">مثال: رأى الزرَّ <tspan fill="#c96a1b">1000</tspan> زائر،</tspan>
+  <tspan x="935" dy="40">ونقر عليه <tspan fill="#c96a1b">50،</tspan> فنسبة النقر <tspan font-weight="bold" fill="#17457f">5%.</tspan></tspan>
+</text>
+<text x="140" y="514" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">Example: <tspan fill="#c96a1b">1,000</tspan> visitors saw the button</tspan>
+  <tspan x="140" dy="40">and <tspan fill="#c96a1b">50</tspan> clicked it, so the CTR is <tspan font-weight="bold" fill="#17457f">5%.</tspan></tspan>
+</text>
+<text x="695" y="874" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="695" dy="0">1000 رأوا</tspan>
+</text>
+<text x="568" y="914" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="568" dy="0">1000 saw</tspan>
+</text>
+<text x="470" y="874" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="470" dy="0">50 نقروا</tspan>
+</text>
+<text x="330" y="914" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="330" dy="0">50 clicked</tspan>
+</text>
+</svg>

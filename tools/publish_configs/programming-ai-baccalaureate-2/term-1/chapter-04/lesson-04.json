@@ -1,0 +1,4439 @@
+{
+  "schemaVersion": 1,
+  "course": "programming-ai-baccalaureate-2",
+  "term": "term-1",
+  "chapter": "chapter-04",
+  "lesson": "lesson-04",
+  "displayNumber": "4-4",
+  "displayTitleAr": "عملية التحسين التكراري للمواقع",
+  "displayTitleEn": "The Iterative Improvement Process for Websites",
+  "courseLabelAr": "البرمجة والذكاء الاصطناعي، ثانية بكالوريا",
+  "termLabelAr": "ترم أول",
+  "pivotQuestionAr": "لماذا يُعد تحسين الموقع الإلكتروني عملية متكررة بدلًا من مهمة تُنجز مرة واحدة، وكيف تقرر الفرق ما الذي يجب تغييره؟",
+  "custodyRepository": "parmaga-content",
+  "custodySnapshot": "c2acf455ab7ded61e32f21beae8cbad953df57a0",
+  "declaredPageCount": 83,
+  "inventoryDate": "2026-11-03",
+  "status": "published",
+  "extraNotes": [
+    "السؤال المحوري للدرس: لماذا يُعد تحسين الموقع الإلكتروني عملية متكررة بدلًا من مهمة تُنجز مرة واحدة، وكيف تقرر الفرق ما الذي يجب تغييره؟",
+    "حزمة أصول الدرس مدرجة للنشر في المسار القانوني داخل المستودع العام، وتتحقق tools/verify_lesson.py من مطابقة بايتاتها لهذا الـManifest.",
+    "أسماء الملفات الواردة مطابقة أصلًا للنمط page-<NNN>.svg، لذلك sourceFileName يساوي file في المداخل الـ83 كلها، ولم تجرِ إعادة تسمية.",
+    "viewBox «0 0 1080 1350» مقيس في الصفحات الـ83 كلها، أي مقاس 1080×1350 بنسبة 4:5 رأسية.",
+    "منطقة الـ12% المحجوزة: الحد y = 1188. أعلى سمة y مرصودة في عناصر النص هي 1234 في page-022، و26 عنصر نص عند الحد أو دونه في 6 صفحات: page-004، page-022، page-028، page-046، page-064، page-079. سُجّل ولم يوقف النشر، وتراجعه عين المالك في المتصفح. القياس يعتمد سمات y وحدها ولا يحسب transform ولا إحداثيات path d، فهو مؤشر قوي لا إثبات هندسي كامل.",
+    "الفحص الأمني نظيف في الصفحات الـ83 كلها: صفر script، صفر foreignObject، صفر سمات on*، صفر javascript:، صفر مرجع http(s) خارجي، صفر data:، صفر image مضمَّن، صفر use خارجي، صفر iframe أو embed أو object، صفر @import. لا يوجد اكتشاف يحتاج قرارًا مكتوبًا.",
+    "قيمة encoding مستنتجة لا مقروءة: لا يحتوي أي ملف إعلان XML ولا BOM، ونجاح تحليل XML على البايتات دون إعلان يعني أن البايتات UTF-8 صالحة.",
+    "نهايات الأسطر داخل الأصول الـ83 كلها CRLF. لم تُغيَّر ولا يجوز تغييرها، وقاعدة *.svg -text في .gitattributes تغطيها وفق ADR-0005 البند 11.",
+    "الحجم المقيس: المجموع 1331141 بايت، والمتوسط 16037 بايت بالتقريب إلى الأدنى، وأصغر ملف 10741 بايت في page-060، وأكبر ملف 26003 بايت في page-061.",
+    "الخطوط المستدعاة في الصفحات الـ83 كلها: Arial وComic Sans MS وSegoe Print وSegoe UI وTahoma وsans-serif، ولا تزيد أي صفحة خطًّا آخر. قيد معروف مسجَّل في ADR-0004 §23 ولا يُعالَج بتعديل الأصول.",
+    "عنوان الدرس في الصفحة الرئيسة «عملية التحسين التكراري للمواقع»، وهو في page-001 «عملية التحسين التكراري للمواقع الإلكترونية»، فطابق displayTitleAr سطر الرئيسة حرفًا بحرف وفق README، ومن page-001 displayTitleEn «The Iterative Improvement Process for Websites». وpivotQuestionAr بنص المالك المكتوب حرفيًّا، إذ لا تسمية «السؤال الرئيسي» في الأصول. ووصف كل صفحة (descriptionAr، وهو نص alt) بقاعدة المالك المكتوبة: الصفحة التي أول بند فيها عنوان رئيسي بخط 44 غامق وصفها ذلك العنوان، وهي 11 صفحة (page-002، page-006، page-014، page-022، page-035، page-051، page-064، page-068، page-073، page-076، page-079)، والافتتاحية page-001 وصفها أول بند فيها، وكل صفحة سواهما وصفها «تابع: » ثم آخر عنوان رئيسي قبلها حرفيًّا، وهي 71 صفحة.",
+    "لا يحتوي أي بند على العلامتين < أو >. ويحتوي بندان في صفحتين على العلامة & في «PAUSE & THINK»: page-005، page-030. وتُهرَّب في HTML.",
+    "نصوص الصفحات مستخرجة آليًّا من عناصر <text> بترتيب المستند، ثم طُبّقت عليها قاعدة حذف علامات الترقيم البصرية وحدها المسجلة في ADR-0024 D7 وREADME. وطوبق مجموع عناصر النص في الأصول وهو 746 مع عدد البنود المنشورة وهو 746، ولا فرق بينهما: لا تحتوي الأصول بند ترقيم منفردًا ولا عنصر نص فارغًا."
+  ],
+  "contextSections": {
+    "structureSummaryAr": "افتتاحية 001. قبل أن نبدأ 002–005. لماذا يحتاج الموقع إلى تحسين مستمر؟ 006–013. لغة الأرقام: كيف نقيس التحسن؟ 014–021. دورة PDCA: العجلة التي لا تتوقف 022–034. التفكير التصميمي: انظر بعين المستخدم 035–050. اختبار A/B: الميزان الذي يحكم بالأرقام 051–063. الأدوات الثلاث معًا 064–067. فخاخ الامتحان: لا تقع فيها 068–072. الإجابة النموذجية لسؤال الـ 6 درجات 073–075. خذ الدرس معك 076–078. إجابات «جرّب بنفسك» 079–083.",
+    "statusAr": "الـManifest بحالة `published` وأصوله الـ83 في مسارها القانوني. ونصوص الصفحات بلغتيها في HTML فهي مقروءة دون JavaScript، والعارض تحسين تدريجي فوقها. والحالة الجارية في `docs/ai/ARCHITECT_EVIDENCE_LEDGER.md`.",
+    "pagesNarrativeAr": "83 صفحة: افتتاحية واحدة (`page-001`) و82 صفحة محتوى (`page-002` … `page-083`) بترقيم متصل بلا فجوة. و`viewBox` «0 0 1080 1350» وفحص أمني نظيف في كلها. والمراسي حتمية: `#page-1` ⇄ `page-001.svg` حتى `#page-83` ⇄ `page-083.svg`. والوصف «تابع: » يعني أن الصفحة تكمل آخر عنوان رئيسي قبلها.",
+    "constraintsAr": "**الخطوط.** Tahoma وSegoe Print وComic Sans MS وSegoe UI وArial قد تغيب على أندرويد، وعلاجها خارج الأصول وفق `ADR-0004 §23`. **الألوان.** العرض عبر `<img>` يعزل الأصل عن الوضع الليلي. **المنطقة السفلى.** 26 عنصر نص عند `y = 1188` أو دونه في 6 صفحات، أعلاها 1234 في `page-022`، وقائمتها في الـManifest، سُجّلت ولم توقف النشر. **البايتات ثابتة.** CRLF بلا إعلان XML ولا BOM، وأي تعديل يُبطل البصمات.",
+    "decidedAr": "المسار والمعرّفات وفق `ADR-0004`، والصفحات الـ83 وترتيبها وأدوارها، والسؤال المحوري بنص المالك، ووصف «تابع: » بقاعدته المكتوبة. صفر Dependencies وصفر Build Step.",
+    "undecidedAr": "روابط Previous/Next بين الدروس. فهرس `/courses/` وفهارس Course وTerm وChapter. Structured Data. الخطوط على أندرويد. مراسي `#concept-*`.",
+    "howToUseAr": "مصدرك لجرد بنية الدرس وقيوده. **لا تطلب ملف SVG** وفق `ADR-0005` §10. النص في HTML صفحة الدرس، والجرد والبصمات في الـManifest. ولا تحرّر مخرَجًا منشورًا: غيّر الـconfig وأعد التوليد وفق `ADR-0024`، ولا تخترع رقمًا ولا بصمة."
+  },
+  "svgSourceDir": "assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-04/lesson-04",
+  "pages": [
+    {
+      "id": "page-001",
+      "htmlId": "page-1",
+      "role": "opening",
+      "descriptionAr": "الدرس 4-4",
+      "transcript": [
+        {
+          "text": "الدرس 4-4",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "عملية التحسين التكراري للمواقع الإلكترونية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Lesson 4-4",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "The Iterative Improvement Process for Websites",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-002",
+      "htmlId": "page-2",
+      "role": "content",
+      "descriptionAr": "قبل أن نبدأ",
+      "transcript": [
+        {
+          "text": "قبل أن نبدأ",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Before We Start",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تخيّل أنك فتحت محل كشري جديدًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Imagine that you have just opened a new koshari shop.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هل سيكون أول طبق تصنعه أفضل طبق في مصر؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Will the first dish you make be the best dish in Egypt?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "بالطبع لا، لكنك ستعرف كيف تحسّنه: تسأل الزبائن، وتلاحظ الأطباق التي تعود ممتلئة، وتعدّ الزبائن الذين يعودون مرة أخرى.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Of course not, but you will know how to improve it: you ask your customers, notice the dishes that come back full, and count the customers who come back again.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-003",
+      "htmlId": "page-3",
+      "role": "content",
+      "descriptionAr": "تابع: قبل أن نبدأ",
+      "transcript": [
+        {
+          "text": "والموقع الإلكتروني يشبه محل الكشري تمامًا: أول نسخة منه ليست أفضل نسخة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A website is just like the koshari shop: its first version is not its best version.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الهدف الأساسي من الدرس: لا تخمّن… قِس، ثم جرّب، ثم كرّر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The main goal of this lesson: Don't guess… measure, then try, then repeat.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "القرار الجيد يُبنى على دليل لا على رأي، وأول نسخة من أي عمل ليست الأخيرة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A good decision is built on evidence, not on opinion, and the first version of any work is not the last.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "رأي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Opinion",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "دليل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Evidence",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-004",
+      "htmlId": "page-4",
+      "role": "content",
+      "descriptionAr": "تابع: قبل أن نبدأ",
+      "transcript": [
+        {
+          "text": "في هذا الدرس معك ثلاث أدوات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In this lesson, you have three tools.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "العين — التفكير التصميمي: ما المشكلة الحقيقية عند المستخدم؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The eye — design thinking: What is the user's real problem?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الميزان — اختبار A/B: أي الحلّين أفضل فعلًا؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The scale — A/B testing: Which of the two solutions is really better?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "العجلة — دورة PDCA: كيف ننظّم التحسين ونكرّره؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The wheel — the PDCA cycle: How do we organize and repeat improvement?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "العين",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The eye",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الميزان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The scale",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "العجلة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The wheel",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-005",
+      "htmlId": "page-5",
+      "role": "content",
+      "descriptionAr": "تابع: قبل أن نبدأ",
+      "transcript": [
+        {
+          "text": "احفظ هذه الجملة: العين تكتشف، والميزان يحكم، والعجلة تكرّر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Remember this sentence: The eye discovers, the scale judges, and the wheel repeats.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "توقّف وفكّر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "PAUSE & THINK",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "فكّر في تطبيق تستخدمه كل يوم: هل تغيّر شكله منذ أول مرة استخدمته فيها؟ ولماذا تظن أن صانعيه غيّروه؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Think of an app you use every day: has its look changed since the first time you used it? Why do you think its makers changed it?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-006",
+      "htmlId": "page-6",
+      "role": "content",
+      "descriptionAr": "لماذا يحتاج الموقع إلى تحسين مستمر؟",
+      "transcript": [
+        {
+          "text": "لماذا يحتاج الموقع إلى تحسين مستمر؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Why Does a Website Need Continuous Improvement?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "النسخة الأولى من أي موقع إلكتروني هي مجرد أفضل تخمين لدى الفريق.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The first version of any website is only the team's best guess.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ولا يعرف الفريق ما يناسب المستخدمين فعلًا إلا بعد أن يستخدم الموقعَ أشخاصٌ حقيقيون.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The team learns what truly suits users only after real people use the site.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لذلك يجمع الفريق نوعين مهمين من الدليل: ملاحظات المستخدمين، وبيانات الاستخدام.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "So the team collects two important kinds of evidence: user feedback and usage data.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "النسخة 1",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Version 1",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "النسخة 2",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Version 2",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "النسخة 3",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Version 3",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-007",
+      "htmlId": "page-7",
+      "role": "content",
+      "descriptionAr": "تابع: لماذا يحتاج الموقع إلى تحسين مستمر؟",
+      "transcript": [
+        {
+          "text": "تعريف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التحسين التكراري (Iterative Improvement): تطوير المنتج على دفعات متتالية؛ في كل دفعة تغيير، ثم قياس، ثم قرار، بدل محاولة الوصول إلى الكمال مرة واحدة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Iterative Improvement: developing a product in successive rounds; each round has a change, then a measurement, then a decision, instead of trying to reach perfection all at once.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثال: تعدّل طائرتك الورقية جولة بعد جولة حتى تطير أبعد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example: you adjust your paper plane round after round until it flies farther.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-008",
+      "htmlId": "page-8",
+      "role": "content",
+      "descriptionAr": "تابع: لماذا يحتاج الموقع إلى تحسين مستمر؟",
+      "transcript": [
+        {
+          "text": "تعريفات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITIONS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التكرار (Iteration): تنفيذ الحلقة نفسها أكثر من مرة، وكل مرة تبني على ما تعلمته في المرة السابقة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Iteration: carrying out the same loop more than once, with each time building on what you learned the time before.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التحسين المستمر (Continuous Improvement): فلسفة ترى أن التحسين لا يتوقف، وأن التحسينات الصغيرة المتراكمة تصنع فرقًا كبيرًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Continuous Improvement: a philosophy that sees improvement as never-ending, where small improvements that add up make a big difference.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-009",
+      "htmlId": "page-9",
+      "role": "content",
+      "descriptionAr": "تابع: لماذا يحتاج الموقع إلى تحسين مستمر؟",
+      "transcript": [
+        {
+          "text": "معلومة تميّزك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DID YOU KNOW?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لو تحسّنت 1% فقط كل يوم، فبعد سنة ستصل إلى نحو 37 ضعف نقطة بدايتك، لأن ناتج ضرب 1.01 في نفسه 365 مرة يقارب 37.8.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "If you improve by only 1% every day, after one year you will reach about 37 times your starting point, because multiplying 1.01 by itself 365 times gives about 37.8.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الدليل أم الرأي؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Evidence or Opinion?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الدليل (Evidence): معلومة حقيقية مقاسة أو ملاحظة موثقة تُبنى عليها القرارات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Evidence: real, measured information or a recorded observation that decisions are built on.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-010",
+      "htmlId": "page-10",
+      "role": "content",
+      "descriptionAr": "تابع: لماذا يحتاج الموقع إلى تحسين مستمر؟",
+      "transcript": [
+        {
+          "text": "رأي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Opinion",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "دليل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Evidence",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«أشعر أن الصفحة سيئة.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“I feel the page is bad.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«غادر 70% من الزوار الصفحة خلال 10 ثوانٍ.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“70% of visitors left the page within 10 seconds.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لاحظ أن الرأي يبدأ غالبًا بـ «أشعر» أو «أظن»، أما الدليل فيبدأ برقم أو ملاحظة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Notice that an opinion often starts with “I feel” or “I think”, while evidence starts with a number or an observation.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-011",
+      "htmlId": "page-11",
+      "role": "content",
+      "descriptionAr": "تابع: لماذا يحتاج الموقع إلى تحسين مستمر؟",
+      "transcript": [
+        {
+          "text": "جرّب بنفسك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "TRY IT YOURSELF",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "صنّف كل عبارة: رأي أم دليل؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Classify each statement: opinion or evidence?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«أظن أن الزر الأزرق أجمل.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“I think the blue button is nicer.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«نقر 60 زائرًا من كل 1000 على الزر الأزرق، و40 على الأحمر.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“60 of every 1,000 visitors clicked the blue button, and 40 clicked the red one.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«قال 7 من 10 مستخدمين إنهم لم يجدوا زر التسجيل.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“7 out of 10 users said they could not find the sign-up button.”",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-012",
+      "htmlId": "page-12",
+      "role": "content",
+      "descriptionAr": "تابع: لماذا يحتاج الموقع إلى تحسين مستمر؟",
+      "transcript": [
+        {
+          "text": "نوعان من الدليل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "TWO KINDS OF EVIDENCE",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ملاحظات المستخدمين (User Feedback): ما يقوله المستخدمون أو يكتبونه عن تجربتهم، مثل التعليقات والاستبيانات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "User Feedback: what users say or write about their experience, such as comments and surveys.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "بيانات الاستخدام (Usage Data): أرقام تسجّل ما يفعله المستخدمون فعلًا على الموقع، مثل النقرات ومدة البقاء والصفحات التي يزورونها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Usage Data: numbers that record what users actually do on the site, such as clicks, time spent, and the pages they visit.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-013",
+      "htmlId": "page-13",
+      "role": "content",
+      "descriptionAr": "تابع: لماذا يحتاج الموقع إلى تحسين مستمر؟",
+      "transcript": [
+        {
+          "text": "الملاحظات تخبرك «لماذا»، وبيانات الاستخدام تخبرك «ماذا حدث».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Feedback tells you “why”; usage data tells you “what happened”.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تعريف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تجربة المستخدم (User Experience - UX): الإحساس الكامل للمستخدم أثناء استخدام المنتج: هل هو سهل وواضح ومريح؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "User Experience (UX): the user's whole experience while using a product: is it easy, clear, and comfortable?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "سؤال سريع: هل تعرف تطبيقًا تستخدمه دون أن يشرحه لك أحد؟ هذه تجربة مستخدم جيدة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Quick question: do you know an app you use without anyone explaining it to you? That is a good user experience.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-014",
+      "htmlId": "page-14",
+      "role": "content",
+      "descriptionAr": "لغة الأرقام: كيف نقيس التحسن؟",
+      "transcript": [
+        {
+          "text": "لغة الأرقام: كيف نقيس التحسن؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Language of Numbers: How Do We Measure Improvement?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تعريفات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITIONS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تحليل الاستخدام (Web Analytics): جمع بيانات الاستخدام العددية وتحليلها لفهم سلوك زوار الموقع.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Web Analytics: collecting and analyzing numerical usage data to understand the behavior of a site's visitors.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المقياس (Metric): رقم محدد نتابعه لنعرف هل تحسّن الوضع أم لا، مثل عدد التسجيلات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Metric: a specific number we track to know whether things improved, such as the number of sign-ups.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-015",
+      "htmlId": "page-15",
+      "role": "content",
+      "descriptionAr": "تابع: لغة الأرقام: كيف نقيس التحسن؟",
+      "transcript": [
+        {
+          "text": "تعريف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خط الأساس (Baseline): قيمة المقياس قبل التغيير، وهي نقطة المقارنة؛ ومن دونه لن تعرف هل تحسّنت أم لا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Baseline: the value of the metric before the change; it is the point of comparison, and without it you cannot know whether you improved.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثال: وزنك قبل أن تبدأ الرياضة هو خط الأساس الذي تقارن به وزنك بعد شهر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example: your weight before you start exercising is the baseline you compare with your weight after a month.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قبل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Before",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "بعد",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "After",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خط الأساس",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Baseline",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-016",
+      "htmlId": "page-16",
+      "role": "content",
+      "descriptionAr": "تابع: لغة الأرقام: كيف نقيس التحسن؟",
+      "transcript": [
+        {
+          "text": "الهدف القابل للقياس (Measurable Goal): هدف مكتوب برقم محدد يمكن قياسه، لا بكلمات عامة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Measurable Goal: a goal written with a specific number that can be measured, not in general words.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هدف عام",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "General goal",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هدف قابل للقياس",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Measurable goal",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«نجعل الموقع أسهل.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“Make the site easier.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«8 من 10 طلاب يجدون رابط التسجيل خلال 5 ثوانٍ.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“8 of 10 students find the sign-up link within 5 seconds.”",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-017",
+      "htmlId": "page-17",
+      "role": "content",
+      "descriptionAr": "تابع: لغة الأرقام: كيف نقيس التحسن؟",
+      "transcript": [
+        {
+          "text": "معدل الارتداد",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "BOUNCE RATE",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "معدل الارتداد (Bounce Rate): نسبة الزيارات التي يغادر فيها الزائر الموقع بعد صفحة واحدة دون أن يتفاعل معه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Bounce Rate: the percentage of visits in which the visitor leaves the site after one page without interacting with it.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كلما قلّ معدل الارتداد كان ذلك أفضل غالبًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The lower the bounce rate, the better it usually is.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثال: تدخل محلًا ثم تخرج فورًا دون أن تشتري أو تسأل عن شيء.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example: you walk into a shop and leave right away without buying or asking about anything.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-018",
+      "htmlId": "page-18",
+      "role": "content",
+      "descriptionAr": "تابع: لغة الأرقام: كيف نقيس التحسن؟",
+      "transcript": [
+        {
+          "text": "نسبة النقر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "CLICK-THROUGH RATE",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نسبة النقر (Click-Through Rate - CTR): عدد من نقروا على عنصر ÷ عدد من رأوه × 100%.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Click-Through Rate (CTR): the number of people who clicked an element ÷ the number who saw it × 100%.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثال: رأى الزرَّ 1000 زائر، ونقر عليه 50، فنسبة النقر 5%.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example: 1,000 visitors saw the button and 50 clicked it, so the CTR is 5%.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "1000 رأوا",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1000 saw",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "50 نقروا",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "50 clicked",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-019",
+      "htmlId": "page-19",
+      "role": "content",
+      "descriptionAr": "تابع: لغة الأرقام: كيف نقيس التحسن؟",
+      "transcript": [
+        {
+          "text": "معدل التحويل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "CONVERSION RATE",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "معدل التحويل (Conversion Rate): نسبة الزوار الذين أتموا الهدف المطلوب، مثل التسجيل أو الشراء.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Conversion Rate: the percentage of visitors who complete the desired goal, such as signing up or buying.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثال: فتح نموذجَ التسجيل 100 زائر، وأكمله 40، فمعدل التحويل 40%.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example: 100 visitors opened the sign-up form and 40 completed it, so the conversion rate is 40%.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "100 فتحوا",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "100 opened",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "40 أكملوا",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "40 completed",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-020",
+      "htmlId": "page-20",
+      "role": "content",
+      "descriptionAr": "تابع: لغة الأرقام: كيف نقيس التحسن؟",
+      "transcript": [
+        {
+          "text": "معلومة تميّزك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DID YOU KNOW?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "عبارة «خفض معدل الارتداد بنسبة 10%» قد تحمل معنيين.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The phrase “reduce the bounce rate by 10%” can have two meanings.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "إذا كان المعدل 50%، فقد تعني أن يصبح 40% (نقص 10 نقاط مئوية)، وقد تعني أن يصبح 45% (نقص 10% من قيمته).",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "If the rate is 50%, it may mean it becomes 40% (a drop of 10 percentage points), or it may mean it becomes 45% (a drop of 10% of its value).",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لذلك اكتب الهدف دائمًا بالرقم النهائي، مثل «من 50% إلى 40%».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "So always write the goal with the final number, such as “from 50% to 40%”.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-021",
+      "htmlId": "page-21",
+      "role": "content",
+      "descriptionAr": "تابع: لغة الأرقام: كيف نقيس التحسن؟",
+      "transcript": [
+        {
+          "text": "احسبها أنت",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "CALCULATE IT YOURSELF",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "1 رأى إعلانًا 200 شخص، ونقر عليه 10. ما نسبة النقر؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 200 people saw an ad, and 10 clicked it. What is the CTR?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 كانت نسبة إكمال التسجيل 40% (خط الأساس)، والهدف 50%، وبعد التغيير صارت 46%. هل تحقق الهدف؟ وهل تحسّن الموقع؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 The sign-up completion rate was 40% (the baseline), the goal was 50%, and after the change it became 46%. Was the goal reached? Did the site improve?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-022",
+      "htmlId": "page-22",
+      "role": "content",
+      "descriptionAr": "دورة PDCA: العجلة التي لا تتوقف",
+      "transcript": [
+        {
+          "text": "دورة PDCA: العجلة التي لا تتوقف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The PDCA Cycle: The Wheel That Never Stops",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تعريف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "دورة PDCA: طريقة منظمة للتحسين المستمر تكرر أربع خطوات: خطّط ← نفّذ ← تحقّق ← تصرّف، ثم تبدأ من جديد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "PDCA cycle: an organized method for continuous improvement that repeats four steps: Plan → Do → Check → Act, and then starts again.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اسمها مكوّن من الحروف الأولى لأربع كلمات إنجليزية: Plan و Do و Check و Act",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Its name is made of the first letters of four English words: Plan, Do, Check, and Act.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خطّط",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Plan",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نفّذ",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Do",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تحقّق",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Check",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تصرّف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Act",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-023",
+      "htmlId": "page-23",
+      "role": "content",
+      "descriptionAr": "تابع: دورة PDCA: العجلة التي لا تتوقف",
+      "transcript": [
+        {
+          "text": "وهي لا تُستخدم في المواقع فقط، بل في المصانع والشركات والمستشفيات، وفي مذاكرتك أيضًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "It is used not only for websites, but also in factories, companies, and hospitals, and in your studying too.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الخطوتان الأولى والثانية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "STEPS 1 AND 2",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خطّط (Plan): حدّد المشكلة، وضع هدفًا قابلًا للقياس، واختر تغييرًا مناسبًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Plan: identify the problem, set a measurable goal, and choose a suitable change.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نفّذ (Do): طبّق التغيير المخطط له فعلًا، ويُفضَّل أن تبدأ على نطاق صغير.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Do: actually apply the planned change; it is better to start on a small scale.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-024",
+      "htmlId": "page-24",
+      "role": "content",
+      "descriptionAr": "تابع: دورة PDCA: العجلة التي لا تتوقف",
+      "transcript": [
+        {
+          "text": "الخطوتان الثالثة والرابعة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "STEPS 3 AND 4",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تحقّق (Check): قِس النتيجة، وقارنها بخط الأساس وبالهدف.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Check: measure the result and compare it with the baseline and the goal.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تصرّف (Act): قرّر بناءً على النتيجة: اعتمد ما نجح وعمّمه، أو عدّل الخطة، ثم حدّد الخطوة التالية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Act: decide based on the result: adopt what worked and spread it, or revise the plan, then decide the next step.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "بعد «تصرّف» تعود إلى «خطّط» من جديد؛ ولهذا هي دورة، لا خط مستقيم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "After “Act”, you return to “Plan” again; that is why it is a cycle, not a straight line.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-025",
+      "htmlId": "page-25",
+      "role": "content",
+      "descriptionAr": "تابع: دورة PDCA: العجلة التي لا تتوقف",
+      "transcript": [
+        {
+          "text": "مثال 1: مذاكرتك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example 1: Your Studying",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خطّط: «سأحصل على 8 من 10 في امتحان الوحدة، وسأذاكر ساعة كل يوم.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Plan: “I will score 8 out of 10 on the unit test, and I will study for one hour every day.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نفّذ: تذاكر ساعة كل يوم فعلًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Do: you actually study for one hour every day.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تحقّق: تحل امتحانًا تجريبيًا فتجد درجتك 6 من 10.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Check: you take a practice test and find that your score is 6 out of 10.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تصرّف: تكتشف أن المسائل نقطة ضعفك، فتعدّل خطتك لتخصص نصف الساعة للمسائل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Act: you discover that problems are your weak point, so you revise your plan to spend half the hour on problems.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-026",
+      "htmlId": "page-26",
+      "role": "content",
+      "descriptionAr": "تابع: دورة PDCA: العجلة التي لا تتوقف",
+      "transcript": [
+        {
+          "text": "مثال 2: الموقع الإلكتروني",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example 2: The Website",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خطّط: نرفع نسبة إكمال التسجيل من 30% إلى 40% بتقليل خانات النموذج.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Plan: we raise the sign-up completion rate from 30% to 40% by reducing the form's fields.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نفّذ: نحذف الخانات غير الضرورية من النموذج.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Do: we remove the unnecessary fields from the form.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تحقّق: نقيس النسبة بعد التغيير فنجدها 36%: أفضل من خط الأساس، لكنها أقل من الهدف.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Check: we measure the rate after the change and find it is 36%: better than the baseline, but below the goal.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تصرّف: نعتمد التغيير لأنه حسّن النتيجة، ونخطط لتغيير جديد في الدورة التالية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Act: we keep the change because it improved the result, and plan a new change for the next cycle.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-027",
+      "htmlId": "page-27",
+      "role": "content",
+      "descriptionAr": "تابع: دورة PDCA: العجلة التي لا تتوقف",
+      "transcript": [
+        {
+          "text": "أشهر خطأ",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "MOST COMMON MISTAKE",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يخلط كثير من الطلاب بين خطوتي «تحقّق» و«تصرّف».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Many students mix up the “Check” and “Act” steps.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تحقّق = ترمومتر: يقيس فقط، ويجيب عن سؤال «ماذا حدث؟».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Check = a thermometer: it only measures and answers the question “What happened?”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تصرّف = طبيب: يقرر، ويجيب عن سؤال «ماذا سنفعل بعد ذلك؟».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Act = a doctor: it decides and answers the question “What will we do next?”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الترمومتر لا يكتب الروشتة أبدًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A thermometer never writes the prescription.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-028",
+      "htmlId": "page-28",
+      "role": "content",
+      "descriptionAr": "تابع: دورة PDCA: العجلة التي لا تتوقف",
+      "transcript": [
+        {
+          "text": "طريقة للحفظ",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "MEMORY TRICK",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "بالإنجليزية: Please Do Check Again، أي «من فضلك تحقّق مرة أخرى».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In English: Please Do Check Again — that is, “please check one more time”.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الجملة نفسها معناها التكرار، وهذا هو جوهر الدورة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The sentence itself means repeating, and that is the heart of the cycle.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "بالعربية: «خطّط على الورق، نفّذ على الأرض، تحقّق بالأرقام، تصرّف بالقرار.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In Arabic: “Plan on paper, do on the ground, check with numbers, act with a decision.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خطّط",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Plan",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نفّذ",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Do",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تحقّق",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Check",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تصرّف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Act",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-029",
+      "htmlId": "page-29",
+      "role": "content",
+      "descriptionAr": "تابع: دورة PDCA: العجلة التي لا تتوقف",
+      "transcript": [
+        {
+          "text": "جرّب بيدك: تحدّي الطائرة الورقية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Hands-On: The Paper Plane Challenge",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نفّذوا هذه التجربة في مجموعات لتعيشوا دورة PDCA بأيديكم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Do this experiment in groups to experience the PDCA cycle with your own hands.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "1 خطّط: اكتبوا هدفًا برقم، مثل «تطير الطائرة 4 أمتار»، واختاروا تعديلًا واحدًا ستجربونه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 Plan: write a goal with a number, such as “the plane flies 4 meters”, and choose one change you will try.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 نفّذ: اصنعوا الطائرة وارموها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 Do: make the plane and throw it.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "3 تحقّق: قيسوا المسافة بالخطوات أو بشريط القياس، واكتبوها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 Check: measure the distance in steps or with a measuring tape, and write it down.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-030",
+      "htmlId": "page-30",
+      "role": "content",
+      "descriptionAr": "تابع: دورة PDCA: العجلة التي لا تتوقف",
+      "transcript": [
+        {
+          "text": "4 تصرّف: إذا حققتم الهدف فثبّتوا التصميم، وإن لم تحققوه فغيّروا شيئًا واحدًا فقط، مثل طول الجناح أو ثنية المقدمة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "4 Act: if you reach the goal, keep the design; if not, change only one thing, such as the wing length or the nose fold.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "5 كرّروا الدورة مرتين أو ثلاثًا، وسجّلوا المسافة في كل مرة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "5 Repeat the cycle two or three times, and record the distance each time.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "توقّف وفكّر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "PAUSE & THINK",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المجموعة التي غيّرت ثلاثة أشياء مرة واحدة، هل تستطيع أن تعرف أيها حسّن الطائرة؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Can the group that changed three things at once tell which one improved the plane?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-031",
+      "htmlId": "page-31",
+      "role": "content",
+      "descriptionAr": "تابع: دورة PDCA: العجلة التي لا تتوقف",
+      "transcript": [
+        {
+          "text": "معلومة تميّزك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DID YOU KNOW?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تعود فكرة هذه الدورة إلى العالم الأمريكي والتر شيوهارت (Walter Shewhart) في مجال ضبط الجودة في المصانع.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The idea of this cycle goes back to the American scientist Walter Shewhart, in the field of quality control in factories.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ثم عرضها إدوارد ديمنج (W. Edwards Deming) في محاضراته باليابان عام 1950، فطوّرها اليابانيون إلى دورة PDCA، ولهذا تُسمّى أحيانًا «عجلة ديمنج».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Then W. Edwards Deming presented it in his lectures in Japan in 1950, and the Japanese developed it into the PDCA cycle, which is why it is sometimes called the “Deming wheel”.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-032",
+      "htmlId": "page-32",
+      "role": "content",
+      "descriptionAr": "تابع: دورة PDCA: العجلة التي لا تتوقف",
+      "transcript": [
+        {
+          "text": "معلومة تميّزك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DID YOU KNOW?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كان ديمنج نفسه يفضّل لاحقًا اسم PDSA، فوضع «ادرس» (Study) بدل «تحقّق» (Check)، ليؤكد أن الهدف هو التعلم من النتائج لا مجرد فحصها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Deming himself later preferred the name PDSA, putting “Study” in place of “Check” to stress that the goal is to learn from the results, not just to inspect them.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تحقّق",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Check",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ادرس",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Study",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-033",
+      "htmlId": "page-33",
+      "role": "content",
+      "descriptionAr": "تابع: دورة PDCA: العجلة التي لا تتوقف",
+      "transcript": [
+        {
+          "text": "كايزن",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "KAIZEN",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كايزن (Kaizen) كلمة يابانية معناها «التغيير للأفضل»، وهي فلسفة للتحسين المستمر بخطوات صغيرة يشارك فيها الجميع.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Kaizen is a Japanese word meaning “change for the better”; it is a philosophy of continuous improvement in small steps in which everyone takes part.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ودورة PDCA من أشهر الأدوات المستخدمة داخل هذه الفلسفة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The PDCA cycle is one of the best-known tools used within this philosophy.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تذكّر قاعدة 1% يوميًا التي تعلمتها: إنها روح كايزن نفسها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Remember the 1% daily rule you learned: it is the very spirit of Kaizen.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-034",
+      "htmlId": "page-34",
+      "role": "content",
+      "descriptionAr": "تابع: دورة PDCA: العجلة التي لا تتوقف",
+      "transcript": [
+        {
+          "text": "جرّب بنفسك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "TRY IT YOURSELF",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "حدّد خطوة PDCA التي تنتمي إليها كل عبارة:",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Identify the PDCA step that each statement belongs to:",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«قسنا عدد التسجيلات بعد أسبوع من التغيير.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“We measured the number of sign-ups one week after the change.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«قررنا تعميم الزر الجديد على كل صفحات الموقع.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“We decided to apply the new button to every page of the site.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«حددنا هدف رفع التسجيلات من 20 إلى 30 يوميًا.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“We set the goal of raising sign-ups from 20 to 30 a day.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«غيّرنا لون زر التسجيل.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“We changed the color of the sign-up button.”",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-035",
+      "htmlId": "page-35",
+      "role": "content",
+      "descriptionAr": "التفكير التصميمي: انظر بعين المستخدم",
+      "transcript": [
+        {
+          "text": "التفكير التصميمي: انظر بعين المستخدم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Design Thinking: See Through the User's Eyes",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تعريف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التفكير التصميمي (Design Thinking): طريقة مرنة لحل المشكلات تبدأ من فهم المستخدم، ثم تولّد حلولًا وتجرّبها وتحسّنها، مع إمكان الرجوع بين مراحلها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Design Thinking: a flexible way of solving problems that starts with understanding the user, then generates solutions, tries them, and improves them, with the option of going back between its stages.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "القاعدة الذهبية: المطوّر ليس هو المستخدم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The golden rule: the developer is not the user.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-036",
+      "htmlId": "page-36",
+      "role": "content",
+      "descriptionAr": "تابع: التفكير التصميمي: انظر بعين المستخدم",
+      "transcript": [
+        {
+          "text": "ما تراه أنت سهلًا لأنك صنعته، قد يكون صعبًا على غيرك.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "What looks easy to you because you made it may be hard for someone else.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تعريف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "منظور المستخدم (User's Perspective): النظر إلى المنتج كما يراه من يستخدمه، لا كما يراه من صنعه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "User's Perspective: looking at a product the way the person who uses it sees it, not the way the person who made it sees it.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثال: تطبيق تراه أنت سهلًا جدًا، قد يحتار فيه جدّك لأن أزراره صغيرة وكلماته غير مألوفة له.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example: an app that seems very easy to you may confuse your grandfather, because its buttons are small and its words are unfamiliar to him.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-037",
+      "htmlId": "page-37",
+      "role": "content",
+      "descriptionAr": "تابع: التفكير التصميمي: انظر بعين المستخدم",
+      "transcript": [
+        {
+          "text": "الخطوات الخمس في لمحة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Five Steps at a Glance",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يستخدم الدرس نموذجًا شائعًا من خمسة أنماط: التعاطف، والتعريف، وتوليد الأفكار، والنموذج الأولي، والاختبار.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The lesson uses a common model of five modes: Empathize, Define, Ideate, Prototype, and Test.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "وسنفهمها معًا بمثال واحد: تطبيق جدول الحصص لمدرستك.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "We will understand them together with one example: a class timetable app for your school.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التعاطف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Empathize",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التعريف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Define",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "توليد الأفكار",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Ideate",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "النموذج الأولي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Prototype",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الاختبار",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Test",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-038",
+      "htmlId": "page-38",
+      "role": "content",
+      "descriptionAr": "تابع: التفكير التصميمي: انظر بعين المستخدم",
+      "transcript": [
+        {
+          "text": "الخطوة 1: التعاطف (Empathize)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Step 1: Empathize",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تعريف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التعاطف: فهم مشاعر المستخدم واحتياجاته ومشكلاته من خلال الملاحظة والأسئلة والبحث المناسب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Empathize: understanding the user's feelings, needs, and problems through observation, questions, and suitable research.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في مثالنا: تراقب زملاءك وهم يبحثون عن الجدول، وتسألهم عمّا يضايقهم، فتكتشف أنهم يفتحونه من الموبايل في الطابور وأن الخط صغير.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In our example: you watch your classmates looking for the timetable and ask them what bothers them, and you discover that they open it on their phones in the morning line and that the text is small.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-039",
+      "htmlId": "page-39",
+      "role": "content",
+      "descriptionAr": "تابع: التفكير التصميمي: انظر بعين المستخدم",
+      "transcript": [
+        {
+          "text": "الخطوة 2: التعريف (Define)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Step 2: Define",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تعريف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التعريف: صياغة المشكلة الحقيقية في جملة واضحة ومحددة، بناءً على ما اكتشفته في التعاطف.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Define: stating the real problem in one clear, specific sentence, based on what you discovered while empathizing.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في مثالنا: «الطالب يحتاج أن يعرف حصته القادمة خلال 3 ثوانٍ من الموبايل.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In our example: “The student needs to know their next class within 3 seconds on a phone.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لاحظ أن الجملة تذكر المستخدم وحاجته، ولا تذكر الحل بعد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Notice that the sentence names the user and their need, and does not name the solution yet.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-040",
+      "htmlId": "page-40",
+      "role": "content",
+      "descriptionAr": "تابع: التفكير التصميمي: انظر بعين المستخدم",
+      "transcript": [
+        {
+          "text": "الخطوة 3: توليد الأفكار (Ideate)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Step 3: Ideate",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تعريف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "توليد الأفكار: إنتاج أكبر عدد ممكن من الأفكار قبل الحكم عليها؛ الكمية أولًا، ثم الاختيار.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Ideate: producing as many ideas as possible before judging them; quantity first, then choosing.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في مثالنا: أداة صغيرة على الشاشة الرئيسية، أو إشعار قبل كل حصة، أو زر كبير بعنوان «حصتي الجاية».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In our example: a small widget on the home screen, a notification before each class, or a big button called “My Next Class”.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لا تنتقد أي فكرة أثناء العصف الذهني، فالفكرة الغريبة قد تقود إلى فكرة رائعة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Do not criticize any idea during brainstorming, because a strange idea may lead to a great one.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-041",
+      "htmlId": "page-41",
+      "role": "content",
+      "descriptionAr": "تابع: التفكير التصميمي: انظر بعين المستخدم",
+      "transcript": [
+        {
+          "text": "الخطوة 4: النموذج الأولي (Prototype)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Step 4: Prototype",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تعريف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "النموذج الأولي: نسخة سريعة ورخيصة من الحل نجرّبها، وليست المنتج النهائي.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Prototype: a quick, cheap version of the solution that we try out; it is not the final product.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في مثالنا: ترسم شاشة «حصتي الجاية» على ورقة في 5 دقائق، دون أي برمجة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In our example: you draw the “My Next Class” screen on paper in 5 minutes, without any programming.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لماذا الورقة؟ لأن تعديل رسمة أسهل كثيرًا من تعديل كود كامل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Why paper? Because changing a sketch is much easier than changing a whole program.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-042",
+      "htmlId": "page-42",
+      "role": "content",
+      "descriptionAr": "تابع: التفكير التصميمي: انظر بعين المستخدم",
+      "transcript": [
+        {
+          "text": "الخطوة 5: الاختبار (Test)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Step 5: Test",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تعريف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الاختبار: تجربة النموذج الأولي مع مستخدمين حقيقيين، وجمع ملاحظاتهم، ومراقبة ما يفعلونه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Test: trying the prototype with real users, collecting their feedback, and watching what they do.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في مثالنا: تعطي الورقة لزميل، وتطلب منه أن يجد حصته القادمة، وتلاحظ أين يتردد دون أن تساعده.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In our example: you give the sheet to a classmate, ask them to find their next class, and notice where they hesitate without helping them.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نصيحة: راقب ما يفعله المستخدم، لا ما يقوله فقط.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Tip: watch what the user does, not only what they say.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-043",
+      "htmlId": "page-43",
+      "role": "content",
+      "descriptionAr": "تابع: التفكير التصميمي: انظر بعين المستخدم",
+      "transcript": [
+        {
+          "text": "طريقة للحفظ",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "MEMORY TRICK",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "بالعربية: «حِسّ وحدّد، فكّر واصنع وجرّب.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In Arabic: “Feel and define, think, make, and try.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "بالإنجليزية: Every Detective ‏Investigates Problems Thoroughly، أي «كل محقق يفحص المشكلات بدقة».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In English: Every Detective Investigates Problems Thoroughly.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الحروف الأولى E-D-I-P-T هي الحروف الأولى من أسماء الخطوات الخمس.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The first letters E-D-I-P-T are the first letters of the names of the five steps.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "والمصمم يشبه المحقق فعلًا: يبحث عن الدليل قبل أن يحكم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A designer really is like a detective: they look for evidence before they judge.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-044",
+      "htmlId": "page-44",
+      "role": "content",
+      "descriptionAr": "تابع: التفكير التصميمي: انظر بعين المستخدم",
+      "transcript": [
+        {
+          "text": "ليست سلّمًا في اتجاه واحد",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Not a One-Way Ladder",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الخطوات الخمس ليست سلّمًا تصعده مرة واحدة؛ يمكنك الرجوع بينها في أي وقت.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The five steps are not a ladder you climb once; you can go back between them at any time.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثال: إذا فشل زميلك في استخدام نموذجك، فقد تعود إلى التعاطف لأنك لم تفهم المستخدم جيدًا، أو إلى التعريف لأنك عرّفت المشكلة خطأ.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example: if your classmate fails to use your prototype, you may go back to Empathize because you did not understand the user well, or to Define because you stated the problem wrongly.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التفكير التصميمي مثل GPS: إذا أخطأت الطريق، يعيد حساب المسار.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Design thinking is like a GPS: if you take a wrong turn, it recalculates the route.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-045",
+      "htmlId": "page-45",
+      "role": "content",
+      "descriptionAr": "تابع: التفكير التصميمي: انظر بعين المستخدم",
+      "transcript": [
+        {
+          "text": "درجات النموذج الأولي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Levels of Prototype",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "منخفض الدقة (Low-fidelity)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Low-fidelity",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "عالي الدقة (High-fidelity)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "High-fidelity",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "رسم بسيط بالورقة والقلم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A simple pen-and-paper sketch",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قريب من الشكل النهائي بالألوان والتفاعل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Close to the final look, with colors and interaction",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لاختبار الفكرة بسرعة في البداية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "To test the idea quickly at the start",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لاختبار التفاصيل قبل البرمجة النهائية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "To test details before final programming",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-046",
+      "htmlId": "page-46",
+      "role": "content",
+      "descriptionAr": "تابع: التفكير التصميمي: انظر بعين المستخدم",
+      "transcript": [
+        {
+          "text": "تعريف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المخطط الهيكلي (Wireframe): رسم تخطيطي يوضح أماكن العناصر في صفحة الويب، دون ألوان أو صور أو تفاصيل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Wireframe: a layout sketch that shows where the elements go on a web page, without colors, images, or details.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يشبه المخطط الهيكلي رسم المهندس لتوزيع الغرف قبل بناء البيت.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A wireframe is like an engineer's plan of the rooms before building a house.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "العنوان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Heading",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "صورة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Image",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "زر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Button",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-047",
+      "htmlId": "page-47",
+      "role": "content",
+      "descriptionAr": "تابع: التفكير التصميمي: انظر بعين المستخدم",
+      "transcript": [
+        {
+          "text": "تعريف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التقييم الاستدلالي (Heuristic Evaluation): أن يفحص خبراءُ واجهةَ المستخدم ويكتشفوا مشكلاتها اعتمادًا على قواعد عملية معروفة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Heuristic Evaluation: experts examine a user interface and find its problems based on well-known rules of thumb.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثال: خبير يقول: «الزر صغير، ولا يظهر بوضوح على هذه الخلفية.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example: an expert says, “The button is small and does not stand out on this background.”",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-048",
+      "htmlId": "page-48",
+      "role": "content",
+      "descriptionAr": "تابع: التفكير التصميمي: انظر بعين المستخدم",
+      "transcript": [
+        {
+          "text": "انتبه في الامتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "EXAM ALERT",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في سؤال يطلب الوصف الأفضل للتفكير التصميمي، قد تجد بين الخيارات الخاطئة وصفًا لهذه الطرق الثلاث:",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In a question asking for the best description of design thinking, you may find these three methods among the wrong options:",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تحليل الاستخدام = أرقام عن سلوك الزوار.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Web analytics = numbers about visitor behavior.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التقييم الاستدلالي = خبراء وقواعد عملية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Heuristic evaluation = experts and rules of thumb.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المخطط الهيكلي = رسم لأماكن العناصر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Wireframe = a sketch of where elements go.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التفكير التصميمي = منظور المستخدم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Design thinking = the user's perspective.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-049",
+      "htmlId": "page-49",
+      "role": "content",
+      "descriptionAr": "تابع: التفكير التصميمي: انظر بعين المستخدم",
+      "transcript": [
+        {
+          "text": "معلومة تميّزك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DID YOU KNOW?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اشتهر نموذج الأنماط الخمسة عن طريق معهد التصميم في جامعة ستانفورد (d.school).",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The five-mode model became famous through the design institute at Stanford University (the d.school).",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "وتوجد نماذج أخرى للتفكير التصميمي بثلاث مراحل أو أربع أو ست؛ ولهذا يقول درسك إنه «نموذج شائع»، لا النموذج الوحيد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "There are other design thinking models with three, four, or six stages; that is why your lesson calls it “a common model”, not the only model.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-050",
+      "htmlId": "page-50",
+      "role": "content",
+      "descriptionAr": "تابع: التفكير التصميمي: انظر بعين المستخدم",
+      "transcript": [
+        {
+          "text": "جرّب بنفسك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "TRY IT YOURSELF",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "حدّد خطوة التفكير التصميمي في كل عبارة:",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Identify the design thinking step in each statement:",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«رسمنا الشاشة على ورقة في 5 دقائق.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“We drew the screen on paper in 5 minutes.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«سألنا 6 طلاب عن أصعب شيء في الموقع.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“We asked 6 students about the hardest thing on the site.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«كتبنا 15 فكرة دون أن ننتقد أيًّا منها.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“We wrote 15 ideas without criticizing any of them.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«كتبنا: الطالب يحتاج أن يجد رابط التسجيل من الموبايل بسرعة.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“We wrote: the student needs to find the sign-up link on a phone quickly.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«طلبنا من زميل أن يجرب الرسمة، ولاحظنا أين تردد.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“We asked a classmate to try the sketch and noticed where they hesitated.”",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-051",
+      "htmlId": "page-51",
+      "role": "content",
+      "descriptionAr": "اختبار A/B: الميزان الذي يحكم بالأرقام",
+      "transcript": [
+        {
+          "text": "اختبار A/B: الميزان الذي يحكم بالأرقام",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A/B Testing: The Scale That Judges with Numbers",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تعريف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اختبار A/B: تجربة تقارن نسختين بينهما فرق محدد، تُعرضان على مستخدمين حقيقيين موزعين عشوائيًا، ثم يُحكم بينهما بمقياس حُدِّد مسبقًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A/B testing: an experiment that compares two versions with a specific difference between them, shown to real users divided at random, and then judged by a metric set in advance.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الأرقام هي التي تقرر، لا الذوق.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Numbers decide, not taste.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-052",
+      "htmlId": "page-52",
+      "role": "content",
+      "descriptionAr": "تابع: اختبار A/B: الميزان الذي يحكم بالأرقام",
+      "transcript": [
+        {
+          "text": "تعريفات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITIONS",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "النسخة الضابطة (Control - A): النسخة الحالية الأصلية، وهي التي نقارن بها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Control (A): the current, original version; it is the one we compare against.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "النسخة التجريبية (Variant - B): النسخة الجديدة التي فيها التغيير.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Variant (B): the new version that contains the change.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثال: الزر الأحمر الموجود حاليًا هو النسخة A، والزر الأزرق الجديد هو النسخة B.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example: the red button that exists now is version A, and the new blue button is version B.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "A",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "B",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-053",
+      "htmlId": "page-53",
+      "role": "content",
+      "descriptionAr": "تابع: اختبار A/B: الميزان الذي يحكم بالأرقام",
+      "transcript": [
+        {
+          "text": "تعريف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الفرضية (Hypothesis): توقّع مكتوب قبل التجربة، يمكن أن تثبته النتائج أو تنفيه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Hypothesis: a written prediction made before the experiment, which the results can prove or disprove.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثال: «الزر الأزرق سيرفع نسبة النقر، لأنه أوضح على الخلفية البيضاء.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example: “The blue button will raise the click-through rate, because it stands out more on the white background.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لاحظ أن الفرضية الجيدة فيها توقّع وسبب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Notice that a good hypothesis has a prediction and a reason.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-054",
+      "htmlId": "page-54",
+      "role": "content",
+      "descriptionAr": "تابع: اختبار A/B: الميزان الذي يحكم بالأرقام",
+      "transcript": [
+        {
+          "text": "مثال: الصورة المصغرة للفيديو",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example: The Video Thumbnail",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "صانع محتوى على منصة فيديو لديه صورتان مصغرتان لفيديو واحد: الصورة A وهو مبتسم، والصورة B وهو متفاجئ.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A content creator on a video platform has two thumbnails for one video: image A with him smiling, and image B with him surprised.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "بدل أن يسأل أصحابه «أيهما أجمل؟»، يعرض الصورة A على نصف المشاهدين، والصورة B على النصف الآخر، ثم يقارن نسبة النقر في الحالتين.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Instead of asking his friends “Which one is nicer?”, he shows image A to half of the viewers and image B to the other half, then compares the click-through rate in both cases.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-055",
+      "htmlId": "page-55",
+      "role": "content",
+      "descriptionAr": "تابع: اختبار A/B: الميزان الذي يحكم بالأرقام",
+      "transcript": [
+        {
+          "text": "لماذا نغيّر عنصرًا واحدًا؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Why Change One Element?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "زادت أمك الملح والشطة والجبنة في طبق المكرونة مرة واحدة، فصار الطبق رائعًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Your mother added more salt, chili, and cheese to the pasta dish all at once, and the dish became delicious.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أيّ الثلاثة كان السبب؟ لن تعرف!",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Which of the three was the reason? You will not know!",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تعريف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "حزمة التغييرات (Bundle of Changes): تغيير عدة عناصر معًا في النسخة B؛ فتعرف أثر المجموعة كلها، لا أثر كل عنصر وحده.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Bundle of Changes: changing several elements together in version B; you learn the effect of the whole group, not the effect of each element alone.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-056",
+      "htmlId": "page-56",
+      "role": "content",
+      "descriptionAr": "تابع: اختبار A/B: الميزان الذي يحكم بالأرقام",
+      "transcript": [
+        {
+          "text": "القاعدة الدقيقة: لتعرف أثر عنصر واحد، غيّر عنصرًا واحدًا فقط بين النسختين.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The precise rule: to know the effect of one element, change only one element between the two versions.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أما إذا أردت أن تعرف هل التصميم الجديد كله أفضل من القديم، فيمكنك اختبار حزمة تغييرات، لكنك لن تعرف أي جزء منها صنع الفرق.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "But if you want to know whether the whole new design is better than the old one, you can test a bundle of changes, though you will not know which part made the difference.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "إذن القاعدة مرتبطة بسؤالك: ماذا تريد أن تعرف؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "So the rule depends on your question: what do you want to know?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-057",
+      "htmlId": "page-57",
+      "role": "content",
+      "descriptionAr": "تابع: اختبار A/B: الميزان الذي يحكم بالأرقام",
+      "transcript": [
+        {
+          "text": "قاعدة «العينات الأربع» لاختبار A/B سليم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Four E's of a Sound A/B Test",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "عنصر: فرق واحد واضح، لتعرف سبب النتيجة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Element: one clear difference, so you know the cause of the result.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "عدّاد: مقياس يُحدَّد قبل الاختبار، حتى لا تختار بعده الرقم الذي يعجبك.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Exact metric: a metric set before the test, so you do not pick the number you like afterwards.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "عشوائية: توزيع الزوار بالقرعة، لتكون المجموعتان متشابهتين.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Even split: assigning visitors at random, so the two groups are alike.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "عيّنة كافية: عدد كافٍ من المستخدمين، لأن 5 زوار لا يكفون للحكم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Enough users: a large enough number of users, because 5 visitors are not enough to judge.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-058",
+      "htmlId": "page-58",
+      "role": "content",
+      "descriptionAr": "تابع: اختبار A/B: الميزان الذي يحكم بالأرقام",
+      "transcript": [
+        {
+          "text": "تعريف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التوزيع العشوائي (Randomization): توزيع الزوار على النسختين بالصدفة، مثل القرعة، لتكون المجموعتان متشابهتين.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Randomization: assigning visitors to the two versions by chance, like a lottery, so the two groups are alike.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثال على الخطأ: لو عرضت النسخة A على زوار الصباح والنسخة B على زوار الليل، فقد يكون الفرق سببه الوقت لا التصميم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "An example of a mistake: if you show version A to morning visitors and version B to night visitors, the difference may be caused by the time, not the design.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-059",
+      "htmlId": "page-59",
+      "role": "content",
+      "descriptionAr": "تابع: اختبار A/B: الميزان الذي يحكم بالأرقام",
+      "transcript": [
+        {
+          "text": "تعريف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DEFINITION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "العينة الكافية (Sufficient Sample): عدد من المستخدمين يكفي لتكون النتيجة موثوقة، لا مجرد صدفة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Sufficient Sample: a number of users large enough for the result to be reliable, not just chance.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لو رميت عملة 4 مرات فظهرت «صورة» 3 مرات، فهل العملة مغشوشة؟ لا، فالعدد أقل من أن يكفي للحكم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "If you toss a coin 4 times and get “heads” 3 times, is the coin unfair? No, the number is too small to judge.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لذلك حدّد حجم العينة قبل الاختبار، ولا توقف الاختبار مبكرًا لمجرد أن إحدى النسختين تتقدم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "So set the sample size before the test, and do not stop the test early just because one version is ahead.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-060",
+      "htmlId": "page-60",
+      "role": "content",
+      "descriptionAr": "تابع: اختبار A/B: الميزان الذي يحكم بالأرقام",
+      "transcript": [
+        {
+          "text": "معلومة تميّزك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DID YOU KNOW?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الدلالة الإحصائية (Statistical Significance): أن يكون الفرق بين النسختين كبيرًا بما يكفي لنستبعد أنه حدث صدفة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Statistical Significance: when the difference between the two versions is large enough for us to rule out that it happened by chance.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ويحكم المحللون عليها بأدوات إحصائية؛ ولهذا لا يكفي أن تكون إحدى النسختين أعلى قليلًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Analysts judge it with statistical tools; that is why it is not enough for one version to be slightly higher.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-061",
+      "htmlId": "page-61",
+      "role": "content",
+      "descriptionAr": "تابع: اختبار A/B: الميزان الذي يحكم بالأرقام",
+      "transcript": [
+        {
+          "text": "معلومة تميّزك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "DID YOU KNOW?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الاختبار متعدد المتغيرات (Multivariate Testing): تجربة تختبر تركيبات من عدة عناصر معًا، مثل 4 ألوان × 3 عناوين = 12 نسخة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Multivariate Testing: an experiment that tests combinations of several elements together, such as 4 colors × 3 headings = 12 versions.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ولهذا يحتاج إلى عدد أكبر بكثير من الزوار مقارنة باختبار A/B.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "That is why it needs many more visitors than an A/B test.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-062",
+      "htmlId": "page-62",
+      "role": "content",
+      "descriptionAr": "تابع: اختبار A/B: الميزان الذي يحكم بالأرقام",
+      "transcript": [
+        {
+          "text": "العين تكتشف، والميزان يحكم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Eye Discovers, the Scale Judges",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التفكير التصميمي يساعدك على اكتشاف المشكلة وتوليد الحلول، واختبار A/B يساعدك على الحكم بين حلّين بالأرقام.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Design thinking helps you discover the problem and generate solutions, and A/B testing helps you judge between two solutions with numbers.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثال: اكتشفت بالتعاطف أن الزر صعب الرؤية، فولّدت فكرتين، ثم حسمت بينهما باختبار A/B.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example: through empathy you discovered that the button is hard to see, so you came up with two ideas, then settled between them with an A/B test.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-063",
+      "htmlId": "page-63",
+      "role": "content",
+      "descriptionAr": "تابع: اختبار A/B: الميزان الذي يحكم بالأرقام",
+      "transcript": [
+        {
+          "text": "جرّب بنفسك: اكتشف الخطأ",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "TRY IT YOURSELF: SPOT THE MISTAKE",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أي قاعدة من «العينات الأربع» خالفتها كل تجربة؟ أم أنها سليمة؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Which of the Four E's did each experiment break? Or is it sound?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«عرضنا النسخة A يوم الجمعة، والنسخة B يوم الاثنين.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“We showed version A on Friday and version B on Monday.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«غيّرنا اللون والعنوان والصورة معًا لنعرف أثر اللون.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“We changed the color, the heading, and the image together to find the effect of the color.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«أوقفنا الاختبار بعد 20 زائرًا لأن B كانت متقدمة.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“We stopped the test after 20 visitors because B was ahead.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«حددنا المقياس قبل الاختبار، ووزعنا عددًا كافيًا من الزوار بالقرعة، وغيّرنا عنصرًا واحدًا.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“We set the metric before the test, assigned enough visitors at random, and changed one element.”",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-064",
+      "htmlId": "page-64",
+      "role": "content",
+      "descriptionAr": "الأدوات الثلاث معًا",
+      "transcript": [
+        {
+          "text": "الأدوات الثلاث معًا",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Three Tools Together",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الأدوات الثلاث لا تعمل منفصلة، بل تتعاون في قصة واحدة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The three tools do not work separately; they work together in one story.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يمكنك أن تستخدم العين في خطوة «خطّط» لتفهم المشكلة وتولّد الأفكار، والميزان في خطوتي «نفّذ» و«تحقّق» لتقارن بين فكرتين بالأرقام.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "You can use the eye in the “Plan” step to understand the problem and generate ideas, and the scale in the “Do” and “Check” steps to compare two ideas with numbers.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خطّط",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Plan",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نفّذ",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Do",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تحقّق",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Check",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تصرّف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Act",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-065",
+      "htmlId": "page-65",
+      "role": "content",
+      "descriptionAr": "تابع: الأدوات الثلاث معًا",
+      "transcript": [
+        {
+          "text": "العجلة هي الإطار الكبير، والعين والميزان يعملان داخلها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The wheel is the big frame, and the eye and the scale work inside it.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قصة كاملة: صفحة فعالية النادي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A Full Story: The Club Event Page",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "صفحة الفعالية السنوية لناديك المدرسي يسجّل من خلالها عدد قليل من الطلاب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Few students sign up through your school club's yearly event page.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تبدأ بالقياس: 3 فقط من كل 10 زملاء يجدون رابط التسجيل خلال 5 ثوانٍ؛ وهذا هو خط الأساس.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "You start by measuring: only 3 of every 10 classmates find the sign-up link within 5 seconds; this is the baseline.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-066",
+      "htmlId": "page-66",
+      "role": "content",
+      "descriptionAr": "تابع: الأدوات الثلاث معًا",
+      "transcript": [
+        {
+          "text": "1 العين (خطّط): تراقب زملاءك فتكتشف أن رابط التسجيل مختفٍ أسفل الصفحة على شاشة الموبايل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 The eye (Plan): you watch your classmates and discover that the sign-up link is hidden at the bottom of the page on a phone screen.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 تولّد فكرتين: زر تسجيل كبير أعلى الصفحة، أو زر ثابت يظهر دائمًا أسفل الشاشة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 You come up with two ideas: a big sign-up button at the top of the page, or a fixed button always shown at the bottom of the screen.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-067",
+      "htmlId": "page-67",
+      "role": "content",
+      "descriptionAr": "تابع: الأدوات الثلاث معًا",
+      "transcript": [
+        {
+          "text": "3 الميزان (نفّذ وتحقّق): تختبر الفكرتين باختبار A/B على زوار موزعين عشوائيًا، والمقياس هو نسبة النقر على زر التسجيل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 The scale (Do and Check): you test the two ideas with an A/B test on randomly assigned visitors, and the metric is the click-through rate on the sign-up button.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "4 العجلة (تصرّف): تعتمد الزر الفائز، ثم تقيس من جديد، وتبدأ دورة جديدة لمشكلة أخرى.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "4 The wheel (Act): you adopt the winning button, measure again, and start a new cycle for another problem.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لاحظ: العين اكتشفت، والميزان حكم، والعجلة كرّرت.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Notice: the eye discovered, the scale judged, and the wheel repeated.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-068",
+      "htmlId": "page-68",
+      "role": "content",
+      "descriptionAr": "فخاخ الامتحان: لا تقع فيها",
+      "transcript": [
+        {
+          "text": "فخاخ الامتحان: لا تقع فيها",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Exam Traps: Don't Fall for Them",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هذه أشهر الأخطاء في أسئلة الدرس، ومع كل فخ جملة تنقذك.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Here are the most common mistakes in this lesson's questions, each with a sentence that saves you.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«قِس معدل الارتداد بعد التغيير» خطوة تصرّف؟ خطأ، بل تحقّق؛ تذكّر: قِس = تحقّق دائمًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“Measure the bounce rate after the change” is Act? Wrong, it is Check; remember: measure = always Check.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«فكّر في إجراء تحسين آخر» خطوة تحقّق؟ خطأ، بل تصرّف؛ تذكّر: قرار أو خطوة تالية = تصرّف.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“Consider another improvement measure” is Check? Wrong, it is Act; remember: a decision or next step = Act.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-069",
+      "htmlId": "page-69",
+      "role": "content",
+      "descriptionAr": "تابع: فخاخ الامتحان: لا تقع فيها",
+      "transcript": [
+        {
+          "text": "«حدّد هدف خفض معدل الارتداد بنسبة 10%» خطوة نفّذ؟ خطأ، بل خطّط؛ تذكّر: هدف = خطة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“Set the goal of reducing the bounce rate by 10%” is Do? Wrong, it is Plan; remember: goal = plan.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«دورة PDCA تكتمل بعد تنفيذ واحد»؟ خطأ؛ تذكّر: العجلة لا تدور مرة واحدة فقط.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“The PDCA cycle is complete after one execution”? Wrong; remember: the wheel does not turn just once.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«التفكير التصميمي يحل المشكلات من منظور المطوّر»؟ خطأ، بل من منظور المستخدم؛ تذكّر: العين عين المستخدم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“Design thinking solves problems from the developer's perspective”? Wrong, it is the user's perspective; remember: the eye is the user's eye.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-070",
+      "htmlId": "page-70",
+      "role": "content",
+      "descriptionAr": "تابع: فخاخ الامتحان: لا تقع فيها",
+      "transcript": [
+        {
+          "text": "«خطوات التفكير التصميمي صارمة في اتجاه واحد»؟ خطأ، فيمكن الرجوع بينها؛ تذكّر: GPS يعيد حساب المسار.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“Design thinking steps are strict and one-way”? Wrong, you can go back between them; remember: a GPS recalculates the route.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«تغيير عدة عناصر معًا يكشف أثر كل عنصر»؟ خطأ، بل يكشف أثر الحزمة كلها؛ تذكّر: طبق المكرونة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“Changing several elements together shows the effect of each one”? Wrong, it shows the effect of the whole bundle; remember: the pasta dish.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«نحكم على اختبار A/B بعد عدد قليل من الزوار»؟ خطأ، بل بعد عينة كافية؛ تذكّر: العملة المرمية 4 مرات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“We judge an A/B test after only a few visitors”? Wrong, only after a sufficient sample; remember: the coin tossed 4 times.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-071",
+      "htmlId": "page-71",
+      "role": "content",
+      "descriptionAr": "تابع: فخاخ الامتحان: لا تقع فيها",
+      "transcript": [
+        {
+          "text": "«الموقع المثالي من البداية لا يحتاج إلى تحسين»؟ خطأ؛ تذكّر: أول طبق كشري ليس أفضل طبق.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“A perfect website from the start needs no improvement”? Wrong; remember: the first koshari dish is not the best dish.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«يكفي تحسين الشكل البصري فقط»؟ خطأ، فالتحسين يشمل السهولة والمحتوى والسرعة أيضًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“Improving only the visual design is enough”? Wrong, improvement also covers ease of use, content, and speed.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-072",
+      "htmlId": "page-72",
+      "role": "content",
+      "descriptionAr": "تابع: فخاخ الامتحان: لا تقع فيها",
+      "transcript": [
+        {
+          "text": "قاعدة الكلمات المطلقة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "THE ABSOLUTE WORDS RULE",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في أسئلة الاختيار من متعدد، ضع موضع الشك أي خيار فيه كلمات مثل «فقط» أو «وحده» أو «لا حاجة» أو «مرة واحدة».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In multiple-choice questions, be suspicious of any option with words like “only”, “alone”, “no need”, or “once”.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لأن الدرس كله ضد الحلول المطلقة: التحسين يتكرر ولا يتوقف.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Because the whole lesson is against absolute answers: improvement repeats and does not stop.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثال: «ينبغي أن تتم جميع التحسينات باختبار A/B وحده» خيار خاطئ.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example: “All improvements should be done with A/B testing alone” is a wrong option.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-073",
+      "htmlId": "page-73",
+      "role": "content",
+      "descriptionAr": "الإجابة النموذجية لسؤال الـ 6 درجات",
+      "transcript": [
+        {
+          "text": "الإجابة النموذجية لسؤال الـ 6 درجات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Model Answer for the 6-Mark Question",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "سؤال على نمط الامتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "EXAM-STYLE QUESTION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اشرح لماذا يحسّن فريق موقع إلكتروني عمله عبر دورات PDCA متكررة بدلًا من محاولة بناء موقع مثالي دفعة واحدة. [6 درجات]",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Explain why a website team improves in repeated PDCA cycles instead of trying to build a perfect site in one go. [6]",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "إجابتك تتكون من 6 أفكار، ولكل فكرة درجة واحدة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Your answer has 6 ideas, and each idea earns one mark.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-074",
+      "htmlId": "page-74",
+      "role": "content",
+      "descriptionAr": "تابع: الإجابة النموذجية لسؤال الـ 6 درجات",
+      "transcript": [
+        {
+          "text": "1 النسخة الأولى من الموقع مجرد تخمين، ولا يعرف الفريق ما يناسب المستخدمين قبل الاستخدام الفعلي.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 The first version of the site is only a guess, and the team does not know what suits users before actual use.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 في خطوة «خطّط» يحدد الفريق هدفًا قابلًا للقياس، ويختار تغييرًا محددًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 In the “Plan” step, the team sets a measurable goal and chooses a specific change.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "3 في خطوة «نفّذ» يطبّق الفريق التغيير على الموقع.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 In the “Do” step, the team applies the change to the site.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "4 في خطوة «تحقّق» يقيس النتيجة ويقارنها بخط الأساس وبالهدف، فيعرف بالدليل لا بالرأي هل نجح التغيير.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "4 In the “Check” step, it measures the result and compares it with the baseline and the goal, so it knows from evidence, not opinion, whether the change worked.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-075",
+      "htmlId": "page-75",
+      "role": "content",
+      "descriptionAr": "تابع: الإجابة النموذجية لسؤال الـ 6 درجات",
+      "transcript": [
+        {
+          "text": "5 في خطوة «تصرّف» يعتمد ما نجح، أو يعدّل الخطة، ويحدد الخطوة التالية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "5 In the “Act” step, it adopts what worked or revises the plan, and decides the next step.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "6 التكرار يجعل التحسينات الصغيرة تتراكم، ويقلل خطر إضاعة الوقت والجهد على تغيير كبير قد يفشل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "6 Repetition lets small improvements add up and reduces the risk of wasting time and effort on a big change that may fail.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نصيحة: اكتب اسم كل خطوة بوضوح، لأن المصحح يبحث عن الكلمات المفتاحية: قياس النتائج، والتصرف بناءً عليها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Tip: write the name of each step clearly, because the marker looks for the key words: measuring results and acting on them.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-076",
+      "htmlId": "page-76",
+      "role": "content",
+      "descriptionAr": "خذ الدرس معك",
+      "transcript": [
+        {
+          "text": "خذ الدرس معك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Take the Lesson With You",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مشروعك الشخصي: PDCA على نفسك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Your Personal Project: PDCA on Yourself",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "طبّق الدورة على نفسك هذا الأسبوع، لتتحول المعلومة من درس للامتحان إلى مهارة للحياة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Apply the cycle to yourself this week, so the lesson turns from exam information into a life skill.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "1 اختر عادة واحدة تريد تحسينها، مثل وقت نومك، أو ساعات استخدام الموبايل، أو درجتك في مادة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 Choose one habit you want to improve, such as your bedtime, your phone hours, or your grade in a subject.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-077",
+      "htmlId": "page-77",
+      "role": "content",
+      "descriptionAr": "تابع: خذ الدرس معك",
+      "transcript": [
+        {
+          "text": "2 اكتب خط الأساس اليوم برقم، مثل «أستخدم الموبايل 5 ساعات يوميًا».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 Write today's baseline as a number, such as “I use my phone 5 hours a day”.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "3 اكتب هدفًا برقم (خطّط)، وطبّق تغييرًا واحدًا فقط طوال الأسبوع (نفّذ).",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 Write a goal as a number (Plan), and apply only one change all week (Do).",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "4 بعد أسبوع، قِس النتيجة وقارنها بخط الأساس وبالهدف (تحقّق).",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "4 After a week, measure the result and compare it with the baseline and the goal (Check).",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "5 قرّر: اعتمد التغيير إن نجح، أو عدّله، ثم ابدأ دورة جديدة (تصرّف).",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "5 Decide: keep the change if it worked or adjust it, then start a new cycle (Act).",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-078",
+      "htmlId": "page-78",
+      "role": "content",
+      "descriptionAr": "تابع: خذ الدرس معك",
+      "transcript": [
+        {
+          "text": "بطاقة الحفظ",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "MEMORY CARD",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "العين = التفكير التصميمي: حِسّ وحدّد، فكّر واصنع وجرّب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The eye = design thinking: Empathize, Define, Ideate, Prototype, Test.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الميزان = اختبار A/B: عنصر، عدّاد، عشوائية، عيّنة كافية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The scale = A/B testing: Element, Exact metric, Even split, Enough users.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "العجلة = دورة PDCA: خطّط، نفّذ، تحقّق، تصرّف… ثم كرّر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The wheel = the PDCA cycle: Plan, Do, Check, Act… then repeat.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "القاعدة الذهبية: لا تخمّن… قِس، جرّب، كرّر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The golden rule: Don't guess… measure, try, repeat.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-079",
+      "htmlId": "page-79",
+      "role": "content",
+      "descriptionAr": "إجابات «جرّب بنفسك»",
+      "transcript": [
+        {
+          "text": "إجابات «جرّب بنفسك»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Answers to “Try It Yourself”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "رأي أم دليل؟ (الصفحة 11)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Opinion or Evidence? (Page 11)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "1 رأي، لأنه يبدأ بـ «أظن» ولا يحتوي على رقم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 Opinion, because it starts with “I think” and has no number.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 دليل من بيانات الاستخدام، لأنه أرقام تسجّل ما فعله الزوار.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 Evidence from usage data, because it is numbers that record what visitors did.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "3 دليل من ملاحظات المستخدمين، لأنه ما قاله المستخدمون مع عدد محدد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 Evidence from user feedback, because it is what users said, with a specific count.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "رأي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Opinion",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "دليل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Evidence",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-080",
+      "htmlId": "page-80",
+      "role": "content",
+      "descriptionAr": "تابع: إجابات «جرّب بنفسك»",
+      "transcript": [
+        {
+          "text": "احسبها أنت (الصفحة 21)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Calculate It Yourself (Page 21)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "1 نسبة النقر = 10 ÷ 200 × 100% = 5%.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 CTR = 10 ÷ 200 × 100% = 5%.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 لم يتحقق الهدف، لأن 46% أقل من 50%.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 The goal was not reached, because 46% is less than 50%.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لكن الموقع تحسّن، لأن 46% أعلى من خط الأساس 40% بـ 6 نقاط مئوية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "But the site improved, because 46% is 6 percentage points above the 40% baseline.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-081",
+      "htmlId": "page-81",
+      "role": "content",
+      "descriptionAr": "تابع: إجابات «جرّب بنفسك»",
+      "transcript": [
+        {
+          "text": "تحدّي الطائرة الورقية (الصفحة 30)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Paper Plane Challenge (Page 30)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لا تستطيع؛ لأنها غيّرت ثلاثة أشياء معًا، فعرفت أثر الحزمة كلها، لا أثر كل تغيير وحده.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "No, it cannot; it changed three things at once, so it learned the effect of the whole bundle, not the effect of each change alone.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خطوات PDCA (الصفحة 34)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "PDCA Steps (Page 34)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "1 «قسنا عدد التسجيلات» ← تحقّق",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 “We measured the number of sign-ups” → Check",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 «قررنا تعميم الزر الجديد» ← تصرّف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 “We decided to apply the new button” → Act",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "3 «حددنا هدف رفع التسجيلات» ← خطّط",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 “We set the goal of raising sign-ups” → Plan",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "4 «غيّرنا لون زر التسجيل» ← نفّذ",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "4 “We changed the color of the sign-up button” → Do",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-082",
+      "htmlId": "page-82",
+      "role": "content",
+      "descriptionAr": "تابع: إجابات «جرّب بنفسك»",
+      "transcript": [
+        {
+          "text": "خطوات التفكير التصميمي (الصفحة 50)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Design Thinking Steps (Page 50)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "1 «رسمنا الشاشة على ورقة» ← النموذج الأولي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 “We drew the screen on paper” → Prototype",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 «سألنا 6 طلاب» ← التعاطف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 “We asked 6 students” → Empathize",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "3 «كتبنا 15 فكرة» ← توليد الأفكار",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 “We wrote 15 ideas” → Ideate",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "4 «الطالب يحتاج أن يجد رابط التسجيل» ← التعريف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "4 “The student needs to find the sign-up link” → Define",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "5 «طلبنا من زميل أن يجرب الرسمة» ← الاختبار",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "5 “We asked a classmate to try the sketch” → Test",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-083",
+      "htmlId": "page-83",
+      "role": "content",
+      "descriptionAr": "تابع: إجابات «جرّب بنفسك»",
+      "transcript": [
+        {
+          "text": "اكتشف الخطأ (الصفحة 63)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Spot the Mistake (Page 63)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "1 خالفت «العشوائية»: الفرق قد يكون سببه اليوم، لا التصميم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 It broke “Even split”: the difference may come from the day, not the design.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 خالفت «عنصر»: تغيّرت ثلاثة عناصر، فلن نعرف أثر اللون وحده.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 It broke “Element”: three elements changed, so we cannot know the effect of the color alone.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "3 خالفت «عيّنة كافية»: 20 زائرًا لا يكفون، ولا نوقف الاختبار مبكرًا لأن نسخة متقدمة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 It broke “Enough users”: 20 visitors are not enough, and we do not stop a test early because one version is ahead.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "4 سليمة: تحققت فيها العينات الأربع كلها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "4 Sound: it meets all of the Four E's.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    }
+  ]
+}

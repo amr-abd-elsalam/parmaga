@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Outlined card -->
+<rect x="109" y="128" width="870" height="688" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="122" width="870" height="688" rx="16" fill="#fffdf7" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="656" rx="3" fill="#2f7fb5"/>
+
+<!-- Divider between questions (dashes as separate segments) -->
+<path d="M160 423h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14" fill="none" stroke="#9db9d6" stroke-width="2" stroke-linecap="round"/>
+
+<!-- Illustration: measuring progress between a start and a goal -->
+<g>
+  <defs>
+    <linearGradient id="ilCalc" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f7fb5"/>
+      <stop offset="1" stop-color="#17457f"/>
+    </linearGradient>
+    <linearGradient id="ilProg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2e7d32"/>
+      <stop offset="1" stop-color="#a9dcbe"/>
+    </linearGradient>
+    <linearGradient id="ilFlag" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c96a1b"/>
+      <stop offset="1" stop-color="#f0c48c"/>
+    </linearGradient>
+    <linearGradient id="ilPin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f7fb5"/>
+      <stop offset="1" stop-color="#17457f"/>
+    </linearGradient>
+  </defs>
+  <!-- shadows -->
+  <rect x="774" y="896" width="170" height="290" rx="22" fill="#22303f" opacity=".18"/>
+  <rect x="154" y="1001" width="562" height="30" rx="15" fill="#22303f" opacity=".18"/>
+  <circle cx="726" cy="1016" r="24" fill="#22303f" opacity=".18"/>
+  <path d="M 324 999 C 310 981, 300 968, 300 946 A 24 24 0 1 1 348 946 C 348 968, 338 981, 324 999 Z" fill="#22303f" opacity=".18"/>
+  <path d="M 176 906 C 204 896, 229 918, 260 908 L 260 956 C 229 966, 204 944, 176 954 Z" fill="#22303f" opacity=".18"/>
+  <g transform="translate(254 1136) rotate(-4)">
+    <path d="M -46 17 L 0 0 L 336 0 L 336 34 L 0 34 Z" fill="#22303f" opacity=".18"/>
+  </g>
+  <!-- soft background accents -->
+  <circle cx="128" cy="885" r="12" fill="#8fc9f2" opacity=".35"/>
+  <circle cx="140" cy="1215" r="14" fill="#8fc9f2" opacity=".35"/>
+  <circle cx="720" cy="1210" r="10" fill="#4fc3e8" opacity=".35"/>
+  <circle cx="210" cy="935" r="56" fill="#ffd24a" opacity=".35"/>
+  <!-- goal flag -->
+  <rect x="164" y="890" width="8" height="120" rx="3" fill="#22303f"/>
+  <path d="M 172 900 C 200 890, 225 912, 256 902 L 256 950 C 225 960, 200 938, 172 948 Z" fill="url(#ilFlag)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="168" cy="886" r="8" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <!-- progress track -->
+  <rect x="150" y="995" width="562" height="30" rx="15" fill="#e8dfd1"/>
+  <rect x="320" y="995" width="392" height="30" rx="15" fill="url(#ilProg)"/>
+  <rect x="150" y="995" width="562" height="30" rx="15" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M180 1038v10M236 1038v10M292 1038v10M348 1038v10M404 1038v10M460 1038v10M516 1038v10M572 1038v10M628 1038v10M684 1038v10" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- start marker -->
+  <circle cx="722" cy="1010" r="24" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="730,998 730,1022 710,1010" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- pointer -->
+  <path d="M 320 993 C 306 975, 296 962, 296 940 A 24 24 0 1 1 344 940 C 344 962, 334 975, 320 993 Z" fill="url(#ilPin)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="320" cy="940" r="9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <!-- calculator -->
+  <rect x="770" y="890" width="170" height="290" rx="22" fill="url(#ilCalc)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="790" y="912" width="130" height="64" rx="10" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="808" y="950" width="14" height="16" rx="2" fill="#ffffff"/>
+  <rect x="830" y="940" width="14" height="26" rx="2" fill="#ffffff"/>
+  <rect x="852" y="928" width="14" height="38" rx="2" fill="#ffd24a"/>
+  <rect x="791" y="994" width="26" height="32" rx="7" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="825" y="994" width="26" height="32" rx="7" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="859" y="994" width="26" height="32" rx="7" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="893" y="994" width="26" height="32" rx="7" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="791" y="1036" width="26" height="32" rx="7" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="825" y="1036" width="26" height="32" rx="7" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="859" y="1036" width="26" height="32" rx="7" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="893" y="1036" width="26" height="32" rx="7" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="791" y="1078" width="26" height="32" rx="7" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="825" y="1078" width="26" height="32" rx="7" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="859" y="1078" width="26" height="32" rx="7" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="893" y="1078" width="26" height="32" rx="7" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="791" y="1120" width="26" height="32" rx="7" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="825" y="1120" width="26" height="32" rx="7" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="859" y="1120" width="26" height="32" rx="7" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="893" y="1120" width="26" height="32" rx="7" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M899 1010H913M906 1003V1017M899 1052H913M912 1086L900 1102" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="901" cy="1088" r="2.5" fill="#22303f"/>
+  <circle cx="911" cy="1100" r="2.5" fill="#22303f"/>
+  <path d="M899 1132H913M899 1140H913" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- pencil below the track -->
+  <g transform="translate(250 1130) rotate(-4)">
+    <rect x="0" y="0" width="280" height="34" rx="4" fill="#ffd24a"/>
+    <rect x="0" y="22" width="280" height="12" fill="#f0c48c"/>
+    <rect x="0" y="0" width="280" height="34" rx="4" fill="none" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="280" y="0" width="26" height="34" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="306" y="0" width="30" height="34" rx="8" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+    <polygon points="0,0 -46,17 0,34" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="-30,11 -46,17 -30,23" fill="#22303f"/>
+  </g>
+  <!-- sparkles -->
+  <path d="M262 856 Q264 866 274 868 Q264 870 262 880 Q260 870 250 868 Q260 866 262 856 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M610 872 Q611 879 618 880 Q611 881 610 888 Q609 881 602 880 Q609 879 610 872 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- connector: dotted progress arc from start toward pointer -->
+  <circle cx="656.2" cy="953.4" r="4.5" fill="#2f7fb5"/>
+  <circle cx="622.8" cy="939.4" r="4.5" fill="#2f7fb5"/>
+  <circle cx="589.8" cy="928.2" r="4.5" fill="#2f7fb5"/>
+  <circle cx="557.2" cy="919.6" r="4.5" fill="#2f7fb5"/>
+  <circle cx="525" cy="913.8" r="4.5" fill="#2f7fb5"/>
+  <circle cx="493.2" cy="910.6" r="4.5" fill="#2f7fb5"/>
+  <circle cx="461.8" cy="910.2" r="4.5" fill="#2f7fb5"/>
+  <circle cx="430.8" cy="912.4" r="4.5" fill="#2f7fb5"/>
+  <circle cx="400.2" cy="917.4" r="4.5" fill="#2f7fb5"/>
+  <polygon points="366,926 383.6,929.1 379,913.7" fill="#2f7fb5"/>
+</g>
+
+<!-- Icon: pencil (exercise) beside the English header -->
+<g transform="translate(866 180)">
+  <polygon points="10,30 30,10 38,18 18,38" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="30,10 34,6 42,14 38,18" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="10,30 18,38 6,42" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="6,42 8,37 11,40" fill="#22303f"/>
+</g>
+
+<!-- Icon: data documents beside question 1 -->
+<g transform="translate(862 338)">
+  <rect x="12" y="4" width="26" height="32" rx="3" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="6" y="10" width="26" height="32" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M11 20H27M11 27H27M11 34H21" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Face: thinking, beside question 2 -->
+<g transform="translate(205 515)">
+  <circle cx="4" cy="6" r="26" fill="#22303f" opacity=".18"/>
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: star (remember) beside question 2 -->
+<g>
+  <polygon points="300,493 305.3,507.7 320.9,508.2 308.6,517.8 312.9,532.8 300,524 287.1,532.8 291.4,517.8 279.1,508.2 294.7,507.7" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Text -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="935" dy="0">احسبها أنت</tspan>
+</text>
+<text x="140" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="140" dy="0">CALCULATE IT YOURSELF</tspan>
+</text>
+
+<text x="935" y="274" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">1</tspan> رأى إعلانًا 200 شخص، ونقر عليه 10.</tspan>
+  <tspan x="935" dy="40">ما <tspan font-weight="bold" fill="#17457f">نسبة النقر؟</tspan></tspan>
+</text>
+<text x="140" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">1</tspan> 200 people saw an ad, and 10</tspan>
+  <tspan x="140" dy="40">clicked it. What is the <tspan font-weight="bold" fill="#17457f">CTR?</tspan></tspan>
+</text>
+
+<text x="935" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">2</tspan> كانت نسبة إكمال التسجيل 40%</tspan>
+  <tspan x="935" dy="40">(خط الأساس)، <tspan font-weight="bold" fill="#17457f">والهدف</tspan> 50%،</tspan>
+  <tspan x="935" dy="40">وبعد التغيير صارت 46%.</tspan>
+  <tspan x="935" dy="40">هل تحقق الهدف؟ وهل تحسّن الموقع؟</tspan>
+</text>
+<text x="140" y="634" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">2</tspan> The sign-up completion rate was 40%</tspan>
+  <tspan x="140" dy="40">(the baseline), the <tspan font-weight="bold" fill="#17457f">goal</tspan> was 50%,</tspan>
+  <tspan x="140" dy="40">and after the change it became 46%.</tspan>
+  <tspan x="140" dy="40">Was the goal reached?</tspan>
+  <tspan x="140" dy="40">Did the site improve?</tspan>
+</text>
+</svg>

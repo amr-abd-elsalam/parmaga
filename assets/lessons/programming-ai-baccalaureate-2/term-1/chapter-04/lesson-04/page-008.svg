@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Info card: shadow, fill, accent -->
+<rect x="109" y="128" width="870" height="728" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="122" width="870" height="728" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="696" rx="3" fill="#2f7fb5"/>
+
+<!-- Divider between the two definitions -->
+<path d="M200 503 L220 503 M232 503 L252 503 M264 503 L284 503 M296 503 L316 503 M328 503 L348 503 M360 503 L380 503 M392 503 L412 503 M424 503 L444 503 M456 503 L476 503 M488 503 L508 503 M520 503 L540 503 M552 503 L572 503 M584 503 L604 503 M616 503 L636 503 M648 503 L668 503 M680 503 L700 503 M712 503 L732 503 M744 503 L764 503 M776 503 L796 503 M808 503 L828 503 M840 503 L860 503 M872 503 L892 503" fill="none" stroke="#9db9d6" stroke-width="2" stroke-linecap="round"/>
+
+<!-- Illustration: small repeated steps add up to a big climb -->
+<g>
+  <defs>
+    <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="ilStep" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fc9f2"/>
+      <stop offset="1" stop-color="#2f7fb5"/>
+    </linearGradient>
+  </defs>
+  <rect x="129" y="874" width="830" height="382" rx="28" fill="#22303f" opacity=".18"/>
+  <rect x="125" y="868" width="830" height="382" rx="28" fill="url(#ilSky)" stroke="#22303f" stroke-width="2.5"/>
+  <!-- sun -->
+  <path d="M908 948 L920 948 M896.3 976.3 L904.8 984.8 M868 988 L868 1000 M839.7 976.3 L831.2 984.8 M828 948 L816 948 M839.7 919.7 L831.2 911.2 M868 908 L868 896 M896.3 919.7 L904.8 911.2" fill="none" stroke="#c96a1b" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="868" cy="948" r="32" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <!-- clouds -->
+  <path d="M598 950 Q590 930 612 928 Q616 908 640 910 Q660 900 674 918 Q694 918 692 936 Q700 950 684 952 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M390 935 Q384 920 400 918 Q406 902 424 905 Q440 898 448 912 Q464 914 460 928 Q466 938 454 938 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- sparkles -->
+  <path d="M230 908 L234 918 L244 922 L234 926 L230 936 L226 926 L216 922 L226 918 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M395 958 L398 965 L405 968 L398 971 L395 978 L392 971 L385 968 L392 965 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- ground and bush -->
+  <path d="M125 1212 Q330 1192 560 1206 Q760 1218 955 1200 L955 1222 Q955 1250 927 1250 L153 1250 Q125 1250 125 1222 Z" fill="#a9dcbe"/>
+  <path d="M150 1236 Q148 1206 172 1206 Q180 1188 200 1198 Q222 1196 220 1220 Q226 1236 214 1236 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- staircase shadow -->
+  <polygon points="910,1241 910,1201 844,1201 844,1176 778,1176 778,1151 712,1151 712,1126 646,1126 646,1101 580,1101 580,1076 514,1076 514,1051 448,1051 448,1026 382,1026 382,1001 316,1001 316,976 250,976 250,1241" fill="#22303f" opacity=".18"/>
+  <!-- steps -->
+  <rect x="246" y="970" width="66" height="265" fill="url(#ilStep)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="312" y="995" width="66" height="240" fill="url(#ilStep)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="378" y="1020" width="66" height="215" fill="url(#ilStep)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="444" y="1045" width="66" height="190" fill="url(#ilStep)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="510" y="1070" width="66" height="165" fill="url(#ilStep)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="576" y="1095" width="66" height="140" fill="url(#ilStep)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="642" y="1120" width="66" height="115" fill="url(#ilStep)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="708" y="1145" width="66" height="90" fill="url(#ilStep)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="774" y="1170" width="66" height="65" fill="url(#ilStep)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="840" y="1195" width="66" height="40" fill="url(#ilStep)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- treads -->
+  <rect x="246" y="970" width="66" height="9" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="312" y="995" width="66" height="9" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="378" y="1020" width="66" height="9" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="444" y="1045" width="66" height="9" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="510" y="1070" width="66" height="9" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="576" y="1095" width="66" height="9" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="642" y="1120" width="66" height="9" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="708" y="1145" width="66" height="9" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="774" y="1170" width="66" height="9" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="840" y="1195" width="66" height="9" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <!-- circular arrow on every step -->
+  <path d="M873 1211 A8 8 0 1 1 865 1219 M807 1186 A8 8 0 1 1 799 1194 M741 1161 A8 8 0 1 1 733 1169 M675 1136 A8 8 0 1 1 667 1144 M609 1111 A8 8 0 1 1 601 1119 M543 1086 A8 8 0 1 1 535 1094 M477 1061 A8 8 0 1 1 469 1069 M411 1036 A8 8 0 1 1 403 1044 M345 1011 A8 8 0 1 1 337 1019 M279 986 A8 8 0 1 1 271 994" fill="none" stroke="#c96a1b" stroke-width="3" stroke-linecap="round"/>
+  <path d="M860.5 1220 L869.5 1220 L865 1213 Z M794.5 1195 L803.5 1195 L799 1188 Z M728.5 1170 L737.5 1170 L733 1163 Z M662.5 1145 L671.5 1145 L667 1138 Z M596.5 1120 L605.5 1120 L601 1113 Z M530.5 1095 L539.5 1095 L535 1088 Z M464.5 1070 L473.5 1070 L469 1063 Z M398.5 1045 L407.5 1045 L403 1038 Z M332.5 1020 L341.5 1020 L337 1013 Z M266.5 995 L275.5 995 L271 988 Z" fill="#c96a1b"/>
+  <!-- flag on the top step -->
+  <rect x="276" y="890" width="6" height="80" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="279" cy="887" r="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M282 894 Q300 886 318 896 Q336 906 356 896 L356 930 Q336 940 318 930 Q300 920 282 928 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="318,905 320.1,910.2 325.6,910.5 321.3,914.1 322.7,919.5 318,916.5 313.3,919.5 314.7,914.1 310.4,910.5 315.9,910.2" fill="#ffd24a"/>
+  <!-- student climbing near the middle -->
+  <polygon points="522,1004 542,1004 556,1064 540,1066" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="550" cy="1065" rx="13" ry="5" fill="#22303f"/>
+  <polygon points="522,998 494,1006 486,1040 502,1040 506,1020 534,1012" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="492" cy="1041" rx="12" ry="4" fill="#22303f"/>
+  <rect x="546" y="958" width="24" height="42" rx="7" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="527" y="940" width="10" height="12" fill="#e8b98d"/>
+  <path d="M514 954 Q532 946 550 954 L556 1010 L510 1010 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="526,959 497,943 491,953 520,969" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="490" cy="946" r="6" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="532" cy="930" r="17" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M516 928 Q514 910 532 911 Q551 912 550 932 Q549 940 545 944 Q546 928 538 922 Q528 920 516 928 Z" fill="#2b211c"/>
+  <circle cx="538" cy="932" r="3.5" fill="#d59f6f"/>
+  <circle cx="522" cy="930" r="2.2" fill="#22303f"/>
+  <path d="M517 938 Q521 941 525 939" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: open book (definitions) -->
+<g transform="translate(886 174)">
+  <path d="M2 8 Q12 4 22 9 L22 40 Q12 35 2 39 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M22 9 Q32 4 42 8 L42 39 Q32 35 22 40 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M7 16 L17 17 M7 23 L17 24 M27 17 L37 16 M27 24 L37 23" fill="none" stroke="#2f7fb5" stroke-width="2" stroke-linecap="round"/>
+</g>
+<!-- Icon: star (remember) -->
+<g transform="translate(872 396)">
+  <polygon points="26,2 31.9,17.9 48.8,18.6 35.5,29.1 40.1,45.4 26,36 11.9,45.4 16.5,29.1 3.2,18.6 20.1,17.9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+<!-- Icon: light bulb (insight) -->
+<g transform="translate(870 712)">
+  <path d="M28 1 L28 5 M8 10 L4 6 M48 10 L52 6" fill="none" stroke="#c96a1b" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="28" cy="26" r="17" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M22 26 L26 32 L30 26 L34 32" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="20" y="41" width="16" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Text -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">تعريفات</tspan>
+</text>
+<text x="140" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">DEFINITIONS</tspan>
+</text>
+<text x="935" y="274" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">التكرار</tspan> (Iteration): تنفيذ الحلقة نفسها</tspan>
+  <tspan x="935" dy="40">أكثر من مرة، وكل مرة تبني على <tspan font-weight="bold" fill="#17457f">ما تعلمته</tspan></tspan>
+  <tspan x="935" dy="40">في المرة السابقة.</tspan>
+</text>
+<text x="140" y="394" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Iteration:</tspan> carrying out the same loop</tspan>
+  <tspan x="140" dy="40">more than once, with each time building</tspan>
+  <tspan x="140" dy="40">on <tspan font-weight="bold" fill="#17457f">what you learned</tspan> the time before.</tspan>
+</text>
+<text x="935" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">التحسين المستمر</tspan> (Continuous Improvement):</tspan>
+  <tspan x="935" dy="40">فلسفة ترى أن التحسين لا يتوقف،</tspan>
+  <tspan x="935" dy="40">وأن التحسينات الصغيرة المتراكمة</tspan>
+  <tspan x="935" dy="40">تصنع <tspan font-weight="bold" fill="#2e7d32">فرقًا كبيرًا.</tspan></tspan>
+</text>
+<text x="140" y="714" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Continuous Improvement:</tspan> a philosophy</tspan>
+  <tspan x="140" dy="40">that sees improvement as never-ending,</tspan>
+  <tspan x="140" dy="40">where small improvements that add up</tspan>
+  <tspan x="140" dy="40">make <tspan font-weight="bold" fill="#2e7d32">a big difference.</tspan></tspan>
+</text>
+</svg>

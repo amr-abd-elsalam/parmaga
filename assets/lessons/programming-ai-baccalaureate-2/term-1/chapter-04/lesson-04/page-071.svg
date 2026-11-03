@@ -1,0 +1,263 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Bullets -->
+  <circle cx="966" cy="144" r="6" fill="#c0392b"/>
+  <circle cx="114" cy="264" r="6" fill="#c0392b"/>
+  <circle cx="966" cy="464" r="6" fill="#c0392b"/>
+  <circle cx="114" cy="584" r="6" fill="#c0392b"/>
+
+<!-- Illustration: real improvement covers more than just the look of a page -->
+<g>
+  <linearGradient id="ilKoshariWall" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fdf6d8"/>
+    <stop offset="1" stop-color="#f0c48c"/>
+  </linearGradient>
+  <linearGradient id="ilWebSky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+
+  <!-- Panel shadows -->
+  <rect x="550" y="730" width="425" height="524" rx="24" fill="#22303f" opacity=".18"/>
+  <rect x="109" y="730" width="421" height="524" rx="24" fill="#22303f" opacity=".18"/>
+
+  <!-- ===== Right panel: three koshari bowls ===== -->
+  <rect x="546" y="724" width="425" height="524" rx="24" fill="url(#ilKoshariWall)"/>
+
+  <!-- Awning -->
+  <rect x="562" y="738" width="388" height="8" rx="4" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="570" y="746" width="62" height="28" fill="#c96a1b"/>
+  <rect x="632" y="746" width="62" height="28" fill="#ffffff"/>
+  <rect x="694" y="746" width="62" height="28" fill="#c96a1b"/>
+  <rect x="756" y="746" width="62" height="28" fill="#ffffff"/>
+  <rect x="818" y="746" width="62" height="28" fill="#c96a1b"/>
+  <rect x="880" y="746" width="62" height="28" fill="#ffffff"/>
+  <path d="M570 774 Q601 800 632 774 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M632 774 Q663 800 694 774 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M694 774 Q725 800 756 774 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M756 774 Q787 800 818 774 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M818 774 Q849 800 880 774 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M880 774 Q911 800 942 774 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="570" y="746" width="372" height="28" fill="none" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Hanging lamp and its glow -->
+  <polygon points="774,858 806,858 846,1000 734,1000" fill="#ffd24a" opacity=".35"/>
+  <path d="M790 789 L790 836" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M770 856 L777 836 L803 836 L810 856 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="790" cy="860" r="5" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+
+  <!-- Star above the best bowl, with sparkles -->
+  <polygon points="650,921 655.9,936.9 672.8,937.6 659.5,948.1 664.1,964.4 650,955 635.9,964.4 640.5,948.1 627.2,937.6 644.1,936.9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="608,910 611,917 618,920 611,923 608,930 605,923 598,920 605,917" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <polygon points="694,918 697,925 704,928 697,931 694,938 691,931 684,928 691,925" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Table -->
+  <rect x="546" y="1140" width="425" height="22" fill="#b07a45"/>
+  <path d="M546 1162 L971 1162 L971 1224 Q971 1248 947 1248 L570 1248 Q546 1248 546 1224 Z" fill="#7d4f28"/>
+  <path d="M580 1192 C 680 1184, 780 1200, 940 1190 M600 1222 C 700 1214, 800 1228, 920 1220" fill="none" stroke="#3a2411" stroke-width="2.5" stroke-linecap="round" opacity=".35"/>
+  <path d="M546 1140 L971 1140 M546 1162 L971 1162" fill="none" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Bowl shadows -->
+  <ellipse cx="912" cy="1141" rx="38" ry="5" fill="#22303f" opacity=".18"/>
+  <ellipse cx="790" cy="1141" rx="46" ry="5" fill="#22303f" opacity=".18"/>
+  <ellipse cx="650" cy="1141" rx="56" ry="6" fill="#22303f" opacity=".18"/>
+
+  <!-- Bowl 1 (right): small and plain -->
+  <rect x="894" y="1124" width="36" height="16" rx="4" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M872 1090 C872 1140, 952 1140, 952 1090 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="912" cy="1090" rx="40" ry="9" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M878 1090 Q912 1076 946 1090 Z" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="902" cy="1086" r="3.5" fill="#ffd24a" stroke="#22303f" stroke-width="1.4"/>
+  <circle cx="922" cy="1085" r="3.5" fill="#ffd24a" stroke="#22303f" stroke-width="1.4"/>
+
+  <!-- Bowl 2 (middle): fuller -->
+  <rect x="770" y="1122" width="40" height="18" rx="4" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M740 1080 C740 1142, 840 1142, 840 1080 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="790" cy="1080" rx="50" ry="11" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M744 1080 Q790 1040 836 1080 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M764 1068 Q790 1054 816 1068 Q804 1074 790 1070 Q776 1074 764 1068 Z" fill="#c0392b"/>
+  <path d="M772 1062 q5 -5 10 0 M796 1058 q5 -5 10 0" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="780" cy="1075" r="3.5" fill="#ffd24a" stroke="#22303f" stroke-width="1.4"/>
+  <circle cx="802" cy="1075" r="3.5" fill="#ffd24a" stroke="#22303f" stroke-width="1.4"/>
+  <path d="M790 1050 q-6 -8 0 -16 q6 -8 0 -16" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round" opacity=".6"/>
+
+  <!-- Bowl 3 (left): the fullest and most appealing -->
+  <rect x="624" y="1122" width="52" height="18" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M588 1070 C588 1146, 712 1146, 712 1070 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="622" cy="1094" r="4" fill="#ffd24a"/>
+  <circle cx="650" cy="1100" r="4" fill="#ffd24a"/>
+  <circle cx="678" cy="1094" r="4" fill="#ffd24a"/>
+  <ellipse cx="650" cy="1070" rx="62" ry="13" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M592 1070 Q650 1000 708 1070 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M614 1052 Q650 1030 686 1052 Q670 1062 650 1056 Q630 1062 614 1052 Z" fill="#c0392b"/>
+  <path d="M628 1046 q6 -6 12 0 M646 1038 q6 -6 12 0 M664 1046 q6 -6 12 0" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="608" cy="1066" r="4" fill="#ffd24a" stroke="#22303f" stroke-width="1.4"/>
+  <circle cx="626" cy="1063" r="4" fill="#ffd24a" stroke="#22303f" stroke-width="1.4"/>
+  <circle cx="650" cy="1065" r="4" fill="#ffd24a" stroke="#22303f" stroke-width="1.4"/>
+  <circle cx="674" cy="1063" r="4" fill="#ffd24a" stroke="#22303f" stroke-width="1.4"/>
+  <circle cx="692" cy="1066" r="4" fill="#ffd24a" stroke="#22303f" stroke-width="1.4"/>
+  <path d="M636 1022 q-8 -10 0 -20 q8 -10 0 -20 M664 1022 q-8 -10 0 -20 q8 -10 0 -20" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round" opacity=".6"/>
+
+  <!-- Progress chevrons (right to left) -->
+  <path d="M862 1090 L850 1100 L862 1110 M732 1090 L720 1100 L732 1110" fill="none" stroke="#c96a1b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="546" y="724" width="425" height="524" rx="24" fill="none" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- ===== Left panel: webpage card with four improvement symbols ===== -->
+  <rect x="105" y="724" width="421" height="524" rx="24" fill="url(#ilWebSky)"/>
+  <path d="M105 1214 L526 1214 L526 1224 Q526 1248 502 1248 L129 1248 Q105 1248 105 1224 Z" fill="#a9dcbe"/>
+
+  <!-- Sparkles -->
+  <polygon points="290,780 293,787 300,790 293,793 290,800 287,793 280,790 287,787" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <polygon points="342,806 345,813 352,816 345,819 342,826 339,819 332,816 339,813" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Badge shadows -->
+  <circle cx="174" cy="806" r="44" fill="#22303f" opacity=".18"/>
+  <circle cx="464" cy="806" r="44" fill="#22303f" opacity=".18"/>
+  <circle cx="174" cy="1176" r="44" fill="#22303f" opacity=".18"/>
+  <circle cx="464" cy="1176" r="44" fill="#22303f" opacity=".18"/>
+  <rect x="219" y="866" width="200" height="250" rx="14" fill="#22303f" opacity=".18"/>
+
+  <!-- Webpage card -->
+  <rect x="215" y="860" width="200" height="250" rx="14" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M215 890 L215 874 Q215 860 229 860 L401 860 Q415 860 415 874 L415 890 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="232" cy="875" r="5" fill="#c0392b"/>
+  <circle cx="248" cy="875" r="5" fill="#ffd24a"/>
+  <circle cx="264" cy="875" r="5" fill="#a9dcbe"/>
+  <rect x="282" y="868" width="120" height="14" rx="7" fill="#dff1f7"/>
+  <rect x="231" y="904" width="168" height="80" rx="8" fill="#8fc9f2"/>
+  <polygon points="235,984 280,936 318,970 346,946 395,984" fill="#2f7fb5"/>
+  <circle cx="372" cy="926" r="10" fill="#ffd24a"/>
+  <rect x="231" y="998" width="150" height="8" rx="4" fill="#17457f"/>
+  <rect x="231" y="1014" width="168" height="6" rx="3" fill="#7f95ab"/>
+  <rect x="231" y="1028" width="140" height="6" rx="3" fill="#7f95ab"/>
+  <rect x="231" y="1042" width="156" height="6" rx="3" fill="#7f95ab"/>
+  <rect x="231" y="1062" width="84" height="26" rx="13" fill="#2e7d32" stroke="#22303f" stroke-width="2"/>
+  <rect x="247" y="1072" width="52" height="6" rx="3" fill="#ffffff"/>
+  <rect x="327" y="1062" width="72" height="26" rx="6" fill="#f0c48c"/>
+
+  <!-- Badge 1: paint brush -->
+  <circle cx="170" cy="800" r="44" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <g transform="translate(170 800) rotate(40)">
+    <rect x="-5" y="-2" width="10" height="34" rx="5" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="-7" y="-14" width="14" height="12" rx="2" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-7 -14 L-7 -26 Q0 -40 7 -26 L7 -14 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+  <path d="M168 832 Q184 822 200 830" fill="none" stroke="#2f7fb5" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Badge 2: hand tapping a large button -->
+  <circle cx="460" cy="800" r="44" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="428" y="806" width="64" height="24" rx="12" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M438 800 Q433 792 438 784 M482 800 Q487 792 482 784" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="446" y="760" width="32" height="26" rx="10" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="449" y="776" width="12" height="32" rx="6" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Badge 3: page with text bars -->
+  <circle cx="170" cy="1170" r="44" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M146 1138 L182 1138 L194 1150 L194 1200 L146 1200 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M182 1138 L182 1150 L194 1150" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="153" y="1152" width="24" height="5" rx="2.5" fill="#2f7fb5"/>
+  <rect x="153" y="1163" width="34" height="4" rx="2" fill="#7f95ab"/>
+  <rect x="153" y="1173" width="30" height="4" rx="2" fill="#7f95ab"/>
+  <rect x="153" y="1183" width="34" height="4" rx="2" fill="#7f95ab"/>
+
+  <!-- Badge 4: speed gauge pointing high -->
+  <circle cx="460" cy="1170" r="44" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M424 1186 A36 36 0 0 1 496 1186 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M432 1186 A28 28 0 0 1 446 1161.8" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round"/>
+  <path d="M446 1161.8 A28 28 0 0 1 474 1161.8" fill="none" stroke="#ffd24a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M474 1161.8 A28 28 0 0 1 488 1186" fill="none" stroke="#c96a1b" stroke-width="3" stroke-linecap="round"/>
+  <path d="M460 1186 L480.8 1174" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="460" cy="1186" r="5" fill="#c0392b" stroke="#22303f" stroke-width="2"/>
+
+  <!-- Check badge under the card -->
+  <circle cx="315" cy="1175" r="26" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M302 1176 L311 1185 L328 1166" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="105" y="724" width="421" height="524" rx="24" fill="none" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: warning triangle -->
+<g transform="translate(140 128)">
+  <path d="M30 4 L58 54 L2 54 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="27" y="20" width="6" height="20" rx="3" fill="#22303f"/>
+  <circle cx="30" cy="46" r="3.5" fill="#22303f"/>
+</g>
+
+<!-- Face: wink -->
+<g transform="translate(905 290)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M 5 -6 L 13 -6" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: star -->
+<g transform="translate(876 352)">
+  <polygon points="30,2 37.05,20.29 56.63,21.35 41.41,33.71 46.46,52.65 30,42 13.54,52.65 18.59,33.71 3.37,21.35 22.95,20.29" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Face: thinking -->
+<g transform="translate(180 520)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: light bulb -->
+<g transform="translate(876 600)">
+  <path d="M4 10 L-2 6 M52 10 L58 6" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="28" cy="24" r="18" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M20 38 L36 38 L34 46 L22 46 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="20" y="44" width="16" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Texts -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">«الموقع المثالي من البداية</tspan>
+  <tspan x="950" dy="40">لا يحتاج إلى تحسين»؟ خطأ؛</tspan>
+  <tspan x="950" dy="40">تذكّر: <tspan font-weight="bold" fill="#17457f">أول طبق كشري ليس أفضل طبق.</tspan></tspan>
+</text>
+
+<text x="132" y="274" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">“A perfect website from the start needs</tspan>
+  <tspan x="132" dy="40">no improvement”? Wrong; remember:</tspan>
+  <tspan x="132" dy="40"><tspan font-weight="bold" fill="#17457f">the first koshari dish</tspan></tspan>
+  <tspan x="132" dy="40"><tspan font-weight="bold" fill="#17457f">is not the best dish.</tspan></tspan>
+</text>
+
+<text x="950" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">«يكفي تحسين الشكل البصري فقط»؟ خطأ،</tspan>
+  <tspan x="950" dy="40">فالتحسين يشمل <tspan font-weight="bold" fill="#2e7d32">السهولة والمحتوى</tspan></tspan>
+  <tspan x="950" dy="40"><tspan font-weight="bold" fill="#2e7d32">والسرعة</tspan> أيضًا.</tspan>
+</text>
+
+<text x="132" y="594" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">“Improving only the visual design is</tspan>
+  <tspan x="132" dy="40">enough”? Wrong, improvement also covers</tspan>
+  <tspan x="132" dy="40"><tspan font-weight="bold" fill="#2e7d32">ease of use, content, and speed.</tspan></tspan>
+</text>
+</svg>

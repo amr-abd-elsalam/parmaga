@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Success card -->
+<rect x="109" y="648" width="870" height="288" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="642" width="870" height="288" rx="16" fill="#e9f7ee" stroke="#a9dcbe" stroke-width="2"/>
+<rect x="961" y="658" width="6" height="256" rx="3" fill="#2e7d32"/>
+
+<!-- Icon: star inside the tip card -->
+<g transform="translate(130 656)">
+  <polygon points="28,3 34.5,19.1 51.8,20.3 38.5,31.4 42.7,48.2 28,39 13.3,48.2 17.5,31.4 4.2,20.3 21.5,19.1" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: adopt or revise cycle beside item 5 (Act) -->
+<g transform="translate(898 238)">
+  <circle cx="28" cy="28" r="26" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M12.24 25.22 A16 16 0 0 1 40.26 17.72" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="44.1,22.3 42.8,12.97 35.14,19.4" fill="#2e7d32" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M43.76 30.78 A16 16 0 0 1 15.74 38.28" fill="none" stroke="#c96a1b" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="11.88,33.68 20.86,36.6 13.2,43.03" fill="#c96a1b" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: growing bars beside item 6 (small improvements add up) -->
+<g transform="translate(898 498)">
+  <rect x="6" y="40" width="8" height="10" rx="2" fill="#8fc9f2" stroke="#22303f" stroke-width="2"/>
+  <rect x="18" y="32" width="8" height="18" rx="2" fill="#2f7fb5" stroke="#22303f" stroke-width="2"/>
+  <rect x="30" y="24" width="8" height="26" rx="2" fill="#a9dcbe" stroke="#22303f" stroke-width="2"/>
+  <rect x="42" y="14" width="8" height="36" rx="2" fill="#2e7d32" stroke="#22303f" stroke-width="2"/>
+  <path d="M2 50 H54" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M6 30 L20 22 L32 16 L44 8" fill="none" stroke="#c96a1b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="40,5 50,2 47,12" fill="#c96a1b" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+</g>
+
+<!-- Illustration: a complete answer earns full marks -->
+<g>
+  <defs>
+    <linearGradient id="ilBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="ilGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd24a"/>
+      <stop offset="1" stop-color="#f0c48c"/>
+    </linearGradient>
+  </defs>
+  <!-- panel shadow and panel -->
+  <rect x="129" y="968" width="830" height="296" rx="28" fill="#22303f" opacity=".18"/>
+  <rect x="125" y="962" width="830" height="296" rx="28" fill="url(#ilBg)" stroke="#22303f" stroke-width="2.5"/>
+  <!-- desk mat and glow -->
+  <rect x="292" y="992" width="420" height="258" rx="18" fill="#8fc9f2" opacity=".35"/>
+  <circle cx="676" cy="1024" r="60" fill="#ffd24a" opacity=".35"/>
+  <!-- confetti -->
+  <circle cx="300" cy="1004" r="4" fill="#2f7fb5"/>
+  <circle cx="276" cy="1110" r="4" fill="#c96a1b"/>
+  <circle cx="300" cy="1222" r="4" fill="#2e7d32"/>
+  <circle cx="740" cy="1206" r="4" fill="#2e7d32"/>
+  <circle cx="790" cy="1170" r="4" fill="#c96a1b"/>
+  <circle cx="762" cy="1238" r="4" fill="#2f7fb5"/>
+  <!-- exam paper -->
+  <rect x="326" y="1018" width="360" height="226" rx="10" fill="#22303f" opacity=".18"/>
+  <rect x="322" y="1012" width="360" height="226" rx="10" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="342" y="1024" width="110" height="8" rx="4" fill="#2f7fb5"/>
+  <path d="M342 1040 H600" fill="none" stroke="#8fc9f2" stroke-width="2" stroke-linecap="round"/>
+  <!-- six answer lines: rules -->
+  <path d="M344 1062 H586 M344 1090 H586 M344 1118 H586 M344 1146 H586 M344 1174 H586 M344 1202 H586" fill="none" stroke="#8fc9f2" stroke-width="2" stroke-linecap="round"/>
+  <!-- start dots -->
+  <circle cx="350" cy="1052.5" r="3" fill="#c96a1b"/>
+  <circle cx="350" cy="1080.5" r="3" fill="#c96a1b"/>
+  <circle cx="350" cy="1108.5" r="3" fill="#c96a1b"/>
+  <circle cx="350" cy="1136.5" r="3" fill="#c96a1b"/>
+  <circle cx="350" cy="1164.5" r="3" fill="#c96a1b"/>
+  <circle cx="350" cy="1192.5" r="3" fill="#c96a1b"/>
+  <!-- written answers as ink strokes -->
+  <rect x="360" y="1049" width="66" height="7" rx="3.5" fill="#17457f"/>
+  <rect x="432" y="1049" width="86" height="7" rx="3.5" fill="#17457f"/>
+  <rect x="524" y="1049" width="50" height="7" rx="3.5" fill="#17457f"/>
+  <rect x="360" y="1077" width="104" height="7" rx="3.5" fill="#17457f"/>
+  <rect x="470" y="1077" width="60" height="7" rx="3.5" fill="#17457f"/>
+  <rect x="536" y="1077" width="40" height="7" rx="3.5" fill="#17457f"/>
+  <rect x="360" y="1105" width="58" height="7" rx="3.5" fill="#17457f"/>
+  <rect x="424" y="1105" width="92" height="7" rx="3.5" fill="#17457f"/>
+  <rect x="522" y="1105" width="54" height="7" rx="3.5" fill="#17457f"/>
+  <rect x="360" y="1133" width="88" height="7" rx="3.5" fill="#17457f"/>
+  <rect x="454" y="1133" width="70" height="7" rx="3.5" fill="#17457f"/>
+  <rect x="530" y="1133" width="44" height="7" rx="3.5" fill="#17457f"/>
+  <rect x="360" y="1161" width="48" height="7" rx="3.5" fill="#17457f"/>
+  <rect x="414" y="1161" width="104" height="7" rx="3.5" fill="#17457f"/>
+  <rect x="524" y="1161" width="52" height="7" rx="3.5" fill="#17457f"/>
+  <rect x="360" y="1189" width="96" height="7" rx="3.5" fill="#17457f"/>
+  <rect x="462" y="1189" width="58" height="7" rx="3.5" fill="#17457f"/>
+  <rect x="526" y="1189" width="36" height="7" rx="3.5" fill="#17457f"/>
+  <!-- green check marks at the end of each line -->
+  <circle cx="600" cy="1053" r="11" fill="#a9dcbe" stroke="#22303f" stroke-width="2"/>
+  <circle cx="600" cy="1081" r="11" fill="#a9dcbe" stroke="#22303f" stroke-width="2"/>
+  <circle cx="600" cy="1109" r="11" fill="#a9dcbe" stroke="#22303f" stroke-width="2"/>
+  <circle cx="600" cy="1137" r="11" fill="#a9dcbe" stroke="#22303f" stroke-width="2"/>
+  <circle cx="600" cy="1165" r="11" fill="#a9dcbe" stroke="#22303f" stroke-width="2"/>
+  <circle cx="600" cy="1193" r="11" fill="#a9dcbe" stroke="#22303f" stroke-width="2"/>
+  <path d="M594 1053 L598.5 1057.5 L606.5 1048 M594 1081 L598.5 1085.5 L606.5 1076 M594 1109 L598.5 1113.5 L606.5 1104 M594 1137 L598.5 1141.5 L606.5 1132 M594 1165 L598.5 1169.5 L606.5 1160 M594 1193 L598.5 1197.5 L606.5 1188" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- star badge: ribbons -->
+  <polygon points="650,1040 630,1112 644,1104 654,1118 674,1048" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="678,1048 698,1118 708,1104 722,1112 702,1040" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- star badge: shadow and rosette -->
+  <circle cx="680" cy="1030" r="54" fill="#22303f" opacity=".18"/>
+  <circle cx="723" cy="1024" r="9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="716.7" cy="1047.5" r="9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="699.5" cy="1064.7" r="9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="676" cy="1071" r="9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="652.5" cy="1064.7" r="9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="635.3" cy="1047.5" r="9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="629" cy="1024" r="9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="635.3" cy="1000.5" r="9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="652.5" cy="983.3" r="9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="676" cy="977" r="9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="699.5" cy="983.3" r="9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="716.7" cy="1000.5" r="9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="676" cy="1024" r="46" fill="url(#ilGold)" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="676" cy="1024" r="36" fill="#c96a1b" stroke="#22303f" stroke-width="2"/>
+  <polygon points="676,996 683.05,1014.29 702.63,1015.35 687.41,1027.71 692.46,1046.65 676,1036 659.54,1046.65 664.59,1027.71 649.37,1015.35 668.95,1014.29" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M652 1004 Q658 994 668 990" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <!-- four-pointed sparkles around the star -->
+  <path d="M604 972 L607 979 L614 982 L607 985 L604 992 L601 985 L594 982 L601 979 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M760 968 L763.6 976.4 L772 980 L763.6 983.6 L760 992 L756.4 983.6 L748 980 L756.4 976.4 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M792 1025 L794.7 1031.3 L801 1034 L794.7 1036.7 L792 1043 L789.3 1036.7 L783 1034 L789.3 1031.3 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M756 1086 L758.4 1091.6 L764 1094 L758.4 1096.4 L756 1102 L753.6 1096.4 L748 1094 L753.6 1091.6 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <!-- pencil resting at the bottom edge -->
+  <ellipse cx="512" cy="1254" rx="110" ry="4" fill="#22303f" opacity=".18"/>
+  <g transform="rotate(-3 512 1243)">
+    <rect x="420" y="1236" width="182" height="14" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M424 1243 H598" fill="none" stroke="#c96a1b" stroke-width="2" stroke-linecap="round"/>
+    <rect x="602" y="1236" width="14" height="14" fill="#7f95ab" stroke="#22303f" stroke-width="2"/>
+    <rect x="616" y="1236" width="18" height="14" rx="4" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+    <polygon points="420,1236 420,1250 398,1243" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="405,1240.8 405,1245.2 398,1243" fill="#22303f"/>
+  </g>
+</g>
+
+<!-- Smile face (panel, left) -->
+<g transform="translate(222 1078)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Check badge icon (panel, left) -->
+<g transform="translate(194 1148)">
+  <circle cx="28" cy="28" r="24" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="28" cy="28" r="17" fill="none" stroke="#a9dcbe" stroke-width="2"/>
+  <path d="M18 29 L25 36 L39 21" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Wink face (panel, right) -->
+<g transform="translate(870 1080)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M 5 -6 L 13 -6" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Light bulb icon (panel, right) -->
+<g transform="translate(838 1150)">
+  <path d="M3 20 L8 20 M44 20 L49 20 M9 4 L12 7 M43 4 L40 7" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="26" cy="20" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M21 22 Q26 28 31 22" fill="none" stroke="#c96a1b" stroke-width="2" stroke-linecap="round"/>
+  <rect x="19" y="34" width="14" height="10" rx="2" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Bullets -->
+<circle cx="966" cy="144" r="6" fill="#c0392b"/>
+<circle cx="114" cy="224" r="6" fill="#c0392b"/>
+<circle cx="966" cy="344" r="6" fill="#c0392b"/>
+<circle cx="114" cy="464" r="6" fill="#c0392b"/>
+
+<!-- Texts -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">5 في خطوة <tspan font-weight="bold" fill="#c0392b">«تصرّف»</tspan> يعتمد <tspan font-weight="bold" fill="#2e7d32">ما نجح،</tspan></tspan>
+  <tspan x="950" dy="40">أو يعدّل الخطة، ويحدد الخطوة التالية.</tspan>
+</text>
+<text x="132" y="234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">5 In the <tspan font-weight="bold" fill="#c0392b">“Act”</tspan> step, it adopts</tspan>
+  <tspan x="132" dy="40"><tspan font-weight="bold" fill="#2e7d32">what worked</tspan> or revises the plan, and</tspan>
+  <tspan x="132" dy="40">decides the next step.</tspan>
+</text>
+<text x="950" y="354" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">6 <tspan font-weight="bold" fill="#c0392b">التكرار</tspan> يجعل التحسينات الصغيرة <tspan font-weight="bold" fill="#2e7d32">تتراكم،</tspan></tspan>
+  <tspan x="950" dy="40">ويقلل خطر إضاعة الوقت والجهد</tspan>
+  <tspan x="950" dy="40">على تغيير كبير قد يفشل.</tspan>
+</text>
+<text x="132" y="474" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">6 <tspan font-weight="bold" fill="#c0392b">Repetition</tspan> lets small improvements</tspan>
+  <tspan x="132" dy="40"><tspan font-weight="bold" fill="#2e7d32">add up</tspan> and reduces the risk of wasting</tspan>
+  <tspan x="132" dy="40">time and effort on a big change</tspan>
+  <tspan x="132" dy="40">that may fail.</tspan>
+</text>
+<text x="935" y="674" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#2e7d32">نصيحة:</tspan> اكتب اسم كل خطوة بوضوح،</tspan>
+  <tspan x="935" dy="40">لأن المصحح يبحث عن الكلمات المفتاحية:</tspan>
+  <tspan x="935" dy="40"><tspan font-weight="bold" fill="#17457f">قياس النتائج،</tspan> <tspan font-weight="bold" fill="#17457f">والتصرف</tspan> بناءً عليها.</tspan>
+</text>
+<text x="140" y="794" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#2e7d32">Tip:</tspan> write the name of each step</tspan>
+  <tspan x="140" dy="40">clearly, because the marker looks for</tspan>
+  <tspan x="140" dy="40">the key words: <tspan font-weight="bold" fill="#17457f">measuring results</tspan> and</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#17457f">acting</tspan> on them.</tspan>
+</text>
+</svg>

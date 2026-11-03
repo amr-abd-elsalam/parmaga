@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Info card: shadow, fill, accent bar -->
+<rect x="109" y="128" width="870" height="688" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="122" width="870" height="688" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="656" rx="3" fill="#2f7fb5"/>
+
+<!-- Smile face beside User Feedback -->
+<g transform="translate(895 392)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Document stack icon beside Usage Data -->
+<g transform="translate(874 688)">
+  <rect x="10" y="0" width="34" height="44" rx="4" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="5" y="6" width="34" height="44" rx="4" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="0" y="12" width="34" height="44" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 7 26 L 27 26 M 7 34 L 27 34 M 7 42 L 20 42" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Illustration: two kinds of evidence flowing into one folder -->
+<g>
+  <defs>
+    <linearGradient id="ilScreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#8fc9f2"/>
+    </linearGradient>
+    <linearGradient id="ilShirt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f7fb5"/>
+      <stop offset="1" stop-color="#17457f"/>
+    </linearGradient>
+    <linearGradient id="ilFolder" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0c48c"/>
+      <stop offset="1" stop-color="#c96a1b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- shadows -->
+  <rect x="184" y="894" width="280" height="170" rx="14" fill="#22303f" opacity=".18"/>
+  <rect x="266" y="1086" width="116" height="12" rx="6" fill="#22303f" opacity=".18"/>
+  <circle cx="500" cy="928" r="22" fill="#22303f" opacity=".18"/>
+  <rect x="478" y="978" width="32" height="42" rx="4" fill="#22303f" opacity=".18"/>
+  <g transform="translate(4 6)" opacity=".18">
+    <path d="M 612 884 L 708 884 Q 730 884 730 906 L 730 916 L 762 938 L 726 932 Q 720 948 708 948 L 612 948 Q 590 948 590 926 L 590 906 Q 590 884 612 884 Z" fill="#22303f"/>
+    <path d="M 660 966 L 728 966 Q 750 966 750 988 L 750 990 L 790 1000 L 746 1004 Q 740 1016 728 1016 L 660 1016 Q 640 1016 640 994 L 640 988 Q 640 966 660 966 Z" fill="#22303f"/>
+    <rect x="586" y="1036" width="172" height="46" rx="12" fill="#22303f"/>
+    <path d="M 790 1092 C 792 1046, 814 1030, 850 1030 C 886 1030, 908 1046, 910 1092 Z" fill="#22303f"/>
+    <path d="M 470 1168 Q 470 1158 480 1158 L 522 1158 L 534 1170 L 600 1170 Q 610 1170 610 1180 L 610 1236 L 470 1236 Z" fill="#22303f"/>
+  </g>
+
+  <!-- dotted divider -->
+  <path d="M540 880 L540 884 M540 896 L540 900 M540 912 L540 916 M540 928 L540 932 M540 944 L540 948 M540 960 L540 964 M540 976 L540 980 M540 992 L540 996 M540 1008 L540 1012 M540 1024 L540 1028 M540 1040 L540 1044 M540 1056 L540 1060 M540 1072 L540 1076 M540 1088 L540 1092 M540 1104 L540 1108" fill="none" stroke="#7f95ab" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- left half: monitor with bar chart -->
+  <rect x="180" y="888" width="280" height="170" rx="14" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="194" y="902" width="252" height="142" rx="6" fill="url(#ilScreen)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="300" y="1058" width="40" height="22" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="262" y="1080" width="116" height="12" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 214 918 L 214 1028 L 430 1028" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="232" y="984" width="30" height="44" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="274" y="958" width="30" height="70" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="316" y="974" width="30" height="54" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="358" y="932" width="30" height="96" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- mouse cursor clicking -->
+  <path d="M 386 940 L 380 934 M 398 936 L 398 928 M 410 940 L 416 934" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="398,948 398,984 407,975 414,990 421,987 414,972 426,972" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- small clock -->
+  <circle cx="496" cy="922" r="22" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 496 922 L 496 908 M 496 922 L 506 928" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="496" cy="922" r="3.5" fill="#c0392b"/>
+  <!-- stack of pages -->
+  <rect x="484" y="960" width="32" height="42" rx="4" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="479" y="966" width="32" height="42" rx="4" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="474" y="972" width="32" height="42" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 480 984 L 500 984 M 480 992 L 500 992 M 480 1000 L 494 1000" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- right half: speech bubbles -->
+  <path d="M 612 884 L 708 884 Q 730 884 730 906 L 730 916 L 762 938 L 726 932 Q 720 948 708 948 L 612 948 Q 590 948 590 926 L 590 906 Q 590 884 612 884 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 660 966 L 728 966 Q 750 966 750 988 L 750 990 L 790 1000 L 746 1004 Q 740 1016 728 1016 L 660 1016 Q 640 1016 640 994 L 640 988 Q 640 966 660 966 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- five-star card -->
+  <rect x="586" y="1036" width="172" height="46" rx="12" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <g transform="translate(608 1060)"><polygon points="0,-11 2.6,-3.6 10.5,-3.4 4.3,1.4 6.5,8.9 0,4.5 -6.5,8.9 -4.3,1.4 -10.5,-3.4 -2.6,-3.6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/></g>
+  <g transform="translate(640 1060)"><polygon points="0,-11 2.6,-3.6 10.5,-3.4 4.3,1.4 6.5,8.9 0,4.5 -6.5,8.9 -4.3,1.4 -10.5,-3.4 -2.6,-3.6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/></g>
+  <g transform="translate(672 1060)"><polygon points="0,-11 2.6,-3.6 10.5,-3.4 4.3,1.4 6.5,8.9 0,4.5 -6.5,8.9 -4.3,1.4 -10.5,-3.4 -2.6,-3.6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/></g>
+  <g transform="translate(704 1060)"><polygon points="0,-11 2.6,-3.6 10.5,-3.4 4.3,1.4 6.5,8.9 0,4.5 -6.5,8.9 -4.3,1.4 -10.5,-3.4 -2.6,-3.6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/></g>
+  <g transform="translate(736 1060)"><polygon points="0,-11 2.6,-3.6 10.5,-3.4 4.3,1.4 6.5,8.9 0,4.5 -6.5,8.9 -4.3,1.4 -10.5,-3.4 -2.6,-3.6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/></g>
+  <!-- modest student speaking -->
+  <path d="M 790 1092 C 792 1046, 814 1030, 850 1030 C 886 1030, 908 1046, 910 1092 Z" fill="url(#ilShirt)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 850 940 C 816 940, 806 968, 808 992 C 808 1012, 812 1030, 806 1046 C 830 1056, 870 1056, 894 1046 C 888 1030, 892 1012, 892 992 C 894 968, 884 940, 850 940 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="850" cy="986" rx="23" ry="27" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="842" cy="982" r="3" fill="#22303f"/>
+  <circle cx="858" cy="982" r="3" fill="#22303f"/>
+  <ellipse cx="850" cy="1000" rx="6" ry="4" fill="#22303f"/>
+
+  <!-- shared folder -->
+  <path d="M 470 1168 Q 470 1158 480 1158 L 522 1158 L 534 1170 L 600 1170 Q 610 1170 610 1180 L 610 1236 L 470 1236 Z" fill="url(#ilFolder)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="484" y="1166" width="112" height="34" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 462 1192 L 618 1192 L 608 1236 L 472 1236 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- connector arrows -->
+  <path d="M 320 1104 C 320 1160, 380 1200, 446 1206" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="458,1207 443,1199 444,1215" fill="#c0392b"/>
+  <path d="M 850 1104 C 850 1160, 700 1200, 634 1206" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="622,1207 637,1199 636,1215" fill="#c0392b"/>
+</g>
+
+<!-- Card header -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">نوعان من الدليل</tspan>
+</text>
+<text x="140" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">TWO KINDS OF EVIDENCE</tspan>
+</text>
+
+<!-- Paragraph 1: User Feedback -->
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">ملاحظات المستخدمين</tspan> (User Feedback):</tspan>
+  <tspan x="935" dy="40">ما يقوله المستخدمون أو يكتبونه عن تجربتهم،</tspan>
+  <tspan x="935" dy="40">مثل <tspan fill="#c96a1b">التعليقات والاستبيانات.</tspan></tspan>
+</text>
+<text x="140" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">User Feedback:</tspan> what users say or</tspan>
+  <tspan x="140" dy="40">write about their experience, such as</tspan>
+  <tspan x="140" dy="40"><tspan fill="#c96a1b">comments and surveys.</tspan></tspan>
+</text>
+
+<!-- Paragraph 2: Usage Data -->
+<text x="935" y="514" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">بيانات الاستخدام</tspan> (Usage Data):</tspan>
+  <tspan x="935" dy="40">أرقام تسجّل ما يفعله المستخدمون <tspan font-weight="bold" fill="#17457f">فعلًا</tspan></tspan>
+  <tspan x="935" dy="40">على الموقع، مثل النقرات ومدة البقاء</tspan>
+  <tspan x="935" dy="40">والصفحات التي يزورونها.</tspan>
+</text>
+<text x="140" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Usage Data:</tspan> numbers that record what</tspan>
+  <tspan x="140" dy="40">users <tspan font-weight="bold" fill="#17457f">actually</tspan> do on the site,</tspan>
+  <tspan x="140" dy="40">such as clicks, time spent, and the</tspan>
+  <tspan x="140" dy="40">pages they visit.</tspan>
+</text>
+</svg>

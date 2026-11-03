@@ -1,0 +1,223 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Info card -->
+<rect x="109" y="288" width="870" height="448" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="282" width="870" height="448" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="298" width="6" height="416" rx="3" fill="#2f7fb5"/>
+
+<!-- Key sentence strip -->
+<rect x="109" y="768" width="870" height="88" rx="10" fill="#22303f" opacity=".12"/>
+<rect x="105" y="762" width="870" height="88" rx="10" fill="#fdf6d8"/>
+<rect x="961" y="778" width="6" height="56" rx="3" fill="#e0a55e"/>
+
+<!-- Illustration: balance scale judging two webpage versions -->
+<g>
+  <linearGradient id="ilPillar" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+  <linearGradient id="ilPan" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8fc9f2"/>
+    <stop offset="1" stop-color="#2f7fb5"/>
+  </linearGradient>
+  <linearGradient id="ilBarG" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#a9dcbe"/>
+    <stop offset="1" stop-color="#2e7d32"/>
+  </linearGradient>
+  <linearGradient id="ilBarB" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#8fc9f2"/>
+  </linearGradient>
+
+  <!-- backdrop and floor -->
+  <ellipse cx="540" cy="1060" rx="360" ry="170" fill="#dff1f7" opacity=".6"/>
+  <ellipse cx="540" cy="1252" rx="400" ry="8" fill="#e8dfd1"/>
+
+  <!-- shadows -->
+  <rect x="534" y="956" width="20" height="202" rx="6" fill="#22303f" opacity=".18"/>
+  <path d="M486 1182 L602 1182 L586 1156 L502 1156 Z" fill="#22303f" opacity=".18"/>
+  <rect x="456" y="1180" width="176" height="10" rx="5" fill="#22303f" opacity=".18"/>
+  <polygon points="313.5,968 773.5,932 774.5,944 314.5,980" fill="#22303f" opacity=".18"/>
+  <rect x="254" y="996" width="120" height="94" rx="10" fill="#22303f" opacity=".18"/>
+  <rect x="714" y="960" width="120" height="94" rx="10" fill="#22303f" opacity=".18"/>
+  <path d="M210 1096 Q314 1152 418 1096 Z" fill="#22303f" opacity=".18"/>
+  <path d="M670 1060 Q774 1116 878 1060 Z" fill="#22303f" opacity=".18"/>
+  <rect x="294" y="886" width="40" height="70" rx="6" fill="#22303f" opacity=".18"/>
+  <rect x="754" y="894" width="40" height="30" rx="6" fill="#22303f" opacity=".18"/>
+
+  <!-- pillar and base -->
+  <rect x="530" y="950" width="20" height="202" rx="6" fill="url(#ilPillar)" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M482 1176 L598 1176 L582 1150 L498 1150 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="452" y="1174" width="176" height="10" rx="5" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- strings -->
+  <path d="M310 972 L208 1086 M310 972 L412 1086" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M770 936 L668 1050 M770 936 L872 1050" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- left webpage card (blue button) -->
+  <rect x="250" y="990" width="120" height="94" rx="10" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M252 1006 L252 1000 Q252 992 260 992 L360 992 Q368 992 368 1000 L368 1006 Z" fill="#dff1f7"/>
+  <circle cx="262" cy="999" r="3" fill="#c0392b"/>
+  <circle cx="272" cy="999" r="3" fill="#ffd24a"/>
+  <circle cx="282" cy="999" r="3" fill="#2e7d32"/>
+  <rect x="262" y="1014" width="40" height="28" rx="4" fill="#8fc9f2"/>
+  <path d="M264 1040 L278 1026 L288 1036 L294 1030 L300 1040 Z" fill="#2f7fb5"/>
+  <rect x="310" y="1016" width="48" height="6" rx="3" fill="#e8dfd1"/>
+  <rect x="310" y="1028" width="40" height="6" rx="3" fill="#e8dfd1"/>
+  <rect x="310" y="1040" width="44" height="6" rx="3" fill="#e8dfd1"/>
+  <rect x="280" y="1054" width="60" height="18" rx="9" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- right webpage card (red button) -->
+  <rect x="710" y="954" width="120" height="94" rx="10" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M712 970 L712 964 Q712 956 720 956 L820 956 Q828 956 828 964 L828 970 Z" fill="#dff1f7"/>
+  <circle cx="722" cy="963" r="3" fill="#c0392b"/>
+  <circle cx="732" cy="963" r="3" fill="#ffd24a"/>
+  <circle cx="742" cy="963" r="3" fill="#2e7d32"/>
+  <rect x="722" y="978" width="40" height="28" rx="4" fill="#8fc9f2"/>
+  <path d="M724 1004 L738 990 L748 1000 L754 994 L760 1004 Z" fill="#2f7fb5"/>
+  <rect x="770" y="980" width="48" height="6" rx="3" fill="#e8dfd1"/>
+  <rect x="770" y="992" width="40" height="6" rx="3" fill="#e8dfd1"/>
+  <rect x="770" y="1004" width="44" height="6" rx="3" fill="#e8dfd1"/>
+  <rect x="740" y="1018" width="60" height="18" rx="9" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- pans -->
+  <path d="M206 1090 Q310 1146 414 1090 Z" fill="url(#ilPan)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="200" y="1084" width="220" height="8" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M666 1054 Q770 1110 874 1054 Z" fill="url(#ilPan)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="660" y="1048" width="220" height="8" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- beam, rings, finial -->
+  <polygon points="309.5,962 769.5,926 770.5,938 310.5,974" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="310" cy="968" r="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="770" cy="932" r="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="540,916 552,936 528,936" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="540" cy="950" r="14" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- floating data bars (left taller) -->
+  <rect x="290" y="880" width="40" height="70" rx="6" fill="url(#ilBarG)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="750" y="888" width="40" height="30" rx="6" fill="url(#ilBarB)" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="258" cy="892" r="14" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M251 892 L256 897 L265 887" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- sparkles -->
+  <path d="M150 948 L153 957 L162 960 L153 963 L150 972 L147 963 L138 960 L147 957 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M935 948 L938 957 L947 960 L938 963 L935 972 L932 963 L923 960 L932 957 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M180 1108 L183 1117 L192 1120 L183 1123 L180 1132 L177 1123 L168 1120 L177 1117 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M905 1098 L908 1107 L917 1110 L908 1113 L905 1122 L902 1113 L893 1110 L902 1107 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- random split: dashed paths from users to each pan -->
+  <path d="M305 1194 L305 1184 M305 1176 L305 1166 M305 1158 L305 1148 M305 1140 L305 1132" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="305,1122 299,1132 311,1132" fill="#2f7fb5"/>
+  <path d="M775 1194 L775 1184 M775 1176 L775 1166 M775 1158 L775 1148 M775 1140 L775 1130 M775 1122 L775 1112 M775 1104 L775 1098" fill="none" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="775,1088 769,1098 781,1098" fill="#c0392b"/>
+
+  <!-- row of users -->
+  <path d="M151 1250 L151 1240 Q151 1226 165 1226 Q179 1226 179 1240 L179 1250 Z" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="165" cy="1213" r="9" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M156 1212 Q156 1203 165 1203 Q174 1203 174 1212 Q165 1207 156 1212 Z" fill="#2b211c"/>
+  <path d="M219 1250 L219 1240 Q219 1226 233 1226 Q247 1226 247 1240 L247 1250 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="233" cy="1213" r="9" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M287 1250 L287 1240 Q287 1226 301 1226 Q315 1226 315 1240 L315 1250 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="301" cy="1213" r="9" fill="#b57e50" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M292 1212 Q292 1203 301 1203 Q310 1203 310 1212 Q301 1207 292 1212 Z" fill="#2b211c"/>
+  <path d="M355 1250 L355 1240 Q355 1226 369 1226 Q383 1226 383 1240 L383 1250 Z" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="369" cy="1213" r="9" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M423 1250 L423 1240 Q423 1226 437 1226 Q451 1226 451 1240 L451 1250 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="437" cy="1213" r="9" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M428 1212 Q428 1203 437 1203 Q446 1203 446 1212 Q437 1207 428 1212 Z" fill="#2b211c"/>
+  <path d="M491 1250 L491 1240 Q491 1226 505 1226 Q519 1226 519 1240 L519 1250 Z" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="505" cy="1213" r="9" fill="#b57e50" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M559 1250 L559 1240 Q559 1226 573 1226 Q587 1226 587 1240 L587 1250 Z" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="573" cy="1213" r="9" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M564 1212 Q564 1203 573 1203 Q582 1203 582 1212 Q573 1207 564 1212 Z" fill="#2b211c"/>
+  <path d="M627 1250 L627 1240 Q627 1226 641 1226 Q655 1226 655 1240 L655 1250 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="641" cy="1213" r="9" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M695 1250 L695 1240 Q695 1226 709 1226 Q723 1226 723 1240 L723 1250 Z" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="709" cy="1213" r="9" fill="#b57e50" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M700 1212 Q700 1203 709 1203 Q718 1203 718 1212 Q709 1207 700 1212 Z" fill="#2b211c"/>
+  <path d="M763 1250 L763 1240 Q763 1226 777 1226 Q791 1226 791 1240 L791 1250 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="777" cy="1213" r="9" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M831 1250 L831 1240 Q831 1226 845 1226 Q859 1226 859 1240 L859 1250 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="845" cy="1213" r="9" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M836 1212 Q836 1203 845 1203 Q854 1203 854 1212 Q845 1207 836 1212 Z" fill="#2b211c"/>
+  <path d="M899 1250 L899 1240 Q899 1226 913 1226 Q927 1226 927 1240 L927 1250 Z" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="913" cy="1213" r="9" fill="#b57e50" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: light bulb beside the title -->
+<g transform="translate(122 92)">
+  <path d="M8 10 L4 6 M48 10 L52 6 M6 26 L0 26 M50 26 L56 26" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="28" cy="24" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="21" y="38" width="14" height="10" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Face: smile beside the title -->
+<g transform="translate(930 130)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: open book in the definition card -->
+<g transform="translate(400 302)">
+  <path d="M22 10 Q12 4 2 8 L2 36 Q12 32 22 38 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M22 10 Q32 4 42 8 L42 36 Q32 32 22 38 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M8 16 L17 18 M8 23 L17 25 M27 18 L36 16 M27 25 L36 23" fill="none" stroke="#2f7fb5" stroke-width="2" stroke-linecap="round"/>
+</g>
+
+<!-- Texts -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">
+  <tspan x="540" dy="0">اختبار A/B: الميزان</tspan>
+  <tspan x="540" dy="48">الذي يحكم بالأرقام</tspan>
+</text>
+
+<text x="540" y="202" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="normal" fill="#152b42">
+  <tspan x="540" dy="0">A/B Testing: The Scale</tspan>
+  <tspan x="540" dy="36">That Judges with Numbers</tspan>
+</text>
+
+<text x="935" y="314" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">تعريف</text>
+
+<text x="140" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">DEFINITION</text>
+
+<text x="935" y="394" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">اختبار A/B:</tspan> تجربة تقارن <tspan font-weight="bold" fill="#17457f">نسختين</tspan> بينهما</tspan>
+  <tspan x="935" dy="40">فرق محدد، تُعرضان على <tspan font-weight="bold" fill="#17457f">مستخدمين حقيقيين</tspan></tspan>
+  <tspan x="935" dy="40">موزعين عشوائيًا، ثم يُحكم بينهما</tspan>
+  <tspan x="935" dy="40">بمقياس حُدِّد مسبقًا.</tspan>
+</text>
+
+<text x="140" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">A/B testing:</tspan> an experiment that</tspan>
+  <tspan x="140" dy="40">compares <tspan font-weight="bold" fill="#17457f">two versions</tspan> with a specific</tspan>
+  <tspan x="140" dy="40">difference between them, shown to</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#17457f">real users</tspan> divided at random, and then</tspan>
+  <tspan x="140" dy="40">judged by a metric set in advance.</tspan>
+</text>
+
+<text x="935" y="794" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#17457f">الأرقام هي التي تقرر، لا الذوق.</text>
+
+<text x="140" y="834" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="bold" fill="#17457f">Numbers decide, not taste.</text>
+</svg>

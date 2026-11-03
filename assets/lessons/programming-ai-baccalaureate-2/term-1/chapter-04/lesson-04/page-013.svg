@@ -1,0 +1,228 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Shadows of strip and card -->
+<rect x="109" y="128" width="870" height="168" rx="10" fill="#22303f" opacity=".12"/>
+<rect x="109" y="328" width="870" height="328" rx="16" fill="#22303f" opacity=".12"/>
+
+<!-- Key sentence strip -->
+<rect x="105" y="122" width="870" height="168" rx="10" fill="#fdf6d8"/>
+<rect x="961" y="138" width="6" height="136" rx="3" fill="#e0a55e"/>
+
+<!-- Info card -->
+<rect x="105" y="322" width="870" height="328" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="338" width="6" height="296" rx="3" fill="#2f7fb5"/>
+
+<!-- Illustration: smooth vs confusing user experience -->
+<g>
+  <linearGradient id="ilPanelR" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#a9dcbe"/>
+  </linearGradient>
+  <linearGradient id="ilPanelL" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#f0c48c"/>
+  </linearGradient>
+  <linearGradient id="ilScreenR" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+  <linearGradient id="ilScreenL" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#8fc9f2"/>
+  </linearGradient>
+
+  <!-- shadows -->
+  <rect x="119" y="926" width="415" height="318" rx="24" fill="#22303f" opacity=".18"/>
+  <rect x="554" y="926" width="415" height="318" rx="24" fill="#22303f" opacity=".18"/>
+  <rect x="304" y="996" width="140" height="220" rx="20" fill="#22303f" opacity=".18"/>
+  <rect x="614" y="996" width="140" height="220" rx="20" fill="#22303f" opacity=".18"/>
+
+  <!-- panels -->
+  <rect x="115" y="920" width="415" height="318" rx="24" fill="url(#ilPanelL)" stroke="#7f95ab" stroke-width="2.5"/>
+  <rect x="550" y="920" width="415" height="318" rx="24" fill="url(#ilPanelR)" stroke="#7f95ab" stroke-width="2.5"/>
+  <path d="M540 940 L540 958 M540 972 L540 990 M540 1004 L540 1022 M540 1036 L540 1054 M540 1068 L540 1086 M540 1100 L540 1118 M540 1132 L540 1150 M540 1164 L540 1182 M540 1196 L540 1214" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- LEFT: puzzled student -->
+  <path d="M 140 1230 L 146 1122 Q 152 1088 210 1086 Q 268 1088 274 1122 L 280 1230 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 160 1046 Q 156 976 210 974 Q 264 976 260 1046 Q 262 1084 284 1104 Q 210 1124 136 1104 Q 158 1084 160 1046 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="210" cy="1036" rx="30" ry="34" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="199" cy="1030" r="3.5" fill="#22303f"/>
+  <circle cx="221" cy="1030" r="3.5" fill="#22303f"/>
+  <path d="M 194 1018 L 204 1018" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 214 1016 L 226 1011" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 200 1053 L 220 1049" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 136 994 Q 128 1008 136 1014 Q 144 1008 136 994 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- left phone with tiny crowded buttons -->
+  <rect x="300" y="990" width="140" height="220" rx="20" fill="#22303f"/>
+  <rect x="310" y="1006" width="120" height="188" rx="10" fill="url(#ilScreenL)"/>
+  <rect x="352" y="996" width="36" height="5" rx="2.5" fill="#7f95ab"/>
+  <rect x="316" y="1016" width="22" height="14" rx="4" fill="#f0c48c"/>
+  <rect x="344" y="1016" width="22" height="14" rx="4" fill="#c96a1b"/>
+  <rect x="372" y="1016" width="22" height="14" rx="4" fill="#2f7fb5"/>
+  <rect x="400" y="1016" width="22" height="14" rx="4" fill="#c0392b"/>
+  <rect x="316" y="1038" width="22" height="14" rx="4" fill="#2f7fb5"/>
+  <rect x="344" y="1038" width="22" height="14" rx="4" fill="#ffffff"/>
+  <rect x="372" y="1038" width="22" height="14" rx="4" fill="#f0c48c"/>
+  <rect x="400" y="1038" width="22" height="14" rx="4" fill="#17457f"/>
+  <rect x="316" y="1060" width="22" height="14" rx="4" fill="#c96a1b"/>
+  <rect x="344" y="1060" width="22" height="14" rx="4" fill="#17457f"/>
+  <rect x="372" y="1060" width="22" height="14" rx="4" fill="#ffffff"/>
+  <rect x="400" y="1060" width="22" height="14" rx="4" fill="#f0c48c"/>
+  <rect x="316" y="1082" width="22" height="14" rx="4" fill="#ffffff"/>
+  <rect x="344" y="1082" width="22" height="14" rx="4" fill="#f0c48c"/>
+  <rect x="372" y="1082" width="22" height="14" rx="4" fill="#c96a1b"/>
+  <rect x="400" y="1082" width="22" height="14" rx="4" fill="#2f7fb5"/>
+  <rect x="316" y="1104" width="22" height="14" rx="4" fill="#17457f"/>
+  <rect x="344" y="1104" width="22" height="14" rx="4" fill="#c0392b"/>
+  <rect x="372" y="1104" width="22" height="14" rx="4" fill="#2f7fb5"/>
+  <rect x="400" y="1104" width="22" height="14" rx="4" fill="#ffffff"/>
+  <rect x="316" y="1126" width="22" height="14" rx="4" fill="#f0c48c"/>
+  <rect x="344" y="1126" width="22" height="14" rx="4" fill="#2f7fb5"/>
+  <rect x="372" y="1126" width="22" height="14" rx="4" fill="#17457f"/>
+  <rect x="400" y="1126" width="22" height="14" rx="4" fill="#c96a1b"/>
+  <rect x="316" y="1148" width="22" height="14" rx="4" fill="#c96a1b"/>
+  <rect x="344" y="1148" width="22" height="14" rx="4" fill="#ffffff"/>
+  <rect x="372" y="1148" width="22" height="14" rx="4" fill="#f0c48c"/>
+  <rect x="400" y="1148" width="22" height="14" rx="4" fill="#2f7fb5"/>
+  <circle cx="322" cy="1178" r="5" fill="#7f95ab"/>
+  <circle cx="346" cy="1178" r="5" fill="#7f95ab"/>
+  <circle cx="370" cy="1178" r="5" fill="#7f95ab"/>
+  <circle cx="394" cy="1178" r="5" fill="#7f95ab"/>
+  <circle cx="418" cy="1178" r="5" fill="#7f95ab"/>
+  <path d="M 268 1118 Q 288 1128 302 1130 L 302 1160 Q 284 1162 264 1158 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="302" cy="1145" rx="14" ry="17" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- tangled looping arrow above the left phone -->
+  <path d="M 296 972 C 300 934, 346 934, 340 958 C 334 980, 304 960, 330 944 C 356 928, 392 940, 378 962 C 366 980, 350 952, 384 942 C 414 934, 430 952, 424 968" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="415,966 433,966 424,982" fill="#c0392b"/>
+
+  <!-- RIGHT: smiling student -->
+  <rect x="848" y="1060" width="24" height="30" rx="6" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 790 1230 L 796 1122 Q 802 1088 860 1086 Q 918 1088 924 1122 L 930 1230 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="840,1088 860,1112 880,1088" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="824" cy="1032" r="8" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="896" cy="1032" r="8" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="860" cy="1030" r="36" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 824 1026 Q 820 986 860 984 Q 900 986 896 1026 Q 886 1004 860 1004 Q 834 1004 824 1026 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="849" cy="1028" r="3.5" fill="#22303f"/>
+  <circle cx="871" cy="1028" r="3.5" fill="#22303f"/>
+  <circle cx="840" cy="1043" r="5" fill="#d59f6f" opacity=".6"/>
+  <circle cx="880" cy="1043" r="5" fill="#d59f6f" opacity=".6"/>
+  <path d="M 848 1044 Q 860 1056 872 1044" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- right phone with one large clear button -->
+  <rect x="610" y="990" width="140" height="220" rx="20" fill="#22303f"/>
+  <rect x="620" y="1006" width="120" height="188" rx="10" fill="url(#ilScreenR)"/>
+  <rect x="662" y="996" width="36" height="5" rx="2.5" fill="#7f95ab"/>
+  <rect x="636" y="1024" width="88" height="10" rx="5" fill="#8fc9f2"/>
+  <rect x="635" y="1072" width="90" height="52" rx="26" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 664 1098 L 676 1110 L 698 1086" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="640" y="1146" width="80" height="8" rx="4" fill="#8fc9f2"/>
+  <rect x="652" y="1164" width="56" height="8" rx="4" fill="#8fc9f2"/>
+  <path d="M 800 1118 Q 772 1128 750 1130 L 750 1160 Q 776 1162 804 1158 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="750" cy="1145" rx="14" ry="17" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- smooth straight arrow from student to button -->
+  <polygon points="800,1091 762,1091 762,1082 734,1098 762,1114 762,1105 800,1105" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- success accents -->
+  <path d="M 790 944 Q 793 955 804 958 Q 793 961 790 972 Q 787 961 776 958 Q 787 955 790 944 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 590 1036 Q 592 1044 600 1046 Q 592 1048 590 1056 Q 588 1048 580 1046 Q 588 1044 590 1036 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="928" cy="962" r="16" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 920 962 L 926 968 L 937 956" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: light bulb (strip) -->
+<g transform="translate(136 136)">
+  <path d="M 4 6 L 9 10 M 44 6 L 39 10 M 24 0 L 24 2" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="24" cy="20" r="15" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="17" y="33" width="14" height="11" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: bar chart (strip) -->
+<g transform="translate(196 136)">
+  <rect x="4" y="26" width="10" height="18" rx="2" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="19" y="16" width="10" height="28" rx="2" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="34" y="6" width="10" height="38" rx="2" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 0 46 L 48 46" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: open book (definition) -->
+<g transform="translate(780 328)">
+  <path d="M 22 8 Q 12 2 2 6 L 2 38 Q 12 34 22 40 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 22 8 Q 32 2 42 6 L 42 38 Q 32 34 22 40 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 8 14 L 17 15 M 8 21 L 17 22 M 27 15 L 36 14 M 27 22 L 36 21" fill="none" stroke="#2f7fb5" stroke-width="2" stroke-linecap="round"/>
+</g>
+
+<!-- Thinking face (quick question) -->
+<g transform="translate(180 700)">
+  <circle r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: pencil -->
+<g transform="translate(232 678)">
+  <polygon points="8,36 30,8 38,16 16,44" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="30,8 34,3 43,12 38,16" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="8,36 16,44 3,47" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- TEXT -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">الملاحظات تخبرك «لماذا»،</tspan>
+  <tspan x="935" dy="40">وبيانات الاستخدام تخبرك «ماذا حدث».</tspan>
+</text>
+<text x="140" y="234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">Feedback tells you “why”;</tspan>
+  <tspan x="140" dy="40">usage data tells you “what happened”.</tspan>
+</text>
+
+<text x="935" y="354" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">تعريف</text>
+<text x="140" y="394" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">DEFINITION</text>
+
+<text x="935" y="434" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">تجربة المستخدم</tspan> (User Experience - UX):</tspan>
+  <tspan x="935" dy="40"><tspan font-weight="bold" fill="#17457f">الإحساس الكامل</tspan> للمستخدم أثناء استخدام</tspan>
+  <tspan x="935" dy="40">المنتج: هل هو سهل وواضح ومريح؟</tspan>
+</text>
+<text x="140" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">User Experience (UX):</tspan> the user's <tspan font-weight="bold" fill="#17457f">whole</tspan></tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#17457f">experience</tspan> while using a product:</tspan>
+  <tspan x="140" dy="40">is it easy, clear, and comfortable?</tspan>
+</text>
+
+<text x="950" y="714" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#17457f">سؤال سريع:</tspan> هل تعرف تطبيقًا تستخدمه</tspan>
+  <tspan x="950" dy="40">دون أن يشرحه لك أحد؟ هذه <tspan font-weight="bold" fill="#2e7d32">تجربة مستخدم جيدة.</tspan></tspan>
+</text>
+<text x="120" y="794" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#17457f">Quick question:</tspan> do you know an app</tspan>
+  <tspan x="120" dy="40">you use without anyone explaining it</tspan>
+  <tspan x="120" dy="40">to you? That is a <tspan font-weight="bold" fill="#2e7d32">good user experience.</tspan></tspan>
+</text>
+</svg>

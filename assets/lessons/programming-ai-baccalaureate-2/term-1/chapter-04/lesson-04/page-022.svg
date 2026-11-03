@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Info card -->
+<rect x="109" y="288" width="870" height="408" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="282" width="870" height="408" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="298" width="6" height="376" rx="3" fill="#2f7fb5"/>
+
+<!-- Main illustration: PDCA wheel -->
+<g stroke-linecap="round" stroke-linejoin="round">
+  <linearGradient id="ilTire" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+  <radialGradient id="ilDisc" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </radialGradient>
+  <path d="M129 1099.6 L664 1142 L664 1150 L129 1107.6 Z" fill="#22303f" opacity=".18"/>
+  <circle cx="532" cy="1020" r="110" fill="#22303f" opacity=".18"/>
+  <path d="M125 1093.6 L660 1136 L660 1144 L125 1101.6 Z" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M150 1099.6 L174 1101.5 M222 1105.3 L246 1107.2 M294 1111 L318 1112.9 M366 1116.7 L390 1118.6 M438 1122.4 L462 1124.3 M606 1135.7 L630 1137.6" fill="none" stroke="#7f95ab" stroke-width="2.5"/>
+  <polygon points="290,1077.5 190,1069.6 190,1062.6 148,1071.4 190,1086.6 190,1079.6 290,1087.5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="130" cy="1252" rx="18" ry="4" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M130 1250 C 124 1232 116 1222 112 1210 C 124 1216 130 1230 130 1250 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M130 1250 C 132 1228 138 1216 148 1206 C 146 1222 138 1236 130 1250 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M130 1250 C 128 1232 130 1216 132 1200 C 138 1218 134 1236 130 1250 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="952" cy="1252" rx="18" ry="4" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M952 1250 C 946 1232 938 1222 934 1210 C 946 1216 952 1230 952 1250 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M952 1250 C 954 1228 960 1216 970 1206 C 968 1222 960 1236 952 1250 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M952 1250 C 950 1232 952 1216 954 1200 C 960 1218 956 1236 952 1250 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="528" cy="1014" r="110" fill="url(#ilTire)" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M428 977.6 A106.5 106.5 0 0 1 491.6 913.9" fill="none" stroke="#ffffff" stroke-width="2.5" opacity=".6"/>
+  <circle cx="528" cy="1014" r="103" fill="url(#ilDisc)" stroke="#22303f" stroke-width="2.5"/>
+  <g transform="rotate(45 528 1014)">
+    <rect x="524" y="956" width="8" height="116" rx="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <g transform="rotate(-45 528 1014)">
+    <rect x="524" y="956" width="8" height="116" rx="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <path d="M462.5 943.8 A96 96 0 0 1 560.8 923.8 L562.9 918.2 L579.5 956.8 L545.8 965.1 L547.8 959.5 A58 58 0 0 0 488.4 971.6 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M598.2 948.5 A96 96 0 0 1 618.2 1046.8 L623.9 1048.9 L585.2 1065.5 L576.9 1031.8 L582.5 1033.8 A58 58 0 0 0 570.4 974.4 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M593.5 1084.2 A96 96 0 0 1 495.2 1104.2 L493.1 1109.9 L476.5 1071.2 L510.2 1062.9 L508.2 1068.5 A58 58 0 0 0 567.6 1056.4 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M457.8 1079.5 A96 96 0 0 1 437.8 981.2 L432.2 979.1 L470.8 962.5 L479.1 996.2 L473.5 994.2 A58 58 0 0 0 485.6 1053.6 Z" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="522" y="976" width="12" height="76" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <g transform="rotate(45 528 1014)">
+    <rect x="522" y="976" width="12" height="76" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <g transform="rotate(90 528 1014)">
+    <rect x="522" y="976" width="12" height="76" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <g transform="rotate(135 528 1014)">
+    <rect x="522" y="976" width="12" height="76" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <circle cx="528" cy="1014" r="30" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="528" cy="1014" r="14" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="528" cy="1014" r="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M411.5 971.6 A124 124 0 0 1 456.9 912.4 M404.7 956.5 A136 136 0 0 1 437 912.9 M635.4 952 A124 124 0 0 1 651.5 1003.2 M448.3 1109 A124 124 0 0 1 415.6 1066.4" fill="none" stroke="#2f7fb5" stroke-width="2.5"/>
+  <path d="M676 966 L732 970 M684 990 L764 996 M678 1014 L722 1017" fill="none" stroke="#7f95ab" stroke-width="2.5"/>
+  <path d="M372 956 Q 374 966 384 968 Q 374 970 372 980 Q 370 970 360 968 Q 370 966 372 956 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M800 1058 Q 802 1068 812 1070 Q 802 1072 800 1082 Q 798 1072 788 1070 Q 798 1068 800 1058 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M250 991 Q 252 998 259 1000 Q 252 1002 250 1009 Q 248 1002 241 1000 Q 248 998 250 991 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M880 1146 C 880 990 760 912 596 912" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+  <polygon points="582,912 596,905 596,919" fill="#c0392b"/>
+  <path d="M720 1146 C 720 1090 690 1060 654.5 1050.6" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+  <polygon points="641,1047 656.3,1043.8 652.7,1057.4" fill="#c0392b"/>
+  <path d="M604 1158 Q 610 1128 595 1116.6" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+  <polygon points="584,1108 599.3,1111.1 590.7,1122.1" fill="#c0392b"/>
+  <path d="M330 1146 C 330 1080 350 1036 396.2 1027.4" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+  <polygon points="410,1024.8 397.5,1034.3 394.9,1020.5" fill="#c0392b"/>
+</g>
+
+<!-- Icon: light bulb -->
+<g transform="translate(128 76)" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M0 10 L-6 5 M56 10 L62 5 M-2 26 L-9 26 M58 26 L65 26" fill="none" stroke="#c96a1b" stroke-width="2.5"/>
+  <path d="M28 4 C14 4 6 14 6 25 C6 33 11 38 16 43 L16 48 L40 48 L40 43 C45 38 50 33 50 25 C50 14 42 4 28 4 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M22 30 L28 36 L34 30" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M16 20 Q19 12 27 10" fill="none" stroke="#ffffff" stroke-width="2.5"/>
+  <rect x="17" y="48" width="22" height="8" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="21" y="56" width="14" height="6" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Face: smile -->
+<g transform="translate(892 112)" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3"/>
+</g>
+
+<!-- Icon: open book -->
+<g transform="translate(768 288)" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M28 9 C20 3 10 3 3 6 L3 40 C10 37 20 37 28 43 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M28 9 C36 3 46 3 53 6 L53 40 C46 37 36 37 28 43 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M9 15 Q16 13 22 15 M9 23 Q16 21 22 23 M9 31 Q16 29 22 31 M34 15 Q40 13 47 15 M34 23 Q40 21 47 23 M34 31 Q40 29 47 31" fill="none" stroke="#2f7fb5" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: star -->
+<g transform="translate(850 572)" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="28,2 34.5,19.1 52.7,20 38.5,31.4 43.3,49 28,39 12.7,49 17.5,31.4 3.3,20 21.5,19.1" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Face: wink -->
+<g transform="translate(190 760)" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M 5 -6 L 13 -6" fill="none" stroke="#22303f" stroke-width="3"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3"/>
+</g>
+
+<!-- Icon: tag -->
+<g transform="translate(862 820)" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M6 8 Q6 4 10 4 L32 4 L52 26 L32 48 L10 48 Q6 48 6 44 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="36" cy="26" r="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M13 17 L25 17 M13 26 L23 26 M13 35 L25 35" fill="none" stroke="#c96a1b" stroke-width="2.5"/>
+</g>
+
+<!-- Texts -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">
+  <tspan x="540" dy="0">دورة PDCA: العجلة</tspan>
+  <tspan x="540" dy="48">التي لا تتوقف</tspan>
+</text>
+<text x="540" y="202" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" fill="#152b42">The PDCA Cycle: The Wheel That Never Stops</text>
+
+<text x="935" y="314" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">تعريف</text>
+<text x="140" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">DEFINITION</text>
+
+<text x="935" y="394" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">دورة PDCA:</tspan> طريقة منظمة</tspan>
+  <tspan x="935" dy="40"><tspan font-weight="bold" fill="#17457f">للتحسين المستمر</tspan> تكرر أربع خطوات:</tspan>
+  <tspan x="935" dy="40">خطّط ← نفّذ ← تحقّق ← تصرّف،</tspan>
+  <tspan x="935" dy="40">ثم تبدأ من جديد.</tspan>
+</text>
+<text x="140" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">PDCA cycle:</tspan> an organized method for</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#17457f">continuous improvement</tspan> that repeats</tspan>
+  <tspan x="140" dy="40">four steps: Plan → Do → Check → Act,</tspan>
+  <tspan x="140" dy="40">and then starts again.</tspan>
+</text>
+
+<text x="950" y="754" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">اسمها مكوّن من <tspan font-weight="bold" fill="#17457f">الحروف الأولى</tspan> لأربع كلمات</tspan>
+  <tspan x="950" dy="40">إنجليزية: Plan و Do و Check و Act</tspan>
+</text>
+<text x="120" y="834" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Its name is made of the <tspan font-weight="bold" fill="#17457f">first letters</tspan></tspan>
+  <tspan x="120" dy="40">of four English words: Plan, Do,</tspan>
+  <tspan x="120" dy="40">Check, and Act.</tspan>
+</text>
+
+<text x="912" y="1194" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c"><tspan font-weight="bold" fill="#17457f">خطّط</tspan></text>
+<text x="838" y="1234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42"><tspan font-weight="bold" fill="#17457f">Plan</tspan></text>
+<text x="753" y="1194" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c"><tspan font-weight="bold" fill="#17457f">نفّذ</tspan></text>
+<text x="700" y="1234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42"><tspan font-weight="bold" fill="#17457f">Do</tspan></text>
+<text x="570" y="1194" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c"><tspan font-weight="bold" fill="#17457f">تحقّق</tspan></text>
+<text x="482" y="1234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42"><tspan font-weight="bold" fill="#17457f">Check</tspan></text>
+<text x="372" y="1194" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c"><tspan font-weight="bold" fill="#17457f">تصرّف</tspan></text>
+<text x="304" y="1234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42"><tspan font-weight="bold" fill="#17457f">Act</tspan></text>
+</svg>

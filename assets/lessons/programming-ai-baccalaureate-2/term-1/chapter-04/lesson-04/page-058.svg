@@ -1,0 +1,277 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Info card -->
+<rect x="109" y="128" width="870" height="328" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="122" width="870" height="328" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="296" rx="3" fill="#2f7fb5"/>
+
+<!-- Illustration: fair random assignment vs unfair split by time -->
+<g stroke-linecap="round" stroke-linejoin="round">
+  <defs>
+    <linearGradient id="ilFair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="ilNight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#17457f"/>
+      <stop offset="1" stop-color="#2f7fb5"/>
+    </linearGradient>
+    <linearGradient id="ilDay" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fc9f2"/>
+      <stop offset="1" stop-color="#dff1f7"/>
+    </linearGradient>
+    <radialGradient id="ilDrum" cx=".4" cy=".35" r=".7">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dff1f7"/>
+    </radialGradient>
+  </defs>
+  <!-- shadows -->
+  <rect x="124" y="844" width="400" height="400" rx="24" fill="#22303f" opacity=".18"/>
+  <rect x="564" y="844" width="400" height="400" rx="24" fill="#22303f" opacity=".18"/>
+
+  <!-- left panel: fair lottery -->
+  <rect x="120" y="838" width="400" height="400" rx="24" fill="url(#ilFair)" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- right panel: night half and day half -->
+  <path d="M584 838 L760 838 L760 1238 L584 1238 Q560 1238 560 1214 L560 862 Q560 838 584 838 Z" fill="url(#ilNight)"/>
+  <path d="M760 838 L936 838 Q960 838 960 862 L960 1214 Q960 1238 936 1238 L760 1238 Z" fill="url(#ilDay)"/>
+  <rect x="560" y="838" width="400" height="400" rx="24" fill="none" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- dotted divider -->
+  <path d="M540 850 L540 858 M540 870 L540 878 M540 890 L540 898 M540 910 L540 918 M540 930 L540 938 M540 950 L540 958 M540 970 L540 978 M540 990 L540 998 M540 1010 L540 1018 M540 1030 L540 1038 M540 1050 L540 1058 M540 1070 L540 1078 M540 1090 L540 1098 M540 1110 L540 1118 M540 1130 L540 1138 M540 1150 L540 1158 M540 1170 L540 1178 M540 1190 L540 1198 M540 1210 L540 1218" fill="none" stroke="#7f95ab" stroke-width="2.5"/>
+
+  <!-- lottery drum stand -->
+  <polygon points="268,950 278,956 262,1004 250,1004" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="372,950 362,956 378,1004 390,1004" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="238" y="1002" width="34" height="9" rx="4.5" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="368" y="1002" width="34" height="9" rx="4.5" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <!-- drum cage -->
+  <circle cx="320" cy="925" r="56" fill="url(#ilDrum)"/>
+  <path d="M264 925 L376 925 M320 869 L320 981 M280 885 L360 965 M360 885 L280 965" fill="none" stroke="#7f95ab" stroke-width="2.5"/>
+  <circle cx="300" cy="958" r="7" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="321" cy="966" r="7" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="342" cy="957" r="7" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="306" cy="943" r="7" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="336" cy="941" r="7" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="320" cy="925" r="56" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="320" cy="925" r="9" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M376 925 L402 925 L402 945" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="402" cy="951" r="6" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="308,979 332,979 326,996 314,996" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- figures going evenly to two pages -->
+  <g transform="translate(296 1046)">
+    <path d="M-9 0 L-9 -10 Q-9 -18 0 -18 Q9 -18 9 -10 L9 0 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="-26" r="7" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-7 -27 Q-7 -34 0 -34 Q7 -34 7 -27 Q0 -31 -7 -27 Z" fill="#2b211c"/>
+  </g>
+  <g transform="translate(262 1066)">
+    <path d="M-9 0 L-9 -10 Q-9 -18 0 -18 Q9 -18 9 -10 L9 0 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="-26" r="7" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-7 -27 Q-7 -34 0 -34 Q7 -34 7 -27 Q0 -31 -7 -27 Z" fill="#2b211c"/>
+  </g>
+  <g transform="translate(228 1086)">
+    <path d="M-9 0 L-9 -10 Q-9 -18 0 -18 Q9 -18 9 -10 L9 0 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="-26" r="7" fill="#b57e50" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-7 -27 Q-7 -34 0 -34 Q7 -34 7 -27 Q0 -31 -7 -27 Z" fill="#2b211c"/>
+  </g>
+  <g transform="translate(344 1046)">
+    <path d="M-9 0 L-9 -10 Q-9 -18 0 -18 Q9 -18 9 -10 L9 0 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="-26" r="7" fill="#b57e50" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-7 -27 Q-7 -34 0 -34 Q7 -34 7 -27 Q0 -31 -7 -27 Z" fill="#2b211c"/>
+  </g>
+  <g transform="translate(378 1066)">
+    <path d="M-9 0 L-9 -10 Q-9 -18 0 -18 Q9 -18 9 -10 L9 0 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="-26" r="7" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-7 -27 Q-7 -34 0 -34 Q7 -34 7 -27 Q0 -31 -7 -27 Z" fill="#2b211c"/>
+  </g>
+  <g transform="translate(412 1086)">
+    <path d="M-9 0 L-9 -10 Q-9 -18 0 -18 Q9 -18 9 -10 L9 0 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="-26" r="7" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-7 -27 Q-7 -34 0 -34 Q7 -34 7 -27 Q0 -31 -7 -27 Z" fill="#2b211c"/>
+  </g>
+
+  <!-- webpage 1 (fair) -->
+  <g transform="translate(140 1092)">
+    <rect x="0" y="0" width="150" height="130" rx="12" fill="#ffffff"/>
+    <path d="M0 12 Q0 0 12 0 L138 0 Q150 0 150 12 L150 24 L0 24 Z" fill="#2f7fb5"/>
+    <circle cx="14" cy="12" r="3.5" fill="#ffffff"/>
+    <circle cx="26" cy="12" r="3.5" fill="#ffffff"/>
+    <circle cx="38" cy="12" r="3.5" fill="#ffffff"/>
+    <rect x="50" y="7" width="88" height="10" rx="5" fill="#dff1f7"/>
+    <rect x="14" y="36" width="56" height="44" rx="6" fill="#8fc9f2"/>
+    <polygon points="18,76 34,56 46,68 54,60 66,76" fill="#2f7fb5"/>
+    <circle cx="58" cy="46" r="5" fill="#ffffff"/>
+    <rect x="80" y="38" width="56" height="8" rx="4" fill="#17457f"/>
+    <rect x="80" y="54" width="46" height="6" rx="3" fill="#7f95ab"/>
+    <rect x="80" y="68" width="52" height="6" rx="3" fill="#7f95ab"/>
+    <rect x="14" y="90" width="122" height="6" rx="3" fill="#e8dfd1"/>
+    <rect x="14" y="104" width="70" height="6" rx="3" fill="#e8dfd1"/>
+    <rect x="96" y="102" width="40" height="18" rx="9" fill="#c96a1b"/>
+    <line x1="0" y1="24" x2="150" y2="24" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="0" y="0" width="150" height="130" rx="12" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <!-- webpage 2 (fair) -->
+  <g transform="translate(350 1092)">
+    <rect x="0" y="0" width="150" height="130" rx="12" fill="#ffffff"/>
+    <path d="M0 12 Q0 0 12 0 L138 0 Q150 0 150 12 L150 24 L0 24 Z" fill="#2f7fb5"/>
+    <circle cx="14" cy="12" r="3.5" fill="#ffffff"/>
+    <circle cx="26" cy="12" r="3.5" fill="#ffffff"/>
+    <circle cx="38" cy="12" r="3.5" fill="#ffffff"/>
+    <rect x="50" y="7" width="88" height="10" rx="5" fill="#dff1f7"/>
+    <rect x="14" y="36" width="56" height="44" rx="6" fill="#8fc9f2"/>
+    <polygon points="18,76 34,56 46,68 54,60 66,76" fill="#2f7fb5"/>
+    <circle cx="58" cy="46" r="5" fill="#ffffff"/>
+    <rect x="80" y="38" width="56" height="8" rx="4" fill="#17457f"/>
+    <rect x="80" y="54" width="46" height="6" rx="3" fill="#7f95ab"/>
+    <rect x="80" y="68" width="52" height="6" rx="3" fill="#7f95ab"/>
+    <rect x="14" y="90" width="122" height="6" rx="3" fill="#e8dfd1"/>
+    <rect x="14" y="104" width="70" height="6" rx="3" fill="#e8dfd1"/>
+    <rect x="96" y="102" width="40" height="18" rx="9" fill="#c96a1b"/>
+    <line x1="0" y1="24" x2="150" y2="24" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="0" y="0" width="150" height="130" rx="12" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <!-- green check between fair pages -->
+  <circle cx="320" cy="1160" r="22" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="307,1159 312,1154 317,1159 328,1148 333,1153 317,1169" fill="#ffffff"/>
+
+  <!-- night side: moon and stars -->
+  <path d="M668 907 A34 34 0 1 0 686 962 A30 30 0 0 1 668 907 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="602,879 604,884 609,886 604,888 602,893 600,888 595,886 600,884" fill="#ffffff"/>
+  <polygon points="730,893 732,898 737,900 732,902 730,907 728,902 723,900 728,898" fill="#ffffff"/>
+  <polygon points="612,1003 614,1008 619,1010 614,1012 612,1017 610,1012 605,1010 610,1008" fill="#ffffff"/>
+  <polygon points="722,1033 724,1038 729,1040 724,1042 722,1047 720,1042 715,1040 720,1038" fill="#ffffff"/>
+
+  <!-- day side: sun and clouds -->
+  <path d="M902 940 L912 940 M818 940 L808 940 M860 982 L860 992 M860 898 L860 888 M890 970 L897 977 M830 970 L823 977 M830 910 L823 903 M890 910 L897 903" fill="none" stroke="#c96a1b" stroke-width="2.5"/>
+  <circle cx="860" cy="940" r="34" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M786 884 Q780 884 780 878 Q780 870 790 870 Q794 862 804 862 Q814 862 816 870 Q826 870 826 878 Q826 884 820 884 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M880 1036 Q872 1036 872 1028 Q872 1018 884 1018 Q888 1008 900 1008 Q912 1008 916 1018 Q928 1018 928 1028 Q928 1036 920 1036 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- webpage under moon -->
+  <g transform="translate(585 1092)">
+    <rect x="0" y="0" width="150" height="130" rx="12" fill="#ffffff"/>
+    <path d="M0 12 Q0 0 12 0 L138 0 Q150 0 150 12 L150 24 L0 24 Z" fill="#2f7fb5"/>
+    <circle cx="14" cy="12" r="3.5" fill="#ffffff"/>
+    <circle cx="26" cy="12" r="3.5" fill="#ffffff"/>
+    <circle cx="38" cy="12" r="3.5" fill="#ffffff"/>
+    <rect x="50" y="7" width="88" height="10" rx="5" fill="#dff1f7"/>
+    <rect x="14" y="36" width="56" height="44" rx="6" fill="#8fc9f2"/>
+    <polygon points="18,76 34,56 46,68 54,60 66,76" fill="#2f7fb5"/>
+    <circle cx="58" cy="46" r="5" fill="#ffffff"/>
+    <rect x="80" y="38" width="56" height="8" rx="4" fill="#17457f"/>
+    <rect x="80" y="54" width="46" height="6" rx="3" fill="#7f95ab"/>
+    <rect x="80" y="68" width="52" height="6" rx="3" fill="#7f95ab"/>
+    <rect x="14" y="90" width="122" height="6" rx="3" fill="#e8dfd1"/>
+    <rect x="14" y="104" width="70" height="6" rx="3" fill="#e8dfd1"/>
+    <rect x="96" y="102" width="40" height="18" rx="9" fill="#c96a1b"/>
+    <line x1="0" y1="24" x2="150" y2="24" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="0" y="0" width="150" height="130" rx="12" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <!-- webpage under sun -->
+  <g transform="translate(785 1092)">
+    <rect x="0" y="0" width="150" height="130" rx="12" fill="#ffffff"/>
+    <path d="M0 12 Q0 0 12 0 L138 0 Q150 0 150 12 L150 24 L0 24 Z" fill="#2f7fb5"/>
+    <circle cx="14" cy="12" r="3.5" fill="#ffffff"/>
+    <circle cx="26" cy="12" r="3.5" fill="#ffffff"/>
+    <circle cx="38" cy="12" r="3.5" fill="#ffffff"/>
+    <rect x="50" y="7" width="88" height="10" rx="5" fill="#dff1f7"/>
+    <rect x="14" y="36" width="56" height="44" rx="6" fill="#8fc9f2"/>
+    <polygon points="18,76 34,56 46,68 54,60 66,76" fill="#2f7fb5"/>
+    <circle cx="58" cy="46" r="5" fill="#ffffff"/>
+    <rect x="80" y="38" width="56" height="8" rx="4" fill="#17457f"/>
+    <rect x="80" y="54" width="46" height="6" rx="3" fill="#7f95ab"/>
+    <rect x="80" y="68" width="52" height="6" rx="3" fill="#7f95ab"/>
+    <rect x="14" y="90" width="122" height="6" rx="3" fill="#e8dfd1"/>
+    <rect x="14" y="104" width="70" height="6" rx="3" fill="#e8dfd1"/>
+    <rect x="96" y="102" width="40" height="18" rx="9" fill="#c96a1b"/>
+    <line x1="0" y1="24" x2="150" y2="24" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="0" y="0" width="150" height="130" rx="12" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <!-- red cross between unfair pages -->
+  <circle cx="760" cy="1160" r="20" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="748,1152 752,1148 760,1156 768,1148 772,1152 764,1160 772,1168 768,1172 760,1164 752,1172 748,1168 756,1160" fill="#ffffff"/>
+</g>
+
+<!-- Icon: open book (definition) -->
+<g transform="translate(420 142)" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M28 8 Q16 0 2 4 L2 40 Q16 36 28 44 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M28 8 Q40 0 54 4 L54 40 Q40 36 28 44 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M8 14 Q16 12 23 16 M8 22 Q16 20 23 24 M33 16 Q40 12 48 14 M33 24 Q40 20 48 22" fill="none" stroke="#2f7fb5" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: two alike figures (groups are alike) -->
+<g transform="translate(845 354)" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M28 52 L28 38 Q28 28 42 28 Q56 28 56 38 L56 52 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="42" cy="15" r="9" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M4 52 L4 38 Q4 28 18 28 Q32 28 32 38 L32 52 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="18" cy="15" r="9" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: warning triangle (mistake) -->
+<g transform="translate(770 704)" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="26,2 50,44 2,44" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="23" y="14" width="6" height="18" rx="3" fill="#c0392b"/>
+  <circle cx="26" cy="38" r="3.5" fill="#c0392b"/>
+</g>
+
+<!-- Face: thinking -->
+<g transform="translate(880 728)" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3"/>
+</g>
+
+<!-- Texts -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">تعريف</tspan>
+</text>
+<text x="140" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">DEFINITION</tspan>
+</text>
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">التوزيع العشوائي</tspan> (Randomization):</tspan>
+  <tspan x="935" dy="40">توزيع الزوار على النسختين <tspan font-weight="bold" fill="#17457f">بالصدفة،</tspan></tspan>
+  <tspan x="935" dy="40">مثل القرعة، لتكون المجموعتان متشابهتين.</tspan>
+</text>
+<text x="140" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Randomization:</tspan> assigning visitors to</tspan>
+  <tspan x="140" dy="40">the two versions <tspan font-weight="bold" fill="#17457f">by chance,</tspan> like a</tspan>
+  <tspan x="140" dy="40">lottery, so the two groups are alike.</tspan>
+</text>
+<text x="950" y="514" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">مثال على الخطأ:</tspan> لو عرضت النسخة A</tspan>
+  <tspan x="950" dy="40">على زوار الصباح والنسخة B على زوار الليل،</tspan>
+  <tspan x="950" dy="40">فقد يكون الفرق سببه <tspan font-weight="bold" fill="#17457f">الوقت</tspan> لا <tspan font-weight="bold" fill="#17457f">التصميم.</tspan></tspan>
+</text>
+<text x="120" y="634" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">An example of a mistake:</tspan> if you show</tspan>
+  <tspan x="120" dy="40">version A to morning visitors and</tspan>
+  <tspan x="120" dy="40">version B to night visitors,</tspan>
+  <tspan x="120" dy="40">the difference may be caused by</tspan>
+  <tspan x="120" dy="40">the <tspan font-weight="bold" fill="#17457f">time,</tspan> not the <tspan font-weight="bold" fill="#17457f">design.</tspan></tspan>
+</text>
+</svg>
