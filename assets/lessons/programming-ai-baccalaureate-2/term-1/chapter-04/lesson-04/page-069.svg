@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Bullets -->
+  <circle cx="966" cy="144" r="6" fill="#c0392b"/>
+  <circle cx="114" cy="264" r="6" fill="#c0392b"/>
+  <circle cx="966" cy="424" r="6" fill="#c0392b"/>
+  <circle cx="114" cy="504" r="6" fill="#c0392b"/>
+  <circle cx="966" cy="664" r="6" fill="#c0392b"/>
+  <circle cx="114" cy="824" r="6" fill="#c0392b"/>
+
+<!-- Illustration: a wheel that keeps turning and an eye that looks from the user's side -->
+<g>
+  <linearGradient id="ilSkySoft" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8fc9f2"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+  <rect x="109" y="990" width="866" height="272" rx="24" fill="#22303f" opacity=".18"/>
+  <rect x="105" y="984" width="866" height="272" rx="24" fill="url(#ilSkySoft)"/>
+  <path d="M130 1030 Q130 1018 142 1018 Q148 1006 162 1010 Q174 1004 182 1016 Q194 1016 194 1026 Q194 1032 186 1032 L136 1032 Q130 1032 130 1030 Z" fill="#ffffff" opacity=".85"/>
+  <path d="M910 1022 Q910 1010 922 1010 Q928 1000 942 1004 Q954 998 960 1010 Q966 1012 964 1020 Q963 1024 956 1024 L914 1024 Q910 1024 910 1022 Z" fill="#ffffff" opacity=".85"/>
+  <path d="M105 1180 C 220 1150, 400 1158, 520 1172 C 640 1150, 820 1150, 971 1166 L971 1200 L105 1200 Z" fill="#2e7d32" opacity=".18"/>
+  <path d="M105 1196 C 300 1178, 700 1208, 971 1190 L971 1232 Q971 1256 947 1256 L129 1256 Q105 1256 105 1232 Z" fill="#a9dcbe"/>
+  <ellipse cx="150" cy="1226" rx="26" ry="14" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="938" cy="1220" rx="24" ry="13" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="190" cy="1240" r="4" fill="#ffd24a"/>
+  <circle cx="206" cy="1234" r="4" fill="#ffd24a"/>
+  <circle cx="480" cy="1236" r="4" fill="#ffd24a"/>
+  <circle cx="600" cy="1232" r="4" fill="#ffd24a"/>
+  <circle cx="900" cy="1240" r="4" fill="#ffd24a"/>
+
+  <!-- Right half: trail of earlier turns -->
+  <circle cx="640" cy="1106" r="82" fill="none" stroke="#2f7fb5" stroke-width="2.5" opacity=".18"/>
+  <circle cx="640" cy="1106" r="56" fill="none" stroke="#2f7fb5" stroke-width="2.5" opacity=".18"/>
+  <circle cx="715" cy="1106" r="82" fill="none" stroke="#2f7fb5" stroke-width="2.5" opacity=".35"/>
+  <circle cx="715" cy="1106" r="56" fill="none" stroke="#2f7fb5" stroke-width="2.5" opacity=".35"/>
+  <ellipse cx="820" cy="1196" rx="72" ry="7" fill="#22303f" opacity=".18"/>
+
+  <!-- Right half: the turning wheel -->
+  <g transform="translate(820 1106)">
+    <g transform="translate(4 6)">
+      <path d="M7.2 -81.7 A82 82 0 0 1 74.3 -34.7 L83.4 -38.9 L68.7 -6.0 L41.7 -19.4 L50.8 -23.7 A56 56 0 0 0 4.9 -55.8 Z" fill="#22303f" opacity=".18"/>
+      <g transform="rotate(90)">
+        <path d="M7.2 -81.7 A82 82 0 0 1 74.3 -34.7 L83.4 -38.9 L68.7 -6.0 L41.7 -19.4 L50.8 -23.7 A56 56 0 0 0 4.9 -55.8 Z" fill="#22303f" opacity=".18"/>
+      </g>
+      <g transform="rotate(180)">
+        <path d="M7.2 -81.7 A82 82 0 0 1 74.3 -34.7 L83.4 -38.9 L68.7 -6.0 L41.7 -19.4 L50.8 -23.7 A56 56 0 0 0 4.9 -55.8 Z" fill="#22303f" opacity=".18"/>
+      </g>
+      <g transform="rotate(270)">
+        <path d="M7.2 -81.7 A82 82 0 0 1 74.3 -34.7 L83.4 -38.9 L68.7 -6.0 L41.7 -19.4 L50.8 -23.7 A56 56 0 0 0 4.9 -55.8 Z" fill="#22303f" opacity=".18"/>
+      </g>
+    </g>
+    <path d="M22 0 L50 0 M0 22 L0 50 M-22 0 L-50 0 M0 -22 L0 -50" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M7.2 -81.7 A82 82 0 0 1 74.3 -34.7 L83.4 -38.9 L68.7 -6.0 L41.7 -19.4 L50.8 -23.7 A56 56 0 0 0 4.9 -55.8 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <g transform="rotate(90)">
+      <path d="M7.2 -81.7 A82 82 0 0 1 74.3 -34.7 L83.4 -38.9 L68.7 -6.0 L41.7 -19.4 L50.8 -23.7 A56 56 0 0 0 4.9 -55.8 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    </g>
+    <g transform="rotate(180)">
+      <path d="M7.2 -81.7 A82 82 0 0 1 74.3 -34.7 L83.4 -38.9 L68.7 -6.0 L41.7 -19.4 L50.8 -23.7 A56 56 0 0 0 4.9 -55.8 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    </g>
+    <g transform="rotate(270)">
+      <path d="M7.2 -81.7 A82 82 0 0 1 74.3 -34.7 L83.4 -38.9 L68.7 -6.0 L41.7 -19.4 L50.8 -23.7 A56 56 0 0 0 4.9 -55.8 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    </g>
+    <circle cx="0" cy="0" r="22" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M51 -88.3 A102 102 0 0 1 78.1 -65.6 M88.3 51 A102 102 0 0 1 65.6 78.1 M-51 88.3 A102 102 0 0 1 -78.1 65.6 M-88.3 -51 A102 102 0 0 1 -65.6 -78.1 M65.4 -93.4 A114 114 0 0 1 80.6 -80.6 M-93.4 -65.4 A114 114 0 0 1 -80.6 -80.6" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Vertical dotted divider -->
+  <path d="M538 1000 L538 1002 M538 1014 L538 1016 M538 1028 L538 1030 M538 1042 L538 1044 M538 1056 L538 1058 M538 1070 L538 1072 M538 1084 L538 1086 M538 1098 L538 1100 M538 1112 L538 1114 M538 1126 L538 1128 M538 1140 L538 1142 M538 1154 L538 1156 M538 1168 L538 1170 M538 1182 L538 1184 M538 1196 L538 1198 M538 1210 L538 1212 M538 1224 L538 1226 M538 1238 L538 1240" fill="none" stroke="#7f95ab" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Left half: gaze beam -->
+  <polygon points="308,1076 332,1076 378,1146 262,1146" fill="#ffd24a" opacity=".35"/>
+
+  <!-- Left half: the large eye with a magnifying-lens iris -->
+  <path d="M220 1045 Q320 965 420 1045 Q320 1125 220 1045 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M258 1019 L250 1006 M320 1005 L320 991 M382 1019 L390 1006" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="320" cy="1054" r="24" fill="#8fc9f2"/>
+  <circle cx="320" cy="1054" r="10" fill="#17457f"/>
+  <circle cx="320" cy="1054" r="24" fill="none" stroke="#17457f" stroke-width="3"/>
+  <path d="M336 1070 L344 1077" fill="none" stroke="#17457f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M306 1046 Q310 1038 318 1037" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Left half: modestly dressed student holding a phone -->
+  <ellipse cx="320" cy="1246" rx="38" ry="5" fill="#22303f" opacity=".18"/>
+  <rect x="298" y="1206" width="20" height="32" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="322" y="1206" width="20" height="32" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="306" cy="1240" rx="12" ry="5" fill="#3a2411" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="334" cy="1240" rx="12" ry="5" fill="#3a2411" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M292 1210 L294 1162 Q320 1150 346 1162 L348 1210 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="314" y="1146" width="12" height="10" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M312 1156 L320 1166 L328 1156 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="294,1162 304,1166 312,1190 300,1196" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="346,1162 336,1166 328,1190 340,1196" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="308" y="1170" width="24" height="36" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="311" y="1174" width="18" height="26" rx="2" fill="#4fc3e8"/>
+  <rect x="314" y="1178" width="12" height="4" rx="2" fill="#ffffff"/>
+  <rect x="314" y="1186" width="8" height="4" rx="2" fill="#ffffff"/>
+  <circle cx="306" cy="1193" r="6" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="334" cy="1193" r="6" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="320" cy="1130" r="18" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M302 1128 Q302 1108 320 1108 Q339 1108 338 1126 Q330 1118 318 1119 Q308 1119 302 1128 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="314" cy="1134" r="2.5" fill="#22303f"/>
+  <circle cx="326" cy="1134" r="2.5" fill="#22303f"/>
+  <path d="M314 1141 Q320 1145 326 1141" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <rect x="105" y="984" width="866" height="272" rx="24" fill="none" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: target (goal) -->
+<g transform="translate(138 150)">
+  <circle cx="30" cy="30" r="26" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="30" cy="30" r="18" fill="#c96a1b"/>
+  <circle cx="30" cy="30" r="11" fill="#ffffff"/>
+  <circle cx="30" cy="30" r="5" fill="#c96a1b"/>
+  <path d="M30 30 L52 8 M52 8 L50 1 M52 8 L59 10" fill="none" stroke="#17457f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Face: wink -->
+<g transform="translate(905 300)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M 5 -6 L 13 -6" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: cycle arrows -->
+<g transform="translate(138 400)">
+  <circle cx="30" cy="30" r="28" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M11.2 23.2 A20 20 0 0 1 48.8 23.2" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="43.2,25.3 54.4,21.1 51.9,31.7" fill="#2e7d32" stroke="#2e7d32" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M48.8 36.8 A20 20 0 0 1 11.2 36.8" fill="none" stroke="#2f7fb5" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="16.8,34.7 5.6,38.9 8.1,28.3" fill="#2f7fb5" stroke="#2f7fb5" stroke-width="2" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: warning triangle -->
+<g transform="translate(876 496)">
+  <path d="M30 4 L58 54 L2 54 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="27" y="20" width="6" height="20" rx="3" fill="#22303f"/>
+  <circle cx="30" cy="46" r="3.5" fill="#22303f"/>
+</g>
+
+<!-- Icon: light bulb -->
+<g transform="translate(138 652)">
+  <path d="M4 10 L-2 6 M52 10 L58 6" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="28" cy="24" r="18" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M20 38 L36 38 L34 46 L22 46 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="20" y="44" width="16" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Face: thinking -->
+<g transform="translate(250 760)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: star -->
+<g transform="translate(876 846)">
+  <polygon points="30,2 37.05,20.29 56.63,21.35 41.41,33.71 46.46,52.65 30,42 13.54,52.65 18.59,33.71 3.37,21.35 22.95,20.29" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Texts -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">«حدّد هدف خفض معدل الارتداد بنسبة 10%»</tspan>
+  <tspan x="950" dy="40">خطوة نفّذ؟ خطأ، بل <tspan font-weight="bold" fill="#2e7d32">خطّط؛</tspan></tspan>
+  <tspan x="950" dy="40">تذكّر: <tspan font-weight="bold" fill="#17457f">هدف = خطة.</tspan></tspan>
+</text>
+
+<text x="132" y="274" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">“Set the goal of reducing the bounce</tspan>
+  <tspan x="132" dy="40">rate by 10%” is Do? Wrong, it is <tspan font-weight="bold" fill="#2e7d32">Plan;</tspan></tspan>
+  <tspan x="132" dy="40">remember: <tspan font-weight="bold" fill="#17457f">goal = plan.</tspan></tspan>
+</text>
+
+<text x="950" y="434" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">«دورة <tspan font-weight="bold" fill="#c0392b">PDCA</tspan> تكتمل بعد تنفيذ واحد»؟ خطأ؛</tspan>
+  <tspan x="950" dy="40">تذكّر: <tspan font-weight="bold" fill="#17457f">العجلة لا تدور</tspan> مرة واحدة فقط.</tspan>
+</text>
+
+<text x="132" y="514" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">“The <tspan font-weight="bold" fill="#c0392b">PDCA</tspan> cycle is complete after one</tspan>
+  <tspan x="132" dy="40">execution”? Wrong; remember: the <tspan font-weight="bold" fill="#17457f">wheel</tspan></tspan>
+  <tspan x="132" dy="40"><tspan font-weight="bold" fill="#17457f">does not turn</tspan> just once.</tspan>
+</text>
+
+<text x="950" y="674" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">«التفكير التصميمي يحل المشكلات</tspan>
+  <tspan x="950" dy="40">من منظور المطوّر»؟ خطأ،</tspan>
+  <tspan x="950" dy="40">بل من منظور <tspan font-weight="bold" fill="#2e7d32">المستخدم؛</tspan></tspan>
+  <tspan x="950" dy="40">تذكّر: <tspan font-weight="bold" fill="#17457f">العين عين المستخدم.</tspan></tspan>
+</text>
+
+<text x="132" y="834" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">“Design thinking solves problems from</tspan>
+  <tspan x="132" dy="40">the developer's perspective”? Wrong,</tspan>
+  <tspan x="132" dy="40">it is the <tspan font-weight="bold" fill="#2e7d32">user's perspective;</tspan></tspan>
+  <tspan x="132" dy="40">remember: the eye is <tspan font-weight="bold" fill="#17457f">the user's eye.</tspan></tspan>
+</text>
+</svg>

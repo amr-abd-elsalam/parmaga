@@ -1,0 +1,262 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Info card -->
+<rect x="109" y="248" width="870" height="288" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="242" width="870" height="288" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="258" width="6" height="256" rx="3" fill="#2f7fb5"/>
+
+<!-- Illustration: paper prototype scene -->
+<g>
+  <defs>
+    <linearGradient id="ilStage" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#8fc9f2"/>
+    </linearGradient>
+  </defs>
+  <rect x="111" y="1028" width="862" height="236" rx="24" fill="#22303f" opacity=".18"/>
+  <rect x="107" y="1022" width="862" height="236" rx="24" fill="url(#ilStage)" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="330" cy="1046" rx="170" ry="12" fill="#ffffff" opacity=".35"/>
+
+  <!-- object shadows -->
+  <g transform="translate(189 1104) rotate(-12)" opacity=".18">
+    <polygon points="-52,-40 -30,-46 -8,-38 18,-47 50,-40 55,-14 48,8 56,34 30,44 4,38 -22,46 -50,38 -56,10 -48,-14" fill="#22303f"/>
+  </g>
+  <g transform="translate(169 1220)" opacity=".18">
+    <polygon points="0,-28 14,-24 26,-12 28,4 22,18 8,28 -8,26 -22,20 -28,4 -25,-12 -14,-24" fill="#22303f"/>
+  </g>
+  <g transform="translate(234 1232) scale(.7)" opacity=".18">
+    <polygon points="0,-28 14,-24 26,-12 28,4 22,18 8,28 -8,26 -22,20 -28,4 -25,-12 -14,-24" fill="#22303f"/>
+  </g>
+  <g transform="translate(816 1076) scale(.9)" opacity=".18">
+    <polygon points="0,-28 14,-24 26,-12 28,4 22,18 8,28 -8,26 -22,20 -28,4 -25,-12 -14,-24" fill="#22303f"/>
+  </g>
+  <g transform="translate(922 1146)" opacity=".18">
+    <polygon points="0,-28 14,-24 26,-12 28,4 22,18 8,28 -8,26 -22,20 -28,4 -25,-12 -14,-24" fill="#22303f"/>
+  </g>
+  <g transform="translate(874 1232) scale(.8)" opacity=".18">
+    <polygon points="0,-28 14,-24 26,-12 28,4 22,18 8,28 -8,26 -22,20 -28,4 -25,-12 -14,-24" fill="#22303f"/>
+  </g>
+  <g opacity=".18">
+    <circle cx="322" cy="1094" r="34" fill="#22303f"/>
+    <rect x="313" y="1051" width="18" height="11" rx="3" fill="#22303f"/>
+  </g>
+  <g transform="translate(326 1198) rotate(-30)" opacity=".18">
+    <polygon points="-18,22 -10,24 8,-58 4,-64" fill="#22303f"/>
+    <polygon points="18,22 10,24 -8,-58 -4,-64" fill="#22303f"/>
+    <path d="M -34 36 a 14 14 0 1 0 28 0 a 14 14 0 1 0 -28 0 Z M -28 36 a 8 8 0 1 0 16 0 a 8 8 0 1 0 -16 0 Z" fill="#22303f" fill-rule="evenodd"/>
+    <path d="M 6 36 a 14 14 0 1 0 28 0 a 14 14 0 1 0 -28 0 Z M 12 36 a 8 8 0 1 0 16 0 a 8 8 0 1 0 -16 0 Z" fill="#22303f" fill-rule="evenodd"/>
+  </g>
+  <g transform="translate(4 6) rotate(-4 520 1143)" opacity=".18">
+    <rect x="405" y="1043" width="230" height="200" rx="6" fill="#22303f"/>
+  </g>
+  <g transform="translate(577 1181) rotate(-40)" opacity=".18">
+    <ellipse cx="100" cy="32" rx="44" ry="32" fill="#22303f"/>
+    <rect x="84" y="60" width="78" height="86" rx="14" fill="#22303f"/>
+    <polygon points="0,0 28,-10 186,-10 186,10 28,10" fill="#22303f"/>
+    <ellipse cx="82" cy="-16" rx="20" ry="10" fill="#22303f"/>
+  </g>
+
+  <!-- earlier unfolded sketch (crossed out) -->
+  <g transform="translate(185 1098) rotate(-12)">
+    <polygon points="-52,-40 -30,-46 -8,-38 18,-47 50,-40 55,-14 48,8 56,34 30,44 4,38 -22,46 -50,38 -56,10 -48,-14" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="-20,-10 8,-6 4,38 -22,46" fill="#e8dfd1" opacity=".6"/>
+    <polyline points="-30,-46 -20,-10 -50,38" fill="none" stroke="#7f95ab" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <polyline points="18,-47 8,-6 30,44" fill="none" stroke="#7f95ab" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <polyline points="-56,10 -20,-10 8,-6 55,-14" fill="none" stroke="#7f95ab" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="-14" y="-30" width="28" height="46" rx="6" fill="none" stroke="#2f7fb5" stroke-width="2"/>
+    <path d="M -8 -18 L 8 -18 M -8 -10 L 4 -10" fill="none" stroke="#2f7fb5" stroke-width="2" stroke-linecap="round"/>
+    <path d="M -22 -34 L 22 20 M 22 -34 L -22 20" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
+
+  <!-- crumpled paper balls -->
+  <g transform="translate(165 1214)">
+    <polygon points="0,-28 14,-24 26,-12 28,4 22,18 8,28 -8,26 -22,20 -28,4 -25,-12 -14,-24" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="-8,-6 10,-2 22,18 8,28 -8,26" fill="#e8dfd1"/>
+    <path d="M -14 -24 L -8 -6 L 10 -2 L 26 -12 M -8 -6 L -22 20 M 10 -2 L 8 28 M 0 -28 L -8 -6" fill="none" stroke="#7f95ab" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M -20 -6 L -12 -2 M 14 -16 L 20 -8" fill="none" stroke="#2f7fb5" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(230 1226) scale(.7)">
+    <polygon points="0,-28 14,-24 26,-12 28,4 22,18 8,28 -8,26 -22,20 -28,4 -25,-12 -14,-24" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="-8,-6 10,-2 22,18 8,28 -8,26" fill="#e8dfd1"/>
+    <path d="M -14 -24 L -8 -6 L 10 -2 L 26 -12 M -8 -6 L -22 20 M 10 -2 L 8 28" fill="none" stroke="#7f95ab" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(812 1070) scale(.9)">
+    <polygon points="0,-28 14,-24 26,-12 28,4 22,18 8,28 -8,26 -22,20 -28,4 -25,-12 -14,-24" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="-8,-6 10,-2 22,18 8,28 -8,26" fill="#e8dfd1"/>
+    <path d="M -14 -24 L -8 -6 L 10 -2 L 26 -12 M -8 -6 L -22 20 M 10 -2 L 8 28 M 0 -28 L -8 -6" fill="none" stroke="#7f95ab" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M -20 -6 L -12 -2 M 14 -16 L 20 -8" fill="none" stroke="#c96a1b" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(918 1140)">
+    <polygon points="0,-28 14,-24 26,-12 28,4 22,18 8,28 -8,26 -22,20 -28,4 -25,-12 -14,-24" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="-8,-6 10,-2 22,18 8,28 -8,26" fill="#e8dfd1"/>
+    <path d="M -14 -24 L -8 -6 L 10 -2 L 26 -12 M -8 -6 L -22 20 M 10 -2 L 8 28 M 0 -28 L -8 -6" fill="none" stroke="#7f95ab" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M -20 -6 L -12 -2 M 14 -16 L 20 -8" fill="none" stroke="#2f7fb5" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(870 1226) scale(.8)">
+    <polygon points="0,-28 14,-24 26,-12 28,4 22,18 8,28 -8,26 -22,20 -28,4 -25,-12 -14,-24" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="-8,-6 10,-2 22,18 8,28 -8,26" fill="#e8dfd1"/>
+    <path d="M -14 -24 L -8 -6 L 10 -2 L 26 -12 M -8 -6 L -22 20 M 10 -2 L 8 28" fill="none" stroke="#7f95ab" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- small timer -->
+  <rect x="309" y="1045" width="18" height="11" rx="3" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="340,1058 348,1050 354,1056 346,1064" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="318" cy="1088" r="34" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="318" cy="1088" r="26" fill="#dff1f7" stroke="#2f7fb5" stroke-width="2"/>
+  <path d="M318 1088 L318 1062 A26 26 0 0 1 340.5 1075 Z" fill="#f0c48c"/>
+  <path d="M318 1066 L318 1071 M336 1088 L341 1088 M318 1106 L318 1111 M295 1088 L300 1088" fill="none" stroke="#17457f" stroke-width="2" stroke-linecap="round"/>
+  <line x1="318" y1="1088" x2="338" y2="1076.5" stroke="#17457f" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="318" cy="1088" r="4" fill="#17457f"/>
+
+  <!-- scissors -->
+  <g transform="translate(322 1192) rotate(-30)">
+    <polygon points="-18,22 -10,24 8,-58 4,-64" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="18,22 10,24 -8,-58 -4,-64" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M -34 36 a 14 14 0 1 0 28 0 a 14 14 0 1 0 -28 0 Z M -28 36 a 8 8 0 1 0 16 0 a 8 8 0 1 0 -16 0 Z" fill="#c96a1b" fill-rule="evenodd" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M 6 36 a 14 14 0 1 0 28 0 a 14 14 0 1 0 -28 0 Z M 12 36 a 8 8 0 1 0 16 0 a 8 8 0 1 0 -16 0 Z" fill="#c96a1b" fill-rule="evenodd" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="-36" r="4.5" fill="#7f95ab" stroke="#22303f" stroke-width="2"/>
+  </g>
+
+  <!-- paper sheet with the phone sketch -->
+  <g transform="rotate(-4 520 1143)">
+    <rect x="405" y="1043" width="230" height="200" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M417 1070 L623 1070 M417 1100 L623 1100 M417 1130 L623 1130 M417 1160 L623 1160 M417 1190 L623 1190 M417 1220 L623 1220" fill="none" stroke="#8fc9f2" stroke-width="2" opacity=".35"/>
+    <rect x="472" y="1056" width="100" height="170" rx="16" fill="none" stroke="#2f7fb5" stroke-width="1.4" opacity=".6"/>
+    <rect x="470" y="1058" width="100" height="170" rx="16" fill="none" stroke="#17457f" stroke-width="3"/>
+    <path d="M486 1092 L554 1092 M486 1114 L536 1114" fill="none" stroke="#2f7fb5" stroke-width="3" stroke-linecap="round"/>
+    <rect x="484" y="1150" width="72" height="40" rx="20" fill="#f0c48c" stroke="#c96a1b" stroke-width="2.5"/>
+  </g>
+
+  <!-- hand holding the pencil -->
+  <g transform="translate(573 1175) rotate(-40)">
+    <ellipse cx="100" cy="32" rx="44" ry="32" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="56" y="20" width="46" height="15" rx="7.5" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="44" y="6" width="58" height="16" rx="8" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="84" y="60" width="78" height="86" rx="14" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="84" y="60" width="78" height="18" rx="9" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="28" y="-10" width="124" height="20" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M28 -3.5 L152 -3.5 M28 3.5 L152 3.5" fill="none" stroke="#c96a1b" stroke-width="1.4" opacity=".6"/>
+    <polygon points="0,0 28,-10 28,10" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="0,0 10,-3.6 10,3.6" fill="#22303f"/>
+    <rect x="166" y="-10" width="20" height="20" rx="6" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="152" y="-10" width="16" height="20" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="38" y="-8" width="66" height="17" rx="8.5" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <ellipse cx="47" cy="0.5" rx="5" ry="4.5" fill="#ffffff" opacity=".6"/>
+    <ellipse cx="82" cy="-16" rx="20" ry="10" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <ellipse cx="68" cy="-17" rx="5" ry="4" fill="#ffffff" opacity=".6"/>
+    <path d="M112 8 Q116 14 112 20 M124 12 Q128 18 124 24" fill="none" stroke="#b57e50" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</g>
+
+<!-- Icon: open book beside the card header -->
+<g transform="translate(772 250)">
+  <path d="M22 10 Q12 4 3 7 L3 37 Q12 34 22 40 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M22 10 Q32 4 41 7 L41 37 Q32 34 22 40 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M8 15 L17 17 M8 22 L17 24 M8 29 L17 31 M27 17 L36 15 M27 24 L36 22" fill="none" stroke="#2f7fb5" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="31,6 37,5 37,17 34,14 31,17" fill="#c0392b" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: light bulb inside the card -->
+<g transform="translate(872 440)">
+  <path d="M3 22 L7 23 M53 22 L49 23 M8 6 L11 9 M48 6 L45 9" fill="none" stroke="#c96a1b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M28 6 C16 6 10 15 10 23 C10 30 15 34 18 38 L38 38 C41 34 46 30 46 23 C46 15 40 6 28 6 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M23 29 L26 24 L28 29 L30 24 L33 29" fill="none" stroke="#c96a1b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18 21 Q19 14 25 12" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <rect x="19" y="38" width="18" height="7" rx="2" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="21" y="45" width="14" height="6" rx="2" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: pencil beside the example -->
+<g transform="translate(130 572)">
+  <polygon points="16,34 38,12 46,20 24,42" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="16,34 24,42 8,50" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="8,50 11,43 15,47" fill="#22303f"/>
+  <polygon points="38,12 42,8 50,16 46,20" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M26 52 Q36 46 46 52" fill="none" stroke="#2f7fb5" stroke-width="2" stroke-linecap="round"/>
+</g>
+
+<!-- Face: thinking, beside the question -->
+<g transform="translate(160 846)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: star (remember) -->
+<g transform="translate(878 906)">
+  <polygon points="26,2 31.9,17.9 48.8,18.6 35.5,29.1 40.1,45.4 26,36 11.9,45.4 16.5,29.1 3.2,18.6 20.1,17.9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M18 22 L22 21" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Section header -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="950" dy="0">الخطوة 4: النموذج الأولي (Prototype)</tspan>
+</text>
+<text x="120" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="120" dy="0">Step 4: Prototype</tspan>
+</text>
+
+<!-- Card header -->
+<text x="935" y="274" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">تعريف</tspan>
+</text>
+<text x="140" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">DEFINITION</tspan>
+</text>
+
+<!-- Card paragraph -->
+<text x="935" y="354" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">النموذج الأولي:</tspan> نسخة سريعة ورخيصة من الحل</tspan>
+  <tspan x="935" dy="40"><tspan font-weight="bold" fill="#17457f">نجرّبها،</tspan> وليست المنتج النهائي.</tspan>
+</text>
+<text x="140" y="434" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Prototype:</tspan> a quick, cheap version</tspan>
+  <tspan x="140" dy="40">of the solution that we <tspan font-weight="bold" fill="#17457f">try out;</tspan></tspan>
+  <tspan x="140" dy="40">it is not the final product.</tspan>
+</text>
+
+<!-- Paragraph: example -->
+<text x="950" y="594" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">في مثالنا: ترسم شاشة <tspan fill="#c96a1b">«حصتي الجاية»</tspan></tspan>
+  <tspan x="950" dy="40">على <tspan font-weight="bold" fill="#17457f">ورقة</tspan> في 5 دقائق، دون أي برمجة.</tspan>
+</text>
+<text x="120" y="674" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">In our example: you draw</tspan>
+  <tspan x="120" dy="40">the <tspan fill="#c96a1b">“My Next Class”</tspan> screen on <tspan font-weight="bold" fill="#17457f">paper</tspan></tspan>
+  <tspan x="120" dy="40">in 5 minutes, without any programming.</tspan>
+</text>
+
+<!-- Paragraph: why paper -->
+<text x="950" y="834" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">لماذا الورقة؟ لأن تعديل رسمة</tspan>
+  <tspan x="950" dy="40"><tspan font-weight="bold" fill="#17457f">أسهل كثيرًا</tspan> من تعديل كود كامل.</tspan>
+</text>
+<text x="120" y="914" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Why paper? Because changing</tspan>
+  <tspan x="120" dy="40">a sketch is <tspan font-weight="bold" fill="#17457f">much easier</tspan> than changing</tspan>
+  <tspan x="120" dy="40">a whole program.</tspan>
+</text>
+</svg>

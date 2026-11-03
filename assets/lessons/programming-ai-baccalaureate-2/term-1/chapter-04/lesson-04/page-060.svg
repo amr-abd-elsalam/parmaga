@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="36" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="35.5" x2="1080" y2="35.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Info card -->
+<rect x="109" y="128" width="870" height="512" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="122" width="870" height="512" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="480" rx="3" fill="#2f7fb5"/>
+
+<!-- Requested illustration: tiny difference vs real difference -->
+<g>
+  <linearGradient id="ilPanel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="ilBlue" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+  <linearGradient id="ilOrange" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#f0c48c"/>
+    <stop offset="1" stop-color="#c96a1b"/>
+  </linearGradient>
+  <rect x="124" y="706" width="400" height="330" rx="26" fill="#22303f" opacity=".18"/>
+  <rect x="564" y="706" width="400" height="330" rx="26" fill="#22303f" opacity=".18"/>
+  <rect x="120" y="700" width="400" height="330" rx="26" fill="url(#ilPanel)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="560" y="700" width="400" height="330" rx="26" fill="url(#ilPanel)" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 174 790 L 488 790 M 174 860 L 488 860 M 174 930 L 488 930" fill="none" stroke="#8fc9f2" stroke-width="1.4"/>
+  <path d="M 614 790 L 928 790 M 614 860 L 928 860 M 614 930 L 928 930" fill="none" stroke="#8fc9f2" stroke-width="1.4"/>
+  <path d="M 215 990 L 215 910 Q 215 900 225 900 L 285 900 Q 295 900 295 910 L 295 990 Z" fill="url(#ilBlue)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="226" y="910" width="12" height="72" rx="6" fill="#ffffff" opacity=".35"/>
+  <path d="M 355 990 L 355 800 Q 355 790 365 790 L 425 790 Q 435 790 435 800 L 435 990 Z" fill="url(#ilOrange)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="366" y="800" width="12" height="182" rx="6" fill="#ffffff" opacity=".35"/>
+  <path d="M 303 900 L 325 900 L 325 790 L 347 790" fill="none" stroke="#17457f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="395" cy="748" r="30" fill="#a9dcbe" opacity=".6"/>
+  <circle cx="395" cy="748" r="22" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <g transform="translate(395 748) scale(1.6)">
+    <path d="M -7 0 L -2 5 L 8 -6" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <path d="M 655 990 L 655 822 Q 655 812 665 812 L 725 812 Q 735 812 735 822 L 735 990 Z" fill="url(#ilBlue)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="666" y="822" width="12" height="160" rx="6" fill="#ffffff" opacity=".35"/>
+  <path d="M 795 990 L 795 810 Q 795 800 805 800 L 865 800 Q 875 800 875 810 L 875 990 Z" fill="url(#ilOrange)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="806" y="810" width="12" height="172" rx="6" fill="#ffffff" opacity=".35"/>
+  <path d="M 705 774 q 7.5 -8 15 0 t 15 0 t 15 0 t 15 0 t 15 0 t 15 0 t 15 0 t 15 0" fill="none" stroke="#17457f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="765" cy="730" r="30" fill="#8fc9f2" opacity=".6"/>
+  <circle cx="765" cy="730" r="22" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <g transform="translate(765 730) scale(1.6)">
+    <path d="M -6 -6 Q -6 -12 0 -12 Q 7 -12 7 -6 Q 7 -2 2 0 Q 0 1 0 4" fill="none" stroke="#17457f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="0" cy="9" r="2" fill="#17457f"/>
+  </g>
+  <path d="M 170 740 L 170 990 L 490 990" fill="none" stroke="#17457f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 610 740 L 610 990 L 930 990" fill="none" stroke="#17457f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Memory illustration: the balance that judges with numbers -->
+<g>
+  <path d="M 474 1252 L 614 1252 L 594 1228 L 494 1228 Z" fill="#22303f" opacity=".18"/>
+  <path d="M 470 1246 L 610 1246 L 590 1222 L 490 1222 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="532" y="1100" width="16" height="124" rx="6" fill="url(#ilBlue)" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 401 1115 L 346 1175 M 401 1115 L 456 1175 M 679 1085 L 624 1145 M 679 1085 L 734 1145" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <g transform="rotate(-6 540 1100)">
+    <rect x="390" y="1094" width="300" height="12" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <circle cx="540" cy="1094" r="12" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="366" y="1125" width="70" height="48" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="380" y="1153" width="16" height="14" rx="3" fill="#2f7fb5"/>
+  <rect x="406" y="1133" width="16" height="34" rx="3" fill="#c96a1b"/>
+  <rect x="644" y="1095" width="70" height="48" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="658" y="1110" width="16" height="27" rx="3" fill="#2f7fb5"/>
+  <rect x="684" y="1108" width="16" height="29" rx="3" fill="#c96a1b"/>
+  <path d="M 346 1175 Q 401 1215 456 1175 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 624 1145 Q 679 1185 734 1145 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: light bulb -->
+<g transform="translate(200 1150)">
+  <circle cx="0" cy="-6" r="17" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-8" y="10" width="16" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M -27 -6 L -23 -6 M 23 -6 L 27 -6 M 0 -27 L 0 -25 M -18 -24 L -16 -22 M 18 -24 L 16 -22" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: document stack -->
+<g transform="translate(290 1150)">
+  <rect x="-14" y="-24" width="32" height="40" rx="4" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-20" y="-16" width="32" height="40" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M -13 -6 L 5 -6 M -13 3 L 5 3 M -13 12 L -1 12" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: star -->
+<g transform="translate(790 1150)">
+  <polygon points="0,-24 5.88,-8.09 22.83,-7.42 9.51,3.09 14.11,19.42 0,10 -14.11,19.42 -9.51,3.09 -22.83,-7.42 -5.88,-8.09" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Face: surprise -->
+<g transform="translate(880 1150)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="0" cy="10" r="5" fill="#22303f"/>
+</g>
+
+<!-- Text -->
+<text x="935" y="150" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">معلومة تميّزك</tspan>
+</text>
+<text x="140" y="186" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">DID YOU KNOW?</tspan>
+</text>
+<text x="935" y="222" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">الدلالة الإحصائية</tspan> (Statistical Significance):</tspan>
+  <tspan x="935" dy="36">أن يكون الفرق بين النسختين <tspan font-weight="bold" fill="#17457f">كبيرًا</tspan></tspan>
+  <tspan x="935" dy="36">بما يكفي لنستبعد أنه حدث صدفة.</tspan>
+</text>
+<text x="140" y="330" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Statistical Significance:</tspan> when the</tspan>
+  <tspan x="140" dy="36">difference between the two versions is</tspan>
+  <tspan x="140" dy="36"><tspan font-weight="bold" fill="#17457f">large enough</tspan> for us to rule out that</tspan>
+  <tspan x="140" dy="36">it happened by chance.</tspan>
+</text>
+<text x="935" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="28" fill="#225f9c">
+  <tspan x="935" dy="0">ويحكم المحللون عليها <tspan font-weight="bold" fill="#17457f">بأدوات إحصائية؛</tspan> ولهذا</tspan>
+  <tspan x="935" dy="36">لا يكفي أن تكون إحدى النسختين أعلى قليلًا.</tspan>
+</text>
+<text x="140" y="546" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="27" fill="#152b42">
+  <tspan x="140" dy="0">Analysts judge it with <tspan font-weight="bold" fill="#17457f">statistical tools;</tspan></tspan>
+  <tspan x="140" dy="36">that is why it is not enough for one</tspan>
+  <tspan x="140" dy="36">version to be slightly higher.</tspan>
+</text>
+</svg>

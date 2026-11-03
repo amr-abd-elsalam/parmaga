@@ -1,0 +1,256 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Illustration: statements sorted into opinion and evidence -->
+<g>
+  <defs>
+    <linearGradient id="ilShelf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#8fc9f2"/>
+    </linearGradient>
+    <linearGradient id="ilTrayE" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f7fb5"/>
+      <stop offset="1" stop-color="#17457f"/>
+    </linearGradient>
+    <linearGradient id="ilTrayO" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0c48c"/>
+      <stop offset="1" stop-color="#c96a1b"/>
+    </linearGradient>
+    <linearGradient id="ilCloud" gradientUnits="userSpaceOnUse" x1="0" y1="1044" x2="0" y2="1142">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dff1f7"/>
+    </linearGradient>
+    <linearGradient id="ilBoard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dff1f7"/>
+    </linearGradient>
+    <radialGradient id="ilChk" cx="0.35" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#a9dcbe"/>
+      <stop offset="1" stop-color="#2e7d32"/>
+    </radialGradient>
+  </defs>
+
+  <!-- shadows -->
+  <g transform="translate(4 6)" fill="#22303f" opacity=".18">
+    <rect x="110" y="1216" width="860" height="22" rx="11"/>
+    <polygon points="306,1150 554,1150 540,1216 320,1216"/>
+    <rect x="300" y="1140" width="260" height="16" rx="8"/>
+    <polygon points="606,1150 794,1150 780,1216 620,1216"/>
+    <rect x="600" y="1140" width="200" height="16" rx="8"/>
+    <rect x="320" y="1052" width="110" height="100" rx="10"/>
+    <rect x="446" y="1040" width="92" height="112" rx="10"/>
+    <ellipse cx="400" cy="1012" rx="34" ry="22"/>
+    <circle cx="650" cy="1110" r="30"/>
+    <circle cx="690" cy="1082" r="38"/>
+    <circle cx="736" cy="1094" r="32"/>
+    <circle cx="760" cy="1120" r="22"/>
+    <rect x="636" y="1106" width="132" height="36" rx="18"/>
+    <circle cx="500" cy="972" r="28"/>
+    <circle cx="700" cy="972" r="28"/>
+  </g>
+
+  <!-- shelf -->
+  <rect x="110" y="1216" width="860" height="22" rx="11" fill="url(#ilShelf)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="126" y="1220" width="828" height="5" rx="2.5" fill="#ffffff" opacity=".6"/>
+
+  <!-- evidence items: speech bubble -->
+  <polygon points="414,1028 440,1046 426,1026" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="400" cy="1012" rx="34" ry="22" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="386" cy="1012" r="3.5" fill="#2f7fb5"/>
+  <circle cx="400" cy="1012" r="3.5" fill="#2f7fb5"/>
+  <circle cx="414" cy="1012" r="3.5" fill="#2f7fb5"/>
+
+  <!-- evidence items: bar chart -->
+  <rect x="320" y="1052" width="110" height="100" rx="10" fill="url(#ilBoard)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="336" y="1102" width="18" height="30" rx="3" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="362" y="1082" width="18" height="50" rx="3" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="388" y="1064" width="18" height="68" rx="3" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M330 1134 L420 1134" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- evidence items: clipboard -->
+  <rect x="446" y="1040" width="92" height="112" rx="10" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="456" y="1056" width="72" height="84" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="470" y="1032" width="44" height="16" rx="6" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M466 1074 L518 1074 M466 1090 L518 1090 M466 1106 L518 1106 M466 1122 L504 1122" fill="none" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- evidence tray -->
+  <polygon points="306,1150 554,1150 540,1216 320,1216" fill="url(#ilTrayE)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="332" y="1178" width="196" height="6" rx="3" fill="#8fc9f2" opacity=".6"/>
+  <rect x="300" y="1140" width="260" height="16" rx="8" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- opinion item: puffy thought cloud -->
+  <g fill="url(#ilCloud)" stroke="#22303f" stroke-width="2.5">
+    <circle cx="650" cy="1110" r="30"/>
+    <circle cx="690" cy="1082" r="38"/>
+    <circle cx="736" cy="1094" r="32"/>
+    <circle cx="760" cy="1120" r="22"/>
+    <rect x="636" y="1106" width="132" height="36" rx="18"/>
+  </g>
+  <g fill="url(#ilCloud)">
+    <circle cx="650" cy="1110" r="28.8"/>
+    <circle cx="690" cy="1082" r="36.8"/>
+    <circle cx="736" cy="1094" r="30.8"/>
+    <circle cx="760" cy="1120" r="20.8"/>
+    <rect x="637.2" y="1107.2" width="129.6" height="33.6" rx="16.8"/>
+  </g>
+  <path d="M666 1078 Q 682 1060 704 1062" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+  <circle cx="792" cy="1046" r="9" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="808" cy="1022" r="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- opinion tray -->
+  <polygon points="606,1150 794,1150 780,1216 620,1216" fill="url(#ilTrayO)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="632" y="1178" width="136" height="6" rx="3" fill="#ffffff" opacity=".35"/>
+  <rect x="600" y="1140" width="200" height="16" rx="8" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- floating check marks -->
+  <circle cx="500" cy="972" r="28" fill="url(#ilChk)" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M488 972 L497 981 L513 963" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="700" cy="972" r="28" fill="url(#ilChk)" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M688 972 L697 981 L713 963" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M484 1010 L494 1010 M506 1010 L516 1010 M684 1010 L694 1010 M706 1010 L716 1010" fill="none" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- sparkles -->
+  <polygon points="548,938 551,945 558,948 551,951 548,958 545,951 538,948 545,945" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="652,940 655,947 662,950 655,953 652,960 649,953 642,950 649,947" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="750,982 753,989 760,992 753,995 750,1002 747,995 740,992 747,989" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: pencil (beside title) -->
+<g transform="translate(178 112) rotate(-35)">
+  <rect x="-8" y="-24" width="16" height="38" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="-8" y="-34" width="16" height="11" rx="3" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="-8,14 8,14 0,30" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="-3,24 3,24 0,30" fill="#22303f"/>
+</g>
+
+<!-- Icon: star (beside title) -->
+<g transform="translate(902 112)">
+  <polygon points="0,-26 6.5,-8.9 24.7,-8 10.5,3.4 15.3,21 0,11 -15.3,21 -10.5,3.4 -24.7,-8 -6.5,-8.9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: light bulb -->
+<g transform="translate(880 383)">
+  <path d="M -28 -8 L -34 -8 M 28 -8 L 34 -8 M 0 -32 L 0 -38 M -20 -27 L -24 -32 M 20 -27 L 24 -32" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="0" cy="-8" r="18" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M -6 -6 L -2 2 L 2 -6 L 6 2" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="-9" y="8" width="18" height="14" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Emotion face: smile -->
+<g transform="translate(800 603)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: check badge -->
+<g transform="translate(900 603)">
+  <circle cx="0" cy="0" r="26" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="0" cy="0" r="18" fill="none" stroke="#a9dcbe" stroke-width="2"/>
+  <path d="M -10 0 L -3 8 L 11 -8" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: document stack -->
+<g transform="translate(820 830)">
+  <rect x="-16" y="-28" width="40" height="50" rx="4" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-24" y="-22" width="40" height="50" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M -16 -10 L 8 -10 M -16 0 L 8 0 M -16 10 L 2 10" fill="none" stroke="#2f7fb5" stroke-width="2" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: pin -->
+<g transform="translate(910 830)">
+  <path d="M 0 0 L 0 26" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="0" cy="-12" r="12" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-4" cy="-16" r="3.5" fill="#ffffff" opacity=".6"/>
+</g>
+
+<!-- Bullets -->
+<circle cx="966" cy="304" r="6" fill="#2e7d32"/>
+<circle cx="114" cy="344" r="6" fill="#2e7d32"/>
+<circle cx="966" cy="464" r="6" fill="#2e7d32"/>
+<circle cx="114" cy="544" r="6" fill="#2e7d32"/>
+<circle cx="966" cy="704" r="6" fill="#2e7d32"/>
+<circle cx="114" cy="784" r="6" fill="#2e7d32"/>
+
+<!-- Page titles -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">
+  <tspan x="540" dy="0">إجابات «جرّب بنفسك»</tspan>
+</text>
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" fill="#152b42">
+  <tspan x="540" dy="0">Answers to “Try It Yourself”</tspan>
+</text>
+
+<!-- Section header -->
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="950" dy="0">رأي أم دليل؟ (الصفحة 11)</tspan>
+</text>
+<text x="120" y="274" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="120" dy="0">Opinion or Evidence? (Page 11)</tspan>
+</text>
+
+<!-- Bullet 1 -->
+<text x="950" y="314" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">1 <tspan font-weight="bold" fill="#c0392b">رأي،</tspan> لأنه يبدأ بـ <tspan fill="#c96a1b">«أظن»</tspan> ولا يحتوي على رقم.</tspan>
+</text>
+<text x="132" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">1 <tspan font-weight="bold" fill="#c0392b">Opinion,</tspan> because it starts with</tspan>
+  <tspan x="132" dy="40"><tspan fill="#c96a1b">“I think”</tspan> and has no number.</tspan>
+</text>
+
+<!-- Bullet 2 -->
+<text x="950" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">2 <tspan font-weight="bold" fill="#17457f">دليل</tspan> من بيانات الاستخدام، لأنه <tspan fill="#c96a1b">أرقام</tspan></tspan>
+  <tspan x="950" dy="40">تسجّل ما فعله الزوار.</tspan>
+</text>
+<text x="132" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">2 <tspan font-weight="bold" fill="#17457f">Evidence</tspan> from usage data,</tspan>
+  <tspan x="132" dy="40">because it is <tspan fill="#c96a1b">numbers</tspan> that record</tspan>
+  <tspan x="132" dy="40">what visitors did.</tspan>
+</text>
+
+<!-- Bullet 3 -->
+<text x="950" y="714" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">3 <tspan font-weight="bold" fill="#17457f">دليل</tspan> من ملاحظات المستخدمين، لأنه</tspan>
+  <tspan x="950" dy="40">ما قاله المستخدمون مع <tspan fill="#c96a1b">عدد محدد.</tspan></tspan>
+</text>
+<text x="132" y="794" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0">3 <tspan font-weight="bold" fill="#17457f">Evidence</tspan> from user feedback,</tspan>
+  <tspan x="132" dy="40">because it is what users said,</tspan>
+  <tspan x="132" dy="40">with a <tspan fill="#c96a1b">specific count.</tspan></tspan>
+</text>
+
+<!-- Illustration labels (right to left) -->
+<text x="940" y="1150" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="940" dy="0">رأي</tspan>
+</text>
+<text x="822" y="1190" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="822" dy="0">Opinion</tspan>
+</text>
+<text x="250" y="1150" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="250" dy="0">دليل</tspan>
+</text>
+<text x="120" y="1190" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="120" dy="0">Evidence</tspan>
+</text>
+</svg>

@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Info card -->
+<rect x="109" y="128" width="870" height="328" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="122" width="870" height="328" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="296" rx="3" fill="#2f7fb5"/>
+
+<!-- Icon: open book beside card header -->
+<g transform="translate(768 128)">
+  <path d="M8 16 Q20 10 32 16 L32 54 Q20 48 8 54 Z" fill="#22303f" opacity=".18"/>
+  <path d="M32 16 Q44 10 56 16 L56 54 Q44 48 32 54 Z" fill="#22303f" opacity=".18"/>
+  <path d="M4 10 Q16 4 28 10 L28 48 Q16 42 4 48 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M28 10 Q40 4 52 10 L52 48 Q40 42 28 48 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M9 19 Q16 16 23 19 M9 27 Q16 24 23 27 M9 35 Q16 32 23 35 M33 19 Q40 16 47 19 M33 27 Q40 24 47 27 M33 35 Q40 32 47 35" fill="none" stroke="#2f7fb5" stroke-width="2" stroke-linecap="round"/>
+</g>
+
+<!-- Thinking face beside the coin question -->
+<g transform="translate(170 548)">
+  <circle cx="4" cy="6" r="26" fill="#22303f" opacity=".18"/>
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Star icon (remember) beside the sample-size rule -->
+<g transform="translate(146 798)">
+  <polygon points="30,8 35.88,23.91 52.83,24.58 39.51,35.09 44.11,51.42 30,42 15.89,51.42 20.49,35.09 7.17,24.58 24.12,23.91" fill="#22303f" opacity=".18"/>
+  <polygon points="26,2 31.88,17.91 48.83,18.58 35.51,29.09 40.11,45.42 26,36 11.89,45.42 16.49,29.09 3.17,18.58 20.12,17.91" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Illustration: few tosses vs. sufficient sample -->
+<g>
+  <defs>
+    <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="ilCoin" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffd24a"/>
+      <stop offset="1" stop-color="#c96a1b"/>
+    </linearGradient>
+    <linearGradient id="ilBarA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fc9f2"/>
+      <stop offset="1" stop-color="#2f7fb5"/>
+    </linearGradient>
+    <linearGradient id="ilBarB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f7fb5"/>
+      <stop offset="1" stop-color="#17457f"/>
+    </linearGradient>
+  </defs>
+  <!-- shadows -->
+  <rect x="109" y="1028" width="864" height="234" rx="24" fill="#22303f" opacity=".18"/>
+  <!-- scene panel -->
+  <rect x="105" y="1022" width="864" height="234" rx="24" fill="url(#ilSky)"/>
+  <!-- ground shadows -->
+  <ellipse cx="272" cy="1240" rx="150" ry="12" fill="#22303f" opacity=".12"/>
+  <ellipse cx="482" cy="1232" rx="96" ry="8" fill="#22303f" opacity=".12"/>
+  <ellipse cx="770" cy="1238" rx="176" ry="10" fill="#22303f" opacity=".12"/>
+  <!-- divider -->
+  <path d="M588 1092 L588 1104 M588 1116 L588 1128 M588 1140 L588 1152 M588 1164 L588 1176 M588 1188 L588 1200 M588 1212 L588 1224" fill="none" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- LEFT: big pile of coins -->
+  <path d="M174 1148 L174 1228 A30 9 0 0 0 234 1228 L234 1148 Z" fill="#22303f" opacity=".18"/>
+  <path d="M236 1118 L236 1228 A30 9 0 0 0 296 1228 L296 1118 Z" fill="#22303f" opacity=".18"/>
+  <path d="M298 1178 L298 1228 A30 9 0 0 0 358 1228 L358 1178 Z" fill="#22303f" opacity=".18"/>
+  <path d="M170 1142 L170 1222 A30 9 0 0 0 230 1222 L230 1142 Z" fill="url(#ilCoin)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M170 1152 A30 9 0 0 0 230 1152 M170 1162 A30 9 0 0 0 230 1162 M170 1172 A30 9 0 0 0 230 1172 M170 1182 A30 9 0 0 0 230 1182 M170 1192 A30 9 0 0 0 230 1192 M170 1202 A30 9 0 0 0 230 1202 M170 1212 A30 9 0 0 0 230 1212" fill="none" stroke="#22303f" stroke-width="1.4" opacity=".35"/>
+  <ellipse cx="200" cy="1142" rx="30" ry="9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M232 1112 L232 1222 A30 9 0 0 0 292 1222 L292 1112 Z" fill="url(#ilCoin)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M232 1122 A30 9 0 0 0 292 1122 M232 1132 A30 9 0 0 0 292 1132 M232 1142 A30 9 0 0 0 292 1142 M232 1152 A30 9 0 0 0 292 1152 M232 1162 A30 9 0 0 0 292 1162 M232 1172 A30 9 0 0 0 292 1172 M232 1182 A30 9 0 0 0 292 1182 M232 1192 A30 9 0 0 0 292 1192 M232 1202 A30 9 0 0 0 292 1202 M232 1212 A30 9 0 0 0 292 1212" fill="none" stroke="#22303f" stroke-width="1.4" opacity=".35"/>
+  <ellipse cx="262" cy="1112" rx="30" ry="9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M294 1172 L294 1222 A30 9 0 0 0 354 1222 L354 1172 Z" fill="url(#ilCoin)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M294 1182 A30 9 0 0 0 354 1182 M294 1192 A30 9 0 0 0 354 1192 M294 1202 A30 9 0 0 0 354 1202 M294 1212 A30 9 0 0 0 354 1212" fill="none" stroke="#22303f" stroke-width="1.4" opacity=".35"/>
+  <ellipse cx="324" cy="1172" rx="30" ry="9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <!-- loose coins in front -->
+  <ellipse cx="190" cy="1243" rx="24" ry="7" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="190" cy="1243" rx="14" ry="4" fill="none" stroke="#c96a1b" stroke-width="2"/>
+  <ellipse cx="256" cy="1246" rx="24" ry="7" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="256" cy="1246" rx="14" ry="4" fill="none" stroke="#c96a1b" stroke-width="2"/>
+  <ellipse cx="322" cy="1242" rx="24" ry="7" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="322" cy="1242" rx="14" ry="4" fill="none" stroke="#c96a1b" stroke-width="2"/>
+
+  <!-- LEFT: balanced bar chart -->
+  <path d="M392 1150 L566 1150 M392 1186 L566 1186" fill="none" stroke="#7f95ab" stroke-width="1.4" opacity=".35"/>
+  <rect x="418" y="1118" width="58" height="104" rx="6" fill="#22303f" opacity=".18"/>
+  <rect x="496" y="1124" width="58" height="98" rx="6" fill="#22303f" opacity=".18"/>
+  <rect x="414" y="1112" width="58" height="110" rx="6" fill="url(#ilBarA)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="492" y="1118" width="58" height="104" rx="6" fill="url(#ilBarB)" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M392 1076 L392 1222 L566 1222" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- green check -->
+  <circle cx="486" cy="1074" r="22" fill="#22303f" opacity=".18"/>
+  <circle cx="482" cy="1068" r="22" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M471 1068 L479 1076 L493 1061" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M444 1040 L447 1047 L454 1050 L447 1053 L444 1060 L441 1053 L434 1050 L441 1047 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- RIGHT: four coins, three heads and one tails -->
+  <circle cx="654" cy="1196" r="34" fill="#22303f" opacity=".18"/>
+  <circle cx="734" cy="1196" r="34" fill="#22303f" opacity=".18"/>
+  <circle cx="814" cy="1196" r="34" fill="#22303f" opacity=".18"/>
+  <circle cx="894" cy="1196" r="34" fill="#22303f" opacity=".18"/>
+  <circle cx="650" cy="1190" r="34" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="650" cy="1190" r="26" fill="none" stroke="#c96a1b" stroke-width="2"/>
+  <circle cx="650" cy="1183" r="8" fill="#c96a1b"/>
+  <path d="M636 1205 Q650 1187 664 1205 Z" fill="#c96a1b"/>
+  <circle cx="730" cy="1190" r="34" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="730" cy="1190" r="26" fill="none" stroke="#c96a1b" stroke-width="2"/>
+  <polygon points="730,1177 733.23,1185.55 742.36,1185.98 735.23,1191.7 737.64,1200.52 730,1195.5 722.36,1200.52 724.77,1191.7 717.64,1185.98 726.77,1185.55" fill="#c96a1b"/>
+  <circle cx="810" cy="1190" r="34" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="810" cy="1190" r="26" fill="none" stroke="#c96a1b" stroke-width="2"/>
+  <circle cx="810" cy="1183" r="8" fill="#c96a1b"/>
+  <path d="M796 1205 Q810 1187 824 1205 Z" fill="#c96a1b"/>
+  <circle cx="890" cy="1190" r="34" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="890" cy="1190" r="26" fill="none" stroke="#c96a1b" stroke-width="2"/>
+  <circle cx="890" cy="1183" r="8" fill="#c96a1b"/>
+  <path d="M876 1205 Q890 1187 904 1205 Z" fill="#c96a1b"/>
+
+  <!-- question mark thought bubble -->
+  <circle cx="774" cy="1090" r="30" fill="#22303f" opacity=".18"/>
+  <circle cx="770" cy="1084" r="30" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="750" cy="1124" r="5" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <circle cx="741" cy="1137" r="3" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <g transform="translate(770 1082)">
+    <path d="M -11 -6 C -11 -22, 13 -22, 13 -6 C 13 3, 4 4, 4 11 L -4 11 C -4 -1, 5 0, 5 -6 C 5 -13, -3 -13, -3 -6 Z" fill="#17457f"/>
+    <circle cx="0" cy="19" r="4" fill="#17457f"/>
+  </g>
+
+  <!-- connector: from doubt to confidence -->
+  <path d="M732 1074 Q624 1028 520 1060" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="512,1063 522,1067 518,1053" fill="#c0392b"/>
+</g>
+
+<!-- ===== TEXT ===== -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">تعريف</tspan>
+</text>
+<text x="140" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">DEFINITION</tspan>
+</text>
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">العينة الكافية</tspan> (Sufficient Sample): عدد</tspan>
+  <tspan x="935" dy="40">من المستخدمين يكفي لتكون النتيجة <tspan font-weight="bold" fill="#2e7d32">موثوقة،</tspan></tspan>
+  <tspan x="935" dy="40">لا مجرد صدفة.</tspan>
+</text>
+<text x="140" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Sufficient Sample:</tspan> a number of users</tspan>
+  <tspan x="140" dy="40">large enough for the result to be</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#2e7d32">reliable,</tspan> not just chance.</tspan>
+</text>
+
+<text x="950" y="514" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">لو رميت عملة <tspan fill="#c96a1b">4 مرات</tspan> فظهرت «صورة» <tspan fill="#c96a1b">3 مرات،</tspan></tspan>
+  <tspan x="950" dy="40">فهل العملة مغشوشة؟</tspan>
+  <tspan x="950" dy="40">لا، فالعدد <tspan font-weight="bold" fill="#17457f">أقل من أن يكفي</tspan> للحكم.</tspan>
+</text>
+<text x="120" y="634" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">If you toss a coin <tspan fill="#c96a1b">4 times</tspan> and get</tspan>
+  <tspan x="120" dy="40">“heads” <tspan fill="#c96a1b">3 times,</tspan> is the coin unfair?</tspan>
+  <tspan x="120" dy="40">No, the number is <tspan font-weight="bold" fill="#17457f">too small</tspan> to judge.</tspan>
+</text>
+
+<text x="950" y="794" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">لذلك حدّد <tspan font-weight="bold" fill="#17457f">حجم العينة</tspan> <tspan font-weight="bold" fill="#2e7d32">قبل الاختبار،</tspan></tspan>
+  <tspan x="950" dy="40">ولا توقف الاختبار مبكرًا</tspan>
+  <tspan x="950" dy="40">لمجرد أن إحدى النسختين تتقدم.</tspan>
+</text>
+<text x="120" y="914" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">So set the <tspan font-weight="bold" fill="#17457f">sample size</tspan> <tspan font-weight="bold" fill="#2e7d32">before the test,</tspan></tspan>
+  <tspan x="120" dy="40">and do not stop the test early just</tspan>
+  <tspan x="120" dy="40">because one version is ahead.</tspan>
+</text>
+</svg>

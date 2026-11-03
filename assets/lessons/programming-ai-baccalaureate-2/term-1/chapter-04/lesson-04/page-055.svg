@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilQuestion" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+  <linearGradient id="ilPasta" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffd24a"/>
+    <stop offset="1" stop-color="#f0c48c"/>
+  </linearGradient>
+  <linearGradient id="ilPlate" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8fc9f2"/>
+    <stop offset="1" stop-color="#2f7fb5"/>
+  </linearGradient>
+  <linearGradient id="ilChili" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#c96a1b"/>
+    <stop offset="1" stop-color="#c0392b"/>
+  </linearGradient>
+  <linearGradient id="ilGlass" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#8fc9f2"/>
+  </linearGradient>
+</defs>
+
+<!-- Info card: shadow, fill, accent bar -->
+<rect x="109" y="568" width="870" height="368" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="562" width="870" height="368" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="578" width="6" height="336" rx="3" fill="#2f7fb5"/>
+
+<!-- Illustration: three ingredients at once, unknown cause -->
+<g>
+  <g transform="translate(4 6)" fill="#22303f" opacity=".18">
+    <path d="M 506 990 A 34 34 0 1 1 564 1014 L 551 1026 L 551 1046 L 529 1046 L 529 1024 L 551.3 1001.3 A 16 16 0 1 0 524 990 A 9 9 0 0 1 506 990 Z"/>
+    <circle cx="540" cy="1066" r="11"/>
+    <path d="M 205 1080 L 255 1080 L 262 1152 Q 262 1162 252 1162 L 208 1162 Q 198 1162 198 1152 Z"/>
+    <path d="M 204 1074 Q 204 1046 230 1044 Q 256 1046 256 1074 Z"/>
+    <path d="M 740 990 C 780 970, 836 982, 858 1030 C 864 1046, 860 1060, 852 1068 C 846 1050, 832 1030, 806 1018 C 784 1008, 760 1006, 744 1008 Z"/>
+    <path d="M 800 1180 L 892 1148 L 922 1164 L 922 1214 L 800 1226 Z"/>
+    <ellipse cx="540" cy="1212" rx="170" ry="42"/>
+  </g>
+
+  <ellipse cx="540" cy="1212" rx="170" ry="42" fill="url(#ilPlate)" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="540" cy="1212" rx="135" ry="31" fill="#ffffff" stroke="#2f7fb5" stroke-width="2"/>
+  <ellipse cx="540" cy="1216" rx="110" ry="22" fill="#dff1f7"/>
+
+  <path d="M 430 1212 C 440 1170, 480 1142, 540 1140 C 600 1142, 640 1170, 650 1212 C 610 1222, 470 1222, 430 1212 Z" fill="url(#ilPasta)" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 455 1200 C 470 1180, 495 1195, 510 1175 C 525 1158, 545 1172, 560 1158 M 470 1210 C 495 1195, 520 1212, 545 1192 C 565 1178, 590 1196, 615 1180 M 500 1170 C 515 1155, 540 1162, 555 1150 M 580 1170 C 595 1160, 610 1175, 630 1195 M 565 1208 C 585 1200, 605 1212, 630 1204" fill="none" stroke="#c96a1b" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="520" cy="1186" r="7" fill="#c0392b"/>
+  <circle cx="577" cy="1182" r="6" fill="#c0392b"/>
+  <circle cx="545" cy="1205" r="5" fill="#c0392b"/>
+  <circle cx="602" cy="1200" r="5" fill="#c0392b"/>
+  <circle cx="485" cy="1198" r="4" fill="#c0392b"/>
+  <path d="M 540 1160 Q 550 1145 562 1152 Q 552 1166 540 1160 Z" fill="#2e7d32"/>
+
+  <path d="M 510 1135 C 500 1122, 520 1112, 510 1098 M 540 1132 C 530 1118, 550 1108, 540 1094 M 570 1135 C 560 1122, 580 1112, 570 1098" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+
+  <polygon points="612,1084 616.1,1094.3 627.2,1095.1 618.7,1102.2 621.4,1112.9 612,1107 602.6,1112.9 605.3,1102.2 596.8,1095.1 607.9,1094.3" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <path d="M 205 1080 L 255 1080 L 262 1152 Q 262 1162 252 1162 L 208 1162 Q 198 1162 198 1152 Z" fill="url(#ilGlass)"/>
+  <path d="M 201 1118 L 259 1118 L 261.5 1150 Q 261 1159 252 1159 L 208 1159 Q 199 1159 199 1150 Z" fill="#ffffff"/>
+  <path d="M 201 1118 L 259 1118" fill="none" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 205 1080 L 255 1080 L 262 1152 Q 262 1162 252 1162 L 208 1162 Q 198 1162 198 1152 Z" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 210 1090 L 213 1110" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 204 1074 Q 204 1046 230 1044 Q 256 1046 256 1074 Z" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="199" y="1074" width="62" height="12" rx="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="222" cy="1060" r="2.5" fill="#22303f"/>
+  <circle cx="230" cy="1054" r="2.5" fill="#22303f"/>
+  <circle cx="238" cy="1060" r="2.5" fill="#22303f"/>
+  <circle cx="230" cy="1066" r="2.5" fill="#22303f"/>
+
+  <path d="M 740 990 C 780 970, 836 982, 858 1030 C 864 1046, 860 1060, 852 1068 C 846 1050, 832 1030, 806 1018 C 784 1008, 760 1006, 744 1008 Z" fill="url(#ilChili)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 766 990 C 792 984, 818 992, 836 1010" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" opacity=".6"/>
+  <path d="M 746 1010 C 728 1012, 724 990, 742 986 C 748 994, 750 1002, 746 1010 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 734 994 C 722 988, 718 978, 724 966" fill="none" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round"/>
+
+  <path d="M 800 1180 L 922 1164 L 922 1214 L 800 1226 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 800 1180 L 892 1148 L 922 1164 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="850" cy="1200" rx="9" ry="7" fill="#c96a1b"/>
+  <ellipse cx="895" cy="1192" rx="6" ry="5" fill="#c96a1b"/>
+  <ellipse cx="880" cy="1208" rx="5" ry="4" fill="#c96a1b"/>
+  <ellipse cx="880" cy="1160" rx="5" ry="3" fill="#c96a1b"/>
+
+  <path d="M 506 990 A 34 34 0 1 1 564 1014 L 551 1026 L 551 1046 L 529 1046 L 529 1024 L 551.3 1001.3 A 16 16 0 1 0 524 990 A 9 9 0 0 1 506 990 Z" fill="url(#ilQuestion)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="540" cy="1066" r="11" fill="url(#ilQuestion)" stroke="#22303f" stroke-width="2.5"/>
+
+  <path d="M 272 1125 Q 335 1135 390 1185" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="397,1192 382,1187 391,1177" fill="#c0392b"/>
+  <path d="M 770 1032 Q 706 1075 668 1132" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="664,1139 678,1131 666,1124" fill="#c0392b"/>
+  <path d="M 792 1198 Q 758 1194 724 1204" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="716,1207 731,1209 727,1196" fill="#c0392b"/>
+</g>
+
+<!-- Icon: light bulb beside the section header -->
+<g transform="translate(118 92)">
+  <path d="M 28 0 L 28 6 M 9.6 7.6 L 13.9 11.9 M 46.4 7.6 L 42.1 11.9 M 2 26 L 8 26 M 48 26 L 54 26" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="28" cy="26" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 23 30 Q 28 22 33 30" fill="none" stroke="#c96a1b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 20 21 Q 22 16 26 15" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 21 40 L 35 40 L 34 48 L 22 48 Z" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="23" y="48" width="10" height="5" rx="2" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Emotion face: thinking -->
+<g transform="translate(880 502)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: open book beside the card header -->
+<g transform="translate(772 566)">
+  <path d="M 22 10 Q 12 4 2 8 L 2 38 Q 12 34 22 40 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 22 10 Q 32 4 42 8 L 42 38 Q 32 34 22 40 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 2 38 Q 12 34 22 40 Q 32 34 42 38 L 42 42 Q 32 38 22 44 Q 12 38 2 42 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 7 16 L 17 18 M 7 24 L 17 26 M 27 18 L 37 16 M 27 26 L 37 24" fill="none" stroke="#8fc9f2" stroke-width="2" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: document stack (bundle) inside the card -->
+<g transform="translate(846 812)">
+  <rect x="14" y="4" width="38" height="46" rx="4" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="9" y="9" width="38" height="46" rx="4" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="4" y="14" width="38" height="46" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 11 26 L 35 26 M 11 34 L 35 34 M 11 42 L 27 42" fill="none" stroke="#2f7fb5" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 4 50 L 42 50" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Section header -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="950" dy="0">لماذا نغيّر عنصرًا واحدًا؟</tspan>
+</text>
+<text x="120" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="120" dy="0">Why Change One Element?</tspan>
+</text>
+
+<!-- Paragraph 1 -->
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">زادت أمك الملح والشطة والجبنة في طبق</tspan>
+  <tspan x="950" dy="40">المكرونة <tspan font-weight="bold" fill="#17457f">مرة واحدة،</tspan> فصار الطبق <tspan font-weight="bold" fill="#2e7d32">رائعًا.</tspan></tspan>
+</text>
+<text x="120" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Your mother added more salt, chili, and</tspan>
+  <tspan x="120" dy="40">cheese to the pasta dish <tspan font-weight="bold" fill="#17457f">all at once,</tspan></tspan>
+  <tspan x="120" dy="40">and the dish became <tspan font-weight="bold" fill="#2e7d32">delicious.</tspan></tspan>
+</text>
+
+<!-- Paragraph 2 -->
+<text x="950" y="434" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">أيّ الثلاثة كان السبب؟ <tspan font-weight="bold" fill="#17457f">لن تعرف!</tspan></tspan>
+</text>
+<text x="120" y="474" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Which of the three was the reason?</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#17457f">You will not know!</tspan></tspan>
+</text>
+
+<!-- Info card texts -->
+<text x="935" y="594" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">تعريف</tspan>
+</text>
+<text x="140" y="634" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">DEFINITION</tspan>
+</text>
+<text x="935" y="674" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">حزمة التغييرات</tspan> (Bundle of Changes):</tspan>
+  <tspan x="935" dy="40">تغيير عدة عناصر معًا في النسخة B؛ فتعرف</tspan>
+  <tspan x="935" dy="40">أثر <tspan font-weight="bold" fill="#17457f">المجموعة كلها،</tspan> لا أثر كل عنصر وحده.</tspan>
+</text>
+<text x="140" y="794" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Bundle of Changes:</tspan> changing several</tspan>
+  <tspan x="140" dy="40">elements together in version B; you</tspan>
+  <tspan x="140" dy="40">learn the effect of <tspan font-weight="bold" fill="#17457f">the whole group,</tspan></tspan>
+  <tspan x="140" dy="40">not the effect of each element alone.</tspan>
+</text>
+</svg>

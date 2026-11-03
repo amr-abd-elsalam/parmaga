@@ -1,0 +1,246 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Outlined box: shadow, fill, accent bar, header divider -->
+<rect x="109" y="128" width="870" height="808" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="122" width="870" height="808" rx="16" fill="#fffdf7" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="776" rx="3" fill="#2f7fb5"/>
+<path d="M140 222 L930 222" fill="none" stroke="#9db9d6" stroke-width="2" stroke-linecap="round"/>
+
+<!-- Bullets -->
+<circle cx="946" cy="384" r="6" fill="#c0392b"/>
+<circle cx="134" cy="424" r="6" fill="#c0392b"/>
+<circle cx="946" cy="504" r="6" fill="#c0392b"/>
+<circle cx="134" cy="584" r="6" fill="#c0392b"/>
+<circle cx="946" cy="664" r="6" fill="#c0392b"/>
+<circle cx="134" cy="744" r="6" fill="#c0392b"/>
+<circle cx="946" cy="824" r="6" fill="#c0392b"/>
+<circle cx="134" cy="864" r="6" fill="#c0392b"/>
+
+<!-- Thinking face beside the header -->
+<g transform="translate(560 172)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Pencil icon beside the header -->
+<g transform="translate(640 172)">
+  <polygon points="-11.8,20.2 -16,24.4 -24.4,16 -20.2,11.8" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="-11.8,20.2 14.2,-5.8 5.8,-14.2 -20.2,11.8" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="14.2,-5.8 20,-20 5.8,-14.2" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="20,-20 18.3,-15.7 15.7,-18.3" fill="#22303f"/>
+</g>
+
+<!-- Star icon in the free corner of the box -->
+<g transform="translate(880 888)">
+  <polygon points="0,-20 5,-6.9 19,-6.2 8.1,2.6 11.8,16.2 0,8.5 -11.8,16.2 -8.1,2.6 -19,-6.2 -5,-6.9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Illustration: mixed-up action cards and the PDCA wheel -->
+<g>
+  <defs>
+    <linearGradient id="ilSegBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8fc9f2"/>
+      <stop offset="1" stop-color="#2f7fb5"/>
+    </linearGradient>
+    <linearGradient id="ilSegGreen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a9dcbe"/>
+      <stop offset="1" stop-color="#2e7d32"/>
+    </linearGradient>
+    <linearGradient id="ilSegOrange" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f0c48c"/>
+      <stop offset="1" stop-color="#c96a1b"/>
+    </linearGradient>
+    <linearGradient id="ilSegYellow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd24a"/>
+      <stop offset="1" stop-color="#f0c48c"/>
+    </linearGradient>
+    <radialGradient id="ilHub" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dff1f7"/>
+    </radialGradient>
+  </defs>
+
+  <!-- shadows -->
+  <g transform="translate(4 6)" fill="#22303f" opacity=".18">
+    <path d="M780.3 990.5 A118 118 0 0 1 885 1081.4 L896.7 1078.8 L868 1106.3 L834.3 1093.2 L846 1090.5 A78 78 0 0 0 776.8 1030.3 Z"/>
+    <path d="M887.5 1118.3 A118 118 0 0 1 796.6 1223 L799.2 1234.7 L771.7 1206 L784.8 1172.3 L787.5 1184 A78 78 0 0 0 847.7 1114.8 Z"/>
+    <path d="M759.7 1225.5 A118 118 0 0 1 655 1134.6 L643.3 1137.2 L672 1109.7 L705.7 1122.8 L694 1125.5 A78 78 0 0 0 763.2 1185.7 Z"/>
+    <path d="M652.5 1097.7 A118 118 0 0 1 743.4 993 L740.8 981.3 L768.3 1010 L755.2 1043.7 L752.5 1032 A78 78 0 0 0 692.3 1101.2 Z"/>
+    <circle cx="770" cy="1108" r="50"/>
+  </g>
+  <g transform="translate(205 1022) rotate(-8)">
+    <rect x="-38" y="-44" width="84" height="100" rx="12" fill="#22303f" opacity=".18"/>
+  </g>
+  <g transform="translate(380 1030) rotate(7)">
+    <rect x="-38" y="-44" width="84" height="100" rx="12" fill="#22303f" opacity=".18"/>
+  </g>
+  <g transform="translate(240 1196) rotate(6)">
+    <rect x="-38" y="-44" width="84" height="100" rx="12" fill="#22303f" opacity=".18"/>
+  </g>
+  <g transform="translate(420 1192) rotate(-5)">
+    <rect x="-38" y="-44" width="84" height="100" rx="12" fill="#22303f" opacity=".18"/>
+  </g>
+
+  <!-- wheel segments (clockwise) -->
+  <path d="M780.3 990.5 A118 118 0 0 1 885 1081.4 L896.7 1078.8 L868 1106.3 L834.3 1093.2 L846 1090.5 A78 78 0 0 0 776.8 1030.3 Z" fill="url(#ilSegBlue)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M887.5 1118.3 A118 118 0 0 1 796.6 1223 L799.2 1234.7 L771.7 1206 L784.8 1172.3 L787.5 1184 A78 78 0 0 0 847.7 1114.8 Z" fill="url(#ilSegGreen)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M759.7 1225.5 A118 118 0 0 1 655 1134.6 L643.3 1137.2 L672 1109.7 L705.7 1122.8 L694 1125.5 A78 78 0 0 0 763.2 1185.7 Z" fill="url(#ilSegOrange)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M652.5 1097.7 A118 118 0 0 1 743.4 993 L740.8 981.3 L768.3 1010 L755.2 1043.7 L752.5 1032 A78 78 0 0 0 692.3 1101.2 Z" fill="url(#ilSegYellow)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- empty slots -->
+  <circle cx="834.3" cy="1034" r="13" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="844" cy="1172.3" r="13" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="705.7" cy="1182" r="13" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="696" cy="1043.7" r="13" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- hub -->
+  <circle cx="770" cy="1108" r="50" fill="url(#ilHub)" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="770" cy="1084" r="6" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="794" cy="1108" r="6" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="770" cy="1132" r="6" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="746" cy="1108" r="6" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="770" cy="1108" r="9" fill="#17457f"/>
+
+  <!-- card: magnifying glass -->
+  <g transform="translate(205 1022) rotate(-8)">
+    <rect x="-42" y="-50" width="84" height="100" rx="12" fill="#ffffff"/>
+    <path d="M -42 -28 L -42 -38 Q -42 -50 -30 -50 L 30 -50 Q 42 -50 42 -38 L 42 -28 Z" fill="#8fc9f2"/>
+    <path d="M -42 -28 L 42 -28" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <rect x="-42" y="-50" width="84" height="100" rx="12" fill="none" stroke="#22303f" stroke-width="2.5"/>
+    <polygon points="10.2,14.8 25.2,29.8 18.8,36.2 3.8,21.2" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="-5" cy="6" r="17" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M -14 0 Q -11 -6 -5 -7" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- card: green check -->
+  <g transform="translate(380 1030) rotate(7)">
+    <rect x="-42" y="-50" width="84" height="100" rx="12" fill="#ffffff"/>
+    <path d="M -42 -28 L -42 -38 Q -42 -50 -30 -50 L 30 -50 Q 42 -50 42 -38 L 42 -28 Z" fill="#a9dcbe"/>
+    <path d="M -42 -28 L 42 -28" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <rect x="-42" y="-50" width="84" height="100" rx="12" fill="none" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="12" r="22" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+    <polygon points="-12,11 -7,6 -2,12 9,0 14,5 -2,22" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+
+  <!-- card: target -->
+  <g transform="translate(240 1196) rotate(6)">
+    <rect x="-42" y="-50" width="84" height="100" rx="12" fill="#ffffff"/>
+    <path d="M -42 -28 L -42 -38 Q -42 -50 -30 -50 L 30 -50 Q 42 -50 42 -38 L 42 -28 Z" fill="#f0c48c"/>
+    <path d="M -42 -28 L 42 -28" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <rect x="-42" y="-50" width="84" height="100" rx="12" fill="none" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="14" r="24" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="14" r="16" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="14" r="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="14" r="3.5" fill="#c0392b"/>
+    <path d="M 1 13 L 20 -6" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="20,-6 27,-9 24,-3" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+
+  <!-- card: paint brush -->
+  <g transform="translate(420 1192) rotate(-5)">
+    <rect x="-42" y="-50" width="84" height="100" rx="12" fill="#ffffff"/>
+    <path d="M -42 -28 L -42 -38 Q -42 -50 -30 -50 L 30 -50 Q 42 -50 42 -38 L 42 -28 Z" fill="#ffd24a"/>
+    <path d="M -42 -28 L 42 -28" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <rect x="-42" y="-50" width="84" height="100" rx="12" fill="none" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M -30 36 Q -16 28 -2 34 Q 12 40 28 32 L 29 38 Q 12 47 -2 40 Q -16 34 -29 42 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="25.2,-10.8 9.2,5.2 2.8,-1.2 18.8,-17.2" fill="#b07a45" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="9.2,5.2 3.2,11.2 -3.2,4.8 2.8,-1.2" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M 3.2 11.2 Q -2 20 -14 22 Q -11 10 -3.2 4.8 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+
+  <!-- sparkles -->
+  <g transform="translate(292 1000)">
+    <polygon points="0,-12 3.5,-3.5 12,0 3.5,3.5 0,12 -3.5,3.5 -12,0 -3.5,-3.5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(548 1055)">
+    <polygon points="0,-12 3.5,-3.5 12,0 3.5,3.5 0,12 -3.5,3.5 -12,0 -3.5,-3.5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(560 1248)">
+    <polygon points="0,-12 3.5,-3.5 12,0 3.5,3.5 0,12 -3.5,3.5 -12,0 -3.5,-3.5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+
+  <!-- dotted curved arrows toward the wheel -->
+  <path d="M448 1012 L458.3 1008.8 M468.5 1005.6 L478.9 1003.4 M489.3 1001.1 L499.8 999.9 M510.3 998.6 L520.9 998.4 M531.5 998.1 L542.3 998.8 M553 999.5 L563.9 1001.2 M574.7 1002.9 L585.7 1005.6 M596.7 1008.2 L607.8 1011.9 M618.9 1015.5 L630.1 1020.2 M641.3 1024.8 L652 1030" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="664,1036 648.3,1036.1 654.5,1023.5" fill="#c0392b" stroke="#c0392b" stroke-width="2.4" stroke-linejoin="round"/>
+  <g transform="translate(-8 6)">
+    <path d="M482 1188 L492.7 1190.4 M503.4 1192.8 L513.9 1194.7 M524.3 1196.6 L534.6 1197.9 M544.8 1199.2 L554.9 1199.9 M564.9 1200.6 L574.7 1200.8 M584.5 1201 L594.1 1200.6 M603.7 1200.2 L613.1 1199.3 M622.4 1198.4 L631.6 1196.9 M640.7 1195.4 L649.7 1193.3 M658.6 1191.2 L664 1190" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+    <polygon points="676,1186 664.6,1196.7 660.6,1183.3" fill="#c0392b" stroke="#c0392b" stroke-width="2.4" stroke-linejoin="round"/>
+  </g>
+  <path d="M252 1098 L269 1100.8 M285.9 1103.5 L303.2 1105.7 M320.4 1107.8 L338 1109.5 M355.5 1111.1 L373.4 1112.3 M391.2 1113.4 L409.4 1114 M427.5 1114.5 L446 1114.6 M464.4 1114.6 L483.2 1114.1 M501.9 1113.5 L521 1112.5 M540 1111.4 L559.4 1109.9 M578.7 1108.3 L598 1106" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="618,1104 604.9,1112.5 603.3,1098.5" fill="#c0392b" stroke="#c0392b" stroke-width="2.4" stroke-linejoin="round"/>
+</g>
+
+<!-- Texts, in Layout order -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="935" dy="0">جرّب بنفسك</tspan>
+</text>
+<text x="140" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="140" dy="0">TRY IT YOURSELF</tspan>
+</text>
+
+<text x="935" y="274" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">حدّد خطوة <tspan font-weight="bold" fill="#17457f">PDCA</tspan> التي تنتمي إليها كل عبارة:</tspan>
+</text>
+<text x="140" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">Identify the <tspan font-weight="bold" fill="#17457f">PDCA</tspan> step that each</tspan>
+  <tspan x="140" dy="40">statement belongs to:</tspan>
+</text>
+
+<text x="930" y="394" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="930" dy="0">«قسنا عدد التسجيلات بعد أسبوع من التغيير.»</tspan>
+</text>
+<text x="150" y="434" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="150" dy="0">“We measured the number of sign-ups</tspan>
+  <tspan x="150" dy="40">one week after the change.”</tspan>
+</text>
+
+<text x="930" y="514" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="930" dy="0">«قررنا تعميم الزر الجديد</tspan>
+  <tspan x="930" dy="40">على كل صفحات الموقع.»</tspan>
+</text>
+<text x="150" y="594" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="150" dy="0">“We decided to apply the new button</tspan>
+  <tspan x="150" dy="40">to every page of the site.”</tspan>
+</text>
+
+<text x="930" y="674" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="930" dy="0">«حددنا هدف رفع التسجيلات</tspan>
+  <tspan x="930" dy="40">من 20 إلى 30 يوميًا.»</tspan>
+</text>
+<text x="150" y="754" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="150" dy="0">“We set the goal of raising sign-ups</tspan>
+  <tspan x="150" dy="40">from 20 to 30 a day.”</tspan>
+</text>
+
+<text x="930" y="834" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="930" dy="0">«غيّرنا لون زر التسجيل.»</tspan>
+</text>
+<text x="150" y="874" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="150" dy="0">“We changed the color</tspan>
+  <tspan x="150" dy="40">of the sign-up button.”</tspan>
+</text>
+</svg>

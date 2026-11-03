@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Info card -->
+<rect x="109" y="128" width="870" height="328" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="122" width="870" height="328" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="296" rx="3" fill="#2f7fb5"/>
+
+<!-- Icon: open book (definition) -->
+<g transform="translate(862 344)">
+  <path d="M32 10 C24 4 10 4 3 8 V50 C10 46 24 46 32 52 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M32 10 C40 4 54 4 61 8 V50 C54 46 40 46 32 52 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M10 18 H26 M10 26 H26 M10 34 H24 M38 18 H54 M38 26 H54 M40 34 H54" fill="none" stroke="#2f7fb5" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="44,7 52,6 52,20 48,16 44,20" fill="#c0392b"/>
+</g>
+
+<!-- Icon: light bulb (analogy insight) -->
+<g transform="translate(172 492)">
+  <path d="M28 1 V4 M8 10 L11 13 M48 10 L45 13 M3 26 H7 M49 26 H53" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M21 38 H35 V46 H21 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="28" cy="24" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M22 26 Q28 33 34 26" fill="none" stroke="#c96a1b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M23 52 H33" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Face: wink (tip) -->
+<g transform="translate(300 520)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M 5 -6 L 13 -6" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Illustration: webpage wireframe beside a house floor plan -->
+<g>
+  <defs>
+    <linearGradient id="ilChrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f7fb5"/>
+      <stop offset="1" stop-color="#17457f"/>
+    </linearGradient>
+    <linearGradient id="ilSheet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dff1f7"/>
+    </linearGradient>
+  </defs>
+  <!-- shadows -->
+  <rect x="134" y="696" width="380" height="380" rx="14" fill="#22303f" opacity=".18"/>
+  <rect x="579" y="706" width="385" height="540" rx="14" fill="#22303f" opacity=".18"/>
+
+  <!-- browser window with wireframe -->
+  <rect x="130" y="690" width="380" height="380" rx="14" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M144 690 H496 Q510 690 510 704 V726 H130 V704 Q130 690 144 690 Z" fill="url(#ilChrome)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="152" cy="708" r="6" fill="#f0c48c"/>
+  <circle cx="174" cy="708" r="6" fill="#8fc9f2"/>
+  <circle cx="196" cy="708" r="6" fill="#ffffff"/>
+  <rect x="216" y="699" width="278" height="18" rx="9" fill="#dff1f7"/>
+  <rect x="155" y="746" width="330" height="40" rx="6" fill="#ffffff" stroke="#7f95ab" stroke-width="2.5"/>
+  <rect x="155" y="806" width="275" height="180" rx="4" fill="#ffffff" stroke="#7f95ab" stroke-width="2.5"/>
+  <path d="M157 808 L428 984 M428 808 L157 984" fill="none" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+  <rect x="155" y="1006" width="130" height="40" rx="20" fill="#ffffff" stroke="#7f95ab" stroke-width="2.5"/>
+
+  <!-- analogy arrow -->
+  <path d="M530 898 H560" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="536,891 524,898 536,905" fill="#c0392b"/>
+  <polygon points="554,891 566,898 554,905" fill="#c0392b"/>
+
+  <!-- blueprint sheet -->
+  <rect x="575" y="700" width="385" height="540" rx="14" fill="url(#ilSheet)" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M615 720 V1220 M655 720 V1220 M695 720 V1220 M735 720 V1220 M775 720 V1220 M815 720 V1220 M855 720 V1220 M895 720 V1220 M935 720 V1220 M595 740 H940 M595 780 H940 M595 820 H940 M595 860 H940 M595 900 H940 M595 940 H940 M595 980 H940 M595 1020 H940 M595 1060 H940 M595 1100 H940 M595 1140 H940 M595 1180 H940 M595 1220 H940" fill="none" stroke="#8fc9f2" stroke-width="1.4" opacity=".6"/>
+
+  <!-- rooms -->
+  <rect x="610" y="740" width="170" height="160" fill="#ffffff"/>
+  <rect x="780" y="740" width="145" height="120" fill="#f0c48c"/>
+  <rect x="780" y="860" width="145" height="140" fill="#8fc9f2"/>
+  <rect x="610" y="900" width="90" height="100" fill="#8fc9f2"/>
+  <rect x="700" y="900" width="80" height="100" fill="#dff1f7"/>
+  <rect x="610" y="1000" width="315" height="110" fill="#ffffff"/>
+
+  <!-- walls -->
+  <rect x="604" y="734" width="327" height="382" fill="none" stroke="#17457f" stroke-width="3"/>
+  <rect x="610" y="740" width="315" height="370" fill="none" stroke="#17457f" stroke-width="2"/>
+  <path d="M780 740 V800 M780 830 V930 M780 960 V1000 M780 860 H925 M610 900 H720 M760 900 H780 M700 900 V930 M700 960 V1000 M610 1000 H720 M760 1000 H925" fill="none" stroke="#17457f" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- windows -->
+  <rect x="650" y="731" width="60" height="12" fill="#ffffff" stroke="#2f7fb5" stroke-width="2"/>
+  <rect x="830" y="731" width="60" height="12" fill="#ffffff" stroke="#2f7fb5" stroke-width="2"/>
+  <rect x="919" y="900" width="18" height="60" fill="#ffffff" stroke="#2f7fb5" stroke-width="2"/>
+  <rect x="800" y="1107" width="70" height="12" fill="#ffffff" stroke="#2f7fb5" stroke-width="2"/>
+
+  <!-- doors -->
+  <path d="M780 830 H810 M810 830 A30 30 0 0 0 780 800" fill="none" stroke="#c96a1b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M700 960 H670 M670 960 A30 30 0 0 1 700 930" fill="none" stroke="#c96a1b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M780 960 H810 M810 960 A30 30 0 0 0 780 930" fill="none" stroke="#c96a1b" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- furniture -->
+  <rect x="630" y="760" width="90" height="30" rx="8" fill="#8fc9f2" stroke="#17457f" stroke-width="2"/>
+  <circle cx="700" cy="845" r="22" fill="#f0c48c" stroke="#17457f" stroke-width="2"/>
+  <rect x="820" y="760" width="80" height="70" rx="6" fill="#ffffff" stroke="#17457f" stroke-width="2"/>
+  <rect x="830" y="766" width="60" height="16" rx="6" fill="#8fc9f2"/>
+  <rect x="895" y="875" width="22" height="110" fill="#ffffff" stroke="#17457f" stroke-width="2"/>
+  <rect x="815" y="972" width="70" height="20" fill="#ffffff" stroke="#17457f" stroke-width="2"/>
+  <rect x="620" y="912" width="36" height="70" rx="14" fill="#ffffff" stroke="#17457f" stroke-width="2"/>
+  <rect x="640" y="1020" width="90" height="70" rx="6" fill="#8fc9f2" stroke="#17457f" stroke-width="2"/>
+  <rect x="650" y="1026" width="70" height="16" rx="6" fill="#ffffff"/>
+  <rect x="820" y="1060" width="80" height="30" fill="#f0c48c" stroke="#17457f" stroke-width="2"/>
+
+  <!-- ruler and pencil -->
+  <rect x="620" y="1140" width="280" height="26" rx="4" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M640 1140 V1154 M660 1140 V1149 M680 1140 V1154 M700 1140 V1149 M720 1140 V1154 M740 1140 V1149 M760 1140 V1154 M780 1140 V1149 M800 1140 V1154 M820 1140 V1149 M840 1140 V1154 M860 1140 V1149 M880 1140 V1154" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+  <rect x="620" y="1186" width="20" height="20" rx="4" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="640" y="1186" width="220" height="20" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="860,1186 892,1196 860,1206" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="882,1193 892,1196 882,1199" fill="#22303f"/>
+
+  <!-- pointer lines to labels -->
+  <path d="M205 1104 V1060" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="198,1062 205,1049 212,1062" fill="#c0392b"/>
+  <path d="M320 1104 V1000" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="313,1002 320,989 327,1002" fill="#c0392b"/>
+  <path d="M458 1104 V800" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="451,802 458,789 465,802" fill="#c0392b"/>
+</g>
+
+<!-- Texts -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">تعريف</text>
+
+<text x="140" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">DEFINITION</text>
+
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">المخطط الهيكلي</tspan> (Wireframe): رسم تخطيطي</tspan>
+  <tspan x="935" dy="40">يوضح <tspan font-weight="bold" fill="#17457f">أماكن العناصر</tspan> في صفحة الويب،</tspan>
+  <tspan x="935" dy="40">دون ألوان أو صور أو تفاصيل.</tspan>
+</text>
+
+<text x="140" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Wireframe:</tspan> a layout sketch that shows</tspan>
+  <tspan x="140" dy="40">where the <tspan font-weight="bold" fill="#17457f">elements</tspan> go on a web page,</tspan>
+  <tspan x="140" dy="40">without colors, images, or details.</tspan>
+</text>
+
+<text x="950" y="514" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">يشبه <tspan font-weight="bold" fill="#c0392b">المخطط الهيكلي</tspan> <tspan font-weight="bold" fill="#17457f">رسم المهندس</tspan></tspan>
+  <tspan x="950" dy="40">لتوزيع الغرف قبل بناء البيت.</tspan>
+</text>
+
+<text x="120" y="594" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">A <tspan font-weight="bold" fill="#c0392b">wireframe</tspan> is like an <tspan font-weight="bold" fill="#17457f">engineer's plan</tspan></tspan>
+  <tspan x="120" dy="40">of the rooms before building a house.</tspan>
+</text>
+
+<text x="497" y="1154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">العنوان</text>
+<text x="392" y="1194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Heading</text>
+<text x="350" y="1154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">صورة</text>
+<text x="278" y="1194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Image</text>
+<text x="220" y="1154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">زر</text>
+<text x="158" y="1194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">Button</text>
+</svg>

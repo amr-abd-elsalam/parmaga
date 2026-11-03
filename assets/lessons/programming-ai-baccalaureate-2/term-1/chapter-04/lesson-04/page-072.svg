@@ -1,0 +1,216 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Warning card -->
+<g>
+  <rect x="109" y="128" width="870" height="568" rx="16" fill="#22303f" opacity=".12"/>
+  <rect x="105" y="122" width="870" height="568" rx="16" fill="#fdf1e2" stroke="#f0c48c" stroke-width="2"/>
+  <rect x="961" y="138" width="6" height="536" rx="3" fill="#c96a1b"/>
+</g>
+
+<!-- Illustration: a student spots a suspicious absolute word in a multiple-choice question -->
+<g>
+  <linearGradient id="ilExamWall" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+
+  <!-- Shadows -->
+  <rect x="109" y="950" width="866" height="312" rx="24" fill="#22303f" opacity=".18"/>
+
+  <!-- Panel and desk -->
+  <rect x="105" y="944" width="866" height="312" rx="24" fill="url(#ilExamWall)"/>
+  <path d="M105 1196 L971 1196 L971 1232 Q971 1256 947 1256 L129 1256 Q105 1256 105 1232 Z" fill="#b07a45"/>
+  <path d="M140 1222 C 260 1214, 380 1230, 520 1220 M600 1244 C 700 1236, 820 1250, 940 1240" fill="none" stroke="#3a2411" stroke-width="2.5" stroke-linecap="round" opacity=".35"/>
+  <path d="M105 1196 L971 1196" fill="none" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Wall sparkles -->
+  <polygon points="760,978 763,985 770,988 763,991 760,998 757,991 750,988 757,985" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <polygon points="926,992 929,999 936,1002 929,1005 926,1012 923,1005 916,1002 923,999" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Pinned sticky note -->
+  <g transform="rotate(-6 205 1020)">
+    <rect x="164" y="986" width="90" height="80" rx="6" fill="#22303f" opacity=".18"/>
+    <rect x="160" y="980" width="90" height="80" rx="6" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="176" y="1004" width="58" height="6" rx="3" fill="#c96a1b"/>
+    <rect x="176" y="1020" width="46" height="6" rx="3" fill="#c96a1b"/>
+    <rect x="176" y="1036" width="54" height="6" rx="3" fill="#c96a1b"/>
+    <circle cx="205" cy="986" r="6" fill="#c0392b" stroke="#22303f" stroke-width="2"/>
+  </g>
+
+  <!-- Books on the desk -->
+  <rect x="144" y="1174" width="160" height="28" rx="4" fill="#22303f" opacity=".18"/>
+  <rect x="140" y="1168" width="160" height="28" rx="4" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="150" y="1178" width="140" height="6" rx="3" fill="#dff1f7"/>
+  <rect x="152" y="1142" width="136" height="26" rx="4" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="164" y="1152" width="112" height="5" rx="2.5" fill="#f0c48c"/>
+
+  <!-- Alarm clock -->
+  <ellipse cx="852" cy="1198" rx="50" ry="6" fill="#22303f" opacity=".18"/>
+  <path d="M822 1176 L812 1194 M878 1176 L888 1194" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M832 1094 Q850 1082 868 1094" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="818" cy="1104" r="14" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="882" cy="1104" r="14" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="850" cy="1140" r="42" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="850" cy="1140" r="33" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M850 1112 L850 1118 M878 1140 L872 1140 M850 1168 L850 1162 M822 1140 L828 1140" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M850 1140 L850 1120 M850 1140 L864 1148" fill="none" stroke="#17457f" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="850" cy="1140" r="4" fill="#c0392b"/>
+
+  <!-- Pencil on the desk -->
+  <ellipse cx="846" cy="1240" rx="90" ry="4" fill="#22303f" opacity=".18"/>
+  <rect x="780" y="1218" width="124" height="16" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M780 1226 L904 1226" fill="none" stroke="#c96a1b" stroke-width="2"/>
+  <rect x="904" y="1218" width="12" height="16" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="916" y="1218" width="20" height="16" rx="4" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="780,1218 780,1234 754,1226" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="762,1223.2 762,1228.8 754,1226" fill="#22303f"/>
+
+  <!-- Clipboard with answer sheet -->
+  <rect x="354" y="974" width="380" height="272" rx="16" fill="#22303f" opacity=".18"/>
+  <rect x="350" y="968" width="380" height="272" rx="16" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="368" y="990" width="344" height="236" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="500" y="956" width="80" height="26" rx="8" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="520" y="962" width="40" height="8" rx="4" fill="#22303f"/>
+  <rect x="512" y="1004" width="180" height="10" rx="5" fill="#2f7fb5"/>
+  <rect x="572" y="1022" width="120" height="6" rx="3" fill="#8fc9f2"/>
+  <rect x="388" y="1004" width="80" height="6" rx="3" fill="#8fc9f2"/>
+
+  <!-- Option row 1 -->
+  <circle cx="686" cy="1060" r="11" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="600" y="1055" width="60" height="10" rx="5" fill="#7f95ab"/>
+  <rect x="520" y="1055" width="72" height="10" rx="5" fill="#7f95ab"/>
+  <rect x="470" y="1055" width="42" height="10" rx="5" fill="#7f95ab"/>
+  <!-- Option row 2 -->
+  <circle cx="686" cy="1104" r="11" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="580" y="1099" width="80" height="10" rx="5" fill="#7f95ab"/>
+  <rect x="500" y="1099" width="72" height="10" rx="5" fill="#7f95ab"/>
+  <!-- Option row 3 (suspicious) -->
+  <circle cx="686" cy="1148" r="11" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="606" y="1143" width="54" height="10" rx="5" fill="#7f95ab"/>
+  <rect x="526" y="1143" width="72" height="10" rx="5" fill="#7f95ab"/>
+  <rect x="478" y="1143" width="32" height="10" rx="5" fill="#c96a1b"/>
+  <!-- Option row 4 -->
+  <circle cx="686" cy="1192" r="11" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="592" y="1187" width="68" height="10" rx="5" fill="#7f95ab"/>
+  <rect x="506" y="1187" width="78" height="10" rx="5" fill="#7f95ab"/>
+  <rect x="470" y="1187" width="28" height="10" rx="5" fill="#7f95ab"/>
+
+  <!-- Floating warning triangle -->
+  <polygon points="364,1036 406,1108 322,1108" fill="#22303f" opacity=".18"/>
+  <polygon points="360,1030 402,1102 318,1102" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="357" y="1050" width="6" height="30" rx="3" fill="#22303f"/>
+  <circle cx="360" cy="1090" r="3.5" fill="#22303f"/>
+  <path d="M306 1046 Q298 1062 306 1078 M292 1040 Q282 1062 292 1084" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M328 1118 L344 1118 M352 1118 L368 1118 M376 1118 L392 1118" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Magnifying glass: shadows -->
+  <g transform="translate(4 6)">
+    <polygon points="465.7,1187.7 419.7,1233.7 408.3,1222.3 454.3,1176.3" fill="#22303f" opacity=".18"/>
+    <path d="M546 1148 A52 52 0 1 0 442 1148 A52 52 0 1 0 546 1148 Z M538 1148 A44 44 0 1 0 450 1148 A44 44 0 1 0 538 1148 Z" fill="#22303f" fill-rule="evenodd" opacity=".18"/>
+  </g>
+  <!-- Magnifying glass: handle -->
+  <polygon points="465.7,1187.7 419.7,1233.7 408.3,1222.3 454.3,1176.3" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="414" cy="1228" r="8" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <!-- Magnifying glass: lens tint -->
+  <circle cx="494" cy="1148" r="44" fill="#4fc3e8" opacity=".35"/>
+  <!-- Red circle around the short bar, with alert rays -->
+  <ellipse cx="494" cy="1148" rx="26" ry="16" fill="none" stroke="#c0392b" stroke-width="3"/>
+  <path d="M524 1136 L532 1130 M526 1150 L536 1150 M524 1162 L532 1168" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <!-- Magnifying glass: ring and glare -->
+  <path d="M546 1148 A52 52 0 1 0 442 1148 A52 52 0 1 0 546 1148 Z M538 1148 A44 44 0 1 0 450 1148 A44 44 0 1 0 538 1148 Z" fill="#17457f" fill-rule="evenodd" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M466 1124 A36 36 0 0 1 494 1112" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+
+  <rect x="105" y="944" width="866" height="312" rx="24" fill="none" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Face: surprise -->
+<g transform="translate(900 402)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="0" cy="10" r="5" fill="#22303f"/>
+</g>
+
+<!-- Icon: star -->
+<g transform="translate(872 600)">
+  <polygon points="30,2 37.05,20.29 56.63,21.35 41.41,33.71 46.46,52.65 30,42 13.54,52.65 18.59,33.71 3.37,21.35 22.95,20.29" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: light bulb -->
+<g transform="translate(140 712)">
+  <path d="M4 10 L-2 6 M52 10 L58 6" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="28" cy="24" r="18" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M20 38 L36 38 L34 46 L22 46 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="20" y="44" width="16" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Face: thinking -->
+<g transform="translate(900 870)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Texts -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">قاعدة الكلمات المطلقة</text>
+
+<text x="140" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">THE ABSOLUTE WORDS RULE</text>
+
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">في أسئلة الاختيار من متعدد، ضع <tspan font-weight="bold" fill="#c0392b">موضع الشك</tspan></tspan>
+  <tspan x="935" dy="40">أي خيار فيه كلمات مثل «فقط» أو «وحده»</tspan>
+  <tspan x="935" dy="40">أو «لا حاجة» أو «مرة واحدة».</tspan>
+</text>
+
+<text x="140" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">In multiple-choice questions,</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#c0392b">be suspicious</tspan> of any option with</tspan>
+  <tspan x="140" dy="40">words like “only”, “alone”,</tspan>
+  <tspan x="140" dy="40">“no need”, or “once”.</tspan>
+</text>
+
+<text x="935" y="514" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">لأن الدرس كله ضد <tspan font-weight="bold" fill="#c0392b">الحلول المطلقة:</tspan></tspan>
+  <tspan x="935" dy="40">التحسين يتكرر ولا يتوقف.</tspan>
+</text>
+
+<text x="140" y="594" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">Because the whole lesson is against</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#c0392b">absolute answers:</tspan> improvement</tspan>
+  <tspan x="140" dy="40">repeats and does not stop.</tspan>
+</text>
+
+<text x="950" y="754" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan fill="#c96a1b">مثال:</tspan> «ينبغي أن تتم جميع التحسينات</tspan>
+  <tspan x="950" dy="40">باختبار A/B <tspan font-weight="bold" fill="#c0392b">وحده»</tspan> خيار خاطئ.</tspan>
+</text>
+
+<text x="120" y="834" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan fill="#c96a1b">Example:</tspan> “All improvements should</tspan>
+  <tspan x="120" dy="40">be done with A/B testing <tspan font-weight="bold" fill="#c0392b">alone”</tspan></tspan>
+  <tspan x="120" dy="40">is a wrong option.</tspan>
+</text>
+</svg>

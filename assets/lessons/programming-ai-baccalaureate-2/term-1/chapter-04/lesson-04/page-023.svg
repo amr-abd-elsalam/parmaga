@@ -1,0 +1,209 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilBoard" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <linearGradient id="ilArrow" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+  <linearGradient id="ilHero" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#4fc3e8"/>
+    <stop offset="1" stop-color="#2f7fb5"/>
+  </linearGradient>
+  <linearGradient id="ilShirt" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8fc9f2"/>
+    <stop offset="1" stop-color="#2f7fb5"/>
+  </linearGradient>
+</defs>
+
+<!-- Info card: shadow, fill, accent, divider -->
+<rect x="109" y="368" width="870" height="488" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="362" width="870" height="488" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="378" width="6" height="456" rx="3" fill="#2f7fb5"/>
+<path d="M140 664 L930 664" fill="none" stroke="#9db9d6" stroke-width="1.4" stroke-linecap="round"/>
+
+<!-- Main illustration: plan on paper, then carry it out -->
+<g>
+  <!-- shadows -->
+  <rect x="134" y="911" width="300" height="230" rx="16" fill="#22303f" opacity=".18"/>
+  <polygon points="692,1016 616,1016 616,994 570,1040 616,1086 616,1064 692,1064" fill="#22303f" opacity=".18"/>
+  <rect x="704" y="916" width="180" height="240" rx="16" fill="#22303f" opacity=".18"/>
+  <circle cx="870" cy="936" r="28" fill="#22303f" opacity=".18"/>
+
+  <!-- webpage card -->
+  <rect x="130" y="905" width="300" height="230" rx="16" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M130 921 Q130 905 146 905 L414 905 Q430 905 430 921 L430 937 L130 937 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="150" cy="921" r="5" fill="#c0392b"/>
+  <circle cx="168" cy="921" r="5" fill="#ffd24a"/>
+  <circle cx="186" cy="921" r="5" fill="#a9dcbe"/>
+  <rect x="204" y="913" width="208" height="16" rx="8" fill="#dff1f7"/>
+  <rect x="148" y="952" width="264" height="40" rx="8" fill="url(#ilHero)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="166" y="966" width="120" height="10" rx="5" fill="#ffffff"/>
+  <rect x="148" y="1008" width="110" height="70" rx="8" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M152 1074 L182 1040 L204 1062 L222 1046 L254 1074 Z" fill="#2e7d32"/>
+  <circle cx="232" cy="1026" r="8" fill="#ffd24a"/>
+  <rect x="274" y="1058" width="138" height="8" rx="4" fill="#e8dfd1"/>
+  <rect x="274" y="1074" width="110" height="8" rx="4" fill="#e8dfd1"/>
+  <rect x="274" y="1100" width="138" height="8" rx="4" fill="#e8dfd1"/>
+  <rect x="148" y="1094" width="110" height="26" rx="13" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="174" y="1104" width="58" height="6" rx="3" fill="#ffffff"/>
+
+  <!-- target position guide (dashed) -->
+  <path d="M274 1008 H284 M292 1008 H302 M310 1008 H320 M328 1008 H338 M346 1008 H356 M364 1008 H374 M382 1008 H384 M274 1042 H284 M292 1042 H302 M310 1042 H320 M328 1042 H338 M346 1042 H356 M364 1042 H374 M382 1042 H384 M274 1008 V1018 M274 1026 V1036 M384 1008 V1018 M384 1026 V1036" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- the block being adjusted -->
+  <g transform="rotate(-6 330 1026)">
+    <rect x="278" y="1010" width="110" height="34" rx="8" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="290" y="1019" width="60" height="6" rx="3" fill="#c96a1b"/>
+    <rect x="290" y="1030" width="40" height="6" rx="3" fill="#c96a1b"/>
+  </g>
+  <path d="M266 1004 L258 998 M264 1024 L254 1024 M266 1044 L258 1050" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- student -->
+  <rect x="466" y="1086" width="26" height="72" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="496" y="1086" width="26" height="72" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="478" cy="1162" rx="16" ry="7" fill="#22303f"/>
+  <ellipse cx="510" cy="1162" rx="16" ry="7" fill="#22303f"/>
+  <rect x="486" y="976" width="16" height="16" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M460 1000 Q460 988 474 988 L514 988 Q528 988 528 1000 L532 1090 L456 1090 Z" fill="url(#ilShirt)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M484 988 L494 1000 L504 988" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M520 996 L540 1058 L528 1064 L510 1004 Z" fill="url(#ilShirt)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="535" cy="1066" r="9" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="494" cy="954" r="28" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="522" cy="960" r="6" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M466 954 Q464 922 494 920 Q526 920 523 952 Q514 936 496 937 Q478 938 466 954 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="484" cy="957" r="3" fill="#22303f"/>
+  <circle cx="500" cy="957" r="3" fill="#22303f"/>
+  <path d="M484 968 Q491 974 498 968" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M468 996 L428 1018 L434 1040 L474 1022 Z" fill="url(#ilShirt)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="398" y="1024" width="40" height="11" rx="5.5" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M376 1018 L390 1015 Q404 1016 405 1030 Q404 1044 390 1045 L376 1042 L386 1034 L386 1026 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="426" cy="1030" r="10" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- bold arrow: from plan to action -->
+  <polygon points="688,1010 612,1010 612,988 566,1034 612,1080 612,1058 688,1058" fill="url(#ilArrow)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- clipboard with checklist -->
+  <rect x="700" y="910" width="180" height="240" rx="16" fill="url(#ilBoard)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="716" y="940" width="148" height="196" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="750" y="896" width="80" height="30" rx="10" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="790" cy="906" r="5" fill="#ffffff"/>
+  <rect x="730" y="958" width="20" height="20" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="762" y="964" width="84" height="9" rx="4.5" fill="#8fc9f2"/>
+  <rect x="730" y="994" width="20" height="20" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="762" y="1000" width="70" height="9" rx="4.5" fill="#8fc9f2"/>
+  <rect x="730" y="1030" width="20" height="20" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="762" y="1036" width="92" height="9" rx="4.5" fill="#f0c48c"/>
+  <path d="M733 968 L739 975 L748 961 M733 1004 L739 1011 L748 997" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M734 1064 H744 M752 1064 H762 M770 1064 H780 M788 1064 H798 M806 1064 H816 M824 1064 H834 M842 1064 H846" fill="none" stroke="#c0392b" stroke-width="2" stroke-linecap="round"/>
+  <rect x="740" y="1098" width="16" height="26" fill="#8fc9f2" stroke="#22303f" stroke-width="2"/>
+  <rect x="764" y="1086" width="16" height="38" fill="#2f7fb5" stroke="#22303f" stroke-width="2"/>
+  <rect x="788" y="1072" width="16" height="52" fill="#2e7d32" stroke="#22303f" stroke-width="2"/>
+  <path d="M734 1124 L846 1124" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- target pinned to the top corner -->
+  <circle cx="866" cy="930" r="28" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="866" cy="930" r="19" fill="#ffffff"/>
+  <circle cx="866" cy="930" r="10" fill="#c0392b"/>
+  <circle cx="866" cy="930" r="5" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+
+  <!-- pencil beside the clipboard -->
+  <g transform="rotate(12 918 1060)">
+    <rect x="905" y="985" width="26" height="130" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="914" y="987" width="8" height="126" fill="#f0c48c"/>
+    <polygon points="905,985 931,985 918,952" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="913,965 923,965 918,952" fill="#22303f"/>
+    <rect x="905" y="1115" width="26" height="14" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="905" y="1129" width="26" height="18" rx="6" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+
+  <!-- sparkles -->
+  <path d="M446 895 Q448 903 456 905 Q448 907 446 915 Q444 907 436 905 Q444 903 446 895 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M640 950 Q642 958 650 960 Q642 962 640 970 Q638 962 630 960 Q638 958 640 950 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M600 1098 Q602 1106 610 1108 Q602 1110 600 1118 Q598 1110 590 1108 Q598 1106 600 1098 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+</g>
+
+<!-- open book icon beside the short English line -->
+<g transform="translate(800 296) scale(1.2)">
+  <path d="M22 10 Q12 4 2 6 L2 36 Q12 34 22 40 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M22 10 Q32 4 42 6 L42 36 Q32 34 22 40 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M8 14 L17 16 M8 21 L17 23 M27 16 L36 14 M27 23 L36 21" fill="none" stroke="#2f7fb5" stroke-width="2" stroke-linecap="round"/>
+</g>
+
+<!-- wink face: a tip for your studying -->
+<g transform="translate(900 321) scale(.85)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M 5 -6 L 13 -6" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- bottom icon row: bulb, star, check badge -->
+<g transform="translate(414 1192)">
+  <path d="M4 22 L1 22 M48 22 L51 22 M10 8 L7 5 M42 8 L45 5" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="26" cy="22" r="16" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M21 24 Q26 30 31 24" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+  <rect x="19" y="38" width="14" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+<g transform="translate(514 1192)">
+  <polygon points="26,4 31.9,19.9 48.8,20.6 35.5,31.1 40.1,47.4 26,38 11.9,47.4 16.5,31.1 3.2,20.6 20.1,19.9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+<g transform="translate(614 1192)">
+  <circle cx="26" cy="26" r="23" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M15 27 L23 35 L38 18" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- TEXT -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">وهي لا تُستخدم في <tspan fill="#c96a1b">المواقع</tspan> فقط، بل في المصانع</tspan>
+  <tspan x="950" dy="40">والشركات والمستشفيات، وفي <tspan font-weight="bold" fill="#17457f">مذاكرتك</tspan> أيضًا.</tspan>
+</text>
+<text x="120" y="234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">It is used not only for <tspan fill="#c96a1b">websites,</tspan> but also</tspan>
+  <tspan x="120" dy="40">in factories, companies, and hospitals,</tspan>
+  <tspan x="120" dy="40">and in <tspan font-weight="bold" fill="#17457f">your studying</tspan> too.</tspan>
+</text>
+<text x="935" y="394" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">الخطوتان الأولى والثانية</text>
+<text x="140" y="434" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">STEPS 1 AND 2</text>
+<text x="935" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">خطّط (Plan):</tspan> حدّد المشكلة، وضع هدفًا</tspan>
+  <tspan x="935" dy="40"><tspan font-weight="bold" fill="#17457f">قابلًا للقياس،</tspan> واختر تغييرًا مناسبًا.</tspan>
+</text>
+<text x="140" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Plan:</tspan> identify the problem,</tspan>
+  <tspan x="140" dy="40">set a <tspan font-weight="bold" fill="#17457f">measurable</tspan> goal,</tspan>
+  <tspan x="140" dy="40">and choose a suitable change.</tspan>
+</text>
+<text x="935" y="714" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">نفّذ (Do):</tspan> طبّق التغيير المخطط له فعلًا،</tspan>
+  <tspan x="935" dy="40">ويُفضَّل أن تبدأ على نطاق صغير.</tspan>
+</text>
+<text x="140" y="794" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Do:</tspan> actually apply the planned change;</tspan>
+  <tspan x="140" dy="40">it is better to start on a small scale.</tspan>
+</text>
+</svg>
