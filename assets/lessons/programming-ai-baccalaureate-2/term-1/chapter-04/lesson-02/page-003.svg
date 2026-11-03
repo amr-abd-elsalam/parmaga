@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Outlined box: shadow, fill, accent -->
+<rect x="109" y="128" width="870" height="248" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="122" width="870" height="248" rx="16" fill="#fffdf7" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="216" rx="3" fill="#2f7fb5"/>
+
+<!-- Memory illustration: from cluttered to user-centered -->
+<g>
+  <defs>
+    <linearGradient id="ilScarf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fc9f2"/>
+      <stop offset="1" stop-color="#2f7fb5"/>
+    </linearGradient>
+  </defs>
+  <!-- ground -->
+  <ellipse cx="548" cy="1240" rx="420" ry="10" fill="#e8dfd1"/>
+  <!-- shadows -->
+  <rect x="134" y="1066" width="260" height="170" rx="14" fill="#22303f" opacity=".18"/>
+  <rect x="549" y="1056" width="260" height="180" rx="14" fill="#22303f" opacity=".18"/>
+  <g transform="translate(4 6)" opacity=".18">
+    <path d="M858 1146 Q905 1134 952 1146 L964 1240 L846 1240 Z" fill="#22303f"/>
+    <path d="M869 1104 Q866 1062 905 1060 Q944 1062 941 1104 Q946 1130 958 1150 L852 1150 Q864 1130 869 1104 Z" fill="#22303f"/>
+  </g>
+
+  <!-- confusion scribble -->
+  <path d="M200 1044 Q215 1030 230 1044 Q245 1058 260 1044 Q275 1030 290 1044 Q305 1058 320 1044" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- cluttered window -->
+  <rect x="130" y="1060" width="260" height="170" rx="14" fill="#ffffff"/>
+  <path d="M130 1074 Q130 1060 144 1060 L376 1060 Q390 1060 390 1074 L390 1084 L130 1084 Z" fill="#c0392b"/>
+  <circle cx="146" cy="1072" r="4" fill="#ffd24a"/>
+  <circle cx="158" cy="1072" r="4" fill="#a9dcbe"/>
+  <circle cx="170" cy="1072" r="4" fill="#ffffff"/>
+  <rect x="130" y="1088" width="260" height="22" fill="#ffd24a"/>
+  <rect x="140" y="1093" width="120" height="12" rx="3" fill="#c0392b"/>
+  <rect x="268" y="1095" width="50" height="5" rx="2" fill="#2e7d32"/>
+  <rect x="268" y="1102" width="36" height="4" rx="2" fill="#17457f"/>
+  <rect x="140" y="1118" width="170" height="5" rx="2" fill="#7f95ab"/>
+  <rect x="140" y="1127" width="140" height="5" rx="2" fill="#7f95ab"/>
+  <rect x="320" y="1116" width="60" height="34" rx="4" fill="#4fc3e8"/>
+  <circle cx="336" cy="1126" r="5" fill="#ffd24a"/>
+  <polygon points="324,1148 344,1132 362,1148" fill="#2e7d32"/>
+  <rect x="140" y="1136" width="100" height="12" rx="3" fill="#2f7fb5"/>
+  <polygon points="130,1160 390,1154 390,1174 130,1182" fill="#a9dcbe"/>
+  <rect x="130" y="1186" width="260" height="18" fill="#f0c48c"/>
+  <rect x="140" y="1190" width="50" height="10" rx="3" fill="#c0392b"/>
+  <rect x="198" y="1193" width="120" height="5" rx="2" fill="#17457f"/>
+  <rect x="140" y="1210" width="120" height="4" rx="2" fill="#7f95ab"/>
+  <rect x="140" y="1218" width="90" height="3" rx="1" fill="#7f95ab"/>
+  <rect x="270" y="1213" width="14" height="10" rx="2" fill="#7f95ab"/>
+  <rect x="362" y="1213" width="20" height="9" rx="3" fill="#2e7d32"/>
+  <rect x="130" y="1060" width="260" height="170" rx="14" fill="none" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- transformation arrow -->
+  <path d="M408 1145 Q465 1110 522 1145" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="526,1148 510,1146 518,1134" fill="#c0392b"/>
+
+  <!-- sparkles -->
+  <polygon points="530,1049 533,1057 541,1057 535,1063 537,1071 530,1066 523,1071 525,1063 519,1057 527,1057" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="460,1194 463,1202 471,1202 465,1208 467,1216 460,1211 453,1216 455,1208 449,1202 457,1202" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- clean user-centered window -->
+  <rect x="545" y="1050" width="260" height="180" rx="14" fill="#ffffff"/>
+  <path d="M545 1064 Q545 1050 559 1050 L791 1050 Q805 1050 805 1064 L805 1074 L545 1074 Z" fill="#17457f"/>
+  <circle cx="561" cy="1062" r="4" fill="#ffffff"/>
+  <circle cx="573" cy="1062" r="4" fill="#8fc9f2"/>
+  <rect x="559" y="1086" width="232" height="52" rx="10" fill="#dff1f7"/>
+  <rect x="575" y="1096" width="12" height="32" rx="3" fill="#2f7fb5"/>
+  <rect x="565" y="1106" width="32" height="12" rx="3" fill="#2f7fb5"/>
+  <rect x="611" y="1100" width="150" height="10" rx="4" fill="#17457f"/>
+  <rect x="611" y="1118" width="110" height="6" rx="3" fill="#7f95ab"/>
+  <rect x="559" y="1150" width="200" height="6" rx="3" fill="#7f95ab"/>
+  <rect x="559" y="1162" width="160" height="6" rx="3" fill="#7f95ab"/>
+  <rect x="565" y="1178" width="220" height="40" rx="20" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="591" cy="1198" r="13" fill="#ffffff"/>
+  <path d="M584 1190 Q582 1192 584 1196 Q588 1203 595 1206 Q598 1207 599 1205 L600 1202 L596 1199 L594 1201 Q590 1199 588 1195 L590 1193 L587 1189 Z" fill="#2e7d32"/>
+  <rect x="614" y="1194" width="120" height="8" rx="4" fill="#ffffff"/>
+  <rect x="545" y="1050" width="260" height="180" rx="14" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="805" cy="1050" r="18" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M797 1050 L803 1056 L814 1044" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- happy mother (the real user) -->
+  <path d="M858 1146 Q905 1134 952 1146 L964 1240 L846 1240 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M869 1104 Q866 1062 905 1060 Q944 1062 941 1104 Q946 1130 958 1150 L852 1150 Q864 1130 869 1104 Z" fill="url(#ilScarf)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="905" cy="1102" rx="20" ry="24" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="897" cy="1098" r="3" fill="#22303f"/>
+  <circle cx="913" cy="1098" r="3" fill="#22303f"/>
+  <ellipse cx="892" cy="1110" rx="4" ry="3" fill="#f0c48c" opacity=".6"/>
+  <ellipse cx="918" cy="1110" rx="4" ry="3" fill="#f0c48c" opacity=".6"/>
+  <path d="M896 1111 Q905 1119 914 1111" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M866 1156 L872 1176 L834 1196 L828 1180 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="826" cy="1189" r="9" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="885" cy="1244" rx="14" ry="5" fill="#22303f"/>
+  <ellipse cx="925" cy="1244" rx="14" ry="5" fill="#22303f"/>
+  <path d="M958 1058 L948 1048 Q944 1042 950 1039 Q955 1037 958 1043 Q961 1037 966 1039 Q972 1042 968 1048 Z" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: pause beside header -->
+<g transform="translate(428 160)">
+  <circle cx="22" cy="22" r="20" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="14" y="12" width="6" height="20" rx="2" fill="#22303f"/>
+  <rect x="25" y="12" width="6" height="20" rx="2" fill="#22303f"/>
+</g>
+
+<!-- Icon: clock (what slowed you down) -->
+<g transform="translate(190 212)">
+  <circle cx="28" cy="28" r="25" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M28 6 L28 9 M50 28 L47 28 M28 50 L28 47 M6 28 L9 28" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M28 14 L28 28 L38 34" fill="none" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="28" cy="28" r="3" fill="#22303f"/>
+</g>
+
+<!-- Face: thinking -->
+<g transform="translate(850 325)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: hand mirror (designed for himself) -->
+<g transform="translate(170 414)">
+  <rect x="24" y="40" width="8" height="20" rx="4" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="28" cy="22" rx="19" ry="21" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="28" cy="22" rx="12" ry="14" fill="#dff1f7"/>
+  <path d="M22 14 Q24 10 28 10" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: color palette -->
+<g transform="translate(880 616)">
+  <path d="M30 4 Q58 4 60 28 Q62 44 48 46 Q40 46 40 52 Q40 60 30 60 Q2 58 2 32 Q2 4 30 4 Z" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="18" cy="22" r="5" fill="#c0392b"/>
+  <circle cx="32" cy="15" r="5" fill="#ffd24a"/>
+  <circle cx="46" cy="22" r="5" fill="#2e7d32"/>
+  <circle cx="16" cy="38" r="5" fill="#2f7fb5"/>
+  <circle cx="30" cy="44" r="5" fill="#c96a1b"/>
+</g>
+
+<!-- Icon: people (who will use this) -->
+<g transform="translate(200 728)">
+  <path d="M24 50 Q24 32 38 32 Q52 32 52 50 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="38" cy="18" r="8" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M4 54 Q4 34 20 34 Q36 34 36 54 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="20" cy="22" r="9" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Texts -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">توقّف وفكّر</text>
+
+<text x="140" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">PAUSE &amp; THINK</text>
+
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">هل وصلت إلى <tspan font-weight="bold" fill="#17457f">رقم الطبيب</tspan> بسرعة؟</tspan>
+  <tspan x="935" dy="40">ما الذي أخّرك؟</tspan>
+</text>
+
+<text x="140" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">Did you reach the <tspan font-weight="bold" fill="#17457f">doctor's number</tspan></tspan>
+  <tspan x="140" dy="40">quickly? What slowed you down?</tspan>
+</text>
+
+<text x="950" y="434" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">صاحب هذا الموقع كان يراه جميلًا؛</tspan>
+  <tspan x="950" dy="40">المشكلة ليست في الألوان، بل في أنه</tspan>
+  <tspan x="950" dy="40">صمّمه <tspan font-weight="bold" fill="#c0392b">لنفسه،</tspan> لا <tspan font-weight="bold" fill="#2e7d32">لمن سيستخدمه.</tspan></tspan>
+</text>
+
+<text x="120" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">The owner thought it was beautiful;</tspan>
+  <tspan x="120" dy="40">the problem is not the colors, but that</tspan>
+  <tspan x="120" dy="40">he designed it for <tspan font-weight="bold" fill="#c0392b">himself,</tspan></tspan>
+  <tspan x="120" dy="40">not for <tspan font-weight="bold" fill="#2e7d32">its users.</tspan></tspan>
+</text>
+
+<text x="950" y="754" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">في هذا الدرس ستغيّر <tspan font-weight="bold" fill="#c0392b">سؤالك</tspan></tspan>
+  <tspan x="950" dy="40">من «ماذا أريد أنا؟» إلى</tspan>
+  <tspan x="950" dy="40"><tspan font-weight="bold" fill="#2e7d32">«من سيستخدم هذا؟</tspan> وماذا يحتاج؟ وفي أي ظروف؟».</tspan>
+</text>
+
+<text x="120" y="874" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">In this lesson, you will change your</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#c0392b">question</tspan> from “What do I want?” to</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#2e7d32">“Who will use this?</tspan> What do they need?</tspan>
+  <tspan x="120" dy="40">In what situation?”</tspan>
+</text>
+</svg>

@@ -1,0 +1,4196 @@
+{
+  "schemaVersion": 1,
+  "course": "programming-ai-baccalaureate-2",
+  "term": "term-1",
+  "chapter": "chapter-04",
+  "lesson": "lesson-02",
+  "displayNumber": "4-2",
+  "displayTitleAr": "تصميم المعلومات وتجربة المستخدم للمواقع",
+  "displayTitleEn": "Information Design and User Experience for Websites",
+  "courseLabelAr": "البرمجة والذكاء الاصطناعي، ثانية بكالوريا",
+  "termLabelAr": "ترم أول",
+  "pivotQuestionAr": "كيف يخطط المصممون لموقع إلكتروني حول مستخدميه، وما المبادئ التي تجعل الصفحة واضحة وسهلة الاستخدام؟",
+  "custodyRepository": "parmaga-content",
+  "custodySnapshot": "d8c51fe3bd3528d595dd66350dd38d845b8ff8bf",
+  "declaredPageCount": 72,
+  "inventoryDate": "2026-11-03",
+  "status": "published",
+  "extraNotes": [
+    "السؤال المحوري للدرس: كيف يخطط المصممون لموقع إلكتروني حول مستخدميه، وما المبادئ التي تجعل الصفحة واضحة وسهلة الاستخدام؟",
+    "حزمة أصول الدرس مدرجة للنشر في المسار القانوني داخل المستودع العام، وتتحقق tools/verify_lesson.py من مطابقة بايتاتها لهذا الـManifest.",
+    "أسماء الملفات الواردة مطابقة أصلًا للنمط page-<NNN>.svg، لذلك sourceFileName يساوي file في المداخل الـ72 كلها، ولم تجرِ إعادة تسمية.",
+    "viewBox «0 0 1080 1350» مقيس في الصفحات الـ72 كلها، أي مقاس 1080×1350 بنسبة 4:5 رأسية.",
+    "منطقة الـ12% المحجوزة: الحد y = 1188. أعلى سمة y مرصودة في عناصر النص هي 1194 في page-026، و6 عناصر نص عند الحد أو دونه في صفحتين: page-026، page-028. سُجّل ولم يوقف النشر، وتراجعه عين المالك في المتصفح. القياس يعتمد سمات y وحدها ولا يحسب transform ولا إحداثيات path d، فهو مؤشر قوي لا إثبات هندسي كامل.",
+    "الفحص الأمني نظيف في الصفحات الـ72 كلها: صفر script، صفر foreignObject، صفر سمات on*، صفر javascript:، صفر مرجع http(s) خارجي، صفر data:، صفر image مضمَّن، صفر use خارجي، صفر iframe أو embed أو object، صفر @import. لا يوجد اكتشاف يحتاج قرارًا مكتوبًا.",
+    "قيمة encoding مستنتجة لا مقروءة: لا يحتوي أي ملف إعلان XML ولا BOM، ونجاح تحليل XML على البايتات دون إعلان يعني أن البايتات UTF-8 صالحة.",
+    "نهايات الأسطر داخل الأصول الـ72 كلها CRLF. لم تُغيَّر ولا يجوز تغييرها، وقاعدة *.svg -text في .gitattributes تغطيها وفق ADR-0005 البند 11.",
+    "الحجم المقيس: المجموع 1249747 بايت، والمتوسط 17357 بايت بالتقريب إلى الأدنى، وأصغر ملف 10605 بايت في page-022، وأكبر ملف 33661 بايت في page-046.",
+    "الخطوط المستدعاة في الصفحات الـ72 كلها: Arial وComic Sans MS وSegoe Print وSegoe UI وTahoma وsans-serif، ولا تزيد أي صفحة خطًّا آخر. قيد معروف مسجَّل في ADR-0004 §23 ولا يُعالَج بتعديل الأصول.",
+    "عنوان الدرس في الصفحة الرئيسة «تصميم المعلومات وتجربة المستخدم للمواقع»، وهو في page-001 «تصميم المعلومات وتجربة المستخدم للمواقع الإلكترونية»، فطابق displayTitleAr سطر الرئيسة حرفًا بحرف وفق README، ومن page-001 displayTitleEn «Information Design and User Experience for Websites». وpivotQuestionAr بنص المالك المكتوب حرفيًّا، إذ لا تسمية «السؤال الرئيسي» في الأصول. ووصف كل صفحة (descriptionAr، وهو نص alt) بقاعدة المالك المكتوبة: الصفحة التي أول بند فيها عنوان رئيسي بخط 44 غامق وصفها ذلك العنوان، وهي 12 صفحة (page-002، page-004، page-008، page-010، page-015، page-021، page-033، page-048، page-053، page-062، page-067، page-070)، والافتتاحية page-001 وصفها أول بند فيها، وكل صفحة سواهما وصفها «تابع: » ثم آخر عنوان رئيسي قبلها حرفيًّا، وهي 59 صفحة.",
+    "لا يحتوي أي بند على العلامتين < أو >. وتحتوي 6 بنود في 6 صفحات على العلامة & في «PAUSE & THINK»: page-003، page-009، page-014، page-023، page-049، page-056. وتُهرَّب في HTML.",
+    "نصوص الصفحات مستخرجة آليًّا من عناصر <text> بترتيب المستند، ثم طُبّقت عليها قاعدة حذف علامات الترقيم البصرية وحدها المسجلة في ADR-0024 D7 وREADME. وطوبق مجموع عناصر النص في الأصول وهو 715 مع عدد البنود المنشورة وهو 715، ولا فرق بينهما: لا تحتوي الأصول بند ترقيم منفردًا ولا عنصر نص فارغًا."
+  ],
+  "contextSections": {
+    "structureSummaryAr": "افتتاحية 001. قبل أن نبدأ 002–003. الشقة التي تشرح الدرس كله 004–007. مفتاح الحفظ: مين، فين، إزاي، لمين 008–009. عالم المستخدم: كلمات تحتاج أن تعرفها 010–014. شخصية المستخدم 015–020. المخطط الهيكلي 021–032. مبادئ CRAP 033–047. التصميم المتمحور حول المستخدم 048–052. قابلية الاستخدام وإمكانية الوصول 053–061. فخاخ الامتحان 062–066. إجابة نموذجية لسؤال الست درجات 067–069. ملخص ليلة الامتحان 070–072.",
+    "statusAr": "الـManifest بحالة `published` وأصوله الـ72 في مسارها القانوني. ونصوص الصفحات بلغتيها في HTML فهي مقروءة دون JavaScript، والعارض تحسين تدريجي فوقها. والحالة الجارية في `docs/ai/ARCHITECT_EVIDENCE_LEDGER.md`.",
+    "pagesNarrativeAr": "72 صفحة: افتتاحية واحدة (`page-001`) و71 صفحة محتوى (`page-002` … `page-072`) بترقيم متصل بلا فجوة. و`viewBox` «0 0 1080 1350» وفحص أمني نظيف في كلها. والمراسي حتمية: `#page-1` ⇄ `page-001.svg` حتى `#page-72` ⇄ `page-072.svg`. والوصف «تابع: » يعني أن الصفحة تكمل آخر عنوان رئيسي قبلها.",
+    "constraintsAr": "**الخطوط.** Tahoma وSegoe Print وComic Sans MS وSegoe UI وArial قد تغيب على أندرويد، وعلاجها خارج الأصول وفق `ADR-0004 §23`. **الألوان.** العرض عبر `<img>` يعزل الأصل عن الوضع الليلي. **المنطقة السفلى.** 6 عناصر نص عند `y = 1188` أو دونه في صفحتين، أعلاها 1194 في `page-026`، وقائمتها في الـManifest، سُجّلت ولم توقف النشر. **البايتات ثابتة.** CRLF بلا إعلان XML ولا BOM، وأي تعديل يُبطل البصمات.",
+    "decidedAr": "المسار والمعرّفات وفق `ADR-0004`، والصفحات الـ72 وترتيبها وأدوارها، والسؤال المحوري بنص المالك، ووصف «تابع: » بقاعدته المكتوبة. صفر Dependencies وصفر Build Step.",
+    "undecidedAr": "روابط Previous/Next بين الدروس. فهرس `/courses/` وفهارس Course وTerm وChapter. Structured Data. الخطوط على أندرويد. مراسي `#concept-*`.",
+    "howToUseAr": "مصدرك لجرد بنية الدرس وقيوده. **لا تطلب ملف SVG** وفق `ADR-0005` §10. النص في HTML صفحة الدرس، والجرد والبصمات في الـManifest. ولا تحرّر مخرَجًا منشورًا: غيّر الـconfig وأعد التوليد وفق `ADR-0024`، ولا تخترع رقمًا ولا بصمة."
+  },
+  "svgSourceDir": "assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-04/lesson-02",
+  "pages": [
+    {
+      "id": "page-001",
+      "htmlId": "page-1",
+      "role": "opening",
+      "descriptionAr": "الدرس 4-2",
+      "transcript": [
+        {
+          "text": "الدرس 4-2",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "تصميم المعلومات وتجربة المستخدم للمواقع الإلكترونية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Lesson 4-2",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "Information Design and User Experience for Websites",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-002",
+      "htmlId": "page-2",
+      "role": "content",
+      "descriptionAr": "قبل أن نبدأ",
+      "transcript": [
+        {
+          "text": "قبل أن نبدأ",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Before We Begin",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الموقع مش ليك… الموقع للي هيستخدمه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The website is not for you… it is for the person who will use it.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تخيّل أن والدتك متعبة، وتحتاج رقم الطبيب الآن.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Imagine your mother is unwell and you need the doctor's number right now.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تفتح موقع العيادة فتجد عشرة ألوان وخطوطًا مختلفة، وزر الحجز صغيرًا في الركن، ورقم الهاتف في آخر الصفحة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "You open the clinic's website and find ten colors, different fonts, a tiny booking button in the corner, and the phone number at the very bottom.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-003",
+      "htmlId": "page-3",
+      "role": "content",
+      "descriptionAr": "تابع: قبل أن نبدأ",
+      "transcript": [
+        {
+          "text": "توقّف وفكّر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "PAUSE & THINK",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هل وصلت إلى رقم الطبيب بسرعة؟ ما الذي أخّرك؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Did you reach the doctor's number quickly? What slowed you down?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "صاحب هذا الموقع كان يراه جميلًا؛ المشكلة ليست في الألوان، بل في أنه صمّمه لنفسه، لا لمن سيستخدمه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The owner thought it was beautiful; the problem is not the colors, but that he designed it for himself, not for its users.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في هذا الدرس ستغيّر سؤالك من «ماذا أريد أنا؟» إلى «من سيستخدم هذا؟ وماذا يحتاج؟ وفي أي ظروف؟».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In this lesson, you will change your question from “What do I want?” to “Who will use this? What do they need? In what situation?”",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-004",
+      "htmlId": "page-4",
+      "role": "content",
+      "descriptionAr": "الشقة التي تشرح الدرس كله",
+      "transcript": [
+        {
+          "text": "الشقة التي تشرح الدرس كله",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Apartment That Explains the Whole Lesson",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قبل أن تبني شقة، لا تبدأ باختيار لون الستائر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Before you build an apartment, you do not start by choosing the curtain color.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تبدأ بسؤال: من سيسكن هنا؟ ثم ترسم أماكن الغرف، ثم تفرش بنظام، ثم تسأل السكان عن رأيهم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "You start by asking: Who will live here? Then you draw where the rooms go, furnish with order, and ask the residents what they think.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "من سيسكن؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Who will live here?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "رسم الغرف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Drawing the rooms",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الفرش بنظام",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Furnishing with order",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "سؤال السكان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Asking the residents",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-005",
+      "htmlId": "page-5",
+      "role": "content",
+      "descriptionAr": "تابع: الشقة التي تشرح الدرس كله",
+      "transcript": [
+        {
+          "text": "في الشقة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In the apartment",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في الموقع",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "On the website",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المصطلح",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The term",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "من سيسكن هنا؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Who will live here?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "من سيستخدم الموقع؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Who will use the site?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "شخصية المستخدم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Persona",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "رسم أماكن الغرف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Drawing where rooms go",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أين يوضع كل عنصر؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Where does each element go?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المخطط الهيكلي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Wireframe",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-006",
+      "htmlId": "page-6",
+      "role": "content",
+      "descriptionAr": "تابع: الشقة التي تشرح الدرس كله",
+      "transcript": [
+        {
+          "text": "في الشقة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In the apartment",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في الموقع",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "On the website",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المصطلح",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The term",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "فرش بذوق ونظام",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Furnishing with taste and order",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كيف تبدو الصفحة واضحة؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "How does the page look clear?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مبادئ CRAP",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "CRAP principles",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "سؤال السكان ثم الإصلاح",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Asking residents, then fixing",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هل القرار لصالح المستخدم؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Is the decision for the user?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التصميم المتمحور حول المستخدم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "User-centered design",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-007",
+      "htmlId": "page-7",
+      "role": "content",
+      "descriptionAr": "تابع: الشقة التي تشرح الدرس كله",
+      "transcript": [
+        {
+          "text": "في الشقة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In the apartment",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في الموقع",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "On the website",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المصطلح",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The term",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هل يدخل الجد الحمّام بكرسيه؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Can grandpa enter the bathroom in his wheelchair?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هل يستطيع الجميع استخدامه؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Can everyone use it?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "إمكانية الوصول",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Accessibility",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-008",
+      "htmlId": "page-8",
+      "role": "content",
+      "descriptionAr": "مفتاح الحفظ: مين، فين، إزاي، لمين",
+      "transcript": [
+        {
+          "text": "مفتاح الحفظ: مين، فين، إزاي، لمين",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Memory Key: Who, Where, How, For Whom",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مين؟ ← شخصية المستخدم Persona: من هو المستخدم؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Who? → Persona: Who is the user?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "فين؟ ← المخطط الهيكلي Wireframe: أين يوضع كل عنصر، وما الأهم؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Where? → Wireframe: Where does each element go, and what matters most?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "إزاي؟ ← مبادئ CRAP: كيف نجعل الصفحة واضحة؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "How? → CRAP: How do we make the page clear?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لمين؟ ← التصميم المتمحور حول المستخدم UCD: لصالح من نقرر؟ للمستخدم دائمًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "For whom? → UCD: Who do we decide for? Always the user.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-009",
+      "htmlId": "page-9",
+      "role": "content",
+      "descriptionAr": "تابع: مفتاح الحفظ: مين، فين، إزاي، لمين",
+      "transcript": [
+        {
+          "text": "نصيحة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Tip",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في الامتحان، أي سؤال مقالي في هذا الدرس تستطيع أن تجيب عنه بهذه السلسلة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In the exam, you can answer any essay question in this lesson with this chain.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قلها بإيقاع ثلاث مرات: «مين، فين، إزاي، لمين».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Say it in rhythm three times: “Who, where, how, for whom.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "توقّف وفكّر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "PAUSE & THINK",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قبل أن تكمل: هل تستطيع أن تقول الأسئلة الأربعة دون النظر؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Before you go on: can you say the four questions without looking?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-010",
+      "htmlId": "page-10",
+      "role": "content",
+      "descriptionAr": "عالم المستخدم: كلمات تحتاج أن تعرفها",
+      "transcript": [
+        {
+          "text": "عالم المستخدم: كلمات تحتاج أن تعرفها",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The User's World: Words You Need to Know",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المستخدم User: الشخص الذي يتعامل فعليًا مع الموقع ليحقق هدفًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "User: the person who actually interacts with the website to achieve a goal.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يعني: من سيفتح الموقع، لا من صنعه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In other words: the one who opens the site, not the one who made it.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثال: في موقع نتائج المدرسة، المستخدم هو وليّ الأمر والطالب، لا مبرمج الموقع.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example: On a school results website, the users are parents and students, not the site's programmer.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-011",
+      "htmlId": "page-11",
+      "role": "content",
+      "descriptionAr": "تابع: عالم المستخدم: كلمات تحتاج أن تعرفها",
+      "transcript": [
+        {
+          "text": "تجربة المستخدم UX – User Experience: كل ما يمر به المستخدم ويشعر به أثناء استخدام الموقع وبعده.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "User experience (UX): everything the user goes through and feels while using the website and afterwards.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هل وصل إلى ما يريد؟ في كم من الوقت؟ هل ارتبك؟ هل خرج راضيًا؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Did they reach what they wanted? How long did it take? Were they confused? Did they leave satisfied?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثال: موقع جميل لكن زر الدفع مختفٍ، شكله جيد وتجربته سيئة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example: A beautiful website with a hidden payment button looks good but gives a bad experience.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-012",
+      "htmlId": "page-12",
+      "role": "content",
+      "descriptionAr": "تابع: عالم المستخدم: كلمات تحتاج أن تعرفها",
+      "transcript": [
+        {
+          "text": "واجهة المستخدم UI – User Interface: الجزء الذي يراه المستخدم ويلمسه: الأزرار والقوائم والألوان والخطوط.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "User interface (UI): the part the user sees and touches: buttons, menus, colors, and fonts.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لاحظ الفرق",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Notice the difference",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏UI هي شكل السيارة من الخارج، وUX هي إحساسك وأنت تقودها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "UI is how the car looks from outside; UX is how it feels to drive it.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الواجهة جزء من التجربة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The interface is part of the experience.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الواجهة: الشكل من الخارج",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "UI: the look outside",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التجربة: إحساس القيادة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "UX: the driving feel",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-013",
+      "htmlId": "page-13",
+      "role": "content",
+      "descriptionAr": "تابع: عالم المستخدم: كلمات تحتاج أن تعرفها",
+      "transcript": [
+        {
+          "text": "تصميم المعلومات Information Design: تنظيم المعلومات وترتيبها وعرضها حتى يفهمها المستخدم بسرعة ويصل إليها بسهولة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Information design: organizing, arranging, and presenting information so the user understands it quickly and reaches it easily.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "القاعدة: ليس المهم أن تكون عندك معلومات كثيرة، بل أن يجد القارئ ما يريده.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The rule: having a lot of information is not what matters; what matters is that the reader finds what they want.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثال: جدول بمواعيد العيادة بالأيام والساعات أوضح من فقرة طويلة تحكي المواعيد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example: A table of the clinic's days and hours is clearer than a long paragraph describing them.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-014",
+      "htmlId": "page-14",
+      "role": "content",
+      "descriptionAr": "تابع: عالم المستخدم: كلمات تحتاج أن تعرفها",
+      "transcript": [
+        {
+          "text": "الجمهور المستهدف Target Audience: الفئة التي صُمم الموقع من أجلها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Target audience: the group the website is designed for.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثال: موقع لتعليم الأطفال القراءة جمهوره الأطفال وأولياء أمورهم، فيحتاج أزرارًا كبيرة وكلامًا قليلًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example: A website that teaches children to read is for children and their parents, so it needs big buttons and few words.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "توقّف وفكّر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "PAUSE & THINK",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "من الجمهور المستهدف لموقع نتائج مدرستك؟ وماذا يحتاج كل منهم؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Who is the target audience of your school's results website? What does each of them need?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-015",
+      "htmlId": "page-15",
+      "role": "content",
+      "descriptionAr": "شخصية المستخدم",
+      "transcript": [
+        {
+          "text": "شخصية المستخدم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Persona",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "شخصية المستخدم Persona: تمثيل لنمط أو فئة من المستخدمين في صورة شخص واحد محدد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Persona: a representation of a type or group of users as one specific person.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لها اسم وهدف واحتياجات وسلوك وسياق استخدام وتحديات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "It has a name, a goal, needs, behavior, a context of use, and challenges.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "وتُبنى قدر الإمكان على بحث أو بيانات حقيقية، لا على الخيال وحده.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "It is built, as far as possible, on real research or data, not on imagination alone.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-016",
+      "htmlId": "page-16",
+      "role": "content",
+      "descriptionAr": "تابع: شخصية المستخدم",
+      "transcript": [
+        {
+          "text": "مثال: شخصية مستخدم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example: A Persona",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الحاجة فاطمة، 68 سنة، على المعاش.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Hajja Fatma, 68, retired.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هدفها: أن تعرف موعد طبيب العظام بسرعة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Her goal: to find the bone doctor's schedule quickly.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "احتياجها وسياقها: نظرها ضعيف، وتستخدم هاتف ابنها، ولا تحب القوائم الكثيرة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Needs and context: her eyesight is weak, she uses her son's phone, and she dislikes long menus.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تحديها: الخط الصغير والأزرار المتلاصقة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Her challenge: small text and buttons placed too close together.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-017",
+      "htmlId": "page-17",
+      "role": "content",
+      "descriptionAr": "تابع: شخصية المستخدم",
+      "transcript": [
+        {
+          "text": "بدل أن تقول «المستخدمون يريدون…»، قل: «الحاجة فاطمة تريد…».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Instead of saying “Users want…”, say: “Hajja Fatma wants…”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تنبيهان مهمان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Two Important Warnings",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "1 العمر والمهنة لا يُكتبان إلا إذا كانا يؤثران في التصميم؛ فعمر الحاجة فاطمة مهم لأنه يفسر ضعف نظرها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 Age and occupation are written only if they affect the design; Hajja Fatma's age matters because it explains her weak eyesight.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 شخصية المستخدم ليست عميلًا حقيقيًا بعينه، بل ممثل لمجموعة من المستخدمين.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 A persona is not one specific real customer; it represents a group of users.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-018",
+      "htmlId": "page-18",
+      "role": "content",
+      "descriptionAr": "تابع: شخصية المستخدم",
+      "transcript": [
+        {
+          "text": "وأداء الخادم مثلًا لا علاقة له بشخصية المستخدم، لأنه صفة في الموقع لا في المستخدم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Server performance, for example, has nothing to do with a persona, because it describes the website, not the user.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "البحث والبيانات Research / Data: معلومات نجمعها من المستخدمين الحقيقيين بالاستبيان أو المقابلة أو الملاحظة أو إحصاءات الاستخدام.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Research / Data: information collected from real users through surveys, interviews, observation, or usage statistics.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أهميتها أنها تمنع المصمم من أن يصمم على مزاجه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "It matters because it stops the designer from designing by personal taste.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-019",
+      "htmlId": "page-19",
+      "role": "content",
+      "descriptionAr": "تابع: شخصية المستخدم",
+      "transcript": [
+        {
+          "text": "سياق الاستخدام Context of Use: الظروف التي يُستخدم فيها الموقع: الجهاز، والمكان، والوقت المتاح، وحالة المستخدم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Context of use: the conditions in which the website is used: the device, the place, the time available, and the user's situation.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثال: موظف يقارن المنتجات من هاتفه في المواصلات؛ فهو مستعجل، والشاشة صغيرة، والإنترنت قد يكون ضعيفًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example: An office worker compares products on his phone while commuting; he is in a hurry, the screen is small, and the Internet may be weak.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "السياق نفسه يغيّر التصميم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The context itself changes the design.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-020",
+      "htmlId": "page-20",
+      "role": "content",
+      "descriptionAr": "تابع: شخصية المستخدم",
+      "transcript": [
+        {
+          "text": "الافتراضات الشخصية Assumptions: ما يظنه المصمم عن المستخدم دون دليل، مثل: «أنا أرى أن الناس يحبون هذا».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Assumptions: what the designer believes about the user without evidence, such as “I think people like this.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "وشخصية المستخدم المبنية على البيانات هي علاج هذه الافتراضات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A persona built on data is the cure for these assumptions.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "دورك الآن",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "YOUR TURN",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اكتب شخصية مستخدم لزميل يبحث عن نتيجته من الهاتف في الحافلة والإنترنت ضعيف.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Write a persona for a classmate who looks for his result on his phone on the bus with a weak Internet connection.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اذكر: الاسم، والهدف، والاحتياج، والسياق، والتحدي.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Include: the name, the goal, the need, the context, and the challenge.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-021",
+      "htmlId": "page-21",
+      "role": "content",
+      "descriptionAr": "المخطط الهيكلي",
+      "transcript": [
+        {
+          "text": "المخطط الهيكلي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Wireframe",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المخطط الهيكلي Wireframe: رسم أولي مبسط لصفحة الويب يحدد مكان كل عنصر وأولويته.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Wireframe: a simple first drawing of a web page that sets where each element goes and how important it is.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ويستخدم مربعات وخطوطًا، وغالبًا دون ألوان أو زخارف، حتى يركز الفريق على البنية قبل الشكل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "It uses boxes and lines, usually without colors or decoration, so the team focuses on structure before appearance.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يعني: هو «الكروكي» الخاص بالصفحة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In other words: it is the page's “sketch plan.”",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-022",
+      "htmlId": "page-22",
+      "role": "content",
+      "descriptionAr": "تابع: المخطط الهيكلي",
+      "transcript": [
+        {
+          "text": "كيف تقرأ المخطط الهيكلي؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "How to Read a Wireframe",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المربع الذي بداخله علامة × يعني: هنا صورة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A box with an × inside means: an image goes here.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الخطوط الأفقية تعني: هنا نص.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Horizontal lines mean: text goes here.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المستطيل الصغير ذو الأطراف المستديرة يعني: هنا زر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A small rounded rectangle means: a button goes here.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "صورة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Image",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نص",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Text",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "زر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Button",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-023",
+      "htmlId": "page-23",
+      "role": "content",
+      "descriptionAr": "تابع: المخطط الهيكلي",
+      "transcript": [
+        {
+          "text": "أصحاب المصلحة Stakeholders: كل من يهمه المشروع ويؤثر في قراراته.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Stakeholders: everyone who cares about the project and affects its decisions.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثل: صاحب العيادة، والأطباء، والمبرمج، والمصمم، وأحيانًا المرضى أنفسهم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "For example: the clinic owner, the doctors, the programmer, the designer, and sometimes the patients themselves.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الطبيب يريد صورته كبيرة، والمدير يريد اللون الأحمر، والمصمم يريد الأزرق.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The doctor wants his photo big, the manager wants red, and the designer wants blue.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "توقّف وفكّر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "PAUSE & THINK",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في مشروع موقع لمدرستك، من هم أصحاب المصلحة؟ اذكر ثلاثة منهم على الأقل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In a website project for your school, who are the stakeholders? Name at least three.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-024",
+      "htmlId": "page-24",
+      "role": "content",
+      "descriptionAr": "تابع: المخطط الهيكلي",
+      "transcript": [
+        {
+          "text": "لهذا نبدأ بالمخطط الهيكلي: نتفق على البنية أولًا، قبل أن نختلف على الألوان.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "That is why we start with the wireframe: we agree on the structure first, before we disagree about colors.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تخيّل مهندسًا يدهن الشقة قبل أن يعرف أين الحيطان! هذا ما يحدث حين تختار الألوان قبل المخطط الهيكلي.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Imagine an engineer painting the apartment before knowing where the walls are! That is what happens when you choose colors before the wireframe.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-025",
+      "htmlId": "page-25",
+      "role": "content",
+      "descriptionAr": "تابع: المخطط الهيكلي",
+      "transcript": [
+        {
+          "text": "دقة المخطط Fidelity: درجة التفاصيل في المخطط الهيكلي.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Fidelity: the level of detail in a wireframe.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "منخفض الدقة Low-fidelity: رسم سريع بالقلم على ورقة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Low-fidelity: a quick pencil sketch on paper.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "عالي الدقة High-fidelity: أقرب إلى الشكل الحقيقي، وفيه نصوص فعلية ومقاسات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "High-fidelity: closer to the real look, with actual text and measurements.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-026",
+      "htmlId": "page-26",
+      "role": "content",
+      "descriptionAr": "تابع: المخطط الهيكلي",
+      "transcript": [
+        {
+          "text": "لماذا يقول الكتاب «غالبًا»؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Why does the book say “usually”?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لأن بعض المخططات الهيكلية عالية الدقة، فليست كلها خالية تمامًا من التفاصيل البصرية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Because some wireframes are high-fidelity, so not all of them are completely free of visual detail.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ثلاث كلمات يخلطها الطلاب",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Three Words Students Mix Up",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المخطط الهيكلي، ثم النموذج البصري، ثم النموذج الأولي التفاعلي: ثلاث مراحل مختلفة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Wireframe, then mockup, then prototype: three different stages.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المخطط الهيكلي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Wireframe",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "النموذج البصري",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Mockup",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "النموذج الأولي التفاعلي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Prototype",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-027",
+      "htmlId": "page-27",
+      "role": "content",
+      "descriptionAr": "تابع: المخطط الهيكلي",
+      "transcript": [
+        {
+          "text": "الفرق في جدول واحد",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Difference in One Table",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "النوع",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Type",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ماذا يوضح؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "What does it show?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في الشقة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In the apartment",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المخطط الهيكلي Wireframe",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "الهيكل فقط: أين؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Structure only: where?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كروكي الشقة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The apartment's sketch plan",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "النموذج البصري Mockup",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "الشكل النهائي في صورة ثابتة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The final look as a still image",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "صورة الشقة في الكتالوج",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The apartment in a catalog photo",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "النموذج الأولي التفاعلي Prototype",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "نسخة تجرّبها وتضغط عليها",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A version you can click and try",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "شقة نموذجية تدخلها",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A model apartment you can walk into",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-028",
+      "htmlId": "page-28",
+      "role": "content",
+      "descriptionAr": "تابع: المخطط الهيكلي",
+      "transcript": [
+        {
+          "text": "بنية المعلومات Information Architecture: طريقة تقسيم محتوى الموقع كله وتسميته وربط أجزائه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Information architecture: how the whole site's content is divided, named, and linked together.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثال: صفحة رئيسية تتفرع منها: الخدمات، والأطباء، والمواعيد، والعنوان.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example: a home page that branches into services, doctors, schedules, and address.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التخطيط Layout: ترتيب العناصر داخل صفحة واحدة، والمخطط الهيكلي هو رسم هذا التخطيط.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Layout: the arrangement of elements inside one page; a wireframe is a drawing of this layout.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الصفحة الرئيسية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Home",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الخدمات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Services",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الأطباء",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Doctors",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المواعيد",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Schedules",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "العنوان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Address",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-029",
+      "htmlId": "page-29",
+      "role": "content",
+      "descriptionAr": "تابع: المخطط الهيكلي",
+      "transcript": [
+        {
+          "text": "أجزاء الصفحة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Parts of a Page",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الترويسة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Header",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "شريط التنقل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Navigation",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المحتوى الرئيسي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Main Content",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الشريط الجانبي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Sidebar",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التذييل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Footer",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الترويسة Header: أعلى الصفحة، وفيها الشعار أو اسم الموقع، مثل لافتة المحل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Header: the top of the page, with the logo or site name, like a shop sign.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "شريط التنقل Navigation: القائمة التي تنقلك بين الصفحات، مثل لوحة الأزرار في المصعد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Navigation: the menu that moves you between pages, like the button panel in an elevator.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المحتوى الرئيسي Main Content: المكان الذي يحمل المعلومة التي جاء المستخدم من أجلها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Main content: the area that holds the information the user came for.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-030",
+      "htmlId": "page-30",
+      "role": "content",
+      "descriptionAr": "تابع: المخطط الهيكلي",
+      "transcript": [
+        {
+          "text": "الشريط الجانبي Sidebar: معلومات إضافية أو مرتبطة أو إعلانات، وهي أقل أهمية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Sidebar: extra or related information or ads, which are less important.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التذييل Footer: أسفل الصفحة، وفيه حقوق النشر وبيانات التواصل والروابط.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Footer: the bottom of the page, with copyright, contact details, and links.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "دورك الآن",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "YOUR TURN",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "افتح أي موقع تحبه: أين ترويسته؟ وأين شريط التنقل؟ وماذا يوجد في التذييل؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Open any website you like: where is its header? Its navigation? What is in its footer?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-031",
+      "htmlId": "page-31",
+      "role": "content",
+      "descriptionAr": "تابع: المخطط الهيكلي",
+      "transcript": [
+        {
+          "text": "التسلسل البصري Visual Hierarchy: ترتيب العناصر بحيث ترى العين الأهم أولًا، ثم الأقل أهمية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Visual hierarchy: arranging elements so the eye sees the most important first, then the less important.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثال: في موقع العيادة، المواعيد ورقم الحجز في الأعلى وبحجم كبير، وتاريخ تأسيس العيادة في الأسفل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example: on the clinic site, the schedule and booking number are at the top and large, and the clinic's founding date is at the bottom.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-032",
+      "htmlId": "page-32",
+      "role": "content",
+      "descriptionAr": "تابع: المخطط الهيكلي",
+      "transcript": [
+        {
+          "text": "شبكة التصميم Grid: خطوط وهمية غير مرئية تقسم الصفحة إلى أعمدة وصفوف، وتُحاذى عليها العناصر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Grid: invisible guide lines that divide the page into columns and rows, and elements are aligned to them.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تشبه سطور الكراسة: لا تراها في الكتاب المطبوع، لكن الكلام مكتوب عليها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "It is like the lines in a notebook: you don't see them in a printed book, but the text sits on them.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "وستحتاج الشبكة بعد قليل في مبدأ المحاذاة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "You will need the grid soon in the alignment principle.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-033",
+      "htmlId": "page-33",
+      "role": "content",
+      "descriptionAr": "مبادئ CRAP",
+      "transcript": [
+        {
+          "text": "مبادئ CRAP",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The CRAP Principles",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مبادئ CRAP أربعة مبادئ بصرية تنظم شكل الصفحة وتجعلها أسهل للفهم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The CRAP principles are four visual principles that organize the page's look and make it easier to understand.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«تعالَ تتعلّم معانا تصميم»: تباين، تكرار، محاذاة، تقارب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Memory sentence from the Arabic initials: Contrast, Repetition, Alignment, Proximity.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التباين",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Contrast",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التكرار",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Repetition",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المحاذاة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Alignment",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التقارب",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Proximity",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-034",
+      "htmlId": "page-34",
+      "role": "content",
+      "descriptionAr": "تابع: مبادئ CRAP",
+      "transcript": [
+        {
+          "text": "معلومة تميّزك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Did You Know?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اشتهرت هذه المبادئ الأربعة بهذا الاسم من كتاب المصممة روبن ويليامز «كتاب التصميم لغير المصممين».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "These four principles became famous under this name through designer Robin Williams's book The Non-Designer's Design Book.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "وCRAP بالإنجليزية كلمة عامية تعني «شيء رديء»، ولهذا لا تُنسى.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In English slang, crap means “rubbish,” which is why it is never forgotten.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-035",
+      "htmlId": "page-35",
+      "role": "content",
+      "descriptionAr": "تابع: مبادئ CRAP",
+      "transcript": [
+        {
+          "text": "لكل مبدأ فعل واحد يكشفه:",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Each principle has one action that reveals it:",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المبدأ",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Principle",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "فعله",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Its action",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التباين",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Contrast",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يُبرِز",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Highlights",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التكرار",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Repetition",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يُوحِّد",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Unifies",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المحاذاة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Alignment",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يُنظِّم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Orders",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التقارب",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Proximity",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يُجمِّع",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Groups",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اختبر نفسك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "TEST YOURSELF",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "غطِّ عمود «فعله» واختبر نفسك.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Cover the “Its action” column and test yourself.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-036",
+      "htmlId": "page-36",
+      "role": "content",
+      "descriptionAr": "تابع: مبادئ CRAP",
+      "transcript": [
+        {
+          "text": "1. التباين Contrast",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1. Contrast",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التباين Contrast: إظهار فرق واضح بين العناصر المختلفة في الأهمية، بالحجم أو السُّمك أو اللون أو المسافة، حتى ترى العين الأهم فورًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Contrast: showing a clear difference between elements of different importance, through size, weight, color, or space, so the eye sees the most important one at once.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "القاعدة الذهبية: إذا فرّقت، ففرّق بوضوح.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The golden rule: if you make things different, make them clearly different.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-037",
+      "htmlId": "page-37",
+      "role": "content",
+      "descriptionAr": "تابع: مبادئ CRAP",
+      "transcript": [
+        {
+          "text": "تنبيه مهم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Important Warning",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لا تعتمد على اللون وحده لتمييز العنصر المهم، لأن بعض الناس لا يميّزون بعض الألوان.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Do not rely on color alone to mark the important element, because some people cannot tell certain colors apart.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أضف إلى اللون الحجمَ أو الأيقونة أو النص.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Add size, an icon, or text to the color.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-038",
+      "htmlId": "page-38",
+      "role": "content",
+      "descriptionAr": "تابع: مبادئ CRAP",
+      "transcript": [
+        {
+          "text": "2. التكرار Repetition",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2. Repetition",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التكرار Repetition: استخدام العناصر البصرية نفسها (اللون، والخط، والحجم، وشكل الأزرار والأيقونات) بالطريقة نفسها في كل الموقع.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Repetition: using the same visual elements (color, font, size, and the shape of buttons and icons) in the same way across the whole site.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يشبه الزي المدرسي: تعرف طلاب المدرسة الواحدة من زيّهم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "It is like a school uniform: you recognize students of one school by their uniform.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-039",
+      "htmlId": "page-39",
+      "role": "content",
+      "descriptionAr": "تابع: مبادئ CRAP",
+      "transcript": [
+        {
+          "text": "مثال: كل العناوين باللون الأزرق وبالخط نفسه في كل الصفحات، فلا يشعر المستخدم أنه انتقل إلى موقع آخر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example: all headings are blue and in the same font on every page, so the user never feels they moved to another site.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مصطلح مرتبط",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Related Term",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الاتساق Consistency: أن يبدو كل عنصر متشابه ويتصرف بالطريقة نفسها في كل مكان من الموقع.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Consistency: similar elements look and behave the same way everywhere on the site.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-040",
+      "htmlId": "page-40",
+      "role": "content",
+      "descriptionAr": "تابع: مبادئ CRAP",
+      "transcript": [
+        {
+          "text": "3. المحاذاة Alignment",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3. Alignment",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المحاذاة Alignment: وضع العناصر على خط أساس مشترك، فلا يوضع أي عنصر في الصفحة بشكل عشوائي.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Alignment: placing elements on a shared baseline, so nothing on the page is placed randomly.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تشبه طابور الصباح: كل طالب يقف على الخط نفسه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "It is like the morning line-up: every student stands on the same line.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثال: كل النصوص والصور تبدأ من الحافة نفسها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example: all text and images start from the same edge.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-041",
+      "htmlId": "page-41",
+      "role": "content",
+      "descriptionAr": "تابع: مبادئ CRAP",
+      "transcript": [
+        {
+          "text": "في العربية والإنجليزية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In Arabic and English",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في الصفحات العربية تكون المحاذاة الأساسية إلى اليمين، لأن القراءة من اليمين إلى اليسار؛ وفي الإنجليزية إلى اليسار.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "On Arabic pages, the main alignment is to the right, because reading goes right to left; in English, it is to the left.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الكتاب الإنجليزي ذكر «الحواف اليسرى»، والمبدأ واحد: خط ثابت حسب اتجاه اللغة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The English book mentions “left edges”; the principle is the same: one fixed line that follows the language's direction.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-042",
+      "htmlId": "page-42",
+      "role": "content",
+      "descriptionAr": "تابع: مبادئ CRAP",
+      "transcript": [
+        {
+          "text": "4. التقارب Proximity",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "4. Proximity",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التقارب Proximity: وضع العناصر المرتبطة قريبة من بعضها، والعناصر غير المرتبطة بعيدة، فتفهم العين المجموعات من أول نظرة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Proximity: placing related elements close together and unrelated ones apart, so the eye understands the groups at first glance.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يعني: اللي مع بعض يقفوا جنب بعض.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In other words: things that belong together stand together.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-043",
+      "htmlId": "page-43",
+      "role": "content",
+      "descriptionAr": "تابع: مبادئ CRAP",
+      "transcript": [
+        {
+          "text": "مثال: صورة المنتج واسمه وسعره متقاربة، وبين كل منتج والآخر مسافة واضحة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example: a product's image, name, and price sit close together, with clear space between one product and the next.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ماذا لو أخطأنا؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "What If We Get It Wrong?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لو اقترب سعر منتج من صورة منتج آخر، سيظن المستخدم أنه سعره.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "If one product's price sits closer to another product's image, the user will think it is that product's price.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-044",
+      "htmlId": "page-44",
+      "role": "content",
+      "descriptionAr": "تابع: مبادئ CRAP",
+      "transcript": [
+        {
+          "text": "المسافة البيضاء White Space",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "White Space",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المسافة البيضاء والهوامش White Space / Margins: المساحات الفارغة حول العناصر وبينها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "White space / margins: the empty areas around and between elements.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ليست مكانًا ضائعًا، بل هي التي تصنع التقارب والتباين، وتريح العين.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "It is not wasted space; it creates proximity and contrast, and rests the eye.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الصفحة محتاجة تتنفّس.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The page needs to breathe.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-045",
+      "htmlId": "page-45",
+      "role": "content",
+      "descriptionAr": "تابع: مبادئ CRAP",
+      "transcript": [
+        {
+          "text": "جرّبها مع أصحابك: الفصل يصمّم نفسه",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Try It with Your Friends: The Class Designs Itself",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "العبوا هذه اللعبة في الفصل؛ فالجسم يتذكر ما فعله أكثر مما قرأه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Play this game in class; your body remembers what it did more than what it read.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التباين: يقف طالب واحد وكل زملائه جالسون. من أول شخص رأيتموه؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Contrast: one student stands while everyone else sits. Who did you see first?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التكرار: يصفق الفصل كله الإيقاع نفسه ثلاث مرات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Repetition: the whole class claps the same rhythm three times.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-046",
+      "htmlId": "page-46",
+      "role": "content",
+      "descriptionAr": "تابع: مبادئ CRAP",
+      "transcript": [
+        {
+          "text": "المحاذاة: يقف خمسة طلاب عشوائيًا، ثم في صف مستقيم. أيهما يبدو أنظف؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Alignment: five students stand randomly, then in a straight line. Which looks neater?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التقارب: يتجمع الطلاب في مجموعات حسب لون القميص؛ والمسافة بين المجموعات تقول للعين: هذا فريق، وذاك فريق آخر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Proximity: students gather into groups by shirt color; the space between groups tells the eye: this is one team, and that is another.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-047",
+      "htmlId": "page-47",
+      "role": "content",
+      "descriptionAr": "تابع: مبادئ CRAP",
+      "transcript": [
+        {
+          "text": "قاعدة حل أسئلة المطابقة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Rule for Matching Questions",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ابحث عن الفعل أو الكلمة المفتاحية في العبارة:",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Look for the action or key word in the statement:",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يُبرز، يميّز، أكبر وأغمق ← التباين.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Highlights, distinguishes, bigger and bolder → Contrast.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يوحّد، في كل الصفحات، نفس ← التكرار.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Unifies, on every page, the same → Repetition.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "حواف، خط، يحاذي ← المحاذاة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Edges, line, aligns → Alignment.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قريبة، معًا، يجمّع ← التقارب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Close, together, groups → Proximity.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اختبر نفسك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "TEST YOURSELF",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "توحيد لون الأزرار في كل الصفحات: أي مبدأ؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Same button color on every page: which principle?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-048",
+      "htmlId": "page-48",
+      "role": "content",
+      "descriptionAr": "التصميم المتمحور حول المستخدم",
+      "transcript": [
+        {
+          "text": "التصميم المتمحور حول المستخدم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "User-Centered Design (UCD)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التصميم المتمحور حول المستخدم UCD – User-Centered Design: نهج يجعل فهم المستخدمين واحتياجاتهم ومهامهم وسياق استخدامهم أساسًا لكل قرار تصميمي.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "User-centered design (UCD): an approach that makes understanding users, their needs, their tasks, and their context of use the basis of every design decision.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "وهو عكس التصميم من أجل راحة المُنشئ أو ذوقه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "It is the opposite of designing for the creator's convenience or taste.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-049",
+      "htmlId": "page-49",
+      "role": "content",
+      "descriptionAr": "تابع: التصميم المتمحور حول المستخدم",
+      "transcript": [
+        {
+          "text": "ويتطور الحل في دورة متكررة من خمس خطوات، ثم يعود إلى البداية:",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The solution develops in a repeating cycle of five steps, then returns to the start:",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "افهم ← نظّم ← صمّم ← اختبر ← حسّن ← (ارجع)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Understand → Organize → Design → Test → Improve → (Repeat)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "افهم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Understand",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نظّم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Organize",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "صمّم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Design",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اختبر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Test",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "حسّن",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Improve",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "توقّف وفكّر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "PAUSE & THINK",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في أي خطوة من الدورة تدخل شخصية المستخدم؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "At which step of the cycle does the persona come in?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-050",
+      "htmlId": "page-50",
+      "role": "content",
+      "descriptionAr": "تابع: التصميم المتمحور حول المستخدم",
+      "transcript": [
+        {
+          "text": "خطأ يقع فيه الطلاب",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A Common Student Mistake",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التصميم المتمحور حول المستخدم لا يعني أن المستخدم هو من يصمم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "User-centered design does not mean that the user does the designing.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المصمم هو من يصمم، لكن قراره يُحسم بسؤال: «هل هذا لصالح المستخدم؟»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The designer designs, but each decision is settled by asking: “Is this for the user's benefit?”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تذكّر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Remember",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "شخصية المستخدم أداة من أدوات هذا النهج، وليست شرطًا دائمًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A persona is one tool of this approach, not a permanent requirement.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-051",
+      "htmlId": "page-51",
+      "role": "content",
+      "descriptionAr": "تابع: التصميم المتمحور حول المستخدم",
+      "transcript": [
+        {
+          "text": "التكرار التحسيني Iteration",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Iteration",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التكرار التحسيني Iteration: تحسين التصميم على جولات متتالية، تستفيد كل جولة من نتائج الاختبار السابق.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Iteration: improving the design in successive rounds, each round learning from the results of the previous test.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "انتبه للفرق",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Watch the Difference",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«التكرار» في CRAP تكرار للشكل، أما التكرار التحسيني فتكرار لدورة التحسين؛ فانتبه في الامتحان.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“Repetition” in CRAP repeats the look; iteration repeats the improvement cycle. Watch for this in the exam.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-052",
+      "htmlId": "page-52",
+      "role": "content",
+      "descriptionAr": "تابع: التصميم المتمحور حول المستخدم",
+      "transcript": [
+        {
+          "text": "اختبار المستخدم User Testing: أن تعطي مستخدمين حقيقيين مهمة وتراقبهم دون مساعدة، لتكتشف أين يرتبكون.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "User testing: giving real users a task and watching them without helping, to find where they get confused.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المستخدم لا يخطئ؛ التصميم هو الذي يحتاج إلى إصلاح.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The user is not wrong; the design is what needs fixing.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "دورك الآن",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "YOUR TURN",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اطلب من أحد أفراد أسرتك أن يجد رقم مدرستك على موقعها، وراقبه دون مساعدة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Ask a family member to find your school's number on its website; watch without helping.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-053",
+      "htmlId": "page-53",
+      "role": "content",
+      "descriptionAr": "قابلية الاستخدام وإمكانية الوصول",
+      "transcript": [
+        {
+          "text": "قابلية الاستخدام وإمكانية الوصول",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Usability and Accessibility",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قابلية الاستخدام Usability: مدى قدرة مستخدمين محددين على إنجاز مهمة محددة في سياق محدد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Usability: how well specific users can complete a specific task in a specific context.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "وتُقاس بثلاثة معايير:",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "It is measured by three criteria:",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الفاعلية Effectiveness: هل أنجز المهمة؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Effectiveness: did they complete the task?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الكفاءة Efficiency: في كم من الوقت والجهد؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Efficiency: how much time and effort did it take?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الرضا Satisfaction: هل كانت التجربة مريحة؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Satisfaction: was the experience comfortable?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-054",
+      "htmlId": "page-54",
+      "role": "content",
+      "descriptionAr": "تابع: قابلية الاستخدام وإمكانية الوصول",
+      "transcript": [
+        {
+          "text": "يعني: وصلت؟ بسرعة؟ ومبسوط؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In other words: Did you get there? Quickly? Happily?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الفاعلية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Effectiveness",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الكفاءة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Efficiency",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الرضا",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Satisfaction",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "إمكانية الوصول Accessibility",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Accessibility",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "إمكانية الوصول Accessibility: تصميم المحتوى والواجهة بحيث يستطيع الناس على اختلاف قدراتهم واحتياجاتهم استخدامهما، ومنهم ذوو الإعاقة البصرية أو السمعية أو الحركية أو الإدراكية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Accessibility: designing content and interfaces so that people of all abilities and needs can use them, including people with visual, hearing, motor, or cognitive disabilities.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-055",
+      "htmlId": "page-55",
+      "role": "content",
+      "descriptionAr": "تابع: قابلية الاستخدام وإمكانية الوصول",
+      "transcript": [
+        {
+          "text": "يعني: المنحدر بجانب السلم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In other words: the ramp beside the stairs.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الكرسي المتحرك يحتاج المنحدر، لكن الأم مع عربة الطفل والعامل مع الحقيبة الثقيلة يستفيدون منه أيضًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A wheelchair needs the ramp, but a mother with a stroller and a worker with a heavy bag also benefit from it.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التصميم الذي يسهّل على ذوي الإعاقة يسهّل على الجميع.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Design that is easier for people with disabilities is easier for everyone.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-056",
+      "htmlId": "page-56",
+      "role": "content",
+      "descriptionAr": "تابع: قابلية الاستخدام وإمكانية الوصول",
+      "transcript": [
+        {
+          "text": "لاحظ الفرق",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Notice the difference",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قابلية الاستخدام: هل الموقع سهل؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Usability: Is the site easy?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "إمكانية الوصول: هل يستطيع الجميع استخدامه؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Accessibility: Can everyone use it?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قد يكون الموقع سهلًا لمعظم الناس، لكن ضعيف البصر لا يستطيع قراءة خطه الباهت؛ فهو سهل لكنه ليس متاحًا للجميع.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A site can be easy for most people, yet a low-vision user cannot read its faint text: easy, but not accessible to everyone.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "توقّف وفكّر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "PAUSE & THINK",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هل تكفي مبادئ CRAP وحدها لتحقيق قابلية الاستخدام وإمكانية الوصول؟ ولماذا؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Are the CRAP principles alone enough to achieve usability and accessibility? Why?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-057",
+      "htmlId": "page-57",
+      "role": "content",
+      "descriptionAr": "تابع: قابلية الاستخدام وإمكانية الوصول",
+      "transcript": [
+        {
+          "text": "حواجز الوصول الشائعة وحلولها",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Common Access Barriers and Their Solutions",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "حاجز الوصول: أي شيء في التصميم يمنع بعض الناس من استخدام الموقع.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Access barrier: anything in the design that stops some people from using the site.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "1. ضعف التباين",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1. Poor contrast",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المشكلة: نص رمادي فاتح على خلفية بيضاء.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Problem: light gray text on a white background.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الحل: تباين قوي بين لون النص ولون الخلفية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Solution: strong contrast between the text color and the background color.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-058",
+      "htmlId": "page-58",
+      "role": "content",
+      "descriptionAr": "تابع: قابلية الاستخدام وإمكانية الوصول",
+      "transcript": [
+        {
+          "text": "معلومة تميّزك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Did You Know?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "توصي الإرشادات الدولية لإمكانية الوصول إلى محتوى الويب WCAG بنسبة تباين 4.5:1 على الأقل للنص العادي.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The international Web Content Accessibility Guidelines (WCAG) recommend a contrast ratio of at least 4.5:1 for normal text.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2. صعوبة استخدام لوحة المفاتيح",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2. Difficulty using the keyboard",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المشكلة: بعض الناس لا يستخدمون الفأرة، بل لوحة المفاتيح فقط.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Problem: some people do not use a mouse, only the keyboard.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الحل: أن يمكن الوصول إلى كل زر بمفتاح Tab، وأن يظهر بوضوح أين يقف المستخدم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Solution: every button can be reached with the Tab key, and it is clear where the user is.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-059",
+      "htmlId": "page-59",
+      "role": "content",
+      "descriptionAr": "تابع: قابلية الاستخدام وإمكانية الوصول",
+      "transcript": [
+        {
+          "text": "3. غياب النص البديل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3. Missing alternative text",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "النص البديل Alt Text: وصف نصي قصير للصورة يقرؤه قارئ الشاشة للمكفوفين وضعاف البصر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Alt text: a short text description of an image that a screen reader reads aloud for blind and low-vision users.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثال: «خريطة توضح موقع العيادة بجوار مسجد النور».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example: “A map showing the clinic's location next to Al-Nour Mosque.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قارئ الشاشة Screen Reader: برنامج يقرأ محتوى الشاشة بصوت مسموع لضعاف البصر والمكفوفين.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Screen reader: a program that reads the screen's content aloud for low-vision and blind users.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-060",
+      "htmlId": "page-60",
+      "role": "content",
+      "descriptionAr": "تابع: قابلية الاستخدام وإمكانية الوصول",
+      "transcript": [
+        {
+          "text": "النفاذ الرقمي Digital Access",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Digital Access",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "النفاذ الرقمي Digital Access: قدرة الناس على الوصول إلى الإنترنت والأجهزة أصلًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Digital access: people's ability to reach the Internet and devices in the first place.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لا تخلط بينهما",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Don't Mix Them Up",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "إمكانية الوصول: هل يستطيع استخدام الموقع؟ مشكلة في التصميم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Accessibility: Can they use the website? A design problem.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "النفاذ الرقمي: هل لديه جهاز وإنترنت أصلًا؟ مشكلة في الظروف.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Digital access: Do they have a device and Internet at all? A problem of circumstances.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-061",
+      "htmlId": "page-61",
+      "role": "content",
+      "descriptionAr": "تابع: قابلية الاستخدام وإمكانية الوصول",
+      "transcript": [
+        {
+          "text": "مثال: من يستخدم حاسوب المكتبة بلا إنترنت منزلي يحتاج موقعًا خفيفًا سريع التحميل، والمعلومة الأساسية (الهاتف والمواعيد) في أول الصفحة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example: someone on a library computer with no home Internet needs a light, fast-loading site, with the key information (phone and hours) at the top.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "دورك الآن",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "YOUR TURN",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لعيادة مجتمعية: اختر حاجز وصول واحدًا، واقترح حلًّا يخدم الحاجة فاطمة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "For a community clinic: choose one access barrier and suggest a solution that serves Hajja Fatma.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-062",
+      "htmlId": "page-62",
+      "role": "content",
+      "descriptionAr": "فخاخ الامتحان",
+      "transcript": [
+        {
+          "text": "فخاخ الامتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Exam Traps",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الفخ",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The trap",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الصحيح",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Correct",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المخطط الهيكلي تصميم نهائي بالألوان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Wireframe = a final colored design",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خطأ: هيكل أولي للأماكن والأولويات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Wrong: it plans place and priority",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«الكروكي مش الشقة»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“The sketch is not the apartment”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏UCD يعني راحة المُنشئ أو المطوّر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "UCD means the creator's comfort",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خطأ: يعني منظور المستخدم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Wrong: it means the user's view",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«لمين؟ للمستخدم»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“For whom? For the user.”",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-063",
+      "htmlId": "page-63",
+      "role": "content",
+      "descriptionAr": "تابع: فخاخ الامتحان",
+      "transcript": [
+        {
+          "text": "الفخ",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The trap",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الصحيح",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Correct",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أداء الخادم من بيانات شخصية المستخدم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Server speed belongs in a persona",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خطأ: الشخصية تصف إنسانًا لا جهازًا",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Wrong: a persona describes a human",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«إنسان مش سيرفر»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“A human, not a server”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التشفير من مبادئ CRAP",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Encryption is a CRAP principle",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خطأ: لا تشفير في المبادئ الأربعة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Wrong: no encryption in the four",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«تعالَ تتعلّم معانا تصميم»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Arabic memory sentence: C, R, A, P",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-064",
+      "htmlId": "page-64",
+      "role": "content",
+      "descriptionAr": "تابع: فخاخ الامتحان",
+      "transcript": [
+        {
+          "text": "الفخ",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The trap",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الصحيح",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Correct",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التقارب والمحاذاة شيء واحد",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Proximity = alignment",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خطأ: التقارب يجمّع، والمحاذاة تنظّم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Wrong: proximity groups, alignment orders",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«جنب بعض» ≠ «على خط واحد»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“Side by side” ≠ “on one line”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التكرار والتباين متشابهان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Repetition and contrast are alike",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خطأ: التكرار يوحّد، والتباين يُبرز",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Wrong: repetition unifies, contrast highlights",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«زي بعض» ≠ «مختلف عن الكل»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“Alike” ≠ “different from all”",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-065",
+      "htmlId": "page-65",
+      "role": "content",
+      "descriptionAr": "تابع: فخاخ الامتحان",
+      "transcript": [
+        {
+          "text": "الفخ",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The trap",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الصحيح",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Correct",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قابلية الاستخدام = إمكانية الوصول",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Usability = accessibility",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خطأ: الأولى سهولة، والثانية للجميع",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Wrong: ease vs. use by everyone",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«سهل؟» ≠ «للكل؟»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“Easy?” ≠ “For all?”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مبادئ CRAP وحدها تكفي للهدفين",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "CRAP alone achieves both goals",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خطأ: يحتاجان اختبارًا ومعايير",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Wrong: testing and standards needed",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«الشكل الحلو مش ضمان»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“A nice look is no guarantee”",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-066",
+      "htmlId": "page-66",
+      "role": "content",
+      "descriptionAr": "تابع: فخاخ الامتحان",
+      "transcript": [
+        {
+          "text": "الفخ",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The trap",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الصحيح",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Correct",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "شخصية المستخدم إلزامية دائمًا",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A persona is always required",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خطأ: أداة مفيدة وليست شرطًا دائمًا",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Wrong: a useful tool, not a must",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«أداة، مش قانون»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“A tool, not a law”",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-067",
+      "htmlId": "page-67",
+      "role": "content",
+      "descriptionAr": "إجابة نموذجية لسؤال الست درجات",
+      "transcript": [
+        {
+          "text": "إجابة نموذجية لسؤال الست درجات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Model Answer for the 6-Mark Question",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "سؤال على نمط الامتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "EXAM-STYLE QUESTION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اشرح لماذا يُنشئ المصمم شخصية نموذجية وإطارًا هيكليًا قبل اختيار الألوان والخطوط. [6 درجات]",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Explain why a designer creates a persona and a wireframe before choosing colors and fonts. [6 marks]",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "6 درجات = 6 نقاط: 3 لشخصية المستخدم و3 للمخطط الهيكلي.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "6 marks = 6 points: 3 for the persona and 3 for the wireframe.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-068",
+      "htmlId": "page-68",
+      "role": "content",
+      "descriptionAr": "تابع: إجابة نموذجية لسؤال الست درجات",
+      "transcript": [
+        {
+          "text": "1 شخصية المستخدم تمثل نمطًا من المستخدمين بناءً على بحث أو بيانات عن أهدافهم واحتياجاتهم. (تعريف)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 A persona represents a type of users based on research or data about their goals and needs. (Definition)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 فهي تجعل المصمم يفكر في «ما يحتاجه هذا المستخدم» بدل الاعتماد على ذوقه أو افتراضاته. (الفائدة)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 It makes the designer think about “what this user needs” instead of relying on taste or assumptions. (Benefit)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "3 فلا ينحرف اتجاه التصميم عن المستخدم. (النتيجة)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 So the direction of the design does not drift away from the user. (Result)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "4 المخطط الهيكلي يحدد مكان المعلومات وأولويتها قبل أي لون أو زخرفة. (تعريف)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "4 A wireframe sets the placement and priority of information before any color or decoration. (Definition)",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-069",
+      "htmlId": "page-69",
+      "role": "content",
+      "descriptionAr": "تابع: إجابة نموذجية لسؤال الست درجات",
+      "transcript": [
+        {
+          "text": "5 لو اختيرت الألوان والخطوط أولًا، ينشغل النقاش بالتفضيلات الشخصية في المظهر. (المشكلة)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "5 If colors and fonts are chosen first, discussion gets stuck on personal preferences about appearance. (Problem)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "6 أما تحديد البنية أولًا فيسهّل وصول أصحاب المصلحة إلى اتفاق. (النتيجة)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "6 Deciding the structure first makes it easier for stakeholders to reach agreement. (Result)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "جملة الختام",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Closing Sentence",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لذلك يبدأ التصميم من المستخدم إلى الداخل: مين، ثم فين، ثم إزاي.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "So design starts from the user inward: who, then where, then how.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-070",
+      "htmlId": "page-70",
+      "role": "content",
+      "descriptionAr": "ملخص ليلة الامتحان",
+      "transcript": [
+        {
+          "text": "ملخص ليلة الامتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Night-Before-the-Exam Summary",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الفكرة: الموقع للي هيستخدمه، مش للي عمله.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The idea: the site is for the one who uses it, not the one who made it.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مين، فين، إزاي، لمين",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Who, Where, How, For Whom",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مين؟ Persona: ممثل لفئة من المستخدمين، مبني على بيانات: هدف، واحتياج، وسياق، وتحدٍّ.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Who? Persona: represents a group of users, built on data: goal, need, context, challenge.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "فين؟ Wireframe: كروكي الصفحة، مكان وأولوية، بلا ألوان غالبًا، ويسهّل الاتفاق.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Where? Wireframe: the page's sketch plan: place and priority, usually no colors, easier agreement.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-071",
+      "htmlId": "page-71",
+      "role": "content",
+      "descriptionAr": "تابع: ملخص ليلة الامتحان",
+      "transcript": [
+        {
+          "text": "إزاي؟ CRAP «تعالَ تتعلّم معانا تصميم»: تباين يُبرز، وتكرار يوحّد، ومحاذاة تنظّم، وتقارب يجمّع.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "How? CRAP: contrast highlights, repetition unifies, alignment orders, proximity groups.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لمين؟ UCD: للمستخدم دائمًا، في دائرة: افهم، ثم صمّم، ثم اختبر، ثم حسّن.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "For whom? UCD: always the user, in a cycle: understand, design, test, improve.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الهدفان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Two Goals",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قابلية الاستخدام = «سهل؟». إمكانية الوصول = «للكل؟».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Usability = “Easy?”. Accessibility = “For all?”.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-072",
+      "htmlId": "page-72",
+      "role": "content",
+      "descriptionAr": "تابع: ملخص ليلة الامتحان",
+      "transcript": [
+        {
+          "text": "لا تنسَ",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Don't Forget",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المنحدر بجانب السلم يخدم الجميع.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The ramp beside the stairs serves everyone.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التحدي الأخير",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "FINAL CHALLENGE",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أغلق المذكرة، وقل الأسئلة الأربعة وأدواتها ومبادئ CRAP بالترتيب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Close the notes and say the four questions, their tools, and the CRAP principles in order.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    }
+  ]
+}

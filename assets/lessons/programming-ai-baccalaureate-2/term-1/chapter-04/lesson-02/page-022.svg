@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilStrip" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#8fc9f2"/>
+  </linearGradient>
+  <linearGradient id="ilImageBox" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+</defs>
+
+<!-- Info card: shadow, fill, accent, divider -->
+<rect x="109" y="128" width="870" height="488" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="122" width="870" height="488" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="456" rx="3" fill="#2f7fb5"/>
+
+<!-- Illustration: wireframe symbols with labels -->
+<g>
+  <!-- shadows -->
+  <rect x="109" y="1146" width="866" height="12" rx="6" fill="#22303f" opacity=".18"/>
+  <path d="M 378 656 H 694 L 724 686 V 1112 Q 724 1126 710 1126 H 378 Q 364 1126 364 1112 V 670 Q 364 656 378 656 Z" fill="#22303f" opacity=".18"/>
+  <!-- desk strip -->
+  <rect x="105" y="1140" width="866" height="12" rx="6" fill="url(#ilStrip)"/>
+  <ellipse cx="540" cy="1140" rx="200" ry="5" fill="#22303f" opacity=".12"/>
+  <!-- wireframe page -->
+  <path d="M 374 650 H 690 L 720 680 V 1106 Q 720 1120 706 1120 H 374 Q 360 1120 360 1106 V 664 Q 360 650 374 650 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="690,650 690,680 720,680" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- image placeholder: box with diagonal cross -->
+  <rect x="388" y="690" width="292" height="170" rx="6" fill="url(#ilImageBox)" stroke="#17457f" stroke-width="2.5"/>
+  <path d="M 388 690 L 680 860 M 680 690 L 388 860" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- text placeholder: four lines of different lengths -->
+  <rect x="388" y="888" width="292" height="12" rx="6" fill="#8fc9f2"/>
+  <rect x="388" y="922" width="252" height="12" rx="6" fill="#8fc9f2"/>
+  <rect x="388" y="956" width="280" height="12" rx="6" fill="#8fc9f2"/>
+  <rect x="388" y="990" width="172" height="12" rx="6" fill="#8fc9f2"/>
+  <!-- button placeholder: small rounded rectangle -->
+  <rect x="540" y="1040" width="140" height="48" rx="24" fill="#dff1f7" stroke="#17457f" stroke-width="2.5"/>
+  <!-- pointer arrows from labels to parts -->
+  <path d="M 850 906 V 770 H 702" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="690,770 702,763 702,777" fill="#c0392b"/>
+  <path d="M 288 945 H 370" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="380,945 368,939 368,951" fill="#c0392b"/>
+  <path d="M 784 1064 H 702" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="690,1064 702,1057 702,1071" fill="#c0392b"/>
+</g>
+
+<!-- Icon: light bulb -->
+<g transform="translate(204 690)">
+  <path d="M 26 -2 V 0 M 4 8 L 6 10 M 48 8 L 46 10" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="26" cy="24" r="18" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 20 26 Q 26 18 32 26" fill="none" stroke="#c96a1b" stroke-width="2" stroke-linecap="round"/>
+  <rect x="17" y="40" width="18" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 19 46 H 33" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: code brackets -->
+<g transform="translate(822 684)">
+  <rect x="0" y="0" width="56" height="48" rx="10" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 20 14 L 10 24 L 20 34 M 36 14 L 46 24 L 36 34" fill="none" stroke="#17457f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 31 12 L 25 36" fill="none" stroke="#2f7fb5" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: pencil -->
+<g transform="translate(412 1186)">
+  <g transform="rotate(40 28 30)">
+    <rect x="20" y="6" width="16" height="34" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="20" y="0" width="16" height="8" rx="3" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+    <polygon points="20,40 36,40 28,56" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="25.3,50.5 30.7,50.5 28,56" fill="#22303f"/>
+  </g>
+</g>
+
+<!-- Emotion face: smile -->
+<g transform="translate(540 1216)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: star -->
+<g transform="translate(612 1187)">
+  <polygon points="28,3 34.5,20.1 52.7,21 38.5,32.4 43.3,50 28,40 12.7,50 17.5,32.4 3.3,21 21.5,20.1" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Card header -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">كيف تقرأ المخطط الهيكلي؟</tspan>
+</text>
+<text x="140" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">How to Read a Wireframe</tspan>
+</text>
+
+<!-- Paragraph 1 -->
+<text x="935" y="274" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="normal" fill="#225f9c">
+  <tspan x="935" dy="0">المربع الذي بداخله علامة × يعني: هنا <tspan font-weight="bold" fill="#c0392b">صورة.</tspan></tspan>
+</text>
+<text x="140" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="normal" fill="#152b42">
+  <tspan x="140" dy="0">A box with an × inside means:</tspan>
+  <tspan x="140" dy="40">an <tspan font-weight="bold" fill="#c0392b">image</tspan> goes here.</tspan>
+</text>
+
+<!-- Paragraph 2 -->
+<text x="935" y="394" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="normal" fill="#225f9c">
+  <tspan x="935" dy="0">الخطوط الأفقية تعني: هنا <tspan font-weight="bold" fill="#c0392b">نص.</tspan></tspan>
+</text>
+<text x="140" y="434" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="normal" fill="#152b42">
+  <tspan x="140" dy="0">Horizontal lines mean: <tspan font-weight="bold" fill="#c0392b">text</tspan> goes here.</tspan>
+</text>
+
+<!-- Paragraph 3 -->
+<text x="935" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="normal" fill="#225f9c">
+  <tspan x="935" dy="0">المستطيل الصغير ذو الأطراف المستديرة</tspan>
+  <tspan x="935" dy="40">يعني: هنا <tspan font-weight="bold" fill="#c0392b">زر.</tspan></tspan>
+</text>
+<text x="140" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="normal" fill="#152b42">
+  <tspan x="140" dy="0">A small rounded rectangle means:</tspan>
+  <tspan x="140" dy="40">a <tspan font-weight="bold" fill="#c0392b">button</tspan> goes here.</tspan>
+</text>
+
+<!-- Illustration labels (right to left in Layout order) -->
+<text x="878" y="954" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="normal" fill="#225f9c">
+  <tspan x="878" dy="0">صورة</tspan>
+</text>
+<text x="808" y="994" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="normal" fill="#152b42">
+  <tspan x="808" dy="0">Image</tspan>
+</text>
+<text x="252" y="954" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="normal" fill="#225f9c">
+  <tspan x="252" dy="0">نص</tspan>
+</text>
+<text x="200" y="994" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="normal" fill="#152b42">
+  <tspan x="200" dy="0">Text</tspan>
+</text>
+<text x="864" y="1074" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="normal" fill="#225f9c">
+  <tspan x="864" dy="0">زر</tspan>
+</text>
+<text x="800" y="1114" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="normal" fill="#152b42">
+  <tspan x="800" dy="0">Button</tspan>
+</text>
+</svg>

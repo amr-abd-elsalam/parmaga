@@ -1,0 +1,302 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Info card: shadow, fill, accent bar -->
+<rect x="109" y="408" width="870" height="328" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="402" width="870" height="328" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="418" width="6" height="296" rx="3" fill="#2f7fb5"/>
+
+<!-- Illustration: a car shows the look (UI) and the driving feel (UX) -->
+<g>
+  <defs>
+    <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="ilHill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fc9f2"/>
+      <stop offset="1" stop-color="#dff1f7"/>
+    </linearGradient>
+    <linearGradient id="ilCar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f7fb5"/>
+      <stop offset="1" stop-color="#17457f"/>
+    </linearGradient>
+  </defs>
+  <!-- scene shadow and backdrop -->
+  <rect x="121" y="768" width="846" height="298" rx="26" fill="#22303f" opacity=".18"/>
+  <rect x="117" y="762" width="846" height="298" rx="26" fill="url(#ilSky)"/>
+  <!-- sun -->
+  <path d="M868 780 V770 M868 864 V874 M826 822 H816 M910 822 H920 M838 792 L831 785 M898 792 L905 785 M838 852 L831 859 M898 852 L905 859" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="868" cy="822" r="28" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <!-- clouds and birds -->
+  <path d="M196 842 Q186 822 206 816 Q212 796 236 802 Q252 786 272 802 Q296 800 296 822 Q306 842 286 842 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M596 830 Q586 810 606 804 Q612 784 636 790 Q652 774 672 790 Q696 788 696 810 Q706 830 686 830 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M420 812 Q428 804 436 812 Q444 804 452 812 M470 796 Q476 790 482 796 Q488 790 494 796" fill="none" stroke="#17457f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- hills -->
+  <path d="M117 970 Q 230 900 360 950 Q 470 890 600 945 Q 720 900 830 940 Q 900 915 963 935 V1018 H117 Z" fill="url(#ilHill)"/>
+  <!-- autumn trees -->
+  <rect x="166" y="968" width="10" height="36" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="171" cy="954" r="22" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="226" y="980" width="8" height="26" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="230" cy="970" r="15" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="913" y="966" width="10" height="40" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="918" cy="950" r="22" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <!-- road -->
+  <path d="M117 1018 H963 V1034 Q963 1060 937 1060 H143 Q117 1060 117 1034 Z" fill="#7f95ab"/>
+  <path d="M119 1018 H961" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M150 1040 H186 M226 1040 H262 M302 1040 H338 M378 1040 H414 M454 1040 H490 M530 1040 H566 M606 1040 H642 M682 1040 H718 M758 1040 H794 M834 1040 H870 M910 1040 H940" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <rect x="117" y="762" width="846" height="298" rx="26" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <!-- speed lines and sparkles -->
+  <path d="M812 936 H852 M818 956 H870 M812 976 H842" fill="none" stroke="#8fc9f2" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="772,874 775,881 782,884 775,887 772,894 769,887 762,884 769,881" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <polygon points="360,886 363,893 370,896 363,899 360,906 357,899 350,896 357,893" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <!-- headlight beams -->
+  <path d="M290 944 L270 940 M290 952 L266 952" fill="none" stroke="#ffd24a" stroke-width="3" stroke-linecap="round"/>
+  <!-- car shadow and body -->
+  <ellipse cx="548" cy="1020" rx="260" ry="9" fill="#22303f" opacity=".18"/>
+  <path d="M300 975 Q300 940 336 932 L430 920 L478 866 Q486 858 500 858 L660 858 Q676 858 688 868 L736 918 L770 922 Q796 926 796 952 L796 978 Q796 992 782 992 L314 992 Q300 992 300 975 Z" fill="url(#ilCar)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M650 858 L664 836" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+  <!-- windows -->
+  <polygon points="446,918 484,874 558,874 558,918" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="576,874 652,874 706,918 576,918" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M592 912 L612 880 M606 912 L626 880" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <!-- driver: modestly dressed, smiling, relaxed hands on the wheel -->
+  <path d="M502 918 Q506 902 526 900 Q546 902 550 918 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="526" cy="894" rx="16" ry="17" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="523" cy="895" rx="10.5" ry="12.5" fill="#e8b98d" stroke="#22303f" stroke-width="2"/>
+  <circle cx="519" cy="893" r="2" fill="#22303f"/>
+  <circle cx="527" cy="893" r="2" fill="#22303f"/>
+  <path d="M518 900 Q523 905 528 900" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="492" cy="904" rx="5" ry="13" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M496 912 L486 918" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="512,902 496,894 494,899 510,909" fill="#c96a1b" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <polygon points="512,908 494,909 494,915 512,914" fill="#c96a1b" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="494" cy="896" r="4.5" fill="#e8b98d" stroke="#22303f" stroke-width="2"/>
+  <circle cx="493" cy="912" r="4.5" fill="#e8b98d" stroke="#22303f" stroke-width="2"/>
+  <!-- belt line, doors, stripe, lights, bumpers, mirror -->
+  <rect x="438" y="914" width="292" height="8" fill="#17457f"/>
+  <path d="M566 924 V982 M444 926 V980 M690 924 V978" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+  <rect x="306" y="952" width="484" height="8" fill="#f0c48c"/>
+  <rect x="540" y="932" width="16" height="5" rx="2.5" fill="#dff1f7" stroke="#22303f" stroke-width="2"/>
+  <rect x="664" y="932" width="16" height="5" rx="2.5" fill="#dff1f7" stroke="#22303f" stroke-width="2"/>
+  <path d="M302 950 Q304 940 318 938 L322 950 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="788" y="932" width="8" height="16" rx="3" fill="#c0392b"/>
+  <rect x="296" y="976" width="40" height="10" rx="5" fill="#7f95ab" stroke="#22303f" stroke-width="2"/>
+  <rect x="760" y="976" width="40" height="10" rx="5" fill="#7f95ab" stroke="#22303f" stroke-width="2"/>
+  <ellipse cx="438" cy="912" rx="8" ry="6" fill="#2f7fb5" stroke="#22303f" stroke-width="2"/>
+  <!-- wheel arches and wheels -->
+  <path d="M344 992 A36 36 0 0 1 416 992 Z" fill="#22303f" opacity=".35"/>
+  <path d="M676 992 A36 36 0 0 1 748 992 Z" fill="#22303f" opacity=".35"/>
+  <circle cx="380" cy="992" r="30" fill="#22303f"/>
+  <circle cx="380" cy="992" r="17" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M380 978 V1006 M366 992 H394" fill="none" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="380" cy="992" r="6" fill="#7f95ab"/>
+  <circle cx="712" cy="992" r="30" fill="#22303f"/>
+  <circle cx="712" cy="992" r="17" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M712 978 V1006 M698 992 H726" fill="none" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="712" cy="992" r="6" fill="#7f95ab"/>
+  <!-- connector: first label to the car's outer body -->
+  <path d="M790 1062 L774.9 989.7" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="772,976 781.7,988.3 768,991.1" fill="#c0392b"/>
+  <circle cx="790" cy="1062" r="4" fill="#c0392b"/>
+  <!-- connector: second label to the driver -->
+  <path d="M360 1062 L502.1 919.9" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="512,910 507.05,924.85 497.15,914.95" fill="#c0392b"/>
+  <circle cx="360" cy="1062" r="4" fill="#c0392b"/>
+  <!-- memory row: steering wheel (feel), smile, palette (look) -->
+  <path d="M356 1219 H376 M392 1219 H412 M428 1219 H448 M464 1219 H484 M596 1219 H616 M632 1219 H652 M668 1219 H688 M704 1219 H724" fill="none" stroke="#8fc9f2" stroke-width="3" stroke-linecap="round"/>
+  <g>
+    <circle cx="300" cy="1219" r="26" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="300" cy="1219" r="19" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M281 1219 H293 M307 1219 H319 M300 1226 V1238" fill="none" stroke="#17457f" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="300" cy="1219" r="7" fill="#c96a1b" stroke="#22303f" stroke-width="2"/>
+  </g>
+  <g transform="translate(540 1219)">
+    <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+    <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+    <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g>
+    <path d="M780 1193 C 806 1193 812 1213 806 1225 C 800 1235 790 1228 786 1236 C 782 1244 770 1246 762 1240 C 750 1232 752 1200 780 1193 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="768" cy="1214" r="5" fill="#2f7fb5"/>
+    <circle cx="782" cy="1205" r="5" fill="#c0392b"/>
+    <circle cx="796" cy="1212" r="5" fill="#ffd24a"/>
+    <circle cx="771" cy="1229" r="5" fill="#17457f"/>
+  </g>
+</g>
+
+<!-- Icon: interface screen with menu and buttons -->
+<g transform="translate(128 166)">
+  <rect x="0" y="0" width="60" height="46" rx="6" fill="#ffffff"/>
+  <path d="M0 6 Q0 0 6 0 H54 Q60 0 60 6 V12 H0 Z" fill="#8fc9f2"/>
+  <path d="M8 20 H18 M8 25 H18 M8 30 H18" fill="none" stroke="#17457f" stroke-width="2" stroke-linecap="round"/>
+  <rect x="24" y="18" width="28" height="4" rx="2" fill="#17457f"/>
+  <rect x="24" y="25" width="20" height="3" rx="1.5" fill="#8fc9f2"/>
+  <rect x="8" y="34" width="20" height="7" rx="3.5" fill="#c96a1b"/>
+  <rect x="32" y="34" width="20" height="7" rx="3.5" fill="#2f7fb5"/>
+  <rect x="0" y="0" width="60" height="46" rx="6" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="25" y="46" width="10" height="8" fill="#7f95ab" stroke="#22303f" stroke-width="2"/>
+  <rect x="16" y="54" width="28" height="5" rx="2.5" fill="#7f95ab" stroke="#22303f" stroke-width="2"/>
+</g>
+
+<!-- Icon: pointer tapping a button (touch) -->
+<g transform="translate(882 300)">
+  <rect x="0" y="4" width="44" height="24" rx="12" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="10" y="14" width="20" height="4" rx="2" fill="#ffffff"/>
+  <path d="M50 10 L56 6 M52 20 L58 20" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="30,18 30,48 37,41 43,54 49,51 43,38 52,38" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: magnifier comparing two things (notice the difference) -->
+<g transform="translate(640 410)">
+  <polygon points="34,38 38,34 54,50 50,54" fill="#7d4f28" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="22" cy="22" r="18" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="12" y="16" width="9" height="12" rx="2" fill="#c96a1b"/>
+  <rect x="24" y="16" width="9" height="12" rx="2" fill="#2f7fb5"/>
+</g>
+
+<!-- Paragraph 1 -->
+<text x="950"
+      y="154"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">واجهة المستخدم UI</tspan> – User Interface:</tspan>
+  <tspan x="950" dy="40">الجزء الذي <tspan font-weight="bold" fill="#17457f">يراه</tspan> المستخدم <tspan font-weight="bold" fill="#17457f">ويلمسه:</tspan></tspan>
+  <tspan x="950" dy="40">الأزرار والقوائم والألوان والخطوط.</tspan>
+</text>
+<text x="120"
+      y="274"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">User interface (UI):</tspan> the part the user</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#17457f">sees</tspan> and <tspan font-weight="bold" fill="#17457f">touches:</tspan></tspan>
+  <tspan x="120" dy="40">buttons, menus, colors, and fonts.</tspan>
+</text>
+
+<!-- Info card: header -->
+<text x="935"
+      y="434"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="32"
+      font-weight="bold"
+      fill="#17457f">لاحظ الفرق</text>
+<text x="140"
+      y="474"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="31"
+      font-weight="bold"
+      fill="#17457f">Notice the difference</text>
+
+<!-- Info card: paragraph 1 -->
+<text x="935"
+      y="514"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="935" dy="0">&#x200F;<tspan font-weight="bold" fill="#c0392b">UI</tspan> هي شكل السيارة من الخارج،</tspan>
+  <tspan x="935" dy="40"><tspan font-weight="bold" fill="#c0392b">وUX</tspan> هي <tspan font-weight="bold" fill="#17457f">إحساسك</tspan> وأنت تقودها.</tspan>
+</text>
+<text x="140"
+      y="594"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">UI</tspan> is how the car looks from outside;</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#c0392b">UX</tspan> is how it <tspan font-weight="bold" fill="#17457f">feels</tspan> to drive it.</tspan>
+</text>
+
+<!-- Info card: paragraph 2 -->
+<text x="935"
+      y="674"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">الواجهة جزء من التجربة.</text>
+<text x="140"
+      y="714"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">The interface is part of the experience.</text>
+
+<!-- Illustration label 1 (right column) -->
+<text x="945"
+      y="1114"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c"><tspan font-weight="bold" fill="#c0392b">الواجهة:</tspan><tspan> الشكل من الخارج</tspan></text>
+<text x="600"
+      y="1154"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42"><tspan font-weight="bold" fill="#c0392b">UI:</tspan><tspan> the look outside</tspan></text>
+
+<!-- Illustration label 2 (left column) -->
+<text x="465"
+      y="1114"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c"><tspan font-weight="bold" fill="#c0392b">التجربة:</tspan><tspan> إحساس القيادة</tspan></text>
+<text x="135"
+      y="1154"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42"><tspan font-weight="bold" fill="#c0392b">UX:</tspan><tspan> the driving feel</tspan></text>
+</svg>

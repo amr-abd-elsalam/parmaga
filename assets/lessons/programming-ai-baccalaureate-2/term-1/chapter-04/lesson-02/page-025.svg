@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilWall" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="ilDeskTop" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8fc9f2"/>
+    <stop offset="1" stop-color="#2f7fb5"/>
+  </linearGradient>
+  <linearGradient id="ilScreen" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+</defs>
+
+<!-- Illustration: from low-fidelity sketch to high-fidelity plan -->
+<g>
+  <!-- shadows -->
+  <rect x="109" y="718" width="866" height="534" rx="22" fill="#22303f" opacity=".18"/>
+  <rect x="134" y="776" width="415" height="290" rx="14" fill="#22303f" opacity=".18"/>
+  <rect x="204" y="1156" width="270" height="34" rx="6" fill="#22303f" opacity=".18"/>
+  <polygon points="636,941 602,941 602,918 562,956 602,994 602,971 636,971" fill="#22303f" opacity=".18"/>
+  <g transform="rotate(4 790 960)">
+    <rect x="654" y="796" width="280" height="340" rx="6" fill="#22303f" opacity=".18"/>
+  </g>
+  <g transform="translate(804 1191) rotate(-8)">
+    <rect x="-112" y="-10" width="214" height="20" rx="8" fill="#22303f" opacity=".18"/>
+  </g>
+
+  <!-- wall and desk -->
+  <rect x="105" y="712" width="866" height="534" rx="22" fill="url(#ilWall)"/>
+  <path d="M 105 1100 H 971 V 1224 Q 971 1246 949 1246 H 127 Q 105 1246 105 1224 Z" fill="url(#ilDeskTop)"/>
+  <polygon points="560,1102 600,1102 560,1244 520,1244" fill="#ffffff" opacity=".12"/>
+  <polygon points="620,1102 636,1102 596,1244 580,1244" fill="#ffffff" opacity=".12"/>
+  <path d="M 105 1100 H 971" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- high-fidelity: computer screen -->
+  <rect x="130" y="770" width="415" height="290" rx="14" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="146" y="786" width="383" height="250" rx="6" fill="url(#ilScreen)"/>
+  <path d="M 152 786 H 523 Q 529 786 529 792 V 808 H 146 V 792 Q 146 786 152 786 Z" fill="#8fc9f2"/>
+  <circle cx="160" cy="797" r="4" fill="#ffffff"/>
+  <circle cx="174" cy="797" r="4" fill="#ffffff"/>
+  <circle cx="188" cy="797" r="4" fill="#ffffff"/>
+  <rect x="166" y="828" width="343" height="36" rx="3" fill="#dff1f7" stroke="#17457f" stroke-width="2"/>
+  <rect x="178" y="840" width="64" height="12" rx="3" fill="#17457f"/>
+  <rect x="404" y="843" width="26" height="6" rx="3" fill="#2f7fb5"/>
+  <rect x="438" y="843" width="26" height="6" rx="3" fill="#2f7fb5"/>
+  <rect x="472" y="843" width="26" height="6" rx="3" fill="#2f7fb5"/>
+  <rect x="166" y="874" width="343" height="12" rx="2" fill="#ffffff" stroke="#17457f" stroke-width="2"/>
+  <rect x="166" y="898" width="160" height="100" rx="3" fill="#ffffff" stroke="#17457f" stroke-width="2"/>
+  <path d="M 166 898 L 326 998 M 326 898 L 166 998" fill="none" stroke="#8fc9f2" stroke-width="2" stroke-linecap="round"/>
+  <rect x="342" y="900" width="112" height="10" rx="5" fill="#17457f"/>
+  <rect x="342" y="920" width="40" height="6" rx="3" fill="#2f7fb5"/>
+  <rect x="386" y="920" width="54" height="6" rx="3" fill="#2f7fb5"/>
+  <rect x="444" y="920" width="28" height="6" rx="3" fill="#2f7fb5"/>
+  <rect x="476" y="920" width="30" height="6" rx="3" fill="#2f7fb5"/>
+  <rect x="342" y="936" width="58" height="6" rx="3" fill="#2f7fb5"/>
+  <rect x="404" y="936" width="30" height="6" rx="3" fill="#2f7fb5"/>
+  <rect x="438" y="936" width="50" height="6" rx="3" fill="#2f7fb5"/>
+  <rect x="342" y="952" width="34" height="6" rx="3" fill="#2f7fb5"/>
+  <rect x="380" y="952" width="48" height="6" rx="3" fill="#2f7fb5"/>
+  <rect x="432" y="952" width="64" height="6" rx="3" fill="#2f7fb5"/>
+  <rect x="342" y="968" width="52" height="6" rx="3" fill="#2f7fb5"/>
+  <rect x="398" y="968" width="38" height="6" rx="3" fill="#2f7fb5"/>
+  <rect x="342" y="982" width="84" height="24" rx="12" fill="#c96a1b" stroke="#22303f" stroke-width="2"/>
+  <rect x="362" y="991" width="44" height="6" rx="3" fill="#ffffff"/>
+  <rect x="166" y="1024" width="343" height="6" rx="3" fill="#8fc9f2"/>
+  <!-- measurement marks -->
+  <path d="M 166 818 H 509 M 166 813 V 823 M 509 813 V 823 M 156 898 V 998 M 151 898 H 161 M 151 998 H 161 M 166 1012 H 326 M 166 1006 V 1018 M 326 1006 V 1018 M 438 982 V 1006 M 433 982 H 443 M 433 1006 H 443" fill="none" stroke="#c96a1b" stroke-width="2" stroke-linecap="round"/>
+  <!-- stand -->
+  <polygon points="318,1060 358,1060 366,1098 310,1098" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="276" y="1096" width="124" height="12" rx="6" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="337" cy="1048" r="3" fill="#8fc9f2"/>
+  <!-- keyboard -->
+  <rect x="200" y="1150" width="270" height="34" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 216 1161 H 226 M 238 1161 H 248 M 260 1161 H 270 M 282 1161 H 292 M 304 1161 H 314 M 326 1161 H 336 M 348 1161 H 358 M 370 1161 H 380 M 392 1161 H 402 M 414 1161 H 424 M 436 1161 H 454 M 216 1173 H 248 M 262 1173 H 408 M 422 1173 H 454" fill="none" stroke="#8fc9f2" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- arrow pointing left -->
+  <polygon points="632,935 598,935 598,912 558,950 598,988 598,965 632,965" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- sparkles on the polished side -->
+  <path d="M 575 786 Q 578 797 589 800 Q 578 803 575 814 Q 572 803 561 800 Q 572 797 575 786 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M 602 830 Q 604 837 611 839 Q 604 841 602 848 Q 600 841 593 839 Q 600 837 602 830 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- low-fidelity: rough sketch on paper -->
+  <g transform="rotate(4 790 960)">
+    <rect x="650" y="790" width="280" height="340" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M 674 816 Q 732 809 790 815 Q 852 821 906 812 Q 911 834 904 856 Q 842 851 790 858 Q 728 863 676 855 Q 669 835 674 816 Z M 900 810 L 912 806" fill="none" stroke="#17457f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 676 870 Q 790 864 905 871 L 903 885 Q 790 890 677 884 Z" fill="none" stroke="#17457f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 678 900 Q 732 896 788 902 Q 792 956 786 1010 Q 730 1014 676 1008 Q 672 954 678 900 Z" fill="none" stroke="#17457f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 680 903 Q 730 950 786 1007 M 786 904 Q 736 960 678 1006" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 806 908 q 12 -6 24 0 t 24 0 t 24 0 t 24 0 M 806 932 q 12 -6 24 0 t 24 0 t 24 0 M 806 956 q 12 -6 24 0 t 24 0 t 24 0 t 24 0 M 806 980 q 12 -6 24 0 t 24 0" fill="none" stroke="#17457f" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 812 1030 Q 846 1024 878 1031 Q 892 1044 878 1058 Q 846 1064 812 1057 Q 798 1044 812 1030 Z" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 678 1036 q 12 -6 24 0 t 24 0 t 24 0 t 24 0 M 678 1062 q 12 -6 24 0 t 24 0 t 24 0 M 678 1088 q 12 -6 24 0 t 24 0 t 24 0 t 24 0 M 806 1092 q 12 -6 24 0 t 24 0 t 24 0" fill="none" stroke="#17457f" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- pencil beside the sketch -->
+  <g transform="translate(800 1185) rotate(-8)">
+    <rect x="-80" y="-10" width="150" height="20" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M -76 0 H 66" fill="none" stroke="#f0c48c" stroke-width="2" stroke-linecap="round"/>
+    <rect x="70" y="-10" width="14" height="20" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="84" y="-10" width="18" height="20" rx="5" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+    <polygon points="-80,-10 -112,0 -80,10" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="-101,-3.4 -112,0 -101,3.4" fill="#22303f"/>
+  </g>
+
+  <!-- panel outline -->
+  <rect x="105" y="712" width="866" height="534" rx="22" fill="none" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: magnifier (level of detail) -->
+<g transform="translate(880 220)">
+  <polygon points="33,37 37,33 52,48 48,52" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="22" cy="22" r="16" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 14 18 Q 16 12 22 11" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: pencil (quick sketch) -->
+<g transform="translate(880 418)">
+  <g transform="rotate(40 28 30)">
+    <rect x="20" y="6" width="16" height="34" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="20" y="0" width="16" height="8" rx="3" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+    <polygon points="20,40 36,40 28,56" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="25.3,50.5 30.7,50.5 28,56" fill="#22303f"/>
+  </g>
+</g>
+
+<!-- Emotion face: smile -->
+<g transform="translate(170 540)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: ruler (measurements) -->
+<g transform="translate(868 656)">
+  <rect x="0" y="0" width="64" height="26" rx="4" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 8 0 V 12 M 18 0 V 8 M 28 0 V 14 M 38 0 V 8 M 48 0 V 12 M 58 0 V 8" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+</g>
+
+<!-- Bullets -->
+<circle cx="966" cy="344" r="6" fill="#c0392b"/>
+<circle cx="114" cy="424" r="6" fill="#c0392b"/>
+<circle cx="966" cy="544" r="6" fill="#c0392b"/>
+<circle cx="114" cy="624" r="6" fill="#c0392b"/>
+
+<!-- Paragraph: Fidelity -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="normal" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">دقة المخطط</tspan> Fidelity: <tspan font-weight="bold" fill="#17457f">درجة التفاصيل</tspan></tspan>
+  <tspan x="950" dy="40">في المخطط الهيكلي.</tspan>
+</text>
+<text x="120" y="234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="normal" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">Fidelity:</tspan> the <tspan font-weight="bold" fill="#17457f">level of detail</tspan></tspan>
+  <tspan x="120" dy="40">in a wireframe.</tspan>
+</text>
+
+<!-- Bullet 1: Low-fidelity -->
+<text x="950" y="354" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="normal" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">منخفض الدقة</tspan> Low-fidelity: رسم سريع</tspan>
+  <tspan x="950" dy="40">بالقلم على ورقة.</tspan>
+</text>
+<text x="132" y="434" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="normal" fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#c0392b">Low-fidelity:</tspan> a quick pencil sketch</tspan>
+  <tspan x="132" dy="40">on paper.</tspan>
+</text>
+
+<!-- Bullet 2: High-fidelity -->
+<text x="950" y="554" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="normal" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">عالي الدقة</tspan> High-fidelity: أقرب إلى</tspan>
+  <tspan x="950" dy="40">الشكل الحقيقي، وفيه <tspan font-weight="bold" fill="#17457f">نصوص فعلية</tspan> ومقاسات.</tspan>
+</text>
+<text x="132" y="634" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="normal" fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#c0392b">High-fidelity:</tspan> closer to the real look,</tspan>
+  <tspan x="132" dy="40">with <tspan font-weight="bold" fill="#17457f">actual text</tspan> and measurements.</tspan>
+</text>
+</svg>

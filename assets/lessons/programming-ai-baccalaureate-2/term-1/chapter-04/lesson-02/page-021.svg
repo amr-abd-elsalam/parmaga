@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8fc9f2"/>
+    <stop offset="1" stop-color="#2f7fb5"/>
+  </linearGradient>
+  <linearGradient id="ilBox" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#f0c48c"/>
+    <stop offset="1" stop-color="#c96a1b"/>
+  </linearGradient>
+</defs>
+
+<!-- Illustration: designer planning a wireframe -->
+<g>
+  <!-- shadows -->
+  <rect x="109" y="886" width="866" height="356" rx="22" fill="#22303f" opacity=".18"/>
+  <g transform="translate(205 1095) rotate(-8)">
+    <rect x="-68" y="-38" width="144" height="88" rx="12" fill="#22303f" opacity=".18"/>
+  </g>
+  <g transform="rotate(7 830 980)">
+    <rect x="744" y="916" width="180" height="130" rx="6" fill="#22303f" opacity=".18"/>
+  </g>
+  <g transform="rotate(-3 515 1050)">
+    <rect x="304" y="921" width="430" height="270" rx="6" fill="#22303f" opacity=".18"/>
+  </g>
+
+  <!-- desk -->
+  <rect x="105" y="880" width="866" height="356" rx="22" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="105" y="880" width="866" height="320" rx="22" fill="url(#ilDesk)" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="780,882 830,882 700,1198 650,1198" fill="#ffffff" opacity=".12"/>
+  <polygon points="860,882 880,882 750,1198 730,1198" fill="#ffffff" opacity=".12"/>
+
+  <!-- closed paint box pushed aside -->
+  <g transform="translate(205 1095) rotate(-8)">
+    <rect x="-72" y="-44" width="144" height="88" rx="12" fill="url(#ilBox)" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="-62" y="-34" width="124" height="66" rx="8" fill="none" stroke="#c96a1b" stroke-width="2"/>
+    <circle cx="-39" cy="-2" r="9" fill="#17457f" stroke="#22303f" stroke-width="2"/>
+    <circle cx="-13" cy="-2" r="9" fill="#8fc9f2" stroke="#22303f" stroke-width="2"/>
+    <circle cx="13" cy="-2" r="9" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+    <circle cx="39" cy="-2" r="9" fill="#dff1f7" stroke="#22303f" stroke-width="2"/>
+    <rect x="-14" y="36" width="28" height="12" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  </g>
+
+  <!-- older draft sheet behind -->
+  <g transform="rotate(7 830 980)">
+    <rect x="740" y="910" width="180" height="130" rx="6" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="756" y="926" width="148" height="24" rx="3" fill="none" stroke="#8fc9f2" stroke-width="2"/>
+    <path d="M 756 966 H 860 M 756 986 H 880 M 756 1006 H 840" fill="none" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- main paper with wireframe outlines -->
+  <g transform="rotate(-3 515 1050)">
+    <rect x="300" y="915" width="430" height="270" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="330" y="940" width="370" height="46" rx="4" fill="none" stroke="#17457f" stroke-width="2.5"/>
+    <rect x="330" y="998" width="370" height="14" rx="3" fill="none" stroke="#17457f" stroke-width="2.5"/>
+    <rect x="330" y="1026" width="210" height="134" rx="4" fill="none" stroke="#17457f" stroke-width="2.5"/>
+    <path d="M 330 1026 L 540 1160 M 540 1026 L 330 1160" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 565 1040 H 700 M 565 1066 H 690 M 565 1092 H 700 M 565 1118 H 680 M 565 1144 H 640" fill="none" stroke="#17457f" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- modest long sleeve -->
+  <path d="M 752 1084 C 800 1084, 900 1109, 971 1124 L 971 1199 C 900 1184, 800 1164, 738 1150 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 752 1084 C 760 1104, 752 1134, 738 1150 L 760 1155 C 774 1134, 780 1104, 772 1086 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- hand holding pencil, drawing the last line -->
+  <g transform="rotate(-3 515 1050)">
+    <path d="M 690 1102 C 705 1084, 745 1086, 760 1104 C 772 1122, 765 1149, 742 1156 C 720 1162, 696 1152, 688 1134 C 683 1122, 683 1110, 690 1102 Z" fill="#e8b98d" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M 702 1098 C 690 1106, 676 1116, 670 1122 C 665 1128, 672 1134, 679 1129 C 690 1122, 704 1114, 714 1108 Z" fill="#d59f6f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="640,1144 666,1131.5 657,1120.7" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="640,1144 648.3,1139.9 645.5,1136.5" fill="#22303f"/>
+    <polygon points="666,1131.5 759.7,1053.4 750.7,1042.6 657,1120.7" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M 663 1124 L 753 1049" fill="none" stroke="#f0c48c" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="759.7,1053.4 773.5,1041.9 764.5,1031.1 750.7,1042.6" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="773.5,1041.9 784.3,1032.9 775.3,1022.1 764.5,1031.1" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M 720 1078 C 707 1086, 687 1100, 672 1110 C 664 1116, 670 1125, 679 1120 C 694 1111, 712 1100, 728 1090 Z" fill="#e8b98d" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <ellipse cx="674" cy="1115" rx="4" ry="3" fill="#e8dfd1"/>
+    <path d="M 712 1110 Q 724 1104 736 1106" fill="none" stroke="#b57e50" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</g>
+
+<!-- Icon: wireframe document (title left) -->
+<g transform="translate(132 82)">
+  <rect x="0" y="0" width="50" height="60" rx="7" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="9" y="9" width="32" height="11" rx="2" fill="#8fc9f2" stroke="#22303f" stroke-width="2"/>
+  <rect x="9" y="27" width="15" height="15" rx="2" fill="#dff1f7" stroke="#22303f" stroke-width="2"/>
+  <path d="M 29 30 H 41 M 29 38 H 38 M 9 50 H 41" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: pencil (title right) -->
+<g transform="translate(890 82)">
+  <g transform="rotate(40 28 30)">
+    <rect x="20" y="6" width="16" height="34" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="20" y="0" width="16" height="8" rx="3" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+    <polygon points="20,40 36,40 28,56" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="25.3,50.5 30.7,50.5 28,56" fill="#22303f"/>
+  </g>
+</g>
+
+<!-- Icon: open book (definition) -->
+<g transform="translate(872 300)">
+  <path d="M 28 12 C 20 6, 8 6, 2 9 L 2 46 C 8 43, 20 43, 28 49 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 28 12 C 36 6, 48 6, 54 9 L 54 46 C 48 43, 36 43, 28 49 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 9 19 H 21 M 9 27 H 21 M 9 35 H 19 M 35 19 H 47 M 35 27 H 47 M 37 35 H 47" fill="none" stroke="#2f7fb5" stroke-width="2" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: light bulb (main idea) -->
+<g transform="translate(205 444)">
+  <path d="M 26 -2 V 0 M 4 8 L 6 10 M 48 8 L 46 10" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="26" cy="24" r="18" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 20 26 Q 26 18 32 26" fill="none" stroke="#c96a1b" stroke-width="2" stroke-linecap="round"/>
+  <rect x="17" y="40" width="18" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 19 46 H 33" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+</g>
+
+<!-- Emotion face: wink (tip) -->
+<g transform="translate(900 808)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M 5 -6 L 13 -6" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Titles -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">المخطط الهيكلي</text>
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" font-weight="normal" fill="#152b42">The Wireframe</text>
+
+<!-- Paragraph 1 -->
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="normal" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">المخطط الهيكلي</tspan> Wireframe: <tspan font-weight="bold" fill="#17457f">رسم أولي مبسط</tspan></tspan>
+  <tspan x="950" dy="40">لصفحة الويب يحدد مكان كل عنصر وأولويته.</tspan>
+</text>
+<text x="120" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="normal" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">Wireframe:</tspan> a <tspan font-weight="bold" fill="#17457f">simple first drawing</tspan> of a</tspan>
+  <tspan x="120" dy="40">web page that sets where each element</tspan>
+  <tspan x="120" dy="40">goes and how important it is.</tspan>
+</text>
+
+<!-- Paragraph 2 -->
+<text x="950" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="normal" fill="#225f9c">
+  <tspan x="950" dy="0">ويستخدم <tspan fill="#c96a1b">مربعات وخطوطًا،</tspan> وغالبًا دون</tspan>
+  <tspan x="950" dy="40">ألوان أو زخارف، حتى يركز الفريق</tspan>
+  <tspan x="950" dy="40">على <tspan font-weight="bold" fill="#17457f">البنية</tspan> قبل الشكل.</tspan>
+</text>
+<text x="120" y="594" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="normal" fill="#152b42">
+  <tspan x="120" dy="0">It uses <tspan fill="#c96a1b">boxes and lines,</tspan> usually without</tspan>
+  <tspan x="120" dy="40">colors or decoration, so the team focuses</tspan>
+  <tspan x="120" dy="40">on <tspan font-weight="bold" fill="#17457f">structure</tspan> before appearance.</tspan>
+</text>
+
+<!-- Paragraph 3 -->
+<text x="950" y="754" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="normal" fill="#225f9c">
+  <tspan x="950" dy="0">يعني: هو <tspan font-weight="bold" fill="#c0392b">«الكروكي»</tspan> الخاص بالصفحة.</tspan>
+</text>
+<text x="120" y="794" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="normal" fill="#152b42">
+  <tspan x="120" dy="0">In other words: it is the page's</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#c0392b">“sketch plan.”</tspan></tspan>
+</text>
+</svg>
