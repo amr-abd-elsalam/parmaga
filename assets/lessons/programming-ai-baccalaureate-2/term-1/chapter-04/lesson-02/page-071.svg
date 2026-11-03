@@ -1,0 +1,307 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilFrame" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <linearGradient id="ilCard" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+</defs>
+
+<!-- Shadows of card and box -->
+<rect x="109" y="128" width="870" height="488" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="109" y="648" width="870" height="248" rx="16" fill="#22303f" opacity=".12"/>
+
+<!-- Info card -->
+<rect x="105" y="122" width="870" height="488" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="456" rx="3" fill="#2f7fb5"/>
+<path d="M 200 383 H 900" fill="none" stroke="#9db9d6" stroke-width="2" stroke-linecap="round"/>
+
+<!-- Main idea box -->
+<rect x="105" y="642" width="870" height="248" rx="16" fill="#fdf6d8" stroke="#e0c46a" stroke-width="2"/>
+<rect x="961" y="658" width="6" height="216" rx="3" fill="#e0a55e"/>
+
+<!-- Illustration: the whole lesson on one pinned summary card -->
+<g>
+  <g>
+    <rect x="141" y="926" width="806" height="320" rx="18" fill="#22303f" opacity=".18"/>
+    <rect x="137" y="920" width="806" height="320" rx="18" fill="url(#ilFrame)" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="155" y="938" width="770" height="284" rx="10" fill="#f0c48c" stroke="#7d4f28" stroke-width="2"/>
+    <circle cx="176" cy="962" r="3" fill="#c96a1b" opacity=".35"/>
+    <circle cx="214" cy="1002" r="3" fill="#c96a1b" opacity=".35"/>
+    <circle cx="172" cy="1064" r="3" fill="#c96a1b" opacity=".35"/>
+    <circle cx="214" cy="1206" r="3" fill="#c96a1b" opacity=".35"/>
+    <circle cx="904" cy="1082" r="3" fill="#c96a1b" opacity=".35"/>
+    <circle cx="868" cy="1124" r="3" fill="#c96a1b" opacity=".35"/>
+    <circle cx="908" cy="1172" r="3" fill="#c96a1b" opacity=".35"/>
+    <circle cx="862" cy="1208" r="3" fill="#c96a1b" opacity=".35"/>
+    <circle cx="500" cy="1212" r="3" fill="#c96a1b" opacity=".35"/>
+    <circle cx="640" cy="1213" r="3" fill="#c96a1b" opacity=".35"/>
+    <circle cx="380" cy="948" r="3" fill="#c96a1b" opacity=".35"/>
+    <circle cx="700" cy="949" r="3" fill="#c96a1b" opacity=".35"/>
+  </g>
+
+  <g transform="translate(885 1010) rotate(6)">
+    <rect x="-24" y="-22" width="56" height="56" rx="4" fill="#22303f" opacity=".18"/>
+    <rect x="-28" y="-28" width="56" height="56" rx="4" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M -16 -8 H 16 M -16 4 H 12 M -16 16 H 6" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="0" cy="-26" r="6" fill="#2f7fb5" stroke="#22303f" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(195 1150) rotate(-6)">
+    <rect x="-24" y="-22" width="56" height="56" rx="4" fill="#22303f" opacity=".18"/>
+    <rect x="-28" y="-28" width="56" height="56" rx="4" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M -16 -8 H 16 M -16 4 H 12 M -16 16 H 6" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="0" cy="-26" r="6" fill="#2e7d32" stroke="#22303f" stroke-width="2"/>
+  </g>
+
+  <g>
+    <rect x="239" y="966" width="610" height="240" rx="16" fill="#22303f" opacity=".18"/>
+    <rect x="235" y="960" width="610" height="240" rx="16" fill="url(#ilCard)" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M 251 960 H 829 Q 845 960 845 976 V 984 H 235 V 976 Q 235 960 251 960 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+    <rect x="706" y="1006" width="88" height="88" rx="14" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="566" y="1006" width="88" height="88" rx="14" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="426" y="1006" width="88" height="88" rx="14" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="286" y="1006" width="88" height="88" rx="14" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+
+    <path d="M 724 1082 Q 726 1056 750 1056 Q 774 1056 776 1082 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="750" cy="1036" r="13" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+
+    <rect x="584" y="1020" width="52" height="62" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="592" y="1028" width="36" height="10" rx="2" fill="none" stroke="#2f7fb5" stroke-width="2"/>
+    <rect x="592" y="1044" width="16" height="28" rx="2" fill="none" stroke="#2f7fb5" stroke-width="2"/>
+    <rect x="612" y="1044" width="16" height="12" rx="2" fill="none" stroke="#2f7fb5" stroke-width="2"/>
+    <rect x="612" y="1060" width="16" height="12" rx="2" fill="none" stroke="#2f7fb5" stroke-width="2"/>
+
+    <path d="M 484 1020 V 1086" fill="none" stroke="#8fc9f2" stroke-width="2" stroke-linecap="round"/>
+    <rect x="440" y="1028" width="34" height="34" rx="4" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="486" y="1028" width="14" height="14" rx="2" fill="#f0c48c" stroke="#22303f" stroke-width="2"/>
+    <rect x="486" y="1046" width="14" height="14" rx="2" fill="#f0c48c" stroke="#22303f" stroke-width="2"/>
+    <rect x="486" y="1064" width="14" height="14" rx="2" fill="#f0c48c" stroke="#22303f" stroke-width="2"/>
+
+    <path d="M 330 1084 C 296 1062 290 1040 302 1028 C 312 1018 326 1022 330 1032 C 334 1022 348 1018 358 1028 C 370 1040 364 1062 330 1084 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="330" cy="1042" r="6" fill="#ffffff"/>
+    <path d="M 320 1062 Q 321 1051 330 1051 Q 339 1051 340 1062 Z" fill="#ffffff"/>
+
+    <rect x="670" y="1138" width="140" height="8" rx="4" fill="#8fc9f2"/>
+    <rect x="670" y="1156" width="100" height="8" rx="4" fill="#8fc9f2"/>
+    <rect x="270" y="1138" width="140" height="8" rx="4" fill="#8fc9f2"/>
+    <rect x="310" y="1156" width="100" height="8" rx="4" fill="#8fc9f2"/>
+
+    <path d="M 820 990 Q 822 998 830 1000 Q 822 1002 820 1010 Q 818 1002 810 1000 Q 818 998 820 990 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M 260 990 Q 262 998 270 1000 Q 262 1002 260 1010 Q 258 1002 250 1000 Q 258 998 260 990 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+
+    <circle cx="544" cy="978" r="12" fill="#22303f" opacity=".18"/>
+    <circle cx="540" cy="972" r="12" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="536" cy="968" r="3.5" fill="#ffffff"/>
+  </g>
+
+  <g>
+    <circle cx="614" cy="1156" r="30" fill="#22303f" opacity=".18"/>
+    <circle cx="610" cy="1150" r="30" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="610" cy="1150" r="22" fill="none" stroke="#a9dcbe" stroke-width="2.5"/>
+    <path d="M 598 1150 L 606 1159 L 623 1140" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g>
+    <circle cx="474" cy="1156" r="30" fill="#22303f" opacity=".18"/>
+    <circle cx="470" cy="1150" r="30" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M 448 1166 Q 449 1155 455 1155 Q 461 1155 462 1166 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+    <circle cx="455" cy="1146" r="5.5" fill="#c96a1b" stroke="#22303f" stroke-width="2"/>
+    <path d="M 478 1166 Q 479 1155 485 1155 Q 491 1155 492 1166 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+    <circle cx="485" cy="1146" r="5.5" fill="#2e7d32" stroke="#22303f" stroke-width="2"/>
+    <path d="M 461 1168 Q 462 1151 470 1151 Q 478 1151 479 1168 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+    <circle cx="470" cy="1141" r="7" fill="#2f7fb5" stroke="#22303f" stroke-width="2"/>
+  </g>
+
+  <path d="M 700 1050 H 670 M 560 1050 H 530 M 420 1050 H 390" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="660,1050 672,1043 672,1057" fill="#c0392b"/>
+  <polygon points="520,1050 532,1043 532,1057" fill="#c0392b"/>
+  <polygon points="380,1050 392,1043 392,1057" fill="#c0392b"/>
+</g>
+
+<!-- Face: wink in card corner -->
+<g transform="translate(165 162)">
+  <circle cx="4" cy="6" r="26" fill="#22303f" opacity=".18"/>
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M 5 -6 L 13 -6" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: CRAP squares (How) -->
+<g transform="translate(870 314)">
+  <rect x="-24" y="-22" width="56" height="56" rx="10" fill="#22303f" opacity=".18"/>
+  <rect x="-28" y="-28" width="56" height="56" rx="10" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-20" y="-18" width="22" height="22" rx="3" fill="#c96a1b" stroke="#22303f" stroke-width="2"/>
+  <rect x="8" y="-18" width="10" height="10" rx="2" fill="#2f7fb5"/>
+  <rect x="8" y="-4" width="10" height="10" rx="2" fill="#2f7fb5"/>
+  <rect x="8" y="10" width="10" height="10" rx="2" fill="#2f7fb5"/>
+  <rect x="-20" y="12" width="22" height="7" rx="3" fill="#8fc9f2"/>
+</g>
+
+<!-- Icon: improvement cycle (For whom) -->
+<g transform="translate(870 554)">
+  <circle cx="4" cy="6" r="26" fill="#22303f" opacity=".18"/>
+  <circle cx="0" cy="0" r="26" fill="#e9f7ee" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M -14 -6 A 15 15 0 0 1 12 -9" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="18,-2 16,-13 8,-5" fill="#2e7d32"/>
+  <path d="M 14 6 A 15 15 0 0 1 -12 9" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="-18,2 -16,13 -8,5" fill="#2e7d32"/>
+  <circle cx="0" cy="0" r="5" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+</g>
+
+<!-- Icon: light bulb (two goals) -->
+<g transform="translate(300 764)">
+  <circle cx="4" cy="0" r="18" fill="#22303f" opacity=".18"/>
+  <circle cx="0" cy="-6" r="18" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M -6 -4 Q 0 4 6 -4" fill="none" stroke="#c96a1b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M -10 -12 Q -8 -18 -2 -19" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <rect x="-9" y="11" width="18" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: check badge (usability) -->
+<g transform="translate(790 846)">
+  <circle cx="4" cy="6" r="22" fill="#22303f" opacity=".18"/>
+  <circle cx="0" cy="0" r="22" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="0" cy="0" r="16" fill="none" stroke="#a9dcbe" stroke-width="2.5"/>
+  <path d="M -9 0 L -3 7 L 10 -7" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: people (accessibility) -->
+<g transform="translate(880 846) scale(.85)">
+  <circle cx="4" cy="6" r="26" fill="#22303f" opacity=".18"/>
+  <circle cx="0" cy="0" r="26" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 0 16 Q 1 4 10 4 Q 19 4 20 16 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="10" cy="-7" r="7" fill="#d59f6f" stroke="#22303f" stroke-width="2"/>
+  <path d="M 3 -8 Q 3 -15 10 -15 Q 17 -15 17 -8 Q 12 -12 3 -8 Z" fill="#2b211c"/>
+  <path d="M -18 16 Q -17 4 -8 4 Q 1 4 2 16 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="-8" cy="-5" r="8" fill="#e8b98d" stroke="#22303f" stroke-width="2"/>
+  <path d="M -16 -6 Q -16 -14 -8 -14 Q 0 -14 0 -6 Q -6 -10 -16 -6 Z" fill="#2b211c"/>
+</g>
+
+<!-- Texts -->
+<text x="935"
+      y="154"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#17457f">إزاي؟</tspan> <tspan font-weight="bold" fill="#c0392b">CRAP</tspan> «تعالَ تتعلّم معانا تصميم»:</tspan>
+  <tspan x="935" dy="40">تباين يُبرز، وتكرار يوحّد،</tspan>
+  <tspan x="935" dy="40">ومحاذاة تنظّم، وتقارب يجمّع.</tspan>
+</text>
+
+<text x="140"
+      y="274"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#17457f">How?</tspan> <tspan font-weight="bold" fill="#c0392b">CRAP:</tspan> contrast highlights,</tspan>
+  <tspan x="140" dy="40">repetition unifies, alignment</tspan>
+  <tspan x="140" dy="40">orders, proximity groups.</tspan>
+</text>
+
+<text x="935"
+      y="434"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#17457f">لمين؟</tspan> <tspan font-weight="bold" fill="#c0392b">UCD:</tspan> <tspan font-weight="bold" fill="#2e7d32">للمستخدم</tspan> دائمًا، في دائرة:</tspan>
+  <tspan x="935" dy="40">افهم، ثم صمّم، ثم اختبر، ثم حسّن.</tspan>
+</text>
+
+<text x="140"
+      y="514"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#17457f">For whom?</tspan> <tspan font-weight="bold" fill="#c0392b">UCD:</tspan> always <tspan font-weight="bold" fill="#2e7d32">the user,</tspan></tspan>
+  <tspan x="140" dy="40">in a cycle: understand, design,</tspan>
+  <tspan x="140" dy="40">test, improve.</tspan>
+</text>
+
+<text x="935"
+      y="674"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="32"
+      font-weight="bold"
+      fill="#c0392b">
+  <tspan x="935" dy="0">الهدفان</tspan>
+</text>
+
+<text x="140"
+      y="714"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="31"
+      font-weight="bold"
+      fill="#c0392b">
+  <tspan x="140" dy="0">The Two Goals</tspan>
+</text>
+
+<text x="935"
+      y="754"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">قابلية الاستخدام</tspan> = «سهل؟».</tspan>
+  <tspan x="935" dy="40"><tspan font-weight="bold" fill="#c0392b">إمكانية الوصول</tspan> = «للكل؟».</tspan>
+</text>
+
+<text x="140"
+      y="834"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Usability</tspan> = “Easy?”.</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#c0392b">Accessibility</tspan> = “For all?”.</tspan>
+</text>
+</svg>

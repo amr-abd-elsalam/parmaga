@@ -1,0 +1,247 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Illustration: the same information as a dense paragraph and as a neat table -->
+<g>
+  <defs>
+    <linearGradient id="ilBack" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="ilBoard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b07a45"/>
+      <stop offset="1" stop-color="#7d4f28"/>
+    </linearGradient>
+    <linearGradient id="ilArrow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#17457f"/>
+      <stop offset="1" stop-color="#8fc9f2"/>
+    </linearGradient>
+    <linearGradient id="ilTick" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a9dcbe"/>
+      <stop offset="1" stop-color="#2e7d32"/>
+    </linearGradient>
+  </defs>
+  <!-- scene shadow and backdrop -->
+  <rect x="121" y="912" width="846" height="340" rx="26" fill="#22303f" opacity=".18"/>
+  <rect x="117" y="906" width="846" height="340" rx="26" fill="url(#ilBack)"/>
+  <!-- halos: good side and bad side -->
+  <circle cx="342" cy="1060" r="150" fill="#a9dcbe" opacity=".35"/>
+  <circle cx="730" cy="1060" r="150" fill="#c0392b" opacity=".12"/>
+  <!-- desk -->
+  <path d="M117 1186 H963 V1220 Q963 1246 937 1246 H143 Q117 1246 117 1220 Z" fill="#e8dfd1"/>
+  <path d="M119 1186 H961" fill="none" stroke="#7f95ab" stroke-width="2"/>
+  <!-- divider segments -->
+  <path d="M540 926 V940 M540 954 V968 M540 982 V996 M540 1124 V1138 M540 1152 V1166" fill="none" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+  <rect x="117" y="906" width="846" height="340" rx="26" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <!-- ground shading -->
+  <ellipse cx="342" cy="1192" rx="140" ry="8" fill="#22303f" opacity=".12"/>
+  <ellipse cx="730" cy="1192" rx="128" ry="8" fill="#22303f" opacity=".12"/>
+
+  <!-- RIGHT: clipboard with one dense block of tiny unbroken lines -->
+  <rect x="612" y="940" width="236" height="250" rx="14" fill="url(#ilBoard)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="626" y="962" width="208" height="214" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M640 984 H820 M640 991 H820 M640 998 H820 M640 1005 H820 M640 1012 H820 M640 1019 H820 M640 1026 H820 M640 1033 H820 M640 1040 H820 M640 1047 H820 M640 1054 H820 M640 1061 H820 M640 1068 H820 M640 1075 H820 M640 1082 H820 M640 1089 H820 M640 1096 H820 M640 1103 H820 M640 1110 H820 M640 1117 H820 M640 1124 H820 M640 1131 H820 M640 1138 H820 M640 1145 H820 M640 1152 H820 M640 1159 H820 M640 1166 H770" fill="none" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+  <rect x="690" y="932" width="80" height="36" rx="8" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="730" cy="944" r="5" fill="#dff1f7" stroke="#22303f" stroke-width="2"/>
+  <!-- big cross mark -->
+  <circle cx="900" cy="960" r="36" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="882,948 888,942 900,954 912,942 918,948 906,960 918,972 912,978 900,966 888,978 882,972 894,960" fill="#ffffff" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- MIDDLE: arrow pointing to the left side -->
+  <polygon points="492,1066 534,1030 534,1050 592,1050 592,1082 534,1082 534,1102" fill="url(#ilArrow)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- LEFT: clipboard with a neat table -->
+  <rect x="212" y="940" width="260" height="250" rx="14" fill="url(#ilBoard)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="226" y="962" width="232" height="214" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M238 982 Q238 976 244 976 H440 Q446 976 446 982 V1008 H238 Z" fill="#2f7fb5"/>
+  <rect x="238" y="1048" width="208" height="40" fill="#dff1f7"/>
+  <path d="M238 1128 H446 V1160 Q446 1168 438 1168 H246 Q238 1168 238 1160 Z" fill="#dff1f7"/>
+  <path d="M238 1008 H446 M238 1048 H446 M238 1088 H446 M238 1128 H446 M310 1008 V1168" fill="none" stroke="#8fc9f2" stroke-width="2"/>
+  <rect x="238" y="976" width="208" height="192" rx="8" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="250" y="988" width="48" height="8" rx="4" fill="#ffffff"/>
+  <rect x="330" y="988" width="90" height="8" rx="4" fill="#ffffff"/>
+  <!-- row 1 -->
+  <rect x="250" y="1023" width="46" height="10" rx="5" fill="#17457f"/>
+  <circle cx="334" cy="1028" r="12" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <path d="M334 1028 V1021 M334 1028 L339 1031" fill="none" stroke="#2e7d32" stroke-width="2" stroke-linecap="round"/>
+  <rect x="354" y="1024" width="76" height="8" rx="4" fill="#8fc9f2"/>
+  <!-- row 2 -->
+  <rect x="250" y="1063" width="40" height="10" rx="5" fill="#17457f"/>
+  <circle cx="334" cy="1068" r="12" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <path d="M334 1068 V1061 M334 1068 L339 1071" fill="none" stroke="#2e7d32" stroke-width="2" stroke-linecap="round"/>
+  <rect x="354" y="1064" width="64" height="8" rx="4" fill="#2f7fb5"/>
+  <!-- row 3 -->
+  <rect x="250" y="1103" width="46" height="10" rx="5" fill="#17457f"/>
+  <circle cx="334" cy="1108" r="12" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <path d="M334 1108 V1101 M334 1108 L339 1111" fill="none" stroke="#2e7d32" stroke-width="2" stroke-linecap="round"/>
+  <rect x="354" y="1104" width="76" height="8" rx="4" fill="#8fc9f2"/>
+  <!-- row 4 -->
+  <rect x="250" y="1143" width="36" height="10" rx="5" fill="#17457f"/>
+  <circle cx="334" cy="1148" r="12" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <path d="M334 1148 V1141 M334 1148 L339 1151" fill="none" stroke="#2e7d32" stroke-width="2" stroke-linecap="round"/>
+  <rect x="354" y="1144" width="56" height="8" rx="4" fill="#2f7fb5"/>
+  <!-- clip -->
+  <rect x="302" y="932" width="80" height="36" rx="8" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="342" cy="944" r="5" fill="#dff1f7" stroke="#22303f" stroke-width="2"/>
+  <!-- big tick mark -->
+  <circle cx="160" cy="960" r="36" fill="url(#ilTick)" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="136,962 148,950 158,960 180,936 192,948 158,982" fill="#ffffff" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M150 1026 V1042 M142 1034 H158 M186 1004 V1016 M180 1010 H192" fill="none" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: organized card (information design) -->
+<g transform="translate(128 184)">
+  <rect x="0" y="0" width="56" height="52" rx="8" fill="#ffffff"/>
+  <path d="M0 8 Q0 0 8 0 H48 Q56 0 56 8 V12 H0 Z" fill="#2f7fb5"/>
+  <circle cx="11" cy="22" r="3.5" fill="#2e7d32"/>
+  <rect x="18" y="20" width="28" height="4" rx="2" fill="#8fc9f2"/>
+  <circle cx="11" cy="32" r="3.5" fill="#2e7d32"/>
+  <rect x="18" y="30" width="22" height="4" rx="2" fill="#8fc9f2"/>
+  <circle cx="11" cy="42" r="3.5" fill="#2e7d32"/>
+  <rect x="18" y="40" width="26" height="4" rx="2" fill="#8fc9f2"/>
+  <rect x="0" y="0" width="56" height="52" rx="8" fill="none" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: open book (definition) -->
+<g transform="translate(886 290)">
+  <path d="M30 10 Q 18 4 4 8 L4 44 Q 18 40 30 46 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M30 10 Q 42 4 56 8 L56 44 Q 42 40 30 46 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M10 18 L24 20 M10 26 L24 28 M10 34 L22 35 M36 20 L50 18 M36 28 L50 26" fill="none" stroke="#2f7fb5" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="44,6 50,6 50,20 47,17 44,20" fill="#c0392b" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: pin (the rule) -->
+<g transform="translate(130 452)">
+  <path d="M24 31 V48" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="14" y="2" width="20" height="9" rx="3" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="17,11 31,11 33,24 15,24" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="8" y="24" width="32" height="7" rx="3" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: magnifier that found the target -->
+<g transform="translate(886 560)">
+  <polygon points="34,38 38,34 54,50 50,54" fill="#7d4f28" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="22" cy="22" r="18" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M13 22 L19 28 L31 15" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: calendar (days and hours) -->
+<g transform="translate(130 696)">
+  <rect x="0" y="6" width="48" height="40" rx="6" fill="#ffffff"/>
+  <path d="M0 12 Q0 6 6 6 H42 Q48 6 48 12 V18 H0 Z" fill="#c0392b"/>
+  <rect x="7" y="23" width="9" height="7" rx="2" fill="#8fc9f2"/>
+  <rect x="20" y="23" width="9" height="7" rx="2" fill="#2e7d32"/>
+  <rect x="33" y="23" width="9" height="7" rx="2" fill="#8fc9f2"/>
+  <rect x="7" y="34" width="9" height="7" rx="2" fill="#8fc9f2"/>
+  <rect x="20" y="34" width="9" height="7" rx="2" fill="#8fc9f2"/>
+  <rect x="33" y="34" width="9" height="7" rx="2" fill="#2f7fb5"/>
+  <rect x="0" y="6" width="48" height="40" rx="6" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="11" y="0" width="5" height="12" rx="2.5" fill="#7f95ab" stroke="#22303f" stroke-width="2"/>
+  <rect x="32" y="0" width="5" height="12" rx="2.5" fill="#7f95ab" stroke="#22303f" stroke-width="2"/>
+</g>
+
+<!-- Icon: clinic -->
+<g transform="translate(886 790)">
+  <rect x="9" y="22" width="38" height="32" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="4,24 28,4 52,24" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="24" y="28" width="8" height="20" fill="#c0392b"/>
+  <rect x="18" y="34" width="20" height="8" fill="#c0392b"/>
+</g>
+
+<!-- Paragraph 1 -->
+<text x="950"
+      y="154"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">تصميم المعلومات Information Design:</tspan></tspan>
+  <tspan x="950" dy="40">تنظيم المعلومات وترتيبها وعرضها حتى يفهمها</tspan>
+  <tspan x="950" dy="40">المستخدم <tspan font-weight="bold" fill="#2e7d32">بسرعة</tspan> ويصل إليها <tspan font-weight="bold" fill="#2e7d32">بسهولة.</tspan></tspan>
+</text>
+<text x="120"
+      y="274"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">Information design:</tspan> organizing,</tspan>
+  <tspan x="120" dy="40">arranging, and presenting information</tspan>
+  <tspan x="120" dy="40">so the user understands it <tspan font-weight="bold" fill="#2e7d32">quickly</tspan> and</tspan>
+  <tspan x="120" dy="40">reaches it <tspan font-weight="bold" fill="#2e7d32">easily.</tspan></tspan>
+</text>
+
+<!-- Paragraph 2 -->
+<text x="950"
+      y="474"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#17457f">القاعدة:</tspan> ليس المهم أن تكون عندك معلومات</tspan>
+  <tspan x="950" dy="40">كثيرة، بل أن <tspan font-weight="bold" fill="#2e7d32">يجد القارئ ما يريده.</tspan></tspan>
+</text>
+<text x="120"
+      y="554"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#17457f">The rule:</tspan> having a lot of information</tspan>
+  <tspan x="120" dy="40">is not what matters; what matters is</tspan>
+  <tspan x="120" dy="40">that the reader <tspan font-weight="bold" fill="#2e7d32">finds what they want.</tspan></tspan>
+</text>
+
+<!-- Paragraph 3 -->
+<text x="950"
+      y="714"
+      direction="rtl"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Tahoma, Arial, Segoe UI, sans-serif"
+      font-size="30"
+      fill="#225f9c">
+  <tspan x="950" dy="0"><tspan fill="#c96a1b">مثال:</tspan> جدول بمواعيد العيادة بالأيام والساعات</tspan>
+  <tspan x="950" dy="40"><tspan font-weight="bold" fill="#2e7d32">أوضح</tspan> من فقرة طويلة تحكي المواعيد.</tspan>
+</text>
+<text x="120"
+      y="794"
+      direction="ltr"
+      unicode-bidi="plaintext"
+      text-anchor="start"
+      font-family="Segoe Print, Comic Sans MS, Arial, sans-serif"
+      font-size="29"
+      fill="#152b42">
+  <tspan x="120" dy="0"><tspan fill="#c96a1b">Example:</tspan> A table of the clinic's days</tspan>
+  <tspan x="120" dy="40">and hours is <tspan font-weight="bold" fill="#2e7d32">clearer</tspan> than a long</tspan>
+  <tspan x="120" dy="40">paragraph describing them.</tspan>
+</text>
+</svg>

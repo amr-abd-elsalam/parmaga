@@ -1,0 +1,229 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Key sentence strip: shadow, fill, accent in one group -->
+<g>
+  <rect x="109" y="128" width="870" height="168" rx="10" fill="#22303f" opacity=".12"/>
+  <rect x="105" y="122" width="870" height="168" rx="10" fill="#fdf6d8"/>
+  <rect x="961" y="138" width="6" height="136" rx="3" fill="#e0a55e"/>
+</g>
+
+<!-- Warning card: shadow, fill, accent, dividers in one group -->
+<g>
+  <rect x="109" y="328" width="870" height="648" rx="16" fill="#22303f" opacity=".12"/>
+  <rect x="105" y="322" width="870" height="648" rx="16" fill="#fdf1e2" stroke="#f0c48c" stroke-width="2"/>
+  <rect x="961" y="338" width="6" height="616" rx="3" fill="#c96a1b"/>
+</g>
+
+<!-- Memory illustration: from an anonymous crowd to one persona -->
+<g>
+  <defs>
+    <linearGradient id="ilBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="ilBand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f7fb5"/>
+      <stop offset="1" stop-color="#17457f"/>
+    </linearGradient>
+  </defs>
+  <!-- shadows -->
+  <rect x="154" y="1006" width="780" height="250" rx="36" fill="#22303f" opacity=".18"/>
+  <rect x="194" y="1026" width="250" height="204" rx="18" fill="#22303f" opacity=".18"/>
+  <rect x="644" y="1042" width="250" height="160" rx="24" fill="#22303f" opacity=".18"/>
+
+  <!-- scene panel -->
+  <rect x="150" y="1000" width="780" height="250" rx="36" fill="url(#ilBg)" stroke="#8fc9f2" stroke-width="2.5"/>
+  <circle cx="315" cy="1120" r="100" fill="#8fc9f2" opacity=".35"/>
+  <circle cx="765" cy="1116" r="96" fill="#e8dfd1" opacity=".6"/>
+
+  <!-- sparkles -->
+  <path d="M170 1018 Q172 1028 182 1030 Q172 1032 170 1042 Q168 1032 158 1030 Q168 1028 170 1018 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M540 1060 Q542 1070 552 1072 Q542 1074 540 1084 Q538 1074 528 1072 Q538 1070 540 1060 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M560 1156 Q562 1166 572 1168 Q562 1170 560 1180 Q558 1170 548 1168 Q558 1166 560 1156 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M908 1214 Q910 1224 920 1226 Q910 1228 908 1238 Q906 1228 896 1226 Q906 1224 908 1214 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- crowd speech bubble -->
+  <rect x="640" y="1036" width="250" height="160" rx="24" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="790,1193 836,1228 824,1193" fill="#ffffff"/>
+  <path d="M792 1196 L836 1228 L824 1196" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(705 1074)">
+    <path d="M-16 36 Q-16 14 0 14 Q16 14 16 36 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="0" cy="0" r="10" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(765 1074)">
+    <path d="M-16 36 Q-16 14 0 14 Q16 14 16 36 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="0" cy="0" r="10" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(825 1074)">
+    <path d="M-16 36 Q-16 14 0 14 Q16 14 16 36 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="0" cy="0" r="10" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(705 1136)">
+    <path d="M-16 36 Q-16 14 0 14 Q16 14 16 36 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="0" cy="0" r="10" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(765 1136)">
+    <path d="M-16 36 Q-16 14 0 14 Q16 14 16 36 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="0" cy="0" r="10" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(825 1136)">
+    <path d="M-16 36 Q-16 14 0 14 Q16 14 16 36 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="0" cy="0" r="10" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <!-- red cross badge -->
+  <circle cx="880" cy="1046" r="20" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M872 1038 L888 1054 M888 1038 L872 1054" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- persona card: Hajja Fatma -->
+  <rect x="190" y="1020" width="250" height="204" rx="18" fill="#ffffff"/>
+  <path d="M190 1038 Q190 1020 208 1020 H422 Q440 1020 440 1038 V1070 H190 Z" fill="url(#ilBand)"/>
+  <rect x="190" y="1020" width="250" height="204" rx="18" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="206" y="1036" width="50" height="7" rx="3.5" fill="#dff1f7"/>
+  <rect x="206" y="1050" width="32" height="7" rx="3.5" fill="#8fc9f2"/>
+  <!-- avatar -->
+  <circle cx="315" cy="1082" r="44" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M281 1118 Q283 1098 315 1096 Q347 1098 349 1118 Q333 1126 315 1126 Q297 1126 281 1118 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M291 1080 C289 1056 299 1046 315 1046 C331 1046 341 1056 339 1080 C339 1094 345 1102 351 1108 C335 1120 295 1120 279 1108 C285 1102 291 1094 291 1080 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="315" cy="1076" rx="16" ry="19" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M299 1068 C298 1056 305 1051 315 1051 C325 1051 332 1056 331 1068 C327 1061 322 1058 315 1058 C308 1058 303 1061 299 1068 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="308" cy="1077" r="1.8" fill="#22303f"/>
+  <circle cx="322" cy="1077" r="1.8" fill="#22303f"/>
+  <circle cx="308" cy="1077" r="6.5" fill="none" stroke="#22303f" stroke-width="2"/>
+  <circle cx="322" cy="1077" r="6.5" fill="none" stroke="#22303f" stroke-width="2"/>
+  <path d="M309 1087 Q315 1092 321 1087" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="303" cy="1086" r="3" fill="#c96a1b" opacity=".18"/>
+  <circle cx="327" cy="1086" r="3" fill="#c96a1b" opacity=".18"/>
+  <circle cx="334" cy="1104" r="3" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+  <!-- row 1: target -->
+  <circle cx="216" cy="1150" r="9" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="216" cy="1150" r="4.5" fill="#ffffff"/>
+  <circle cx="216" cy="1150" r="2" fill="#c0392b"/>
+  <rect x="236" y="1143" width="180" height="7" rx="3.5" fill="#8fc9f2"/>
+  <rect x="236" y="1154" width="120" height="6" rx="3" fill="#e8dfd1"/>
+  <!-- row 2: checklist -->
+  <rect x="207" y="1165" width="18" height="22" rx="3" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M211 1171 L214 1174 L220 1168 M211 1180 L214 1183 L220 1177" fill="none" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="236" y="1169" width="180" height="7" rx="3.5" fill="#8fc9f2"/>
+  <rect x="236" y="1180" width="120" height="6" rx="3" fill="#e8dfd1"/>
+  <!-- row 3: mountain -->
+  <polygon points="205,1213 215,1193 225,1213" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="217,1213 223,1202 229,1213" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="236" y="1195" width="180" height="7" rx="3.5" fill="#8fc9f2"/>
+  <rect x="236" y="1206" width="120" height="6" rx="3" fill="#e8dfd1"/>
+  <!-- green check badge -->
+  <circle cx="432" cy="1028" r="18" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M424 1028 L430 1034 L441 1022" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- connector arrow: crowd becomes one persona -->
+  <path d="M622 1118 H482" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="462,1118 482,1108 482,1128" fill="#c0392b"/>
+</g>
+
+<!-- Icon: persona speech bubble with check (strip) -->
+<g>
+  <rect x="128" y="132" width="50" height="38" rx="10" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="138,168 136,180 152,168" fill="#ffffff"/>
+  <path d="M139 170 L136 180 L150 170" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M141 166 Q141 154 153 154 Q165 154 165 166 Z" fill="#17457f"/>
+  <ellipse cx="153" cy="146" rx="9" ry="10" fill="#2f7fb5" stroke="#22303f" stroke-width="2"/>
+  <circle cx="153" cy="147" r="5.5" fill="#e8b98d"/>
+  <circle cx="176" cy="134" r="9" fill="#2e7d32" stroke="#22303f" stroke-width="2"/>
+  <path d="M172 134 L175 137 L180 131" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: crowd speech bubble with cross (strip) -->
+<g>
+  <rect x="196" y="132" width="52" height="38" rx="10" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="228,168 240,180 238,168" fill="#e8dfd1"/>
+  <path d="M229 170 L240 180 L237 170" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M204 164 Q204 154 210 154 Q216 154 216 164 Z M216 164 Q216 154 222 154 Q228 154 228 164 Z M228 164 Q228 154 234 154 Q240 154 240 164 Z" fill="#7f95ab"/>
+  <circle cx="210" cy="148" r="4.5" fill="#7f95ab"/>
+  <circle cx="222" cy="148" r="4.5" fill="#7f95ab"/>
+  <circle cx="234" cy="148" r="4.5" fill="#7f95ab"/>
+  <circle cx="246" cy="134" r="9" fill="#c0392b" stroke="#22303f" stroke-width="2"/>
+  <path d="M242 130 L250 138 M250 130 L242 138" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: warning triangle (card header) -->
+<g transform="translate(872 400)">
+  <polygon points="0,-22 25,20 -25,20" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M0 -7 V6" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="0" cy="13" r="2.5" fill="#22303f"/>
+</g>
+
+<!-- Icon: glasses (warning 1, weak eyesight) -->
+<g transform="translate(230 535)">
+  <circle cx="-16" cy="0" r="13" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="16" cy="0" r="13" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M-3 -2 Q0 -6 3 -2 M-29 -3 L-36 -9 M29 -3 L36 -9" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M-22 -5 Q-19 -8 -15 -8 M10 -5 Q13 -8 17 -8" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: two people (warning 2, a group of users) -->
+<g transform="translate(200 802)">
+  <path d="M-4 24 Q-4 2 12 2 Q28 2 28 24 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="12" cy="-12" r="9" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M-28 26 Q-28 6 -10 6 Q8 6 8 26 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="-10" cy="-6" r="10" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Texts -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">بدل أن تقول «المستخدمون يريدون…»،</tspan>
+  <tspan x="935" dy="40">قل: <tspan fill="#c0392b">«الحاجة فاطمة</tspan> تريد…».</tspan>
+</text>
+
+<text x="140" y="234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">Instead of saying “Users want…”, say:</tspan>
+  <tspan x="140" dy="40"><tspan fill="#c0392b">“Hajja Fatma</tspan> wants…”</tspan>
+</text>
+
+<text x="935" y="354" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">تنبيهان مهمان</text>
+
+<text x="140" y="394" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">Two Important Warnings</text>
+
+<text x="935" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">1</tspan> العمر والمهنة لا يُكتبان إلا إذا كانا</tspan>
+  <tspan x="935" dy="40"><tspan font-weight="bold" fill="#17457f">يؤثران في التصميم؛</tspan> فعمر الحاجة فاطمة</tspan>
+  <tspan x="935" dy="40">مهم لأنه يفسر ضعف نظرها.</tspan>
+</text>
+
+<text x="140" y="594" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">1</tspan> Age and occupation are written only</tspan>
+  <tspan x="140" dy="40">if they <tspan font-weight="bold" fill="#17457f">affect the design;</tspan></tspan>
+  <tspan x="140" dy="40">Hajja Fatma's age matters because it</tspan>
+  <tspan x="140" dy="40">explains her weak eyesight.</tspan>
+</text>
+
+<text x="935" y="794" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">2</tspan> شخصية المستخدم ليست عميلًا حقيقيًا</tspan>
+  <tspan x="935" dy="40">بعينه، بل <tspan font-weight="bold" fill="#17457f">ممثل لمجموعة</tspan> من المستخدمين.</tspan>
+</text>
+
+<text x="140" y="874" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">2</tspan> A persona is not one specific</tspan>
+  <tspan x="140" dy="40">real customer; it <tspan font-weight="bold" fill="#17457f">represents a group</tspan></tspan>
+  <tspan x="140" dy="40">of users.</tspan>
+</text>
+</svg>

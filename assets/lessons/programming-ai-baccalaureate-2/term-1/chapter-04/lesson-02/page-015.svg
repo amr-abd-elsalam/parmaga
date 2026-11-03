@@ -1,0 +1,238 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Illustration: many users summarized into one persona card -->
+<g>
+  <defs>
+    <linearGradient id="ilBand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f7fb5"/>
+      <stop offset="1" stop-color="#17457f"/>
+    </linearGradient>
+  </defs>
+  <!-- shadows -->
+  <ellipse cx="440" cy="1236" rx="270" ry="9" fill="#22303f" opacity=".12"/>
+  <rect x="274" y="854" width="340" height="200" rx="18" fill="#22303f" opacity=".18"/>
+  <rect x="764" y="1094" width="130" height="146" rx="12" fill="#22303f" opacity=".18"/>
+
+  <!-- sparkles -->
+  <path d="M225 868 Q227 878 237 880 Q227 882 225 892 Q223 882 213 880 Q223 878 225 868 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M660 868 Q662 878 672 880 Q662 882 660 892 Q658 882 648 880 Q658 878 660 868 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M215 998 Q217 1008 227 1010 Q217 1012 215 1022 Q213 1012 203 1010 Q213 1008 215 998 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M705 1002 Q706 1009 713 1010 Q706 1011 705 1018 Q704 1011 697 1010 Q704 1009 705 1002 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- persona card -->
+  <rect x="270" y="848" width="340" height="200" rx="18" fill="#ffffff"/>
+  <path d="M270 866 Q270 848 288 848 H592 Q610 848 610 866 V928 H270 Z" fill="url(#ilBand)"/>
+  <rect x="270" y="848" width="340" height="200" rx="18" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="292" y="878" width="74" height="8" rx="4" fill="#dff1f7"/>
+  <rect x="292" y="894" width="48" height="8" rx="4" fill="#8fc9f2"/>
+  <rect x="514" y="878" width="74" height="8" rx="4" fill="#dff1f7"/>
+  <rect x="540" y="894" width="48" height="8" rx="4" fill="#8fc9f2"/>
+  <!-- avatar -->
+  <circle cx="440" cy="898" r="34" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M421 924 Q422 908 440 908 Q458 908 459 924 Q450 930 440 931 Q430 930 421 924 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M435 909 L440 917 L445 909" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="440" cy="890" r="13" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M427 888 Q426 874 440 874 Q454 874 453 888 Q447 881 440 881 Q433 881 427 888 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="435" cy="891" r="1.8" fill="#22303f"/>
+  <circle cx="445" cy="891" r="1.8" fill="#22303f"/>
+  <path d="M436 896 Q440 899 444 896" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+  <!-- row 1: target -->
+  <circle cx="302" cy="962" r="11" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="302" cy="962" r="6" fill="#ffffff"/>
+  <circle cx="302" cy="962" r="2.5" fill="#c0392b"/>
+  <rect x="330" y="955" width="250" height="8" rx="4" fill="#8fc9f2"/>
+  <rect x="330" y="967" width="170" height="7" rx="3.5" fill="#e8dfd1"/>
+  <!-- row 2: checklist -->
+  <rect x="292" y="982" width="20" height="24" rx="3" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M296 989 L299 992 L305 986 M296 999 L299 1002 L305 996" fill="none" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="330" y="987" width="250" height="8" rx="4" fill="#8fc9f2"/>
+  <rect x="330" y="999" width="170" height="7" rx="3.5" fill="#e8dfd1"/>
+  <!-- row 3: mountain -->
+  <polygon points="290,1036 301,1016 312,1036" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="302,1036 309,1024 316,1036" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="330" y="1019" width="250" height="8" rx="4" fill="#8fc9f2"/>
+  <rect x="330" y="1031" width="170" height="7" rx="3.5" fill="#e8dfd1"/>
+
+  <!-- clipboard with bar chart -->
+  <rect x="760" y="1088" width="130" height="146" rx="12" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="772" y="1106" width="106" height="118" rx="5" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="799" y="1078" width="52" height="20" rx="7" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="792" y="1176" width="14" height="30" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="812" y="1156" width="14" height="50" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="832" y="1166" width="14" height="40" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="852" y="1132" width="14" height="74" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M786 1122 V1206 H866" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- crowd of six similar users -->
+  <g transform="translate(210 1162)">
+    <path d="M-26 70 L-26 40 Q-26 20 0 20 Q26 20 26 40 L26 70 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="0" cy="0" r="14" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-14 -1 Q-15 -17 0 -17 Q15 -17 14 -1 Q8 -9 0 -9 Q-8 -9 -14 -1 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="-5" cy="2" r="2" fill="#22303f"/>
+    <circle cx="5" cy="2" r="2" fill="#22303f"/>
+    <path d="M-5 7 Q0 11 5 7" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="0" cy="46" r="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(302 1162)">
+    <path d="M-26 70 L-26 40 Q-26 20 0 20 Q26 20 26 40 L26 70 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M-20 6 Q-20 -21 0 -21 Q20 -21 20 6 Q20 24 0 26 Q-20 24 -20 6 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <ellipse cx="0" cy="2" rx="11" ry="13" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="-4.5" cy="1" r="2" fill="#22303f"/>
+    <circle cx="4.5" cy="1" r="2" fill="#22303f"/>
+    <path d="M-4 7 Q0 10 4 7" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="0" cy="46" r="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(394 1162)">
+    <path d="M-26 70 L-26 40 Q-26 20 0 20 Q26 20 26 40 L26 70 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="0" cy="0" r="14" fill="#b57e50" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-14 -1 Q-15 -17 0 -17 Q15 -17 14 -1 Q8 -9 0 -9 Q-8 -9 -14 -1 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="-5" cy="2" r="2" fill="#22303f"/>
+    <circle cx="5" cy="2" r="2" fill="#22303f"/>
+    <path d="M-5 7 Q0 11 5 7" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="0" cy="46" r="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(486 1162)">
+    <path d="M-26 70 L-26 40 Q-26 20 0 20 Q26 20 26 40 L26 70 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M-20 6 Q-20 -21 0 -21 Q20 -21 20 6 Q20 24 0 26 Q-20 24 -20 6 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <ellipse cx="0" cy="2" rx="11" ry="13" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="-4.5" cy="1" r="2" fill="#22303f"/>
+    <circle cx="4.5" cy="1" r="2" fill="#22303f"/>
+    <path d="M-4 7 Q0 10 4 7" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="0" cy="46" r="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(578 1162)">
+    <path d="M-26 70 L-26 40 Q-26 20 0 20 Q26 20 26 40 L26 70 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="0" cy="0" r="14" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-14 -1 Q-15 -17 0 -17 Q15 -17 14 -1 Q8 -9 0 -9 Q-8 -9 -14 -1 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="-5" cy="2" r="2" fill="#22303f"/>
+    <circle cx="5" cy="2" r="2" fill="#22303f"/>
+    <path d="M-5 7 Q0 11 5 7" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="0" cy="46" r="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(670 1162)">
+    <path d="M-26 70 L-26 40 Q-26 20 0 20 Q26 20 26 40 L26 70 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M-20 6 Q-20 -21 0 -21 Q20 -21 20 6 Q20 24 0 26 Q-20 24 -20 6 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <ellipse cx="0" cy="2" rx="11" ry="13" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="-4.5" cy="1" r="2" fill="#22303f"/>
+    <circle cx="4.5" cy="1" r="2" fill="#22303f"/>
+    <path d="M-4 7 Q0 10 4 7" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="0" cy="46" r="5" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+
+  <!-- connector arrows: users converge into the card -->
+  <path d="M210 1130 Q210 1092 440 1086 M302 1130 Q302 1094 440 1086 M394 1130 Q394 1096 440 1086 M486 1130 Q486 1096 440 1086 M578 1130 Q578 1094 440 1086 M670 1130 Q670 1092 440 1086 M440 1086 V1068" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="440,1053 431,1069 449,1069" fill="#c0392b"/>
+  <!-- dashed connector: data feeds the card -->
+  <path d="M825 1070 V1058 M825 1048 V1036 M825 1026 V1014 M825 1004 V992 M825 982 V970 M825 960 H813 M803 960 H791 M781 960 H769 M759 960 H747 M737 960 H725 M715 960 H703 M693 960 H681 M671 960 H659 M649 960 H637" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+  <polygon points="614,960 630,951 630,969" fill="#c0392b"/>
+</g>
+
+<!-- Icon: light bulb (title, left) -->
+<g transform="translate(170 110)">
+  <path d="M-38 -4 H-31 M31 -4 H38 M-26 -27 L-31 -32 M26 -27 L31 -32 M0 -32 V-38" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M0 -26 C14 -26 22 -16 22 -4 C22 6 14 11 11 18 L-11 18 C-14 11 -22 6 -22 -4 C-22 -16 -14 -26 0 -26 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M-6 8 L-3 -2 L0 6 L3 -2 L6 8" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="-10" y="18" width="20" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M-10 24 H10" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: two people (title, right) -->
+<g transform="translate(910 112)">
+  <path d="M-4 24 Q-4 2 12 2 Q28 2 28 24 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="12" cy="-12" r="9" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M-28 26 Q-28 6 -10 6 Q8 6 8 26 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="-10" cy="-6" r="10" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: open book (definition) -->
+<g transform="translate(890 330)">
+  <path d="M-32 -14 V20 Q-16 16 0 24 Q16 16 32 20 V-14 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M0 -14 Q-14 -22 -28 -18 V16 Q-14 12 0 20 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M0 -14 Q14 -22 28 -18 V16 Q14 12 0 20 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M-22 -8 Q-12 -12 -6 -8 M-22 1 Q-12 -3 -6 1 M6 -8 Q12 -12 22 -8 M6 1 Q12 -3 22 1" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: target (goal) -->
+<g transform="translate(888 530)">
+  <circle cx="0" cy="0" r="24" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="0" cy="0" r="16" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="0" cy="0" r="8" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M0 0 L24 -24" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M24 -24 L24 -32 M24 -24 L32 -24" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: document stack with data -->
+<g transform="translate(888 748)">
+  <rect x="-16" y="-26" width="36" height="46" rx="4" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="-24" y="-20" width="36" height="46" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M-18 -11 H5 M-18 -3 H5" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="-18" y="12" width="6" height="8" fill="#2f7fb5"/>
+  <rect x="-9" y="6" width="6" height="14" fill="#c96a1b"/>
+  <rect x="0" y="2" width="6" height="18" fill="#2e7d32"/>
+</g>
+
+<!-- Face: smile -->
+<g transform="translate(792 748)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Texts -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">شخصية المستخدم</text>
+
+<text x="540" y="154" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" fill="#152b42">The Persona</text>
+
+<text x="950" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">شخصية المستخدم</tspan> Persona: تمثيل لنمط أو فئة</tspan>
+  <tspan x="950" dy="40">من المستخدمين في صورة <tspan font-weight="bold" fill="#17457f">شخص واحد محدد.</tspan></tspan>
+</text>
+
+<text x="120" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">Persona:</tspan> a representation of a type or</tspan>
+  <tspan x="120" dy="40">group of users as <tspan font-weight="bold" fill="#17457f">one specific person.</tspan></tspan>
+</text>
+
+<text x="950" y="434" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">لها اسم <tspan font-weight="bold" fill="#17457f">وهدف</tspan> واحتياجات وسلوك</tspan>
+  <tspan x="950" dy="40">وسياق استخدام وتحديات.</tspan>
+</text>
+
+<text x="120" y="514" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">It has a name, a <tspan font-weight="bold" fill="#17457f">goal,</tspan> needs, behavior,</tspan>
+  <tspan x="120" dy="40">a context of use, and challenges.</tspan>
+</text>
+
+<text x="950" y="634" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">وتُبنى قدر الإمكان على بحث أو <tspan font-weight="bold" fill="#2e7d32">بيانات حقيقية،</tspan></tspan>
+  <tspan x="950" dy="40">لا على الخيال وحده.</tspan>
+</text>
+
+<text x="120" y="714" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">It is built, as far as possible,</tspan>
+  <tspan x="120" dy="40">on <tspan font-weight="bold" fill="#2e7d32">real research or data,</tspan></tspan>
+  <tspan x="120" dy="40">not on imagination alone.</tspan>
+</text>
+</svg>

@@ -1,0 +1,251 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<defs>
+  <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8fc9f2"/>
+    <stop offset="1" stop-color="#dff1f7"/>
+  </linearGradient>
+  <linearGradient id="ilGround" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#e8dfd1"/>
+    <stop offset="1" stop-color="#f0c48c"/>
+  </linearGradient>
+</defs>
+
+<!-- Key sentence strip: shadow, fill, accent -->
+<rect x="109" y="368" width="870" height="368" rx="10" fill="#22303f" opacity=".12"/>
+<rect x="105" y="362" width="870" height="368" rx="10" fill="#fdf6d8"/>
+<rect x="961" y="378" width="6" height="336" rx="3" fill="#e0a55e"/>
+
+<!-- Illustration: the engineer painting the air over an empty plot -->
+<g>
+  <!-- shadow -->
+  <rect x="109" y="772" width="866" height="480" rx="22" fill="#22303f" opacity=".18"/>
+
+  <!-- sky -->
+  <rect x="105" y="766" width="866" height="480" rx="22" fill="url(#ilSky)"/>
+
+  <!-- sun -->
+  <path d="M 190 798 V 806 M 190 886 V 894 M 142 846 H 150 M 230 846 H 238 M 156 812 L 162 818 M 218 874 L 224 880 M 224 812 L 218 818 M 156 880 L 162 874" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="190" cy="846" r="32" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- clouds -->
+  <path d="M 390 850 Q 388 826 412 826 Q 420 806 444 812 Q 466 806 472 828 Q 492 830 490 850 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <g transform="translate(400 -16)">
+    <path d="M 390 850 Q 388 826 412 826 Q 420 806 444 812 Q 466 806 472 828 Q 492 830 490 850 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+
+  <!-- finished neighbour buildings -->
+  <rect x="800" y="960" width="64" height="90" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="814" y="978" width="12" height="16" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <rect x="840" y="978" width="12" height="16" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <rect x="814" y="1008" width="12" height="16" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <rect x="840" y="1008" width="12" height="16" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <rect x="870" y="900" width="90" height="150" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="864" y="892" width="102" height="12" rx="3" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="886" y="920" width="18" height="20" fill="#8fc9f2" stroke="#22303f" stroke-width="2"/>
+  <rect x="926" y="920" width="18" height="20" fill="#8fc9f2" stroke="#22303f" stroke-width="2"/>
+  <rect x="886" y="956" width="18" height="20" fill="#8fc9f2" stroke="#22303f" stroke-width="2"/>
+  <rect x="926" y="956" width="18" height="20" fill="#8fc9f2" stroke="#22303f" stroke-width="2"/>
+  <rect x="886" y="992" width="18" height="20" fill="#8fc9f2" stroke="#22303f" stroke-width="2"/>
+  <rect x="926" y="992" width="18" height="20" fill="#8fc9f2" stroke="#22303f" stroke-width="2"/>
+
+  <!-- ground -->
+  <path d="M 105 1040 C 300 1020, 700 1030, 971 1015 L 971 1224 Q 971 1246 949 1246 L 127 1246 Q 105 1246 105 1224 Z" fill="url(#ilGround)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- empty plot: marked outline only -->
+  <path d="M 420 1090 H 450 M 470 1090 H 500 M 520 1090 H 550 M 570 1090 H 600 M 620 1090 H 650 M 670 1090 H 700 M 720 1090 H 750 M 770 1090 H 800 M 820 1090 H 840 M 380 1205 H 410 M 430 1205 H 460 M 480 1205 H 510 M 530 1205 H 560 M 580 1205 H 610 M 630 1205 H 660 M 680 1205 H 710 M 730 1205 H 760 M 780 1205 H 810 M 830 1205 H 860 M 880 1205 H 900 M 420 1090 L 410 1118.75 M 404 1136 L 394 1164.75 M 388 1182 L 380 1205 M 840 1090 L 855 1118.75 M 864 1136 L 879 1164.75 M 888 1182 L 900 1205" fill="none" stroke="#c96a1b" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 782 1142 L 798 1158 M 798 1142 L 782 1158" fill="none" stroke="#c96a1b" stroke-width="3" stroke-linecap="round"/>
+  <!-- corner stakes with flags -->
+  <rect x="416" y="1068" width="8" height="24" fill="#c96a1b" stroke="#22303f" stroke-width="2"/>
+  <polygon points="424,1068 440,1074 424,1080" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="836" y="1068" width="8" height="24" fill="#c96a1b" stroke="#22303f" stroke-width="2"/>
+  <polygon points="844,1068 860,1074 844,1080" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="896" y="1183" width="8" height="24" fill="#c96a1b" stroke="#22303f" stroke-width="2"/>
+  <polygon points="904,1183 920,1189 904,1195" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- ground contact patches -->
+  <ellipse cx="175" cy="1182" rx="40" ry="6" fill="#c96a1b" opacity=".35"/>
+  <ellipse cx="262" cy="1184" rx="40" ry="6" fill="#c96a1b" opacity=".35"/>
+  <ellipse cx="347" cy="1180" rx="24" ry="5" fill="#c96a1b" opacity=".35"/>
+  <ellipse cx="645" cy="1188" rx="46" ry="6" fill="#c96a1b" opacity=".35"/>
+  <ellipse cx="566" cy="1220" rx="46" ry="4" fill="#c96a1b" opacity=".35"/>
+
+  <!-- paint splats on the ground -->
+  <ellipse cx="762" cy="1190" rx="22" ry="5" fill="#2f7fb5"/>
+  <circle cx="790" cy="1184" r="3.5" fill="#2f7fb5"/>
+  <circle cx="738" cy="1196" r="3.5" fill="#2f7fb5"/>
+  <ellipse cx="580" cy="1162" rx="14" ry="4" fill="#8fc9f2" stroke="#22303f" stroke-width="2"/>
+
+  <!-- mother in modest hijab -->
+  <path d="M 150 1050 Q 175 1038 200 1050 L 214 1178 Q 175 1186 136 1178 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 152 1012 C 150 976 200 976 198 1012 C 200 1032 206 1046 212 1056 C 190 1066 160 1066 138 1056 C 144 1046 150 1032 152 1012 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="175" cy="1010" rx="15" ry="17" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="169" cy="1012" r="2.5" fill="#22303f"/>
+  <circle cx="181" cy="1012" r="2.5" fill="#22303f"/>
+  <path d="M 164 1002 Q 169 996 173 1001 M 177 1001 Q 181 996 186 1002" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="175" cy="1021" r="3" fill="#22303f"/>
+  <path d="M 190 1068 L 186 1036 L 199 1033 L 205 1064 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="193" cy="1030" r="7" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- father, scratching his head -->
+  <path d="M 232 1044 Q 262 1032 292 1044 L 300 1180 Q 262 1188 224 1180 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 262 1046 V 1080" fill="none" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="250" cy="1183" rx="10" ry="4" fill="#7d4f28"/>
+  <ellipse cx="276" cy="1183" rx="10" ry="4" fill="#7d4f28"/>
+  <rect x="255" y="1018" width="14" height="16" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="262" cy="1000" r="21" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 241 998 C 240 978 254 974 262 974 C 272 974 284 978 283 998 C 278 988 270 985 262 986 C 254 986 246 990 241 998 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 244 1006 C 246 1022 254 1028 262 1028 C 270 1028 278 1022 280 1006 C 276 1016 270 1019 262 1019 C 254 1019 248 1016 244 1006 Z" fill="#2b211c"/>
+  <circle cx="255" cy="1003" r="2.5" fill="#22303f"/>
+  <circle cx="269" cy="1003" r="2.5" fill="#22303f"/>
+  <path d="M 249 995 Q 255 989 260 994 M 265 991 Q 271 985 276 991" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 256 1013 Q 259 1010 262 1013 Q 265 1016 268 1013" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 284 1048 L 308 1030 L 298 990 L 287 993 L 295 1027 L 278 1040 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="291" cy="989" r="8" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- child, pointing at the engineer -->
+  <rect x="335" y="1130" width="9" height="46" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="347" y="1130" width="9" height="46" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="339" cy="1178" rx="8" ry="4" fill="#22303f"/>
+  <ellipse cx="353" cy="1178" rx="8" ry="4" fill="#22303f"/>
+  <path d="M 328 1084 Q 345 1076 362 1084 L 360 1134 L 330 1134 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 358 1088 L 392 1074 L 395 1083 L 360 1100 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="398" cy="1078" r="6" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 403 1076 L 411 1073" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="345" cy="1062" r="17" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 328 1060 C 327 1044 338 1043 345 1043 C 354 1043 363 1046 362 1060 C 357 1052 350 1051 345 1052 C 339 1052 332 1054 328 1060 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="339" cy="1064" r="2.5" fill="#22303f"/>
+  <circle cx="351" cy="1064" r="2.5" fill="#22303f"/>
+  <path d="M 334 1056 Q 339 1051 343 1055 M 347 1055 Q 351 1051 356 1056" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="345" cy="1072" r="3" fill="#22303f"/>
+
+  <!-- forgotten rolled floor plan -->
+  <rect x="520" y="1192" width="84" height="22" rx="11" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 538 1199 H 590 M 538 1207 H 570 M 578 1207 H 590" fill="none" stroke="#2f7fb5" stroke-width="2" stroke-linecap="round"/>
+  <rect x="560" y="1192" width="6" height="22" fill="#c96a1b"/>
+  <ellipse cx="524" cy="1203" rx="6" ry="11" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 524 1199 Q 528 1203 524 1207" fill="none" stroke="#2f7fb5" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="604,1196 640,1200 636,1222 600,1216" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 610 1203 L 630 1205 M 608 1211 L 626 1213" fill="none" stroke="#2f7fb5" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- paint stroked into the empty air -->
+  <path d="M 696 900 C 664 862 616 852 576 860 C 570 862 572 870 578 869 C 616 864 660 874 694 906 Z" fill="#8fc9f2" opacity=".85"/>
+  <path d="M 696 904 C 660 878 606 874 560 892 C 552 896 556 906 564 904 C 606 890 656 896 696 918 Z" fill="#2f7fb5" opacity=".6"/>
+  <path d="M 790 884 Q 804 900 790 920 M 806 876 Q 824 900 806 928" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- falling paint drops -->
+  <g transform="translate(752 952)"><path d="M 0 -11 C 4 -4 8 0 8 5 A 8 8 0 0 1 -8 5 C -8 0 -4 -4 0 -11 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2"/></g>
+  <g transform="translate(776 1004)"><path d="M 0 -11 C 4 -4 8 0 8 5 A 8 8 0 0 1 -8 5 C -8 0 -4 -4 0 -11 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2"/></g>
+  <g transform="translate(748 1052)"><path d="M 0 -11 C 4 -4 8 0 8 5 A 8 8 0 0 1 -8 5 C -8 0 -4 -4 0 -11 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2"/></g>
+  <g transform="translate(788 1100)"><path d="M 0 -11 C 4 -4 8 0 8 5 A 8 8 0 0 1 -8 5 C -8 0 -4 -4 0 -11 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2"/></g>
+  <g transform="translate(598 932)"><path d="M 0 -11 C 4 -4 8 0 8 5 A 8 8 0 0 1 -8 5 C -8 0 -4 -4 0 -11 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2"/></g>
+  <g transform="translate(580 1000)"><path d="M 0 -11 C 4 -4 8 0 8 5 A 8 8 0 0 1 -8 5 C -8 0 -4 -4 0 -11 Z" fill="#8fc9f2" stroke="#22303f" stroke-width="2"/></g>
+
+  <!-- engineer -->
+  <path d="M 622 1108 L 619 1180 L 637 1180 L 640 1112 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 642 1112 L 645 1180 L 663 1180 L 660 1108 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="625" cy="1183" rx="14" ry="6" fill="#22303f"/>
+  <ellipse cx="657" cy="1183" rx="14" ry="6" fill="#22303f"/>
+  <rect x="634" y="1016" width="14" height="16" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 612 1040 Q 641 1028 670 1040 L 666 1116 Q 641 1122 616 1116 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 616 1044 Q 626 1036 632 1036 L 641 1070 L 650 1036 Q 656 1036 666 1044 L 664 1112 Q 641 1118 618 1112 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="619" y="1078" width="44" height="6" fill="#ffd24a"/>
+  <rect x="619" y="1094" width="44" height="6" fill="#ffd24a"/>
+  <path d="M 616 1046 L 592 1084 L 603 1092 L 627 1056 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="597" cy="1090" r="8" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 662 1046 L 698 994 L 710 1002 L 676 1058 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 700 998 L 711 1001 L 720 944 L 710 941 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 715 942 V 928 H 736 V 922" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="694" y="898" width="84" height="24" rx="12" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="702" y="903" width="68" height="5" rx="2.5" fill="#8fc9f2"/>
+  <circle cx="706" cy="990" r="9" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="641" cy="1000" r="22" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 629 1004 Q 633 999 637 1004 M 645 1004 Q 649 999 653 1004" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 632 1011 Q 641 1021 650 1011 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="626" cy="1010" r="4" fill="#d59f6f" opacity=".6"/>
+  <circle cx="656" cy="1010" r="4" fill="#d59f6f" opacity=".6"/>
+  <path d="M 617 993 C 617 970 629 962 641 962 C 653 962 665 970 665 993 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 641 964 V 990" fill="none" stroke="#c96a1b" stroke-width="3" stroke-linecap="round"/>
+  <rect x="611" y="990" width="60" height="8" rx="4" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- panel outline -->
+  <rect x="105" y="766" width="866" height="480" rx="22" fill="none" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: light bulb -->
+<g transform="translate(790 266)">
+  <path d="M 26 -2 V 0 M 4 8 L 6 10 M 48 8 L 46 10" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="26" cy="24" r="18" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 20 26 Q 26 18 32 26" fill="none" stroke="#c96a1b" stroke-width="2" stroke-linecap="round"/>
+  <rect x="17" y="40" width="18" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 19 46 H 33" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: check badge (agree first) -->
+<g transform="translate(900 292)">
+  <circle cx="0" cy="0" r="26" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M -11 1 L -3 9 L 12 -8" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: warning triangle (common mistake) -->
+<g transform="translate(150 376)">
+  <polygon points="28,4 54,50 2,50" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="25" y="18" width="6" height="18" rx="3" fill="#22303f"/>
+  <circle cx="28" cy="43" r="3.5" fill="#22303f"/>
+</g>
+
+<!-- Emotion face: surprise -->
+<g transform="translate(880 640)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="0" cy="10" r="5" fill="#22303f"/>
+</g>
+
+<!-- Paragraph 1 -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="normal" fill="#225f9c">
+  <tspan x="950" dy="0">لهذا نبدأ بالمخطط الهيكلي: نتفق على <tspan font-weight="bold" fill="#17457f">البنية</tspan></tspan>
+  <tspan x="950" dy="40">أولًا، قبل أن نختلف على الألوان.</tspan>
+</text>
+<text x="120" y="234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="normal" fill="#152b42">
+  <tspan x="120" dy="0">That is why we start with the wireframe:</tspan>
+  <tspan x="120" dy="40">we agree on the <tspan font-weight="bold" fill="#17457f">structure</tspan> first,</tspan>
+  <tspan x="120" dy="40">before we disagree about colors.</tspan>
+</text>
+
+<!-- Key sentence strip text -->
+<text x="935" y="394" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">تخيّل مهندسًا يدهن الشقة</tspan>
+  <tspan x="935" dy="40">قبل أن يعرف أين الحيطان!</tspan>
+  <tspan x="935" dy="40">هذا ما يحدث حين تختار الألوان</tspan>
+  <tspan x="935" dy="40">قبل المخطط الهيكلي.</tspan>
+</text>
+<text x="140" y="554" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">Imagine an engineer painting</tspan>
+  <tspan x="140" dy="40">the apartment before knowing</tspan>
+  <tspan x="140" dy="40">where the walls are!</tspan>
+  <tspan x="140" dy="40">That is what happens when you</tspan>
+  <tspan x="140" dy="40">choose colors before the wireframe.</tspan>
+</text>
+</svg>

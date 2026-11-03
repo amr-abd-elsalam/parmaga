@@ -1,0 +1,254 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+  <linearGradient id="ilWall" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="ilShirt" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+  <linearGradient id="ilJacket" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#f0c48c"/>
+    <stop offset="1" stop-color="#c96a1b"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Bullets -->
+<circle cx="966" cy="664" r="6" fill="#c0392b"/>
+<circle cx="114" cy="704" r="6" fill="#c0392b"/>
+<circle cx="966" cy="784" r="6" fill="#c0392b"/>
+<circle cx="114" cy="824" r="6" fill="#c0392b"/>
+<circle cx="966" cy="904" r="6" fill="#c0392b"/>
+<circle cx="114" cy="944" r="6" fill="#c0392b"/>
+
+<!-- Memory illustration: usability and accessibility in a design lab -->
+<g>
+  <rect x="129" y="1032" width="830" height="226" rx="28" fill="#22303f" opacity=".18"/>
+  <rect x="125" y="1026" width="830" height="226" rx="28" fill="url(#ilWall)"/>
+  <path d="M 125 1222 H 955 V 1224 Q 955 1252 927 1252 H 153 Q 125 1252 125 1224 Z" fill="#e8dfd1"/>
+  <ellipse cx="405" cy="1236" rx="125" ry="5" fill="#7f95ab" opacity=".35"/>
+  <ellipse cx="760" cy="1236" rx="72" ry="5" fill="#7f95ab" opacity=".35"/>
+  <ellipse cx="912" cy="1236" rx="28" ry="4" fill="#7f95ab" opacity=".35"/>
+  <ellipse cx="206" cy="1234" rx="62" ry="4" fill="#7f95ab" opacity=".35"/>
+
+  <!-- Wall board with the three criteria -->
+  <rect x="150" y="1052" width="124" height="84" rx="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="212" cy="1052" r="4" fill="#c0392b" stroke="#22303f" stroke-width="2"/>
+  <circle cx="180" cy="1086" r="13" fill="#2f7fb5" stroke="#22303f" stroke-width="2"/>
+  <circle cx="180" cy="1086" r="7" fill="#ffffff"/>
+  <circle cx="180" cy="1086" r="3" fill="#2f7fb5"/>
+  <circle cx="212" cy="1086" r="13" fill="#c96a1b" stroke="#22303f" stroke-width="2"/>
+  <path d="M 212 1086 L 212 1078 M 212 1086 L 218 1089" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="244" cy="1086" r="13" fill="#2e7d32" stroke="#22303f" stroke-width="2"/>
+  <circle cx="240" cy="1082" r="1.5" fill="#ffffff"/>
+  <circle cx="248" cy="1082" r="1.5" fill="#ffffff"/>
+  <path d="M 238 1087 Q 244 1094 250 1087" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="168" y="1108" width="24" height="5" rx="2.5" fill="#8fc9f2"/>
+  <rect x="200" y="1108" width="24" height="5" rx="2.5" fill="#f0c48c"/>
+  <rect x="232" y="1108" width="24" height="5" rx="2.5" fill="#a9dcbe"/>
+  <rect x="168" y="1119" width="88" height="5" rx="2.5" fill="#e8dfd1"/>
+
+  <!-- Cabinet with books -->
+  <rect x="160" y="1146" width="14" height="16" rx="2" fill="#2f7fb5" stroke="#22303f" stroke-width="2"/>
+  <rect x="176" y="1142" width="14" height="20" rx="2" fill="#c96a1b" stroke="#22303f" stroke-width="2"/>
+  <rect x="192" y="1148" width="14" height="14" rx="2" fill="#2e7d32" stroke="#22303f" stroke-width="2"/>
+  <rect x="150" y="1162" width="112" height="68" rx="6" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 150 1196 H 262" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="206" cy="1180" r="3" fill="#22303f"/>
+  <circle cx="206" cy="1213" r="3" fill="#22303f"/>
+
+  <!-- Desk -->
+  <rect x="298" y="1162" width="10" height="72" rx="3" fill="#c96a1b" stroke="#22303f" stroke-width="2"/>
+  <rect x="476" y="1162" width="10" height="72" rx="3" fill="#c96a1b" stroke="#22303f" stroke-width="2"/>
+  <rect x="290" y="1150" width="230" height="12" rx="4" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Stopwatch on the desk -->
+  <rect x="314" y="1110" width="8" height="6" rx="2" fill="#7f95ab" stroke="#22303f" stroke-width="2"/>
+  <circle cx="318" cy="1132" r="16" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 318 1132 L 318 1118 A 14 14 0 0 1 330 1139 Z" fill="#a9dcbe"/>
+  <path d="M 318 1132 L 318 1121 M 318 1132 L 325 1135" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="318" cy="1132" r="2.5" fill="#22303f"/>
+
+  <!-- Laptop with a completed task -->
+  <rect x="362" y="1078" width="108" height="66" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="368" y="1084" width="96" height="54" rx="3" fill="#ffffff"/>
+  <rect x="368" y="1084" width="96" height="10" rx="3" fill="#2f7fb5"/>
+  <rect x="374" y="1100" width="30" height="20" rx="3" fill="#dff1f7"/>
+  <polygon points="377,1118 386,1107 392,1113 396,1109 402,1118" fill="#8fc9f2"/>
+  <rect x="410" y="1101" width="46" height="4" rx="2" fill="#7f95ab"/>
+  <rect x="410" y="1109" width="34" height="4" rx="2" fill="#7f95ab"/>
+  <rect x="410" y="1119" width="46" height="12" rx="6" fill="#2e7d32"/>
+  <rect x="420" y="1123" width="26" height="4" rx="2" fill="#ffffff"/>
+  <rect x="374" y="1126" width="30" height="5" rx="2.5" fill="#a9dcbe"/>
+  <polygon points="350,1150 482,1150 474,1144 358,1144" fill="#7f95ab" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="470" cy="1080" r="11" fill="#2e7d32" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 465 1080 L 469 1084 L 476 1076" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Chair -->
+  <rect x="588" y="1104" width="10" height="84" rx="4" fill="#c96a1b" stroke="#22303f" stroke-width="2"/>
+  <rect x="540" y="1188" width="7" height="46" rx="3" fill="#7d4f28" stroke="#22303f" stroke-width="2"/>
+  <rect x="588" y="1188" width="7" height="46" rx="3" fill="#7d4f28" stroke="#22303f" stroke-width="2"/>
+  <rect x="534" y="1178" width="66" height="10" rx="4" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- Seated student, satisfied -->
+  <polygon points="548,1166 548,1184 512,1190 510,1172" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="510,1172 526,1176 522,1232 506,1232" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="504" cy="1234" rx="13" ry="5" fill="#22303f"/>
+  <rect x="540" y="1110" width="42" height="72" rx="18" fill="url(#ilShirt)" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="556" y="1102" width="10" height="10" fill="#d59f6f"/>
+  <circle cx="561" cy="1088" r="19" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 542 1086 Q 541 1066 561 1066 Q 582 1066 581 1090 Q 576 1078 568 1076 Q 554 1074 546 1080 Z" fill="#2b211c"/>
+  <circle cx="572" cy="1090" r="4" fill="#d59f6f"/>
+  <circle cx="551" cy="1087" r="2.5" fill="#22303f"/>
+  <path d="M 546 1080 L 555 1079" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 545 1096 Q 550 1100 555 1096" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="548,1118 560,1126 530,1150 518,1142" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="518,1142 530,1150 480,1146 480,1136" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="476" cy="1141" r="6" fill="#e8b98d" stroke="#22303f" stroke-width="2"/>
+  <path d="M 606 1058 C 600 1050 590 1056 606 1070 C 622 1056 612 1050 606 1058 Z" fill="#c0392b" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Accessibility: student in a wheelchair with a large-button tablet -->
+  <circle cx="766" cy="1078" r="48" fill="#ffd24a" opacity=".35"/>
+  <rect x="794" y="1106" width="10" height="72" rx="4" fill="#7f95ab" stroke="#22303f" stroke-width="2"/>
+  <rect x="800" y="1098" width="16" height="7" rx="3" fill="#22303f"/>
+  <path d="M 732 1180 L 714 1222" fill="none" stroke="#7f95ab" stroke-width="3" stroke-linecap="round"/>
+  <rect x="690" y="1220" width="32" height="5" rx="2" fill="#7f95ab" stroke="#22303f" stroke-width="2"/>
+  <circle cx="730" cy="1228" r="7" fill="#7f95ab" stroke="#22303f" stroke-width="2"/>
+  <rect x="726" y="1170" width="78" height="10" rx="4" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="744,1160 744,1178 706,1182 704,1166" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="704,1166 718,1168 716,1214 702,1214" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="702" cy="1217" rx="12" ry="5" fill="#22303f"/>
+  <rect x="742" y="1096" width="46" height="78" rx="18" fill="url(#ilJacket)" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 740 1080 Q 740 1050 766 1050 Q 792 1050 792 1080 Q 792 1100 780 1106 L 752 1106 Q 740 1100 740 1080 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="760" cy="1078" r="15" fill="#e8b98d" stroke="#22303f" stroke-width="2"/>
+  <circle cx="754" cy="1075" r="2.5" fill="#22303f"/>
+  <circle cx="764" cy="1075" r="2.5" fill="#22303f"/>
+  <path d="M 753 1084 Q 758 1089 764 1084" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+  <rect x="660" y="1096" width="56" height="44" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="665" y="1101" width="46" height="34" rx="3" fill="#ffffff"/>
+  <rect x="669" y="1105" width="38" height="11" rx="5" fill="#ffd24a"/>
+  <rect x="669" y="1120" width="38" height="11" rx="5" fill="#2f7fb5"/>
+  <polygon points="750,1110 762,1118 724,1134 718,1124" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="718" cy="1128" r="6" fill="#e8b98d" stroke="#22303f" stroke-width="2"/>
+  <circle cx="772" cy="1196" r="38" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="772" cy="1196" r="33" fill="none" stroke="#7f95ab" stroke-width="3"/>
+  <path d="M 772 1163 L 772 1229 M 739 1196 L 805 1196 M 749 1173 L 795 1219 M 795 1173 L 749 1219" fill="none" stroke="#7f95ab" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="772" cy="1196" r="6" fill="#17457f" stroke="#22303f" stroke-width="2"/>
+  <polygon points="826,1036 828.4,1042.8 835.5,1042.9 829.8,1047.2 831.9,1054.1 826,1050 820.1,1054.1 822.2,1047.2 816.5,1042.9 823.6,1042.8" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Plant -->
+  <path d="M 912 1196 Q 890 1170 898 1146 Q 916 1168 912 1196 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M 912 1196 Q 934 1172 930 1150 Q 910 1170 912 1196 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M 912 1196 Q 906 1160 914 1132 Q 924 1164 912 1196 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <polygon points="892,1196 932,1196 928,1234 896,1234" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: open book -->
+<g transform="translate(128 96)">
+  <path d="M 30 14 Q 18 6 4 10 L 4 50 Q 18 46 30 54 Z" fill="#dff1f7" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 30 14 Q 42 6 56 10 L 56 50 Q 42 46 30 54 Z" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 10 22 Q 18 20 24 24 M 10 32 Q 18 30 24 34 M 36 24 Q 42 20 50 22 M 36 34 Q 42 30 50 32" fill="none" stroke="#2f7fb5" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="44,6 52,6 52,22 48,18 44,22" fill="#c0392b" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: accessibility -->
+<g transform="translate(888 94)">
+  <circle cx="30" cy="30" r="27" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="30" cy="15" r="5" fill="#ffffff"/>
+  <path d="M 14 24 L 46 24 M 30 24 L 30 38 M 30 38 L 22 50 M 30 38 L 38 50" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: target (effectiveness) -->
+<g transform="translate(862 700)">
+  <circle cx="23" cy="23" r="21" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="23" cy="23" r="15" fill="#2f7fb5"/>
+  <circle cx="23" cy="23" r="9" fill="#ffffff"/>
+  <circle cx="23" cy="23" r="4" fill="#c0392b"/>
+  <path d="M 44 2 L 25 21" fill="none" stroke="#c96a1b" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 39 1 L 45 1 L 45 7" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: stopwatch (efficiency) -->
+<g transform="translate(862 820)">
+  <rect x="19" y="0" width="8" height="6" rx="2" fill="#7f95ab" stroke="#22303f" stroke-width="2"/>
+  <circle cx="23" cy="26" r="19" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M 23 26 L 23 9 A 17 17 0 0 1 37.7 34.5 Z" fill="#a9dcbe"/>
+  <path d="M 23 26 L 23 14 M 23 26 L 31 30" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="23" cy="26" r="2.5" fill="#22303f"/>
+  <path d="M 36 9 L 40 5" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Face: smile (satisfaction) -->
+<g transform="translate(885 963) scale(.88)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Texts -->
+<text x="540" y="116" direction="rtl" unicode-bidi="plaintext" text-anchor="middle" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="44" font-weight="bold" fill="#1a4f8a">
+  <tspan x="540" dy="0">قابلية الاستخدام</tspan>
+  <tspan x="540" dy="48">وإمكانية الوصول</tspan>
+</text>
+<text x="540" y="202" direction="ltr" unicode-bidi="plaintext" text-anchor="middle" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="28" fill="#152b42">
+  <tspan x="540" dy="0">Usability and Accessibility</tspan>
+</text>
+<text x="950" y="314" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">قابلية الاستخدام</tspan> Usability: مدى قدرة</tspan>
+  <tspan x="950" dy="40">مستخدمين محددين على إنجاز</tspan>
+  <tspan x="950" dy="40"><tspan font-weight="bold" fill="#17457f">مهمة محددة</tspan> في سياق محدد.</tspan>
+</text>
+<text x="120" y="434" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#c0392b">Usability:</tspan> how well specific users</tspan>
+  <tspan x="120" dy="40">can complete a <tspan font-weight="bold" fill="#17457f">specific task</tspan></tspan>
+  <tspan x="120" dy="40">in a specific context.</tspan>
+</text>
+<text x="950" y="594" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">وتُقاس بثلاثة معايير:</tspan>
+</text>
+<text x="120" y="634" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">It is measured by three criteria:</tspan>
+</text>
+<text x="950" y="674" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">الفاعلية</tspan> Effectiveness: هل أنجز المهمة؟</tspan>
+</text>
+<text x="132" y="714" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#c0392b">Effectiveness:</tspan> did they</tspan>
+  <tspan x="132" dy="40">complete the task?</tspan>
+</text>
+<text x="950" y="794" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">الكفاءة</tspan> Efficiency: في كم من الوقت والجهد؟</tspan>
+</text>
+<text x="132" y="834" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#c0392b">Efficiency:</tspan> how much time</tspan>
+  <tspan x="132" dy="40">and effort did it take?</tspan>
+</text>
+<text x="950" y="914" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#c0392b">الرضا</tspan> Satisfaction: هل كانت التجربة مريحة؟</tspan>
+</text>
+<text x="132" y="954" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="132" dy="0"><tspan font-weight="bold" fill="#c0392b">Satisfaction:</tspan> was the</tspan>
+  <tspan x="132" dy="40">experience comfortable?</tspan>
+</text>
+</svg>
