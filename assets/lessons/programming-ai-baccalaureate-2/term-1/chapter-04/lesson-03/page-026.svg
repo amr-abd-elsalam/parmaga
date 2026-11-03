@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Info card -->
+<rect x="109" y="328" width="870" height="488" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="322" width="870" height="488" rx="16" fill="#eaf2fb" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="338" width="6" height="456" rx="3" fill="#2f7fb5"/>
+
+<!-- Illustration: rule of thumb in a carpentry workshop -->
+<g>
+  <defs>
+    <linearGradient id="ilWall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="ilBench" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b07a45"/>
+      <stop offset="1" stop-color="#7d4f28"/>
+    </linearGradient>
+  </defs>
+  <!-- shadows -->
+  <rect x="109" y="852" width="862" height="406" rx="26" fill="#22303f" opacity=".18"/>
+  <!-- backdrop -->
+  <rect x="105" y="846" width="862" height="406" rx="26" fill="url(#ilWall)" stroke="#8fc9f2" stroke-width="2.5"/>
+  <path d="M105 1200 H967 V1226 Q967 1252 941 1252 H131 Q105 1252 105 1226 Z" fill="#e8dfd1"/>
+  <rect x="139" y="884" width="190" height="128" rx="10" fill="#22303f" opacity=".18"/>
+  <rect x="612" y="886" width="132" height="92" rx="6" fill="#22303f" opacity=".18"/>
+  <rect x="134" y="1126" width="812" height="26" rx="6" fill="#22303f" opacity=".18"/>
+  <rect x="144" y="1152" width="792" height="20" fill="#22303f" opacity=".18"/>
+  <ellipse cx="820" cy="1244" rx="44" ry="6" fill="#22303f" opacity=".18"/>
+
+  <!-- tool board on the wall -->
+  <rect x="135" y="878" width="190" height="128" rx="10" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="150" cy="893" r="3" fill="#c96a1b"/>
+  <circle cx="310" cy="893" r="3" fill="#c96a1b"/>
+  <circle cx="150" cy="991" r="3" fill="#c96a1b"/>
+  <circle cx="310" cy="991" r="3" fill="#c96a1b"/>
+  <rect x="162" y="906" width="12" height="84" rx="5" fill="#b07a45" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="148" y="898" width="40" height="18" rx="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="231,900 292,904 292,926 231,950" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M233 950 L240 953 L246 945 L253 948 L259 940 L266 943 L272 935 L279 938 L285 930 L290 932" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="205" y="896" width="28" height="40" rx="10" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="219" cy="913" rx="5" ry="9" fill="#f0c48c"/>
+  <rect x="304" y="904" width="10" height="70" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="304,974 314,974 309,988" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- window -->
+  <rect x="608" y="880" width="132" height="92" rx="6" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="616" y="888" width="116" height="76" rx="3" fill="#8fc9f2"/>
+  <circle cx="708" cy="906" r="10" fill="#ffd24a"/>
+  <ellipse cx="640" cy="946" rx="16" ry="7" fill="#ffffff"/>
+  <ellipse cx="654" cy="941" rx="11" ry="7" fill="#ffffff"/>
+  <rect x="671" y="888" width="6" height="76" fill="#ffffff"/>
+  <rect x="616" y="923" width="116" height="6" fill="#ffffff"/>
+
+  <!-- hanging lamp -->
+  <path d="M470 846 V884" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="446,906 494,906 540,962 400,962" fill="#ffd24a" opacity=".35"/>
+  <circle cx="470" cy="906" r="8" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+  <path d="M440 904 Q470 872 500 904 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- carpenter: legs and body behind the bench -->
+  <rect x="792" y="1160" width="22" height="76" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="826" y="1160" width="22" height="76" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="803" cy="1240" rx="15" ry="6" fill="#3a2411" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="837" cy="1240" rx="15" ry="6" fill="#3a2411" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="811" y="962" width="18" height="28" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M770 1002 Q820 982 870 1002 L882 1124 L758 1124 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="806,990 820,1006 834,990" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M792 1010 L848 1010 L858 1124 L782 1124 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M792 1010 L784 996 M848 1010 L856 996" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="813" y="1030" width="6" height="22" fill="#ffd24a" stroke="#22303f" stroke-width="2"/>
+  <rect x="806" y="1046" width="28" height="22" rx="4" fill="#2f7fb5" stroke="#22303f" stroke-width="2"/>
+  <circle cx="820" cy="944" r="26" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M794 942 C790 910 850 910 846 942 C838 928 802 928 794 942 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="811" cy="948" r="2.5" fill="#22303f"/>
+  <circle cx="829" cy="948" r="2.5" fill="#22303f"/>
+  <path d="M812 958 Q820 964 828 958" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- workbench -->
+  <rect x="160" y="1166" width="26" height="72" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="884" y="1166" width="26" height="72" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="186" y="1200" width="698" height="10" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="140" y="1146" width="792" height="20" fill="#7d4f28" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="130" y="1120" width="812" height="26" rx="6" fill="url(#ilBench)" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- precise metal ruler, unused -->
+  <rect x="170" y="1102" width="230" height="18" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="176" y="1114" width="218" height="3" fill="#ffffff" opacity=".6"/>
+  <path d="M180 1103 V1112 M190 1103 V1108 M200 1103 V1108 M210 1103 V1108 M220 1103 V1108 M230 1103 V1112 M240 1103 V1108 M250 1103 V1108 M260 1103 V1108 M270 1103 V1108 M280 1103 V1112 M290 1103 V1108 M300 1103 V1108 M310 1103 V1108 M320 1103 V1108 M330 1103 V1112 M340 1103 V1108 M350 1103 V1108 M360 1103 V1108 M370 1103 V1108 M380 1103 V1112 M390 1103 V1108" fill="none" stroke="#22303f" stroke-width="1.4" stroke-linecap="round"/>
+
+  <!-- wooden plank -->
+  <rect x="600" y="1094" width="300" height="26" rx="4" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M610 1102 Q680 1098 760 1104 T 890 1102 M620 1112 Q700 1108 800 1113 T 890 1111" fill="none" stroke="#c96a1b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M625 1097 V1117 M650 1097 V1117" fill="none" stroke="#17457f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- balance scale tipped toward the thumb -->
+  <polygon points="438,1120 502,1120 490,1104 450,1104" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="466" y="975" width="8" height="132" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M382 960 L350 1030 M382 960 L414 1030 M558 990 L526 1060 M558 990 L590 1060" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="380,956 560,986 559,994 379,964" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="470" cy="975" r="9" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="360" y="1021" width="44" height="9" rx="2" fill="#7f95ab" stroke="#22303f" stroke-width="2"/>
+  <path d="M342 1030 Q382 1058 422 1030 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="547" y="1022" width="11" height="24" rx="5.5" fill="#e8b98d" stroke="#22303f" stroke-width="2"/>
+  <rect x="544" y="1040" width="28" height="20" rx="7" fill="#e8b98d" stroke="#22303f" stroke-width="2"/>
+  <path d="M518 1060 Q558 1088 598 1060 Z" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="630,1034 632.9,1042 641.4,1042.3 634.8,1047.5 637.1,1055.7 630,1051 622.9,1055.7 625.2,1047.5 618.6,1042.3 627.1,1042" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- carpenter arms: thumb flat on the plank -->
+  <polygon points="864,1000 880,998 894,1090 878,1094" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="886" cy="1098" r="9" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="776,1000 760,998 698,1084 714,1094" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="670" y="1094" width="30" height="10" rx="5" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="673" y="1096" width="7" height="6" rx="2" fill="#ffffff" opacity=".6"/>
+  <ellipse cx="708" cy="1097" rx="16" ry="9" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Icon: definition tag (card header row) -->
+<g transform="translate(420 338)">
+  <path d="M4 8 Q4 4 8 4 H24 L42 22 Q44 24 42 26 L26 42 Q24 44 22 42 L4 24 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="13" cy="13" r="4" fill="#fffdf7" stroke="#22303f" stroke-width="2"/>
+  <path d="M20 26 L28 18 M24 30 L32 22" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: light bulb (inside card) -->
+<g transform="translate(878 740)">
+  <path d="M6 10 L2 7 M50 10 L54 7 M5 26 H1 M51 26 H55" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="28" cy="24" r="17" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M22 27 Q28 19 34 27" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="20" y="40" width="16" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Emotion face: wink -->
+<g transform="translate(912 250)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M 5 -6 L 13 -6" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M -11 7 Q 0 17 11 7" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Text -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#17457f">تعريف الكتاب:</tspan> يحدد فيه الخبراء مشكلات</tspan>
+  <tspan x="950" dy="40">واجهة المستخدم استنادًا إلى <tspan font-weight="bold" fill="#c0392b">قواعد عملية.</tspan></tspan>
+</text>
+<text x="120" y="234" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#17457f">Textbook definition:</tspan> experts identify</tspan>
+  <tspan x="120" dy="40">UI problems based on <tspan font-weight="bold" fill="#c0392b">rules of thumb.</tspan></tspan>
+</text>
+
+<text x="935" y="354" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#17457f">القواعد الإرشادية</text>
+<text x="140" y="394" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#17457f">Heuristics</text>
+
+<text x="935" y="434" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0"><tspan font-weight="bold" fill="#c0392b">القواعد الإرشادية</tspan> Heuristics: قواعد عملية</tspan>
+  <tspan x="935" dy="40">مستمدة من الخبرة، تُسمى أيضًا</tspan>
+  <tspan x="935" dy="40"><tspan font-weight="bold" fill="#17457f">«قواعد الإبهام»</tspan> Rules of Thumb؛</tspan>
+  <tspan x="935" dy="40">ليست قوانين رياضية صارمة،</tspan>
+  <tspan x="935" dy="40">لكنها تصح في <tspan font-weight="bold" fill="#2e7d32">أغلب الحالات.</tspan></tspan>
+</text>
+<text x="140" y="634" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#c0392b">Heuristics:</tspan> practical rules drawn</tspan>
+  <tspan x="140" dy="40">from experience, also called</tspan>
+  <tspan x="140" dy="40"><tspan font-weight="bold" fill="#17457f">“rules of thumb”;</tspan> they are not</tspan>
+  <tspan x="140" dy="40">strict mathematical laws, but they</tspan>
+  <tspan x="140" dy="40">hold true in <tspan font-weight="bold" fill="#2e7d32">most cases.</tspan></tspan>
+</text>
+</svg>

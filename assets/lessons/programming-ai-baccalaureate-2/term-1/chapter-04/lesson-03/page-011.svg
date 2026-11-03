@@ -1,0 +1,206 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Outlined box -->
+<rect x="109" y="128" width="870" height="368" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="122" width="870" height="368" rx="16" fill="#fffdf7" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="138" width="6" height="336" rx="3" fill="#2f7fb5"/>
+
+<!-- Illustration: website puzzle -->
+<g>
+  <linearGradient id="ilChart" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#8fc9f2"/>
+  </linearGradient>
+  <linearGradient id="ilTalk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#f0c48c"/>
+  </linearGradient>
+  <linearGradient id="ilCheck" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#a9dcbe"/>
+  </linearGradient>
+  <!-- shadows -->
+  <rect x="134" y="566" width="500" height="360" rx="18" fill="#22303f" opacity=".18"/>
+  <ellipse cx="830" cy="950" rx="110" ry="9" fill="#22303f" opacity=".12"/>
+  <g transform="translate(704 748) rotate(8 125 80)">
+    <path d="M0 0 L105 0 A22 22 0 1 1 145 0 L250 0 L250 142 Q250 160 232 160 L0 160 L0 100 A22 22 0 1 0 0 60 Z" fill="#22303f" opacity=".18"/>
+  </g>
+  <!-- browser title bar -->
+  <path d="M130 600 L130 578 Q130 560 148 560 L612 560 Q630 560 630 578 L630 600 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="154" cy="580" r="5" fill="#f0c48c"/>
+  <circle cx="174" cy="580" r="5" fill="#ffd24a"/>
+  <circle cx="194" cy="580" r="5" fill="#a9dcbe"/>
+  <rect x="220" y="570" width="340" height="20" rx="10" fill="#ffffff"/>
+  <!-- empty slot -->
+  <path d="M380 760 L485 760 A22 22 0 1 1 525 760 L630 760 L630 902 Q630 920 612 920 L380 920 L380 860 A22 22 0 1 0 380 820 Z" fill="#dff1f7"/>
+  <path d="M424 788 h12 m8 0 h12 m8 0 h12 m8 0 h12 m8 0 h12 m8 0 h12 m8 0 h12 m8 0 h12 M424 900 h12 m8 0 h12 m8 0 h12 m8 0 h12 m8 0 h12 m8 0 h12 m8 0 h12 m8 0 h12 M424 788 v12 m0 8 v12 m0 8 v12 m0 8 v12 m0 8 v12 m0 8 v12 M576 788 v12 m0 8 v12 m0 8 v12 m0 8 v12 m0 8 v12 m0 8 v12" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- piece A: bar chart -->
+  <path d="M130 600 L380 600 L380 660 A22 22 0 1 1 380 700 L380 820 A22 22 0 1 1 380 860 L380 920 L148 920 Q130 920 130 902 Z" fill="url(#ilChart)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="172" y="800" width="34" height="80" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="222" y="750" width="34" height="130" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="272" y="775" width="34" height="105" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="322" y="690" width="34" height="190" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M160 880 L366 880" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <polyline points="189,770 239,722 289,746 339,660" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="189" cy="770" r="5" fill="#c96a1b"/>
+  <circle cx="239" cy="722" r="5" fill="#c96a1b"/>
+  <circle cx="289" cy="746" r="5" fill="#c96a1b"/>
+  <circle cx="339" cy="660" r="5" fill="#c96a1b"/>
+  <!-- piece B: speech bubbles -->
+  <path d="M380 600 L630 600 L630 760 L525 760 A22 22 0 1 0 485 760 L380 760 L380 700 A22 22 0 1 0 380 660 Z" fill="url(#ilTalk)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="452,670 440,694 470,676" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="480" cy="650" rx="46" ry="28" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="464" cy="650" r="4" fill="#2f7fb5"/>
+  <circle cx="480" cy="650" r="4" fill="#2f7fb5"/>
+  <circle cx="496" cy="650" r="4" fill="#2f7fb5"/>
+  <polygon points="596,718 612,742 584,724" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="574" cy="700" rx="46" ry="26" fill="#8fc9f2" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="550" y="692" width="48" height="5" rx="2.5" fill="#ffffff"/>
+  <rect x="550" y="703" width="32" height="5" rx="2.5" fill="#ffffff"/>
+  <!-- window outline -->
+  <rect x="130" y="560" width="500" height="360" rx="18" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <!-- floating piece C: checklist and magnifier -->
+  <g transform="translate(700 742) rotate(8 125 80)">
+    <path d="M0 0 L105 0 A22 22 0 1 1 145 0 L250 0 L250 142 Q250 160 232 160 L0 160 L0 100 A22 22 0 1 0 0 60 Z" fill="url(#ilCheck)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="44" y="24" width="118" height="114" rx="8" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="56" y="38" width="16" height="16" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="56" y="70" width="16" height="16" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="56" y="102" width="16" height="16" rx="3" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M59 46 L63 50 L70 41 M59 78 L63 82 L70 73 M59 110 L63 114 L70 105" fill="none" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="80" y="42" width="68" height="7" rx="3.5" fill="#8fc9f2"/>
+    <rect x="80" y="74" width="56" height="7" rx="3.5" fill="#8fc9f2"/>
+    <rect x="80" y="106" width="64" height="7" rx="3.5" fill="#8fc9f2"/>
+    <polygon points="224.7,89.7 241.5,106.5 234.5,113.5 217.7,96.7" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="200" cy="72" r="30" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M184 66 Q187 54 198 51" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M189 73 L197 81 L212 63" fill="none" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <!-- dotted arrow to the slot -->
+  <circle cx="676" cy="828" r="3" fill="#c0392b"/>
+  <circle cx="653.5" cy="818.4" r="3" fill="#c0392b"/>
+  <circle cx="627" cy="817.5" r="3" fill="#c0392b"/>
+  <circle cx="596.5" cy="825.4" r="3" fill="#c0392b"/>
+  <polygon points="556,845.5 571.6,844.6 564.6,832.4" fill="#c0392b"/>
+  <!-- sparkles -->
+  <polygon points="670,688 673,697 682,700 673,703 670,712 667,703 658,700 667,697" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="940,676 943,685 952,688 943,691 940,700 937,691 928,688 937,685" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="712" cy="650" r="4" fill="#8fc9f2"/>
+  <circle cx="880" cy="664" r="5" fill="#a9dcbe"/>
+</g>
+
+<!-- Memory illustration: koshary online -->
+<g>
+  <linearGradient id="ilBowl" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f7fb5"/>
+    <stop offset="1" stop-color="#17457f"/>
+  </linearGradient>
+  <!-- shadows -->
+  <circle cx="244" cy="1096" r="44" fill="#22303f" opacity=".18"/>
+  <rect x="404" y="1006" width="280" height="180" rx="12" fill="#22303f" opacity=".18"/>
+  <path d="M376 1186 L712 1186 L736 1212 Q738 1220 728 1220 L360 1220 Q350 1220 352 1212 Z" fill="#22303f" opacity=".18"/>
+  <path d="M774 1156 Q774 1220 854 1220 Q934 1220 934 1156 Z" fill="#22303f" opacity=".18"/>
+  <path d="M150 1238 L930 1238" fill="none" stroke="#e8dfd1" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- light bulb -->
+  <path d="M240 1030 L240 1014 M196 1050 L184 1038 M284 1050 L296 1038 M182 1090 L166 1090 M298 1090 L314 1090" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="240" cy="1090" r="44" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M226 1100 L233 1084 L240 1100 L247 1084 L254 1100" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M212 1078 Q216 1062 230 1056" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M220 1126 L260 1126 L256 1150 L224 1150 Z" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="222" y="1150" width="36" height="10" rx="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="228" y="1160" width="24" height="10" rx="4" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <!-- laptop -->
+  <rect x="400" y="1000" width="280" height="180" rx="12" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="414" y="1014" width="252" height="152" rx="4" fill="#ffffff"/>
+  <rect x="414" y="1014" width="252" height="20" fill="#dff1f7"/>
+  <circle cx="426" cy="1024" r="3.5" fill="#c96a1b"/>
+  <circle cx="438" cy="1024" r="3.5" fill="#ffd24a"/>
+  <circle cx="450" cy="1024" r="3.5" fill="#2e7d32"/>
+  <rect x="464" y="1019" width="150" height="10" rx="5" fill="#ffffff"/>
+  <path d="M440 1098 Q440 1132 470 1132 Q500 1132 500 1098 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M444 1098 Q452 1076 470 1075 Q488 1076 496 1098 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="462" cy="1088" r="3" fill="#c96a1b"/>
+  <circle cx="477" cy="1086" r="3" fill="#c96a1b"/>
+  <rect x="520" y="1062" width="120" height="10" rx="5" fill="#8fc9f2"/>
+  <rect x="520" y="1080" width="90" height="8" rx="4" fill="#e8dfd1"/>
+  <rect x="520" y="1094" width="104" height="8" rx="4" fill="#e8dfd1"/>
+  <rect x="520" y="1118" width="86" height="26" rx="13" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M372 1180 L708 1180 L732 1206 Q734 1214 724 1214 L356 1214 Q346 1214 348 1206 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="510" y="1180" width="60" height="6" rx="3" fill="#e8dfd1"/>
+  <!-- koshary bowl -->
+  <path d="M820 1088 Q812 1074 820 1060 Q828 1046 820 1032 M850 1084 Q842 1070 850 1056 Q858 1042 850 1028 M880 1088 Q872 1074 880 1060 Q888 1046 880 1032" fill="none" stroke="#7f95ab" stroke-width="2.5" stroke-linecap="round"/>
+  <ellipse cx="850" cy="1216" rx="74" ry="9" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M770 1150 Q770 1214 850 1214 Q930 1214 930 1150 Z" fill="url(#ilBowl)" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M776 1150 Q786 1102 850 1098 Q914 1102 924 1150 Z" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M812 1124 Q850 1104 888 1124 Q872 1134 850 1130 Q828 1134 812 1124 Z" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="836" cy="1120" r="4" fill="#ffd24a"/>
+  <circle cx="862" cy="1118" r="4" fill="#ffd24a"/>
+  <path d="M800 1142 q8 -6 16 0 M830 1145 q8 -6 16 0 M866 1143 q8 -6 16 0 M894 1139 q6 -5 12 0" fill="none" stroke="#7d4f28" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Icon: pencil beside the header -->
+<g transform="translate(620 124)">
+  <polygon points="47,9 57,19 27,49 12,54 17,39" fill="#22303f" opacity=".18"/>
+  <polygon points="43,3 53,13 45,21 35,11" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="35,11 45,21 23,43 13,33" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="13,33 23,43 8,48" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="8,48 11,40 16,45" fill="#22303f"/>
+</g>
+
+<!-- Face: thinking -->
+<g transform="translate(880 350)">
+  <circle cx="4" cy="6" r="26" fill="#22303f" opacity=".18"/>
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Box header -->
+<text x="935" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">
+  <tspan x="935" dy="0">توقّف وفكّر</tspan>
+</text>
+<text x="140" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">
+  <tspan x="140" dy="0">PAUSE &amp; THINK</tspan>
+</text>
+
+<!-- Paragraph 1 -->
+<text x="935" y="234" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">لو استعان عمّ حسن بمنى <tspan font-weight="bold" fill="#17457f">وحدها،</tspan></tspan>
+  <tspan x="935" dy="40">ماذا كان سيعرف؟ وماذا كان سيفوته؟</tspan>
+</text>
+<text x="140" y="314" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">If Uncle Hassan had asked <tspan font-weight="bold" fill="#17457f">only</tspan> Mona,</tspan>
+  <tspan x="140" dy="40">what would he have known?</tspan>
+  <tspan x="140" dy="40">And what would he have missed?</tspan>
+</text>
+
+<!-- Paragraph 2 -->
+<text x="935" y="434" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">وماذا لو استعان بكريم <tspan font-weight="bold" fill="#17457f">وحده؟</tspan></tspan>
+</text>
+<text x="140" y="474" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">And what if he had asked <tspan font-weight="bold" fill="#17457f">only</tspan> Karim?</tspan>
+</text>
+</svg>

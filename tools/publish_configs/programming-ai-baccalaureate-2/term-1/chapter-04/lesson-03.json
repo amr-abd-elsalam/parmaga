@@ -1,0 +1,3932 @@
+{
+  "schemaVersion": 1,
+  "course": "programming-ai-baccalaureate-2",
+  "term": "term-1",
+  "chapter": "chapter-04",
+  "lesson": "lesson-03",
+  "displayNumber": "4-3",
+  "displayTitleAr": "أساليب تقييم المواقع الإلكترونية",
+  "displayTitleEn": "Methods for Evaluating Websites",
+  "courseLabelAr": "البرمجة والذكاء الاصطناعي، ثانية بكالوريا",
+  "termLabelAr": "ترم أول",
+  "pivotQuestionAr": "كيف يمكن تقييم موقع إلكتروني، ولماذا من المفيد الجمع بين الأرقام وآراء المستخدمين؟",
+  "custodyRepository": "parmaga-content",
+  "custodySnapshot": "d76719899857b0d91aaf820f62f70d84aa20e430",
+  "declaredPageCount": 69,
+  "inventoryDate": "2026-11-03",
+  "status": "published",
+  "extraNotes": [
+    "السؤال المحوري للدرس: كيف يمكن تقييم موقع إلكتروني، ولماذا من المفيد الجمع بين الأرقام وآراء المستخدمين؟",
+    "حزمة أصول الدرس مدرجة للنشر في المسار القانوني داخل المستودع العام، وتتحقق tools/verify_lesson.py من مطابقة بايتاتها لهذا الـManifest.",
+    "أسماء الملفات الواردة مطابقة أصلًا للنمط page-<NNN>.svg، لذلك sourceFileName يساوي file في المداخل الـ69 كلها، ولم تجرِ إعادة تسمية.",
+    "viewBox «0 0 1080 1350» مقيس في الصفحات الـ69 كلها، أي مقاس 1080×1350 بنسبة 4:5 رأسية.",
+    "منطقة الـ12% المحجوزة: الحد y = 1188. أعلى سمة y مرصودة في عناصر النص هي 1234 في page-005، و26 عنصر نص عند الحد أو دونه في 6 صفحات: page-005، page-010، page-017، page-035، page-062، page-067. سُجّل ولم يوقف النشر، وتراجعه عين المالك في المتصفح. القياس يعتمد سمات y وحدها ولا يحسب transform ولا إحداثيات path d، فهو مؤشر قوي لا إثبات هندسي كامل.",
+    "الفحص الأمني نظيف في الصفحات الـ69 كلها: صفر script، صفر foreignObject، صفر سمات on*، صفر javascript:، صفر مرجع http(s) خارجي، صفر data:، صفر image مضمَّن، صفر use خارجي، صفر iframe أو embed أو object، صفر @import. لا يوجد اكتشاف يحتاج قرارًا مكتوبًا.",
+    "قيمة encoding مستنتجة لا مقروءة: لا يحتوي أي ملف إعلان XML ولا BOM، ونجاح تحليل XML على البايتات دون إعلان يعني أن البايتات UTF-8 صالحة.",
+    "نهايات الأسطر داخل الأصول الـ69 كلها CRLF. لم تُغيَّر ولا يجوز تغييرها، وقاعدة *.svg -text في .gitattributes تغطيها وفق ADR-0005 البند 11.",
+    "الحجم المقيس: المجموع 1221098 بايت، والمتوسط 17697 بايت بالتقريب إلى الأدنى، وأصغر ملف 12756 بايت في page-044، وأكبر ملف 27740 بايت في page-001.",
+    "الخطوط المستدعاة في الصفحات الـ69 كلها: Arial وComic Sans MS وSegoe Print وSegoe UI وTahoma وsans-serif، ولا تزيد أي صفحة خطًّا آخر. قيد معروف مسجَّل في ADR-0004 §23 ولا يُعالَج بتعديل الأصول.",
+    "عنوان الدرس في الصفحة الرئيسة «أساليب تقييم المواقع الإلكترونية»، وهو في page-001 «طرق تقييم المواقع الإلكترونية»، فطابق displayTitleAr سطر الرئيسة حرفًا بحرف وفق README، ومن page-001 displayTitleEn «Methods for Evaluating Websites». وpivotQuestionAr بنص المالك المكتوب حرفيًّا، إذ لا تسمية «السؤال الرئيسي» في الأصول. ووصف كل صفحة (descriptionAr، وهو نص alt) بقاعدة المالك المكتوبة: الصفحة التي أول بند فيها عنوان رئيسي بخط 44 غامق وصفها ذلك العنوان، وهي 14 صفحة (page-002، page-004، page-012، page-020، page-025، page-036، page-041، page-044، page-048، page-051، page-054، page-059، page-062، page-065)، والافتتاحية page-001 وصفها أول بند فيها، وكل صفحة سواهما وصفها «تابع: » ثم آخر عنوان رئيسي قبلها حرفيًّا، وهي 54 صفحة.",
+    "لا يحتوي أي بند على العلامتين < أو >. وتحتوي 4 بنود في 4 صفحات على العلامة & في «PAUSE & THINK»: page-011، page-043، page-050، page-054. وتُهرَّب في HTML.",
+    "نصوص الصفحات مستخرجة آليًّا من عناصر <text> بترتيب المستند، ثم طُبّقت عليها قاعدة حذف علامات الترقيم البصرية وحدها المسجلة في ADR-0024 D7 وREADME. وطوبق مجموع عناصر النص في الأصول وهو 667 مع عدد البنود المنشورة وهو 667، ولا فرق بينهما: لا تحتوي الأصول بند ترقيم منفردًا ولا عنصر نص فارغًا."
+  ],
+  "contextSections": {
+    "structureSummaryAr": "افتتاحية 001. لماذا نقيّم المواقع؟ 002–003. قصة كشري الزعيم أونلاين 004–011. المفاهيم الكبرى 012–019. أدوات التقييم النوعي 020–024. التقييم الإرشادي 025–035. تحليلات الويب 036–040. مشاهدات الصفحة PV 041–043. معدل الارتداد 044–047. معدل التحويل CVR 048–050. مقاييس وأدوات كمية أخرى 051–053. اللغز الذهبي 054–058. فخاخ الامتحان 059–061. الإجابة النموذجية 062–064. مراجعة ليلة الامتحان 065–069.",
+    "statusAr": "الـManifest بحالة `published` وأصوله الـ69 في مسارها القانوني. ونصوص الصفحات بلغتيها في HTML فهي مقروءة دون JavaScript، والعارض تحسين تدريجي فوقها. والحالة الجارية في `docs/ai/ARCHITECT_EVIDENCE_LEDGER.md`.",
+    "pagesNarrativeAr": "69 صفحة: افتتاحية واحدة (`page-001`) و68 صفحة محتوى (`page-002` … `page-069`) بترقيم متصل بلا فجوة. و`viewBox` «0 0 1080 1350» وفحص أمني نظيف في كلها. والمراسي حتمية: `#page-1` ⇄ `page-001.svg` حتى `#page-69` ⇄ `page-069.svg`. والوصف «تابع: » يعني أن الصفحة تكمل آخر عنوان رئيسي قبلها.",
+    "constraintsAr": "**الخطوط.** Tahoma وSegoe Print وComic Sans MS وSegoe UI وArial قد تغيب على أندرويد، وعلاجها خارج الأصول وفق `ADR-0004 §23`. **الألوان.** العرض عبر `<img>` يعزل الأصل عن الوضع الليلي. **المنطقة السفلى.** 26 عنصر نص عند `y = 1188` أو دونه في 6 صفحات، أعلاها 1234 في `page-005`، وقائمتها في الـManifest، سُجّلت ولم توقف النشر. **البايتات ثابتة.** CRLF بلا إعلان XML ولا BOM، وأي تعديل يُبطل البصمات.",
+    "decidedAr": "المسار والمعرّفات وفق `ADR-0004`، والصفحات الـ69 وترتيبها وأدوارها، والسؤال المحوري بنص المالك، ووصف «تابع: » بقاعدته المكتوبة. صفر Dependencies وصفر Build Step.",
+    "undecidedAr": "روابط Previous/Next بين الدروس. فهرس `/courses/` وفهارس Course وTerm وChapter. Structured Data. الخطوط على أندرويد. مراسي `#concept-*`.",
+    "howToUseAr": "مصدرك لجرد بنية الدرس وقيوده. **لا تطلب ملف SVG** وفق `ADR-0005` §10. النص في HTML صفحة الدرس، والجرد والبصمات في الـManifest. ولا تحرّر مخرَجًا منشورًا: غيّر الـconfig وأعد التوليد وفق `ADR-0024`، ولا تخترع رقمًا ولا بصمة."
+  },
+  "svgSourceDir": "assets/lessons/programming-ai-baccalaureate-2/term-1/chapter-04/lesson-03",
+  "pages": [
+    {
+      "id": "page-001",
+      "htmlId": "page-1",
+      "role": "opening",
+      "descriptionAr": "الدرس 4-3",
+      "transcript": [
+        {
+          "text": "الدرس 4-3",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "طرق تقييم المواقع الإلكترونية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Lesson 4-3",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "Methods for Evaluating Websites",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-002",
+      "htmlId": "page-2",
+      "role": "content",
+      "descriptionAr": "لماذا نقيّم المواقع؟",
+      "transcript": [
+        {
+          "text": "لماذا نقيّم المواقع؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Why Do We Evaluate Websites?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تخيّل أنك صممت موقعًا إلكترونيًا لمحل في حيّك، ونشرته على الإنترنت.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Imagine you designed a website for a shop in your neighborhood and published it online.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "صاحب المحل يسألك سؤالًا واحدًا: «هل الموقع ناجح؟»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The shop owner asks you one question: “Is the website successful?”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لو أجبت «أيوه، شكله حلو!» فهذا رأي، وليس دليلًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "If you answer “Yes, it looks nice!”, that is an opinion, not evidence.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-003",
+      "htmlId": "page-3",
+      "role": "content",
+      "descriptionAr": "تابع: لماذا نقيّم المواقع؟",
+      "transcript": [
+        {
+          "text": "توقّع قبل أن تقرأ",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "PREDICT FIRST",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اكتب طريقتين تعرف بهما أن الموقع ناجح فعلًا، وقارن إجابتك بما ستتعلمه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Write two ways you could tell that the website really works, and compare your answer with what you will learn.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التقييم Evaluation",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Evaluation",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التقييم: جمع أدلة منظّمة للحكم على مدى تحقيق شيء ما لهدفه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Evaluation: collecting organized evidence to judge how well something achieves its goal.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "سؤال",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Question",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أدلة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Evidence",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قرار",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Decision",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-004",
+      "htmlId": "page-4",
+      "role": "content",
+      "descriptionAr": "قصة كشري الزعيم أونلاين",
+      "transcript": [
+        {
+          "text": "قصة كشري الزعيم أونلاين",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Story of Al-Zaeem Koshary Online",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "عمّ حسن صاحب محل «كشري الزعيم»، وقرر أن يفتح موقعًا لطلب الأكل أونلاين.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Uncle Hassan owns the “Al-Zaeem Koshary” shop, and he decided to open a website for ordering food online.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "بعد شهر قال غاضبًا: «الموقع ده فاشل، الطلبات قليلة!»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "After a month, he said angrily: “This website is a failure; there are few orders!”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لكن كيف عرف أنه فاشل؟ وما سبب قلة الطلبات أصلًا؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "But how did he know it failed? And why are orders low in the first place?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-005",
+      "htmlId": "page-5",
+      "role": "content",
+      "descriptionAr": "تابع: قصة كشري الزعيم أونلاين",
+      "transcript": [
+        {
+          "text": "استعان عمّ حسن بثلاث شخصيات، ولكل شخصية طريقة مختلفة في البحث عن الإجابة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Uncle Hassan asked three people for help, and each one has a different way of looking for the answer.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "منى المحاسبة: تتعامل مع الأرقام.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Mona the accountant: works with numbers.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كريم الصحفي: يتعامل مع الناس وكلامهم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Karim the journalist: works with people and their words.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الأستاذة سارة خبيرة التصميم: تتعامل مع القواعد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Ms. Sara the design expert: works with rules.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "منى",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Mona",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كريم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Karim",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "سارة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Sara",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-006",
+      "htmlId": "page-6",
+      "role": "content",
+      "descriptionAr": "تابع: قصة كشري الزعيم أونلاين",
+      "transcript": [
+        {
+          "text": "ما قرأته منى في لوحة التحليلات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "What Mona Read on the Analytics Dashboard",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الصفحة الرئيسية فُتحت 5000 مرة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The home page was opened 5000 times.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏%60 من الزيارات خرجت بعد أول صفحة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "60% of visits left after the first page.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "من كل 100 زيارة، زيارة واحدة فقط انتهت بطلب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Out of every 100 visits, only one ended with an order.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لكن عندما سألها عمّ حسن: «ليه الناس بتمشي؟» قالت: «معرفش، الأرقام مبتتكلمش!»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "But when Uncle Hassan asked her, “Why do people leave?”, she said: “I don't know; numbers don't talk!”",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-007",
+      "htmlId": "page-7",
+      "role": "content",
+      "descriptionAr": "تابع: قصة كشري الزعيم أونلاين",
+      "transcript": [
+        {
+          "text": "أحضر كريم خمسة زبائن، وراقب كل واحد وهو يطلب طبقًا ويفكر بصوت عالٍ.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Karim brought five customers and watched each one order a plate while thinking aloud.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "زر «اطلب الآن» مختفٍ تحت صورة كبيرة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The “Order Now” button is hidden under a big image.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الزبون مضطر إلى إنشاء حساب قبل أن يرى الأسعار، فيملّ ويخرج.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The customer must create an account before seeing the prices, so they get bored and leave.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "عرف كريم السبب، لكنه لا يعرف: هل خمسة أشخاص يمثلون كل الزبائن؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Karim found the reason, but he doesn't know: do five people represent all customers?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-008",
+      "htmlId": "page-8",
+      "role": "content",
+      "descriptionAr": "تابع: قصة كشري الزعيم أونلاين",
+      "transcript": [
+        {
+          "text": "أما الأستاذة سارة فلم تُحضر أي زبون؛ فتحت الموقع ومعها ورقة قواعد، وراجعته قاعدةً قاعدة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Ms. Sara did not bring any customers; she opened the website with a sheet of rules and checked it rule by rule.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لون زر الشراء يختلف من صفحة لأخرى، وهذا ضد قاعدة الاتساق.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The buy button's color changes from page to page, which breaks the consistency rule.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-009",
+      "htmlId": "page-9",
+      "role": "content",
+      "descriptionAr": "تابع: قصة كشري الزعيم أونلاين",
+      "transcript": [
+        {
+          "text": "خانة رقم الموبايل تقبل الحروف، وهذا ضد قاعدة منع الأخطاء.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The mobile number box accepts letters, which breaks the error prevention rule.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يضغط الزبون «تأكيد الطلب» فلا يظهر شيء، فيضغط مرة أخرى ويطلب طبقين! وهذا ضد قاعدة وضوح حالة النظام.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The customer presses “Confirm Order” and nothing appears, so they press again and order two plates! This breaks the visibility of system status rule.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-010",
+      "htmlId": "page-10",
+      "role": "content",
+      "descriptionAr": "تابع: قصة كشري الزعيم أونلاين",
+      "transcript": [
+        {
+          "text": "عدّل عمّ حسن الموقع بناءً على ما قاله الثلاثة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Uncle Hassan fixed the website based on what all three said.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "بعد شهر عادت منى تقيس من جديد: ارتفع معدل التحويل من 1% إلى 4%.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A month later, Mona measured again: the conversion rate rose from 1% to 4%.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الأرقام اكتشفت المشكلة، والناس فسّروها، والخبيرة أكملت الصورة، ثم عادت الأرقام لتثبت أن الحل نجح.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The numbers found the problem, people explained it, the expert completed the picture, and then the numbers came back to prove the fix worked.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الأرقام تكتشف",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Numbers find",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الناس تفسّر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "People explain",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الخبيرة تكمل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Expert completes",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نُصلح ونقيس",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Fix and measure",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-011",
+      "htmlId": "page-11",
+      "role": "content",
+      "descriptionAr": "تابع: قصة كشري الزعيم أونلاين",
+      "transcript": [
+        {
+          "text": "توقّف وفكّر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "PAUSE & THINK",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لو استعان عمّ حسن بمنى وحدها، ماذا كان سيعرف؟ وماذا كان سيفوته؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "If Uncle Hassan had asked only Mona, what would he have known? And what would he have missed?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "وماذا لو استعان بكريم وحده؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "And what if he had asked only Karim?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-012",
+      "htmlId": "page-12",
+      "role": "content",
+      "descriptionAr": "المفاهيم الكبرى",
+      "transcript": [
+        {
+          "text": "المفاهيم الكبرى",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Big Concepts",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الآن سنعطي كل شخصية في القصة اسمها العلمي.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Now we will give each character in the story its scientific name.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التقييم الكمي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Quantitative Evaluation",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تقييم يعتمد على بيانات عددية ومقاييس محددة التعريف لقياس السلوك والنتائج.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Evaluation that relies on numerical data and clearly defined metrics to measure behavior and results.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يجيب عن أسئلة: كم؟ كم مرة؟ ما النسبة؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "It answers questions like: How many? How often? What percentage?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لاحظ: كلمة «كمّي» تبدأ بـ«كم»، إذن الكمي = كم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Notice: the Arabic word “kammi” starts with “kam” (how many), so quantitative = how many.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-013",
+      "htmlId": "page-13",
+      "role": "content",
+      "descriptionAr": "تابع: المفاهيم الكبرى",
+      "transcript": [
+        {
+          "text": "ميزته",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Its Strength",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "موضوعي، ويغطي أعدادًا كبيرة من المستخدمين.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "It is objective and covers large numbers of users.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "حدّه",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Its Limit",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يصف ما يحدث ومقداره، لكنه لا يفسّر لماذا يحدث.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "It describes what is happening and how much, but it does not explain why.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هذه هي منى في القصة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "This is Mona in the story.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-014",
+      "htmlId": "page-14",
+      "role": "content",
+      "descriptionAr": "تابع: المفاهيم الكبرى",
+      "transcript": [
+        {
+          "text": "التقييم النوعي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Qualitative Evaluation",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تقييم يعتمد على الملاحظة والمقابلات والأوصاف لفهم تجربة المستخدم والأسباب المحتملة لسلوكه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Evaluation that relies on observation, interviews, and descriptions to understand the user experience and the possible reasons for behavior.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يجيب عن أسئلة: لماذا؟ كيف؟ ما الذي يُربك؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "It answers questions like: Why? How? What is confusing?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "«نوعي» تعني نوع التجربة والإحساس، أي كلام الناس.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "“Qualitative” means the kind of experience and feeling: people's words.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-015",
+      "htmlId": "page-15",
+      "role": "content",
+      "descriptionAr": "تابع: المفاهيم الكبرى",
+      "transcript": [
+        {
+          "text": "ميزته",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Its Strength",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "عميق، ويكشف الأسباب التي لا تظهر في الأرقام.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "It is deep and reveals reasons that do not appear in numbers.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "حدّه",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Its Limit",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يعتمد عادةً على عدد قليل من الأشخاص، فلا يمثل كل المستخدمين بالضرورة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "It usually relies on a small number of people, so it does not necessarily represent all users.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هذا هو كريم في القصة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "This is Karim in the story.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-016",
+      "htmlId": "page-16",
+      "role": "content",
+      "descriptionAr": "تابع: المفاهيم الكبرى",
+      "transcript": [
+        {
+          "text": "قارن بنفسك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Compare at a Glance",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "وجه المقارنة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Comparison point",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الكمي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Quantitative",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "النوعي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Qualitative",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "السؤال",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Question",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كم؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "How much?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لماذا؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Why?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نوع البيانات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Data type",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أرقام",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Numbers",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كلمات وملاحظات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Words and observations",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "عدد الأشخاص",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Number of people",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كبير",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Large",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قليل عادةً",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Usually small",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في القصة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In the story",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "منى",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Mona",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كريم وسارة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Karim and Sara",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-017",
+      "htmlId": "page-17",
+      "role": "content",
+      "descriptionAr": "تابع: المفاهيم الكبرى",
+      "transcript": [
+        {
+          "text": "قابلية الاستخدام",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Usability",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مدى سهولة استخدام المنتج ليحقق المستخدم هدفه بفاعلية وكفاءة ورضا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "How easily a product can be used so the user reaches their goal effectively, efficiently, and with satisfaction.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ببساطة: هل يستطيع الزبون أن يطلب الكشري بسرعة، دون أن يتوه، ودون أن يتضايق؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Simply put: can the customer order koshary quickly, without getting lost, and without getting annoyed?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تذكّرها بثلاث كلمات: ينجح، بسرعة، ومبسوط.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Remember it in three words: succeeds, quickly, and happily.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ينجح",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Succeeds",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "بسرعة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Quickly",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مبسوط",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Happily",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-018",
+      "htmlId": "page-18",
+      "role": "content",
+      "descriptionAr": "تابع: المفاهيم الكبرى",
+      "transcript": [
+        {
+          "text": "واجهة المستخدم وتجربة المستخدم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "UI and UX",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "واجهة المستخدم UI: كل ما تراه وتتعامل معه على الشاشة، مثل الأزرار والقوائم والألوان والرسائل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "User interface (UI): everything you see and interact with on the screen, such as buttons, menus, colors, and messages.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تجربة المستخدم UX: إحساسك الكامل قبل الاستخدام وأثناءه وبعده.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "User experience (UX): your whole feeling before, during, and after use.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تخيّل مطعمًا: UI هي شكل المطعم وترابيزاته، وUX هي إحساسك وأنت خارج منه: هل ستعود أم لا؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Imagine a restaurant: UI is how the restaurant and its tables look, and UX is how you feel as you leave: will you come back or not?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-019",
+      "htmlId": "page-19",
+      "role": "content",
+      "descriptionAr": "تابع: المفاهيم الكبرى",
+      "transcript": [
+        {
+          "text": "اختبر نفسك: UI أم UX؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "CHECK YOURSELF: UI or UX?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لون زر «اطلب الآن»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The color of the “Order Now” button",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "شعورك بالراحة لأن الطلب تم في دقيقة واحدة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Feeling relieved because the order was done in one minute",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مكان قائمة الأقسام في أعلى الصفحة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The position of the menu at the top of the page",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قرارك أن تطلب من الموقع مرة أخرى",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Your decision to order from the website again",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-020",
+      "htmlId": "page-20",
+      "role": "content",
+      "descriptionAr": "أدوات التقييم النوعي",
+      "transcript": [
+        {
+          "text": "أدوات التقييم النوعي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Qualitative Evaluation Tools",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هذه أدوات كريم: طرق نعرف بها «لماذا» من الناس أنفسهم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "These are Karim's tools: ways to learn the “why” from people themselves.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اختبار قابلية الاستخدام",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Usability Testing",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اختبار قابلية الاستخدام Usability Testing: يُطلب من مستخدمين حقيقيين تنفيذ مهام محددة على الموقع، بينما يراقبهم الباحث ويسجّل أين يتعثرون.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Usability testing: real users are asked to perform specific tasks on the website while a researcher watches them and records where they struggle.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-021",
+      "htmlId": "page-21",
+      "role": "content",
+      "descriptionAr": "تابع: أدوات التقييم النوعي",
+      "transcript": [
+        {
+          "text": "تعريف الكتاب: مراقبة العمليات الفعلية لتحديد النقاط التي يصعب استخدامها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Textbook definition: observe actual operations to identify points that are hard to use.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كيف يتم الاختبار؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "How Is the Test Done?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "1 اختر مهمة واقعية: «اطلب طبق كشري وادفع.»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 Choose a real task: “Order a plate of koshary and pay.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 راقب دون أن تساعد أو توجّه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 Watch without helping or guiding.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "3 سجّل أين يتوقف أو يخطئ أو يتردد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 Record where they stop, make mistakes, or hesitate.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "معلومة تميّزك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Extra Insight",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اختبار نحو خمسة مستخدمين فقط يكشف كثيرًا من المشكلات الرئيسية في التصميم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Testing only about five users reveals many of the main problems in a design.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-022",
+      "htmlId": "page-22",
+      "role": "content",
+      "descriptionAr": "تابع: أدوات التقييم النوعي",
+      "transcript": [
+        {
+          "text": "التفكير بصوت عالٍ",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Think Aloud",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التفكير بصوت عالٍ Think Aloud: يقول المستخدم كل ما يفكر فيه أثناء الاستخدام، مثل: «بدوّر على زر الدفع… مش لاقيه!»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Think aloud: the user says everything they think while using the site, like: “I'm looking for the pay button… I can't find it!”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "فخ امتحان: اختبار قابلية الاستخدام تقييم نوعي، رغم كلمة «اختبار».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Exam trap: usability testing is qualitative, despite the word “testing.”",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-023",
+      "htmlId": "page-23",
+      "role": "content",
+      "descriptionAr": "تابع: أدوات التقييم النوعي",
+      "transcript": [
+        {
+          "text": "المقابلة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Interview",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المقابلة Interview: حوار مباشر مع المستخدم لسماع رأيه واحتياجاته وما يضايقه بكلماته هو.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Interview: a direct conversation with the user to hear their opinion, needs, and frustrations in their own words.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تعريف الكتاب: الاستماع إلى آراء المستخدمين المباشرة لفهم احتياجاتهم واستيائهم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Textbook definition: hear users' direct voices to understand their needs and dissatisfactions.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-024",
+      "htmlId": "page-24",
+      "role": "content",
+      "descriptionAr": "تابع: أدوات التقييم النوعي",
+      "transcript": [
+        {
+          "text": "سؤال مغلق",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Closed question",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "سؤال مفتوح",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Open question",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هل أعجبك الموقع؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Did you like the website?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "احكِ لي عن آخر مرة طلبت فيها أكلًا أونلاين.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Tell me about the last time you ordered food online.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "إجابته: نعم أو لا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Answer: yes or no.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "إجابته: قصة وتفاصيل وأسباب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Answer: a story, details, and reasons.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اختبر نفسك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "CHECK YOURSELF",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "حوّل هذا السؤال المغلق إلى سؤال مفتوح: «هل كان الدفع سهلًا؟»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Turn this closed question into an open one: “Was paying easy?”",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-025",
+      "htmlId": "page-25",
+      "role": "content",
+      "descriptionAr": "التقييم الإرشادي",
+      "transcript": [
+        {
+          "text": "التقييم الإرشادي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Heuristic Evaluation",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التقييم الإرشادي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Heuristic Evaluation",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التقييم الإرشادي Heuristic Evaluation: يراجع فيه خبراء واجهة المستخدم ويقارنونها بقائمة من القواعد العملية المعروفة، لاكتشاف مشكلات قابلية الاستخدام دون مشاركة مستخدمين.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Heuristic evaluation: experts review the user interface and compare it with a list of well-known practical rules to find usability problems, without involving users.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هذه هي أداة سارة في القصة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "This is Sara's tool in the story.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-026",
+      "htmlId": "page-26",
+      "role": "content",
+      "descriptionAr": "تابع: التقييم الإرشادي",
+      "transcript": [
+        {
+          "text": "تعريف الكتاب: يحدد فيه الخبراء مشكلات واجهة المستخدم استنادًا إلى قواعد عملية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Textbook definition: experts identify UI problems based on rules of thumb.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "القواعد الإرشادية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Heuristics",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "القواعد الإرشادية Heuristics: قواعد عملية مستمدة من الخبرة، تُسمى أيضًا «قواعد الإبهام» Rules of Thumb؛ ليست قوانين رياضية صارمة، لكنها تصح في أغلب الحالات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Heuristics: practical rules drawn from experience, also called “rules of thumb”; they are not strict mathematical laws, but they hold true in most cases.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-027",
+      "htmlId": "page-27",
+      "role": "content",
+      "descriptionAr": "تابع: التقييم الإرشادي",
+      "transcript": [
+        {
+          "text": "معلومة تميّزك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Extra Insight",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كلمة Heuristic من الأصل اليوناني نفسه لكلمة «Eureka!»، أي «وجدتُها!»، التي يُروى أن أرشميدس صاح بها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The word heuristic comes from the same Greek root as “Eureka!”, meaning “I have found it!”, which Archimedes is said to have shouted.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "فالتقييم الإرشادي معناه: الخبير يمسك القواعد، ثم يقول: وجدتُ المشكلة!",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "So heuristic evaluation means: the expert holds the rules and then says: I found the problem!",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-028",
+      "htmlId": "page-28",
+      "role": "content",
+      "descriptionAr": "تابع: التقييم الإرشادي",
+      "transcript": [
+        {
+          "text": "ميزاته",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Its Strengths",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "سريع وقليل التكلفة، ويمكن إجراؤه حتى قبل نشر الموقع.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Fast and low-cost, and it can be done even before the website is published.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "حدوده",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Its Limits",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يعتمد على خبرة المراجع، وقد يفوته ما لا يكتشفه إلا المستخدم الحقيقي.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "It depends on the reviewer's experience, and it may miss what only a real user would discover.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لذلك يُستخدم التقييم الإرشادي إلى جانب اختبار قابلية الاستخدام، لا بدلًا منه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "So heuristic evaluation is used alongside usability testing, not instead of it.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-029",
+      "htmlId": "page-29",
+      "role": "content",
+      "descriptionAr": "تابع: التقييم الإرشادي",
+      "transcript": [
+        {
+          "text": "أشهر قائمة للقواعد الإرشادية هي القواعد العشر التي نشرها جاكوب نيلسن عام 1994.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The most famous list of heuristics is the ten rules Jakob Nielsen published in 1994.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "1 وضوح حالة النظام (في درسنا)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 Visibility of system status (in our lesson)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 التطابق بين النظام والعالم الحقيقي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 Match between system and the real world",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "3 تحكّم المستخدم وحريته",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 User control and freedom",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "4 الاتساق والمعايير (في درسنا)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "4 Consistency and standards (in our lesson)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "5 منع الأخطاء (في درسنا)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "5 Error prevention (in our lesson)",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-030",
+      "htmlId": "page-30",
+      "role": "content",
+      "descriptionAr": "تابع: التقييم الإرشادي",
+      "transcript": [
+        {
+          "text": "6 التعرّف بدل التذكّر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "6 Recognition rather than recall",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "7 المرونة وكفاءة الاستخدام",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "7 Flexibility and efficiency of use",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "8 التصميم الجمالي البسيط",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "8 Aesthetic and minimalist design",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "9 مساعدة المستخدم على التعرف على الأخطاء وتشخيصها والتعافي منها",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "9 Help users recognize, diagnose, and recover from errors",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "10 المساعدة والتوثيق",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "10 Help and documentation",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تحدَّ نفسك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "CHALLENGE YOURSELF",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اختر قاعدة من القواعد العشر غير قواعد درسنا الثلاث، وابحث عن مثال لها في تطبيق تستخدمه يوميًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Choose one of the ten rules other than our three, and find an example of it in an app you use every day.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-031",
+      "htmlId": "page-31",
+      "role": "content",
+      "descriptionAr": "تابع: التقييم الإرشادي",
+      "transcript": [
+        {
+          "text": "القاعدة 1: الاتساق Consistency",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Rule 1: Consistency",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تعريف الكتاب: ما إذا كان التصميم والعمليات موحدة عبر الموقع.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Textbook definition: whether the design and operations are unified across the site.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ببساطة: الشيء نفسه يظهر بالشكل نفسه ويعمل بالطريقة نفسها في كل الصفحات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Simply: the same thing looks and works the same way on every page.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تخيّل إشارة مرور تغيّر معنى ألوانها من شارع لآخر!",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Imagine traffic lights that change their meaning on every street!",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-032",
+      "htmlId": "page-32",
+      "role": "content",
+      "descriptionAr": "تابع: التقييم الإرشادي",
+      "transcript": [
+        {
+          "text": "القاعدة 2: منع الأخطاء Error Prevention",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Rule 2: Error Prevention",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تعريف الكتاب: ما إذا كان التصميم يجعل من الصعب على المستخدمين ارتكاب الأخطاء.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Textbook definition: whether the design makes it hard for users to make mistakes.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ببساطة: منع الخطأ قبل وقوعه أفضل من رسالة خطأ بعد وقوعه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Simply: preventing a mistake before it happens is better than an error message after it.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "فيشة الكهرباء لا تدخل في المقبس إلا بطريقة واحدة؛ هذا منع للخطأ بالتصميم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A plug fits into the socket only one way; that is error prevention by design.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-033",
+      "htmlId": "page-33",
+      "role": "content",
+      "descriptionAr": "تابع: التقييم الإرشادي",
+      "transcript": [
+        {
+          "text": "أمثلة من المواقع",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Examples from Websites",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تقويم تختار منه التاريخ بدل كتابته يدويًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A calendar to pick the date instead of typing it.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "سؤال: «هل أنت متأكد من الحذف؟»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A question: “Are you sure you want to delete?”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "زر «إرسال» يبقى معطّلًا حتى تكتمل البيانات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The “Send” button stays disabled until the data is complete.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "خانة رقم الموبايل لا تقبل إلا الأرقام.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The mobile number box accepts only digits.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-034",
+      "htmlId": "page-34",
+      "role": "content",
+      "descriptionAr": "تابع: التقييم الإرشادي",
+      "transcript": [
+        {
+          "text": "القاعدة 3: وضوح حالة النظام Visibility of System Status",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Rule 3: Visibility of System Status",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تعريف الكتاب: ما إذا كانت حالة النظام موضحة بوضوح للمستخدمين، مثل مؤشرات المعالجة ورسائل أخطاء الإدخال.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Textbook definition: whether system status is clearly indicated to users, such as processing indicators and input error messages.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ببساطة: يعرف المستخدم دائمًا ماذا يحدث الآن، كما يعرض لك الأسانسير رقم الدور.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Simply: the user always knows what is happening now, just as an elevator shows you the floor number.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-035",
+      "htmlId": "page-35",
+      "role": "content",
+      "descriptionAr": "تابع: التقييم الإرشادي",
+      "transcript": [
+        {
+          "text": "نشاط: المحقق الإرشادي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "ACTIVITY: THE HEURISTIC DETECTIVE",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "في الرسم ثلاث مخالفات مرقّمة. اكتب أمام كل رقم اسم القاعدة التي يخالفها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The drawing has three numbered violations. Next to each number, write the rule it breaks.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المخالفة 1:",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Violation 1:",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المخالفة 2:",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Violation 2:",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المخالفة 3:",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Violation 3:",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-036",
+      "htmlId": "page-36",
+      "role": "content",
+      "descriptionAr": "تحليلات الويب",
+      "transcript": [
+        {
+          "text": "تحليلات الويب",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Web Analytics",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الآن ننتقل إلى أدوات منى: طرق نعرف بها «كم» من الأرقام.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Now we move to Mona's tools: ways to learn the “how much” from numbers.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تحليلات الويب",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Web Analytics",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تحليلات الويب Web Analytics: جمع بيانات استخدام الموقع وقياسها وتحليلها بالأرقام، لفهم كيف يصل الناس إلى الموقع، وكيف يتفاعلون معه، وما النتائج التي يحققونها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Web analytics: collecting, measuring, and analyzing site usage data with numbers to understand how people reach the site, interact with it, and what results they get.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-037",
+      "htmlId": "page-37",
+      "role": "content",
+      "descriptionAr": "تابع: تحليلات الويب",
+      "transcript": [
+        {
+          "text": "تعريف الكتاب: أسلوب لتحليل كيفية الوصول إلى الموقع باستخدام القيم العددية، وهو الطريقة المحورية للتقييم الكمي للمواقع.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Textbook definition: a technique for analyzing how a website is accessed using numerical values; it is the central method of quantitative evaluation for websites.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كيف تعمل؟ يوضع كود صغير داخل صفحات الموقع، فيسجّل تلقائيًا كل فتح لصفحة وكل ضغطة على زر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "How does it work? A small piece of code is placed in the site's pages, and it automatically records every page opening and every button click.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تنبيه مهم: أسماء المقاييس وطرق حسابها تختلف من أداة لأخرى، فاقرأ دائمًا تعريف الأداة التي تستخدمها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Important: metric names and calculation methods differ from tool to tool, so always read the definition of the tool you use.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-038",
+      "htmlId": "page-38",
+      "role": "content",
+      "descriptionAr": "تابع: تحليلات الويب",
+      "transcript": [
+        {
+          "text": "المؤشر ومؤشر الأداء الرئيسي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Metric and KPI",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المؤشر أو المقياس Metric: رقم محدد التعريف يقيس جانبًا من أداء الموقع.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Metric (indicator): a clearly defined number that measures one side of a website's performance.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مؤشر الأداء الرئيسي KPI: المؤشر الذي يرتبط مباشرة بهدف الموقع، مثل عدد الطلبات في موقع كشري الزعيم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Key performance indicator (KPI): the metric directly linked to the site's goal, such as the number of orders on the Al-Zaeem Koshary website.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قبل أن نفهم المؤشرات، لا بد أن نفرّق بين ثلاث وحدات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Before we understand the indicators, we must tell apart three units.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-039",
+      "htmlId": "page-39",
+      "role": "content",
+      "descriptionAr": "تابع: تحليلات الويب",
+      "transcript": [
+        {
+          "text": "ثلاث وحدات يجب أن تفرّق بينها",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Three Units You Must Tell Apart",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المستخدم User: الشخص، أو بدقة أكبر الجهاز أو المتصفح. مثال: أحمد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "User: the person, or more precisely the device or browser. Example: Ahmed.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الزيارة أو الجلسة Session / Visit: مرة واحدة يدخل فيها الشخص الموقع. مثال: دخل أحمد الصبح ودخل بالليل، فهذه زيارتان.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Session / visit: one time a person enters the site. Example: Ahmed came in the morning and again at night, so these are two visits.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مشاهدة الصفحة Page View: كل مرة تُفتح فيها صفحة. مثال: في زيارة الصبح فتح أحمد 4 صفحات، فهذه 4 مشاهدات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Page view: each time a page is opened. Example: in the morning visit, Ahmed opened 4 pages, so these are 4 page views.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "شخص واحد ← عدة زيارات ← كل زيارة فيها عدة صفحات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "One person → several visits → each visit has several pages.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-040",
+      "htmlId": "page-40",
+      "role": "content",
+      "descriptionAr": "تابع: تحليلات الويب",
+      "transcript": [
+        {
+          "text": "تخيّل طالبًا واحدًا يأتي إلى المكتبة عدة مرات، ويفتح في كل مرة عدة كتب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Imagine one student who comes to the library several times and opens several books each time.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مستخدم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "User",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "زيارة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Session",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مشاهدة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Page view",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اختبر نفسك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "CHECK YOURSELF",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "دخلت أنت موقع المدرسة مرتين اليوم، وفتحت 3 صفحات في كل مرة. كم مستخدمًا؟ كم زيارة؟ كم مشاهدة؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "You visited the school website twice today and opened 3 pages each time. How many users? How many visits? How many page views?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-041",
+      "htmlId": "page-41",
+      "role": "content",
+      "descriptionAr": "مشاهدات الصفحة PV",
+      "transcript": [
+        {
+          "text": "مشاهدات الصفحة PV",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Page Views (PV)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مشاهدات الصفحة PV",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Page Views (PV)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مشاهدات الصفحة PV (Page Views): العدد الإجمالي لمرات فتح صفحات الموقع، بما فيها المرات المتكررة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Page views (PV): the total number of times the site's pages are opened, including repeated times.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تعريف الكتاب: العدد الإجمالي لمرات مشاهدة الصفحة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Textbook definition: the total number of times a page has been viewed.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لو حدّث أحمد الصفحة 10 مرات، فهذه 10 PV.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "If Ahmed refreshes the page 10 times, that is 10 PV.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-042",
+      "htmlId": "page-42",
+      "role": "content",
+      "descriptionAr": "تابع: مشاهدات الصفحة PV",
+      "transcript": [
+        {
+          "text": "أهم نقطة: PV لا يساوي عدد الأشخاص.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Most important point: PV does not equal the number of people.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ألف مشاهدة قد تأتي من ألف شخص، أو من عشرة أشخاص فتح كل منهم الصفحة مئة مرة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A thousand views may come from a thousand people, or from ten people who each opened the page a hundred times.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تذكّر: PV مثل عدّاد الباب الدوّار؛ يعدّ كل لفّة، ولا يعرف إن كان الداخل هو الشخص نفسه.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Remember: PV is like a revolving door counter; it counts every turn and does not know if the same person came in again.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-043",
+      "htmlId": "page-43",
+      "role": "content",
+      "descriptionAr": "تابع: مشاهدات الصفحة PV",
+      "transcript": [
+        {
+          "text": "مثال 1: دخل 3 طلاب موقع المدرسة: فتح الأول 5 صفحات، والثاني صفحتين، والثالث صفحة واحدة ثم خرج.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example 1: 3 students visited the school website: the first opened 5 pages, the second 2 pages, and the third one page and then left.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏PV = 5 + 2 + 1 = 8 ، وعدد الأشخاص = 3",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "PV = 5 + 2 + 1 = 8, and the number of people = 3",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "توقّف وفكّر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "PAUSE & THINK",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "قال المدير: «عندنا 8 زوار». هل كلامه صحيح؟ ولماذا؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The principal said: “We have 8 visitors.” Is he right? Why?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-044",
+      "htmlId": "page-44",
+      "role": "content",
+      "descriptionAr": "معدل الارتداد",
+      "transcript": [
+        {
+          "text": "معدل الارتداد",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Bounce Rate",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "معدل الارتداد",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Bounce Rate",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "معدل الارتداد Bounce Rate، في تعريفه المبسط وهو تعريف الكتاب: نسبة الزيارات التي انتهت بعد مشاهدة الصفحة الأولى فقط.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Bounce rate, in its simple definition, which is the textbook definition: the proportion of visits that ended after viewing only the first page.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تخيّل كرة ضُربت في الحائط فارتدت: لمست الصفحة الأولى، ثم خرجت.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Imagine a ball hitting a wall and bouncing back: it touched the first page and then left.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-045",
+      "htmlId": "page-45",
+      "role": "content",
+      "descriptionAr": "تابع: معدل الارتداد",
+      "transcript": [
+        {
+          "text": "معدل الارتداد = (عدد الزيارات ذات الصفحة الواحدة ÷ إجمالي الزيارات) × 100%",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Bounce rate = (number of one-page visits ÷ total visits) × 100%",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثال 2: في مثال طلاب المدرسة، انتهت زيارة واحدة من 3 زيارات بعد صفحة واحدة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example 2: in the school students example, one of the 3 visits ended after one page.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "معدل الارتداد = 1 ÷ 3 × 100% ≈ 33%",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Bounce rate = 1 ÷ 3 × 100% ≈ 33%",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اختبر نفسك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "CHECK YOURSELF",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "موقع استقبل 200 زيارة، منها 50 زيارة انتهت بعد الصفحة الأولى. احسب معدل الارتداد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A website received 200 visits, and 50 of them ended after the first page. Calculate the bounce rate.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-046",
+      "htmlId": "page-46",
+      "role": "content",
+      "descriptionAr": "تابع: معدل الارتداد",
+      "transcript": [
+        {
+          "text": "معلومة تميّزك",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Extra Insight",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "يختلف تعريف معدل الارتداد بين الأدوات: في الأداة القديمة Universal Analytics كان يُحسب على أساس الزيارات ذات الصفحة الواحدة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The definition of bounce rate differs between tools: in the older tool, Universal Analytics, it was calculated from one-page visits.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أما في Google Analytics 4 فهو نسبة الزيارات غير المتفاعلة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "In Google Analytics 4, it is the proportion of visits that were not engaged.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الزيارة المتفاعلة في GA4 (يكفي شرط واحد)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "An Engaged Visit in GA4 (one condition is enough)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "استمرت أكثر من 10 ثوانٍ.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "It lasted longer than 10 seconds.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "شاهد فيها المستخدم صفحتين أو أكثر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The user viewed 2 or more pages.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "حدث فيها إجراء مستهدف.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A target action happened.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-047",
+      "htmlId": "page-47",
+      "role": "content",
+      "descriptionAr": "تابع: معدل الارتداد",
+      "transcript": [
+        {
+          "text": "لذلك قد يقرأ الزائر مقالة كاملة في صفحة واحدة لمدة 5 دقائق، فلا تُحسب زيارته ارتدادًا في GA4.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "So a visitor may read a full article on one page for 5 minutes, and the visit is not counted as a bounce in GA4.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "معدل الارتداد المرتفع علامة تحتاج إلى فحص، وليس حكمًا نهائيًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A high bounce rate is a sign that needs checking, not a final verdict.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اكتبها هكذا في الامتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Write It Like This in the Exam",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "معدل الارتداد: نسبة الزيارات التي انتهت بعد مشاهدة الصفحة الأولى فقط، وقد تختلف طريقة حسابه حسب أداة التحليلات.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Bounce rate: the proportion of visits that ended after viewing only the first page; its calculation method may differ depending on the analytics tool.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-048",
+      "htmlId": "page-48",
+      "role": "content",
+      "descriptionAr": "معدل التحويل CVR",
+      "transcript": [
+        {
+          "text": "معدل التحويل CVR",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Conversion Rate (CVR)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التحويل",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Conversion",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الإجراء المستهدف أو التحويل Conversion: الفعل الذي صُمم الموقع من أجله، مثل الشراء أو التسجيل أو حجز مكان.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Target action or conversion: the action the website was designed for, such as buying, registering, or booking a seat.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "سُمّي «تحويلًا» لأن الزائر تحوّل من متفرّج إلى عميل، كما تتحول الشرنقة إلى فراشة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "It is called a “conversion” because the visitor turned from a viewer into a customer, just as a cocoon turns into a butterfly.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-049",
+      "htmlId": "page-49",
+      "role": "content",
+      "descriptionAr": "تابع: معدل التحويل CVR",
+      "transcript": [
+        {
+          "text": "معدل التحويل CVR",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Conversion Rate (CVR)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "معدل التحويل CVR (Conversion Rate): نسبة الزيارات أو المستخدمين، حسب طريقة الحساب، التي حققت الإجراء المستهدف.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Conversion rate (CVR): the proportion of visits or users, depending on the calculation method, that achieved the target action.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تعريف الكتاب: نسبة الزيارات التي حققت إجراءً مستهدفًا، مثل الشراء أو التسجيل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Textbook definition: the proportion of visits that achieved a target action, such as a purchase or registration.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "معدل التحويل = (عدد التحويلات ÷ عدد الزيارات) × 100%",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Conversion rate = (number of conversions ÷ number of visits) × 100%",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تذكّر: «من كل 100 داخل، كام اشترى؟»",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Remember: “Out of every 100 who come in, how many bought?”",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-050",
+      "htmlId": "page-50",
+      "role": "content",
+      "descriptionAr": "تابع: معدل التحويل CVR",
+      "transcript": [
+        {
+          "text": "مثال 3: موقع كشري الزعيم استقبل 2000 زيارة، وجاءت منها 50 طلبية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example 3: the Al-Zaeem Koshary website received 2000 visits, and 50 orders came from them.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "CVR = 50 ÷ 2000 × 100% = 2.5%",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "بعد تعديل الموقع: 2000 زيارة و80 طلبية، فصار CVR = 80 ÷ 2000 × 100% = 4%",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "After fixing the website: 2000 visits and 80 orders, so CVR = 80 ÷ 2000 × 100% = 4%.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "توقّف وفكّر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "PAUSE & THINK",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "عدد الزيارات لم يتغير، فما الذي تحسّن؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The number of visits did not change, so what improved?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-051",
+      "htmlId": "page-51",
+      "role": "content",
+      "descriptionAr": "مقاييس وأدوات كمية أخرى",
+      "transcript": [
+        {
+          "text": "مقاييس وأدوات كمية أخرى",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Other Quantitative Metrics and Tools",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الوقت المستغرق",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Time Spent",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الوقت المستغرق Time Spent: متوسط المدة التي يقضيها الزائر في الصفحة أو الموقع.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Time spent: the average time a visitor spends on a page or on the site.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تحذير: الوقت الطويل ليس جيدًا دائمًا؛ قد يعني أن الزائر مستمتع، وقد يعني أنه تائه لا يجد الزر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Warning: a long time is not always good; it may mean the visitor is enjoying the site, or that they are lost and cannot find the button.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-052",
+      "htmlId": "page-52",
+      "role": "content",
+      "descriptionAr": "تابع: مقاييس وأدوات كمية أخرى",
+      "transcript": [
+        {
+          "text": "الرقم وحده لا يكفي لنعرف الفرق، وهنا نحتاج إلى كريم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The number alone is not enough to tell the difference; this is where we need Karim.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "عدد مرات الوصول",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Access Count",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "عدد مرات الوصول Access Count: عدد مرات دخول الموقع، وهو مقياس عام لحجم الحركة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Access count: the number of times the site is entered; a general measure of traffic size.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اختبار A/B",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A/B Testing",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اختبار A/B: نعرض نسختين من الصفحة لمجموعتين متشابهتين من الزوار في الوقت نفسه، ونقارن بالأرقام أي نسخة تحقق نتيجة أفضل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A/B testing: we show two versions of a page to two similar groups of visitors at the same time and compare with numbers which version gets better results.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-053",
+      "htmlId": "page-53",
+      "role": "content",
+      "descriptionAr": "تابع: مقاييس وأدوات كمية أخرى",
+      "transcript": [
+        {
+          "text": "تعريف الكتاب: مقارنة خيارين للتحقق من أيهما يؤدي إلى نتائج أفضل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Textbook definition: compare two options to verify which leads to better results.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثال: نصف الزوار يرون زرًا أخضر عليه «اطلب الآن»، والنصف الآخر يرون زرًا برتقاليًا عليه «جعان؟ اطلب!».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example: half the visitors see a green button saying “Order Now”, and the other half see an orange button saying “Hungry? Order!”.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "فخ امتحان: اختبار A/B تقييم كمي؛ فهو مسابقة بين توأمين، والحَكَم فيها هو الأرقام.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Exam trap: A/B testing is quantitative; it is a contest between twins, and the numbers are the judge.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-054",
+      "htmlId": "page-54",
+      "role": "content",
+      "descriptionAr": "اللغز الذهبي",
+      "transcript": [
+        {
+          "text": "اللغز الذهبي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Golden Puzzle",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اللغز الذهبي للدرس: موقع فيه مشاهدات PV كثيرة جدًا، لكن معدل التحويل CVR منخفض جدًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The golden puzzle of the lesson: a website has very many page views (PV), but a very low conversion rate (CVR).",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "توقّف وفكّر",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "PAUSE & THINK",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "ماذا يعني ذلك؟ وما الخطوة التالية؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "What does this mean? And what is the next step?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-055",
+      "htmlId": "page-55",
+      "role": "content",
+      "descriptionAr": "تابع: اللغز الذهبي",
+      "transcript": [
+        {
+          "text": "المعنى: الناس تأتي، لكنها لا تشتري.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Meaning: people come, but they don't buy.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الأرقام تقول لنا أين المشكلة، ولا تقول لماذا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Numbers tell us where the problem is, but not why.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الخطوة التالية: اختبار قابلية الاستخدام أو المقابلات لمعرفة السبب، ثم نُصلح ونعود إلى الأرقام لنتأكد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The next step: usability testing or interviews to find the cause; then we fix and return to the numbers to make sure.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-056",
+      "htmlId": "page-56",
+      "role": "content",
+      "descriptionAr": "تابع: اللغز الذهبي",
+      "transcript": [
+        {
+          "text": "حدود كل طريقة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Limits of Each Method",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "حدّ الكمي: الرقم وحده لا يفسّر السبب.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Limit of quantitative: a number alone does not explain the cause.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "حدّ النوعي: الملاحظة على خمسة أشخاص لا تمثّل كل المستخدمين بالضرورة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Limit of qualitative: observing five people does not necessarily represent all users.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لذلك نجمع بينهما: الكمي يغطي الكثيرين، والنوعي يتعمق في القليلين.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "So we combine them: quantitative covers many people, and qualitative goes deep with a few.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-057",
+      "htmlId": "page-57",
+      "role": "content",
+      "descriptionAr": "تابع: اللغز الذهبي",
+      "transcript": [
+        {
+          "text": "لعبة: كم ولا ليه؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Game: How Much or Why?",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اكتب أمام كل جملة: «كم» إذا كانت كمية، أو «ليه» إذا كانت نوعية.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Next to each sentence, write “how much” if it is quantitative, or “why” if it is qualitative.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "1 عدد مشاهدات الصفحة 3000.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 The page has 3000 views.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 زبونة قالت: «الألوان مزعجة».",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 A customer said: “The colors are annoying.”",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "3 مقارنة زرين وقياس أيهما يحقق مبيعات أكثر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 Comparing two buttons and measuring which one gets more sales.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-058",
+      "htmlId": "page-58",
+      "role": "content",
+      "descriptionAr": "تابع: اللغز الذهبي",
+      "transcript": [
+        {
+          "text": "4 خبير راجع الموقع بقائمة قواعد.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "4 An expert reviewed the site with a list of rules.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "5 مراقبة طالب وهو يحاول التسجيل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "5 Watching a student trying to register.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "6 %40 من الزيارات انتهت بعد أول صفحة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "6 40% of visits ended after the first page.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "سؤال واحد يحسم الإجابة: هل الدليل رقم، أم كلام وملاحظة؟",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "One question settles it: is the evidence a number, or words and observation?",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-059",
+      "htmlId": "page-59",
+      "role": "content",
+      "descriptionAr": "فخاخ الامتحان",
+      "transcript": [
+        {
+          "text": "فخاخ الامتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Exam Traps",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "هذه أشهر الفخاخ التي يقع فيها الطلاب؛ اقرأها جيدًا قبل الامتحان.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "These are the most common traps students fall into; read them carefully before the exam.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "1 اختبار قابلية الاستخدام نوعي رغم كلمة «اختبار»، واختبار A/B كمي.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "1 Usability testing is qualitative despite the word “testing”, and A/B testing is quantitative.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "2 التقييم الإرشادي يجريه خبراء لا مستخدمون، وهو نوعي.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "2 Heuristic evaluation is done by experts, not users, and it is qualitative.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏3 PV ليس عدد الأشخاص.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "3 PV is not the number of people.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-060",
+      "htmlId": "page-60",
+      "role": "content",
+      "descriptionAr": "تابع: فخاخ الامتحان",
+      "transcript": [
+        {
+          "text": "4 الارتداد = من خرج، والتحويل = من أنجز الإجراء؛ لا تخلط بينهما.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "4 Bounce = who left; conversion = who completed the action. Don't mix them up.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "5 معدل الارتداد المرتفع ليس دائمًا سيئًا، والوقت الطويل ليس دائمًا جيدًا.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "5 A high bounce rate is not always bad, and a long time is not always good.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "6 الرقم وحده لا يفسّر السبب، وخمسة أشخاص لا يمثّلون الجميع بالضرورة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "6 A number alone does not explain the cause, and five people do not necessarily represent everyone.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-061",
+      "htmlId": "page-61",
+      "role": "content",
+      "descriptionAr": "تابع: فخاخ الامتحان",
+      "transcript": [
+        {
+          "text": "اكتب التعريفات هكذا في الامتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Write the Definitions Like This in the Exam",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏PV: العدد الإجمالي لمرات مشاهدة الصفحة، وليس عدد الأشخاص.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "PV: the total number of times a page has been viewed, not the number of people.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "معدل الارتداد: نسبة الزيارات التي انتهت بعد مشاهدة الصفحة الأولى فقط، وقد تختلف طريقة حسابه حسب الأداة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Bounce rate: the proportion of visits that ended after viewing only the first page; its calculation may differ by tool.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "معدل التحويل: نسبة الزيارات التي حققت إجراءً مستهدفًا، مثل الشراء أو التسجيل.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Conversion rate: the proportion of visits that achieved a target action, such as a purchase or registration.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-062",
+      "htmlId": "page-62",
+      "role": "content",
+      "descriptionAr": "الإجابة النموذجية",
+      "transcript": [
+        {
+          "text": "الإجابة النموذجية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Model Answer",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "سؤال على نمط الامتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "EXAM-STYLE QUESTION",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اشرح لماذا ينبغي لفريق موقع إلكتروني استخدام التقييم النوعي والكمي معًا بدلًا من أحدهما فقط. [6 درجات]",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Explain why a website team should use both qualitative and quantitative evaluation rather than only one. [6 marks]",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "استخدم قالب الخطوات الثلاث، وكل خطوة تساوي درجتين.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Use the three-step template; each step is worth two marks.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "How much",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لماذا",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Why",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثال",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Example",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-063",
+      "htmlId": "page-63",
+      "role": "content",
+      "descriptionAr": "تابع: الإجابة النموذجية",
+      "transcript": [
+        {
+          "text": "الخطوة 1: الكمي وحدوده",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Step 1: Quantitative and Its Limit",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التقييم الكمي يستخدم بيانات عددية مثل PV ومعدل التحويل، ويغطي أعدادًا كبيرة من المستخدمين، ويبيّن ما يحدث ومقداره، لكنه لا يفسّر سبب سلوك المستخدمين.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Quantitative evaluation uses numerical data such as PV and the conversion rate; it covers large numbers of users and shows what is happening and how much, but it does not explain the reason for users' behavior.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الخطوة 2: النوعي وحدوده",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Step 2: Qualitative and Its Limit",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التقييم النوعي، مثل اختبار قابلية الاستخدام والمقابلات، يكشف الأسباب وتجربة المستخدم، لكنه يعتمد على عدد قليل من الأشخاص، فلا يمثّل الجميع بالضرورة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Qualitative evaluation, such as usability testing and interviews, reveals the reasons and the user experience, but it relies on a small number of people, so it does not necessarily represent everyone.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-064",
+      "htmlId": "page-64",
+      "role": "content",
+      "descriptionAr": "تابع: الإجابة النموذجية",
+      "transcript": [
+        {
+          "text": "الخطوة 3: الجمع بمثال",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Step 3: Combine with an Example",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "مثلًا: إذا كان PV مرتفعًا ومعدل التحويل منخفضًا، فالأرقام تحدد مكان المشكلة، واختبار قابلية الاستخدام يكشف سببها، كأن يكون زر الشراء غير واضح.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "For example: if PV is high and the conversion rate is low, the numbers locate the problem, and usability testing reveals its cause, such as an unclear buy button.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "بعد الإصلاح نقيس الأرقام مرة أخرى للتأكد من التحسن.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "After the fix, we measure the numbers again to confirm the improvement.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لذلك يعطي الجمع بينهما أدق صورة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Therefore, combining both gives the most accurate picture.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كم + حدوده، ليه + حدوده، مثال يجمعهم.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "How much + its limit, why + its limit, an example that joins them.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-065",
+      "htmlId": "page-65",
+      "role": "content",
+      "descriptionAr": "مراجعة ليلة الامتحان",
+      "transcript": [
+        {
+          "text": "مراجعة ليلة الامتحان",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Exam-Night Review",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "إذا نسيت كل شيء، فتذكّر هذه الجملة وحدها.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "If you forget everything, remember this sentence alone.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الأرقام تقول كم، والناس يقولون لماذا، والخبير بقواعده يقول أين الخطأ.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Numbers tell how much, people tell why, and the expert with rules tells where the mistake is.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كم",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "How much",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "لماذا",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Why",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "أين الخطأ",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Where the mistake is",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-066",
+      "htmlId": "page-66",
+      "role": "content",
+      "descriptionAr": "تابع: مراجعة ليلة الامتحان",
+      "transcript": [
+        {
+          "text": "القسمة الثنائية",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Two-Way Split",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نوعي (لماذا؟)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Qualitative (Why?)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كمي (كم؟)",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Quantitative (How much?)",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اختبار قابلية الاستخدام",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Usability testing",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تحليلات الويب",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Web analytics",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "المقابلات",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Interviews",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "اختبار A/B",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "A/B testing",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "التقييم الإرشادي",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Heuristic evaluation",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏PV ومعدل الارتداد و CVR",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "PV, bounce rate, and CVR",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-067",
+      "htmlId": "page-67",
+      "role": "content",
+      "descriptionAr": "تابع: مراجعة ليلة الامتحان",
+      "transcript": [
+        {
+          "text": "المؤشرات الثلاثة: باب، كرة، فراشة",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Three Indicators: Door, Ball, Butterfly",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏PV هو الباب الدوّار: يعدّ كل دخول.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "PV is the revolving door: it counts every entry.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "معدل الارتداد هو الكرة: تلمس الصفحة الأولى وترجع.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Bounce rate is the ball: it touches the first page and comes back.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "‏CVR هو الفراشة: زائر تحوّل إلى زبون.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "CVR is the butterfly: a visitor who turned into a customer.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "PV",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "معدل الارتداد",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Bounce rate",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "CVR",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-068",
+      "htmlId": "page-68",
+      "role": "content",
+      "descriptionAr": "تابع: مراجعة ليلة الامتحان",
+      "transcript": [
+        {
+          "text": "القواعد الإرشادية الثلاث: إشارة، فيشة، أسانسير",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "The Three Heuristics: Traffic Light, Plug, Elevator",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الاتساق هو إشارة المرور: ألوانها ثابتة في كل مكان.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Consistency is the traffic light: its colors are the same everywhere.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "منع الأخطاء هو الفيشة: لا تدخل إلا بطريقة واحدة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Error prevention is the plug: it fits only one way.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "وضوح حالة النظام هو الأسانسير: يعرض لك رقم الدور.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Visibility of system status is the elevator: it shows you the floor number.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "الاتساق",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Consistency",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "منع الأخطاء",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Error prevention",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "وضوح حالة النظام",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Visibility of system status",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    },
+    {
+      "id": "page-069",
+      "htmlId": "page-69",
+      "role": "content",
+      "descriptionAr": "تابع: مراجعة ليلة الامتحان",
+      "transcript": [
+        {
+          "text": "كارت الملخص",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Summary Card",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "تقييم المواقع = أدلة من أكثر من مصدر.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Website evaluation = evidence from more than one source.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "كمي = كم؟ تحليلات الويب واختبار A/B، وأهم مؤشراته PV ومعدل الارتداد وCVR.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Quantitative = how much? Web analytics and A/B testing; its key indicators are PV, bounce rate, and CVR.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "نوعي = لماذا؟ اختبار قابلية الاستخدام، والمقابلات، والتقييم الإرشادي.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Qualitative = why? Usability testing, interviews, and heuristic evaluation.",
+          "lang": "en",
+          "dir": "ltr"
+        },
+        {
+          "text": "القاعدة الذهبية: الأرقام تقول أين المشكلة، والناس يقولون لماذا، والجمع بينهما يعطي الصورة الكاملة.",
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        {
+          "text": "Golden rule: numbers tell where the problem is, people tell why, and combining both gives the full picture.",
+          "lang": "en",
+          "dir": "ltr"
+        }
+      ]
+    }
+  ]
+}

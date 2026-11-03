@@ -1,0 +1,263 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Main idea card: shadow, fill, accent -->
+<rect x="109" y="448" width="870" height="128" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="442" width="870" height="128" rx="16" fill="#fdf6d8" stroke="#e0c46a" stroke-width="2"/>
+<rect x="961" y="458" width="6" height="96" rx="3" fill="#e0a55e"/>
+
+<!-- Outlined box: shadow, fill, accent -->
+<rect x="109" y="888" width="870" height="288" rx="16" fill="#22303f" opacity=".12"/>
+<rect x="105" y="882" width="870" height="288" rx="16" fill="#fffdf7" stroke="#9db9d6" stroke-width="2"/>
+<rect x="961" y="898" width="6" height="256" rx="3" fill="#2f7fb5"/>
+
+<!-- Icon: two people (beside example) -->
+<g transform="translate(150 158)">
+  <circle cx="38" cy="16" r="8" fill="#b57e50" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M26 52 Q26 30 38 30 Q50 30 50 52 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="18" cy="20" r="8" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M4 54 Q4 34 18 34 Q32 34 32 54 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Icon: light bulb (main idea) -->
+<g transform="translate(866 504)">
+  <path d="M24 0 V4 M4 10 L8 13 M44 10 L40 13" fill="none" stroke="#e0a55e" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="24" cy="24" r="15" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M19 26 L24 31 L29 26" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="17" y="38" width="14" height="12" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Illustration: three students visit the school website -->
+<g>
+  <linearGradient id="ilSky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#8fc9f2"/>
+  </linearGradient>
+  <linearGradient id="ilOut" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dff1f7"/>
+    <stop offset="1" stop-color="#8fc9f2"/>
+  </linearGradient>
+
+  <!-- shadows -->
+  <rect x="296" y="604" width="640" height="236" rx="14" fill="#22303f" opacity=".18"/>
+  <rect x="122" y="682" width="108" height="170" rx="6" fill="#22303f" opacity=".18"/>
+
+  <!-- browser window -->
+  <rect x="292" y="598" width="640" height="236" rx="14" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="292" y="598" width="640" height="34" rx="14" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="293.5" y="614" width="637" height="18" fill="#17457f"/>
+  <path d="M292 632 H932" fill="none" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="314" cy="615" r="5" fill="#c0392b"/>
+  <circle cx="332" cy="615" r="5" fill="#ffd24a"/>
+  <circle cx="350" cy="615" r="5" fill="#a9dcbe"/>
+  <rect x="372" y="607" width="400" height="16" rx="8" fill="#dff1f7"/>
+  <rect x="304" y="642" width="616" height="186" rx="8" fill="url(#ilSky)"/>
+
+  <!-- page content: left card -->
+  <rect x="316" y="656" width="112" height="64" rx="6" fill="#f0c48c"/>
+  <path d="M322 712 L350 684 L370 702 L384 690 L420 712 Z" fill="#c96a1b"/>
+  <circle cx="404" cy="672" r="6" fill="#ffd24a"/>
+  <rect x="316" y="732" width="100" height="8" rx="4" fill="#ffffff"/>
+  <rect x="316" y="748" width="80" height="8" rx="4" fill="#ffffff"/>
+  <rect x="316" y="764" width="100" height="8" rx="4" fill="#ffffff"/>
+
+  <!-- page content: right blocks -->
+  <rect x="664" y="650" width="120" height="9" rx="4.5" fill="#ffffff"/>
+  <rect x="790" y="690" width="110" height="9" rx="4.5" fill="#ffffff"/>
+  <rect x="790" y="706" width="90" height="9" rx="4.5" fill="#ffffff"/>
+  <rect x="790" y="722" width="110" height="9" rx="4.5" fill="#ffffff"/>
+  <rect x="790" y="744" width="80" height="22" rx="11" fill="#2e7d32"/>
+  <rect x="790" y="778" width="110" height="34" rx="6" fill="#a9dcbe"/>
+
+  <!-- school building -->
+  <rect x="525" y="774" width="140" height="8" rx="4" fill="#a9dcbe"/>
+  <path d="M595 666 V642" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="595,642 617,648 595,654" fill="#2e7d32" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="545" y="704" width="100" height="70" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="533,706 595,666 657,706" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="595" cy="690" r="8" fill="#ffffff" stroke="#22303f" stroke-width="2"/>
+  <path d="M595 685 V690 H599" fill="none" stroke="#22303f" stroke-width="2" stroke-linecap="round"/>
+  <rect x="557" y="716" width="18" height="16" rx="2" fill="#dff1f7" stroke="#22303f" stroke-width="2"/>
+  <rect x="615" y="716" width="18" height="16" rx="2" fill="#dff1f7" stroke="#22303f" stroke-width="2"/>
+  <rect x="557" y="746" width="18" height="16" rx="2" fill="#dff1f7" stroke="#22303f" stroke-width="2"/>
+  <rect x="615" y="746" width="18" height="16" rx="2" fill="#dff1f7" stroke="#22303f" stroke-width="2"/>
+  <rect x="583" y="742" width="24" height="32" rx="3" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+
+  <!-- sparkles -->
+  <polygon points="268,608 271,617 280,620 271,623 268,632 265,623 256,620 265,617" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+  <polygon points="952,688 955,697 964,700 955,703 952,712 949,703 940,700 949,697" fill="#ffd24a" stroke="#22303f" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- small open door -->
+  <rect x="118" y="676" width="108" height="170" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="130" y="688" width="84" height="158" fill="url(#ilOut)"/>
+  <circle cx="152" cy="712" r="9" fill="#ffd24a"/>
+  <path d="M130 806 Q172 782 214 800 L214 846 L130 846 Z" fill="#a9dcbe"/>
+  <polygon points="214,688 252,698 252,840 214,846" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="244" cy="768" r="4" fill="#c96a1b" stroke="#22303f" stroke-width="2"/>
+
+  <!-- floor -->
+  <rect x="110" y="846" width="860" height="10" rx="5" fill="#e8dfd1"/>
+
+  <!-- left student: stepping out with one page -->
+  <g transform="translate(186 846)">
+    <path d="M14 -114 L28 -82 L21 -78 L6 -106 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="25" cy="-78" r="5" fill="#b57e50" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M10 -62 L-2 -62 L8 -4 L20 -4 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M22 -6 L6 -6 Q4 1 9 1 L22 1 Z" fill="#22303f"/>
+    <path d="M2 -62 L-10 -62 L-22 -4 L-10 -4 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M-8 -6 L-24 -6 Q-30 -2 -28 1 L-8 1 Z" fill="#22303f"/>
+    <rect x="-7" y="-132" width="10" height="14" fill="#b57e50" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M17 -120 Q0 -126 -17 -120 L-19 -58 L19 -58 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M-12 -114 L-28 -84 L-21 -79 L-5 -104 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="-42,-98 -22,-102 -18,-76 -38,-72" fill="#ffffff" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M-36 -92 L-26 -94 M-34 -84 L-24 -86" fill="none" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="-25" cy="-80" r="5" fill="#b57e50" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="-2" cy="-144" r="15" fill="#b57e50" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M13 -146 Q13 -161 -3 -161 Q-18 -160 -17 -147 Q-9 -153 0 -152 Q7 -152 13 -146 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="-10" cy="-145" r="2.5" fill="#22303f"/>
+    <path d="M-8 -136 Q-12 -134 -15 -137" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <path d="M224 770 H240 M228 786 H246 M224 802 H238" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- middle student: holds two pages -->
+  <g transform="translate(470 846)">
+    <path d="M-18 -5 L-4 -5 L-4 0 L-20 0 Z M4 -5 L18 -5 L20 0 L4 0 Z" fill="#22303f"/>
+    <path d="M-22 -120 Q0 -128 22 -120 L30 -4 L-30 -4 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M-24 -110 Q-28 -170 0 -170 Q28 -170 24 -110 Q12 -102 0 -102 Q-12 -102 -24 -110 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <ellipse cx="0" cy="-142" rx="12" ry="14" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="-5" cy="-144" r="2.5" fill="#22303f"/>
+    <circle cx="5" cy="-144" r="2.5" fill="#22303f"/>
+    <path d="M-5 -136 Q0 -132 5 -136" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M-20 -108 L-32 -88 L-22 -82 L-12 -100 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M20 -108 L32 -88 L22 -82 L12 -100 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="-25" y="-88" width="52" height="8" rx="2" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="-27" y="-96" width="52" height="8" rx="2" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="-28" cy="-86" r="5" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="28" cy="-86" r="5" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+
+  <!-- right student: holds five pages -->
+  <g transform="translate(728 846)">
+    <path d="M-20 -6 L-4 -6 L-4 0 L-22 0 Q-24 -3 -20 -6 Z M4 -6 L20 -6 Q24 -3 22 0 L4 0 Z" fill="#22303f"/>
+    <rect x="-17" y="-66" width="13" height="61" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="4" y="-66" width="13" height="61" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-22 -120 Q0 -128 22 -120 L24 -62 L-24 -62 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="-5" y="-132" width="10" height="14" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="0" cy="-146" r="17" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-17 -148 Q-17 -166 0 -166 Q17 -166 17 -148 Q10 -156 0 -155 Q-10 -156 -17 -148 Z" fill="#2b211c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="-6" cy="-146" r="2.5" fill="#22303f"/>
+    <circle cx="6" cy="-146" r="2.5" fill="#22303f"/>
+    <path d="M-6 -138 Q0 -133 6 -138" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M-22 -120 L-32 -84 L-22 -80 L-14 -110 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M22 -120 L32 -84 L22 -80 L14 -110 Z" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="-26" y="-80" width="52" height="8" rx="2" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="-24" y="-88" width="52" height="8" rx="2" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="-27" y="-96" width="52" height="8" rx="2" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="-25" y="-104" width="52" height="8" rx="2" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="-26" y="-112" width="52" height="8" rx="2" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+    <path d="M-16 -108 H16" fill="none" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="-28" cy="-80" r="5" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+    <circle cx="28" cy="-80" r="5" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+</g>
+
+<!-- Icon: pencil (pause and think) -->
+<g transform="translate(792 1088)">
+  <polygon points="10,40 38,12 46,20 18,48" fill="#f0c48c" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="38,12 44,6 52,14 46,20" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="10,40 18,48 4,54" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M14 44 L40 18" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Face: thinking -->
+<g transform="translate(892 1112)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Bottom icon row: monitor -->
+<g transform="translate(392 1194)">
+  <path d="M22 38 L20 48 H36 L34 38 Z" fill="#7f95ab" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="2" y="2" width="52" height="36" rx="5" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="8" y="8" width="40" height="24" rx="2" fill="#4fc3e8"/>
+  <rect x="12" y="13" width="18" height="5" rx="2" fill="#ffffff"/>
+  <rect x="12" y="22" width="28" height="5" rx="2" fill="#dff1f7"/>
+  <path d="M14 50 H42" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- Bottom icon row: document stack with eye -->
+<g transform="translate(512 1194)">
+  <rect x="14" y="2" width="34" height="42" rx="4" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="6" y="8" width="34" height="42" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M12 20 L32 20 M12 28 L26 28" fill="none" stroke="#8fc9f2" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="40" cy="40" r="13" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M31 40 Q40 32 49 40 Q40 48 31 40 Z" fill="#ffffff"/>
+  <circle cx="40" cy="40" r="3.5" fill="#22303f"/>
+</g>
+
+<!-- Bottom icon row: network -->
+<g transform="translate(632 1196)">
+  <path d="M28 10 L10 40 M28 10 L46 40 M10 40 L46 40" fill="none" stroke="#22303f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="28" cy="10" r="8" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="10" cy="40" r="8" fill="#4fc3e8" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="46" cy="40" r="8" fill="#f0c48c" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Example 1 -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0"><tspan font-weight="bold" fill="#17457f">مثال 1:</tspan> دخل <tspan fill="#c96a1b">3 طلاب</tspan> موقع المدرسة:</tspan>
+  <tspan x="950" dy="40">فتح الأول 5 صفحات، والثاني صفحتين،</tspan>
+  <tspan x="950" dy="40">والثالث صفحة واحدة ثم خرج.</tspan>
+</text>
+<text x="120" y="274" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0"><tspan font-weight="bold" fill="#17457f">Example 1:</tspan> <tspan fill="#c96a1b">3 students</tspan> visited the school</tspan>
+  <tspan x="120" dy="40">website: the first opened 5 pages,</tspan>
+  <tspan x="120" dy="40">the second 2 pages, and the third</tspan>
+  <tspan x="120" dy="40">one page and then left.</tspan>
+</text>
+
+<!-- Main idea box text -->
+<text x="935" y="474" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">&#x200F;<tspan font-weight="bold" fill="#17457f">PV = 5 + 2 + 1 = 8 ،</tspan> وعدد الأشخاص = 3</tspan>
+</text>
+<text x="140" y="514" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0"><tspan font-weight="bold" fill="#17457f">PV = 5 + 2 + 1 = 8,</tspan></tspan>
+  <tspan x="140" dy="40">and the number of people = 3</tspan>
+</text>
+
+<!-- Outlined box: pause and think -->
+<text x="935" y="914" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">توقّف وفكّر</text>
+<text x="140" y="954" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="31" font-weight="bold" fill="#c0392b">PAUSE &amp; THINK</text>
+<text x="935" y="994" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="935" dy="0">قال المدير: «عندنا 8 زوار».</tspan>
+  <tspan x="935" dy="40">هل كلامه صحيح؟ ولماذا؟</tspan>
+</text>
+<text x="140" y="1074" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="140" dy="0">The principal said:</tspan>
+  <tspan x="140" dy="40">“We have 8 visitors.”</tspan>
+  <tspan x="140" dy="40">Is he right? Why?</tspan>
+</text>
+</svg>

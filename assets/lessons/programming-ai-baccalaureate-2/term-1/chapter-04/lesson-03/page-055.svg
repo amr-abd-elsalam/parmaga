@@ -1,0 +1,252 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1080"
+     height="1350"
+     viewBox="0 0 1080 1350"
+     preserveAspectRatio="xMidYMid meet"
+     style="width:100%;height:auto;max-width:1080px;display:block;margin:0 auto;">
+<defs>
+  <linearGradient id="pmDesk" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b07a45"/>
+    <stop offset="1" stop-color="#7d4f28"/>
+  </linearGradient>
+  <pattern id="pmRules" x="0" y="120" width="1080" height="40" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="39.5" x2="1080" y2="39.5" stroke="#cfe0f0" stroke-width="1.4"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" fill="url(#pmDesk)"/>
+<path d="M0 420 C 300 380, 700 470, 1080 410" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<path d="M0 980 C 350 940, 720 1030, 1080 960" fill="none" stroke="#3a2411" stroke-width="3" opacity=".12"/>
+<rect x="40" y="38" width="1012" height="1290" fill="#3a2411" opacity=".18"/>
+<rect x="34" y="30" width="1012" height="1290" fill="#fffdf7"/>
+<rect x="67" y="120" width="946" height="1152" fill="url(#pmRules)"/>
+<rect x="67" y="64" width="946" height="1222" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+
+<!-- Key sentence strip: shadow, fill, accent -->
+<rect x="109" y="248" width="870" height="168" rx="10" fill="#22303f" opacity=".12"/>
+<rect x="105" y="242" width="870" height="168" rx="10" fill="#fdf6d8"/>
+<rect x="961" y="258" width="6" height="136" rx="3" fill="#e0a55e"/>
+
+<!-- Main illustration: website as a floor plan -->
+<g>
+  <defs>
+    <linearGradient id="ilScreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff1f7"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="ilLens" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#8fc9f2"/>
+    </linearGradient>
+    <linearGradient id="ilHandle" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f0c48c"/>
+      <stop offset="1" stop-color="#c96a1b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- board shadow -->
+  <rect x="129" y="454" width="830" height="404" rx="22" fill="#22303f" opacity=".18"/>
+
+  <!-- browser window board -->
+  <rect x="125" y="448" width="830" height="404" rx="22" fill="url(#ilScreen)" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M165 504 V848 M205 504 V848 M245 504 V848 M285 504 V848 M325 504 V848 M365 504 V848 M405 504 V848 M445 504 V848 M485 504 V848 M525 504 V848 M565 504 V848 M605 504 V848 M645 504 V848 M685 504 V848 M725 504 V848 M765 504 V848 M805 504 V848 M845 504 V848 M885 504 V848 M925 504 V848 M129 540 H951 M129 580 H951 M129 620 H951 M129 660 H951 M129 700 H951 M129 740 H951 M129 780 H951 M129 820 H951" fill="none" stroke="#8fc9f2" stroke-width="1.4" opacity=".35"/>
+  <path d="M125 500 V470 Q125 448 147 448 H933 Q955 448 955 470 V500 Z" fill="#17457f" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="162" cy="474" r="7" fill="#c0392b" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="186" cy="474" r="7" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="210" cy="474" r="7" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="250" y="463" width="560" height="22" rx="11" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M872 467 H902 M872 474 H902 M872 481 H902" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- rooms: walls and floors -->
+  <rect x="320" y="600" width="110" height="180" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="328" y="608" width="94" height="164" rx="3" fill="#f0c48c"/>
+  <rect x="480" y="590" width="110" height="200" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="488" y="598" width="94" height="184" rx="3" fill="#ffffff"/>
+  <rect x="640" y="560" width="130" height="240" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="648" y="568" width="114" height="224" rx="3" fill="#ffffff"/>
+  <rect x="815" y="580" width="100" height="210" rx="6" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="823" y="588" width="84" height="194" rx="3" fill="#dff1f7"/>
+
+  <!-- door openings -->
+  <rect x="421" y="668" width="11" height="44" fill="#f0c48c"/>
+  <rect x="478" y="668" width="11" height="44" fill="#ffffff"/>
+  <rect x="581" y="668" width="11" height="44" fill="#ffffff"/>
+  <rect x="638" y="668" width="11" height="44" fill="#ffffff"/>
+  <rect x="761" y="668" width="11" height="44" fill="#ffffff"/>
+  <rect x="813" y="668" width="11" height="44" fill="#dff1f7"/>
+  <rect x="906" y="668" width="11" height="44" fill="#dff1f7"/>
+
+  <!-- dotted footpaths between rooms -->
+  <path d="M436 690 h6 M450 690 h6 M464 690 h6 M596 690 h6 M610 690 h6 M624 690 h6 M777 690 h6 M791 690 h6 M805 690 h4" fill="none" stroke="#7f95ab" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- entrance arrow -->
+  <polygon points="950,683 934,683 934,674 920,690 934,706 934,697 950,697" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- entrance doormat -->
+  <rect x="884" y="666" width="20" height="48" rx="3" fill="#8fc9f2"/>
+
+  <!-- product shelves -->
+  <rect x="660" y="578" width="92" height="20" rx="3" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="666" y="581" width="14" height="14" fill="#c96a1b"/>
+  <rect x="688" y="581" width="14" height="14" fill="#f0c48c"/>
+  <rect x="710" y="581" width="14" height="14" fill="#2f7fb5"/>
+  <rect x="732" y="581" width="14" height="14" fill="#c96a1b"/>
+  <rect x="660" y="764" width="92" height="20" rx="3" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="666" y="767" width="14" height="14" fill="#2f7fb5"/>
+  <rect x="688" y="767" width="14" height="14" fill="#c96a1b"/>
+  <rect x="710" y="767" width="14" height="14" fill="#f0c48c"/>
+  <rect x="732" y="767" width="14" height="14" fill="#2f7fb5"/>
+
+  <!-- cart from above -->
+  <rect x="500" y="610" width="6" height="44" rx="3" fill="#17457f"/>
+  <rect x="506" y="614" width="52" height="36" rx="5" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="512" y="619" width="14" height="10" fill="#c96a1b"/>
+  <rect x="536" y="636" width="14" height="10" fill="#f0c48c"/>
+  <path d="M519 616 V648 M532 616 V648 M545 616 V648 M508 632 H556" fill="none" stroke="#7f95ab" stroke-width="1.4"/>
+  <circle cx="510" cy="654" r="4" fill="#22303f"/>
+  <circle cx="554" cy="654" r="4" fill="#22303f"/>
+
+  <!-- checkout counter -->
+  <rect x="336" y="740" width="78" height="22" rx="4" fill="#e8dfd1" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="392" y="726" width="16" height="20" rx="3" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="395" y="729" width="10" height="7" fill="#4fc3e8"/>
+
+  <!-- footprints: many in the first rooms -->
+  <g fill="#2f7fb5" opacity=".85">
+    <g transform="translate(892 612) rotate(-90)"><ellipse cx="0" cy="-5" rx="5" ry="8"/><ellipse cx="0" cy="9" rx="4" ry="4.5"/></g>
+    <g transform="translate(864 620) rotate(-80)"><ellipse cx="0" cy="-5" rx="5" ry="8"/><ellipse cx="0" cy="9" rx="4" ry="4.5"/></g>
+    <g transform="translate(838 608) rotate(-100)"><ellipse cx="0" cy="-5" rx="5" ry="8"/><ellipse cx="0" cy="9" rx="4" ry="4.5"/></g>
+    <g transform="translate(890 650) rotate(-100)"><ellipse cx="0" cy="-5" rx="5" ry="8"/><ellipse cx="0" cy="9" rx="4" ry="4.5"/></g>
+    <g transform="translate(862 660) rotate(-90)"><ellipse cx="0" cy="-5" rx="5" ry="8"/><ellipse cx="0" cy="9" rx="4" ry="4.5"/></g>
+    <g transform="translate(840 645) rotate(-80)"><ellipse cx="0" cy="-5" rx="5" ry="8"/><ellipse cx="0" cy="9" rx="4" ry="4.5"/></g>
+    <g transform="translate(888 690) rotate(-80)"><ellipse cx="0" cy="-5" rx="5" ry="8"/><ellipse cx="0" cy="9" rx="4" ry="4.5"/></g>
+    <g transform="translate(860 700) rotate(-100)"><ellipse cx="0" cy="-5" rx="5" ry="8"/><ellipse cx="0" cy="9" rx="4" ry="4.5"/></g>
+    <g transform="translate(838 685) rotate(-90)"><ellipse cx="0" cy="-5" rx="5" ry="8"/><ellipse cx="0" cy="9" rx="4" ry="4.5"/></g>
+    <g transform="translate(892 735) rotate(-90)"><ellipse cx="0" cy="-5" rx="5" ry="8"/><ellipse cx="0" cy="9" rx="4" ry="4.5"/></g>
+    <g transform="translate(866 745) rotate(-80)"><ellipse cx="0" cy="-5" rx="5" ry="8"/><ellipse cx="0" cy="9" rx="4" ry="4.5"/></g>
+    <g transform="translate(840 728) rotate(-100)"><ellipse cx="0" cy="-5" rx="5" ry="8"/><ellipse cx="0" cy="9" rx="4" ry="4.5"/></g>
+    <g transform="translate(870 770) rotate(-90)"><ellipse cx="0" cy="-5" rx="5" ry="8"/><ellipse cx="0" cy="9" rx="4" ry="4.5"/></g>
+    <g transform="translate(745 630) rotate(-90)"><ellipse cx="0" cy="-5" rx="5" ry="8"/><ellipse cx="0" cy="9" rx="4" ry="4.5"/></g>
+    <g transform="translate(718 640) rotate(-80)"><ellipse cx="0" cy="-5" rx="5" ry="8"/><ellipse cx="0" cy="9" rx="4" ry="4.5"/></g>
+    <g transform="translate(690 628) rotate(-100)"><ellipse cx="0" cy="-5" rx="5" ry="8"/><ellipse cx="0" cy="9" rx="4" ry="4.5"/></g>
+    <g transform="translate(664 640) rotate(-90)"><ellipse cx="0" cy="-5" rx="5" ry="8"/><ellipse cx="0" cy="9" rx="4" ry="4.5"/></g>
+    <g transform="translate(742 680) rotate(-100)"><ellipse cx="0" cy="-5" rx="5" ry="8"/><ellipse cx="0" cy="9" rx="4" ry="4.5"/></g>
+    <g transform="translate(712 692) rotate(-90)"><ellipse cx="0" cy="-5" rx="5" ry="8"/><ellipse cx="0" cy="9" rx="4" ry="4.5"/></g>
+    <g transform="translate(686 682) rotate(-80)"><ellipse cx="0" cy="-5" rx="5" ry="8"/><ellipse cx="0" cy="9" rx="4" ry="4.5"/></g>
+    <g transform="translate(664 694) rotate(-100)"><ellipse cx="0" cy="-5" rx="5" ry="8"/><ellipse cx="0" cy="9" rx="4" ry="4.5"/></g>
+    <g transform="translate(735 730) rotate(-80)"><ellipse cx="0" cy="-5" rx="5" ry="8"/><ellipse cx="0" cy="9" rx="4" ry="4.5"/></g>
+    <g transform="translate(700 740) rotate(-90)"><ellipse cx="0" cy="-5" rx="5" ry="8"/><ellipse cx="0" cy="9" rx="4" ry="4.5"/></g>
+  </g>
+  <!-- footprints fade out -->
+  <g fill="#2f7fb5" opacity=".6">
+    <g transform="translate(566 692) rotate(-90)"><ellipse cx="0" cy="-5" rx="5" ry="8"/><ellipse cx="0" cy="9" rx="4" ry="4.5"/></g>
+    <g transform="translate(530 684) rotate(-100)"><ellipse cx="0" cy="-5" rx="5" ry="8"/><ellipse cx="0" cy="9" rx="4" ry="4.5"/></g>
+  </g>
+  <g fill="#2f7fb5" opacity=".35">
+    <g transform="translate(456 672) rotate(-90)"><ellipse cx="0" cy="-5" rx="5" ry="8"/><ellipse cx="0" cy="9" rx="4" ry="4.5"/></g>
+  </g>
+
+  <!-- red map pin on checkout room -->
+  <ellipse cx="375" cy="705" rx="26" ry="9" fill="none" stroke="#c0392b" stroke-width="2.4" opacity=".6"/>
+  <path d="M379 711 C 364 686, 343 666, 343 631 A36 36 0 1 1 415 631 C 415 666, 394 686, 379 711 Z" fill="#22303f" opacity=".18"/>
+  <path d="M375 705 C 360 680, 339 660, 339 625 A36 36 0 1 1 411 625 C 411 660, 390 680, 375 705 Z" fill="#c0392b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="375" cy="625" r="14" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <ellipse cx="356" cy="606" rx="8" ry="5" fill="#ffffff" opacity=".35"/>
+
+  <!-- magnifying glass beside the pin -->
+  <g transform="translate(4 6)" fill="#22303f" opacity=".18">
+    <circle cx="228" cy="630" r="66"/>
+    <g transform="rotate(45 228 630)">
+      <rect x="216" y="690" width="24" height="84" rx="11"/>
+    </g>
+  </g>
+  <g transform="rotate(45 228 630)">
+    <rect x="218" y="692" width="20" height="18" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+    <rect x="216" y="708" width="24" height="66" rx="11" fill="url(#ilHandle)" stroke="#22303f" stroke-width="2.5"/>
+  </g>
+  <circle cx="228" cy="630" r="66" fill="#17457f" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="228" cy="630" r="54" fill="url(#ilLens)" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M190 612 A42 42 0 0 1 214 590" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+  <path d="M204 612 A24 24 0 1 1 245 629 L236 640 L236 654 L222 654 L222 636 L236.5 620.5 A12 12 0 1 0 216 612 Z" fill="#c96a1b" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="229" cy="670" r="8" fill="#c96a1b" stroke="#22303f" stroke-width="2.5"/>
+</g>
+
+<!-- Thinking face beside the first paragraph -->
+<g transform="translate(200 116)">
+  <circle cx="0" cy="0" r="26" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <circle cx="-9" cy="-6" r="3.5" fill="#22303f"/>
+  <circle cx="9" cy="-6" r="3.5" fill="#22303f"/>
+  <path d="M -8 11 L 8 9" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 4 -14 L 14 -17" fill="none" stroke="#22303f" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Light bulb icon inside the key strip -->
+<g transform="translate(150 252)">
+  <path d="M28 1 V4 M8 10 L11 12 M48 10 L45 12 M4 24 H7 M52 24 H49" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="20,30 36,30 33,38 23,38" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="28" cy="22" r="15" fill="#ffd24a" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="22" y="38" width="12" height="9" rx="2" fill="#7f95ab" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M21 18 Q23 12 28 11" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- People icon beside the last Arabic paragraph -->
+<g transform="translate(150 925)">
+  <path d="M26 50 Q26 28 38 28 Q50 28 50 50 Z" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="38" cy="15" r="8" fill="#d59f6f" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M30 13 Q38 3 46 13 Q38 9 30 13 Z" fill="#2b211c"/>
+  <path d="M6 52 Q6 30 20 30 Q34 30 34 52 Z" fill="#2f7fb5" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="20" cy="17" r="8" fill="#e8b98d" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M12 15 Q20 5 28 15 Q20 11 12 15 Z" fill="#2b211c"/>
+</g>
+
+<!-- Bottom icon row: documents, star, check badge -->
+<g transform="translate(412 1188)">
+  <rect x="16" y="4" width="32" height="40" rx="4" fill="#dff1f7" stroke="#22303f" stroke-width="2.5"/>
+  <rect x="8" y="12" width="32" height="40" rx="4" fill="#ffffff" stroke="#22303f" stroke-width="2.5"/>
+  <path d="M15 24 H33 M15 32 H33" fill="none" stroke="#2f7fb5" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M15 40 H27" fill="none" stroke="#c96a1b" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+<g transform="translate(512 1188)">
+  <polygon points="28,2 34.47,19.1 52.73,19.97 38.46,31.4 43.28,49.03 28,39 12.72,49.03 17.54,31.4 3.27,19.97 21.53,19.1" fill="#ffd24a" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+<g transform="translate(612 1188)">
+  <circle cx="28" cy="28" r="24" fill="#a9dcbe" stroke="#22303f" stroke-width="2.5"/>
+  <polygon points="14,29 19,24 25,31 37,17 42,22 25,41" fill="#2e7d32" stroke="#22303f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+
+<!-- Paragraph 1 (Arabic) -->
+<text x="950" y="154" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">المعنى: الناس تأتي، لكنها <tspan font-weight="bold" fill="#c0392b">لا تشتري</tspan>.</tspan>
+</text>
+
+<!-- Paragraph 1 (English) -->
+<text x="120" y="194" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">Meaning: people come, but they <tspan font-weight="bold" fill="#c0392b">don't buy</tspan>.</tspan>
+</text>
+
+<!-- Key sentence strip (Arabic) -->
+<text x="935" y="274" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" font-weight="bold" fill="#17457f">
+  <tspan x="935" dy="0">الأرقام تقول لنا <tspan font-weight="bold" fill="#c0392b">أين</tspan> المشكلة،</tspan>
+  <tspan x="935" dy="40">ولا تقول <tspan font-weight="bold" fill="#c0392b">لماذا</tspan>.</tspan>
+</text>
+
+<!-- Key sentence strip (English) -->
+<text x="140" y="354" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" font-weight="bold" fill="#17457f">
+  <tspan x="140" dy="0">Numbers tell us <tspan font-weight="bold" fill="#c0392b">where</tspan> the problem is,</tspan>
+  <tspan x="140" dy="40">but not <tspan font-weight="bold" fill="#c0392b">why</tspan>.</tspan>
+</text>
+
+<!-- Paragraph 2 (Arabic) -->
+<text x="950" y="914" direction="rtl" unicode-bidi="plaintext" text-anchor="start" font-family="Tahoma, Arial, Segoe UI, sans-serif" font-size="30" fill="#225f9c">
+  <tspan x="950" dy="0">الخطوة التالية: <tspan font-weight="bold" fill="#17457f">اختبار قابلية الاستخدام</tspan></tspan>
+  <tspan x="950" dy="40">أو <tspan font-weight="bold" fill="#17457f">المقابلات</tspan> لمعرفة السبب، ثم نُصلح</tspan>
+  <tspan x="950" dy="40">ونعود إلى الأرقام لنتأكد.</tspan>
+</text>
+
+<!-- Paragraph 2 (English) -->
+<text x="120" y="1034" direction="ltr" unicode-bidi="plaintext" text-anchor="start" font-family="Segoe Print, Comic Sans MS, Arial, sans-serif" font-size="29" fill="#152b42">
+  <tspan x="120" dy="0">The next step: <tspan font-weight="bold" fill="#17457f">usability testing</tspan> or</tspan>
+  <tspan x="120" dy="40"><tspan font-weight="bold" fill="#17457f">interviews</tspan> to find the cause;</tspan>
+  <tspan x="120" dy="40">then we fix and return to the numbers</tspan>
+  <tspan x="120" dy="40">to make sure.</tspan>
+</text>
+</svg>
