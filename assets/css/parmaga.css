@@ -371,6 +371,181 @@ summary:focus-visible {
   }
 }
 
+/* Home-only typography; match the Arabic font preference in lesson SVGs. */
+.page-home {
+  --pg-font-family-base: Tahoma, Arial, "Segoe UI", sans-serif;
+}
+
+.page-home main .home-unit-title {
+  margin: var(--pg-space-7) var(--pg-space-0) var(--pg-space-3);
+  color: var(--pg-navy-700);
+  font-size: var(--pg-font-size-heading-3);
+  font-weight: normal;
+  line-height: var(--pg-line-height-body);
+}
+
+.page-home .home-unit-label {
+  padding-inline: var(--pg-space-1);
+  background: var(--pg-callout-bg);
+  color: var(--pg-wood-700);
+  font-weight: var(--pg-font-weight-strong);
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.page-home .home-grade-label {
+  padding-inline: var(--pg-space-1);
+  background: var(--pg-callout-bg);
+  color: var(--pg-navy-900);
+  font-weight: var(--pg-font-weight-strong);
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.page-home .home-unpublished-note {
+  margin-bottom: var(--pg-space-7);
+  color: var(--pg-slate-600);
+}
+
+/* Home lesson cards — experimental layout.
+   Keep publisher-owned action-link opening tags unchanged.
+   One real link per card; its pseudo-element expands the pointer target. */
+
+.page-home .home-lesson-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--pg-space-4);
+  margin: var(--pg-space-0) var(--pg-space-0) var(--pg-space-9);
+  padding: var(--pg-space-0);
+  list-style: none;
+}
+
+.page-home .home-lesson-card {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  gap: var(--pg-space-3);
+  align-items: center;
+  min-width: 0;
+  padding: var(--pg-space-3);
+  border: var(--pg-border-width) solid var(--pg-navy-700);
+  border-radius: var(--pg-radius-panel);
+  background: var(--pg-paper-2);
+  box-shadow: var(--pg-shadow-panel);
+}
+
+.page-home .home-lesson-preview {
+  display: block;
+  width: var(--pg-size-full);
+  height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: contain;
+}
+
+.page-home .home-lesson-title {
+  min-width: 0;
+  margin: var(--pg-space-0);
+  color: var(--pg-navy-700);
+  font-size: var(--pg-font-size-value);
+  font-weight: normal;
+  line-height: var(--pg-line-height-body);
+  overflow-wrap: anywhere;
+}
+
+.page-home .home-lesson-title .action-link {
+  font-weight: inherit;
+}
+
+.page-home .home-lesson-question {
+  display: block;
+  width: var(--pg-size-full);
+  direction: rtl;
+  text-align: start;
+  line-height: max(var(--pg-rule-cycle), 1.7em);
+}
+
+.page-home .home-lesson-sr-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+.page-home .home-lesson-title .action-link {
+  display: flex;
+  width: var(--pg-size-full);
+  justify-content: flex-start;
+  padding: var(--pg-space-1) var(--pg-space-0);
+  border: 0;
+  border-radius: var(--pg-radius-panel);
+  background: transparent;
+  color: var(--pg-navy-700);
+  text-align: start;
+  text-decoration: none;
+}
+
+.page-home .home-lesson-title .action-link::after {
+  position: absolute;
+  inset: 0;
+  content: "";
+}
+
+.page-home .home-lesson-card:hover {
+  border-color: var(--pg-navy-900);
+  background: var(--pg-paper);
+}
+
+.page-home .home-lesson-card:hover .action-link,
+.page-home .home-lesson-title .action-link:active {
+  background: transparent;
+  color: var(--pg-navy-900);
+}
+
+.page-home .home-lesson-card:focus-within {
+  outline: var(--pg-focus-width) solid var(--pg-navy-700);
+  outline-offset: var(--pg-focus-offset);
+  box-shadow: 0 0 0 var(--pg-focus-offset) var(--pg-paper);
+}
+
+@media (min-width: 800px) {
+  .page-home .home-lesson-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .page-home .home-lesson-card {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto 1fr;
+    align-items: start;
+    gap: var(--pg-space-4);
+    padding: var(--pg-space-4);
+  }
+}
+
+@media (min-width: 1100px) {
+  .page-home .home-lesson-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* Home cards retain the existing frozen print contract. */
+
+/* Term dividers: stronger than unit headings, without ruled backgrounds. */
+.page-home #lessons > h3 {
+  margin-block: var(--pg-space-9) var(--pg-space-7);
+  padding: var(--pg-space-3) var(--pg-space-4);
+  border-inline-start: var(--pg-border-width-strong) solid var(--pg-gold-500);
+  background: var(--pg-navy-700);
+  color: var(--pg-paper);
+  line-height: var(--pg-line-height-body);
+}
+
+/* Keep the continuous notebook ruling on main.
+   Local measured ruling is intentionally disabled. */
+
 /* Error page — 404.html */
 
 .page-not-found {
