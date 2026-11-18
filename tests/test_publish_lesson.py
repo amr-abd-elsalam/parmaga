@@ -230,6 +230,125 @@ class ToolInventoryTests(unittest.TestCase):
         self.assertEqual(sorted(found), self.RECORDED)
 
 
+class PublishedFooterTests(unittest.TestCase):
+    """Gate A checks every published footer against the current home order."""
+
+    @staticmethod
+    def _page(root, href):
+        return os.path.join(root, href[1:], "index.html")
+
+    def _write_page(self, root, href, published):
+        page = self._page(root, href)
+        os.makedirs(os.path.dirname(page), exist_ok=True)
+        nav = publish_lesson.build_lesson_nav(href, published)
+        publish_lesson.write_with_ending(
+            page, '<footer class="lesson-foot">\n%s\n</footer>\n' % nav, "crlf")
+
+    def _stale(self, root):
+        published = publish_lesson.published_lesson_paths(root)
+        stale = []
+        for href in published:
+            html = publish_lesson.read_text(self._page(root, href))
+            nav = publish_lesson.build_lesson_nav(href, published).replace("\n", "\r\n")
+            expected = '<footer class="lesson-foot">\r\n%s\r\n</footer>' % nav
+            if html.count('<footer class="lesson-foot">') != 1 or html.count(expected) != 1:
+                stale.append(href)
+        return stale
+
+    def test_every_published_footer_matches_home_order(self):
+        published = publish_lesson.published_lesson_paths(REPO_ROOT)
+        self.assertTrue(published)
+        self.assertEqual(self._stale(REPO_ROOT), [])
+
+        class FooterLinks(html.parser.HTMLParser):
+            def __init__(self):
+                super().__init__()
+                self.in_nav = False
+                self.nav_count = 0
+                self.links = []
+
+            def handle_starttag(self, tag, attrs):
+                attrs = dict(attrs)
+                if tag == "nav" and attrs.get("class") == "lesson-nav":
+                    self.in_nav = True
+                    self.nav_count += 1
+                elif tag == "a" and self.in_nav:
+                    self.links.append((attrs.get("rel"), attrs.get("href")))
+
+            def handle_endtag(self, tag):
+                if tag == "nav":
+                    self.in_nav = False
+
+        for index, href in enumerate(published):
+            with self.subTest(href=href):
+                parser = FooterLinks()
+                parser.feed(publish_lesson.read_text(self._page(REPO_ROOT, href)))
+                parser.close()
+                expected = []
+                if index > 0:
+                    expected.append(("prev", published[index - 1]))
+                expected.append((None, "/"))
+                if index + 1 < len(published):
+                    expected.append(("next", published[index + 1]))
+                self.assertEqual(parser.nav_count, 1)
+                self.assertEqual(parser.links, expected)
+
+    def test_root_promotion_leaves_both_neighbors_and_new_lesson_stale(self):
+        config = publish_lesson.load_config(os.path.join(CONFIG_DIR, "lesson-02.json"))
+        base = "/courses/programming-ai-baccalaureate-2/term-1/chapter-01/"
+        first, new, third, fourth = (
+            base + "lesson-%02d/" % number for number in range(1, 5)
+        )
+        old = (first, third, fourth)
+        label = "%s — %s" % (config["displayNumber"], config["displayTitleAr"])
+        home = (
+            '<section id="lessons"><a href="%s">1</a><p>%s</p>'
+            '<a href="%s">3</a><a href="%s">4</a></section>'
+            % (first, label, third, fourth)
+        )
+        with tempfile.TemporaryDirectory() as root:
+            home_path = os.path.join(root, "index.html")
+            publish_lesson.write_with_ending(home_path, home, "crlf")
+            for href in old:
+                self._write_page(root, href, old)
+            self.assertEqual(self._stale(root), [])
+
+            # Same order as `all`: create the page, then promote its home link.
+            self._write_page(root, new, old)
+            self.assertEqual(self._stale(root), [])
+            patched, status = publish_lesson._patch_root_html(config, home)
+            self.assertEqual(status, "patched")
+            publish_lesson.write_with_ending(home_path, patched, "crlf")
+            self.assertEqual(self._stale(root), [first, new, third])
+
+            published = publish_lesson.published_lesson_paths(root)
+            for href in self._stale(root):
+                self._write_page(root, href, published)
+            self.assertEqual(self._stale(root), [])
+
+    def test_rejects_invalid_duplicate_missing_and_out_of_order_destinations(self):
+        base = "/courses/programming-ai-baccalaureate-2/term-1/chapter-01/"
+        first = base + "lesson-01/"
+        second = base + "lesson-02/"
+        with tempfile.TemporaryDirectory() as root:
+            for href in (first, second):
+                self._write_page(root, href, ())
+            cases = (
+                ((first, first), "duplicate"),
+                ((first, base + "lesson-03/"), "missing"),
+                ((first.replace("/term-1/", "/term-2/"),), "invalid"),
+                ((first.replace("/programming-ai-baccalaureate-2/", "/other/"),), "invalid"),
+                ((second, first), "order"),
+            )
+            for links, error in cases:
+                with self.subTest(links=links):
+                    html = '<section id="lessons">%s</section>' % "".join(
+                        '<a href="%s">lesson</a>' % href for href in links)
+                    publish_lesson.write_with_ending(os.path.join(root, "index.html"), html, "crlf")
+                    with self.assertRaisesRegex(ValueError, error):
+                        publish_lesson.published_lesson_paths(root)
+
+
 class AllNewLessonTests(unittest.TestCase):
     """ADR-0024 K1: `all` on a lesson with no canonical Manifest. With
     --in-place it creates the Manifest through `inventory` and continues; with
@@ -250,6 +369,11 @@ class AllNewLessonTests(unittest.TestCase):
         shutil.copytree(os.path.join(REPO_ROOT, assets), os.path.join(self.root, assets))
         for name in ("index.html", "sitemap.xml"):
             shutil.copy2(os.path.join(REPO_ROOT, name), os.path.join(self.root, name))
+        for href in publish_lesson.published_lesson_paths(REPO_ROOT):
+            rel = os.path.join(href[1:], "index.html")
+            target = os.path.join(self.root, rel)
+            os.makedirs(os.path.dirname(target), exist_ok=True)
+            shutil.copy2(os.path.join(REPO_ROOT, rel), target)
         patcher = mock.patch.multiple(
             publish_lesson, REPO_ROOT=self.root, cmd_verify=lambda _config_path: 0)
         patcher.start()
