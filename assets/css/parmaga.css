@@ -1002,6 +1002,45 @@ summary:focus-visible {
   border-top: var(--pg-border-width) solid var(--pg-rule);
 }
 
+@media screen {
+  .page-lesson .lesson-nav {
+    display: grid;
+    direction: rtl;
+    grid-template-columns: repeat(3, minmax(var(--pg-touch-target), 1fr));
+    gap: var(--pg-space-3);
+    padding-inline: var(--pg-space-1);
+  }
+
+  .page-lesson .lesson-nav > .action-link {
+    grid-row: 1;
+    display: grid;
+    place-items: center;
+    min-inline-size: var(--pg-touch-target);
+    padding-inline: var(--pg-space-1);
+    text-align: center;
+    overflow-wrap: anywhere;
+    scroll-margin-block-end: var(--pg-space-10);
+  }
+
+  .page-lesson .lesson-nav-prev {
+    grid-column: 1;
+  }
+
+  .page-lesson .lesson-nav-home {
+    grid-column: 2;
+  }
+
+  .page-lesson .lesson-nav-next {
+    grid-column: 3;
+  }
+
+  /* Extra scroll room while the existing fixed viewer panel is open. */
+  .page-lesson main:has(.lesson-viewer-controls[data-panel-open]:not([hidden])) .lesson-foot {
+    padding-block-end: 60vh;
+    padding-block-end: 60dvh;
+  }
+}
+
 /* Interactive Mode — يُفعَّل بعد أول تركيب تفاعلي ناجح وحده.
    تُطوى الصفحات غير النشطة بصريًا، وتُطوى صورة الصفحة النشطة لأن المسرح
    يعرضها، ويبقى نصها الكامل ظاهرًا لقارئ الشاشة وللقراءة. لا يُحذف شيء

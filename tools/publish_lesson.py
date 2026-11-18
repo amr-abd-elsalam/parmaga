@@ -23,11 +23,14 @@ import hashlib
 import io
 import json
 import os
+import re
 import shutil
 import sys
 import tempfile
 import xml.etree.ElementTree as ET
 from html import escape as html_escape
+from html.parser import HTMLParser
+from pathlib import Path
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TOOLS_DIR = os.path.join(REPO_ROOT, "tools")
@@ -249,9 +252,88 @@ def render_page_block(page, transcript, total, is_first, config):
     return "\n".join(lines)
 
 
+_PUBLISHED_LESSON_ROUTE = re.compile(
+    r"/courses/programming-ai-baccalaureate-2/term-1/"
+    r"chapter-(0[1-4])/lesson-(0[1-9]|[1-9][0-9])/"
+)
+
+
+class _PublishedLessonLinks(HTMLParser):
+    """Collect only the anchors inside the unique #lessons section."""
+
+    def __init__(self):
+        super().__init__()
+        self.sections = []
+        self.count = 0
+        self.hrefs = []
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if tag == "section":
+            selected = attrs.get("id") == "lessons"
+            self.sections.append(selected)
+            self.count += int(selected)
+        elif tag == "a" and any(self.sections):
+            self.hrefs.append(attrs.get("href"))
+
+    def handle_endtag(self, tag):
+        if tag == "section" and self.sections:
+            self.sections.pop()
+
+
+def published_lesson_paths(root):
+    root = Path(root).resolve()
+    parser = _PublishedLessonLinks()
+    parser.feed(read_text(root / "index.html"))
+    parser.close()
+    if parser.count != 1 or any(parser.sections):
+        raise ValueError("expected one closed #lessons section")
+
+    seen = set()
+    previous = None
+    for href in parser.hrefs:
+        match = _PUBLISHED_LESSON_ROUTE.fullmatch(href or "")
+        if match is None:
+            raise ValueError("invalid published lesson destination: %r" % href)
+        if href in seen:
+            raise ValueError("duplicate published lesson destination: %s" % href)
+        order = tuple(map(int, match.groups()))
+        if previous is not None and order <= previous:
+            raise ValueError("published lesson order conflicts with curriculum: %s" % href)
+        page = root / (href[1:] + "index.html")
+        if not page.is_file() or root not in page.resolve().parents:
+            raise ValueError("missing or out-of-repository published lesson: %s" % href)
+        seen.add(href)
+        previous = order
+    return tuple(parser.hrefs)
+
+
+def build_lesson_nav(path, published):
+    def neighbor(href, relation, label, arrow):
+        icon = '<span aria-hidden="true" dir="ltr">%s</span>' % arrow
+        content = (label + " " + icon) if relation == "next" else (icon + " " + label)
+        return (
+            '<a class="action-link lesson-nav-%s" rel="%s" href="%s">'
+            '<span>%s</span></a>'
+            % (relation, relation, html_escape(href, quote=True), content)
+        )
+
+    links = ['<nav class="lesson-nav" aria-label="التنقل بين الدروس">']
+    index = published.index(path) if path in published else None
+    if index is not None and index > 0:
+        links.append(neighbor(published[index - 1], "prev", "الدرس السابق", "&#8594;"))
+    links.append('<a class="action-link lesson-nav-home" href="/">الرئيسية</a>')
+    if index is not None and index + 1 < len(published):
+        links.append(neighbor(published[index + 1], "next", "الدرس التالي", "&#8592;"))
+    links.append("</nav>")
+    return "\n".join(links)
+
+
 def build_html(config, manifest):
     tmpl = read_text(os.path.join(TOOLS_DIR, "templates", "lesson-page.html.tmpl"))
     tmpl = tmpl.replace("\r\n", "\n")
+    path = "/" + lesson_html_relpath_for(config).replace(os.sep, "/").removesuffix("index.html")
+    tmpl = tmpl.replace("{{LESSON_NAV}}", build_lesson_nav(path, published_lesson_paths(REPO_ROOT)))
     meta_description = (
         "الدرس %s من مادة البرمجة والذكاء الاصطناعي للبكالوريا: %s، "
         "في %d صفحة مع النص الكامل بالعربية والإنجليزية."
