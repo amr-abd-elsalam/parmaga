@@ -328,8 +328,21 @@ class TestPenContract(SourceTestCase):
 
     def test_no_external_pen_asset(self):
         """§11: الهندسة محلية بالكامل، بلا dependency ولا CDN ولا خط أيقونات."""
+        css = self.css
+        for weight in (400, 700):
+            cairo_face = (
+                "\n@font-face {\n"
+                '  font-family: "Cairo";\n'
+                "  font-style: normal;\n"
+                f"  font-weight: {weight};\n"
+                "  font-display: swap;\n"
+                f'  src: url("../fonts/Cairo-{weight}.woff2") format("woff2");\n'
+                "}\n"
+            )
+            self.assertEqual(css.count(cairo_face), 1, f"Cairo {weight} @font-face")
+            css = css.replace(cairo_face, "\n", 1)
         self.assert_absent(
-            self.css,
+            css,
             ["cdn", "https://", "http://", "url(", "@import", "font-face"],
             "أصول القلم في CSS",
         )
